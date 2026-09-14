@@ -1,6 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import {
+  ArrowRight,
+  Leaf,
+  Sprout,
+  Flower2,
+  Carrot,
+  Cherry,
+  Salad,
+  type LucideIcon,
+} from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
@@ -8,6 +17,15 @@ import hero from "@/src/assets/hero-lifestyle.png";
 import towers from "@/src/assets/growing-towers.png";
 import salad from "@/src/assets/salad-bowl.png";
 import box from "@/src/assets/delivery-greens.png";
+
+const categoryIcons: Record<string, LucideIcon> = {
+  "leafy-greens": Salad,
+  herbs: Leaf,
+  microgreens: Sprout,
+  "fruiting-crops": Cherry,
+  "roots-and-stems": Carrot,
+  "edible-flowers": Flower2,
+};
 
 export default async function Home() {
   const { categories, products } = await getCatalogue();
@@ -63,12 +81,15 @@ export default async function Home() {
           ))}
         </div>
         <div className="home-category-links">
-          {categories.map((c) => (
-            <Link key={c.slug} href={`/categories/${c.slug}`}>
-              {c.name}
-              <ArrowRight size={14} />
-            </Link>
-          ))}
+          {categories.map((c) => {
+            const Icon = categoryIcons[c.slug] ?? Leaf;
+            return (
+              <Link key={c.slug} href={`/categories/${c.slug}`}>
+                <Icon size={19} aria-hidden="true" />
+                {c.name}
+              </Link>
+            );
+          })}
         </div>
         <p className="catalogue-note">
           Availability on request. Images are illustrative.
