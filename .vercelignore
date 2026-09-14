@@ -12,3 +12,4 @@ test-results/
 playwright-report/
 src/assets/products/gallery/*.png
 scripts/
+src/assets/boxes/*.png

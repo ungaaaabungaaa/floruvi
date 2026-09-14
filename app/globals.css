@@ -4237,3 +4237,4 @@ button:disabled {
 }
 .product-card { display: flex; flex-direction: column; }
 .product-card .add-crop.compact { margin-top: auto; }
+.boxes-page .box-photo { aspect-ratio: 1; min-height: 0; max-height: none; }

@@ -51,6 +51,8 @@ Use one application and one backend. Do not add WordPress, a custom chat inbox, 
 
 ## Read in this order
 
+Start with the [current page map](docs/14-page-map.md) for a folder view of every customer page.
+
 1. [Stack, alternatives, and cost](docs/01-stack.md)
 2. [Customer journeys and data rules](docs/02-product-and-checkout.md)
 3. [Accounts and setup checklist](docs/03-accounts.md)
@@ -62,7 +64,7 @@ Use one application and one backend. Do not add WordPress, a custom chat inbox, 
 ## Decisions still needed
 
 - Accept the proposed service costs, especially Crisp.
-- Confirm the launch delivery area, ability to supply the priced packs, stock, delivery cost, and minimum order.
+- Supply prices for the remaining 15 products. Delivery across India and the ₹99 flat fee are confirmed.
 - Confirm whether B2B starts with a quote request. This is the proposed first release.
 - Replace illustrative assets with actual harvest and facility photos when available.
 - Verify Arabic translation, original-message access, and channel connections during the Crisp trial.
