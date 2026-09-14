@@ -1,0 +1,6 @@
+node_modules/
+.next/
+skills/
+tools/
+convex/_generated/
+pnpm-lock.yaml

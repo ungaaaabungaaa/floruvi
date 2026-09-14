@@ -1,3 +1,7 @@
+# Current decision — 14 September 2026
+
+Chat is hidden from the website. Keep the existing guide code for now. The owner plans to use OpenRouter later. The provider, model, translation, and inbox proposal below is deferred and must be reviewed before implementation.
+
 # 4. Chat and translation
 
 ## Recommended inbox

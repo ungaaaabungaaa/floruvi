@@ -2,11 +2,19 @@
 
 A fast farm storefront for household buyers (B2C) and business buyers (B2B).
 
+[Open the website](https://floruvi.vercel.app)
+
 The first release must help people buy products or contact the farm. Development has a one-week target. After launch, the main work moves to sales, advertising, and farm growth.
 
 ## Current state
 
-Planning only. There is no application, database deployment, payment setup, or live website yet.
+The public application is built with Next.js and Convex. It includes the home page, a searchable 85-crop catalogue, six categories, crop details, business and personal enquiry forms, farm information, four recipes with detail pages, health and nutrition, growing methods, sustainability, and real talk.
+
+The design follows the owner’s photographic references: warm ivory, forest green, serif headings, large images, and simple product cards. Twelve generated image sources and their prompts are in `src/assets`. Shared styles in `app/globals.css` support later Figma refinements.
+
+All crops are enquiry-only. There are no invented prices, stock claims, or checkout buttons. Chat is hidden at the owner’s request. Its code is retained for later OpenRouter work. Live operators, translation, and LLM replies are not connected.
+
+See [build and verification notes](docs/07-public-build.md) and [running the application](docs/08-running-the-app.md).
 
 Confirmed on 14 September 2026:
 
@@ -20,7 +28,7 @@ Confirmed on 14 September 2026:
 
 The other service choices below are proposals for review. Provider accounts and approvals are not verified.
 
-## Proposed stack
+## Stack and later services
 
 | Need | Choice |
 | --- | --- |
@@ -33,7 +41,7 @@ The other service choices below are proposals for review. Provider accounts and 
 | Payments | Razorpay Standard Checkout |
 | Website hosting | Vercel Pro |
 | Website, WhatsApp, and Instagram inbox | Crisp Essentials, subject to the trial checks |
-| Small chatbot intent classifier | Gemini 3.1 Flash-Lite on a paid API project |
+| Future chat model access | OpenRouter; model and tool access to be decided later |
 | Analytics and errors | PostHog |
 | Optional customer browser notifications | OneSignal |
 
@@ -54,13 +62,15 @@ Use one application and one backend. Do not add WordPress, a custom chat inbox, 
 - Accept the proposed service costs, especially Crisp.
 - Confirm the launch delivery area, product pack sizes, stock, delivery fees, and minimum order.
 - Confirm whether B2B starts with a quote request. This is the proposed first release.
-- Supply the first product photos and direct the visual design.
+- Replace illustrative assets with actual harvest and facility photos when available.
 - Verify Arabic translation, original-message access, and channel connections during the Crisp trial.
 
 ## Repository and deployment
 
-The remote repository is the source backup. A GitHub push does not prove a deployment.
+The remote repository is the source backup. A GitHub push does not prove a deployment. Vercel project: `thehelds-projects/floruvi`.
 
-After the stack is accepted and the app is built, connect the repository to Vercel. Keep development, preview, and production data separate. Follow [the deployment steps](docs/05-delivery-plan.md#deployment-procedure).
+Convex development is `efficient-toad-585`; production is `polished-mosquito-828`. Both are in EU West. Vercel Preview uses development data, and Vercel Production uses production data. The two environments have separate enquiry keys.
+
+Automatic Git deployments need the owner's GitHub login connection in Vercel. The CLI could create the project but could not link the repository because that connection is missing. CLI deployments remain available. Follow [the application setup steps](docs/08-running-the-app.md) before connecting production builds.
 
 Prices and provider features were checked on 14 September 2026. Source links are next to the relevant claims in the documents. Recheck them before purchase.

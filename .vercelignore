@@ -1,0 +1,12 @@
+.env*
+.next/
+.git/
+node_modules/
+skills/
+tools/
+tests/
+docs/
+README.md
+AGENTS.md
+test-results/
+playwright-report/

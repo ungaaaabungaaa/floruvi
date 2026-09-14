@@ -1,0 +1,46 @@
+import type { Metadata } from "next";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { siteUrl } from "@/lib/site";
+import hero from "@/src/assets/hero-lifestyle.png";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Floruvi — Good food. Brighter days.",
+    template: "%s | Floruvi Farm",
+  },
+  description:
+    "Explore leafy greens, herbs, microgreens and more. Discover Floruvi’s growing list and ask about produce for your home or business.",
+  openGraph: {
+    type: "website",
+    siteName: "Floruvi Farm",
+    locale: "en_IN",
+    images: [
+      {
+        url: hero.src,
+        width: hero.width,
+        height: hero.height,
+        alt: "Floruvi — good food, brighter days",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image" },
+};
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en" data-scroll-behavior="smooth">
+      <body>
+        <a className="skip-link" href="#main">
+          Skip to content
+        </a>
+        <Header />
+        <main id="main">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
