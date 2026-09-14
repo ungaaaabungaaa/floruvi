@@ -13,6 +13,11 @@ import {
   LoaderCircle,
 } from "lucide-react";
 import { useCart } from "./cart-store";
+import { getCartBox } from "@/lib/boxes";
+import singleBox from "@/src/assets/boxes/single.webp";
+import dualBox from "@/src/assets/boxes/dual.webp";
+import familyBox from "@/src/assets/boxes/family.webp";
+const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
 import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import type { Product } from "@/lib/catalogue";
@@ -152,20 +157,22 @@ export function BasketPage({ products }: { products: Product[] }) {
             <span>PRICE</span>
           </div>
           {cart.items.map((line) => {
+            const box = getCartBox(line.slug);
             const product = products.find((p) => p.slug === line.slug);
+            const name = box?.name ?? product?.name ?? line.slug;
+            const href = box ? "/boxes" : `/products/${line.slug}`;
             const pricedLine = review?.items.find((i) => i.slug === line.slug);
-            const src = product?.imageUrl || productImages[line.slug];
+            const src = box
+              ? boxImages[box.id]
+              : product?.imageUrl || productImages[line.slug];
             return (
               <article className="basket-row" key={line.slug}>
                 <div className="basket-product">
-                  <Link
-                    href={`/products/${line.slug}`}
-                    className="basket-image"
-                  >
+                  <Link href={href} className="basket-image">
                     {src ? (
                       <Image
                         src={src}
-                        alt={product?.name ?? line.slug}
+                        alt={name}
                         fill
                         sizes="100px"
                         unoptimized={!!product?.imageUrl}
@@ -175,20 +182,22 @@ export function BasketPage({ products }: { products: Product[] }) {
                     )}
                   </Link>
                   <div>
-                    <Link href={`/products/${line.slug}`}>
-                      <h2>{product?.name ?? line.slug}</h2>
+                    <Link href={href}>
+                      <h2>{name}</h2>
                     </Link>
                     <p>
-                      {product
-                        ? (pricedLine?.packLabel ??
-                          product.price?.packLabel ??
-                          "Pack on request")
-                        : "This crop is no longer listed."}
+                      {box
+                        ? `${box.people} · ${box.schedule}`
+                        : product
+                          ? (pricedLine?.packLabel ??
+                            product.price?.packLabel ??
+                            "Pack on request")
+                          : "This crop is no longer listed."}
                     </p>
                     <button
                       className="remove-crop"
                       onClick={() => cart.remove(line.slug)}
-                      aria-label={`Remove ${product?.name ?? line.slug}`}
+                      aria-label={`Remove ${name}`}
                     >
                       <Trash2 size={12} />
                       Remove
@@ -198,7 +207,7 @@ export function BasketPage({ products }: { products: Product[] }) {
                 <div className="quantity-picker">
                   <button
                     type="button"
-                    aria-label={`Reduce ${product?.name ?? line.slug}`}
+                    aria-label={`Reduce ${name}`}
                     disabled={line.quantity === 1}
                     onClick={() =>
                       cart.setQuantity(line.slug, line.quantity - 1)
@@ -209,7 +218,7 @@ export function BasketPage({ products }: { products: Product[] }) {
                   <output>{line.quantity}</output>
                   <button
                     type="button"
-                    aria-label={`Increase ${product?.name ?? line.slug}`}
+                    aria-label={`Increase ${name}`}
                     disabled={line.quantity === 99}
                     onClick={() =>
                       cart.setQuantity(line.slug, line.quantity + 1)

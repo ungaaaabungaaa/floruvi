@@ -10,7 +10,11 @@ export const metadata: Metadata = {
 export default async function Contact({
   searchParams,
 }: {
-  searchParams: Promise<{ product?: string; box?: string; schedule?: string }>;
+  searchParams: Promise<{
+    product?: string;
+    box?: string;
+    schedule?: string;
+  }>;
 }) {
   const { product, box, schedule } = await searchParams;
   const request = getBoxRequest(box, schedule);

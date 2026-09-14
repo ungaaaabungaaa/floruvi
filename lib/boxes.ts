@@ -4,9 +4,9 @@ export const boxSizes = [
   { id: "family", name: "Family", people: "4 or more" },
 ] as const;
 export const boxSchedules = [
-  { id: "daily", name: "Daily", pricePeriod: "per day" },
-  { id: "weekly", name: "Weekly", pricePeriod: "per week" },
-  { id: "fortnightly", name: "Every 2 weeks", pricePeriod: "every 2 weeks" },
+  { id: "daily", name: "Once a day", pricePeriod: "per delivery" },
+  { id: "weekly", name: "Weekly", pricePeriod: "per delivery" },
+  { id: "fortnightly", name: "Every 2 weeks", pricePeriod: "per delivery" },
 ] as const;
 export function getBoxRequest(size: unknown, schedule: unknown) {
   const box = boxSizes.find((b) => b.id === size);
@@ -14,7 +14,7 @@ export function getBoxRequest(size: unknown, schedule: unknown) {
   if (!box || !delivery) return undefined;
   return {
     interest: `${box.name} box · ${box.people} · ${delivery.name}`,
-    message: `I would like a ${box.name.toLowerCase()} vegetable box for ${box.people}, delivered ${delivery.name.toLowerCase()}. Please arrange this subscription and confirm the first delivery date.`,
+    message: `I would like a ${box.name.toLowerCase()} vegetable box for ${box.people}, delivered ${delivery.name.toLowerCase()}. Please arrange the first delivery with me.`,
   };
 }
 
@@ -26,3 +26,19 @@ export const boxContents = [
   { slug: "carrot", quantity: 1 },
   { slug: "mint", quantity: 1 },
 ];
+
+export function getCartBox(slug: string) {
+  for (const [index, size] of boxSizes.entries()) {
+    for (const schedule of boxSchedules) {
+      if (slug === `box-${size.id}-${schedule.id}`) {
+        return {
+          ...size,
+          schedule: schedule.name,
+          multiplier: [1, 2, 4][index],
+          name: `${size.name} box · ${schedule.name}`,
+        };
+      }
+    }
+  }
+  return undefined;
+}

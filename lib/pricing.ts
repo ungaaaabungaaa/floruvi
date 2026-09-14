@@ -1,4 +1,5 @@
 import type { CartLine } from "./cart";
+import { boxContents, getCartBox } from "./boxes";
 
 export function formatMoney(minor: number | null | undefined) {
   return minor == null
@@ -26,7 +27,37 @@ export function reviewBasket(
   commerce?: { currency: string; deliveryFeeMinor: number } | null,
 ) {
   const items = lines.map((line) => {
-    const product = products.find((p) => p.slug === line.slug);
+    const box = getCartBox(line.slug);
+    const boxPrices = boxContents.map(
+      (item) => products.find((p) => p.slug === item.slug)?.price,
+    );
+    const completeBox =
+      box &&
+      boxPrices.every(
+        (price) =>
+          price?.currency === "INR" &&
+          validMoney(price.amountMinor) &&
+          price.amountMinor > 0 &&
+          price.packLabel.trim(),
+      );
+    const product = box
+      ? {
+          slug: line.slug,
+          name: box.name,
+          price: completeBox
+            ? {
+                amountMinor:
+                  boxPrices.reduce(
+                    (sum, price, index) =>
+                      sum + price!.amountMinor * boxContents[index].quantity,
+                    0,
+                  ) * box.multiplier,
+                currency: "INR",
+                packLabel: `${box.people} · ${box.schedule} · per delivery`,
+              }
+            : null,
+        }
+      : products.find((p) => p.slug === line.slug);
     const price = product?.price;
     const unitPrice =
       price?.currency === "INR" &&

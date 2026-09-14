@@ -27,3 +27,40 @@ test("all nine box choices preserve household and cadence in a valid enquiry", (
   assert.equal(getBoxRequest("unknown", "daily"), undefined);
   assert.equal(getBoxRequest("single", ["daily"]), undefined);
 });
+
+test("cart boxes use current produce prices and retain the delivery frequency", async () => {
+  const { reviewBasket } = await import("../lib/pricing");
+  const { boxContents } = await import("../lib/boxes");
+  const products = boxContents.map((item) => ({
+    slug: item.slug,
+    name: item.slug,
+    price: { amountMinor: 10000, currency: "INR", packLabel: "1 pack" },
+  }));
+  for (const [index, size] of boxSizes.entries()) {
+    for (const schedule of boxSchedules) {
+      const review = reviewBasket(
+        [{ slug: `box-${size.id}-${schedule.id}`, quantity: 2 }],
+        products,
+        { currency: "INR", deliveryFeeMinor: 9900 },
+      );
+      assert.equal(review.total, 60000 * [1, 2, 4][index] * 2 + 9900);
+      assert.ok(review.items[0].name.includes(schedule.name));
+      assert.equal(review.items[0].availableToEnquire, true);
+    }
+  }
+  assert.equal(
+    reviewBasket(
+      [{ slug: "box-dual-weekly", quantity: 1 }],
+      products.slice(1),
+      { currency: "INR", deliveryFeeMinor: 9900 },
+    ).total,
+    null,
+  );
+  assert.equal(
+    reviewBasket([{ slug: "box-dual-invalid", quantity: 1 }], products, {
+      currency: "INR",
+      deliveryFeeMinor: 9900,
+    }).total,
+    null,
+  );
+});

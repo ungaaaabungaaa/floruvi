@@ -1,3 +1,4 @@
+import { getRecipes } from "@/lib/recipes";
 import { getCatalogue } from "@/lib/catalogue";
 import { reviewBasket } from "@/lib/pricing";
 import { boxSizes, boxContents } from "@/lib/boxes";
@@ -10,7 +11,17 @@ export const metadata: Metadata = {
   alternates: { canonical: "/boxes" },
 };
 export default async function Boxes() {
-  const { products, commerce } = await getCatalogue();
+  const [{ products, commerce }, recipes] = await Promise.all([
+    getCatalogue(),
+    getRecipes(),
+  ]);
+  const meals = recipes
+    .filter((recipe) =>
+      recipe.crops.some((slug) =>
+        boxContents.some((item) => item.slug === slug),
+      ),
+    )
+    .slice(0, 5);
   const plans = boxSizes.map((box, index) => ({
     ...box,
     ...reviewBasket(
@@ -22,5 +33,5 @@ export default async function Boxes() {
       commerce,
     ),
   }));
-  return <BoxSelector plans={plans} />;
+  return <BoxSelector plans={plans} recipes={meals} />;
 }
