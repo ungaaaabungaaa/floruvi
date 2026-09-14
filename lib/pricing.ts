@@ -2,7 +2,7 @@ import type { CartLine } from "./cart";
 
 export function formatMoney(minor: number | null | undefined) {
   return minor == null
-    ? "Price on request"
+    ? "Unavailable"
     : new Intl.NumberFormat("en-IN", {
         style: "currency",
         currency: "INR",

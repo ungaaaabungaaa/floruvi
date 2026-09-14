@@ -171,3 +171,15 @@ export const productGalleryImages: Record<string, StaticImageData> = {
   wheatgrass: gallery83,
   zucchini: gallery84,
 };
+
+Object.assign(productGalleryImages, {
+  "radish-microgreens-live-tray": productGalleryImages["radish-microgreens"],
+  "pea-microgreens-live-tray": productGalleryImages["pea-shoots"],
+  "sunflower-microgreens-live-tray": productGalleryImages["sunflower-shoots"],
+  "broccoli-microgreens-live-tray":
+    productGalleryImages["broccoli-microgreens"],
+  "fenugreek-microgreens-live-tray":
+    productGalleryImages["fenugreek-microgreens"],
+  "red-amaranth-microgreens-live-tray":
+    productGalleryImages["amaranth-microgreens"],
+});

@@ -606,3 +606,42 @@ export const cropCatalogue = Object.entries(groups).flatMap(
       rank: index,
     })),
 );
+
+// Living trays are separate products from harvested microgreen packs.
+for (const [variety, description] of [
+  ["Radish", "Peppery young leaves."],
+  ["Pea", "Tender shoots with a sweet pea flavour."],
+  ["Sunflower", "Crunchy shoots with a mild, nutty flavour."],
+  ["Broccoli", "Small leaves with a mild brassica flavour."],
+  ["Fenugreek", "Aromatic shoots with a light bitterness."],
+  ["Red amaranth", "Fine red shoots with an earthy flavour."],
+]) {
+  cropCatalogue.push({
+    slug: variety.toLowerCase().replace(/ /g, "-") + "-microgreens-live-tray",
+    name: variety + " microgreens · Live tray",
+    category: "microgreens",
+    description:
+      description + " Delivered growing in one live tray. Cut what you need.",
+    uses: ["Salads", "Sandwiches", "Garnish", "Harvest at home"],
+    growingNote:
+      "Grown in trays at our farm. Cut above the growing surface and rinse before use. Keep the growing medium out of your food.",
+    suitability: "established",
+    methods: ["Soilless trays"],
+    sourceUrl: sources.microgreens,
+    sourceNote:
+      "General microgreen growing and harvesting reference. Tray dimensions and harvest weight are not specified.",
+    featured: false,
+    status: "enquiry",
+    published: true,
+    rank:
+      16 +
+      [
+        "Radish",
+        "Pea",
+        "Sunflower",
+        "Broccoli",
+        "Fenugreek",
+        "Red amaranth",
+      ].indexOf(variety),
+  });
+}

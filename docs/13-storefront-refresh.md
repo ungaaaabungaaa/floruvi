@@ -33,3 +33,5 @@ Exa page reads and direct retailer variant data supplied five additional benchma
 | kale-microgreens | 50 g | ₹179 | ₹250.6 | [Nutriofarms](https://nutriofarms.com/product/kale-microgreens/) |
 
 The other 15 products remain price-on-request because searches returned seeds, dried herbs, wholesale offers, or no reliable matching retail pack. No substitute benchmark was invented.
+
+Update: the remaining price gaps were filled and six live trays added. See [current launch pricing](15-live-trays-and-pricing.md).

@@ -5,11 +5,11 @@ Research date: 14 September 2026. Method: Exa search, page reads, and retailer p
 ## Decisions
 
 - Floruvi product price = comparable retail pack price × 1.40, rounded to the nearest paise. This is a 40% markup, not a 40% margin. No extra psychological rounding.
-- Prefer hydroponic retail for the main hydroponic crops. Use premium specialist or organic retail for other crops. Match the crop and stated pack; do not substitute seeds, dried herbs, wholesale crates, or mixed flowers for an individual fresh crop.
+- Prefer hydroponic retail for the main crops. Exact matches use the stated crop and pack. The owner subsequently requested a price for every product: unmatched varieties now use explicitly recorded category comparators. These are Floruvi launch prices, not claimed exact retail quotes. Never use seed kits, empty trays, dried herbs or wholesale crates as fresh retail matches.
 - Use the selected variant's listed selling price. Exclude crossed-out MRP, new-user codes, basket discounts, and wholesale offers. Retailer variant feeds take precedence over older search snippets.
 - Flat delivery: ₹99 for each delivery, with no free-delivery threshold. This is a Floruvi launch policy selected from local retail delivery references, not a courier quote. Owner confirmed delivery across India with no PIN-code restriction. Repeated box deliveries incur the fee each time; box billing is not active.
 - Each displayed price is for the pack shown. A weight range or bunch remains a range or bunch; do not imply a fixed weight. The reference cultivar/colour is recorded in the sheet for packing review.
-- Unmatched crops remain price-on-request. A partly priced basket has no complete total. Box contents are not yet defined, so box prices remain on request.
+- All 91 products and all box sizes now have prices. See [launch additions](15-live-trays-and-pricing.md). Invalid or missing prices still block a complete basket total.
 - Existing stock and availability stay unchanged. Listed prices do not activate payment or reserve produce. Some specialist benchmarks are currently sold out; these remain identified in the sheet and need a price recheck before sales open.
 
 ## Sources

@@ -90,3 +90,21 @@ test("reviewed seed prices have unique catalogue matches, pack evidence and a 40
   const kale = pricingBenchmarks.find((p) => p.slug === "curly-kale")!;
   assert.equal(Math.round((kale.retailMinor * 140) / 100), 13860);
 });
+
+test("every published catalogue product has a positive launch price and pack", () => {
+  for (const product of cropCatalogue.filter((p) => p.published)) {
+    const price = pricingBenchmarks.find((p) => p.slug === product.slug);
+    assert.ok(price, `Missing price: ${product.slug}`);
+    assert.ok(price.packLabel.trim());
+    assert.ok(Math.round(price.retailMinor * 1.4) > 0);
+  }
+  const trays = cropCatalogue.filter((p) => p.slug.endsWith("-live-tray"));
+  assert.equal(trays.length, 6);
+  for (const tray of trays) {
+    assert.equal(tray.category, "microgreens");
+    assert.equal(
+      pricingBenchmarks.find((p) => p.slug === tray.slug)?.packLabel,
+      "1 live tray",
+    );
+  }
+});

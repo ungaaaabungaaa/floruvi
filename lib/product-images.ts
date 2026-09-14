@@ -1,3 +1,9 @@
+import tray0 from "@/src/assets/products/trays/radish.webp";
+import tray1 from "@/src/assets/products/trays/pea.webp";
+import tray2 from "@/src/assets/products/trays/sunflower.webp";
+import tray3 from "@/src/assets/products/trays/broccoli.webp";
+import tray4 from "@/src/assets/products/trays/fenugreek.webp";
+import tray5 from "@/src/assets/products/trays/red-amaranth.webp";
 import crop0 from "@/src/assets/products/broccoli-microgreens.png";
 import crop1 from "@/src/assets/products/spring-onions.png";
 import crop2 from "@/src/assets/products/nasturtium-flowers.png";
@@ -172,4 +178,10 @@ export const productImages: Record<string, StaticImageData> = {
   "amaranth-greens": crop76,
   "fenugreek-greens": crop77,
   "napa-cabbage": crop78,
+  "radish-microgreens-live-tray": tray0,
+  "pea-microgreens-live-tray": tray1,
+  "sunflower-microgreens-live-tray": tray2,
+  "broccoli-microgreens-live-tray": tray3,
+  "fenugreek-microgreens-live-tray": tray4,
+  "red-amaranth-microgreens-live-tray": tray5,
 };

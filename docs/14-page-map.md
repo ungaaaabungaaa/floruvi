@@ -6,7 +6,7 @@ The site has 20 page templates. Dynamic routes create individual product, catego
 floruvi.vercel.app/
 ├── /                         Home
 ├── products/                 All products, search and filters
-│   └── [slug]/               Product details — 85 products
+│   └── [slug]/               Product details — 91 products
 ├── categories/               Category index
 │   └── [slug]/               Products in a category — 6 categories
 ├── boxes/                    Single, Dual and Family boxes
@@ -45,7 +45,7 @@ floruvi.vercel.app/
 - Browsing, basket and enquiry forms do not require an account.
 - Checkout currently sends an order request. Payment and OTP provider setup remains outstanding.
 - Box schedules are daily, weekly and every two weeks. The selected schedule is included in the request; automatic recurring billing is not active.
-- All 85 products are listed. 70 have prices; 15 remain price-on-request.
+- All 91 products have prices, including six live microgreen trays.
 - There are no account, login, order-tracking, admin or blog pages yet. Chat is hidden.
 
 ## Supporting routes
