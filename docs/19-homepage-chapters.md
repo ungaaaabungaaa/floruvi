@@ -4,15 +4,20 @@
 
 Replace the homepage below the hero, using the owner's nutrition and vegetable references. Keep the six-slide hero and footer. Use short copy, warm paper backgrounds, large serif headings, real product links, and image-led sections.
 
+Owner refinement: the homepage must behave like a store as soon as the hero ends. Numbered section labels and small explanatory notes were removed. The product-led layout follows current organic grocery patterns: early product discovery, category shortcuts, visible save and add controls, then image-led brand sections.
+
+Visual references reviewed: [Organic Food Website on Dribbble](https://dribbble.com/shots/26286483-Organic-Food-Website-Clean-Modern-Sustainable-UI) and [Veggie Organic Grocery on Behance](https://www.behance.net/gallery/229178981/Veggie-Organic-Grocery-e-commerce-Website-Design). Floruvi uses the useful product-discovery pattern without copying their layouts or visual identity.
+
 The page now contains:
 
-1. Nutrition introduction, botanical body artwork, adult fruit-and-vegetable guidance, and four nutrient benefit cards.
-2. Five fresh vegetables with the shared product cards and purchase controls.
+1. Five fresh vegetables directly below the hero, with category shortcuts, wishlist hearts, and purchase controls.
+2. A compact botanical health panel with four linked nutrient themes.
 3. Fitness editorial with an adult athlete, cropped without a face, and food, movement, and rest copy.
 4. Four nutrition-led links to carrots, spinach, bell peppers, and leafy greens.
 5. Meal editorial and three working recipe links.
 6. Single, Dual, and Family box links to the existing availability enquiry flow.
-7. Closing shop and business enquiry links.
+7. Eight more vegetables below the boxes, with wishlist and purchase controls.
+8. Closing shop and business enquiry links with the Floruvi carrot mark.
 
 Editorial banners contain images and text only. The copy does not promise a particular body shape, cure, or medical-cost saving. Nutrition benefits describe a varied diet over time. The botanical silhouette is conceptual artwork, not an anatomy chart. The fitness picture is illustrative, not a customer result.
 
@@ -20,7 +25,7 @@ Editorial banners contain images and text only. The copy does not promise a part
 
 Three new generated images and their exact prompts are in `src/assets/home-story/generation.json`. The approved hero asset set and footer were preserved. The rejected woman portrait is not used.
 
-The page reuses the catalogue, recipe data, product cards, box definitions, and existing routes. Catalogue and recipe reads run in parallel. No package or backend contract was added.
+The shared product card now includes the existing wishlist button. This adds the same save control to homepage, shop, recommendation, and wishlist product cards without a second wishlist implementation. The page reuses the catalogue, recipe data, box definitions, and existing routes. Catalogue and recipe reads run in parallel. No package or backend contract was added.
 
 The local image service stalled on browser-format requests for the three older recipe PNGs at desktop sizes. PNG responses succeeded while equivalent WebP-negotiated requests timed out. Converted these photos to WebP and updated the shared recipe-image mapping. Original PNG files remain available. The new recipe images load on desktop and mobile, including the recipe detail page.
 
@@ -34,7 +39,7 @@ The header now checks the scroll position after mount so that a refresh partway 
 - [NIH vitamin C](https://ods.od.nih.gov/factsheets/VitaminC-Consumer/): immune function and collagen formation.
 - [NIH folate](https://ods.od.nih.gov/factsheets/Folate-Consumer/): DNA and cell division.
 
-These sources are linked beside the page's nutrition copy. No product-specific laboratory nutrient values are claimed.
+Each nutrient tile links to its source. Long nutrition explanations and the 400 g callout were removed from the homepage. No product-specific laboratory nutrient values are claimed.
 
 ## Local verification
 
@@ -42,6 +47,7 @@ These sources are linked beside the page's nutrition copy. No product-specific l
 - All 26 existing tests passed.
 - Production compilation passed with `next build --webpack`.
 - Browser checks covered desktop, 390 px, and 320 px layouts, with no horizontal overflow.
+- Confirmed five products directly below the hero, eight products below the boxes, and wishlist controls on all 13 homepage products and all 91 shop cards.
 - Inspected each new section, image loading, and the unchanged footer. Confirmed all three recipe photos load on desktop and mobile after the format fix.
 - Opened the salad recipe with the keyboard. The other new product, recipe, box, and contact destinations returned HTTP 200 in local checks.
 - Reduced-motion rules disable the new hover transforms and transitions.
