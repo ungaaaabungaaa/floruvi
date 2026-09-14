@@ -38,11 +38,12 @@ Status checked 15 September 2026. ✅ = connected or implemented. ⬜ = not conn
 | --- | --- | --- |
 | ✅ | Next.js storefront | Shop, boxes, recipes, FAQ, privacy & one contact page are implemented. |
 | ✅ | Convex database & file storage | Development & production projects are connected. Enquiry submissions are saved privately. |
-| ✅ | Vercel hosting | Production runs at https://floruvi.vercel.app. Deploy manually until Git integration is connected. |
+| ✅ | Vercel hosting | Production runs at https://floruvi.vercel.app. GitHub is connected to the production branch `main`. |
 | ✅ | GitHub source backup | Repository: `ungaaaabungaaa/floruvi`; changes can be committed & pushed. |
 | ✅ | Local basket & wishlist | Saved in the visitor’s browser. No account sync yet. |
 | ⬜ | **Enquiry notification email — Resend** | Create/connect Resend, verify a sending domain, configure an API key & sender address, implement server-side notifications after a successful form save, then verify delivery to both owner inboxes. Deferred at the owner’s request; **forms save to Convex but do not send email yet**. |
-| ⬜ | Automatic Vercel Git deployments | Connect the GitHub repository in Vercel & verify a push deploys the intended commit. |
+| ✅ | GitHub ↔ Vercel connection | Repository `ungaaaabungaaa/floruvi` is linked to production branch `main`; verified through Vercel on 15 September 2026. |
+| ⬜ | Automatic Vercel Git deployments | Connection verified; confirm a new push reaches a ready production deployment. |
 | ⬜ | Customer accounts — Better Auth | Connect Convex authentication, verify login/session behaviour & add basket/wishlist sync when an account is created during checkout. Guest browsing stays available. |
 | ⬜ | Email verification codes — Resend | Configure sender/domain & server-side code delivery, expiry, request limits & verification. Separate from owner enquiry notifications. |
 | ⬜ | Phone verification codes — SMS provider | Select/configure a provider such as Twilio, complete local sender/template requirements & test delivery before enabling phone codes. |
@@ -94,6 +95,6 @@ The remote repository is the source backup. A GitHub push does not prove a deplo
 
 Convex development is `efficient-toad-585`; production is `polished-mosquito-828`. Both are in EU West. Vercel Preview uses development data, and Vercel Production uses production data. The two environments have separate enquiry keys.
 
-Automatic Git deployments need the owner's GitHub login connection in Vercel. The CLI could create the project but could not link the repository because that connection is missing. CLI deployments remain available. Follow [the application setup steps](docs/08-running-the-app.md) before connecting production builds.
+Vercel is connected to `ungaaaabungaaa/floruvi`, with `main` as the production branch (verified 15 September 2026). CLI deployments also remain available. Follow [the application setup steps](docs/08-running-the-app.md) before connecting production builds.
 
 Prices and provider features were checked on 14 September 2026. Source links are next to the relevant claims in the documents. Recheck them before purchase.

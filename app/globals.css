@@ -5002,3 +5002,10 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .tower-notes article > span { display: block; color: #c5dba9; font-size: 12px; font-style: italic; margin-bottom: 15px; }
 .tower-notes p { color: var(--tower-muted); font-size: 14px; line-height: 1.7; margin-top: 12px; }
 @media(max-width:600px) { .tower-notes { grid-template-columns: 1fr; gap: 26px; } }
+
+@media(min-width:801px) {
+ .site-header { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); }
+ .site-header > .brand { justify-self: start; }
+ .site-header .desktop-nav { margin-left: 0; justify-self: center; }
+ .site-header .header-actions { justify-self: end; }
+}
