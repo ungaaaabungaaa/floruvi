@@ -9,7 +9,7 @@ import {
   Trash2,
   ShoppingBag,
   ShieldCheck,
-  ArrowLeft,
+  Leaf,
   LoaderCircle,
 } from "lucide-react";
 import { useCart } from "./cart-store";
@@ -19,6 +19,8 @@ import dualBox from "@/src/assets/boxes/dual.webp";
 import familyBox from "@/src/assets/boxes/family.webp";
 const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
 import { productImages } from "@/lib/product-images";
+import cartBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
+import herbsBanner from "@/src/assets/products/banners/herbs.webp";
 import { Botanical } from "./botanical";
 import type { Product } from "@/lib/catalogue";
 import type { CartLine } from "@/lib/cart";
@@ -77,20 +79,18 @@ export function BasketSummary({
 }) {
   return (
     <aside className="basket-summary">
-      <span className="eyebrow">YOUR FRESH SELECTION</span>
-      <h2>Basket summary</h2>
+      <h2>Order summary</h2>
       <div className="summary-row">
-        <span>Selected units</span>
-        <strong>
-          {review?.items.reduce((n, i) => n + i.quantity, 0) ?? "—"}
-        </strong>
-      </div>
-      <div className="summary-row">
-        <span>Produce</span>
+        <span>
+          Subtotal{" "}
+          {review
+            ? `(${review.items.reduce((n, i) => n + i.quantity, 0)} items)`
+            : ""}
+        </span>
         <span>{review ? formatMoney(review.subtotal) : "—"}</span>
       </div>
       <div className="summary-row">
-        <span>Delivery</span>
+        <span>Delivery fee</span>
         <span>{review ? formatMoney(review.delivery) : "—"}</span>
       </div>
       <div className="summary-total">
@@ -103,12 +103,11 @@ export function BasketSummary({
             : "—"}
         </span>
       </div>
-      <p>Delivery fee applies once per delivery.</p>
       {children}
       <span className="summary-trust">
         <ShieldCheck size={17} /> No payment is taken at this stage.
       </span>
-      <Link className="text-link" href="/delivery">
+      <Link className="text-link" href="/faq#delivery">
         Delivery information <ArrowRight size={14} />
       </Link>
     </aside>
@@ -138,136 +137,172 @@ export function BasketPage({ products }: { products: Product[] }) {
     );
   const missing = review?.items.some((i) => !i.availableToEnquire);
   return (
-    <div className="page-width section">
-      <div className="basket-heading">
+    <div className="page-width cart-page">
+      <section className="cart-hero" aria-labelledby="cart-title">
+        <Image
+          src={cartBanner}
+          alt="A basket of fresh vegetables"
+          fill
+          sizes="100vw"
+          preload
+        />
         <div>
-          <span className="eyebrow">FRESHNESS WORTH GROWING</span>
-          <h1>Your basket.</h1>
+          <h1 id="cart-title">Your cart</h1>
+          <p>Fresh produce, ready for your table.</p>
+          <Leaf size={22} strokeWidth={1.3} aria-hidden="true" />
         </div>
-        <Link className="text-link" href="/products">
-          <ArrowLeft size={15} />
-          Keep exploring
-        </Link>
-      </div>
+      </section>
       <div className="basket-layout">
         <div>
           <div className="basket-table-head">
-            <span>YOUR PRODUCE</span>
+            <span>PRODUCT</span>
             <span>QUANTITY</span>
             <span>PRICE</span>
+            <span />
           </div>
-          {cart.items.map((line) => {
-            const box = getCartBox(line.slug);
-            const product = products.find((p) => p.slug === line.slug);
-            const name = box?.name ?? product?.name ?? line.slug;
-            const href = box ? "/boxes" : `/products/${line.slug}`;
-            const pricedLine = review?.items.find((i) => i.slug === line.slug);
-            const src = box
-              ? boxImages[box.id]
-              : product?.imageUrl || productImages[line.slug];
-            return (
-              <article className="basket-row" key={line.slug}>
-                <div className="basket-product">
-                  <Link href={href} className="basket-image">
-                    {src ? (
-                      <Image
-                        src={src}
-                        alt={name}
-                        fill
-                        sizes="100px"
-                        unoptimized={!!product?.imageUrl}
-                      />
-                    ) : (
-                      <Botanical category={product?.category} />
-                    )}
-                  </Link>
-                  <div>
-                    <Link href={href}>
-                      <h2>{name}</h2>
+          <div className="cart-items">
+            {cart.items.map((line) => {
+              const box = getCartBox(line.slug);
+              const product = products.find((p) => p.slug === line.slug);
+              const name = box?.name ?? product?.name ?? line.slug;
+              const href = box ? "/boxes" : `/products/${line.slug}`;
+              const pricedLine = review?.items.find(
+                (i) => i.slug === line.slug,
+              );
+              const src = box
+                ? boxImages[box.id]
+                : product?.imageUrl || productImages[line.slug];
+              return (
+                <article className="basket-row" key={line.slug}>
+                  <div className="basket-product">
+                    <Link href={href} className="basket-image">
+                      {src ? (
+                        <Image
+                          src={src}
+                          alt={name}
+                          fill
+                          sizes="100px"
+                          unoptimized={!!product?.imageUrl}
+                        />
+                      ) : (
+                        <Botanical category={product?.category} />
+                      )}
                     </Link>
-                    <p>
-                      {box
-                        ? `${box.people} · ${box.schedule}`
-                        : product
-                          ? (pricedLine?.packLabel ??
-                            product.price?.packLabel ??
-                            "Pack on request")
-                          : "This crop is no longer listed."}
-                    </p>
+                    <div>
+                      <Link href={href}>
+                        <h2>{name}</h2>
+                      </Link>
+                      <p>
+                        {box
+                          ? `${box.people} · ${box.schedule}`
+                          : product
+                            ? (pricedLine?.packLabel ??
+                              product.price?.packLabel ??
+                              "Pack on request")
+                            : "This crop is no longer listed."}
+                      </p>
+                      <span className="cart-product-note">
+                        <Leaf size={13} aria-hidden="true" />
+                        {box ? "Per delivery" : "Fresh produce"}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="quantity-picker">
                     <button
-                      className="remove-crop"
-                      onClick={() => cart.remove(line.slug)}
-                      aria-label={`Remove ${name}`}
+                      type="button"
+                      aria-label={`Reduce ${name}`}
+                      disabled={line.quantity === 1}
+                      onClick={() =>
+                        cart.setQuantity(line.slug, line.quantity - 1)
+                      }
                     >
-                      <Trash2 size={12} />
-                      Remove
+                      <Minus size={14} />
+                    </button>
+                    <output>{line.quantity}</output>
+                    <button
+                      type="button"
+                      aria-label={`Increase ${name}`}
+                      disabled={line.quantity === 99}
+                      onClick={() =>
+                        cart.setQuantity(line.slug, line.quantity + 1)
+                      }
+                    >
+                      <Plus size={14} />
                     </button>
                   </div>
-                </div>
-                <div className="quantity-picker">
+                  <span className="basket-price">
+                    {review ? formatMoney(pricedLine?.lineTotal) : "—"}
+                  </span>
                   <button
                     type="button"
-                    aria-label={`Reduce ${name}`}
-                    disabled={line.quantity === 1}
-                    onClick={() =>
-                      cart.setQuantity(line.slug, line.quantity - 1)
-                    }
+                    className="cart-remove"
+                    onClick={() => cart.remove(line.slug)}
+                    aria-label={`Remove ${name}`}
                   >
-                    <Minus size={14} />
+                    <Trash2 size={16} />
                   </button>
-                  <output>{line.quantity}</output>
-                  <button
-                    type="button"
-                    aria-label={`Increase ${name}`}
-                    disabled={line.quantity === 99}
-                    onClick={() =>
-                      cart.setQuantity(line.slug, line.quantity + 1)
-                    }
-                  >
-                    <Plus size={14} />
-                  </button>
-                </div>
-                <span className="basket-price">
-                  {review ? formatMoney(pricedLine?.lineTotal) : "—"}
-                </span>
-              </article>
-            );
-          })}
-          <div className="basket-caption">
-            <span>Delivery across India.</span>
-            <button type="button" className="text-link" onClick={cart.clear}>
-              Clear basket
-            </button>
+                </article>
+              );
+            })}
           </div>
-          <div className="basket-help">
-            <h2>Buying for a business?</h2>
-            <p>Tell us about your business & regular produce needs.</p>
-            <Link className="text-link" href="/wholesale">
-              Business enquiries <ArrowRight size={16} />
-            </Link>
-          </div>
-        </div>
-        <BasketSummary review={review}>
-          {loading ? (
-            <p role="status">
-              <LoaderCircle className="spinner" size={16} />
-              Checking the catalogue…
+          <div className="cart-delivery-note">
+            <Leaf size={22} aria-hidden="true" />
+            <p>
+              {cart.items.every((line) => !!getCartBox(line.slug))
+                ? "Delivery included with your box."
+                : "Fresh produce, delivered across India."}
             </p>
-          ) : error ? (
-            <div role="alert">
-              <p>{error}</p>
-              <button className="button button-outline" onClick={retry}>
-                Try again
-              </button>
+          </div>
+          <Link className="text-link cart-continue" href="/products">
+            Continue shopping <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="cart-summary-column">
+          <BasketSummary review={review}>
+            {loading ? (
+              <p role="status">
+                <LoaderCircle className="spinner" size={16} />
+                Checking the catalogue…
+              </p>
+            ) : error ? (
+              <div role="alert">
+                <p>{error}</p>
+                <button className="button button-outline" onClick={retry}>
+                  Try again
+                </button>
+              </div>
+            ) : missing ? (
+              <p role="alert">Remove unlisted crops before you continue.</p>
+            ) : (
+              <Link className="button button-primary" href="/checkout">
+                Proceed to checkout <ArrowRight size={17} />
+              </Link>
+            )}
+          </BasketSummary>
+          <aside
+            className="cart-editorial"
+            aria-label="Fresh food for everyday meals"
+          >
+            <Image
+              src={herbsBanner}
+              alt="Fresh green herbs"
+              fill
+              sizes="(max-width: 800px) 100vw, 400px"
+            />
+            <div>
+              <h2>
+                Fresh food.
+                <br />
+                Every day.
+              </h2>
+              <p>
+                Simple ingredients.
+                <br />
+                More ways to enjoy them.
+              </p>
             </div>
-          ) : missing ? (
-            <p role="alert">Remove unlisted crops before you continue.</p>
-          ) : (
-            <Link className="button button-primary" href="/checkout">
-              Continue to Checkout <ArrowRight size={17} />
-            </Link>
-          )}
-        </BasketSummary>
+          </aside>
+        </div>
       </div>
     </div>
   );

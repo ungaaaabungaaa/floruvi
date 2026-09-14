@@ -1,44 +1,25 @@
 import { EnquiryForm } from "./enquiry-form";
 import Image from "next/image";
-import kitchen from "@/src/assets/business-kitchen.png";
-import delivery from "@/src/assets/delivery-greens.png";
+import portrait from "@/src/assets/contact-portrait.webp";
 export function EnquiryPage({
-  business,
   product,
   message,
 }: {
-  business: boolean;
   product?: string;
   message?: string;
 }) {
   return (
-    <div className="page-width section enquiry-layout">
-      <div className="enquiry-intro">
-        <h1>
-          {business
-            ? "Business enquiries."
-            : message
-              ? "Request your box."
-              : "Contact us."}
-        </h1>
-        <div className="enquiry-photo">
-          <Image
-            src={business ? kitchen : delivery}
-            alt={
-              business
-                ? "fresh produce arriving in a professional kitchen"
-                : "box of fresh greens"
-            }
-            fill
-            sizes="(max-width: 800px) 100vw, 45vw"
-          />
-        </div>
+    <div className="page-width section contact-page">
+      <div className="contact-portrait">
+        <Image
+          src={portrait}
+          alt="Fresh vegetables gathered in a wooden crate"
+          fill
+          sizes="(max-width: 800px) 100vw, 45vw"
+          preload
+        />
       </div>
-      <EnquiryForm
-        kind={business ? "business" : "personal"}
-        product={product}
-        message={message}
-      />
+      <EnquiryForm product={product} message={message} />
     </div>
   );
 }

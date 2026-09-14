@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { getCatalogue } from "@/lib/catalogue";
-import { BasketPage } from "@/components/basket";
+import { WishlistPage } from "@/components/wishlist-page";
 export const metadata: Metadata = {
-  title: "Your cart",
+  title: "Your wishlist",
   robots: { index: false, follow: true },
-  alternates: { canonical: "/cart" },
 };
-export default async function Cart() {
+export default async function Wishlist() {
   const { products } = await getCatalogue();
-  return <BasketPage products={products} />;
+  return <WishlistPage products={products} />;
 }

@@ -1,5 +1,6 @@
 "use client";
 import { storefrontCopy } from "@/lib/storefront-copy";
+import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
 import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
 import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
@@ -15,18 +16,35 @@ import { findProducts, sortProducts } from "@/lib/search";
 import { ProductCard } from "@/components/product-card";
 
 const shopInterludes = [
-  { image: colourfulTable, title: "Bring colour to the table.", alt: "Roasted carrots, beetroot & chickpeas on a platter", style: "warm left" },
-  { image: slowMornings, title: "Fresh starts. Slow mornings.", alt: "Avocado toast & a green smoothie in morning light", style: "right" },
-  { image: pastaNight, title: "Good ingredients. Great evenings.", alt: "Basil pasta & cherry tomatoes on a green table", style: "dark left" },
+  {
+    image: colourfulTable,
+    title: "Bring colour to the table.",
+    alt: "Roasted carrots, beetroot & chickpeas on a platter",
+    style: "warm left",
+  },
+  {
+    image: slowMornings,
+    title: "Fresh starts. Slow mornings.",
+    alt: "Avocado toast & a green smoothie in morning light",
+    style: "right",
+  },
+  {
+    image: pastaNight,
+    title: "Good ingredients. Great evenings.",
+    alt: "Basil pasta & cherry tomatoes on a green table",
+    style: "dark left",
+  },
 ];
 
 function ShopInterlude({ columns, index }: { columns: number; index: number }) {
   const banner = shopInterludes[index % shopInterludes.length];
   return (
-    <aside className={`recipe-banner recipe-interlude shop-interlude shop-interlude-${columns} ${banner.style}`} aria-label={banner.title}>
-      <Image src={banner.image} alt={banner.alt} fill sizes="100vw" className="recipe-banner-photo" />
-      <div className="recipe-banner-copy"><h2>{banner.title}</h2></div>
-    </aside>
+    <EditorialBanner
+      image={banner.image}
+      alt={banner.alt}
+      title={banner.title}
+      className={`shop-interlude shop-interlude-${columns} ${banner.style}`}
+    />
   );
 }
 
@@ -42,10 +60,9 @@ function Results({
   const params = useSearchParams();
   const search = (params.get("q") ?? "").slice(0, 100);
   const selectedCategory = params.get("category") ?? initialCategory;
-  const category =
-    categories.some((c) => c.slug === selectedCategory)
-      ? selectedCategory
-      : "all";
+  const category = categories.some((c) => c.slug === selectedCategory)
+    ? selectedCategory
+    : "all";
   const sort =
     !isShop &&
     ["az", "price-asc", "price-desc"].includes(params.get("sort") ?? "")
@@ -106,27 +123,28 @@ function Results({
     </div>
   );
   const categoryChips = (
-
-        <div
-          className={isShop ? "recipe-filters" : "filter-chips"}
-          role="group"
-          aria-label="Filter by category"
+    <div
+      className={isShop ? "recipe-filters" : "filter-chips"}
+      role="group"
+      aria-label="Filter by category"
+    >
+      {[{ slug: "all", name: "All produce" }, ...categories].map((c) => (
+        <button
+          key={c.slug}
+          aria-pressed={category === c.slug}
+          onClick={() => update({ category: c.slug })}
         >
-          {[{ slug: "all", name: "All produce" }, ...categories].map((c) => (
-            <button
-              key={c.slug}
-              aria-pressed={category === c.slug}
-              onClick={() => update({ category: c.slug })}
-            >
-              {c.name}
-              {!isShop && <span>
-                {c.slug === "all"
-                  ? matches.length
-                  : matches.filter((p) => p.category === c.slug).length}
-              </span>}
-            </button>
-          ))}
-        </div>
+          {c.name}
+          {!isShop && (
+            <span>
+              {c.slug === "all"
+                ? matches.length
+                : matches.filter((p) => p.category === c.slug).length}
+            </span>
+          )}
+        </button>
+      ))}
+    </div>
   );
   return (
     <div className="catalogue-browser">
@@ -176,24 +194,33 @@ function Results({
         </div>
       )}
       {!isShop && categoryChips}
-      {!isShop && filtered && <div className="results-heading">
-        {sort.startsWith("price-") && <span>Per pack. Sizes vary.</span>}
-        {filtered && (
-          <button className="text-link" onClick={reset}>
-            Clear filters <X size={14} />
-          </button>
-        )}
-      </div>}
+      {!isShop && filtered && (
+        <div className="results-heading">
+          {sort.startsWith("price-") && <span>Per pack. Sizes vary.</span>}
+          {filtered && (
+            <button className="text-link" onClick={reset}>
+              Clear filters <X size={14} />
+            </button>
+          )}
+        </div>
+      )}
       {results.length ? (
         <div className="product-grid">
           {results.map((product, index) => (
             <Fragment key={product.slug}>
               <ProductCard product={product} />
-              {isShop && index + 1 < results.length && [2, 3, 4].map((columns) => (
-                (index + 1) % (columns * 3) === 0 && (
-                  <ShopInterlude key={columns} columns={columns} index={(index + 1) / (columns * 3) - 1} />
-                )
-              ))}
+              {isShop &&
+                index + 1 < results.length &&
+                [2, 3, 4].map(
+                  (columns) =>
+                    (index + 1) % (columns * 3) === 0 && (
+                      <ShopInterlude
+                        key={columns}
+                        columns={columns}
+                        index={(index + 1) / (columns * 3) - 1}
+                      />
+                    ),
+                )}
             </Fragment>
           ))}
         </div>
@@ -214,9 +241,11 @@ function Results({
               Search all categories
             </button>
           )}
-          {!isShop && <button className="text-link" onClick={reset}>
-            Clear filters
-          </button>}
+          {!isShop && (
+            <button className="text-link" onClick={reset}>
+              Clear filters
+            </button>
+          )}
         </div>
       )}
     </div>

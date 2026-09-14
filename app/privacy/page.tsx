@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { EditorialBanner } from "@/components/editorial-banner";
 import Link from "next/link";
 import { Fragment } from "react";
 import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
@@ -18,7 +18,7 @@ const sections = [
     id: "about",
     title: "About this notice",
     paragraphs: [
-      "This notice explains how information is used when you browse Floruvi, save products, build a basket, or send an enquiry. It covers the current website, including the shop, boxes, recipes, contact form & business enquiry form. It describes the features available today.",
+      "This notice explains how information is used when you browse Floruvi, save products, build a basket, or send an enquiry. It covers the current website, including the shop, boxes, recipes, contact form. It describes the features available today.",
       "Browsing does not require a customer account. Sending an availability request gives the farm information to review your needs & respond. It does not create an account, collect a payment, reserve produce, or activate recurring billing. References to checkout in this notice describe that request process.",
     ],
   },
@@ -26,7 +26,7 @@ const sections = [
     id: "information",
     title: "Information you share with us",
     paragraphs: [
-      "The enquiry forms ask for your name, email address, city, message & consent to use those details to respond. Depending on the form, you can also share a phone number, produce interests, quantities & other information about your request. Business enquiries include your business name.",
+      "The contact form asks for your name, email address, city, message & consent to use those details to respond. Depending on the form, you can also share a phone number, produce interests, quantities & other information about your request. You can include your business name if the enquiry is for a business.",
       "Please share only information needed for the enquiry. For example, a crop list, delivery area & expected quantity help the farm understand a business request. Do not include passwords, payment card numbers, identity documents, medical records, or private information about another person in a message.",
     ],
   },
@@ -189,21 +189,12 @@ export default function Privacy() {
               </div>
             </section>
             {banner && (
-              <aside
-                className={`recipe-banner recipe-interlude privacy-banner ${banner.style}`}
-                aria-label={banner.title}
-              >
-                <Image
-                  src={banner.image}
-                  alt={banner.alt}
-                  fill
-                  sizes="(max-width: 800px) 100vw, 1200px"
-                  className="recipe-banner-photo"
-                />
-                <div className="recipe-banner-copy">
-                  <h2>{banner.title}</h2>
-                </div>
-              </aside>
+              <EditorialBanner
+                image={banner.image}
+                alt={banner.alt}
+                title={banner.title}
+                className={`privacy-banner ${banner.style}`}
+              />
             )}
           </Fragment>
         );

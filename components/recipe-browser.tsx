@@ -1,7 +1,8 @@
 "use client";
 import { Fragment, useState } from "react";
+import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
-import { Search, ArrowRight, X } from "lucide-react";
+import { Search, X } from "lucide-react";
 import type { Recipe } from "@/lib/recipes";
 import hero from "@/src/assets/recipes/banners/hero.webp";
 import kitchen from "@/src/assets/recipes/banners/kitchen.webp";
@@ -59,21 +60,12 @@ function RecipeInterlude({
 }) {
   const banner = interludes[index % interludes.length];
   return (
-    <aside
-      className={`recipe-banner recipe-interlude interlude-${screen} ${banner.style}`}
-      aria-label={banner.title}
-    >
-      <Image
-        src={banner.image}
-        alt={banner.alt}
-        fill
-        sizes="100vw"
-        className="recipe-banner-photo"
-      />
-      <div className="recipe-banner-copy">
-        <h2>{banner.title}</h2>
-      </div>
-    </aside>
+    <EditorialBanner
+      image={banner.image}
+      alt={banner.alt}
+      title={banner.title}
+      className={`interlude-${screen} ${banner.style}`}
+    />
   );
 }
 
@@ -205,11 +197,7 @@ export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
             Happier Days
           </h2>
           <p>Real food. Real simple.</p>
-          {filtered.length > 4 && (
-            <a href="#more-recipes" className="button button-primary">
-              Explore more recipes <ArrowRight size={18} />
-            </a>
-          )}
+
         </div>
       </section>
       <section

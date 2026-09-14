@@ -12,7 +12,6 @@ const links = [
   ["/products", "Shop"],
   ["/boxes", "Boxes"],
   ["/recipes", "Recipes"],
-  ["/wholesale", "Business"],
 ];
 export function Header() {
   const pathname = usePathname();
@@ -38,8 +37,10 @@ export function Header() {
             Let’s talk <ArrowUpRight size={14} aria-hidden="true" />
           </Link>
         </nav>
-        <WishlistMenu />
         <CartLink />
+        <div className="desktop-wishlist">
+          <WishlistMenu />
+        </div>
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>
             <button
@@ -69,6 +70,7 @@ export function Header() {
                     <ArrowUpRight size={20} />
                   </Link>
                 ))}
+                <WishlistMenu inNavigation onNavigate={() => setOpen(false)} />
               </nav>
             </Dialog.Content>
           </Dialog.Portal>

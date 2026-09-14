@@ -143,7 +143,7 @@ export default async function FAQ() {
         ],
         [
           "Do you supply cafés, restaurants, or other businesses?",
-          "You can send a business enquiry through the Business page. Include your business name, crop list, quantities, city & preferred schedule so the farm can understand your requirements.",
+          "You can send a business enquiry through the contact page. Include your business name, crop list, quantities, city & preferred schedule so the farm can understand your requirements.",
         ],
         [
           "What happens to the details I submit?",

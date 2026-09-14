@@ -9,7 +9,6 @@ export function Footer() {
           <span className="eyebrow">Shop</span>
           <Link href="/products">Vegetables</Link>
           <Link href="/boxes">Box subscriptions</Link>
-          <Link href="/wholesale">Business enquiries</Link>
         </div>
         <div>
           <span className="eyebrow">Learn</span>
@@ -19,7 +18,6 @@ export function Footer() {
         <div>
           <span className="eyebrow">Help</span>
           <Link href="/contact">Contact</Link>
-          <Link href="/delivery">Delivery</Link>
           <Link href="/faq">FAQ</Link>
           <Link href="/privacy">Privacy</Link>
         </div>

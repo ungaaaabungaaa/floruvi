@@ -204,17 +204,14 @@ export default async function Home() {
       </section>
       <section className="section page-width business-invite">
         <div>
-          <h2>Buying for a business?</h2>
+          <h2>Let’s talk fresh produce.</h2>
         </div>
         <div className="button-row">
           <Button asChild>
-            <Link href="/wholesale">
-              Business Enquiries <ArrowRight size={17} />
+            <Link href="/contact">
+              Contact us <ArrowRight size={17} />
             </Link>
           </Button>
-          <Link href="/contact" className="text-link">
-            Buying for home <ArrowRight size={17} />
-          </Link>
         </div>
       </section>
     </>

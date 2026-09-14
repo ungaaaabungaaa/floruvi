@@ -1,8 +1,7 @@
 "use client";
 import { useSyncExternalStore } from "react";
 import Link from "next/link";
-import * as Dialog from "@radix-ui/react-dialog";
-import { Heart, X } from "lucide-react";
+import { Heart } from "lucide-react";
 const KEY = "floruvi.wishlist.v1",
   EVENT = "floruvi:wishlist";
 type Saved = { slug: string; name: string };
@@ -63,7 +62,7 @@ function toggle(product: Saved) {
   }
   window.dispatchEvent(new Event(EVENT));
 }
-function useWishlist() {
+export function useWishlist() {
   return useSyncExternalStore(subscribe, snapshot, () => EMPTY);
 }
 export function WishlistButton({ slug, name }: { slug: string; name: string }) {
@@ -80,52 +79,37 @@ export function WishlistButton({ slug, name }: { slug: string; name: string }) {
     </button>
   );
 }
-export function WishlistMenu() {
+export function WishlistMenu({
+  inNavigation = false,
+  onNavigate,
+}: {
+  inNavigation?: boolean;
+  onNavigate?: () => void;
+}) {
   const saved = useWishlist();
   return (
-    <Dialog.Root>
-      <Dialog.Trigger asChild>
-        <button
-          className="icon-button wishlist-link"
-          aria-label={`Wishlist, ${saved.length} saved products`}
-        >
+    <Link
+      href="/wishlist"
+      onClick={onNavigate}
+      className={
+        inNavigation ? "navigation-wishlist" : "icon-button wishlist-link"
+      }
+      aria-label={`Wishlist, ${saved.length} saved products`}
+    >
+      {inNavigation ? (
+        <>
+          <span>Wishlist</span>
+          <span className="navigation-wishlist-count">
+            {saved.length}
+            <Heart size={20} />
+          </span>
+        </>
+      ) : (
+        <>
           <Heart size={21} />
           <span aria-hidden="true">{saved.length}</span>
-        </button>
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay className="dialog-overlay" />
-        <Dialog.Content className="mobile-nav-panel wishlist-panel">
-          <Dialog.Title>Your wishlist</Dialog.Title>
-          <Dialog.Description>Saved on this browser.</Dialog.Description>
-          <Dialog.Close
-            className="icon-button dialog-close"
-            aria-label="Close wishlist"
-          >
-            <X />
-          </Dialog.Close>
-          {saved.length ? (
-            <ul>
-              {saved.map((p) => (
-                <li key={p.slug}>
-                  <Dialog.Close asChild>
-                    <Link href={`/products/${p.slug}`}>{p.name}</Link>
-                  </Dialog.Close>
-                  <button
-                    className="icon-button"
-                    aria-label={`Remove ${p.name} from wishlist`}
-                    onClick={() => toggle(p)}
-                  >
-                    <X size={17} />
-                  </button>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>Tap a heart on a product to save it here.</p>
-          )}
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
+        </>
+      )}
+    </Link>
   );
 }

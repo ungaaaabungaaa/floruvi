@@ -24,7 +24,7 @@ export function guideReply(message: string, products: Product[]): GuideReply {
   if (/\b(business|wholesale|restaurant|cafe|bulk)\b/.test(text))
     return {
       text: "Tell the farm which crops you need, your city, & your weekly quantity. Use the business form to start the conversation.",
-      link: { href: "/wholesale", label: "Send a business enquiry" },
+      link: { href: "/contact", label: "Contact the farm" },
     };
   if (/\b(human|team|contact|help|person)\b/.test(text))
     return {
@@ -66,7 +66,7 @@ export function guideReply(message: string, products: Product[]): GuideReply {
         products: matches,
       }
     : {
-        text: "Try a crop name such as basil, lettuce, or microgreens. I can also point you to the business enquiry form. I only use the public growing list.",
+        text: "Try a crop name such as basil, lettuce, or microgreens. I can also point you to the contact form. I only use the public growing list.",
         link: { href: "/products", label: "Explore all produce" },
       };
 }

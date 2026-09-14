@@ -6,11 +6,9 @@ import { Button } from "@/components/ui/button";
 import { enquirySchema } from "@/lib/enquiry";
 
 export function EnquiryForm({
-  kind,
   product = "",
   message = "",
 }: {
-  kind: "business" | "personal";
   product?: string;
   message?: string;
 }) {
@@ -23,7 +21,7 @@ export function EnquiryForm({
     const data = Object.fromEntries(new FormData(event.currentTarget));
     const parsed = enquirySchema.safeParse({
       ...data,
-      kind,
+      kind: data.business ? "business" : "personal",
       business: data.business ?? "",
       consent: data.consent === "on",
     });
@@ -56,9 +54,9 @@ export function EnquiryForm({
         <CheckCircle2 size={44} strokeWidth={1.4} />
         <span className="eyebrow">REQUEST RECEIVED</span>
         <h2>Thanks for reaching out.</h2>
-        <p>We’ve saved your request.</p>
-        <p className="muted">
-          This is an enquiry, not a confirmed order. No payment has been taken.
+        <p>
+          Your message is with the farm. We’ll use your contact details to
+          reply.
         </p>
         <Button asChild>
           <Link href="/products">
@@ -70,7 +68,16 @@ export function EnquiryForm({
   return (
     <form onSubmit={submit} className="enquiry-form">
       <div className="form-heading">
-        <h2>{kind === "business" ? "Your details" : "Your details"}</h2>
+        <span className="eyebrow">LET’S TALK</span>
+        <h1>
+          Good food starts
+          <br />
+          with a conversation.
+        </h1>
+        <p>
+          For your home, your kitchen, or your business. Tell us what you have
+          in mind.
+        </p>
       </div>
       <div className="form-grid">
         <label>
@@ -84,19 +91,16 @@ export function EnquiryForm({
             maxLength={100}
           />
         </label>
-        {kind === "business" && (
-          <label>
-            Business name <span>*</span>
-            <input
-              name="business"
-              autoComplete="organization"
-              placeholder="Restaurant, café, store…"
-              required
-              minLength={2}
-              maxLength={160}
-            />
-          </label>
-        )}
+        <label>
+          Business name <small>(optional)</small>
+          <input
+            name="business"
+            autoComplete="organization"
+            placeholder="Restaurant, café, store…"
+            minLength={2}
+            maxLength={160}
+          />
+        </label>
         <label>
           Email address <span>*</span>
           <input
@@ -139,17 +143,11 @@ export function EnquiryForm({
           />
         </label>
         <label>
-          {kind === "business"
-            ? "Quantity & frequency"
-            : "Approximate quantity"}
+          Quantity & frequency
           <small> (optional)</small>
           <input
             name="quantity"
-            placeholder={
-              kind === "business"
-                ? "e.g. 5 kg of basil each week"
-                : "e.g. a few packs each week"
-            }
+            placeholder="e.g. a few packs each week"
             maxLength={100}
           />
         </label>
@@ -158,7 +156,7 @@ export function EnquiryForm({
           <textarea
             name="message"
             defaultValue={message}
-            placeholder="Your request"
+            placeholder="Ask a question or tell us about the produce you need…"
             required
             minLength={10}
             maxLength={2000}

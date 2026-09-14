@@ -20,7 +20,6 @@ export default async function Contact({
   const request = getBoxRequest(box, schedule);
   return (
     <EnquiryPage
-      business={false}
       product={
         request?.interest ?? (typeof product === "string" ? product : "")
       }
