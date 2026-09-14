@@ -4,8 +4,7 @@ import Image from "next/image";
 import type { Product } from "@/lib/catalogue";
 import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
-import towers from "@/src/assets/growing-towers.png";
-import salad from "@/src/assets/salad-bowl.png";
+import { productGalleryImages } from "@/lib/product-gallery-images";
 
 export function ProductGallery({ product }: { product: Product }) {
   const [selected, setSelected] = useState(0);
@@ -20,16 +19,15 @@ export function ProductGallery({ product }: { product: Product }) {
           ? "Illustrative crop image. Appearance varies by harvest."
           : "Category illustration. Crop appearance varies.",
     },
-    {
-      src: towers,
-      label: "Growing concept",
-      caption: "A hydroponic growing concept. The system depends on the crop.",
-    },
-    {
-      src: salad,
-      label: "Kitchen inspiration",
-      caption: "Kitchen inspiration. Serving suggestion, not a product bundle.",
-    },
+    ...(productGalleryImages[product.slug]
+      ? [
+          {
+            src: productGalleryImages[product.slug],
+            label: `${product.name} close-up`,
+            caption: "Illustrative crop photo. Appearance varies by harvest.",
+          },
+        ]
+      : []),
   ];
   const view = views[selected];
   return (

@@ -27,7 +27,6 @@ function Results({
   )
     ? params.get("sort")!
     : "recommended";
-  const pricedOnly = params.get("priced") === "1";
   const input = useRef<HTMLInputElement>(null);
   function update(values: Record<string, string | null>) {
     const url = new URL(window.location.href);
@@ -41,16 +40,14 @@ function Results({
     update({ q: null, category: "all", sort: null, priced: null });
     input.current?.focus();
   }
-  const searchMatches = findProducts(products, search);
-  const matches = searchMatches.filter((p) => !pricedOnly || p.price);
+  const matches = findProducts(products, search);
   const found = matches.filter(
     (p) => category === "all" || p.category === category,
   );
   const results = sortProducts(found, sort, !!search.trim());
-  const filtered =
-    !!search || category !== "all" || pricedOnly || sort !== "recommended";
+  const filtered = !!search || category !== "all" || sort !== "recommended";
   return (
-    <div>
+    <div className="catalogue-browser">
       <div className="catalogue-toolbar">
         <div className="search-field">
           <Search size={19} aria-hidden="true" />
@@ -68,7 +65,7 @@ function Results({
               if (e.key === "Escape") update({ q: null });
             }}
             type="search"
-            placeholder="Search crops, herbs, or uses…"
+            placeholder="Search vegetables & herbs"
             value={search}
             onChange={(e) => update({ q: e.target.value })}
           />
@@ -121,26 +118,16 @@ function Results({
           </button>
         ))}
       </div>
-      <div className="catalogue-options">
-        <label>
-          <input
-            type="checkbox"
-            checked={pricedOnly}
-            onChange={(e) => update({ priced: e.target.checked ? "1" : null })}
-          />{" "}
-          With prices
-        </label>
-        {filtered && (
-          <button className="text-link" onClick={reset}>
-            Reset filters <X size={14} />
-          </button>
-        )}
-      </div>
       <div className="results-heading">
         <h2 aria-live="polite">
           {results.length} {results.length === 1 ? "crop" : "crops"} found
         </h2>
         {sort.startsWith("price-") && <span>Per pack. Sizes vary.</span>}
+        {filtered && (
+          <button className="text-link" onClick={reset}>
+            Clear filters <X size={14} />
+          </button>
+        )}
       </div>
       {results.length ? (
         <div className="product-grid">
@@ -155,9 +142,7 @@ function Results({
           <p>
             {matches.length
               ? `${matches.length} ${matches.length === 1 ? "match" : "matches"} in other categories.`
-              : pricedOnly && searchMatches.length
-                ? "Matching crops are priced on request."
-                : "Try a crop name, like spinach or palak."}
+              : "Try a crop name, like spinach or palak."}
           </p>
           {matches.length > 0 && (
             <button
@@ -165,14 +150,6 @@ function Results({
               onClick={() => update({ category: "all" })}
             >
               Search all categories
-            </button>
-          )}
-          {pricedOnly && !matches.length && searchMatches.length > 0 && (
-            <button
-              className="button button-outline"
-              onClick={() => update({ priced: null })}
-            >
-              Include crops priced on request
             </button>
           )}
           <button className="text-link" onClick={reset}>

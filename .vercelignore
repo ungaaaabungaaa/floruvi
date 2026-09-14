@@ -10,3 +10,5 @@ README.md
 AGENTS.md
 test-results/
 playwright-report/
+src/assets/products/gallery/*.png
+scripts/

@@ -61,7 +61,7 @@ export function AddToCart({
       )}
       {!compact && (
         <p className="purchase-note">
-          Availability on request.
+          Delivery across India.
         </p>
       )}
     </div>

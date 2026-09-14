@@ -13,3 +13,5 @@ test-results/
 backups/
 exports/
 *.tsbuildinfo
+# Full-resolution gallery originals stay local; ship optimized WebP assets.
+src/assets/products/gallery/*.png

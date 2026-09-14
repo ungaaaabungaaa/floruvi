@@ -37,7 +37,7 @@ export default function Recipes() {
         <h2>Find your ingredients.</h2>
 
         <Link className="button button-light" href="/products">
-          Explore the growing list <ArrowRight size={17} />
+          Shop the ingredients <ArrowRight size={17} />
         </Link>
       </section>
     </>

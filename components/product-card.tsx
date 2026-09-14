@@ -1,7 +1,7 @@
 import { formatMoney } from "@/lib/pricing";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { productGalleryImages } from "@/lib/product-gallery-images";
 import { Botanical } from "./botanical";
 import type { Product } from "@/lib/catalogue";
 import { productImages } from "@/lib/product-images";
@@ -39,17 +39,18 @@ export function ProductCard({ product }: { product: Product }) {
               seed={product.name.length % 5}
             />
           )}
-          <span className="art-label">
-            {product.suitability === "specialist"
-              ? "Specialist crop"
-              : "Growing list"}
-          </span>
-          <span className="product-arrow">
-            <ArrowUpRight size={19} />
-          </span>
+          {productGalleryImages[product.slug] && (
+            <Image
+              src={productGalleryImages[product.slug]}
+              alt=""
+              aria-hidden="true"
+              fill
+              sizes="(max-width: 640px) 50vw, 25vw"
+              className="product-hover-image"
+            />
+          )}
         </div>
         <div className="product-meta">
-          <span className="eyebrow">{categoryLabels[product.category]}</span>
           <h3>{product.name}</h3>
           <p>
             {formatMoney(product.price?.amountMinor)}

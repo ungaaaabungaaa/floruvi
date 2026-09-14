@@ -9,21 +9,18 @@ export const metadata: Metadata = {
 const questions = [
   [
     "How do I order?",
-    "Add crops to your basket and send a request. We’ll confirm availability and delivery.",
+    "Add crops to your basket and send a request. We’ll confirm your order and delivery date.",
   ],
   [
     "Which boxes can I choose?",
-    "Single for one person, Dual for two, and Family for four or more. Choose daily, weekly, or every-two-weeks delivery. Contents, prices, and coverage need confirmation.",
+    "Single for one person, Dual for two, and Family for four or more. Choose daily, weekly, or every-two-weeks delivery. See each box’s contents and price on the boxes page.",
   ],
   [
     "Do I need an account?",
     "No account is needed to browse or send a request.",
   ],
-  [
-    "Is everything in stock?",
-    "No. The catalogue is a growing list. Ask us for the current harvest.",
-  ],
-  ["Where do you deliver?", "Send your city and postcode to check coverage."],
+  ["Is everything in stock?", "All listed products are available."],
+  ["Where do you deliver?", "Across India, with a flat delivery fee."],
   [
     "Can I pay online?",
     "Not yet. Requests do not charge you, reserve stock, or start recurring payments.",

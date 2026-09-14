@@ -19,8 +19,7 @@ export default async function Delivery() {
           <span className="eyebrow">FROM THE FARM TO YOUR TABLE</span>
           <h1>Delivery.</h1>
           <p>
-            {formatMoney(commerce?.deliveryFeeMinor)} per delivery. Send your
-            postcode to check coverage.
+            {formatMoney(commerce?.deliveryFeeMinor)} per delivery, across India.
           </p>
           <Button asChild>
             <Link href="/products">
@@ -42,8 +41,8 @@ export default async function Delivery() {
         {[
           {
             icon: MapPin,
-            title: "Check your area",
-            body: "Send your city and postcode to check coverage.",
+            title: "Across India",
+            body: "Delivery across India. No PIN-code restrictions.",
           },
           {
             icon: Sprout,

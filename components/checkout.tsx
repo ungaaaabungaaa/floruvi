@@ -206,7 +206,7 @@ export function Checkout() {
               }}
             >
               <p>
-                We will check delivery coverage before confirming your quote.
+                We deliver across India.
               </p>
               <div className="checkout-fields">
                 <label>

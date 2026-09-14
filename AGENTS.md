@@ -20,6 +20,8 @@
 
 ## Product boundaries
 
+- Owner confirmed on 14 September 2026: all catalogue products are offered across India, with no PIN-code restriction. Do not show planning-stock labels. Payment and OTP remain disabled until provider setup is complete.
+
 - Convex is the selected backend and file store. Do not introduce Supabase.
 - No account or login gate before the final checkout page. Do not create anonymous auth users for browsing or cart use.
 - At checkout, provide email OTP and phone OTP. Do not require both codes for a purchase.

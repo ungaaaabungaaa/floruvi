@@ -7,7 +7,7 @@ import { CatalogueBrowser } from "@/components/catalogue-browser";
 export const metadata: Metadata = {
   title: "Our produce",
   description:
-    "Browse Floruvi’s growing list. Explore leafy greens, herbs, microgreens, fruiting crops, roots, and edible flowers.",
+    "Browse Floruvi’s vegetables and herbs. Explore leafy greens, herbs, microgreens, fruiting crops, roots, and edible flowers.",
   alternates: { canonical: "/products" },
 };
 export default async function Products() {
@@ -17,15 +17,12 @@ export default async function Products() {
       <div className="page-heading catalogue-hero">
         <Image src={towers} alt="" fill sizes="100vw" preload />
         <div>
-          <span className="eyebrow">THE FLORUVI GROWING LIST</span>
+          <span className="eyebrow">FRESH FROM FLORUVI</span>
           <h1>Vegetables & herbs.</h1>
-          <p>Availability on request.</p>
+          <p>Delivery across India.</p>
         </div>
       </div>
       <CatalogueBrowser preloaded={preloaded} />
-      <p className="catalogue-note">
-        Crop listings are for planning, not live stock.
-      </p>
     </div>
   );
 }

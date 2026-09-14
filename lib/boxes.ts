@@ -14,6 +14,15 @@ export function getBoxRequest(size: unknown, schedule: unknown) {
   if (!box || !delivery) return undefined;
   return {
     interest: `${box.name} box · ${box.people} · ${delivery.name}`,
-    message: `I would like a ${box.name.toLowerCase()} vegetable box for ${box.people}, delivered ${delivery.name.toLowerCase()}. Please confirm the contents, price, and delivery coverage.`,
+    message: `I would like a ${box.name.toLowerCase()} vegetable box for ${box.people}, delivered ${delivery.name.toLowerCase()}. Please arrange this subscription and confirm the first delivery date.`,
   };
 }
+
+export const boxContents = [
+  { slug: "butterhead-lettuce", quantity: 1 },
+  { slug: "spinach", quantity: 1 },
+  { slug: "cherry-tomatoes", quantity: 1 },
+  { slug: "cucumber", quantity: 1 },
+  { slug: "carrot", quantity: 1 },
+  { slug: "mint", quantity: 1 },
+];

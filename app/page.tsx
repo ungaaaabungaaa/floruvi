@@ -11,6 +11,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
+import { RecipeCard } from "@/components/recipe-card";
+import { recipes } from "@/lib/recipes";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import hero from "@/src/assets/hero-lifestyle.png";
@@ -91,11 +93,9 @@ export default async function Home() {
             );
           })}
         </div>
-        <p className="catalogue-note">
-          Availability on request. Images are illustrative.
-        </p>
+        <p className="catalogue-note">Images are illustrative.</p>
       </section>
-      <section className="photo-story page-width home-boxes">
+      <section className="photo-story page-width home-story">
         <div className="photo-story-image">
           <Image
             src={box}
@@ -119,7 +119,22 @@ export default async function Home() {
           </Button>
         </div>
       </section>
-      <section className="photo-story page-width">
+      <section className="page-width home-related">
+        <div className="section-heading">
+          <h2>In your box.</h2>
+          <Link className="text-link" href="/boxes">
+            Explore boxes <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="product-grid">
+          {["butterhead-lettuce", "spinach", "cherry-tomatoes", "cucumber"]
+            .flatMap((slug) => products.filter((p) => p.slug === slug))
+            .map((product) => (
+              <ProductCard key={product.slug} product={product} />
+            ))}
+        </div>
+      </section>
+      <section className="photo-story page-width home-story">
         <div className="photo-story-copy">
           <h2>Soilless growing.</h2>
           <p>Hydroponics and aeroponics, explained.</p>
@@ -139,8 +154,23 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="recipe-feature">
-        <div className="recipe-feature-image">
+      <section className="page-width home-related">
+        <div className="section-heading">
+          <h2>From harvest to table.</h2>
+          <Link className="text-link" href="/products">
+            Shop produce <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="product-grid">
+          {["sweet-basil", "curly-kale", "radish-microgreens", "mint"]
+            .flatMap((slug) => products.filter((p) => p.slug === slug))
+            .map((product) => (
+              <ProductCard key={product.slug} product={product} />
+            ))}
+        </div>
+      </section>
+      <section className="photo-story page-width home-story">
+        <div className="photo-story-image">
           <Image
             src={salad}
             alt="A colourful bowl of greens, tomatoes, cucumber, radish and avocado"
@@ -148,13 +178,26 @@ export default async function Home() {
             sizes="(max-width: 800px) 100vw, 50vw"
           />
         </div>
-        <div className="recipe-feature-copy">
+        <div className="photo-story-copy">
           <h2>Simple recipes.</h2>
           <Button asChild>
             <Link href="/recipes">
               Explore Recipes <ArrowRight size={18} />
             </Link>
           </Button>
+        </div>
+      </section>
+      <section className="page-width home-related">
+        <div className="section-heading">
+          <h2>Make something fresh.</h2>
+          <Link className="text-link" href="/recipes">
+            All recipes <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="home-recipe-grid">
+          {recipes.map((recipe) => (
+            <RecipeCard key={recipe.slug} recipe={recipe} />
+          ))}
         </div>
       </section>
       <section className="section page-width business-invite">

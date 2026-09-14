@@ -225,7 +225,7 @@ export function BasketPage({ products }: { products: Product[] }) {
             );
           })}
           <div className="basket-caption">
-            <span>Availability on request.</span>
+            <span>Delivery across India.</span>
             <button type="button" className="text-link" onClick={cart.clear}>
               Clear basket
             </button>

@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 import { ArrowUpRight, Sprout, Check } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
 import { siteUrl } from "@/lib/site";
+import { recipes } from "@/lib/recipes";
+import { RecipeCard } from "@/components/recipe-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard, categoryLabels } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
@@ -28,6 +30,9 @@ export default async function ProductDetails({ params }: Props) {
   const related = products
     .filter((q) => q.category === p.category && q.slug !== p.slug)
     .slice(0, 4);
+  const productRecipes = recipes.filter((recipe) =>
+    recipe.crops.includes(p.slug),
+  );
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -67,7 +72,7 @@ export default async function ProductDetails({ params }: Props) {
             {p.price && <small> / {p.price.packLabel}</small>}
           </p>
           <div className="availability">
-            <span className="status-dot" /> Availability on request
+            <span className="status-dot" /> Available across India
           </div>
           <AddToCart slug={p.slug} name={p.name} />
           <Button asChild variant="outline">
@@ -95,11 +100,7 @@ export default async function ProductDetails({ params }: Props) {
           <div className="growing-note">
             <Sprout size={24} />
             <div>
-              <h2>
-                {p.suitability === "specialist"
-                  ? "A specialist growing project"
-                  : "From our growing list"}
-              </h2>
+              <h2>How it grows</h2>
               <p>{p.growingNote}</p>
               <span>{p.methods.join(" · ")}</span>
             </div>
@@ -108,14 +109,23 @@ export default async function ProductDetails({ params }: Props) {
       </div>
       <details className="source-details">
         <summary>Growing reference</summary>
-        <p>
-          This crop is a candidate for production. It is not a claim of current
-          stock or guaranteed local yield. {p.sourceNote}
-        </p>
+        <p>{p.sourceNote}</p>
         <a href={p.sourceUrl} target="_blank" rel="noreferrer">
           Read the growing reference ↗
         </a>
       </details>
+      {productRecipes.length > 0 && (
+        <section className="section">
+          <div className="section-heading">
+            <h2>Cook with {p.name.toLowerCase()}.</h2>
+          </div>
+          <div className="home-recipe-grid">
+            {productRecipes.map((recipe) => (
+              <RecipeCard key={recipe.slug} recipe={recipe} />
+            ))}
+          </div>
+        </section>
+      )}
       <section className="section">
         <div className="section-heading">
           <div>

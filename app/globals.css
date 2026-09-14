@@ -4167,3 +4167,73 @@ button:disabled {
 .site-header .desktop-nav a { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; min-height: 44px; }
 .site-header .cart-link { margin-left: 0; flex-shrink: 0; }
 @media (max-width: 800px) { .site-header .cart-link { margin-left: auto; } }
+
+/* Shared storefront sections and compact catalogue controls. */
+.home-story.photo-story {
+  width: calc(100% - 64px);
+  max-width: 1216px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-height: 420px;
+}
+.home-story .photo-story-image { min-height: 420px; }
+.home-story .photo-story-copy { padding: 48px; }
+.home-story .photo-story-copy .button { margin-top: 24px; }
+.home-related { padding-top: 36px; padding-bottom: 72px; }
+.home-related .section-heading h2 { font-size: clamp(24px, 2.5vw, 32px); }
+.home-recipe-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.home-recipe-grid .recipe-card-copy p { display: none; }
+.catalogue-browser .catalogue-toolbar { border: 0; padding: 0; gap: 16px; margin-bottom: 20px; }
+.catalogue-browser .search-field { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 0 16px; min-height: 50px; flex: 1; }
+.catalogue-browser .search-field input { min-width: 0; padding: 13px 0; }
+.catalogue-browser .sort-field { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 0 14px; min-height: 50px; }
+.catalogue-browser .sort-field select { max-width: 210px; }
+.catalogue-browser .filter-chips { flex-wrap: nowrap; overflow-x: auto; gap: 6px; padding: 0 0 10px; margin: 0; scrollbar-width: thin; }
+.catalogue-browser .filter-chips button { flex-shrink: 0; min-height: 42px; border: 0; border-radius: 8px; padding: 9px 13px; background: transparent; }
+.catalogue-browser .filter-chips button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.catalogue-browser .filter-chips button:hover { background: var(--cream); color: var(--ink); }
+.catalogue-browser .results-heading { margin: 10px 0 22px; min-height: 24px; gap: 12px; }
+.product-card { position: relative; }
+.product-card .product-art { border-radius: 12px; overflow: hidden; }
+.product-card .product-meta { padding: 13px 0 10px; }
+.product-card .product-meta h3 { font-size: 16px; line-height: 1.35; }
+.product-card .product-meta p { font-size: 12px; margin-top: 6px; }
+.product-card .add-crop.compact .button { border-radius: 8px; min-height: 40px; font-size: 12px; }
+.product-card .product-hover-image { opacity: 0; transition: opacity 220ms ease; }
+@media (hover: hover) { .product-card-link:hover .product-hover-image { opacity: 1; } }
+.product-card-link:focus-visible .product-hover-image { opacity: 1; }
+@media (max-width: 800px) {
+  .home-story.photo-story { grid-template-columns: 1fr; min-height: 0; width: calc(100% - 48px); }
+  .home-story .photo-story-image { min-height: 300px; order: -1; }
+  .home-story .photo-story-copy { padding: 30px; }
+  .home-recipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-related { padding-top: 28px; padding-bottom: 48px; }
+}
+@media (max-width: 600px) {
+  .home-story.photo-story { width: calc(100% - 42px); }
+  .home-story .photo-story-image { min-height: 260px; }
+  .catalogue-browser .catalogue-toolbar { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .catalogue-browser .sort-field { justify-self: end; min-height: 40px; }
+  .product-card .product-meta h3 { font-size: 14px; }
+  .product-card .product-meta p { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .product-card .product-hover-image { transition: none; } }
+.box-includes { border-top: 1px solid var(--line); margin: 28px 0; padding-top: 24px; }
+.box-price { display: flex; flex-direction: column; gap: 4px; margin-bottom: 24px; }
+.box-price strong { font: 38px/1.1 Georgia, serif; }
+.box-price > span, .box-includes > p { font-size: 12px; color: var(--muted); }
+.box-includes h2 { font: 18px/1.4 Arial, sans-serif; margin-bottom: 12px; }
+.box-includes ul { list-style: none; padding: 0; margin: 0; }
+.box-includes li { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.box-includes li > span { text-align: right; color: var(--muted); font-size: 12px; }
+.box-includes li a:hover { text-decoration: underline; }
+.box-price-breakdown { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; margin: 16px 0; }
+.catalogue-browser .results-heading { padding: 0; }
+.catalogue-browser .filter-chips button { font-size: 12px; }
+.catalogue-browser .filter-chips button > span { font-size: 10px; }
+@media (min-width: 801px) {
+  .boxes-page { align-items: start; }
+  .boxes-page .box-photo { position: sticky; top: 122px; }
+}
+.product-card { display: flex; flex-direction: column; }
+.product-card .add-crop.compact { margin-top: auto; }

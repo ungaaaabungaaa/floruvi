@@ -7,7 +7,7 @@ Research date: 14 September 2026. Method: Exa search, page reads, and retailer p
 - Floruvi product price = comparable retail pack price × 1.40, rounded to the nearest paise. This is a 40% markup, not a 40% margin. No extra psychological rounding.
 - Prefer hydroponic retail for the main hydroponic crops. Use premium specialist or organic retail for other crops. Match the crop and stated pack; do not substitute seeds, dried herbs, wholesale crates, or mixed flowers for an individual fresh crop.
 - Use the selected variant's listed selling price. Exclude crossed-out MRP, new-user codes, basket discounts, and wholesale offers. Retailer variant feeds take precedence over older search snippets.
-- Flat delivery: ₹99 for each delivery, with no free-delivery threshold. This is a Floruvi launch policy selected from local retail delivery references, not a courier quote. Coverage still needs farm confirmation. Repeated box deliveries incur the fee each time; box billing is not active.
+- Flat delivery: ₹99 for each delivery, with no free-delivery threshold. This is a Floruvi launch policy selected from local retail delivery references, not a courier quote. Owner confirmed delivery across India with no PIN-code restriction. Repeated box deliveries incur the fee each time; box billing is not active.
 - Each displayed price is for the pack shown. A weight range or bunch remains a range or bunch; do not imply a fixed weight. The reference cultivar/colour is recorded in the sheet for packing review.
 - Unmatched crops remain price-on-request. A partly priced basket has no complete total. Box contents are not yet defined, so box prices remain on request.
 - Existing stock and availability stay unchanged. Listed prices do not activate payment or reserve produce. Some specialist benchmarks are currently sold out; these remain identified in the sheet and need a price recheck before sales open.
@@ -49,3 +49,7 @@ These 20 remain enquiry-only with no numeric price. Their generic cousins, mixed
 - The real review endpoint returned ₹277.20 produce + ₹99 delivery = ₹376.20 for two 100 g curly kale packs. Payment and code verification stayed disabled.
 - Browser checks confirmed the same total in the basket and checkout, and no horizontal overflow at 390 px for the basket and catalogue.
 - Provider payments, stock reservation, tax treatment, actual delivery cost, and the 20 unmatched crops are outside this verified slice.
+
+## Storefront refresh update
+
+Five additional verified benchmarks bring the priced catalogue to 70 of 85 products. See [the refresh record](13-storefront-refresh.md) and the updated CSV. The seed preserves all 65 earlier prices.
