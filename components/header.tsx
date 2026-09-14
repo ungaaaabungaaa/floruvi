@@ -37,9 +37,11 @@ export function Header() {
             Let’s talk <ArrowUpRight size={14} aria-hidden="true" />
           </Link>
         </nav>
-        <CartLink />
-        <div className="desktop-wishlist">
-          <WishlistMenu />
+        <div className="header-actions">
+          <CartLink />
+          <div className="desktop-wishlist">
+            <WishlistMenu />
+          </div>
         </div>
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>

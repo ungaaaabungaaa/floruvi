@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SiteMotion } from "@/components/site-motion";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { siteUrl } from "@/lib/site";
@@ -40,6 +41,7 @@ export default function RootLayout({
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <SiteMotion />
       </body>
     </html>
   );
