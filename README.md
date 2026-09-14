@@ -43,7 +43,7 @@ Status checked 15 September 2026. ✅ = connected or implemented. ⬜ = not conn
 | ✅ | Local basket & wishlist | Saved in the visitor’s browser. No account sync yet. |
 | ⬜ | **Enquiry notification email — Resend** | Create/connect Resend, verify a sending domain, configure an API key & sender address, implement server-side notifications after a successful form save, then verify delivery to both owner inboxes. Deferred at the owner’s request; **forms save to Convex but do not send email yet**. |
 | ✅ | GitHub ↔ Vercel connection | Repository `ungaaaabungaaa/floruvi` is linked to production branch `main`; verified through Vercel on 15 September 2026. |
-| ⬜ | Automatic Vercel Git deployments | Connection verified; confirm a new push reaches a ready production deployment. |
+| ✅ | Automatic Vercel Git deployments | Verified 15 September 2026: push `fc749c1` created a ready Git-sourced production deployment; subsequent push `1868fbe` also triggered a build. Push to `main` to deploy. |
 | ⬜ | Customer accounts — Better Auth | Connect Convex authentication, verify login/session behaviour & add basket/wishlist sync when an account is created during checkout. Guest browsing stays available. |
 | ⬜ | Email verification codes — Resend | Configure sender/domain & server-side code delivery, expiry, request limits & verification. Separate from owner enquiry notifications. |
 | ⬜ | Phone verification codes — SMS provider | Select/configure a provider such as Twilio, complete local sender/template requirements & test delivery before enabling phone codes. |
