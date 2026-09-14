@@ -26,6 +26,14 @@ export default defineSchema({
     published: v.boolean(),
     rank: v.number(),
     imageId: v.optional(v.id("_storage")),
+    price: v.optional(
+      v.object({
+        amountMinor: v.number(),
+        currency: v.literal("INR"),
+        packLabel: v.string(),
+      }),
+    ),
+    pricingRevision: v.optional(v.string()),
   })
     .index("by_slug", ["slug"])
     .index("by_published", ["published"]),
@@ -42,6 +50,11 @@ export default defineSchema({
     consentAt: v.number(),
     status: v.literal("new"),
   }),
+  storeSettings: defineTable({
+    key: v.literal("commerce"),
+    currency: v.literal("INR"),
+    deliveryFeeMinor: v.number(),
+  }).index("by_key", ["key"]),
   enquiryLimits: defineTable({
     key: v.string(),
     count: v.number(),

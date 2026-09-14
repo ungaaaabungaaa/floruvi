@@ -19,7 +19,7 @@ pnpm exec convex dev --once
 pnpm convex:seed
 ```
 
-The `seed:catalogue` function is internal. Run it through the authenticated Convex CLI. It inserts missing slugs and preserves existing owner edits. It does not synchronise edits between deployments.
+The `seed:catalogue` function is internal. Run it through the authenticated Convex CLI. It inserts missing slugs and preserves existing owner edits. It does not synchronise edits between deployments. Run `pnpm exec convex run seed:pricing` after deploying price fields. This fills missing researched prices and delivery settings while preserving existing values. See `docs/11-pricing-research.md`.
 
 ## 2. Environments
 
@@ -46,6 +46,7 @@ Use the existing project. Do not create another database for the same environmen
 ```sh
 pnpm exec convex deploy --typecheck enable
 pnpm exec convex run seed:catalogue --prod
+pnpm exec convex run seed:pricing --prod
 vercel deploy --prod
 ```
 

@@ -136,4 +136,26 @@ test("basket review rejects altered totals and fails closed without catalogue ac
   assert.equal(result.verificationEnabled, false);
   assert.equal(result.items[0].availableToEnquire, true);
   assert.equal(result.items[1].availableToEnquire, false);
+  globalThis.fetch = async () =>
+    Response.json({
+      status: "success",
+      value: {
+        products: [
+          {
+            slug: "basil",
+            name: "Basil",
+            price: { amountMinor: 14000, currency: "INR", packLabel: "100 g" },
+          },
+        ],
+        categories: [],
+        commerce: { currency: "INR", deliveryFeeMinor: 9900 },
+      },
+    });
+  const priced = await (
+    await POST(request({ items: [{ slug: "basil", quantity: 2 }] }))
+  ).json();
+  assert.equal(priced.items[0].packLabel, "100 g");
+  assert.equal(priced.items[0].lineTotal, 28000);
+  assert.equal(priced.total, 37900);
+  assert.equal(priced.paymentEnabled, false);
 });

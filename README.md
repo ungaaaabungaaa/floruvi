@@ -12,7 +12,7 @@ The public application is built with Next.js and Convex. It includes the home pa
 
 The design follows the owner’s photographic references: warm ivory, forest green, serif headings, large images, and simple product cards. Generated image sources for all 85 crops, the editorial pages, and the carrot brand mark are in `src/assets`, together with their prompts. Shared styles in `app/globals.css` support later Figma refinements.
 
-All crops are enquiry-only. There are no invented prices or stock claims. A persistent basket and three-step checkout send a real availability enquiry. Box requests offer Single, Dual, and Family sizes with daily, weekly, or every-two-weeks delivery. They do not activate recurring billing. Email/phone verification and Razorpay are visible but disabled until provider integration and sale details are ready. Chat is hidden at the owner’s request. Its code is retained for later OpenRouter work. Live operators, translation, and LLM replies are not connected.
+All crops are enquiry-only. Retail research supplies pack prices for 65 crops at a 40% markup, with ₹99 flat delivery. The other 20 crops and undefined box contents remain price-on-request. There are no stock claims. See [pricing research](docs/11-pricing-research.md) and the [price sheet](docs/pricing-benchmarks.csv). A persistent basket and three-step checkout send a real availability enquiry. Box requests offer Single, Dual, and Family sizes with daily, weekly, or every-two-weeks delivery. They do not activate recurring billing. Email/phone verification and Razorpay are visible but disabled until provider integration and sale details are ready. Chat is hidden at the owner’s request. Its code is retained for later OpenRouter work. Live operators, translation, and LLM replies are not connected.
 
 The brand tagline is **Freshness worth growing**. See [details needed from the owner](docs/10-owner-launch-details.md) and [checkout implementation](docs/09-site-and-checkout.md).
 
@@ -62,7 +62,7 @@ Use one application and one backend. Do not add WordPress, a custom chat inbox, 
 ## Decisions still needed
 
 - Accept the proposed service costs, especially Crisp.
-- Confirm the launch delivery area, product pack sizes, stock, delivery fees, and minimum order.
+- Confirm the launch delivery area, ability to supply the priced packs, stock, delivery cost, and minimum order.
 - Confirm whether B2B starts with a quote request. This is the proposed first release.
 - Replace illustrative assets with actual harvest and facility photos when available.
 - Verify Arabic translation, original-message access, and channel connections during the Crisp trial.

@@ -12,6 +12,7 @@ import type * as catalogue from "../catalogue.js";
 import type * as catalogueData from "../catalogueData.js";
 import type * as enquiries from "../enquiries.js";
 import type * as http from "../http.js";
+import type * as pricingData from "../pricingData.js";
 import type * as seed from "../seed.js";
 
 import type {
@@ -25,6 +26,7 @@ declare const fullApi: ApiFromModules<{
   catalogueData: typeof catalogueData;
   enquiries: typeof enquiries;
   http: typeof http;
+  pricingData: typeof pricingData;
   seed: typeof seed;
 }>;
 

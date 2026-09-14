@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { categories, cropCatalogue } from "../convex/catalogueData";
 import { findProducts } from "../lib/search";
 import { guideReply } from "../lib/guide";
-const products = cropCatalogue.map((p) => ({ ...p, imageUrl: null }));
+const products = cropCatalogue.map((p) => ({ ...p, imageUrl: null, price: null }));
 test("catalogue slugs are unique, every category exists, and no crop claims stock or a price", () => {
   assert.equal(new Set(products.map((p) => p.slug)).size, products.length);
   for (const p of products) {
@@ -13,7 +13,8 @@ test("catalogue slugs are unique, every category exists, and no crop claims stoc
     assert.ok(
       p.growingNote && p.sourceNote && p.sourceUrl.startsWith("https://"),
     );
-    assert.ok(!("price" in p) && !("stock" in p));
+    assert.equal(p.price, null);
+    assert.ok(!("stock" in p));
   }
 });
 test("search combines crop, culinary terms and category filters", () => {

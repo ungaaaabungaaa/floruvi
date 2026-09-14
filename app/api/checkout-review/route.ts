@@ -2,6 +2,7 @@ import { z } from "zod";
 import { getCatalogue } from "@/lib/catalogue";
 import { MAX_CART_LINES, MAX_QUANTITY } from "@/lib/cart";
 import { isSameOrigin } from "@/lib/request-origin";
+import { reviewBasket } from "@/lib/pricing";
 const schema = z
   .object({
     items: z
@@ -58,30 +59,10 @@ export async function POST(request: Request) {
   )
     return Response.json({ error: "Duplicate basket items." }, { status: 400 });
   try {
-    const { products } = await getCatalogue();
-    const items = parsed.data.items.map((line) => {
-      const p = products.find((p) => p.slug === line.slug);
-      return {
-        ...line,
-        name: p?.name ?? line.slug,
-        availableToEnquire: !!p,
-        unitPrice: null,
-        lineTotal: null,
-      };
+    const { products, commerce } = await getCatalogue();
+    return Response.json(reviewBasket(parsed.data.items, products, commerce), {
+      headers: { "Cache-Control": "no-store" },
     });
-    // Catalogue crops are enquiry-only. A later payment release owns pricing and reservations.
-    return Response.json(
-      {
-        items,
-        currency: "INR",
-        subtotal: null,
-        delivery: null,
-        total: null,
-        paymentEnabled: false,
-        verificationEnabled: false,
-      },
-      { headers: { "Cache-Control": "no-store" } },
-    );
   } catch {
     return Response.json(
       { error: "We could not check the basket. Please try again." },

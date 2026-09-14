@@ -4150,3 +4150,6 @@ button:disabled {
     font-size: 11px;
   }
 }
+
+.detail-price { font-size: 1.6rem; margin: 1rem 0; }
+.detail-price small { font-size: .85rem; opacity: .7; }

@@ -1,3 +1,4 @@
+import { formatMoney } from "@/lib/pricing";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -61,6 +62,10 @@ export default async function ProductDetails({ params }: Props) {
           </Link>
           <h1>{p.name}</h1>
           <p className="detail-description">{p.description}</p>
+          <p className="detail-price">
+            {formatMoney(p.price?.amountMinor)}
+            {p.price && <small> / {p.price.packLabel}</small>}
+          </p>
           <div className="availability">
             <span className="status-dot" /> Availability on request
           </div>

@@ -4,6 +4,8 @@ The public pages, images, basket, and checkout screens are built. The basket sen
 
 ## 1. Products for the first sale
 
+Research-based prices and pack sizes are set for 65 crops, with ₹99 flat delivery. See [the pricing sheet](pricing-benchmarks.csv). Confirm that you can supply those packs. The remaining 20 crops need prices.
+
 Send a short list of the crops you can supply now. The full 85-crop catalogue is a growing reference, not live stock.
 
 | Crop | Pack size / unit | Price | Stock or weekly capacity | Harvest days |
@@ -17,7 +19,7 @@ For each subscription box, also confirm contents or weight, price per delivery, 
 ## 2. Delivery rules
 
 - Cities and postal codes served.
-- Delivery fee, free-delivery threshold, and minimum order.
+- Check the ₹99 flat fee against your delivery cost. There is no free-delivery threshold. Confirm any minimum order.
 - Delivery days, order cut-off time, and expected lead time.
 - Pickup option and address, if offered.
 - Rules for cancellations, refunds, unavailable items, and damaged produce.

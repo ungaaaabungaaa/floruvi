@@ -61,7 +61,7 @@ export function AddToCart({
       )}
       {!compact && (
         <p className="purchase-note">
-          Availability, pack size, and price are confirmed by the farm.
+          Availability on request.
         </p>
       )}
     </div>

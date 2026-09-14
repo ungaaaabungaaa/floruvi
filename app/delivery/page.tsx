@@ -1,3 +1,5 @@
+import { getCatalogue } from "@/lib/catalogue";
+import { formatMoney } from "@/lib/pricing";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -8,14 +10,18 @@ export const metadata: Metadata = {
   title: "Delivery & availability",
   alternates: { canonical: "/delivery" },
 };
-export default function Delivery() {
+export default async function Delivery() {
+  const { commerce } = await getCatalogue();
   return (
     <div className="page-width section">
       <div className="about-hero">
         <div className="page-heading">
           <span className="eyebrow">FROM THE FARM TO YOUR TABLE</span>
           <h1>Delivery.</h1>
-          <p>Send your city and postcode. We’ll confirm coverage and fees.</p>
+          <p>
+            {formatMoney(commerce?.deliveryFeeMinor)} per delivery. Send your
+            postcode to check coverage.
+          </p>
           <Button asChild>
             <Link href="/products">
               Build your basket <ArrowRight size={17} />
@@ -47,7 +53,7 @@ export default function Delivery() {
           {
             icon: PackageCheck,
             title: "Know what to expect",
-            body: "Your quote will include pack sizes, fees, and delivery dates.",
+            body: "One flat fee per delivery. No free-delivery threshold.",
           },
         ].map(({ icon: Icon, title, body }) => (
           <article key={title}>

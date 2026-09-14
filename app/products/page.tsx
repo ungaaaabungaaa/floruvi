@@ -19,7 +19,7 @@ export default async function Products() {
         <div>
           <span className="eyebrow">THE FLORUVI GROWING LIST</span>
           <h1>Vegetables & herbs.</h1>
-          <p>Ask us for current availability and prices.</p>
+          <p>Availability on request.</p>
         </div>
       </div>
       <CatalogueBrowser preloaded={preloaded} />

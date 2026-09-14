@@ -1,3 +1,5 @@
+import { getCatalogue } from "@/lib/catalogue";
+import { formatMoney } from "@/lib/pricing";
 import Link from "next/link";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
 const questions = [
   [
     "How do I order?",
-    "Add crops to your basket and send a request. We’ll confirm availability, price, and delivery before you pay.",
+    "Add crops to your basket and send a request. We’ll confirm availability and delivery.",
   ],
   [
     "Which boxes can I choose?",
@@ -21,10 +23,7 @@ const questions = [
     "Is everything in stock?",
     "No. The catalogue is a growing list. Ask us for the current harvest.",
   ],
-  [
-    "Where do you deliver?",
-    "Send your city and postcode so we can check coverage and fees.",
-  ],
+  ["Where do you deliver?", "Send your city and postcode to check coverage."],
   [
     "Can I pay online?",
     "Not yet. Requests do not charge you, reserve stock, or start recurring payments.",
@@ -38,7 +37,15 @@ const questions = [
     "The images are generated illustrations. Ask us for current crop and packaging details.",
   ],
 ];
-export default function FAQ() {
+export default async function FAQ() {
+  const { commerce } = await getCatalogue();
+  const entries = [
+    ...questions,
+    [
+      "What does delivery cost?",
+      `${formatMoney(commerce?.deliveryFeeMinor)} per delivery. No free-delivery threshold.`,
+    ],
+  ];
   return (
     <div className="page-width section faq-layout">
       <div className="faq-intro">
@@ -48,7 +55,7 @@ export default function FAQ() {
         </Link>
       </div>
       <div className="faq-list">
-        {questions.map(([question, answer]) => (
+        {entries.map(([question, answer]) => (
           <details key={question}>
             <summary>{question}</summary>
             <p>{answer}</p>

@@ -17,20 +17,8 @@ import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import type { Product } from "@/lib/catalogue";
 import type { CartLine } from "@/lib/cart";
-export type BasketReview = {
-  items: (CartLine & {
-    name: string;
-    availableToEnquire: boolean;
-    unitPrice: null;
-    lineTotal: null;
-  })[];
-  currency: string;
-  subtotal: null;
-  delivery: null;
-  total: null;
-  paymentEnabled: false;
-  verificationEnabled: false;
-};
+import { formatMoney, type BasketReview } from "@/lib/pricing";
+export type { BasketReview } from "@/lib/pricing";
 export function useBasketReview(items: CartLine[]) {
   const key = JSON.stringify(items);
   const [attempt, setAttempt] = useState(0);
@@ -94,17 +82,23 @@ export function BasketSummary({
       </div>
       <div className="summary-row">
         <span>Produce</span>
-        <span>To be confirmed</span>
+        <span>{review ? formatMoney(review.subtotal) : "—"}</span>
       </div>
       <div className="summary-row">
         <span>Delivery</span>
-        <span>To be confirmed</span>
+        <span>{review ? formatMoney(review.delivery) : "—"}</span>
       </div>
       <div className="summary-total">
         <span>Total</span>
-        <span>Awaiting quote</span>
+        <span>
+          {review
+            ? review.total === null
+              ? "Quote required"
+              : formatMoney(review.total)
+            : "—"}
+        </span>
       </div>
-      <p>We’ll confirm the full price before payment.</p>
+      <p>Delivery fee applies once per delivery.</p>
       {children}
       <span className="summary-trust">
         <ShieldCheck size={17} /> No payment is taken at this stage.
@@ -159,6 +153,7 @@ export function BasketPage({ products }: { products: Product[] }) {
           </div>
           {cart.items.map((line) => {
             const product = products.find((p) => p.slug === line.slug);
+            const pricedLine = review?.items.find((i) => i.slug === line.slug);
             const src = product?.imageUrl || productImages[line.slug];
             return (
               <article className="basket-row" key={line.slug}>
@@ -185,7 +180,9 @@ export function BasketPage({ products }: { products: Product[] }) {
                     </Link>
                     <p>
                       {product
-                        ? "Pack size confirmed with your quote"
+                        ? (pricedLine?.packLabel ??
+                          product.price?.packLabel ??
+                          "Pack on request")
                         : "This crop is no longer listed."}
                     </p>
                     <button
@@ -221,15 +218,14 @@ export function BasketPage({ products }: { products: Product[] }) {
                     <Plus size={14} />
                   </button>
                 </div>
-                <span className="basket-price">To be confirmed</span>
+                <span className="basket-price">
+                  {review ? formatMoney(pricedLine?.lineTotal) : "—"}
+                </span>
               </article>
             );
           })}
           <div className="basket-caption">
-            <span>
-              Quantities are requested units. Final pack sizes and prices will
-              be agreed with the farm.
-            </span>
+            <span>Availability on request.</span>
             <button type="button" className="text-link" onClick={cart.clear}>
               Clear basket
             </button>

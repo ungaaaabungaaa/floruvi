@@ -1,3 +1,4 @@
+import { formatMoney } from "@/lib/pricing";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
@@ -51,7 +52,8 @@ export function ProductCard({ product }: { product: Product }) {
           <span className="eyebrow">{categoryLabels[product.category]}</span>
           <h3>{product.name}</h3>
           <p>
-            Ask about availability <span aria-hidden="true">↗</span>
+            {formatMoney(product.price?.amountMinor)}
+            {product.price && <> · {product.price.packLabel}</>}
           </p>
         </div>
       </Link>

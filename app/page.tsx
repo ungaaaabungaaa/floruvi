@@ -71,7 +71,7 @@ export default async function Home() {
           ))}
         </div>
         <p className="catalogue-note">
-          Ask us for current availability and prices. Images are illustrative.
+          Availability on request. Images are illustrative.
         </p>
       </section>
       <section className="photo-story page-width home-boxes">

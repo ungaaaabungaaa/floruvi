@@ -89,7 +89,7 @@ export function Checkout() {
       <div className="page-width section checkout-received">
         <CheckCircle2 size={48} strokeWidth={1.2} />
         <h1>Request received.</h1>
-        <p>We’ve saved your request. We’ll confirm availability and price.</p>
+        <p>We’ve saved your request. We’ll confirm availability.</p>
         <div className="checkout-notice">
           This is an availability request. No order, account, or payment has
           been created.
@@ -388,10 +388,7 @@ export function Checkout() {
               <div className="payment-preview">
                 <span className="eyebrow">PAYMENT</span>
                 <h3>Pay securely with Razorpay</h3>
-                <p>
-                  Payment opens after prices, stock, and delivery are confirmed
-                  and online ordering is enabled.
-                </p>
+                <p>Online payment is not active yet.</p>
                 <button
                   type="button"
                   className="button button-primary"
