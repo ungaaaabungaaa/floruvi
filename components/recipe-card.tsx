@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Clock, ArrowUpRight } from "lucide-react";
+import { Clock } from "lucide-react";
 import type { Recipe } from "@/lib/recipes";
 export function RecipeCard({ recipe }: { recipe: Recipe }) {
   return (
@@ -15,12 +15,11 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
           />
         </div>
         <div className="recipe-card-copy">
-          <span className="eyebrow">{recipe.category}</span>
           <h3>{recipe.name}</h3>
           <p>{recipe.description}</p>
           <span className="recipe-time">
             <Clock size={14} />
-            {recipe.minutes} minutes <ArrowUpRight size={17} />
+            {recipe.minutes} mins
           </span>
         </div>
       </Link>
