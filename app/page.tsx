@@ -15,7 +15,9 @@ import { getRecipes } from "@/lib/recipes";
 import { ProductCard } from "@/components/product-card";
 import { HomeHero } from "@/components/home-hero";
 import { boxSizes } from "@/lib/boxes";
-import body from "@/src/assets/home-story/botanical-body.webp";
+import heart from "@/src/assets/home-story/botanical-heart.webp";
+import kidneys from "@/src/assets/home-story/botanical-kidneys.webp";
+import brain from "@/src/assets/home-story/botanical-brain.webp";
 import strength from "@/src/assets/home-story/everyday-strength.webp";
 import bowl from "@/src/assets/home-story/everyday-bowl.webp";
 import carrots from "@/src/assets/products/gallery/carrot.webp";
@@ -86,6 +88,7 @@ const goodness = [
   },
 ];
 const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
+const healthVisuals = [heart, kidneys, brain];
 
 export default async function Home() {
   const [{ products }, recipes] = await Promise.all([
@@ -147,12 +150,16 @@ export default async function Home() {
           aria-labelledby="home-nutrition-title"
         >
           <div className="home-body-art">
-            <Image
-              src={body}
-              alt="Botanical artwork of a human silhouette filled with green leaves."
-              fill
-              sizes="(max-width:700px) 100vw, 42vw"
-            />
+            {healthVisuals.map((visual) => (
+              <Image
+                src={visual}
+                alt=""
+                aria-hidden="true"
+                fill
+                sizes="(max-width:700px) 100vw, 42vw"
+                key={visual.src}
+              />
+            ))}
           </div>
           <div className="home-nutrition-copy">
             <h2 id="home-nutrition-title">

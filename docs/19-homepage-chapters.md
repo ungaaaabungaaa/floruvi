@@ -11,7 +11,7 @@ Visual references reviewed: [Organic Food Website on Dribbble](https://dribbble.
 The page now contains:
 
 1. Five fresh vegetables directly below the hero, with category shortcuts, wishlist hearts, and purchase controls.
-2. A compact botanical health panel with four linked nutrient themes.
+2. A compact botanical health panel with rotating heart, kidney, and brain studies beside four linked nutrient themes.
 3. Fitness editorial with an adult athlete, cropped without a face, and food, movement, and rest copy.
 4. Four nutrition-led links to carrots, spinach, bell peppers, and leafy greens.
 5. Meal editorial and three working recipe links.
@@ -23,7 +23,7 @@ Editorial banners contain images and text only. The copy does not promise a part
 
 ## Assets and implementation
 
-Three new generated images and their exact prompts are in `src/assets/home-story/generation.json`. The approved hero asset set and footer were preserved. The rejected woman portrait is not used.
+Six generated images and their exact prompts are in `src/assets/home-story/generation.json`. The health panel cycles between three organ studies every five seconds. Reduced-motion mode keeps the heart still. The approved hero asset set and footer were preserved. The rejected woman portrait is not used.
 
 The shared product card now includes the existing wishlist button. This adds the same save control to homepage, shop, recommendation, and wishlist product cards without a second wishlist implementation. The page reuses the catalogue, recipe data, box definitions, and existing routes. Catalogue and recipe reads run in parallel. No package or backend contract was added.
 

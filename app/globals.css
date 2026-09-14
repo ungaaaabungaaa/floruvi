@@ -5124,7 +5124,13 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-fresh-grid .product-card-price-row p > span, .home-more-grid .product-card-price-row p > span { font-size: 10px; }
 .home-nutrition { display: grid; grid-template-columns: .88fr 1.12fr; min-height: 610px; margin-bottom: var(--chapter-space); overflow: hidden; border-radius: 24px; background: #dfe6d3; }
 .home-body-art { position: relative; min-height: 610px; background: #f1efe5; }
-.home-body-art img { object-fit: cover; object-position: center; mix-blend-mode: multiply; }
+.home-body-art img { opacity: 0; object-fit: cover; object-position: center; mix-blend-mode: multiply; animation: home-health-cycle 15s ease-in-out infinite; }
+.home-body-art img:nth-child(2) { animation-delay: 5s; }
+.home-body-art img:nth-child(3) { animation-delay: 10s; }
+@keyframes home-health-cycle {
+  0%, 28% { opacity: 1; transform: scale(1); }
+  34%, 100% { opacity: 0; transform: scale(1.015); }
+}
 .home-nutrition-copy { display: flex; flex-direction: column; justify-content: center; padding: 62px; }
 .home-nutrition-copy h2 { max-width: 610px; }
 .home-benefit-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 48px; border-top: 1px solid #bcc9b5; }
@@ -5248,4 +5254,6 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 }
 @media (prefers-reduced-motion:reduce) {
   .home-goodness-photo img, .home-kitchen-photo img, .home-box-photo img { transition: none; transform: none !important; }
+  .home-body-art img { display: none; animation: none; }
+  .home-body-art img:first-child { display: block; opacity: 1; }
 }
