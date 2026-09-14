@@ -4471,3 +4471,19 @@ button:disabled {
 
 .wishlist-link { position: relative; flex-shrink: 0; }
 @media(max-width:800px) { .site-header .wishlist-link { margin-left: auto; } .site-header .cart-link { margin-left: 0; } }
+
+@media (max-width: 600px) {
+  .product-page .detail-copy > .add-crop {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 25;
+    margin: 0;
+    padding: 12px max(16px, env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    background: var(--paper, #f8f7f2);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -4px 20px rgb(16 48 35 / 6%);
+  }
+  .product-page .detail-copy > .add-crop > .button { min-width: 0; padding-inline: 12px; }
+  body:has(.product-page) { padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
+  html:has(.product-page) { scroll-padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
+}

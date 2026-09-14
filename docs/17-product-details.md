@@ -33,3 +33,5 @@ The top block now follows the supplied desktop/mobile references: thumbnails bel
 Wishlist hearts and a header menu use browser local storage without accounts. The header count shares the basket badge style and updates on add/remove and cross-tab storage events. Browser checks confirmed 1 → 0 → 1, persistence after reload, the saved-product link, matching recipe-image links and no mobile overflow. Lint and TypeScript passed. These changes are local; checkout account sync is future work.
 
 Owner approved publication of the hero and wishlist changes. Fixed the mobile storage-section overlap by replacing the hero grid's percentage row gap with 30px while preserving the 5% column gap. At 390px and 430px, the next section starts 35px below the storage card with no horizontal overflow.
+
+Mobile follow-up: the existing product quantity and basket controls stay fixed at the bottom at phone widths, with safe-area padding and footer clearance. Verified visible before/after scrolling at 390px, fitting at 320px without overflow, and remaining inline on desktop. No duplicate basket controls or quantity state were added.
