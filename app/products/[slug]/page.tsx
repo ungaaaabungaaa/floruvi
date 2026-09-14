@@ -62,10 +62,7 @@ export default async function ProductDetails({ params }: Props) {
           <h1>{p.name}</h1>
           <p className="detail-description">{p.description}</p>
           <div className="availability">
-            <span className="status-dot" /> Available to enquire
-            <span>
-              Harvest dates, pack sizes, and price confirmed on request.
-            </span>
+            <span className="status-dot" /> Availability on request
           </div>
           <AddToCart slug={p.slug} name={p.name} />
           <Button asChild variant="outline">
@@ -105,7 +102,7 @@ export default async function ProductDetails({ params }: Props) {
         </div>
       </div>
       <details className="source-details">
-        <summary>About this crop listing and its growing reference</summary>
+        <summary>Growing reference</summary>
         <p>
           This crop is a candidate for production. It is not a claim of current
           stock or guaranteed local yield. {p.sourceNote}
@@ -117,8 +114,7 @@ export default async function ProductDetails({ params }: Props) {
       <section className="section">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">KEEP EXPLORING</span>
-            <h2>Good company for your kitchen.</h2>
+            <h2>More vegetables.</h2>
           </div>
         </div>
         <div className="product-grid">

@@ -1,19 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import {
-  ArrowRight,
-  Leaf,
-  Droplets,
-  Sprout,
-  Utensils,
-  Heart,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import hero from "@/src/assets/hero-lifestyle.png";
 import towers from "@/src/assets/growing-towers.png";
 import salad from "@/src/assets/salad-bowl.png";
+import box from "@/src/assets/delivery-greens.png";
 
 export default async function Home() {
   const { categories, products } = await getCatalogue();
@@ -37,42 +31,16 @@ export default async function Home() {
           className="hero-photo"
         />
         <div className="lifestyle-copy">
-          <span className="eyebrow">FRESHNESS WORTH GROWING</span>
           <h1>
-            Better Food.
-            <br />A Healthier You.
+            Fresh greens.
             <br />
-            <span>A Brighter Tomorrow.</span>
+            For your table.
           </h1>
-          <p>
-            Fresh ideas. Real vegetables.
-            <br />A little more goodness on your plate.
-          </p>
           <Button asChild>
             <Link href="/products">
-              Explore Fresh Greens <ArrowRight size={18} />
+              Shop vegetables <ArrowRight size={18} />
             </Link>
           </Button>
-          <div className="hero-benefits">
-            <span>
-              <Leaf strokeWidth={1.2} />
-              Fresh
-              <br />
-              possibilities
-            </span>
-            <span>
-              <Droplets strokeWidth={1.2} />
-              Soilless
-              <br />
-              growing
-            </span>
-            <span>
-              <Heart strokeWidth={1.2} />
-              Made for
-              <br />
-              your table
-            </span>
-          </div>
         </div>
         <span className="handwritten hero-handwriting">
           Freshness
@@ -83,9 +51,7 @@ export default async function Home() {
       <section className="section page-width home-produce">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">FROM OUR GROWING LIST</span>
-            <h2>Meet your everyday greens.</h2>
-            <p>Familiar favourites. A fresh place to start.</p>
+            <h2>Shop vegetables.</h2>
           </div>
           <Link className="text-link" href="/products">
             View all produce <ArrowRight size={17} />
@@ -105,24 +71,37 @@ export default async function Home() {
           ))}
         </div>
         <p className="catalogue-note">
-          Explore the crops we can plan for. Ask us to confirm the current
-          harvest, pack sizes, and prices. Images are illustrative.
+          Ask us for current availability and prices. Images are illustrative.
         </p>
+      </section>
+      <section className="photo-story page-width home-boxes">
+        <div className="photo-story-image">
+          <Image
+            src={box}
+            alt="Illustrative vegetable box"
+            fill
+            sizes="(max-width:800px) 100vw, 50vw"
+          />
+        </div>
+        <div className="photo-story-copy">
+          <span className="eyebrow">BOX SUBSCRIPTIONS</span>
+          <h2>
+            Vegetables,
+            <br />
+            on your schedule.
+          </h2>
+          <p>Single · Dual · Family</p>
+          <Button asChild>
+            <Link href="/boxes">
+              Choose your box <ArrowRight size={17} />
+            </Link>
+          </Button>
+        </div>
       </section>
       <section className="photo-story page-width">
         <div className="photo-story-copy">
-          <span className="eyebrow">HOW WE GROW</span>
-          <h2>
-            Clean thinking.
-            <br />
-            From the ground up.
-            <br />
-            <em>Without the soil.</em>
-          </h2>
-          <p>
-            Water, nutrients, light, and care. Discover how hydroponic and
-            aeroponic systems bring a different approach to growing vegetables.
-          </p>
+          <h2>Soilless growing.</h2>
+          <p>Hydroponics and aeroponics, explained.</p>
           <Button asChild>
             <Link href="/how-we-grow">
               See How It Works <ArrowRight size={17} />
@@ -138,34 +117,7 @@ export default async function Home() {
           />
         </div>
       </section>
-      <section className="section page-width nutrition-intro">
-        <span className="eyebrow">SMALL CHANGES, EVERY DAY</span>
-        <h2>Make room for more good food.</h2>
-        <p>
-          A mix of vegetables, grains, pulses, and other foods can make everyday
-          meals both varied and satisfying. Start with what you enjoy.
-        </p>
-        <div className="simple-benefits">
-          <div>
-            <Leaf />
-            <h3>More variety</h3>
-            <p>Try a new leaf, colour, or flavour.</p>
-          </div>
-          <div>
-            <Utensils />
-            <h3>Simple meals</h3>
-            <p>Small ideas for your everyday cooking.</p>
-          </div>
-          <div>
-            <Sprout />
-            <h3>A little curiosity</h3>
-            <p>Get to know what goes on your plate.</p>
-          </div>
-        </div>
-        <Link href="/health" className="text-link">
-          Explore health & nutrition <ArrowRight size={17} />
-        </Link>
-      </section>
+
       <section className="recipe-feature">
         <div className="recipe-feature-image">
           <Image
@@ -176,19 +128,7 @@ export default async function Home() {
           />
         </div>
         <div className="recipe-feature-copy">
-          <span className="eyebrow">FRESH FROM THE KITCHEN</span>
-          <h2>
-            Real vegetables.
-            <br />
-            Simple meals.
-            <br />
-            Happier days.
-          </h2>
-          <p>
-            A handful of greens. A few good ingredients.
-            <br />
-            Fresh ideas for the food you make every day.
-          </p>
+          <h2>Simple recipes.</h2>
           <Button asChild>
             <Link href="/recipes">
               Explore Recipes <ArrowRight size={18} />
@@ -198,13 +138,7 @@ export default async function Home() {
       </section>
       <section className="section page-width business-invite">
         <div>
-          <span className="eyebrow">FOR YOUR HOME. FOR YOUR BUSINESS.</span>
-          <h2>Let’s grow something together.</h2>
-          <p>
-            From a family table to a busy restaurant kitchen.
-            <br />
-            Tell us what you need, and we’ll take it from there.
-          </p>
+          <h2>Buying for a business?</h2>
         </div>
         <div className="button-row">
           <Button asChild>

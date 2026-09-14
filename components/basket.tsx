@@ -104,10 +104,7 @@ export function BasketSummary({
         <span>Total</span>
         <span>Awaiting quote</span>
       </div>
-      <p>
-        We will confirm pack sizes, availability, and the full price before you
-        pay.
-      </p>
+      <p>We’ll confirm the full price before payment.</p>
       {children}
       <span className="summary-trust">
         <ShieldCheck size={17} /> No payment is taken at this stage.
@@ -123,12 +120,8 @@ export function EmptyBasket() {
     <section className="empty-basket">
       <ShoppingBag size={45} strokeWidth={1} />
       <span className="eyebrow">ROOM FOR SOMETHING FRESH</span>
-      <h1>Your basket is waiting.</h1>
-      <p>
-        Find a familiar favourite or try a new green.
-        <br />
-        No account needed to start exploring.
-      </p>
+      <h1>Your basket is empty.</h1>
+      <p>Choose vegetables to get started.</p>
       <Link className="button button-primary" href="/products">
         Explore the Produce <ArrowRight size={17} />
       </Link>
@@ -151,7 +144,6 @@ export function BasketPage({ products }: { products: Product[] }) {
         <div>
           <span className="eyebrow">FRESHNESS WORTH GROWING</span>
           <h1>Your basket.</h1>
-          <p>A good meal starts with a few good ingredients.</p>
         </div>
         <Link className="text-link" href="/products">
           <ArrowLeft size={15} />
@@ -243,7 +235,7 @@ export function BasketPage({ products }: { products: Product[] }) {
             </button>
           </div>
           <div className="basket-help">
-            <h2>Something for a bigger kitchen?</h2>
+            <h2>Buying for a business?</h2>
             <p>Tell us about your business and regular produce needs.</p>
             <Link className="text-link" href="/wholesale">
               Business enquiries <ArrowRight size={16} />

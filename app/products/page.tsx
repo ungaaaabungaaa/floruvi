@@ -18,22 +18,13 @@ export default async function Products() {
         <Image src={towers} alt="" fill sizes="100vw" preload />
         <div>
           <span className="eyebrow">THE FLORUVI GROWING LIST</span>
-          <h1>
-            Fresh.
-            <br />
-            From our growing list.
-          </h1>
-          <p>
-            Everyday favourites and new discoveries. Explore what’s possible,
-            <br className="desktop-break" /> then ask us what’s available for
-            your home or kitchen.
-          </p>
+          <h1>Vegetables & herbs.</h1>
+          <p>Ask us for current availability and prices.</p>
         </div>
       </div>
       <CatalogueBrowser preloaded={preloaded} />
       <p className="catalogue-note">
-        This is a crop planning catalogue. Listings do not mean current stock.
-        Specialist crops need a suitable growing system and a farm trial.
+        Crop listings are for planning, not live stock.
       </p>
     </div>
   );

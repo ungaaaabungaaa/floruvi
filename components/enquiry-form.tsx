@@ -8,9 +8,11 @@ import { enquirySchema } from "@/lib/enquiry";
 export function EnquiryForm({
   kind,
   product = "",
+  message = "",
 }: {
   kind: "business" | "personal";
   product?: string;
+  message?: string;
 }) {
   const [status, setStatus] = useState<"idle" | "sending" | "success">("idle");
   const [error, setError] = useState("");
@@ -54,10 +56,7 @@ export function EnquiryForm({
         <CheckCircle2 size={44} strokeWidth={1.4} />
         <span className="eyebrow">REQUEST RECEIVED</span>
         <h2>Thanks for reaching out.</h2>
-        <p>
-          Your enquiry is saved with Floruvi. Keep exploring while the farm
-          reviews your request.
-        </p>
+        <p>We’ve saved your request.</p>
         <p className="muted">
           This is an enquiry, not a confirmed order. No payment has been taken.
         </p>
@@ -71,12 +70,7 @@ export function EnquiryForm({
   return (
     <form onSubmit={submit} className="enquiry-form">
       <div className="form-heading">
-        <h2>
-          {kind === "business"
-            ? "Tell us about your kitchen."
-            : "What’s on your mind?"}
-        </h2>
-        <p>A few details will help us understand what you need.</p>
+        <h2>{kind === "business" ? "Your details" : "Your details"}</h2>
       </div>
       <div className="form-grid">
         <label>
@@ -136,7 +130,7 @@ export function EnquiryForm({
           />
         </label>
         <label>
-          Produce you’re interested in
+          Produce or box
           <input
             name="interest"
             defaultValue={product.slice(0, 160)}
@@ -160,10 +154,11 @@ export function EnquiryForm({
           />
         </label>
         <label className="full-width">
-          A little more detail <span>*</span>
+          Message <span>*</span>
           <textarea
             name="message"
-            placeholder="Tell us about your needs, preferred timing, or any questions."
+            defaultValue={message}
+            placeholder="Your request"
             required
             minLength={10}
             maxLength={2000}
@@ -200,9 +195,7 @@ export function EnquiryForm({
           </>
         )}
       </Button>
-      <p className="form-footnote">
-        No account needed. Fields marked * are required.
-      </p>
+      <p className="form-footnote">* Required fields.</p>
     </form>
   );
 }

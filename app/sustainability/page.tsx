@@ -16,14 +16,11 @@ export default function Sustainability() {
         <div>
           <span className="eyebrow">OUR SUSTAINABILITY APPROACH</span>
           <h1>
-            Good Food.
+            Water, energy,
             <br />
-            Thoughtful Choices.
+            and waste.
           </h1>
-          <p>
-            Growing well means paying attention to the resources behind each
-            leaf. Our approach is to measure, learn, and improve.
-          </p>
+          <p>Our priorities for the farm.</p>
           <Link href="/how-we-grow" className="text-link">
             Explore how it works <ArrowRight size={17} />
           </Link>
@@ -44,17 +41,17 @@ export default function Sustainability() {
             {
               icon: Droplets,
               title: "Follow the water",
-              body: "Track water use and system losses. Use the results to guide changes to the growing process.",
+              body: "Track water use and system losses.",
             },
             {
               icon: Sun,
               title: "Count the energy",
-              body: "Include pumps, lighting, and climate control when assessing a growing system. There is more to the picture than water alone.",
+              body: "Measure pumps, lighting, and climate control.",
             },
             {
               icon: Leaf,
               title: "Plan the harvest",
-              body: "Match crop plans to real demand and review handling, packaging, and waste along the way.",
+              body: "Match the harvest to demand. Review packaging and waste.",
             },
           ].map(({ icon: Icon, title, body }) => (
             <article key={title}>
@@ -71,12 +68,8 @@ export default function Sustainability() {
         </p>
       </section>
       <section className="green-editorial page-width">
-        <h2>
-          Better questions.
-          <br />
-          Better growing decisions.
-        </h2>
-        <p>Have a question about the farm or a supply requirement?</p>
+        <h2>Ask about our approach.</h2>
+
         <Link className="button button-light" href="/contact">
           Talk to Floruvi <ArrowRight size={17} />
         </Link>

@@ -14,17 +14,8 @@ export default function OurFarm() {
       <div className="about-hero">
         <div className="page-heading">
           <span className="eyebrow">THE IDEA BEHIND FLORUVI</span>
-          <h1>
-            Good food.
-            <br />
-            Fresh thinking.
-            <br />
-            <em>Room to grow.</em>
-          </h1>
-          <p>
-            We’re building a simple connection between the farm and the people
-            who cook. For a home, a café, or a whole kitchen team.
-          </p>
+          <h1>Our farm.</h1>
+          <p>Vegetables for homes, cafés, and restaurants.</p>
         </div>
         <div className="about-art">
           <Image
@@ -41,17 +32,17 @@ export default function OurFarm() {
           {
             icon: Droplets,
             title: "Explore soilless growing",
-            body: "Hydroponics supplies plant roots with water and nutrients without conventional soil. Aeroponics delivers a nutrient mist to suspended roots. Each crop needs the right system.",
+            body: "Hydroponics uses nutrient-rich water. Aeroponics uses a nutrient mist.",
           },
           {
             icon: Sprout,
             title: "Start with the right crop",
-            body: "Our catalogue brings together familiar soilless crops and specialist possibilities. A listing is a starting point for a conversation, not a promise that every crop is in harvest.",
+            body: "Browse the catalogue, then ask us what is in harvest.",
           },
           {
             icon: HeartHandshake,
             title: "Keep the conversation easy",
-            body: "Browse freely. Tell us about the produce, quantity, and location you have in mind. We can then confirm what is available and what comes next.",
+            body: "Send your crop list, quantity, and delivery area.",
           },
         ].map(({ icon: Icon, title, body }) => (
           <article key={title}>
@@ -62,7 +53,7 @@ export default function OurFarm() {
         ))}
       </div>
       <div className="about-cta">
-        <h2>What would you like to see growing?</h2>
+        <h2>Ask about the farm.</h2>
         <Button asChild>
           <Link href="/contact">
             Tell us about it <ArrowUpRight size={18} />

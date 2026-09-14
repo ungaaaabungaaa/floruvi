@@ -16,16 +16,8 @@ export default function Recipes() {
       <section className="editorial-hero page-width">
         <div>
           <span className="eyebrow">RECIPES</span>
-          <h1>
-            Simple Meals.
-            <br />
-            Brighter Days.
-          </h1>
-          <p>
-            Fresh ideas to make vegetables a delicious part of your everyday
-            life. A few ingredients. Plenty to enjoy.
-          </p>
-          <span className="handwritten">Real food. Real joy.</span>
+          <h1>Simple recipes.</h1>
+          <p>Salads, smoothies, bowls, and pasta.</p>
         </div>
         <div className="editorial-image">
           <Image
@@ -42,12 +34,8 @@ export default function Recipes() {
       </section>
       <section className="green-editorial page-width">
         <span className="eyebrow">START WITH SOMETHING FRESH</span>
-        <h2>
-          Good ingredients.
-          <br />
-          Happier days.
-        </h2>
-        <p>Find the greens that make your next meal.</p>
+        <h2>Find your ingredients.</h2>
+
         <Link className="button button-light" href="/products">
           Explore the growing list <ArrowRight size={17} />
         </Link>

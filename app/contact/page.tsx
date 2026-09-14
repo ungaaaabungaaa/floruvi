@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EnquiryPage } from "@/components/enquiry-page";
+import { getBoxRequest } from "@/lib/boxes";
 export const metadata: Metadata = {
   title: "Contact the farm",
   description:
@@ -9,13 +10,17 @@ export const metadata: Metadata = {
 export default async function Contact({
   searchParams,
 }: {
-  searchParams: Promise<{ product?: string }>;
+  searchParams: Promise<{ product?: string; box?: string; schedule?: string }>;
 }) {
-  const { product } = await searchParams;
+  const { product, box, schedule } = await searchParams;
+  const request = getBoxRequest(box, schedule);
   return (
     <EnquiryPage
       business={false}
-      product={typeof product === "string" ? product : ""}
+      product={
+        request?.interest ?? (typeof product === "string" ? product : "")
+      }
+      message={request?.message}
     />
   );
 }

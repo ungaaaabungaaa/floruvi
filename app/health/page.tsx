@@ -19,10 +19,7 @@ export default function Health() {
             Small Changes.
             <br />A Healthier You.
           </h1>
-          <p>
-            Good food is an everyday habit. Start with more variety, a few fresh
-            ingredients, and meals you enjoy.
-          </p>
+          <p>Add vegetables to meals you already enjoy.</p>
           <Link href="#everyday-goodness" className="button button-primary">
             Explore the Goodness <ArrowRight size={17} />
           </Link>
@@ -54,22 +51,22 @@ export default function Health() {
             {
               icon: Heart,
               title: "Make it a pattern",
-              body: "A healthy diet includes a variety of vegetables, fruits, pulses, wholegrains, and protein sources. No single leaf does it all.",
+              body: "Include vegetables, fruits, pulses, wholegrains, and protein sources.",
             },
             {
               icon: Leaf,
               title: "Make room for fibre",
-              body: "Vegetables and fruits contribute dietary fibre, along with vitamins and minerals. Enjoy a mix of foods across your day.",
+              body: "Vegetables and fruits provide fibre, vitamins, and minerals.",
             },
             {
               icon: Sprout,
               title: "Try different colours",
-              body: "Vegetables of different colours offer a variety of nutrients. Mix leafy greens with other vegetables you like.",
+              body: "Mix leafy greens with other vegetables.",
             },
             {
               icon: Utensils,
               title: "Keep meals practical",
-              body: "Add greens to a familiar meal, prepare a simple side, or try one new recipe. Choose a routine that fits your kitchen.",
+              body: "Add greens to a familiar meal or try a simple side.",
             },
           ].map(({ icon: Icon, title, body }) => (
             <article key={title}>
@@ -101,12 +98,8 @@ export default function Health() {
       </section>
       <section className="green-editorial page-width">
         <span className="eyebrow">FOOD FOR EVERYDAY LIVING</span>
-        <h2>
-          Feed your future,
-          <br />
-          one meal at a time.
-        </h2>
-        <p>Make something colourful. Share something good.</p>
+        <h2>Try a recipe.</h2>
+
         <Link href="/recipes" className="button button-light">
           Find Your Next Recipe <ArrowRight size={17} />
         </Link>

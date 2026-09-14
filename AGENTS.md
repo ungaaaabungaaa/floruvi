@@ -9,6 +9,11 @@
 - Treat confirmed user decisions as authority. Clearly label assumptions and proposals.
 - The current scope includes public pages, a broad crop catalogue, categories, product details, B2B/B2C enquiries, recipes, nutrition and growing pages, and connection to the owner's existing Convex project. Basket and checkout pages are included. Code delivery and payments remain disabled until the providers and sale details are ready. Chat stays hidden.
 
+## Copy and subscriptions
+
+- Keep storefront copy short. Remove repeated slogans and explanations. Preserve necessary prices, availability, privacy, consent, and error text.
+- Box choices: Single (1), Dual (2), Family (4+). Delivery choices: daily, weekly, every two weeks. Until sale/provider setup is complete, these create availability enquiries, not active recurring subscriptions.
+
 ## Brand
 
 - The tagline is “Freshness worth growing”. Use the supplied carrot mark for the site identity.

@@ -27,10 +27,7 @@ export default function HowWeGrow() {
             <br />
             <em>Without the Soil.</em>
           </h1>
-          <p>
-            Plants need water, nutrients, light, and care. Soilless systems
-            supply those needs in a different way.
-          </p>
+          <p>Water and nutrients reach the roots directly.</p>
           <a href="#growing-steps" className="button button-primary">
             See the Process <ArrowRight size={17} />
           </a>
@@ -47,7 +44,7 @@ export default function HowWeGrow() {
       </section>
       <section className="section page-width" id="growing-steps">
         <span className="eyebrow">FROM A SMALL BEGINNING</span>
-        <h2>A little care at every step.</h2>
+        <h2>From seed to harvest.</h2>
         <div className="growing-steps">
           {[
             {
@@ -103,11 +100,8 @@ export default function HowWeGrow() {
       </section>
       <section className="green-editorial page-width">
         <span className="eyebrow">THOUGHTFUL GROWING</span>
-        <h2>
-          Good food.
-          <br />A little more thought.
-        </h2>
-        <p>Good growing decisions start with the right questions.</p>
+        <h2>Water, energy, and waste.</h2>
+
         <Link className="button button-light" href="/sustainability">
           Our Sustainability Approach <ArrowRight size={17} />
         </Link>

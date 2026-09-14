@@ -12,6 +12,8 @@ Send a short list of the crops you can supply now. The full 85-crop catalogue is
 
 Confirm currency, whether prices include tax, business tax details where applicable, and any B2B minimum quantity. We will use these values on the server for stock and payment checks.
 
+For each subscription box, also confirm contents or weight, price per delivery, substitutions, start date rules, pause/cancellation rules, and whether billing is per delivery or prepaid.
+
 ## 2. Delivery rules
 
 - Cities and postal codes served.

@@ -6,51 +6,45 @@ export const metadata: Metadata = {
 };
 const questions = [
   [
-    "How do I buy from Floruvi?",
-    "Browse the crops, add your choices to the basket, and send an availability request at checkout. The farm can then confirm the produce, pack sizes, price, and delivery. The request is not a confirmed order.",
+    "How do I order?",
+    "Add crops to your basket and send a request. We’ll confirm availability, price, and delivery before you pay.",
   ],
   [
-    "Do I need an account to browse?",
-    "No. You can browse, use the basket, and send an enquiry without an account. Email and phone verification will be offered at the final checkout step when purchasing is enabled.",
+    "Which boxes can I choose?",
+    "Single for one person, Dual for two, and Family for four or more. Choose daily, weekly, or every-two-weeks delivery. Contents, prices, and coverage need confirmation.",
   ],
   [
-    "Are all listed crops available now?",
-    "No. The catalogue includes common and specialist crops that can suit hydroponic or aeroponic growing. Each crop has growing notes. The farm must confirm availability for your request.",
+    "Do I need an account?",
+    "No account is needed to browse or send a request.",
+  ],
+  [
+    "Is everything in stock?",
+    "No. The catalogue is a growing list. Ask us for the current harvest.",
   ],
   [
     "Where do you deliver?",
-    "Delivery areas and charges are being finalised. Send your city and postcode with your enquiry. We will check your location before confirming delivery.",
+    "Send your city and postcode so we can check coverage and fees.",
   ],
   [
     "Can I pay online?",
-    "Online payment is not active yet. The current checkout sends an availability request. It does not charge you, reserve stock, or create a paid order.",
+    "Not yet. Requests do not charge you, reserve stock, or start recurring payments.",
   ],
   [
-    "Can my business request a regular supply?",
-    "Yes. Use the business enquiry form to share your crop list, quantities, location, and preferred schedule. Supply arrangements must be confirmed by the farm.",
+    "Do you supply businesses?",
+    "Yes. Send your crop list, quantities, location, and schedule through the business form.",
   ],
   [
-    "Are the pictures photos of your current harvest?",
-    "The current site uses generated crop and food illustrations. They help you explore the catalogue. Appearance, size, and packaging can vary; request current harvest details from the farm.",
-  ],
-  [
-    "How does the basket remember my choices?",
-    "Your browser stores crop identifiers and quantities on your device. It does not store checkout contact or address details in the basket. You can remove items or clear the basket at any time.",
+    "Are the images of your harvest?",
+    "The images are generated illustrations. Ask us for current crop and packaging details.",
   ],
 ];
 export default function FAQ() {
   return (
     <div className="page-width section faq-layout">
       <div className="faq-intro">
-        <span className="eyebrow">A FEW THINGS TO KNOW</span>
-        <h1>
-          Good questions.
-          <br />
-          <em>Simple answers.</em>
-        </h1>
-        <p>From choosing your greens to planning your first delivery.</p>
+        <h1>Questions?</h1>
         <Link href="/contact" className="text-link">
-          Ask us something else →
+          Contact us →
         </Link>
       </div>
       <div className="faq-list">

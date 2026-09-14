@@ -13,25 +13,15 @@ export default function RealTalk() {
       <section className="editorial-hero page-width real-talk-hero">
         <div>
           <span className="eyebrow">REAL TALK</span>
-          <h1>
-            A Better Plate.
-            <br />A Simpler Plan.
-          </h1>
-          <p>
-            Good food does not need to become another complicated project. Start
-            with meals you know, ingredients you enjoy, and a plan you can
-            repeat.
-          </p>
+          <h1>Plan your meals.</h1>
+          <p>Choose a few meals before you shop.</p>
           <Link href="/recipes" className="button button-primary">
             Start in the Kitchen <ArrowRight size={17} />
           </Link>
         </div>
         <div className="kitchen-paper">
           <span className="eyebrow">THIS WEEK’S GOOD FOOD PLAN</span>
-          <h2>
-            A little list.
-            <br />A fresh start.
-          </h2>
+          <h2>This week.</h2>
           {[
             "Pick two meals you enjoy",
             "Choose a leafy green",
@@ -64,8 +54,8 @@ export default function RealTalk() {
         </Link>
       </section>
       <section className="green-editorial page-width">
-        <h2>Feed your everyday.</h2>
-        <p>Find a fresh ingredient for the meal you already love.</p>
+        <h2>Choose your vegetables.</h2>
+
         <Link href="/products" className="button button-light">
           Explore Fresh Greens <ArrowRight size={17} />
         </Link>

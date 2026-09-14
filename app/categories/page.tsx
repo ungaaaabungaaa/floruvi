@@ -13,13 +13,7 @@ export default async function Categories() {
   return (
     <div className="page-width section">
       <div className="page-heading">
-        <span className="eyebrow">SO MANY WAYS TO GROW</span>
-        <h1>
-          Good things.
-          <br />
-          <em>By nature.</em>
-        </h1>
-        <p>Six starting points for your next great dish.</p>
+        <h1>Categories.</h1>
       </div>
       <div className="category-index">
         {categories.map((c, i) => (
@@ -45,7 +39,6 @@ export default async function Categories() {
               <h2>
                 {c.name} <ArrowUpRight size={26} />
               </h2>
-              <p>{c.description}</p>
             </div>
           </Link>
         ))}

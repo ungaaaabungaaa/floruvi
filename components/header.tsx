@@ -10,10 +10,11 @@ import { Brand } from "./brand";
 
 const links = [
   ["/products", "Shop"],
+  ["/boxes", "Boxes"],
   ["/our-farm", "Our Story"],
   ["/health", "Health"],
   ["/recipes", "Recipes"],
-  ["/wholesale", "For businesses"],
+  ["/wholesale", "Business"],
 ];
 export function Header() {
   const pathname = usePathname();

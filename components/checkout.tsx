@@ -88,16 +88,8 @@ export function Checkout() {
     return (
       <div className="page-width section checkout-received">
         <CheckCircle2 size={48} strokeWidth={1.2} />
-        <span className="eyebrow">YOUR REQUEST IS WITH THE FARM</span>
-        <h1>
-          Fresh beginnings.
-          <br />
-          We’ll take it from here.
-        </h1>
-        <p>
-          Your basket enquiry has been saved. Floruvi will review the crops,
-          quantities, and delivery area before confirming a quote.
-        </p>
+        <h1>Request received.</h1>
+        <p>We’ve saved your request. We’ll confirm availability and price.</p>
         <div className="checkout-notice">
           This is an availability request. No order, account, or payment has
           been created.
@@ -121,8 +113,7 @@ export function Checkout() {
       </Link>
       <div className="checkout-heading">
         <span className="eyebrow">FRESHNESS WORTH GROWING</span>
-        <h1>Good food, on its way.</h1>
-        <p>Tell us about your table. We’ll confirm the fresh details.</p>
+        <h1>Checkout.</h1>
       </div>
       <ol className="checkout-progress" aria-label="Checkout progress">
         {["Your details", "Delivery", "Review & checkout"].map(
@@ -137,13 +128,7 @@ export function Checkout() {
       <div className="checkout-layout">
         <div className="checkout-form-panel">
           <h2 ref={heading} tabIndex={-1}>
-            {
-              [
-                "Let’s get to know your table.",
-                "Where would you like it delivered?",
-                "One last look.",
-              ][step]
-            }
+            {["Your details", "Delivery area", "Review"][step]}
           </h2>
           {error && (
             <p className="form-error" role="alert">
