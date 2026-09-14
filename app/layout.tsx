@@ -3,7 +3,7 @@ import { SiteMotion } from "@/components/site-motion";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { siteUrl } from "@/lib/site";
-import hero from "@/src/assets/hero-lifestyle.png";
+import hero from "@/src/assets/home-hero/harvest.webp";
 import "./globals.css";
 
 export const metadata: Metadata = {

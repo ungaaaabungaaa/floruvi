@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CartLink } from "./add-to-cart";
 import { WishlistMenu } from "./wishlist";
 import { Brand } from "./brand";
@@ -16,8 +16,16 @@ const links = [
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   return (
-    <div className="header-shell">
+    <div
+      className={`header-shell${pathname === "/" ? " header-over-hero" : ""}${scrolled ? " is-scrolled" : ""}`}
+    >
       <header className="site-header">
         <Brand />
         <nav className="desktop-nav" aria-label="Main navigation">

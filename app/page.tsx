@@ -15,7 +15,7 @@ import { RecipeCard } from "@/components/recipe-card";
 import { getRecipes } from "@/lib/recipes";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
-import hero from "@/src/assets/hero-lifestyle.png";
+import { HomeHero } from "@/components/home-hero";
 import towers from "@/src/assets/growing-towers.png";
 import salad from "@/src/assets/salad-bowl.png";
 import box from "@/src/assets/delivery-greens.png";
@@ -44,33 +44,7 @@ export default async function Home() {
   ].flatMap((slug) => products.filter((p) => p.slug === slug));
   return (
     <>
-      <section className="lifestyle-hero">
-        <Image
-          src={hero}
-          alt="A woman enjoys fresh greens at a sunlit kitchen table. image."
-          fill
-          sizes="100vw"
-          preload
-          className="hero-photo"
-        />
-        <div className="lifestyle-copy">
-          <h1>
-            Fresh greens.
-            <br />
-            For your table.
-          </h1>
-          <Button asChild>
-            <Link href="/products">
-              Shop vegetables <ArrowRight size={18} />
-            </Link>
-          </Button>
-        </div>
-        <span className="handwritten hero-handwriting">
-          Freshness
-          <br />
-          worth growing.
-        </span>
-      </section>
+      <HomeHero />
       <section className="section page-width home-produce">
         <div className="section-heading">
           <div>
