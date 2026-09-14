@@ -26,8 +26,8 @@ export function EnquiryPage({
             src={business ? kitchen : delivery}
             alt={
               business
-                ? "Illustrative fresh produce arriving in a professional kitchen"
-                : "Illustrative box of fresh greens"
+                ? "fresh produce arriving in a professional kitchen"
+                : "box of fresh greens"
             }
             fill
             sizes="(max-width: 800px) 100vw, 45vw"

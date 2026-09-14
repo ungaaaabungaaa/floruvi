@@ -7,3 +7,7 @@ export type Catalogue = FunctionReturnType<typeof api.catalogue.browse>;
 export type Product = Catalogue["products"][number];
 export type Category = Catalogue["categories"][number];
 export const getCatalogue = cache(() => fetchQuery(api.catalogue.browse, {}));
+
+export const getProductDetails = cache((slug: string) =>
+  fetchQuery(api.catalogue.details, { slug }),
+);

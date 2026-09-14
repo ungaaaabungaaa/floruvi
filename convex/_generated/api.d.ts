@@ -14,6 +14,8 @@ import type * as enquiries from "../enquiries.js";
 import type * as http from "../http.js";
 import type * as originalRecipes from "../originalRecipes.js";
 import type * as pricingData from "../pricingData.js";
+import type * as productDetailData from "../productDetailData.js";
+import type * as productServingNotes from "../productServingNotes.js";
 import type * as recipeData from "../recipeData.js";
 import type * as recipes from "../recipes.js";
 import type * as seed from "../seed.js";
@@ -31,6 +33,8 @@ declare const fullApi: ApiFromModules<{
   http: typeof http;
   originalRecipes: typeof originalRecipes;
   pricingData: typeof pricingData;
+  productDetailData: typeof productDetailData;
+  productServingNotes: typeof productServingNotes;
   recipeData: typeof recipeData;
   recipes: typeof recipes;
   seed: typeof seed;

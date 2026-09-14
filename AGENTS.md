@@ -16,6 +16,8 @@
 
 ## Brand
 
+- Editorial banners contain images and text only. Do not add buttons inside them. Keep purchase controls in the product section.
+
 - The tagline is “Freshness worth growing”. Use the supplied carrot mark for the site identity.
 
 ## Product boundaries

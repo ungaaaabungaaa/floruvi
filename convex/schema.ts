@@ -54,6 +54,22 @@ export default defineSchema({
       }),
     ),
     pricingRevision: v.optional(v.string()),
+    details: v.optional(
+      v.object({
+        tagline: v.string(),
+        benefits: v.array(
+          v.object({ icon: v.string(), title: v.string(), text: v.string() }),
+        ),
+        preparation: v.string(),
+        storage: v.string(),
+        nutritionTitle: v.string(),
+        nutrition: v.array(
+          v.object({ icon: v.string(), title: v.string(), text: v.string() }),
+        ),
+        nutritionSource: v.string(),
+        bannerIndex: v.number(),
+      }),
+    ),
   })
     .index("by_slug", ["slug"])
     .index("by_published", ["published"]),

@@ -30,7 +30,7 @@ export default async function Delivery() {
         <div className="about-art">
           <Image
             src={greens}
-            alt="Illustrative box of fresh greens, ready to be packed"
+            alt="box of fresh greens, ready to be packed"
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
             preload

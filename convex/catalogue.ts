@@ -1,3 +1,4 @@
+import { v } from "convex/values";
 import { query } from "./_generated/server";
 
 export const browse = query({
@@ -51,5 +52,17 @@ export const browse = query({
           })),
       ),
     };
+  },
+});
+
+// Detailed editorial content is fetched only for the open product page.
+export const details = query({
+  args: { slug: v.string() },
+  handler: async (ctx, { slug }) => {
+    const product = await ctx.db
+      .query("products")
+      .withIndex("by_slug", (q) => q.eq("slug", slug))
+      .unique();
+    return product?.published ? (product.details ?? null) : null;
   },
 });

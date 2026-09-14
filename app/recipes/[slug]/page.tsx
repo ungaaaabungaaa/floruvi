@@ -80,7 +80,6 @@ export default async function RecipeDetails({ params }: Props) {
           />
         </div>
       </section>
-      <p className="box-note">{r.imageCaption}</p>
       <div className="recipe-instructions">
         <aside>
           <span className="eyebrow">WHAT YOU NEED</span>

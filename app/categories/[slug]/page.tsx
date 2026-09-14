@@ -42,7 +42,7 @@ export default async function Category({ params }: Props) {
         <div className="category-heading-image">
           <Image
             src={categoryImages[slug]}
-            alt={`${c.name}, illustrative assortment`}
+            alt={`${c.name} assortment`}
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
             preload

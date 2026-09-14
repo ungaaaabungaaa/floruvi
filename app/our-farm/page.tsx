@@ -20,7 +20,7 @@ export default function OurFarm() {
         <div className="about-art">
           <Image
             src={towers}
-            alt="Illustrative grower’s hands holding a young lettuce plant"
+            alt="grower’s hands holding a young lettuce plant"
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
             preload

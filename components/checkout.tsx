@@ -474,7 +474,7 @@ export function Checkout() {
           <div className="checkout-photo">
             <Image
               src={delivery}
-              alt="Illustrative box of fresh produce"
+              alt="box of fresh produce"
               fill
               sizes="(max-width:800px) 100vw, 35vw"
             />

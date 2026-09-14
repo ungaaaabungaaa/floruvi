@@ -24,11 +24,7 @@ export function ProductCard({ product }: { product: Product }) {
           {cropImage ? (
             <Image
               src={cropImage}
-              alt={
-                product.imageUrl
-                  ? product.name
-                  : `${product.name}, illustrative image`
-              }
+              alt={product.name}
               fill
               sizes="(max-width: 640px) 50vw, 25vw"
               unoptimized={Boolean(product.imageUrl)}

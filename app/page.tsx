@@ -47,7 +47,7 @@ export default async function Home() {
       <section className="lifestyle-hero">
         <Image
           src={hero}
-          alt="A woman enjoys fresh greens at a sunlit kitchen table. Illustrative image."
+          alt="A woman enjoys fresh greens at a sunlit kitchen table. image."
           fill
           sizes="100vw"
           preload
@@ -96,13 +96,12 @@ export default async function Home() {
             );
           })}
         </div>
-        <p className="catalogue-note">Images are illustrative.</p>
       </section>
       <section className="photo-story page-width home-story">
         <div className="photo-story-image">
           <Image
             src={box}
-            alt="Illustrative vegetable box"
+            alt="vegetable box"
             fill
             sizes="(max-width:800px) 100vw, 50vw"
           />

@@ -4335,3 +4335,105 @@ button:disabled {
   .recipe-interlude.left::before, .recipe-interlude.right::before { background: linear-gradient(0deg, #f6f1e5f5 0%, #f6f1e5bb 40%, transparent 95%); }
   .recipe-interlude.dark::before { background: linear-gradient(0deg, #102e21f5 0%, #102e2199 50%, transparent 100%); }
 }
+
+/* Product details: quiet editorial layout, shared cards and botanical stories. */
+.product-page { padding-top: 36px; padding-bottom: 70px; }
+.product-page .product-detail { gap: clamp(30px, 5vw, 80px); align-items: center; }
+.product-page .product-gallery { display: grid; grid-template-columns: 68px minmax(0,1fr); gap: 14px; }
+.product-page .gallery-main { grid-column: 2; grid-row: 1; border-radius: 12px; aspect-ratio: .93; }
+.product-page .gallery-thumbnails { grid-column: 1; grid-row: 1; flex-direction: column; margin: 0; gap: 10px; }
+.product-page .gallery-thumbnails button { width: 68px; height: 78px; border-radius: 8px; }
+.product-page .gallery-thumbnails button:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.product-page .image-caption { grid-column: 2; margin: 0; font-size: 10px; }
+.product-page .detail-copy { padding: 0; }
+.product-page .detail-copy h1 { font-size: clamp(38px,4.2vw,66px); line-height: 1.04; margin: 0 0 16px; letter-spacing: -.035em; }
+.product-tagline { font-size: 14px; line-height: 1.6; margin-bottom: 14px; }
+.product-page .detail-description { max-width: 450px; font-size: 14px; line-height: 1.75; }
+.product-page .detail-price { margin: 24px 0; font-size: 25px; }
+.product-page .detail-price small { font-size: 13px; color: var(--muted); }
+.product-assurances { display: flex; margin: 26px 0; }
+.product-assurances span { display: flex; flex: 1; flex-direction: column; align-items: center; gap: 9px; padding: 0 12px; text-align: center; font-size: 11px; border-right: 1px solid var(--line); }
+.product-assurances span:last-child { border: 0; }
+.product-assurances svg { width: 26px; height: 26px; stroke-width: 1.3; }
+.product-page .add-crop { margin-top: 20px; }
+.product-page .detail-copy .purchase-note { display: none; }
+.product-delivery { margin: 12px 0 22px; color: var(--muted); font-size: 12px; }
+.product-contact-links { display: flex; flex-wrap: wrap; gap: 14px 28px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; }
+.product-contact-links a { display: inline-flex; align-items: center; gap: 5px; }
+.product-contact-links a:hover { text-decoration: underline; }
+.product-why { margin-top: 56px; border-top: 1px solid var(--line); padding-top: 40px; }
+.product-section-heading h2, .product-recommendations h2 { font-size: clamp(29px,3vw,42px); line-height: 1.16; letter-spacing: -.025em; }
+.product-section-heading > p { margin-top: 8px; color: var(--muted); font-size: 13px; }
+.product-benefit-layout { display: grid; grid-template-columns: 1.35fr 1fr; gap: 9%; margin-top: 30px; align-items: start; }
+.product-benefits { display: grid; gap: 26px; }
+.product-benefit { display: flex; align-items: flex-start; gap: 24px; }
+.product-benefit > svg { flex-shrink: 0; width: 38px; height: 38px; color: #b75239; }
+.product-benefit h3 { font-family: var(--font-sans),sans-serif; font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+.product-benefit p { color: var(--muted); font-size: 13px; line-height: 1.7; max-width: 470px; }
+.product-nutrition { padding: 30px; border-radius: 14px; background: #eeeee6; }
+.product-nutrition > h3 { font-size: 25px; line-height: 1.2; margin-bottom: 27px; }
+.nutrition-row { display: flex; align-items: flex-start; gap: 15px; margin: 21px 0; }
+.nutrition-row > svg { width: 23px; height: 23px; flex-shrink: 0; }
+.nutrition-row h4 { font-size: 13px; font-family: var(--font-sans),sans-serif; font-weight: 500; margin-bottom: 4px; }
+.nutrition-row p { color: var(--muted); font-size: 12px; line-height: 1.6; }
+.nutrition-reference { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.product-ways { margin-top: 58px; }
+.product-meal-grid { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 16px; margin-top: 23px; }
+.product-meal { min-width: 0; }
+.product-meal-image { aspect-ratio: 1.2; position: relative; overflow: hidden; border-radius: 10px; }
+.product-meal-image img { object-fit: cover; transition: transform .3s ease; }
+.product-meal:hover img { transform: scale(1.035); }
+.product-meal h3 { font-family: var(--font-sans),sans-serif; font-weight: 500; font-size: 13px; line-height: 1.45; margin: 11px 0 4px; }
+.product-meal p { color: var(--muted); font-size: 10px; }
+.product-story { display: grid; grid-template-columns: 2.2fr 1fr; overflow: hidden; border-radius: 16px; margin: 56px 0; background: #eeeee6; }
+.product-story-art { min-height: 310px; position: relative; display: flex; align-items: center; }
+.product-story-art > img { object-fit: cover; }
+.product-story-copy { position: relative; width: 56%; margin: 30px 4% 30px auto; }
+.product-story-copy h2 { font-size: clamp(26px,2.6vw,38px); line-height: 1.13; letter-spacing: -.025em; white-space: pre-line; }
+.story-rule { display: block; width: 28px; height: 1px; background: var(--green); margin: 19px 0 14px; }
+.product-story-copy > p { text-transform: uppercase; font-size: 9px; letter-spacing: .16em; }
+.product-story-values { padding: 30px; display: flex; flex-direction: column; justify-content: center; gap: 26px; }
+.product-story-values span { display: flex; align-items: center; gap: 17px; font-size: 12px; }
+.product-story-values svg { width: 25px; height: 25px; stroke-width: 1.3; flex-shrink: 0; }
+@media(max-width: 900px) {
+  .product-page .product-gallery { grid-template-columns: 1fr; }
+  .product-page .gallery-main { grid-column: 1; }
+  .product-page .gallery-thumbnails { grid-column: 1; grid-row: 2; flex-direction: row; }
+  .product-page .image-caption { grid-column: 1; }
+  .product-benefit-layout { gap: 5%; grid-template-columns: 1.2fr 1fr; }
+  .product-meal-grid { gap: 12px; }
+  .product-story { grid-template-columns: 1fr; }
+  .product-story-values { flex-direction: row; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+  .product-story-values span { font-size: 11px; gap: 8px; }
+}
+@media(max-width: 600px) {
+  .product-page { padding-top: 20px; }
+  .product-page .product-detail { grid-template-columns: 1fr; gap: 30px; }
+  .product-page .gallery-main { aspect-ratio: 1.1; }
+  .product-page .gallery-thumbnails button { width: 62px; height: 62px; }
+  .product-page .detail-copy h1 { font-size: 40px; }
+  .product-page .detail-price { margin: 19px 0; }
+  .product-why { margin-top: 35px; padding-top: 28px; }
+  .product-benefit-layout { grid-template-columns: 1fr; gap: 28px; }
+  .product-benefit { gap: 18px; }
+  .product-benefit > svg { width: 32px; height: 32px; }
+  .product-nutrition { padding: 25px; }
+  .product-ways { margin-top: 35px; }
+  .product-meal-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px 13px; }
+  .product-meal:last-child { grid-column: auto; }
+  .product-story { margin: 35px 0; }
+  .product-story-art { min-height: 320px; }
+  .product-story-art > img { object-position: 30% center; }
+  .product-story-copy { width: 57%; margin-right: 4%; }
+  .product-story-copy h2 { font-size: 27px; }
+  .product-story-values { padding: 24px; display: grid; grid-template-columns: 1fr 1fr; }
+}
+@media(prefers-reduced-motion:reduce) { .product-meal-image img { transition: none; } .product-meal:hover img { transform: none; } }
+.product-description-extra { display: block; margin-top: 10px; }
+.product-page .detail-description { max-width: 510px; }
+.product-assurances span { padding: 0 7px; font-size: 10px; line-height: 1.4; }
+@media(max-width:600px) { .product-assurances span { padding: 0 4px; font-size: 9px; } .product-assurances svg { width: 23px; height: 23px; } }
+@media(max-width:600px) {
+  .product-story-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent 10%, rgba(246,245,235,.65) 48%, rgba(246,245,235,.94) 100%); pointer-events: none; }
+  .product-story-copy { z-index: 1; }
+}

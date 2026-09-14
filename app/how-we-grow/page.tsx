@@ -35,7 +35,7 @@ export default function HowWeGrow() {
         <div className="editorial-image">
           <Image
             src={towers}
-            alt="Illustrative hydroponic towers growing leafy vegetables"
+            alt="hydroponic towers growing leafy vegetables"
             fill
             sizes="(max-width: 800px) 100vw, 55vw"
             preload

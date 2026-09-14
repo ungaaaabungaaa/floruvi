@@ -1,3 +1,5 @@
+import { v } from "convex/values";
+import { productDetailCatalogue } from "./productDetailData";
 import { recipeCatalogue } from "./recipeData";
 import { internalMutation } from "./_generated/server";
 import { categories, cropCatalogue } from "./catalogueData";
@@ -96,5 +98,56 @@ export const recipes = internalMutation({
       preserved: recipeCatalogue.length - added,
       totalSeedRecipes: recipeCatalogue.length,
     };
+  },
+});
+
+// Fill missing editorial details without changing prices, images or owner copy.
+export const productDetails = internalMutation({
+  args: { refresh: v.optional(v.boolean()) },
+  handler: async (ctx, { refresh }) => {
+    let added = 0;
+    for (const { slug, details } of productDetailCatalogue) {
+      const product = await ctx.db
+        .query("products")
+        .withIndex("by_slug", (q) => q.eq("slug", slug))
+        .unique();
+      if (!product) throw new Error(`Missing product: ${slug}`);
+      if (product.details && !refresh) continue;
+      await ctx.db.patch(product._id, { details });
+      added++;
+    }
+    return { added, total: productDetailCatalogue.length };
+  },
+});
+
+// Append the two new editorial points without replacing any existing content.
+export const productDetailPoints = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    let updated = 0;
+    for (const { slug, details } of productDetailCatalogue) {
+      const product = await ctx.db
+        .query("products")
+        .withIndex("by_slug", (q) => q.eq("slug", slug))
+        .unique();
+      if (!product?.details)
+        throw new Error(`Seed product details first: ${slug}`);
+      const additions = details.benefits.filter(
+        (b) =>
+          ["Pairs well with", "A serving tip"].includes(b.title) &&
+          !product.details!.benefits.some(
+            (existing) => existing.title === b.title,
+          ),
+      );
+      if (!additions.length) continue;
+      await ctx.db.patch(product._id, {
+        details: {
+          ...product.details,
+          benefits: [...product.details.benefits, ...additions],
+        },
+      });
+      updated++;
+    }
+    return { updated, total: productDetailCatalogue.length };
   },
 });

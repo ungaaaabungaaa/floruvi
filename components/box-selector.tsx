@@ -31,14 +31,12 @@ export function BoxSelector({
         <Image
           key={size}
           src={boxImage}
-          alt={`Illustrative ${plan.name.toLowerCase()} vegetable box with lettuce, spinach, cherry tomatoes, cucumber, carrots and mint`}
+          alt={`${plan.name.toLowerCase()} vegetable box with lettuce, spinach, cherry tomatoes, cucumber, carrots and mint`}
           fill
           sizes="(max-width:800px) 100vw, 48vw"
           preload={size === "dual"}
         />
-        <span className="box-photo-note">
-          {plan.name} box · Illustrative selection
-        </span>
+        <span className="box-photo-note">{plan.name} box</span>
       </div>
       <div className="box-copy">
         <span className="eyebrow">VEGETABLE SUBSCRIPTIONS</span>

@@ -1,33 +1,37 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import type { Product } from "@/lib/catalogue";
 import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 
-export function ProductGallery({ product }: { product: Product }) {
+export function ProductGallery({
+  product,
+  dishes = [],
+}: {
+  product: Product;
+  dishes?: { image: StaticImageData; name: string }[];
+}) {
   const [selected, setSelected] = useState(0);
   const crop = product.imageUrl || productImages[product.slug];
   const views = [
     {
       src: crop,
       label: product.name,
-      caption: product.imageUrl
-        ? product.name
-        : crop
-          ? "Illustrative crop image. Appearance varies by harvest."
-          : "Category illustration. Crop appearance varies.",
     },
     ...(productGalleryImages[product.slug]
       ? [
           {
             src: productGalleryImages[product.slug],
             label: `${product.name} close-up`,
-            caption: "Illustrative crop photo. Appearance varies by harvest.",
           },
         ]
       : []),
+    ...dishes.slice(0, 2).map((dish) => ({
+      src: dish.image,
+      label: `${dish.name} serving idea`,
+    })),
   ];
   const view = views[selected];
   return (
@@ -72,9 +76,6 @@ export function ProductGallery({ product }: { product: Product }) {
           </button>
         ))}
       </div>
-      <p className="image-caption" aria-live="polite">
-        {view.caption}
-      </p>
     </div>
   );
 }
