@@ -17,7 +17,7 @@ The page now contains:
 5. Meal editorial and three working recipe links.
 6. Single, Dual, and Family box links to the existing availability enquiry flow.
 7. Eight more vegetables below the boxes, with wishlist and purchase controls.
-8. Closing shop and business enquiry links with the Floruvi carrot mark.
+8. Closing shop link with the Floruvi carrot mark.
 
 Editorial banners contain images and text only. The copy does not promise a particular body shape, cure, or medical-cost saving. Nutrition benefits describe a varied diet over time. The botanical silhouette is conceptual artwork, not an anatomy chart. The fitness picture is illustrative, not a customer result.
 

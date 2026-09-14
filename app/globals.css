@@ -5186,7 +5186,6 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-invitation > div { display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 30px; }
 .home-shop-link { display: inline-flex; align-items: center; gap: 28px; padding: 15px 27px; border-radius: 999px; color: #f7f6ec; background: #173d2c; font-size: 12px; }
 .home-shop-link:hover { background: #31593f; }
-.home-business-link { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; color: #58684e; font-size: 11px; }
 @media (max-width:1000px) {
   .home-wrap { width: calc(100% - 64px); }
   .home-chapters { --chapter-space: 76px; }
@@ -5246,7 +5245,6 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   .home-more-produce { padding-top: 64px; }
   .home-invitation { padding-block: 24px 68px; }
   .home-invitation h2 { font-size: 38px; }
-  .home-business-link { font-size: 10px; }
 }
 @media (prefers-reduced-motion:reduce) {
   .home-goodness-photo img, .home-kitchen-photo img, .home-box-photo img { transition: none; transform: none !important; }

@@ -380,10 +380,6 @@ export default async function Home() {
               Find your fresh favourites{" "}
               <ArrowRight size={17} aria-hidden="true" />
             </Link>
-            <Link href="/contact" className="home-business-link">
-              Buying for your business? Let’s talk{" "}
-              <ArrowUpRight size={15} aria-hidden="true" />
-            </Link>
           </div>
         </section>
       </div>
