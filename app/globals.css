@@ -4153,3 +4153,10 @@ button:disabled {
 
 .detail-price { font-size: 1.6rem; margin: 1rem 0; }
 .detail-price small { font-size: .85rem; opacity: .7; }
+
+.catalogue-options { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; font-size: .85rem; }
+.catalogue-options label { display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; cursor: pointer; }
+.catalogue-options input { width: 18px; height: 18px; accent-color: var(--green); }
+.catalogue-options button { min-height: 44px; }
+.search-field:focus-within { outline: 2px solid currentColor; outline-offset: 5px; border-radius: 2px; }
+.empty-state .button { margin: 0 1rem 1rem; }

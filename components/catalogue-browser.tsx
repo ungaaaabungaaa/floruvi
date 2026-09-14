@@ -1,10 +1,11 @@
 "use client";
-import { useState } from "react";
+import { Suspense, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { usePreloadedQuery, type Preloaded } from "convex/react";
 import { Search, X, SlidersHorizontal } from "lucide-react";
 import { api } from "@/convex/_generated/api";
-import { findProducts } from "@/lib/search";
+import { findProducts, sortProducts } from "@/lib/search";
 import { ProductCard } from "@/components/product-card";
 
 function Results({
@@ -15,46 +16,88 @@ function Results({
   initialCategory: string;
 }) {
   const { categories, products } = usePreloadedQuery(preloaded);
-  const [search, setSearch] = useState("");
-  const [category, setCategory] = useState(initialCategory);
-  const [sort, setSort] = useState("featured");
-  const found = findProducts(products, search, category);
-  const results = [...found].sort(
-    sort === "az"
-      ? (a, b) => a.name.localeCompare(b.name)
-      : (a, b) => Number(b.featured) - Number(a.featured),
+  const params = useSearchParams();
+  const search = (params.get("q") ?? "").slice(0, 100);
+  const selectedCategory = params.get("category") ?? initialCategory;
+  const category = categories.some((c) => c.slug === selectedCategory)
+    ? selectedCategory
+    : "all";
+  const sort = ["az", "price-asc", "price-desc"].includes(
+    params.get("sort") ?? "",
+  )
+    ? params.get("sort")!
+    : "recommended";
+  const pricedOnly = params.get("priced") === "1";
+  const input = useRef<HTMLInputElement>(null);
+  function update(values: Record<string, string | null>) {
+    const url = new URL(window.location.href);
+    for (const [key, value] of Object.entries(values)) {
+      if (value === null || value === "") url.searchParams.delete(key);
+      else url.searchParams.set(key, value);
+    }
+    window.history.replaceState(null, "", url);
+  }
+  function reset() {
+    update({ q: null, category: "all", sort: null, priced: null });
+    input.current?.focus();
+  }
+  const searchMatches = findProducts(products, search);
+  const matches = searchMatches.filter((p) => !pricedOnly || p.price);
+  const found = matches.filter(
+    (p) => category === "all" || p.category === category,
   );
+  const results = sortProducts(found, sort, !!search.trim());
+  const filtered =
+    !!search || category !== "all" || pricedOnly || sort !== "recommended";
   return (
     <div>
       <div className="catalogue-toolbar">
         <div className="search-field">
-          <Search size={19} />
+          <Search size={19} aria-hidden="true" />
           <label htmlFor="produce-search" className="sr-only">
             Search produce
           </label>
           <input
+            ref={input}
             id="produce-search"
+            name="q"
+            maxLength={100}
+            autoComplete="off"
+            spellCheck={false}
+            onKeyDown={(e) => {
+              if (e.key === "Escape") update({ q: null });
+            }}
             type="search"
-            placeholder="Find a leaf, herb, or something new…"
+            placeholder="Search crops, herbs, or uses…"
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => update({ q: e.target.value })}
           />
           {search && (
             <button
               className="icon-button"
               aria-label="Clear search"
-              onClick={() => setSearch("")}
+              onClick={() => {
+                update({ q: null });
+                input.current?.focus();
+              }}
             >
               <X size={16} />
             </button>
           )}
         </div>
         <label className="sort-field">
-          <SlidersHorizontal size={16} />
+          <SlidersHorizontal size={16} aria-hidden="true" />
           <span className="sr-only">Sort produce</span>
-          <select value={sort} onChange={(e) => setSort(e.target.value)}>
-            <option value="featured">Featured first</option>
+          <select
+            value={sort}
+            onChange={(e) => update({ sort: e.target.value })}
+          >
+            <option value="recommended">
+              {search.trim() ? "Best match" : "Featured first"}
+            </option>
             <option value="az">Name: A to Z</option>
+            <option value="price-asc">Pack price: low to high</option>
+            <option value="price-desc">Pack price: high to low</option>
           </select>
         </label>
       </div>
@@ -67,22 +110,37 @@ function Results({
           <button
             key={c.slug}
             aria-pressed={category === c.slug}
-            onClick={() => setCategory(c.slug)}
+            onClick={() => update({ category: c.slug })}
           >
             {c.name}
             <span>
               {c.slug === "all"
-                ? products.length
-                : products.filter((p) => p.category === c.slug).length}
+                ? matches.length
+                : matches.filter((p) => p.category === c.slug).length}
             </span>
           </button>
         ))}
       </div>
+      <div className="catalogue-options">
+        <label>
+          <input
+            type="checkbox"
+            checked={pricedOnly}
+            onChange={(e) => update({ priced: e.target.checked ? "1" : null })}
+          />{" "}
+          With prices
+        </label>
+        {filtered && (
+          <button className="text-link" onClick={reset}>
+            Reset filters <X size={14} />
+          </button>
+        )}
+      </div>
       <div className="results-heading">
         <h2 aria-live="polite">
-          {results.length} {results.length === 1 ? "crop" : "crops"} to discover
+          {results.length} {results.length === 1 ? "crop" : "crops"} found
         </h2>
-        <span>Good things, at your pace.</span>
+        {sort.startsWith("price-") && <span>Per pack. Sizes vary.</span>}
       </div>
       {results.length ? (
         <div className="product-grid">
@@ -94,14 +152,30 @@ function Results({
         <div className="empty-state">
           <Search size={30} />
           <h2>No crops found.</h2>
-          <p>Try a different name or explore all categories.</p>
-          <button
-            className="text-link"
-            onClick={() => {
-              setSearch("");
-              setCategory("all");
-            }}
-          >
+          <p>
+            {matches.length
+              ? `${matches.length} ${matches.length === 1 ? "match" : "matches"} in other categories.`
+              : pricedOnly && searchMatches.length
+                ? "Matching crops are priced on request."
+                : "Try a crop name, like spinach or palak."}
+          </p>
+          {matches.length > 0 && (
+            <button
+              className="button button-outline"
+              onClick={() => update({ category: "all" })}
+            >
+              Search all categories
+            </button>
+          )}
+          {pricedOnly && !matches.length && searchMatches.length > 0 && (
+            <button
+              className="button button-outline"
+              onClick={() => update({ priced: null })}
+            >
+              Include crops priced on request
+            </button>
+          )}
+          <button className="text-link" onClick={reset}>
             Clear filters ↗
           </button>
         </div>
@@ -121,7 +195,9 @@ export function CatalogueBrowser({
   );
   return (
     <ConvexProvider client={client}>
-      <Results preloaded={preloaded} initialCategory={initialCategory} />
+      <Suspense fallback={<p role="status">Loading produce…</p>}>
+        <Results preloaded={preloaded} initialCategory={initialCategory} />
+      </Suspense>
     </ConvexProvider>
   );
 }
