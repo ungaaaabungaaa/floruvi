@@ -4,7 +4,7 @@ import { ArrowRight, Check } from "lucide-react";
 export const metadata: Metadata = {
   title: "Real talk about everyday food",
   description:
-    "Simple ways to make room for vegetables in your weekly meals, with less fuss and a clear plan.",
+    "Simple ways to make room for vegetables in your weekly meals, with less fuss & a clear plan.",
   alternates: { canonical: "/real-talk" },
 };
 export default function RealTalk() {
@@ -46,12 +46,10 @@ export default function RealTalk() {
         <h2>Start with food, not promises.</h2>
         <p>
           A varied diet is part of looking after yourself. No single food can
-          guarantee health or replace medical care. We focus on ingredients and
+          guarantee health or replace medical care. We focus on ingredients &
           practical ways to enjoy them.
         </p>
-        <Link href="/health" className="text-link">
-          Read our nutrition guide <ArrowRight size={17} />
-        </Link>
+
       </section>
       <section className="green-editorial page-width">
         <h2>Choose your vegetables.</h2>

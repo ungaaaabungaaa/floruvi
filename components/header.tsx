@@ -11,8 +11,6 @@ import { Brand } from "./brand";
 const links = [
   ["/products", "Shop"],
   ["/boxes", "Boxes"],
-  ["/our-farm", "Our Story"],
-  ["/health", "Health"],
   ["/recipes", "Recipes"],
   ["/wholesale", "Business"],
 ];
@@ -56,7 +54,7 @@ export function Header() {
             <Dialog.Content className="mobile-nav-panel">
               <Dialog.Title className="wordmark">floruvi</Dialog.Title>
               <Dialog.Description>
-                Explore the farm and get in touch.
+                Explore the farm & get in touch.
               </Dialog.Description>
               <Dialog.Close
                 className="icon-button dialog-close"

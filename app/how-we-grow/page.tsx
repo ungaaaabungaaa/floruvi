@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import {
   Sprout,
   Droplets,
@@ -13,7 +12,7 @@ import towers from "@/src/assets/growing-towers.png";
 export const metadata: Metadata = {
   title: "How we grow",
   description:
-    "From seeds to the kitchen: explore the principles behind hydroponic and aeroponic growing.",
+    "From seeds to the kitchen: explore the principles behind hydroponic & aeroponic growing.",
   alternates: { canonical: "/how-we-grow" },
 };
 export default function HowWeGrow() {
@@ -27,7 +26,7 @@ export default function HowWeGrow() {
             <br />
             <em>Without the Soil.</em>
           </h1>
-          <p>Water and nutrients reach the roots directly.</p>
+          <p>Water & nutrients reach the roots directly.</p>
           <a href="#growing-steps" className="button button-primary">
             See the Process <ArrowRight size={17} />
           </a>
@@ -50,7 +49,7 @@ export default function HowWeGrow() {
             {
               icon: Sprout,
               title: "Seeds",
-              body: "Choose the crop and a suitable propagation method.",
+              body: "Choose the crop & a suitable propagation method.",
             },
             {
               icon: Droplets,
@@ -60,12 +59,12 @@ export default function HowWeGrow() {
             {
               icon: Sun,
               title: "Nourish",
-              body: "Manage light, water, nutrients, and the growing environment.",
+              body: "Manage light, water, nutrients, & the growing environment.",
             },
             {
               icon: Leaf,
               title: "Harvest",
-              body: "Check crop readiness and plan the harvest around its use.",
+              body: "Check crop readiness & plan the harvest around its use.",
             },
             {
               icon: Utensils,
@@ -88,7 +87,7 @@ export default function HowWeGrow() {
         <p className="source-note">
           This explains the growing approach. The image is a concept, not a
           photograph of Floruvi’s facilities. Each crop needs a suitable system
-          and local growing checks.{" "}
+          & local growing checks.{" "}
           <a
             href="https://extension.umn.edu/how/small-scale-hydroponics"
             target="_blank"
@@ -98,14 +97,7 @@ export default function HowWeGrow() {
           </a>
         </p>
       </section>
-      <section className="green-editorial page-width">
-        <span className="eyebrow">THOUGHTFUL GROWING</span>
-        <h2>Water, energy, and waste.</h2>
 
-        <Link className="button button-light" href="/sustainability">
-          Our Sustainability Approach <ArrowRight size={17} />
-        </Link>
-      </section>
     </>
   );
 }

@@ -54,7 +54,7 @@ export function Checkout() {
     if (status === "sending") return;
     setError("");
     if (!review || review.items.some((i) => !i.availableToEnquire)) {
-      setError("Please return to your basket and check the selected crops.");
+      setError("Please return to your basket & check the selected crops.");
       return;
     }
     const parsed = basketEnquiry(details, review.items, consent, website);
@@ -147,7 +147,7 @@ export function Checkout() {
                 move(1);
               }}
             >
-              <p>Browse and build your basket without an account.</p>
+              <p>Browse & build your basket without an account.</p>
               <div className="checkout-fields">
                 <label>
                   Full name
@@ -217,10 +217,10 @@ export function Checkout() {
                     maxLength={240}
                     value={details.address}
                     onChange={(e) => set("address", e.target.value)}
-                    placeholder="House, street, and area"
+                    placeholder="House, street, & area"
                   />
                   <small>
-                    Your street address stays in this page and is not sent with
+                    Your street address stays in this page & is not sent with
                     this enquiry.
                   </small>
                 </label>
@@ -278,7 +278,7 @@ export function Checkout() {
                 </label>
               </div>
               <div className="checkout-notice">
-                Delivery dates, fees, and minimum orders will be confirmed with
+                Delivery dates, fees, & minimum orders will be confirmed with
                 the farm.
               </div>
               <div className="button-row">
@@ -406,7 +406,7 @@ export function Checkout() {
                   required
                 />
                 <span>
-                  I agree that Floruvi can use my contact details and delivery
+                  I agree that Floruvi can use my contact details & delivery
                   area to respond to this availability request.{" "}
                   <Link href="/privacy">Privacy notice</Link>
                 </span>

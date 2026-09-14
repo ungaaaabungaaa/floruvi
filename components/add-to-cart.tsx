@@ -50,13 +50,14 @@ export function AddToCart({
           )
         }
       >
-        <ShoppingBag size={16} />
-        {compact ? "Add to basket" : "Add to Basket"}
+        {compact ? (
+          message === "Added to your basket." ? <Check size={22} /> : <Plus size={24} />
+        ) : <><ShoppingBag size={16} />Add to Basket</>}
       </button>
       {message && (
-        <div className="cart-feedback" role="status">
+        <div className={compact && message === "Added to your basket." ? "sr-only" : "cart-feedback"} role="status">
           <Check size={13} />
-          {message} <Link href="/cart">View basket →</Link>
+          {message} {!compact && <Link href="/cart">View basket →</Link>}
         </div>
       )}
       {!compact && (

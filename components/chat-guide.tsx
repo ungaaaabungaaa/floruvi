@@ -149,7 +149,7 @@ export function ChatGuide() {
             </button>
           </form>
           <p className="chat-disclaimer">
-            Page session only. Translation and human chat come later.
+            Page session only. Translation & human chat come later.
           </p>
         </Dialog.Content>
       </Dialog.Portal>

@@ -89,7 +89,7 @@ export default async function Home() {
           {categories.map((c) => {
             const Icon = categoryIcons[c.slug] ?? Leaf;
             return (
-              <Link key={c.slug} href={`/categories/${c.slug}`}>
+              <Link key={c.slug} href={`/products?category=${c.slug}`}>
                 <Icon size={19} aria-hidden="true" />
                 {c.name}
               </Link>
@@ -139,7 +139,7 @@ export default async function Home() {
       <section className="photo-story page-width home-story">
         <div className="photo-story-copy">
           <h2>Soilless growing.</h2>
-          <p>Hydroponics and aeroponics, explained.</p>
+          <p>Hydroponics & aeroponics, explained.</p>
           <Button asChild>
             <Link href="/how-we-grow">
               See How It Works <ArrowRight size={17} />
@@ -175,7 +175,7 @@ export default async function Home() {
         <div className="photo-story-image">
           <Image
             src={salad}
-            alt="A colourful bowl of greens, tomatoes, cucumber, radish and avocado"
+            alt="A colourful bowl of greens, tomatoes, cucumber, radish & avocado"
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
           />

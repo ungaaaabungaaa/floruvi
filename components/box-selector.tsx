@@ -66,7 +66,7 @@ export function BoxSelector({
         <div className="box-hero-image">
           <Image
             src={dualImage}
-            alt="A vegetable box with lettuce, spinach, tomatoes, carrots, cucumber and mint"
+            alt="A vegetable box with lettuce, spinach, tomatoes, carrots, cucumber & mint"
             fill
             sizes="(max-width:600px) 100vw, 50vw"
             preload
@@ -194,7 +194,7 @@ export function BoxSelector({
                 <br />A familiar routine.
               </h2>
               <p>
-                Greens, vegetables and herbs for the meals you make every day.
+                Greens, vegetables & herbs for the meals you make every day.
               </p>
             </div>
           </aside>
@@ -265,7 +265,7 @@ export function BoxSelector({
             ],
             [
               "Is payment taken when I add a box?",
-              "No. Your box and frequency are saved in your cart. Recurring billing is not active yet.",
+              "No. Your box & frequency are saved in your cart. Recurring billing is not active yet.",
             ],
             [
               "Can I change the box or delivery schedule?",

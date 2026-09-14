@@ -241,7 +241,7 @@ export function BasketPage({ products }: { products: Product[] }) {
           </div>
           <div className="basket-help">
             <h2>Buying for a business?</h2>
-            <p>Tell us about your business and regular produce needs.</p>
+            <p>Tell us about your business & regular produce needs.</p>
             <Link className="text-link" href="/wholesale">
               Business enquiries <ArrowRight size={16} />
             </Link>

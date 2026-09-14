@@ -16,19 +16,19 @@ const interludes = [
   {
     image: pastaNight,
     title: "A little pasta. A lovely evening.",
-    alt: "Basil pasta and cherry tomatoes on a forest-green table",
+    alt: "Basil pasta & cherry tomatoes on a forest-green table",
     style: "dark left",
   },
   {
     image: slowMornings,
     title: "Make time for breakfast.",
-    alt: "Avocado toast and a green smoothie in morning light",
+    alt: "Avocado toast & a green smoothie in morning light",
     style: "right",
   },
   {
     image: colourfulTable,
     title: "Bring colour to the table.",
-    alt: "Roasted carrots, beetroot and chickpeas on a platter",
+    alt: "Roasted carrots, beetroot & chickpeas on a platter",
     style: "warm left",
   },
   {
@@ -106,7 +106,7 @@ export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
       >
         <Image
           src={hero}
-          alt="A bowl of fresh greens, tomatoes and radishes"
+          alt="A bowl of fresh greens, tomatoes & radishes"
           fill
           sizes="100vw"
           preload

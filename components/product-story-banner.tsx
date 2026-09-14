@@ -10,12 +10,12 @@ const stories = [
   {
     image: leafy,
     title: "Good food today.\nMore to look forward to.",
-    alt: "Fresh spinach and kale on a sage background",
+    alt: "Fresh spinach & kale on a sage background",
   },
   {
     image: herbs,
     title: "A little freshness.\nA lot of flavour.",
-    alt: "Basil and mint in soft sunlight",
+    alt: "Basil & mint in soft sunlight",
   },
   {
     image: microgreens,
@@ -25,12 +25,12 @@ const stories = [
   {
     image: tomatoes,
     title: "Bring a little colour\nto every day.",
-    alt: "Tomatoes and cucumber on a warm peach background",
+    alt: "Tomatoes & cucumber on a warm peach background",
   },
   {
     image: roots,
     title: "Simple ingredients.\nMeals worth making.",
-    alt: "Carrots and radishes on a cream background",
+    alt: "Carrots & radishes on a cream background",
   },
   {
     image: flowers,

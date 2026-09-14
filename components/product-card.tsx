@@ -16,6 +16,7 @@ export const categoryLabels: Record<string, string> = {
   "edible-flowers": "Edible flowers",
 };
 export function ProductCard({ product }: { product: Product }) {
+  const packLabel = product.price?.packLabel.split("·").at(-1)?.trim();
   const cropImage = product.imageUrl || productImages[product.slug];
   return (
     <article className="product-card">
@@ -46,15 +47,19 @@ export function ProductCard({ product }: { product: Product }) {
             />
           )}
         </div>
-        <div className="product-meta">
-          <h3>{product.name}</h3>
-          <p>
-            {formatMoney(product.price?.amountMinor)}
-            {product.price && <> · {product.price.packLabel}</>}
-          </p>
-        </div>
       </Link>
-      <AddToCart slug={product.slug} name={product.name} compact />
+      <div className="product-card-bottom">
+        <Link href={`/products/${product.slug}`} className="product-meta">
+          <h3>{product.name}</h3>
+        </Link>
+        <div className="product-card-price-row">
+          <p>
+            <strong>{formatMoney(product.price?.amountMinor)}</strong>
+            {packLabel && <span>{packLabel}</span>}
+          </p>
+          <AddToCart slug={product.slug} name={product.name} compact />
+        </div>
+      </div>
     </article>
   );
 }

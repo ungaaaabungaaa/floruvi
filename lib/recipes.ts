@@ -1,3 +1,4 @@
+import { storefrontCopy } from "./storefront-copy";
 import { cache } from "react";
 import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
@@ -10,10 +11,10 @@ function imageFor(key: string) {
 }
 export const getRecipes = cache(async () => {
   const recipes = await fetchQuery(api.recipes.list, {});
-  return recipes.map((r) => ({ ...r, image: imageFor(r.imageKey) }));
+  return recipes.map((r) => ({ ...storefrontCopy(r), image: imageFor(r.imageKey) }));
 });
 export const getRecipe = cache(async (slug: string) => {
   const recipe = await fetchQuery(api.recipes.get, { slug });
-  return recipe ? { ...recipe, image: imageFor(recipe.imageKey) } : null;
+  return recipe ? { ...storefrontCopy(recipe), image: imageFor(recipe.imageKey) } : null;
 });
 export type Recipe = Awaited<ReturnType<typeof getRecipes>>[number];

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Floruvi Farm",
   },
   description:
-    "Explore leafy greens, herbs, microgreens and more. Fresh produce for your home or business, delivered across India.",
+    "Explore leafy greens, herbs, microgreens & more. Fresh produce for your home or business, delivered across India.",
   openGraph: {
     type: "website",
     siteName: "Floruvi Farm",
