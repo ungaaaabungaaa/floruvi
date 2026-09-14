@@ -14,7 +14,11 @@ export function BoxSelector({
   plans: (BasketReview & { id: string; name: string; people: string })[];
 }) {
   const [size, setSize] = useState("dual");
-  const [schedule, setSchedule] = useState("weekly");
+  const [schedule, setSchedule] =
+    useState<(typeof boxSchedules)[number]["id"]>("weekly");
+  const deliverySchedule = boxSchedules.find(
+    (option) => option.id === schedule,
+  )!;
   const plan = plans.find((p) => p.id === size)!;
   const boxImage = {
     single: singleImage,
@@ -90,7 +94,7 @@ export function BoxSelector({
           <div className="box-includes" aria-live="polite">
             <div className="box-price">
               <strong>{formatMoney(plan.total)}</strong>
-              <span>per delivery · delivery included</span>
+              <span>{deliverySchedule.pricePeriod} · delivery included</span>
             </div>
             <h2>What’s in your box</h2>
             <ul>
@@ -108,8 +112,7 @@ export function BoxSelector({
               <span>Delivery {formatMoney(plan.delivery)}</span>
             </div>
             <p>
-              Same box each delivery. Your chosen schedule changes how often it
-              arrives.
+              One {plan.name.toLowerCase()} box {deliverySchedule.pricePeriod}.
             </p>
           </div>
           <Link

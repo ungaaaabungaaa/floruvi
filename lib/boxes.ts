@@ -4,9 +4,9 @@ export const boxSizes = [
   { id: "family", name: "Family", people: "4 or more" },
 ] as const;
 export const boxSchedules = [
-  { id: "daily", name: "Daily" },
-  { id: "weekly", name: "Weekly" },
-  { id: "fortnightly", name: "Every 2 weeks" },
+  { id: "daily", name: "Daily", pricePeriod: "per day" },
+  { id: "weekly", name: "Weekly", pricePeriod: "per week" },
+  { id: "fortnightly", name: "Every 2 weeks", pricePeriod: "every 2 weeks" },
 ] as const;
 export function getBoxRequest(size: unknown, schedule: unknown) {
   const box = boxSizes.find((b) => b.id === size);
