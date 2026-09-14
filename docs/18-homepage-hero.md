@@ -19,6 +19,8 @@ Headlines remain HTML text. Desktop places text to the left. Phone layouts place
 
 ## Controls
 
+Owner refinement: hide the control row, story labels, progress lines, and decorative headline strokes. Controls appear only on keyboard focus so that pause and manual navigation remain accessible.
+
 Slides advance every seven seconds while the hero is visible. Rotation pauses during hover or keyboard focus, when the page is hidden, and after a manual slide selection. The play control can enable rotation again after interaction ends. Reduced-motion mode disables rotation and fades. Arrow buttons, six labelled selectors, and horizontal touch swipes provide manual control.
 
 No new package, data model, checkout rule, or provider was added.

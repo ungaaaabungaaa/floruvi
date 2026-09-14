@@ -5049,9 +5049,11 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-hero-copy h2 > span { display: block; }
 .home-hero-copy .hero-title-accent { font-style: italic; }
 .home-hero-copy p { max-width: 290px; font-size: 14px; line-height: 1.7; margin-top: 26px; color: #344c3d; }
-.home-hero-stroke { display: block; margin-top: 29px; width: 82px; height: 7px; border-top: 2px solid #264a34; border-radius: 50%; transform: rotate(-5deg); }
+.home-hero-stroke { display: none; margin-top: 29px; width: 82px; height: 7px; border-top: 2px solid #264a34; border-radius: 50%; transform: rotate(-5deg); }
 .home-hero-signature { position: absolute; z-index: 1; right: 5%; bottom: 144px; white-space: pre-line; font-size: clamp(24px, 2.4vw, 38px); transform: rotate(-9deg); color: #173b2c; text-shadow: 0 1px 12px #f8f7f2; }
-.home-hero-bottom { position: absolute; z-index: 2; inset-inline: max(56px, calc((100vw - 1488px) / 2)); bottom: 28px; display: flex; align-items: center; gap: 44px; }
+.home-hero-bottom { opacity: 0; pointer-events: none; position: absolute; z-index: 2; inset-inline: max(56px, calc((100vw - 1488px) / 2)); bottom: 28px; display: flex; align-items: center; gap: 44px; }
+/* Keep carousel controls available when a keyboard user focuses them. */
+.home-hero-bottom:focus-within { opacity: 1; pointer-events: auto; }
 .home-hero-index { display: flex; align-items: center; gap: 12px; font-size: 11px; font-variant-numeric: tabular-nums; }
 .home-hero-index > span:first-child { font-size: 21px; font-family: Georgia, serif; }
 .home-hero-index-line { width: 35px; height: 1px; background: #102b2355; }
