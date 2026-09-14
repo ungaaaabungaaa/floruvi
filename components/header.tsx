@@ -19,7 +19,7 @@ export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   return (
-    <>
+    <div className="header-shell">
       <header className="site-header">
         <Brand />
         <nav className="desktop-nav" aria-label="Main navigation">
@@ -74,6 +74,6 @@ export function Header() {
           </Dialog.Portal>
         </Dialog.Root>
       </header>
-    </>
+    </div>
   );
 }

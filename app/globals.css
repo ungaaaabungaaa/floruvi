@@ -23,6 +23,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 110px;
 }
 body {
   margin: 0;
@@ -207,6 +208,12 @@ em {
   margin-left: 12px;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.header-shell {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--paper);
 }
 .site-header {
   display: flex;
@@ -695,7 +702,7 @@ em {
   line-height: 1.9;
 }
 .footer-main > div > .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin: 8px 0 20px;
 }
 .footer-main > div > a:not(.wordmark) {
@@ -3140,6 +3147,8 @@ textarea {
   object-fit: contain;
 }
 .brand-name {
+  display: flex;
+  flex-direction: column;
   font:
     40px/1 Georgia,
     serif;
@@ -3153,9 +3162,6 @@ textarea {
   letter-spacing: 0.04em;
   margin-top: 2px;
   white-space: nowrap;
-}
-.site-footer .brand-name {
-  font-size: 33px;
 }
 .site-footer .brand-mark {
   width: 37px;
@@ -3851,9 +3857,6 @@ button:disabled {
   .brand-name small {
     font-size: 8px;
     letter-spacing: 0.03em;
-  }
-  .site-footer .brand-name {
-    font-size: 31px;
   }
   .site-footer .brand-name small {
     font-size: 8px;
