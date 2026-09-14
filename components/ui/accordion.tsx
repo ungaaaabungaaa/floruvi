@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { Plus, Minus } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 export const Accordion = AccordionPrimitive.Root;
 export function AccordionItem(
@@ -22,10 +22,7 @@ export function AccordionTrigger({
     <AccordionPrimitive.Header>
       <AccordionPrimitive.Trigger {...props} className="faq-trigger">
         {children}
-        <span className="faq-toggle" aria-hidden="true">
-          <Plus className="faq-plus" size={18} />
-          <Minus className="faq-minus" size={18} />
-        </span>
+        <ChevronDown className="faq-chevron" size={18} aria-hidden="true" />
       </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>
   );

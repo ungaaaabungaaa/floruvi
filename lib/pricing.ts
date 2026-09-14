@@ -83,7 +83,7 @@ export function reviewBasket(
       ? sum
       : null;
   const delivery =
-    lines.length === 0
+    lines.length === 0 || lines.every((line) => !!getCartBox(line.slug))
       ? 0
       : commerce?.currency === "INR" && validMoney(commerce.deliveryFeeMinor)
         ? commerce.deliveryFeeMinor

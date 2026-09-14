@@ -7,11 +7,11 @@ import { BoxSelector } from "@/components/box-selector";
 export const metadata: Metadata = {
   title: "Vegetable box subscriptions",
   description:
-    "Vegetable boxes for one, two, or a family. Choose daily, weekly, or every-two-weeks delivery. Request availability from Floruvi.",
+    "Vegetable boxes for one, two, or a family. Choose a one-time box, weekly, or monthly delivery. Request availability from Floruvi.",
   alternates: { canonical: "/boxes" },
 };
 export default async function Boxes() {
-  const [{ products, commerce }, recipes] = await Promise.all([
+  const [{ products }, recipes] = await Promise.all([
     getCatalogue(),
     getRecipes(),
   ]);
@@ -30,7 +30,7 @@ export default async function Boxes() {
         quantity: line.quantity * [1, 2, 4][index],
       })),
       products,
-      commerce,
+      { currency: "INR", deliveryFeeMinor: 0 },
     ),
   }));
   return <BoxSelector plans={plans} recipes={meals} />;

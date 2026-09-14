@@ -4,9 +4,9 @@ export const boxSizes = [
   { id: "family", name: "Family", people: "4 or more" },
 ] as const;
 export const boxSchedules = [
-  { id: "daily", name: "Once a day", pricePeriod: "per delivery" },
+  { id: "once", name: "Once", pricePeriod: "per delivery" },
   { id: "weekly", name: "Weekly", pricePeriod: "per delivery" },
-  { id: "fortnightly", name: "Every 2 weeks", pricePeriod: "per delivery" },
+  { id: "monthly", name: "Monthly", pricePeriod: "per delivery" },
 ] as const;
 export function getBoxRequest(size: unknown, schedule: unknown) {
   const box = boxSizes.find((b) => b.id === size);
@@ -29,7 +29,11 @@ export const boxContents = [
 
 export function getCartBox(slug: string) {
   for (const [index, size] of boxSizes.entries()) {
-    for (const schedule of boxSchedules) {
+    // Preserve the meaning of boxes already saved in a guest basket.
+    for (const schedule of [...boxSchedules,
+      { id: "daily", name: "Once a day" },
+      { id: "fortnightly", name: "Every 2 weeks" },
+    ]) {
       if (slug === `box-${size.id}-${schedule.id}`) {
         return {
           ...size,

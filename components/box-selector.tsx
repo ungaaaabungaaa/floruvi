@@ -156,10 +156,7 @@ export function BoxSelector({
                   {formatMoney(plan.total)}{" "}
                   <small>{delivery.pricePeriod}</small>
                 </strong>
-                <p>
-                  Produce {formatMoney(plan.subtotal)} + delivery{" "}
-                  {formatMoney(plan.delivery)}
-                </p>
+
               </div>
               <button
                 type="submit"
@@ -260,7 +257,7 @@ export function BoxSelector({
           {[
             [
               "What is included in the price?",
-              "The displayed price covers one box and the flat delivery charge. The amount is per delivery, at your selected frequency.",
+              "The price is for one box per delivery. There is no extra delivery charge for boxes.",
             ],
             [
               "When will my first box arrive?",
