@@ -5,6 +5,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
 import { CartLink } from "./add-to-cart";
+import { WishlistMenu } from "./wishlist";
 import { Brand } from "./brand";
 
 const links = [
@@ -39,6 +40,7 @@ export function Header() {
             Let’s talk <ArrowUpRight size={14} aria-hidden="true" />
           </Link>
         </nav>
+        <WishlistMenu />
         <CartLink />
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>

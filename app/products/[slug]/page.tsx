@@ -89,7 +89,11 @@ export default async function ProductDetails({ params }: Props) {
           product={p}
           dishes={meals
             .filter((m) => m.direct)
-            .map((m) => ({ image: m.recipe.image, name: m.recipe.name }))}
+            .map((m) => ({
+              image: m.recipe.image,
+              name: m.recipe.name,
+              slug: m.recipe.slug,
+            }))}
         />
         <div className="detail-copy">
           <h1 id="product-heading">{p.name}</h1>
@@ -106,6 +110,7 @@ export default async function ProductDetails({ params }: Props) {
             {formatMoney(p.price?.amountMinor)}
             {p.price && <small> / {p.price.packLabel}</small>}
           </p>
+          <AddToCart slug={p.slug} name={p.name} />
           <div className="product-assurances">
             <span>
               <Leaf />
@@ -124,7 +129,39 @@ export default async function ProductDetails({ params }: Props) {
               Across India
             </span>
           </div>
-          <AddToCart slug={p.slug} name={p.name} />
+          <div className="hero-meals">
+            <div className="hero-meals-heading">
+              <h2>Ways to enjoy</h2>
+              <a href="#ways-heading">
+                See all recipes <ArrowUpRight size={14} />
+              </a>
+            </div>
+            <div className="hero-meal-list">
+              {meals.slice(0, 3).map(({ recipe }) => (
+                <Link href={`/recipes/${recipe.slug}`} key={recipe.slug}>
+                  <Image
+                    src={recipe.image}
+                    alt={recipe.name}
+                    width={100}
+                    height={100}
+                  />
+                  <div>
+                    <h3>{recipe.name}</h3>
+                    <p>{recipe.minutes} mins</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+          {details && (
+            <div className="hero-storage">
+              <Leaf size={23} />
+              <div>
+                <h2>How to store</h2>
+                <p>{details.storage}</p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
       {details && (

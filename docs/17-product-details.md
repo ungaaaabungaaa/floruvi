@@ -25,3 +25,11 @@ The next review expands every product to six points: flavour, uses, preparation,
 ## Approved publication
 
 Owner approved commit, push and production seeding. Final hero has four icons. Direct recipe links no longer repeat “Made with this crop”; serving inspiration remains labelled. Production Convex deployed to `polished-mosquito-828`; 91 product detail records added and verified against seed content. All pre-existing production product fields were verified unchanged. The follow-up points seed updated zero records because the full seed already included them. Final checks: 24 tests, lint and Webpack production build passed; final caption-only edit passed lint. Website deployment remains a separate check after GitHub push.
+
+## Next local hero review
+
+The top block now follows the supplied desktop/mobile references: thumbnails below the image, purchase controls above the four icons, three compact recipe links and an existing Convex storage tip. Recipe gallery images link to their matching recipe. Breadcrumbs and stock badges remain absent; lower sections are unchanged.
+
+Wishlist hearts and a header menu use browser local storage without accounts. The header count shares the basket badge style and updates on add/remove and cross-tab storage events. Browser checks confirmed 1 → 0 → 1, persistence after reload, the saved-product link, matching recipe-image links and no mobile overflow. Lint and TypeScript passed. These changes are local; checkout account sync is future work.
+
+Owner approved publication of the hero and wishlist changes. Fixed the mobile storage-section overlap by replacing the hero grid's percentage row gap with 30px while preserving the 5% column gap. At 390px and 430px, the next section starts 35px below the storage card with no horizontal overflow.

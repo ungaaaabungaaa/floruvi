@@ -3187,7 +3187,7 @@ textarea {
   position: relative;
   margin-left: -10px;
 }
-.cart-link > span {
+.cart-link > span, .wishlist-link > span {
   position: absolute;
   right: 0;
   top: 0;
@@ -4437,3 +4437,37 @@ button:disabled {
   .product-story-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent 10%, rgba(246,245,235,.65) 48%, rgba(246,245,235,.94) 100%); pointer-events: none; }
   .product-story-copy { z-index: 1; }
 }
+/* Reference-led product hero; lower editorial sections stay unchanged. */
+.product-page .product-detail { align-items: start; column-gap: 5%; row-gap: 30px; }
+.product-page .product-gallery { display: flex; flex-direction: column; gap: 16px; }
+.product-page .gallery-main { aspect-ratio: 1; width: 100%; border-radius: 18px; }
+.product-page .gallery-thumbnails { flex-direction: row; gap: 12px; }
+.product-page .gallery-thumbnails button { flex: 1; max-width: 25%; width: auto; height: auto; aspect-ratio: 1; border-radius: 12px; }
+.wishlist-heart { position: absolute; z-index: 2; right: 17px; top: 17px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: #fafaf4; color: var(--green); display: grid; place-items: center; cursor: pointer; }
+.gallery-recipe-link { position: absolute; z-index: 2; right: 15px; bottom: 15px; display: flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 30px; background: #fafaf4; font-size: 12px; }
+.product-page .detail-copy .add-crop { display: flex; flex-wrap: wrap; gap: 12px; }
+.product-page .detail-copy .add-crop > .button { flex: 1; border-radius: 12px; justify-content: center; min-height: 52px; }
+.product-page .quantity-picker { border-radius: 12px; min-height: 52px; }
+.product-page .product-assurances { margin: 25px 0; }
+.hero-meals { border-top: 1px solid var(--line); padding-top: 20px; }
+.hero-meals-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 15px; }
+.hero-meals h2,.hero-storage h2 { font-family: var(--font-sans),sans-serif; font-size: 15px; font-weight: 500; }
+.hero-meals-heading a { display: flex; gap: 5px; align-items: center; font-size: 11px; }
+.hero-meal-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.hero-meal-list > a { display: flex; min-width: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.hero-meal-list img { width: 42%; height: 85px; object-fit: cover; }
+.hero-meal-list a > div { padding: 8px; }
+.hero-meal-list h3 { font: 500 11px/1.4 var(--font-sans),sans-serif; }
+.hero-meal-list p { font-size: 10px; color: var(--muted); margin-top: 6px; }
+.hero-storage { display: flex; gap: 14px; padding: 20px; background: #eeeee6; border-radius: 14px; margin-top: 22px; }
+.hero-storage svg { flex-shrink: 0; }
+.hero-storage p { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 7px; }
+.wishlist-panel { overflow-y: auto; }
+.wishlist-panel ul { list-style: none; padding: 0; margin-top: 24px; }
+.wishlist-panel li { display: flex; justify-content: space-between; align-items: center; gap: 15px; border-bottom: 1px solid var(--line); padding: 12px 0; }
+.wishlist-panel > p { margin-top: 15px; }
+@media(max-width:900px) { .hero-meal-list > a { flex-direction: column; } .hero-meal-list img { width: 100%; height: auto; aspect-ratio: 1; } }
+@media(max-width:600px) { .product-page .gallery-main { aspect-ratio: .86; } .product-page .gallery-thumbnails button { width: auto; height: auto; } .hero-meal-list h3 { font-size: 12px; } .wishlist-heart { width: 43px; height: 43px; } }
+
+.wishlist-link { position: relative; flex-shrink: 0; }
+@media(max-width:800px) { .site-header .wishlist-link { margin-left: auto; } .site-header .cart-link { margin-left: 0; } }
