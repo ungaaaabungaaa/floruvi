@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { CartLink } from "./add-to-cart";
 import { Brand } from "./brand";
 
@@ -33,17 +32,13 @@ export function Header() {
               {label}
             </Link>
           ))}
-        </nav>
-        <Button
-          asChild
-          variant="outline"
-          size="small"
-          className="header-contact"
-        >
-          <Link href="/contact">
-            Let’s talk <ArrowUpRight size={16} />
+          <Link
+            href="/contact"
+            aria-current={pathname === "/contact" ? "page" : undefined}
+          >
+            Let’s talk <ArrowUpRight size={14} aria-hidden="true" />
           </Link>
-        </Button>
+        </nav>
         <CartLink />
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>

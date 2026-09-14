@@ -1499,9 +1499,6 @@ em {
   .desktop-nav {
     display: none;
   }
-  .header-contact {
-    margin-left: auto;
-  }
   .mobile-menu {
     display: flex;
   }
@@ -1681,12 +1678,6 @@ em {
   }
   .wordmark {
     font-size: 33px;
-  }
-  .header-contact {
-    font-size: 10px;
-    padding: 8px 12px;
-    gap: 9px;
-    min-height: 37px;
   }
   .site-header .mobile-menu {
     width: 32px;
@@ -3160,7 +3151,7 @@ textarea {
     10px/1.6 Arial,
     sans-serif;
   letter-spacing: 0.04em;
-  margin-top: 7px;
+  margin-top: 2px;
   white-space: nowrap;
 }
 .site-footer .brand-name {
@@ -3839,9 +3830,6 @@ button:disabled {
   .cart-link {
     margin-left: auto;
   }
-  .header-contact {
-    margin-left: auto;
-  }
   .brand-name {
     font-size: 34px;
   }
@@ -3852,9 +3840,6 @@ button:disabled {
 @media (max-width: 600px) {
   .site-header {
     gap: 13px;
-  }
-  .site-header .header-contact {
-    display: none;
   }
   .brand-mark {
     width: 36px;
@@ -4160,3 +4145,9 @@ button:disabled {
 .catalogue-options button { min-height: 44px; }
 .search-field:focus-within { outline: 2px solid currentColor; outline-offset: 5px; border-radius: 2px; }
 .empty-state .button { margin: 0 1rem 1rem; }
+
+/* Keep contact with the navigation, rather than as a separate header block. */
+.site-header .desktop-nav { margin-left: auto; align-items: center; }
+.site-header .desktop-nav a { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; min-height: 44px; }
+.site-header .cart-link { margin-left: 0; flex-shrink: 0; }
+@media (max-width: 800px) { .site-header .cart-link { margin-left: auto; } }

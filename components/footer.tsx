@@ -30,7 +30,6 @@ export function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Floruvi Farm</span>
-        <span>Hydroponics · Aeroponics</span>
       </div>
     </footer>
   );
