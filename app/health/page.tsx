@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Heart, Leaf, Sprout, Utensils } from "lucide-react";
-import spinach from "@/src/assets/crop-spinach.png";
+import spinach from "@/src/assets/nutrition-botanical.png";
 export const metadata: Metadata = {
   title: "Health & nutrition",
   description:
@@ -30,7 +30,7 @@ export default function Health() {
         <div className="editorial-image health-image">
           <Image
             src={spinach}
-            alt="Illustrative bunch of fresh spinach leaves"
+            alt="A botanical illustration of green leaves beside a paper human silhouette"
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
             preload

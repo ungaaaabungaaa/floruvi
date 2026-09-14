@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Botanical } from "./botanical";
 import type { Product } from "@/lib/catalogue";
 import { productImages } from "@/lib/product-images";
+import { AddToCart } from "./add-to-cart";
 
 export const categoryLabels: Record<string, string> = {
   "leafy-greens": "Leafy greens",
@@ -54,6 +55,7 @@ export function ProductCard({ product }: { product: Product }) {
           </p>
         </div>
       </Link>
+      <AddToCart slug={product.slug} name={product.name} compact />
     </article>
   );
 }

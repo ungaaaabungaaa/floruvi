@@ -1,5 +1,8 @@
 import { Sprout, ArrowDownRight } from "lucide-react";
 import { EnquiryForm } from "./enquiry-form";
+import Image from "next/image";
+import kitchen from "@/src/assets/business-kitchen.png";
+import delivery from "@/src/assets/delivery-greens.png";
 export function EnquiryPage({
   business,
   product,
@@ -33,6 +36,18 @@ export function EnquiryPage({
             ? "From a neighbourhood café to a busy professional kitchen. Tell us what you need, and let’s explore the possibilities."
             : "Have a crop in mind? Planning your weekly greens? Send us a note and tell us what you’re looking for."}
         </p>
+        <div className="enquiry-photo">
+          <Image
+            src={business ? kitchen : delivery}
+            alt={
+              business
+                ? "Illustrative fresh produce arriving in a professional kitchen"
+                : "Illustrative box of fresh greens"
+            }
+            fill
+            sizes="(max-width: 800px) 100vw, 45vw"
+          />
+        </div>
         <div className="enquiry-steps">
           <span className="eyebrow">KEEPING IT SIMPLE</span>
           {[

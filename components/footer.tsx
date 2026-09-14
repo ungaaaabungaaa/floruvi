@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { Brand } from "./brand";
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="footer-main">
         <div>
-          <Link className="wordmark" href="/">
-            floruvi
-          </Link>
+          <Brand />
           <p>
             A fresh way to think about
             <br />
@@ -32,6 +31,8 @@ export function Footer() {
           <Link href="/recipes">Recipes</Link>
           <Link href="/real-talk">Real talk</Link>
           <Link href="/privacy">Privacy</Link>
+          <Link href="/delivery">Delivery information</Link>
+          <Link href="/faq">Questions & answers</Link>
         </div>
         <div className="footer-note">
           <span className="eyebrow">A note from the farm</span>
@@ -47,7 +48,7 @@ export function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Floruvi Farm</span>
-        <span>Good food. Brighter days.</span>
+        <span>Freshness worth growing</span>
         <span>Hydroponics · Aeroponics</span>
       </div>
     </footer>

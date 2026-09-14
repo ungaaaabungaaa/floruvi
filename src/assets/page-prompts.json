@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "pages": [
+    [
+      "category-leafy",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Assortment of butterhead lettuce, spinach, curly kale and arugula, softly overlapping as a generous fresh arrangement, top-down on ivory stone."
+    ],
+    [
+      "category-herbs",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Small loose bunches of basil, mint, flat-leaf parsley and dill, top-down on ivory stone, arranged naturally with some breathing room."
+    ],
+    [
+      "category-microgreens",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. A shallow handmade ivory ceramic plate with a fresh tuft of radish microgreens and pea shoots, delicate green leaves and pink stems, close-up editorial photograph."
+    ],
+    [
+      "category-fruiting",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Fresh cherry tomatoes on the vine, cucumber and red and yellow bell peppers as a low still-life arrangement on ivory stone."
+    ],
+    [
+      "category-roots",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. A modest still life of whole radishes with leaves, a beetroot, fresh ginger and turmeric roots on pale limestone. Real varied textures, not an exaggerated abundance."
+    ],
+    [
+      "category-flowers",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. A small shallow ivory bowl of freshly picked nasturtium and viola flowers and blue borage blossoms, with a few blooms beside it. Delicate edible flower concept."
+    ],
+    [
+      "story-seedling",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Close-up of an adult grower's hands gently holding a small healthy lettuce seedling with delicate clean roots in a propagation plug. Soft-focus bright greenhouse behind. No soil pile. Warm hopeful intimate photographic crop, no face needed."
+    ],
+    [
+      "business-kitchen",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. An adult chef in a cream apron receiving a plain wooden produce crate of greens, basil, tomatoes and microgreens at a clean professional kitchen counter. Hands and torso, no face needed. Candid natural premium editorial food photography."
+    ],
+    [
+      "delivery-greens",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Plain unbranded kraft paper produce box with fresh lettuce, spinach, basil and cherry tomatoes, a folded ivory linen towel beside it, sunlight on a pale kitchen table. A gentle editorial packing and delivery concept, no printed labels."
+    ],
+    [
+      "nutrition-botanical",
+      "Use case: photorealistic-natural. Standalone photographic website asset for Floruvi, matching an understated farm-to-table editorial brand. Warm ivory, rich leaf green, natural tactile surfaces, soft daylight. Landscape 3:2 composition, subject centered with room around the edges for responsive cropping. No text, logos, watermarks, borders or UI. Artful botanical paper sculpture: an abstract human side-profile silhouette cut from warm ivory paper beside lush real spinach and kale leaves, arranged as a quiet three-dimensional still life on ivory stone. No medical organs, charts or diagrams. Warm daylight and very subtle shadows, refined editorial wellness image."
+    ]
+  ],
+  "brand": {
+    "prompt": "Use case: precise-object-edit and background-extraction. Prepare the user's exact Floruvi carrot brand mark as a clean transparent PNG for a favicon and website logo. Preserve the distinctive silhouette exactly: two asymmetrical leaves, smaller olive green leaf to upper left and taller dark green leaf upper right, with an orange tapered carrot body containing two sweeping cut-ins on its left edge and the small notch on the upper right. Do not add text or change the identity. Remove all the white background to genuine transparent alpha, no white halo, no checkerboard printed into the bitmap, no shadow or texture. Crisp smooth edges and flat rich orange/olive/dark green colours. Center the complete mark on a square canvas with only 8% transparent padding above and below; the mark should occupy 84% of canvas height so it is readable at small icon sizes. Output PNG."
+  }
+}

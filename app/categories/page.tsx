@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowUpRight } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
-import { Botanical } from "@/components/botanical";
+import Image from "next/image";
+import { categoryImages } from "@/lib/category-images";
 export const metadata: Metadata = {
   title: "Crop categories",
   alternates: { canonical: "/categories" },
@@ -29,7 +30,12 @@ export default async function Categories() {
           >
             <div style={{ background: c.color }}>
               <span className="category-number">0{i + 1}</span>
-              <Botanical category={c.slug} />
+              <Image
+                src={categoryImages[c.slug]}
+                alt={`${c.name}, illustrative assortment`}
+                fill
+                sizes="(max-width: 800px) 100vw, 33vw"
+              />
             </div>
             <div>
               <span className="eyebrow">

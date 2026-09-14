@@ -9,7 +9,6 @@ import {
   Heart,
 } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
-import { productImages } from "@/lib/product-images";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import hero from "@/src/assets/hero-lifestyle.png";
@@ -18,9 +17,14 @@ import salad from "@/src/assets/salad-bowl.png";
 
 export default async function Home() {
   const { categories, products } = await getCatalogue();
-  const featured = Object.keys(productImages).flatMap((slug) =>
-    products.filter((p) => p.slug === slug),
-  );
+  const featured = [
+    "butterhead-lettuce",
+    "spinach",
+    "curly-kale",
+    "sweet-basil",
+    "cherry-tomatoes",
+    "radish-microgreens",
+  ].flatMap((slug) => products.filter((p) => p.slug === slug));
   return (
     <>
       <section className="lifestyle-hero">
@@ -33,7 +37,7 @@ export default async function Home() {
           className="hero-photo"
         />
         <div className="lifestyle-copy">
-          <span className="eyebrow">GOOD GREENS. BRIGHTER DAYS.</span>
+          <span className="eyebrow">FRESHNESS WORTH GROWING</span>
           <h1>
             Better Food.
             <br />A Healthier You.
@@ -71,9 +75,9 @@ export default async function Home() {
           </div>
         </div>
         <span className="handwritten hero-handwriting">
-          Good food,
+          Freshness
           <br />
-          brighter days.
+          worth growing.
         </span>
       </section>
       <section className="section page-width home-produce">

@@ -5,6 +5,8 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { CartLink } from "./add-to-cart";
+import { Brand } from "./brand";
 
 const links = [
   ["/products", "Shop"],
@@ -19,14 +21,7 @@ export function Header() {
   return (
     <>
       <header className="site-header">
-        <Link href="/" className="wordmark" aria-label="Floruvi home">
-          floruvi
-          <small>
-            GOOD GREENS
-            <br />
-            BRIGHTER DAYS
-          </small>
-        </Link>
+        <Brand />
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([href, label]) => (
             <Link
@@ -48,6 +43,7 @@ export function Header() {
             Let’s talk <ArrowUpRight size={16} />
           </Link>
         </Button>
+        <CartLink />
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>
             <button

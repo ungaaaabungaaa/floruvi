@@ -7,7 +7,11 @@
 - Use ASD-STE100 principles: use simple words, active voice, one instruction per step, and consistent terms. Do not claim formal language certification.
 - Read README.md and the relevant document in docs/ before non-trivial work.
 - Treat confirmed user decisions as authority. Clearly label assumptions and proposals.
-- The current scope includes public pages, a broad crop catalogue, categories, product details, B2B/B2C enquiries, recipes, nutrition and growing pages, and connection to the owner's existing Convex project. Customer authentication, paid chat/AI, checkout, and payments are deferred until their accounts and implementation are requested.
+- The current scope includes public pages, a broad crop catalogue, categories, product details, B2B/B2C enquiries, recipes, nutrition and growing pages, and connection to the owner's existing Convex project. Basket and checkout pages are included. Code delivery and payments remain disabled until the providers and sale details are ready. Chat stays hidden.
+
+## Brand
+
+- The tagline is “Freshness worth growing”. Use the supplied carrot mark for the site identity.
 
 ## Product boundaries
 

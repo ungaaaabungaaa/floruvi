@@ -21,6 +21,13 @@ export default function Privacy() {
       </p>
       <h2>Where information is stored</h2>
       <p>
+        Your basket uses local browser storage for crop identifiers and
+        quantities only. Checkout contact and delivery fields stay in page
+        memory until you send an availability request. That request saves your
+        contact details, selected crops, delivery area, and notes. The optional
+        street address is not sent or saved. No payment or account is created.
+      </p>
+      <p>
         Enquiries are stored privately in Floruvi’s Convex project in the EU
         West region. Website hosting processes the requests needed to serve
         these pages. Authorised project operators can access enquiry records.

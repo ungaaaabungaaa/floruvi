@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { categoryImages } from "@/lib/category-images";
 import { notFound } from "next/navigation";
 import { preloadQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
@@ -31,10 +33,21 @@ export default async function Category({ params }: Props) {
         <span>/</span>
         <span>{c.name}</span>
       </nav>
-      <div className="page-heading">
-        <span className="eyebrow">THE FLORUVI GROWING LIST</span>
-        <h1>{c.name}</h1>
-        <p>{c.description}</p>
+      <div className="page-heading category-photo-heading">
+        <div>
+          <span className="eyebrow">THE FLORUVI GROWING LIST</span>
+          <h1>{c.name}</h1>
+          <p>{c.description}</p>
+        </div>
+        <div className="category-heading-image">
+          <Image
+            src={categoryImages[slug]}
+            alt={`${c.name}, illustrative assortment`}
+            fill
+            sizes="(max-width: 800px) 100vw, 50vw"
+            preload
+          />
+        </div>
       </div>
       <CatalogueBrowser preloaded={preloaded} initialCategory={slug} />
     </div>

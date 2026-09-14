@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowUpRight, Sprout, Droplets, HeartHandshake } from "lucide-react";
 import Image from "next/image";
-import towers from "@/src/assets/growing-towers.png";
+import towers from "@/src/assets/story-seedling.png";
 import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Our approach",
@@ -29,7 +29,7 @@ export default function OurFarm() {
         <div className="about-art">
           <Image
             src={towers}
-            alt="An illustrative hydroponic tower with leafy greens"
+            alt="Illustrative grower’s hands holding a young lettuce plant"
             fill
             sizes="(max-width: 800px) 100vw, 50vw"
             preload

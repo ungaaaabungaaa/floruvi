@@ -7,6 +7,7 @@ import { siteUrl } from "@/lib/site";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard, categoryLabels } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
+import { AddToCart } from "@/components/add-to-cart";
 type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -66,7 +67,8 @@ export default async function ProductDetails({ params }: Props) {
               Harvest dates, pack sizes, and price confirmed on request.
             </span>
           </div>
-          <Button asChild>
+          <AddToCart slug={p.slug} name={p.name} />
+          <Button asChild variant="outline">
             <Link href={`/contact?product=${encodeURIComponent(p.name)}`}>
               Ask about this crop <ArrowUpRight size={18} />
             </Link>

@@ -10,9 +10,11 @@ The first release must help people buy products or contact the farm. Development
 
 The public application is built with Next.js and Convex. It includes the home page, a searchable 85-crop catalogue, six categories, crop details, business and personal enquiry forms, farm information, four recipes with detail pages, health and nutrition, growing methods, sustainability, and real talk.
 
-The design follows the owner’s photographic references: warm ivory, forest green, serif headings, large images, and simple product cards. Twelve generated image sources and their prompts are in `src/assets`. Shared styles in `app/globals.css` support later Figma refinements.
+The design follows the owner’s photographic references: warm ivory, forest green, serif headings, large images, and simple product cards. Generated image sources for all 85 crops, the editorial pages, and the carrot brand mark are in `src/assets`, together with their prompts. Shared styles in `app/globals.css` support later Figma refinements.
 
-All crops are enquiry-only. There are no invented prices, stock claims, or checkout buttons. Chat is hidden at the owner’s request. Its code is retained for later OpenRouter work. Live operators, translation, and LLM replies are not connected.
+All crops are enquiry-only. There are no invented prices or stock claims. A persistent basket and three-step checkout now send a real availability enquiry. Email/phone verification and Razorpay are visible but disabled until provider integration and sale details are ready. Chat is hidden at the owner’s request. Its code is retained for later OpenRouter work. Live operators, translation, and LLM replies are not connected.
+
+The brand tagline is **Freshness worth growing**. See [details needed from the owner](docs/10-owner-launch-details.md) and [checkout implementation](docs/09-site-and-checkout.md).
 
 See [build and verification notes](docs/07-public-build.md) and [running the application](docs/08-running-the-app.md).
 

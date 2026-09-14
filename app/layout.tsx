@@ -8,7 +8,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Floruvi — Good food. Brighter days.",
+    default: "Floruvi — Freshness worth growing",
     template: "%s | Floruvi Farm",
   },
   description:
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         url: hero.src,
         width: hero.width,
         height: hero.height,
-        alt: "Floruvi — good food, brighter days",
+        alt: "Floruvi — Freshness worth growing",
       },
     ],
   },
