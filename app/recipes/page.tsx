@@ -1,3 +1,4 @@
+import { getRecipes } from "@/lib/recipes";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,14 +11,15 @@ export const metadata: Metadata = {
     "Fresh ideas for everyday cooking. Explore salads, smoothies, vegetable bowls, and basil pasta with Floruvi.",
   alternates: { canonical: "/recipes" },
 };
-export default function Recipes() {
+export default async function Recipes() {
+  const recipes = await getRecipes();
   return (
     <>
       <section className="editorial-hero page-width">
         <div>
           <span className="eyebrow">RECIPES</span>
           <h1>Simple recipes.</h1>
-          <p>Salads, smoothies, bowls, and pasta.</p>
+          <p>Fresh ideas for every day.</p>
         </div>
         <div className="editorial-image">
           <Image
@@ -30,7 +32,7 @@ export default function Recipes() {
         </div>
       </section>
       <section className="section page-width recipe-list-section">
-        <RecipeBrowser />
+        <RecipeBrowser recipes={recipes} />
       </section>
       <section className="green-editorial page-width">
         <span className="eyebrow">START WITH SOMETHING FRESH</span>

@@ -8,7 +8,7 @@ The first release must help people buy products or contact the farm. Development
 
 ## Current state
 
-The public application is built with Next.js and Convex. It includes the home page, a searchable 91-product catalogue, six categories, crop details, business and personal enquiry forms, farm information, four recipes with detail pages, health and nutrition, growing methods, sustainability, and real talk.
+The public application is built with Next.js and Convex. It includes the home page, a searchable 91-product catalogue, six categories, crop details, business and personal enquiry forms, farm information, 88 recipes with detail pages, stored in Convex, health and nutrition, growing methods, sustainability, and real talk.
 
 The design follows the owner’s photographic references: warm ivory, forest green, serif headings, large images, and simple product cards. Generated image sources for all products, the editorial pages, and the carrot brand mark are in `src/assets`, together with their prompts. Shared styles in `app/globals.css` support later Figma refinements.
 

@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
 import { RecipeCard } from "@/components/recipe-card";
-import { recipes } from "@/lib/recipes";
+import { getRecipes } from "@/lib/recipes";
 import { ProductCard } from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import hero from "@/src/assets/hero-lifestyle.png";
@@ -30,7 +30,10 @@ const categoryIcons: Record<string, LucideIcon> = {
 };
 
 export default async function Home() {
-  const { categories, products } = await getCatalogue();
+  const [{ categories, products }, recipes] = await Promise.all([
+    getCatalogue(),
+    getRecipes(),
+  ]);
   const featured = [
     "butterhead-lettuce",
     "spinach",
@@ -195,7 +198,7 @@ export default async function Home() {
           </Link>
         </div>
         <div className="home-recipe-grid">
-          {recipes.map((recipe) => (
+          {recipes.slice(0, 4).map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}
         </div>

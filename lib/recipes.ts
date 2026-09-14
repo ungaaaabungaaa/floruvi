@@ -1,129 +1,19 @@
-import salad from "@/src/assets/salad-bowl.png";
-import smoothie from "@/src/assets/recipe-smoothie.png";
-import bowl from "@/src/assets/recipe-roasted-bowl.png";
-import pasta from "@/src/assets/recipe-pasta.png";
+import { cache } from "react";
+import { fetchQuery } from "convex/nextjs";
+import { api } from "@/convex/_generated/api";
+import { recipeImages } from "./recipe-images";
 
-export const recipes = [
-  {
-    slug: "everyday-green-salad",
-    name: "Everyday Green Salad",
-    category: "Salads",
-    image: salad,
-    description:
-      "Crisp leaves, juicy tomatoes, and a bright lemon dressing. A simple side for almost any table.",
-    minutes: 10,
-    prepMinutes: 10,
-    cookMinutes: 0,
-    servings: 2,
-    ingredients: [
-      "100 g butterhead lettuce, washed and dried",
-      "150 g cherry tomatoes, halved",
-      "½ cucumber, sliced",
-      "4 radishes, thinly sliced",
-      "½ avocado, sliced",
-      "1 tbsp olive oil",
-      "1 tbsp lemon juice",
-      "Black pepper, to taste",
-    ],
-    steps: [
-      "Tear the lettuce into bite-size pieces and put it in a large bowl.",
-      "Add the tomatoes, cucumber, radishes, and avocado.",
-      "Whisk the olive oil, lemon juice, and pepper in a small bowl.",
-      "Pour the dressing over the salad. Toss gently and serve straight away.",
-    ],
-    tip: "Keep the leaves and dressing separate until you are ready to eat. Add cooked chickpeas or another protein of your choice for a more substantial meal.",
-    crops: ["butterhead-lettuce", "cherry-tomatoes"],
-  },
-  {
-    slug: "spinach-apple-smoothie",
-    name: "Spinach & Apple Smoothie",
-    category: "Smoothies",
-    image: smoothie,
-    description:
-      "A fresh green blend with apple, banana, and a squeeze of lemon. No complicated ingredients.",
-    minutes: 5,
-    prepMinutes: 5,
-    cookMinutes: 0,
-    servings: 2,
-    ingredients: [
-      "40 g spinach, washed",
-      "1 ripe banana, peeled",
-      "1 apple, cored and chopped",
-      "250 ml cold drinking water",
-      "1 tsp lemon juice",
-      "4 ice cubes (optional)",
-    ],
-    steps: [
-      "Put the water and spinach in a blender. Blend until the leaves are finely broken down.",
-      "Add the banana, apple, lemon juice, and ice, if using.",
-      "Blend until smooth. Add a little more water if you prefer a thinner drink.",
-      "Divide between two glasses and serve immediately.",
-    ],
-    tip: "Use a ripe banana for sweetness. This is a serving idea, not a meal-replacement or detox drink.",
-    crops: ["spinach"],
-  },
-  {
-    slug: "roasted-vegetable-bowl",
-    name: "Roasted Vegetable Bowl",
-    category: "Bowls",
-    image: bowl,
-    description:
-      "Colourful roasted vegetables and chickpeas over brown rice. Warm, simple, and easy to make your own.",
-    minutes: 35,
-    prepMinutes: 10,
-    cookMinutes: 25,
-    servings: 2,
-    ingredients: [
-      "1 bell pepper, chopped",
-      "1 courgette, cut into half-moons",
-      "150 g broccoli florets",
-      "150 g cherry tomatoes",
-      "240 g drained cooked chickpeas",
-      "250 g cooked brown rice",
-      "1 tbsp olive oil",
-      "1 tsp ground cumin",
-      "1 tbsp lemon juice",
-      "2 tbsp chopped parsley",
-    ],
-    steps: [
-      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
-      "Toss the pepper, courgette, broccoli, tomatoes, and chickpeas with the oil and cumin. Spread them in a single layer.",
-      "Roast for 20–25 minutes, turning once, until the vegetables are tender and lightly browned.",
-      "Heat the cooked rice according to its pack instructions. Divide it between two bowls.",
-      "Add the roasted vegetables and chickpeas. Finish with lemon juice and parsley.",
-    ],
-    tip: "Use a large tray so the vegetables roast evenly. Use freshly cooked rice or follow the storage and reheating instructions on the rice pack.",
-    crops: ["cherry-tomatoes", "flat-leaf-parsley"],
-  },
-  {
-    slug: "fresh-basil-pasta",
-    name: "Fresh Basil Pasta",
-    category: "Pasta",
-    image: pasta,
-    description:
-      "Basil, lemon, and pumpkin seeds make a lively pesto for a quick bowl of tomato pasta.",
-    minutes: 20,
-    prepMinutes: 10,
-    cookMinutes: 10,
-    servings: 2,
-    ingredients: [
-      "180 g dry spaghetti",
-      "30 g fresh basil leaves, washed and dried",
-      "25 g pumpkin seeds",
-      "1 small garlic clove",
-      "2 tbsp olive oil",
-      "1 tbsp lemon juice",
-      "150 g cherry tomatoes, halved",
-      "Black pepper, to taste",
-    ],
-    steps: [
-      "Cook the spaghetti in boiling water according to its pack instructions. Save a mug of the cooking water before draining.",
-      "Blend the basil, pumpkin seeds, garlic, olive oil, and lemon juice into a coarse pesto.",
-      "Put the warm pasta back in the pan, off the heat. Add the pesto and tomatoes.",
-      "Toss with a splash of the reserved cooking water until the sauce coats the pasta. Add pepper and serve.",
-    ],
-    tip: "Keep a few basil leaves to scatter over the bowl. Check the pasta label for allergens and use a suitable alternative if needed.",
-    crops: ["sweet-basil", "cherry-tomatoes"],
-  },
-];
-export type Recipe = (typeof recipes)[number];
+function imageFor(key: string) {
+  const image = recipeImages[key];
+  if (!image) throw new Error(`Recipe image is missing: ${key}`);
+  return image;
+}
+export const getRecipes = cache(async () => {
+  const recipes = await fetchQuery(api.recipes.list, {});
+  return recipes.map((r) => ({ ...r, image: imageFor(r.imageKey) }));
+});
+export const getRecipe = cache(async (slug: string) => {
+  const recipe = await fetchQuery(api.recipes.get, { slug });
+  return recipe ? { ...recipe, image: imageFor(recipe.imageKey) } : null;
+});
+export type Recipe = Awaited<ReturnType<typeof getRecipes>>[number];

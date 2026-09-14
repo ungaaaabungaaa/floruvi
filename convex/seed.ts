@@ -1,3 +1,4 @@
+import { recipeCatalogue } from "./recipeData";
 import { internalMutation } from "./_generated/server";
 import { categories, cropCatalogue } from "./catalogueData";
 import {
@@ -71,6 +72,29 @@ export const pricing = internalMutation({
       preserved: pricingBenchmarks.length - added,
       deliveryAdded: !settings,
       revision: pricingRevision,
+    };
+  },
+});
+
+// Adds missing recipes and preserves all existing editorial changes.
+export const recipes = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    let added = 0;
+    for (const recipe of recipeCatalogue) {
+      const existing = await ctx.db
+        .query("recipes")
+        .withIndex("by_slug", (q) => q.eq("slug", recipe.slug))
+        .unique();
+      if (!existing) {
+        await ctx.db.insert("recipes", recipe);
+        added++;
+      }
+    }
+    return {
+      added,
+      preserved: recipeCatalogue.length - added,
+      totalSeedRecipes: recipeCatalogue.length,
     };
   },
 });

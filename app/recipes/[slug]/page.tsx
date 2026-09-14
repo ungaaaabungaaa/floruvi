@@ -3,17 +3,14 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, Users, ArrowRight } from "lucide-react";
-import { recipes } from "@/lib/recipes";
+import { getRecipe } from "@/lib/recipes";
 import { getCatalogue } from "@/lib/catalogue";
 import { ProductCard } from "@/components/product-card";
 import { siteUrl } from "@/lib/site";
 type Props = { params: Promise<{ slug: string }> };
-export function generateStaticParams() {
-  return recipes.map((r) => ({ slug: r.slug }));
-}
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const r = recipes.find((r) => r.slug === slug);
+  const r = await getRecipe(slug);
   return {
     title: r?.name ?? "Recipe not found",
     description: r?.description,
@@ -22,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 export default async function RecipeDetails({ params }: Props) {
   const { slug } = await params;
-  const r = recipes.find((r) => r.slug === slug);
+  const r = await getRecipe(slug);
   if (!r) notFound();
   const { products } = await getCatalogue();
   const crops = products.filter((p) => r.crops.includes(p.slug));
@@ -83,6 +80,7 @@ export default async function RecipeDetails({ params }: Props) {
           />
         </div>
       </section>
+      <p className="box-note">{r.imageCaption}</p>
       <div className="recipe-instructions">
         <aside>
           <span className="eyebrow">WHAT YOU NEED</span>

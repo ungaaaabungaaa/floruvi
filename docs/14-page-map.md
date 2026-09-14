@@ -13,7 +13,7 @@ floruvi.vercel.app/
 ├── cart/                     Basket
 ├── checkout/                 Delivery details and order request
 ├── recipes/                  Recipe collection
-│   └── [slug]/               Recipe details — 4 recipes
+│   └── [slug]/               Recipe details — 88 recipes
 ├── our-farm/                 Farm story
 ├── how-we-grow/              Growing process
 ├── health/                   Nutrition

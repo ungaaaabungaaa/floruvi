@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { ArrowUpRight, Sprout, Check } from "lucide-react";
 import { getCatalogue } from "@/lib/catalogue";
 import { siteUrl } from "@/lib/site";
-import { recipes } from "@/lib/recipes";
+import { getRecipes } from "@/lib/recipes";
 import { RecipeCard } from "@/components/recipe-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard, categoryLabels } from "@/components/product-card";
@@ -24,15 +24,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 export default async function ProductDetails({ params }: Props) {
   const { slug } = await params;
-  const { products } = await getCatalogue();
+  const [{ products }, recipes] = await Promise.all([
+    getCatalogue(),
+    getRecipes(),
+  ]);
   const p = products.find((p) => p.slug === slug);
   if (!p) notFound();
   const related = products
     .filter((q) => q.category === p.category && q.slug !== p.slug)
     .slice(0, 4);
-  const productRecipes = recipes.filter((recipe) =>
-    recipe.crops.includes(p.slug),
-  );
+  const productRecipes = recipes
+    .filter((recipe) => recipe.crops.includes(p.slug))
+    .slice(0, 4);
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Product",

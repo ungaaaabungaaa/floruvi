@@ -1,0 +1,2463 @@
+[
+  {
+    "slug": "rocket-pear-and-walnut-salad",
+    "name": "Rocket Pear and Walnut Salad",
+    "category": "Salads",
+    "description": "Peppery rocket, ripe pear and crunchy walnuts.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "80 g arugula",
+      "1 pear, cored and thinly sliced",
+      "30 g walnuts, roughly chopped",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "arugula"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "cucumber-tomato-kachumber",
+    "name": "Cucumber Tomato Kachumber",
+    "category": "Salads",
+    "description": "A chopped salad with a lemon and cumin dressing.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "1 cucumber, diced",
+      "200 g cherry tomatoes, quartered",
+      "½ red onion, finely diced",
+      "2 tbsp chopped coriander",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "cucumber",
+      "cherry-tomatoes",
+      "coriander"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "carrot-radish-slaw",
+    "name": "Carrot Radish Slaw",
+    "category": "Salads",
+    "description": "A crisp slaw with fresh mint.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "200 g carrots, grated",
+      "100 g radishes, grated",
+      "2 tbsp chopped mint",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "carrot",
+      "radish",
+      "mint"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "fennel-orange-salad",
+    "name": "Fennel Orange Salad",
+    "category": "Salads",
+    "description": "Sweet orange and shaved fennel with olives.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "1 small fennel bulb, thinly sliced",
+      "1 orange, peeled and segmented",
+      "30 g pitted olives",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "1 tbsp chopped mint"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "mint"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "butterhead-avocado-salad",
+    "name": "Butterhead Avocado Salad",
+    "category": "Salads",
+    "description": "Soft leaves with avocado and a sharp dressing.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "100 g butterhead lettuce, torn",
+      "1 avocado, peeled and sliced",
+      "100 g cucumber, sliced",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "butterhead-lettuce",
+      "cucumber"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "napa-cabbage-apple-slaw",
+    "name": "Napa Cabbage Apple Slaw",
+    "category": "Salads",
+    "description": "Shredded cabbage and apple with toasted seeds.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "200 g napa cabbage, finely shredded",
+      "1 apple, cored and cut into matchsticks",
+      "20 g pumpkin seeds",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Wash and dry the fresh produce. Prepare the salad ingredients as listed.",
+      "Whisk the olive oil, lemon juice, cumin, salt and pepper in a small bowl.",
+      "Put the prepared salad ingredients in a serving bowl.",
+      "Add the dressing, toss gently and serve immediately."
+    ],
+    "crops": [
+      "napa-cabbage"
+    ],
+    "tip": "Dress just before serving to keep the vegetables crisp."
+  },
+  {
+    "slug": "quinoa-spinach-chickpea-salad",
+    "name": "Quinoa Spinach Chickpea Salad",
+    "category": "Salads",
+    "description": "A grain salad with spinach chickpea.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "100 g baby spinach",
+      "150 g drained cooked chickpeas",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Fold the spinach and chickpeas into the warm quinoa so the leaves soften slightly.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "quinoa-beetroot-orange-salad",
+    "name": "Quinoa Beetroot Orange Salad",
+    "category": "Salads",
+    "description": "A grain salad with beetroot orange.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "150 g cooked beetroot, diced",
+      "1 orange, peeled and chopped",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Let the quinoa cool slightly, then fold in the beetroot and orange.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "beetroot"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "quinoa-cucumber-mint-salad",
+    "name": "Quinoa Cucumber Mint Salad",
+    "category": "Salads",
+    "description": "A grain salad with cucumber mint.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "150 g cucumber, diced",
+      "3 tbsp chopped mint",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Let the quinoa cool, then stir in the cucumber and mint.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "cucumber",
+      "mint"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "quinoa-tomato-basil-salad",
+    "name": "Quinoa Tomato Basil Salad",
+    "category": "Salads",
+    "description": "A grain salad with tomato basil.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "150 g cherry tomatoes, halved",
+      "20 g basil, torn",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Let the quinoa cool slightly, then fold in the tomatoes and basil.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "cherry-tomatoes",
+      "sweet-basil"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "quinoa-pea-shoot-salad",
+    "name": "Quinoa Pea Shoot Salad",
+    "category": "Salads",
+    "description": "A grain salad with pea shoot.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "50 g pea shoots",
+      "100 g thawed cooked peas",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Let the quinoa cool slightly, then fold in the peas and washed pea shoots.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "pea-shoots"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "quinoa-radish-parsley-salad",
+    "name": "Quinoa Radish Parsley Salad",
+    "category": "Salads",
+    "description": "A grain salad with radish parsley.",
+    "minutes": 30,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      "120 g dry quinoa",
+      "250 ml water",
+      "100 g radishes, thinly sliced",
+      "3 tbsp chopped flat-leaf parsley",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Rinse the quinoa in a fine sieve. Put it in a saucepan with the water and salt.",
+      "Bring to a boil, cover and simmer gently for 12–15 minutes, or until the water is absorbed. Rest off the heat for 5 minutes.",
+      "Let the quinoa cool slightly, then fold in the radishes and parsley.",
+      "Mix in the olive oil and lemon juice. Divide between two bowls."
+    ],
+    "crops": [
+      "radish",
+      "flat-leaf-parsley"
+    ],
+    "tip": "Follow the quinoa pack if its water ratio differs. Serve promptly."
+  },
+  {
+    "slug": "carrot-ginger-soup",
+    "name": "Carrot Ginger Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "300 g carrots, thinly sliced",
+      "1 tsp grated ginger",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the carrots and ginger. Simmer for 20 minutes until the carrots are soft.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "carrot",
+      "ginger"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "tomato-basil-soup",
+    "name": "Tomato Basil Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "400 g ripe tomatoes, chopped",
+      "15 g basil leaves",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the tomatoes and simmer for 20 minutes. Add the basil off the heat.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "plum-tomatoes",
+      "sweet-basil"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "cauliflower-parsley-soup",
+    "name": "Cauliflower Parsley Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "300 g cauliflower florets",
+      "2 tbsp chopped parsley",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the cauliflower and simmer for 15–20 minutes until tender. Add the parsley off the heat.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "flat-leaf-parsley"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "spinach-potato-soup",
+    "name": "Spinach Potato Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "180 g potato, peeled and diced small",
+      "120 g spinach",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the potato and simmer for 15 minutes until tender. Add the spinach and cook for 3 minutes.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "spinach",
+      "potato"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "zucchini-mint-soup",
+    "name": "Zucchini Mint Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "300 g zucchini, sliced",
+      "2 tbsp chopped mint",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the zucchini and simmer for 15 minutes until soft. Add the mint off the heat.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "zucchini",
+      "mint"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "beetroot-dill-soup",
+    "name": "Beetroot Dill Soup",
+    "category": "Soups",
+    "description": "A smooth vegetable soup for two.",
+    "minutes": 40,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 small onion, diced",
+      "1 garlic clove, chopped",
+      "500 ml vegetable stock",
+      "250 g raw beetroot, peeled and grated",
+      "2 tbsp chopped dill",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes over medium heat, stirring, until softened.",
+      "Add the garlic and cook for 30 seconds. Pour in the stock.",
+      "Add the grated beetroot and simmer for 20 minutes until tender. Add the dill off the heat.",
+      "Remove from the heat. Blend with an immersion blender, keeping the blade submerged. Season with pepper and serve."
+    ],
+    "crops": [
+      "beetroot",
+      "dill"
+    ],
+    "tip": "If using a jug blender, let the soup cool and follow its hot-liquid instructions."
+  },
+  {
+    "slug": "bok-choy-noodle-broth",
+    "name": "Bok Choy Noodle Broth",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "150 g bok choy, sliced thinly",
+      "80 g mushrooms, sliced"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "bok-choy"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "napa-cabbage-ginger-broth",
+    "name": "Napa Cabbage Ginger Broth",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "150 g napa cabbage, shredded",
+      "1 tsp grated ginger"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "napa-cabbage",
+      "ginger"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "carrot-celery-noodle-soup",
+    "name": "Carrot Celery Noodle Soup",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "100 g carrot, cut into thin matchsticks",
+      "1 celery stick, thinly sliced"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "carrot",
+      "celery"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "spinach-spring-onion-broth",
+    "name": "Spinach Spring Onion Broth",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "100 g spinach",
+      "2 spring onions, sliced"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "spinach",
+      "spring-onions"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "zucchini-coriander-noodle-soup",
+    "name": "Zucchini Coriander Noodle Soup",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "150 g zucchini, cut into thin strips",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "zucchini",
+      "coriander"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "mushroom-chive-noodle-broth",
+    "name": "Mushroom Chive Noodle Broth",
+    "category": "Soups",
+    "description": "Vegetables, tofu and noodles in a light broth.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "600 ml vegetable stock",
+      "100 g dry quick-cooking rice noodles",
+      "150 g firm tofu, diced",
+      "1 tsp sesame oil",
+      "2 tsp soy sauce",
+      "150 g mushrooms, thinly sliced",
+      "2 tbsp chopped chives"
+    ],
+    "steps": [
+      "Bring the stock to a gentle boil in a saucepan.",
+      "Add the prepared vegetables and tofu. Simmer for 6–8 minutes until the vegetables are tender and the tofu is hot.",
+      "Prepare the rice noodles according to the pack instructions. Drain and divide between two bowls.",
+      "Stir the sesame oil and soy sauce into the broth. Ladle the broth, tofu and vegetables over the noodles."
+    ],
+    "crops": [
+      "chives"
+    ],
+    "tip": "Use quick-cooking rice noodles. Check the soy sauce label if avoiding wheat."
+  },
+  {
+    "slug": "cucumber-mint-raita",
+    "name": "Cucumber Mint Raita",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "150 g cucumber, grated",
+      "1 tbsp chopped mint"
+    ],
+    "steps": [
+      "Squeeze excess water from the grated cucumber.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "cucumber",
+      "mint"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "carrot-coriander-raita",
+    "name": "Carrot Coriander Raita",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "100 g carrot, finely grated",
+      "1 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Peel and finely grate the carrot.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "carrot",
+      "coriander"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "beetroot-dill-raita",
+    "name": "Beetroot Dill Raita",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "100 g cooked beetroot, finely diced",
+      "1 tbsp chopped dill"
+    ],
+    "steps": [
+      "Drain and dice the cooked beetroot.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "beetroot",
+      "dill"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "radish-chive-raita",
+    "name": "Radish Chive Raita",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "100 g radish, finely grated",
+      "1 tbsp chopped chives"
+    ],
+    "steps": [
+      "Squeeze excess water from the grated radish.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "radish",
+      "chives"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "tomato-basil-yoghurt",
+    "name": "Tomato Basil Yoghurt",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "100 g cherry tomatoes, quartered",
+      "1 tbsp finely sliced basil"
+    ],
+    "steps": [
+      "Quarter the tomatoes and finely slice the basil.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "cherry-tomatoes",
+      "sweet-basil"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "cucumber-microgreen-yoghurt",
+    "name": "Cucumber Microgreen Yoghurt",
+    "category": "Sides",
+    "description": "A cool yoghurt side with fresh vegetables.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "250 g plain yoghurt",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "100 g cucumber, diced",
+      "20 g washed radish microgreens"
+    ],
+    "steps": [
+      "Dice the cucumber and roughly chop the washed microgreens.",
+      "Whisk the yoghurt, cumin and salt until smooth.",
+      "Fold the prepared vegetables and herbs into the yoghurt.",
+      "Serve cold as a side dish. Refrigerate promptly if not serving at once."
+    ],
+    "crops": [
+      "cucumber",
+      "radish-microgreens"
+    ],
+    "tip": "Use plain unsweetened yoghurt. Keep chilled until serving."
+  },
+  {
+    "slug": "avocado-radish-toast",
+    "name": "Avocado Radish Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "1 avocado",
+      "80 g radishes, thinly sliced"
+    ],
+    "steps": [
+      "Mash the peeled avocado with the lemon juice, salt and pepper.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Top with the sliced radishes. Serve immediately."
+    ],
+    "crops": [
+      "radish"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "hummus-cucumber-toast",
+    "name": "Hummus Cucumber Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "100 g prepared hummus",
+      "100 g cucumber, sliced"
+    ],
+    "steps": [
+      "Stir the lemon juice and pepper into the hummus; add the salt only if needed.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Top with the cucumber. Serve immediately."
+    ],
+    "crops": [
+      "cucumber"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "ricotta-tomato-basil-toast",
+    "name": "Ricotta Tomato Basil Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "120 g ricotta",
+      "120 g cherry tomatoes, halved",
+      "10 g basil leaves"
+    ],
+    "steps": [
+      "Mix the ricotta with the lemon juice, salt and pepper.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Top with the tomatoes and basil. Serve immediately."
+    ],
+    "crops": [
+      "cherry-tomatoes",
+      "sweet-basil"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "pea-shoot-cream-cheese-toast",
+    "name": "Pea Shoot Cream Cheese Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "80 g cream cheese",
+      "40 g washed pea shoots"
+    ],
+    "steps": [
+      "Mix the cream cheese with the lemon juice and pepper; add the salt only if needed.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Top with the pea shoots. Serve immediately."
+    ],
+    "crops": [
+      "pea-shoots"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "beetroot-hummus-toast",
+    "name": "Beetroot Hummus Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "100 g prepared hummus",
+      "100 g cooked beetroot, diced"
+    ],
+    "steps": [
+      "Blend the beetroot, hummus, lemon juice and pepper into a thick spread; taste before adding salt.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Spoon any remaining beetroot spread alongside the toast. Serve immediately."
+    ],
+    "crops": [
+      "beetroot"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "avocado-sunflower-shoot-toast",
+    "name": "Avocado Sunflower Shoot Toast",
+    "category": "Breakfast",
+    "description": "Open toast with a fresh vegetable topping.",
+    "minutes": 15,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      "4 slices wholegrain bread",
+      "1 tsp lemon juice",
+      "A pinch of salt",
+      "Black pepper, to taste",
+      "1 avocado",
+      "40 g washed sunflower shoots"
+    ],
+    "steps": [
+      "Mash the peeled avocado with the lemon juice, salt and pepper.",
+      "Toast the bread until crisp and golden.",
+      "Spread the topping mixture over the warm toast.",
+      "Top with the sunflower shoots. Serve immediately."
+    ],
+    "crops": [
+      "sunflower-shoots"
+    ],
+    "tip": "Assemble just before serving so the bread stays crisp."
+  },
+  {
+    "slug": "chickpea-lettuce-wraps",
+    "name": "Chickpea Lettuce Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "100 g romaine lettuce, shredded",
+      "100 g cucumber, diced"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "romaine-lettuce",
+      "cucumber"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "chickpea-carrot-mint-wraps",
+    "name": "Chickpea Carrot Mint Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "100 g carrot, grated",
+      "2 tbsp chopped mint"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "carrot",
+      "mint"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "chickpea-tomato-rocket-wraps",
+    "name": "Chickpea Tomato Rocket Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "100 g cherry tomatoes, quartered",
+      "40 g arugula"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "cherry-tomatoes",
+      "arugula"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "chickpea-beetroot-dill-wraps",
+    "name": "Chickpea Beetroot Dill Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "100 g cooked beetroot, diced",
+      "2 tbsp chopped dill"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "beetroot",
+      "dill"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "chickpea-radish-microgreen-wraps",
+    "name": "Chickpea Radish Microgreen Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "80 g radishes, sliced",
+      "30 g washed broccoli microgreens"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "radish",
+      "broccoli-microgreens"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "chickpea-cabbage-coriander-wraps",
+    "name": "Chickpea Cabbage Coriander Wraps",
+    "category": "Wraps",
+    "description": "A chickpea wrap with crunchy vegetables.",
+    "minutes": 15,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "2 large ready-to-eat flour tortillas",
+      "200 g drained cooked chickpeas",
+      "2 tbsp plain yoghurt",
+      "1 tsp lemon juice",
+      "¼ tsp ground cumin",
+      "A pinch of salt",
+      "100 g napa cabbage, finely shredded",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Mash the chickpeas roughly with the yoghurt, lemon juice, cumin and salt.",
+      "Lay out the tortillas. Spread the chickpea mixture over the middle of each.",
+      "Add the prepared vegetables and herbs. Keep the edges clear.",
+      "Fold the sides inward, roll tightly and slice in half to serve."
+    ],
+    "crops": [
+      "napa-cabbage",
+      "coriander"
+    ],
+    "tip": "Use ready-to-eat tortillas, or warm them as directed on the pack."
+  },
+  {
+    "slug": "spinach-garlic-spaghetti",
+    "name": "Spinach Garlic Spaghetti",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry spaghetti",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "150 g spinach"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the spinach and stir for 2–3 minutes until wilted.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "tomato-oregano-penne",
+    "name": "Tomato Oregano Penne",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry penne",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "250 g cherry tomatoes, halved",
+      "1 tsp fresh oregano leaves"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the tomatoes and oregano. Cook for 8 minutes, pressing a few tomatoes to make a sauce.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "cherry-tomatoes"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "zucchini-lemon-pasta",
+    "name": "Zucchini Lemon Pasta",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry spaghetti",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "250 g zucchini, thinly sliced"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the zucchini and cook for 7–8 minutes until tender and lightly golden.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "zucchini"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "kale-chilli-pasta",
+    "name": "Kale Chilli Pasta",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry spaghetti",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "120 g curly kale, stems removed and leaves chopped",
+      "¼ tsp chilli flakes"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the kale, chilli flakes and 3 tbsp pasta water. Cover for 5 minutes, then uncover and stir until tender.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "curly-kale"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "mushroom-parsley-pasta",
+    "name": "Mushroom Parsley Pasta",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry spaghetti",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "200 g mushrooms, sliced",
+      "3 tbsp chopped parsley"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the mushrooms and cook for 8 minutes until golden. Stir in the parsley.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "flat-leaf-parsley"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "pea-mint-pasta",
+    "name": "Pea Mint Pasta",
+    "category": "Pasta",
+    "description": "A quick pan sauce tossed through warm pasta.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "180 g dry spaghetti",
+      "1 tbsp olive oil",
+      "2 garlic cloves, thinly sliced",
+      "1 tsp lemon juice",
+      "¼ tsp salt",
+      "Black pepper, to taste",
+      "150 g frozen peas",
+      "2 tbsp chopped mint"
+    ],
+    "steps": [
+      "Cook the pasta in boiling water according to the pack. Save 150 ml cooking water before draining.",
+      "While the pasta cooks, heat the oil in a large frying pan. Cook the garlic over medium-low heat for 30 seconds without browning.",
+      "Add the peas and 3 tbsp pasta water. Simmer for 4–5 minutes until hot, then stir in the mint.",
+      "Add the drained pasta, lemon juice, salt and pepper. Toss with enough reserved water to coat, then serve."
+    ],
+    "crops": [
+      "mint"
+    ],
+    "tip": "Cook the sauce while the pasta boils. Add pasta water a spoonful at a time."
+  },
+  {
+    "slug": "sesame-bok-choy",
+    "name": "Sesame Bok Choy",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "300 g bok choy, stems and leaves separated"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Stir-fry the stems for 4 minutes. Add the leaves and cook for 2 minutes.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "bok-choy"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "garlic-green-beans",
+    "name": "Garlic Green Beans",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "300 g green beans, trimmed and halved"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Add the beans and 60 ml water. Cover and cook for 8–10 minutes until tender, then uncover.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "green-beans"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "ginger-napa-cabbage",
+    "name": "Ginger Napa Cabbage",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "300 g napa cabbage, sliced",
+      "1 tsp grated ginger"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Add the cabbage and ginger. Stir-fry for 6–8 minutes until tender.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "napa-cabbage"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "sesame-zucchini-ribbons",
+    "name": "Sesame Zucchini Ribbons",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "300 g zucchini, cut into ribbons with a peeler"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Add the zucchini ribbons and stir-fry for 3–4 minutes until just tender.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "zucchini"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "garlic-mustard-greens",
+    "name": "Garlic Mustard Greens",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "250 g mustard greens, stems removed and leaves chopped"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Add the greens and 60 ml water. Cover for 8 minutes, then uncover and cook for 2 minutes.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "mustard-greens"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "ginger-bell-pepper-stir-fry",
+    "name": "Ginger Bell Pepper Stir Fry",
+    "category": "Sides",
+    "description": "A simple vegetable side with garlic and sesame.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "1 tbsp neutral cooking oil",
+      "2 garlic cloves, minced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "2 bell peppers, thinly sliced",
+      "1 tsp grated ginger"
+    ],
+    "steps": [
+      "Heat the oil in a large frying pan over medium-high heat.",
+      "Add the garlic and stir for 20 seconds.",
+      "Add the peppers and ginger. Stir-fry for 7–8 minutes until softened but still crisp.",
+      "Stir in the soy sauce and sesame seeds. Cook for 30 seconds and serve hot."
+    ],
+    "crops": [
+      "bell-peppers"
+    ],
+    "tip": "Serve as a side with cooked rice or noodles."
+  },
+  {
+    "slug": "cumin-carrot-chickpea-tray",
+    "name": "Cumin Carrot Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "300 g carrots, cut into 1 cm pieces"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "carrot"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "rosemary-potato-chickpea-tray",
+    "name": "Rosemary Potato Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "300 g potatoes, cut into 1 cm cubes",
+      "1 tsp chopped rosemary"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "potato"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "beetroot-thyme-chickpea-tray",
+    "name": "Beetroot Thyme Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "250 g beetroot, peeled and cut into 1 cm cubes",
+      "1 tsp thyme leaves"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "beetroot"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "pepper-zucchini-chickpea-tray",
+    "name": "Pepper Zucchini Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "1 bell pepper, chopped",
+      "200 g zucchini, cut into thick half-moons"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "bell-peppers"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "fennel-tomato-chickpea-tray",
+    "name": "Fennel Tomato Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "200 g fennel, thinly sliced",
+      "150 g cherry tomatoes"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "cherry-tomatoes"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "eggplant-oregano-chickpea-tray",
+    "name": "Eggplant Oregano Chickpea Tray",
+    "category": "Tray bakes",
+    "description": "Roasted vegetables and chickpeas on one tray.",
+    "minutes": 45,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      "240 g drained cooked chickpeas",
+      "1½ tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "300 g eggplant, cut into 1 cm cubes",
+      "1 tsp oregano leaves"
+    ],
+    "steps": [
+      "Heat the oven to 200°C (180°C fan). Line a large baking tray.",
+      "Toss the vegetables, chickpeas, oil, cumin, salt and any listed herbs together. Spread in a single layer.",
+      "Roast for 30–35 minutes, turning halfway, until the vegetables are tender. Test the largest piece with a fork; cook a little longer if needed.",
+      "Drizzle with the lemon juice and divide between two plates."
+    ],
+    "crops": [
+      "eggplant"
+    ],
+    "tip": "Leave space between pieces. A crowded tray can steam rather than roast."
+  },
+  {
+    "slug": "spinach-besan-chilla",
+    "name": "Spinach Besan Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "60 g spinach, finely chopped"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "methi-besan-chilla",
+    "name": "Methi Besan Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "40 g fenugreek greens, leaves picked and finely chopped"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "fenugreek-greens"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "carrot-coriander-chilla",
+    "name": "Carrot Coriander Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "80 g carrot, finely grated",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "carrot"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "spring-onion-chilla",
+    "name": "Spring Onion Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "3 spring onions, finely sliced"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "spring-onions"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "zucchini-mint-chilla",
+    "name": "Zucchini Mint Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "80 g zucchini, finely grated and squeezed dry",
+      "1 tbsp chopped mint"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "zucchini"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "radish-leafy-chilla",
+    "name": "Radish Leafy Chilla",
+    "category": "Breakfast",
+    "description": "Savoury chickpea flour pancakes with fresh vegetables.",
+    "minutes": 25,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "120 g chickpea flour (besan)",
+      "180 ml water",
+      "¼ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tsp neutral cooking oil",
+      "60 g radish, finely grated and squeezed dry",
+      "30 g spinach, finely chopped"
+    ],
+    "steps": [
+      "Whisk the chickpea flour, water, cumin and salt into a smooth batter. Rest for 5 minutes.",
+      "Stir in the prepared vegetables and herbs. Add a spoonful of water if the batter does not spread.",
+      "Brush a non-stick pan with a little oil over medium heat. Spread one quarter of the batter into a thin pancake.",
+      "Cook for 2–3 minutes per side until set, golden and cooked through with no wet batter. Repeat to make four pancakes."
+    ],
+    "crops": [
+      "radish"
+    ],
+    "tip": "Use a thin layer of batter so the centre cooks before the outside browns."
+  },
+  {
+    "slug": "spinach-pea-rice",
+    "name": "Spinach Pea Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "100 g spinach, chopped",
+      "100 g frozen peas"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir in the peas with the rice. Add the spinach for the final 3 minutes of cooking.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "carrot-cumin-rice",
+    "name": "Carrot Cumin Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "150 g carrot, finely diced"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir the carrots into the rice before adding water.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "carrot"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "tomato-basil-rice",
+    "name": "Tomato Basil Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "150 g tomatoes, diced",
+      "15 g basil leaves"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir the tomatoes into the rice. Fold in the basil after resting.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "plum-tomatoes"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "fennel-dill-rice",
+    "name": "Fennel Dill Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "150 g fennel, finely diced",
+      "2 tbsp chopped dill"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir the fennel into the rice. Fold in the dill after resting.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "dill"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "green-bean-coriander-rice",
+    "name": "Green Bean Coriander Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "150 g green beans, cut into 1 cm pieces",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir the beans into the rice. Fold in the coriander after resting.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "green-beans"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "methi-lemon-rice",
+    "name": "Methi Lemon Rice",
+    "category": "Bowls",
+    "description": "A one-pan rice dish with vegetables and herbs.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "150 g basmati rice",
+      "300 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, finely diced",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "60 g fenugreek greens, leaves picked and chopped",
+      "1 tbsp lemon juice"
+    ],
+    "steps": [
+      "Rinse and drain the rice. Heat the oil in a saucepan and cook the onion and cumin for 5 minutes until the onion is soft.",
+      "Add the drained rice and stir for 1 minute. Stir the fenugreek leaves into the rice. Add the lemon juice after resting.",
+      "Add the water and salt. Bring to a boil, cover and cook on low heat for 12–15 minutes until the rice is tender and the water absorbed.",
+      "Remove from the heat and rest, covered, for 5 minutes. Add any finishing ingredients noted above, fluff with a fork and serve."
+    ],
+    "crops": [
+      "fenugreek-greens"
+    ],
+    "tip": "Follow the rice pack if its water ratio differs. Serve freshly cooked."
+  },
+  {
+    "slug": "mint-mango-lassi",
+    "name": "Mint Mango Lassi",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "150 g mango flesh",
+      "10 g mint leaves"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "mint"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "strawberry-basil-smoothie",
+    "name": "Strawberry Basil Smoothie",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "150 g hulled strawberries",
+      "5 g basil leaves"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "strawberries"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "cucumber-pear-smoothie",
+    "name": "Cucumber Pear Smoothie",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "100 g cucumber, chopped",
+      "1 ripe pear, cored and chopped"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "cucumber"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "spinach-pineapple-smoothie",
+    "name": "Spinach Pineapple Smoothie",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "40 g spinach",
+      "150 g pineapple flesh"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "carrot-orange-smoothie",
+    "name": "Carrot Orange Smoothie",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "70 g carrot, finely grated",
+      "1 orange, peeled and seeded"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "carrot"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "beetroot-berry-smoothie",
+    "name": "Beetroot Berry Smoothie",
+    "category": "Smoothies",
+    "description": "A fruit and vegetable blend with plain yoghurt.",
+    "minutes": 10,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      "150 g plain yoghurt",
+      "150 ml cold drinking water",
+      "1 ripe banana, peeled",
+      "70 g cooked beetroot",
+      "100 g strawberries, hulled"
+    ],
+    "steps": [
+      "Wash fresh produce and prepare all ingredients as listed.",
+      "Put the water and yoghurt in a blender, then add the banana and remaining ingredients.",
+      "Blend until smooth. Add a little more drinking water if too thick.",
+      "Divide between two glasses and serve immediately."
+    ],
+    "crops": [
+      "beetroot"
+    ],
+    "tip": "Use plain unsweetened yoghurt. This makes two small servings."
+  },
+  {
+    "slug": "spinach-red-lentil-dal",
+    "name": "Spinach Red Lentil Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "120 g spinach, chopped"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the spinach for the final 3 minutes.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "spinach"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  },
+  {
+    "slug": "carrot-ginger-dal",
+    "name": "Carrot Ginger Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "120 g carrot, finely grated",
+      "1 tsp grated ginger"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the carrot and ginger with the lentils.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "carrot"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  },
+  {
+    "slug": "tomato-coriander-dal",
+    "name": "Tomato Coriander Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "150 g tomatoes, finely chopped",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the tomatoes with the lentils. Add the coriander after cooking.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "plum-tomatoes"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  },
+  {
+    "slug": "zucchini-cumin-dal",
+    "name": "Zucchini Cumin Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "150 g zucchini, cut into 1 cm cubes"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the zucchini after 10 minutes of simmering.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "zucchini"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  },
+  {
+    "slug": "methi-garlic-dal",
+    "name": "Methi Garlic Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "50 g fenugreek greens, leaves picked and chopped"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the fenugreek leaves after 10 minutes of simmering.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "fenugreek-greens"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  },
+  {
+    "slug": "kale-lemon-dal",
+    "name": "Kale Lemon Dal",
+    "category": "Bowls",
+    "description": "Soft red lentils with vegetables and a cumin base.",
+    "minutes": 35,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      "120 g split red lentils",
+      "500 ml water",
+      "1 tbsp neutral cooking oil",
+      "1 small onion, diced",
+      "2 garlic cloves, minced",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric",
+      "¼ tsp salt",
+      "80 g curly kale, stems removed and leaves chopped",
+      "1 tbsp lemon juice"
+    ],
+    "steps": [
+      "Rinse and drain the lentils. Heat the oil in a saucepan. Cook the onion and cumin for 5 minutes.",
+      "Add the garlic and turmeric. Stir for 30 seconds. Add the lentils and water. Add the kale after 10 minutes of simmering. Add the lemon juice after cooking.",
+      "Bring to a boil, then simmer gently for 18–20 minutes, stirring occasionally, until the lentils break down. Add a splash of water if needed.",
+      "Add the salt and any finishing ingredients noted above. Stir and serve in two bowls."
+    ],
+    "crops": [
+      "curly-kale"
+    ],
+    "tip": "Use split red lentils; whole lentils need a different cooking time."
+  }
+]

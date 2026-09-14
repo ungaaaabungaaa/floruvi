@@ -12,7 +12,10 @@ import type * as catalogue from "../catalogue.js";
 import type * as catalogueData from "../catalogueData.js";
 import type * as enquiries from "../enquiries.js";
 import type * as http from "../http.js";
+import type * as originalRecipes from "../originalRecipes.js";
 import type * as pricingData from "../pricingData.js";
+import type * as recipeData from "../recipeData.js";
+import type * as recipes from "../recipes.js";
 import type * as seed from "../seed.js";
 
 import type {
@@ -26,7 +29,10 @@ declare const fullApi: ApiFromModules<{
   catalogueData: typeof catalogueData;
   enquiries: typeof enquiries;
   http: typeof http;
+  originalRecipes: typeof originalRecipes;
   pricingData: typeof pricingData;
+  recipeData: typeof recipeData;
+  recipes: typeof recipes;
   seed: typeof seed;
 }>;
 

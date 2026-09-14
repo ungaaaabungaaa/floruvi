@@ -2,6 +2,26 @@ import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
 export default defineSchema({
+  recipes: defineTable({
+    slug: v.string(),
+    name: v.string(),
+    category: v.string(),
+    description: v.string(),
+    minutes: v.number(),
+    prepMinutes: v.number(),
+    cookMinutes: v.number(),
+    servings: v.number(),
+    ingredients: v.array(v.string()),
+    steps: v.array(v.string()),
+    tip: v.string(),
+    crops: v.array(v.string()),
+    imageKey: v.string(),
+    imageCaption: v.string(),
+    rank: v.number(),
+    published: v.boolean(),
+  })
+    .index("by_slug", ["slug"])
+    .index("by_published", ["published"]),
   categories: defineTable({
     slug: v.string(),
     name: v.string(),
