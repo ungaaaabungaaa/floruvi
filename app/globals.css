@@ -5097,3 +5097,196 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 @media (prefers-reduced-motion: reduce) {
   .home-hero-slide, .header-shell.header-over-hero, .home-hero-pagination button > span:first-child, .home-hero-controls button { transition: none; }
 }
+
+/* Homepage chapters: nutrition, produce, habits and the next meal. */
+.home-chapters { --chapter-space: 100px; background: var(--paper); }
+.home-wrap { width: calc(100% - 112px); max-width: 1328px; margin-inline: auto; }
+.home-chapters .eyebrow { display: block; font-size: 9px; letter-spacing: .2em; font-weight: 500; }
+.home-chapters h2 { font-size: clamp(36px, 4.1vw, 61px); line-height: 1.06; letter-spacing: -.048em; }
+.home-chapters h2 em { color: #49634b; }
+.home-chapters p { color: #596358; }
+.home-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 34px; }
+.home-section-heading h2 { margin-top: 17px; }
+.home-section-heading > p, .home-section-heading > div > p { font-size: 13px; line-height: 1.8; }
+.home-more { display: inline-flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 44px; font-size: 12px; white-space: nowrap; }
+.home-more:hover { color: #527547; }
+.home-nutrition { padding-top: 55px; }
+.home-nutrition-top { display: grid; grid-template-columns: 1.05fr 1fr; align-items: center; gap: 30px; }
+.home-nutrition-copy { padding-block: 45px; }
+.home-nutrition-copy h2 { margin-top: 27px; }
+.home-nutrition-copy > p { max-width: 350px; margin-top: 28px; line-height: 1.85; font-size: 14px; }
+.home-daily-note { display: flex; align-items: center; gap: 24px; max-width: 390px; border-top: 1px solid #daddd1; padding-top: 26px; margin-top: 40px; }
+.home-daily-number { font: 68px/1 Georgia, serif; letter-spacing: -.07em; flex-shrink: 0; }
+.home-daily-number > span { font-size: 29px; margin-left: 3px; }
+.home-daily-note strong { font-size: 12px; font-weight: 500; }
+.home-daily-note p { margin-top: 6px; font-size: 11px; line-height: 1.6; }
+.home-daily-note a { display: inline-flex; align-items: center; gap: 5px; font-size: 10px; margin-top: 10px; text-decoration: underline; text-underline-offset: 3px; }
+.home-body-art { position: relative; height: 580px; }
+.home-body-art img { object-fit: contain; mix-blend-mode: multiply; }
+.home-benefit-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid #daddd1; margin-top: 28px; }
+.home-benefit-grid article { position: relative; padding: 29px 27px 26px; border-inline-end: 1px solid #daddd1; }
+.home-benefit-grid article:first-child { padding-inline-start: 0; }
+.home-benefit-grid article:last-child { border-inline-end: 0; }
+.home-benefit-grid article > svg { color: #a9664a; margin-bottom: 19px; }
+.home-benefit-grid article > span { display: block; font-size: 8px; letter-spacing: .15em; color: #617052; margin-bottom: 7px; }
+.home-benefit-grid h3 { font: 23px/1.2 Georgia, serif; letter-spacing: -.02em; }
+.home-benefit-grid p { font-size: 12px; line-height: 1.7; margin-top: 12px; max-width: 215px; }
+.home-benefit-grid a { display: inline-flex; gap: 5px; align-items: center; min-height: 32px; margin-top: 11px; font-size: 10px; }
+.home-benefit-grid a:hover { text-decoration: underline; }
+.home-nutrition-note { font-size: 10px; line-height: 1.6; margin-top: 18px; }
+.home-picks { padding-block: var(--chapter-space); }
+.home-picks .home-section-heading h2 { font-size: clamp(34px, 3.2vw, 46px); }
+.home-fresh-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 17px; }
+.home-fresh-grid .product-card { border: none; border-radius: 0; background: transparent; }
+.home-fresh-grid .product-card .product-art { aspect-ratio: 1 / 1.14; border-radius: 7px; }
+.home-fresh-grid .product-card-bottom { padding: 15px 0 0; }
+.home-fresh-grid .product-meta h3 { font-size: 13px; }
+.home-fresh-grid .product-card-price-row { margin-top: 7px; }
+.home-fresh-grid .product-card-price-row p strong { font-size: 12px; }
+.home-fresh-grid .product-card-price-row p > span { font-size: 10px; }
+.home-strength { display: grid; grid-template-columns: .95fr 1.05fr; min-height: 575px; background: #123b2c; color: #f8f7f2; }
+.home-strength-copy { padding: 68px 55px 65px max(56px,calc((100vw - 1328px) / 2)); align-self: center; }
+.home-strength-copy .eyebrow { color: #becab2; }
+.home-strength-copy h2 { margin-top: 28px; font-size: clamp(38px, 4.1vw, 62px); }
+.home-strength-copy h2 em { color: #d6dfbf; }
+.home-strength-copy > p { color: #e0e5d7; max-width: 300px; margin-top: 27px; font-size: 14px; line-height: 1.8; }
+.home-strength-copy > .home-strength-detail { font-size: 11px; color: #bdcaba; margin-top: 18px; max-width: 315px; }
+.home-strength-words { display: flex; align-items: center; gap: 15px; font-size: 10px; margin-top: 37px; letter-spacing: .02em; color: #d6dfbf; }
+.home-strength-photo { position: relative; min-height: 575px; }
+.home-strength-photo img { object-fit: cover; object-position: 68% center; }
+.home-goodness { padding-block: var(--chapter-space); }
+.home-goodness .home-section-heading h2 { font-size: clamp(34px,3.2vw,46px); }
+.home-goodness-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 20px; }
+.home-goodness-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 7px; background: #eeeee5; }
+.home-goodness-photo { position: relative; aspect-ratio: 1.16; overflow: hidden; }
+.home-goodness-photo img { object-fit: cover; transition: transform 350ms ease; }
+.home-goodness-card:hover img, .home-goodness-card:focus-visible img { transform: scale(1.035); }
+.home-goodness-copy { padding: 21px; flex: 1; display: flex; flex-direction: column; }
+.home-goodness-copy > span { font-size: 9px; color: #697061; }
+.home-goodness-copy h3 { font: 24px/1.13 Georgia,serif; letter-spacing: -.03em; margin-block: 10px 24px; }
+.home-goodness-copy > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; font-size: 10px; }
+.home-meal { padding-bottom: var(--chapter-space); }
+.home-meal-banner { position: relative; min-height: 440px; border-radius: 8px; overflow: hidden; background: #eeece3; isolation: isolate; }
+.home-meal-banner > img { object-fit: cover; object-position: center; z-index: -2; }
+.home-meal-banner::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,#f3f0e4b8,transparent 75%); }
+.home-meal-banner > div { position: relative; width: 55%; padding: 75px 45px; }
+.home-meal-banner h2 { font-size: clamp(36px,3.5vw,50px); margin-top: 25px; }
+.home-meal-banner p { font-size: 12px; line-height: 1.8; margin-top: 25px; }
+.home-recipe-heading { margin-block: 31px 21px; align-items: center; }
+.home-recipe-heading h3 { font: 25px/1.3 Georgia,serif; letter-spacing: -.02em; }
+.home-kitchen-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.home-kitchen-photo { position: relative; aspect-ratio: 1.5; overflow: hidden; border-radius: 7px; }
+.home-kitchen-photo img { object-fit: cover; transition: transform 350ms ease; }
+.home-kitchen-card:hover img, .home-kitchen-card:focus-visible img { transform: scale(1.035); }
+.home-kitchen-card > div:last-child { padding-top: 18px; }
+.home-kitchen-card > div > span { display: flex; align-items: center; gap: 6px; font-size: 10px; color: #65705d; }
+.home-kitchen-card h3 { display: flex; align-items: center; justify-content: space-between; gap: 20px; font: 23px/1.2 Georgia,serif; letter-spacing: -.02em; margin-top: 9px; }
+.home-kitchen-card h3 svg { flex-shrink: 0; }
+.home-boxes { padding-block: 78px 55px; background: #ebeee4; }
+.home-boxes .home-section-heading { margin-bottom: 22px; }
+.home-boxes .home-section-heading > div:last-child { padding-bottom: 6px; }
+.home-boxes .home-more { margin-top: 14px; }
+.home-box-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.home-box-card { border-bottom: 1px solid #cdd4c1; }
+.home-box-photo { position: relative; aspect-ratio: 1.2; }
+.home-box-photo img { object-fit: contain; mix-blend-mode: multiply; transition: transform 350ms ease; }
+.home-box-card:hover img, .home-box-card:focus-visible img { transform: translateY(-5px); }
+.home-box-card > div:last-child { display: flex; align-items: center; gap: 20px; padding: 13px 0 23px; }
+.home-box-card > div > span { font-size: 10px; color: #69735e; }
+.home-box-card h3 { flex: 1; font: 30px/1.1 Georgia,serif; letter-spacing: -.035em; }
+.home-box-card h3 small { display: block; margin-top: 8px; font: 11px/1.5 Arial,sans-serif; letter-spacing: 0; color: #5e6a54; }
+.home-box-note { font-size: 10px; margin-top: 25px; }
+.home-invitation { text-align: center; padding-block: 88px 95px; }
+.home-invitation > svg { margin: 0 auto 20px; color: #6b7e4e; }
+.home-invitation h2 { margin-top: 26px; }
+.home-invitation > div { display: flex; flex-direction: column; align-items: center; gap: 23px; margin-top: 32px; }
+.home-shop-link { display: inline-flex; align-items: center; gap: 28px; padding: 15px 27px; border-radius: 999px; color: #f7f6ec; background: #173d2c; font-size: 12px; }
+.home-shop-link:hover { background: #31593f; }
+.home-business-link { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-size: 11px; color: #58684e; }
+@media (max-width:1000px) {
+  .home-wrap { width: calc(100% - 64px); }
+  .home-chapters { --chapter-space: 75px; }
+  .home-body-art { height: 510px; }
+  .home-nutrition-top { gap: 10px; }
+  .home-nutrition-copy h2 { font-size: 44px; }
+  .home-daily-note { gap: 16px; }
+  .home-daily-number { font-size: 56px; }
+  .home-benefit-grid article { padding-inline: 20px; }
+  .home-benefit-grid h3 { font-size: 21px; }
+  .home-fresh-grid { gap: 12px; }
+  .home-strength-copy { padding-inline: 32px; }
+  .home-goodness-grid { gap: 14px; }
+  .home-goodness-copy { padding: 16px; }
+  .home-goodness-copy h3 { font-size: 22px; }
+  .home-meal-banner > div { padding-inline: 32px; }
+  .home-kitchen-card h3 { font-size: 21px; }
+}
+@media (max-width:700px) {
+  .home-wrap { width: calc(100% - 44px); }
+  .home-chapters { --chapter-space: 62px; }
+  .home-chapters h2 { font-size: 39px; }
+  .home-section-heading { gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .home-section-heading > p { display: none; }
+  .home-more { font-size: 11px; gap: 12px; min-height: 40px; }
+  .home-nutrition { padding-top: 40px; }
+  .home-nutrition-top { grid-template-columns: 1fr; gap: 5px; }
+  .home-nutrition-copy { padding-block: 15px 0; }
+  .home-nutrition-copy h2 { margin-top: 20px; }
+  .home-nutrition-copy > p { font-size: 13px; margin-top: 22px; }
+  .home-daily-note { margin-top: 26px; padding-top: 23px; max-width: none; gap: 23px; }
+  .home-daily-number { font-size: 62px; }
+  .home-body-art { height: 400px; }
+  .home-benefit-grid { grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 25px; }
+  .home-benefit-grid article, .home-benefit-grid article:first-child { padding: 24px 16px; }
+  .home-benefit-grid article:nth-child(odd) { padding-inline-start: 0; }
+  .home-benefit-grid article:nth-child(even) { border-inline-end: none; padding-inline-end: 0; }
+  .home-benefit-grid article:nth-child(-n+2) { border-bottom: 1px solid #daddd1; }
+  .home-benefit-grid article > svg { margin-bottom: 15px; }
+  .home-benefit-grid h3 { font-size: 22px; }
+  .home-benefit-grid p { font-size: 11px; }
+  .home-nutrition-note { font-size: 9px; }
+  .home-picks .home-section-heading h2, .home-goodness .home-section-heading h2 { font-size: 34px; }
+  .home-fresh-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 25px 14px; }
+  .home-fresh-grid .product-meta h3 { font-size: 12px; }
+  .home-fresh-grid .product-card-price-row { gap: 4px; }
+  .home-fresh-grid .product-card-bottom { padding-top: 11px; }
+  .home-fresh-grid .product-card .product-art { aspect-ratio: 1; }
+  .home-fresh-grid .product-card:last-child { grid-column: 1 / -1; width: calc(50% - 7px); justify-self: center; }
+  .home-strength { grid-template-columns: 1fr; }
+  .home-strength-copy { padding: 47px 24px; }
+  .home-strength-copy h2 { font-size: 43px; }
+  .home-strength-copy > p { font-size: 13px; }
+  .home-strength-words { margin-top: 29px; }
+  .home-strength-photo { min-height: 420px; }
+  .home-strength-photo img { object-position: 72% center; }
+  .home-goodness-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px 12px; }
+  .home-goodness-photo { aspect-ratio: .95; }
+  .home-goodness-copy { padding: 17px 13px; }
+  .home-goodness-copy > span { font-size: 8px; }
+  .home-goodness-copy h3 { font-size: 24px; margin-bottom: 22px; }
+  .home-goodness-copy > div { font-size: 9px; }
+  .home-meal-banner { min-height: 570px; }
+  .home-meal-banner > img { height: 70% !important; top: auto !important; object-position: 72% center; }
+  .home-meal-banner::after { background: linear-gradient(180deg,#f3f0e8 0%,#f3f0e8 32%,#f3f0e8aa 46%,transparent 66%); }
+  .home-meal-banner > div { width: 100%; padding: 35px 23px; }
+  .home-meal-banner h2 { font-size: 34px; margin-top: 21px; }
+  .home-meal-banner p { margin-top: 19px; font-size: 11px; }
+  .home-recipe-heading { margin-top: 26px; }
+  .home-recipe-heading h3 { font-size: 23px; }
+  .home-kitchen-grid { grid-template-columns: 1fr; gap: 27px; }
+  .home-kitchen-card > div:last-child { padding-top: 12px; }
+  .home-kitchen-card h3 { font-size: 25px; margin-top: 6px; }
+  .home-boxes { padding-block: 48px 35px; }
+  .home-boxes .home-section-heading { align-items: start; }
+  .home-boxes .home-section-heading > div > p { font-size: 12px; }
+  .home-box-grid { grid-template-columns: 1fr; gap: 25px; }
+  .home-box-photo { aspect-ratio: 1.3; }
+  .home-box-card > div:last-child { padding-bottom: 20px; }
+  .home-box-note { font-size: 9px; }
+  .home-invitation { padding-block: 63px; }
+  .home-invitation h2 { font-size: 38px; }
+  .home-business-link { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-goodness-photo img, .home-kitchen-photo img, .home-box-photo img { transition: none; transform: none !important; }
+}

@@ -1,0 +1,21 @@
+{
+  "method": "Built-in image generation",
+  "note": "Illustrative brand imagery. Fitness image is not a customer result. Botanical silhouette is conceptual artwork, not a medical anatomy diagram.",
+  "images": [
+    {
+      "name": "botanical-body",
+      "prompt": "Use case: illustration-story. Premium editorial artwork for Floruvi fresh vegetable website health education section. Vertical 3:4 composition. An elegant gender-neutral human upper body silhouette in warm ivory sculpted paper, head smooth and completely faceless, shoulders chest and upper torso visible, no breasts, no nudity. Semi-translucent softly layered paper contains a vibrant living botanical arrangement of actual spinach leaves, curled kale, basil sprigs and fine stems, organised organically following the chest and abdomen contours, a small subtle coral heart-shaped leaf near the anatomical left heart position. This is poetic botanical art, not a medical anatomy diagram. Large pale sand circular disc behind shoulders. White ivory paper background #f8f7f2 seamless edges. Gorgeous tactile paper sculpture combined with extremely realistic fresh green leaves, restrained pale terracotta accent, soft sunlight from upper left, delicate shadows, refined European botanical editorial art direction, lots of breathing space around entire figure, centered. No text, no labels, no numbers, no arrows, no icons, no logo, no border, no watermark.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0a21a-ffb4-7103-a952-2e508d9fdbe0/exec-be301afb-f469-420d-a087-15c9f1989ee9.png"
+    },
+    {
+      "name": "everyday-strength",
+      "prompt": "Use case: photorealistic-natural. Premium athletic lifestyle editorial photograph for a healthy fresh food brand. Landscape 3:2. Adult woman athlete with natural medium brown Indian skin tone, realistic strong athletic build and subtle abdominal definition, wearing a matte muted sage sports bra and high-waisted forest green leggings, standing in a relaxed side stretch after a morning workout. CROP strictly from just below shoulders to upper thighs, no face or head in the frame, nonsexual fitness campaign. One hand lightly holds a rolled yoga mat by her side, other arm partly raised out of frame. Natural skin texture and normal proportions, no exaggerated six pack, no body transformation imagery. Subject on right two thirds in warm morning sunlight with soft leaf shadows, background simple warm beige plaster wall and a soft blurred plant. Calm, capable, confident, candid. Entire left third largely blank beige plaster. Sophisticated natural film photography, no glossy artificial skin, no text, logos, watermark, graphics or collage.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0a21a-ffb4-7103-a952-2e508d9fdbe0/exec-83f5885f-b1cd-4ff7-b3e2-07f7502f3a75.png"
+    },
+    {
+      "name": "everyday-bowl",
+      "prompt": "Use case: photorealistic-natural. Editorial overhead food photograph for Floruvi homepage. Landscape 3:2. A generous ivory ceramic bowl of crisp butterhead lettuce, sliced tomatoes and cucumber, roasted chickpeas, fluffy quinoa, carrot ribbons and fresh herbs, balanced nourishing vegetarian lunch. Bowl arranged on RIGHT 60 percent on a natural ivory linen tablecloth. Small bowl of lemon dressing and a fork nearby, sunlit quiet kitchen table. LEFT 40 percent empty natural rumpled warm ivory linen for text overlay. Extremely appetising realistic texture, unpretentious home cooking in elevated food magazine photography. Warm cream, deep green, natural red and orange, soft sunshine and beautiful shadows. No people, no faces, no words, no lettering, no logo, no collage, no watermark.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0a21a-ffb4-7103-a952-2e508d9fdbe0/exec-30483dc9-d59c-4fdb-aa63-63da09c11962.png"
+    }
+  ]
+}
