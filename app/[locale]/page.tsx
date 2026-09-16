@@ -148,11 +148,6 @@ export default async function Home() {
                   {t.boxFeatures[2]}
                 </li>
               </ul>
-              <span className="home-box-tagline">
-                {t.boxTagline[0]}
-                <br />
-                {t.boxTagline[1]}
-              </span>
             </div>
           </div>
         </section>
