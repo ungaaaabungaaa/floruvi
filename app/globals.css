@@ -1513,6 +1513,9 @@ em {
   .site-header .header-actions {
     margin-left: auto;
   }
+  .site-header {
+    gap: 10px;
+  }
   .hero {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -2722,16 +2725,6 @@ textarea {
 .recipe-card p {
   color: var(--muted);
   font-size: 12px;
-}
-.recipe-time {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  margin-top: 18px;
-  font-size: 11px;
-}
-.recipe-time svg:last-child {
-  margin-left: auto;
 }
 .recipe-detail-hero {
   display: grid;
@@ -5063,10 +5056,6 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   .home-hero-index { display: none; }
 }
 @media (max-width: 700px) {
-  .header-shell.header-over-hero { height: 86px; margin-bottom: -86px; }
-  .header-over-hero .site-header { height: 86px; padding: 16px 22px; }
-  .home-hero { height: 850px; height: min(850px, 108svh); min-height: 740px; }
-  .home-hero-photo { height: 64% !important; top: auto !important; bottom: 30px !important; object-position: 74% center; }
   .home-hero-slide::after { background: linear-gradient(180deg, #f8f7f2 0%, #f8f7f2 34%, #f8f7f2e8 40%, #f8f7f200 56%, transparent 80%, #f8f7f2 97%); }
   .home-hero-copy { width: 100%; padding: 126px 24px 0; }
   .home-hero-copy .eyebrow { font-size: 9px; letter-spacing: .19em; }

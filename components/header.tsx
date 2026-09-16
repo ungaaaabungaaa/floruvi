@@ -32,9 +32,7 @@ export function Header() {
     };
   }, []);
   return (
-    <div
-      className={`header-shell${pathname === "/" ? " header-over-hero" : ""}${scrolled ? " is-scrolled" : ""}`}
-    >
+    <div className={`header-shell${scrolled ? " is-scrolled" : ""}`}>
       <header className="site-header">
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>
