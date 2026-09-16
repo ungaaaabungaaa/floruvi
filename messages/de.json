@@ -118,15 +118,18 @@
     "boxes": {
       "single": {
         "name": "Single",
-        "people": "1 Person"
+        "people": "1 Person",
+        "description": "Frisches, saisonales Gemüse für eine Person."
       },
       "dual": {
         "name": "Duo",
-        "people": "2 Personen"
+        "people": "2 Personen",
+        "description": "Eine ausgewogene Box mit mehr Auswahl für zwei."
       },
       "family": {
         "name": "Familie",
-        "people": "4 oder mehr"
+        "people": "4 oder mehr",
+        "description": "Eine großzügige Box für die ganze Familie."
       },
       "schedules": {
         "once": "Einmalig",
@@ -336,7 +339,17 @@
     "invitationTitle": "Etwas mehr Grün.",
     "invitationAccent": "Ein guter Ausgangspunkt.",
     "findFavourites": "Finde deine frischen Favoriten",
-    "searchAction": "Produkte suchen"
+    "searchAction": "Produkte suchen",
+    "boxesEyebrow": "Abo-Boxen",
+    "boxFeatures": [
+      "Regional angebaut",
+      "Ohne schädliche Chemikalien",
+      "Frisch geliefert"
+    ],
+    "boxTagline": [
+      "Echtes Essen",
+      "Hellere Tage"
+    ]
   },
   "shop": {
     "interludes": [

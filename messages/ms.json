@@ -116,15 +116,18 @@
     "boxes": {
       "single": {
         "name": "Individu",
-        "people": "1 orang"
+        "people": "1 orang",
+        "description": "Sayur-sayuran segar mengikut musim untuk seorang."
       },
       "dual": {
         "name": "Berdua",
-        "people": "2 orang"
+        "people": "2 orang",
+        "description": "Kotak seimbang dengan lebih kepelbagaian untuk dua orang."
       },
       "family": {
         "name": "Keluarga",
-        "people": "4 orang atau lebih"
+        "people": "4 orang atau lebih",
+        "description": "Kotak yang banyak untuk dinikmati bersama seluruh keluarga."
       },
       "schedules": {
         "once": "Sekali",
@@ -333,7 +336,17 @@
     "invitationTitle": "Sedikit lagi kehijauan.",
     "invitationAccent": "Tempat yang baik untuk bermula.",
     "findFavourites": "Cari kegemaran segar anda",
-    "searchAction": "Cari produk"
+    "searchAction": "Cari produk",
+    "boxesEyebrow": "Kotak langganan",
+    "boxFeatures": [
+      "Ditanam secara tempatan",
+      "Tiada bahan kimia berbahaya",
+      "Dihantar segar"
+    ],
+    "boxTagline": [
+      "Makanan sebenar",
+      "Hari yang lebih cerah"
+    ]
   },
   "shop": {
     "interludes": [

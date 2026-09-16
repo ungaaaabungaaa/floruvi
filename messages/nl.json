@@ -118,15 +118,18 @@
     "boxes": {
       "single": {
         "name": "Solo",
-        "people": "1 persoon"
+        "people": "1 persoon",
+        "description": "Verse, seizoensgebonden groenten voor één persoon."
       },
       "dual": {
         "name": "Duo",
-        "people": "2 personen"
+        "people": "2 personen",
+        "description": "Een evenwichtige box met meer variatie voor twee."
       },
       "family": {
         "name": "Familie",
-        "people": "4 of meer"
+        "people": "4 of meer",
+        "description": "Een royale box voor het hele gezin om samen van te genieten."
       },
       "schedules": {
         "once": "Eenmalig",
@@ -336,7 +339,17 @@
     "invitationTitle": "Een beetje meer groen.",
     "invitationAccent": "Een goed begin.",
     "findFavourites": "Vind je verse favorieten",
-    "searchAction": "Zoek producten"
+    "searchAction": "Zoek producten",
+    "boxesEyebrow": "Abonnementsboxen",
+    "boxFeatures": [
+      "Lokaal geteeld",
+      "Geen schadelijke chemicaliën",
+      "Vers geleverd"
+    ],
+    "boxTagline": [
+      "Echt eten",
+      "Lichtere dagen"
+    ]
   },
   "shop": {
     "interludes": [

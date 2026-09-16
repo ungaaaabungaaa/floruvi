@@ -118,15 +118,18 @@
     "boxes": {
       "single": {
         "name": "Single",
-        "people": "1 person"
+        "people": "1 person",
+        "description": "Fresh, seasonal vegetables for one."
       },
       "dual": {
         "name": "Dual",
-        "people": "2 people"
+        "people": "2 people",
+        "description": "A balanced box with more variety for two."
       },
       "family": {
         "name": "Family",
-        "people": "4 or more"
+        "people": "4 or more",
+        "description": "A generous box for the whole family to enjoy together."
       },
       "schedules": {
         "once": "Once",
@@ -336,7 +339,17 @@
     "invitationTitle": "A little more green.",
     "invitationAccent": "A good place to begin.",
     "findFavourites": "Find your fresh favourites",
-    "searchAction": "Search produce"
+    "searchAction": "Search produce",
+    "boxesEyebrow": "Subscription boxes",
+    "boxFeatures": [
+      "Locally grown",
+      "No harmful chemicals",
+      "Freshly delivered"
+    ],
+    "boxTagline": [
+      "Real food",
+      "Brighter days"
+    ]
   },
   "shop": {
     "interludes": [

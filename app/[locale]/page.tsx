@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
-import { ArrowUpRight, Users } from "lucide-react";
+import { ArrowUpRight, Leaf, Sprout, Truck, Users } from "lucide-react";
 import { getShop, getRecipeList } from "@/lib/storefront";
 import { getI18n } from "@/lib/i18n/server";
 import { fill } from "@/lib/i18n/format";
@@ -86,16 +86,17 @@ export default async function Home() {
         <section className="home-boxes" aria-labelledby="home-boxes-title">
           <div className="home-wrap">
             <div className="home-section-heading">
-              <h2 id="home-boxes-title">
-                {t.boxesTitle}
-                <br />
-                <em>{t.boxesAccent}</em>
-              </h2>
               <div>
-                <Link href="/boxes" className="home-more">
-                  {t.exploreBoxes} <ArrowUpRight size={19} aria-hidden="true" />
-                </Link>
+                <span className="eyebrow">{t.boxesEyebrow}</span>
+                <h2 id="home-boxes-title">
+                  {t.boxesTitle}
+                  <br />
+                  <em>{t.boxesAccent}</em>
+                </h2>
               </div>
+              <Link href="/boxes" className="home-more">
+                {t.exploreBoxes} <ArrowUpRight size={19} aria-hidden="true" />
+              </Link>
             </div>
             <div className="home-box-grid">
               {boxSizes.map((box) => (
@@ -124,10 +125,34 @@ export default async function Home() {
                         {boxes[box.id].people}
                       </span>
                     </div>
-                    <ArrowUpRight size={22} aria-hidden="true" />
+                    <span className="recipe-card-arrow" aria-hidden="true">
+                      <ArrowUpRight size={20} />
+                    </span>
                   </div>
+                  <p className="home-box-description">{boxes[box.id].description}</p>
                 </Link>
               ))}
+            </div>
+            <div className="home-box-features">
+              <ul>
+                <li>
+                  <Leaf size={16} aria-hidden="true" />
+                  {t.boxFeatures[0]}
+                </li>
+                <li>
+                  <Sprout size={16} aria-hidden="true" />
+                  {t.boxFeatures[1]}
+                </li>
+                <li>
+                  <Truck size={16} aria-hidden="true" />
+                  {t.boxFeatures[2]}
+                </li>
+              </ul>
+              <span className="home-box-tagline">
+                {t.boxTagline[0]}
+                <br />
+                {t.boxTagline[1]}
+              </span>
             </div>
           </div>
         </section>

@@ -131,70 +131,68 @@ export function HomeHero({
               preload={index === 0}
               className="home-hero-photo"
             />
-            <div className="home-hero-copy">
-              <h2>
-                {story.title.map((line, lineIndex) => (
-                  <span
-                    key={lineIndex}
-                    className={
-                      lineIndex === story.title.length - 1
-                        ? "hero-title-accent"
-                        : undefined
-                    }
-                  >
-                    {line}
-                  </span>
-                ))}
-              </h2>
-              <span className="home-hero-stroke" aria-hidden="true" />
-              <p>{story.note}</p>
-            </div>
-            <span
-              className="handwritten home-hero-signature"
-              aria-hidden="true"
-            >
-              {story.signature}
-            </span>
           </div>
         ))}
       </div>
-      <div className="home-hero-actions">
-        <form
-          className="recipe-search home-hero-search"
-          role="search"
-          onSubmit={(event) => {
-            event.preventDefault();
-            const term = query.trim();
-            router.push(href(term ? `/products?q=${encodeURIComponent(term)}` : "/products"));
-          }}
-        >
-          <Search size={19} aria-hidden="true" />
-          <label className="sr-only" htmlFor="home-search">
-            {search.searchLabel}
-          </label>
-          <input
-            id="home-search"
-            type="search"
-            name="q"
-            maxLength={100}
-            autoComplete="off"
-            placeholder={search.searchPlaceholder}
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-          />
-          <button
-            type="submit"
-            className="button button-primary home-hero-search-submit"
-            aria-label={labels.searchAction}
+      <span className="handwritten home-hero-signature" aria-hidden="true">
+        {stories[active].signature}
+      </span>
+      <div className="home-hero-content">
+        <div className="home-hero-copy">
+          <h2>
+            {stories[active].title.map((line, lineIndex) => (
+              <span
+                key={lineIndex}
+                className={
+                  lineIndex === stories[active].title.length - 1
+                    ? "hero-title-accent"
+                    : undefined
+                }
+              >
+                {line}
+              </span>
+            ))}
+          </h2>
+          <p>{stories[active].note}</p>
+        </div>
+        <div className="home-hero-actions">
+          <form
+            className="recipe-search home-hero-search"
+            role="search"
+            onSubmit={(event) => {
+              event.preventDefault();
+              const term = query.trim();
+              router.push(href(term ? `/products?q=${encodeURIComponent(term)}` : "/products"));
+            }}
           >
-            <Search size={17} aria-hidden="true" className="home-hero-search-submit-icon" />
-            <span>{labels.searchAction}</span>
-          </button>
-        </form>
+            <Search size={19} aria-hidden="true" />
+            <label className="sr-only" htmlFor="home-search">
+              {search.searchLabel}
+            </label>
+            <input
+              id="home-search"
+              type="search"
+              name="q"
+              maxLength={100}
+              autoComplete="off"
+              placeholder={search.searchPlaceholder}
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+            />
+            <button
+              type="submit"
+              className="button button-primary home-hero-search-submit"
+              aria-label={labels.searchAction}
+            >
+              <Search size={17} aria-hidden="true" className="home-hero-search-submit-icon" />
+              <span>{labels.searchAction}</span>
+            </button>
+          </form>
+        </div>
+        <Suspense fallback={null}>
+          <HomeHeroChips categories={categories} labels={search} />
+        </Suspense>
       </div>
-      <Suspense fallback={null}>
-        <HomeHeroChips categories={categories} labels={search} />
-      </Suspense>
       <div className="home-hero-bottom">
         <div className="home-hero-index" aria-hidden="true">
           <span>{String(active + 1).padStart(2, "0")}</span>

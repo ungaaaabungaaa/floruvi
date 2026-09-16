@@ -126,15 +126,18 @@
     "boxes": {
       "single": {
         "name": "فردي",
-        "people": "شخص واحد"
+        "people": "شخص واحد",
+        "description": "خضروات طازجة وموسمية لشخص واحد."
       },
       "dual": {
         "name": "ثنائي",
-        "people": "شخصان"
+        "people": "شخصان",
+        "description": "صندوق متوازن بتنوع أكبر لشخصين."
       },
       "family": {
         "name": "عائلي",
-        "people": "4 أو أكثر"
+        "people": "4 أو أكثر",
+        "description": "صندوق وافر لتستمتع به العائلة بأكملها."
       },
       "schedules": {
         "once": "لمرة واحدة",
@@ -348,7 +351,17 @@
     "invitationTitle": "القليل من الخضرة الإضافية.",
     "invitationAccent": "مكان جيد للبدء.",
     "findFavourites": "اكتشف مفضّلاتك الطازجة",
-    "searchAction": "ابحث عن المنتجات"
+    "searchAction": "ابحث عن المنتجات",
+    "boxesEyebrow": "صناديق الاشتراك",
+    "boxFeatures": [
+      "مزروعة محلياً",
+      "بدون مواد كيميائية ضارة",
+      "توصيل طازج"
+    ],
+    "boxTagline": [
+      "طعام حقيقي",
+      "أيام أكثر إشراقاً"
+    ]
   },
   "shop": {
     "interludes": [

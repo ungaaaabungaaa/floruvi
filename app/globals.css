@@ -5172,7 +5172,7 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-box-photo { position: relative; aspect-ratio: 1.2; }
 .home-box-photo img { object-fit: contain; mix-blend-mode: multiply; transition: transform 350ms ease; }
 .home-box-card:hover img, .home-box-card:focus-visible img { transform: translateY(-5px); }
-.home-box-info { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0 23px; }
+.home-box-info { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0 14px; }
 .home-box-card h3 { margin: 0 0 9px; font: 27px/1.1 Georgia,serif; letter-spacing: -.03em; }
 .home-box-people {
   display: inline-flex;
@@ -5185,7 +5185,29 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   font-size: 11px;
   letter-spacing: .01em;
 }
-.home-box-card > .home-box-info > svg { flex-shrink: 0; color: #526d4b; }
+.home-box-description { margin: 0 0 20px; max-width: 34ch; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.home-box-features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 44px;
+  padding-top: 28px;
+  border-top: 1px solid #c7d0bc;
+}
+.home-box-features ul { display: flex; flex-wrap: wrap; gap: 10px 28px; list-style: none; margin: 0; padding: 0; }
+.home-box-features li { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #3c4d34; }
+.home-box-features li svg { flex-shrink: 0; color: #526d4b; }
+.home-box-tagline {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #526d4b;
+  text-align: end;
+}
 .home-more-produce { padding-block: var(--chapter-space); }
 .home-more-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 24px 18px; }
 .home-invitation { padding-block: 42px 100px; text-align: center; }
@@ -5215,45 +5237,16 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   .home-fresh-grid .product-meta h3, .home-more-grid .product-meta h3 { font-size: 13px; }
   .home-nutrition { grid-template-columns: 1fr; border-radius: 18px; }
   .home-body-art { min-height: 390px; }
-  .home-nutrition-copy { padding: 38px 23px 28px; }
-  .home-benefit-grid { margin-top: 30px; }
-  .home-benefit-grid a { min-height: 119px; padding: 18px 26px 17px 0; }
-  .home-benefit-grid a:nth-child(even) { padding-left: 15px; }
-  .home-benefit-grid a > svg:last-child { top: 19px; right: 8px; }
-  .home-benefit-grid h3 { font-size: 18px; }
-  .home-strength { grid-template-columns: 1fr; }
-  .home-strength-copy { padding: 48px 23px; }
-  .home-strength-copy h2 { font-size: 43px; }
-  .home-strength-words { gap: 10px; margin-top: 30px; font-size: 10px; }
-  .home-strength-photo { min-height: 420px; }
-  .home-strength-photo img { object-position: 72% center; }
-  .home-goodness-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px 10px; }
-  .home-goodness-card { border-radius: 13px; }
-  .home-goodness-photo { aspect-ratio: .94; }
-  .home-goodness-copy { padding: 15px 12px; }
-  .home-goodness-copy h3 { font-size: 22px; }
-  .home-goodness-copy > div { font-size: 9px; }
-  .home-meal-banner { min-height: 545px; border-radius: 16px; }
-  .home-meal-banner > img { height: 72% !important; top: auto !important; object-position: 72% center; }
-  .home-meal-banner::after { background: linear-gradient(180deg,#f3f0e8 0%,#f3f0e8 31%,#f3f0e8b0 45%,transparent 65%); }
-  .home-meal-banner > div { width: 100%; padding: 34px 23px; }
-  .home-meal-banner h2 { font-size: 35px; }
-  .home-recipe-heading { margin-top: 25px; }
-  .home-recipe-heading h3 { font-size: 23px; }
-  .home-kitchen-grid { grid-template-columns: 1fr; gap: 26px; }
-  .home-kitchen-card > div:last-child { padding-top: 11px; }
-  .home-kitchen-card h3 { margin-top: 6px; font-size: 25px; }
   .home-boxes { padding-block: 52px 38px; }
   .home-box-grid { grid-template-columns: 1fr; gap: 25px; }
   .home-box-photo { aspect-ratio: 1.3; }
-  .home-box-info { padding-bottom: 20px; }
+  .home-box-info { padding-bottom: 12px; }
   .home-box-card h3 { font-size: 24px; }
-  .home-more-produce { padding-top: 64px; }
-  .home-invitation { padding-block: 24px 68px; }
-  .home-invitation h2 { font-size: 38px; }
+  .home-box-features { flex-direction: column; align-items: flex-start; gap: 18px; margin-top: 34px; padding-top: 22px; }
+  .home-box-tagline { text-align: start; }
 }
 @media (prefers-reduced-motion:reduce) {
-  .home-goodness-photo img, .home-kitchen-photo img, .home-box-photo img { transition: none; transform: none !important; }
+  .home-box-photo img { transition: none; transform: none !important; }
   .home-body-art img { display: none; animation: none; }
   .home-body-art img:first-child { display: block; opacity: 1; }
 }
@@ -5454,8 +5447,9 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   .home-fresh-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 20px 16px; }
 }
 
-/* Homepage hero: a rounded card like the shop banner, with rotating photos
-   & category chips overlaid on the photo instead of a separate section. */
+/* Homepage hero: a rounded card like the shop banner, with rotating photos.
+   Headline, search & category chips are one bottom-anchored group, like
+   the shop banner's copy-then-chips stack — not spread top-to-bottom. */
 .home-hero-frame { padding-top: 24px; }
 .home-hero {
   height: auto;
@@ -5467,23 +5461,29 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 }
 .home-hero-stories { position: absolute; inset: 0; height: auto; }
 .home-hero-slide { position: absolute; inset: 0; }
-.home-hero-copy {
-  position: relative;
+.home-hero-signature {
+  position: absolute;
   z-index: 1;
-  padding: 40px 40px 0;
-  width: min(58%, 600px);
+  top: 36px;
+  inset-inline-end: 40px;
+  font-size: clamp(16px, 1.6vw, 22px);
+  color: #173b2c;
+  text-shadow: 0 1px 12px #f8f7f2;
 }
-.home-hero-copy h2 { font-size: clamp(32px, 3.4vw, 50px); margin-top: 16px; }
-.home-hero-copy p { margin-top: 14px; max-width: 300px; }
-.home-hero-signature { bottom: 150px; font-size: clamp(18px, 1.8vw, 26px); }
-.home-hero-actions {
+.home-hero-content {
   position: relative;
   z-index: 2;
   margin-top: auto;
-  padding: 0 40px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 40px 28px;
 }
+.home-hero-copy { max-width: 620px; }
+.home-hero-copy h2 { font-size: clamp(28px, 3vw, 42px); line-height: 1.08; letter-spacing: -.03em; }
+.home-hero-copy h2 > span { display: block; }
+.home-hero-copy p { margin-top: 8px; max-width: 440px; font-size: 14px; line-height: 1.6; color: #344c3d; }
+.home-hero-actions { display: flex; align-items: center; }
 .home-hero-search {
   display: flex;
   align-items: center;
@@ -5501,14 +5501,7 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-hero-search input::-webkit-search-cancel-button { -webkit-appearance: none; }
 .home-hero-search .home-hero-search-submit { flex-shrink: 0; width: 42px; min-width: 42px; height: 42px; padding: 0; border-radius: 50%; background: transparent; border: 0; box-shadow: none; }
 .home-hero-search-submit span, .home-hero-search-submit-icon { display: none; }
-.home-hero-chips {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 16px 40px 28px;
-}
+.home-hero-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .home-hero-chips button {
   min-height: 40px;
   padding: 8px 19px;
@@ -5524,25 +5517,23 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-hero-bottom { bottom: 158px; }
 .home-catalogue { padding-top: 28px; }
 @media (max-width: 1100px) {
-  .home-hero-copy { padding-inline: 32px; }
-  .home-hero-actions { padding-inline: 32px; }
-  .home-hero-chips { padding: 14px 32px 24px; }
+  .home-hero-content { padding-inline: 32px; }
 }
 @media (max-width: 700px) {
   .home-hero-frame { padding-top: 16px; }
   .home-hero { min-height: 460px; }
-  .home-hero-copy { width: 100%; padding: 28px 22px 0; }
-  .home-hero-copy h2 { font-size: clamp(30px, 8vw, 40px); margin-top: 12px; }
-  .home-hero-copy p { font-size: 13px; margin-top: 10px; max-width: 250px; }
   .home-hero-signature { display: none; }
   .home-hero-bottom { display: none; }
-  .home-hero-actions { padding: 0 16px; }
+  .home-hero-content { padding: 16px 20px 22px; gap: 10px; }
+  .home-hero-copy h2 { font-size: clamp(24px, 7.5vw, 34px); }
+  .home-hero-copy p { font-size: 12.5px; margin-top: 6px; max-width: 280px; }
   .home-hero-search { height: 50px; padding: 0 4px 0 14px; }
   .home-hero-chips {
     flex-wrap: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
-    padding: 12px 16px 20px;
+    margin-inline: -20px;
+    padding-inline: 20px;
   }
   .home-hero-chips::-webkit-scrollbar { display: none; }
   .home-hero-chips button { white-space: nowrap; flex-shrink: 0; }

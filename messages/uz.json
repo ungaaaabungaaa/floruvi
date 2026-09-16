@@ -118,15 +118,18 @@
     "boxes": {
       "single": {
         "name": "Yakka",
-        "people": "1 kishi"
+        "people": "1 kishi",
+        "description": "Bir kishi uchun yangi, fasliy sabzavotlar."
       },
       "dual": {
         "name": "Juft",
-        "people": "2 kishi"
+        "people": "2 kishi",
+        "description": "Ikki kishi uchun ko'proq xilma-xillikka ega muvozanatli quti."
       },
       "family": {
         "name": "Oilaviy",
-        "people": "4 yoki undan koʻp"
+        "people": "4 yoki undan koʻp",
+        "description": "Butun oila birga zavqlanishi uchun mo'l-ko'l quti."
       },
       "schedules": {
         "once": "Bir marta",
@@ -336,7 +339,17 @@
     "invitationTitle": "Yana bir oz yashillik.",
     "invitationAccent": "Boshlash uchun yaxshi joy.",
     "findFavourites": "Yangi sevimlilaringizni toping",
-    "searchAction": "Hosilni qidirish"
+    "searchAction": "Hosilni qidirish",
+    "boxesEyebrow": "Obuna qutilari",
+    "boxFeatures": [
+      "Mahalliy yetishtirilgan",
+      "Zararli kimyoviy moddalarsiz",
+      "Yangi holda yetkazib beriladi"
+    ],
+    "boxTagline": [
+      "Haqiqiy taom",
+      "Yorqinroq kunlar"
+    ]
   },
   "shop": {
     "interludes": [

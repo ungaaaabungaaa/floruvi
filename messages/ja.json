@@ -116,15 +116,18 @@
     "boxes": {
       "single": {
         "name": "シングル",
-        "people": "1人向け"
+        "people": "1人向け",
+        "description": "お一人様向けの新鮮な旬の野菜。"
       },
       "dual": {
         "name": "ペア",
-        "people": "2人向け"
+        "people": "2人向け",
+        "description": "お二人向けにバラエティ豊かなバランスの取れたボックス。"
       },
       "family": {
         "name": "ファミリー",
-        "people": "4人以上向け"
+        "people": "4人以上向け",
+        "description": "ご家族みんなで楽しめるたっぷりのボックス。"
       },
       "schedules": {
         "once": "1回のみ",
@@ -333,7 +336,17 @@
     "invitationTitle": "緑を、もう少し。",
     "invitationAccent": "はじめの一歩にぴったりです。",
     "findFavourites": "好きな野菜を見つける",
-    "searchAction": "Search produce"
+    "searchAction": "Search produce",
+    "boxesEyebrow": "定期ボックス",
+    "boxFeatures": [
+      "地元産",
+      "有害な化学物質不使用",
+      "新鮮なまま配達"
+    ],
+    "boxTagline": [
+      "本物の食材",
+      "明るい毎日"
+    ]
   },
   "shop": {
     "interludes": [
