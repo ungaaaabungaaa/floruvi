@@ -3,48 +3,38 @@ import { useState } from "react";
 import Image from "next/image";
 import { ArrowDown, Droplets, Sprout, Waves, ArrowUp } from "lucide-react";
 import cutaway from "@/src/assets/pineapple-cutaway.png";
-const parts = [
-  {
-    title: "Plant pockets",
-    icon: Sprout,
-    text: "Small cups support each plant. Its roots extend into the tower.",
-    position: "pockets",
-  },
-  {
-    title: "Water up",
-    icon: ArrowUp,
-    text: "A pump moves nutrient-rich water from the base into the central supply pipe.",
-    position: "supply",
-  },
-  {
-    title: "Roots fed",
-    icon: Droplets,
-    text: "Nozzles spray the suspended roots with water & dissolved nutrients. Air surrounds the roots.",
-    position: "roots",
-  },
-  {
-    title: "Water returns",
-    icon: Waves,
-    text: "Unused solution drains back to the reservoir for recirculation.",
-    position: "reservoir",
-  },
+import type { Messages } from "@/lib/i18n/messages";
+import { fill } from "@/lib/i18n/format";
+const partStyles = [
+  { icon: Sprout, position: "pockets" },
+  { icon: ArrowUp, position: "supply" },
+  { icon: Droplets, position: "roots" },
+  { icon: Waves, position: "reservoir" },
 ];
-export function TowerExplainer() {
+export function TowerExplainer({
+  labels,
+}: {
+  labels: Messages["howWeGrow"]["tower"];
+}) {
   const [active, setActive] = useState(0);
+  const parts = partStyles.map((style, index) => ({
+    ...style,
+    ...labels.parts[index],
+  }));
   return (
     <div className="tower-explainer">
       <div className="tower-cutaway">
         <Image
           src={cutaway}
-          alt="Cutaway of a pineapple-shaped aeroponic tower showing suspended roots, spray nozzles, central pipe & reservoir"
+          alt={labels.cutawayAlt}
           fill
           sizes="(max-width: 800px) 100vw, 600px"
         />
         {parts.map((part, index) => (
           <button
-            key={part.title}
+            key={part.position}
             className={`tower-hotspot hotspot-${part.position}`}
-            aria-label={`Explore ${part.title}`}
+            aria-label={fill(labels.explore, { title: part.title })}
             aria-pressed={active === index}
             onClick={() => setActive(index)}
           >
@@ -54,12 +44,12 @@ export function TowerExplainer() {
       </div>
       <div className="tower-parts">
         <p className="tower-small-label">
-          FOLLOW THE FLOW <ArrowDown size={15} />
+          {labels.follow} <ArrowDown size={15} />
         </p>
-        {parts.map(({ title, icon: Icon, text }, index) => (
+        {parts.map(({ title, icon: Icon, text, position }, index) => (
           <div
             className={`tower-part ${active === index ? "is-active" : ""}`}
-            key={title}
+            key={position}
           >
             <button
               onClick={() => setActive(index)}
@@ -75,7 +65,7 @@ export function TowerExplainer() {
             </p>
           </div>
         ))}
-        <span className="tower-cycle-note">One loop. Water keeps moving.</span>
+        <span className="tower-cycle-note">{labels.cycle}</span>
       </div>
     </div>
   );

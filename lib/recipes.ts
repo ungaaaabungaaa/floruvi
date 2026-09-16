@@ -1,20 +1,16 @@
-import { storefrontCopy } from "./storefront-copy";
 import { cache } from "react";
 import { fetchQuery } from "convex/nextjs";
+import type { FunctionReturnType } from "convex/server";
 import { api } from "@/convex/_generated/api";
 import { recipeImages } from "./recipe-images";
 
-function imageFor(key: string) {
+export function recipeImage(key: string) {
   const image = recipeImages[key];
   if (!image) throw new Error(`Recipe image is missing: ${key}`);
   return image;
 }
-export const getRecipes = cache(async () => {
-  const recipes = await fetchQuery(api.recipes.list, {});
-  return recipes.map((r) => ({ ...storefrontCopy(r), image: imageFor(r.imageKey) }));
-});
-export const getRecipe = cache(async (slug: string) => {
-  const recipe = await fetchQuery(api.recipes.get, { slug });
-  return recipe ? { ...storefrontCopy(recipe), image: imageFor(recipe.imageKey) } : null;
-});
-export type Recipe = Awaited<ReturnType<typeof getRecipes>>[number];
+export type RecipeSummaryRecord = FunctionReturnType<typeof api.recipes.list>[number];
+export type RecipeRecord = NonNullable<FunctionReturnType<typeof api.recipes.get>>;
+
+export const getRawRecipes = cache(() => fetchQuery(api.recipes.list, {}));
+export const getRawRecipe = cache((slug: string) => fetchQuery(api.recipes.get, { slug }));

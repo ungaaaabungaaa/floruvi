@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "siteName": "Floruvi Farm",
+    "defaultTitle": "Floruvi — Oʻstirishga arziydigan yangilik",
+    "titleTemplate": "%s | Floruvi Farm",
+    "description": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. Butun Hindiston boʻylab uyingiz yoki biznesingiz uchun yangi hosil.",
+    "descriptionExport": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. {country} dagi uylar va bizneslar uchun Hindistondan yangi hosil.",
+    "ogAlt": "Floruvi — Oʻstirishga arziydigan yangilik",
+    "productTitle": "{name} – {country}",
+    "productDescription": "{description} {pack}, narxi: {price}.",
+    "recipeTitle": "{name} retsepti",
+    "products": {
+      "title": "Bizning hosilimiz",
+      "description": "Floruvi sabzavotlari va koʻkatlarini koʻrib chiqing. Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar, mevali ekinlar, ildizmevalar va yeyiladigan gullarni kashf eting."
+    },
+    "boxes": {
+      "title": "Sabzavot qutisi obunalari",
+      "description": "Bitta kishi, ikki kishi yoki oila uchun sabzavot qutilari. Bir martalik quti, haftalik yoki oylik yetkazib berishni tanlang. Floruvi'dan mavjudligini soʻrang."
+    },
+    "cart": {
+      "title": "Savatingiz"
+    },
+    "checkout": {
+      "title": "Rasmiylashtirish"
+    },
+    "wishlist": {
+      "title": "Sevimlilar roʻyxatingiz"
+    },
+    "contact": {
+      "title": "Ferma bilan bogʻlaning",
+      "description": "Ekinlar, mavjudlik va uyingiz uchun hosil haqida soʻrang. Hisob ochish shart emas."
+    },
+    "faq": {
+      "title": "Koʻp beriladigan savollar",
+      "description": "Xarid qilish, sabzavot qutilari, yetkazib berish, hosilni parvarish qilish, saqlangan mahsulotlar va Floruvi'dagi maxfiylik haqida javoblar."
+    },
+    "privacy": {
+      "title": "Maxfiylik siyosati",
+      "description": "Floruvi murojaatlar, brauzer xotirasi, saqlangan mahsulotlar va maxfiylik soʻrovlari bilan qanday ishlashi."
+    },
+    "howWeGrow": {
+      "title": "Aeroponik minora ichida",
+      "description": "Suvni kuzating, ildizlarni kashf eting va aylanma aeroponik minora yangi koʻkatlarni qanday oʻstirishini koʻring."
+    },
+    "realTalk": {
+      "title": "Har kungi ovqat haqida samimiy suhbat",
+      "description": "Kamroq tashvish va aniq reja bilan haftalik taomlaringizda sabzavotlarga oʻrin ajratishning oddiy yoʻllari."
+    },
+    "recipes": {
+      "title": "Oddiy retseptlar",
+      "description": "Har kungi pishirish uchun yangi gʻoyalar. Floruvi bilan sabzavotli salatlar, shoʻrvalar, smuzilar, nonushta, kosalar va pastalarni kashf eting."
+    },
+    "productNotFound": "Mahsulot topilmadi",
+    "recipeNotFound": "Retsept topilmadi"
+  },
+  "common": {
+    "skipToContent": "Kontentga oʻtish",
+    "brand": {
+      "home": "Floruvi bosh sahifasi",
+      "tagline": "Oʻstirishga arziydigan yangilik"
+    },
+    "nav": {
+      "shop": "Doʻkon",
+      "boxes": "Qutilar",
+      "recipes": "Retseptlar",
+      "talk": "Gaplashaylik",
+      "main": "Asosiy navigatsiya",
+      "mobile": "Mobil navigatsiya",
+      "open": "Navigatsiyani ochish",
+      "close": "Navigatsiyani yopish",
+      "description": "Fermani kashf eting va biz bilan bogʻlaning."
+    },
+    "footer": {
+      "shop": "Doʻkon",
+      "vegetables": "Sabzavotlar",
+      "boxes": "Quti obunalari",
+      "learn": "Bilib oling",
+      "howWeGrow": "Biz qanday oʻstiramiz",
+      "recipes": "Retseptlar",
+      "help": "Yordam",
+      "contact": "Aloqa",
+      "faq": "Savol-javob",
+      "privacy": "Maxfiylik",
+      "copyright": "© {year} Floruvi Farm"
+    },
+    "locale": {
+      "label": "Mamlakat va til",
+      "change": "Mamlakat yoki tilni oʻzgartiring. Joriy: {country}, {language}",
+      "title": "Mamlakatingizni tanlang",
+      "description": "Narxlar, valyuta va yetkazib berish tafsilotlari siz tanlagan mamlakatga qarab belgilanadi.",
+      "close": "Yopish",
+      "language": "Til"
+    },
+    "money": {
+      "unavailable": "Mavjud emas",
+      "quoteRequired": "Narx soʻrov asosida"
+    },
+    "cartLink": {
+      "one": "Savat, {count} ta mahsulot",
+      "other": "Savat, {count} ta mahsulot"
+    },
+    "addToCart": {
+      "reduce": "{name} miqdorini kamaytirish",
+      "increase": "{name} miqdorini oshirish",
+      "selectedQuantity": "Tanlangan miqdor",
+      "add": "{name}ni savatga qoʻshish",
+      "added": "{name} savatga qoʻshildi",
+      "addShort": "Savatga qoʻshish",
+      "addedShort": "Qoʻshildi",
+      "limit": "Savat chegarasiga yetdingiz. Miqdorni kamaytiring yoki mahsulotni olib tashlang.",
+      "compact": "Qoʻshish"
+    },
+    "wishlist": {
+      "save": "{name}ni sevimlilarga saqlash",
+      "remove": "{name}ni sevimlilardan olib tashlash",
+      "title": "Sevimlilar",
+      "menu": {
+        "one": "Sevimlilar, {count} ta saqlangan mahsulot",
+        "other": "Sevimlilar, {count} ta saqlangan mahsulot"
+      }
+    },
+    "boxes": {
+      "single": {
+        "name": "Yakka",
+        "people": "1 kishi"
+      },
+      "dual": {
+        "name": "Juft",
+        "people": "2 kishi"
+      },
+      "family": {
+        "name": "Oilaviy",
+        "people": "4 yoki undan koʻp"
+      },
+      "schedules": {
+        "once": "Bir marta",
+        "weekly": "Haftalik",
+        "monthly": "Oylik",
+        "daily": "Kuniga bir marta",
+        "fortnightly": "Har 2 haftada"
+      },
+      "boxName": "{name} qutisi · {schedule}",
+      "perDelivery": "har yetkazib berishda"
+    },
+    "basket": {
+      "checkFailed": "Savatingizni tekshirib boʻlmadi.",
+      "summary": "Buyurtma xulosasi",
+      "subtotal": "Oraliq summa",
+      "items": {
+        "one": "({count} ta mahsulot)",
+        "other": "({count} ta mahsulot)"
+      },
+      "deliveryFee": "Yetkazib berish narxi",
+      "deliveryQuoted": "Koʻrib chiqilgach aytiladi",
+      "total": "Jami",
+      "totalBeforeDelivery": "Yetkazib berishgacha jami",
+      "noPayment": "Toʻlov olinmaydi.",
+      "deliveryInfo": "Yetkazib berish maʼlumoti",
+      "emptyEyebrow": "YANGILIK UCHUN OʻRIN",
+      "emptyTitle": "Savatingiz boʻsh.",
+      "emptyText": "Boshlash uchun sabzavotlarni tanlang.",
+      "emptyCta": "Hosilni Koʻrib Chiqish"
+    },
+    "validation": {
+      "name": "Ismingizni kiriting.",
+      "email": "Toʻgʻri elektron pochta manzilini kiriting.",
+      "phone": "Toʻgʻri telefon raqamini kiriting.",
+      "deliveryPhone": "Yetkazib berish uchun telefon raqamini kiriting.",
+      "city": "Shahringizni kiriting.",
+      "message": "Kamida 10 ta belgi kiriting.",
+      "consent": "Soʻrovingizga javob bera olishimiz uchun roziligingizni bildiring.",
+      "business": "Biznesingiz nomini kiriting.",
+      "generic": "Maʼlumotlaringizni tekshiring."
+    },
+    "requestErrors": {
+      "notConnected": "Murojaatlar hali ulanmagan. Birozdan soʻng qayta urinib koʻring.",
+      "tooMany": "Juda koʻp soʻrov yuborildi. Bir soatdan soʻng qayta urinib koʻring.",
+      "notSaved": "Soʻrovingiz saqlanmadi. Birozdan soʻng qayta urinib koʻring."
+    },
+    "error": {
+      "eyebrow": "QISQA TOʻXTALISH",
+      "title": "Bu sahifani yuklay olmadik.",
+      "text": "Ferma katalogi vaqtincha mavjud emas. Qayta urinib koʻring.",
+      "retry": "Qayta urinish"
+    }
+  },
+  "home": {
+    "srTitle": "Floruvi — Oʻstirishga arziydigan yangilik",
+    "carousel": "Oʻstirishga arziydigan yangilik",
+    "slide": "{total} tadan {index}: {name}",
+    "chooseStory": "Hikoyani tanlang",
+    "showStory": "{index}-hikoyani koʻrsatish: {name}",
+    "previous": "Oldingi hikoya",
+    "next": "Keyingi hikoya",
+    "pause": "Hikoyalarni toʻxtatish",
+    "play": "Hikoyalarni ijro etish",
+    "stories": [
+      {
+        "name": "Hosil",
+        "eyebrow": "OʻSTIRISHGA ARZIYDIGAN YANGILIK",
+        "title": [
+          "Yangi koʻkatlar.",
+          "Yorqinroq kunlar."
+        ],
+        "note": "Bir oz koʻproq yashillik. Kutish uchun ancha koʻproq narsa.",
+        "alt": "Salat, karam va yangi koʻkatlar bilan toʻldirilgan yogʻoch quti.",
+        "signature": "Yaxshi narsalar\noʻsmoqda."
+      },
+      {
+        "name": "Har kuningiz",
+        "eyebrow": "YANGILIK UCHUN OʻRIN OCHING",
+        "title": [
+          "Kichik odatlar.",
+          "Yangi boshlanishlar."
+        ],
+        "note": "Qarsillagan narsa. Yashil narsa. Faqat siz uchun narsa.",
+        "alt": "Fil suyagi rangli elakda yuvilayotgan qarsillagan yashil barglar.",
+        "signature": "Yangi boshlanish,\nhar kuni."
+      },
+      {
+        "name": "Koʻproq rang",
+        "eyebrow": "HISLAR UCHUN ZIYOFAT",
+        "title": [
+          "Rang-barang",
+          "ovqatlaning."
+        ],
+        "note": "Shirin pomidorlar. Qarsillagan barglar. Shoshilmay tanovul qilgingiz keladigan tovoq.",
+        "alt": "Oq tosh ustida rang-barang pomidorlar, turplar, sabzilar va yangi barglar.",
+        "signature": "Rang sizga\nyarashadi."
+      },
+      {
+        "name": "Kichik moʻjizalar",
+        "eyebrow": "MIKROKOʻKATLAR BILAN TANISHING",
+        "title": [
+          "Kichik barglar.",
+          "Katta taʼm."
+        ],
+        "note": "Har kungi taomlaringiz loyiq boʻlgan yangi yakuniy tafsilot.",
+        "alt": "Yashil barglari va nozik pushti poyalari bilan yangi turp mikrokoʻkatlari.",
+        "signature": "Kichik barglar,\nsevish uchun koʻp narsa."
+      },
+      {
+        "name": "Yaxshiroq oʻstirish",
+        "eyebrow": "OʻSTIRISHNING YANGI YOʻLI",
+        "title": [
+          "Gʻamxoʻrlikka asoslangan.",
+          "Boshqacha oʻstirilgan."
+        ],
+        "note": "Gidroponika va aeroponika dunyosini kashf eting.",
+        "alt": "Quyoshli vertikal minoralarda oʻsayotgan bargli sabzavotlar tasviri.",
+        "signature": "Tabiatga\nbir oz yaqinroq."
+      },
+      {
+        "name": "Dasturxoningizda",
+        "eyebrow": "YAXSHI TAOM. YAXSHI SUHBATDOSH.",
+        "title": [
+          "Eng yaxshi narsalar",
+          "boʻlishiladi."
+        ],
+        "note": "Yangi mahsulotlar. Oddiy taomlar. Yigʻilish uchun yana bir sabab.",
+        "alt": "Birgalikdagi tushlik uchun tayyorlangan rang-barang salat va laganlar.",
+        "signature": "Yaxshi taom\nuchun oʻrin qoldiring."
+      }
+    ],
+    "freshToday": "Bugun yangi.",
+    "shopAll": "Barchasini koʻrish",
+    "categoriesLabel": "Doʻkon kategoriyalari",
+    "categoryLinks": {
+      "leafy": "Bargli sabzavotlar",
+      "herbs": "Yangi koʻkatlar",
+      "microgreens": "Mikrokoʻkatlar",
+      "colourful": "Rang-barang ekinlar"
+    },
+    "nutritionTitle": "Ranglaringizni tanovul qiling.",
+    "nutritionAccent": "Farqni his qiling.",
+    "benefit": "{name}: {nutrient}",
+    "benefits": [
+      {
+        "name": "Ovqat hazm qilish salomatligi",
+        "nutrient": "TOLA"
+      },
+      {
+        "name": "Sogʻlom koʻrish",
+        "nutrient": "A VITAMINI"
+      },
+      {
+        "name": "Har kungi immunitet",
+        "nutrient": "C VITAMINI"
+      },
+      {
+        "name": "Hujayra oʻsishi",
+        "nutrient": "FOLAT"
+      }
+    ],
+    "strengthTitle": "Kuchliroq odat.",
+    "strengthAccent": "Bir vaqtning oʻzida\nbitta yaxshi tanlov.",
+    "strengthLabel": "Ovqatlanish, harakat va dam olish",
+    "strengthWords": [
+      "Yaxshi ovqatlaning",
+      "Koʻp harakat qiling",
+      "Yaxshi dam oling"
+    ],
+    "strengthAlt": "Yashil sport kiyimidagi kattalar sportchi mashqdan soʻng choʻziladi, yuzi kadrdan tashqarida.",
+    "goodnessTitle": "Oʻzingizni qanday his qilishni xohlashingizga qarab xarid qiling.",
+    "goodness": [
+      {
+        "name": "Ichagingizni seving.",
+        "note": "Tovogʻingizga tola qoʻshing",
+        "crop": "Sabzi"
+      },
+      {
+        "name": "Koʻzlaringizga gʻamxoʻrlik qiling.",
+        "note": "A vitamini uchun oʻrin ajrating",
+        "crop": "Ismaloq"
+      },
+      {
+        "name": "Himoyangizni qoʻllab-quvvatlang.",
+        "note": "C vitamini bilan tanishing",
+        "crop": "Bolgʻor qalampiri"
+      },
+      {
+        "name": "Xilma-xil boʻlsin.",
+        "note": "Yana bir oz bargli foyda",
+        "crop": "Bargli sabzavotlar"
+      }
+    ],
+    "mealAlt": "Zigʻir mato bilan qoplangan stol ustida sabzavotlar, noʻxat va kinoa solingan kosa.",
+    "mealTitle": "Keyingi yaxshi odatingiz",
+    "mealAccent": "tovoqdan boshlanadi.",
+    "recipesTitle": "Kamroq oʻylash. Koʻproq pishirish.",
+    "allRecipes": "Barcha retseptlar",
+    "minutes": "{count} daq",
+    "boxesTitle": "Yaxshi taom.",
+    "boxesAccent": "Hamma uchun oʻrin.",
+    "exploreBoxes": "Qutilarni koʻrib chiqish",
+    "boxLabel": "{people} uchun {name} qutisini koʻrib chiqish",
+    "boxAlt": "Salat, ismaloq, pomidor, bodring, sabzi va yalpiz bilan {name} qutisi",
+    "moreTitle": "Sevish uchun koʻproq sabzavotlar.",
+    "seeEverything": "Barchasini koʻrish",
+    "invitationTitle": "Yana bir oz yashillik.",
+    "invitationAccent": "Boshlash uchun yaxshi joy.",
+    "findFavourites": "Yangi sevimlilaringizni toping",
+    "searchAction": "Hosilni qidirish"
+  },
+  "shop": {
+    "interludes": [
+      {
+        "title": "Dasturxonga rang olib keling.",
+        "alt": "Laganda qovurilgan sabzi, lavlagi va noʻxat"
+      },
+      {
+        "title": "Yangi boshlanishlar. Shoshilmagan tonglar.",
+        "alt": "Tong yorugʻida avokado tost va yashil smuzi"
+      },
+      {
+        "title": "Yaxshi mahsulotlar. Ajoyib kechqurunlar.",
+        "alt": "Yashil stolda rayhon pastasi va cherri pomidorlar"
+      }
+    ],
+    "searchLabel": "Hosilni qidirish",
+    "searchPlaceholder": "Sabzavotlar va koʻkatlarni qidirish",
+    "clearSearch": "Qidiruvni tozalash",
+    "filterLabel": "Kategoriya boʻyicha filtrlash",
+    "allProduce": "Barcha hosil",
+    "bannerAlt": "Yangi terilgan sabzavotlar solingan savat",
+    "eyebrow": "FLORUVIDAN YANGI",
+    "title": "Yangi tanlovlar.\nDasturxoningiz uchun.",
+    "subtitle": "Sabzavotlar, koʻkatlar va mikrokoʻkatlar.",
+    "sortLabel": "Hosilni saralash",
+    "bestMatch": "Eng mos",
+    "featured": "Avval tavsiya etilganlar",
+    "az": "Nomi: A dan Z gacha",
+    "priceAsc": "Qadoq narxi: arzondan qimmatga",
+    "priceDesc": "Qadoq narxi: qimmatdan arzonga",
+    "perPack": "Har bir qadoq uchun. Hajmlari xilma-xil.",
+    "clearFilters": "Filtrlarni tozalash",
+    "noResults": "Ekinlar topilmadi.",
+    "otherCategories": {
+      "one": "Boshqa kategoriyalarda {count} ta mos natija.",
+      "other": "Boshqa kategoriyalarda {count} ta mos natija."
+    },
+    "tryName": "Ismaloq yoki palak kabi ekin nomini sinab koʻring.",
+    "searchAll": "Barcha kategoriyalarda qidirish",
+    "loading": "Hosil yuklanmoqda…"
+  },
+  "product": {
+    "assurances": {
+      "fresh": "Yangi hosil",
+      "care": "Gʻamxoʻrlik bilan oʻstirilgan",
+      "cook": "Oʻzingizga mos pishiring",
+      "domestic": "Butun Hindiston boʻylab",
+      "export": "Hindistondan {country}ga"
+    },
+    "waysToEnjoy": "Tanovul qilish usullari",
+    "seeAllRecipes": "Barcha retseptlarni koʻrish",
+    "minutes": "{count} daq",
+    "howToStore": "Qanday saqlash kerak",
+    "whyEat": "Nega {name} yeyish kerak?",
+    "whySubtitle": "Yaxshi mahsulotlar. Har kungi imkoniyatlar.",
+    "keepFresh": "Yangiligini saqlang",
+    "foodGuide": "Oziq-ovqat qoʻllanmasi",
+    "waysToEnjoyName": "{name}ni tanovul qilish usullari",
+    "servingInspiration": "Tortib berish gʻoyalari",
+    "youMayAlsoLike": "Sizga yoqishi mumkin",
+    "viewAll": "Barchasini koʻrish",
+    "gallery": {
+      "closeUp": "{name} yaqindan",
+      "servingIdea": "{name} tortish gʻoyasi",
+      "viewRecipe": "Retseptni koʻrish",
+      "images": "Mahsulot rasmlari",
+      "view": "{label}ni koʻrish"
+    },
+    "breadcrumbHome": "Bosh sahifa",
+    "breadcrumbShop": "Doʻkon",
+    "story": {
+      "label": "Oʻstirishga arziydigan yangilik",
+      "tagline": "Oʻstirishga arziydigan yangilik",
+      "banners": [
+        {
+          "title": "Bugun yaxshi taom.\nOldinda yanada koʻproq narsa.",
+          "alt": "Xira yashil fonda yangi ismaloq va karam"
+        },
+        {
+          "title": "Bir oz yangilik.\nKoʻp taʼm.",
+          "alt": "Yumshoq quyosh nurida rayhon va yalpiz"
+        },
+        {
+          "title": "Kichik barglar.\nYangi boshlanish.",
+          "alt": "Keramik idishda yosh mikrokoʻkatlar"
+        },
+        {
+          "title": "Har kuningizga\nbir oz rang olib keling.",
+          "alt": "Iliq shaftoli rang fonda pomidor va bodring"
+        },
+        {
+          "title": "Oddiy mahsulotlar.\nTayyorlashga arziydigan taomlar.",
+          "alt": "Krem rang fonda sabzi va turp"
+        },
+        {
+          "title": "Yakuniy tafsilot\nbu — yangilik.",
+          "alt": "Yumshoq atirgul rang fonda yeyiladigan gullar"
+        }
+      ],
+      "fresh": "Yangi hosil",
+      "care": "Gʻamxoʻrlik bilan oʻstirilgan",
+      "domestic": "Butun Hindiston boʻylab yetkazib berish",
+      "export": "Soʻrov asosida {country}ga yetkazib berish",
+      "mix": "Oʻzingiz xohlagan aralashmani tanlang"
+    }
+  },
+  "cart": {
+    "heroAlt": "Yangi sabzavotlar solingan savat",
+    "title": "Savatingiz",
+    "subtitle": "Dasturxoningiz uchun tayyor yangi hosil.",
+    "headProduct": "MAHSULOT",
+    "headQuantity": "MIQDOR",
+    "headPrice": "NARX",
+    "packOnRequest": "Qadoq soʻrov asosida",
+    "unlisted": "Bu ekin endi roʻyxatda yoʻq.",
+    "perDelivery": "Har yetkazib berishda",
+    "freshProduce": "Yangi hosil",
+    "reduce": "{name}ni kamaytirish",
+    "increase": "{name}ni oshirish",
+    "remove": "{name}ni olib tashlash",
+    "boxDelivery": "Yetkazib berish qutingizga kiritilgan.",
+    "domesticDelivery": "Yangi hosil, butun Hindiston boʻylab yetkaziladi.",
+    "exportDelivery": "Ferma soʻrovingizni koʻrib chiqqach, {country}ga yetkazib berish narxini aytadi.",
+    "continue": "Xaridni davom ettirish",
+    "checking": "Katalog tekshirilmoqda…",
+    "tryAgain": "Qayta urinish",
+    "removeUnlisted": "Davom etishdan oldin roʻyxatda yoʻq ekinlarni olib tashlang.",
+    "proceed": "Rasmiylashtirishga oʻtish",
+    "editorialLabel": "Har kungi taomlar uchun yangi ovqat",
+    "editorialAlt": "Yangi yashil koʻkatlar",
+    "editorialTitle": "Yangi taom.\nHar kuni.",
+    "editorialText": "Oddiy mahsulotlar.\nUlardan bahramand boʻlishning koʻproq yoʻllari."
+  },
+  "checkout": {
+    "returnToBasket": "Iltimos, savatingizga qaytib, tanlangan ekinlarni tekshiring.",
+    "notSaved": "Soʻrovingiz saqlanmadi. Qayta urinib koʻring.",
+    "receivedTitle": "Soʻrov qabul qilindi.",
+    "receivedText": "Mavjudligini tasdiqlash uchun siz bilan bogʻlanamiz.",
+    "noPayment": "Toʻlov olinmaydi.",
+    "keepExploring": "Koʻrib Chiqishni Davom Ettiring",
+    "back": "Savatga qaytish",
+    "eyebrow": "OʻSTIRISHGA ARZIYDIGAN YANGILIK",
+    "title": "Rasmiylashtirish.",
+    "progress": "Rasmiylashtirish jarayoni",
+    "steps": [
+      "Maʼlumotlaringiz",
+      "Yetkazib berish",
+      "Koʻrib chiqish va rasmiylashtirish"
+    ],
+    "headings": [
+      "Maʼlumotlaringiz",
+      "Yetkazib berish hududi",
+      "Koʻrib chiqish"
+    ],
+    "intro": "Hisobsiz koʻrib chiqing va savatingizni toʻldiring.",
+    "name": "Toʻliq ism",
+    "namePlaceholder": "Toʻliq ismingiz",
+    "email": "Elektron pochta manzili",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Yetkazib berish telefoni",
+    "phonePlaceholder": "Mamlakat kodi bilan telefon raqami",
+    "continue": "Yetkazib berishga oʻtish",
+    "deliveryDomestic": "Biz butun Hindiston boʻylab yetkazib beramiz.",
+    "deliveryExport": "Ferma {country}ga yetkazib berishni koʻrib chiqadi va biror narsa kelishilishidan oldin narxini aytadi.",
+    "address": "Manzil",
+    "addressOptional": "Soʻrov bosqichida ixtiyoriy",
+    "addressPlaceholder": "Uy, koʻcha va hudud",
+    "addressNote": "Koʻcha manzilingiz shu sahifada qoladi va bu soʻrov bilan yuborilmaydi.",
+    "city": "Shahar",
+    "cityPlaceholder": "Shahar",
+    "region": "Viloyat / hudud",
+    "regionPlaceholder": "Viloyat yoki hudud",
+    "postal": "Pochta indeksi",
+    "postalPlaceholder": "Pochta indeksi",
+    "optional": "Ixtiyoriy",
+    "notes": "Bilishimiz kerak boʻlgan narsa bormi?",
+    "notesPlaceholder": "Maʼqul yetkazib berish kunlari, miqdor haqida izohlar yoki savollar",
+    "confirmDelivery": "Ferma yetkazib berish tafsilotlarini tasdiqlaydi.",
+    "backStep": "Orqaga",
+    "review": "Savatimni Koʻrib Chiqish",
+    "contact": "ALOQA",
+    "editContact": "Aloqani tahrirlash",
+    "deliveryArea": "YETKAZIB BERISH HUDUDI",
+    "editDelivery": "Yetkazib berishni tahrirlash",
+    "consent": "Floruvi ushbu mavjudlik soʻroviga javob berish uchun aloqa maʼlumotlarim va yetkazib berish hududimdan foydalanishiga roziman.",
+    "privacy": "Maxfiylik siyosati",
+    "honeypot": "Veb-sayt",
+    "sending": "Yuborilmoqda…",
+    "send": "Soʻrovni yuborish",
+    "finalNote": "Toʻlov olinmaydi. Mavjudligini tasdiqlaymiz.",
+    "checkingBasket": "Savatingiz tekshirilmoqda…",
+    "tryAgain": "Qayta urinish",
+    "unlisted": "Ekin endi roʻyxatda yoʻq.",
+    "returnToRemove": "Uni olib tashlash uchun savatga qayting.",
+    "photoAlt": "yangi hosil qutisi",
+    "handwritten": "Oʻstirishga arziydigan yangilik."
+  },
+  "contact": {
+    "portraitAlt": "Yogʻoch qutida yigʻilgan yangi sabzavotlar",
+    "sent": "Yuborildi",
+    "inTouch": "Siz bilan bogʻlanamiz.",
+    "eyebrow": "GAPLASHAYLIK",
+    "title": "Yaxshi taom\nsuhbatdan boshlanadi.",
+    "intro": "Uyingiz, oshxonangiz yoki biznesingiz uchun. Nima koʻzda tutayotganingizni bizga ayting.",
+    "name": "Ismingiz",
+    "namePlaceholder": "Toʻliq ism",
+    "business": "Biznes nomi",
+    "optional": "(ixtiyoriy)",
+    "businessPlaceholder": "Restoran, kafe, doʻkon…",
+    "email": "Elektron pochta manzili",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Telefon raqami",
+    "city": "Shahringiz",
+    "cityPlaceholder": "Hosil qayerga kerak?",
+    "interest": "Hosil yoki quti",
+    "interestPlaceholder": "masalan, rayhon, salat, mikrokoʻkatlar",
+    "quantity": "Miqdor va davriylik",
+    "quantityPlaceholder": "masalan, har hafta bir necha qadoq",
+    "message": "Xabar",
+    "messagePlaceholder": "Savol bering yoki sizga kerak boʻlgan hosil haqida ayting…",
+    "honeypot": "Bu maydonni boʻsh qoldiring",
+    "consent": "Floruvi murojaatimga javob berish uchun ushbu maʼlumotlardan foydalanishiga roziman.",
+    "privacy": "Maxfiylik siyosati",
+    "sending": "Yuborilmoqda…",
+    "send": "Murojaatni yuborish",
+    "required": "* Majburiy maydonlar.",
+    "boxInterest": "{name} qutisi · {people} · {schedule}",
+    "boxMessage": "Men {people} uchun {name} sabzavot qutisini {schedule} yetkazib berilishini xohlayman. Birinchi yetkazib berishni men bilan kelishib oling."
+  },
+  "wishlist": {
+    "heroAlt": "Yangi sabzavotlar bilan toʻldirilgan zigʻir sumka",
+    "eyebrow": "SEVIMLILARINGIZ",
+    "title": "Yaxshi tanlovlar.",
+    "accent": "Ularni dasturxoningizga olib keling.",
+    "intro": "Keyingi yangi taomingiz shu yerdan boshlanadi. Sevgan mahsulotlaringizni bugun zavqlanadigan narsaga aylantiring.",
+    "count": {
+      "one": "{count} ta saqlangan mahsulot",
+      "other": "{count} ta saqlangan mahsulot"
+    },
+    "unlisted": "Bu mahsulot endi roʻyxatda yoʻq.",
+    "emptyTitle": "Bir oz ilhom saqlang.",
+    "emptyText": "Sevimlilaringizni shu yerda saqlash uchun mahsulotdagi yurakchani bosing.",
+    "explore": "Hosilni koʻrib chiqish",
+    "bannerAlt": "Koʻkatlar va limon bilan rang-barang yangi salat",
+    "bannerTitle": "Keyingi taomingizni yangi taom qiling.",
+    "recommendations": "Sizga yoqishi mumkin",
+    "exploreAll": "Barchasini koʻrib chiqish"
+  },
+  "boxes": {
+    "eyebrow": "SABZAVOT OBUNALARI",
+    "title": "Yaxshi taom,\nqayta-qayta.",
+    "intro": "Eshigingizgacha yetkaziladigan yangi sabzavotlar.\nSizning qutingiz. Sizning odatingiz.",
+    "values": {
+      "fresh": "Yangi hosil",
+      "regular": "Muntazam yetkazib berish",
+      "good": "Yaxshi taom"
+    },
+    "heroAlt": "Salat, ismaloq, pomidor, sabzi, bodring va yalpiz bilan sabzavot qutisi",
+    "added": "Savatingizga qoʻshildi.",
+    "full": "Savatingiz toʻla. Koʻproq qoʻshishdan oldin uni koʻrib chiqing.",
+    "chooseBox": "Qutingizni tanlang",
+    "chooseNote": "Bir xil yangilik. Har bir oila uchun hajm.",
+    "boxAlt": "{name} sabzavot qutisi",
+    "frequency": "Yetkazib berish davriyligi",
+    "frequencyNote": "Qutingizni qanchalik tez-tez xohlashingizni tanlang.",
+    "addedShort": "Qoʻshildi",
+    "addToCart": "Savatga qoʻshish",
+    "seasonalAlt": "Yangi bargli sabzavotlar",
+    "seasonalTitle": "Yangi aralashma.\nTanish odat.",
+    "seasonalText": "Har kuni tayyorlaydigan taomlaringiz uchun koʻkatlar, sabzavotlar va ziravor oʻtlar.",
+    "insideTitle": "Ichida nima bor?",
+    "insideNote": "{name} qutingiz quyidagilarni oʻz ichiga oladi:",
+    "storyAlt": "Yangi sabzavotli salat",
+    "storyTitle": "Haqiqiy taom.\nHar kungi sevimlilar.",
+    "storyText": "Yangi mahsulotlar qutisidan boshlang. Uni oʻzingizga moslang.",
+    "storyValues": {
+      "ingredients": "Yangi mahsulotlar",
+      "meals": "Zavqlanadigan taomlar"
+    },
+    "faqTitle": "Koʻp beriladigan savollar",
+    "faq": [
+      [
+        "Narxga nima kiradi?",
+        "Narx bir yetkazib berish uchun bitta qutiga moʻljallangan. Qutilar uchun qoʻshimcha yetkazib berish toʻlovi yoʻq."
+      ],
+      [
+        "Birinchi qutim qachon keladi?",
+        "Ferma birinchi yetkazib berishni siz bilan kelishadi."
+      ],
+      [
+        "Quti qoʻshganimda toʻlov olinadimi?",
+        "Yoʻq. Qutingiz va davriyligi savatingizda saqlanadi. Takroriy toʻlov hali faol emas."
+      ],
+      [
+        "Quti yoki yetkazib berish jadvalini oʻzgartira olamanmi?",
+        "Soʻrovingizni tasdiqlaganimizda nima kerakligini bizga ayting. Kelishilgan yetkazib berishdagi oʻzgarishlarni muhokama qilish uchun ferma bilan bogʻlaning."
+      ]
+    ],
+    "faqExportPrice": [
+      "Narxga nima kiradi?",
+      "Narx bir yetkazib berish uchun bitta qutiga moʻljallangan. Ferma soʻrovingizni koʻrib chiqqach, {country}ga yetkazib berish narxini aytadi."
+    ],
+    "recipesTitle": "Qutingiz uchun retseptlar"
+  },
+  "recipes": {
+    "interludes": [
+      {
+        "title": "Bir oz pasta. Ajoyib kechqurun.",
+        "alt": "Oʻrmon yashil rang stolda rayhon pastasi va cherri pomidorlar"
+      },
+      {
+        "title": "Nonushta uchun vaqt ajrating.",
+        "alt": "Tong yorugʻida avokado tost va yashil smuzi"
+      },
+      {
+        "title": "Dasturxonga rang olib keling.",
+        "alt": "Laganda qovurilgan sabzi, lavlagi va noʻxat"
+      },
+      {
+        "title": "Yangi narsadan boshlang.",
+        "alt": "Yangi sabzavotlar solingan savatni ushlab turgan qoʻllar"
+      }
+    ],
+    "heroAlt": "Yangi koʻkatlar, pomidor va turp solingan kosa",
+    "eyebrow": "RETSEPTLAR",
+    "title": "Oddiy Taomlar\nSogʻlomroq Siz",
+    "subtitle": "Sabzavotlarni har kungi hayotingizning bir qismiga aylantirish uchun yangi gʻoyalar.",
+    "searchLabel": "Retseptlarni qidirish",
+    "searchPlaceholder": "Retseptlarni qidirish…",
+    "clearSearch": "Qidiruvni tozalash",
+    "categoriesLabel": "Retsept kategoriyalari",
+    "all": "Barchasi",
+    "found": {
+      "one": "{count} ta retsept topildi",
+      "other": "{count} ta retsept topildi"
+    },
+    "resultsLabel": "Retsept natijalari",
+    "noResults": "Retseptlar topilmadi.",
+    "noResultsText": "Boshqa mahsulotni sinab koʻring yoki filtrlaringizni tozalang.",
+    "showAll": "Barcha retseptlarni koʻrsatish",
+    "kitchenAlt": "Yogʻoch qoshiqlar bilan yangi sabzavotli salatni aralashtirayotgan qoʻllar",
+    "kitchenTitle": "Yaxshi Mahsulotlar\nBaxtliroq Kunlar",
+    "kitchenText": "Haqiqiy taom. Chinakam oddiy.",
+    "moreLabel": "Koʻproq retsept natijalari",
+    "more": "Koʻproq retseptlar",
+    "cardMinutes": "{count} daq",
+    "breadcrumb": "Yoʻnalish",
+    "breadcrumbRecipes": "Retseptlar",
+    "kitchen": "FLORUVI OSHXONASI",
+    "minutes": {
+      "one": "{count} daqiqa",
+      "other": "{count} daqiqa"
+    },
+    "servings": {
+      "one": "{count} porsiya",
+      "other": "{count} porsiya"
+    },
+    "letsMake": "Keling, tayyorlaymiz",
+    "whatYouNeed": "SIZGA NIMA KERAK",
+    "ingredients": "Tarkibiy qismlar",
+    "allergens": "Allergenlar uchun mahsulot yorliqlarini tekshiring. Tayyorlashdan oldin yangi hosilni yuving.",
+    "stepByStep": "QADAM-BAQADAM",
+    "makeSomething": "Keling, biror yaxshi narsa tayyorlaymiz.",
+    "kitchenNote": "Kichik oshxona maslahati",
+    "meetIngredients": "Mahsulotlar bilan tanishing.",
+    "moreRecipes": "Koʻproq retseptlar"
+  },
+  "howWeGrow": {
+    "heroAlt": "Aeroponik minoradan yangi salat terayotgan qoʻllar",
+    "eyebrow": "BOSHQACHA ILDIZ OTGAN",
+    "title": "Koʻproq yashillik.",
+    "accent": "Kamroq tuproq.",
+    "intro": "Havo. Suv. Yangi imkoniyatlar.\nOʻstirishning butunlay yangi yoʻli.",
+    "cropsLabel": "Bargli sabzavotlar va yangi koʻkatlar",
+    "cropAlts": [
+      "Salat",
+      "Rayhon",
+      "Karam"
+    ],
+    "crops": "Bargli sabzavotlar.\nYangi koʻkatlar.",
+    "scroll": "Minora ichida",
+    "principlesLabel": "Oʻstirishning asosiy tamoyillari",
+    "principles": [
+      "Suv aylanadi",
+      "Tuproqsiz ildizlar",
+      "Vertikal oʻsish",
+      "Yorugʻlik oʻsishga quvvat beradi"
+    ],
+    "insideEyebrow": "BIR OZ YAQINROQDAN QARANG",
+    "insideTitle": "Koʻp narsa sodir boʻladi",
+    "insideAccent": "barglar ostida.",
+    "insideText": "Ildizlar havoda osilgan. Ozuqa purkagichi ularni boqadi. Kashf etish uchun raqamni bosing.",
+    "journeyEyebrow": "KICHIK BOSHLANISHLAR. YANGI IMKONIYATLAR.",
+    "journeyTitle": "Urugʻ. Oʻsish. Hosil. Zavqlaning.",
+    "stages": [
+      {
+        "title": "Kichikdan boshlang",
+        "text": "Urugʻlar oʻsish tiqinida boshlanadi."
+      },
+      {
+        "title": "Uy topadi",
+        "text": "Yosh nihollar minora choʻntaklariga koʻchiriladi."
+      },
+      {
+        "title": "Tayyor boʻlganda tering",
+        "text": "Har bir ekinning oʻz hosil yigʻish vaqti bor."
+      },
+      {
+        "title": "Oʻzingizga moslang",
+        "text": "Har kungi taomlar uchun yangi mahsulotlar."
+      }
+    ],
+    "rootAlt": "Nihol oʻstirish stakanchasi ostida osilgan nozik oqargan ildizlar",
+    "rootEyebrow": "ILDIZLARGA KERAKLISINI BERING",
+    "rootTitle": "Tuproqsiz.",
+    "rootAccent": "Baribir hayotga toʻla.",
+    "rootText": "Ildizlarga suv, ozuqa moddalari va kislorod kerak.\nIldizlar havoda osilgan holda turganda, nozik purkash suv va ozuqa moddalarini yetkazadi.",
+    "rootTags": [
+      "Suv",
+      "Ozuqa moddalari",
+      "Kislorod"
+    ],
+    "notebookEyebrow": "ICHKARIDAN BIR NECHA QAYD",
+    "notebookTitle": "Kichik ildizlar.",
+    "notebookAccent": "Aqlli oʻsish aylanasi.",
+    "notebookAlt": "Nihol stakanchasi, ozuqa purkashini olayotgan ildizlar va aeroponik minora suv aylanasining qoʻlda chizilgan tasvirlari",
+    "notes": [
+      {
+        "label": "01 / Boshlanish nuqtasi",
+        "title": "Stakancha oʻsimlikni ushlab turadi.",
+        "text": "Oʻsish tiqini niholni tutib turadi. Ildizlar tuynukli stakancha orqali minoraga choʻziladi."
+      },
+      {
+        "label": "02 / Bir oz purkash",
+        "title": "Ildizlar havoda qoladi.",
+        "text": "Purkagichlar suv va ozuqa moddalarini toʻgʻridan-toʻgʻri ildizlarga yetkazadi. Vaqt jadvali ularni taʼminlab turadi."
+      },
+      {
+        "label": "03 / Boshiga qaytish",
+        "title": "Suv aylanib qaytadi.",
+        "text": "Ishlatilmagan eritma asosga oqib tushadi. Nasos uni tizim boʻylab yana yuboradi."
+      }
+    ],
+    "closingTitle": "Kichik iz.",
+    "closingAccent": "Yangi qarash.",
+    "closingText": "Tepaga qarab oʻsish yangi imkoniyatlarni ochadi.",
+    "references": "Oʻstirish ilmini kashf eting",
+    "referenceNasa": "Aeroponik oʻstirish — NASA Spinoff ↗",
+    "referenceOsu": "Suv va ozuqa moddalarini tekshirish — Oklahoma State University ↗",
+    "tower": {
+      "cutawayAlt": "Osilgan ildizlar, purkash nozullari, markaziy quvur va suv ombori koʻrsatilgan ananas shaklidagi aeroponik minoraning kesimi",
+      "explore": "{title}ni kashf eting",
+      "follow": "OQIMNI KUZATING",
+      "cycle": "Bitta aylana. Suv harakatda boʻlib turadi.",
+      "parts": [
+        {
+          "title": "Oʻsimlik choʻntaklari",
+          "text": "Kichik stakanchalar har bir oʻsimlikni tutib turadi. Uning ildizlari minoraga choʻziladi."
+        },
+        {
+          "title": "Suv yuqoriga",
+          "text": "Nasos ozuqaga boy suvni asosdan markaziy taʼminot quvuriga koʻtaradi."
+        },
+        {
+          "title": "Ildizlar boqiladi",
+          "text": "Nozullar osilgan ildizlarga suv va erigan ozuqa moddalarini purkaydi. Ildizlar atrofida havo boʻladi."
+        },
+        {
+          "title": "Suv qaytadi",
+          "text": "Ishlatilmagan eritma qayta aylanish uchun suv omboriga qaytib oqadi."
+        }
+      ]
+    }
+  },
+  "realTalk": {
+    "eyebrow": "SAMIMIY SUHBAT",
+    "title": "Taomlaringizni rejalashtiring.",
+    "intro": "Xarid qilishdan oldin bir nechta taom tanlang.",
+    "cta": "Oshxonadan Boshlang",
+    "paperEyebrow": "SHU HAFTAGI YAXSHI TAOM REJASI",
+    "paperTitle": "Shu hafta.",
+    "plan": [
+      "Yoqtirgan ikkita taomni tanlang",
+      "Bargli sabzavot tanlang",
+      "Taʼm uchun koʻkat qoʻshing",
+      "Ishlata oladigan miqdorda sotib oling",
+      "Biror narsa tayyorlang. Ulashing."
+    ],
+    "handwritten": "Kichik oʻzgarishlar,\nyorqinroq kunlar.",
+    "keepEyebrow": "HAQIQIYLIGICHA QOLDIRING",
+    "keepTitle": "Vaʼdalar bilan emas, ovqat bilan boshlang.",
+    "keepText": "Xilma-xil ovqatlanish oʻzingizga gʻamxoʻrlik qilishning bir qismi. Hech qanday yakka oziq-ovqat salomatlikni kafolatlay olmaydi yoki tibbiy yordamning oʻrnini bosa olmaydi. Biz mahsulotlarga va ulardan bahramand boʻlishning amaliy yoʻllariga eʼtibor qaratamiz.",
+    "chooseTitle": "Sabzavotlaringizni tanlang.",
+    "chooseCta": "Yangi Koʻkatlarni Koʻrib Chiqish"
+  },
+  "faq": {
+    "eyebrow": "OZGINA YORDAM",
+    "title": "Savollar?",
+    "intro": "Birinchi savatingizdan keyingi taomgacha — barcha tafsilotlar shu yerda.",
+    "topics": "Savollar mavzulari",
+    "contactLink": "Biz bilan bogʻlaning →",
+    "helpTitle": "Hali ham savolingiz bormi?",
+    "helpText": "Nima kerakligini ayting. Keyingi qadamda yordam beramiz.",
+    "helpContact": "Ferma bilan bogʻlaning →",
+    "helpPrivacy": "Maxfiylik siyosati →",
+    "deliveryFee": "Savatda alohida mahsulotlar boʻlsa, yetkazib berish har safar {fee} turadi.",
+    "deliveryFeeMissing": "Yetkazib berish narxi soʻrov yuborishdan oldin savatingizda koʻrsatiladi.",
+    "groups": {
+      "shopping": {
+        "title": "Xarid va savatingiz",
+        "questions": [
+          [
+            "Buyurtmani qanday beraman?",
+            "Mahsulot yoki qutini tanlang va savatga qoʻshing, soʻngra rasmiylashtirish bosqichida tanlovingizni tekshirib chiqing. Aloqa maʼlumotlaringizni kiriting va mavjudlik haqida soʻrov yuboring. Ferma soʻrovni koʻrib chiqib, keyingi qadamlarni siz bilan birga belgilaydi."
+          ],
+          [
+            "Hisob ochishim kerakmi?",
+            "Hisob shart emas. Mahsulotlarni koʻring, sevimlilarga qoʻshing va soʻrovingizni yuboring."
+          ],
+          [
+            "Soʻrov yuborishdan oldin savatimni oʻzgartira olamanmi?",
+            "Ha. Miqdorni oʻzgartirish yoki mahsulotni oʻchirish uchun savatni oching. Davom etishdan oldin qadoq hajmini, tanlangan quti chastotasini va umumiy summani tekshiring. Savatdagi oʻzgarishlar allaqachon yuborilgan soʻrovni yangilamaydi."
+          ],
+          [
+            "Sahifadan chiqsam, savatim saqlanadimi?",
+            "Lokal xotira mavjud boʻlsa, savatingiz shu brauzerda saqlanadi. Sayt maʼlumotlarini tozalash yoki boshqa brauzerdan foydalanish koʻrinadigan maʼlumotni oʻzgartirishi yoki oʻchirib yuborishi mumkin. Hozircha savatingiz qurilmalar oʻrtasida sinxronlanmaydi."
+          ],
+          [
+            "Mahsulotni savatga qoʻshish uni band qilib qoʻyadimi?",
+            "Yoʻq. Mahsulotni savatga qoʻshish faqat tanlovingizni saqlaydi. Soʻrov yuborish fermaga uni koʻrib chiqish imkonini beradi; bu ombordagi mahsulotni band qilmaydi va yetkazib berishni tasdiqlamaydi."
+          ]
+        ]
+      },
+      "boxes": {
+        "title": "Sabzavot qutilari",
+        "questions": [
+          [
+            "Qaysi quti oʻlchamini tanlashim kerak?",
+            "Single bitta kishi uchun, Dual ikki kishi uchun, Family esa toʻrt yoki undan koʻp kishi uchun moʻljallangan. Bularni boshlangʻich yoʻriqnoma sifatida oling, soʻngra qancha ovqat pishirishingizga qarab mos oʻlchamni tanlash uchun tarkibini koʻrib chiqing."
+          ],
+          [
+            "Qanday yetkazib berish chastotalarini tanlashim mumkin?",
+            "Qutilar sahifasida Bir marta, Haftalik yoki Oylik variantlarini tanlang. Bir marta — bu yakka tartibdagi quti soʻrovi. Haftalik va Oylik esa takrorlanish istagingizni bildiradi; ularni tanlash avtomatik toʻlovni ishga tushirmaydi."
+          ],
+          [
+            "Quti narxi har bir yetkazib berish uchunmi?",
+            "Ha. Koʻrsatilgan summa tanlagan oʻlchamingizdagi bitta quti uchun, har bir yetkazib berishda toʻlanadi. Bu oylik umumiy summa yoki yetkazib berishlar orasidagi har kun uchun toʻlov emas."
+          ],
+          [
+            "Quti narxiga yetkazib berish kiradimi?",
+            "Ha. Faqat qutilardan iborat savat uchun qoʻshimcha yetkazib berish toʻlovi olinmaydi. Agar alohida mahsulotlar ham qoʻshsangiz, savatga standart mahsulot yetkazib berish toʻlovi qoʻllaniladi."
+          ],
+          [
+            "Qutini yoki uning chastotasini oʻzgartira olamanmi?",
+            "Soʻrov yuborishdan oldin qutini savatdan olib tashlang va istagan oʻlcham yoki chastotani qoʻshing. Yuborgandan keyin oʻzgartirish uchun ferma bilan bogʻlaning. Kelishilgan yetkazib berishdagi oʻzgarishlar ferma bilan kelishib olinishi kerak."
+          ]
+        ]
+      },
+      "delivery": {
+        "title": "Yetkazib berish va toʻlov",
+        "questions": [
+          [
+            "Qayerlarga yetkazib berasiz?",
+            "Biz butun Hindiston boʻylab yetkazib berish soʻrovlarini qabul qilamiz. Ferma soʻrovni koʻrib chiqib, siz bilan yetkazib berishni kelishishi uchun shahringiz va hududingizni yozing."
+          ],
+          [
+            "Yetkazib berish qancha turadi?",
+            "{deliveryFee} Faqat qutilardan iborat savat uchun qoʻshimcha yetkazib berish toʻlovi olinmaydi. Soʻrov yuborishdan oldin savat summasini tekshiring."
+          ],
+          [
+            "Mahsulotim yoki birinchi qutim qachon yetib keladi?",
+            "Ferma yetkazib berishni kelishish uchun siz bilan bogʻlanadi."
+          ],
+          [
+            "Onlayn toʻlov qila olamanmi?",
+            "Onlayn toʻlov qabul qilinmaydi. Ferma soʻrovingizni va toʻlov tafsilotlarini tasdiqlaydi."
+          ],
+          [
+            "Soʻrovni qanday oʻzgartiraman yoki bekor qilaman?",
+            "Aloqa formasidan foydalaning va soʻrovingizda ishlatilgan elektron pochta manzilini, nimani tanlaganingizni va qanday oʻzgartirish kerakligini koʻrsating. Agar yetkazib berish allaqachon kelishilgan boʻlsa, mumkin boʻlgan imkoniyatlarni muhokama qilish uchun ferma bilan bogʻlaning."
+          ],
+          [
+            "Yetkazib berishda muammo boʻlsa-chi?",
+            "Soʻrovingiz tafsilotlari va muammoning aniq taʼrifi bilan fermaga murojaat qiling. Taʼsirlangan mahsulotlarni va yetkazib berish qachon yetib kelganini koʻrsating. Ferma muammoni siz bilan birga koʻrib chiqishi kerak boʻladi; sayt hozircha avtomatik pul qaytarish yoki almashtirish jarayonini taklif etmaydi."
+          ]
+        ]
+      },
+      "produce": {
+        "title": "Mahsulotlar, saqlash va retseptlar",
+        "questions": [
+          [
+            "Qadoq hajmini qayerdan koʻrishim mumkin?",
+            "Har bir mahsulot kartasida narxi va qadoq hajmi koʻrsatiladi. Batafsil maʼlumot uchun mahsulot sahifasini oching, soʻngra savatdagi tanlangan miqdorlarni tekshiring. Qadoq hajmi ekinlarga qarab farq qiladi, shuning uchun koʻrsatilgan ogʻirlik yoki miqdorni narx bilan birga solishtiring."
+          ],
+          [
+            "Mahsulotimni qanday saqlashim kerak?",
+            "Mahsulot sahifasini oching va uning Qanday saqlash kerak boʻlimini oʻqing. Saqlash talablari ekinga qarab farq qiladi. Mahsulotga oid maslahatlarga va yetkazib berish bilan birga kelgan koʻrsatmalarga amal qiling."
+          ],
+          [
+            "Mahsulotni ishlatishdan oldin yuvishim kerakmi?",
+            "Mahsulot sahifasidagi tayyorlash koʻrsatmalariga va yetkazib berish bilan birga kelgan tavsiyalarga amal qiling. Mahsulot sahifalarida ekinni qachon yuvish, tozalash yoki pishirish kerakligini aniqlashga yordam beradigan maslahatlar bor."
+          ],
+          [
+            "Mahsulot uchun retseptlarni qayerdan topsam boʻladi?",
+            "Uning mahsulot sahifasidan Undan qanday foydalanish mumkin boʻlimini toping. Tarkibi, pishirish bosqichlari va tayyorlash vaqtini koʻrish uchun retseptni tanlang. Yana koʻproq gʻoya uchun retseptlar sahifasini ham koʻrib chiqishingiz mumkin."
+          ],
+          [
+            "Xaridimga retsept tarkibidagi barcha ingredientlar kiradimi?",
+            "Mahsulot xaridiga koʻrsatilgan qadoq kiradi, retseptda koʻrsatilgan barcha ingredientlar emas. Retseptlar — taom gʻoyalari, xolos. Yana nima kerakligini hal qilishdan oldin retsept ingredientlari roʻyxati va quti tarkibini tekshiring."
+          ]
+        ]
+      },
+      "help": {
+        "title": "Saqlangan mahsulotlar, biznes va yordam",
+        "questions": [
+          [
+            "Sevimlilar roʻyxati qanday ishlaydi?",
+            "Mahsulotni saqlash uchun uning rasmidagi yurakchani bosing. Saqlangan mahsulotlaringizni koʻrish uchun sahifa yuqorisidagi yurakchani oching. Mahsulotni olib tashlash uchun yurakchani yana bosing. Roʻyxat hisobsiz, joriy brauzeringizda saqlanadi."
+          ],
+          [
+            "Nega boshqa qurilmada sevimlilar roʻyxatim boshqacha?",
+            "Saqlangan mahsulotlar shu brauzerda qoladi. Ular boshqa qurilmalarda koʻrinmaydi."
+          ],
+          [
+            "Kafe, restoran yoki boshqa bizneslarga mahsulot yetkazasizmi?",
+            "Aloqa sahifasi orqali biznes soʻrovi yuborishingiz mumkin. Ferma talablaringizni tushunishi uchun biznesingiz nomini, ekinlar roʻyxatini, miqdorlarni, shahringizni va istalgan jadvalni koʻrsating."
+          ],
+          [
+            "Men yuborgan maʼlumotlarga nima boʻladi?",
+            "Soʻrovingiz tafsilotlari ferma uni koʻrib chiqib javob berishi uchun maxfiy tarzda saqlanadi. Savat va sevimlilar tanlovlari brauzeringizda saqlanadi. Toʻliq tushuntirish hamda maʼlumotlarga kirish, tuzatish yoki oʻchirish soʻrovlari haqida maxfiylik siyosatini oʻqing."
+          ],
+          [
+            "Boshqa narsani qanday soʻrasam boʻladi?",
+            "Aloqa formasidan foydalaning va ferma savolingizni tushunishi uchun yetarli tafsilot bering. Mavjud soʻrov boʻyicha murojaat qilsangiz, ishlatgan elektron pochta manzilingizni koʻrsating. Parollar, toʻlov kartasi maʼlumotlari yoki boshqa maxfiy axborotni kiritmang."
+          ]
+        ]
+      }
+    },
+    "export": {
+      "where": [
+        "Qayerlarga yetkazib berasiz?",
+        "Biz {country}dan soʻrovlarni qabul qilamiz. Shahringiz va yetkazib berish hududini yozing. Ferma tanlovingiz uchun eksport imkoniyatini tekshirib, keyingi qadamlarni siz bilan kelishadi."
+      ],
+      "cost": [
+        "Yetkazib berish qancha turadi?",
+        "{country}ga yetkazib berish narxi ferma soʻrovingizni koʻrib chiqqandan keyin aytiladi, chunki eksport xarajati manzil va buyurtma hajmiga bogʻliq. Savatingizda yetkazib berishdan oldingi mahsulot summasi koʻrsatiladi."
+      ],
+      "boxDelivery": [
+        "Quti narxiga yetkazib berish kiradimi?",
+        "Quti narxiga faqat quti kiradi. Ferma soʻrovingizni koʻrib chiqqach, {country}ga yetkazib berish narxini aytadi."
+      ]
+    }
+  },
+  "privacy": {
+    "eyebrow": "MAʼLUMOTLARINGIZ, EHTIYOTKORLIK BILAN",
+    "title": "Maxfiylik siyosati",
+    "intro": "Nimani ulashasiz. U qayerda saqlanadi. Sizda qanday tanlovlar bor.",
+    "updated": "Yangilangan: {date}",
+    "contents": "Maxfiylik siyosati mundarijasi",
+    "inThisNotice": "Ushbu siyosatda",
+    "question": "Maxfiylik boʻyicha savolingiz bormi?",
+    "contactLink": "Biz bilan bogʻlaning →",
+    "sections": [
+      {
+        "id": "about",
+        "title": "Ushbu siyosat haqida",
+        "paragraphs": [
+          "Ushbu siyosat Floruvi saytida koʻrib chiqqaningizda, mahsulotlarni saqlaganingizda, savat toʻldirganingizda yoki soʻrov yuborganingizda maʼlumot qanday ishlatilishini tushuntiradi. U joriy saytni, jumladan doʻkon, qutilar, retseptlar va aloqa formasini qamrab oladi. U bugungi kunda mavjud funksiyalarni taʼriflaydi.",
+          "Saytdan foydalanish uchun mijoz hisobi shart emas. Mavjudlik soʻrovini yuborish fermaga ehtiyojlaringizni koʻrib chiqib javob berish uchun maʼlumot beradi. Bu hisob yaratmaydi, toʻlov olmaydi, mahsulotni band qilmaydi yoki takroriy toʻlovni faollashtirmaydi. Ushbu siyosatda rasmiylashtirish deganda aynan shu soʻrov jarayoni nazarda tutiladi."
+        ]
+      },
+      {
+        "id": "information",
+        "title": "Siz biz bilan ulashadigan maʼlumot",
+        "paragraphs": [
+          "Aloqa formasida ismingiz, elektron pochta manzilingiz, shahringiz, xabaringiz va bu maʼlumotlardan javob berish uchun foydalanishga roziligingiz soʻraladi. Formaga qarab, telefon raqamingizni, qiziqqan mahsulotlaringizni, miqdorlarni va soʻrovingiz haqida boshqa maʼlumotlarni ham koʻrsatishingiz mumkin. Agar soʻrov biznes uchun boʻlsa, biznesingiz nomini ham kiritishingiz mumkin.",
+          "Iltimos, faqat soʻrov uchun zarur maʼlumotni yuboring. Masalan, ekinlar roʻyxati, yetkazib berish hududi va kutilayotgan miqdor fermaga biznes soʻrovini tushunishga yordam beradi. Xabarga parollar, toʻlov kartasi raqamlari, shaxsni tasdiqlovchi hujjatlar, tibbiy maʼlumotlar yoki boshqa shaxs haqidagi maxfiy maʼlumotlarni kiritmang."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "Soʻrov maʼlumotlari qanday ishlatiladi",
+        "paragraphs": [
+          "Ferma yuborgan maʼlumotingizdan soʻrovingizni tushunish, tanlangan mahsulotlarni koʻrib chiqish, yetkazib berish ehtiyojlarini baholash va koʻrsatgan aloqa maʼlumotlaringiz orqali javob berish uchun foydalanadi. Soʻrov yozuvida yuborilgan vaqt, rozilik bildirilgan vaqt va soʻrovlarni tartiblash uchun ishlatiladigan holat mavjud boʻladi.",
+          "Soʻrovni yuborishdan oldin rozilik katagini belgilash shart. Bu rozilik soʻrovingizni koʻrib chiqishga tegishli. Joriy sayt aloqa soʻrovini yangiliklar obunasiga aylantirmaydi yoki sizni reklama kampaniyasiga qoʻshmaydi. Yuborishdan oldin formadagi maʼlumotlarni tekshiring."
+        ]
+      },
+      {
+        "id": "basket",
+        "title": "Savatingiz va quti tanlovlaringiz",
+        "paragraphs": [
+          "Savat mahsulot identifikatorlari va miqdorlarini brauzeringizda saqlaydi. Quti uchun uning identifikatorida tanlangan quti oʻlchami va yetkazib berish chastotasi ham yoziladi. Bu sayt shu brauzerga qaytganingizda tanlovlaringizni koʻrsatishiga yordam beradi. Aloqa maʼlumotlari bu saqlangan savatning bir qismi emas.",
+          "Mahsulotni savatga qoʻshish soʻrov yubormaydi. Soʻrov yuborishdan oldin miqdorlarni oʻzgartirishingiz yoki mahsulotlarni olib tashlashingiz mumkin. Ushbu sayt uchun brauzer xotirasini tozalash saqlangan savatni oʻsha brauzerdan oʻchiradi. Bu fermaga allaqachon yuborgan soʻrovingizni bekor qilmaydi yoki oʻchirmaydi."
+        ]
+      },
+      {
+        "id": "wishlist",
+        "title": "Sevimlilar roʻyxati va retsept tanlovlaringiz",
+        "paragraphs": [
+          "Sevimlilar roʻyxati saqlangan mahsulotlarning nomlari va identifikatorlarini brauzerning lokal xotirasida saqlaydi. U yurakcha tugmalari va saqlangan mahsulotlar sonini taʼminlaydi. Joriy sevimlilar roʻyxati mijoz hisobiga bogʻlanmagan va qurilmalar oʻrtasida sinxronlanmaydi. Xuddi shu brauzer profilidan foydalanadigan boshqa shaxs bu saqlangan mahsulotlarni koʻrishi mumkin.",
+          "Retseptlarni koʻrib chiqishda ham retsept kartalari tartibini bitta seans davomida bir xil saqlab turish uchun seans xotirasidan foydalaniladi. Bu aloqa maʼlumotlaringiz emas, balki koʻrinish tanlovini saqlaydi. Lokal tanlovlarni brauzeringizning sayt maʼlumotlari boshqaruvi orqali olib tashlashingiz mumkin. Maxfiy koʻrib chiqish rejimi yoki bloklangan xotira bu funksiyalar tanlovlaringizni qancha vaqt eslab turishini cheklashi mumkin."
+        ]
+      },
+      {
+        "id": "checkout",
+        "title": "Rasmiylashtirish va yetkazib berish tafsilotlari",
+        "paragraphs": [
+          "Rasmiylashtirish jarayonida kiritilgan aloqa va yetkazib berish maydonlari mavjudlik soʻrovini yuborguningizcha sahifa xotirasida qoladi. Yuborilgan soʻrovga aloqa maʼlumotlaringiz, tanlangan ekinlar yoki quti, yetkazib berish hududi va izohlar kiradi. Ixtiyoriy koʻcha manzili maydoni yuborilgan soʻrovga kiritilmaydi va soʻrov yozuvida saqlanmaydi.",
+          "Yuborilmagan forma maʼlumotlari Floruvi savatida saqlanmaydi. Sahifadan chiqish yoki uni qayta yuklash bu maʼlumotlarni oʻchirib yuborishi mumkin. Brauzeringiz oʻz sozlamalari asosida forma yozuvlarini avtomatik toʻldirish yoki eslab qolishni alohida taklif qilishi mumkin. Umumiy qurilmadan foydalansangiz yoki brauzeringiz shaxsiy maʼlumotlarni taklif qilishini istamasangiz, ushbu sozlamalarni tekshiring."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Soʻrovlar qayerda saqlanadi",
+        "paragraphs": [
+          "Yuborilgan soʻrovlar Floruvi-ning Convex loyihasida, EU West mintaqasida saqlanadi. Ular ommaviy mahsulot katalogidan alohida saqlanadi. Vakolatli loyiha operatorlari soʻrovlarni boshqarish uchun ularning yozuvlariga kira oladi. Ommaviy doʻkon va retseptlar sahifalari bu maxfiy soʻrov yozuvlarini ochiq qilmaydi.",
+          "Sayt xostingi sahifalar, rasmlar va forma javoblarini yetkazish uchun zarur soʻrovlarni qayta ishlaydi. Floruvi xosting uchun Vercel-dan, ilova maʼlumotlari uchun Convex-dan foydalanadi. Shu sababli saytga tashrif buyurish ushbu infratuzilma xizmatlari ishtirokida amalga oshadi. Boshqa davlatdan yuborilgan maʼlumot shu tuzilma doirasida oʻsha davlatdan tashqarida qayta ishlanishi mumkin."
+        ]
+      },
+      {
+        "id": "protection",
+        "title": "Formani himoya qilish va soʻrov cheklovlari",
+        "paragraphs": [
+          "Sayt soʻrov saqlanishidan oldin yuborilgan maydonlarni tekshiradi. Bu tekshiruvlarga majburiy maydonlar, uzunlik chegaralari, aloqa formatlari va avtomatik yuborishlarni aniqlash uchun ishlatiladigan forma maydoni kiradi. Tekshiruvdan oʻtmagan soʻrovlar rad etiladi. Bu nazorat choralari soʻrov xizmatini notoʻgʻri yoki ortiqcha soʻrovlardan himoya qilishga yordam beradi.",
+          "Vaqtinchalik yuborish cheklovlari elektron pochta manzilingizdan va, Vercel-da, IP-manzilingizdan olingan kalitli xesh qiymatlaridan foydalanadi. Xom IP-manzil soʻrov yozuvida saqlanmaydi. Cheklov oynasi bir soat davom etadi. Muddati oʻtgan cheklov yozuvlari keyingi muvaffaqiyatli yuborishlar davomida guruh-guruh oʻchiriladi, shuning uchun muddat oʻtishi har bir cheklov yozuvining darhol oʻchirilishini anglatmaydi."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Cookie-fayllar, analitika va qoʻshimcha xizmatlar",
+        "paragraphs": [
+          "Bu yerda taʼriflangan savat va sevimlilar funksiyalari lokal xotiradan foydalanadi. Retseptlarni koʻrsatish tanlovlari seans xotirasidan foydalanadi. Bular hisobga asoslangan profil emas, balki brauzer xotirasi mexanizmlaridir. Sayt xotirasi mavjudligini brauzeringiz boshqaradi va uni tozalash imkonini beradi. Xotirani oʻchirib qoʻyish ommaviy sahifalarni oʻqishingizga toʻsqinlik qilmasdan, saqlangan tanlovlaringizga taʼsir qilishi mumkin.",
+          "Joriy ilova marketing analitikasi, reklama piksellari, push-bildirishnomalar, toʻlov qabul qilish yoki faol mijoz hisoblarini oʻz ichiga olmaydi. Xosting xizmatlari saytni ishlatish uchun zarur texnik soʻrovlarni baribir qayta ishlaydi. Yangi xizmat toʻplanadigan maʼlumotni, uning maqsadini yoki qayerga yuborilishini oʻzgartirsa, ushbu siyosat qayta koʻrib chiqilishi kerak."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Maʼlumot qancha vaqt saqlanadi",
+        "paragraphs": [
+          "Soʻrov yozuvlari hozircha vakolatli operator ularni oʻchirmaguncha maxfiy loyihada saqlanadi. Joriy ilovada soʻrovlarni avtomatik oʻchirish jadvali yoʻq. Muntazam saqlash jadvali va toʻgʻridan-toʻgʻri maxfiylik aloqasi hali belgilanishi kerak. Ushbu siyosat xizmat hali taʼminlamayotgan avtomatik oʻchirish sanasini vaʼda qilmaydi.",
+          "Brauzer maʼlumotlari boshqacha hayot sikliga ega. Lokal savat va sevimlilar maʼlumotlari siz mahsulotlarni olib tashlaguningizcha, sayt maʼlumotlarini tozalaguningizcha yoki brauzer ularni oʻchirguncha qolishi mumkin. Seans tanlovlari odatda brauzer xatti-harakatiga qarab, koʻrib chiqish seansi davomida saqlanadi. Qurilmangizdan maʼlumotni oʻchirish ferma saqlayotgan alohida soʻrovni oʻchirmaydi."
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Kirish, tuzatish va oʻchirish soʻrovlari",
+        "paragraphs": [
+          "Soʻrov yozuvi haqida soʻramoqchi, biror tafsilotni tuzatmoqchi yoki uni oʻchirishni soʻramoqchi boʻlsangiz, aloqa formasidan foydalaning. Xabaringiz maxfiylikka oid ekanini bildiring va soʻrovni aniqlash uchun ishlatilgan elektron pochta manzili hamda taxminiy yuborilgan sana kabi yetarli maʼlumot bering. Qoʻshimcha maxfiy maʼlumot kiritishdan saqlaning.",
+          "Shaxsiy yozuvlarni berish yoki oʻzgartirishdan oldin ferma egalikni tasdiqlashi kerak. Mos jarayon oldindan kelishilmagan boʻlsa, umumiy soʻrov formasi orqali shaxsni tasdiqlovchi hujjatlarni yubormang. Maxfiylik soʻrovini operator koʻrib chiqadi; uni yuborish yozuvni avtomatik tahrirlamaydi yoki oʻchirmaydi. Bu sayt hozircha shu maqsad uchun mustaqil hisob boshqaruv panelini taqdim etmaydi."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "Umumiy qurilmadagi tanlovlaringiz",
+        "paragraphs": [
+          "Forma yubormasdan ham doʻkonni koʻrib chiqishingiz va retseptlarni oʻqishingiz mumkin. Sevimlilar roʻyxati orqali saqlangan mahsulotni olib tashlashingiz, savatingizni oʻzgartirishingiz yoki brauzer sozlamalari orqali ushbu sayt saqlagan maʼlumotni tozalashingiz mumkin. Hisoblarni sinxronlash faol emasligi sababli boshqa qurilma yoki brauzer profilida oʻzining saqlangan tanlovlari boʻladi.",
+          "Qurilmani boshqa birov bilan baham koʻrsangiz, ishni tugatgach, yuborilmagan aloqa maʼlumotlari bor har qanday sahifani yoping. Shu brauzerdan foydalanadigan keyingi shaxs saqlangan mahsulotlarni koʻrishini istamasangiz, ularni tozalashni koʻrib chiqing. Brauzerning avtomatik toʻldirish funksiyasi, koʻrib chiqish tarixi va qurilma zaxira nusxalari Floruvi ilovasidan tashqarida boshqariladi."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Boshqa saytlarga havolalar",
+        "paragraphs": [
+          "Baʼzi sahifalarda tashqi oziq-ovqat yoki yetishtirish haqidagi havolalar bor. Tashqi havolani bosish boshqa tashkilot boshqaradigan xizmatni ochadi. U yerga kirganingizda uning maxfiylik siyosati va brauzer xotirasi amaliyotlari qoʻllaniladi. Havola shu tashkilotga ushbu ilova orqali maxfiy Floruvi soʻrov yozuvingizga kirish imkonini bermaydi.",
+          "U yerda shaxsiy maʼlumot berishdan oldin borilgan saytning siyosatini oʻqing. Agar fermaga alohida aloqa xizmati orqali murojaat qilsangiz, bu xizmat ham xabaringizni oʻz shartlari asosida qayta ishlashi mumkin. Ushbu siyosat Floruvi saytini taʼriflaydi va boshqa xizmatlarning siyosatlarini almashtirmaydi."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Yangilanishlar va biz bilan aloqa",
+        "paragraphs": [
+          "Doʻkon rivojlanishi bilan ushbu siyosat oʻzgarishi kerak boʻladi. Mijoz hisoblari, toʻlovlarni qayta ishlash, yetkazib berish integratsiyalari yoki yangi aloqa vositalari boshqacha maʼlumot oqimlarini keltirib chiqarishi mumkin. Yuqoridagi sana ushbu sahifaning oxirgi tahririni bildiradi. Yangi joriy etilgan funksiyadan foydalanganingizda siyosatni qayta koʻrib chiqing.",
+          "Joriy sayt yoki mavjud soʻrov haqida savolingiz boʻlsa, aloqa sahifasidan foydalaning. Nimani bilishni xohlashingizni oddiy tilda taʼriflang va faqat soʻrovingizni topish uchun zarur tafsilotlarni kiriting. Xuddi shu forma orqali ferma koʻrib chiqishi uchun maxfiylikka oid ehtimoliy muammoni ham bildirishingiz mumkin."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Yangi mahsulotlar. Aniq maʼlumot.",
+        "alt": "Yangi sabzavotlarga toʻla savat"
+      },
+      {
+        "title": "Ozgina aniqlik katta farq qiladi.",
+        "alt": "Dasturxonga tayyorlangan rang-barang sabzavotlar"
+      },
+      {
+        "title": "Shoshilmang. Tanlovlaringizni biling.",
+        "alt": "Ertalabki yorugʻlikda avokado tost va yashil smuzi"
+      }
+    ],
+    "localeNote": "Birinchi tashrifingizda sayt xosting xizmatimiz ulanishingizdan aniqlagan davlatdan foydalanib, mos davlat va til versiyasini ochadi. Soʻngra tanlovingiz floruvi-locale nomli cookie-faylda bir yil saqlanadi, shunda narxlar va sahifalar shu versiyada qoladi. Davlat versiyasidan yuborilgan soʻrovlarga ferma yetkazib berishni koʻrib chiqishi uchun shu davlat nomi qoʻshiladi. Versiyani istalgan vaqtda davlat va til boshqaruvi orqali oʻzgartirishingiz yoki cookie-fayllarni tozalab, uni olib tashlashingiz mumkin."
+  },
+  "notFound": {
+    "eyebrow": "BOGʻ YOʻLIDAN CHETDA",
+    "title": "Bu yerda hech narsa oʻsmayapti.",
+    "text": "Bu sahifa yoki ekin topilmadi.",
+    "cta": "Hosilimizni koʻrib chiqish ↗"
+  },
+  "categories": {
+    "leafy-greens": {
+      "name": "Bargli sabzavotlar",
+      "description": "Yumshoq barglar, qarsillagan boshchalar va tovogʻingiz markazi uchun har kungi koʻkatlar."
+    },
+    "herbs": {
+      "name": "Yangi koʻkatlar",
+      "description": "Xushboʻy yakuniy tafsilot. Bitta bargcha butun taomni oʻzgartirishi mumkin."
+    },
+    "microgreens": {
+      "name": "Mikrokoʻkatlar va nihollar",
+      "description": "Achchiq turpdan shirin noʻxat nihollarigacha — oʻziga xos taʼmga ega mayda barglar."
+    },
+    "fruiting-crops": {
+      "name": "Mevali sabzavotlar",
+      "description": "Salatlar, ovqat pishirish va yengil tamaddi uchun rang, qarsillash va shirinlik."
+    },
+    "roots-and-stems": {
+      "name": "Ildiz va poyali sabzavotlar",
+      "description": "Ildizlar, piyozchalar va qarsillagan poyalar uchun maxsus tanlangan roʻyxat."
+    },
+    "edible-flowers": {
+      "name": "Yeyiladigan gullar",
+      "description": "Nozik taomlar uchun nafis rang. Faqat oziq-ovqatga yaroqli navlar."
+    }
+  },
+  "recipeCategories": {
+    "Bowls": "Kosalar",
+    "Breakfast": "Nonushta",
+    "Pasta": "Pasta",
+    "Salads": "Salatlar",
+    "Sides": "Garnirlar",
+    "Smoothies": "Smuzilar",
+    "Soups": "Shoʻrvalar",
+    "Tray bakes": "Pechda pishirilganlar",
+    "Wraps": "Lavashlar"
+  },
+  "packLabels": {
+    "1 bunch · 125–150 g": "1 bogʻlam · 125–150 g",
+    "1 bunch · 150–200 g": "1 bogʻlam · 150–200 g",
+    "1 bunch · 225–250 g": "1 bogʻlam · 225–250 g",
+    "1 bunch · 450–500 g": "1 bogʻlam · 450–500 g",
+    "1 head · 120–250 g": "1 bosh · 120–250 g",
+    "1 kg": "1 kg",
+    "1 live tray": "1 ta jonli lotok",
+    "1 melon": "1 ta qovun",
+    "100 g": "100 g",
+    "150–200 g": "150–200 g",
+    "15–20 flowers": "15–20 ta gul",
+    "200 g": "200 g",
+    "200–300 g": "200–300 g",
+    "25 g": "25 g",
+    "250 g": "250 g",
+    "3 peppers · mixed colours": "3 ta shirin qalampir · aralash ranglarda",
+    "40 g": "40 g",
+    "50 g": "50 g",
+    "500 g": "500 g",
+    "75 g": "75 g"
+  }
+}

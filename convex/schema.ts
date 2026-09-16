@@ -98,4 +98,45 @@ export default defineSchema({
   })
     .index("by_key", ["key"])
     .index("by_window", ["windowStart"]),
+  // Export-market price rates: local retail study × 1.40. See docs/20-international-pricing.md.
+  marketPricing: defineTable({
+    market: v.string(),
+    currency: v.string(),
+    stepMinor: v.number(),
+    categoryRates: v.record(v.string(), v.number()),
+    productRates: v.record(v.string(), v.number()),
+    revision: v.string(),
+    researchedOn: v.string(),
+    observationsUsed: v.number(),
+  }).index("by_market", ["market"]),
+  // Translations apply only while `source` matches the English record's fingerprint.
+  productTranslations: defineTable({
+    language: v.string(),
+    slug: v.string(),
+    source: v.string(),
+    name: v.string(),
+    description: v.string(),
+    uses: v.array(v.string()),
+    details: v.union(
+      v.null(),
+      v.object({
+        tagline: v.string(),
+        benefits: v.array(v.object({ title: v.string(), text: v.string() })),
+        preparation: v.string(),
+        storage: v.string(),
+        nutritionTitle: v.string(),
+        nutrition: v.array(v.object({ title: v.string(), text: v.string() })),
+      }),
+    ),
+  }).index("by_language_slug", ["language", "slug"]),
+  recipeTranslations: defineTable({
+    language: v.string(),
+    slug: v.string(),
+    source: v.string(),
+    name: v.string(),
+    description: v.string(),
+    ingredients: v.array(v.string()),
+    steps: v.array(v.string()),
+    tip: v.string(),
+  }).index("by_language_slug", ["language", "slug"]),
 });

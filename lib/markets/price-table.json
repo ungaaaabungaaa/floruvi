@@ -1,0 +1,493 @@
+{
+  "revision": "2026-09-16-local-retail-plus-40-v1",
+  "markup": 1.4,
+  "markets": {
+    "ae": {
+      "currency": "AED",
+      "stepMinor": 25,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 22,
+      "categoryRates": {
+        "leafy-greens": 0.082880702,
+        "herbs": 0.068380952,
+        "microgreens": 0.082880702,
+        "fruiting-crops": 0.082880702,
+        "roots-and-stems": 0.082880702,
+        "edible-flowers": 0.082880702
+      },
+      "productRates": {
+        "butterhead-lettuce": 0.10666667,
+        "spinach": 0.1657614,
+        "arugula": 0.052455988,
+        "curly-kale": 0.044444444,
+        "sweet-basil": 0.06,
+        "mint": 0.1367619,
+        "coriander": 0.065333333,
+        "flat-leaf-parsley": 0.071428571,
+        "radish-microgreens": 0.125,
+        "pea-shoots": 0.1,
+        "cherry-tomatoes": 0.10909091,
+        "cucumber": 0.15833333,
+        "bell-peppers": 0.04752,
+        "zucchini": 0.053651316,
+        "strawberries": 0.07995,
+        "carrot": 0.0525,
+        "beetroot": 0.10277778,
+        "potato": 0.0875
+      }
+    },
+    "sa": {
+      "currency": "SAR",
+      "stepMinor": 25,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 14,
+      "categoryRates": {
+        "leafy-greens": 0.051200758,
+        "herbs": 0.12391989,
+        "microgreens": 0.051200758,
+        "fruiting-crops": 0.051200758,
+        "roots-and-stems": 0.051200758,
+        "edible-flowers": 0.051200758
+      },
+      "productRates": {
+        "spinach": 0.10240152,
+        "cherry-tomatoes": 0.074007576,
+        "cucumber": 0.049916667,
+        "bell-peppers": 0.025600379,
+        "zucchini": 0.030671053,
+        "carrot": 0.03975,
+        "beetroot": 0.033333333,
+        "potato": 0.074875,
+        "mint": 0.061959947,
+        "coriander": 0.178675,
+        "sweet-basil": 0.20246479,
+        "curly-kale": 0.052484848
+      }
+    },
+    "qa": {
+      "currency": "QAR",
+      "stepMinor": 25,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 25,
+      "categoryRates": {
+        "leafy-greens": 0.048958333,
+        "herbs": 0.14,
+        "microgreens": 0.048958333,
+        "fruiting-crops": 0.048958333,
+        "roots-and-stems": 0.048958333,
+        "edible-flowers": 0.048958333
+      },
+      "productRates": {
+        "spinach": 0.097916667,
+        "arugula": 0.081565657,
+        "curly-kale": 0.097916667,
+        "sweet-basil": 0.22,
+        "mint": 0.10742188,
+        "coriander": 0.086333333,
+        "flat-leaf-parsley": 0.13823529,
+        "cherry-tomatoes": 0.097916667,
+        "cucumber": 0.05625,
+        "bell-peppers": 0.024479167,
+        "zucchini": 0.026894737,
+        "strawberries": 0.094875,
+        "carrot": 0.03375,
+        "beetroot": 0.038888889,
+        "potato": 0.040625
+      }
+    },
+    "kw": {
+      "currency": "KWD",
+      "stepMinor": 50,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 15,
+      "categoryRates": {
+        "leafy-greens": 0.05675,
+        "herbs": 0.0945,
+        "microgreens": 0.05675,
+        "fruiting-crops": 0.05675,
+        "roots-and-stems": 0.05675,
+        "edible-flowers": 0.05675
+      },
+      "productRates": {
+        "arugula": 0.079646465,
+        "sweet-basil": 0.13491667,
+        "mint": 0.1203125,
+        "coriander": 0.0945,
+        "flat-leaf-parsley": 0.04725,
+        "cherry-tomatoes": 0.072697757,
+        "cucumber": 0.02875,
+        "bell-peppers": 0.03132,
+        "zucchini": 0.045899123,
+        "strawberries": 0.0854,
+        "carrot": 0.05475,
+        "potato": 0.05875
+      }
+    },
+    "om": {
+      "currency": "OMR",
+      "stepMinor": 50,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 13,
+      "categoryRates": {
+        "leafy-greens": 0.060416667,
+        "herbs": 0.060416667,
+        "microgreens": 0.060416667,
+        "fruiting-crops": 0.060416667,
+        "roots-and-stems": 0.060416667,
+        "edible-flowers": 0.060416667
+      },
+      "productRates": {
+        "cucumber": 0.060416667,
+        "bell-peppers": 0.030208333,
+        "carrot": 0.0445,
+        "beetroot": 0.060555556,
+        "potato": 0.0775,
+        "zucchini": 0.048815789,
+        "cherry-tomatoes": 0.12083333,
+        "strawberries": 0.030208333,
+        "spinach": 0.12083333,
+        "flat-leaf-parsley": 0.030208333,
+        "sweet-basil": 0.12083333
+      }
+    },
+    "bh": {
+      "currency": "BHD",
+      "stepMinor": 50,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 15,
+      "categoryRates": {
+        "leafy-greens": 0.054045,
+        "herbs": 0.061875,
+        "microgreens": 0.054045,
+        "fruiting-crops": 0.054045,
+        "roots-and-stems": 0.054045,
+        "edible-flowers": 0.054045
+      },
+      "productRates": {
+        "spinach": 0.0270225,
+        "curly-kale": 0.064444444,
+        "sweet-basil": 0.12375,
+        "mint": 0.061875,
+        "coriander": 0.057555556,
+        "flat-leaf-parsley": 0.0309375,
+        "cucumber": 0.0625,
+        "bell-peppers": 0.036072,
+        "zucchini": 0.042368421,
+        "strawberries": 0.10809,
+        "carrot": 0.0415,
+        "potato": 0.063125
+      }
+    },
+    "iq": {
+      "currency": "IQD",
+      "stepMinor": 250000,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 16,
+      "categoryRates": {
+        "leafy-greens": 96.208333,
+        "herbs": 96.208333,
+        "microgreens": 96.208333,
+        "fruiting-crops": 96.208333,
+        "roots-and-stems": 96.208333,
+        "edible-flowers": 96.208333
+      },
+      "productRates": {
+        "butterhead-lettuce": 98.666667,
+        "flat-leaf-parsley": 78.431373,
+        "coriander": 192.41667,
+        "cucumber": 104.16667,
+        "bell-peppers": 64.8,
+        "zucchini": 48.104167,
+        "strawberries": 140,
+        "carrot": 71.875,
+        "beetroot": 111.11111,
+        "potato": 192.41667
+      }
+    },
+    "de": {
+      "currency": "EUR",
+      "stepMinor": 5,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 15,
+      "categoryRates": {
+        "leafy-greens": 0.021272727,
+        "herbs": 0.021272727,
+        "microgreens": 0.021272727,
+        "fruiting-crops": 0.021272727,
+        "roots-and-stems": 0.021272727,
+        "edible-flowers": 0.021272727
+      },
+      "productRates": {
+        "butterhead-lettuce": 0.029866667,
+        "spinach": 0.042545455,
+        "arugula": 0.012535354,
+        "flat-leaf-parsley": 0.037941176,
+        "radish-microgreens-live-tray": 0.010636364,
+        "pea-microgreens-live-tray": 0.010636364,
+        "sunflower-microgreens-live-tray": 0.010636364,
+        "broccoli-microgreens-live-tray": 0.010636364,
+        "fenugreek-microgreens-live-tray": 0.010636364,
+        "red-amaranth-microgreens-live-tray": 0.010636364,
+        "cherry-tomatoes": 0.031727273,
+        "cucumber": 0.042545455,
+        "bell-peppers": 0.010636364,
+        "zucchini": 0.012414188,
+        "strawberries": 0.01596,
+        "carrot": 0.019,
+        "potato": 0.03625
+      }
+    },
+    "nl": {
+      "currency": "EUR",
+      "stepMinor": 5,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 22,
+      "categoryRates": {
+        "leafy-greens": 0.016125,
+        "herbs": 0.0545,
+        "microgreens": 0.016125,
+        "fruiting-crops": 0.016125,
+        "roots-and-stems": 0.016125,
+        "edible-flowers": 0.016125
+      },
+      "productRates": {
+        "butterhead-lettuce": 0.03225,
+        "spinach": 0.03225,
+        "arugula": 0.025289661,
+        "curly-kale": 0.0080625,
+        "sweet-basil": 0.0545,
+        "mint": 0.090992647,
+        "flat-leaf-parsley": 0.037941176,
+        "garden-cress-microgreens": 0.019413408,
+        "cherry-tomatoes": 0.019909091,
+        "cucumber": 0.03225,
+        "bell-peppers": 0.01491,
+        "zucchini": 0.011912281,
+        "strawberries": 0.00996,
+        "carrot": 0.0081,
+        "potato": 0.016125
+      }
+    },
+    "jp": {
+      "currency": "JPY",
+      "stepMinor": 10,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 12,
+      "categoryRates": {
+        "leafy-greens": 0.067762626,
+        "herbs": 0.20673333,
+        "microgreens": 0.067762626,
+        "fruiting-crops": 0.067762626,
+        "roots-and-stems": 0.067762626,
+        "edible-flowers": 0.067762626
+      },
+      "productRates": {
+        "spinach": 0.083,
+        "butterhead-lettuce": 0.033881313,
+        "arugula": 0.052525253,
+        "sweet-basil": 0.1848,
+        "mint": 0.41346667,
+        "coriander": 0.22866667,
+        "flat-leaf-parsley": 0.10336667,
+        "garden-cress-microgreens": 0.096461825,
+        "cherry-tomatoes": 0.033881313,
+        "bell-peppers": 0.09396,
+        "strawberries": 0.093333333,
+        "beetroot": 0.046666667
+      }
+    },
+    "gb": {
+      "currency": "GBP",
+      "stepMinor": 5,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 20,
+      "categoryRates": {
+        "leafy-greens": 0.0086425439,
+        "herbs": 0.026348039,
+        "microgreens": 0.0086425439,
+        "fruiting-crops": 0.0086425439,
+        "roots-and-stems": 0.0086425439,
+        "edible-flowers": 0.0086425439
+      },
+      "productRates": {
+        "butterhead-lettuce": 0.011333333,
+        "spinach": 0.017285088,
+        "arugula": 0.016835017,
+        "curly-kale": 0.0045117845,
+        "sweet-basil": 0.023333333,
+        "mint": 0.052696078,
+        "coriander": 0.029166667,
+        "flat-leaf-parsley": 0.023529412,
+        "radish-microgreens": 0.017285088,
+        "pea-shoots": 0.0056770833,
+        "radish-microgreens-live-tray": 0.0043212719,
+        "pea-microgreens-live-tray": 0.0043212719,
+        "sunflower-microgreens-live-tray": 0.0043212719,
+        "broccoli-microgreens-live-tray": 0.0043212719,
+        "fenugreek-microgreens-live-tray": 0.0043212719,
+        "red-amaranth-microgreens-live-tray": 0.0043212719,
+        "cherry-tomatoes": 0.0075757576,
+        "cucumber": 0.017285088,
+        "bell-peppers": 0.00676,
+        "zucchini": 0.0085350877,
+        "strawberries": 0.00875,
+        "carrot": 0.0063083333,
+        "potato": 0.01125
+      }
+    },
+    "np": {
+      "currency": "NPR",
+      "stepMinor": 500,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 19,
+      "categoryRates": {
+        "leafy-greens": 0.87569444,
+        "herbs": 2.3529412,
+        "microgreens": 0.87569444,
+        "fruiting-crops": 0.87569444,
+        "roots-and-stems": 0.87569444,
+        "edible-flowers": 0.87569444
+      },
+      "productRates": {
+        "butterhead-lettuce": 1.4,
+        "spinach": 1.3266667,
+        "curly-kale": 0.74747475,
+        "sweet-basil": 2.75,
+        "mint": 3.64375,
+        "coriander": 1.9288889,
+        "flat-leaf-parsley": 2.5835294,
+        "garden-cress-microgreens": 0.97765363,
+        "cucumber": 1.3416667,
+        "bell-peppers": 0.54,
+        "zucchini": 0.56798246,
+        "carrot": 0.695,
+        "beetroot": 0.775,
+        "potato": 0.8625
+      }
+    },
+    "bd": {
+      "currency": "BDT",
+      "stepMinor": 500,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 10,
+      "categoryRates": {
+        "leafy-greens": 0.66195556,
+        "herbs": 0.66195556,
+        "microgreens": 0.66195556,
+        "fruiting-crops": 0.66195556,
+        "roots-and-stems": 0.66195556,
+        "edible-flowers": 0.66195556
+      },
+      "productRates": {
+        "butterhead-lettuce": 1.3239111,
+        "spinach": 0.46666667,
+        "coriander": 0.58333333,
+        "mint": 0.996875,
+        "radish-microgreens": 1.3239111,
+        "cucumber": 0.75,
+        "bell-peppers": 0.7128,
+        "carrot": 0.6,
+        "potato": 0.3625,
+        "beetroot": 0.61111111
+      }
+    },
+    "my": {
+      "currency": "MYR",
+      "stepMinor": 10,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 16,
+      "categoryRates": {
+        "leafy-greens": 0.074416162,
+        "herbs": 0.122,
+        "microgreens": 0.074416162,
+        "fruiting-crops": 0.074416162,
+        "roots-and-stems": 0.074416162,
+        "edible-flowers": 0.074416162
+      },
+      "productRates": {
+        "butterhead-lettuce": 0.098666667,
+        "spinach": 0.14883232,
+        "arugula": 0.1010101,
+        "curly-kale": 0.068181818,
+        "sweet-basil": 0.118,
+        "mint": 0.103125,
+        "coriander": 0.126,
+        "flat-leaf-parsley": 0.244,
+        "cherry-tomatoes": 0.037208081,
+        "cucumber": 0.073232323,
+        "bell-peppers": 0.042768,
+        "zucchini": 0.037208081,
+        "strawberries": 0.0756,
+        "carrot": 0.037208081,
+        "beetroot": 0.098888889,
+        "potato": 0.1234375
+      }
+    },
+    "lk": {
+      "currency": "LKR",
+      "stepMinor": 1000,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 16,
+      "categoryRates": {
+        "leafy-greens": 2.8888889,
+        "herbs": 2.4235294,
+        "microgreens": 2.8888889,
+        "fruiting-crops": 2.8888889,
+        "roots-and-stems": 2.8888889,
+        "edible-flowers": 2.8888889
+      },
+      "productRates": {
+        "butterhead-lettuce": 5.7777778,
+        "spinach": 1.6277778,
+        "sweet-basil": 4.8470588,
+        "coriander": 2.2283333,
+        "flat-leaf-parsley": 2.4235294,
+        "cherry-tomatoes": 3.0681818,
+        "cucumber": 1.4444444,
+        "bell-peppers": 4.104,
+        "zucchini": 5.7777778,
+        "strawberries": 5.7777778,
+        "carrot": 1.55,
+        "beetroot": 2.4166667,
+        "potato": 4.1875
+      }
+    },
+    "uz": {
+      "currency": "UZS",
+      "stepMinor": 50000,
+      "researchedOn": "2026-09-16",
+      "observationsUsed": 19,
+      "categoryRates": {
+        "leafy-greens": 208.19444,
+        "herbs": 286.33333,
+        "microgreens": 208.19444,
+        "fruiting-crops": 208.19444,
+        "roots-and-stems": 208.19444,
+        "edible-flowers": 208.19444
+      },
+      "productRates": {
+        "butterhead-lettuce": 416.38889,
+        "spinach": 416.38889,
+        "arugula": 282.72727,
+        "sweet-basil": 199.8,
+        "mint": 572.66667,
+        "coriander": 372.86667,
+        "flat-leaf-parsley": 188,
+        "radish-microgreens-live-tray": 261.46154,
+        "pea-microgreens-live-tray": 261.46154,
+        "sunflower-microgreens-live-tray": 261.46154,
+        "broccoli-microgreens-live-tray": 261.46154,
+        "fenugreek-microgreens-live-tray": 261.46154,
+        "red-amaranth-microgreens-live-tray": 261.46154,
+        "cherry-tomatoes": 181.72727,
+        "cucumber": 208.19444,
+        "bell-peppers": 106.5144,
+        "zucchini": 115.05482,
+        "strawberries": 303.92,
+        "carrot": 104.09722,
+        "beetroot": 138.77778,
+        "potato": 237.375
+      }
+    }
+  }
+}

@@ -24,6 +24,7 @@
 
 - Owner confirmed on 14 September 2026: all catalogue products are offered across India, with no PIN-code restriction. Do not show planning-stock labels. Payment and OTP remain disabled until provider setup is complete.
 
+- Owner confirmed on 16 September 2026: the site also serves 16 export countries in local languages & English (see docs/21-languages-and-seo.md). Export prices are local retail benchmarks + 40%, calculated on the server (docs/20-international-pricing.md). International delivery is quoted after review. First-time visitors are redirected to their country version; crawlers and saved choices are not.
 - Convex is the selected backend and file store. Do not introduce Supabase.
 - No account or login gate before the final checkout page. Do not create anonymous auth users for browsing or cart use.
 - At checkout, provide email OTP and phone OTP. Do not require both codes for a purchase.

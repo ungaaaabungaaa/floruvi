@@ -1,0 +1,4730 @@
+{
+  "butterhead-lettuce": {
+    "source": "91147a03",
+    "name": "Salad butterhead",
+    "description": "Daun lembut yang bulat dengan rasa ringan dan gigitan halus seperti mentega.",
+    "uses": [
+      "Salad",
+      "cawan daun salad",
+      "sandwic"
+    ],
+    "details": {
+      "tagline": "Salad. Cawan daun salad. Sandwic.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lembut yang bulat dengan rasa ringan dan gigitan halus seperti mentega."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad butterhead dalam salad, cawan daun salad dan sandwic."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Asingkan daun, bilas dan keringkan. Biarkan daun utuh untuk dijadikan cawan daun salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Asingkan daun, bilas dan keringkan. Biarkan daun utuh untuk dijadikan cawan daun salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "sweet-basil": {
+    "source": "d2cc98c7",
+    "name": "Selasih manis",
+    "description": "Daun lebar yang harum dengan aroma manis yang hangat.",
+    "uses": [
+      "Pesto",
+      "salad tomato",
+      "pasta"
+    ],
+    "details": {
+      "tagline": "Pesto. Salad tomato. Pasta.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lebar yang harum dengan aroma manis yang hangat."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba selasih manis dalam pesto, salad tomato dan pasta."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Carik daun sejurus sebelum dihidangkan. Masukkan selepas dimasak supaya aromanya kekal."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan tomato, mozzarella, lemon atau biji-bijian panggang."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan."
+        }
+      ],
+      "preparation": "Carik daun sejurus sebelum dihidangkan. Masukkan selepas dimasak supaya aromanya kekal.",
+      "storage": "Tegakkan tangkai yang telah dipotong dalam sedikit air, jauh daripada cahaya matahari terus. Pastikan daun kering dan gunakan segera.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens": {
+    "source": "030e4e45",
+    "name": "Sayur mikro brokoli",
+    "description": "Pucuk kecil keluarga kubis dengan rasa ringan seakan-akan kubis.",
+    "uses": [
+      "Sandwic",
+      "salad",
+      "sentuhan akhir hidangan"
+    ],
+    "details": {
+      "tagline": "Sandwic. Salad. Sentuhan akhir hidangan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk kecil keluarga kubis dengan rasa ringan seakan-akan kubis."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro brokoli dalam sandwic, salad atau sebagai sentuhan akhir hidangan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "cherry-tomatoes": {
+    "source": "4a8e9cf7",
+    "name": "Tomato ceri",
+    "description": "Tomato kecil yang memberikan kontras manis dan masam dalam hidangan segar dan masakan.",
+    "uses": [
+      "Snek",
+      "salad",
+      "panggang"
+    ],
+    "details": {
+      "tagline": "Snek. Salad. Panggang.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Tomato kecil yang memberikan kontras manis dan masam dalam hidangan segar dan masakan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba tomato ceri sebagai snek, dalam salad atau dipanggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dan belah dua untuk salad, atau panggang seluruhnya sehingga kulitnya lembut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris dengan pisau tajam supaya jusnya kekal dalam isi. Perasakan sejurus sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Bilas dan belah dua untuk salad, atau panggang seluruhnya sehingga kulitnya lembut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Menyumbang kepada pengambilan vitamin C sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Makanan utuh",
+          "text": "Gunakan isi dan kulit yang boleh dimakan untuk tekstur dan serat."
+        },
+        {
+          "title": "Cara penyediaan penting",
+          "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        }
+      ]
+    }
+  },
+  "spring-onions": {
+    "source": "1ef5c5a2",
+    "name": "Daun bawang",
+    "description": "Batang hijau yang lembut dengan rasa bawang yang ringan.",
+    "uses": [
+      "Sup",
+      "goreng kilas",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Sup. Goreng kilas. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Batang hijau yang lembut dengan rasa bawang yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun bawang dalam sup, goreng kilas atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas, buang akar dan hiris. Masak bahagian putih dahulu; gunakan bahagian hijau sebagai sentuhan akhir."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, telur, tauhu atau hidangan nasi."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris nipis bahagian hijau untuk hiasan dan simpan bahagian putih untuk dimasak di dalam kuali."
+        }
+      ],
+      "preparation": "Bilas, buang akar dan hiris. Masak bahagian putih dahulu; gunakan bahagian hijau sebagai sentuhan akhir.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "nasturtium-flowers": {
+    "source": "0b680c2c",
+    "name": "Bunga nasturtium",
+    "description": "Bunga berwarna cerah dengan rasa pedas seperti lada.",
+    "uses": [
+      "Salad",
+      "hiasan masakan"
+    ],
+    "details": {
+      "tagline": "Salad. Hiasan masakan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Bunga berwarna cerah dengan rasa pedas seperti lada."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bunga nasturtium dalam salad atau sebagai hiasan masakan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan bunga gred makanan sahaja. Bilas perlahan-lahan dan tambahkan beberapa kuntum sejurus sebelum dihidangkan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan bunga yang pedas ini dengan timun, keju lembut atau salad daun yang ringan rasanya."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tambahkan beberapa kuntum bunga utuh pada saat akhir. Gunakan sedikit sos salad sahaja supaya kelopaknya kekal berbentuk."
+        }
+      ],
+      "preparation": "Gunakan bunga gred makanan sahaja. Bilas perlahan-lahan dan tambahkan beberapa kuntum sejurus sebelum dihidangkan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sedikit sentuhan akhir",
+      "nutrition": [
+        {
+          "title": "Sebagai hiasan",
+          "text": "Gunakan beberapa kuntum bunga atau kelopak untuk warna dan tekstur."
+        },
+        {
+          "title": "Gred makanan sahaja",
+          "text": "Hanya makan bunga yang ditanam dan dikenal pasti untuk dimakan."
+        },
+        {
+          "title": "Sedikit sahaja",
+          "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        }
+      ]
+    }
+  },
+  "romaine-lettuce": {
+    "source": "45f0ddeb",
+    "name": "Salad romaine",
+    "description": "Daun panjang dan tulang daun yang pejal memberikan kerangupan yang memuaskan dalam salad.",
+    "uses": [
+      "Salad Caesar",
+      "gulungan",
+      "hati romaine bakar"
+    ],
+    "details": {
+      "tagline": "Salad Caesar. Gulungan. Hati romaine bakar.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun panjang dan tulang daun yang pejal memberikan kerangupan yang memuaskan dalam salad."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad romaine dalam salad Caesar dan gulungan, atau bakar bahagian hatinya."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas di celah-celah daun. Potong melintang tulang daun, atau belah dua bahagian hatinya untuk dibakar."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Bilas di celah-celah daun. Potong melintang tulang daun, atau belah dua bahagian hatinya untuk dibakar.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "thai-basil": {
+    "source": "78d5e578",
+    "name": "Selasih Thai",
+    "description": "Daun pejal yang harum dengan sentuhan rasa seperti jintan manis.",
+    "uses": [
+      "Kari",
+      "sup mi",
+      "goreng kilas"
+    ],
+    "details": {
+      "tagline": "Kari. Sup mi. Goreng kilas.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun pejal yang harum dengan sentuhan rasa seperti jintan manis."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba selasih Thai dalam kari, sup mi dan goreng kilas."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Petik daunnya dan masukkan menjelang akhir memasak kari atau sup mi."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, santan atau hidangan nasi yang panas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan."
+        }
+      ],
+      "preparation": "Petik daunnya dan masukkan menjelang akhir memasak kari atau sup mi.",
+      "storage": "Tegakkan tangkai yang telah dipotong dalam sedikit air, jauh daripada cahaya matahari terus. Pastikan daun kering dan gunakan segera.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "radish-microgreens": {
+    "source": "ca5b8b8c",
+    "name": "Sayur mikro radis",
+    "description": "Pucuk kecil yang rangup dengan rasa pedas yang jelas.",
+    "uses": [
+      "Taco",
+      "salad",
+      "hidangan mangkuk"
+    ],
+    "details": {
+      "tagline": "Taco. Salad. Hidangan mangkuk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk kecil yang rangup dengan rasa pedas yang jelas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro radis dalam taco, salad dan hidangan mangkuk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "beefsteak-tomatoes": {
+    "source": "6102074f",
+    "name": "Tomato beefsteak",
+    "description": "Tomato besar yang sesuai untuk hirisan tebal dan sos.",
+    "uses": [
+      "Sandwic",
+      "salad",
+      "sos"
+    ],
+    "details": {
+      "tagline": "Sandwic. Salad. Sos.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Tomato besar yang sesuai untuk hirisan tebal dan sos."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba tomato beefsteak dalam sandwic, salad dan sos."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang bahagian tangkai di tengah dan potong hirisan tebal untuk sandwic atau salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris dengan pisau tajam supaya jusnya kekal dalam isi. Perasakan sejurus sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Buang bahagian tangkai di tengah dan potong hirisan tebal untuk sandwic atau salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Menyumbang kepada pengambilan vitamin C sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Makanan utuh",
+          "text": "Gunakan isi dan kulit yang boleh dimakan untuk tekstur dan serat."
+        },
+        {
+          "title": "Cara penyediaan penting",
+          "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        }
+      ]
+    }
+  },
+  "celery": {
+    "source": "a8c1355e",
+    "name": "Saderi",
+    "description": "Batang rangup dan wangi untuk kerangupan segar atau sebagai asas perisa masakan.",
+    "uses": [
+      "Sup",
+      "stok",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Sup. Stok. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Batang rangup dan wangi untuk kerangupan segar atau sebagai asas perisa masakan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba saderi dalam sup, stok dan salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas di celah-celah batang, potong pangkalnya dan hiris. Gunakan daunnya dalam stok atau sebagai hiasan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan lobak merah, bawang, kekacang atau epal."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong dadu halus untuk asas sup, atau hiris melintang batang untuk tekstur salad yang rangup."
+        }
+      ],
+      "preparation": "Bilas di celah-celah batang, potong pangkalnya dan hiris. Gunakan daunnya dalam stok atau sebagai hiasan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "viola-flowers": {
+    "source": "57706c53",
+    "name": "Bunga viola",
+    "description": "Bunga kecil yang halus untuk sentuhan warna yang lembut.",
+    "uses": [
+      "Hiasan pencuci mulut",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Hiasan pencuci mulut. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Bunga kecil yang halus untuk sentuhan warna yang lembut."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bunga viola sebagai hiasan pencuci mulut atau dalam salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan bunga gred makanan. Bilas perlahan-lahan, tekap hingga kering dan letakkan di atas hidangan yang sudah siap."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan beberapa kuntum bunga gred makanan dengan buah-buahan, yogurt atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Letakkan di atas hidangan yang sudah siap sejurus sebelum dihidangkan, jauh daripada sos panas dan sos salad yang pekat."
+        }
+      ],
+      "preparation": "Gunakan bunga gred makanan. Bilas perlahan-lahan, tekap hingga kering dan letakkan di atas hidangan yang sudah siap.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sedikit sentuhan akhir",
+      "nutrition": [
+        {
+          "title": "Sebagai hiasan",
+          "text": "Gunakan beberapa kuntum bunga atau kelopak untuk warna dan tekstur."
+        },
+        {
+          "title": "Gred makanan sahaja",
+          "text": "Hanya makan bunga yang ditanam dan dikenal pasti untuk dimakan."
+        },
+        {
+          "title": "Sedikit sahaja",
+          "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        }
+      ]
+    }
+  },
+  "green-oakleaf-lettuce": {
+    "source": "c0dca06d",
+    "name": "Salad oakleaf hijau",
+    "description": "Daun ringan berlekuk dalam yang sesuai untuk semangkuk salad campur.",
+    "uses": [
+      "Campuran salad",
+      "sandwic"
+    ],
+    "details": {
+      "tagline": "Campuran salad. Sandwic.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun ringan berlekuk dalam yang sesuai untuk semangkuk salad campur."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad oakleaf hijau dalam campuran salad dan sandwic."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan, keringkan betul-betul dan carik ke dalam salad sejurus sebelum digaul dengan sos salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan, keringkan betul-betul dan carik ke dalam salad sejurus sebelum digaul dengan sos salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "holy-basil": {
+    "source": "9b51a491",
+    "name": "Ruku-ruku (tulsi)",
+    "description": "Daun tulsi kecil yang harum untuk seduhan kulinari dan hidangan serantau tertentu.",
+    "uses": [
+      "Seduhan",
+      "masakan serantau"
+    ],
+    "details": {
+      "tagline": "Seduhan. Masakan serantau.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun tulsi kecil yang harum untuk seduhan kulinari dan hidangan serantau tertentu."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba ruku-ruku dalam seduhan dan masakan serantau."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas daunnya dan gunakan sedikit dalam seduhan kulinari atau masakan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, santan atau hidangan nasi yang panas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan."
+        }
+      ],
+      "preparation": "Bilas daunnya dan gunakan sedikit dalam seduhan kulinari atau masakan.",
+      "storage": "Tegakkan tangkai yang telah dipotong dalam sedikit air, jauh daripada cahaya matahari terus. Pastikan daun kering dan gunakan segera.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "pea-shoots": {
+    "source": "ae37c735",
+    "name": "Pucuk kacang pis",
+    "description": "Batang dan daun yang lembut dengan rasa segar kacang pis.",
+    "uses": [
+      "Salad",
+      "sandwic",
+      "goreng kilas ringkas"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Goreng kilas ringkas.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Batang dan daun yang lembut dengan rasa segar kacang pis."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba pucuk kacang pis dalam salad, sandwic dan goreng kilas ringkas."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "plum-tomatoes": {
+    "source": "2e9abfe9",
+    "name": "Tomato plum",
+    "description": "Tomato pejal yang berisi tebal, sesuai untuk dimasak perlahan.",
+    "uses": [
+      "Sos",
+      "panggang",
+      "sup"
+    ],
+    "details": {
+      "tagline": "Sos. Panggang. Sup.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Tomato pejal yang berisi tebal, sesuai untuk dimasak perlahan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba tomato plum dalam sos, sup atau dipanggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang bahagian tangkai di tengah, potong dan reneh untuk sos, atau belah dua sebelum dipanggang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Reneh tomato yang telah dipotong dengan api perlahan sehingga sos mencapai kepekatan yang anda suka."
+        }
+      ],
+      "preparation": "Buang bahagian tangkai di tengah, potong dan reneh untuk sos, atau belah dua sebelum dipanggang.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Menyumbang kepada pengambilan vitamin C sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Makanan utuh",
+          "text": "Gunakan isi dan kulit yang boleh dimakan untuk tekstur dan serat."
+        },
+        {
+          "title": "Cara penyediaan penting",
+          "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        }
+      ]
+    }
+  },
+  "radish": {
+    "source": "5b6e09ca",
+    "name": "Radis",
+    "description": "Umbi rangup dengan rasa pedas yang segar.",
+    "uses": [
+      "Salad",
+      "jeruk",
+      "panggang"
+    ],
+    "details": {
+      "tagline": "Salad. Jeruk. Panggang.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Umbi rangup dengan rasa pedas yang segar."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba radis dalam salad, sebagai jeruk atau dipanggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih, potong hujungnya dan hiris nipis. Panggang radis yang dibelah dua untuk rasa yang lebih lembut dan kurang pedas."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, yogurt, mentega atau sedikit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris sangat nipis untuk taburan yang rangup, atau panggang radis yang dibelah dua untuk melembutkan rasa tajamnya."
+        }
+      ],
+      "preparation": "Gosok hingga bersih, potong hujungnya dan hiris nipis. Panggang radis yang dibelah dua untuk rasa yang lebih lembut dan kurang pedas.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "pansy-flowers": {
+    "source": "a48c1533",
+    "name": "Bunga pansy",
+    "description": "Bunga lebar yang berwarna-warni untuk sentuhan akhir yang halus.",
+    "uses": [
+      "Hiasan kek",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Hiasan kek. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Bunga lebar yang berwarna-warni untuk sentuhan akhir yang halus."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bunga pansy sebagai hiasan kek atau dalam salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan bunga gred makanan. Kendalikan dengan berhati-hati dan tambahkan pada salad atau kek sejurus sebelum dihidangkan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan beberapa kuntum bunga gred makanan dengan buah-buahan, yogurt atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Letakkan di atas hidangan yang sudah siap sejurus sebelum dihidangkan, jauh daripada sos panas dan sos salad yang pekat."
+        }
+      ],
+      "preparation": "Gunakan bunga gred makanan. Kendalikan dengan berhati-hati dan tambahkan pada salad atau kek sejurus sebelum dihidangkan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sedikit sentuhan akhir",
+      "nutrition": [
+        {
+          "title": "Sebagai hiasan",
+          "text": "Gunakan beberapa kuntum bunga atau kelopak untuk warna dan tekstur."
+        },
+        {
+          "title": "Gred makanan sahaja",
+          "text": "Hanya makan bunga yang ditanam dan dikenal pasti untuk dimakan."
+        },
+        {
+          "title": "Sedikit sahaja",
+          "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        }
+      ]
+    }
+  },
+  "red-oakleaf-lettuce": {
+    "source": "b9c52f5d",
+    "name": "Salad oakleaf merah",
+    "description": "Daun merah keperangan menambah tekstur lembut dan warna pada hidangan segar.",
+    "uses": [
+      "Salad campur",
+      "persembahan hidangan"
+    ],
+    "details": {
+      "tagline": "Salad campur. Persembahan hidangan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun merah keperangan menambah tekstur lembut dan warna pada hidangan segar."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad oakleaf merah dalam salad campur dan persembahan hidangan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Biarkan daun yang halus ini utuh. Tambahkan sos salad sejurus sebelum dihidangkan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Biarkan daun yang halus ini utuh. Tambahkan sos salad sejurus sebelum dihidangkan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "mint": {
+    "source": "0b72d3fa",
+    "name": "Daun pudina",
+    "description": "Daun segar dengan rasa dingin untuk chutney dan minuman yang menyegarkan.",
+    "uses": [
+      "Chutney",
+      "raita",
+      "minuman"
+    ],
+    "details": {
+      "tagline": "Chutney. Raita. Minuman.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun segar dengan rasa dingin untuk chutney dan minuman yang menyegarkan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun pudina dalam chutney, raita dan minuman."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Petik dan bilas daunnya. Cincang sejurus sebelum dimasukkan ke dalam raita, chutney atau minuman."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, yogurt, kacang pis atau limau nipis segar."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Cincang sejurus sebelum dihidangkan. Gaulkan perlahan ke dalam makanan yang telah sejuk untuk menikmati rasa segar dan dinginnya."
+        }
+      ],
+      "preparation": "Petik dan bilas daunnya. Cincang sejurus sebelum dimasukkan ke dalam raita, chutney atau minuman.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "sunflower-shoots": {
+    "source": "1f2b125f",
+    "name": "Pucuk bunga matahari",
+    "description": "Pucuk muda yang tebal dengan rasa seperti kacang dan gigitan yang rangup.",
+    "uses": [
+      "Salad",
+      "gulungan",
+      "hidangan mangkuk"
+    ],
+    "details": {
+      "tagline": "Salad. Gulungan. Hidangan mangkuk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk muda yang tebal dengan rasa seperti kacang dan gigitan yang rangup."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba pucuk bunga matahari dalam salad, gulungan dan hidangan mangkuk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "cucumber": {
+    "source": "2d71685e",
+    "name": "Timun",
+    "description": "Buah rangup yang menyegarkan dengan rasa yang ringan.",
+    "uses": [
+      "Salad",
+      "raita",
+      "jeruk"
+    ],
+    "details": {
+      "tagline": "Salad. Raita. Jeruk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Buah rangup yang menyegarkan dengan rasa yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba timun dalam salad, raita atau dijadikan jeruk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas, potong kedua-dua hujung dan hiris atau potong dadu. Kupas kulitnya hanya jika anda mahukan tekstur yang lebih lembut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan daun pudina, yogurt, tomato atau sedikit limau nipis."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Untuk raita yang lebih pekat, perah air berlebihan daripada timun parut sebelum digaul dengan yogurt."
+        }
+      ],
+      "preparation": "Bilas, potong kedua-dua hujung dan hiris atau potong dadu. Kupas kulitnya hanya jika anda mahukan tekstur yang lebih lembut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "beetroot": {
+    "source": "2dd8dced",
+    "name": "Ubi bit",
+    "description": "Ubi yang manis dengan rasa tanah, untuk dimasak atau dijeruk.",
+    "uses": [
+      "Panggang",
+      "salad",
+      "jeruk"
+    ],
+    "details": {
+      "tagline": "Panggang. Salad. Jeruk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Ubi yang manis dengan rasa tanah, untuk dimasak atau dijeruk."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba ubi bit dipanggang, dalam salad atau sebagai jeruk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih dan masak sehingga empuk, kemudian kupas jika mahu. Pakai apron supaya pakaian tidak terkena kesan warna."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan oren, daun dill, yogurt atau walnut."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masak berasingan daripada bahan berwarna pucat jika mahu warna setiap bahan kekal jelas."
+        }
+      ],
+      "preparation": "Gosok hingga bersih dan masak sehingga empuk, kemudian kupas jika mahu. Pakai apron supaya pakaian tidak terkena kesan warna.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "calendula-petals": {
+    "source": "ce6e877b",
+    "name": "Kelopak kalendula",
+    "description": "Kelopak keemasan untuk sentuhan bunga yang ringan.",
+    "uses": [
+      "Salad",
+      "hidangan nasi",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Salad. Hidangan nasi. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Kelopak keemasan untuk sentuhan bunga yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kelopak kalendula dalam salad, hidangan nasi atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan kelopak gred makanan yang telah diasingkan daripada pangkal bunga sebagai sentuhan akhir pada nasi atau salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Taburkan kelopak di atas nasi, keju lembut atau salad hijau yang ringkas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tambahkan kelopak selepas dimasak supaya warnanya kekal jelas di dalam pinggan."
+        }
+      ],
+      "preparation": "Gunakan kelopak gred makanan yang telah diasingkan daripada pangkal bunga sebagai sentuhan akhir pada nasi atau salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sedikit sentuhan akhir",
+      "nutrition": [
+        {
+          "title": "Sebagai hiasan",
+          "text": "Gunakan beberapa kuntum bunga atau kelopak untuk warna dan tekstur."
+        },
+        {
+          "title": "Gred makanan sahaja",
+          "text": "Hanya makan bunga yang ditanam dan dikenal pasti untuk dimakan."
+        },
+        {
+          "title": "Sedikit sahaja",
+          "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        }
+      ]
+    }
+  },
+  "lollo-rosso-lettuce": {
+    "source": "02f4f4c2",
+    "name": "Salad lollo rosso",
+    "description": "Daun merah yang beralun dengan rasa akhir sedikit pahit dan tekstur yang ringan.",
+    "uses": [
+      "Campuran salad",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Campuran salad. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun merah yang beralun dengan rasa akhir sedikit pahit dan tekstur yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad lollo rosso dalam campuran salad atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Carik daun yang beralun ini kepada cebisan kecil dan gaulkan dengan daun salad yang lebih ringan rasanya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Carik daun yang beralun ini kepada cebisan kecil dan gaulkan dengan daun salad yang lebih ringan rasanya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "coriander": {
+    "source": "9c2c6566",
+    "name": "Daun ketumbar",
+    "description": "Daun ketumbar segar dan batangnya yang lembut, dengan aroma khas seperti sitrus.",
+    "uses": [
+      "Chutney",
+      "kari",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Chutney. Kari. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun ketumbar segar dan batangnya yang lembut, dengan aroma khas seperti sitrus."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun ketumbar dalam chutney, kari atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas daun dan batang yang lembut dengan teliti. Cincang kedua-duanya untuk chutney atau hiasan akhir."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan limau nipis, tomato, kacang dal atau cili hijau."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan batang yang lembut dalam chutney dan simpan bahagian atas yang berdaun sebagai sentuhan akhir hidangan."
+        }
+      ],
+      "preparation": "Bilas daun dan batang yang lembut dengan teliti. Cincang kedua-duanya untuk chutney atau hiasan akhir.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "mustard-microgreens": {
+    "source": "7bc39786",
+    "name": "Sayur mikro sawi",
+    "description": "Daun kecil dengan rasa hangat mustard yang kuat.",
+    "uses": [
+      "Sandwic",
+      "hiasan",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Sandwic. Hiasan. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil dengan rasa hangat mustard yang kuat."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro sawi dalam sandwic dan salad, atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "bell-peppers": {
+    "source": "df9c2c48",
+    "name": "Lada benggala",
+    "description": "Lada manis berisi tebal yang menambah warna dan kerangupan.",
+    "uses": [
+      "Salad",
+      "sumbat",
+      "panggang"
+    ],
+    "details": {
+      "tagline": "Salad. Sumbat. Panggang.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Lada manis berisi tebal yang menambah warna dan kerangupan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba lada benggala dalam salad, disumbat dengan inti atau dipanggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang tangkai, biji dan urat putihnya. Hiris untuk salad atau belah dua untuk disumbat."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan tomato, bawang, kekacang atau inti nasi."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong kepingan lebar untuk dipanggang dan jalur nipis untuk dimasak sekejap di dalam kuali."
+        }
+      ],
+      "preparation": "Buang tangkai, biji dan urat putihnya. Hiris untuk salad atau belah dua untuk disumbat.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Menyumbang kepada pengambilan vitamin C sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Makanan utuh",
+          "text": "Gunakan isi dan kulit yang boleh dimakan untuk tekstur dan serat."
+        },
+        {
+          "title": "Cara penyediaan penting",
+          "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        }
+      ]
+    }
+  },
+  "carrot": {
+    "source": "4cf54e65",
+    "name": "Lobak merah",
+    "description": "Umbi rangup dengan rasa manis yang lembut.",
+    "uses": [
+      "Salad",
+      "panggang",
+      "sup"
+    ],
+    "details": {
+      "tagline": "Salad. Panggang. Sup.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Umbi rangup dengan rasa manis yang lembut."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba lobak merah dalam salad dan sup, atau dipanggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih atau kupas, potong hujungnya dan potong sama saiz untuk dipanggang atau dibuat sup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan jintan putih, halia, sitrus atau kacang kuda."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong kepada saiz yang sama untuk dipanggang, atau parut halus supaya lebih lembut dalam salad mentah."
+        }
+      ],
+      "preparation": "Gosok hingga bersih atau kupas, potong hujungnya dan potong sama saiz untuk dipanggang atau dibuat sup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Beta-karotena",
+          "text": "Pigmen tumbuhan berwarna oren yang boleh ditukar oleh badan kepada vitamin A."
+        },
+        {
+          "title": "Serat",
+          "text": "Gunakan keseluruhan lobak merah dalam hidangan untuk mendapatkan serat dietnya."
+        },
+        {
+          "title": "Mentah atau dimasak",
+          "text": "Parut ke dalam salad atau masak sehingga empuk."
+        }
+      ]
+    }
+  },
+  "borage-flowers": {
+    "source": "8c301c91",
+    "name": "Bunga borage",
+    "description": "Bunga biru kecil dengan rasa ringan seperti timun.",
+    "uses": [
+      "Hiasan sekali-sekala"
+    ],
+    "details": {
+      "tagline": "Hiasan sekali-sekala.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Bunga biru kecil dengan rasa ringan seperti timun."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bunga borage sebagai hiasan sekali-sekala."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan bunga gred makanan hanya sebagai hiasan kecil sekali-sekala, bukan sebagai hidangan sayur harian."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Gunakan beberapa kuntum bunga gred makanan sebagai sentuhan akhir salad timun atau minuman sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hadkan penggunaannya sebagai hiasan kecil sekali-sekala; jangan gunakan semangkuk penuh sebagai hidangan sayur."
+        }
+      ],
+      "preparation": "Gunakan bunga gred makanan hanya sebagai hiasan kecil sekali-sekala, bukan sebagai hidangan sayur harian.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sedikit sentuhan akhir",
+      "nutrition": [
+        {
+          "title": "Sebagai hiasan",
+          "text": "Gunakan beberapa kuntum bunga atau kelopak untuk warna dan tekstur."
+        },
+        {
+          "title": "Gred makanan sahaja",
+          "text": "Hanya makan bunga yang ditanam dan dikenal pasti untuk dimakan."
+        },
+        {
+          "title": "Sedikit sahaja",
+          "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        }
+      ]
+    }
+  },
+  "lollo-bionda-lettuce": {
+    "source": "30e8376e",
+    "name": "Salad lollo bionda",
+    "description": "Daun hijau kerinting menjadi asas yang ringan dan rangup untuk sos salad yang ringkas.",
+    "uses": [
+      "Salad",
+      "sandwic"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun hijau kerinting menjadi asas yang ringan dan rangup untuk sos salad yang ringkas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad lollo bionda dalam salad dan sandwic."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dan keringkan daun kerinting ini betul-betul supaya sos salad tidak bertakung di celah-celahnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Bilas dan keringkan daun kerinting ini betul-betul supaya sos salad tidak bertakung di celah-celahnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "flat-leaf-parsley": {
+    "source": "0546d0e1",
+    "name": "Parsli daun leper",
+    "description": "Daun segar dengan rasa seperti rumput hijau dan rasa akhir yang bersih.",
+    "uses": [
+      "Tabbouleh",
+      "sos",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Tabbouleh. Sos. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun segar dengan rasa seperti rumput hijau dan rasa akhir yang bersih."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba parsli daun leper dalam tabbouleh, sos atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas, keringkan dan cincang halus daun serta batangnya yang lembut untuk salad dan sos."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad."
+        }
+      ],
+      "preparation": "Bilas, keringkan dan cincang halus daun serta batangnya yang lembut untuk salad dan sos.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "red-cabbage-microgreens": {
+    "source": "a4faaf55",
+    "name": "Sayur mikro kubis merah",
+    "description": "Daun muda berbatang ungu dengan rasa kubis yang ringan.",
+    "uses": [
+      "Salad",
+      "hidangan mangkuk",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Salad. Hidangan mangkuk. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun muda berbatang ungu dengan rasa kubis yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro kubis merah dalam salad dan hidangan mangkuk, atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "green-chillies": {
+    "source": "fbe5364c",
+    "name": "Cili hijau",
+    "description": "Cili segar untuk rasa pedas dan rasa yang menyerlah.",
+    "uses": [
+      "Kari",
+      "chutney",
+      "jeruk"
+    ],
+    "details": {
+      "tagline": "Kari. Chutney. Jeruk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Cili segar untuk rasa pedas dan rasa yang menyerlah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba cili hijau dalam kari, chutney dan jeruk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang tangkai dan cincang dengan berhati-hati. Masukkan sedikit demi sedikit; basuh tangan selepas memegangnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan daun ketumbar, limau nipis, tomato atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masukkan sedikit demi sedikit dan rasa hidangan. Tahap pedas boleh berbeza antara setiap cili."
+        }
+      ],
+      "preparation": "Buang tangkai dan cincang dengan berhati-hati. Masukkan sedikit demi sedikit; basuh tangan selepas memegangnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "ginger": {
+    "source": "96aa67e0",
+    "name": "Halia",
+    "description": "Rizom yang harum dengan rasa hangat dan tajam.",
+    "uses": [
+      "Kari",
+      "seduhan",
+      "perapan"
+    ],
+    "details": {
+      "tagline": "Kari. Seduhan. Perapan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Rizom yang harum dengan rasa hangat dan tajam."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba halia dalam kari, seduhan dan perapan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih atau kupas nipis, kemudian parut, cincang halus atau hiris melintang serat."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan bawang putih, limau nipis, lobak merah atau santan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Parut untuk rasa latar yang sekata; gunakan hirisan nipis jika mahu mengeluarkan halia selepas dimasak."
+        }
+      ],
+      "preparation": "Gosok hingga bersih atau kupas nipis, kemudian parut, cincang halus atau hiris melintang serat.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "iceberg-lettuce": {
+    "source": "a81591b3",
+    "name": "Salad iceberg",
+    "description": "Salad berkepala padat yang terkenal dengan rasanya yang bersih dan daun yang rangup.",
+    "uses": [
+      "Potongan baji",
+      "gulungan",
+      "burger"
+    ],
+    "details": {
+      "tagline": "Potongan baji. Gulungan. Burger.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Salad berkepala padat yang terkenal dengan rasanya yang bersih dan daun yang rangup."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba salad iceberg dipotong baji, dalam gulungan atau burger."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang bahagian teras, bilas daun dan potong berbentuk baji atau hiris halus."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, tomato dan sos salad lemon atau yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya."
+        }
+      ],
+      "preparation": "Buang bahagian teras, bilas daun dan potong berbentuk baji atau hiris halus.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "curly-parsley": {
+    "source": "6f8fa57e",
+    "name": "Parsli kerinting",
+    "description": "Daun kerinting menambah tekstur dan rasa herba yang lembut.",
+    "uses": [
+      "Hiasan",
+      "salad",
+      "mentega herba"
+    ],
+    "details": {
+      "tagline": "Hiasan. Salad. Mentega herba.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kerinting menambah tekstur dan rasa herba yang lembut."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba parsli kerinting sebagai hiasan, dalam salad atau mentega herba."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas di celah-celah daun kerinting dan keringkan sebelum dicincang untuk mentega atau hiasan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad."
+        }
+      ],
+      "preparation": "Bilas di celah-celah daun kerinting dan keringkan sebelum dicincang untuk mentega atau hiasan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "kale-microgreens": {
+    "source": "23032e4b",
+    "name": "Sayur mikro kale",
+    "description": "Daun kale muda yang empuk untuk sentuhan akhir hijau yang lembut.",
+    "uses": [
+      "Sandwic",
+      "salad",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Sandwic. Salad. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kale muda yang empuk untuk sentuhan akhir hijau yang lembut."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro kale dalam sandwic dan salad, atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "jalapeno-peppers": {
+    "source": "50d02da7",
+    "name": "Cili jalapeño",
+    "description": "Cili pejal dengan rasa tersendiri dan tahap pedas yang berbeza-beza.",
+    "uses": [
+      "Salsa",
+      "jeruk",
+      "sumbat"
+    ],
+    "details": {
+      "tagline": "Salsa. Jeruk. Sumbat.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Cili pejal dengan rasa tersendiri dan tahap pedas yang berbeza-beza."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba cili jalapeño dalam salsa, sebagai jeruk atau disumbat dengan inti."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang tangkai dan hiris. Buang biji dan urat dalamnya untuk hidangan yang kurang pedas; basuh tangan selepas memegangnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan tomato, limau nipis, kekacang atau inti keju lembut."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris nipis supaya rasa pedas tersebar rata dalam salsa atau sandwic, bukan tertumpu pada satu gigitan."
+        }
+      ],
+      "preparation": "Buang tangkai dan hiris. Buang biji dan urat dalamnya untuk hidangan yang kurang pedas; basuh tangan selepas memegangnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "turmeric": {
+    "source": "3dd538ed",
+    "name": "Kunyit",
+    "description": "Rizom berwarna terang dengan rasa tanah dan sedikit pahit.",
+    "uses": [
+      "Kari",
+      "jeruk",
+      "masakan"
+    ],
+    "details": {
+      "tagline": "Kari. Jeruk. Masakan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Rizom berwarna terang dengan rasa tanah dan sedikit pahit."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kunyit dalam kari, jeruk dan masakan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih atau kupas nipis, kemudian parut ke dalam masakan. Lindungi permukaan daripada warnanya yang pekat."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, santan, kacang dal atau kubis bunga."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa. Parut di atas permukaan yang boleh dibasuh kerana warnanya boleh meninggalkan kesan."
+        }
+      ],
+      "preparation": "Gosok hingga bersih atau kupas nipis, kemudian parut ke dalam masakan. Lindungi permukaan daripada warnanya yang pekat.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "arugula": {
+    "source": "113e1546",
+    "name": "Daun roket",
+    "description": "Daun berasa pedas yang memberi sedikit rasa tajam pada salad segar atau piza yang sudah siap.",
+    "uses": [
+      "Salad",
+      "piza",
+      "pesto"
+    ],
+    "details": {
+      "tagline": "Salad. Piza. Pesto.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun berasa pedas yang memberi sedikit rasa tajam pada salad segar atau piza yang sudah siap."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun roket dalam salad, piza dan pesto."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dan keringkan. Tambahkan pada piza selepas dibakar, atau gaulkan ke dalam salad pada saat akhir."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun yang pedas ini dengan buah pear, walnut, tomato atau hirisan nipis keju."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas piza selepas dibakar, atau gaulkan perlahan ke dalam pasta yang masih panas sejurus sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Bilas dan keringkan. Tambahkan pada piza selepas dibakar, atau gaulkan ke dalam salad pada saat akhir.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "dill": {
+    "source": "37344873",
+    "name": "Daun dill",
+    "description": "Daun halus seperti bulu pelepah dengan aroma segar seakan-akan jintan manis.",
+    "uses": [
+      "Jeruk",
+      "kentang",
+      "sos salad"
+    ],
+    "details": {
+      "tagline": "Jeruk. Kentang. Sos salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun halus seperti bulu pelepah dengan aroma segar seakan-akan jintan manis."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun dill dalam jeruk, hidangan kentang dan sos salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunting daun halusnya sejurus sebelum dimasukkan ke dalam kentang, yogurt atau sos salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, kentang, yogurt atau lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunting di atas hidangan yang sudah siap, atau kacau ke dalam sos salad sejuk sejurus sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Gunting daun halusnya sejurus sebelum dimasukkan ke dalam kentang, yogurt atau sos salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "arugula-microgreens": {
+    "source": "2a58d288",
+    "name": "Sayur mikro roket",
+    "description": "Daun halus dengan rasa pedas daun roket yang biasa dikenali.",
+    "uses": [
+      "Piza",
+      "pasta",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Piza. Pasta. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun halus dengan rasa pedas daun roket yang biasa dikenali."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro roket dalam piza, pasta dan salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "strawberries": {
+    "source": "b1c7e0cf",
+    "name": "Strawberi",
+    "description": "Buah lembut yang harum untuk dimakan segar dan pencuci mulut yang ringkas.",
+    "uses": [
+      "Snek",
+      "pencuci mulut",
+      "jem"
+    ],
+    "details": {
+      "tagline": "Snek. Pencuci mulut. Jem.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Buah lembut yang harum untuk dimakan segar dan pencuci mulut yang ringkas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba strawberi sebagai snek, dalam pencuci mulut atau dijadikan jem."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas sejurus sebelum dimakan, kemudian buang kelopak hijaunya. Tekap hingga kering untuk pencuci mulut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan yogurt, selasih, daun pudina atau sedikit parutan kulit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris sejurus sebelum dihidangkan, atau lenyek perlahan beberapa biji strawberi untuk dijadikan hiasan atas dengan cepat."
+        }
+      ],
+      "preparation": "Bilas sejurus sebelum dimakan, kemudian buang kelopak hijaunya. Tekap hingga kering untuk pencuci mulut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Menyumbang kepada pengambilan vitamin C sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Makanan utuh",
+          "text": "Gunakan isi dan kulit yang boleh dimakan untuk tekstur dan serat."
+        },
+        {
+          "title": "Cara penyediaan penting",
+          "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        }
+      ]
+    }
+  },
+  "potato": {
+    "source": "54313611",
+    "name": "Kentang",
+    "description": "Ubi serba guna untuk masakan, dengan kegunaan khusus dalam pembiakan aeroponik.",
+    "uses": [
+      "Panggang",
+      "rebus",
+      "lecek"
+    ],
+    "details": {
+      "tagline": "Panggang. Rebus. Lecek.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Ubi serba guna untuk masakan, dengan kegunaan khusus dalam pembiakan aeroponik."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kentang dipanggang, direbus atau dilecek."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok hingga bersih, buang tunas dan bahagian yang hijau, dan masak sehingga betul-betul masak. Buang kentang yang sangat hijau atau pahit."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan rosemary, bawang putih, kacang pis atau sos yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong ketulan sama besar untuk direbus, dan jarakkan kepingan semasa memanggang supaya tepinya rangup."
+        }
+      ],
+      "preparation": "Gosok hingga bersih, buang tunas dan bahagian yang hijau, dan masak sehingga betul-betul masak. Buang kentang yang sangat hijau atau pahit.",
+      "storage": "Simpan di tempat yang sejuk, gelap dan mempunyai pengudaraan, berasingan daripada bawang.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "spinach": {
+    "source": "8f3597fa",
+    "name": "Bayam",
+    "description": "Daun hijau serba guna untuk hidangan mangkuk segar atau masakan ringkas dengan api perlahan.",
+    "uses": [
+      "Salad",
+      "dal",
+      "sayur tumis"
+    ],
+    "details": {
+      "tagline": "Salad. Dal. Sayur tumis.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun hijau serba guna untuk hidangan mangkuk segar atau masakan ringkas dengan api perlahan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bayam dalam salad, dal atau sebagai sayur tumis."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dengan teliti. Gunakan daun yang lembut secara mentah, atau layurkan sekejap dalam dal atau kuali panas."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kacang kuda, paneer, bawang putih atau sedikit perahan lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Kacau ke dalam dal atau sup menjelang akhir memasak. Daunnya cepat layu dan tidak memakan banyak ruang dalam kuali."
+        }
+      ],
+      "preparation": "Bilas dengan teliti. Gunakan daun yang lembut secara mentah, atau layurkan sekejap dalam dal atau kuali panas.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Nutrien yang wujud secara semula jadi dan terlibat dalam pembekuan darah yang normal."
+        },
+        {
+          "title": "Provitamin A",
+          "text": "Karotenoid tumbuhan yang boleh ditukar oleh badan kepada vitamin A."
+        },
+        {
+          "title": "Folat",
+          "text": "Sejenis vitamin B yang terlibat dalam pembentukan sel baharu."
+        },
+        {
+          "title": "Kalium",
+          "text": "Mineral yang digunakan dalam fungsi otot dan saraf yang normal."
+        }
+      ]
+    }
+  },
+  "chives": {
+    "source": "731986ca",
+    "name": "Kucai halus",
+    "description": "Daun hijau yang halus dengan rasa bawang yang ringan.",
+    "uses": [
+      "Telur",
+      "sup",
+      "sos cicah"
+    ],
+    "details": {
+      "tagline": "Telur. Sup. Sos cicah.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun hijau yang halus dengan rasa bawang yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kucai halus dalam hidangan telur, sup dan sos cicah."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunting kepada potongan pendek dengan gunting yang bersih dan taburkan di atas hidangan yang sudah siap."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang, telur, keju krim atau sos cicah yogurt."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan gunting yang bersih untuk mendapatkan potongan kecil yang sekata tanpa menyebabkan daunnya penyek."
+        }
+      ],
+      "preparation": "Gunting kepada potongan pendek dengan gunting yang bersih dan taburkan di atas hidangan yang sudah siap.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "beet-microgreens": {
+    "source": "5584ba7c",
+    "name": "Sayur mikro bit",
+    "description": "Batang berwarna-warni dan daun muda dengan rasa tanah.",
+    "uses": [
+      "Salad",
+      "persembahan hidangan",
+      "sandwic"
+    ],
+    "details": {
+      "tagline": "Salad. Persembahan hidangan. Sandwic.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Batang berwarna-warni dan daun muda dengan rasa tanah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro bit dalam salad, persembahan hidangan dan sandwic."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "eggplant": {
+    "source": "fa849444",
+    "name": "Terung",
+    "description": "Buah berisi lembut yang menyerap rasa dengan baik semasa dimasak.",
+    "uses": [
+      "Kari",
+      "panggang",
+      "bakar"
+    ],
+    "details": {
+      "tagline": "Kari. Panggang. Bakar.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Buah berisi lembut yang menyerap rasa dengan baik semasa dimasak."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba terung dalam kari, dipanggang atau dibakar."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang tangkai, potong sama saiz dan masak sehingga isinya lembut sepenuhnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan tomato, bawang putih, yogurt atau tahini."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Jarakkan kepingan semasa memanggang. Dulang yang terlalu padat menghasilkan tekstur yang lebih lembut, seperti dikukus."
+        }
+      ],
+      "preparation": "Buang tangkai, potong sama saiz dan masak sehingga isinya lembut sepenuhnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "baby-kale": {
+    "source": "eec05bf9",
+    "name": "Kale muda",
+    "description": "Daun kale muda dengan tekstur yang lebih lembut berbanding daun matang.",
+    "uses": [
+      "Salad",
+      "mangkuk bijirin",
+      "tumis ringkas"
+    ],
+    "details": {
+      "tagline": "Salad. Mangkuk bijirin. Tumis ringkas.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kale muda dengan tekstur yang lebih lembut berbanding daun matang."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kale muda dalam salad, mangkuk bijirin atau tumis ringkas."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dan keringkan. Gaulkan daun yang lembut terus ke dalam salad atau mangkuk bijirin yang suam."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad."
+        }
+      ],
+      "preparation": "Bilas dan keringkan. Gaulkan daun yang lembut terus ke dalam salad atau mangkuk bijirin yang suam.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale mengandungi vitamin K, yang digunakan dalam proses pembekuan darah yang normal."
+        },
+        {
+          "title": "Serat",
+          "text": "Daun yang utuh menambah serat diet pada hidangan."
+        },
+        {
+          "title": "Cara menghidang penting",
+          "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        }
+      ]
+    }
+  },
+  "garlic-chives": {
+    "source": "40072a96",
+    "name": "Kucai",
+    "description": "Daun leper dengan sentuhan rasa bawang putih yang lembut.",
+    "uses": [
+      "Ladu",
+      "goreng kilas",
+      "telur dadar"
+    ],
+    "details": {
+      "tagline": "Ladu. Goreng kilas. Telur dadar.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun leper dengan sentuhan rasa bawang putih yang lembut."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kucai dalam ladu, goreng kilas dan telur dadar."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas, potong hujungnya dan cincang untuk inti ladu atau goreng kilas ringkas."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan cendawan, tauhu, telur atau inti ladu."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong pendek-pendek untuk goreng kilas, atau cincang halus apabila digaul ke dalam inti."
+        }
+      ],
+      "preparation": "Bilas, potong hujungnya dan cincang untuk inti ladu atau goreng kilas ringkas.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "amaranth-microgreens": {
+    "source": "cbb2821d",
+    "name": "Sayur mikro bayam",
+    "description": "Daun muda yang sangat halus dengan warna terang pada varieti merah.",
+    "uses": [
+      "Hiasan",
+      "salad",
+      "persembahan hidangan"
+    ],
+    "details": {
+      "tagline": "Hiasan. Salad. Persembahan hidangan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun muda yang sangat halus dengan warna terang pada varieti merah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro bayam sebagai hiasan, dalam salad atau persembahan hidangan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "zucchini": {
+    "source": "0faf3414",
+    "name": "Zukini",
+    "description": "Labu musim panas yang lembut, sesuai untuk dimasak sekejap.",
+    "uses": [
+      "Bakar",
+      "tumis",
+      "masakan ketuhar"
+    ],
+    "details": {
+      "tagline": "Bakar. Tumis. Masakan ketuhar.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Labu musim panas yang lembut, sesuai untuk dimasak sekejap."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba zukini dibakar, ditumis atau dimasak dalam ketuhar."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Potong kedua-dua hujung dan hiris sama tebal. Masak sekejap untuk kepingan yang lebih pejal, atau lebih lama untuk tekstur yang lembut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan lemon, daun pudina, selasih atau sedikit keju parut."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan hirisan tebal untuk dibakar dan potongan kecil untuk ditumis sekejap."
+        }
+      ],
+      "preparation": "Potong kedua-dua hujung dan hiris sama tebal. Masak sekejap untuk kepingan yang lebih pejal, atau lebih lama untuk tekstur yang lembut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "curly-kale": {
+    "source": "8f7b1dc8",
+    "name": "Kale kerinting",
+    "description": "Daun hijau bertekstur yang kekal bentuknya dalam hidangan yang berisi.",
+    "uses": [
+      "Sup",
+      "tumis",
+      "kerepek kale"
+    ],
+    "details": {
+      "tagline": "Sup. Tumis. Kerepek kale.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun hijau bertekstur yang kekal bentuknya dalam hidangan yang berisi."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kale kerinting dalam sup dan masakan tumis, atau jadikan kerepek kale."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan batang yang tebal. Ramas daun yang telah dipotong untuk salad, atau masak sehingga lembut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad."
+        }
+      ],
+      "preparation": "Tanggalkan batang yang tebal. Ramas daun yang telah dipotong untuk salad, atau masak sehingga lembut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale mengandungi vitamin K, yang digunakan dalam proses pembekuan darah yang normal."
+        },
+        {
+          "title": "Serat",
+          "text": "Daun yang utuh menambah serat diet pada hidangan."
+        },
+        {
+          "title": "Cara menghidang penting",
+          "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        }
+      ]
+    }
+  },
+  "oregano": {
+    "source": "8cf92cff",
+    "name": "Daun oregano",
+    "description": "Daun kecil dengan aroma herba yang hangat dan kuat.",
+    "uses": [
+      "Sos tomato",
+      "panggang",
+      "perapan"
+    ],
+    "details": {
+      "tagline": "Sos tomato. Panggang. Perapan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil dengan aroma herba yang hangat dan kuat."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun oregano dalam sos tomato, masakan panggang dan perapan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan daun daripada batang yang berkayu. Cincang dan masukkan ke dalam sos tomato atau perapan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Tanggalkan daun daripada batang yang berkayu. Cincang dan masukkan ke dalam sos tomato atau perapan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "basil-microgreens": {
+    "source": "7bb75a9d",
+    "name": "Sayur mikro selasih",
+    "description": "Daun kecil yang harum dengan bau selasih yang jelas.",
+    "uses": [
+      "Hidangan tomato",
+      "sup",
+      "persembahan hidangan"
+    ],
+    "details": {
+      "tagline": "Hidangan tomato. Sup. Persembahan hidangan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil yang harum dengan bau selasih yang jelas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro selasih dalam hidangan tomato, sup dan persembahan hidangan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Gunakan pucuk yang harum ini bersama tomato, nasi atau semangkuk sup panas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "source": "cb1da443",
+    "name": "Tembikai susu",
+    "description": "Tembikai manis yang harum untuk hirisan segar dan hidangan buah.",
+    "uses": [
+      "Dimakan segar",
+      "salad buah"
+    ],
+    "details": {
+      "tagline": "Dimakan segar. Salad buah.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Tembikai manis yang harum untuk hirisan segar dan hidangan buah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba tembikai susu dimakan segar atau dalam salad buah."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gosok kulitnya hingga bersih sebelum dipotong. Buang biji, hiris isinya dan simpan potongan dalam peti sejuk."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan daun pudina, limau nipis, yogurt atau buah-buahan segar yang lain."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong sebesar sesuap untuk dihidangkan dalam mangkuk dan sejukkan selepas dipotong. Jangan masukkan kulit ke dalam bekas hidangan."
+        }
+      ],
+      "preparation": "Gosok kulitnya hingga bersih sebelum dipotong. Buang biji, hiris isinya dan simpan potongan dalam peti sejuk.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "lacinato-kale": {
+    "source": "4b96c6ec",
+    "name": "Kale lacinato",
+    "description": "Daun panjang berwarna gelap dengan tekstur pejal untuk dimasak dan salad cincang.",
+    "uses": [
+      "Sup",
+      "masakan reneh",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Sup. Masakan reneh. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun panjang berwarna gelap dengan tekstur pejal untuk dimasak dan salad cincang."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kale lacinato dalam sup, masakan reneh dan salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang tulang daun yang keras dan hiris daun nipis-nipis untuk sup atau masakan reneh."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad."
+        }
+      ],
+      "preparation": "Buang tulang daun yang keras dan hiris daun nipis-nipis untuk sup atau masakan reneh.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Nutrien semula jadi",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale mengandungi vitamin K, yang digunakan dalam proses pembekuan darah yang normal."
+        },
+        {
+          "title": "Serat",
+          "text": "Daun yang utuh menambah serat diet pada hidangan."
+        },
+        {
+          "title": "Cara menghidang penting",
+          "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        }
+      ]
+    }
+  },
+  "thyme": {
+    "source": "e9042f32",
+    "name": "Daun thyme",
+    "description": "Daun kecil halus yang harum dengan rasa tanah.",
+    "uses": [
+      "Panggang",
+      "stok",
+      "sos"
+    ],
+    "details": {
+      "tagline": "Panggang. Stok. Sos.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil halus yang harum dengan rasa tanah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun thyme dalam masakan panggang, stok dan sos."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan daunnya yang kecil, atau masak bersama setangkai penuh dan buang batang berkayu sebelum dihidangkan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Tanggalkan daunnya yang kecil, atau masak bersama setangkai penuh dan buang batang berkayu sebelum dihidangkan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "coriander-microgreens": {
+    "source": "ed7ab488",
+    "name": "Sayur mikro ketumbar",
+    "description": "Daun ketumbar muda dengan aroma herba yang pekat.",
+    "uses": [
+      "Taco",
+      "sup",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Taco. Sup. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun ketumbar muda dengan aroma herba yang pekat."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro ketumbar dalam taco dan sup, atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Gunakan pucuk yang harum ini bersama tomato, nasi atau semangkuk sup panas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "green-beans": {
+    "source": "c9b841da",
+    "name": "Kacang buncis",
+    "description": "Buncis lembut untuk masakan ringkas dan hidangan sayur yang rangup.",
+    "uses": [
+      "Goreng kilas",
+      "salad",
+      "tumis"
+    ],
+    "details": {
+      "tagline": "Goreng kilas. Salad. Tumis.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Buncis lembut untuk masakan ringkas dan hidangan sayur yang rangup."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kacang buncis dalam goreng kilas, salad dan masakan tumis."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Potong kedua-dua hujung dan masak sehingga lembut. Sejukkan buncis yang telah dimasak untuk salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan bawang putih, bijan, lemon atau badam panggang."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong sama panjang supaya masak sekata, kemudian gaulkan dengan sos salad semasa masih suam."
+        }
+      ],
+      "preparation": "Potong kedua-dua hujung dan masak sehingga lembut. Sejukkan buncis yang telah dimasak untuk salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "swiss-chard": {
+    "source": "db568563",
+    "name": "Chard Swiss",
+    "description": "Daun lebar dan batang rangup, memberikan dua tekstur dalam satu hidangan.",
+    "uses": [
+      "Tumis",
+      "gratin",
+      "sup"
+    ],
+    "details": {
+      "tagline": "Tumis. Gratin. Sup.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lebar dan batang rangup, memberikan dua tekstur dalam satu hidangan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba chard Swiss dalam masakan tumis, gratin dan sup."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Asingkan batang daripada daun. Masak batang yang telah dipotong dahulu, kemudian masukkan daunnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan bawang putih, kacang dal, kacang putih atau sedikit parutan kulit lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong kecil batangnya dan simpan untuk ditumis; batang memerlukan masa lebih lama dalam kuali berbanding daun."
+        }
+      ],
+      "preparation": "Asingkan batang daripada daun. Masak batang yang telah dipotong dahulu, kemudian masukkan daunnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "rosemary": {
+    "source": "d0109b10",
+    "name": "Daun rosemary",
+    "description": "Daun seperti jarum dengan aroma kuat seperti pokok pain.",
+    "uses": [
+      "Sayur panggang",
+      "roti",
+      "perapan"
+    ],
+    "details": {
+      "tagline": "Sayur panggang. Roti. Perapan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun seperti jarum dengan aroma kuat seperti pokok pain."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun rosemary dalam sayur panggang, roti dan perapan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan dan cincang halus daun jarumnya. Gunakan sedikit sahaja; buang tangkai yang utuh sebelum dihidangkan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Tanggalkan dan cincang halus daun jarumnya. Gunakan sedikit sahaja; buang tangkai yang utuh sebelum dihidangkan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens": {
+    "source": "a802e69b",
+    "name": "Sayur mikro halba",
+    "description": "Pucuk halba muda dengan rasa gurih dan sedikit pahit.",
+    "uses": [
+      "Salad",
+      "sandwic",
+      "hidangan serantau"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hidangan serantau.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk halba muda dengan rasa gurih dan sedikit pahit."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro halba dalam salad, sandwic dan hidangan serantau."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk yang gurih ini dengan kentang, kacang dal atau inti kacang kuda."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "bok-choy": {
+    "source": "fc3d870d",
+    "name": "Pak choy",
+    "description": "Daun berbentuk sudu dan batang pucat yang rangup dengan rasa kubis yang ringan.",
+    "uses": [
+      "Goreng kilas",
+      "sup jernih",
+      "sayur kukus"
+    ],
+    "details": {
+      "tagline": "Goreng kilas. Sup jernih. Sayur kukus.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun berbentuk sudu dan batang pucat yang rangup dengan rasa kubis yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba pak choy dalam goreng kilas, sup jernih atau sebagai sayur kukus."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas di celah-celah batang. Masak batang dahulu dan masukkan daun menjelang akhir memasak."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, bijan, cendawan atau tauhu."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Belah dua pak choy yang kecil secara memanjang untuk hidangan yang menarik. Biarkan pangkalnya utuh supaya daun tidak bercerai."
+        }
+      ],
+      "preparation": "Bilas di celah-celah batang. Masak batang dahulu dan masukkan daun menjelang akhir memasak.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "sage": {
+    "source": "d87fce09",
+    "name": "Daun sage",
+    "description": "Daun lembut berwarna hijau kelabu dengan aroma gurih yang mendalam.",
+    "uses": [
+      "Mentega perang",
+      "panggang",
+      "inti"
+    ],
+    "details": {
+      "tagline": "Mentega perang. Panggang. Inti.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lembut berwarna hijau kelabu dengan aroma gurih yang mendalam."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun sage dalam mentega perang, masakan panggang dan inti."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tekap daun hingga kering dan masak sekejap dalam mentega, atau cincang halus ke dalam inti."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Tekap daun hingga kering dan masak sekejap dalam mentega, atau cincang halus ke dalam inti.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "wheatgrass": {
+    "source": "aee13940",
+    "name": "Rumput gandum",
+    "description": "Pucuk gandum muda yang ditanam untuk disediakan segar.",
+    "uses": [
+      "Jus"
+    ],
+    "details": {
+      "tagline": "Jus.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk gandum muda yang ditanam untuk disediakan segar."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba rumput gandum dijadikan jus."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas pucuk yang telah dipotong dan gunakan pemerah jus rumput yang sesuai. Hidangkan sejurus selepas disediakan; jangan gunakan sebagai daun salad."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Campurkan sedikit jus yang baru diperah dengan jus epal atau timun."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Sediakan jus secukupnya untuk dihidangkan sahaja. Tapis serat kasar untuk minuman yang lebih licin."
+        }
+      ],
+      "preparation": "Bilas pucuk yang telah dipotong dan gunakan pemerah jus rumput yang sesuai. Hidangkan sejurus selepas disediakan; jangan gunakan sebagai daun salad.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "tatsoi": {
+    "source": "41b56aea",
+    "name": "Tatsoi",
+    "description": "Daun kecil yang bulat dengan sentuhan rasa mustard yang ringan.",
+    "uses": [
+      "Salad",
+      "sup",
+      "goreng kilas"
+    ],
+    "details": {
+      "tagline": "Salad. Sup. Goreng kilas.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil yang bulat dengan sentuhan rasa mustard yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba tatsoi dalam salad, sup dan goreng kilas."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Asingkan dan bilas daunnya. Masukkan seluruh daun ke dalam sup atau goreng kilas ringkas."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan bijan, halia, mi atau tauhu."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Masukkan daun yang lembut ke dalam mangkuk hidangan panas sejurus sebelum dihidangkan supaya bentuk daunnya masih kekal."
+        }
+      ],
+      "preparation": "Asingkan dan bilas daunnya. Masukkan seluruh daun ke dalam sup atau goreng kilas ringkas.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "lemon-balm": {
+    "source": "9057880a",
+    "name": "Daun lemon balm",
+    "description": "Daun yang lembut dengan haruman lemon yang ringan.",
+    "uses": [
+      "Seduhan",
+      "hidangan buah",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Seduhan. Hidangan buah. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun yang lembut dengan haruman lemon yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun lemon balm dalam seduhan, hidangan buah atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Ramas perlahan daun yang telah dibilas untuk seduhan, atau cincang beberapa helai di atas buah-buahan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan buah beri, tembikai atau seduhan herba yang ringan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Ramas perlahan beberapa helai daun untuk mengeluarkan baunya, kemudian masukkan ke dalam minuman yang telah sejuk."
+        }
+      ],
+      "preparation": "Ramas perlahan daun yang telah dibilas untuk seduhan, atau cincang beberapa helai di atas buah-buahan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "kohlrabi-microgreens": {
+    "source": "46bf5e73",
+    "name": "Sayur mikro kohlrabi",
+    "description": "Pucuk lembut dengan rasa kubis yang ringan.",
+    "uses": [
+      "Salad",
+      "hidangan mangkuk",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Salad. Hidangan mangkuk. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk lembut dengan rasa kubis yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro kohlrabi dalam salad dan hidangan mangkuk, atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "mizuna": {
+    "source": "28caab47",
+    "name": "Mizuna",
+    "description": "Daun halus berjumbai dengan rasa pedas yang ringan.",
+    "uses": [
+      "Campuran salad",
+      "mangkuk mi"
+    ],
+    "details": {
+      "tagline": "Campuran salad. Mangkuk mi.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun halus berjumbai dengan rasa pedas yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba mizuna dalam campuran salad dan semangkuk mi."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas daun halus ini perlahan-lahan dan masukkan pada akhir penyediaan supaya teksturnya kekal."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan sitrus, bijan, radis atau sos mi yang ringan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Campurkan dengan daun yang lebih ringan rasanya untuk salad, atau taburkan segenggam sebagai sentuhan akhir semangkuk mi."
+        }
+      ],
+      "preparation": "Bilas daun halus ini perlahan-lahan dan masukkan pada akhir penyediaan supaya teksturnya kekal.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "shiso": {
+    "source": "49790bae",
+    "name": "Daun shiso",
+    "description": "Daun harum yang tersendiri, digunakan untuk membalut makanan atau sebagai hiasan.",
+    "uses": [
+      "Hidangan nasi",
+      "jeruk",
+      "hiasan"
+    ],
+    "details": {
+      "tagline": "Hidangan nasi. Jeruk. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun harum yang tersendiri, digunakan untuk membalut makanan atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun shiso dalam hidangan nasi, jeruk atau sebagai hiasan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dan keringkan daun. Hiris nipis atau biarkan utuh untuk membalut sedikit makanan."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan timun, nasi, bijan atau sayur jeruk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Susun beberapa helai daun yang kering dan hiris halus memanjang sebagai hiasan akhir yang kemas."
+        }
+      ],
+      "preparation": "Bilas dan keringkan daun. Hiris nipis atau biarkan utuh untuk membalut sedikit makanan.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "garden-cress-microgreens": {
+    "source": "a462291b",
+    "name": "Sayur mikro kres kebun",
+    "description": "Pucuk halus dengan rasa pedas yang tajam.",
+    "uses": [
+      "Hidangan telur",
+      "sandwic",
+      "salad"
+    ],
+    "details": {
+      "tagline": "Hidangan telur. Sandwic. Salad.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk halus dengan rasa pedas yang tajam."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro kres kebun dalam hidangan telur, sandwic dan salad."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan."
+        }
+      ],
+      "preparation": "Bilas perlahan-lahan dan toskan betul-betul. Tambahkan segenggam kecil pada hidangan yang sudah siap supaya pucuknya kekal rangup.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "mustard-greens": {
+    "source": "f9c39244",
+    "name": "Sawi pahit",
+    "description": "Daun berperisa kuat dengan rasa pedas mustard yang menjadi lembut apabila dimasak.",
+    "uses": [
+      "Saag",
+      "goreng kilas",
+      "jeruk"
+    ],
+    "details": {
+      "tagline": "Saag. Goreng kilas. Jeruk.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun berperisa kuat dengan rasa pedas mustard yang menjadi lembut apabila dimasak."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sawi pahit dalam saag, goreng kilas atau dijadikan jeruk."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang batang yang kasar dan masak daunnya sehingga lembut untuk mengurangkan rasa pedasnya."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan bawang putih, kentang, kacang dal atau hidangan sampingan yogurt yang ringan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Cincang halus untuk saag, atau campurkan dengan sayur hijau yang lebih ringan rasanya untuk melembutkan rasa mustard."
+        }
+      ],
+      "preparation": "Buang batang yang kasar dan masak daunnya sehingga lembut untuk mengurangkan rasa pedasnya.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "chervil": {
+    "source": "8c156fac",
+    "name": "Daun chervil",
+    "description": "Daun halus dengan sentuhan rasa jintan manis yang ringan.",
+    "uses": [
+      "Telur",
+      "salad",
+      "sos sentuhan akhir"
+    ],
+    "details": {
+      "tagline": "Telur. Salad. Sos sentuhan akhir.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun halus dengan sentuhan rasa jintan manis yang ringan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun chervil dalam hidangan telur, salad dan sos sentuhan akhir."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunting daun yang lembut dan masukkan selepas dimasak supaya aromanya yang halus kekal."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad."
+        }
+      ],
+      "preparation": "Gunting daun yang lembut dan masukkan selepas dimasak supaya aromanya yang halus kekal.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "radish-microgreens-live-tray": {
+    "source": "afaa910f",
+    "name": "Sayur mikro radis · Dulang hidup",
+    "description": "Daun muda yang pedas. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun muda yang pedas. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro radis dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "watercress": {
+    "source": "41d3cdc3",
+    "name": "Selada air",
+    "description": "Daun kecil yang bulat dengan rasa pedas yang menyerlah.",
+    "uses": [
+      "Sup",
+      "salad",
+      "sandwic"
+    ],
+    "details": {
+      "tagline": "Sup. Salad. Sandwic.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil yang bulat dengan rasa pedas yang menyerlah."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba selada air dalam sup, salad dan sandwic."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas dengan teliti dan buang batang yang kasar. Masukkan ke dalam salad atau kisar bersama sup yang telah dimasak."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang, telur, sitrus atau sos salad berkrim yang ringan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan pucuk yang lembut untuk salad dan simpan batang yang lebih keras untuk sup yang dimasak."
+        }
+      ],
+      "preparation": "Bilas dengan teliti dan buang batang yang kasar. Masukkan ke dalam salad atau kisar bersama sup yang telah dimasak.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "tarragon": {
+    "source": "69901840",
+    "name": "Daun tarragon",
+    "description": "Daun sempit dengan rasa seperti jintan manis yang ketara.",
+    "uses": [
+      "Sos",
+      "sos salad",
+      "mentega herba"
+    ],
+    "details": {
+      "tagline": "Sos. Sos salad. Mentega herba.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun sempit dengan rasa seperti jintan manis yang ketara."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun tarragon dalam sos, sos salad dan mentega herba."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan daun dan cincang halus. Mulakan dengan sedikit dalam sos salad atau sos."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan mustard, kentang, telur atau sos salad berkrim."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan sedikit dahulu kerana rasa seperti jintan manisnya boleh mengatasi sos yang lembut rasanya."
+        }
+      ],
+      "preparation": "Tanggalkan daun dan cincang halus. Mulakan dengan sedikit dalam sos salad atau sos.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "pea-microgreens-live-tray": {
+    "source": "5198e055",
+    "name": "Sayur mikro kacang pis · Dulang hidup",
+    "description": "Pucuk lembut dengan rasa manis kacang pis. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk lembut dengan rasa manis kacang pis. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro kacang pis dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "sorrel": {
+    "source": "c2f6c916",
+    "name": "Daun sorrel",
+    "description": "Daun masam seperti lemon yang digunakan sedikit untuk menyegarkan rasa hidangan.",
+    "uses": [
+      "Sos",
+      "sup",
+      "salad campur"
+    ],
+    "details": {
+      "tagline": "Sos. Sup. Salad campur.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun masam seperti lemon yang digunakan sedikit untuk menyegarkan rasa hidangan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun sorrel dalam sos, sup dan salad campur."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Gunakan beberapa helai daun yang telah dibilas untuk rasa akhir yang masam. Masukkan sedikit demi sedikit sambil merasa."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan beberapa helai daun dengan kentang, telur atau sos berkrim."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Rasa dahulu sebelum menambah lemon atau cuka kerana daun sorrel sudah memberikan rasa masam."
+        }
+      ],
+      "preparation": "Gunakan beberapa helai daun yang telah dibilas untuk rasa akhir yang masam. Masukkan sedikit demi sedikit sambil merasa.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "marjoram": {
+    "source": "802bbebd",
+    "name": "Daun marjoram",
+    "description": "Daun lembut dengan rasa manis yang ringan seperti oregano.",
+    "uses": [
+      "Sup",
+      "sos",
+      "sayur panggang"
+    ],
+    "details": {
+      "tagline": "Sup. Sos. Sayur panggang.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lembut dengan rasa manis yang ringan seperti oregano."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun marjoram dalam sup, sos dan sayur panggang."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Tanggalkan daunnya yang kecil dan masukkan menjelang akhir memasak sup atau sos."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Tanggalkan daunnya yang kecil dan masukkan menjelang akhir memasak sup atau sos.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "sunflower-microgreens-live-tray": {
+    "source": "a436640b",
+    "name": "Sayur mikro bunga matahari · Dulang hidup",
+    "description": "Pucuk rangup dengan rasa ringan seperti kacang. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk rangup dengan rasa ringan seperti kacang. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro bunga matahari dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "endive": {
+    "source": "55ffbd35",
+    "name": "Endif",
+    "description": "Daun pejal dengan rasa pahit yang menyenangkan.",
+    "uses": [
+      "Salad",
+      "panggang",
+      "pembuka selera"
+    ],
+    "details": {
+      "tagline": "Salad. Panggang. Pembuka selera.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun pejal dengan rasa pahit yang menyenangkan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba endif dalam salad, dipanggang atau sebagai pembuka selera."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Asingkan daunnya untuk dijadikan cawan salad kecil, atau belah dua sebelum dipanggang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan oren, walnut, epal atau keju lembut."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan daun luar yang pejal sebagai cawan kecil untuk diisi salad cincang."
+        }
+      ],
+      "preparation": "Asingkan daunnya untuk dijadikan cawan salad kecil, atau belah dua sebelum dipanggang.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "lemongrass": {
+    "source": "9644eb9b",
+    "name": "Serai",
+    "description": "Batang harum dengan aroma sitrus yang jelas.",
+    "uses": [
+      "Kari",
+      "sup jernih",
+      "seduhan"
+    ],
+    "details": {
+      "tagline": "Kari. Sup jernih. Seduhan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Batang harum dengan aroma sitrus yang jelas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba serai dalam kari, sup jernih dan seduhan."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang lapisan luar yang keras. Ketuk batangnya untuk sup jernih dan keluarkan sebelum dihidangkan, atau cincang halus pangkalnya yang lembut."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, santan, limau nipis atau cendawan."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan batang yang telah diketuk untuk mengharumkan sup jernih. Buang kepingan besar yang berserat sebelum dihidangkan."
+        }
+      ],
+      "preparation": "Buang lapisan luar yang keras. Ketuk batangnya untuk sup jernih dan keluarkan sebelum dihidangkan, atau cincang halus pangkalnya yang lembut.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Daun kecil, penuh rasa",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Daun segar menambah rasa walaupun digunakan sedikit."
+        },
+        {
+          "title": "Bahan sentuhan akhir",
+          "text": "Padankan dengan sayur-sayuran, kekacang dan bijirin untuk hidangan yang lengkap."
+        },
+        {
+          "title": "Saiz hidangan penting",
+          "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens-live-tray": {
+    "source": "184ffb84",
+    "name": "Sayur mikro brokoli · Dulang hidup",
+    "description": "Daun kecil dengan rasa kubis yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun kecil dengan rasa kubis yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro brokoli dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "radicchio": {
+    "source": "6054b24c",
+    "name": "Radicchio",
+    "description": "Daun merah dan urat putih memberikan rasa pahit serta kontras pada hidangan.",
+    "uses": [
+      "Salad",
+      "bakar",
+      "risotto"
+    ],
+    "details": {
+      "tagline": "Salad. Bakar. Risotto.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun merah dan urat putih memberikan rasa pahit serta kontras pada hidangan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba radicchio dalam salad dan risotto, atau dibakar."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Buang bahagian teras. Hiris nipis untuk salad atau potong berbentuk baji untuk dibakar."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan buah pear, oren, walnut atau keju yang ringan rasanya."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Campurkan hirisan mentah dengan bahan yang lebih manis, atau bakar potongan baji untuk melembutkan teksturnya."
+        }
+      ],
+      "preparation": "Buang bahagian teras. Hiris nipis untuk salad atau potong berbentuk baji untuk dibakar.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens-live-tray": {
+    "source": "b724d323",
+    "name": "Sayur mikro halba · Dulang hidup",
+    "description": "Pucuk harum dengan rasa pahit yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk harum dengan rasa pahit yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro halba dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan pucuk yang gurih ini dengan kentang, kacang dal atau inti kacang kuda."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "amaranth-greens": {
+    "source": "e36b47cf",
+    "name": "Bayam hijau",
+    "description": "Daun lembut yang digunakan dalam banyak hidangan sayur serantau India.",
+    "uses": [
+      "Dal",
+      "goreng kilas",
+      "masakan sayur"
+    ],
+    "details": {
+      "tagline": "Dal. Goreng kilas. Masakan sayur.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun lembut yang digunakan dalam banyak hidangan sayur serantau India."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba bayam hijau dalam dal, goreng kilas dan masakan sayur."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas betul-betul, buang batang yang keras dan masak daunnya dalam dal atau hidangan sayur."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kacang dal, bawang putih, kelapa atau jintan putih."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Potong daun dan batang yang lembut untuk hidangan sampingan yang dimasak; buang tangkai yang kasar terlebih dahulu."
+        }
+      ],
+      "preparation": "Bilas betul-betul, buang batang yang keras dan masak daunnya dalam dal atau hidangan sayur.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "source": "5db14b16",
+    "name": "Sayur mikro bayam merah · Dulang hidup",
+    "description": "Pucuk merah yang halus dengan rasa tanah. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "uses": [
+      "Salad",
+      "Sandwic",
+      "Hiasan",
+      "Tuai di rumah"
+    ],
+    "details": {
+      "tagline": "Salad. Sandwic. Hiasan.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Pucuk merah yang halus dengan rasa tanah. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba sayur mikro bayam merah dari dulang hidup ini dalam salad, sandwic atau sebagai hiasan."
+        },
+        {
+          "title": "Potong bila perlu",
+          "text": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula."
+        }
+      ],
+      "preparation": "Potong pucuk di atas media tanaman dengan gunting yang bersih. Bilas pucuk yang dituai sebelum dimakan; biarkan akar dan media tanaman di dalam dulang.",
+      "storage": "Letakkan tegak di tempat yang terang tanpa cahaya matahari terus. Pastikan media tanaman sedikit lembap, bukan bertakung air. Simpan pucuk yang telah dipotong dalam peti sejuk dan gunakan segera.",
+      "nutritionTitle": "Tentang sayur mikro",
+      "nutrition": [
+        {
+          "title": "Pucuk muda",
+          "text": "Dituai pada peringkat awal untuk rasa dan teksturnya."
+        },
+        {
+          "title": "Variasi semula jadi",
+          "text": "Kandungan vitamin dan mineral berbeza mengikut spesies dan keadaan penanaman."
+        },
+        {
+          "title": "Pelbagaikan",
+          "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        }
+      ]
+    }
+  },
+  "fenugreek-greens": {
+    "source": "2be34ad8",
+    "name": "Daun halba",
+    "description": "Daun halba yang harum dengan rasa pahit dan gurih yang khas.",
+    "uses": [
+      "Paratha",
+      "dal",
+      "hidangan sayur"
+    ],
+    "details": {
+      "tagline": "Paratha. Dal. Hidangan sayur.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun halba yang harum dengan rasa pahit dan gurih yang khas."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba daun halba dalam paratha, dal dan hidangan sayur."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Petik daun daripada batang yang tebal, bilas betul-betul dan cincang untuk dal atau paratha."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan kentang, kacang pis, kacang dal atau doh gandum penuh."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gaulkan daun yang dicincang ke dalam doh paratha, atau tambahkan segenggam kecil ke dalam kari sayur."
+        }
+      ],
+      "preparation": "Petik daun daripada batang yang tebal, bilas betul-betul dan cincang untuk dal atau paratha.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  },
+  "napa-cabbage": {
+    "source": "aa9e90d8",
+    "name": "Kubis Cina",
+    "description": "Daun berlapis yang lembut dan batang rangup yang ringan rasanya.",
+    "uses": [
+      "Goreng kilas",
+      "sup",
+      "hidangan fermentasi"
+    ],
+    "details": {
+      "tagline": "Goreng kilas. Sup. Hidangan fermentasi.",
+      "benefits": [
+        {
+          "title": "Rasa dan tekstur",
+          "text": "Daun berlapis yang lembut dan batang rangup yang ringan rasanya."
+        },
+        {
+          "title": "Mudah ditambah",
+          "text": "Cuba kubis Cina dalam goreng kilas, sup dan hidangan fermentasi."
+        },
+        {
+          "title": "Mudah disediakan",
+          "text": "Bilas di celah-celah lapisan. Hiris batang dan daun secara berasingan supaya masak sekata."
+        },
+        {
+          "title": "Padanan yang sesuai",
+          "text": "Padankan dengan halia, cendawan, tauhu atau daun bawang."
+        },
+        {
+          "title": "Petua menghidang",
+          "text": "Gunakan batang yang lebih tebal untuk kerangupan dan daun yang lebih lembut untuk menyerap sup jernih yang ringan."
+        }
+      ],
+      "preparation": "Bilas di celah-celah lapisan. Hiris batang dan daun secara berasingan supaya masak sekata.",
+      "storage": "Simpan dalam keadaan sejuk dan elakkan daripada tertindih. Bilas sejurus sebelum digunakan dan gunakan segera selepas dibuka.",
+      "nutritionTitle": "Sebahagian daripada hidangan yang pelbagai",
+      "nutrition": [
+        {
+          "title": "Serat",
+          "text": "Sayur-sayuran menyumbang serat dalam pemakanan yang pelbagai."
+        },
+        {
+          "title": "Vitamin dan mineral",
+          "text": "Kandungannya bergantung pada jenis sayur, saiz hidangan dan cara penyediaan."
+        },
+        {
+          "title": "Kepelbagaian",
+          "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        }
+      ]
+    }
+  }
+}

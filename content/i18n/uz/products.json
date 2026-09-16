@@ -1,0 +1,4730 @@
+{
+  "butterhead-lettuce": {
+    "source": "91147a03",
+    "name": "Batterxed salati",
+    "description": "Yumshoq, dumaloq barglari mayin taʼmli va saryogʻdek nozik.",
+    "uses": [
+      "Salatlar",
+      "salat bargi kosachalari",
+      "sendvichlar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Salat bargi kosachalari. Sendvichlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yumshoq, dumaloq barglari mayin taʼmli va saryogʻdek nozik."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Batterxed salatini salatlar, salat bargi kosachalari va sendvichlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni ajrating, yuving va quriting. Salat kosachalari uchun ularni butunligicha qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Barglarni ajrating, yuving va quriting. Salat kosachalari uchun ularni butunligicha qoldiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "sweet-basil": {
+    "source": "d2cc98c7",
+    "name": "Shirin rayhon",
+    "description": "Keng, xushboʻy barglari iliq va shirin ifor taratadi.",
+    "uses": [
+      "Pesto",
+      "pomidor salatlari",
+      "pasta"
+    ],
+    "details": {
+      "tagline": "Pesto. Pomidor salatlari. Pasta.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Keng, xushboʻy barglari iliq va shirin ifor taratadi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Shirin rayhonni pesto, pomidor salatlari va pasta uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni tortishdan sal oldin qoʻlda uzing. Xushboʻyligi saqlanishi uchun pishirib boʻlgach qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pomidor, motsarella, limon yoki qovurilgan urugʻlar bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing."
+        }
+      ],
+      "preparation": "Barglarni tortishdan sal oldin qoʻlda uzing. Xushboʻyligi saqlanishi uchun pishirib boʻlgach qoʻshing.",
+      "storage": "Poya uchlarini kesib, ozgina suvga tik qoʻying va toʻgʻri quyosh nuridan uzoqroq tuting. Barglarini quruq saqlang va tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens": {
+    "source": "030e4e45",
+    "name": "Brokkoli mikrozeleni",
+    "description": "Karamga oʻxshash yumshoq taʼmli kichik maysalar.",
+    "uses": [
+      "Sendvichlar",
+      "salatlar",
+      "taomlarni bezash"
+    ],
+    "details": {
+      "tagline": "Sendvichlar. Salatlar. Taomlarni bezash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Karamga oʻxshash yumshoq taʼmli kichik maysalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Brokkoli mikrozelenini sendvichlar, salatlar va taomlarni bezash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "cherry-tomatoes": {
+    "source": "4a8e9cf7",
+    "name": "Cherri pomidor",
+    "description": "Yangi va pishirilgan taomlarga shirin-nordon uygʻunlik beradigan kichik pomidorlar.",
+    "uses": [
+      "Tamaddi",
+      "salatlar",
+      "pechda pishirish"
+    ],
+    "details": {
+      "tagline": "Tamaddi. Salatlar. Pechda pishirish.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi va pishirilgan taomlarga shirin-nordon uygʻunlik beradigan kichik pomidorlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Cherri pomidorni tamaddi, salatlar va pechda pishirish uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving va salatlar uchun teng ikkiga kesing yoki poʻsti yumshaguncha butunligicha pechda pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Sharbati etida qolishi uchun oʻtkir pichoq bilan kesing. Tortishdan biroz oldin tuz va ziravor seping."
+        }
+      ],
+      "preparation": "Yuving va salatlar uchun teng ikkiga kesing yoki poʻsti yumshaguncha butunligicha pechda pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "C vitamini",
+          "text": "Xilma-xil ratsion tarkibida C vitamini isteʼmoliga hissa qoʻshadi."
+        },
+        {
+          "title": "Butun mahsulot",
+          "text": "Tuzilishi va kletchatkasi uchun yeyiladigan eti va poʻstini ham ishlating."
+        },
+        {
+          "title": "Tayyorlash usuli muhim",
+          "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        }
+      ]
+    }
+  },
+  "spring-onions": {
+    "source": "1ef5c5a2",
+    "name": "Koʻk piyoz",
+    "description": "Piyoz taʼmi yumshoq boʻlgan nozik yashil poyalar.",
+    "uses": [
+      "Shoʻrvalar",
+      "qovurmalar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Qovurmalar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Piyoz taʼmi yumshoq boʻlgan nozik yashil poyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Koʻk piyozni shoʻrvalar, qovurmalar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving, ildizlarini kesib tashlang va toʻgʻrang. Oq qismini avval pishiring, yashil qismini oxirida qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, tuxum, tofu yoki guruchli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Yashil uchlarini bezak uchun ingichka toʻgʻrang, oq qismini esa tovada pishirish uchun qoldiring."
+        }
+      ],
+      "preparation": "Yuving, ildizlarini kesib tashlang va toʻgʻrang. Oq qismini avval pishiring, yashil qismini oxirida qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "nasturtium-flowers": {
+    "source": "0b680c2c",
+    "name": "Nasturtsiya gullari",
+    "description": "Qalampirdek achchiqroq taʼmli yorqin gullar.",
+    "uses": [
+      "Salatlar",
+      "tuzli taomlar bezagi"
+    ],
+    "details": {
+      "tagline": "Salatlar. Tuzli taomlar bezagi.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qalampirdek achchiqroq taʼmli yorqin gullar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Nasturtsiya gullarini salatlar va tuzli taomlar bezagi uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Faqat isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan yuving va tortishdan sal oldin bir nechtasini qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq gullar bodring, yumshoq pishloq yoki yumshoq taʼmli barg salati bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir nechta butun gulni eng soʻnggi daqiqada qoʻshing. Gulbarglar shaklini saqlashi uchun sousni kam quying."
+        }
+      ],
+      "preparation": "Faqat isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan yuving va tortishdan sal oldin bir nechtasini qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Kichik yakuniy bezak",
+      "nutrition": [
+        {
+          "title": "Bezak",
+          "text": "Rang va tuzilish uchun bir nechta gul yoki gulbargdan foydalaning."
+        },
+        {
+          "title": "Faqat isteʼmolga yaroqli",
+          "text": "Faqat oziq-ovqat uchun yetishtirilgan va shunday deb aniqlangan gullarni isteʼmol qiling."
+        },
+        {
+          "title": "Kichik porsiyalar",
+          "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        }
+      ]
+    }
+  },
+  "romaine-lettuce": {
+    "source": "45f0ddeb",
+    "name": "Romen salati",
+    "description": "Uzun barglari va qattiq oʻrta tomiri salatga yoqimli qarsildoqlik beradi.",
+    "uses": [
+      "Sezar salatlari",
+      "rollar",
+      "grilda pishirilgan oʻzaklar"
+    ],
+    "details": {
+      "tagline": "Sezar salatlari. Rollar. Grilda pishirilgan oʻzaklar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Uzun barglari va qattiq oʻrta tomiri salatga yoqimli qarsildoqlik beradi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Romen salatini Sezar salatlari, rollar va grilda pishirilgan oʻzaklar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglar orasini yuving. Tomirini koʻndalangiga toʻgʻrang yoki grilda pishirish uchun oʻzagini teng ikkiga kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Barglar orasini yuving. Tomirini koʻndalangiga toʻgʻrang yoki grilda pishirish uchun oʻzagini teng ikkiga kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "thai-basil": {
+    "source": "78d5e578",
+    "name": "Tay rayhoni",
+    "description": "Arpabodiyonga oʻxshash taʼmli, pishiq xushboʻy barglar.",
+    "uses": [
+      "Karri taomlari",
+      "lapshali shoʻrvalar",
+      "qovurmalar"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Lapshali shoʻrvalar. Qovurmalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Arpabodiyonga oʻxshash taʼmli, pishiq xushboʻy barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tay rayhonini karri taomlari, lapshali shoʻrvalar va qovurmalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarini uzib oling va karri yoki lapshali shoʻrva tayyor boʻlishiga oz qolganda qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, kokos suti yoki issiq guruchli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing."
+        }
+      ],
+      "preparation": "Barglarini uzib oling va karri yoki lapshali shoʻrva tayyor boʻlishiga oz qolganda qoʻshing.",
+      "storage": "Poya uchlarini kesib, ozgina suvga tik qoʻying va toʻgʻri quyosh nuridan uzoqroq tuting. Barglarini quruq saqlang va tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "radish-microgreens": {
+    "source": "ca5b8b8c",
+    "name": "Rediska mikrozeleni",
+    "description": "Qalampirdek aniq achchiqlikka ega qarsildoq kichik maysalar.",
+    "uses": [
+      "Tako",
+      "salatlar",
+      "kosa taomlari"
+    ],
+    "details": {
+      "tagline": "Tako. Salatlar. Kosa taomlari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qalampirdek aniq achchiqlikka ega qarsildoq kichik maysalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rediska mikrozelenini tako, salatlar va kosa taomlari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "beefsteak-tomatoes": {
+    "source": "6102074f",
+    "name": "Bifshteks pomidor",
+    "description": "Qalin tilimlar va souslar uchun yirik pomidorlar.",
+    "uses": [
+      "Sendvichlar",
+      "salatlar",
+      "souslar"
+    ],
+    "details": {
+      "tagline": "Sendvichlar. Salatlar. Souslar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qalin tilimlar va souslar uchun yirik pomidorlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bifshteks pomidorni sendvichlar, salatlar va souslar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Band oʻrnidagi qattiq qismini olib tashlang va sendvich yoki salatlar uchun qalin tilimlab kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Sharbati etida qolishi uchun oʻtkir pichoq bilan kesing. Tortishdan biroz oldin tuz va ziravor seping."
+        }
+      ],
+      "preparation": "Band oʻrnidagi qattiq qismini olib tashlang va sendvich yoki salatlar uchun qalin tilimlab kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "C vitamini",
+          "text": "Xilma-xil ratsion tarkibida C vitamini isteʼmoliga hissa qoʻshadi."
+        },
+        {
+          "title": "Butun mahsulot",
+          "text": "Tuzilishi va kletchatkasi uchun yeyiladigan eti va poʻstini ham ishlating."
+        },
+        {
+          "title": "Tayyorlash usuli muhim",
+          "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        }
+      ]
+    }
+  },
+  "celery": {
+    "source": "a8c1355e",
+    "name": "Selderey",
+    "description": "Yangi qarsildoqlik yoki mazali asos uchun qarsildoq, xushboʻy poyalar.",
+    "uses": [
+      "Shoʻrvalar",
+      "bulyonlar",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Bulyonlar. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi qarsildoqlik yoki mazali asos uchun qarsildoq, xushboʻy poyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Seldereyni shoʻrvalar, bulyonlar va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Poyalar orasini yuving, pastki qismini kesib, toʻgʻrang. Barglarini bulyonga yoki bezakka ishlating."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sabzi, piyoz, loviya yoki olma bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Shoʻrva asosi uchun mayda toʻgʻrang yoki salat qarsildoq boʻlishi uchun poyalarni koʻndalangiga kesing."
+        }
+      ],
+      "preparation": "Poyalar orasini yuving, pastki qismini kesib, toʻgʻrang. Barglarini bulyonga yoki bezakka ishlating.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "viola-flowers": {
+    "source": "57706c53",
+    "name": "Binafsha gullari",
+    "description": "Nafis rang beradigan kichik, nozik gullar.",
+    "uses": [
+      "Desert bezagi",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Desert bezagi. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Nafis rang beradigan kichik, nozik gullar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Binafsha gullarini desert bezagi va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan yuving, sochiqda quriting va tayyor taom ustiga qoʻying."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Isteʼmolga yaroqli bir nechta gul meva, yogurt yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Tortishdan sal oldin tayyor taom ustiga, issiq sous va quyuq salat souslaridan uzoqroq qoʻying."
+        }
+      ],
+      "preparation": "Isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan yuving, sochiqda quriting va tayyor taom ustiga qoʻying.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Kichik yakuniy bezak",
+      "nutrition": [
+        {
+          "title": "Bezak",
+          "text": "Rang va tuzilish uchun bir nechta gul yoki gulbargdan foydalaning."
+        },
+        {
+          "title": "Faqat isteʼmolga yaroqli",
+          "text": "Faqat oziq-ovqat uchun yetishtirilgan va shunday deb aniqlangan gullarni isteʼmol qiling."
+        },
+        {
+          "title": "Kichik porsiyalar",
+          "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        }
+      ]
+    }
+  },
+  "green-oakleaf-lettuce": {
+    "source": "c0dca06d",
+    "name": "Yashil eman bargli salat",
+    "description": "Aralash salat uchun juda mos, yengil va chuqur oʻyilgan barglar.",
+    "uses": [
+      "Salat aralashmalari",
+      "sendvichlar"
+    ],
+    "details": {
+      "tagline": "Salat aralashmalari. Sendvichlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Aralash salat uchun juda mos, yengil va chuqur oʻyilgan barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Yashil eman bargli salatni salat aralashmalari va sendvichlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving, yaxshilab quriting va sous quyishdan sal oldin salatga qoʻlda uzib soling."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving, yaxshilab quriting va sous quyishdan sal oldin salatga qoʻlda uzib soling.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "holy-basil": {
+    "source": "9b51a491",
+    "name": "Tulsi rayhoni",
+    "description": "Damlangan ichimliklar va baʼzi mintaqaviy taomlar uchun kichik, xushboʻy tulsi barglari.",
+    "uses": [
+      "Damlangan ichimliklar",
+      "mintaqaviy taomlar"
+    ],
+    "details": {
+      "tagline": "Damlangan ichimliklar. Mintaqaviy taomlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Damlangan ichimliklar va baʼzi mintaqaviy taomlar uchun kichik, xushboʻy tulsi barglari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tulsi rayhonini damlangan ichimliklar va mintaqaviy taomlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni yuving va damlangan ichimlik yoki pishirilgan taomga ozgina qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, kokos suti yoki issiq guruchli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing."
+        }
+      ],
+      "preparation": "Barglarni yuving va damlangan ichimlik yoki pishirilgan taomga ozgina qoʻshing.",
+      "storage": "Poya uchlarini kesib, ozgina suvga tik qoʻying va toʻgʻri quyosh nuridan uzoqroq tuting. Barglarini quruq saqlang va tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "pea-shoots": {
+    "source": "ae37c735",
+    "name": "Koʻk noʻxat maysalari",
+    "description": "Yangi koʻk noʻxat taʼmiga ega nozik poya va barglar.",
+    "uses": [
+      "Salatlar",
+      "sendvichlar",
+      "tez qovurmalar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Tez qovurmalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi koʻk noʻxat taʼmiga ega nozik poya va barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Koʻk noʻxat maysalarini salatlar, sendvichlar va tez qovurmalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "plum-tomatoes": {
+    "source": "2e9abfe9",
+    "name": "Choʻzinchoq pomidor",
+    "description": "Past olovda uzoq pishirishga juda mos, pishiq va etli pomidorlar.",
+    "uses": [
+      "Souslar",
+      "pechda pishirish",
+      "shoʻrvalar"
+    ],
+    "details": {
+      "tagline": "Souslar. Pechda pishirish. Shoʻrvalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Past olovda uzoq pishirishga juda mos, pishiq va etli pomidorlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Choʻzinchoq pomidorni souslar, pechda pishirish va shoʻrvalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Band oʻrnidagi qattiq qismini olib tashlang. Sous uchun toʻgʻrab, past olovda qaynating yoki pechda pishirishdan oldin teng ikkiga kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Toʻgʻralgan pomidorni sous siz istagan quyuqlikka yetguncha past olovda qaynating."
+        }
+      ],
+      "preparation": "Band oʻrnidagi qattiq qismini olib tashlang. Sous uchun toʻgʻrab, past olovda qaynating yoki pechda pishirishdan oldin teng ikkiga kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "C vitamini",
+          "text": "Xilma-xil ratsion tarkibida C vitamini isteʼmoliga hissa qoʻshadi."
+        },
+        {
+          "title": "Butun mahsulot",
+          "text": "Tuzilishi va kletchatkasi uchun yeyiladigan eti va poʻstini ham ishlating."
+        },
+        {
+          "title": "Tayyorlash usuli muhim",
+          "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        }
+      ]
+    }
+  },
+  "radish": {
+    "source": "5b6e09ca",
+    "name": "Rediska",
+    "description": "Qalampirdek yoqimli achchiqlikka ega qarsildoq ildizmevalar.",
+    "uses": [
+      "Salatlar",
+      "tuzlamalar",
+      "pechda pishirish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Tuzlamalar. Pechda pishirish.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qalampirdek yoqimli achchiqlikka ega qarsildoq ildizmevalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rediskani salatlar, tuzlamalar va pechda pishirish uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving, uchlarini kesing va yupqa tilimlang. Yumshoqroq va mayinroq taʼm uchun teng ikkiga kesib, pechda pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, yogurt, saryogʻ yoki ozgina limon bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Qarsildoq qoʻshimcha uchun juda yupqa tilimlang yoki achchiqligini yumshatish uchun teng ikkiga kesib, pechda pishiring."
+        }
+      ],
+      "preparation": "Ishqalab yuving, uchlarini kesing va yupqa tilimlang. Yumshoqroq va mayinroq taʼm uchun teng ikkiga kesib, pechda pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "pansy-flowers": {
+    "source": "a48c1533",
+    "name": "Bogʻ binafshasi gullari",
+    "description": "Taomga nozik yakuniy bezak beradigan keng, rang-barang gullar.",
+    "uses": [
+      "Tort bezagi",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Tort bezagi. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Taomga nozik yakuniy bezak beradigan keng, rang-barang gullar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bogʻ binafshasi gullarini tort bezagi va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan ushlang va tortishdan sal oldin salat yoki tortlarga qoʻying."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Isteʼmolga yaroqli bir nechta gul meva, yogurt yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Tortishdan sal oldin tayyor taom ustiga, issiq sous va quyuq salat souslaridan uzoqroq qoʻying."
+        }
+      ],
+      "preparation": "Isteʼmolga yaroqli gullardan foydalaning. Ehtiyotkorlik bilan ushlang va tortishdan sal oldin salat yoki tortlarga qoʻying.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Kichik yakuniy bezak",
+      "nutrition": [
+        {
+          "title": "Bezak",
+          "text": "Rang va tuzilish uchun bir nechta gul yoki gulbargdan foydalaning."
+        },
+        {
+          "title": "Faqat isteʼmolga yaroqli",
+          "text": "Faqat oziq-ovqat uchun yetishtirilgan va shunday deb aniqlangan gullarni isteʼmol qiling."
+        },
+        {
+          "title": "Kichik porsiyalar",
+          "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        }
+      ]
+    }
+  },
+  "red-oakleaf-lettuce": {
+    "source": "b9c52f5d",
+    "name": "Qizil eman bargli salat",
+    "description": "Bronza-qizil barglar yangi taomlarga yumshoq tuzilish va rang qoʻshadi.",
+    "uses": [
+      "Aralash salatlar",
+      "taomni bezash"
+    ],
+    "details": {
+      "tagline": "Aralash salatlar. Taomni bezash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Bronza-qizil barglar yangi taomlarga yumshoq tuzilish va rang qoʻshadi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Qizil eman bargli salatni aralash salatlar va taomni bezash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Nozik barglarni butunligicha qoldiring. Sousni tortishdan sal oldin quying."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Nozik barglarni butunligicha qoldiring. Sousni tortishdan sal oldin quying.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "mint": {
+    "source": "0b72d3fa",
+    "name": "Yalpiz",
+    "description": "Yorqin taʼmli chatnilar va ichimliklar uchun salqinlik beruvchi yangi barglar.",
+    "uses": [
+      "Chatnilar",
+      "raita",
+      "ichimliklar"
+    ],
+    "details": {
+      "tagline": "Chatnilar. Raita. Ichimliklar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yorqin taʼmli chatnilar va ichimliklar uchun salqinlik beruvchi yangi barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Yalpizni chatnilar, raita va ichimliklar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarini uzib, yuving. Raita, chatni yoki ichimliklarga qoʻshishdan sal oldin toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, yogurt, koʻk noʻxat yoki yangi laym bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Tortishdan sal oldin toʻgʻrang. Yangi va salqin taʼmini his qilish uchun sovigan taomga ohista aralashtiring."
+        }
+      ],
+      "preparation": "Barglarini uzib, yuving. Raita, chatni yoki ichimliklarga qoʻshishdan sal oldin toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "sunflower-shoots": {
+    "source": "1f2b125f",
+    "name": "Kungaboqar maysalari",
+    "description": "Yongʻoqqa oʻxshash taʼmli, qarsildoq va yirikroq yosh maysalar.",
+    "uses": [
+      "Salatlar",
+      "rollar",
+      "kosa taomlari"
+    ],
+    "details": {
+      "tagline": "Salatlar. Rollar. Kosa taomlari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yongʻoqqa oʻxshash taʼmli, qarsildoq va yirikroq yosh maysalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kungaboqar maysalarini salatlar, rollar va kosa taomlari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "cucumber": {
+    "source": "2d71685e",
+    "name": "Bodring",
+    "description": "Yumshoq taʼmli, qarsildoq va tetiklashtiruvchi sabzavot.",
+    "uses": [
+      "Salatlar",
+      "raita",
+      "tuzlash"
+    ],
+    "details": {
+      "tagline": "Salatlar. Raita. Tuzlash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yumshoq taʼmli, qarsildoq va tetiklashtiruvchi sabzavot."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bodringni salatlar, raita va tuzlash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving, uchlarini kesing va tilimlang yoki kubik shaklida toʻgʻrang. Yumshoqroq boʻlishini istasangizgina poʻstini arching."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yalpiz, yogurt, pomidor yoki ozgina laym bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Raita quyuqroq boʻlishi uchun qirgʻichdan chiqarilgan bodringni yogurtga aralashtirishdan oldin ortiqcha suvini siqib oling."
+        }
+      ],
+      "preparation": "Yuving, uchlarini kesing va tilimlang yoki kubik shaklida toʻgʻrang. Yumshoqroq boʻlishini istasangizgina poʻstini arching.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "beetroot": {
+    "source": "2dd8dced",
+    "name": "Lavlagi",
+    "description": "Pishirish yoki tuzlash uchun shirin, tuproqsimon taʼmli ildizmevalar.",
+    "uses": [
+      "Pechda pishirish",
+      "salatlar",
+      "tuzlamalar"
+    ],
+    "details": {
+      "tagline": "Pechda pishirish. Salatlar. Tuzlamalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Pishirish yoki tuzlash uchun shirin, tuproqsimon taʼmli ildizmevalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Lavlagini pechda pishirish, salatlar va tuzlamalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving va yumshaguncha pishiring, soʻng xohlasangiz poʻstini arching. Dogʻ tushmasligi uchun fartuk taqing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Apelsin, shivit, yogurt yoki yongʻoq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ranglar aralashib ketmasligini istasangiz, och rangli masalliqlardan alohida pishiring."
+        }
+      ],
+      "preparation": "Ishqalab yuving va yumshaguncha pishiring, soʻng xohlasangiz poʻstini arching. Dogʻ tushmasligi uchun fartuk taqing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "calendula-petals": {
+    "source": "ce6e877b",
+    "name": "Tirnoqgul gulbarglari",
+    "description": "Yengil gul nafosatini beradigan tillarang gulbarglar.",
+    "uses": [
+      "Salatlar",
+      "guruchli taomlar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Salatlar. Guruchli taomlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil gul nafosatini beradigan tillarang gulbarglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirnoqgul gulbarglarini salatlar, guruchli taomlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Guruchli taom yoki salatlarni bezash uchun gul asosidan ajratilgan, isteʼmolga yaroqli gulbarglardan foydalaning."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Gulbarglarni guruch, yumshoq pishloq yoki oddiy koʻkat salati ustiga seping."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Rangi likopchada koʻrinib turishi uchun gulbarglarni pishirib boʻlgach qoʻshing."
+        }
+      ],
+      "preparation": "Guruchli taom yoki salatlarni bezash uchun gul asosidan ajratilgan, isteʼmolga yaroqli gulbarglardan foydalaning.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Kichik yakuniy bezak",
+      "nutrition": [
+        {
+          "title": "Bezak",
+          "text": "Rang va tuzilish uchun bir nechta gul yoki gulbargdan foydalaning."
+        },
+        {
+          "title": "Faqat isteʼmolga yaroqli",
+          "text": "Faqat oziq-ovqat uchun yetishtirilgan va shunday deb aniqlangan gullarni isteʼmol qiling."
+        },
+        {
+          "title": "Kichik porsiyalar",
+          "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        }
+      ]
+    }
+  },
+  "lollo-rosso-lettuce": {
+    "source": "02f4f4c2",
+    "name": "Lollo rosso salati",
+    "description": "Jingalak qizil barglar yengil tuzilishga ega, taʼmi esa biroz taxir tugaydi.",
+    "uses": [
+      "Salat aralashmalari",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Salat aralashmalari. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Jingalak qizil barglar yengil tuzilishga ega, taʼmi esa biroz taxir tugaydi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Lollo rosso salatini salat aralashmalari va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Jingalak barglarni mayda boʻlaklarga uzing va yumshoqroq taʼmli salat barglari bilan aralashtiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Jingalak barglarni mayda boʻlaklarga uzing va yumshoqroq taʼmli salat barglari bilan aralashtiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "coriander": {
+    "source": "9c2c6566",
+    "name": "Kashnich",
+    "description": "Sitrusga oʻxshash oʻziga xos ifor taratuvchi yangi kashnich barglari va nozik poyalari.",
+    "uses": [
+      "Chatnilar",
+      "karri taomlari",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Chatnilar. Karri taomlari. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Sitrusga oʻxshash oʻziga xos ifor taratuvchi yangi kashnich barglari va nozik poyalari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kashnichni chatnilar, karri taomlari va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglar va nozik poyalarni yaxshilab yuving. Chatni yoki yakuniy bezak uchun ikkalasini ham toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Laym, pomidor, yasmiq yoki koʻk achchiq qalampir bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Nozik poyalarini chatnilarga ishlating, bargli uchlarini esa taomni yakunlash uchun qoldiring."
+        }
+      ],
+      "preparation": "Barglar va nozik poyalarni yaxshilab yuving. Chatni yoki yakuniy bezak uchun ikkalasini ham toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "mustard-microgreens": {
+    "source": "7bc39786",
+    "name": "Xantal mikrozeleni",
+    "description": "Xantalga xos kuchli oʻtkirlikka ega kichik barglar.",
+    "uses": [
+      "Sendvichlar",
+      "bezak",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Sendvichlar. Bezak. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Xantalga xos kuchli oʻtkirlikka ega kichik barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Xantal mikrozelenini sendvichlar, bezak va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "bell-peppers": {
+    "source": "df9c2c48",
+    "name": "Bulgʻor qalampiri",
+    "description": "Taomga rang va qarsildoqlik qoʻshadigan qalin etli shirin qalampirlar.",
+    "uses": [
+      "Salatlar",
+      "dolma",
+      "pechda pishirish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Dolma. Pechda pishirish.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Taomga rang va qarsildoqlik qoʻshadigan qalin etli shirin qalampirlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bulgʻor qalampirini salatlar, dolma va pechda pishirish uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Bandi, urugʻlari va oq tomirlarini olib tashlang. Salat uchun tilimlang yoki dolma uchun teng ikkiga kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pomidor, piyoz, loviya yoki guruchli ichlik bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pechda pishirish uchun keng boʻlaklarga, tovada tez pishirish uchun esa ingichka somonchalarga kesing."
+        }
+      ],
+      "preparation": "Bandi, urugʻlari va oq tomirlarini olib tashlang. Salat uchun tilimlang yoki dolma uchun teng ikkiga kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "C vitamini",
+          "text": "Xilma-xil ratsion tarkibida C vitamini isteʼmoliga hissa qoʻshadi."
+        },
+        {
+          "title": "Butun mahsulot",
+          "text": "Tuzilishi va kletchatkasi uchun yeyiladigan eti va poʻstini ham ishlating."
+        },
+        {
+          "title": "Tayyorlash usuli muhim",
+          "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        }
+      ]
+    }
+  },
+  "carrot": {
+    "source": "4cf54e65",
+    "name": "Sabzi",
+    "description": "Mayin shirinlikka ega qarsildoq ildizmevalar.",
+    "uses": [
+      "Salatlar",
+      "pechda pishirish",
+      "shoʻrvalar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Pechda pishirish. Shoʻrvalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Mayin shirinlikka ega qarsildoq ildizmevalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Sabzini salatlar, pechda pishirish va shoʻrvalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving yoki poʻstini arching, uchlarini kesing va pechda pishirish yoki shoʻrva uchun bir xil boʻlaklarga toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zira, zanjabil, sitrus mevalar yoki noʻxat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pechda pishirish uchun bir xil kattalikda kesing yoki xom salatda yumshoqroq boʻlishi uchun mayda qirgʻichdan chiqaring."
+        }
+      ],
+      "preparation": "Ishqalab yuving yoki poʻstini arching, uchlarini kesing va pechda pishirish yoki shoʻrva uchun bir xil boʻlaklarga toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "Beta-karotin",
+          "text": "Organizm A vitaminiga aylantira oladigan toʻq sariq rangli oʻsimlik pigmenti."
+        },
+        {
+          "title": "Kletchatka",
+          "text": "Kletchatkasi uchun sabzini butunicha taomda ishlating."
+        },
+        {
+          "title": "Xom yoki pishirilgan",
+          "text": "Salatlarga qirgʻichdan chiqarib qoʻshing yoki yumshaguncha pishiring."
+        }
+      ]
+    }
+  },
+  "borage-flowers": {
+    "source": "8c301c91",
+    "name": "Boraj gullari",
+    "description": "Bodringni eslatuvchi yumshoq taʼmli kichik moviy gullar.",
+    "uses": [
+      "Vaqti-vaqti bilan bezak"
+    ],
+    "details": {
+      "tagline": "Vaqti-vaqti bilan bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Bodringni eslatuvchi yumshoq taʼmli kichik moviy gullar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Boraj gullarini vaqti-vaqti bilan bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Isteʼmolga yaroqli gullarni har kungi sabzavot porsiyasi sifatida emas, faqat vaqti-vaqti bilan kichik bezak sifatida ishlating."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring salati yoki sovuq ichimlikni bezash uchun isteʼmolga yaroqli bir nechta guldan foydalaning."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Uni faqat vaqti-vaqti bilan kichik bezak sifatida ishlating; bir kosa gulni sabzavot porsiyasi oʻrnida isteʼmol qilmang."
+        }
+      ],
+      "preparation": "Isteʼmolga yaroqli gullarni har kungi sabzavot porsiyasi sifatida emas, faqat vaqti-vaqti bilan kichik bezak sifatida ishlating.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Kichik yakuniy bezak",
+      "nutrition": [
+        {
+          "title": "Bezak",
+          "text": "Rang va tuzilish uchun bir nechta gul yoki gulbargdan foydalaning."
+        },
+        {
+          "title": "Faqat isteʼmolga yaroqli",
+          "text": "Faqat oziq-ovqat uchun yetishtirilgan va shunday deb aniqlangan gullarni isteʼmol qiling."
+        },
+        {
+          "title": "Kichik porsiyalar",
+          "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        }
+      ]
+    }
+  },
+  "lollo-bionda-lettuce": {
+    "source": "30e8376e",
+    "name": "Lollo bionda salati",
+    "description": "Jingalak yashil barglar oddiy souslar uchun yengil va qarsildoq asos boʻladi.",
+    "uses": [
+      "Salatlar",
+      "sendvichlar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Jingalak yashil barglar oddiy souslar uchun yengil va qarsildoq asos boʻladi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Lollo bionda salatini salatlar va sendvichlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Sous barglar orasida toʻplanib qolmasligi uchun jingalak barglarni yuving va yaxshilab quriting."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Sous barglar orasida toʻplanib qolmasligi uchun jingalak barglarni yuving va yaxshilab quriting.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "flat-leaf-parsley": {
+    "source": "0546d0e1",
+    "name": "Yassi bargli petrushka",
+    "description": "Yangi oʻt taʼmli, soʻngida toza taʼm qoldiradigan barglar.",
+    "uses": [
+      "Tabule",
+      "souslar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Tabule. Souslar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi oʻt taʼmli, soʻngida toza taʼm qoldiradigan barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Yassi bargli petrushkani tabule, souslar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Salat va souslar uchun barglar va nozik poyalarni yuving, quriting va mayda toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi."
+        }
+      ],
+      "preparation": "Salat va souslar uchun barglar va nozik poyalarni yuving, quriting va mayda toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "red-cabbage-microgreens": {
+    "source": "a4faaf55",
+    "name": "Qizil karam mikrozeleni",
+    "description": "Karamga xos yumshoq taʼmli, binafsharang poyali yosh barglar.",
+    "uses": [
+      "Salatlar",
+      "kosa taomlari",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Salatlar. Kosa taomlari. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Karamga xos yumshoq taʼmli, binafsharang poyali yosh barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Qizil karam mikrozelenini salatlar, kosa taomlari va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "green-chillies": {
+    "source": "fbe5364c",
+    "name": "Koʻk achchiq qalampir",
+    "description": "Achchiqlik va yorqin taʼm beradigan yangi qalampirlar.",
+    "uses": [
+      "Karri taomlari",
+      "chatnilar",
+      "tuzlamalar"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Chatnilar. Tuzlamalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Achchiqlik va yorqin taʼm beradigan yangi qalampirlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Koʻk achchiq qalampirni karri taomlari, chatnilar va tuzlamalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Bandini kesib, ehtiyotkorlik bilan toʻgʻrang. Asta-sekin qoʻshing; ishlov bergach, qoʻlingizni yuving."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Kashnich, laym, pomidor yoki yogurt bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Oz-ozdan qoʻshib, taomni tatib koʻring. Har bir qalampirning achchiqligi turlicha boʻlishi mumkin."
+        }
+      ],
+      "preparation": "Bandini kesib, ehtiyotkorlik bilan toʻgʻrang. Asta-sekin qoʻshing; ishlov bergach, qoʻlingizni yuving.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "ginger": {
+    "source": "96aa67e0",
+    "name": "Zanjabil",
+    "description": "Iliq va oʻtkir taʼmli xushboʻy ildizpoyalar.",
+    "uses": [
+      "Karri taomlari",
+      "damlangan ichimliklar",
+      "marinadlar"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Damlangan ichimliklar. Marinadlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Iliq va oʻtkir taʼmli xushboʻy ildizpoyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Zanjabilni karri taomlari, damlangan ichimliklar va marinadlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving yoki poʻstini yupqa arching, soʻng qirgʻichdan chiqaring, mayda toʻgʻrang yoki tolalariga koʻndalang kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sarimsoq, laym, sabzi yoki kokos suti bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir tekis mayin taʼm uchun qirgʻichdan chiqaring; pishirgandan keyin zanjabilni olib tashlamoqchi boʻlsangiz, yupqa tilimlang."
+        }
+      ],
+      "preparation": "Ishqalab yuving yoki poʻstini yupqa arching, soʻng qirgʻichdan chiqaring, mayda toʻgʻrang yoki tolalariga koʻndalang kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "iceberg-lettuce": {
+    "source": "a81591b3",
+    "name": "Aysberg salati",
+    "description": "Toza taʼmi va qarsildoq barglari bilan mashhur, zich boshli salat.",
+    "uses": [
+      "Boʻlakli salatlar",
+      "rollar",
+      "burgerlar"
+    ],
+    "details": {
+      "tagline": "Boʻlakli salatlar. Rollar. Burgerlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Toza taʼmi va qarsildoq barglari bilan mashhur, zich boshli salat."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Aysberg salatini boʻlakli salatlar, rollar va burgerlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Oʻzagini olib tashlang, barglarni yuving va katta boʻlaklarga yoki ingichka somoncha qilib kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang."
+        }
+      ],
+      "preparation": "Oʻzagini olib tashlang, barglarni yuving va katta boʻlaklarga yoki ingichka somoncha qilib kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "curly-parsley": {
+    "source": "6f8fa57e",
+    "name": "Jingalak petrushka",
+    "description": "Jingalak barglar taomga tuzilish va mayin koʻkat taʼmini qoʻshadi.",
+    "uses": [
+      "Bezak",
+      "salatlar",
+      "koʻkatli saryogʻ"
+    ],
+    "details": {
+      "tagline": "Bezak. Salatlar. Koʻkatli saryogʻ.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Jingalak barglar taomga tuzilish va mayin koʻkat taʼmini qoʻshadi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Jingalak petrushkani bezak, salatlar va koʻkatli saryogʻ uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Jingalak barglar orasini yuving va saryogʻ yoki bezak uchun toʻgʻrashdan oldin quriting."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi."
+        }
+      ],
+      "preparation": "Jingalak barglar orasini yuving va saryogʻ yoki bezak uchun toʻgʻrashdan oldin quriting.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "kale-microgreens": {
+    "source": "23032e4b",
+    "name": "Keyl mikrozeleni",
+    "description": "Taomni mayin yashil rang bilan yakunlaydigan nozik yosh keyl barglari.",
+    "uses": [
+      "Sendvichlar",
+      "salatlar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Sendvichlar. Salatlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Taomni mayin yashil rang bilan yakunlaydigan nozik yosh keyl barglari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Keyl mikrozelenini sendvichlar, salatlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "jalapeno-peppers": {
+    "source": "50d02da7",
+    "name": "Xalapenyo qalampiri",
+    "description": "Oʻziga xos taʼmli, achchiqligi turlicha boʻladigan pishiq qalampirlar.",
+    "uses": [
+      "Salsalar",
+      "tuzlash",
+      "dolma"
+    ],
+    "details": {
+      "tagline": "Salsalar. Tuzlash. Dolma.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Oʻziga xos taʼmli, achchiqligi turlicha boʻladigan pishiq qalampirlar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Xalapenyo qalampirini salsalar, tuzlash va dolma uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Bandini olib tashlang va tilimlang. Taom yumshoqroq boʻlishi uchun urugʻlari va ichki tomirlarini olib tashlang; ishlov bergach, qoʻlingizni yuving."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pomidor, laym, loviya yoki yumshoq pishloqli ichlik bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Achchiqlik bir tishlamda toʻplanib qolmay, salsa yoki sendvich boʻylab tarqalishi uchun yupqa tilimlang."
+        }
+      ],
+      "preparation": "Bandini olib tashlang va tilimlang. Taom yumshoqroq boʻlishi uchun urugʻlari va ichki tomirlarini olib tashlang; ishlov bergach, qoʻlingizni yuving.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "turmeric": {
+    "source": "3dd538ed",
+    "name": "Zarchava",
+    "description": "Tuproqsimon, biroz taxir taʼmli, yorqin rangli ildizpoyalar.",
+    "uses": [
+      "Karri taomlari",
+      "tuzlamalar",
+      "taom pishirish"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Tuzlamalar. Taom pishirish.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tuproqsimon, biroz taxir taʼmli, yorqin rangli ildizpoyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Zarchavani karri taomlari, tuzlamalar va taom pishirish uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving yoki poʻstini yupqa arching va pishayotgan taomga qirgʻichdan chiqarib qoʻshing. Kuchli rangidan yuzalarni asrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, kokos suti, yasmiq yoki gulkaram bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Oz miqdordan boshlang va tatib koʻring. Rangi dogʻ qoldirishi mumkin, shuning uchun yuviladigan yuza ustida qirgʻichdan chiqaring."
+        }
+      ],
+      "preparation": "Ishqalab yuving yoki poʻstini yupqa arching va pishayotgan taomga qirgʻichdan chiqarib qoʻshing. Kuchli rangidan yuzalarni asrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "arugula": {
+    "source": "113e1546",
+    "name": "Rukkola",
+    "description": "Yangi salat yoki tayyor pitsaga yengil achchiqlik beradigan, qalampirdek taʼmli barglar.",
+    "uses": [
+      "Salatlar",
+      "pitsa",
+      "pesto"
+    ],
+    "details": {
+      "tagline": "Salatlar. Pitsa. Pesto.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi salat yoki tayyor pitsaga yengil achchiqlik beradigan, qalampirdek taʼmli barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rukkolani salatlar, pitsa va pesto uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving va quriting. Pitsa pishgach ustiga qoʻying yoki eng soʻnggi daqiqada salatga qoʻshib aralashtiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq barglar nok, yongʻoq, pomidor yoki yupqa kesilgan pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pitsa pishgach ustiga seping yoki tortishdan sal oldin iliq pastaga ohista aralashtiring."
+        }
+      ],
+      "preparation": "Yuving va quriting. Pitsa pishgach ustiga qoʻying yoki eng soʻnggi daqiqada salatga qoʻshib aralashtiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "dill": {
+    "source": "37344873",
+    "name": "Shivit",
+    "description": "Arpabodiyonga oʻxshash yorqin iforli, ingichka patsimon barglar.",
+    "uses": [
+      "Tuzlamalar",
+      "kartoshka taomlari",
+      "salat souslari"
+    ],
+    "details": {
+      "tagline": "Tuzlamalar. Kartoshka taomlari. Salat souslari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Arpabodiyonga oʻxshash yorqin iforli, ingichka patsimon barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Shivitni tuzlamalar, kartoshka taomlari va salat souslari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ingichka barglarini kartoshka, yogurt yoki sousga qoʻshishdan sal oldin qaychida qirqing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, kartoshka, yogurt yoki limon bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Tayyor taom ustiga qaychida qirqib seping yoki tortishdan sal oldin sovuq sousga aralashtiring."
+        }
+      ],
+      "preparation": "Ingichka barglarini kartoshka, yogurt yoki sousga qoʻshishdan sal oldin qaychida qirqing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "arugula-microgreens": {
+    "source": "2a58d288",
+    "name": "Rukkola mikrozeleni",
+    "description": "Rukkolaga xos tanish achchiqroq taʼmli ingichka barglar.",
+    "uses": [
+      "Pitsa",
+      "pasta",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Pitsa. Pasta. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Rukkolaga xos tanish achchiqroq taʼmli ingichka barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rukkola mikrozelenini pitsa, pasta va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "strawberries": {
+    "source": "b1c7e0cf",
+    "name": "Qulupnay",
+    "description": "Shundayligicha yeyish va oddiy desertlar uchun xushboʻy, yumshoq rezavor.",
+    "uses": [
+      "Tamaddi",
+      "desertlar",
+      "murabbolar"
+    ],
+    "details": {
+      "tagline": "Tamaddi. Desertlar. Murabbolar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Shundayligicha yeyish va oddiy desertlar uchun xushboʻy, yumshoq rezavor."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Qulupnayni tamaddi, desertlar va murabbolar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yeyishdan sal oldin yuving, soʻng yashil bandlarini olib tashlang. Desertlar uchun sochiqda quriting."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yogurt, rayhon, yalpiz yoki ozgina qirgʻichdan chiqarilgan limon poʻsti bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Tortishdan sal oldin tilimlang yoki tezkor qoʻshimcha uchun bir nechta rezavorni ohista ezing."
+        }
+      ],
+      "preparation": "Yeyishdan sal oldin yuving, soʻng yashil bandlarini olib tashlang. Desertlar uchun sochiqda quriting.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "C vitamini",
+          "text": "Xilma-xil ratsion tarkibida C vitamini isteʼmoliga hissa qoʻshadi."
+        },
+        {
+          "title": "Butun mahsulot",
+          "text": "Tuzilishi va kletchatkasi uchun yeyiladigan eti va poʻstini ham ishlating."
+        },
+        {
+          "title": "Tayyorlash usuli muhim",
+          "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        }
+      ]
+    }
+  },
+  "potato": {
+    "source": "54313611",
+    "name": "Kartoshka",
+    "description": "Taom pishirish uchun koʻp maqsadli tuganaklar; aeroponik koʻpaytirishda ham maxsus qoʻllaniladi.",
+    "uses": [
+      "Pechda pishirish",
+      "qaynatish",
+      "pyure"
+    ],
+    "details": {
+      "tagline": "Pechda pishirish. Qaynatish. Pyure.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Taom pishirish uchun koʻp maqsadli tuganaklar; aeroponik koʻpaytirishda ham maxsus qoʻllaniladi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kartoshkani pechda pishirish, qaynatish va pyure uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ishqalab yuving, oʻsimtalari va yashil joylarini olib tashlang va yaxshilab pishiring. Juda yashil yoki taxir kartoshkalarni tashlab yuboring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Rozmarin, sarimsoq, koʻk noʻxat yoki yogurtli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Qaynatish uchun bir xil boʻlaklarga kesing; pechda pishirganda qirralari qarsildoq boʻlishi uchun boʻlaklar orasida joy qoldiring."
+        }
+      ],
+      "preparation": "Ishqalab yuving, oʻsimtalari va yashil joylarini olib tashlang va yaxshilab pishiring. Juda yashil yoki taxir kartoshkalarni tashlab yuboring.",
+      "storage": "Salqin, qorongʻi va shamollatiladigan joyda, piyozdan alohida saqlang.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "spinach": {
+    "source": "8f3597fa",
+    "name": "Ismaloq",
+    "description": "Yangi kosa taomlari yoki tez va yengil pishirish uchun koʻp maqsadli yashil barglar.",
+    "uses": [
+      "Salatlar",
+      "dal",
+      "yengil qovurilgan koʻkatlar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Dal. Yengil qovurilgan koʻkatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi kosa taomlari yoki tez va yengil pishirish uchun koʻp maqsadli yashil barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Ismaloqni salatlar, dal va yengil qovurilgan koʻkatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yaxshilab yuving. Nozik barglarni xomligicha ishlating yoki dalga yoxud qizigan tovaga solib, qisqa vaqt soʻlitib oling."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Noʻxat, panir, sarimsoq yoki bir necha tomchi limon sharbati bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishishiga oz qolganda dal yoki shoʻrvaga aralashtiring. Barglar tez soʻliydi va qozonda kam joy egallaydi."
+        }
+      ],
+      "preparation": "Yaxshilab yuving. Nozik barglarni xomligicha ishlating yoki dalga yoxud qizigan tovaga solib, qisqa vaqt soʻlitib oling.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "K vitamini",
+          "text": "Tabiiy uchraydigan, qonning normal ivishida ishtirok etadigan ozuqa moddasi."
+        },
+        {
+          "title": "Provitamin A",
+          "text": "Organizm A vitaminiga aylantira oladigan oʻsimlik karotinoidlari."
+        },
+        {
+          "title": "Folat",
+          "text": "Yangi hujayralar hosil boʻlishida ishtirok etadigan B guruhi vitamini."
+        },
+        {
+          "title": "Kaliy",
+          "text": "Mushaklar va nervlarning normal ishlashida ishtirok etadigan mineral."
+        }
+      ]
+    }
+  },
+  "chives": {
+    "source": "731986ca",
+    "name": "Shnitt piyoz",
+    "description": "Yumshoq piyoz taʼmli ingichka yashil barglar.",
+    "uses": [
+      "Tuxum taomlari",
+      "shoʻrvalar",
+      "dip souslar"
+    ],
+    "details": {
+      "tagline": "Tuxum taomlari. Shoʻrvalar. Dip souslar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yumshoq piyoz taʼmli ingichka yashil barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Shnitt piyozni tuxum taomlari, shoʻrvalar va dip souslar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Toza qaychi bilan kalta boʻlaklarga qirqing va tayyor taom ustiga seping."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Kartoshka, tuxum, qaymoqli pishloq yoki yogurtli dip sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Barglarni ezmasdan mayda va bir xil boʻlaklar qilish uchun toza qaychidan foydalaning."
+        }
+      ],
+      "preparation": "Toza qaychi bilan kalta boʻlaklarga qirqing va tayyor taom ustiga seping.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "beet-microgreens": {
+    "source": "5584ba7c",
+    "name": "Lavlagi mikrozeleni",
+    "description": "Tuproqsimon taʼmli, rangli poyalar va yosh barglar.",
+    "uses": [
+      "Salatlar",
+      "taomni bezash",
+      "sendvichlar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Taomni bezash. Sendvichlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tuproqsimon taʼmli, rangli poyalar va yosh barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Lavlagi mikrozelenini salatlar, taomni bezash va sendvichlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "eggplant": {
+    "source": "fa849444",
+    "name": "Baqlajon",
+    "description": "Pishirish paytida taʼmni yaxshi shimib oladigan, yumshoq etli sabzavot.",
+    "uses": [
+      "Karri taomlari",
+      "pechda pishirish",
+      "grilda pishirish"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Pechda pishirish. Grilda pishirish.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Pishirish paytida taʼmni yaxshi shimib oladigan, yumshoq etli sabzavot."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Baqlajonni karri taomlari, pechda pishirish va grilda pishirish uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Bandini kesib tashlang, bir xil boʻlaklarga kesing va eti butunlay yumshaguncha pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pomidor, sarimsoq, yogurt yoki taxina bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pechda pishirganda boʻlaklar orasida joy qoldiring. Patnis tiqilinch boʻlsa, boʻlaklar yumshoqroq, bugʻda pishgandek boʻladi."
+        }
+      ],
+      "preparation": "Bandini kesib tashlang, bir xil boʻlaklarga kesing va eti butunlay yumshaguncha pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "baby-kale": {
+    "source": "eec05bf9",
+    "name": "Yosh keyl",
+    "description": "Yetilgan barglarga qaraganda yumshoqroq tuzilishli yosh keyl barglari.",
+    "uses": [
+      "Salatlar",
+      "donli kosa taomlari",
+      "tez qovurmalar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Donli kosa taomlari. Tez qovurmalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yetilgan barglarga qaraganda yumshoqroq tuzilishli yosh keyl barglari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Yosh keylni salatlar, donli kosa taomlari va tez qovurmalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving va quriting. Nozik barglarni toʻgʻridan-toʻgʻri salatlar yoki iliq donli kosa taomlariga qoʻshib aralashtiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring."
+        }
+      ],
+      "preparation": "Yuving va quriting. Nozik barglarni toʻgʻridan-toʻgʻri salatlar yoki iliq donli kosa taomlariga qoʻshib aralashtiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "K vitamini",
+          "text": "Keyl tarkibida qonning normal ivishida ishtirok etadigan K vitamini bor."
+        },
+        {
+          "title": "Kletchatka",
+          "text": "Butun barglar taomga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Porsiya muhim",
+          "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        }
+      ]
+    }
+  },
+  "garlic-chives": {
+    "source": "40072a96",
+    "name": "Jusay",
+    "description": "Yengil sarimsoq taʼmli yassi barglar.",
+    "uses": [
+      "Chuchvara",
+      "qovurmalar",
+      "omletlar"
+    ],
+    "details": {
+      "tagline": "Chuchvara. Qovurmalar. Omletlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil sarimsoq taʼmli yassi barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Jusayni chuchvara, qovurmalar va omletlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yuving, uchlarini kesing va chuchvara qiymasi yoki tez qovurmalar uchun toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Qoʻziqorin, tofu, tuxum yoki chuchvara qiymasi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Qovurmalar uchun kalta boʻlaklarga kesing, qiymaga aralashtirish uchun esa mayda toʻgʻrang."
+        }
+      ],
+      "preparation": "Yuving, uchlarini kesing va chuchvara qiymasi yoki tez qovurmalar uchun toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "amaranth-microgreens": {
+    "source": "cbb2821d",
+    "name": "Amarant mikrozeleni",
+    "description": "Juda ingichka yosh barglar; qizil navlarida rangi yorqin boʻladi.",
+    "uses": [
+      "Bezak",
+      "salatlar",
+      "taomni bezash"
+    ],
+    "details": {
+      "tagline": "Bezak. Salatlar. Taomni bezash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Juda ingichka yosh barglar; qizil navlarida rangi yorqin boʻladi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Amarant mikrozelenini bezak, salatlar va taomni bezash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "zucchini": {
+    "source": "0faf3414",
+    "name": "Kabachok",
+    "description": "Yengil pishirish uchun nozik yozgi qovoq.",
+    "uses": [
+      "Grilda pishirish",
+      "yengil qovurmalar",
+      "pishiriqlar"
+    ],
+    "details": {
+      "tagline": "Grilda pishirish. Yengil qovurmalar. Pishiriqlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil pishirish uchun nozik yozgi qovoq."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kabachokni grilda pishirish, yengil qovurmalar va pishiriqlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Uchlarini kesing va bir xil qalinlikda tilimlang. Pishiqroq boʻlishi uchun qisqa, yumshoq boʻlishi uchun esa uzoqroq pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Limon, yalpiz, rayhon yoki ozgina qirgʻichdan chiqarilgan pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Grilda pishirish uchun qalinroq tilimlang, tez qovurish uchun esa mayda boʻlaklarga kesing."
+        }
+      ],
+      "preparation": "Uchlarini kesing va bir xil qalinlikda tilimlang. Pishiqroq boʻlishi uchun qisqa, yumshoq boʻlishi uchun esa uzoqroq pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "curly-kale": {
+    "source": "8f7b1dc8",
+    "name": "Jingalak keyl",
+    "description": "Toʻyimli taomlarda shaklini yaxshi saqlaydigan, gʻadir-budir yashil barglar.",
+    "uses": [
+      "Shoʻrvalar",
+      "yengil qovurmalar",
+      "keyl chipslari"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Yengil qovurmalar. Keyl chipslari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Toʻyimli taomlarda shaklini yaxshi saqlaydigan, gʻadir-budir yashil barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Jingalak keylni shoʻrvalar, yengil qovurmalar va keyl chipslari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Qalin poyalarini ajratib oling. Salat uchun toʻgʻralgan barglarni qoʻlda ezgilang yoki yumshaguncha pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring."
+        }
+      ],
+      "preparation": "Qalin poyalarini ajratib oling. Salat uchun toʻgʻralgan barglarni qoʻlda ezgilang yoki yumshaguncha pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "K vitamini",
+          "text": "Keyl tarkibida qonning normal ivishida ishtirok etadigan K vitamini bor."
+        },
+        {
+          "title": "Kletchatka",
+          "text": "Butun barglar taomga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Porsiya muhim",
+          "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        }
+      ]
+    }
+  },
+  "oregano": {
+    "source": "8cf92cff",
+    "name": "Oregano",
+    "description": "Iliq va kuchli koʻkat iforiga ega kichik barglar.",
+    "uses": [
+      "Pomidor souslari",
+      "pechda pishirish",
+      "marinadlar"
+    ],
+    "details": {
+      "tagline": "Pomidor souslari. Pechda pishirish. Marinadlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Iliq va kuchli koʻkat iforiga ega kichik barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Oreganoni pomidor souslari, pechda pishirish va marinadlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarini qattiq poyalardan ajratib oling. Toʻgʻrab, pomidor sousi yoki marinadlarga qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Barglarini qattiq poyalardan ajratib oling. Toʻgʻrab, pomidor sousi yoki marinadlarga qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "basil-microgreens": {
+    "source": "7bb75a9d",
+    "name": "Rayhon mikrozeleni",
+    "description": "Rayhonning aniq iforini taratadigan mitti xushboʻy barglar.",
+    "uses": [
+      "Pomidorli taomlar",
+      "shoʻrvalar",
+      "taomni bezash"
+    ],
+    "details": {
+      "tagline": "Pomidorli taomlar. Shoʻrvalar. Taomni bezash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Rayhonning aniq iforini taratadigan mitti xushboʻy barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rayhon mikrozelenini pomidorli taomlar, shoʻrvalar va taomni bezash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Xushboʻy maysalarni pomidor, guruch yoki bir kosa issiq shoʻrva bilan birga ishlating."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "source": "cb1da443",
+    "name": "Qovun",
+    "description": "Tilimlab yeyish va mevali taomlar uchun shirin, xushboʻy qovun.",
+    "uses": [
+      "Tilimlab yeyish",
+      "meva salatlari"
+    ],
+    "details": {
+      "tagline": "Tilimlab yeyish. Meva salatlari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tilimlab yeyish va mevali taomlar uchun shirin, xushboʻy qovun."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Qovunni tilimlab yeyish va meva salatlari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Kesishdan oldin poʻstini ishqalab yuving. Urugʻlarini olib tashlang, etini tilimlang va kesilgan boʻlaklarni sovutgichda saqlang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yalpiz, laym, yogurt yoki boshqa yangi mevalar bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Kosaga solish uchun bir luqmalik boʻlaklarga kesing va kesgach sovuting. Poʻstini dasturxonga tortiladigan idishga qoʻshmang."
+        }
+      ],
+      "preparation": "Kesishdan oldin poʻstini ishqalab yuving. Urugʻlarini olib tashlang, etini tilimlang va kesilgan boʻlaklarni sovutgichda saqlang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "lacinato-kale": {
+    "source": "4b96c6ec",
+    "name": "Toskana keyli",
+    "description": "Pishirish va toʻgʻralgan salatlar uchun pishiq tuzilishli, uzun toʻq yashil barglar.",
+    "uses": [
+      "Shoʻrvalar",
+      "dimlamalar",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Dimlamalar. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Pishirish va toʻgʻralgan salatlar uchun pishiq tuzilishli, uzun toʻq yashil barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Toskana keylini shoʻrvalar, dimlamalar va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Qattiq tomirlarini olib tashlang va shoʻrva yoki dimlamalar uchun barglarni ingichka toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring."
+        }
+      ],
+      "preparation": "Qattiq tomirlarini olib tashlang va shoʻrva yoki dimlamalar uchun barglarni ingichka toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Tabiiy ozuqa moddalari",
+      "nutrition": [
+        {
+          "title": "K vitamini",
+          "text": "Keyl tarkibida qonning normal ivishida ishtirok etadigan K vitamini bor."
+        },
+        {
+          "title": "Kletchatka",
+          "text": "Butun barglar taomga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Porsiya muhim",
+          "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        }
+      ]
+    }
+  },
+  "thyme": {
+    "source": "e9042f32",
+    "name": "Jambil",
+    "description": "Tuproqsimon, xushboʻy taʼmli mitti barglar.",
+    "uses": [
+      "Pechda pishirish",
+      "bulyonlar",
+      "souslar"
+    ],
+    "details": {
+      "tagline": "Pechda pishirish. Bulyonlar. Souslar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tuproqsimon, xushboʻy taʼmli mitti barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Jambilni pechda pishirish, bulyonlar va souslar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Mitti barglarini ajratib oling yoki butun novdasi bilan pishirib, tortishdan oldin qattiq poyasini olib tashlang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Mitti barglarini ajratib oling yoki butun novdasi bilan pishirib, tortishdan oldin qattiq poyasini olib tashlang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "coriander-microgreens": {
+    "source": "ed7ab488",
+    "name": "Kashnich mikrozeleni",
+    "description": "Quyuq koʻkat iforiga ega yosh kashnich barglari.",
+    "uses": [
+      "Tako",
+      "shoʻrvalar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Tako. Shoʻrvalar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Quyuq koʻkat iforiga ega yosh kashnich barglari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kashnich mikrozelenini tako, shoʻrvalar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Xushboʻy maysalarni pomidor, guruch yoki bir kosa issiq shoʻrva bilan birga ishlating."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "green-beans": {
+    "source": "c9b841da",
+    "name": "Koʻk loviya",
+    "description": "Tez pishirish va qarsildoq sabzavotli taomlar uchun nozik dukkaklar.",
+    "uses": [
+      "Qovurmalar",
+      "salatlar",
+      "yengil qovurmalar"
+    ],
+    "details": {
+      "tagline": "Qovurmalar. Salatlar. Yengil qovurmalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tez pishirish va qarsildoq sabzavotli taomlar uchun nozik dukkaklar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Koʻk loviyani qovurmalar, salatlar va yengil qovurmalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Uchlarini kesing va yumshaguncha pishiring. Salat uchun pishgan loviyani sovuting."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sarimsoq, kunjut, limon yoki qovurilgan bodom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Bir tekis pishishi uchun bir xil uzunlikda kesing, soʻng hali iliqligida sous bilan aralashtiring."
+        }
+      ],
+      "preparation": "Uchlarini kesing va yumshaguncha pishiring. Salat uchun pishgan loviyani sovuting.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "swiss-chard": {
+    "source": "db568563",
+    "name": "Mangold",
+    "description": "Keng barglari va qarsildoq poyalari bitta taomda ikki xil tuzilish beradi.",
+    "uses": [
+      "Yengil qovurmalar",
+      "gratenlar",
+      "shoʻrvalar"
+    ],
+    "details": {
+      "tagline": "Yengil qovurmalar. Gratenlar. Shoʻrvalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Keng barglari va qarsildoq poyalari bitta taomda ikki xil tuzilish beradi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Mangoldni yengil qovurmalar, gratenlar va shoʻrvalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Poyalarini barglaridan ajrating. Avval toʻgʻralgan poyalarni pishiring, soʻng barglarini qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sarimsoq, yasmiq, oq loviya yoki ozgina qirgʻichdan chiqarilgan limon poʻsti bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Poyalarini mayda toʻgʻrab, qovurish uchun ajratib qoʻying; ular tovada barglardan koʻra uzoqroq pishadi."
+        }
+      ],
+      "preparation": "Poyalarini barglaridan ajrating. Avval toʻgʻralgan poyalarni pishiring, soʻng barglarini qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "rosemary": {
+    "source": "d0109b10",
+    "name": "Rozmarin",
+    "description": "Qaragʻaynikiga oʻxshash kuchli iforli, ignasimon barglar.",
+    "uses": [
+      "Pechda pishirilgan sabzavotlar",
+      "nonlar",
+      "marinadlar"
+    ],
+    "details": {
+      "tagline": "Pechda pishirilgan sabzavotlar. Nonlar. Marinadlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qaragʻaynikiga oʻxshash kuchli iforli, ignasimon barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Rozmarinni pechda pishirilgan sabzavotlar, nonlar va marinadlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ignasimon barglarini ajratib, mayda toʻgʻrang. Oz miqdorda ishlating; butun novdalarni tortishdan oldin olib tashlang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Ignasimon barglarini ajratib, mayda toʻgʻrang. Oz miqdorda ishlating; butun novdalarni tortishdan oldin olib tashlang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens": {
+    "source": "a802e69b",
+    "name": "Hulba mikrozeleni",
+    "description": "Boy, biroz taxir taʼmli yosh hulba (methi) maysalari.",
+    "uses": [
+      "Salatlar",
+      "sendvichlar",
+      "mintaqaviy taomlar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Mintaqaviy taomlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Boy, biroz taxir taʼmli yosh hulba (methi) maysalari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Hulba mikrozelenini salatlar, sendvichlar va mintaqaviy taomlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Boy taʼmli maysalar kartoshka, yasmiq yoki noʻxatli ichlik bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "bok-choy": {
+    "source": "fc3d870d",
+    "name": "Bok choy karami",
+    "description": "Qoshiqsimon barglari va qarsildoq och rangli poyalari yumshoq karam taʼmiga ega.",
+    "uses": [
+      "Qovurmalar",
+      "qaynatmalar",
+      "bugʻda pishirilgan koʻkatlar"
+    ],
+    "details": {
+      "tagline": "Qovurmalar. Qaynatmalar. Bugʻda pishirilgan koʻkatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qoshiqsimon barglari va qarsildoq och rangli poyalari yumshoq karam taʼmiga ega."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bok choy karamini qovurmalar, qaynatmalar va bugʻda pishirilgan koʻkatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Poyalar orasini yuving. Avval poyalarini pishiring, barglarini esa oxiriga yaqin qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, kunjut, qoʻziqorin yoki tofu bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Chiroyli koʻrinishi uchun kichik boshlarini boʻyiga teng ikkiga kesing. Barglar tarqalib ketmasligi uchun tagini kesmang."
+        }
+      ],
+      "preparation": "Poyalar orasini yuving. Avval poyalarini pishiring, barglarini esa oxiriga yaqin qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "sage": {
+    "source": "d87fce09",
+    "name": "Mavrak",
+    "description": "Chuqur va boy iforli, yumshoq kulrang-yashil barglar.",
+    "uses": [
+      "Qizartirilgan saryogʻ",
+      "pechda pishirish",
+      "ichlik"
+    ],
+    "details": {
+      "tagline": "Qizartirilgan saryogʻ. Pechda pishirish. Ichlik.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Chuqur va boy iforli, yumshoq kulrang-yashil barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Mavrakni qizartirilgan saryogʻ, pechda pishirish va ichlik uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni sochiqda quriting va saryogʻda qisqa vaqt pishiring yoki mayda toʻgʻrab, ichlikka qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Barglarni sochiqda quriting va saryogʻda qisqa vaqt pishiring yoki mayda toʻgʻrab, ichlikka qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "wheatgrass": {
+    "source": "aee13940",
+    "name": "Bugʻdoy maysasi",
+    "description": "Yangi tayyorlab isteʼmol qilish uchun yetishtirilgan yosh bugʻdoy maysalari.",
+    "uses": [
+      "Sharbat tayyorlash"
+    ],
+    "details": {
+      "tagline": "Sharbat tayyorlash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yangi tayyorlab isteʼmol qilish uchun yetishtirilgan yosh bugʻdoy maysalari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Bugʻdoy maysasini sharbat tayyorlash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Kesilgan maysalarni yuving va oʻt uchun mos sharbat siqqichdan foydalaning. Yangi tayyorlangan holda torting; salat bargi sifatida ishlatmang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yangi siqilgan sharbatdan ozgina olib, olma yoki bodring sharbatiga aralashtiring."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat dasturxonga tortadigan miqdordagi sharbatni tayyorlang. Ichimlik mayinroq boʻlishi uchun dagʻal tolalarini suzib oling."
+        }
+      ],
+      "preparation": "Kesilgan maysalarni yuving va oʻt uchun mos sharbat siqqichdan foydalaning. Yangi tayyorlangan holda torting; salat bargi sifatida ishlatmang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "tatsoi": {
+    "source": "41b56aea",
+    "name": "Tatsoy",
+    "description": "Yengil xantal taʼmli kichik, dumaloq barglar.",
+    "uses": [
+      "Salatlar",
+      "shoʻrvalar",
+      "qovurmalar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Shoʻrvalar. Qovurmalar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil xantal taʼmli kichik, dumaloq barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tatsoyni salatlar, shoʻrvalar va qovurmalar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni ajratib, yuving. Shoʻrva yoki tez qovurmaga butunligicha qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Kunjut, zanjabil, lapsha yoki tofu bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Nozik barglar biroz shaklini saqlashi uchun ularni tortishdan sal oldin issiq taomli kosaga qoʻshing."
+        }
+      ],
+      "preparation": "Barglarni ajratib, yuving. Shoʻrva yoki tez qovurmaga butunligicha qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "lemon-balm": {
+    "source": "9057880a",
+    "name": "Melissa",
+    "description": "Mayin limon hidli nozik barglar.",
+    "uses": [
+      "Damlangan ichimliklar",
+      "mevali taomlar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Damlangan ichimliklar. Mevali taomlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Mayin limon hidli nozik barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Melissani damlangan ichimliklar, mevali taomlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Damlangan ichimlik uchun yuvilgan barglarni ohista ezgilang yoki bir nechtasini toʻgʻrab, meva ustiga seping."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Rezavorlar, qovun yoki yengil oʻt choyi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Hidi chiqishi uchun bir nechta bargni ohista ezgilang, soʻng sovitilgan ichimlikka qoʻshing."
+        }
+      ],
+      "preparation": "Damlangan ichimlik uchun yuvilgan barglarni ohista ezgilang yoki bir nechtasini toʻgʻrab, meva ustiga seping.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "kohlrabi-microgreens": {
+    "source": "46bf5e73",
+    "name": "Kolrabi mikrozeleni",
+    "description": "Yengil karam taʼmli nozik maysalar.",
+    "uses": [
+      "Salatlar",
+      "kosa taomlari",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Salatlar. Kosa taomlari. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil karam taʼmli nozik maysalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kolrabi mikrozelenini salatlar, kosa taomlari va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "mizuna": {
+    "source": "28caab47",
+    "name": "Mizuna",
+    "description": "Yengil achchiqroq taʼmli, chetlari oʻyilgan ingichka barglar.",
+    "uses": [
+      "Salat aralashmalari",
+      "lapshali kosa taomlari"
+    ],
+    "details": {
+      "tagline": "Salat aralashmalari. Lapshali kosa taomlari.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil achchiqroq taʼmli, chetlari oʻyilgan ingichka barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Mizunani salat aralashmalari va lapshali kosa taomlari uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ingichka barglarni ehtiyotkorlik bilan yuving va tuzilishi saqlanishi uchun oxirida qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sitrus mevalar, kunjut, rediska yoki yumshoq taʼmli lapsha sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Salat uchun yumshoqroq taʼmli barglar bilan aralashtiring yoki bir hovuchini lapshali kosa taomi ustiga seping."
+        }
+      ],
+      "preparation": "Ingichka barglarni ehtiyotkorlik bilan yuving va tuzilishi saqlanishi uchun oxirida qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "shiso": {
+    "source": "49790bae",
+    "name": "Shiso",
+    "description": "Oʻrash yoki bezak uchun ishlatiladigan oʻziga xos xushboʻy barglar.",
+    "uses": [
+      "Guruchli taomlar",
+      "tuzlamalar",
+      "bezak"
+    ],
+    "details": {
+      "tagline": "Guruchli taomlar. Tuzlamalar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Oʻrash yoki bezak uchun ishlatiladigan oʻziga xos xushboʻy barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Shisoni guruchli taomlar, tuzlamalar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarni yuving va quriting. Ingichka toʻgʻrang yoki taomni oʻrash uchun butunligicha qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bodring, guruch, kunjut yoki tuzlangan sabzavotlar bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Chiroyli yakuniy bezak uchun bir nechta quruq bargni ustma-ust qoʻyib, ingichka lentasimon qilib kesing."
+        }
+      ],
+      "preparation": "Barglarni yuving va quriting. Ingichka toʻgʻrang yoki taomni oʻrash uchun butunligicha qoldiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "garden-cress-microgreens": {
+    "source": "a462291b",
+    "name": "Kress-salat mikrozeleni",
+    "description": "Oʻtkir, qalampirdek achchiq taʼmli ingichka maysalar.",
+    "uses": [
+      "Tuxumli taomlar",
+      "sendvichlar",
+      "salatlar"
+    ],
+    "details": {
+      "tagline": "Tuxumli taomlar. Sendvichlar. Salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Oʻtkir, qalampirdek achchiq taʼmli ingichka maysalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kress-salat mikrozelenini tuxumli taomlar, sendvichlar va salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi."
+        }
+      ],
+      "preparation": "Ehtiyotkorlik bilan yuving va suvini yaxshilab silqiting. Maysalar qarsildoq qolishi uchun tayyor taomga kichik bir hovuch qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "mustard-greens": {
+    "source": "f9c39244",
+    "name": "Barg xantal",
+    "description": "Pishirilganda yumshaydigan xantal achchiqligiga ega, taʼmi yorqin barglar.",
+    "uses": [
+      "Saag",
+      "qovurmalar",
+      "tuzlash"
+    ],
+    "details": {
+      "tagline": "Saag. Qovurmalar. Tuzlash.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Pishirilganda yumshaydigan xantal achchiqligiga ega, taʼmi yorqin barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Barg xantalni saag, qovurmalar va tuzlash uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Dagʻal poyalarini olib tashlang va achchiqligi yumshashi uchun barglarni yumshaguncha pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Sarimsoq, kartoshka, yasmiq yoki yumshoq taʼmli yogurtli qoʻshimcha taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Saag uchun mayda toʻgʻrang yoki xantal taʼmini yumshatish uchun yumshoqroq koʻkatlar bilan aralashtiring."
+        }
+      ],
+      "preparation": "Dagʻal poyalarini olib tashlang va achchiqligi yumshashi uchun barglarni yumshaguncha pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "chervil": {
+    "source": "8c156fac",
+    "name": "Kervel",
+    "description": "Yengil arpabodiyon taʼmli nozik barglar.",
+    "uses": [
+      "Tuxum taomlari",
+      "salatlar",
+      "yakuniy souslar"
+    ],
+    "details": {
+      "tagline": "Tuxum taomlari. Salatlar. Yakuniy souslar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil arpabodiyon taʼmli nozik barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Kervelni tuxum taomlari, salatlar va yakuniy souslar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Nozik barglarini qaychida qirqing va nafis iforini saqlash uchun pishirib boʻlgach qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi."
+        }
+      ],
+      "preparation": "Nozik barglarini qaychida qirqing va nafis iforini saqlash uchun pishirib boʻlgach qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "radish-microgreens-live-tray": {
+    "source": "afaa910f",
+    "name": "Rediska mikrozeleni · Tirik lotok",
+    "description": "Achchiqroq taʼmli yosh barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Achchiqroq taʼmli yosh barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi rediska mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "watercress": {
+    "source": "41d3cdc3",
+    "name": "Suv kressi",
+    "description": "Jonli, qalampirdek achchiqroq taʼmli kichik, dumaloq barglar.",
+    "uses": [
+      "Shoʻrvalar",
+      "salatlar",
+      "sendvichlar"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Salatlar. Sendvichlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Jonli, qalampirdek achchiqroq taʼmli kichik, dumaloq barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Suv kressini shoʻrvalar, salatlar va sendvichlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yaxshilab yuving va dagʻal poyalarini kesib tashlang. Salatlarga qoʻshing yoki pishgan shoʻrvaga blenderda aralashtiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Kartoshka, tuxum, sitrus mevalar yoki yumshoq taʼmli qaymoqli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Nozik uchlarini salatlarga ishlating, qattiqroq poyalarini esa pishiriladigan shoʻrva uchun qoldiring."
+        }
+      ],
+      "preparation": "Yaxshilab yuving va dagʻal poyalarini kesib tashlang. Salatlarga qoʻshing yoki pishgan shoʻrvaga blenderda aralashtiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "tarragon": {
+    "source": "69901840",
+    "name": "Tarxun",
+    "description": "Arpabodiyonga oʻxshash yaqqol taʼmli ingichka barglar.",
+    "uses": [
+      "Souslar",
+      "salat souslari",
+      "koʻkatli saryogʻ"
+    ],
+    "details": {
+      "tagline": "Souslar. Salat souslari. Koʻkatli saryogʻ.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Arpabodiyonga oʻxshash yaqqol taʼmli ingichka barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tarxunni souslar, salat souslari va koʻkatli saryogʻ uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarini ajratib, mayda toʻgʻrang. Salat sousi yoki sousga oz miqdordan qoʻshishni boshlang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Xantal, kartoshka, tuxum yoki qaymoqli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Avval oz miqdorda ishlating: arpabodiyonga oʻxshash taʼmi nozik sousni bosib ketishi mumkin."
+        }
+      ],
+      "preparation": "Barglarini ajratib, mayda toʻgʻrang. Salat sousi yoki sousga oz miqdordan qoʻshishni boshlang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "pea-microgreens-live-tray": {
+    "source": "5198e055",
+    "name": "Koʻk noʻxat mikrozeleni · Tirik lotok",
+    "description": "Shirin koʻk noʻxat taʼmli nozik maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Shirin koʻk noʻxat taʼmli nozik maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi koʻk noʻxat mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "sorrel": {
+    "source": "c2f6c916",
+    "name": "Otquloq",
+    "description": "Taomga yorqinlik berish uchun oz miqdorda ishlatiladigan nordon, limonsimon barglar.",
+    "uses": [
+      "Souslar",
+      "shoʻrvalar",
+      "aralash salatlar"
+    ],
+    "details": {
+      "tagline": "Souslar. Shoʻrvalar. Aralash salatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Taomga yorqinlik berish uchun oz miqdorda ishlatiladigan nordon, limonsimon barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Otquloqni souslar, shoʻrvalar va aralash salatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Nordon taʼm berish uchun bir nechta yuvilgan bargdan foydalaning. Asta-sekin qoʻshib, tatib koʻrib boring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Bir nechta barg kartoshka, tuxum yoki qaymoqli sous bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Limon yoki sirka qoʻshishdan oldin tatib koʻring: otquloqning oʻzi nordon taʼm beradi."
+        }
+      ],
+      "preparation": "Nordon taʼm berish uchun bir nechta yuvilgan bargdan foydalaning. Asta-sekin qoʻshib, tatib koʻrib boring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "marjoram": {
+    "source": "802bbebd",
+    "name": "Mayoran",
+    "description": "Oreganoga oʻxshash mayin va shirinroq taʼmli yumshoq barglar.",
+    "uses": [
+      "Shoʻrvalar",
+      "souslar",
+      "pechda pishirilgan sabzavotlar"
+    ],
+    "details": {
+      "tagline": "Shoʻrvalar. Souslar. Pechda pishirilgan sabzavotlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Oreganoga oʻxshash mayin va shirinroq taʼmli yumshoq barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Mayoranni shoʻrvalar, souslar va pechda pishirilgan sabzavotlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Kichik barglarini ajratib oling va shoʻrva yoki sous pishishiga oz qolganda qoʻshing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Kichik barglarini ajratib oling va shoʻrva yoki sous pishishiga oz qolganda qoʻshing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "sunflower-microgreens-live-tray": {
+    "source": "a436640b",
+    "name": "Kungaboqar mikrozeleni · Tirik lotok",
+    "description": "Yumshoq, yongʻoqsimon taʼmli qarsildoq maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yumshoq, yongʻoqsimon taʼmli qarsildoq maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi kungaboqar mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "endive": {
+    "source": "55ffbd35",
+    "name": "Endiviy",
+    "description": "Yoqimli taxirlikka ega pishiq barglar.",
+    "uses": [
+      "Salatlar",
+      "pechda pishirish",
+      "gazaklar"
+    ],
+    "details": {
+      "tagline": "Salatlar. Pechda pishirish. Gazaklar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yoqimli taxirlikka ega pishiq barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Endiviyni salatlar, pechda pishirish va gazaklar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Kichik salat kosachalari uchun barglarni ajrating yoki pechda pishirishdan oldin boshini teng ikkiga kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Apelsin, yongʻoq, olma yoki yumshoq pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishiq tashqi barglarni toʻgʻralgan salat solinadigan kichik kosachalar sifatida ishlating."
+        }
+      ],
+      "preparation": "Kichik salat kosachalari uchun barglarni ajrating yoki pechda pishirishdan oldin boshini teng ikkiga kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "lemongrass": {
+    "source": "9644eb9b",
+    "name": "Limon oʻti",
+    "description": "Aniq sitrus iforiga ega xushboʻy poyalar.",
+    "uses": [
+      "Karri taomlari",
+      "qaynatmalar",
+      "damlangan ichimliklar"
+    ],
+    "details": {
+      "tagline": "Karri taomlari. Qaynatmalar. Damlangan ichimliklar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Aniq sitrus iforiga ega xushboʻy poyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Limon oʻtini karri taomlari, qaynatmalar va damlangan ichimliklar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Qattiq tashqi qatlamlarini olib tashlang. Qaynatma uchun poyasini ezgilang va tortishdan oldin olib tashlang yoki yumshoq pastki qismini mayda toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, kokos suti, laym yoki qoʻziqorin bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Qaynatmaga ifor berish uchun ezgilangan poyalardan foydalaning. Tortishdan oldin yirik tolali boʻlaklarni olib tashlang."
+        }
+      ],
+      "preparation": "Qattiq tashqi qatlamlarini olib tashlang. Qaynatma uchun poyasini ezgilang va tortishdan oldin olib tashlang yoki yumshoq pastki qismini mayda toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Barglari kichik, taʼmi boy",
+      "nutrition": [
+        {
+          "title": "Xushboʻylik",
+          "text": "Yangi barglar oz miqdorda ham taʼm qoʻshadi."
+        },
+        {
+          "title": "Yakunlovchi masalliq",
+          "text": "Toʻkis taom uchun sabzavotlar, dukkaklilar va donli mahsulotlar bilan birga ishlating."
+        },
+        {
+          "title": "Miqdor muhim",
+          "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens-live-tray": {
+    "source": "184ffb84",
+    "name": "Brokkoli mikrozeleni · Tirik lotok",
+    "description": "Karamga xos yumshoq taʼmli kichik barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Karamga xos yumshoq taʼmli kichik barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi brokkoli mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "radicchio": {
+    "source": "6054b24c",
+    "name": "Radikkio",
+    "description": "Qizil barglari va oq tomirlari taomga taxirlik va yorqin tafovut qoʻshadi.",
+    "uses": [
+      "Salatlar",
+      "grilda pishirish",
+      "rizotto"
+    ],
+    "details": {
+      "tagline": "Salatlar. Grilda pishirish. Rizotto.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Qizil barglari va oq tomirlari taomga taxirlik va yorqin tafovut qoʻshadi."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Radikkioni salatlar, grilda pishirish va rizotto uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Oʻzagini olib tashlang. Salatlar uchun yupqa toʻgʻrang yoki grilda pishirish uchun boʻlaklarga kesing."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Nok, apelsin, yongʻoq yoki yumshoq taʼmli pishloq bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Xom toʻgʻralgan barglarini shirinroq masalliqlar bilan aralashtiring yoki tuzilishi yumshashi uchun boʻlaklarini grilda pishiring."
+        }
+      ],
+      "preparation": "Oʻzagini olib tashlang. Salatlar uchun yupqa toʻgʻrang yoki grilda pishirish uchun boʻlaklarga kesing.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens-live-tray": {
+    "source": "b724d323",
+    "name": "Hulba mikrozeleni · Tirik lotok",
+    "description": "Yengil taxirlikka ega xushboʻy maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Yengil taxirlikka ega xushboʻy maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi hulba mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Boy taʼmli maysalar kartoshka, yasmiq yoki noʻxatli ichlik bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "amaranth-greens": {
+    "source": "e36b47cf",
+    "name": "Amarant barglari",
+    "description": "Hindistonning koʻplab mintaqaviy sabzavotli taomlarida ishlatiladigan nozik barglar.",
+    "uses": [
+      "Dal",
+      "qovurmalar",
+      "pishirilgan koʻkatlar"
+    ],
+    "details": {
+      "tagline": "Dal. Qovurmalar. Pishirilgan koʻkatlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Hindistonning koʻplab mintaqaviy sabzavotli taomlarida ishlatiladigan nozik barglar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Amarant barglarini dal, qovurmalar va pishirilgan koʻkatlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Yaxshilab yuving, qattiq poyalarini kesib tashlang va barglarni dal yoki sabzavotli taomga qoʻshib pishiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yasmiq, sarimsoq, kokos yoki zira bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Pishirilgan garnir uchun barglar va nozik poyalarni toʻgʻrang; avval dagʻal poyalarini olib tashlang."
+        }
+      ],
+      "preparation": "Yaxshilab yuving, qattiq poyalarini kesib tashlang va barglarni dal yoki sabzavotli taomga qoʻshib pishiring.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "source": "5db14b16",
+    "name": "Qizil amarant mikrozeleni · Tirik lotok",
+    "description": "Tuproqsimon taʼmli ingichka qizil maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "uses": [
+      "Salatlar",
+      "Sendvichlar",
+      "Bezak",
+      "Uyda kesib olish"
+    ],
+    "details": {
+      "tagline": "Salatlar. Sendvichlar. Bezak.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Tuproqsimon taʼmli ingichka qizil maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Tirik lotokdagi qizil amarant mikrozelenini salatlar, sendvichlar va bezak uchun sinab koʻring."
+        },
+        {
+          "title": "Kerak paytda kesing",
+          "text": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang."
+        }
+      ],
+      "preparation": "Maysalarni toza qaychi bilan substratdan yuqoriroqdan kesing. Kesib olingan maysalarni yeyishdan oldin yuving; ildizlar va substratni lotokda qoldiring.",
+      "storage": "Yorugʻ, lekin toʻgʻri quyosh tushmaydigan joyda tik holda saqlang. Substratni biroz nam tuting, suv bosib ketmasin. Kesilgan maysalarni sovutgichda saqlang va tezroq ishlating.",
+      "nutritionTitle": "Mikrozelen haqida",
+      "nutrition": [
+        {
+          "title": "Yosh maysalar",
+          "text": "Taʼmi va tuzilishi uchun erta bosqichda yigʻib olinadi."
+        },
+        {
+          "title": "Tabiiy farqlar",
+          "text": "Vitamin va mineral miqdori oʻsimlik turi va oʻstirish sharoitiga qarab farq qiladi."
+        },
+        {
+          "title": "Almashtirib turing",
+          "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        }
+      ]
+    }
+  },
+  "fenugreek-greens": {
+    "source": "2be34ad8",
+    "name": "Hulba barglari",
+    "description": "Oʻziga xos taxir va boy taʼmli xushboʻy hulba (methi) barglari.",
+    "uses": [
+      "Paratxa",
+      "dal",
+      "sabzavotli taomlar"
+    ],
+    "details": {
+      "tagline": "Paratxa. Dal. Sabzavotli taomlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Oʻziga xos taxir va boy taʼmli xushboʻy hulba (methi) barglari."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Hulba barglarini paratxa, dal va sabzavotli taomlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Barglarini qalin poyalardan uzib oling, yaxshilab yuving va dal yoki paratxa uchun toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Kartoshka, koʻk noʻxat, yasmiq yoki toʻliq donli bugʻdoy xamiri bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Toʻgʻralgan barglarni paratxa xamiriga qoʻshib qoring yoki sabzavotli karriga kichik bir hovuch qoʻshing."
+        }
+      ],
+      "preparation": "Barglarini qalin poyalardan uzib oling, yaxshilab yuving va dal yoki paratxa uchun toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  },
+  "napa-cabbage": {
+    "source": "aa9e90d8",
+    "name": "Pekin karami",
+    "description": "Nozik qatlamli barglar va yumshoq taʼmli, qarsildoq poyalar.",
+    "uses": [
+      "Qovurmalar",
+      "shoʻrvalar",
+      "achitilgan taomlar"
+    ],
+    "details": {
+      "tagline": "Qovurmalar. Shoʻrvalar. Achitilgan taomlar.",
+      "benefits": [
+        {
+          "title": "Taʼmi va tuzilishi",
+          "text": "Nozik qatlamli barglar va yumshoq taʼmli, qarsildoq poyalar."
+        },
+        {
+          "title": "Oson qoʻshimcha",
+          "text": "Pekin karamini qovurmalar, shoʻrvalar va achitilgan taomlar uchun sinab koʻring."
+        },
+        {
+          "title": "Tayyorlash oson",
+          "text": "Qatlamlar orasini yuving. Bir tekis pishishi uchun poya va barglarni alohida toʻgʻrang."
+        },
+        {
+          "title": "Nima bilan mos keladi",
+          "text": "Zanjabil, qoʻziqorin, tofu yoki koʻk piyoz bilan yaxshi uygʻunlashadi."
+        },
+        {
+          "title": "Tortish boʻyicha maslahat",
+          "text": "Qalinroq tomirlarini qarsildoqlik uchun, yumshoqroq barglarini esa yengil qaynatmani shimishi uchun ishlating."
+        }
+      ],
+      "preparation": "Qatlamlar orasini yuving. Bir tekis pishishi uchun poya va barglarni alohida toʻgʻrang.",
+      "storage": "Sovutgichda saqlang va ezilishdan asrang. Ishlatishdan sal oldin yuving, ochgandan keyin tezroq ishlating.",
+      "nutritionTitle": "Xilma-xil dasturxonning bir qismi",
+      "nutrition": [
+        {
+          "title": "Kletchatka",
+          "text": "Sabzavotlar xilma-xil ratsionga kletchatka qoʻshadi."
+        },
+        {
+          "title": "Vitaminlar va minerallar",
+          "text": "Tarkibi sabzavot turiga, porsiyaga va tayyorlash usuliga bogʻliq."
+        },
+        {
+          "title": "Xilma-xillik",
+          "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        }
+      ]
+    }
+  }
+}

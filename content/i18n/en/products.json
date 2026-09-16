@@ -1,0 +1,4730 @@
+{
+  "butterhead-lettuce": {
+    "source": "91147a03",
+    "name": "Butterhead lettuce",
+    "description": "Soft, rounded leaves with a gentle flavour and a delicate, buttery bite.",
+    "uses": [
+      "Salads",
+      "lettuce cups",
+      "sandwiches"
+    ],
+    "details": {
+      "tagline": "Salads. Lettuce cups. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Soft, rounded leaves with a gentle flavour and a delicate, buttery bite."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try butterhead lettuce in salads, lettuce cups, sandwiches."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Separate the leaves, rinse and dry. Leave them whole for lettuce cups."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Separate the leaves, rinse and dry. Leave them whole for lettuce cups.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "sweet-basil": {
+    "source": "d2cc98c7",
+    "name": "Sweet basil",
+    "description": "Broad, fragrant leaves with a warm, sweet aroma.",
+    "uses": [
+      "Pesto",
+      "tomato salads",
+      "pasta"
+    ],
+    "details": {
+      "tagline": "Pesto. Tomato salads. Pasta.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Broad, fragrant leaves with a warm, sweet aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try sweet basil in pesto, tomato salads, pasta."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Tear the leaves just before serving. Add after cooking to keep their aroma."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with tomatoes, mozzarella, lemon or toasted seeds."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate."
+        }
+      ],
+      "preparation": "Tear the leaves just before serving. Add after cooking to keep their aroma.",
+      "storage": "Stand trimmed stems in a little water, away from direct sun. Keep leaves dry and use promptly.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens": {
+    "source": "030e4e45",
+    "name": "Broccoli microgreens",
+    "description": "Small brassica shoots with a mild cabbage-like flavour.",
+    "uses": [
+      "Sandwiches",
+      "salads",
+      "finishing plates"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salads. Finishing plates.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small brassica shoots with a mild cabbage-like flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try broccoli microgreens in sandwiches, salads, finishing plates."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "cherry-tomatoes": {
+    "source": "4a8e9cf7",
+    "name": "Cherry tomatoes",
+    "description": "Small tomatoes for sweet-acid contrast in fresh and cooked dishes.",
+    "uses": [
+      "Snacking",
+      "salads",
+      "roasting"
+    ],
+    "details": {
+      "tagline": "Snacking. Salads. Roasting.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small tomatoes for sweet-acid contrast in fresh and cooked dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try cherry tomatoes in snacking, salads, roasting."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse and halve for salads, or roast whole until the skins soften."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with basil, olive oil, garlic or a mild fresh cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice with a sharp knife to keep the juices in the flesh. Season shortly before serving."
+        }
+      ],
+      "preparation": "Rinse and halve for salads, or roast whole until the skins soften.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Contributes to vitamin C intake as part of a varied diet."
+        },
+        {
+          "title": "Whole food",
+          "text": "Use the edible flesh and skin for texture and fibre."
+        },
+        {
+          "title": "Preparation matters",
+          "text": "Long cooking and storage can reduce vitamin C."
+        }
+      ]
+    }
+  },
+  "spring-onions": {
+    "source": "1ef5c5a2",
+    "name": "Spring onions",
+    "description": "Tender green stems with a mild onion flavour.",
+    "uses": [
+      "Soups",
+      "stir-fries",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Soups. Stir-fries. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender green stems with a mild onion flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try spring onions in soups, stir-fries, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse, trim roots and slice. Cook the white ends first; use greens to finish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, eggs, tofu or a rice dish."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice the green tops thinly for a garnish and save the white ends for the pan."
+        }
+      ],
+      "preparation": "Rinse, trim roots and slice. Cook the white ends first; use greens to finish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "nasturtium-flowers": {
+    "source": "0b680c2c",
+    "name": "Nasturtium flowers",
+    "description": "Bright blossoms with a peppery taste.",
+    "uses": [
+      "Salads",
+      "savoury garnish"
+    ],
+    "details": {
+      "tagline": "Salads. Savoury garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Bright blossoms with a peppery taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try nasturtium flowers in salads, savoury garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use food-grade flowers only. Rinse gently and add a few just before serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the peppery flowers with cucumber, soft cheese or a mild leaf salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add a few whole flowers at the last moment. Keep dressings light so the petals hold their shape."
+        }
+      ],
+      "preparation": "Use food-grade flowers only. Rinse gently and add a few just before serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "A little finishing touch",
+      "nutrition": [
+        {
+          "title": "A garnish",
+          "text": "Use a few blooms or petals for colour and texture."
+        },
+        {
+          "title": "Food-grade only",
+          "text": "Eat only flowers grown and identified for food use."
+        },
+        {
+          "title": "Small portions",
+          "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        }
+      ]
+    }
+  },
+  "romaine-lettuce": {
+    "source": "45f0ddeb",
+    "name": "Romaine lettuce",
+    "description": "Long leaves and a firm central rib bring a satisfying crunch to a salad.",
+    "uses": [
+      "Caesar salads",
+      "wraps",
+      "grilled hearts"
+    ],
+    "details": {
+      "tagline": "Caesar salads. Wraps. Grilled hearts.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Long leaves and a firm central rib bring a satisfying crunch to a salad."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try romaine lettuce in caesar salads, wraps, grilled hearts."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse between the leaves. Chop across the rib, or halve the heart for grilling."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Rinse between the leaves. Chop across the rib, or halve the heart for grilling.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "thai-basil": {
+    "source": "78d5e578",
+    "name": "Thai basil",
+    "description": "Firm aromatic leaves with an anise-like note.",
+    "uses": [
+      "Curries",
+      "noodle soups",
+      "stir-fries"
+    ],
+    "details": {
+      "tagline": "Curries. Noodle soups. Stir-fries.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Firm aromatic leaves with an anise-like note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try thai basil in curries, noodle soups, stir-fries."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Pick the leaves and add near the end of a curry or noodle soup."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, coconut milk or a warm rice dish."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate."
+        }
+      ],
+      "preparation": "Pick the leaves and add near the end of a curry or noodle soup.",
+      "storage": "Stand trimmed stems in a little water, away from direct sun. Keep leaves dry and use promptly.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "radish-microgreens": {
+    "source": "ca5b8b8c",
+    "name": "Radish microgreens",
+    "description": "Crisp little shoots with a clear peppery kick.",
+    "uses": [
+      "Tacos",
+      "salads",
+      "bowls"
+    ],
+    "details": {
+      "tagline": "Tacos. Salads. Bowls.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crisp little shoots with a clear peppery kick."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try radish microgreens in tacos, salads, bowls."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Balance peppery shoots with avocado, hummus or a cool yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "beefsteak-tomatoes": {
+    "source": "6102074f",
+    "name": "Beefsteak tomatoes",
+    "description": "Large slicing tomatoes for substantial slices and sauces.",
+    "uses": [
+      "Sandwiches",
+      "salads",
+      "sauces"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salads. Sauces.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Large slicing tomatoes for substantial slices and sauces."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try beefsteak tomatoes in sandwiches, salads, sauces."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the stem core and cut into thick slices for sandwiches or salads."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with basil, olive oil, garlic or a mild fresh cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice with a sharp knife to keep the juices in the flesh. Season shortly before serving."
+        }
+      ],
+      "preparation": "Remove the stem core and cut into thick slices for sandwiches or salads.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Contributes to vitamin C intake as part of a varied diet."
+        },
+        {
+          "title": "Whole food",
+          "text": "Use the edible flesh and skin for texture and fibre."
+        },
+        {
+          "title": "Preparation matters",
+          "text": "Long cooking and storage can reduce vitamin C."
+        }
+      ]
+    }
+  },
+  "celery": {
+    "source": "a8c1355e",
+    "name": "Celery",
+    "description": "Crisp, aromatic stalks for fresh crunch or a savoury base.",
+    "uses": [
+      "Soups",
+      "stocks",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Soups. Stocks. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crisp, aromatic stalks for fresh crunch or a savoury base."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try celery in soups, stocks, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse between ribs, trim the base and slice. Use the leaves in stocks or a garnish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with carrots, onions, beans or apples."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dice finely for a soup base, or slice across the ribs for a crisp salad texture."
+        }
+      ],
+      "preparation": "Rinse between ribs, trim the base and slice. Use the leaves in stocks or a garnish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "viola-flowers": {
+    "source": "57706c53",
+    "name": "Viola flowers",
+    "description": "Small, delicate blossoms for subtle colour.",
+    "uses": [
+      "Dessert garnish",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Dessert garnish. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small, delicate blossoms for subtle colour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try viola flowers in dessert garnish, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use food-grade blooms. Rinse gently, pat dry and place on the finished dish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair a few food-grade blooms with fruit, yoghurt or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Place on the finished dish just before serving, away from hot sauces and heavy dressings."
+        }
+      ],
+      "preparation": "Use food-grade blooms. Rinse gently, pat dry and place on the finished dish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "A little finishing touch",
+      "nutrition": [
+        {
+          "title": "A garnish",
+          "text": "Use a few blooms or petals for colour and texture."
+        },
+        {
+          "title": "Food-grade only",
+          "text": "Eat only flowers grown and identified for food use."
+        },
+        {
+          "title": "Small portions",
+          "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        }
+      ]
+    }
+  },
+  "green-oakleaf-lettuce": {
+    "source": "c0dca06d",
+    "name": "Green oakleaf lettuce",
+    "description": "Light, deeply lobed leaves that work well in a mixed salad bowl.",
+    "uses": [
+      "Salad mixes",
+      "sandwiches"
+    ],
+    "details": {
+      "tagline": "Salad mixes. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Light, deeply lobed leaves that work well in a mixed salad bowl."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try green oakleaf lettuce in salad mixes, sandwiches."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently, dry well and tear into a salad just before dressing."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Rinse gently, dry well and tear into a salad just before dressing.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "holy-basil": {
+    "source": "9b51a491",
+    "name": "Holy basil",
+    "description": "Small aromatic tulsi leaves for culinary infusions and selected regional dishes.",
+    "uses": [
+      "Infusions",
+      "regional cooking"
+    ],
+    "details": {
+      "tagline": "Infusions. Regional cooking.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small aromatic tulsi leaves for culinary infusions and selected regional dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try holy basil in infusions, regional cooking."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse the leaves and use a small amount in a culinary infusion or cooked dish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, coconut milk or a warm rice dish."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate."
+        }
+      ],
+      "preparation": "Rinse the leaves and use a small amount in a culinary infusion or cooked dish.",
+      "storage": "Stand trimmed stems in a little water, away from direct sun. Keep leaves dry and use promptly.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "pea-shoots": {
+    "source": "ae37c735",
+    "name": "Pea shoots",
+    "description": "Tender stems and leaves with a fresh pea flavour.",
+    "uses": [
+      "Salads",
+      "sandwiches",
+      "quick stir-fries"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Quick stir-fries.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender stems and leaves with a fresh pea flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try pea shoots in salads, sandwiches, quick stir-fries."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "plum-tomatoes": {
+    "source": "2e9abfe9",
+    "name": "Plum tomatoes",
+    "description": "Firm, fleshy tomatoes well suited to slow cooking.",
+    "uses": [
+      "Sauces",
+      "roasting",
+      "soups"
+    ],
+    "details": {
+      "tagline": "Sauces. Roasting. Soups.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Firm, fleshy tomatoes well suited to slow cooking."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try plum tomatoes in sauces, roasting, soups."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the stem core, chop and simmer for sauces, or halve before roasting."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with basil, olive oil, garlic or a mild fresh cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Simmer chopped tomatoes gently until the sauce reaches the thickness you like."
+        }
+      ],
+      "preparation": "Remove the stem core, chop and simmer for sauces, or halve before roasting.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Contributes to vitamin C intake as part of a varied diet."
+        },
+        {
+          "title": "Whole food",
+          "text": "Use the edible flesh and skin for texture and fibre."
+        },
+        {
+          "title": "Preparation matters",
+          "text": "Long cooking and storage can reduce vitamin C."
+        }
+      ]
+    }
+  },
+  "radish": {
+    "source": "5b6e09ca",
+    "name": "Radish",
+    "description": "Crisp roots with a fresh peppery bite.",
+    "uses": [
+      "Salads",
+      "pickles",
+      "roasting"
+    ],
+    "details": {
+      "tagline": "Salads. Pickles. Roasting.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crisp roots with a fresh peppery bite."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try radish in salads, pickles, roasting."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub, trim and slice thinly. Roast halves for a softer, milder bite."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, yoghurt, butter or a little lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice very thinly for a crisp topping, or roast halves to mellow their sharpness."
+        }
+      ],
+      "preparation": "Scrub, trim and slice thinly. Roast halves for a softer, milder bite.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "pansy-flowers": {
+    "source": "a48c1533",
+    "name": "Pansy flowers",
+    "description": "Broad, colourful blossoms used as a delicate finishing touch.",
+    "uses": [
+      "Cake decoration",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Cake decoration. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Broad, colourful blossoms used as a delicate finishing touch."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try pansy flowers in cake decoration, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use food-grade blooms. Handle gently and add to salads or cakes just before serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair a few food-grade blooms with fruit, yoghurt or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Place on the finished dish just before serving, away from hot sauces and heavy dressings."
+        }
+      ],
+      "preparation": "Use food-grade blooms. Handle gently and add to salads or cakes just before serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "A little finishing touch",
+      "nutrition": [
+        {
+          "title": "A garnish",
+          "text": "Use a few blooms or petals for colour and texture."
+        },
+        {
+          "title": "Food-grade only",
+          "text": "Eat only flowers grown and identified for food use."
+        },
+        {
+          "title": "Small portions",
+          "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        }
+      ]
+    }
+  },
+  "red-oakleaf-lettuce": {
+    "source": "b9c52f5d",
+    "name": "Red oakleaf lettuce",
+    "description": "Bronze-red leaves add a soft texture and colour to fresh dishes.",
+    "uses": [
+      "Mixed salads",
+      "plating"
+    ],
+    "details": {
+      "tagline": "Mixed salads. Plating.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Bronze-red leaves add a soft texture and colour to fresh dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try red oakleaf lettuce in mixed salads, plating."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Keep the delicate leaves whole. Add dressing just before serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Keep the delicate leaves whole. Add dressing just before serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "mint": {
+    "source": "0b72d3fa",
+    "name": "Mint",
+    "description": "Fresh, cooling leaves for bright chutneys and drinks.",
+    "uses": [
+      "Chutneys",
+      "raita",
+      "drinks"
+    ],
+    "details": {
+      "tagline": "Chutneys. Raita. Drinks.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fresh, cooling leaves for bright chutneys and drinks."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try mint in chutneys, raita, drinks."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Pick and rinse the leaves. Chop just before adding to raita, chutney or drinks."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, yoghurt, peas or fresh lime."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Chop just before serving. Fold into cooled food when you want its fresh, cooling flavour."
+        }
+      ],
+      "preparation": "Pick and rinse the leaves. Chop just before adding to raita, chutney or drinks.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "sunflower-shoots": {
+    "source": "1f2b125f",
+    "name": "Sunflower shoots",
+    "description": "Substantial young shoots with a nutty taste and crisp bite.",
+    "uses": [
+      "Salads",
+      "wraps",
+      "bowls"
+    ],
+    "details": {
+      "tagline": "Salads. Wraps. Bowls.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Substantial young shoots with a nutty taste and crisp bite."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try sunflower shoots in salads, wraps, bowls."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "cucumber": {
+    "source": "2d71685e",
+    "name": "Cucumber",
+    "description": "Crisp, refreshing fruit with a mild flavour.",
+    "uses": [
+      "Salads",
+      "raita",
+      "pickling"
+    ],
+    "details": {
+      "tagline": "Salads. Raita. Pickling.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crisp, refreshing fruit with a mild flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try cucumber in salads, raita, pickling."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse, trim the ends and slice or dice. Peel only if you prefer a softer texture."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with mint, yoghurt, tomatoes or a little lime."
+        },
+        {
+          "title": "A serving tip",
+          "text": "For a thicker raita, squeeze excess moisture from grated cucumber before mixing it with yoghurt."
+        }
+      ],
+      "preparation": "Rinse, trim the ends and slice or dice. Peel only if you prefer a softer texture.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "beetroot": {
+    "source": "2dd8dced",
+    "name": "Beetroot",
+    "description": "Sweet, earthy roots for cooking or pickling.",
+    "uses": [
+      "Roasting",
+      "salads",
+      "pickles"
+    ],
+    "details": {
+      "tagline": "Roasting. Salads. Pickles.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Sweet, earthy roots for cooking or pickling."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try beetroot in roasting, salads, pickles."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub and cook until tender, then peel if preferred. Wear an apron to avoid stains."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with orange, dill, yoghurt or walnuts."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cook separately from pale ingredients if you want to keep their colours distinct."
+        }
+      ],
+      "preparation": "Scrub and cook until tender, then peel if preferred. Wear an apron to avoid stains.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "calendula-petals": {
+    "source": "ce6e877b",
+    "name": "Calendula petals",
+    "description": "Golden petals for a light floral accent.",
+    "uses": [
+      "Salads",
+      "rice dishes",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Salads. Rice dishes. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Golden petals for a light floral accent."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try calendula petals in salads, rice dishes, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use food-grade petals, separated from the flower base, to finish rice or salads."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Scatter petals over rice, soft cheese or a simple green salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add the petals after cooking so their colour remains visible on the plate."
+        }
+      ],
+      "preparation": "Use food-grade petals, separated from the flower base, to finish rice or salads.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "A little finishing touch",
+      "nutrition": [
+        {
+          "title": "A garnish",
+          "text": "Use a few blooms or petals for colour and texture."
+        },
+        {
+          "title": "Food-grade only",
+          "text": "Eat only flowers grown and identified for food use."
+        },
+        {
+          "title": "Small portions",
+          "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        }
+      ]
+    }
+  },
+  "lollo-rosso-lettuce": {
+    "source": "02f4f4c2",
+    "name": "Lollo rosso lettuce",
+    "description": "Frilled red leaves with a slightly bitter finish and an airy texture.",
+    "uses": [
+      "Salad mixes",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Salad mixes. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Frilled red leaves with a slightly bitter finish and an airy texture."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try lollo rosso lettuce in salad mixes, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Tear the frilled leaves into small pieces and mix with milder salad leaves."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Tear the frilled leaves into small pieces and mix with milder salad leaves.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "coriander": {
+    "source": "9c2c6566",
+    "name": "Coriander",
+    "description": "Fresh cilantro leaves and tender stems with a distinctive citrus-like aroma.",
+    "uses": [
+      "Chutneys",
+      "curries",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Chutneys. Curries. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fresh cilantro leaves and tender stems with a distinctive citrus-like aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try coriander in chutneys, curries, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse leaves and tender stems thoroughly. Chop both for chutneys or a finishing garnish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lime, tomatoes, lentils or green chilli."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use tender stems in chutneys and save the leafy tops to finish the dish."
+        }
+      ],
+      "preparation": "Rinse leaves and tender stems thoroughly. Chop both for chutneys or a finishing garnish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "mustard-microgreens": {
+    "source": "7bc39786",
+    "name": "Mustard microgreens",
+    "description": "Small leaves with a strong mustard warmth.",
+    "uses": [
+      "Sandwiches",
+      "garnish",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Garnish. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small leaves with a strong mustard warmth."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try mustard microgreens in sandwiches, garnish, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Balance peppery shoots with avocado, hummus or a cool yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "bell-peppers": {
+    "source": "df9c2c48",
+    "name": "Bell peppers",
+    "description": "Thick-walled sweet peppers that bring colour and crunch.",
+    "uses": [
+      "Salads",
+      "stuffing",
+      "roasting"
+    ],
+    "details": {
+      "tagline": "Salads. Stuffing. Roasting.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Thick-walled sweet peppers that bring colour and crunch."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try bell peppers in salads, stuffing, roasting."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the stalk, seeds and white ribs. Slice for salads or halve for stuffing."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with tomatoes, onions, beans or a rice filling."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cut into wide pieces for roasting and thin strips for quick pan cooking."
+        }
+      ],
+      "preparation": "Remove the stalk, seeds and white ribs. Slice for salads or halve for stuffing.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Contributes to vitamin C intake as part of a varied diet."
+        },
+        {
+          "title": "Whole food",
+          "text": "Use the edible flesh and skin for texture and fibre."
+        },
+        {
+          "title": "Preparation matters",
+          "text": "Long cooking and storage can reduce vitamin C."
+        }
+      ]
+    }
+  },
+  "carrot": {
+    "source": "4cf54e65",
+    "name": "Carrot",
+    "description": "Crunchy roots with a gentle sweetness.",
+    "uses": [
+      "Salads",
+      "roasting",
+      "soups"
+    ],
+    "details": {
+      "tagline": "Salads. Roasting. Soups.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crunchy roots with a gentle sweetness."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try carrot in salads, roasting, soups."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub or peel, trim and cut into even pieces for roasting or soup."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cumin, ginger, citrus or chickpeas."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cut into similar-size pieces for roasting, or grate finely to soften the bite in a raw salad."
+        }
+      ],
+      "preparation": "Scrub or peel, trim and cut into even pieces for roasting or soup.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Beta-carotene",
+          "text": "An orange plant pigment the body can convert to vitamin A."
+        },
+        {
+          "title": "Fibre",
+          "text": "Keep the whole carrot in the dish for its dietary fibre."
+        },
+        {
+          "title": "Raw or cooked",
+          "text": "Grate into salads or cook until tender."
+        }
+      ]
+    }
+  },
+  "borage-flowers": {
+    "source": "8c301c91",
+    "name": "Borage flowers",
+    "description": "Small blue blossoms with a mild cucumber-like character.",
+    "uses": [
+      "Occasional garnish"
+    ],
+    "details": {
+      "tagline": "Occasional garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small blue blossoms with a mild cucumber-like character."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try borage flowers in occasional garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use food-grade flowers only as an occasional small garnish, not as an everyday vegetable serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Use a few food-grade blooms to finish a cucumber salad or a cold drink."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Keep this to an occasional small garnish; do not use a bowlful as a vegetable serving."
+        }
+      ],
+      "preparation": "Use food-grade flowers only as an occasional small garnish, not as an everyday vegetable serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "A little finishing touch",
+      "nutrition": [
+        {
+          "title": "A garnish",
+          "text": "Use a few blooms or petals for colour and texture."
+        },
+        {
+          "title": "Food-grade only",
+          "text": "Eat only flowers grown and identified for food use."
+        },
+        {
+          "title": "Small portions",
+          "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        }
+      ]
+    }
+  },
+  "lollo-bionda-lettuce": {
+    "source": "30e8376e",
+    "name": "Lollo bionda lettuce",
+    "description": "Curly green leaves make a light, crisp base for simple dressings.",
+    "uses": [
+      "Salads",
+      "sandwiches"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Curly green leaves make a light, crisp base for simple dressings."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try lollo bionda lettuce in salads, sandwiches."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse and dry the curly leaves well so dressing does not pool between them."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Rinse and dry the curly leaves well so dressing does not pool between them.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "flat-leaf-parsley": {
+    "source": "0546d0e1",
+    "name": "Flat-leaf parsley",
+    "description": "Fresh, grassy leaves with a clean finish.",
+    "uses": [
+      "Tabbouleh",
+      "sauces",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Tabbouleh. Sauces. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fresh, grassy leaves with a clean finish."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try flat-leaf parsley in tabbouleh, sauces, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse, dry and chop the leaves and tender stems finely for salads and sauces."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lemon, potatoes, eggs or a simple bean salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dry the leaves before chopping so they stay loose and mix evenly through a dressing."
+        }
+      ],
+      "preparation": "Rinse, dry and chop the leaves and tender stems finely for salads and sauces.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "red-cabbage-microgreens": {
+    "source": "a4faaf55",
+    "name": "Red cabbage microgreens",
+    "description": "Purple-stemmed young leaves with a mild brassica taste.",
+    "uses": [
+      "Salads",
+      "bowls",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Salads. Bowls. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Purple-stemmed young leaves with a mild brassica taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try red cabbage microgreens in salads, bowls, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "green-chillies": {
+    "source": "fbe5364c",
+    "name": "Green chillies",
+    "description": "Fresh chillies for heat and bright flavour.",
+    "uses": [
+      "Curries",
+      "chutneys",
+      "pickles"
+    ],
+    "details": {
+      "tagline": "Curries. Chutneys. Pickles.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fresh chillies for heat and bright flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try green chillies in curries, chutneys, pickles."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Trim the stalk and chop carefully. Add gradually; wash hands after handling."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with coriander, lime, tomatoes or yoghurt."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add a little at a time and taste the dish. Heat can vary between individual chillies."
+        }
+      ],
+      "preparation": "Trim the stalk and chop carefully. Add gradually; wash hands after handling.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "ginger": {
+    "source": "96aa67e0",
+    "name": "Ginger",
+    "description": "Aromatic rhizomes with a warm, sharp flavour.",
+    "uses": [
+      "Curries",
+      "infusions",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Curries. Infusions. Marinades.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Aromatic rhizomes with a warm, sharp flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try ginger in curries, infusions, marinades."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub or peel thinly, then grate, mince or slice across the fibres."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with garlic, lime, carrots or coconut milk."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Grate for an even background flavour; use thin slices when you want to remove the ginger after cooking."
+        }
+      ],
+      "preparation": "Scrub or peel thinly, then grate, mince or slice across the fibres.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "iceberg-lettuce": {
+    "source": "a81591b3",
+    "name": "Iceberg lettuce",
+    "description": "A crisp-heading lettuce known for its clean flavour and crunchy leaves.",
+    "uses": [
+      "Wedges",
+      "wraps",
+      "burgers"
+    ],
+    "details": {
+      "tagline": "Wedges. Wraps. Burgers.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "A crisp-heading lettuce known for its clean flavour and crunchy leaves."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try iceberg lettuce in wedges, wraps, burgers."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the core, rinse the leaves and slice into wedges or shreds."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, tomatoes and a lemon or yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich."
+        }
+      ],
+      "preparation": "Remove the core, rinse the leaves and slice into wedges or shreds.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "curly-parsley": {
+    "source": "6f8fa57e",
+    "name": "Curly parsley",
+    "description": "Curled leaves add texture and a gentle herbal flavour.",
+    "uses": [
+      "Garnish",
+      "salads",
+      "herb butter"
+    ],
+    "details": {
+      "tagline": "Garnish. Salads. Herb butter.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Curled leaves add texture and a gentle herbal flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try curly parsley in garnish, salads, herb butter."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse between the curled leaves and dry before chopping for butter or garnish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lemon, potatoes, eggs or a simple bean salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dry the leaves before chopping so they stay loose and mix evenly through a dressing."
+        }
+      ],
+      "preparation": "Rinse between the curled leaves and dry before chopping for butter or garnish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "kale-microgreens": {
+    "source": "23032e4b",
+    "name": "Kale microgreens",
+    "description": "Tender young kale leaves for a soft green finish.",
+    "uses": [
+      "Sandwiches",
+      "salads",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salads. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender young kale leaves for a soft green finish."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try kale microgreens in sandwiches, salads, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "jalapeno-peppers": {
+    "source": "50d02da7",
+    "name": "Jalapeño peppers",
+    "description": "Firm chillies with a distinctive flavour and variable heat.",
+    "uses": [
+      "Salsas",
+      "pickling",
+      "stuffing"
+    ],
+    "details": {
+      "tagline": "Salsas. Pickling. Stuffing.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Firm chillies with a distinctive flavour and variable heat."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try jalapeño peppers in salsas, pickling, stuffing."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the stalk and slice. Remove seeds and inner ribs for a milder dish; wash hands after handling."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with tomatoes, lime, beans or a soft cheese filling."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice thinly to spread the heat through a salsa or sandwich rather than concentrating it in one bite."
+        }
+      ],
+      "preparation": "Remove the stalk and slice. Remove seeds and inner ribs for a milder dish; wash hands after handling.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "turmeric": {
+    "source": "3dd538ed",
+    "name": "Turmeric",
+    "description": "Colourful rhizomes with an earthy, slightly bitter taste.",
+    "uses": [
+      "Curries",
+      "pickles",
+      "cooking"
+    ],
+    "details": {
+      "tagline": "Curries. Pickles. Cooking.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Colourful rhizomes with an earthy, slightly bitter taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try turmeric in curries, pickles, cooking."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub or peel thinly and grate into cooking. Protect surfaces from its strong colour."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, coconut milk, lentils or cauliflower."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a small amount and taste. Grate over a washable surface because the colour can stain."
+        }
+      ],
+      "preparation": "Scrub or peel thinly and grate into cooking. Protect surfaces from its strong colour.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "arugula": {
+    "source": "113e1546",
+    "name": "Arugula",
+    "description": "Peppery leaves that give a fresh salad or a finished pizza a little bite.",
+    "uses": [
+      "Salads",
+      "pizza",
+      "pesto"
+    ],
+    "details": {
+      "tagline": "Salads. Pizza. Pesto.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Peppery leaves that give a fresh salad or a finished pizza a little bite."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try arugula in salads, pizza, pesto."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse and dry. Add to pizza after baking, or toss into a salad at the last moment."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the peppery leaves with pear, walnuts, tomatoes or shaved cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over pizza after baking, or fold through warm pasta just before serving."
+        }
+      ],
+      "preparation": "Rinse and dry. Add to pizza after baking, or toss into a salad at the last moment.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "dill": {
+    "source": "37344873",
+    "name": "Dill",
+    "description": "Fine feathery leaves with a bright, anise-like aroma.",
+    "uses": [
+      "Pickles",
+      "potatoes",
+      "dressings"
+    ],
+    "details": {
+      "tagline": "Pickles. Potatoes. Dressings.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fine feathery leaves with a bright, anise-like aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try dill in pickles, potatoes, dressings."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Snip the fine fronds just before adding to potatoes, yoghurt or a dressing."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, potatoes, yoghurt or lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Snip over the finished dish, or stir into a cold dressing just before serving."
+        }
+      ],
+      "preparation": "Snip the fine fronds just before adding to potatoes, yoghurt or a dressing.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "arugula-microgreens": {
+    "source": "2a58d288",
+    "name": "Arugula microgreens",
+    "description": "Fine leaves with a familiar peppery rocket note.",
+    "uses": [
+      "Pizza",
+      "pasta",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Pizza. Pasta. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fine leaves with a familiar peppery rocket note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try arugula microgreens in pizza, pasta, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Balance peppery shoots with avocado, hummus or a cool yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "strawberries": {
+    "source": "b1c7e0cf",
+    "name": "Strawberries",
+    "description": "Aromatic soft fruit for fresh eating and simple desserts.",
+    "uses": [
+      "Snacking",
+      "desserts",
+      "preserves"
+    ],
+    "details": {
+      "tagline": "Snacking. Desserts. Preserves.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Aromatic soft fruit for fresh eating and simple desserts."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try strawberries in snacking, desserts, preserves."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse just before eating, then remove the green hulls. Pat dry for desserts."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with yoghurt, basil, mint or a little lemon zest."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice just before serving, or gently crush a few berries to make a quick topping."
+        }
+      ],
+      "preparation": "Rinse just before eating, then remove the green hulls. Pat dry for desserts.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Contributes to vitamin C intake as part of a varied diet."
+        },
+        {
+          "title": "Whole food",
+          "text": "Use the edible flesh and skin for texture and fibre."
+        },
+        {
+          "title": "Preparation matters",
+          "text": "Long cooking and storage can reduce vitamin C."
+        }
+      ]
+    }
+  },
+  "potato": {
+    "source": "54313611",
+    "name": "Potato",
+    "description": "Versatile tubers for cooking, with specialist aeroponic propagation uses.",
+    "uses": [
+      "Roasting",
+      "boiling",
+      "mashing"
+    ],
+    "details": {
+      "tagline": "Roasting. Boiling. Mashing.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Versatile tubers for cooking, with specialist aeroponic propagation uses."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try potato in roasting, boiling, mashing."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub, remove sprouts and green areas, and cook thoroughly. Discard very green or bitter potatoes."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with rosemary, garlic, peas or a yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use even chunks for boiling and leave space between pieces when roasting for crisp edges."
+        }
+      ],
+      "preparation": "Scrub, remove sprouts and green areas, and cook thoroughly. Discard very green or bitter potatoes.",
+      "storage": "Keep in a cool, dark, ventilated place, separate from onions.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "spinach": {
+    "source": "8f3597fa",
+    "name": "Spinach",
+    "description": "Versatile green leaves for fresh bowls or quick, gentle cooking.",
+    "uses": [
+      "Salads",
+      "dal",
+      "sautéed greens"
+    ],
+    "details": {
+      "tagline": "Salads. Dal. Sautéed greens.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Versatile green leaves for fresh bowls or quick, gentle cooking."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try spinach in salads, dal, sautéed greens."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse thoroughly. Use tender leaves raw, or wilt briefly into dal or a warm pan."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with chickpeas, paneer, garlic or a squeeze of lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Stir into dal or soup near the end of cooking. The leaves wilt quickly and take up less room in the pan."
+        }
+      ],
+      "preparation": "Rinse thoroughly. Use tender leaves raw, or wilt briefly into dal or a warm pan.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "A naturally occurring nutrient involved in normal blood clotting."
+        },
+        {
+          "title": "Provitamin A",
+          "text": "Plant carotenoids that the body can convert to vitamin A."
+        },
+        {
+          "title": "Folate",
+          "text": "A B vitamin involved in making new cells."
+        },
+        {
+          "title": "Potassium",
+          "text": "A mineral used in normal muscle and nerve function."
+        }
+      ]
+    }
+  },
+  "chives": {
+    "source": "731986ca",
+    "name": "Chives",
+    "description": "Slender green leaves with a mild onion flavour.",
+    "uses": [
+      "Eggs",
+      "soups",
+      "dips"
+    ],
+    "details": {
+      "tagline": "Eggs. Soups. Dips.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Slender green leaves with a mild onion flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try chives in eggs, soups, dips."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Snip into short pieces with clean scissors and scatter over the finished dish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with potatoes, eggs, cream cheese or a yoghurt dip."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use clean scissors to make small, even pieces without crushing the leaves."
+        }
+      ],
+      "preparation": "Snip into short pieces with clean scissors and scatter over the finished dish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "beet-microgreens": {
+    "source": "5584ba7c",
+    "name": "Beet microgreens",
+    "description": "Colourful stems and young leaves with an earthy taste.",
+    "uses": [
+      "Salads",
+      "plating",
+      "sandwiches"
+    ],
+    "details": {
+      "tagline": "Salads. Plating. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Colourful stems and young leaves with an earthy taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try beet microgreens in salads, plating, sandwiches."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "eggplant": {
+    "source": "fa849444",
+    "name": "Eggplant",
+    "description": "Tender-fleshed fruit that absorbs flavour well during cooking.",
+    "uses": [
+      "Curries",
+      "roasting",
+      "grilling"
+    ],
+    "details": {
+      "tagline": "Curries. Roasting. Grilling.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender-fleshed fruit that absorbs flavour well during cooking."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try eggplant in curries, roasting, grilling."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Trim the stalk, cut evenly and cook until the flesh is soft throughout."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with tomatoes, garlic, yoghurt or tahini."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Leave space between pieces when roasting. Crowding the tray gives a softer, more steamed result."
+        }
+      ],
+      "preparation": "Trim the stalk, cut evenly and cook until the flesh is soft throughout.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "baby-kale": {
+    "source": "eec05bf9",
+    "name": "Baby kale",
+    "description": "Young kale leaves with a softer texture than mature leaves.",
+    "uses": [
+      "Salads",
+      "grain bowls",
+      "quick sautés"
+    ],
+    "details": {
+      "tagline": "Salads. Grain bowls. Quick sautés.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Young kale leaves with a softer texture than mature leaves."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try baby kale in salads, grain bowls, quick sautés."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse and dry. Toss tender leaves straight into salads or warm grain bowls."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with white beans, roasted squash, garlic or a little lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing."
+        }
+      ],
+      "preparation": "Rinse and dry. Toss tender leaves straight into salads or warm grain bowls.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale contains vitamin K, used in normal blood clotting."
+        },
+        {
+          "title": "Fibre",
+          "text": "Whole leaves add dietary fibre to the meal."
+        },
+        {
+          "title": "Serving matters",
+          "text": "Portion size and cooking affect the nutrients on your plate."
+        }
+      ]
+    }
+  },
+  "garlic-chives": {
+    "source": "40072a96",
+    "name": "Garlic chives",
+    "description": "Flat leaves with a gentle garlic note.",
+    "uses": [
+      "Dumplings",
+      "stir-fries",
+      "omelettes"
+    ],
+    "details": {
+      "tagline": "Dumplings. Stir-fries. Omelettes.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Flat leaves with a gentle garlic note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try garlic chives in dumplings, stir-fries, omelettes."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse, trim the ends and chop into dumpling fillings or quick stir-fries."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with mushrooms, tofu, eggs or dumpling fillings."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cut into short lengths for stir-fries, or chop finely when mixing into a filling."
+        }
+      ],
+      "preparation": "Rinse, trim the ends and chop into dumpling fillings or quick stir-fries.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "amaranth-microgreens": {
+    "source": "cbb2821d",
+    "name": "Amaranth microgreens",
+    "description": "Very fine young leaves with vivid colour in red cultivars.",
+    "uses": [
+      "Garnish",
+      "salads",
+      "plating"
+    ],
+    "details": {
+      "tagline": "Garnish. Salads. Plating.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Very fine young leaves with vivid colour in red cultivars."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try amaranth microgreens in garnish, salads, plating."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "zucchini": {
+    "source": "0faf3414",
+    "name": "Zucchini",
+    "description": "Tender summer squash for light cooking.",
+    "uses": [
+      "Grilling",
+      "sautés",
+      "baking"
+    ],
+    "details": {
+      "tagline": "Grilling. Sautés. Baking.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender summer squash for light cooking."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try zucchini in grilling, sautés, baking."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Trim the ends and slice evenly. Cook briefly for firmer pieces or longer for a soft texture."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lemon, mint, basil or a little grated cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use thicker slices for grilling and small pieces for a quick sauté."
+        }
+      ],
+      "preparation": "Trim the ends and slice evenly. Cook briefly for firmer pieces or longer for a soft texture.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "curly-kale": {
+    "source": "8f7b1dc8",
+    "name": "Curly kale",
+    "description": "Textured green leaves that hold their shape well in hearty dishes.",
+    "uses": [
+      "Soups",
+      "sautés",
+      "kale chips"
+    ],
+    "details": {
+      "tagline": "Soups. Sautés. Kale chips.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Textured green leaves that hold their shape well in hearty dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try curly kale in soups, sautés, kale chips."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip thick stems. Massage chopped leaves for salads, or cook until tender."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with white beans, roasted squash, garlic or a little lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing."
+        }
+      ],
+      "preparation": "Strip thick stems. Massage chopped leaves for salads, or cook until tender.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale contains vitamin K, used in normal blood clotting."
+        },
+        {
+          "title": "Fibre",
+          "text": "Whole leaves add dietary fibre to the meal."
+        },
+        {
+          "title": "Serving matters",
+          "text": "Portion size and cooking affect the nutrients on your plate."
+        }
+      ]
+    }
+  },
+  "oregano": {
+    "source": "8cf92cff",
+    "name": "Oregano",
+    "description": "Small leaves with a warm, robust herbal aroma.",
+    "uses": [
+      "Tomato sauces",
+      "roasting",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Tomato sauces. Roasting. Marinades.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small leaves with a warm, robust herbal aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try oregano in tomato sauces, roasting, marinades."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip leaves from woody stems. Chop and add to tomato sauces or marinades."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with roast potatoes, mushrooms, beans or a tomato sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a little and taste as the dish cooks. Remove woody stems before serving."
+        }
+      ],
+      "preparation": "Strip leaves from woody stems. Chop and add to tomato sauces or marinades.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "basil-microgreens": {
+    "source": "7bb75a9d",
+    "name": "Basil microgreens",
+    "description": "Tiny aromatic leaves with a clear basil fragrance.",
+    "uses": [
+      "Tomato dishes",
+      "soups",
+      "plating"
+    ],
+    "details": {
+      "tagline": "Tomato dishes. Soups. Plating.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tiny aromatic leaves with a clear basil fragrance."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try basil microgreens in tomato dishes, soups, plating."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Use the aromatic shoots with tomatoes, rice or a warm bowl of soup."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "source": "cb1da443",
+    "name": "Muskmelon",
+    "description": "Sweet aromatic melon for fresh slices and fruit dishes.",
+    "uses": [
+      "Fresh eating",
+      "fruit salads"
+    ],
+    "details": {
+      "tagline": "Fresh eating. Fruit salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Sweet aromatic melon for fresh slices and fruit dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try muskmelon in fresh eating, fruit salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Scrub the rind before cutting. Remove seeds, slice the flesh and refrigerate cut pieces."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with mint, lime, yoghurt or other fresh fruit."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cut into bite-size pieces for a bowl and chill after cutting. Keep the rind out of the serving dish."
+        }
+      ],
+      "preparation": "Scrub the rind before cutting. Remove seeds, slice the flesh and refrigerate cut pieces.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "lacinato-kale": {
+    "source": "4b96c6ec",
+    "name": "Lacinato kale",
+    "description": "Long, dark leaves with a firm texture for cooking and chopped salads.",
+    "uses": [
+      "Soups",
+      "braises",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Soups. Braises. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Long, dark leaves with a firm texture for cooking and chopped salads."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try lacinato kale in soups, braises, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove tough ribs and slice the leaves thinly for soups or braises."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with white beans, roasted squash, garlic or a little lemon."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing."
+        }
+      ],
+      "preparation": "Remove tough ribs and slice the leaves thinly for soups or braises.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Natural nutrients",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Kale contains vitamin K, used in normal blood clotting."
+        },
+        {
+          "title": "Fibre",
+          "text": "Whole leaves add dietary fibre to the meal."
+        },
+        {
+          "title": "Serving matters",
+          "text": "Portion size and cooking affect the nutrients on your plate."
+        }
+      ]
+    }
+  },
+  "thyme": {
+    "source": "e9042f32",
+    "name": "Thyme",
+    "description": "Tiny leaves with an earthy, fragrant character.",
+    "uses": [
+      "Roasting",
+      "stocks",
+      "sauces"
+    ],
+    "details": {
+      "tagline": "Roasting. Stocks. Sauces.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tiny leaves with an earthy, fragrant character."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try thyme in roasting, stocks, sauces."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip the tiny leaves, or cook with a whole sprig and remove the woody stem before serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with roast potatoes, mushrooms, beans or a tomato sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a little and taste as the dish cooks. Remove woody stems before serving."
+        }
+      ],
+      "preparation": "Strip the tiny leaves, or cook with a whole sprig and remove the woody stem before serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "coriander-microgreens": {
+    "source": "ed7ab488",
+    "name": "Coriander microgreens",
+    "description": "Young coriander leaves with a concentrated herbal aroma.",
+    "uses": [
+      "Tacos",
+      "soups",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Tacos. Soups. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Young coriander leaves with a concentrated herbal aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try coriander microgreens in tacos, soups, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Use the aromatic shoots with tomatoes, rice or a warm bowl of soup."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "green-beans": {
+    "source": "c9b841da",
+    "name": "Green beans",
+    "description": "Tender pods for quick cooking and crisp vegetable dishes.",
+    "uses": [
+      "Stir-fries",
+      "salads",
+      "sautés"
+    ],
+    "details": {
+      "tagline": "Stir-fries. Salads. Sautés.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender pods for quick cooking and crisp vegetable dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try green beans in stir-fries, salads, sautés."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Trim the ends and cook until tender. Cool cooked beans for a salad."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with garlic, sesame, lemon or toasted almonds."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Cut to a similar length for even cooking, then toss with dressing while still warm."
+        }
+      ],
+      "preparation": "Trim the ends and cook until tender. Cool cooked beans for a salad.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "swiss-chard": {
+    "source": "db568563",
+    "name": "Swiss chard",
+    "description": "Broad leaves and crisp stems, useful as two textures in the same dish.",
+    "uses": [
+      "Sautés",
+      "gratins",
+      "soups"
+    ],
+    "details": {
+      "tagline": "Sautés. Gratins. Soups.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Broad leaves and crisp stems, useful as two textures in the same dish."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try swiss chard in sautés, gratins, soups."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Separate stems from leaves. Cook the chopped stems first, then add the leaves."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with garlic, lentils, white beans or a little lemon zest."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Chop the stems small and save them for a sauté; they need more time in the pan than the leaves."
+        }
+      ],
+      "preparation": "Separate stems from leaves. Cook the chopped stems first, then add the leaves.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "rosemary": {
+    "source": "d0109b10",
+    "name": "Rosemary",
+    "description": "Needle-like leaves with a strong pine-like aroma.",
+    "uses": [
+      "Roast vegetables",
+      "breads",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Roast vegetables. Breads. Marinades.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Needle-like leaves with a strong pine-like aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try rosemary in roast vegetables, breads, marinades."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip and finely chop the needles. Use sparingly; remove whole sprigs before serving."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with roast potatoes, mushrooms, beans or a tomato sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a little and taste as the dish cooks. Remove woody stems before serving."
+        }
+      ],
+      "preparation": "Strip and finely chop the needles. Use sparingly; remove whole sprigs before serving.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens": {
+    "source": "a802e69b",
+    "name": "Fenugreek microgreens",
+    "description": "Young methi shoots with a savoury, slightly bitter taste.",
+    "uses": [
+      "Salads",
+      "sandwiches",
+      "regional dishes"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Regional dishes.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Young methi shoots with a savoury, slightly bitter taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try fenugreek microgreens in salads, sandwiches, regional dishes."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the savoury shoots with potatoes, lentils or a chickpea filling."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "bok-choy": {
+    "source": "fc3d870d",
+    "name": "Bok choy",
+    "description": "Spoon-shaped leaves and crisp pale stems with a mild cabbage flavour.",
+    "uses": [
+      "Stir-fries",
+      "broths",
+      "steamed greens"
+    ],
+    "details": {
+      "tagline": "Stir-fries. Broths. Steamed greens.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Spoon-shaped leaves and crisp pale stems with a mild cabbage flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try bok choy in stir-fries, broths, steamed greens."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse between the stems. Cook stems first and add the leaves near the end."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, sesame, mushrooms or tofu."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Halve small heads lengthways for an attractive plate. Keep the base intact to hold the leaves together."
+        }
+      ],
+      "preparation": "Rinse between the stems. Cook stems first and add the leaves near the end.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "sage": {
+    "source": "d87fce09",
+    "name": "Sage",
+    "description": "Soft grey-green leaves with a deep, savoury aroma.",
+    "uses": [
+      "Brown butter",
+      "roasting",
+      "stuffing"
+    ],
+    "details": {
+      "tagline": "Brown butter. Roasting. Stuffing.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Soft grey-green leaves with a deep, savoury aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try sage in brown butter, roasting, stuffing."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Pat leaves dry and briefly cook in butter, or finely chop into a stuffing."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with roast potatoes, mushrooms, beans or a tomato sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a little and taste as the dish cooks. Remove woody stems before serving."
+        }
+      ],
+      "preparation": "Pat leaves dry and briefly cook in butter, or finely chop into a stuffing.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "wheatgrass": {
+    "source": "aee13940",
+    "name": "Wheatgrass",
+    "description": "Young wheat shoots grown for fresh preparation.",
+    "uses": [
+      "Juicing"
+    ],
+    "details": {
+      "tagline": "Juicing.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Young wheat shoots grown for fresh preparation."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try wheatgrass in juicing."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse the cut shoots and use a suitable grass juicer. Serve freshly prepared; do not use as a salad leaf."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Blend a small amount of freshly extracted juice with apple or cucumber juice."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Prepare only the juice you plan to serve. Strain out coarse fibres for a smoother drink."
+        }
+      ],
+      "preparation": "Rinse the cut shoots and use a suitable grass juicer. Serve freshly prepared; do not use as a salad leaf.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "tatsoi": {
+    "source": "41b56aea",
+    "name": "Tatsoi",
+    "description": "Small, rounded leaves with a mild mustard note.",
+    "uses": [
+      "Salads",
+      "soups",
+      "stir-fries"
+    ],
+    "details": {
+      "tagline": "Salads. Soups. Stir-fries.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small, rounded leaves with a mild mustard note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try tatsoi in salads, soups, stir-fries."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Separate and rinse the leaves. Add whole to soup or a quick stir-fry."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with sesame, ginger, noodles or tofu."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Add tender leaves to a warm bowl just before serving so they keep some shape."
+        }
+      ],
+      "preparation": "Separate and rinse the leaves. Add whole to soup or a quick stir-fry.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "lemon-balm": {
+    "source": "9057880a",
+    "name": "Lemon balm",
+    "description": "Tender leaves with a gentle lemon scent.",
+    "uses": [
+      "Infusions",
+      "fruit dishes",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Infusions. Fruit dishes. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender leaves with a gentle lemon scent."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try lemon balm in infusions, fruit dishes, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Gently bruise rinsed leaves for an infusion, or chop a few over fruit."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with berries, melon or a mild herbal infusion."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Gently bruise a few leaves to release their scent, then add them to a cooled drink."
+        }
+      ],
+      "preparation": "Gently bruise rinsed leaves for an infusion, or chop a few over fruit.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "kohlrabi-microgreens": {
+    "source": "46bf5e73",
+    "name": "Kohlrabi microgreens",
+    "description": "Tender shoots with a gentle cabbage taste.",
+    "uses": [
+      "Salads",
+      "bowls",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Salads. Bowls. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender shoots with a gentle cabbage taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try kohlrabi microgreens in salads, bowls, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "mizuna": {
+    "source": "28caab47",
+    "name": "Mizuna",
+    "description": "Fine, fringed leaves with a light peppery taste.",
+    "uses": [
+      "Salad mixes",
+      "noodle bowls"
+    ],
+    "details": {
+      "tagline": "Salad mixes. Noodle bowls.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fine, fringed leaves with a light peppery taste."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try mizuna in salad mixes, noodle bowls."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse the fine leaves gently and add at the end to keep their texture."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with citrus, sesame, radish or a mild noodle dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Mix with milder leaves for a salad, or use a loose handful to finish a noodle bowl."
+        }
+      ],
+      "preparation": "Rinse the fine leaves gently and add at the end to keep their texture.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "shiso": {
+    "source": "49790bae",
+    "name": "Shiso",
+    "description": "Distinctive aromatic leaves used as a wrap or garnish.",
+    "uses": [
+      "Rice dishes",
+      "pickles",
+      "garnish"
+    ],
+    "details": {
+      "tagline": "Rice dishes. Pickles. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Distinctive aromatic leaves used as a wrap or garnish."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try shiso in rice dishes, pickles, garnish."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse and dry the leaves. Slice thinly or leave whole as a small food wrap."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with cucumber, rice, sesame or pickled vegetables."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Stack a few dry leaves and slice into fine ribbons for a neat finishing garnish."
+        }
+      ],
+      "preparation": "Rinse and dry the leaves. Slice thinly or leave whole as a small food wrap.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "garden-cress-microgreens": {
+    "source": "a462291b",
+    "name": "Garden cress microgreens",
+    "description": "Fine shoots with a sharp, peppery flavour.",
+    "uses": [
+      "Egg dishes",
+      "sandwiches",
+      "salads"
+    ],
+    "details": {
+      "tagline": "Egg dishes. Sandwiches. Salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fine shoots with a sharp, peppery flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try garden cress microgreens in egg dishes, sandwiches, salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Balance peppery shoots with avocado, hummus or a cool yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Scatter over the plate after cooking. A small loose handful keeps the texture light."
+        }
+      ],
+      "preparation": "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "mustard-greens": {
+    "source": "f9c39244",
+    "name": "Mustard greens",
+    "description": "Bold leaves with a mustard bite that softens during cooking.",
+    "uses": [
+      "Saag",
+      "stir-fries",
+      "pickling"
+    ],
+    "details": {
+      "tagline": "Saag. Stir-fries. Pickling.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Bold leaves with a mustard bite that softens during cooking."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try mustard greens in saag, stir-fries, pickling."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove coarse stems and cook the leaves until tender to soften their bite."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with garlic, potatoes, lentils or a mild yoghurt side."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Chop finely for saag, or mix with milder greens to soften the mustard flavour."
+        }
+      ],
+      "preparation": "Remove coarse stems and cook the leaves until tender to soften their bite.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "chervil": {
+    "source": "8c156fac",
+    "name": "Chervil",
+    "description": "Delicate leaves with a light anise note.",
+    "uses": [
+      "Eggs",
+      "salads",
+      "finishing sauces"
+    ],
+    "details": {
+      "tagline": "Eggs. Salads. Finishing sauces.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Delicate leaves with a light anise note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try chervil in eggs, salads, finishing sauces."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Snip the tender leaves and add after cooking to keep their delicate aroma."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lemon, potatoes, eggs or a simple bean salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Dry the leaves before chopping so they stay loose and mix evenly through a dressing."
+        }
+      ],
+      "preparation": "Snip the tender leaves and add after cooking to keep their delicate aroma.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "radish-microgreens-live-tray": {
+    "source": "afaa910f",
+    "name": "Radish microgreens · Live tray",
+    "description": "Peppery young leaves. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Peppery young leaves. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try radish microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Balance peppery shoots with avocado, hummus or a cool yoghurt dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "watercress": {
+    "source": "41d3cdc3",
+    "name": "Watercress",
+    "description": "Small, rounded leaves with a lively peppery flavour.",
+    "uses": [
+      "Soups",
+      "salads",
+      "sandwiches"
+    ],
+    "details": {
+      "tagline": "Soups. Salads. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small, rounded leaves with a lively peppery flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try watercress in soups, salads, sandwiches."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse thoroughly and trim coarse stems. Add to salads or blend into cooked soup."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with potatoes, eggs, citrus or a mild creamy dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use tender tips for salads and save firmer stems for a cooked soup."
+        }
+      ],
+      "preparation": "Rinse thoroughly and trim coarse stems. Add to salads or blend into cooked soup.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "tarragon": {
+    "source": "69901840",
+    "name": "Tarragon",
+    "description": "Narrow leaves with a pronounced anise-like flavour.",
+    "uses": [
+      "Sauces",
+      "dressings",
+      "herb butter"
+    ],
+    "details": {
+      "tagline": "Sauces. Dressings. Herb butter.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Narrow leaves with a pronounced anise-like flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try tarragon in sauces, dressings, herb butter."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip the leaves and chop finely. Start with a small amount in a dressing or sauce."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with mustard, potatoes, eggs or a creamy dressing."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use a small amount first: the anise-like flavour can dominate a delicate sauce."
+        }
+      ],
+      "preparation": "Strip the leaves and chop finely. Start with a small amount in a dressing or sauce.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "pea-microgreens-live-tray": {
+    "source": "5198e055",
+    "name": "Pea microgreens · Live tray",
+    "description": "Tender shoots with a sweet pea flavour. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender shoots with a sweet pea flavour. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try pea microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "sorrel": {
+    "source": "c2f6c916",
+    "name": "Sorrel",
+    "description": "Tangy, lemony leaves used in small amounts to brighten a dish.",
+    "uses": [
+      "Sauces",
+      "soups",
+      "mixed salads"
+    ],
+    "details": {
+      "tagline": "Sauces. Soups. Mixed salads.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tangy, lemony leaves used in small amounts to brighten a dish."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try sorrel in sauces, soups, mixed salads."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Use a few rinsed leaves for a tart finish. Add gradually and taste as you go."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair a few leaves with potatoes, eggs or a creamy sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Taste before adding lemon or vinegar: sorrel already brings a tart note."
+        }
+      ],
+      "preparation": "Use a few rinsed leaves for a tart finish. Add gradually and taste as you go.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "marjoram": {
+    "source": "802bbebd",
+    "name": "Marjoram",
+    "description": "Soft leaves with a gentle, sweet oregano-like flavour.",
+    "uses": [
+      "Soups",
+      "sauces",
+      "roast vegetables"
+    ],
+    "details": {
+      "tagline": "Soups. Sauces. Roast vegetables.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Soft leaves with a gentle, sweet oregano-like flavour."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try marjoram in soups, sauces, roast vegetables."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Strip the small leaves and add near the end of cooking soups or sauces."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with roast potatoes, mushrooms, beans or a tomato sauce."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Start with a little and taste as the dish cooks. Remove woody stems before serving."
+        }
+      ],
+      "preparation": "Strip the small leaves and add near the end of cooking soups or sauces.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "sunflower-microgreens-live-tray": {
+    "source": "a436640b",
+    "name": "Sunflower microgreens · Live tray",
+    "description": "Crunchy shoots with a mild, nutty flavour. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Crunchy shoots with a mild, nutty flavour. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try sunflower microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "endive": {
+    "source": "55ffbd35",
+    "name": "Endive",
+    "description": "Firm leaves with a pleasantly bitter edge.",
+    "uses": [
+      "Salads",
+      "roasting",
+      "appetisers"
+    ],
+    "details": {
+      "tagline": "Salads. Roasting. Appetisers.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Firm leaves with a pleasantly bitter edge."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try endive in salads, roasting, appetisers."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Separate the leaves for small salad cups, or halve the head before roasting."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with orange, walnuts, apple or soft cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use the firm outer leaves as small cups for a chopped salad filling."
+        }
+      ],
+      "preparation": "Separate the leaves for small salad cups, or halve the head before roasting.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "lemongrass": {
+    "source": "9644eb9b",
+    "name": "Lemongrass",
+    "description": "Fragrant stems with a clear citrus aroma.",
+    "uses": [
+      "Curries",
+      "broths",
+      "infusions"
+    ],
+    "details": {
+      "tagline": "Curries. Broths. Infusions.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fragrant stems with a clear citrus aroma."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try lemongrass in curries, broths, infusions."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove tough outer layers. Bruise the stem for broth and remove before serving, or mince the tender base."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, coconut milk, lime or mushrooms."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use bruised stems to scent a broth. Remove large fibrous pieces before serving."
+        }
+      ],
+      "preparation": "Remove tough outer layers. Bruise the stem for broth and remove before serving, or mince the tender base.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Small leaves, plenty of flavour",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Fresh leaves add flavour in small amounts."
+        },
+        {
+          "title": "A finishing ingredient",
+          "text": "Pair with vegetables, pulses and grains for a complete dish."
+        },
+        {
+          "title": "Portion matters",
+          "text": "A few leaves are a garnish, not a full vegetable serving."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens-live-tray": {
+    "source": "184ffb84",
+    "name": "Broccoli microgreens · Live tray",
+    "description": "Small leaves with a mild brassica flavour. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Small leaves with a mild brassica flavour. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try broccoli microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "radicchio": {
+    "source": "6054b24c",
+    "name": "Radicchio",
+    "description": "Red leaves and white ribs bring bitterness and contrast to a plate.",
+    "uses": [
+      "Salads",
+      "grilling",
+      "risotto"
+    ],
+    "details": {
+      "tagline": "Salads. Grilling. Risotto.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Red leaves and white ribs bring bitterness and contrast to a plate."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try radicchio in salads, grilling, risotto."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Remove the core. Slice thinly for salads or cut into wedges for grilling."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with pear, orange, walnuts or a mild cheese."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Mix raw shreds with sweeter ingredients, or grill wedges to soften their texture."
+        }
+      ],
+      "preparation": "Remove the core. Slice thinly for salads or cut into wedges for grilling.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens-live-tray": {
+    "source": "b724d323",
+    "name": "Fenugreek microgreens · Live tray",
+    "description": "Aromatic shoots with a light bitterness. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Aromatic shoots with a light bitterness. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try fenugreek microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the savoury shoots with potatoes, lentils or a chickpea filling."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "amaranth-greens": {
+    "source": "e36b47cf",
+    "name": "Amaranth greens",
+    "description": "Tender leaves used in many regional Indian vegetable dishes.",
+    "uses": [
+      "Dal",
+      "stir-fries",
+      "cooked greens"
+    ],
+    "details": {
+      "tagline": "Dal. Stir-fries. Cooked greens.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender leaves used in many regional Indian vegetable dishes."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try amaranth greens in dal, stir-fries, cooked greens."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse well, trim tough stems and cook the leaves into dal or a vegetable dish."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with lentils, garlic, coconut or cumin."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Chop leaves and tender stems for a cooked side; remove the coarse stalks first."
+        }
+      ],
+      "preparation": "Rinse well, trim tough stems and cook the leaves into dal or a vegetable dish.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "source": "5db14b16",
+    "name": "Red amaranth microgreens · Live tray",
+    "description": "Fine red shoots with an earthy flavour. Delivered growing in one live tray. Cut what you need.",
+    "uses": [
+      "Salads",
+      "Sandwiches",
+      "Garnish",
+      "Harvest at home"
+    ],
+    "details": {
+      "tagline": "Salads. Sandwiches. Garnish.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Fine red shoots with an earthy flavour. Delivered growing in one live tray. Cut what you need."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try red amaranth microgreens · live tray in salads, sandwiches, garnish."
+        },
+        {
+          "title": "Cut when you need it",
+          "text": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow."
+        }
+      ],
+      "preparation": "Cut shoots above the growing medium with clean scissors. Rinse the harvested shoots before eating; leave roots and medium in the tray.",
+      "storage": "Keep upright in bright, indirect light. Keep the growing medium lightly moist, not waterlogged. Refrigerate cut shoots and use promptly.",
+      "nutritionTitle": "About microgreens",
+      "nutrition": [
+        {
+          "title": "Young shoots",
+          "text": "Harvested at an early stage for their flavour and texture."
+        },
+        {
+          "title": "Natural variation",
+          "text": "Vitamin and mineral content varies with species and growing conditions."
+        },
+        {
+          "title": "Mix it up",
+          "text": "Enjoy different shoots alongside other vegetables."
+        }
+      ]
+    }
+  },
+  "fenugreek-greens": {
+    "source": "2be34ad8",
+    "name": "Fenugreek greens",
+    "description": "Aromatic methi leaves with a characteristic bitter-savoury note.",
+    "uses": [
+      "Parathas",
+      "dal",
+      "vegetable dishes"
+    ],
+    "details": {
+      "tagline": "Parathas. Dal. Vegetable dishes.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Aromatic methi leaves with a characteristic bitter-savoury note."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try fenugreek greens in parathas, dal, vegetable dishes."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Pick the leaves from thick stems, rinse well and chop for dal or parathas."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with potatoes, peas, lentils or whole-wheat dough."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Fold chopped leaves into paratha dough, or add a small handful to a vegetable curry."
+        }
+      ],
+      "preparation": "Pick the leaves from thick stems, rinse well and chop for dal or parathas.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  },
+  "napa-cabbage": {
+    "source": "aa9e90d8",
+    "name": "Napa cabbage",
+    "description": "Tender layered leaves and mild, crisp stems.",
+    "uses": [
+      "Stir-fries",
+      "soups",
+      "fermented dishes"
+    ],
+    "details": {
+      "tagline": "Stir-fries. Soups. Fermented dishes.",
+      "benefits": [
+        {
+          "title": "Flavour & texture",
+          "text": "Tender layered leaves and mild, crisp stems."
+        },
+        {
+          "title": "An easy addition",
+          "text": "Try napa cabbage in stir-fries, soups, fermented dishes."
+        },
+        {
+          "title": "Simple to prepare",
+          "text": "Rinse between the layers. Slice stems and leaves separately for even cooking."
+        },
+        {
+          "title": "Pairs well with",
+          "text": "Pair with ginger, mushrooms, tofu or spring onions."
+        },
+        {
+          "title": "A serving tip",
+          "text": "Use the thicker ribs for crunch and the softer leaves to soak up a light broth."
+        }
+      ],
+      "preparation": "Rinse between the layers. Slice stems and leaves separately for even cooking.",
+      "storage": "Keep chilled and protect from crushing. Rinse just before use and use promptly after opening.",
+      "nutritionTitle": "Part of a varied plate",
+      "nutrition": [
+        {
+          "title": "Fibre",
+          "text": "Vegetables contribute fibre to a varied diet."
+        },
+        {
+          "title": "Vitamins & minerals",
+          "text": "The mix depends on the vegetable, portion and preparation."
+        },
+        {
+          "title": "Variety",
+          "text": "Combine different colours with grains and a protein source."
+        }
+      ]
+    }
+  }
+}

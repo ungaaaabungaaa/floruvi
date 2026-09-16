@@ -18,11 +18,13 @@ export type CheckoutDetails = {
   pincode: string;
   notes: string;
 };
+/** The farm reads requests in English, so item names and totals stay in English. */
 export function basketEnquiry(
   details: CheckoutDetails,
   items: { name: string; quantity: number }[],
   consent: boolean,
   website = "",
+  destination?: { country: string; total: string; deliveryQuoted: boolean },
 ) {
   return enquirySchema.safeParse({
     kind: "personal",
@@ -36,7 +38,12 @@ export function basketEnquiry(
     message: [
       "Basket availability request:",
       ...items.map((i) => `${i.name} × ${i.quantity}`),
-      `Delivery area: ${details.city}, ${details.region}, ${details.pincode}.`,
+      `Delivery area: ${[details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
+      ...(destination
+        ? [
+            `Country: ${destination.country}. Basket total: ${destination.total}${destination.deliveryQuoted ? " before delivery (delivery to be quoted)" : ""}.`,
+          ]
+        : []),
       details.notes,
     ].join("\n"),
     consent,

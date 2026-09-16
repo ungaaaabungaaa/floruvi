@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "siteName": "Floruvi Farm",
+    "defaultTitle": "Floruvi — Versheid die de moeite waard is",
+    "titleTemplate": "%s | Floruvi Farm",
+    "description": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten voor thuis of je bedrijf, geleverd in heel India.",
+    "descriptionExport": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten uit India voor thuis en bedrijven in {country}.",
+    "ogAlt": "Floruvi — Versheid die de moeite waard is",
+    "productTitle": "{name} – {country}",
+    "productDescription": "{description} {pack} – {price}.",
+    "recipeTitle": "{name} recept",
+    "products": {
+      "title": "Onze producten",
+      "description": "Bekijk Floruvi’s groenten en kruiden. Ontdek bladgroenten, kruiden, microgroenten, vruchtgewassen, wortelgewassen en eetbare bloemen."
+    },
+    "boxes": {
+      "title": "Groentebox-abonnementen",
+      "description": "Groenteboxen voor één, twee personen of een gezin. Kies een eenmalige box, wekelijkse of maandelijkse levering. Vraag de beschikbaarheid aan bij Floruvi."
+    },
+    "cart": {
+      "title": "Je winkelmandje"
+    },
+    "checkout": {
+      "title": "Afrekenen"
+    },
+    "wishlist": {
+      "title": "Je verlanglijst"
+    },
+    "contact": {
+      "title": "Neem contact op met de boerderij",
+      "description": "Vraag naar gewassen, beschikbaarheid en producten voor thuis. Geen account nodig."
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "description": "Antwoorden over winkelen, groenteboxen, levering, productverzorging, opgeslagen producten en privacy bij Floruvi."
+    },
+    "privacy": {
+      "title": "Privacyverklaring",
+      "description": "Hoe Floruvi omgaat met aanvragen, browseropslag, opgeslagen producten en privacyverzoeken."
+    },
+    "howWeGrow": {
+      "title": "In een aeroponische toren",
+      "description": "Volg het water, ontdek de wortels en zie hoe een circulerende aeroponische toren verse groenten laat groeien."
+    },
+    "realTalk": {
+      "title": "Eerlijk over alledaags eten",
+      "description": "Eenvoudige manieren om ruimte te maken voor groenten in je wekelijkse maaltijden, met minder gedoe en een duidelijk plan."
+    },
+    "recipes": {
+      "title": "Eenvoudige recepten",
+      "description": "Verse ideeën voor het dagelijks koken. Ontdek groentesalades, soepen, smoothies, ontbijt, bowls en pasta met Floruvi."
+    },
+    "productNotFound": "Product niet gevonden",
+    "recipeNotFound": "Recept niet gevonden"
+  },
+  "common": {
+    "skipToContent": "Naar de inhoud",
+    "brand": {
+      "home": "Floruvi home",
+      "tagline": "Versheid die de moeite waard is"
+    },
+    "nav": {
+      "shop": "Shop",
+      "boxes": "Boxen",
+      "recipes": "Recepten",
+      "talk": "Praat met ons",
+      "main": "Hoofdnavigatie",
+      "mobile": "Mobiele navigatie",
+      "open": "Navigatie openen",
+      "close": "Navigatie sluiten",
+      "description": "Ontdek de boerderij en neem contact op."
+    },
+    "footer": {
+      "shop": "Shop",
+      "vegetables": "Groenten",
+      "boxes": "Box-abonnementen",
+      "learn": "Ontdekken",
+      "howWeGrow": "Hoe we telen",
+      "recipes": "Recepten",
+      "help": "Help",
+      "contact": "Contact",
+      "faq": "Veelgestelde vragen",
+      "privacy": "Privacy",
+      "copyright": "© {year} Floruvi Farm"
+    },
+    "locale": {
+      "label": "Land en taal",
+      "change": "Land of taal wijzigen. Huidig: {country}, {language}",
+      "title": "Kies je land",
+      "description": "Prijzen, valuta en leveringsgegevens volgen het land dat je kiest.",
+      "close": "Sluiten",
+      "language": "Taal"
+    },
+    "money": {
+      "unavailable": "Niet beschikbaar",
+      "quoteRequired": "Prijsopgave nodig"
+    },
+    "cartLink": {
+      "one": "Winkelmandje, {count} artikel",
+      "other": "Winkelmandje, {count} artikelen"
+    },
+    "addToCart": {
+      "reduce": "{name} aantal verlagen",
+      "increase": "{name} aantal verhogen",
+      "selectedQuantity": "Geselecteerd aantal",
+      "add": "{name} toevoegen aan winkelmandje",
+      "added": "{name} toegevoegd aan winkelmandje",
+      "addShort": "In winkelmandje",
+      "addedShort": "Toegevoegd",
+      "limit": "Limiet van je winkelmandje bereikt. Verlaag de aantallen of verwijder een artikel.",
+      "compact": "Toevoegen"
+    },
+    "wishlist": {
+      "save": "{name} opslaan in verlanglijst",
+      "remove": "{name} verwijderen uit verlanglijst",
+      "title": "Verlanglijst",
+      "menu": {
+        "one": "Verlanglijst, {count} opgeslagen product",
+        "other": "Verlanglijst, {count} opgeslagen producten"
+      }
+    },
+    "boxes": {
+      "single": {
+        "name": "Solo",
+        "people": "1 persoon"
+      },
+      "dual": {
+        "name": "Duo",
+        "people": "2 personen"
+      },
+      "family": {
+        "name": "Familie",
+        "people": "4 of meer"
+      },
+      "schedules": {
+        "once": "Eenmalig",
+        "weekly": "Wekelijks",
+        "monthly": "Maandelijks",
+        "daily": "Eén keer per dag",
+        "fortnightly": "Elke 2 weken"
+      },
+      "boxName": "{name} box · {schedule}",
+      "perDelivery": "per levering"
+    },
+    "basket": {
+      "checkFailed": "Je winkelmandje kon niet worden gecontroleerd.",
+      "summary": "Besteloverzicht",
+      "subtotal": "Subtotaal",
+      "items": {
+        "one": "({count} artikel)",
+        "other": "({count} artikelen)"
+      },
+      "deliveryFee": "Bezorgkosten",
+      "deliveryQuoted": "Prijsopgave na beoordeling",
+      "total": "Totaal",
+      "totalBeforeDelivery": "Totaal vóór bezorgkosten",
+      "noPayment": "Er wordt niet betaald.",
+      "deliveryInfo": "Bezorginformatie",
+      "emptyEyebrow": "RUIMTE VOOR IETS VERS",
+      "emptyTitle": "Je winkelmandje is leeg.",
+      "emptyText": "Kies groenten om te beginnen.",
+      "emptyCta": "Ontdek de producten"
+    },
+    "validation": {
+      "name": "Vul je naam in.",
+      "email": "Vul een geldig e-mailadres in.",
+      "phone": "Vul een geldig telefoonnummer in.",
+      "deliveryPhone": "Vul een telefoonnummer voor bezorging in.",
+      "city": "Vul je woonplaats in.",
+      "message": "Voeg minstens 10 tekens toe.",
+      "consent": "Ga akkoord zodat we kunnen reageren op je aanvraag.",
+      "business": "Vul je bedrijfsnaam in.",
+      "generic": "Controleer je gegevens."
+    },
+    "requestErrors": {
+      "notConnected": "Aanvragen zijn nog niet verbonden. Probeer het later opnieuw.",
+      "tooMany": "Te veel aanvragen. Probeer het over een uur opnieuw.",
+      "notSaved": "Je aanvraag is niet opgeslagen. Probeer het zo weer opnieuw."
+    },
+    "error": {
+      "eyebrow": "EEN KORTE PAUZE",
+      "title": "We konden deze pagina niet laden.",
+      "text": "De catalogus van de boerderij is tijdelijk niet beschikbaar. Probeer het opnieuw.",
+      "retry": "Opnieuw proberen"
+    }
+  },
+  "home": {
+    "srTitle": "Floruvi — Versheid die de moeite waard is",
+    "carousel": "Versheid die de moeite waard is",
+    "slide": "{index} van {total}: {name}",
+    "chooseStory": "Kies een verhaal",
+    "showStory": "Toon verhaal {index}: {name}",
+    "previous": "Vorig verhaal",
+    "next": "Volgend verhaal",
+    "pause": "Verhalen pauzeren",
+    "play": "Verhalen afspelen",
+    "stories": [
+      {
+        "name": "De oogst",
+        "eyebrow": "VERSHEID DIE DE MOEITE WAARD IS",
+        "title": [
+          "Verse groenten.",
+          "Vrolijkere dagen."
+        ],
+        "note": "Een beetje meer groen. Een stuk meer om naar uit te kijken.",
+        "alt": "Een houten krat vol sla, boerenkool en verse kruiden.",
+        "signature": "Er groeit\niets moois."
+      },
+      {
+        "name": "Jouw dagelijks leven",
+        "eyebrow": "MAAK RUIMTE VOOR VERS",
+        "title": [
+          "Kleine rituelen.",
+          "Frisse start."
+        ],
+        "note": "Iets knapperigs. Iets groens. Iets voor jou alleen.",
+        "alt": "Frisse groene blaadjes worden afgespoeld in een ivoorkleurige vergiet.",
+        "signature": "Elke dag\neen frisse start."
+      },
+      {
+        "name": "Meer kleur",
+        "eyebrow": "EEN FEEST VOOR DE ZINTUIGEN",
+        "title": [
+          "Eet in",
+          "volle kleur."
+        ],
+        "note": "Zoete tomaten. Knapperige blaadjes. Een bord om voor te vertragen.",
+        "alt": "Kleurrijke tomaten, radijsjes, wortelen en verse blaadjes op lichte steen.",
+        "signature": "Kleur staat\nje goed."
+      },
+      {
+        "name": "Kleine wonderen",
+        "eyebrow": "MAAK KENNIS MET MICROGROENTEN",
+        "title": [
+          "Kleine blaadjes.",
+          "Grote smaak."
+        ],
+        "note": "De verse finishing touch die je dagelijkse maaltijden verdienen.",
+        "alt": "Verse radijsmicrogroenten met groene blaadjes en tere roze steeltjes.",
+        "signature": "Kleine blaadjes,\nveel om van te houden."
+      },
+      {
+        "name": "Beter telen",
+        "eyebrow": "EEN FRISSE MANIER VAN TELEN",
+        "title": [
+          "Geworteld in zorg.",
+          "Anders geteeld."
+        ],
+        "note": "Ontdek de wereld van hydrocultuur en aeroponie.",
+        "alt": "Illustratie van bladgroenten die groeien in zonovergoten verticale torens.",
+        "signature": "Een stap dichter\nbij de natuur."
+      },
+      {
+        "name": "Aan jouw tafel",
+        "eyebrow": "GOED ETEN. GOED GEZELSCHAP.",
+        "title": [
+          "De beste dingen",
+          "deel je."
+        ],
+        "note": "Verse ingrediënten. Simpele maaltijden. Weer een reden om samen te komen.",
+        "alt": "Een frisse kleurrijke salade en gedekte borden voor een gezamenlijke lunch.",
+        "signature": "Maak ruimte\nvoor goed eten."
+      }
+    ],
+    "freshToday": "Vandaag vers.",
+    "shopAll": "Alles bekijken",
+    "categoriesLabel": "Winkelcategorieën",
+    "categoryLinks": {
+      "leafy": "Bladgroenten",
+      "herbs": "Verse kruiden",
+      "microgreens": "Microgroenten",
+      "colourful": "Kleurrijke gewassen"
+    },
+    "nutritionTitle": "Eet je kleuren.",
+    "nutritionAccent": "Voel het verschil.",
+    "benefit": "{name}: {nutrient}",
+    "benefits": [
+      {
+        "name": "Gezonde spijsvertering",
+        "nutrient": "VEZELS"
+      },
+      {
+        "name": "Gezonde ogen",
+        "nutrient": "VITAMINE A"
+      },
+      {
+        "name": "Dagelijkse weerstand",
+        "nutrient": "VITAMINE C"
+      },
+      {
+        "name": "Celgroei",
+        "nutrient": "FOLIUMZUUR"
+      }
+    ],
+    "strengthTitle": "Een sterkere routine.",
+    "strengthAccent": "Eén goede keuze\ntegelijk.",
+    "strengthLabel": "Eten, bewegen en rust",
+    "strengthWords": [
+      "Eet goed",
+      "Beweeg vaak",
+      "Rust goed"
+    ],
+    "strengthAlt": "Een volwassen atlete in groene sportkleding rekt uit na een training, haar gezicht is buiten beeld.",
+    "goodnessTitle": "Shop op basis van hoe je je wilt voelen.",
+    "goodness": [
+      {
+        "name": "Zorg goed voor je darmen.",
+        "note": "Voeg vezels toe aan je bord",
+        "crop": "Wortelen"
+      },
+      {
+        "name": "Zorg goed voor je ogen.",
+        "note": "Maak kennis met vitamine A",
+        "crop": "Spinazie"
+      },
+      {
+        "name": "Versterk je weerstand.",
+        "note": "Maak kennis met vitamine C",
+        "crop": "Paprika’s"
+      },
+      {
+        "name": "Houd het afwisselend.",
+        "note": "Een beetje meer bladgroen",
+        "crop": "Bladgroenten"
+      }
+    ],
+    "mealAlt": "Een kom groenten, kikkererwten en quinoa op een met linnen bedekte tafel.",
+    "mealTitle": "Jouw volgende goede gewoonte",
+    "mealAccent": "begint op een bord.",
+    "recipesTitle": "Minder twijfelen. Meer koken.",
+    "allRecipes": "Alle recepten",
+    "minutes": "{count} min",
+    "boxesTitle": "Goed eten.",
+    "boxesAccent": "Ruimte voor iedereen.",
+    "exploreBoxes": "Ontdek de boxen",
+    "boxLabel": "Ontdek de {name} box voor {people}",
+    "boxAlt": "{name} box met sla, spinazie, tomaten, komkommer, wortelen en munt",
+    "moreTitle": "Meer groenten om van te houden.",
+    "seeEverything": "Bekijk alles",
+    "invitationTitle": "Een beetje meer groen.",
+    "invitationAccent": "Een goed begin.",
+    "findFavourites": "Vind je verse favorieten",
+    "searchAction": "Zoek producten"
+  },
+  "shop": {
+    "interludes": [
+      {
+        "title": "Breng kleur op tafel.",
+        "alt": "Gebakken wortelen, rode biet en kikkererwten op een schaal"
+      },
+      {
+        "title": "Frisse start. Rustige ochtenden.",
+        "alt": "Avocadotoast en een groene smoothie in ochtendlicht"
+      },
+      {
+        "title": "Goede ingrediënten. Fijne avonden.",
+        "alt": "Basilicumpasta en cherrytomaatjes op een groene tafel"
+      }
+    ],
+    "searchLabel": "Zoek producten",
+    "searchPlaceholder": "Zoek groenten en kruiden",
+    "clearSearch": "Zoekopdracht wissen",
+    "filterLabel": "Filter op categorie",
+    "allProduce": "Alle producten",
+    "bannerAlt": "Een mand met versgeplukte groenten",
+    "eyebrow": "VERS VAN FLORUVI",
+    "title": "Vers geplukt.\nVoor jouw tafel.",
+    "subtitle": "Groenten, kruiden en microgroenten.",
+    "sortLabel": "Producten sorteren",
+    "bestMatch": "Beste match",
+    "featured": "Uitgelicht eerst",
+    "az": "Naam: A tot Z",
+    "priceAsc": "Prijs per pak: laag naar hoog",
+    "priceDesc": "Prijs per pak: hoog naar laag",
+    "perPack": "Per pak. Formaten verschillen.",
+    "clearFilters": "Filters wissen",
+    "noResults": "Geen gewassen gevonden.",
+    "otherCategories": {
+      "one": "{count} match in andere categorieën.",
+      "other": "{count} matches in andere categorieën."
+    },
+    "tryName": "Probeer een gewasnaam, zoals rucola of raketsla.",
+    "searchAll": "Zoek in alle categorieën",
+    "loading": "Producten laden…"
+  },
+  "product": {
+    "assurances": {
+      "fresh": "Verse producten",
+      "care": "Met zorg geteeld",
+      "cook": "Bereid op jouw manier",
+      "domestic": "In heel India",
+      "export": "Van India naar {country}"
+    },
+    "waysToEnjoy": "Manieren om te genieten",
+    "seeAllRecipes": "Bekijk alle recepten",
+    "minutes": "{count} min",
+    "howToStore": "Zo bewaar je het",
+    "whyEat": "Waarom {name} eten?",
+    "whySubtitle": "Goede ingrediënten. Alledaagse mogelijkheden.",
+    "keepFresh": "Houd het vers",
+    "foodGuide": "Voedingsgids",
+    "waysToEnjoyName": "Manieren om van {name} te genieten",
+    "servingInspiration": "Serveerinspiratie",
+    "youMayAlsoLike": "Dit vind je misschien ook leuk",
+    "viewAll": "Bekijk alles",
+    "gallery": {
+      "closeUp": "{name} close-up",
+      "servingIdea": "{name} serveertip",
+      "viewRecipe": "Bekijk recept",
+      "images": "Productafbeeldingen",
+      "view": "Bekijk {label}"
+    },
+    "breadcrumbHome": "Home",
+    "breadcrumbShop": "Shop",
+    "story": {
+      "label": "Versheid die de moeite waard is",
+      "tagline": "Versheid die de moeite waard is",
+      "banners": [
+        {
+          "title": "Goed eten vandaag.\nMeer om naar uit te kijken.",
+          "alt": "Verse spinazie en boerenkool op een salieachtergrond"
+        },
+        {
+          "title": "Een beetje versheid.\nEen hoop smaak.",
+          "alt": "Basilicum en munt in zacht zonlicht"
+        },
+        {
+          "title": "Kleine blaadjes.\nEen frisse start.",
+          "alt": "Jonge microgroenten in een keramische schaal"
+        },
+        {
+          "title": "Breng elke dag\nwat kleur.",
+          "alt": "Tomaten en komkommer op een warme perzikkleurige achtergrond"
+        },
+        {
+          "title": "Simpele ingrediënten.\nMaaltijden om voor te maken.",
+          "alt": "Wortelen en radijsjes op een crèmekleurige achtergrond"
+        },
+        {
+          "title": "De finishing touch\nis iets vers.",
+          "alt": "Eetbare bloemen op een zachtroze achtergrond"
+        }
+      ],
+      "fresh": "Verse producten",
+      "care": "Met zorg geteeld",
+      "domestic": "Levering in heel India",
+      "export": "Levering naar {country} op aanvraag",
+      "mix": "Stel je eigen mix samen"
+    }
+  },
+  "cart": {
+    "heroAlt": "Een mand met verse groenten",
+    "title": "Je winkelmandje",
+    "subtitle": "Verse producten, klaar voor jouw tafel.",
+    "headProduct": "PRODUCT",
+    "headQuantity": "AANTAL",
+    "headPrice": "PRIJS",
+    "packOnRequest": "Pak op aanvraag",
+    "unlisted": "Dit gewas staat niet meer op de lijst.",
+    "perDelivery": "Per levering",
+    "freshProduce": "Verse producten",
+    "reduce": "{name} verlagen",
+    "increase": "{name} verhogen",
+    "remove": "{name} verwijderen",
+    "boxDelivery": "Levering inbegrepen bij je box.",
+    "domesticDelivery": "Verse producten, geleverd in heel India.",
+    "exportDelivery": "De boerderij geeft een prijsopgave voor levering naar {country} na beoordeling van je aanvraag.",
+    "continue": "Verder winkelen",
+    "checking": "Catalogus wordt gecontroleerd…",
+    "tryAgain": "Probeer opnieuw",
+    "removeUnlisted": "Verwijder niet-vermelde gewassen voordat je verdergaat.",
+    "proceed": "Ga naar afrekenen",
+    "editorialLabel": "Vers eten voor alledaagse maaltijden",
+    "editorialAlt": "Verse groene kruiden",
+    "editorialTitle": "Vers eten.\nElke dag.",
+    "editorialText": "Simpele ingrediënten.\nMeer manieren om ervan te genieten."
+  },
+  "checkout": {
+    "returnToBasket": "Ga terug naar je winkelmandje en controleer de geselecteerde gewassen.",
+    "notSaved": "Je aanvraag is niet opgeslagen. Probeer het opnieuw.",
+    "receivedTitle": "Aanvraag ontvangen.",
+    "receivedText": "We nemen contact met je op om de beschikbaarheid te bevestigen.",
+    "noPayment": "Er wordt niet betaald.",
+    "keepExploring": "Blijf ontdekken",
+    "back": "Terug naar winkelmandje",
+    "eyebrow": "VERSHEID DIE DE MOEITE WAARD IS",
+    "title": "Afrekenen.",
+    "progress": "Voortgang afrekenen",
+    "steps": [
+      "Jouw gegevens",
+      "Levering",
+      "Controleren en afronden"
+    ],
+    "headings": [
+      "Jouw gegevens",
+      "Bezorggebied",
+      "Controleren"
+    ],
+    "intro": "Blader en vul je winkelmandje zonder account.",
+    "name": "Volledige naam",
+    "namePlaceholder": "Je volledige naam",
+    "email": "E-mailadres",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Telefoonnummer voor bezorging",
+    "phonePlaceholder": "Telefoonnummer met landcode",
+    "continue": "Verder naar levering",
+    "deliveryDomestic": "We leveren in heel India.",
+    "deliveryExport": "De boerderij beoordeelt levering naar {country} en geeft een prijsopgave voordat er iets wordt geregeld.",
+    "address": "Adres",
+    "addressOptional": "Optioneel bij de aanvraag",
+    "addressPlaceholder": "Huisnummer, straat en wijk",
+    "addressNote": "Je straatadres blijft op deze pagina en wordt niet met deze aanvraag verstuurd.",
+    "city": "Woonplaats",
+    "cityPlaceholder": "Woonplaats",
+    "region": "Provincie / regio",
+    "regionPlaceholder": "Provincie of regio",
+    "postal": "Postcode",
+    "postalPlaceholder": "Postcode",
+    "optional": "Optioneel",
+    "notes": "Nog iets wat we moeten weten?",
+    "notesPlaceholder": "Gewenste bezorgdagen, opmerkingen over hoeveelheden of vragen",
+    "confirmDelivery": "De boerderij bevestigt de bezorggegevens.",
+    "backStep": "Terug",
+    "review": "Controleer mijn winkelmandje",
+    "contact": "CONTACT",
+    "editContact": "Contact bewerken",
+    "deliveryArea": "BEZORGGEBIED",
+    "editDelivery": "Levering bewerken",
+    "consent": "Ik ga ermee akkoord dat Floruvi mijn contactgegevens en bezorggebied gebruikt om te reageren op deze beschikbaarheidsaanvraag.",
+    "privacy": "Privacyverklaring",
+    "honeypot": "Website",
+    "sending": "Bezig met verzenden…",
+    "send": "Aanvraag verzenden",
+    "finalNote": "Er wordt niet betaald. We bevestigen de beschikbaarheid.",
+    "checkingBasket": "Winkelmandje wordt gecontroleerd…",
+    "tryAgain": "Probeer opnieuw",
+    "unlisted": "Een gewas staat niet meer op de lijst.",
+    "returnToRemove": "Ga terug naar het winkelmandje om het te verwijderen.",
+    "photoAlt": "doos met verse producten",
+    "handwritten": "Versheid die de moeite waard is."
+  },
+  "contact": {
+    "portraitAlt": "Verse groenten verzameld in een houten krat",
+    "sent": "Verzonden",
+    "inTouch": "We nemen contact met je op.",
+    "eyebrow": "LATEN WE PRATEN",
+    "title": "Goed eten begint\nmet een gesprek.",
+    "intro": "Voor thuis, je keuken of je bedrijf. Vertel ons wat je in gedachten hebt.",
+    "name": "Je naam",
+    "namePlaceholder": "Volledige naam",
+    "business": "Bedrijfsnaam",
+    "optional": "(optioneel)",
+    "businessPlaceholder": "Restaurant, café, winkel…",
+    "email": "E-mailadres",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Telefoonnummer",
+    "city": "Je woonplaats",
+    "cityPlaceholder": "Waar heb je producten nodig?",
+    "interest": "Producten of box",
+    "interestPlaceholder": "bijv. basilicum, sla, microgroenten",
+    "quantity": "Hoeveelheid en frequentie",
+    "quantityPlaceholder": "bijv. een paar pakken per week",
+    "message": "Bericht",
+    "messagePlaceholder": "Stel een vraag of vertel ons over de producten die je nodig hebt…",
+    "honeypot": "Laat dit veld leeg",
+    "consent": "Ik ga ermee akkoord dat Floruvi deze gegevens gebruikt om te reageren op mijn aanvraag.",
+    "privacy": "Privacyverklaring",
+    "sending": "Bezig met verzenden…",
+    "send": "Aanvraag verzenden",
+    "required": "* Verplichte velden.",
+    "boxInterest": "{name} box · {schedule} · {people}",
+    "boxMessage": "Ik wil graag een {name} groentebox voor {people}, geleverd {schedule}. Neem contact met mij op om de eerste levering te regelen."
+  },
+  "wishlist": {
+    "heroAlt": "Een linnen tas vol verse groenten",
+    "eyebrow": "JE VERLANGLIJST",
+    "title": "Goede keuzes.",
+    "accent": "Breng ze naar jouw tafel.",
+    "intro": "Je volgende verse maaltijd begint hier. Maak van de ingrediënten waar je van houdt iets waar je vandaag van geniet.",
+    "count": {
+      "one": "{count} opgeslagen artikel",
+      "other": "{count} opgeslagen artikelen"
+    },
+    "unlisted": "Dit product staat niet meer op de lijst.",
+    "emptyTitle": "Bewaar een beetje inspiratie.",
+    "emptyText": "Tik op het hartje bij een product om je favorieten hier te bewaren.",
+    "explore": "Ontdek producten",
+    "bannerAlt": "Een kleurrijke frisse salade met kruiden en citroen",
+    "bannerTitle": "Maak van je volgende maaltijd een frisse maaltijd.",
+    "recommendations": "Dit vind je misschien ook leuk",
+    "exploreAll": "Bekijk alles"
+  },
+  "boxes": {
+    "eyebrow": "GROENTEABONNEMENTEN",
+    "title": "Goed eten,\nsteeds opnieuw.",
+    "intro": "Verse groenten geleverd aan je deur.\nJouw box. Jouw ritme.",
+    "values": {
+      "fresh": "Verse producten",
+      "regular": "Regelmatige levering",
+      "good": "Goed eten"
+    },
+    "heroAlt": "Een groentebox met sla, spinazie, tomaten, wortelen, komkommer en munt",
+    "added": "Toegevoegd aan je winkelmandje.",
+    "full": "Je winkelmandje is vol. Controleer het voordat je meer toevoegt.",
+    "chooseBox": "Kies je box",
+    "chooseNote": "Dezelfde versheid. Een formaat voor elk huishouden.",
+    "boxAlt": "{name} groentebox",
+    "frequency": "Bezorgfrequentie",
+    "frequencyNote": "Kies hoe vaak je jouw box wilt ontvangen.",
+    "addedShort": "Toegevoegd",
+    "addToCart": "Toevoegen aan winkelmandje",
+    "seasonalAlt": "Verse bladgroenten",
+    "seasonalTitle": "Een frisse mix.\nEen vertrouwd ritme.",
+    "seasonalText": "Bladgroenten, groenten en kruiden voor de maaltijden die je elke dag maakt.",
+    "insideTitle": "Wat zit erin?",
+    "insideNote": "Je {name} box bevat:",
+    "storyAlt": "Een frisse groentesalade",
+    "storyTitle": "Echt eten.\nDagelijkse favorieten.",
+    "storyText": "Begin met een box vol verse ingrediënten. Maak het je eigen.",
+    "storyValues": {
+      "ingredients": "Verse ingrediënten",
+      "meals": "Maaltijden om van te genieten"
+    },
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      [
+        "Wat is inbegrepen in de prijs?",
+        "De prijs geldt voor één box per levering. Er zijn geen extra bezorgkosten voor boxen."
+      ],
+      [
+        "Wanneer komt mijn eerste box aan?",
+        "De boerderij regelt je eerste levering samen met jou."
+      ],
+      [
+        "Wordt er betaald als ik een box toevoeg?",
+        "Nee. Je box en frequentie worden opgeslagen in je winkelmandje. Terugkerende betaling is nog niet actief."
+      ],
+      [
+        "Kan ik de box of het bezorgschema wijzigen?",
+        "Laat ons weten wat je nodig hebt zodra we je aanvraag bevestigen. Neem contact op met de boerderij om wijzigingen in een geplande levering te bespreken."
+      ]
+    ],
+    "faqExportPrice": [
+      "Wat is inbegrepen in de prijs?",
+      "De prijs geldt voor één box per levering. De boerderij geeft een prijsopgave voor levering naar {country} na beoordeling van je aanvraag."
+    ],
+    "recipesTitle": "Recepten voor jouw box"
+  },
+  "recipes": {
+    "interludes": [
+      {
+        "title": "Een beetje pasta. Een heerlijke avond.",
+        "alt": "Basilicumpasta en cherrytomaatjes op een bosgroene tafel"
+      },
+      {
+        "title": "Maak tijd voor ontbijt.",
+        "alt": "Avocadotoast en een groene smoothie in ochtendlicht"
+      },
+      {
+        "title": "Breng kleur op tafel.",
+        "alt": "Gebakken wortelen, rode biet en kikkererwten op een schaal"
+      },
+      {
+        "title": "Begin met iets vers.",
+        "alt": "Handen die een mand met verse groenten vasthouden"
+      }
+    ],
+    "heroAlt": "Een kom verse sla, tomaten en radijsjes",
+    "eyebrow": "RECEPTEN",
+    "title": "Simpele maaltijden\nEen gezonder jij",
+    "subtitle": "Verse ideeën om groenten deel te maken van je dagelijks leven.",
+    "searchLabel": "Zoek recepten",
+    "searchPlaceholder": "Zoek recepten…",
+    "clearSearch": "Zoekopdracht wissen",
+    "categoriesLabel": "Receptcategorieën",
+    "all": "Alle",
+    "found": {
+      "one": "{count} recept gevonden",
+      "other": "{count} recepten gevonden"
+    },
+    "resultsLabel": "Receptresultaten",
+    "noResults": "Geen recepten gevonden.",
+    "noResultsText": "Probeer een ander ingrediënt of wis je filters.",
+    "showAll": "Toon alle recepten",
+    "kitchenAlt": "Handen scheppen een frisse groentesalade om met houten lepels",
+    "kitchenTitle": "Goede ingrediënten\nFijnere dagen",
+    "kitchenText": "Echt eten. Echt simpel.",
+    "moreLabel": "Meer receptresultaten",
+    "more": "Meer recepten",
+    "cardMinutes": "{count} min",
+    "breadcrumb": "Kruimelpad",
+    "breadcrumbRecipes": "Recepten",
+    "kitchen": "DE FLORUVI KEUKEN",
+    "minutes": {
+      "one": "{count} minuut",
+      "other": "{count} minuten"
+    },
+    "servings": {
+      "one": "{count} portie",
+      "other": "{count} porties"
+    },
+    "letsMake": "Laten we het maken",
+    "whatYouNeed": "WAT JE NODIG HEBT",
+    "ingredients": "Ingrediënten",
+    "allergens": "Controleer ingrediëntenlabels op allergenen. Was verse producten voor bereiding.",
+    "stepByStep": "STAP VOOR STAP",
+    "makeSomething": "Laten we iets lekkers maken.",
+    "kitchenNote": "Een kleine keukentip",
+    "meetIngredients": "Maak kennis met de ingrediënten.",
+    "moreRecipes": "Meer recepten"
+  },
+  "howWeGrow": {
+    "heroAlt": "Handen oogsten verse sla uit een aeroponische toren",
+    "eyebrow": "GEWORTELD OP EEN ANDERE MANIER",
+    "title": "Meer groen.",
+    "accent": "Minder grond.",
+    "intro": "Lucht. Water. Frisse mogelijkheden.\nEen compleet nieuwe manier van telen.",
+    "cropsLabel": "Bladgroenten en verse kruiden",
+    "cropAlts": [
+      "Sla",
+      "Basilicum",
+      "Boerenkool"
+    ],
+    "crops": "Bladgroenten.\nVerse kruiden.",
+    "scroll": "In de toren",
+    "principlesLabel": "De basisprincipes van telen",
+    "principles": [
+      "Water circuleert",
+      "Wortels zonder aarde",
+      "Verticaal telen",
+      "Licht voedt de groei"
+    ],
+    "insideEyebrow": "KIJK IETS BETER",
+    "insideTitle": "Er gebeurt van alles",
+    "insideAccent": "onder de blaadjes.",
+    "insideText": "Wortels hangen in de lucht. Een voedingsspray voedt ze. Tik op een cijfer om te ontdekken.",
+    "journeyEyebrow": "KLEINE BEGINNETJES. FRISSE MOGELIJKHEDEN.",
+    "journeyTitle": "Zaaien. Groeien. Oogsten. Genieten.",
+    "stages": [
+      {
+        "title": "Klein beginnen",
+        "text": "Zaden beginnen in een kweekplug."
+      },
+      {
+        "title": "Een plek vinden",
+        "text": "Jonge planten verhuizen naar de plantpockets van de toren."
+      },
+      {
+        "title": "Oogsten op tijd",
+        "text": "Elk gewas heeft zijn eigen oogsttijd."
+      },
+      {
+        "title": "Maak het je eigen",
+        "text": "Verse ingrediënten voor alledaagse maaltijden."
+      }
+    ],
+    "rootAlt": "Fijne bleke wortels hangen onder een kweekbekertje met zaailing",
+    "rootEyebrow": "GEEF WORTELS WAT ZE NODIG HEBBEN",
+    "rootTitle": "Geen aarde.",
+    "rootAccent": "Toch vol leven.",
+    "rootText": "Wortels hebben water, voedingsstoffen en zuurstof nodig.\nEen fijne spray levert water en voedingsstoffen terwijl de wortels in de lucht blijven hangen.",
+    "rootTags": [
+      "Water",
+      "Voedingsstoffen",
+      "Zuurstof"
+    ],
+    "notebookEyebrow": "EEN PAAR NOTITIES VAN BINNEN",
+    "notebookTitle": "Kleine wortels.",
+    "notebookAccent": "Een slimme groeicyclus.",
+    "notebookAlt": "Handgetekende studies van een kweekbekertje, wortels die voedingsspray ontvangen en een waterkringloop van een aeroponische toren",
+    "notes": [
+      {
+        "label": "01 / Een plek om te beginnen",
+        "title": "Het bekertje draagt de plant.",
+        "text": "Een kweekplug ondersteunt de zaailing. Wortels groeien door het netbekertje de toren in."
+      },
+      {
+        "label": "02 / Een beetje spray",
+        "title": "De wortels blijven in de lucht.",
+        "text": "Sproeikoppen brengen water en voedingsstoffen rechtstreeks naar de wortels. Op de juiste momenten blijven ze zo voorzien."
+      },
+      {
+        "label": "03 / Terug naar het begin",
+        "title": "Het water komt terug.",
+        "text": "Ongebruikte oplossing stroomt naar de basis. De pomp stuurt het opnieuw door het systeem."
+      }
+    ],
+    "closingTitle": "Een kleine voetafdruk.",
+    "closingAccent": "Een fris perspectief.",
+    "closingText": "Verticaal telen opent nieuwe mogelijkheden.",
+    "references": "Ontdek de groeiwetenschap",
+    "referenceNasa": "Aeroponisch telen — NASA Spinoff ↗",
+    "referenceOsu": "Water- en voedingscontroles — Oklahoma State University ↗",
+    "tower": {
+      "cutawayAlt": "Doorsnede van een ananasvormige aeroponische toren met zwevende wortels, sproeikoppen, centrale buis en reservoir",
+      "explore": "Ontdek {title}",
+      "follow": "VOLG DE STROOM",
+      "cycle": "Eén kringloop. Water blijft stromen.",
+      "parts": [
+        {
+          "title": "Plantpockets",
+          "text": "Kleine bekertjes ondersteunen elke plant. De wortels groeien de toren in."
+        },
+        {
+          "title": "Water omhoog",
+          "text": "Een pomp verplaatst voedingsrijk water van de basis naar de centrale toevoerbuis."
+        },
+        {
+          "title": "Wortels gevoed",
+          "text": "Sproeikoppen besproeien de zwevende wortels met water en opgeloste voedingsstoffen. Lucht omringt de wortels."
+        },
+        {
+          "title": "Water keert terug",
+          "text": "Ongebruikte oplossing stroomt terug naar het reservoir voor hergebruik."
+        }
+      ]
+    }
+  },
+  "realTalk": {
+    "eyebrow": "EERLIJK VERHAAL",
+    "title": "Plan je maaltijden.",
+    "intro": "Kies een paar maaltijden voordat je gaat winkelen.",
+    "cta": "Begin in de keuken",
+    "paperEyebrow": "HET GOEDE-ETEN-PLAN VAN DEZE WEEK",
+    "paperTitle": "Deze week.",
+    "plan": [
+      "Kies twee maaltijden waar je van geniet",
+      "Kies een bladgroente",
+      "Voeg een kruid toe voor smaak",
+      "Koop de hoeveelheid die je kunt gebruiken",
+      "Maak iets. Deel het."
+    ],
+    "handwritten": "Kleine veranderingen,\nvrolijkere dagen.",
+    "keepEyebrow": "HOU HET ECHT",
+    "keepTitle": "Begin met eten, niet met beloftes.",
+    "keepText": "Een gevarieerd voedingspatroon hoort bij goed voor jezelf zorgen. Geen enkel voedingsmiddel kan gezondheid garanderen of medische zorg vervangen. Wij richten ons op ingrediënten en praktische manieren om ervan te genieten.",
+    "chooseTitle": "Kies je groenten.",
+    "chooseCta": "Ontdek verse groenten"
+  },
+  "faq": {
+    "eyebrow": "EVEN HELPEN",
+    "title": "Vragen?",
+    "intro": "Van je eerste mandje tot je volgende maaltijd. Hier vind je alle details.",
+    "topics": "FAQ-onderwerpen",
+    "contactLink": "Neem contact op →",
+    "helpTitle": "Nog een vraag?",
+    "helpText": "Vertel ons wat je nodig hebt. We helpen je graag met de volgende stap.",
+    "helpContact": "Neem contact op met de boerderij →",
+    "helpPrivacy": "Privacyverklaring →",
+    "deliveryFee": "Voor een mandje met losse producten bedraagt de bezorging {fee} per bezorging.",
+    "deliveryFeeMissing": "De bezorgkosten zie je in je mandje voordat je een aanvraag verstuurt.",
+    "groups": {
+      "shopping": {
+        "title": "Winkelen en je mandje",
+        "questions": [
+          [
+            "Hoe plaats ik een bestelling?",
+            "Kies je producten of box en voeg ze toe aan je mandje. Controleer daarna je keuze bij het afrekenen. Vul je contactgegevens in en verstuur een beschikbaarheidsaanvraag. De boerderij bekijkt je aanvraag en regelt de volgende stappen met je."
+          ],
+          [
+            "Heb ik een account nodig?",
+            "Nee, je hebt geen account nodig. Blader rond, bewaar favorieten en verstuur je aanvraag."
+          ],
+          [
+            "Kan ik mijn mandje aanpassen voordat ik een aanvraag verstuur?",
+            "Ja. Open je mandje om hoeveelheden aan te passen of producten te verwijderen. Controleer de verpakkingsgrootte, de gekozen boxfrequentie en het totaal voordat je verdergaat. Wijzigingen in je mandje passen een aanvraag die je al hebt verstuurd niet aan."
+          ],
+          [
+            "Blijft mijn mandje bewaard als ik de site verlaat?",
+            "Je mandje wordt bewaard in dezelfde browser, zolang lokale opslag beschikbaar is. Het wissen van sitegegevens of het gebruik van een andere browser kan wijzigen wat je ziet of het mandje leegmaken. Je mandje wordt momenteel niet gesynchroniseerd tussen apparaten."
+          ],
+          [
+            "Reserveer ik een product door het toe te voegen?",
+            "Nee. Door producten aan je mandje toe te voegen, bewaar je alleen je keuze. Met een aanvraag kan de boerderij deze bekijken; dit reserveert geen voorraad en bevestigt geen bezorging."
+          ]
+        ]
+      },
+      "boxes": {
+        "title": "Groenteboxen",
+        "questions": [
+          [
+            "Welke boxgrootte moet ik kiezen?",
+            "Solo is bedoeld voor één persoon, Duo voor twee en Familie voor vier of meer. Gebruik dit als uitgangspunt en bekijk daarna de vermelde inhoud om een grootte te kiezen die past bij hoeveel je kookt."
+          ],
+          [
+            "Welke bezorgfrequenties kan ik kiezen?",
+            "Kies Eenmalig, Wekelijks of Maandelijks op de boxpagina. Eenmalig is een eenmalige boxaanvraag. Wekelijks en Maandelijks geven je gewenste herhaalschema aan; het kiezen hiervan start geen automatische betaling."
+          ],
+          [
+            "Is de boxprijs per bezorging?",
+            "Ja. Het getoonde bedrag geldt voor één box per bezorging, voor de gekozen grootte. Het is geen maandtotaal en geen kosten voor elke dag tussen bezorgingen."
+          ],
+          [
+            "Is bezorging inbegrepen bij een box?",
+            "Ja. Er zijn geen extra bezorgkosten voor een mandje met alleen boxen. Voeg je ook losse producten toe, dan gelden de standaard bezorgkosten voor producten voor het hele mandje."
+          ],
+          [
+            "Kan ik een box of de frequentie wijzigen?",
+            "Verwijder de box vóór het versturen van je aanvraag uit je mandje en voeg de gewenste grootte of frequentie toe. Neem na het versturen contact op met de boerderij om de wijziging te bespreken. Wijzigingen aan een geregelde bezorging moeten worden afgestemd met de boerderij."
+          ]
+        ]
+      },
+      "delivery": {
+        "title": "Bezorging en betaling",
+        "questions": [
+          [
+            "Waar bezorgen jullie?",
+            "We nemen bezorgaanvragen aan in heel India. Deel je stad en bezorggebied, zodat de boerderij de aanvraag kan bekijken en de bezorging met je kan regelen."
+          ],
+          [
+            "Wat kost bezorging?",
+            "{deliveryFee} Er zijn geen extra bezorgkosten voor een mandje met alleen boxen. Controleer het totaal van je mandje voordat je je aanvraag verstuurt."
+          ],
+          [
+            "Wanneer komen mijn producten of eerste box aan?",
+            "De boerderij neemt contact met je op om de bezorging te regelen."
+          ],
+          [
+            "Kan ik online betalen?",
+            "Er wordt geen betaling online afgehandeld. De boerderij bevestigt je aanvraag en de betaalgegevens."
+          ],
+          [
+            "Hoe wijzig of annuleer ik een aanvraag?",
+            "Gebruik het contactformulier en vermeld het e-mailadres van je aanvraag, wat je hebt gekozen en de gewenste wijziging. Is de bezorging al geregeld, neem dan contact op met de boerderij om de mogelijkheden te bespreken."
+          ],
+          [
+            "Wat als er een probleem is met mijn bezorging?",
+            "Neem contact op met de boerderij met je aanvraaggegevens en een duidelijke omschrijving van het probleem. Vermeld de betreffende producten en wanneer de bezorging aankwam. De boerderij bekijkt het probleem samen met je; de website biedt momenteel geen automatisch terugbetalings- of vervangingsproces."
+          ]
+        ]
+      },
+      "produce": {
+        "title": "Producten, bewaren en recepten",
+        "questions": [
+          [
+            "Waar zie ik de verpakkingsgrootte?",
+            "Elke productkaart toont de prijs en verpakkingsgrootte. Open de productpagina voor meer details en controleer daarna de gekozen hoeveelheden in je mandje. Verpakkingsgroottes verschillen per gewas, dus vergelijk zowel het vermelde gewicht of de hoeveelheid als de prijs."
+          ],
+          [
+            "Hoe bewaar ik mijn producten het beste?",
+            "Open de productpagina en lees het onderdeel Bewaren. De bewaarbehoeften verschillen per gewas. Volg het productspecifieke advies en eventuele instructies die bij je bezorging zijn meegeleverd."
+          ],
+          [
+            "Moet ik de producten wassen voordat ik ze gebruik?",
+            "Volg de bereidingsinstructies op de productpagina en eventuele aanwijzingen die bij je bezorging zijn meegeleverd. Productpagina's bevatten bereidingstips die je helpen bepalen wanneer je het gewas wast, bijsnijdt of kookt."
+          ],
+          [
+            "Waar vind ik recepten voor een product?",
+            "Kijk op de productpagina bij Zo geniet je ervan. Kies een recept om de ingrediënten, bereidingsstappen en bereidingstijd te bekijken. Je kunt ook de receptenpagina bekijken voor meer inspiratie."
+          ],
+          [
+            "Zijn de ingrediënten van een recept inbegrepen bij mijn aankoop?",
+            "Bij een productaankoop krijg je de vermelde verpakking, niet alle ingrediënten uit een recept. Recepten zijn bedoeld als maaltijdinspiratie. Bekijk de ingrediëntenlijst van het recept en de inhoud van de box voordat je bepaalt wat je nog meer nodig hebt."
+          ]
+        ]
+      },
+      "help": {
+        "title": "Bewaarde producten, zakelijk en ondersteuning",
+        "questions": [
+          [
+            "Hoe werkt de verlanglijst?",
+            "Klik op het hartje op een productafbeelding om het te bewaren. Open het hartje in de header om je bewaarde producten te bekijken. Klik nogmaals op het hartje om een product te verwijderen. De lijst wordt bewaard in je huidige browser, zonder account."
+          ],
+          [
+            "Waarom verschilt mijn verlanglijst op een ander apparaat?",
+            "Bewaarde producten blijven in deze browser staan. Ze verschijnen niet op andere apparaten."
+          ],
+          [
+            "Leveren jullie aan cafés, restaurants of andere bedrijven?",
+            "Je kunt een zakelijke aanvraag versturen via de contactpagina. Vermeld je bedrijfsnaam, gewassenlijst, hoeveelheden, stad en gewenste schema, zodat de boerderij je wensen begrijpt."
+          ],
+          [
+            "Wat gebeurt er met de gegevens die ik doorgeef?",
+            "Je aanvraaggegevens worden privé opgeslagen, zodat de boerderij je aanvraag kan bekijken en beantwoorden. Voorkeuren voor mandje en verlanglijst worden in je browser opgeslagen. Lees de privacyverklaring voor de volledige uitleg en informatie over verzoeken tot inzage, correctie of verwijdering."
+          ],
+          [
+            "Hoe kan ik iets anders vragen?",
+            "Gebruik het contactformulier en geef genoeg details, zodat de boerderij je vraag begrijpt. Vermeld bij een bestaande aanvraag het gebruikte e-mailadres. Voeg geen wachtwoorden, betaalgegevens of andere gevoelige informatie toe."
+          ]
+        ]
+      }
+    },
+    "export": {
+      "where": [
+        "Waar bezorgen jullie?",
+        "We nemen aanvragen aan vanuit {country}. Deel je stad en bezorggebied. De boerderij controleert de exportmogelijkheden voor je keuze en regelt de volgende stappen met je."
+      ],
+      "cost": [
+        "Wat kost bezorging?",
+        "De bezorgkosten naar {country} worden opgegeven nadat de boerderij je aanvraag heeft bekeken, omdat de exportkosten afhangen van de bestemming en de omvang van de bestelling. Je mandje toont het producttotaal vóór bezorging."
+      ],
+      "boxDelivery": [
+        "Is bezorging inbegrepen bij een box?",
+        "De boxprijs geldt alleen voor de box. De boerderij geeft de bezorgkosten naar {country} op na het bekijken van je aanvraag."
+      ]
+    }
+  },
+  "privacy": {
+    "eyebrow": "JOUW GEGEVENS, MET ZORG",
+    "title": "Privacyverklaring",
+    "intro": "Wat je deelt. Waar het blijft. De keuzes die je hebt.",
+    "updated": "Bijgewerkt op {date}",
+    "contents": "Inhoud van de privacyverklaring",
+    "inThisNotice": "In deze verklaring",
+    "question": "Heb je een privacyvraag?",
+    "contactLink": "Neem contact op →",
+    "sections": [
+      {
+        "id": "about",
+        "title": "Over deze verklaring",
+        "paragraphs": [
+          "Deze verklaring legt uit hoe informatie wordt gebruikt wanneer je Floruvi bezoekt, producten bewaart, een mandje samenstelt of een aanvraag verstuurt. Ze heeft betrekking op de huidige website, waaronder de shop, boxen, recepten en het contactformulier. Ze beschrijft de functies die vandaag beschikbaar zijn.",
+          "Browsen vereist geen klantaccount. Het versturen van een beschikbaarheidsaanvraag geeft de boerderij informatie om je wensen te bekijken en te reageren. Dit maakt geen account aan, int geen betaling, reserveert geen producten en activeert geen automatische betaling. Verwijzingen naar afrekenen in deze verklaring beschrijven dat aanvraagproces."
+        ]
+      },
+      {
+        "id": "information",
+        "title": "Informatie die je met ons deelt",
+        "paragraphs": [
+          "Het contactformulier vraagt om je naam, e-mailadres, stad, bericht en toestemming om deze gegevens te gebruiken om te reageren. Afhankelijk van het formulier kun je ook een telefoonnummer, productinteresses, hoeveelheden en andere informatie over je aanvraag delen. Je kunt je bedrijfsnaam vermelden als de aanvraag voor een bedrijf is.",
+          "Deel alleen informatie die nodig is voor de aanvraag. Een gewassenlijst, bezorggebied en verwachte hoeveelheid helpen de boerderij bijvoorbeeld om een zakelijke aanvraag te begrijpen. Voeg geen wachtwoorden, betaalkaartnummers, identiteitsdocumenten, medische gegevens of privéinformatie over iemand anders toe aan een bericht."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "Hoe aanvraaginformatie wordt gebruikt",
+        "paragraphs": [
+          "De boerderij gebruikt de informatie die je doorgeeft om je aanvraag te begrijpen, de gekozen producten te bekijken, de bezorgbehoeften te beoordelen en te reageren via de contactgegevens die je opgeeft. Het aanvraagrecord bevat een verzendtijd, een toestemmingstijd en een status waarmee aanvragen worden georganiseerd.",
+          "Een toestemmingsvakje is verplicht voordat de aanvraag kan worden verstuurd. Deze toestemming heeft betrekking op het verwerken van je aanvraag. De huidige website zet een contactaanvraag niet om in een nieuwsbriefabonnement en schrijft je niet in voor een reclamecampagne. Controleer de gegevens in je formulier voordat je het verstuurt."
+        ]
+      },
+      {
+        "id": "basket",
+        "title": "Je mandje en boxkeuzes",
+        "paragraphs": [
+          "Het mandje bewaart productidentificaties en hoeveelheden in je browser. Bij een box legt de identificatie ook de gekozen boxgrootte en bezorgfrequentie vast. Zo kan de website je keuzes tonen wanneer je terugkeert in dezelfde browser. Contactgegevens maken geen deel uit van dit bewaarde mandje.",
+          "Het toevoegen van een product aan je mandje verstuurt geen aanvraag. Je kunt hoeveelheden wijzigen of producten verwijderen voordat je een aanvraag verstuurt. Het wissen van de browseropslag van deze website verwijdert het bewaarde mandje uit die browser. Dit annuleert of verwijdert geen aanvraag die je al naar de boerderij hebt verstuurd."
+        ]
+      },
+      {
+        "id": "wishlist",
+        "title": "Je verlanglijst en receptvoorkeuren",
+        "paragraphs": [
+          "De verlanglijst bewaart de namen en identificaties van bewaarde producten in de lokale browseropslag. Dit ondersteunt de hartjes en het aantal bewaarde producten. De huidige verlanglijst is niet gekoppeld aan een klantaccount en wordt niet gesynchroniseerd tussen apparaten. Iemand anders die hetzelfde browserprofiel gebruikt, kan mogelijk deze bewaarde producten zien.",
+          "Het bekijken van recepten gebruikt ook sessieopslag om de volgorde van receptkaarten consistent te houden tijdens een sessie. Dit bewaart een weergavevoorkeur, geen contactgegevens. Je kunt lokale voorkeuren verwijderen via de sitegegevensinstellingen van je browser. Privénavigatie of geblokkeerde opslag kan beperken hoe lang deze functies je keuzes onthouden."
+        ]
+      },
+      {
+        "id": "checkout",
+        "title": "Afrekenen en bezorggegevens",
+        "paragraphs": [
+          "Contact- en bezorgvelden die je bij het afrekenen invult, blijven in het paginageheugen totdat je de beschikbaarheidsaanvraag verstuurt. De verstuurde aanvraag bevat je contactgegevens, gekozen gewassen of box, bezorggebied en opmerkingen. Het optionele veld voor straatadres wordt niet meegestuurd in de aanvraag en niet bewaard in het aanvraagrecord.",
+          "Niet-verstuurde formuliergegevens worden niet bewaard in het Floruvi-mandje. Als je de pagina verlaat of opnieuw laadt, kunnen deze verdwijnen. Je browser kan los daarvan autoaanvullen aanbieden of formuliergegevens onthouden via zijn eigen instellingen. Bekijk die instellingen als je een gedeeld apparaat gebruikt of niet wilt dat je browser persoonlijke gegevens voorstelt."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Waar aanvragen worden bewaard",
+        "paragraphs": [
+          "Verstuurde aanvragen worden bewaard in het Convex-project van Floruvi in de regio EU West. Ze worden gescheiden gehouden van de openbare productcatalogus. Bevoegde projectbeheerders hebben toegang tot aanvraagrecords om aanvragen te beheren. De openbare shop- en receptenpagina's tonen deze privéaanvraagrecords niet.",
+          "De websitehosting verwerkt de verzoeken die nodig zijn om pagina's, afbeeldingen en formulierreacties te leveren. Floruvi gebruikt Vercel voor hosting en Convex voor applicatiegegevens. Het bezoeken van de website maakt daarom gebruik van deze infrastructuurdiensten. Informatie die je vanuit een ander land verstuurt, kan buiten dat land worden verwerkt als onderdeel van deze opzet."
+        ]
+      },
+      {
+        "id": "protection",
+        "title": "Formulierbeveiliging en aanvraaglimieten",
+        "paragraphs": [
+          "De website controleert de verstuurde velden voordat een aanvraag wordt bewaard. Deze controles omvatten verplichte velden, lengtelimieten, contactformaten en een formulierveld dat wordt gebruikt om geautomatiseerde inzendingen te herkennen. Aanvragen die de validatie niet doorstaan, worden geweigerd. Deze maatregelen helpen de aanvraagservice te beschermen tegen ongeldige of buitensporige aanvragen.",
+          "Tijdelijke verzendlimieten gebruiken gecodeerde hashes die zijn afgeleid van je e-mailadres en, op Vercel, je IP-adres. Het onbewerkte IP-adres wordt niet bewaard in het aanvraagrecord. Een limietperiode duurt één uur. Verlopen limietrecords worden in batches verwijderd bij latere succesvolle inzendingen, dus verlopen betekent niet dat elk limietrecord direct wordt verwijderd."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Cookies, analyse en optionele diensten",
+        "paragraphs": [
+          "De hier beschreven mandje- en verlanglijstfuncties gebruiken lokale opslag. Weergavevoorkeuren voor recepten gebruiken sessieopslag. Dit zijn opslagmechanismen van de browser, geen accountgebonden profiel. Je browser bepaalt of siteopslag beschikbaar is en biedt opties om deze te wissen. Het uitschakelen van opslag kan invloed hebben op bewaarde keuzes, maar verhindert niet dat je de openbare pagina's kunt lezen.",
+          "De huidige toepassing bevat geen marketinganalyse, advertentiepixels, pushmeldingen, betalingsverwerking of actieve klantaccounts. Hostingdiensten verwerken nog steeds technische verzoeken die nodig zijn om de site te laten werken. Deze verklaring moet worden herzien wanneer een nieuwe dienst de verzamelde informatie, het doel ervan of de bestemming ervan verandert."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Hoe lang informatie bewaard blijft",
+        "paragraphs": [
+          "Aanvraagrecords blijven momenteel in het privéproject totdat een bevoegde beheerder ze verwijdert. Er is nog geen automatisch verwijderingsschema voor aanvragen in de huidige toepassing. Een regelmatig bewaartermijnschema en een rechtstreeks privacycontact moeten nog worden vastgesteld. Deze verklaring belooft geen automatische verwijderdatum die de dienst nog niet toepast.",
+          "Browsergegevens volgen een andere levenscyclus. Lokale mandje- en verlanglijstgegevens kunnen bewaard blijven totdat je producten verwijdert, sitegegevens wist of de browser ze verwijdert. Sessievoorkeuren duren normaal gesproken zolang de browsersessie, afhankelijk van het browsergedrag. Het verwijderen van gegevens van je apparaat verwijdert geen aparte aanvraag die de boerderij bewaart."
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Verzoeken tot inzage, correctie en verwijdering",
+        "paragraphs": [
+          "Gebruik het contactformulier als je iets wilt vragen over een aanvraagrecord, een detail wilt corrigeren of de verwijdering ervan wilt aanvragen. Vermeld dat je bericht over privacy gaat en geef genoeg context om de aanvraag te herkennen, zoals het gebruikte e-mailadres en een geschatte verzenddatum. Voeg geen extra gevoelige informatie toe.",
+          "De boerderij moet eigenaarschap verifiëren voordat persoonlijke records worden vrijgegeven of gewijzigd. Stuur geen identiteitsdocumenten via het algemene aanvraagformulier, tenzij hiervoor eerst een geschikt proces is afgesproken. Een privacyverzoek wordt beoordeeld door een beheerder; het versturen ervan bewerkt of verwijdert een record niet automatisch. Deze site biedt hiervoor nog geen selfservice-accountdashboard."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "Jouw keuzes op een gedeeld apparaat",
+        "paragraphs": [
+          "Je kunt de shop bekijken en recepten lezen zonder een formulier te versturen. Je kunt een bewaard product verwijderen via de verlanglijst, je mandje aanpassen of browserinstellingen gebruiken om de bewaarde gegevens van deze website te wissen. Een ander apparaat of browserprofiel heeft zijn eigen bewaarde keuzes, omdat accountsynchronisatie niet actief is.",
+          "Als je een apparaat deelt, sluit dan elke pagina met niet-verstuurde contactgegevens wanneer je klaar bent. Overweeg bewaarde producten te wissen als je niet wilt dat de volgende gebruiker van die browser ze ziet. Automatisch aanvullen, browsegeschiedenis en back-ups van het apparaat worden buiten de Floruvi-toepassing beheerd."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Links naar andere websites",
+        "paragraphs": [
+          "Sommige pagina's linken naar externe bronnen over voeding of telen. Als je een externe link volgt, open je een dienst van een andere organisatie. De privacyverklaring en browseropslagpraktijken van die dienst gelden wanneer je deze bezoekt. Een verwijzingslink geeft die organisatie geen toegang tot je privéaanvraagrecord bij Floruvi via deze toepassing.",
+          "Lees de verklaring van de bestemming voordat je daar persoonlijke informatie invult. Als je contact opneemt met de boerderij via een aparte communicatiedienst, kan die dienst je bericht ook verwerken onder zijn eigen voorwaarden. Deze verklaring beschrijft de Floruvi-website en vervangt niet de verklaringen van die andere diensten."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Updates en contact opnemen",
+        "paragraphs": [
+          "Deze verklaring zal moeten veranderen naarmate de webwinkel zich ontwikkelt. Klantaccounts, betalingsverwerking, bezorgintegraties of nieuwe communicatiemiddelen kunnen andere gegevensstromen met zich meebrengen. De datum bovenaan geeft de laatste herziening van deze pagina aan. Bekijk de verklaring opnieuw wanneer je een nieuw geïntroduceerde functie gebruikt.",
+          "Gebruik de contactpagina voor een vraag over de huidige website of een bestaande aanvraag. Beschrijf in gewone taal wat je wilt weten en geef alleen de gegevens die nodig zijn om je aanvraag terug te vinden. Hetzelfde formulier kan worden gebruikt om een mogelijk privacyprobleem te melden aan de boerderij."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Verse voeding. Heldere informatie.",
+        "alt": "Een mandje gevuld met verse groenten"
+      },
+      {
+        "title": "Een beetje duidelijkheid helpt enorm.",
+        "alt": "Kleurrijke groenten klaargemaakt voor tafel"
+      },
+      {
+        "title": "Neem de tijd. Ken je keuzes.",
+        "alt": "Avocadotoast en een groene smoothie in ochtendlicht"
+      }
+    ],
+    "localeNote": "Bij je eerste bezoek gebruikt de website het land dat onze hostingdienst herkent aan de hand van je verbinding, om de bijbehorende land- en taalversie te openen. Je keuze wordt vervolgens een jaar lang bewaard in een cookie met de naam floruvi-locale, zodat prijzen en pagina's in die versie blijven. Aanvragen die vanuit een landversie worden verstuurd, bevatten dat land, zodat de boerderij de bezorging kan beoordelen. Je kunt de versie op elk moment wijzigen met de land- en taalkeuze, of de cookie verwijderen door je cookies te wissen."
+  },
+  "notFound": {
+    "eyebrow": "EVEN VAN HET TUINPAD AF",
+    "title": "Hier groeit niets.",
+    "text": "Deze pagina of dit gewas kon niet worden gevonden.",
+    "cta": "Ontdek onze producten ↗"
+  },
+  "categories": {
+    "leafy-greens": {
+      "name": "Bladgroenten",
+      "description": "Tere blaadjes, knapperige harten en dagelijkse groenten voor het midden van je bord."
+    },
+    "herbs": {
+      "name": "Verse kruiden",
+      "description": "De geurige finishing touch. Eén blaadje kan het hele gerecht veranderen."
+    },
+    "microgreens": {
+      "name": "Microgroenten en scheuten",
+      "description": "Kleine blaadjes met uitgesproken smaken, van pittige radijs tot zoete doperwtscheuten."
+    },
+    "fruiting-crops": {
+      "name": "Vruchtgewassen",
+      "description": "Kleur, krokantheid en zoetheid voor salades, koken en tussendoortjes."
+    },
+    "roots-and-stems": {
+      "name": "Wortel- en stengelgewassen",
+      "description": "Een specialistische teeltlijst voor wortels, bollen en knapperige stengels."
+    },
+    "edible-flowers": {
+      "name": "Eetbare bloemen",
+      "description": "Delicate kleur voor doordachte gerechten. Alleen voedselveilige soorten."
+    }
+  },
+  "recipeCategories": {
+    "Bowls": "Bowls",
+    "Breakfast": "Ontbijt",
+    "Pasta": "Pasta",
+    "Salads": "Salades",
+    "Sides": "Bijgerechten",
+    "Smoothies": "Smoothies",
+    "Soups": "Soepen",
+    "Tray bakes": "Ovenschotels",
+    "Wraps": "Wraps"
+  },
+  "packLabels": {
+    "1 bunch · 125–150 g": "1 bos · 125–150 g",
+    "1 bunch · 150–200 g": "1 bos · 150–200 g",
+    "1 bunch · 225–250 g": "1 bos · 225–250 g",
+    "1 bunch · 450–500 g": "1 bos · 450–500 g",
+    "1 head · 120–250 g": "1 krop · 120–250 g",
+    "1 kg": "1 kg",
+    "1 live tray": "1 levende tray",
+    "1 melon": "1 meloen",
+    "100 g": "100 g",
+    "150–200 g": "150–200 g",
+    "15–20 flowers": "15–20 bloemen",
+    "200 g": "200 g",
+    "200–300 g": "200–300 g",
+    "25 g": "25 g",
+    "250 g": "250 g",
+    "3 peppers · mixed colours": "3 paprika’s · gemengde kleuren",
+    "40 g": "40 g",
+    "50 g": "50 g",
+    "500 g": "500 g",
+    "75 g": "75 g"
+  }
+}

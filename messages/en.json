@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "siteName": "Floruvi Farm",
+    "defaultTitle": "Floruvi — Freshness worth growing",
+    "titleTemplate": "%s | Floruvi Farm",
+    "description": "Explore leafy greens, herbs, microgreens & more. Fresh produce for your home or business, delivered across India.",
+    "descriptionExport": "Explore leafy greens, herbs, microgreens & more. Fresh produce from India for homes & businesses in {country}.",
+    "ogAlt": "Floruvi — Freshness worth growing",
+    "productTitle": "{name} – {country}",
+    "productDescription": "{description} {pack}: {price}.",
+    "recipeTitle": "{name} recipe",
+    "products": {
+      "title": "Our produce",
+      "description": "Browse Floruvi’s vegetables & herbs. Explore leafy greens, herbs, microgreens, fruiting crops, roots, & edible flowers."
+    },
+    "boxes": {
+      "title": "Vegetable box subscriptions",
+      "description": "Vegetable boxes for one, two, or a family. Choose a one-time box, weekly, or monthly delivery. Request availability from Floruvi."
+    },
+    "cart": {
+      "title": "Your cart"
+    },
+    "checkout": {
+      "title": "Checkout"
+    },
+    "wishlist": {
+      "title": "Your wishlist"
+    },
+    "contact": {
+      "title": "Contact the farm",
+      "description": "Ask about crops, availability, & produce for your home. No account needed."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Answers about shopping, vegetable boxes, delivery, produce care, saved products & privacy at Floruvi."
+    },
+    "privacy": {
+      "title": "Privacy notice",
+      "description": "How Floruvi handles enquiries, browser storage, saved products & privacy requests."
+    },
+    "howWeGrow": {
+      "title": "Inside an aeroponic tower",
+      "description": "Follow the water, explore the roots & see how a recirculating aeroponic tower grows fresh greens."
+    },
+    "realTalk": {
+      "title": "Real talk about everyday food",
+      "description": "Simple ways to make room for vegetables in your weekly meals, with less fuss & a clear plan."
+    },
+    "recipes": {
+      "title": "Simple recipes",
+      "description": "Fresh ideas for everyday cooking. Explore vegetable salads, soups, smoothies, breakfast, bowls & pasta with Floruvi."
+    },
+    "productNotFound": "Product not found",
+    "recipeNotFound": "Recipe not found"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "brand": {
+      "home": "Floruvi home",
+      "tagline": "Freshness worth growing"
+    },
+    "nav": {
+      "shop": "Shop",
+      "boxes": "Boxes",
+      "recipes": "Recipes",
+      "talk": "Let’s talk",
+      "main": "Main navigation",
+      "mobile": "Mobile navigation",
+      "open": "Open navigation",
+      "close": "Close navigation",
+      "description": "Explore the farm & get in touch."
+    },
+    "footer": {
+      "shop": "Shop",
+      "vegetables": "Vegetables",
+      "boxes": "Box subscriptions",
+      "learn": "Learn",
+      "howWeGrow": "How we grow",
+      "recipes": "Recipes",
+      "help": "Help",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "privacy": "Privacy",
+      "copyright": "© {year} Floruvi Farm"
+    },
+    "locale": {
+      "label": "Country & language",
+      "change": "Change country or language. Current: {country}, {language}",
+      "title": "Choose your country",
+      "description": "Prices, currency & delivery details follow the country you choose.",
+      "close": "Close",
+      "language": "Language"
+    },
+    "money": {
+      "unavailable": "Unavailable",
+      "quoteRequired": "Quote required"
+    },
+    "cartLink": {
+      "one": "Basket, {count} item",
+      "other": "Basket, {count} items"
+    },
+    "addToCart": {
+      "reduce": "Reduce {name} quantity",
+      "increase": "Increase {name} quantity",
+      "selectedQuantity": "Selected quantity",
+      "add": "Add {name} to cart",
+      "added": "{name} added to cart",
+      "addShort": "Add to cart",
+      "addedShort": "Added",
+      "limit": "Cart limit reached. Reduce quantities or remove an item.",
+      "compact": "Add"
+    },
+    "wishlist": {
+      "save": "Save {name} to wishlist",
+      "remove": "Remove {name} from wishlist",
+      "title": "Wishlist",
+      "menu": {
+        "one": "Wishlist, {count} saved product",
+        "other": "Wishlist, {count} saved products"
+      }
+    },
+    "boxes": {
+      "single": {
+        "name": "Single",
+        "people": "1 person"
+      },
+      "dual": {
+        "name": "Dual",
+        "people": "2 people"
+      },
+      "family": {
+        "name": "Family",
+        "people": "4 or more"
+      },
+      "schedules": {
+        "once": "Once",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "daily": "Once a day",
+        "fortnightly": "Every 2 weeks"
+      },
+      "boxName": "{name} box · {schedule}",
+      "perDelivery": "per delivery"
+    },
+    "basket": {
+      "checkFailed": "Could not check your basket.",
+      "summary": "Order summary",
+      "subtotal": "Subtotal",
+      "items": {
+        "one": "({count} item)",
+        "other": "({count} items)"
+      },
+      "deliveryFee": "Delivery fee",
+      "deliveryQuoted": "Quoted after review",
+      "total": "Total",
+      "totalBeforeDelivery": "Total before delivery",
+      "noPayment": "No payment taken.",
+      "deliveryInfo": "Delivery information",
+      "emptyEyebrow": "ROOM FOR SOMETHING FRESH",
+      "emptyTitle": "Your basket is empty.",
+      "emptyText": "Choose vegetables to get started.",
+      "emptyCta": "Explore the Produce"
+    },
+    "validation": {
+      "name": "Enter your name.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number.",
+      "deliveryPhone": "Enter a delivery phone number.",
+      "city": "Enter your city.",
+      "message": "Please add at least 10 characters.",
+      "consent": "Please agree so we can respond to your request.",
+      "business": "Enter your business name.",
+      "generic": "Check your details."
+    },
+    "requestErrors": {
+      "notConnected": "Enquiries are not connected yet. Please try again later.",
+      "tooMany": "Too many requests. Please try again in one hour.",
+      "notSaved": "Your request was not saved. Please try again shortly."
+    },
+    "error": {
+      "eyebrow": "A SMALL PAUSE",
+      "title": "We couldn’t load this page.",
+      "text": "The farm catalogue is temporarily unavailable. Please try again.",
+      "retry": "Try again"
+    }
+  },
+  "home": {
+    "srTitle": "Floruvi — Freshness worth growing",
+    "carousel": "Freshness worth growing",
+    "slide": "{index} of {total}: {name}",
+    "chooseStory": "Choose a story",
+    "showStory": "Show story {index}: {name}",
+    "previous": "Previous story",
+    "next": "Next story",
+    "pause": "Pause stories",
+    "play": "Play stories",
+    "stories": [
+      {
+        "name": "The harvest",
+        "eyebrow": "FRESHNESS WORTH GROWING",
+        "title": [
+          "Fresh greens.",
+          "Brighter days."
+        ],
+        "note": "A little more green. A lot more to look forward to.",
+        "alt": "A wooden crate filled with lettuce, kale and fresh herbs.",
+        "signature": "Good things\nare growing."
+      },
+      {
+        "name": "Your everyday",
+        "eyebrow": "MAKE ROOM FOR FRESH",
+        "title": [
+          "Small rituals.",
+          "Fresh beginnings."
+        ],
+        "note": "Something crisp. Something green. Something just for you.",
+        "alt": "Crisp green leaves being rinsed in an ivory colander.",
+        "signature": "A fresh start,\nevery day."
+      },
+      {
+        "name": "More colour",
+        "eyebrow": "A FEAST FOR THE SENSES",
+        "title": [
+          "Eat in",
+          "full colour."
+        ],
+        "note": "Sweet tomatoes. Crisp leaves. A plate worth slowing down for.",
+        "alt": "Colourful tomatoes, radishes, carrots and fresh leaves on pale stone.",
+        "signature": "Colour looks\ngood on you."
+      },
+      {
+        "name": "Little wonders",
+        "eyebrow": "MEET THE MICROGREENS",
+        "title": [
+          "Small leaves.",
+          "Big flavour."
+        ],
+        "note": "The fresh finishing touch your everyday meals deserve.",
+        "alt": "Fresh radish microgreens with green leaves and delicate pink stems.",
+        "signature": "Little leaves,\nlots to love."
+      },
+      {
+        "name": "Growing better",
+        "eyebrow": "A FRESH WAY TO GROW",
+        "title": [
+          "Rooted in care.",
+          "Grown differently."
+        ],
+        "note": "Discover the world of hydroponics & aeroponics.",
+        "alt": "Illustration of leafy greens growing in sunlit vertical towers.",
+        "signature": "A little closer\nto nature."
+      },
+      {
+        "name": "At your table",
+        "eyebrow": "GOOD FOOD. GOOD COMPANY.",
+        "title": [
+          "The best things",
+          "are shared."
+        ],
+        "note": "Fresh ingredients. Simple meals. One more reason to gather.",
+        "alt": "A fresh colourful salad and plates set for a shared lunch.",
+        "signature": "Make room\nfor good food."
+      }
+    ],
+    "freshToday": "Fresh today.",
+    "shopAll": "Shop all",
+    "categoriesLabel": "Shop categories",
+    "categoryLinks": {
+      "leafy": "Leafy greens",
+      "herbs": "Fresh herbs",
+      "microgreens": "Microgreens",
+      "colourful": "Colourful crops"
+    },
+    "nutritionTitle": "Eat your colours.",
+    "nutritionAccent": "Feel the difference.",
+    "benefit": "{name}: {nutrient}",
+    "benefits": [
+      {
+        "name": "Digestive health",
+        "nutrient": "FIBRE"
+      },
+      {
+        "name": "Healthy vision",
+        "nutrient": "VITAMIN A"
+      },
+      {
+        "name": "Everyday immunity",
+        "nutrient": "VITAMIN C"
+      },
+      {
+        "name": "Cell growth",
+        "nutrient": "FOLATE"
+      }
+    ],
+    "strengthTitle": "A stronger routine.",
+    "strengthAccent": "One good choice\nat a time.",
+    "strengthLabel": "Food, movement and rest",
+    "strengthWords": [
+      "Eat well",
+      "Move often",
+      "Rest well"
+    ],
+    "strengthAlt": "An adult athlete in green sportswear stretches after a workout, with her face outside the frame.",
+    "goodnessTitle": "Shop by how you want to feel.",
+    "goodness": [
+      {
+        "name": "Love your gut.",
+        "note": "Add fibre to your plate",
+        "crop": "Carrots"
+      },
+      {
+        "name": "Look after your eyes.",
+        "note": "Make room for vitamin A",
+        "crop": "Spinach"
+      },
+      {
+        "name": "Support your defences.",
+        "note": "Get to know vitamin C",
+        "crop": "Bell peppers"
+      },
+      {
+        "name": "Keep it varied.",
+        "note": "A little more leafy goodness",
+        "crop": "Leafy greens"
+      }
+    ],
+    "mealAlt": "A bowl of vegetables, chickpeas and quinoa on a linen-covered table.",
+    "mealTitle": "Your next good habit",
+    "mealAccent": "starts on a plate.",
+    "recipesTitle": "Less wondering. More cooking.",
+    "allRecipes": "All recipes",
+    "minutes": "{count} min",
+    "boxesTitle": "Good food.",
+    "boxesAccent": "Room for everyone.",
+    "exploreBoxes": "Explore the boxes",
+    "boxLabel": "Explore the {name} box for {people}",
+    "boxAlt": "{name} box with lettuce, spinach, tomatoes, cucumber, carrots and mint",
+    "moreTitle": "More vegetables to love.",
+    "seeEverything": "See everything",
+    "invitationTitle": "A little more green.",
+    "invitationAccent": "A good place to begin.",
+    "findFavourites": "Find your fresh favourites",
+    "searchAction": "Search produce"
+  },
+  "shop": {
+    "interludes": [
+      {
+        "title": "Bring colour to the table.",
+        "alt": "Roasted carrots, beetroot & chickpeas on a platter"
+      },
+      {
+        "title": "Fresh starts. Slow mornings.",
+        "alt": "Avocado toast & a green smoothie in morning light"
+      },
+      {
+        "title": "Good ingredients. Great evenings.",
+        "alt": "Basil pasta & cherry tomatoes on a green table"
+      }
+    ],
+    "searchLabel": "Search produce",
+    "searchPlaceholder": "Search vegetables & herbs",
+    "clearSearch": "Clear search",
+    "filterLabel": "Filter by category",
+    "allProduce": "All produce",
+    "bannerAlt": "A basket of freshly picked vegetables",
+    "eyebrow": "FRESH FROM FLORUVI",
+    "title": "Fresh picks.\nFor your table.",
+    "subtitle": "Vegetables, herbs & microgreens.",
+    "sortLabel": "Sort produce",
+    "bestMatch": "Best match",
+    "featured": "Featured first",
+    "az": "Name: A to Z",
+    "priceAsc": "Pack price: low to high",
+    "priceDesc": "Pack price: high to low",
+    "perPack": "Per pack. Sizes vary.",
+    "clearFilters": "Clear filters",
+    "noResults": "No crops found.",
+    "otherCategories": {
+      "one": "{count} match in other categories.",
+      "other": "{count} matches in other categories."
+    },
+    "tryName": "Try a crop name, like spinach or palak.",
+    "searchAll": "Search all categories",
+    "loading": "Loading produce…"
+  },
+  "product": {
+    "assurances": {
+      "fresh": "Fresh produce",
+      "care": "Grown with care",
+      "cook": "Cook your way",
+      "domestic": "Across India",
+      "export": "From India to {country}"
+    },
+    "waysToEnjoy": "Ways to enjoy",
+    "seeAllRecipes": "See all recipes",
+    "minutes": "{count} mins",
+    "howToStore": "How to store",
+    "whyEat": "Why eat {name}?",
+    "whySubtitle": "Good ingredients. Everyday possibilities.",
+    "keepFresh": "Keep it fresh",
+    "foodGuide": "Food guide",
+    "waysToEnjoyName": "Ways to enjoy {name}",
+    "servingInspiration": "Serving inspiration",
+    "youMayAlsoLike": "You may also like",
+    "viewAll": "View all",
+    "gallery": {
+      "closeUp": "{name} close-up",
+      "servingIdea": "{name} serving idea",
+      "viewRecipe": "View recipe",
+      "images": "Product images",
+      "view": "View {label}"
+    },
+    "breadcrumbHome": "Home",
+    "breadcrumbShop": "Shop",
+    "story": {
+      "label": "Freshness worth growing",
+      "tagline": "Freshness worth growing",
+      "banners": [
+        {
+          "title": "Good food today.\nMore to look forward to.",
+          "alt": "Fresh spinach & kale on a sage background"
+        },
+        {
+          "title": "A little freshness.\nA lot of flavour.",
+          "alt": "Basil & mint in soft sunlight"
+        },
+        {
+          "title": "Small leaves.\nA fresh beginning.",
+          "alt": "Young microgreens in a ceramic dish"
+        },
+        {
+          "title": "Bring a little colour\nto every day.",
+          "alt": "Tomatoes & cucumber on a warm peach background"
+        },
+        {
+          "title": "Simple ingredients.\nMeals worth making.",
+          "alt": "Carrots & radishes on a cream background"
+        },
+        {
+          "title": "The finishing touch\nis something fresh.",
+          "alt": "Edible flowers on a soft rose background"
+        }
+      ],
+      "fresh": "Fresh produce",
+      "care": "Grown with care",
+      "domestic": "Delivery across India",
+      "export": "Delivery to {country} on request",
+      "mix": "Pick your own mix"
+    }
+  },
+  "cart": {
+    "heroAlt": "A basket of fresh vegetables",
+    "title": "Your cart",
+    "subtitle": "Fresh produce, ready for your table.",
+    "headProduct": "PRODUCT",
+    "headQuantity": "QUANTITY",
+    "headPrice": "PRICE",
+    "packOnRequest": "Pack on request",
+    "unlisted": "This crop is no longer listed.",
+    "perDelivery": "Per delivery",
+    "freshProduce": "Fresh produce",
+    "reduce": "Reduce {name}",
+    "increase": "Increase {name}",
+    "remove": "Remove {name}",
+    "boxDelivery": "Delivery included with your box.",
+    "domesticDelivery": "Fresh produce, delivered across India.",
+    "exportDelivery": "The farm quotes delivery to {country} after reviewing your request.",
+    "continue": "Continue shopping",
+    "checking": "Checking the catalogue…",
+    "tryAgain": "Try again",
+    "removeUnlisted": "Remove unlisted crops before you continue.",
+    "proceed": "Proceed to checkout",
+    "editorialLabel": "Fresh food for everyday meals",
+    "editorialAlt": "Fresh green herbs",
+    "editorialTitle": "Fresh food.\nEvery day.",
+    "editorialText": "Simple ingredients.\nMore ways to enjoy them."
+  },
+  "checkout": {
+    "returnToBasket": "Please return to your basket & check the selected crops.",
+    "notSaved": "Your request was not saved. Please try again.",
+    "receivedTitle": "Request received.",
+    "receivedText": "We’ll be in touch to confirm availability.",
+    "noPayment": "No payment taken.",
+    "keepExploring": "Keep Exploring",
+    "back": "Back to basket",
+    "eyebrow": "FRESHNESS WORTH GROWING",
+    "title": "Checkout.",
+    "progress": "Checkout progress",
+    "steps": [
+      "Your details",
+      "Delivery",
+      "Review & checkout"
+    ],
+    "headings": [
+      "Your details",
+      "Delivery area",
+      "Review"
+    ],
+    "intro": "Browse & build your basket without an account.",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Delivery phone",
+    "phonePlaceholder": "Phone number with country code",
+    "continue": "Continue to Delivery",
+    "deliveryDomestic": "We deliver across India.",
+    "deliveryExport": "The farm reviews delivery to {country} & quotes it before anything is arranged.",
+    "address": "Address",
+    "addressOptional": "Optional at the enquiry stage",
+    "addressPlaceholder": "House, street, & area",
+    "addressNote": "Your street address stays in this page & is not sent with this enquiry.",
+    "city": "City",
+    "cityPlaceholder": "City",
+    "region": "State / region",
+    "regionPlaceholder": "State or region",
+    "postal": "Postal code",
+    "postalPlaceholder": "Postal code",
+    "optional": "Optional",
+    "notes": "Anything we should know?",
+    "notesPlaceholder": "Preferred delivery days, quantity notes, or questions",
+    "confirmDelivery": "The farm will confirm delivery details.",
+    "backStep": "Back",
+    "review": "Review My Basket",
+    "contact": "CONTACT",
+    "editContact": "Edit contact",
+    "deliveryArea": "DELIVERY AREA",
+    "editDelivery": "Edit delivery",
+    "consent": "I agree that Floruvi can use my contact details & delivery area to respond to this availability request.",
+    "privacy": "Privacy notice",
+    "honeypot": "Website",
+    "sending": "Sending…",
+    "send": "Send request",
+    "finalNote": "No payment taken. We’ll confirm availability.",
+    "checkingBasket": "Checking your basket…",
+    "tryAgain": "Try again",
+    "unlisted": "A crop is no longer listed.",
+    "returnToRemove": "Return to the basket to remove it.",
+    "photoAlt": "box of fresh produce",
+    "handwritten": "Freshness worth growing."
+  },
+  "contact": {
+    "portraitAlt": "Fresh vegetables gathered in a wooden crate",
+    "sent": "Sent",
+    "inTouch": "We’ll be in touch.",
+    "eyebrow": "LET’S TALK",
+    "title": "Good food starts\nwith a conversation.",
+    "intro": "For your home, your kitchen, or your business. Tell us what you have in mind.",
+    "name": "Your name",
+    "namePlaceholder": "Full name",
+    "business": "Business name",
+    "optional": "(optional)",
+    "businessPlaceholder": "Restaurant, café, store…",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Phone number",
+    "city": "Your city",
+    "cityPlaceholder": "Where do you need produce?",
+    "interest": "Produce or box",
+    "interestPlaceholder": "e.g. basil, lettuce, microgreens",
+    "quantity": "Quantity & frequency",
+    "quantityPlaceholder": "e.g. a few packs each week",
+    "message": "Message",
+    "messagePlaceholder": "Ask a question or tell us about the produce you need…",
+    "honeypot": "Leave this field empty",
+    "consent": "I agree that Floruvi can use these details to respond to my enquiry.",
+    "privacy": "Privacy notice",
+    "sending": "Sending…",
+    "send": "Send enquiry",
+    "required": "* Required fields.",
+    "boxInterest": "{name} box · {people} · {schedule}",
+    "boxMessage": "I would like a {name} vegetable box for {people}, delivered {schedule}. Please arrange the first delivery with me."
+  },
+  "wishlist": {
+    "heroAlt": "A linen bag filled with fresh vegetables",
+    "eyebrow": "YOUR WISHLIST",
+    "title": "Good choices.",
+    "accent": "Bring them to your table.",
+    "intro": "Your next fresh meal starts here. Turn the ingredients you love into something you’ll enjoy today.",
+    "count": {
+      "one": "{count} saved item",
+      "other": "{count} saved items"
+    },
+    "unlisted": "This product is no longer listed.",
+    "emptyTitle": "Save a little inspiration.",
+    "emptyText": "Tap the heart on a product to keep your favourites here.",
+    "explore": "Explore produce",
+    "bannerAlt": "A colourful fresh salad with herbs & lemon",
+    "bannerTitle": "Make your next meal a fresh one.",
+    "recommendations": "You might also like",
+    "exploreAll": "Explore all"
+  },
+  "boxes": {
+    "eyebrow": "VEGETABLE SUBSCRIPTIONS",
+    "title": "Good food,\non repeat.",
+    "intro": "Fresh vegetables delivered to your door.\nYour box. Your routine.",
+    "values": {
+      "fresh": "Fresh produce",
+      "regular": "Regular delivery",
+      "good": "Good food"
+    },
+    "heroAlt": "A vegetable box with lettuce, spinach, tomatoes, carrots, cucumber & mint",
+    "added": "Added to your cart.",
+    "full": "Your basket is full. Please review it before adding more.",
+    "chooseBox": "Choose your box",
+    "chooseNote": "Same freshness. A size for every household.",
+    "boxAlt": "{name} vegetable box",
+    "frequency": "Delivery frequency",
+    "frequencyNote": "Choose how often you would like your box.",
+    "addedShort": "Added",
+    "addToCart": "Add to cart",
+    "seasonalAlt": "Fresh leafy greens",
+    "seasonalTitle": "A fresh mix.\nA familiar routine.",
+    "seasonalText": "Greens, vegetables & herbs for the meals you make every day.",
+    "insideTitle": "What’s inside?",
+    "insideNote": "Your {name} box includes:",
+    "storyAlt": "A fresh vegetable salad",
+    "storyTitle": "Real food.\nEveryday favourites.",
+    "storyText": "Start with a box of fresh ingredients. Make it your own.",
+    "storyValues": {
+      "ingredients": "Fresh ingredients",
+      "meals": "Meals to enjoy"
+    },
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      [
+        "What is included in the price?",
+        "The price is for one box per delivery. There is no extra delivery charge for boxes."
+      ],
+      [
+        "When will my first box arrive?",
+        "The farm will arrange your first delivery with you."
+      ],
+      [
+        "Is payment taken when I add a box?",
+        "No. Your box & frequency are saved in your cart. Recurring billing is not active yet."
+      ],
+      [
+        "Can I change the box or delivery schedule?",
+        "Tell us what you need when we confirm your request. Contact the farm to discuss changes to an arranged delivery."
+      ]
+    ],
+    "faqExportPrice": [
+      "What is included in the price?",
+      "The price is for one box per delivery. The farm quotes delivery to {country} after reviewing your request."
+    ],
+    "recipesTitle": "Recipes for your box"
+  },
+  "recipes": {
+    "interludes": [
+      {
+        "title": "A little pasta. A lovely evening.",
+        "alt": "Basil pasta & cherry tomatoes on a forest-green table"
+      },
+      {
+        "title": "Make time for breakfast.",
+        "alt": "Avocado toast & a green smoothie in morning light"
+      },
+      {
+        "title": "Bring colour to the table.",
+        "alt": "Roasted carrots, beetroot & chickpeas on a platter"
+      },
+      {
+        "title": "Start with something fresh.",
+        "alt": "Hands holding a basket of fresh vegetables"
+      }
+    ],
+    "heroAlt": "A bowl of fresh greens, tomatoes & radishes",
+    "eyebrow": "RECIPES",
+    "title": "Simple Meals\nA Healthier You",
+    "subtitle": "Fresh ideas to make vegetables part of your everyday life.",
+    "searchLabel": "Search recipes",
+    "searchPlaceholder": "Search recipes…",
+    "clearSearch": "Clear search",
+    "categoriesLabel": "Recipe categories",
+    "all": "All",
+    "found": {
+      "one": "{count} recipe found",
+      "other": "{count} recipes found"
+    },
+    "resultsLabel": "Recipe results",
+    "noResults": "No recipes found.",
+    "noResultsText": "Try another ingredient or clear your filters.",
+    "showAll": "Show all recipes",
+    "kitchenAlt": "Hands tossing a fresh vegetable salad with wooden spoons",
+    "kitchenTitle": "Good Ingredients\nHappier Days",
+    "kitchenText": "Real food. Real simple.",
+    "moreLabel": "More recipe results",
+    "more": "More recipes",
+    "cardMinutes": "{count} mins",
+    "breadcrumb": "Breadcrumb",
+    "breadcrumbRecipes": "Recipes",
+    "kitchen": "THE FLORUVI KITCHEN",
+    "minutes": {
+      "one": "{count} minute",
+      "other": "{count} minutes"
+    },
+    "servings": {
+      "one": "{count} serving",
+      "other": "{count} servings"
+    },
+    "letsMake": "Let’s make it",
+    "whatYouNeed": "WHAT YOU NEED",
+    "ingredients": "Ingredients",
+    "allergens": "Check ingredient labels for allergens. Wash fresh produce before preparation.",
+    "stepByStep": "STEP BY STEP",
+    "makeSomething": "Let’s make something good.",
+    "kitchenNote": "A little kitchen note",
+    "meetIngredients": "Meet the ingredients.",
+    "moreRecipes": "More recipes"
+  },
+  "howWeGrow": {
+    "heroAlt": "Hands harvesting fresh lettuce from an aeroponic tower",
+    "eyebrow": "ROOTED IN A DIFFERENT WAY",
+    "title": "More green.",
+    "accent": "Less ground.",
+    "intro": "Air. Water. Fresh possibilities.\nA whole new way to grow.",
+    "cropsLabel": "Leafy greens & fresh herbs",
+    "cropAlts": [
+      "Lettuce",
+      "Basil",
+      "Kale"
+    ],
+    "crops": "Leafy greens.\nFresh herbs.",
+    "scroll": "Inside the tower",
+    "principlesLabel": "The growing essentials",
+    "principles": [
+      "Water recirculates",
+      "Roots without soil",
+      "Grow vertically",
+      "Light fuels growth"
+    ],
+    "insideEyebrow": "LOOK A LITTLE CLOSER",
+    "insideTitle": "A lot happens",
+    "insideAccent": "beneath the leaves.",
+    "insideText": "Roots hang in air. A nutrient spray feeds them. Tap a number to explore.",
+    "journeyEyebrow": "SMALL BEGINNINGS. FRESH POSSIBILITIES.",
+    "journeyTitle": "Seed. Grow. Harvest. Enjoy.",
+    "stages": [
+      {
+        "title": "Start small",
+        "text": "Seeds begin in a growing plug."
+      },
+      {
+        "title": "Find a home",
+        "text": "Young plants move into tower pockets."
+      },
+      {
+        "title": "Pick at readiness",
+        "text": "Each crop has its own harvest time."
+      },
+      {
+        "title": "Make it yours",
+        "text": "Fresh ingredients for everyday meals."
+      }
+    ],
+    "rootAlt": "Fine pale roots hanging below a seedling growing cup",
+    "rootEyebrow": "GIVE ROOTS WHAT THEY NEED",
+    "rootTitle": "No soil.",
+    "rootAccent": "Still full of life.",
+    "rootText": "Roots need water, nutrients & oxygen.\nA fine spray delivers water & nutrients while the roots stay suspended in air.",
+    "rootTags": [
+      "Water",
+      "Nutrients",
+      "Oxygen"
+    ],
+    "notebookEyebrow": "A FEW NOTES FROM INSIDE",
+    "notebookTitle": "Small roots.",
+    "notebookAccent": "A clever growing loop.",
+    "notebookAlt": "Hand-drawn studies of a seedling cup, roots receiving nutrient spray & an aeroponic tower water loop",
+    "notes": [
+      {
+        "label": "01 / A place to begin",
+        "title": "The cup holds the plant.",
+        "text": "A growing plug supports the seedling. Roots extend through the net cup into the tower."
+      },
+      {
+        "label": "02 / A little spray",
+        "title": "The roots stay in air.",
+        "text": "Nozzles deliver water & nutrients directly to the roots. Timing keeps them supplied."
+      },
+      {
+        "label": "03 / Back to the start",
+        "title": "The water comes around.",
+        "text": "Unused solution drains into the base. The pump sends it through the system again."
+      }
+    ],
+    "closingTitle": "A small footprint.",
+    "closingAccent": "A fresh perspective.",
+    "closingText": "Growing upwards opens up new possibilities.",
+    "references": "Explore the growing science",
+    "referenceNasa": "Aeroponic growing — NASA Spinoff ↗",
+    "referenceOsu": "Water & nutrient checks — Oklahoma State University ↗",
+    "tower": {
+      "cutawayAlt": "Cutaway of a pineapple-shaped aeroponic tower showing suspended roots, spray nozzles, central pipe & reservoir",
+      "explore": "Explore {title}",
+      "follow": "FOLLOW THE FLOW",
+      "cycle": "One loop. Water keeps moving.",
+      "parts": [
+        {
+          "title": "Plant pockets",
+          "text": "Small cups support each plant. Its roots extend into the tower."
+        },
+        {
+          "title": "Water up",
+          "text": "A pump moves nutrient-rich water from the base into the central supply pipe."
+        },
+        {
+          "title": "Roots fed",
+          "text": "Nozzles spray the suspended roots with water & dissolved nutrients. Air surrounds the roots."
+        },
+        {
+          "title": "Water returns",
+          "text": "Unused solution drains back to the reservoir for recirculation."
+        }
+      ]
+    }
+  },
+  "realTalk": {
+    "eyebrow": "REAL TALK",
+    "title": "Plan your meals.",
+    "intro": "Choose a few meals before you shop.",
+    "cta": "Start in the Kitchen",
+    "paperEyebrow": "THIS WEEK’S GOOD FOOD PLAN",
+    "paperTitle": "This week.",
+    "plan": [
+      "Pick two meals you enjoy",
+      "Choose a leafy green",
+      "Add a herb for flavour",
+      "Buy the amount you can use",
+      "Make something. Share it."
+    ],
+    "handwritten": "Small changes,\nbrighter days.",
+    "keepEyebrow": "KEEP IT REAL",
+    "keepTitle": "Start with food, not promises.",
+    "keepText": "A varied diet is part of looking after yourself. No single food can guarantee health or replace medical care. We focus on ingredients & practical ways to enjoy them.",
+    "chooseTitle": "Choose your vegetables.",
+    "chooseCta": "Explore Fresh Greens"
+  },
+  "faq": {
+    "eyebrow": "A LITTLE HELP",
+    "title": "Questions?",
+    "intro": "From your first basket to your next meal. Find the details here.",
+    "topics": "FAQ topics",
+    "contactLink": "Contact us →",
+    "helpTitle": "Still have a question?",
+    "helpText": "Tell us what you need. We’ll help with the next step.",
+    "helpContact": "Contact the farm →",
+    "helpPrivacy": "Privacy notice →",
+    "deliveryFee": "For a basket containing individual produce, delivery is {fee} per delivery.",
+    "deliveryFeeMissing": "The delivery fee is shown in your basket before you send a request.",
+    "groups": {
+      "shopping": {
+        "title": "Shopping & your basket",
+        "questions": [
+          [
+            "How do I place an order?",
+            "Choose your produce or box, add it to your basket, then review your selection at checkout. Enter your contact details & send an availability request. The farm will review the request & arrange the next steps with you."
+          ],
+          [
+            "Do I need an account?",
+            "No account needed. Browse, save favourites & send your request."
+          ],
+          [
+            "Can I change my basket before sending a request?",
+            "Yes. Open the basket to adjust quantities or remove items. Check the pack sizes, selected box frequency & total before continuing. Changes to your basket do not update a request you have already sent."
+          ],
+          [
+            "Will my basket be saved when I leave?",
+            "Your basket is saved in the same browser when local storage is available. Clearing site data or using another browser can remove or change what you see. Your basket is not currently synchronised across devices."
+          ],
+          [
+            "Does adding an item reserve it?",
+            "No. Adding produce to your basket saves your selection. Sending a request lets the farm review it; it does not reserve stock or confirm a delivery."
+          ]
+        ]
+      },
+      "boxes": {
+        "title": "Vegetable boxes",
+        "questions": [
+          [
+            "Which box size should I choose?",
+            "Single is designed for one person, Dual for two, & Family for four or more. Use these as a starting point, then review the listed contents to choose a size that suits how much you cook."
+          ],
+          [
+            "What delivery frequencies can I choose?",
+            "Choose Once, Weekly, or Monthly on the boxes page. Once is a one-time box request. Weekly & Monthly express your preferred repeat schedule; selecting them does not start automatic billing."
+          ],
+          [
+            "Is the box price per delivery?",
+            "Yes. The displayed amount is for one box per delivery, for the size you choose. It is not a monthly total or a charge for every day between deliveries."
+          ],
+          [
+            "Is delivery included with a box?",
+            "Yes. There is no extra delivery charge for a basket containing only boxes. If you also add individual produce, the standard produce delivery fee applies to the basket."
+          ],
+          [
+            "Can I change a box or its frequency?",
+            "Before sending a request, remove the box from your basket & add your preferred size or frequency. After sending it, contact the farm to discuss the change. Changes to an arranged delivery need to be agreed with the farm."
+          ]
+        ]
+      },
+      "delivery": {
+        "title": "Delivery & payment",
+        "questions": [
+          [
+            "Where do you deliver?",
+            "We accept delivery enquiries across India. Share your city & delivery area so the farm can review the request & arrange delivery with you."
+          ],
+          [
+            "What does delivery cost?",
+            "{deliveryFee} There is no extra delivery charge for a box-only basket. Check the basket total before sending your request."
+          ],
+          [
+            "When will my produce or first box arrive?",
+            "The farm will contact you to arrange delivery."
+          ],
+          [
+            "Can I pay online?",
+            "No payment is taken online. The farm will confirm your request & payment details."
+          ],
+          [
+            "How do I change or cancel a request?",
+            "Use the contact form & mention the email address used for your request, what you selected, & the change you need. If delivery has already been arranged, contact the farm to discuss what is possible."
+          ],
+          [
+            "What if there is a problem with my delivery?",
+            "Contact the farm with your request details & a clear description of the problem. Include the affected items & when the delivery arrived. The farm will need to review the issue with you; the website does not currently offer an automatic refund or replacement process."
+          ]
+        ]
+      },
+      "produce": {
+        "title": "Produce, storage & recipes",
+        "questions": [
+          [
+            "Where can I check the pack size?",
+            "Each product card shows its price & pack size. Open the product page for more details, then review your selected quantities in the basket. Pack sizes differ between crops, so compare the listed weight or quantity as well as the price."
+          ],
+          [
+            "How should I store my produce?",
+            "Open the product page & read its How to store section. Storage needs differ by crop. Follow the product-specific advice & any instructions supplied with your delivery."
+          ],
+          [
+            "Should I wash the produce before using it?",
+            "Follow the preparation instructions on the product page & any guidance supplied with your delivery. Product pages include preparation tips to help you decide when to rinse, trim, or cook the crop."
+          ],
+          [
+            "Where can I find recipes for a product?",
+            "Look for Ways to enjoy on its product page. Select a recipe to see its ingredients, cooking steps & preparation time. You can also browse the recipes page for more ideas."
+          ],
+          [
+            "Are recipe ingredients included in my purchase?",
+            "A product purchase includes the listed pack, not every ingredient shown in a recipe. Recipes are meal ideas. Check the recipe’s ingredient list & the box contents before deciding what else you need."
+          ]
+        ]
+      },
+      "help": {
+        "title": "Saved products, business & support",
+        "questions": [
+          [
+            "How does the wishlist work?",
+            "Select the heart on a product image to save it. Open the heart in the header to view your saved products. Select the heart again to remove a product. The list is stored in your current browser without an account."
+          ],
+          [
+            "Why is my wishlist different on another device?",
+            "Saved products stay in this browser. They won’t appear on other devices."
+          ],
+          [
+            "Do you supply cafés, restaurants, or other businesses?",
+            "You can send a business enquiry through the contact page. Include your business name, crop list, quantities, city & preferred schedule so the farm can understand your requirements."
+          ],
+          [
+            "What happens to the details I submit?",
+            "Your enquiry details are stored privately so the farm can review & respond to your request. Basket & wishlist preferences are stored in your browser. Read the privacy notice for the full explanation & information about access, correction, or deletion requests."
+          ],
+          [
+            "How can I ask something else?",
+            "Use the contact form & include enough detail for the farm to understand your question. For an existing enquiry, mention the email address you used. Do not include passwords, payment card details, or other sensitive information."
+          ]
+        ]
+      }
+    },
+    "export": {
+      "where": [
+        "Where do you deliver?",
+        "We accept enquiries from {country}. Share your city & delivery area. The farm checks export availability for your selection & arranges the next steps with you."
+      ],
+      "cost": [
+        "What does delivery cost?",
+        "Delivery to {country} is quoted after the farm reviews your request, because export costs depend on the destination & order size. Your basket shows the produce total before delivery."
+      ],
+      "boxDelivery": [
+        "Is delivery included with a box?",
+        "Box prices cover the box. The farm quotes delivery to {country} after reviewing your request."
+      ]
+    }
+  },
+  "privacy": {
+    "eyebrow": "YOUR DETAILS, WITH CARE",
+    "title": "Privacy notice",
+    "intro": "What you share. Where it stays. The choices you have.",
+    "updated": "Updated {date}",
+    "contents": "Privacy notice contents",
+    "inThisNotice": "In this notice",
+    "question": "Have a privacy question?",
+    "contactLink": "Contact us →",
+    "sections": [
+      {
+        "id": "about",
+        "title": "About this notice",
+        "paragraphs": [
+          "This notice explains how information is used when you browse Floruvi, save products, build a basket, or send an enquiry. It covers the current website, including the shop, boxes, recipes, contact form. It describes the features available today.",
+          "Browsing does not require a customer account. Sending an availability request gives the farm information to review your needs & respond. It does not create an account, collect a payment, reserve produce, or activate recurring billing. References to checkout in this notice describe that request process."
+        ]
+      },
+      {
+        "id": "information",
+        "title": "Information you share with us",
+        "paragraphs": [
+          "The contact form asks for your name, email address, city, message & consent to use those details to respond. Depending on the form, you can also share a phone number, produce interests, quantities & other information about your request. You can include your business name if the enquiry is for a business.",
+          "Please share only information needed for the enquiry. For example, a crop list, delivery area & expected quantity help the farm understand a business request. Do not include passwords, payment card numbers, identity documents, medical records, or private information about another person in a message."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "How enquiry information is used",
+        "paragraphs": [
+          "The farm uses the information you submit to understand your request, review the selected produce, assess delivery needs & respond through the contact details you provide. The request record includes a submission time, a consent time & a status used to organise enquiries.",
+          "A consent checkbox is required before the enquiry can be submitted. This consent relates to handling your request. The current website does not turn a contact enquiry into a newsletter subscription or enrol you in an advertising campaign. Check the details in your form before you send it."
+        ]
+      },
+      {
+        "id": "basket",
+        "title": "Your basket & box choices",
+        "paragraphs": [
+          "The basket stores product identifiers & quantities in your browser. For a box, its identifier also records the selected box size & delivery frequency. This lets the website show your choices when you return in the same browser. Contact details are not part of this saved basket.",
+          "Adding an item to the basket does not send an enquiry. You can change quantities or remove items before submitting a request. Clearing this website’s browser storage removes the saved basket from that browser. It does not cancel or delete a request that you have already sent to the farm."
+        ]
+      },
+      {
+        "id": "wishlist",
+        "title": "Your wishlist & recipe preferences",
+        "paragraphs": [
+          "The wishlist stores the names & identifiers of saved products in local browser storage. It supports the heart controls & the saved-product count. The current wishlist is not linked to a customer account or synchronised across devices. Another person using the same browser profile may be able to see those saved items.",
+          "Recipe browsing also uses session storage to keep the order of recipe cards consistent during a browsing session. This stores a display preference rather than your contact details. You can remove local preferences through your browser’s site-data controls. Private browsing or blocked storage can limit how long these features remember your choices."
+        ]
+      },
+      {
+        "id": "checkout",
+        "title": "Checkout & delivery details",
+        "paragraphs": [
+          "Contact & delivery fields entered at checkout remain in page memory until you send the availability request. The submitted request includes your contact details, selected crops or box, delivery area & notes. The optional street-address field is not included in the submitted request or saved in the enquiry record.",
+          "Unsubmitted form details are not stored in the Floruvi basket. Leaving or reloading the page can remove them. Your browser may separately offer autofill or remember form entries under its own settings. Review those settings if you use a shared device or do not want your browser to suggest personal details."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Where enquiries are stored",
+        "paragraphs": [
+          "Submitted enquiries are stored in Floruvi’s Convex project in the EU West region. They are kept separately from the public product catalogue. Authorised project operators can access enquiry records to manage requests. The public shop & recipe pages do not expose these private enquiry records.",
+          "Website hosting processes the requests needed to deliver pages, images & form responses. Floruvi uses Vercel for hosting & Convex for application data. Visiting the website therefore involves these infrastructure services. Information submitted from another country may be processed outside that country as part of this setup."
+        ]
+      },
+      {
+        "id": "protection",
+        "title": "Form protection & request limits",
+        "paragraphs": [
+          "The website checks submitted fields before an enquiry is stored. These checks include required fields, length limits, contact formats & a form field used to detect automated submissions. Requests that do not pass validation are rejected. These controls help protect the enquiry service from invalid or excessive requests.",
+          "Temporary submission limits use keyed hashes derived from your email address &, on Vercel, your IP address. The raw IP address is not stored in the enquiry record. A limit window lasts one hour. Expired limit records are removed in batches during later successful submissions, so expiry does not mean immediate deletion of every limit record."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Cookies, analytics & optional services",
+        "paragraphs": [
+          "The basket & wishlist features described here use local storage. Recipe display preferences use session storage. These are browser-storage mechanisms rather than an account-based profile. Your browser controls whether site storage is available & provides options to clear it. Disabling storage can affect saved choices without preventing you from reading the public pages.",
+          "The current application does not include marketing analytics, advertising pixels, push notifications, payment collection, or active customer accounts. Hosting services still process technical requests needed to operate the site. This notice must be reviewed when a new service changes the information collected, its purpose, or where it is sent."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "How long information remains",
+        "paragraphs": [
+          "Enquiry records currently remain in the private project until an authorised operator removes them. There is no automatic enquiry-deletion schedule in the current application. A regular retention schedule & a direct privacy contact still need to be set. This notice does not promise an automatic deletion date that the service does not yet enforce.",
+          "Browser data follows a different lifecycle. Local basket & wishlist data can remain until you remove items, clear site data, or the browser removes it. Session preferences normally last for the browsing session, subject to browser behaviour. Removing data from your device does not remove a separate enquiry held by the farm."
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Access, corrections & deletion requests",
+        "paragraphs": [
+          "Use the contact form if you want to ask about an enquiry record, correct a detail, or request its deletion. State that your message concerns privacy & provide enough context to identify the request, such as the email address used & an approximate submission date. Avoid including extra sensitive information.",
+          "The farm needs to verify ownership before it releases or changes personal records. Do not send identity documents through the general enquiry form unless a suitable process has first been agreed. A privacy request is reviewed by an operator; submitting it does not automatically edit or erase a record. This site does not yet provide a self-service account dashboard for that purpose."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "Your choices on a shared device",
+        "paragraphs": [
+          "You can browse the shop & read recipes without submitting a form. You can remove a saved product through the wishlist, adjust your basket, or use browser settings to clear this website’s stored data. A different device or browser profile has its own saved choices because account synchronisation is not active.",
+          "If you share a device, close any page containing unsubmitted contact details when you finish. Consider clearing saved items if you do not want the next person using that browser to see them. Browser autofill, browsing history & device backups are controlled outside the Floruvi application."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Links to other websites",
+        "paragraphs": [
+          "Some pages link to external food or growing references. Following an external link opens a service operated by another organisation. Its privacy notice & browser-storage practices apply when you visit it. A reference link does not give that organisation access to your private Floruvi enquiry record through this application.",
+          "Read the destination’s notice before providing personal information there. If you contact the farm through a separate communication service, that service may also process your message under its own terms. This notice describes the Floruvi website & does not replace the notices of those other services."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Updates & getting in touch",
+        "paragraphs": [
+          "This notice will need to change as the storefront develops. Customer accounts, payment processing, delivery integrations, or new communication tools can introduce different data flows. The date at the top identifies the latest revision of this page. Review the notice when you use a newly introduced feature.",
+          "For a question about the current website or an existing enquiry, use the contact page. Describe what you want to know in plain language & include only the details needed to find your request. The same form can be used to flag a possible privacy problem for the farm to review."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Fresh food. Clear information.",
+        "alt": "A basket filled with fresh vegetables"
+      },
+      {
+        "title": "A little clarity goes a long way.",
+        "alt": "Colourful vegetables prepared for the table"
+      },
+      {
+        "title": "Take your time. Know your choices.",
+        "alt": "Avocado toast & a green smoothie in morning light"
+      }
+    ],
+    "localeNote": "On your first visit, the website uses the country that our hosting service detects from your connection to open the matching country & language version. Your choice is then kept in a cookie named floruvi-locale for one year, so prices & pages stay in that version. Enquiries sent from a country version include that country so the farm can review delivery. You can change the version at any time with the country & language control, or remove the cookie by clearing cookies."
+  },
+  "notFound": {
+    "eyebrow": "A LITTLE OFF THE GARDEN PATH",
+    "title": "Nothing growing here.",
+    "text": "This page or crop could not be found.",
+    "cta": "Explore our produce ↗"
+  },
+  "categories": {
+    "leafy-greens": {
+      "name": "Leafy greens",
+      "description": "Tender leaves, crisp hearts, & everyday greens for the centre of your plate."
+    },
+    "herbs": {
+      "name": "Fresh herbs",
+      "description": "The fragrant finishing touch. A little leaf can change the whole dish."
+    },
+    "microgreens": {
+      "name": "Microgreens & shoots",
+      "description": "Small leaves with distinct flavours, from peppery radish to sweet pea shoots."
+    },
+    "fruiting-crops": {
+      "name": "Fruiting crops",
+      "description": "Colour, crunch, & sweetness for salads, cooking, & snacking."
+    },
+    "roots-and-stems": {
+      "name": "Roots & stems",
+      "description": "A specialist growing list for roots, bulbs, & crisp stems."
+    },
+    "edible-flowers": {
+      "name": "Edible flowers",
+      "description": "Delicate colour for thoughtful plates. Food-grade varieties only."
+    }
+  },
+  "recipeCategories": {
+    "Bowls": "Bowls",
+    "Breakfast": "Breakfast",
+    "Pasta": "Pasta",
+    "Salads": "Salads",
+    "Sides": "Sides",
+    "Smoothies": "Smoothies",
+    "Soups": "Soups",
+    "Tray bakes": "Tray bakes",
+    "Wraps": "Wraps"
+  },
+  "packLabels": {
+    "1 bunch · 125–150 g": "1 bunch · 125–150 g",
+    "1 bunch · 150–200 g": "1 bunch · 150–200 g",
+    "1 bunch · 225–250 g": "1 bunch · 225–250 g",
+    "1 bunch · 450–500 g": "1 bunch · 450–500 g",
+    "1 head · 120–250 g": "1 head · 120–250 g",
+    "1 kg": "1 kg",
+    "1 live tray": "1 live tray",
+    "1 melon": "1 melon",
+    "100 g": "100 g",
+    "150–200 g": "150–200 g",
+    "15–20 flowers": "15–20 flowers",
+    "200 g": "200 g",
+    "200–300 g": "200–300 g",
+    "25 g": "25 g",
+    "250 g": "250 g",
+    "3 peppers · mixed colours": "3 peppers · mixed colours",
+    "40 g": "40 g",
+    "50 g": "50 g",
+    "500 g": "500 g",
+    "75 g": "75 g"
+  }
+}

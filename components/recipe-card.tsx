@@ -1,8 +1,15 @@
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import Image from "next/image";
 import { Clock } from "lucide-react";
-import type { Recipe } from "@/lib/recipes";
-export function RecipeCard({ recipe }: { recipe: Recipe }) {
+import type { RecipeSummary } from "@/lib/storefront";
+import { fill } from "@/lib/i18n/format";
+export function RecipeCard({
+  recipe,
+  minutes,
+}: {
+  recipe: RecipeSummary;
+  minutes: string;
+}) {
   return (
     <article className="recipe-card">
       <Link href={`/recipes/${recipe.slug}`}>
@@ -19,7 +26,7 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
           <p>{recipe.description}</p>
           <span className="recipe-time">
             <Clock size={14} />
-            {recipe.minutes} mins
+            {fill(minutes, { count: recipe.minutes })}
           </span>
         </div>
       </Link>

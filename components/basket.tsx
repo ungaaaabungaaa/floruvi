@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import Image from "next/image";
 import {
   ArrowRight,
@@ -22,11 +22,18 @@ import { productImages } from "@/lib/product-images";
 import cartBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
 import herbsBanner from "@/src/assets/products/banners/herbs.webp";
 import { Botanical } from "./botanical";
-import type { Product } from "@/lib/catalogue";
+import type { ShopProduct } from "@/lib/storefront";
 import type { CartLine } from "@/lib/cart";
-import { formatMoney, type BasketReview } from "@/lib/pricing";
+import type { BasketReview } from "@/lib/pricing";
+import type { Messages } from "@/lib/i18n/messages";
+import type { CurrencyCode } from "@/lib/i18n/format";
+import { Lines } from "./i18n/lines";
+import { useI18n } from "./i18n/provider";
 export type { BasketReview } from "@/lib/pricing";
+
 export function useBasketReview(items: CartLine[]) {
+  const { locale, t } = useI18n();
+  const market = locale.market;
   const key = JSON.stringify(items);
   const [attempt, setAttempt] = useState(0);
   const [state, setState] = useState<{
@@ -34,34 +41,27 @@ export function useBasketReview(items: CartLine[]) {
     review?: BasketReview;
     error?: string;
   }>({ key: "" });
+  const fallback = t.basket.checkFailed;
   useEffect(() => {
     if (!items.length) return;
     const controller = new AbortController();
     fetch("/api/checkout-review", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: JSON.parse(key) }),
+      body: JSON.stringify({ items: JSON.parse(key), market }),
       signal: controller.signal,
     })
       .then(async (response) => {
-        const data = await response.json();
-        if (!response.ok)
-          throw new Error(data.error || "Could not check your basket.");
-        return data as BasketReview;
+        if (!response.ok) throw new Error(fallback);
+        return (await response.json()) as BasketReview;
       })
       .then((review) => setState({ key: key + attempt, review }))
-      .catch((error) => {
+      .catch(() => {
         if (!controller.signal.aborted)
-          setState({
-            key: key + attempt,
-            error:
-              error instanceof Error
-                ? error.message
-                : "Could not check your basket.",
-          });
+          setState({ key: key + attempt, error: fallback });
       });
     return () => controller.abort();
-  }, [key, attempt, items.length]);
+  }, [key, attempt, items.length, market, fallback]);
   const current = state.key === key + attempt ? state : null;
   return {
     review: current?.review,
@@ -70,6 +70,25 @@ export function useBasketReview(items: CartLine[]) {
     retry: () => setAttempt((n) => n + 1),
   };
 }
+
+/** Localised labels for a basket line: a box or a catalogue product. */
+export function useLineLabels() {
+  const { t, fill } = useI18n();
+  const schedule = (slug: string) => {
+    const box = getCartBox(slug);
+    if (!box) return "";
+    const id = slug.slice(`box-${box.id}-`.length) as keyof typeof t.boxes.schedules;
+    return t.boxes.schedules[id] ?? box.schedule;
+  };
+  const name = (slug: string, products: { slug: string; name: string }[], fallback?: string) => {
+    const box = getCartBox(slug);
+    if (box)
+      return fill(t.boxes.boxName, { name: t.boxes[box.id].name, schedule: schedule(slug) });
+    return products.find((p) => p.slug === slug)?.name ?? fallback ?? slug;
+  };
+  return { name, schedule };
+}
+
 export function BasketSummary({
   review,
   children,
@@ -77,57 +96,77 @@ export function BasketSummary({
   review?: BasketReview;
   children?: React.ReactNode;
 }) {
+  const { t, money, plural } = useI18n();
+  const quoted = review?.deliveryQuoted;
   return (
     <aside className="basket-summary">
-      <h2>Order summary</h2>
+      <h2>{t.basket.summary}</h2>
       <div className="summary-row">
         <span>
-          Subtotal{" "}
+          {t.basket.subtotal}{" "}
           {review
-            ? `(${review.items.reduce((n, i) => n + i.quantity, 0)} items)`
+            ? plural(
+                review.items.reduce((n, i) => n + i.quantity, 0),
+                t.basket.items,
+              )
             : ""}
         </span>
-        <span>{review ? formatMoney(review.subtotal) : "—"}</span>
+        <span>{review ? money(review.subtotal, review.currency as CurrencyCode) : "—"}</span>
       </div>
       <div className="summary-row">
-        <span>Delivery fee</span>
-        <span>{review ? formatMoney(review.delivery) : "—"}</span>
+        <span>{t.basket.deliveryFee}</span>
+        <span>
+          {!review
+            ? "—"
+            : quoted
+              ? t.basket.deliveryQuoted
+              : money(review.delivery, review.currency as CurrencyCode)}
+        </span>
       </div>
       <div className="summary-total">
-        <span>Total</span>
+        <span>{quoted ? t.basket.totalBeforeDelivery : t.basket.total}</span>
         <span>
           {review
             ? review.total === null
-              ? "Quote required"
-              : formatMoney(review.total)
+              ? t.money.quoteRequired
+              : money(review.total, review.currency as CurrencyCode)
             : "—"}
         </span>
       </div>
       {children}
       <span className="summary-trust">
-        <ShieldCheck size={17} /> No payment is taken at this stage.
+        <ShieldCheck size={17} /> {t.basket.noPayment}
       </span>
       <Link className="text-link" href="/faq#delivery">
-        Delivery information <ArrowRight size={14} />
+        {t.basket.deliveryInfo} <ArrowRight size={14} />
       </Link>
     </aside>
   );
 }
 export function EmptyBasket() {
+  const { t } = useI18n();
   return (
     <section className="empty-basket">
       <ShoppingBag size={45} strokeWidth={1} />
-      <span className="eyebrow">ROOM FOR SOMETHING FRESH</span>
-      <h1>Your basket is empty.</h1>
-      <p>Choose vegetables to get started.</p>
+      <span className="eyebrow">{t.basket.emptyEyebrow}</span>
+      <h1>{t.basket.emptyTitle}</h1>
+      <p>{t.basket.emptyText}</p>
       <Link className="button button-primary" href="/products">
-        Explore the Produce <ArrowRight size={17} />
+        {t.basket.emptyCta} <ArrowRight size={17} />
       </Link>
     </section>
   );
 }
-export function BasketPage({ products }: { products: Product[] }) {
+export function BasketPage({
+  products,
+  labels,
+}: {
+  products: ShopProduct[];
+  labels: Messages["cart"];
+}) {
   const cart = useCart();
+  const { t, locale, fill, money } = useI18n();
+  const lineLabels = useLineLabels();
   const { review, error, loading, retry } = useBasketReview(cart.items);
   if (!cart.items.length)
     return (
@@ -141,30 +180,30 @@ export function BasketPage({ products }: { products: Product[] }) {
       <section className="cart-hero" aria-labelledby="cart-title">
         <Image
           src={cartBanner}
-          alt="A basket of fresh vegetables"
+          alt={labels.heroAlt}
           fill
           sizes="100vw"
           preload
         />
         <div>
-          <h1 id="cart-title">Your cart</h1>
-          <p>Fresh produce, ready for your table.</p>
+          <h1 id="cart-title">{labels.title}</h1>
+          <p>{labels.subtitle}</p>
           <Leaf size={22} strokeWidth={1.3} aria-hidden="true" />
         </div>
       </section>
       <div className="basket-layout">
         <div>
           <div className="basket-table-head">
-            <span>PRODUCT</span>
-            <span>QUANTITY</span>
-            <span>PRICE</span>
+            <span>{labels.headProduct}</span>
+            <span>{labels.headQuantity}</span>
+            <span>{labels.headPrice}</span>
             <span />
           </div>
           <div className="cart-items">
             {cart.items.map((line) => {
               const box = getCartBox(line.slug);
               const product = products.find((p) => p.slug === line.slug);
-              const name = box?.name ?? product?.name ?? line.slug;
+              const name = lineLabels.name(line.slug, products);
               const href = box ? "/boxes" : `/products/${line.slug}`;
               const pricedLine = review?.items.find(
                 (i) => i.slug === line.slug,
@@ -194,23 +233,23 @@ export function BasketPage({ products }: { products: Product[] }) {
                       </Link>
                       <p>
                         {box
-                          ? `${box.people} · ${box.schedule}`
+                          ? `${t.boxes[box.id].people} · ${lineLabels.schedule(line.slug)}`
                           : product
-                            ? (pricedLine?.packLabel ??
-                              product.price?.packLabel ??
-                              "Pack on request")
-                            : "This crop is no longer listed."}
+                            ? (product.price?.packLabel ??
+                              pricedLine?.packLabel ??
+                              labels.packOnRequest)
+                            : labels.unlisted}
                       </p>
                       <span className="cart-product-note">
                         <Leaf size={13} aria-hidden="true" />
-                        {box ? "Per delivery" : "Fresh produce"}
+                        {box ? labels.perDelivery : labels.freshProduce}
                       </span>
                     </div>
                   </div>
                   <div className="quantity-picker">
                     <button
                       type="button"
-                      aria-label={`Reduce ${name}`}
+                      aria-label={fill(labels.reduce, { name })}
                       disabled={line.quantity === 1}
                       onClick={() =>
                         cart.setQuantity(line.slug, line.quantity - 1)
@@ -221,7 +260,7 @@ export function BasketPage({ products }: { products: Product[] }) {
                     <output>{line.quantity}</output>
                     <button
                       type="button"
-                      aria-label={`Increase ${name}`}
+                      aria-label={fill(labels.increase, { name })}
                       disabled={line.quantity === 99}
                       onClick={() =>
                         cart.setQuantity(line.slug, line.quantity + 1)
@@ -231,13 +270,13 @@ export function BasketPage({ products }: { products: Product[] }) {
                     </button>
                   </div>
                   <span className="basket-price">
-                    {review ? formatMoney(pricedLine?.lineTotal) : "—"}
+                    {review ? money(pricedLine?.lineTotal, review.currency as CurrencyCode) : "—"}
                   </span>
                   <button
                     type="button"
                     className="cart-remove"
                     onClick={() => cart.remove(line.slug)}
-                    aria-label={`Remove ${name}`}
+                    aria-label={fill(labels.remove, { name })}
                   >
                     <Trash2 size={16} />
                   </button>
@@ -248,13 +287,15 @@ export function BasketPage({ products }: { products: Product[] }) {
           <div className="cart-delivery-note">
             <Leaf size={22} aria-hidden="true" />
             <p>
-              {cart.items.every((line) => !!getCartBox(line.slug))
-                ? "Delivery included with your box."
-                : "Fresh produce, delivered across India."}
+              {!locale.domestic
+                ? fill(labels.exportDelivery, { country: locale.countryName })
+                : cart.items.every((line) => !!getCartBox(line.slug))
+                  ? labels.boxDelivery
+                  : labels.domesticDelivery}
             </p>
           </div>
           <Link className="text-link cart-continue" href="/products">
-            Continue shopping <ArrowRight size={16} />
+            {labels.continue} <ArrowRight size={16} />
           </Link>
         </div>
         <div className="cart-summary-column">
@@ -262,43 +303,36 @@ export function BasketPage({ products }: { products: Product[] }) {
             {loading ? (
               <p role="status">
                 <LoaderCircle className="spinner" size={16} />
-                Checking the catalogue…
+                {labels.checking}
               </p>
             ) : error ? (
               <div role="alert">
                 <p>{error}</p>
                 <button className="button button-outline" onClick={retry}>
-                  Try again
+                  {labels.tryAgain}
                 </button>
               </div>
             ) : missing ? (
-              <p role="alert">Remove unlisted crops before you continue.</p>
+              <p role="alert">{labels.removeUnlisted}</p>
             ) : (
               <Link className="button button-primary" href="/checkout">
-                Proceed to checkout <ArrowRight size={17} />
+                {labels.proceed} <ArrowRight size={17} />
               </Link>
             )}
           </BasketSummary>
-          <aside
-            className="cart-editorial"
-            aria-label="Fresh food for everyday meals"
-          >
+          <aside className="cart-editorial" aria-label={labels.editorialLabel}>
             <Image
               src={herbsBanner}
-              alt="Fresh green herbs"
+              alt={labels.editorialAlt}
               fill
               sizes="(max-width: 800px) 100vw, 400px"
             />
             <div>
               <h2>
-                Fresh food.
-                <br />
-                Every day.
+                <Lines text={labels.editorialTitle} />
               </h2>
               <p>
-                Simple ingredients.
-                <br />
-                More ways to enjoy them.
+                <Lines text={labels.editorialText} />
               </p>
             </div>
           </aside>

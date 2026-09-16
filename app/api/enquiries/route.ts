@@ -1,6 +1,7 @@
 import { createHmac } from "node:crypto";
 import { enquirySchema } from "@/lib/enquiry";
 import { isSameOrigin } from "@/lib/request-origin";
+import { withCountry } from "@/lib/i18n/country";
 
 export async function POST(request: Request) {
   const secret = process.env.LEAD_INGEST_SECRET;
@@ -57,7 +58,10 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${secret}`,
       },
       body: JSON.stringify({
-        payload: parsed.data,
+        payload: {
+          ...parsed.data,
+          city: withCountry(parsed.data.city, (input as { market?: unknown }).market),
+        },
         ipHash: hash(ip || "unknown"),
         contactHash: hash(parsed.data.email),
       }),

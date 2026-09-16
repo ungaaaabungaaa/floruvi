@@ -3,7 +3,10 @@ import { Fragment, useState } from "react";
 import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
 import { Search, X } from "lucide-react";
-import type { Recipe } from "@/lib/recipes";
+import type { RecipeSummary } from "@/lib/storefront";
+import type { Messages } from "@/lib/i18n/messages";
+import { Lines } from "@/components/i18n/lines";
+import { useI18n } from "@/components/i18n/provider";
 import hero from "@/src/assets/recipes/banners/hero.webp";
 import kitchen from "@/src/assets/recipes/banners/kitchen.webp";
 import pastaNight from "@/src/assets/recipes/banners/pasta-night.webp";
@@ -13,32 +16,9 @@ import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
 import { RecipeCard } from "./recipe-card";
 import { useRecipeOrder } from "./use-recipe-order";
 
-const interludes = [
-  {
-    image: pastaNight,
-    title: "A little pasta. A lovely evening.",
-    alt: "Basil pasta & cherry tomatoes on a forest-green table",
-    style: "dark left",
-  },
-  {
-    image: slowMornings,
-    title: "Make time for breakfast.",
-    alt: "Avocado toast & a green smoothie in morning light",
-    style: "right",
-  },
-  {
-    image: colourfulTable,
-    title: "Bring colour to the table.",
-    alt: "Roasted carrots, beetroot & chickpeas on a platter",
-    style: "warm left",
-  },
-  {
-    image: freshlyPicked,
-    title: "Start with something fresh.",
-    alt: "Hands holding a basket of fresh vegetables",
-    style: "right",
-  },
-];
+type Labels = Messages["recipes"];
+const interludeImages = [pastaNight, slowMornings, colourfulTable, freshlyPicked];
+const interludeStyles = ["dark left", "right", "warm left", "right"];
 // Alternate two and three rows, using each breakpoint's column count.
 function breakPositions(columns: number, count: number) {
   const positions = new Map<number, number>();
@@ -54,32 +34,46 @@ function breakPositions(columns: number, count: number) {
 function RecipeInterlude({
   index,
   screen,
+  labels,
 }: {
   index: number;
   screen: "wide" | "narrow";
+  labels: Labels;
 }) {
-  const banner = interludes[index % interludes.length];
+  const position = index % interludeImages.length;
+  const banner = labels.interludes[position];
   return (
     <EditorialBanner
-      image={banner.image}
+      image={interludeImages[position]}
       alt={banner.alt}
       title={banner.title}
-      className={`interlude-${screen} ${banner.style}`}
+      className={`interlude-${screen} ${interludeStyles[position]}`}
     />
   );
 }
 
-export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
+export function RecipeBrowser({
+  recipes,
+  labels,
+}: {
+  recipes: RecipeSummary[];
+  labels: Labels;
+}) {
+  const { locale, plural } = useI18n();
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
-  const terms = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = search
+    .trim()
+    .toLocaleLowerCase(locale.tag)
+    .split(/\s+/)
+    .filter(Boolean);
   const orderedRecipes = useRecipeOrder(recipes);
   const filtered = orderedRecipes.filter(
     (recipe) =>
-      (category === "All" || recipe.category === category) &&
+      (category === "All" || recipe.categoryKey === category) &&
       terms.every((term) =>
         `${recipe.name} ${recipe.description} ${recipe.ingredientSearch}`
-          .toLowerCase()
+          .toLocaleLowerCase(locale.tag)
           .includes(term),
       ),
   );
@@ -98,35 +92,34 @@ export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
       >
         <Image
           src={hero}
-          alt="A bowl of fresh greens, tomatoes & radishes"
+          alt={labels.heroAlt}
           fill
           sizes="100vw"
           preload
           className="recipe-banner-photo"
         />
         <div className="recipe-banner-copy">
-          <span className="eyebrow">RECIPES</span>
+          <span className="eyebrow">{labels.eyebrow}</span>
           <h1 id="recipes-heading">
-            Simple Meals
-            <br />A Healthier You
+            <Lines text={labels.title} />
           </h1>
-          <p>Fresh ideas to make vegetables part of your everyday life.</p>
+          <p>{labels.subtitle}</p>
           <div className="recipe-search">
             <label className="sr-only" htmlFor="recipe-search">
-              Search recipes
+              {labels.searchLabel}
             </label>
             <input
               id="recipe-search"
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search recipes…"
+              placeholder={labels.searchPlaceholder}
               aria-controls="recipe-results more-recipes"
             />
             {search ? (
               <button
                 type="button"
-                aria-label="Clear search"
+                aria-label={labels.clearSearch}
                 onClick={() => setSearch("")}
               >
                 <X size={19} />
@@ -139,42 +132,49 @@ export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
         <div
           className="recipe-filters"
           role="group"
-          aria-label="Recipe categories"
+          aria-label={labels.categoriesLabel}
         >
-          {["All", ...new Set(recipes.map((recipe) => recipe.category))].map(
-            (name) => (
-              <button
-                key={name}
-                type="button"
-                aria-pressed={category === name}
-                aria-controls="recipe-results more-recipes"
-                onClick={() => setCategory(name)}
-              >
-                {name}
-              </button>
+          {[
+            ["All", labels.all],
+            ...new Map(
+              recipes.map((recipe) => [recipe.categoryKey, recipe.category]),
             ),
-          )}
+          ].map(([key, name]) => (
+            <button
+              key={key}
+              type="button"
+              aria-pressed={category === key}
+              aria-controls="recipe-results more-recipes"
+              onClick={() => setCategory(key)}
+            >
+              {name}
+            </button>
+          ))}
         </div>
       </section>
       <p className="sr-only" role="status">
-        {filtered.length} {filtered.length === 1 ? "recipe" : "recipes"} found
+        {plural(filtered.length, labels.found)}
       </p>
       <section
         id="recipe-results"
         className="recipe-first-row"
-        aria-label="Recipe results"
+        aria-label={labels.resultsLabel}
       >
         <div className="recipe-grid">
           {filtered.slice(0, 4).map((recipe) => (
-            <RecipeCard key={recipe.slug} recipe={recipe} />
+            <RecipeCard
+              key={recipe.slug}
+              recipe={recipe}
+              minutes={labels.cardMinutes}
+            />
           ))}
         </div>
         {filtered.length === 0 && (
           <div className="empty-state">
-            <h2>No recipes found.</h2>
-            <p>Try another ingredient or clear your filters.</p>
+            <h2>{labels.noResults}</h2>
+            <p>{labels.noResultsText}</p>
             <button className="button button-outline" onClick={reset}>
-              Show all recipes
+              {labels.showAll}
             </button>
           </div>
         )}
@@ -185,43 +185,42 @@ export function RecipeBrowser({ recipes }: { recipes: Recipe[] }) {
       >
         <Image
           src={kitchen}
-          alt="Hands tossing a fresh vegetable salad with wooden spoons"
+          alt={labels.kitchenAlt}
           fill
           sizes="100vw"
           className="recipe-banner-photo"
         />
         <div className="recipe-banner-copy">
           <h2 id="kitchen-heading">
-            Good Ingredients
-            <br />
-            Happier Days
+            <Lines text={labels.kitchenTitle} />
           </h2>
-          <p>Real food. Real simple.</p>
-
+          <p>{labels.kitchenText}</p>
         </div>
       </section>
       <section
         id="more-recipes"
         className="recipe-more"
-        aria-label="More recipe results"
+        aria-label={labels.moreLabel}
       >
         {filtered.length > 4 && (
           <>
-            <h2>More recipes</h2>
+            <h2>{labels.more}</h2>
             <div className="recipe-grid">
               {remaining.map((recipe, index) => (
                 <Fragment key={recipe.slug}>
-                  <RecipeCard recipe={recipe} />
+                  <RecipeCard recipe={recipe} minutes={labels.cardMinutes} />
                   {wideBreaks.has(index + 1) && (
                     <RecipeInterlude
                       index={wideBreaks.get(index + 1)!}
                       screen="wide"
+                      labels={labels}
                     />
                   )}
                   {narrowBreaks.has(index + 1) && (
                     <RecipeInterlude
                       index={narrowBreaks.get(index + 1)!}
                       screen="narrow"
+                      labels={labels}
                     />
                   )}
                 </Fragment>

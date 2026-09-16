@@ -1,4 +1,14 @@
-import type { Product } from "./catalogue";
+type Product = {
+  slug: string;
+  name: string;
+  description: string;
+  uses: string[];
+  category: string;
+  featured: boolean;
+  price?: { amountMinor: number } | null;
+  // English name, so English search terms still work on translated pages.
+  englishName?: string;
+};
 
 const aliases: Record<string, string> = {
   spinach: "palak",
@@ -45,8 +55,8 @@ function distance(a: string, b: string) {
     }
   return rows[a.length][b.length];
 }
-export function findProducts(
-  products: Product[],
+export function findProducts<T extends Product>(
+  products: T[],
   search: string,
   category = "all",
 ) {
@@ -56,9 +66,9 @@ export function findProducts(
     .filter((p) => category === "all" || p.category === category)
     .map((p) => {
       const name = normalizeSearch(p.name);
-      const names = normalizeSearch(`${p.name} ${aliases[p.slug] ?? ""}`).split(
-        " ",
-      );
+      const names = normalizeSearch(
+        `${p.name} ${p.englishName ?? ""} ${aliases[p.slug] ?? ""}`,
+      ).split(" ");
       const detail = normalizeSearch(
         `${p.description} ${p.uses.join(" ")} ${p.category}`,
       );
@@ -97,13 +107,14 @@ export function findProducts(
     .map((p) => p.product);
 }
 
-export function sortProducts(
-  products: Product[],
+export function sortProducts<T extends Product>(
+  products: T[],
   sort: string,
   searching: boolean,
+  language?: string,
 ) {
   return [...products].sort((a, b) => {
-    if (sort === "az") return a.name.localeCompare(b.name);
+    if (sort === "az") return a.name.localeCompare(b.name, language);
     if (sort === "price-asc" || sort === "price-desc") {
       if (!a.price || !b.price) return Number(!!b.price) - Number(!!a.price);
       return (

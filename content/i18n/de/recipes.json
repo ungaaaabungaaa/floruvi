@@ -1,0 +1,1850 @@
+{
+  "everyday-green-salad": {
+    "source": "fa35733a",
+    "name": "Grüner Salat für jeden Tag",
+    "description": "Knackige Blätter, saftige Tomaten und ein frisches Zitronendressing. Eine einfache Beilage, die zu fast allem passt.",
+    "ingredients": [
+      "100 g Buttersalat, gewaschen und getrocknet",
+      "150 g Kirschtomaten, halbiert",
+      "½ Gurke, in Scheiben geschnitten",
+      "4 Radieschen, in dünne Scheiben geschnitten",
+      "½ Avocado, in Scheiben geschnitten",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Zupfe den Salat in mundgerechte Stücke und gib ihn in eine große Schüssel.",
+      "Gib Tomaten, Gurke, Radieschen und Avocado dazu.",
+      "Verrühre Olivenöl, Zitronensaft und Pfeffer in einer kleinen Schüssel.",
+      "Gieße das Dressing über den Salat. Mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Bewahre Blätter und Dressing getrennt auf, bis du essen möchtest. Für eine reichhaltigere Mahlzeit gib gekochte Kichererbsen oder eine andere Proteinquelle deiner Wahl dazu."
+  },
+  "spinach-apple-smoothie": {
+    "source": "6633c66e",
+    "name": "Spinat-Apfel-Smoothie",
+    "description": "Ein frischer grüner Mix mit Apfel, Banane und einem Spritzer Zitrone. Ganz ohne komplizierte Zutaten.",
+    "ingredients": [
+      "40 g Spinat, gewaschen",
+      "1 reife Banane, geschält",
+      "1 Apfel, entkernt und klein geschnitten",
+      "250 ml kaltes Trinkwasser",
+      "1 TL Zitronensaft",
+      "4 Eiswürfel (optional)"
+    ],
+    "steps": [
+      "Gib Wasser und Spinat in einen Mixer. Mixe, bis die Blätter fein zerkleinert sind.",
+      "Gib Banane, Apfel, Zitronensaft und nach Wunsch die Eiswürfel dazu.",
+      "Mixe alles glatt. Wenn du es flüssiger magst, gib noch etwas Wasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm eine reife Banane, sie sorgt für Süße. Das ist ein Serviervorschlag, kein Mahlzeitenersatz und kein Detox-Getränk."
+  },
+  "roasted-vegetable-bowl": {
+    "source": "b1eb4baf",
+    "name": "Ofengemüse-Bowl",
+    "description": "Buntes Ofengemüse und Kichererbsen auf Naturreis. Warm, einfach und leicht nach deinem Geschmack abzuwandeln.",
+    "ingredients": [
+      "1 Paprikaschote, klein geschnitten",
+      "1 Zucchini, in Halbmonde geschnitten",
+      "150 g Brokkoliröschen",
+      "150 g Kirschtomaten",
+      "240 g gekochte Kichererbsen, abgetropft",
+      "250 g gekochter Naturreis",
+      "1 EL Olivenöl",
+      "1 TL gemahlener Kreuzkümmel",
+      "1 EL Zitronensaft",
+      "2 EL gehackte Petersilie"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Paprika, Zucchini, Brokkoli, Tomaten und Kichererbsen mit Öl und Kreuzkümmel. Verteile alles in einer Lage auf dem Blech.",
+      "Röste das Gemüse 20–25 Minuten und wende es einmal, bis es weich und leicht gebräunt ist.",
+      "Erwärme den gekochten Reis nach Packungsanleitung. Verteile ihn auf zwei Schalen.",
+      "Gib das Ofengemüse und die Kichererbsen darauf. Beträufle alles mit Zitronensaft und streue die Petersilie darüber."
+    ],
+    "tip": "Nimm ein großes Blech, damit das Gemüse gleichmäßig röstet. Verwende frisch gekochten Reis oder halte dich an die Hinweise zum Aufbewahren und Aufwärmen auf der Reispackung."
+  },
+  "fresh-basil-pasta": {
+    "source": "1fee1340",
+    "name": "Pasta mit frischem Basilikum",
+    "description": "Basilikum, Zitrone und Kürbiskerne ergeben ein aromatisches Pesto für eine schnelle Tomatenpasta.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "30 g frische Basilikumblätter, gewaschen und getrocknet",
+      "25 g Kürbiskerne",
+      "1 kleine Knoblauchzehe",
+      "2 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "150 g Kirschtomaten, halbiert",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Koche die Spaghetti nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen einen Becher Kochwasser auf.",
+      "Mixe Basilikum, Kürbiskerne, Knoblauch, Olivenöl und Zitronensaft zu einem groben Pesto.",
+      "Gib die warme Pasta zurück in den Topf und nimm ihn vom Herd. Gib Pesto und Tomaten dazu.",
+      "Mische alles mit einem Schuss Kochwasser, bis die Sauce die Pasta umhüllt. Würze mit Pfeffer und serviere die Pasta."
+    ],
+    "tip": "Heb ein paar Basilikumblätter zum Bestreuen auf. Prüfe das Etikett der Pasta auf Allergene und nimm bei Bedarf eine passende Alternative."
+  },
+  "rocket-pear-and-walnut-salad": {
+    "source": "8bad4305",
+    "name": "Rucolasalat mit Birne und Walnüssen",
+    "description": "Würziger Rucola, reife Birne und knackige Walnüsse.",
+    "ingredients": [
+      "80 g Rucola",
+      "1 Birne, entkernt und in dünne Scheiben geschnitten",
+      "30 g Walnüsse, grob gehackt",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "cucumber-tomato-kachumber": {
+    "source": "2d4fa14e",
+    "name": "Kachumber-Salat mit Gurke und Tomate",
+    "description": "Ein fein geschnittener Salat mit Zitronen-Kreuzkümmel-Dressing.",
+    "ingredients": [
+      "1 Gurke, gewürfelt",
+      "200 g Kirschtomaten, geviertelt",
+      "½ rote Zwiebel, fein gewürfelt",
+      "2 EL gehackter Koriander",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "carrot-radish-slaw": {
+    "source": "28066d24",
+    "name": "Rohkostsalat mit Karotten und Radieschen",
+    "description": "Ein knackiger Rohkostsalat mit frischer Minze.",
+    "ingredients": [
+      "200 g Karotten, geraspelt",
+      "100 g Radieschen, geraspelt",
+      "2 EL gehackte Minze",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "fennel-orange-salad": {
+    "source": "674e1f04",
+    "name": "Fenchel-Orangen-Salat",
+    "description": "Süße Orange und fein gehobelter Fenchel mit Oliven.",
+    "ingredients": [
+      "1 kleine Fenchelknolle, in dünne Scheiben geschnitten",
+      "1 Orange, geschält und filetiert",
+      "30 g entsteinte Oliven",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "1 EL gehackte Minze"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "butterhead-avocado-salad": {
+    "source": "1bb50965",
+    "name": "Buttersalat mit Avocado",
+    "description": "Zarte Blätter mit Avocado und einem spritzigen Dressing.",
+    "ingredients": [
+      "100 g Buttersalat, in Stücke gezupft",
+      "1 Avocado, geschält und in Scheiben geschnitten",
+      "100 g Gurke, in Scheiben geschnitten",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "napa-cabbage-apple-slaw": {
+    "source": "2617c331",
+    "name": "Chinakohl-Apfel-Salat",
+    "description": "Fein geschnittener Kohl und Apfel mit gerösteten Kernen.",
+    "ingredients": [
+      "200 g Chinakohl, in feine Streifen geschnitten",
+      "1 Apfel, entkernt und in feine Stifte geschnitten",
+      "20 g Kürbiskerne",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und trockne sie ab. Bereite die Salatzutaten wie angegeben vor.",
+      "Verrühre Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer in einer kleinen Schüssel.",
+      "Gib die vorbereiteten Salatzutaten in eine Servierschüssel.",
+      "Gib das Dressing dazu, mische alles vorsichtig und serviere den Salat sofort."
+    ],
+    "tip": "Gib das Dressing erst kurz vor dem Servieren dazu, damit das Gemüse knackig bleibt."
+  },
+  "quinoa-spinach-chickpea-salad": {
+    "source": "40f87735",
+    "name": "Quinoasalat mit Spinat und Kichererbsen",
+    "description": "Ein Getreidesalat mit Spinat und Kichererbsen.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "100 g Babyspinat",
+      "150 g gekochte Kichererbsen, abgetropft",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Hebe Spinat und Kichererbsen unter die warme Quinoa, damit die Blätter leicht zusammenfallen.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "quinoa-beetroot-orange-salad": {
+    "source": "1d241eae",
+    "name": "Quinoasalat mit Roter Bete und Orange",
+    "description": "Ein Getreidesalat mit Roter Bete und Orange.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "150 g gekochte Rote Bete, gewürfelt",
+      "1 Orange, geschält und klein geschnitten",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Lass die Quinoa etwas abkühlen und hebe dann Rote Bete und Orange unter.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "quinoa-cucumber-mint-salad": {
+    "source": "de741f41",
+    "name": "Quinoasalat mit Gurke und Minze",
+    "description": "Ein Getreidesalat mit Gurke und Minze.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "150 g Gurke, gewürfelt",
+      "3 EL gehackte Minze",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Lass die Quinoa abkühlen und rühre dann Gurke und Minze unter.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "quinoa-tomato-basil-salad": {
+    "source": "8e9a3e47",
+    "name": "Quinoasalat mit Tomate und Basilikum",
+    "description": "Ein Getreidesalat mit Tomate und Basilikum.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "150 g Kirschtomaten, halbiert",
+      "20 g Basilikum, gezupft",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Lass die Quinoa etwas abkühlen und hebe dann Tomaten und Basilikum unter.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "quinoa-pea-shoot-salad": {
+    "source": "70f0de75",
+    "name": "Quinoasalat mit Erbsensprossen",
+    "description": "Ein Getreidesalat mit Erbsensprossen.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "50 g Erbsensprossen",
+      "100 g gegarte Erbsen, aufgetaut",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Lass die Quinoa etwas abkühlen und hebe dann die Erbsen und die gewaschenen Erbsensprossen unter.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "quinoa-radish-parsley-salad": {
+    "source": "a22a1b7a",
+    "name": "Quinoasalat mit Radieschen und Petersilie",
+    "description": "Ein Getreidesalat mit Radieschen und Petersilie.",
+    "ingredients": [
+      "120 g Quinoa (ungekocht)",
+      "250 ml Wasser",
+      "100 g Radieschen, in dünne Scheiben geschnitten",
+      "3 EL gehackte glatte Petersilie",
+      "1 EL Olivenöl",
+      "1 EL Zitronensaft",
+      "¼ TL Salz"
+    ],
+    "steps": [
+      "Spüle die Quinoa in einem feinen Sieb ab. Gib sie mit Wasser und Salz in einen Topf.",
+      "Bring alles zum Kochen, lege den Deckel auf und lass die Quinoa 12–15 Minuten sanft köcheln, bis das Wasser aufgesogen ist. Nimm den Topf vom Herd und lass sie 5 Minuten ruhen.",
+      "Lass die Quinoa etwas abkühlen und hebe dann Radieschen und Petersilie unter.",
+      "Rühre Olivenöl und Zitronensaft unter. Verteile den Salat auf zwei Schalen."
+    ],
+    "tip": "Gibt die Quinoa-Packung eine andere Wassermenge an, richte dich danach. Serviere den Salat zügig."
+  },
+  "carrot-ginger-soup": {
+    "source": "595e50a7",
+    "name": "Karotten-Ingwer-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "300 g Karotten, in dünne Scheiben geschnitten",
+      "1 TL geriebener Ingwer",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib Karotten und Ingwer dazu. Lass alles 20 Minuten köcheln, bis die Karotten weich sind.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "tomato-basil-soup": {
+    "source": "e9e6b5d6",
+    "name": "Tomaten-Basilikum-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "400 g reife Tomaten, klein geschnitten",
+      "15 g Basilikumblätter",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib die Tomaten dazu und lass alles 20 Minuten köcheln. Schalte den Herd aus und gib das Basilikum dazu.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "cauliflower-parsley-soup": {
+    "source": "a5625d41",
+    "name": "Blumenkohl-Petersilien-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "300 g Blumenkohlröschen",
+      "2 EL gehackte Petersilie",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib den Blumenkohl dazu und lass ihn 15–20 Minuten köcheln, bis er weich ist. Schalte den Herd aus und gib die Petersilie dazu.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "spinach-potato-soup": {
+    "source": "5cd23815",
+    "name": "Spinat-Kartoffel-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "180 g Kartoffeln, geschält und klein gewürfelt",
+      "120 g Spinat",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib die Kartoffeln dazu und lass sie 15 Minuten köcheln, bis sie weich sind. Gib den Spinat dazu und koche ihn 3 Minuten mit.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "zucchini-mint-soup": {
+    "source": "82151467",
+    "name": "Zucchini-Minz-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "300 g Zucchini, in Scheiben geschnitten",
+      "2 EL gehackte Minze",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib die Zucchini dazu und lass sie 15 Minuten köcheln, bis sie weich sind. Schalte den Herd aus und gib die Minze dazu.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "beetroot-dill-soup": {
+    "source": "27f6806b",
+    "name": "Rote-Bete-Dill-Suppe",
+    "description": "Eine fein pürierte Gemüsesuppe für zwei.",
+    "ingredients": [
+      "1 EL Olivenöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "1 Knoblauchzehe, gehackt",
+      "500 ml Gemüsebrühe",
+      "250 g rohe Rote Bete, geschält und geraspelt",
+      "2 EL gehackter Dill",
+      "Schwarzer Pfeffer nach Geschmack"
+    ],
+    "steps": [
+      "Erhitze das Öl in einem Topf. Dünste die Zwiebel bei mittlerer Hitze unter Rühren 5 Minuten, bis sie weich ist.",
+      "Gib den Knoblauch dazu und brate ihn 30 Sekunden mit. Gieße die Brühe an.",
+      "Gib die geraspelte Rote Bete dazu und lass sie 20 Minuten köcheln, bis sie weich ist. Schalte den Herd aus und gib den Dill dazu.",
+      "Nimm den Topf vom Herd. Püriere die Suppe mit einem Stabmixer und halte das Messer dabei immer in der Suppe. Schmecke sie mit Pfeffer ab und serviere sie."
+    ],
+    "tip": "Wenn du einen Standmixer verwendest, lass die Suppe abkühlen und beachte die Hinweise des Geräts für heiße Flüssigkeiten."
+  },
+  "bok-choy-noodle-broth": {
+    "source": "50d24464",
+    "name": "Nudelbrühe mit Pak Choi",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "150 g Pak Choi, in dünne Streifen geschnitten",
+      "80 g Pilze, in Scheiben geschnitten"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "napa-cabbage-ginger-broth": {
+    "source": "5da8204b",
+    "name": "Chinakohl-Ingwer-Brühe",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "150 g Chinakohl, in Streifen geschnitten",
+      "1 TL geriebener Ingwer"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "carrot-celery-noodle-soup": {
+    "source": "90cbd52f",
+    "name": "Nudelsuppe mit Karotte und Sellerie",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "100 g Karotten, in feine Stifte geschnitten",
+      "1 Stange Staudensellerie, in dünne Scheiben geschnitten"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "spinach-spring-onion-broth": {
+    "source": "494c1103",
+    "name": "Brühe mit Spinat und Frühlingszwiebeln",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "100 g Spinat",
+      "2 Frühlingszwiebeln, in Ringe geschnitten"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "zucchini-coriander-noodle-soup": {
+    "source": "38ddb67c",
+    "name": "Nudelsuppe mit Zucchini und Koriander",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "150 g Zucchini, in dünne Streifen geschnitten",
+      "2 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "mushroom-chive-noodle-broth": {
+    "source": "583b3c92",
+    "name": "Nudelbrühe mit Pilzen und Schnittlauch",
+    "description": "Gemüse, Tofu und Nudeln in einer leichten Brühe.",
+    "ingredients": [
+      "600 ml Gemüsebrühe",
+      "100 g schnell garende Reisnudeln (ungekocht)",
+      "150 g fester Tofu, gewürfelt",
+      "1 TL Sesamöl",
+      "2 TL Sojasauce",
+      "150 g Pilze, in dünne Scheiben geschnitten",
+      "2 EL fein geschnittener Schnittlauch"
+    ],
+    "steps": [
+      "Erhitze die Brühe in einem Topf, bis sie leicht kocht.",
+      "Gib das vorbereitete Gemüse und den Tofu dazu. Lass alles 6–8 Minuten köcheln, bis das Gemüse weich und der Tofu heiß ist.",
+      "Bereite die Reisnudeln nach Packungsanleitung zu. Gieße sie ab und verteile sie auf zwei Schalen.",
+      "Rühre Sesamöl und Sojasauce in die Brühe. Schöpfe Brühe, Tofu und Gemüse über die Nudeln."
+    ],
+    "tip": "Nimm schnell garende Reisnudeln. Wenn du Weizen meidest, prüfe das Etikett der Sojasauce."
+  },
+  "cucumber-mint-raita": {
+    "source": "4037d165",
+    "name": "Gurken-Minz-Raita",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "150 g Gurke, geraspelt",
+      "1 EL gehackte Minze"
+    ],
+    "steps": [
+      "Drücke das überschüssige Wasser aus der geraspelten Gurke.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "carrot-coriander-raita": {
+    "source": "1d942ce8",
+    "name": "Karotten-Koriander-Raita",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "100 g Karotten, fein geraspelt",
+      "1 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Schäle die Karotten und raspele sie fein.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "beetroot-dill-raita": {
+    "source": "966639aa",
+    "name": "Rote-Bete-Dill-Raita",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "100 g gekochte Rote Bete, fein gewürfelt",
+      "1 EL gehackter Dill"
+    ],
+    "steps": [
+      "Lass die gekochte Rote Bete abtropfen und schneide sie in Würfel.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "radish-chive-raita": {
+    "source": "27fb8927",
+    "name": "Radieschen-Schnittlauch-Raita",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "100 g Radieschen, fein geraspelt",
+      "1 EL fein geschnittener Schnittlauch"
+    ],
+    "steps": [
+      "Drücke das überschüssige Wasser aus den geraspelten Radieschen.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "tomato-basil-yoghurt": {
+    "source": "b7e2e30f",
+    "name": "Tomaten-Basilikum-Joghurt",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "100 g Kirschtomaten, geviertelt",
+      "1 EL Basilikum, in feine Streifen geschnitten"
+    ],
+    "steps": [
+      "Viertele die Tomaten und schneide das Basilikum in feine Streifen.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "cucumber-microgreen-yoghurt": {
+    "source": "a7a8e913",
+    "name": "Gurken-Joghurt mit Microgreens",
+    "description": "Eine kühle Joghurtbeilage mit frischem Gemüse.",
+    "ingredients": [
+      "250 g Naturjoghurt",
+      "¼ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "100 g Gurke, gewürfelt",
+      "20 g Radieschen-Microgreens, gewaschen"
+    ],
+    "steps": [
+      "Würfle die Gurke und hacke die gewaschenen Microgreens grob.",
+      "Verrühre Joghurt, Kreuzkümmel und Salz, bis alles glatt ist.",
+      "Hebe das vorbereitete Gemüse und die Kräuter unter den Joghurt.",
+      "Serviere die Beilage kalt. Wenn du sie nicht sofort servierst, stelle sie gleich in den Kühlschrank."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Bewahre alles bis zum Servieren im Kühlschrank auf."
+  },
+  "avocado-radish-toast": {
+    "source": "86337c73",
+    "name": "Avocado-Toast mit Radieschen",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "1 Avocado",
+      "80 g Radieschen, in dünne Scheiben geschnitten"
+    ],
+    "steps": [
+      "Zerdrücke die geschälte Avocado mit Zitronensaft, Salz und Pfeffer.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Belege alles mit den Radieschenscheiben. Serviere den Toast sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "hummus-cucumber-toast": {
+    "source": "c54ed820",
+    "name": "Hummus-Toast mit Gurke",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "100 g fertiger Hummus",
+      "100 g Gurke, in Scheiben geschnitten"
+    ],
+    "steps": [
+      "Rühre Zitronensaft und Pfeffer unter den Hummus. Gib Salz nur bei Bedarf dazu.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Belege alles mit der Gurke. Serviere den Toast sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "ricotta-tomato-basil-toast": {
+    "source": "1b641302",
+    "name": "Ricotta-Toast mit Tomate und Basilikum",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "120 g Ricotta",
+      "120 g Kirschtomaten, halbiert",
+      "10 g Basilikumblätter"
+    ],
+    "steps": [
+      "Verrühre den Ricotta mit Zitronensaft, Salz und Pfeffer.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Belege alles mit Tomaten und Basilikum. Serviere den Toast sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "pea-shoot-cream-cheese-toast": {
+    "source": "fec70270",
+    "name": "Frischkäse-Toast mit Erbsensprossen",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "80 g Frischkäse",
+      "40 g Erbsensprossen, gewaschen"
+    ],
+    "steps": [
+      "Verrühre den Frischkäse mit Zitronensaft und Pfeffer. Gib Salz nur bei Bedarf dazu.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Belege alles mit den Erbsensprossen. Serviere den Toast sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "beetroot-hummus-toast": {
+    "source": "a1c0aac6",
+    "name": "Rote-Bete-Hummus-Toast",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "100 g fertiger Hummus",
+      "100 g gekochte Rote Bete, gewürfelt"
+    ],
+    "steps": [
+      "Püriere Rote Bete, Hummus, Zitronensaft und Pfeffer zu einem dicken Aufstrich. Probiere, bevor du Salz dazugibst.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Gib den restlichen Rote-Bete-Aufstrich neben den Toast. Serviere alles sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "avocado-sunflower-shoot-toast": {
+    "source": "9111f678",
+    "name": "Avocado-Toast mit Sonnenblumensprossen",
+    "description": "Offener Toast mit frischem Gemüsebelag.",
+    "ingredients": [
+      "4 Scheiben Vollkornbrot",
+      "1 TL Zitronensaft",
+      "Eine Prise Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "1 Avocado",
+      "40 g Sonnenblumensprossen, gewaschen"
+    ],
+    "steps": [
+      "Zerdrücke die geschälte Avocado mit Zitronensaft, Salz und Pfeffer.",
+      "Toaste das Brot, bis es knusprig und goldbraun ist.",
+      "Verteile den Belag auf dem warmen Toast.",
+      "Belege alles mit den Sonnenblumensprossen. Serviere den Toast sofort."
+    ],
+    "tip": "Belege den Toast erst kurz vor dem Servieren, damit das Brot knusprig bleibt."
+  },
+  "chickpea-lettuce-wraps": {
+    "source": "41833730",
+    "name": "Kichererbsen-Wraps mit Salat",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "100 g Römersalat, in Streifen geschnitten",
+      "100 g Gurke, gewürfelt"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "chickpea-carrot-mint-wraps": {
+    "source": "34511bec",
+    "name": "Kichererbsen-Wraps mit Karotte und Minze",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "100 g Karotten, geraspelt",
+      "2 EL gehackte Minze"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "chickpea-tomato-rocket-wraps": {
+    "source": "e0b79cc5",
+    "name": "Kichererbsen-Wraps mit Tomate und Rucola",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "100 g Kirschtomaten, geviertelt",
+      "40 g Rucola"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "chickpea-beetroot-dill-wraps": {
+    "source": "ca9d69bb",
+    "name": "Kichererbsen-Wraps mit Roter Bete und Dill",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "100 g gekochte Rote Bete, gewürfelt",
+      "2 EL gehackter Dill"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "chickpea-radish-microgreen-wraps": {
+    "source": "d95bf032",
+    "name": "Kichererbsen-Wraps mit Radieschen und Microgreens",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "80 g Radieschen, in Scheiben geschnitten",
+      "30 g Brokkoli-Microgreens, gewaschen"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "chickpea-cabbage-coriander-wraps": {
+    "source": "30ba6c49",
+    "name": "Kichererbsen-Wraps mit Chinakohl und Koriander",
+    "description": "Ein Kichererbsen-Wrap mit knackigem Gemüse.",
+    "ingredients": [
+      "2 große Weizentortillas (verzehrfertig)",
+      "200 g gekochte Kichererbsen, abgetropft",
+      "2 EL Naturjoghurt",
+      "1 TL Zitronensaft",
+      "¼ TL gemahlener Kreuzkümmel",
+      "Eine Prise Salz",
+      "100 g Chinakohl, in feine Streifen geschnitten",
+      "2 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Zerdrücke die Kichererbsen grob mit Joghurt, Zitronensaft, Kreuzkümmel und Salz.",
+      "Lege die Tortillas aus. Verteile die Kichererbsenmischung jeweils in der Mitte.",
+      "Gib das vorbereitete Gemüse und die Kräuter darauf. Lass die Ränder frei.",
+      "Schlage die Seiten ein, rolle die Tortillas fest auf und schneide sie zum Servieren in zwei Hälften."
+    ],
+    "tip": "Nimm verzehrfertige Tortillas oder erwärme sie nach Packungsanleitung."
+  },
+  "spinach-garlic-spaghetti": {
+    "source": "23d771f5",
+    "name": "Spaghetti mit Spinat und Knoblauch",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "150 g Spinat"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib den Spinat dazu und rühre 2–3 Minuten, bis er zusammengefallen ist.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "tomato-oregano-penne": {
+    "source": "25ba99ba",
+    "name": "Penne mit Tomate und Oregano",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Penne (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "250 g Kirschtomaten, halbiert",
+      "1 TL frische Oreganoblättchen"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib Tomaten und Oregano dazu. Lass alles 8 Minuten garen und zerdrücke dabei ein paar Tomaten, damit eine Sauce entsteht.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "zucchini-lemon-pasta": {
+    "source": "af5cfada",
+    "name": "Zucchini-Zitronen-Pasta",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "250 g Zucchini, in dünne Scheiben geschnitten"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib die Zucchini dazu und brate sie 7–8 Minuten, bis sie weich und leicht goldbraun sind.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "kale-chilli-pasta": {
+    "source": "f9084ee9",
+    "name": "Grünkohl-Chili-Pasta",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "120 g Grünkohl, Stiele entfernt und Blätter gehackt",
+      "¼ TL Chiliflocken"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib Grünkohl, Chiliflocken und 3 EL Kochwasser dazu. Lege für 5 Minuten den Deckel auf. Nimm ihn dann ab und rühre, bis der Kohl weich ist.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "mushroom-parsley-pasta": {
+    "source": "8bc05200",
+    "name": "Pilzpasta mit Petersilie",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "200 g Pilze, in Scheiben geschnitten",
+      "3 EL gehackte Petersilie"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib die Pilze dazu und brate sie 8 Minuten, bis sie goldbraun sind. Rühre die Petersilie unter.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "pea-mint-pasta": {
+    "source": "2fbe4fc5",
+    "name": "Erbsen-Minz-Pasta",
+    "description": "Warme Pasta, geschwenkt in einer schnellen Pfannensauce.",
+    "ingredients": [
+      "180 g Spaghetti (ungekocht)",
+      "1 EL Olivenöl",
+      "2 Knoblauchzehen, in dünne Scheiben geschnitten",
+      "1 TL Zitronensaft",
+      "¼ TL Salz",
+      "Schwarzer Pfeffer nach Geschmack",
+      "150 g TK-Erbsen",
+      "2 EL gehackte Minze"
+    ],
+    "steps": [
+      "Koche die Pasta nach Packungsanleitung in kochendem Wasser. Fange vor dem Abgießen 150 ml Kochwasser auf.",
+      "Während die Pasta kocht, erhitze das Öl in einer großen Pfanne. Dünste den Knoblauch bei mittlerer bis schwacher Hitze 30 Sekunden, ohne dass er braun wird.",
+      "Gib die Erbsen und 3 EL Kochwasser dazu. Lass alles 4–5 Minuten köcheln, bis die Erbsen heiß sind, und rühre dann die Minze unter.",
+      "Gib die abgetropfte Pasta, Zitronensaft, Salz und Pfeffer dazu. Mische alles mit so viel aufgefangenem Kochwasser, dass die Pasta gut überzogen ist, und serviere sie."
+    ],
+    "tip": "Bereite die Sauce zu, während die Pasta kocht. Gib das Kochwasser löffelweise dazu."
+  },
+  "sesame-bok-choy": {
+    "source": "1ace7fa4",
+    "name": "Pak Choi mit Sesam",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "300 g Pak Choi, Stiele und Blätter getrennt"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Brate die Stiele unter Rühren 4 Minuten. Gib die Blätter dazu und gare sie 2 Minuten mit.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "garlic-green-beans": {
+    "source": "29bcfd22",
+    "name": "Grüne Bohnen mit Knoblauch",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "300 g grüne Bohnen, geputzt und halbiert"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Gib die Bohnen und 60 ml Wasser dazu. Lege den Deckel auf und gare die Bohnen 8–10 Minuten, bis sie weich sind. Nimm dann den Deckel ab.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "ginger-napa-cabbage": {
+    "source": "1e2783e2",
+    "name": "Chinakohl mit Ingwer",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "300 g Chinakohl, in Streifen geschnitten",
+      "1 TL geriebener Ingwer"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Gib Chinakohl und Ingwer dazu. Brate alles unter Rühren 6–8 Minuten, bis der Kohl weich ist.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "sesame-zucchini-ribbons": {
+    "source": "6b95ca77",
+    "name": "Zucchinibänder mit Sesam",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "300 g Zucchini, mit dem Sparschäler in Bänder geschnitten"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Gib die Zucchinibänder dazu und brate sie unter Rühren 3–4 Minuten, bis sie gerade weich sind.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "garlic-mustard-greens": {
+    "source": "fadc4d6a",
+    "name": "Blattsenf mit Knoblauch",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "250 g Blattsenf, Stiele entfernt und Blätter gehackt"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Gib den Blattsenf und 60 ml Wasser dazu. Lege für 8 Minuten den Deckel auf. Nimm ihn dann ab und gare alles noch 2 Minuten.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "ginger-bell-pepper-stir-fry": {
+    "source": "305ae2e3",
+    "name": "Paprika-Ingwer-Pfanne",
+    "description": "Eine einfache Gemüsebeilage mit Knoblauch und Sesam.",
+    "ingredients": [
+      "1 EL neutrales Speiseöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 TL Sojasauce",
+      "1 TL Sesam",
+      "2 Paprikaschoten, in dünne Streifen geschnitten",
+      "1 TL geriebener Ingwer"
+    ],
+    "steps": [
+      "Erhitze das Öl in einer großen Pfanne bei mittlerer bis hoher Hitze.",
+      "Gib den Knoblauch dazu und brate ihn unter Rühren 20 Sekunden an.",
+      "Gib Paprika und Ingwer dazu. Brate alles unter Rühren 7–8 Minuten, bis die Paprika weich, aber noch knackig ist.",
+      "Rühre Sojasauce und Sesam unter. Gare alles noch 30 Sekunden und serviere es heiß."
+    ],
+    "tip": "Serviere das Gemüse als Beilage zu gekochtem Reis oder Nudeln."
+  },
+  "cumin-carrot-chickpea-tray": {
+    "source": "26b6a839",
+    "name": "Karotten-Kichererbsen-Blech mit Kreuzkümmel",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "300 g Karotten, in 1 cm große Stücke geschnitten"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "rosemary-potato-chickpea-tray": {
+    "source": "aea296a4",
+    "name": "Kartoffel-Kichererbsen-Blech mit Rosmarin",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "300 g Kartoffeln, in 1 cm große Würfel geschnitten",
+      "1 TL gehackter Rosmarin"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "beetroot-thyme-chickpea-tray": {
+    "source": "cf18f189",
+    "name": "Rote-Bete-Kichererbsen-Blech mit Thymian",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "250 g Rote Bete, geschält und in 1 cm große Würfel geschnitten",
+      "1 TL Thymianblättchen"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "pepper-zucchini-chickpea-tray": {
+    "source": "68464027",
+    "name": "Paprika-Zucchini-Blech mit Kichererbsen",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "1 Paprikaschote, klein geschnitten",
+      "200 g Zucchini, in dicke Halbmonde geschnitten"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "fennel-tomato-chickpea-tray": {
+    "source": "b977e069",
+    "name": "Fenchel-Tomaten-Blech mit Kichererbsen",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "200 g Fenchel, in dünne Scheiben geschnitten",
+      "150 g Kirschtomaten"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "eggplant-oregano-chickpea-tray": {
+    "source": "80efa4fb",
+    "name": "Auberginen-Kichererbsen-Blech mit Oregano",
+    "description": "Geröstetes Gemüse und Kichererbsen von einem Blech.",
+    "ingredients": [
+      "240 g gekochte Kichererbsen, abgetropft",
+      "1½ EL Olivenöl",
+      "½ TL gemahlener Kreuzkümmel",
+      "¼ TL Salz",
+      "1 EL Zitronensaft",
+      "300 g Aubergine, in 1 cm große Würfel geschnitten",
+      "1 TL Oreganoblättchen"
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C vor (Umluft: 180 °C). Lege ein großes Backblech mit Backpapier aus.",
+      "Vermische Gemüse, Kichererbsen, Öl, Kreuzkümmel, Salz und eventuell angegebene Kräuter. Verteile alles in einer Lage auf dem Blech.",
+      "Röste alles 30–35 Minuten und wende es nach der Hälfte der Zeit, bis das Gemüse weich ist. Prüfe das größte Stück mit einer Gabel und gare es bei Bedarf etwas länger.",
+      "Beträufle alles mit Zitronensaft und verteile es auf zwei Teller."
+    ],
+    "tip": "Lass Platz zwischen den Stücken. Auf einem zu vollen Blech dämpft das Gemüse eher, statt zu rösten."
+  },
+  "spinach-besan-chilla": {
+    "source": "6dcb4e06",
+    "name": "Besan-Chilla mit Spinat",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "60 g Spinat, fein gehackt"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "methi-besan-chilla": {
+    "source": "6dfed454",
+    "name": "Besan-Chilla mit Bockshornklee",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "40 g frische Bockshornkleeblätter, abgezupft und fein gehackt"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "carrot-coriander-chilla": {
+    "source": "d6754075",
+    "name": "Chilla mit Karotte und Koriander",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "80 g Karotten, fein geraspelt",
+      "2 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "spring-onion-chilla": {
+    "source": "af8ad0b1",
+    "name": "Chilla mit Frühlingszwiebeln",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "3 Frühlingszwiebeln, in feine Ringe geschnitten"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "zucchini-mint-chilla": {
+    "source": "45cf5d22",
+    "name": "Chilla mit Zucchini und Minze",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "80 g Zucchini, fein geraspelt und gut ausgedrückt",
+      "1 EL gehackte Minze"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "radish-leafy-chilla": {
+    "source": "a9f1cf8e",
+    "name": "Chilla mit Radieschen und Blattgemüse",
+    "description": "Herzhafte Pfannkuchen aus Kichererbsenmehl mit frischem Gemüse.",
+    "ingredients": [
+      "120 g Kichererbsenmehl (Besan)",
+      "180 ml Wasser",
+      "¼ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "2 TL neutrales Speiseöl",
+      "60 g Radieschen, fein geraspelt und gut ausgedrückt",
+      "30 g Spinat, fein gehackt"
+    ],
+    "steps": [
+      "Verrühre Kichererbsenmehl, Wasser, Kreuzkümmel und Salz zu einem glatten Teig. Lass ihn 5 Minuten ruhen.",
+      "Rühre das vorbereitete Gemüse und die Kräuter unter. Wenn sich der Teig schlecht verstreichen lässt, gib einen Löffel Wasser dazu.",
+      "Pinsele eine beschichtete Pfanne mit etwas Öl aus und erhitze sie bei mittlerer Hitze. Verstreiche ein Viertel des Teigs zu einem dünnen Pfannkuchen.",
+      "Brate den Pfannkuchen 2–3 Minuten pro Seite, bis er fest und goldbraun ist und innen kein feuchter Teig mehr bleibt. Wiederhole das für insgesamt vier Pfannkuchen."
+    ],
+    "tip": "Streiche den Teig dünn aus, damit der Pfannkuchen in der Mitte gar ist, bevor er außen zu braun wird."
+  },
+  "spinach-pea-rice": {
+    "source": "fbf77d37",
+    "name": "Reis mit Spinat und Erbsen",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "100 g Spinat, gehackt",
+      "100 g TK-Erbsen"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre die Erbsen zusammen mit dem Reis unter. Gib den Spinat für die letzten 3 Minuten der Garzeit dazu.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "carrot-cumin-rice": {
+    "source": "54397b1c",
+    "name": "Karotten-Kreuzkümmel-Reis",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "150 g Karotten, fein gewürfelt"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre die Karotten unter den Reis, bevor du das Wasser dazugibst.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "tomato-basil-rice": {
+    "source": "72aa8f7d",
+    "name": "Tomaten-Basilikum-Reis",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "150 g Tomaten, gewürfelt",
+      "15 g Basilikumblätter"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre die Tomaten unter den Reis. Hebe das Basilikum nach dem Ruhen unter.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "fennel-dill-rice": {
+    "source": "4d79bad9",
+    "name": "Fenchel-Dill-Reis",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "150 g Fenchel, fein gewürfelt",
+      "2 EL gehackter Dill"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre den Fenchel unter den Reis. Hebe den Dill nach dem Ruhen unter.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "green-bean-coriander-rice": {
+    "source": "e9536045",
+    "name": "Reis mit grünen Bohnen und Koriander",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "150 g grüne Bohnen, in 1 cm lange Stücke geschnitten",
+      "2 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre die Bohnen unter den Reis. Hebe den Koriander nach dem Ruhen unter.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "methi-lemon-rice": {
+    "source": "176a568b",
+    "name": "Zitronenreis mit Bockshornklee",
+    "description": "Ein Reisgericht aus einem Topf mit Gemüse und Kräutern.",
+    "ingredients": [
+      "150 g Basmatireis",
+      "300 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, fein gewürfelt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Salz",
+      "60 g frische Bockshornkleeblätter, abgezupft und gehackt",
+      "1 EL Zitronensaft"
+    ],
+    "steps": [
+      "Wasche den Reis und lass ihn abtropfen. Erhitze das Öl in einem Topf und dünste Zwiebel und Kreuzkümmel 5 Minuten, bis die Zwiebel weich ist.",
+      "Gib den abgetropften Reis dazu und rühre 1 Minute. Rühre die Bockshornkleeblätter unter den Reis. Gib den Zitronensaft nach dem Ruhen dazu.",
+      "Gib Wasser und Salz dazu. Bring alles zum Kochen, lege den Deckel auf und gare den Reis bei schwacher Hitze 12–15 Minuten, bis er weich ist und das Wasser aufgesogen hat.",
+      "Nimm den Topf vom Herd und lass den Reis zugedeckt 5 Minuten ruhen. Gib gegebenenfalls die oben genannten Zutaten für den Schluss dazu, lockere den Reis mit einer Gabel auf und serviere ihn."
+    ],
+    "tip": "Gibt die Reispackung eine andere Wassermenge an, richte dich danach. Serviere den Reis frisch gekocht."
+  },
+  "mint-mango-lassi": {
+    "source": "423a87c4",
+    "name": "Mango-Minz-Lassi",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "150 g Mangofruchtfleisch",
+      "10 g Minzblätter"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "strawberry-basil-smoothie": {
+    "source": "421426d0",
+    "name": "Erdbeer-Basilikum-Smoothie",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "150 g Erdbeeren, geputzt",
+      "5 g Basilikumblätter"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "cucumber-pear-smoothie": {
+    "source": "b155d724",
+    "name": "Gurken-Birnen-Smoothie",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "100 g Gurke, klein geschnitten",
+      "1 reife Birne, entkernt und klein geschnitten"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "spinach-pineapple-smoothie": {
+    "source": "953aa341",
+    "name": "Spinat-Ananas-Smoothie",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "40 g Spinat",
+      "150 g Ananasfruchtfleisch"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "carrot-orange-smoothie": {
+    "source": "50775f2c",
+    "name": "Karotten-Orangen-Smoothie",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "70 g Karotten, fein geraspelt",
+      "1 Orange, geschält und entkernt"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "beetroot-berry-smoothie": {
+    "source": "0c739b25",
+    "name": "Rote-Bete-Beeren-Smoothie",
+    "description": "Ein Mix aus Obst und Gemüse mit Naturjoghurt.",
+    "ingredients": [
+      "150 g Naturjoghurt",
+      "150 ml kaltes Trinkwasser",
+      "1 reife Banane, geschält",
+      "70 g gekochte Rote Bete",
+      "100 g Erdbeeren, geputzt"
+    ],
+    "steps": [
+      "Wasche die frischen Zutaten und bereite alles wie angegeben vor.",
+      "Gib Wasser und Joghurt in einen Mixer. Füge dann die Banane und die übrigen Zutaten hinzu.",
+      "Mixe alles glatt. Ist die Mischung zu dick, gib noch etwas Trinkwasser dazu.",
+      "Verteile alles auf zwei Gläser und serviere sofort."
+    ],
+    "tip": "Nimm ungesüßten Naturjoghurt. Die Menge reicht für zwei kleine Portionen."
+  },
+  "spinach-red-lentil-dal": {
+    "source": "c710bddc",
+    "name": "Rote-Linsen-Dal mit Spinat",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "120 g Spinat, gehackt"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib den Spinat für die letzten 3 Minuten dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  },
+  "carrot-ginger-dal": {
+    "source": "dbe215e1",
+    "name": "Karotten-Ingwer-Dal",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "120 g Karotten, fein geraspelt",
+      "1 TL geriebener Ingwer"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib Karotten und Ingwer zusammen mit den Linsen dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  },
+  "tomato-coriander-dal": {
+    "source": "fa820da0",
+    "name": "Tomaten-Koriander-Dal",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "150 g Tomaten, fein geschnitten",
+      "2 EL gehackter Koriander"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib die Tomaten zusammen mit den Linsen dazu. Gib den Koriander nach dem Kochen dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  },
+  "zucchini-cumin-dal": {
+    "source": "f5b1e27b",
+    "name": "Zucchini-Kreuzkümmel-Dal",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "150 g Zucchini, in 1 cm große Würfel geschnitten"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib die Zucchini nach 10 Minuten Köcheln dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  },
+  "methi-garlic-dal": {
+    "source": "0142ddb1",
+    "name": "Dal mit Bockshornklee und Knoblauch",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "50 g frische Bockshornkleeblätter, abgezupft und gehackt"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib die Bockshornkleeblätter nach 10 Minuten Köcheln dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  },
+  "kale-lemon-dal": {
+    "source": "cece6bf4",
+    "name": "Grünkohl-Zitronen-Dal",
+    "description": "Weiche rote Linsen mit Gemüse auf Kreuzkümmel-Basis.",
+    "ingredients": [
+      "120 g geschälte rote Linsen",
+      "500 ml Wasser",
+      "1 EL neutrales Speiseöl",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "½ TL Kreuzkümmelsamen",
+      "¼ TL Kurkuma",
+      "¼ TL Salz",
+      "80 g Grünkohl, Stiele entfernt und Blätter gehackt",
+      "1 EL Zitronensaft"
+    ],
+    "steps": [
+      "Wasche die Linsen und lass sie abtropfen. Erhitze das Öl in einem Topf. Dünste Zwiebel und Kreuzkümmel 5 Minuten.",
+      "Gib Knoblauch und Kurkuma dazu und rühre 30 Sekunden. Gib Linsen und Wasser dazu. Gib den Grünkohl nach 10 Minuten Köcheln dazu. Gib den Zitronensaft nach dem Kochen dazu.",
+      "Bring alles zum Kochen und lass es dann 18–20 Minuten sanft köcheln, bis die Linsen zerfallen. Rühre gelegentlich um. Gib bei Bedarf einen Schuss Wasser dazu.",
+      "Gib das Salz und gegebenenfalls die oben genannten Zutaten für den Schluss dazu. Rühre um und serviere das Dal in zwei Schalen."
+    ],
+    "tip": "Nimm geschälte rote Linsen. Ganze Linsen brauchen eine andere Garzeit."
+  }
+}

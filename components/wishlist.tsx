@@ -1,7 +1,8 @@
 "use client";
 import { useSyncExternalStore } from "react";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import { Heart } from "lucide-react";
+import { useI18n } from "./i18n/provider";
 const KEY = "floruvi.wishlist.v1",
   EVENT = "floruvi:wishlist";
 type Saved = { slug: string; name: string };
@@ -67,11 +68,12 @@ export function useWishlist() {
 }
 export function WishlistButton({ slug, name }: { slug: string; name: string }) {
   const saved = useWishlist().some((p) => p.slug === slug);
+  const { t, fill } = useI18n();
   return (
     <button
       type="button"
       className="wishlist-heart"
-      aria-label={`${saved ? "Remove" : "Save"} ${name} ${saved ? "from" : "to"} wishlist`}
+      aria-label={fill(saved ? t.wishlist.remove : t.wishlist.save, { name })}
       aria-pressed={saved}
       onClick={() => toggle({ slug, name })}
     >
@@ -87,6 +89,7 @@ export function WishlistMenu({
   onNavigate?: () => void;
 }) {
   const saved = useWishlist();
+  const { t, plural } = useI18n();
   return (
     <Link
       href="/wishlist"
@@ -94,11 +97,11 @@ export function WishlistMenu({
       className={
         inNavigation ? "navigation-wishlist" : "icon-button wishlist-link"
       }
-      aria-label={`Wishlist, ${saved.length} saved products`}
+      aria-label={plural(saved.length, t.wishlist.menu)}
     >
       {inNavigation ? (
         <>
-          <span>Wishlist</span>
+          <span>{t.wishlist.title}</span>
           <span className="navigation-wishlist-count">
             {saved.length}
             <Heart size={20} />

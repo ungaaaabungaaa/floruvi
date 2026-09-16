@@ -1,15 +1,14 @@
 import type { CartLine } from "./cart";
 import { boxContents, getCartBox } from "./boxes";
+import { formatCurrency, type CurrencyCode } from "./i18n/format";
+import { markets, type Market } from "./i18n/config";
 
-export function formatMoney(minor: number | null | undefined) {
-  return minor == null
-    ? "Unavailable"
-    : new Intl.NumberFormat("en-IN", {
-        style: "currency",
-        currency: "INR",
-        minimumFractionDigits: minor % 100 ? 2 : 0,
-        maximumFractionDigits: 2,
-      }).format(minor / 100);
+export function formatMoney(
+  minor: number | null | undefined,
+  currency: CurrencyCode = "INR",
+  tag = "en-IN",
+) {
+  return formatCurrency(minor, currency, tag);
 }
 
 type PricedProduct = {
@@ -20,26 +19,27 @@ type PricedProduct = {
 const validMoney = (value: unknown): value is number =>
   typeof value === "number" && Number.isSafeInteger(value) && value >= 0;
 
-// Called only after the request's slug/quantity validation. Prices come from Convex.
+// Called only after the request's slug/quantity validation. Prices come from the
+// server: Convex for India, and the reviewed market price table for exports.
 export function reviewBasket(
   lines: CartLine[],
   products: PricedProduct[],
   commerce?: { currency: string; deliveryFeeMinor: number } | null,
+  market: Market = "in",
 ) {
+  const currency: string = markets[market].currency;
+  const domestic = market === "in";
+  const usable = (price: PricedProduct["price"]) =>
+    price?.currency === currency &&
+    validMoney(price.amountMinor) &&
+    price.amountMinor > 0 &&
+    !!price.packLabel.trim();
   const items = lines.map((line) => {
     const box = getCartBox(line.slug);
     const boxPrices = boxContents.map(
       (item) => products.find((p) => p.slug === item.slug)?.price,
     );
-    const completeBox =
-      box &&
-      boxPrices.every(
-        (price) =>
-          price?.currency === "INR" &&
-          validMoney(price.amountMinor) &&
-          price.amountMinor > 0 &&
-          price.packLabel.trim(),
-      );
+    const completeBox = box && boxPrices.every(usable);
     const product = box
       ? {
           slug: line.slug,
@@ -52,20 +52,14 @@ export function reviewBasket(
                       sum + price!.amountMinor * boxContents[index].quantity,
                     0,
                   ) * box.multiplier,
-                currency: "INR",
+                currency,
                 packLabel: `${box.people} · ${box.schedule} · per delivery`,
               }
             : null,
         }
       : products.find((p) => p.slug === line.slug);
     const price = product?.price;
-    const unitPrice =
-      price?.currency === "INR" &&
-      validMoney(price.amountMinor) &&
-      price.amountMinor > 0 &&
-      price.packLabel.trim()
-        ? price.amountMinor
-        : null;
+    const unitPrice = usable(price) ? price!.amountMinor : null;
     const candidate = unitPrice === null ? null : unitPrice * line.quantity;
     const lineTotal = validMoney(candidate) ? candidate : null;
     return {
@@ -82,21 +76,27 @@ export function reviewBasket(
     items.every((item) => item.lineTotal !== null) && validMoney(sum)
       ? sum
       : null;
-  const delivery =
-    lines.length === 0 || lines.every((line) => !!getCartBox(line.slug))
+  // Export delivery depends on destination & order size, so the farm quotes it.
+  const deliveryQuoted = !domestic && lines.length > 0;
+  const delivery = !domestic
+    ? null
+    : lines.length === 0 || lines.every((line) => !!getCartBox(line.slug))
       ? 0
       : commerce?.currency === "INR" && validMoney(commerce.deliveryFeeMinor)
         ? commerce.deliveryFeeMinor
         : null;
-  const total =
-    subtotal !== null && delivery !== null && validMoney(subtotal + delivery)
+  const total = deliveryQuoted
+    ? subtotal
+    : subtotal !== null && delivery !== null && validMoney(subtotal + delivery)
       ? subtotal + delivery
       : null;
   return {
     items,
-    currency: "INR",
+    market,
+    currency,
     subtotal,
     delivery,
+    deliveryQuoted,
     total,
     paymentEnabled: false as const,
     verificationEnabled: false as const,

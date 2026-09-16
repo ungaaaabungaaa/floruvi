@@ -1,15 +1,24 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import { Heart, ArrowRight } from "lucide-react";
-import type { Product } from "@/lib/catalogue";
+import type { ShopProduct } from "@/lib/storefront";
+import type { Messages } from "@/lib/i18n/messages";
+import { useI18n } from "./i18n/provider";
 import { ProductCard } from "./product-card";
 import { EditorialBanner } from "./editorial-banner";
 import { useWishlist, WishlistButton } from "./wishlist";
 import freshBag from "@/src/assets/fresh-bag.webp";
 import freshMeal from "@/src/assets/fresh-meal.webp";
-export function WishlistPage({ products }: { products: Product[] }) {
+export function WishlistPage({
+  products,
+  labels,
+}: {
+  products: ShopProduct[];
+  labels: Messages["wishlist"];
+}) {
   const saved = useWishlist();
+  const { plural } = useI18n();
   const recommendations = products
     .filter((product) => !saved.some((item) => item.slug === product.slug))
     .slice(0, 4);
@@ -21,28 +30,25 @@ export function WishlistPage({ products }: { products: Product[] }) {
       >
         <Image
           src={freshBag}
-          alt="A linen bag filled with fresh vegetables"
+          alt={labels.heroAlt}
           fill
           sizes="100vw"
           preload
         />
         <div>
-          <span className="eyebrow">YOUR WISHLIST</span>
+          <span className="eyebrow">{labels.eyebrow}</span>
           <h1 id="wishlist-title">
-            Good choices.
+            {labels.title}
             <br />
-            <em>Bring them to your table.</em>
+            <em>{labels.accent}</em>
           </h1>
-          <p>
-            Your next fresh meal starts here. Turn the ingredients you love into
-            something you’ll enjoy today.
-          </p>
+          <p>{labels.intro}</p>
         </div>
       </section>
       {saved.length ? (
         <>
           <p className="wishlist-count" aria-live="polite">
-            {saved.length} saved {saved.length === 1 ? "item" : "items"}
+            {plural(saved.length, labels.count)}
           </p>
           <div className="product-grid">
             {[...saved].reverse().map((item) => {
@@ -54,7 +60,7 @@ export function WishlistPage({ products }: { products: Product[] }) {
                   ) : (
                     <div className="wishlist-unavailable">
                       <h2>{item.name}</h2>
-                      <p>This product is no longer listed.</p>
+                      <p>{labels.unlisted}</p>
                     </div>
                   )}
                   <WishlistButton slug={item.slug} name={item.name} />
@@ -66,24 +72,24 @@ export function WishlistPage({ products }: { products: Product[] }) {
       ) : (
         <section className="wishlist-empty">
           <Heart size={32} />
-          <h2>Save a little inspiration.</h2>
-          <p>Tap the heart on a product to keep your favourites here.</p>
+          <h2>{labels.emptyTitle}</h2>
+          <p>{labels.emptyText}</p>
           <Link className="text-link" href="/products">
-            Explore produce <ArrowRight size={16} />
+            {labels.explore} <ArrowRight size={16} />
           </Link>
         </section>
       )}
       <EditorialBanner
         image={freshMeal}
-        alt="A colourful fresh salad with herbs & lemon"
-        title="Make your next meal a fresh one."
+        alt={labels.bannerAlt}
+        title={labels.bannerTitle}
         className="wishlist-banner left"
       />
       <section className="wishlist-recommendations">
         <div className="section-heading">
-          <h2>You might also like</h2>
+          <h2>{labels.recommendations}</h2>
           <Link className="text-link" href="/products">
-            Explore all <ArrowRight size={16} />
+            {labels.exploreAll} <ArrowRight size={16} />
           </Link>
         </div>
         <div className="product-grid">

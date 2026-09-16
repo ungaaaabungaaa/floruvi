@@ -1,61 +1,54 @@
 "use client";
-import { storefrontCopy } from "@/lib/storefront-copy";
 import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
 import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
 import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
 import pastaNight from "@/src/assets/recipes/banners/pasta-night.webp";
 import shopBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
-import { Fragment, Suspense, useRef, useState } from "react";
+import { Fragment, Suspense, useRef } from "react";
 import { useSearchParams } from "next/navigation";
-import { ConvexProvider, ConvexReactClient } from "convex/react";
-import { usePreloadedQuery, type Preloaded } from "convex/react";
 import { Search, X, SlidersHorizontal } from "lucide-react";
-import { api } from "@/convex/_generated/api";
 import { findProducts, sortProducts } from "@/lib/search";
+import type { ShopCategory, ShopProduct } from "@/lib/storefront";
+import type { Messages } from "@/lib/i18n/messages";
 import { ProductCard } from "@/components/product-card";
+import { Lines } from "@/components/i18n/lines";
+import { useI18n } from "@/components/i18n/provider";
 
-const shopInterludes = [
-  {
-    image: colourfulTable,
-    title: "Bring colour to the table.",
-    alt: "Roasted carrots, beetroot & chickpeas on a platter",
-    style: "warm left",
-  },
-  {
-    image: slowMornings,
-    title: "Fresh starts. Slow mornings.",
-    alt: "Avocado toast & a green smoothie in morning light",
-    style: "right",
-  },
-  {
-    image: pastaNight,
-    title: "Good ingredients. Great evenings.",
-    alt: "Basil pasta & cherry tomatoes on a green table",
-    style: "dark left",
-  },
-];
+type Labels = Messages["shop"];
+const interludeImages = [colourfulTable, slowMornings, pastaNight];
+const interludeStyles = ["warm left", "right", "dark left"];
 
-function ShopInterlude({ columns, index }: { columns: number; index: number }) {
-  const banner = shopInterludes[index % shopInterludes.length];
+function ShopInterlude({
+  columns,
+  index,
+  labels,
+}: {
+  columns: number;
+  index: number;
+  labels: Labels;
+}) {
+  const position = index % interludeImages.length;
+  const banner = labels.interludes[position];
   return (
     <EditorialBanner
-      image={banner.image}
+      image={interludeImages[position]}
       alt={banner.alt}
       title={banner.title}
-      className={`shop-interlude shop-interlude-${columns} ${banner.style}`}
+      className={`shop-interlude shop-interlude-${columns} ${interludeStyles[position]}`}
     />
   );
 }
 
-function Results({
-  preloaded,
-  initialCategory,
-}: {
-  preloaded: Preloaded<typeof api.catalogue.browse>;
-  initialCategory: string;
-}) {
-  const { categories, products } = storefrontCopy(usePreloadedQuery(preloaded));
+type Props = {
+  products: ShopProduct[];
+  categories: ShopCategory[];
+  labels: Labels;
+  initialCategory?: string;
+};
+
+function Results({ products, categories, labels, initialCategory = "all" }: Props) {
+  const { locale, plural } = useI18n();
   const isShop = initialCategory === "all";
   const params = useSearchParams();
   const search = (params.get("q") ?? "").slice(0, 100);
@@ -85,13 +78,13 @@ function Results({
   const found = matches.filter(
     (p) => category === "all" || p.category === category,
   );
-  const results = sortProducts(found, sort, !!search.trim());
+  const results = sortProducts(found, sort, !!search.trim(), locale.language);
   const filtered = !!search || category !== "all" || sort !== "recommended";
   const searchField = (
     <div className={isShop ? "recipe-search" : "search-field"}>
       <Search size={19} aria-hidden="true" />
       <label htmlFor="produce-search" className="sr-only">
-        Search produce
+        {labels.searchLabel}
       </label>
       <input
         ref={input}
@@ -104,14 +97,14 @@ function Results({
           if (e.key === "Escape") update({ q: null });
         }}
         type="search"
-        placeholder="Search vegetables & herbs"
+        placeholder={labels.searchPlaceholder}
         value={search}
         onChange={(e) => update({ q: e.target.value })}
       />
       {search && (
         <button
           className="icon-button"
-          aria-label="Clear search"
+          aria-label={labels.clearSearch}
           onClick={() => {
             update({ q: null });
             input.current?.focus();
@@ -126,9 +119,9 @@ function Results({
     <div
       className={isShop ? "recipe-filters" : "filter-chips"}
       role="group"
-      aria-label="Filter by category"
+      aria-label={labels.filterLabel}
     >
-      {[{ slug: "all", name: "All produce" }, ...categories].map((c) => (
+      {[{ slug: "all", name: labels.allProduce }, ...categories].map((c) => (
         <button
           key={c.slug}
           aria-pressed={category === c.slug}
@@ -155,20 +148,18 @@ function Results({
         >
           <Image
             src={shopBanner}
-            alt="A basket of freshly picked vegetables"
+            alt={labels.bannerAlt}
             fill
             sizes="100vw"
             preload
             className="recipe-banner-photo"
           />
           <div className="recipe-banner-copy">
-            <span className="eyebrow">FRESH FROM FLORUVI</span>
+            <span className="eyebrow">{labels.eyebrow}</span>
             <h1 id="shop-heading">
-              Fresh picks.
-              <br />
-              For your table.
+              <Lines text={labels.title} />
             </h1>
-            <p>Vegetables, herbs & microgreens.</p>
+            <p>{labels.subtitle}</p>
             {searchField}
           </div>
           {categoryChips}
@@ -178,17 +169,17 @@ function Results({
           {searchField}
           <label className="sort-field">
             <SlidersHorizontal size={16} aria-hidden="true" />
-            <span className="sr-only">Sort produce</span>
+            <span className="sr-only">{labels.sortLabel}</span>
             <select
               value={sort}
               onChange={(e) => update({ sort: e.target.value })}
             >
               <option value="recommended">
-                {search.trim() ? "Best match" : "Featured first"}
+                {search.trim() ? labels.bestMatch : labels.featured}
               </option>
-              <option value="az">Name: A to Z</option>
-              <option value="price-asc">Pack price: low to high</option>
-              <option value="price-desc">Pack price: high to low</option>
+              <option value="az">{labels.az}</option>
+              <option value="price-asc">{labels.priceAsc}</option>
+              <option value="price-desc">{labels.priceDesc}</option>
             </select>
           </label>
         </div>
@@ -196,10 +187,10 @@ function Results({
       {!isShop && categoryChips}
       {!isShop && filtered && (
         <div className="results-heading">
-          {sort.startsWith("price-") && <span>Per pack. Sizes vary.</span>}
+          {sort.startsWith("price-") && <span>{labels.perPack}</span>}
           {filtered && (
             <button className="text-link" onClick={reset}>
-              Clear filters <X size={14} />
+              {labels.clearFilters} <X size={14} />
             </button>
           )}
         </div>
@@ -218,6 +209,7 @@ function Results({
                         key={columns}
                         columns={columns}
                         index={(index + 1) / (columns * 3) - 1}
+                        labels={labels}
                       />
                     ),
                 )}
@@ -227,23 +219,23 @@ function Results({
       ) : (
         <div className="empty-state">
           <Search size={30} />
-          <h2>No crops found.</h2>
+          <h2>{labels.noResults}</h2>
           <p>
             {matches.length
-              ? `${matches.length} ${matches.length === 1 ? "match" : "matches"} in other categories.`
-              : "Try a crop name, like spinach or palak."}
+              ? plural(matches.length, labels.otherCategories)
+              : labels.tryName}
           </p>
           {matches.length > 0 && (
             <button
               className="button button-outline"
               onClick={() => update({ category: "all" })}
             >
-              Search all categories
+              {labels.searchAll}
             </button>
           )}
           {!isShop && (
             <button className="text-link" onClick={reset}>
-              Clear filters
+              {labels.clearFilters}
             </button>
           )}
         </div>
@@ -251,21 +243,11 @@ function Results({
     </div>
   );
 }
-export function CatalogueBrowser({
-  preloaded,
-  initialCategory = "all",
-}: {
-  preloaded: Preloaded<typeof api.catalogue.browse>;
-  initialCategory?: string;
-}) {
-  const [client] = useState(
-    () => new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL!),
-  );
+
+export function CatalogueBrowser(props: Props) {
   return (
-    <ConvexProvider client={client}>
-      <Suspense fallback={<p role="status">Loading produce…</p>}>
-        <Results preloaded={preloaded} initialCategory={initialCategory} />
-      </Suspense>
-    </ConvexProvider>
+    <Suspense fallback={<p role="status">{props.labels.loading}</p>}>
+      <Results {...props} />
+    </Suspense>
   );
 }

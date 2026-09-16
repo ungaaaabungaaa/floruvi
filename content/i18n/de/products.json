@@ -1,0 +1,4730 @@
+{
+  "butterhead-lettuce": {
+    "source": "91147a03",
+    "name": "Buttersalat",
+    "description": "Weiche, rundliche Blätter mit mildem Geschmack und zartem, buttrigem Biss.",
+    "uses": [
+      "Salate",
+      "Salatschiffchen",
+      "Sandwiches"
+    ],
+    "details": {
+      "tagline": "Salate. Salatschiffchen. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Weiche, rundliche Blätter mit mildem Geschmack und zartem, buttrigem Biss."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Buttersalat in Salaten, als Salatschiffchen oder im Sandwich."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Löse die Blätter ab, wasche und trockne sie. Für Salatschiffchen lässt du sie ganz."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Löse die Blätter ab, wasche und trockne sie. Für Salatschiffchen lässt du sie ganz.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "sweet-basil": {
+    "source": "d2cc98c7",
+    "name": "Basilikum",
+    "description": "Breite, duftende Blätter mit warmem, süßem Aroma.",
+    "uses": [
+      "Pesto",
+      "Tomatensalate",
+      "Pasta"
+    ],
+    "details": {
+      "tagline": "Pesto. Tomatensalate. Pasta.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Breite, duftende Blätter mit warmem, süßem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Basilikum im Pesto, in Tomatensalaten oder zu Pasta."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Zupfe die Blätter erst kurz vor dem Servieren. Gib sie nach dem Kochen dazu, damit ihr Aroma erhalten bleibt."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Tomaten, Mozzarella, Zitrone oder geröstete Kerne."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest."
+        }
+      ],
+      "preparation": "Zupfe die Blätter erst kurz vor dem Servieren. Gib sie nach dem Kochen dazu, damit ihr Aroma erhalten bleibt.",
+      "storage": "Die Stiele anschneiden und in etwas Wasser stellen, geschützt vor direkter Sonne. Die Blätter trocken halten und zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens": {
+    "source": "030e4e45",
+    "name": "Brokkoli-Microgreens",
+    "description": "Kleine Triebe aus der Kohlfamilie mit mildem, kohlartigem Geschmack.",
+    "uses": [
+      "Sandwiches",
+      "Salate",
+      "Anrichten"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salate. Anrichten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine Triebe aus der Kohlfamilie mit mildem, kohlartigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Brokkoli-Microgreens in Sandwiches, Salaten oder auf fertig angerichteten Tellern."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "cherry-tomatoes": {
+    "source": "4a8e9cf7",
+    "name": "Kirschtomaten",
+    "description": "Kleine Tomaten, die frischen und gekochten Gerichten einen süß-säuerlichen Kontrast geben.",
+    "uses": [
+      "Naschen",
+      "Salate",
+      "Rösten"
+    ],
+    "details": {
+      "tagline": "Naschen. Salate. Rösten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine Tomaten, die frischen und gekochten Gerichten einen süß-säuerlichen Kontrast geben."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kirschtomaten zum Naschen, in Salaten oder im Ofen geröstet."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche und halbiere sie für Salate oder röste sie im Ganzen, bis die Haut weich wird."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie mit einem scharfen Messer, damit der Saft im Fruchtfleisch bleibt. Würze sie erst kurz vor dem Servieren."
+        }
+      ],
+      "preparation": "Wasche und halbiere sie für Salate oder röste sie im Ganzen, bis die Haut weich wird.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Trägt als Teil einer abwechslungsreichen Ernährung zur Vitamin-C-Zufuhr bei."
+        },
+        {
+          "title": "Die ganze Frucht",
+          "text": "Nutze das essbare Fruchtfleisch und die Schale für Textur und Ballaststoffe."
+        },
+        {
+          "title": "Auf die Zubereitung kommt es an",
+          "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        }
+      ]
+    }
+  },
+  "spring-onions": {
+    "source": "1ef5c5a2",
+    "name": "Frühlingszwiebeln",
+    "description": "Zarte grüne Stangen mit mildem Zwiebelgeschmack.",
+    "uses": [
+      "Suppen",
+      "Wokgerichte",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Suppen. Wokgerichte. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte grüne Stangen mit mildem Zwiebelgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Frühlingszwiebeln in Suppen, Wokgerichten oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie, entferne die Wurzeln und schneide sie in Ringe. Gare zuerst die weißen Enden; das Grün gibst du zum Schluss dazu."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Eier, Tofu oder ein Reisgericht."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide das Grün in feine Ringe zum Garnieren und hebe die weißen Enden für die Pfanne auf."
+        }
+      ],
+      "preparation": "Wasche sie, entferne die Wurzeln und schneide sie in Ringe. Gare zuerst die weißen Enden; das Grün gibst du zum Schluss dazu.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "nasturtium-flowers": {
+    "source": "0b680c2c",
+    "name": "Kapuzinerkresse-Blüten",
+    "description": "Leuchtende Blüten mit pfeffrigem Geschmack.",
+    "uses": [
+      "Salate",
+      "Herzhafte Garnitur"
+    ],
+    "details": {
+      "tagline": "Salate. Herzhafte Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Leuchtende Blüten mit pfeffrigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kapuzinerkresse-Blüten in Salaten oder als herzhafte Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Verwende nur Speiseblüten. Spüle sie vorsichtig ab und gib ein paar davon kurz vor dem Servieren dazu."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die pfeffrigen Blüten passen zu Gurke, Frischkäse oder einem milden Blattsalat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib ein paar ganze Blüten erst im letzten Moment dazu. Wähle ein leichtes Dressing, damit die Blütenblätter ihre Form behalten."
+        }
+      ],
+      "preparation": "Verwende nur Speiseblüten. Spüle sie vorsichtig ab und gib ein paar davon kurz vor dem Servieren dazu.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Ein kleines Extra",
+      "nutrition": [
+        {
+          "title": "Zum Garnieren",
+          "text": "Nimm ein paar Blüten oder Blütenblätter für Farbe und Textur."
+        },
+        {
+          "title": "Nur Speiseblüten",
+          "text": "Iss nur Blüten, die für den Verzehr angebaut und als essbar gekennzeichnet sind."
+        },
+        {
+          "title": "Kleine Mengen",
+          "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "romaine-lettuce": {
+    "source": "45f0ddeb",
+    "name": "Romanasalat",
+    "description": "Lange Blätter und eine feste Mittelrippe bringen einen schönen, knackigen Biss in den Salat.",
+    "uses": [
+      "Caesar Salad",
+      "Wraps",
+      "Gegrillte Salatherzen"
+    ],
+    "details": {
+      "tagline": "Caesar Salad. Wraps. Gegrillte Salatherzen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Lange Blätter und eine feste Mittelrippe bringen einen schönen, knackigen Biss in den Salat."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Romanasalat im Caesar Salad, in Wraps oder als gegrilltes Salatherz."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn gut zwischen den Blättern. Schneide die Blätter quer zur Rippe oder halbiere das Herz zum Grillen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Wasche ihn gut zwischen den Blättern. Schneide die Blätter quer zur Rippe oder halbiere das Herz zum Grillen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "thai-basil": {
+    "source": "78d5e578",
+    "name": "Thai-Basilikum",
+    "description": "Feste, aromatische Blätter mit anisartiger Note.",
+    "uses": [
+      "Currys",
+      "Nudelsuppen",
+      "Wokgerichte"
+    ],
+    "details": {
+      "tagline": "Currys. Nudelsuppen. Wokgerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feste, aromatische Blätter mit anisartiger Note."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Thai-Basilikum in Currys, Nudelsuppen oder Wokgerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Zupfe die Blätter ab und gib sie gegen Ende zu einem Curry oder einer Nudelsuppe."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Kokosmilch oder ein warmes Reisgericht."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest."
+        }
+      ],
+      "preparation": "Zupfe die Blätter ab und gib sie gegen Ende zu einem Curry oder einer Nudelsuppe.",
+      "storage": "Die Stiele anschneiden und in etwas Wasser stellen, geschützt vor direkter Sonne. Die Blätter trocken halten und zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "radish-microgreens": {
+    "source": "ca5b8b8c",
+    "name": "Radieschen-Microgreens",
+    "description": "Knackige kleine Triebe mit deutlich pfeffriger Schärfe.",
+    "uses": [
+      "Tacos",
+      "Salate",
+      "Bowls"
+    ],
+    "details": {
+      "tagline": "Tacos. Salate. Bowls.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackige kleine Triebe mit deutlich pfeffriger Schärfe."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Radieschen-Microgreens in Tacos, Salaten oder Bowls."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "beefsteak-tomatoes": {
+    "source": "6102074f",
+    "name": "Fleischtomaten",
+    "description": "Große Tomaten für dicke Scheiben und Soßen.",
+    "uses": [
+      "Sandwiches",
+      "Salate",
+      "Soßen"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salate. Soßen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Große Tomaten für dicke Scheiben und Soßen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Fleischtomaten in Sandwiches, Salaten oder Soßen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne den Stielansatz und schneide sie in dicke Scheiben für Sandwiches oder Salate."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie mit einem scharfen Messer, damit der Saft im Fruchtfleisch bleibt. Würze sie erst kurz vor dem Servieren."
+        }
+      ],
+      "preparation": "Entferne den Stielansatz und schneide sie in dicke Scheiben für Sandwiches oder Salate.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Trägt als Teil einer abwechslungsreichen Ernährung zur Vitamin-C-Zufuhr bei."
+        },
+        {
+          "title": "Die ganze Frucht",
+          "text": "Nutze das essbare Fruchtfleisch und die Schale für Textur und Ballaststoffe."
+        },
+        {
+          "title": "Auf die Zubereitung kommt es an",
+          "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        }
+      ]
+    }
+  },
+  "celery": {
+    "source": "a8c1355e",
+    "name": "Staudensellerie",
+    "description": "Knackige, aromatische Stangen für frischen Biss oder als herzhafte Basis.",
+    "uses": [
+      "Suppen",
+      "Brühen",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Suppen. Brühen. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackige, aromatische Stangen für frischen Biss oder als herzhafte Basis."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Staudensellerie in Suppen, Brühen oder Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn gründlich zwischen den Stangen, kürze den Strunk und schneide ihn in Scheiben. Nutze die Blätter für Brühen oder als Garnitur."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Karotten, Zwiebeln, Bohnen oder Äpfel."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Würfle ihn fein als Basis für eine Suppe oder schneide die Stangen quer in Scheiben für knackigen Biss im Salat."
+        }
+      ],
+      "preparation": "Wasche ihn gründlich zwischen den Stangen, kürze den Strunk und schneide ihn in Scheiben. Nutze die Blätter für Brühen oder als Garnitur.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "viola-flowers": {
+    "source": "57706c53",
+    "name": "Hornveilchen-Blüten",
+    "description": "Kleine, zarte Blüten für einen dezenten Farbakzent.",
+    "uses": [
+      "Dessertdeko",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Dessertdeko. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine, zarte Blüten für einen dezenten Farbakzent."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Hornveilchen-Blüten als Deko für Desserts oder in Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Verwende Speiseblüten. Spüle sie vorsichtig ab, tupfe sie trocken und lege sie auf das fertige Gericht."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Ein paar Speiseblüten passen zu Obst, Joghurt oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Lege sie kurz vor dem Servieren auf das fertige Gericht, nicht auf heiße Soßen oder schwere Dressings."
+        }
+      ],
+      "preparation": "Verwende Speiseblüten. Spüle sie vorsichtig ab, tupfe sie trocken und lege sie auf das fertige Gericht.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Ein kleines Extra",
+      "nutrition": [
+        {
+          "title": "Zum Garnieren",
+          "text": "Nimm ein paar Blüten oder Blütenblätter für Farbe und Textur."
+        },
+        {
+          "title": "Nur Speiseblüten",
+          "text": "Iss nur Blüten, die für den Verzehr angebaut und als essbar gekennzeichnet sind."
+        },
+        {
+          "title": "Kleine Mengen",
+          "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "green-oakleaf-lettuce": {
+    "source": "c0dca06d",
+    "name": "Grüner Eichblattsalat",
+    "description": "Leichte, tief gelappte Blätter, die sich gut in einer gemischten Salatschüssel machen.",
+    "uses": [
+      "Salatmischungen",
+      "Sandwiches"
+    ],
+    "details": {
+      "tagline": "Salatmischungen. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Leichte, tief gelappte Blätter, die sich gut in einer gemischten Salatschüssel machen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere grünen Eichblattsalat in Salatmischungen oder Sandwiches."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle ihn vorsichtig ab, trockne ihn gut und zupfe ihn kurz vor dem Anmachen in den Salat."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Spüle ihn vorsichtig ab, trockne ihn gut und zupfe ihn kurz vor dem Anmachen in den Salat.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "holy-basil": {
+    "source": "9b51a491",
+    "name": "Tulsi-Basilikum",
+    "description": "Kleine, aromatische Tulsi-Blätter für kulinarische Aufgüsse und ausgewählte regionale Gerichte.",
+    "uses": [
+      "Aufgüsse",
+      "Regionale Küche"
+    ],
+    "details": {
+      "tagline": "Aufgüsse. Regionale Küche.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine, aromatische Tulsi-Blätter für kulinarische Aufgüsse und ausgewählte regionale Gerichte."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Tulsi-Basilikum in Aufgüssen oder in der regionalen Küche."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche die Blätter und verwende eine kleine Menge für einen kulinarischen Aufguss oder ein gekochtes Gericht."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Kokosmilch oder ein warmes Reisgericht."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest."
+        }
+      ],
+      "preparation": "Wasche die Blätter und verwende eine kleine Menge für einen kulinarischen Aufguss oder ein gekochtes Gericht.",
+      "storage": "Die Stiele anschneiden und in etwas Wasser stellen, geschützt vor direkter Sonne. Die Blätter trocken halten und zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "pea-shoots": {
+    "source": "ae37c735",
+    "name": "Erbsensprossen",
+    "description": "Zarte Stiele und Blätter mit frischem Erbsengeschmack.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Schnelle Wokgerichte"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Schnelle Wokgerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Stiele und Blätter mit frischem Erbsengeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Erbsensprossen in Salaten, Sandwiches oder schnellen Wokgerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "plum-tomatoes": {
+    "source": "2e9abfe9",
+    "name": "Flaschentomaten",
+    "description": "Feste, fleischige Tomaten, die sich gut zum langsamen Garen eignen.",
+    "uses": [
+      "Soßen",
+      "Rösten",
+      "Suppen"
+    ],
+    "details": {
+      "tagline": "Soßen. Rösten. Suppen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feste, fleischige Tomaten, die sich gut zum langsamen Garen eignen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Flaschentomaten in Soßen, im Ofen geröstet oder in Suppen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne den Stielansatz. Für Soßen schneidest du sie klein und lässt sie köcheln, zum Rösten halbierst du sie."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Lass die gehackten Tomaten sanft köcheln, bis die Soße so dick ist, wie du sie magst."
+        }
+      ],
+      "preparation": "Entferne den Stielansatz. Für Soßen schneidest du sie klein und lässt sie köcheln, zum Rösten halbierst du sie.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Trägt als Teil einer abwechslungsreichen Ernährung zur Vitamin-C-Zufuhr bei."
+        },
+        {
+          "title": "Die ganze Frucht",
+          "text": "Nutze das essbare Fruchtfleisch und die Schale für Textur und Ballaststoffe."
+        },
+        {
+          "title": "Auf die Zubereitung kommt es an",
+          "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        }
+      ]
+    }
+  },
+  "radish": {
+    "source": "5b6e09ca",
+    "name": "Radieschen",
+    "description": "Knackige Knollen mit frischer, pfeffriger Schärfe.",
+    "uses": [
+      "Salate",
+      "Eingelegtes",
+      "Rösten"
+    ],
+    "details": {
+      "tagline": "Salate. Eingelegtes. Rösten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackige Knollen mit frischer, pfeffriger Schärfe."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Radieschen in Salaten, eingelegt oder im Ofen geröstet."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste sie ab, putze sie und schneide sie in feine Scheiben. Röste sie halbiert für einen weicheren, milderen Biss."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Joghurt, Butter oder etwas Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie hauchdünn als knackiges Topping oder röste sie halbiert, damit ihre Schärfe milder wird."
+        }
+      ],
+      "preparation": "Bürste sie ab, putze sie und schneide sie in feine Scheiben. Röste sie halbiert für einen weicheren, milderen Biss.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "pansy-flowers": {
+    "source": "a48c1533",
+    "name": "Stiefmütterchen-Blüten",
+    "description": "Große, farbenfrohe Blüten für den zarten letzten Schliff.",
+    "uses": [
+      "Kuchendeko",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Kuchendeko. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Große, farbenfrohe Blüten für den zarten letzten Schliff."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Stiefmütterchen-Blüten als Kuchendeko oder in Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Verwende Speiseblüten. Fasse sie behutsam an und gib sie kurz vor dem Servieren auf Salate oder Kuchen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Ein paar Speiseblüten passen zu Obst, Joghurt oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Lege sie kurz vor dem Servieren auf das fertige Gericht, nicht auf heiße Soßen oder schwere Dressings."
+        }
+      ],
+      "preparation": "Verwende Speiseblüten. Fasse sie behutsam an und gib sie kurz vor dem Servieren auf Salate oder Kuchen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Ein kleines Extra",
+      "nutrition": [
+        {
+          "title": "Zum Garnieren",
+          "text": "Nimm ein paar Blüten oder Blütenblätter für Farbe und Textur."
+        },
+        {
+          "title": "Nur Speiseblüten",
+          "text": "Iss nur Blüten, die für den Verzehr angebaut und als essbar gekennzeichnet sind."
+        },
+        {
+          "title": "Kleine Mengen",
+          "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "red-oakleaf-lettuce": {
+    "source": "b9c52f5d",
+    "name": "Roter Eichblattsalat",
+    "description": "Bronzerote Blätter bringen zarte Textur und Farbe in frische Gerichte.",
+    "uses": [
+      "Gemischte Salate",
+      "Anrichten"
+    ],
+    "details": {
+      "tagline": "Gemischte Salate. Anrichten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Bronzerote Blätter bringen zarte Textur und Farbe in frische Gerichte."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere roten Eichblattsalat in gemischten Salaten oder zum Anrichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Lass die zarten Blätter ganz. Gib das Dressing erst kurz vor dem Servieren dazu."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Lass die zarten Blätter ganz. Gib das Dressing erst kurz vor dem Servieren dazu.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "mint": {
+    "source": "0b72d3fa",
+    "name": "Minze",
+    "description": "Frische, kühlende Blätter für lebendige Chutneys und Getränke.",
+    "uses": [
+      "Chutneys",
+      "Raita",
+      "Getränke"
+    ],
+    "details": {
+      "tagline": "Chutneys. Raita. Getränke.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Frische, kühlende Blätter für lebendige Chutneys und Getränke."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Minze in Chutneys, Raita oder Getränken."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Zupfe die Blätter ab und wasche sie. Hacke sie erst, kurz bevor du sie zu Raita, Chutney oder Getränken gibst."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Joghurt, Erbsen oder frische Limette."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Hacke sie erst kurz vor dem Servieren. Hebe sie unter abgekühlte Speisen, wenn du ihren frischen, kühlenden Geschmack möchtest."
+        }
+      ],
+      "preparation": "Zupfe die Blätter ab und wasche sie. Hacke sie erst, kurz bevor du sie zu Raita, Chutney oder Getränken gibst.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "sunflower-shoots": {
+    "source": "1f2b125f",
+    "name": "Sonnenblumensprossen",
+    "description": "Kräftige junge Triebe mit nussigem Geschmack und knackigem Biss.",
+    "uses": [
+      "Salate",
+      "Wraps",
+      "Bowls"
+    ],
+    "details": {
+      "tagline": "Salate. Wraps. Bowls.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kräftige junge Triebe mit nussigem Geschmack und knackigem Biss."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Sonnenblumensprossen in Salaten, Wraps oder Bowls."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "cucumber": {
+    "source": "2d71685e",
+    "name": "Gurke",
+    "description": "Knackiges, erfrischendes Fruchtgemüse mit mildem Geschmack.",
+    "uses": [
+      "Salate",
+      "Raita",
+      "Einlegen"
+    ],
+    "details": {
+      "tagline": "Salate. Raita. Einlegen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackiges, erfrischendes Fruchtgemüse mit mildem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Gurke in Salaten, in Raita oder eingelegt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie, entferne die Enden und schneide sie in Scheiben oder Würfel. Schäle sie nur, wenn du eine weichere Textur magst."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Minze, Joghurt, Tomaten oder etwas Limette."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Drücke geriebene Gurke gut aus, bevor du sie mit Joghurt mischst. So wird Raita dicker."
+        }
+      ],
+      "preparation": "Wasche sie, entferne die Enden und schneide sie in Scheiben oder Würfel. Schäle sie nur, wenn du eine weichere Textur magst.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "beetroot": {
+    "source": "2dd8dced",
+    "name": "Rote Bete",
+    "description": "Süßliche, erdige Knollen zum Kochen oder Einlegen.",
+    "uses": [
+      "Rösten",
+      "Salate",
+      "Eingelegtes"
+    ],
+    "details": {
+      "tagline": "Rösten. Salate. Eingelegtes.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Süßliche, erdige Knollen zum Kochen oder Einlegen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rote Bete im Ofen geröstet, in Salaten oder eingelegt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste sie ab und gare sie, bis sie weich ist. Schäle sie danach, wenn du magst. Trage eine Schürze, damit keine Flecken entstehen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Orange, Dill, Joghurt oder Walnüsse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gare sie getrennt von hellen Zutaten, wenn die Farben klar unterscheidbar bleiben sollen."
+        }
+      ],
+      "preparation": "Bürste sie ab und gare sie, bis sie weich ist. Schäle sie danach, wenn du magst. Trage eine Schürze, damit keine Flecken entstehen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "calendula-petals": {
+    "source": "ce6e877b",
+    "name": "Ringelblumen-Blütenblätter",
+    "description": "Goldgelbe Blütenblätter für einen leichten floralen Akzent.",
+    "uses": [
+      "Salate",
+      "Reisgerichte",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Salate. Reisgerichte. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Goldgelbe Blütenblätter für einen leichten floralen Akzent."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Ringelblumen-Blütenblätter in Salaten, Reisgerichten oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Verwende Blütenblätter von Speiseblüten. Löse sie vom Blütenboden und streue sie zum Schluss über Reis oder Salate."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Streue die Blütenblätter über Reis, Frischkäse oder einen einfachen grünen Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib die Blütenblätter erst nach dem Kochen dazu, damit ihre Farbe auf dem Teller sichtbar bleibt."
+        }
+      ],
+      "preparation": "Verwende Blütenblätter von Speiseblüten. Löse sie vom Blütenboden und streue sie zum Schluss über Reis oder Salate.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Ein kleines Extra",
+      "nutrition": [
+        {
+          "title": "Zum Garnieren",
+          "text": "Nimm ein paar Blüten oder Blütenblätter für Farbe und Textur."
+        },
+        {
+          "title": "Nur Speiseblüten",
+          "text": "Iss nur Blüten, die für den Verzehr angebaut und als essbar gekennzeichnet sind."
+        },
+        {
+          "title": "Kleine Mengen",
+          "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "lollo-rosso-lettuce": {
+    "source": "02f4f4c2",
+    "name": "Lollo Rosso",
+    "description": "Krause rote Blätter mit leicht bitterem Nachgeschmack und luftiger Textur.",
+    "uses": [
+      "Salatmischungen",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Salatmischungen. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Krause rote Blätter mit leicht bitterem Nachgeschmack und luftiger Textur."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Lollo Rosso in Salatmischungen oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Zupfe die krausen Blätter in kleine Stücke und mische sie mit milderen Salatblättern."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Zupfe die krausen Blätter in kleine Stücke und mische sie mit milderen Salatblättern.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "coriander": {
+    "source": "9c2c6566",
+    "name": "Koriander",
+    "description": "Frische Korianderblätter und zarte Stiele mit markantem, zitrusartigem Aroma.",
+    "uses": [
+      "Chutneys",
+      "Currys",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Chutneys. Currys. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Frische Korianderblätter und zarte Stiele mit markantem, zitrusartigem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Koriander in Chutneys, Currys oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche Blätter und zarte Stiele gründlich. Hacke beides für Chutneys oder als Garnitur zum Schluss."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Limette, Tomaten, Linsen oder grüne Chilischoten."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Verwende die zarten Stiele für Chutneys und hebe die Blattspitzen auf, um das Gericht zum Schluss zu garnieren."
+        }
+      ],
+      "preparation": "Wasche Blätter und zarte Stiele gründlich. Hacke beides für Chutneys oder als Garnitur zum Schluss.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "mustard-microgreens": {
+    "source": "7bc39786",
+    "name": "Senf-Microgreens",
+    "description": "Kleine Blätter mit kräftiger Senfschärfe.",
+    "uses": [
+      "Sandwiches",
+      "Garnitur",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Garnitur. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine Blätter mit kräftiger Senfschärfe."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Senf-Microgreens in Sandwiches, als Garnitur oder in Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "bell-peppers": {
+    "source": "df9c2c48",
+    "name": "Paprika",
+    "description": "Dickwandige, süße Paprika für Farbe und knackigen Biss.",
+    "uses": [
+      "Salate",
+      "Füllen",
+      "Rösten"
+    ],
+    "details": {
+      "tagline": "Salate. Füllen. Rösten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Dickwandige, süße Paprika für Farbe und knackigen Biss."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Paprika in Salaten, gefüllt oder im Ofen geröstet."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne Stiel, Kerne und weiße Trennwände. Schneide sie für Salate in Streifen oder halbiere sie zum Füllen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Tomaten, Zwiebeln, Bohnen oder eine Reisfüllung."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie zum Rösten in breite Stücke und für die schnelle Pfanne in dünne Streifen."
+        }
+      ],
+      "preparation": "Entferne Stiel, Kerne und weiße Trennwände. Schneide sie für Salate in Streifen oder halbiere sie zum Füllen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Trägt als Teil einer abwechslungsreichen Ernährung zur Vitamin-C-Zufuhr bei."
+        },
+        {
+          "title": "Die ganze Frucht",
+          "text": "Nutze das essbare Fruchtfleisch und die Schale für Textur und Ballaststoffe."
+        },
+        {
+          "title": "Auf die Zubereitung kommt es an",
+          "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        }
+      ]
+    }
+  },
+  "carrot": {
+    "source": "4cf54e65",
+    "name": "Karotte",
+    "description": "Knackige Wurzeln mit sanfter Süße.",
+    "uses": [
+      "Salate",
+      "Rösten",
+      "Suppen"
+    ],
+    "details": {
+      "tagline": "Salate. Rösten. Suppen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackige Wurzeln mit sanfter Süße."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Karotten in Salaten, im Ofen geröstet oder in Suppen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste oder schäle sie, putze sie und schneide sie in gleich große Stücke zum Rösten oder für eine Suppe."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Kreuzkümmel, Ingwer, Zitrusfrüchte oder Kichererbsen."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie zum Rösten in ähnlich große Stücke oder reibe sie fein, damit sie im Rohkostsalat zarter wird."
+        }
+      ],
+      "preparation": "Bürste oder schäle sie, putze sie und schneide sie in gleich große Stücke zum Rösten oder für eine Suppe.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Beta-Carotin",
+          "text": "Ein orangefarbener Pflanzenfarbstoff, den der Körper in Vitamin A umwandeln kann."
+        },
+        {
+          "title": "Ballaststoffe",
+          "text": "Verwende die ganze Karotte im Gericht, damit ihre Ballaststoffe mit auf den Teller kommen."
+        },
+        {
+          "title": "Roh oder gegart",
+          "text": "Reibe sie in Salate oder gare sie, bis sie weich ist."
+        }
+      ]
+    }
+  },
+  "borage-flowers": {
+    "source": "8c301c91",
+    "name": "Borretsch-Blüten",
+    "description": "Kleine blaue Blüten mit mildem, gurkenartigem Aroma.",
+    "uses": [
+      "Ab und zu als Garnitur"
+    ],
+    "details": {
+      "tagline": "Ab und zu als Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine blaue Blüten mit mildem, gurkenartigem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Borretsch-Blüten ab und zu als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Verwende Speiseblüten nur ab und zu als kleine Garnitur, nicht als tägliche Portion Gemüse."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gib ein paar Speiseblüten zum Schluss auf einen Gurkensalat oder in ein kaltes Getränk."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nutze sie nur ab und zu als kleine Garnitur und nicht schüsselweise als Portion Gemüse."
+        }
+      ],
+      "preparation": "Verwende Speiseblüten nur ab und zu als kleine Garnitur, nicht als tägliche Portion Gemüse.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Ein kleines Extra",
+      "nutrition": [
+        {
+          "title": "Zum Garnieren",
+          "text": "Nimm ein paar Blüten oder Blütenblätter für Farbe und Textur."
+        },
+        {
+          "title": "Nur Speiseblüten",
+          "text": "Iss nur Blüten, die für den Verzehr angebaut und als essbar gekennzeichnet sind."
+        },
+        {
+          "title": "Kleine Mengen",
+          "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "lollo-bionda-lettuce": {
+    "source": "30e8376e",
+    "name": "Lollo Bionda",
+    "description": "Krause grüne Blätter sind eine leichte, knackige Basis für einfache Dressings.",
+    "uses": [
+      "Salate",
+      "Sandwiches"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Krause grüne Blätter sind eine leichte, knackige Basis für einfache Dressings."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Lollo Bionda in Salaten oder Sandwiches."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche die krausen Blätter und trockne sie gut, damit sich kein Dressing dazwischen sammelt."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Wasche die krausen Blätter und trockne sie gut, damit sich kein Dressing dazwischen sammelt.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "flat-leaf-parsley": {
+    "source": "0546d0e1",
+    "name": "Glatte Petersilie",
+    "description": "Grasig-frische Blätter mit klarem Nachgeschmack.",
+    "uses": [
+      "Taboulé",
+      "Soßen",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Taboulé. Soßen. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Grasig-frische Blätter mit klarem Nachgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere glatte Petersilie in Taboulé, Soßen oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche und trockne die Blätter und zarten Stiele. Hacke sie fein für Salate und Soßen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen."
+        }
+      ],
+      "preparation": "Wasche und trockne die Blätter und zarten Stiele. Hacke sie fein für Salate und Soßen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "red-cabbage-microgreens": {
+    "source": "a4faaf55",
+    "name": "Rotkohl-Microgreens",
+    "description": "Junge Blätter mit violetten Stielen und mildem Kohlgeschmack.",
+    "uses": [
+      "Salate",
+      "Bowls",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Salate. Bowls. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Junge Blätter mit violetten Stielen und mildem Kohlgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rotkohl-Microgreens in Salaten, Bowls oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "green-chillies": {
+    "source": "fbe5364c",
+    "name": "Grüne Chilis",
+    "description": "Frische Chilis für Schärfe und lebendigen Geschmack.",
+    "uses": [
+      "Currys",
+      "Chutneys",
+      "Eingelegtes"
+    ],
+    "details": {
+      "tagline": "Currys. Chutneys. Eingelegtes.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Frische Chilis für Schärfe und lebendigen Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere grüne Chilis in Currys, Chutneys oder eingelegt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide den Stiel ab und hacke sie vorsichtig. Gib sie nach und nach dazu und wasche danach deine Hände."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Koriander, Limette, Tomaten oder Joghurt."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib nach und nach etwas dazu und schmecke ab. Die Schärfe kann von Chili zu Chili unterschiedlich sein."
+        }
+      ],
+      "preparation": "Schneide den Stiel ab und hacke sie vorsichtig. Gib sie nach und nach dazu und wasche danach deine Hände.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "ginger": {
+    "source": "96aa67e0",
+    "name": "Ingwer",
+    "description": "Aromatische Wurzeln mit warmem, scharfem Geschmack.",
+    "uses": [
+      "Currys",
+      "Aufgüsse",
+      "Marinaden"
+    ],
+    "details": {
+      "tagline": "Currys. Aufgüsse. Marinaden.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Aromatische Wurzeln mit warmem, scharfem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Ingwer in Currys, Aufgüssen oder Marinaden."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste ihn ab oder schäle ihn dünn. Reibe ihn dann, hacke ihn fein oder schneide ihn quer zur Faser in Scheiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Knoblauch, Limette, Karotten oder Kokosmilch."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Reibe ihn für ein gleichmäßiges, dezentes Aroma. Nimm dünne Scheiben, wenn du den Ingwer nach dem Kochen wieder entfernen möchtest."
+        }
+      ],
+      "preparation": "Bürste ihn ab oder schäle ihn dünn. Reibe ihn dann, hacke ihn fein oder schneide ihn quer zur Faser in Scheiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "iceberg-lettuce": {
+    "source": "a81591b3",
+    "name": "Eisbergsalat",
+    "description": "Fester Salatkopf, bekannt für seinen klaren Geschmack und seine knackigen Blätter.",
+    "uses": [
+      "Spalten",
+      "Wraps",
+      "Burger"
+    ],
+    "details": {
+      "tagline": "Spalten. Wraps. Burger.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Fester Salatkopf, bekannt für seinen klaren Geschmack und seine knackigen Blätter."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Eisbergsalat in Spalten, in Wraps oder im Burger."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne den Strunk, wasche die Blätter und schneide den Salat in Spalten oder feine Streifen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich."
+        }
+      ],
+      "preparation": "Entferne den Strunk, wasche die Blätter und schneide den Salat in Spalten oder feine Streifen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "curly-parsley": {
+    "source": "6f8fa57e",
+    "name": "Krause Petersilie",
+    "description": "Krause Blätter bringen Textur und ein sanftes Kräuteraroma.",
+    "uses": [
+      "Garnitur",
+      "Salate",
+      "Kräuterbutter"
+    ],
+    "details": {
+      "tagline": "Garnitur. Salate. Kräuterbutter.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Krause Blätter bringen Textur und ein sanftes Kräuteraroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere krause Petersilie als Garnitur, in Salaten oder in Kräuterbutter."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie gründlich zwischen den krausen Blättern und trockne sie, bevor du sie für Butter oder als Garnitur hackst."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen."
+        }
+      ],
+      "preparation": "Wasche sie gründlich zwischen den krausen Blättern und trockne sie, bevor du sie für Butter oder als Garnitur hackst.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "kale-microgreens": {
+    "source": "23032e4b",
+    "name": "Grünkohl-Microgreens",
+    "description": "Zarte junge Grünkohlblätter für den sanften grünen Feinschliff.",
+    "uses": [
+      "Sandwiches",
+      "Salate",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Sandwiches. Salate. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte junge Grünkohlblätter für den sanften grünen Feinschliff."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Grünkohl-Microgreens in Sandwiches, Salaten oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "jalapeno-peppers": {
+    "source": "50d02da7",
+    "name": "Jalapeños",
+    "description": "Feste Chilis mit markantem Geschmack und unterschiedlicher Schärfe.",
+    "uses": [
+      "Salsas",
+      "Einlegen",
+      "Füllen"
+    ],
+    "details": {
+      "tagline": "Salsas. Einlegen. Füllen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feste Chilis mit markantem Geschmack und unterschiedlicher Schärfe."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Jalapeños in Salsas, eingelegt oder gefüllt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne den Stiel und schneide sie in Ringe. Für ein milderes Gericht entfernst du Kerne und Trennwände. Wasche danach deine Hände."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Tomaten, Limette, Bohnen oder eine Füllung aus Frischkäse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie dünn, damit sich die Schärfe in Salsa oder Sandwich verteilt, statt in einem Bissen zu landen."
+        }
+      ],
+      "preparation": "Entferne den Stiel und schneide sie in Ringe. Für ein milderes Gericht entfernst du Kerne und Trennwände. Wasche danach deine Hände.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "turmeric": {
+    "source": "3dd538ed",
+    "name": "Kurkuma",
+    "description": "Farbkräftige Wurzeln mit erdigem, leicht bitterem Geschmack.",
+    "uses": [
+      "Currys",
+      "Eingelegtes",
+      "Kochen"
+    ],
+    "details": {
+      "tagline": "Currys. Eingelegtes. Kochen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Farbkräftige Wurzeln mit erdigem, leicht bitterem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kurkuma in Currys, in Eingelegtem oder beim Kochen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste sie ab oder schäle sie dünn und reibe sie direkt ins Gericht. Schütze Oberflächen vor der kräftigen Farbe."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Kokosmilch, Linsen oder Blumenkohl."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm zuerst wenig und schmecke ab. Reibe sie über einer abwaschbaren Fläche, denn die Farbe kann Flecken machen."
+        }
+      ],
+      "preparation": "Bürste sie ab oder schäle sie dünn und reibe sie direkt ins Gericht. Schütze Oberflächen vor der kräftigen Farbe.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "arugula": {
+    "source": "113e1546",
+    "name": "Rucola",
+    "description": "Pfeffrige Blätter, die einem frischen Salat oder einer fertigen Pizza etwas Schärfe geben.",
+    "uses": [
+      "Salate",
+      "Pizza",
+      "Pesto"
+    ],
+    "details": {
+      "tagline": "Salate. Pizza. Pesto.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Pfeffrige Blätter, die einem frischen Salat oder einer fertigen Pizza etwas Schärfe geben."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rucola in Salaten, auf Pizza oder im Pesto."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche und trockne ihn. Gib ihn nach dem Backen auf die Pizza oder mische ihn im letzten Moment unter den Salat."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die pfeffrigen Blätter passen zu Birne, Walnüssen, Tomaten oder gehobeltem Käse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue ihn nach dem Backen über die Pizza oder hebe ihn kurz vor dem Servieren unter warme Pasta."
+        }
+      ],
+      "preparation": "Wasche und trockne ihn. Gib ihn nach dem Backen auf die Pizza oder mische ihn im letzten Moment unter den Salat.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "dill": {
+    "source": "37344873",
+    "name": "Dill",
+    "description": "Feine, fedrige Blätter mit frischem, anisartigem Aroma.",
+    "uses": [
+      "Eingelegtes",
+      "Kartoffeln",
+      "Dressings"
+    ],
+    "details": {
+      "tagline": "Eingelegtes. Kartoffeln. Dressings.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feine, fedrige Blätter mit frischem, anisartigem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Dill in Eingelegtem, zu Kartoffeln oder in Dressings."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide die feinen Spitzen mit der Schere erst, kurz bevor du sie zu Kartoffeln, Joghurt oder einem Dressing gibst."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Kartoffeln, Joghurt oder Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide ihn mit der Schere über das fertige Gericht oder rühre ihn kurz vor dem Servieren in ein kaltes Dressing."
+        }
+      ],
+      "preparation": "Schneide die feinen Spitzen mit der Schere erst, kurz bevor du sie zu Kartoffeln, Joghurt oder einem Dressing gibst.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "arugula-microgreens": {
+    "source": "2a58d288",
+    "name": "Rucola-Microgreens",
+    "description": "Feine Blätter mit der vertrauten pfeffrigen Rucola-Note.",
+    "uses": [
+      "Pizza",
+      "Pasta",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Pizza. Pasta. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feine Blätter mit der vertrauten pfeffrigen Rucola-Note."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rucola-Microgreens auf Pizza, zu Pasta oder in Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "strawberries": {
+    "source": "b1c7e0cf",
+    "name": "Erdbeeren",
+    "description": "Aromatische, zarte Früchte zum frischen Genießen und für einfache Desserts.",
+    "uses": [
+      "Naschen",
+      "Desserts",
+      "Konfitüre"
+    ],
+    "details": {
+      "tagline": "Naschen. Desserts. Konfitüre.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Aromatische, zarte Früchte zum frischen Genießen und für einfache Desserts."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Erdbeeren zum Naschen, in Desserts oder als Konfitüre."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie erst kurz vor dem Essen und entferne dann das Grün. Tupfe sie für Desserts trocken."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Joghurt, Basilikum, Minze oder etwas abgeriebene Zitronenschale."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie erst kurz vor dem Servieren oder zerdrücke ein paar Beeren sanft für ein schnelles Topping."
+        }
+      ],
+      "preparation": "Wasche sie erst kurz vor dem Essen und entferne dann das Grün. Tupfe sie für Desserts trocken.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin C",
+          "text": "Trägt als Teil einer abwechslungsreichen Ernährung zur Vitamin-C-Zufuhr bei."
+        },
+        {
+          "title": "Die ganze Frucht",
+          "text": "Nutze das essbare Fruchtfleisch und die Schale für Textur und Ballaststoffe."
+        },
+        {
+          "title": "Auf die Zubereitung kommt es an",
+          "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        }
+      ]
+    }
+  },
+  "potato": {
+    "source": "54313611",
+    "name": "Kartoffel",
+    "description": "Vielseitige Knollen für die Küche, auch für die spezielle aeroponische Vermehrung.",
+    "uses": [
+      "Rösten",
+      "Kochen",
+      "Stampfen"
+    ],
+    "details": {
+      "tagline": "Rösten. Kochen. Stampfen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Vielseitige Knollen für die Küche, auch für die spezielle aeroponische Vermehrung."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kartoffeln geröstet, gekocht oder gestampft."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste sie ab, entferne Keime und grüne Stellen und gare sie gut durch. Sortiere sehr grüne oder bittere Kartoffeln aus."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Rosmarin, Knoblauch, Erbsen oder ein Joghurtdressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie zum Kochen in gleich große Stücke. Lass beim Rösten Platz zwischen den Stücken, damit die Ränder knusprig werden."
+        }
+      ],
+      "preparation": "Bürste sie ab, entferne Keime und grüne Stellen und gare sie gut durch. Sortiere sehr grüne oder bittere Kartoffeln aus.",
+      "storage": "Kühl, dunkel und luftig lagern, getrennt von Zwiebeln.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "spinach": {
+    "source": "8f3597fa",
+    "name": "Spinat",
+    "description": "Vielseitige grüne Blätter für frische Bowls oder zum kurzen, schonenden Garen.",
+    "uses": [
+      "Salate",
+      "Dal",
+      "Gebratenes Blattgemüse"
+    ],
+    "details": {
+      "tagline": "Salate. Dal. Gebratenes Blattgemüse.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Vielseitige grüne Blätter für frische Bowls oder zum kurzen, schonenden Garen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Spinat in Salaten, im Dal oder kurz in der Pfanne gebraten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn gründlich. Nimm zarte Blätter roh oder lass sie kurz im Dal oder in einer warmen Pfanne zusammenfallen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Kichererbsen, Paneer, Knoblauch oder ein Spritzer Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Rühre ihn gegen Ende der Garzeit in Dal oder Suppe. Die Blätter fallen schnell zusammen und brauchen dann weniger Platz im Topf."
+        }
+      ],
+      "preparation": "Wasche ihn gründlich. Nimm zarte Blätter roh oder lass sie kurz im Dal oder in einer warmen Pfanne zusammenfallen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Ein natürlich vorkommender Nährstoff, der an einer normalen Blutgerinnung beteiligt ist."
+        },
+        {
+          "title": "Provitamin A",
+          "text": "Pflanzliche Carotinoide, die der Körper in Vitamin A umwandeln kann."
+        },
+        {
+          "title": "Folat",
+          "text": "Ein B-Vitamin, das an der Bildung neuer Zellen beteiligt ist."
+        },
+        {
+          "title": "Kalium",
+          "text": "Ein Mineralstoff, der für eine normale Muskel- und Nervenfunktion gebraucht wird."
+        }
+      ]
+    }
+  },
+  "chives": {
+    "source": "731986ca",
+    "name": "Schnittlauch",
+    "description": "Schlanke grüne Halme mit mildem Zwiebelgeschmack.",
+    "uses": [
+      "Eier",
+      "Suppen",
+      "Dips"
+    ],
+    "details": {
+      "tagline": "Eier. Suppen. Dips.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Schlanke grüne Halme mit mildem Zwiebelgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Schnittlauch zu Eiern, in Suppen oder in Dips."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide ihn mit einer sauberen Schere in kurze Röllchen und streue ihn über das fertige Gericht."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Kartoffeln, Eier, Frischkäse oder ein Joghurtdip."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mit einer sauberen Schere bekommst du kleine, gleichmäßige Röllchen, ohne die Halme zu quetschen."
+        }
+      ],
+      "preparation": "Schneide ihn mit einer sauberen Schere in kurze Röllchen und streue ihn über das fertige Gericht.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "beet-microgreens": {
+    "source": "5584ba7c",
+    "name": "Rote-Bete-Microgreens",
+    "description": "Farbenfrohe Stiele und junge Blätter mit erdigem Geschmack.",
+    "uses": [
+      "Salate",
+      "Anrichten",
+      "Sandwiches"
+    ],
+    "details": {
+      "tagline": "Salate. Anrichten. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Farbenfrohe Stiele und junge Blätter mit erdigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rote-Bete-Microgreens in Salaten, zum Anrichten oder in Sandwiches."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "eggplant": {
+    "source": "fa849444",
+    "name": "Aubergine",
+    "description": "Fruchtgemüse mit zartem Fruchtfleisch, das beim Kochen Aromen gut aufnimmt.",
+    "uses": [
+      "Currys",
+      "Rösten",
+      "Grillen"
+    ],
+    "details": {
+      "tagline": "Currys. Rösten. Grillen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Fruchtgemüse mit zartem Fruchtfleisch, das beim Kochen Aromen gut aufnimmt."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Auberginen in Currys, im Ofen geröstet oder gegrillt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide den Stielansatz ab, teile sie in gleichmäßige Stücke und gare sie, bis das Fruchtfleisch durch und durch weich ist."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Tomaten, Knoblauch, Joghurt oder Tahini."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Lass beim Rösten Platz zwischen den Stücken. Liegen sie zu eng auf dem Blech, werden sie eher weich und gedämpft."
+        }
+      ],
+      "preparation": "Schneide den Stielansatz ab, teile sie in gleichmäßige Stücke und gare sie, bis das Fruchtfleisch durch und durch weich ist.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "baby-kale": {
+    "source": "eec05bf9",
+    "name": "Baby-Grünkohl",
+    "description": "Junge Grünkohlblätter, zarter als ausgewachsene Blätter.",
+    "uses": [
+      "Salate",
+      "Getreide-Bowls",
+      "Schnelle Pfannengerichte"
+    ],
+    "details": {
+      "tagline": "Salate. Getreide-Bowls. Schnelle Pfannengerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Junge Grünkohlblätter, zarter als ausgewachsene Blätter."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Baby-Grünkohl in Salaten, Getreide-Bowls oder schnellen Pfannengerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche und trockne ihn. Gib die zarten Blätter direkt in Salate oder warme Getreide-Bowls."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing."
+        }
+      ],
+      "preparation": "Wasche und trockne ihn. Gib die zarten Blätter direkt in Salate oder warme Getreide-Bowls.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Grünkohl enthält Vitamin K, das für eine normale Blutgerinnung gebraucht wird."
+        },
+        {
+          "title": "Ballaststoffe",
+          "text": "Ganze Blätter liefern Ballaststoffe für die Mahlzeit."
+        },
+        {
+          "title": "Auf die Portion kommt es an",
+          "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        }
+      ]
+    }
+  },
+  "garlic-chives": {
+    "source": "40072a96",
+    "name": "Schnittknoblauch",
+    "description": "Flache Blätter mit sanfter Knoblauchnote.",
+    "uses": [
+      "Teigtaschen",
+      "Wokgerichte",
+      "Omeletts"
+    ],
+    "details": {
+      "tagline": "Teigtaschen. Wokgerichte. Omeletts.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Flache Blätter mit sanfter Knoblauchnote."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Schnittknoblauch in Teigtaschen, Wokgerichten oder Omeletts."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn, schneide die Enden ab und hacke ihn für Teigtaschenfüllungen oder schnelle Wokgerichte."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Pilze, Tofu, Eier oder Füllungen für Teigtaschen."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide ihn für Wokgerichte in kurze Stücke oder hacke ihn fein, wenn du ihn unter eine Füllung mischst."
+        }
+      ],
+      "preparation": "Wasche ihn, schneide die Enden ab und hacke ihn für Teigtaschenfüllungen oder schnelle Wokgerichte.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "amaranth-microgreens": {
+    "source": "cbb2821d",
+    "name": "Amaranth-Microgreens",
+    "description": "Sehr feine junge Blätter, bei roten Sorten mit kräftiger Farbe.",
+    "uses": [
+      "Garnitur",
+      "Salate",
+      "Anrichten"
+    ],
+    "details": {
+      "tagline": "Garnitur. Salate. Anrichten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Sehr feine junge Blätter, bei roten Sorten mit kräftiger Farbe."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Amaranth-Microgreens als Garnitur, in Salaten oder zum Anrichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "zucchini": {
+    "source": "0faf3414",
+    "name": "Zucchini",
+    "description": "Zarter Sommerkürbis für leichte Gerichte.",
+    "uses": [
+      "Grillen",
+      "Pfannengerichte",
+      "Backen"
+    ],
+    "details": {
+      "tagline": "Grillen. Pfannengerichte. Backen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarter Sommerkürbis für leichte Gerichte."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Zucchini gegrillt, in Pfannengerichten oder gebacken."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne die Enden und schneide sie in gleichmäßige Scheiben. Gare sie kurz für mehr Biss oder länger, wenn sie weich werden soll."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Zitrone, Minze, Basilikum oder etwas geriebener Käse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm dickere Scheiben zum Grillen und kleine Stücke für die schnelle Pfanne."
+        }
+      ],
+      "preparation": "Entferne die Enden und schneide sie in gleichmäßige Scheiben. Gare sie kurz für mehr Biss oder länger, wenn sie weich werden soll.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "curly-kale": {
+    "source": "8f7b1dc8",
+    "name": "Grünkohl",
+    "description": "Kräftige, krause Blätter, die in herzhaften Gerichten gut in Form bleiben.",
+    "uses": [
+      "Suppen",
+      "Pfannengerichte",
+      "Grünkohlchips"
+    ],
+    "details": {
+      "tagline": "Suppen. Pfannengerichte. Grünkohlchips.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kräftige, krause Blätter, die in herzhaften Gerichten gut in Form bleiben."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Grünkohl in Suppen, Pfannengerichten oder als Grünkohlchips."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne die dicken Stiele. Massiere die gehackten Blätter für Salate oder gare sie, bis sie zart sind."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing."
+        }
+      ],
+      "preparation": "Entferne die dicken Stiele. Massiere die gehackten Blätter für Salate oder gare sie, bis sie zart sind.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Grünkohl enthält Vitamin K, das für eine normale Blutgerinnung gebraucht wird."
+        },
+        {
+          "title": "Ballaststoffe",
+          "text": "Ganze Blätter liefern Ballaststoffe für die Mahlzeit."
+        },
+        {
+          "title": "Auf die Portion kommt es an",
+          "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        }
+      ]
+    }
+  },
+  "oregano": {
+    "source": "8cf92cff",
+    "name": "Oregano",
+    "description": "Kleine Blätter mit warmem, kräftigem Kräuteraroma.",
+    "uses": [
+      "Tomatensoßen",
+      "Rösten",
+      "Marinaden"
+    ],
+    "details": {
+      "tagline": "Tomatensoßen. Rösten. Marinaden.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine Blätter mit warmem, kräftigem Kräuteraroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Oregano in Tomatensoßen, beim Rösten oder in Marinaden."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Streife die Blätter von den holzigen Stielen. Hacke sie und gib sie in Tomatensoßen oder Marinaden."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren."
+        }
+      ],
+      "preparation": "Streife die Blätter von den holzigen Stielen. Hacke sie und gib sie in Tomatensoßen oder Marinaden.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "basil-microgreens": {
+    "source": "7bb75a9d",
+    "name": "Basilikum-Microgreens",
+    "description": "Winzige aromatische Blätter mit klarem Basilikumduft.",
+    "uses": [
+      "Tomatengerichte",
+      "Suppen",
+      "Anrichten"
+    ],
+    "details": {
+      "tagline": "Tomatengerichte. Suppen. Anrichten.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Winzige aromatische Blätter mit klarem Basilikumduft."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Basilikum-Microgreens in Tomatengerichten, Suppen oder zum Anrichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gib die aromatischen Triebe zu Tomaten, Reis oder einer Schale warmer Suppe."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "source": "cb1da443",
+    "name": "Zuckermelone",
+    "description": "Süße, aromatische Melone für frische Spalten und fruchtige Gerichte.",
+    "uses": [
+      "Pur genießen",
+      "Obstsalate"
+    ],
+    "details": {
+      "tagline": "Pur genießen. Obstsalate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Süße, aromatische Melone für frische Spalten und fruchtige Gerichte."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Zuckermelone pur oder im Obstsalat."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Bürste die Schale vor dem Aufschneiden ab. Entferne die Kerne, schneide das Fruchtfleisch in Scheiben und bewahre Aufgeschnittenes im Kühlschrank auf."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Minze, Limette, Joghurt oder anderes frisches Obst."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide das Fruchtfleisch in mundgerechte Stücke für eine Schüssel und stelle es danach kalt. Lass die Schale beim Servieren weg."
+        }
+      ],
+      "preparation": "Bürste die Schale vor dem Aufschneiden ab. Entferne die Kerne, schneide das Fruchtfleisch in Scheiben und bewahre Aufgeschnittenes im Kühlschrank auf.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "lacinato-kale": {
+    "source": "4b96c6ec",
+    "name": "Schwarzkohl",
+    "description": "Lange, dunkle Blätter mit fester Textur zum Kochen und für gehackte Salate.",
+    "uses": [
+      "Suppen",
+      "Schmorgerichte",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Suppen. Schmorgerichte. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Lange, dunkle Blätter mit fester Textur zum Kochen und für gehackte Salate."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Schwarzkohl in Suppen, Schmorgerichten oder Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne die harten Mittelrippen und schneide die Blätter für Suppen oder Schmorgerichte in feine Streifen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing."
+        }
+      ],
+      "preparation": "Entferne die harten Mittelrippen und schneide die Blätter für Suppen oder Schmorgerichte in feine Streifen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Natürliche Nährstoffe",
+      "nutrition": [
+        {
+          "title": "Vitamin K",
+          "text": "Grünkohl enthält Vitamin K, das für eine normale Blutgerinnung gebraucht wird."
+        },
+        {
+          "title": "Ballaststoffe",
+          "text": "Ganze Blätter liefern Ballaststoffe für die Mahlzeit."
+        },
+        {
+          "title": "Auf die Portion kommt es an",
+          "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        }
+      ]
+    }
+  },
+  "thyme": {
+    "source": "e9042f32",
+    "name": "Thymian",
+    "description": "Winzige Blätter mit erdigem, duftendem Aroma.",
+    "uses": [
+      "Rösten",
+      "Brühen",
+      "Soßen"
+    ],
+    "details": {
+      "tagline": "Rösten. Brühen. Soßen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Winzige Blätter mit erdigem, duftendem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Thymian beim Rösten, in Brühen oder in Soßen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Streife die winzigen Blätter ab oder gare einen ganzen Zweig mit und entferne den holzigen Stiel vor dem Servieren."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren."
+        }
+      ],
+      "preparation": "Streife die winzigen Blätter ab oder gare einen ganzen Zweig mit und entferne den holzigen Stiel vor dem Servieren.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "coriander-microgreens": {
+    "source": "ed7ab488",
+    "name": "Koriander-Microgreens",
+    "description": "Junge Korianderblätter mit konzentriertem Kräuteraroma.",
+    "uses": [
+      "Tacos",
+      "Suppen",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Tacos. Suppen. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Junge Korianderblätter mit konzentriertem Kräuteraroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Koriander-Microgreens in Tacos, Suppen oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gib die aromatischen Triebe zu Tomaten, Reis oder einer Schale warmer Suppe."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "green-beans": {
+    "source": "c9b841da",
+    "name": "Grüne Bohnen",
+    "description": "Zarte Hülsen für schnelles Garen und knackige Gemüsegerichte.",
+    "uses": [
+      "Wokgerichte",
+      "Salate",
+      "Pfannengerichte"
+    ],
+    "details": {
+      "tagline": "Wokgerichte. Salate. Pfannengerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Hülsen für schnelles Garen und knackige Gemüsegerichte."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere grüne Bohnen in Wokgerichten, Salaten oder Pfannengerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide die Enden ab und gare sie, bis sie zart sind. Für einen Salat lässt du die gegarten Bohnen abkühlen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Knoblauch, Sesam, Zitrone oder geröstete Mandeln."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide sie auf eine ähnliche Länge, damit sie gleichmäßig garen, und mische sie noch warm mit dem Dressing."
+        }
+      ],
+      "preparation": "Schneide die Enden ab und gare sie, bis sie zart sind. Für einen Salat lässt du die gegarten Bohnen abkühlen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "swiss-chard": {
+    "source": "db568563",
+    "name": "Mangold",
+    "description": "Breite Blätter und knackige Stiele – zwei Texturen für ein Gericht.",
+    "uses": [
+      "Pfannengerichte",
+      "Gratins",
+      "Suppen"
+    ],
+    "details": {
+      "tagline": "Pfannengerichte. Gratins. Suppen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Breite Blätter und knackige Stiele – zwei Texturen für ein Gericht."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Mangold in Pfannengerichten, Gratins oder Suppen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Trenne die Stiele von den Blättern. Gare zuerst die gehackten Stiele und gib dann die Blätter dazu."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Knoblauch, Linsen, weiße Bohnen oder etwas abgeriebene Zitronenschale."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schneide die Stiele klein und hebe sie für die Pfanne auf. Sie brauchen dort mehr Zeit als die Blätter."
+        }
+      ],
+      "preparation": "Trenne die Stiele von den Blättern. Gare zuerst die gehackten Stiele und gib dann die Blätter dazu.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "rosemary": {
+    "source": "d0109b10",
+    "name": "Rosmarin",
+    "description": "Nadelförmige Blätter mit kräftigem, kiefernartigem Aroma.",
+    "uses": [
+      "Ofengemüse",
+      "Brot",
+      "Marinaden"
+    ],
+    "details": {
+      "tagline": "Ofengemüse. Brot. Marinaden.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Nadelförmige Blätter mit kräftigem, kiefernartigem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Rosmarin zu Ofengemüse, in Brot oder in Marinaden."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Streife die Nadeln ab und hacke sie fein. Verwende ihn sparsam und entferne ganze Zweige vor dem Servieren."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren."
+        }
+      ],
+      "preparation": "Streife die Nadeln ab und hacke sie fein. Verwende ihn sparsam und entferne ganze Zweige vor dem Servieren.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens": {
+    "source": "a802e69b",
+    "name": "Bockshornklee-Microgreens",
+    "description": "Junge Bockshornklee-Triebe (Methi) mit würzigem, leicht bitterem Geschmack.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Regionale Gerichte"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Regionale Gerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Junge Bockshornklee-Triebe (Methi) mit würzigem, leicht bitterem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Bockshornklee-Microgreens in Salaten, Sandwiches oder regionalen Gerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die würzigen Triebe passen zu Kartoffeln, Linsen oder einer Kichererbsenfüllung."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "bok-choy": {
+    "source": "fc3d870d",
+    "name": "Pak Choi",
+    "description": "Löffelförmige Blätter und knackige helle Stiele mit mildem Kohlgeschmack.",
+    "uses": [
+      "Wokgerichte",
+      "Brühen",
+      "Gedämpftes Blattgemüse"
+    ],
+    "details": {
+      "tagline": "Wokgerichte. Brühen. Gedämpftes Blattgemüse.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Löffelförmige Blätter und knackige helle Stiele mit mildem Kohlgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Pak Choi in Wokgerichten, in Brühen oder gedämpft."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn gründlich zwischen den Stielen. Gare zuerst die Stiele und gib die Blätter gegen Ende dazu."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Sesam, Pilze oder Tofu."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Halbiere kleine Stauden längs – das sieht auf dem Teller schön aus. Lass den Strunk dran, damit die Blätter zusammenhalten."
+        }
+      ],
+      "preparation": "Wasche ihn gründlich zwischen den Stielen. Gare zuerst die Stiele und gib die Blätter gegen Ende dazu.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "sage": {
+    "source": "d87fce09",
+    "name": "Salbei",
+    "description": "Weiche, graugrüne Blätter mit tiefem, würzigem Aroma.",
+    "uses": [
+      "Braune Butter",
+      "Rösten",
+      "Füllungen"
+    ],
+    "details": {
+      "tagline": "Braune Butter. Rösten. Füllungen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Weiche, graugrüne Blätter mit tiefem, würzigem Aroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Salbei in brauner Butter, beim Rösten oder in Füllungen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Tupfe die Blätter trocken und brate sie kurz in Butter oder hacke sie fein für eine Füllung."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren."
+        }
+      ],
+      "preparation": "Tupfe die Blätter trocken und brate sie kurz in Butter oder hacke sie fein für eine Füllung.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "wheatgrass": {
+    "source": "aee13940",
+    "name": "Weizengras",
+    "description": "Junge Weizentriebe, angebaut für die frische Zubereitung.",
+    "uses": [
+      "Entsaften"
+    ],
+    "details": {
+      "tagline": "Entsaften.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Junge Weizentriebe, angebaut für die frische Zubereitung."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Weizengras zum Entsaften."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle die geschnittenen Triebe ab und nutze einen geeigneten Weizengras-Entsafter. Serviere den Saft frisch und verwende die Triebe nicht als Salat."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Mische eine kleine Menge frisch gepressten Saft mit Apfel- oder Gurkensaft."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Bereite nur so viel Saft zu, wie du servieren möchtest. Siebe grobe Fasern ab, dann wird er feiner."
+        }
+      ],
+      "preparation": "Spüle die geschnittenen Triebe ab und nutze einen geeigneten Weizengras-Entsafter. Serviere den Saft frisch und verwende die Triebe nicht als Salat.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "tatsoi": {
+    "source": "41b56aea",
+    "name": "Tatsoi",
+    "description": "Kleine, rundliche Blätter mit milder Senfnote.",
+    "uses": [
+      "Salate",
+      "Suppen",
+      "Wokgerichte"
+    ],
+    "details": {
+      "tagline": "Salate. Suppen. Wokgerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine, rundliche Blätter mit milder Senfnote."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Tatsoi in Salaten, Suppen oder Wokgerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Löse die Blätter ab und wasche sie. Gib sie ganz in eine Suppe oder ein schnelles Wokgericht."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Sesam, Ingwer, Nudeln oder Tofu."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Gib die zarten Blätter kurz vor dem Servieren in eine warme Bowl, damit sie noch etwas Form behalten."
+        }
+      ],
+      "preparation": "Löse die Blätter ab und wasche sie. Gib sie ganz in eine Suppe oder ein schnelles Wokgericht.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "lemon-balm": {
+    "source": "9057880a",
+    "name": "Zitronenmelisse",
+    "description": "Zarte Blätter mit sanftem Zitronenduft.",
+    "uses": [
+      "Aufgüsse",
+      "Fruchtige Gerichte",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Aufgüsse. Fruchtige Gerichte. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Blätter mit sanftem Zitronenduft."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Zitronenmelisse in Aufgüssen, fruchtigen Gerichten oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Drücke die gewaschenen Blätter für einen Aufguss leicht an oder hacke ein paar über Obst."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Beeren, Melone oder ein milder Kräuteraufguss."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Drücke ein paar Blätter leicht an, damit sie ihren Duft freigeben, und gib sie dann in ein abgekühltes Getränk."
+        }
+      ],
+      "preparation": "Drücke die gewaschenen Blätter für einen Aufguss leicht an oder hacke ein paar über Obst.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "kohlrabi-microgreens": {
+    "source": "46bf5e73",
+    "name": "Kohlrabi-Microgreens",
+    "description": "Zarte Triebe mit sanftem Kohlgeschmack.",
+    "uses": [
+      "Salate",
+      "Bowls",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Salate. Bowls. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Triebe mit sanftem Kohlgeschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kohlrabi-Microgreens in Salaten, Bowls oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "mizuna": {
+    "source": "28caab47",
+    "name": "Mizuna",
+    "description": "Fein gezackte Blätter mit leicht pfeffrigem Geschmack.",
+    "uses": [
+      "Salatmischungen",
+      "Nudel-Bowls"
+    ],
+    "details": {
+      "tagline": "Salatmischungen. Nudel-Bowls.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Fein gezackte Blätter mit leicht pfeffrigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Mizuna in Salatmischungen oder Nudel-Bowls."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle die feinen Blätter vorsichtig ab und gib sie erst zum Schluss dazu, damit sie ihre Textur behalten."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Zitrusfrüchte, Sesam, Radieschen oder ein mildes Nudeldressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mische sie für einen Salat mit milderen Blättern oder gib zum Schluss eine lockere Handvoll auf eine Nudel-Bowl."
+        }
+      ],
+      "preparation": "Spüle die feinen Blätter vorsichtig ab und gib sie erst zum Schluss dazu, damit sie ihre Textur behalten.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "shiso": {
+    "source": "49790bae",
+    "name": "Shiso",
+    "description": "Markante, aromatische Blätter zum Einwickeln oder Garnieren.",
+    "uses": [
+      "Reisgerichte",
+      "Eingelegtes",
+      "Garnitur"
+    ],
+    "details": {
+      "tagline": "Reisgerichte. Eingelegtes. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Markante, aromatische Blätter zum Einwickeln oder Garnieren."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Shiso in Reisgerichten, in Eingelegtem oder als Garnitur."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche und trockne die Blätter. Schneide sie in feine Streifen oder lass sie ganz, um kleine Happen darin einzuwickeln."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Gurke, Reis, Sesam oder eingelegtes Gemüse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Lege ein paar trockene Blätter übereinander und schneide sie in feine Streifen für eine saubere Garnitur zum Schluss."
+        }
+      ],
+      "preparation": "Wasche und trockne die Blätter. Schneide sie in feine Streifen oder lass sie ganz, um kleine Happen darin einzuwickeln.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "garden-cress-microgreens": {
+    "source": "a462291b",
+    "name": "Gartenkresse-Microgreens",
+    "description": "Feine Triebe mit scharfem, pfeffrigem Geschmack.",
+    "uses": [
+      "Eiergerichte",
+      "Sandwiches",
+      "Salate"
+    ],
+    "details": {
+      "tagline": "Eiergerichte. Sandwiches. Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feine Triebe mit scharfem, pfeffrigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Gartenkresse-Microgreens in Eiergerichten, Sandwiches oder Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig."
+        }
+      ],
+      "preparation": "Spüle sie vorsichtig ab und lass sie gut abtropfen. Gib eine kleine Handvoll erst auf das fertige Gericht, damit die Triebe knackig bleiben.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "mustard-greens": {
+    "source": "f9c39244",
+    "name": "Blattsenf",
+    "description": "Kräftige Blätter mit Senfschärfe, die beim Kochen milder wird.",
+    "uses": [
+      "Saag",
+      "Wokgerichte",
+      "Einlegen"
+    ],
+    "details": {
+      "tagline": "Saag. Wokgerichte. Einlegen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kräftige Blätter mit Senfschärfe, die beim Kochen milder wird."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Blattsenf in Saag, in Wokgerichten oder eingelegt."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne grobe Stiele und gare die Blätter, bis sie zart sind und ihre Schärfe milder wird."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Knoblauch, Kartoffeln, Linsen oder eine milde Joghurtbeilage."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Hacke ihn fein für Saag oder mische ihn mit milderem Blattgemüse, damit der Senfgeschmack sanfter wird."
+        }
+      ],
+      "preparation": "Entferne grobe Stiele und gare die Blätter, bis sie zart sind und ihre Schärfe milder wird.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "chervil": {
+    "source": "8c156fac",
+    "name": "Kerbel",
+    "description": "Zarte Blätter mit leichter Anisnote.",
+    "uses": [
+      "Eier",
+      "Salate",
+      "Soßen verfeinern"
+    ],
+    "details": {
+      "tagline": "Eier. Salate. Soßen verfeinern.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Blätter mit leichter Anisnote."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Kerbel zu Eiern, in Salaten oder zum Verfeinern von Soßen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Schneide die zarten Blätter mit der Schere und gib sie erst nach dem Kochen dazu, damit ihr feines Aroma erhalten bleibt."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen."
+        }
+      ],
+      "preparation": "Schneide die zarten Blätter mit der Schere und gib sie erst nach dem Kochen dazu, damit ihr feines Aroma erhalten bleibt.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "radish-microgreens-live-tray": {
+    "source": "afaa910f",
+    "name": "Radieschen-Microgreens · Lebend in der Schale",
+    "description": "Pfeffrige junge Blätter. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Pfeffrige junge Blätter. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die Radieschen-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "watercress": {
+    "source": "41d3cdc3",
+    "name": "Brunnenkresse",
+    "description": "Kleine, rundliche Blätter mit lebhaftem, pfeffrigem Geschmack.",
+    "uses": [
+      "Suppen",
+      "Salate",
+      "Sandwiches"
+    ],
+    "details": {
+      "tagline": "Suppen. Salate. Sandwiches.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine, rundliche Blätter mit lebhaftem, pfeffrigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Brunnenkresse in Suppen, Salaten oder Sandwiches."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie gründlich und entferne grobe Stiele. Gib sie in Salate oder püriere sie in eine gekochte Suppe."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Kartoffeln, Eier, Zitrusfrüchte oder ein mildes, cremiges Dressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm die zarten Spitzen für Salate und hebe die festeren Stiele für eine gekochte Suppe auf."
+        }
+      ],
+      "preparation": "Wasche sie gründlich und entferne grobe Stiele. Gib sie in Salate oder püriere sie in eine gekochte Suppe.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "tarragon": {
+    "source": "69901840",
+    "name": "Estragon",
+    "description": "Schmale Blätter mit ausgeprägtem, anisartigem Geschmack.",
+    "uses": [
+      "Soßen",
+      "Dressings",
+      "Kräuterbutter"
+    ],
+    "details": {
+      "tagline": "Soßen. Dressings. Kräuterbutter.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Schmale Blätter mit ausgeprägtem, anisartigem Geschmack."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Estragon in Soßen, Dressings oder Kräuterbutter."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Streife die Blätter ab und hacke sie fein. Nimm für ein Dressing oder eine Soße zunächst nur wenig."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Senf, Kartoffeln, Eier oder ein cremiges Dressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm zuerst nur wenig, denn der anisartige Geschmack kann eine feine Soße überdecken."
+        }
+      ],
+      "preparation": "Streife die Blätter ab und hacke sie fein. Nimm für ein Dressing oder eine Soße zunächst nur wenig.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "pea-microgreens-live-tray": {
+    "source": "5198e055",
+    "name": "Erbsen-Microgreens · Lebend in der Schale",
+    "description": "Zarte Triebe mit süßem Erbsengeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Triebe mit süßem Erbsengeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die Erbsen-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "sorrel": {
+    "source": "c2f6c916",
+    "name": "Sauerampfer",
+    "description": "Säuerliche, zitronige Blätter, die in kleinen Mengen ein Gericht auffrischen.",
+    "uses": [
+      "Soßen",
+      "Suppen",
+      "Gemischte Salate"
+    ],
+    "details": {
+      "tagline": "Soßen. Suppen. Gemischte Salate.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Säuerliche, zitronige Blätter, die in kleinen Mengen ein Gericht auffrischen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Sauerampfer in Soßen, Suppen oder gemischten Salaten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Nimm ein paar gewaschene Blätter für eine säuerliche Note. Gib sie nach und nach dazu und schmecke dabei ab."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Ein paar Blätter passen zu Kartoffeln, Eiern oder einer cremigen Soße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Schmecke ab, bevor du Zitrone oder Essig dazugibst, denn Sauerampfer bringt schon eine säuerliche Note mit."
+        }
+      ],
+      "preparation": "Nimm ein paar gewaschene Blätter für eine säuerliche Note. Gib sie nach und nach dazu und schmecke dabei ab.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "marjoram": {
+    "source": "802bbebd",
+    "name": "Majoran",
+    "description": "Weiche Blätter mit sanftem, süßlichem Geschmack, der an Oregano erinnert.",
+    "uses": [
+      "Suppen",
+      "Soßen",
+      "Ofengemüse"
+    ],
+    "details": {
+      "tagline": "Suppen. Soßen. Ofengemüse.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Weiche Blätter mit sanftem, süßlichem Geschmack, der an Oregano erinnert."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Majoran in Suppen, Soßen oder zu Ofengemüse."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Streife die kleinen Blätter ab und gib sie gegen Ende der Kochzeit in Suppen oder Soßen."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren."
+        }
+      ],
+      "preparation": "Streife die kleinen Blätter ab und gib sie gegen Ende der Kochzeit in Suppen oder Soßen.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "sunflower-microgreens-live-tray": {
+    "source": "a436640b",
+    "name": "Sonnenblumen-Microgreens · Lebend in der Schale",
+    "description": "Knackige Triebe mit mildem, nussigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Knackige Triebe mit mildem, nussigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die Sonnenblumen-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "endive": {
+    "source": "55ffbd35",
+    "name": "Chicorée",
+    "description": "Feste Blätter mit angenehm bitterer Note.",
+    "uses": [
+      "Salate",
+      "Rösten",
+      "Vorspeisen"
+    ],
+    "details": {
+      "tagline": "Salate. Rösten. Vorspeisen.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feste Blätter mit angenehm bitterer Note."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Chicorée in Salaten, im Ofen geröstet oder als Vorspeise."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Löse die Blätter für kleine Salatschiffchen ab oder halbiere den Kolben vor dem Rösten."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Orange, Walnüsse, Apfel oder Frischkäse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nutze die festen äußeren Blätter als kleine Schiffchen für eine Füllung aus gehacktem Salat."
+        }
+      ],
+      "preparation": "Löse die Blätter für kleine Salatschiffchen ab oder halbiere den Kolben vor dem Rösten.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "lemongrass": {
+    "source": "9644eb9b",
+    "name": "Zitronengras",
+    "description": "Duftende Stängel mit klarem Zitrusaroma.",
+    "uses": [
+      "Currys",
+      "Brühen",
+      "Aufgüsse"
+    ],
+    "details": {
+      "tagline": "Currys. Brühen. Aufgüsse.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Duftende Stängel mit klarem Zitrusaroma."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Zitronengras in Currys, Brühen oder Aufgüssen."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne die harten äußeren Blätter. Quetsche den Stängel für Brühe leicht an und nimm ihn vor dem Servieren heraus oder hacke den zarten unteren Teil fein."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Kokosmilch, Limette oder Pilze."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Aromatisiere eine Brühe mit angequetschten Stängeln. Nimm große, faserige Stücke vor dem Servieren heraus."
+        }
+      ],
+      "preparation": "Entferne die harten äußeren Blätter. Quetsche den Stängel für Brühe leicht an und nimm ihn vor dem Servieren heraus oder hacke den zarten unteren Teil fein.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Kleine Blätter, viel Geschmack",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Frische Blätter geben schon in kleinen Mengen Geschmack."
+        },
+        {
+          "title": "Zum Verfeinern",
+          "text": "Mit Gemüse, Hülsenfrüchten und Getreide wird daraus ein vollständiges Gericht."
+        },
+        {
+          "title": "Auf die Menge kommt es an",
+          "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens-live-tray": {
+    "source": "184ffb84",
+    "name": "Brokkoli-Microgreens · Lebend in der Schale",
+    "description": "Kleine Blätter mit mildem Kohlgeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Kleine Blätter mit mildem Kohlgeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die Brokkoli-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "radicchio": {
+    "source": "6054b24c",
+    "name": "Radicchio",
+    "description": "Rote Blätter mit weißen Rippen bringen Bitterkeit und Kontrast auf den Teller.",
+    "uses": [
+      "Salate",
+      "Grillen",
+      "Risotto"
+    ],
+    "details": {
+      "tagline": "Salate. Grillen. Risotto.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Rote Blätter mit weißen Rippen bringen Bitterkeit und Kontrast auf den Teller."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Radicchio in Salaten, gegrillt oder im Risotto."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Entferne den Strunk. Schneide ihn für Salate in feine Streifen oder zum Grillen in Spalten."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Birne, Orange, Walnüsse oder ein milder Käse."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Mische rohe Streifen mit süßeren Zutaten oder grille Spalten, damit sie weicher werden."
+        }
+      ],
+      "preparation": "Entferne den Strunk. Schneide ihn für Salate in feine Streifen oder zum Grillen in Spalten.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens-live-tray": {
+    "source": "b724d323",
+    "name": "Bockshornklee-Microgreens · Lebend in der Schale",
+    "description": "Aromatische Triebe mit leichter Bitternote. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Aromatische Triebe mit leichter Bitternote. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die Bockshornklee-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die würzigen Triebe passen zu Kartoffeln, Linsen oder einer Kichererbsenfüllung."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "amaranth-greens": {
+    "source": "e36b47cf",
+    "name": "Amaranthblätter",
+    "description": "Zarte Blätter, die in vielen regionalen indischen Gemüsegerichten verwendet werden.",
+    "uses": [
+      "Dal",
+      "Wokgerichte",
+      "Gegartes Blattgemüse"
+    ],
+    "details": {
+      "tagline": "Dal. Wokgerichte. Gegartes Blattgemüse.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte Blätter, die in vielen regionalen indischen Gemüsegerichten verwendet werden."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Amaranthblätter im Dal, in Wokgerichten oder als gegartes Blattgemüse."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche sie gut, entferne harte Stiele und gare die Blätter in einem Dal oder Gemüsegericht mit."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Linsen, Knoblauch, Kokos oder Kreuzkümmel."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Hacke Blätter und zarte Stiele für eine gegarte Beilage. Entferne vorher die groben Stängel."
+        }
+      ],
+      "preparation": "Wasche sie gut, entferne harte Stiele und gare die Blätter in einem Dal oder Gemüsegericht mit.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "source": "5db14b16",
+    "name": "Rote Amaranth-Microgreens · Lebend in der Schale",
+    "description": "Feine rote Triebe mit erdigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "uses": [
+      "Salate",
+      "Sandwiches",
+      "Garnitur",
+      "Zu Hause ernten"
+    ],
+    "details": {
+      "tagline": "Salate. Sandwiches. Garnitur.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Feine rote Triebe mit erdigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere die roten Amaranth-Microgreens aus der Schale in Salaten, Sandwiches oder als Garnitur."
+        },
+        {
+          "title": "Nach Bedarf schneiden",
+          "text": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen."
+        }
+      ],
+      "preparation": "Schneide die Triebe mit einer sauberen Schere über dem Substrat ab. Spüle die geernteten Triebe vor dem Essen ab; Wurzeln und Substrat bleiben in der Schale.",
+      "storage": "Aufrecht an einen hellen Platz ohne direkte Sonne stellen. Das Substrat leicht feucht halten, aber nicht nass. Geschnittene Triebe im Kühlschrank aufbewahren und zügig verbrauchen.",
+      "nutritionTitle": "Wissenswertes über Microgreens",
+      "nutrition": [
+        {
+          "title": "Junge Triebe",
+          "text": "Früh geerntet für ihren Geschmack und ihre Textur."
+        },
+        {
+          "title": "Natürliche Schwankungen",
+          "text": "Der Gehalt an Vitaminen und Mineralstoffen schwankt je nach Pflanzenart und Anbaubedingungen."
+        },
+        {
+          "title": "Bunt gemischt",
+          "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        }
+      ]
+    }
+  },
+  "fenugreek-greens": {
+    "source": "2be34ad8",
+    "name": "Bockshornkleeblätter",
+    "description": "Aromatische Bockshornkleeblätter (Methi) mit typisch bitter-würziger Note.",
+    "uses": [
+      "Parathas",
+      "Dal",
+      "Gemüsegerichte"
+    ],
+    "details": {
+      "tagline": "Parathas. Dal. Gemüsegerichte.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Aromatische Bockshornkleeblätter (Methi) mit typisch bitter-würziger Note."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Bockshornkleeblätter in Parathas, im Dal oder in Gemüsegerichten."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Zupfe die Blätter von den dicken Stielen, wasche sie gut und hacke sie für Dal oder Parathas."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Kartoffeln, Erbsen, Linsen oder Vollkornteig."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Arbeite gehackte Blätter in Paratha-Teig ein oder gib eine kleine Handvoll in ein Gemüsecurry."
+        }
+      ],
+      "preparation": "Zupfe die Blätter von den dicken Stielen, wasche sie gut und hacke sie für Dal oder Parathas.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  },
+  "napa-cabbage": {
+    "source": "aa9e90d8",
+    "name": "Chinakohl",
+    "description": "Zarte, geschichtete Blätter mit milden, knackigen Rippen.",
+    "uses": [
+      "Wokgerichte",
+      "Suppen",
+      "Fermentiertes"
+    ],
+    "details": {
+      "tagline": "Wokgerichte. Suppen. Fermentiertes.",
+      "benefits": [
+        {
+          "title": "Geschmack und Textur",
+          "text": "Zarte, geschichtete Blätter mit milden, knackigen Rippen."
+        },
+        {
+          "title": "Leicht einzubauen",
+          "text": "Probiere Chinakohl in Wokgerichten, Suppen oder fermentiert."
+        },
+        {
+          "title": "Einfach zubereitet",
+          "text": "Wasche ihn gut zwischen den Blattlagen. Schneide Rippen und Blätter getrennt, damit alles gleichmäßig gart."
+        },
+        {
+          "title": "Gute Begleiter",
+          "text": "Dazu passen Ingwer, Pilze, Tofu oder Frühlingszwiebeln."
+        },
+        {
+          "title": "Serviertipp",
+          "text": "Nutze die dickeren Rippen für Biss und die weicheren Blätter, um eine leichte Brühe aufzusaugen."
+        }
+      ],
+      "preparation": "Wasche ihn gut zwischen den Blattlagen. Schneide Rippen und Blätter getrennt, damit alles gleichmäßig gart.",
+      "storage": "Gekühlt lagern und vor Druck schützen. Erst kurz vor der Verwendung waschen und nach dem Öffnen zügig verbrauchen.",
+      "nutritionTitle": "Für einen abwechslungsreichen Teller",
+      "nutrition": [
+        {
+          "title": "Ballaststoffe",
+          "text": "Gemüse steuert Ballaststoffe zu einer abwechslungsreichen Ernährung bei."
+        },
+        {
+          "title": "Vitamine und Mineralstoffe",
+          "text": "Die Zusammensetzung hängt von Gemüse, Portion und Zubereitung ab."
+        },
+        {
+          "title": "Abwechslung",
+          "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        }
+      ]
+    }
+  }
+}

@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import { ShoppingBag, Check, Minus, Plus } from "lucide-react";
 import { useCart } from "./cart-store";
+import { useI18n } from "./i18n/provider";
 export function AddToCart({
   slug,
   name,
@@ -13,25 +14,32 @@ export function AddToCart({
   compact?: boolean;
 }) {
   const cart = useCart();
+  const { t, fill } = useI18n();
   const [quantity, setQuantity] = useState(1);
-  const [message, setMessage] = useState("");
+  const [added, setAdded] = useState(false);
+  const [error, setError] = useState("");
+  function changeQuantity(next: number) {
+    setQuantity(next);
+    setAdded(false);
+    setError("");
+  }
   return (
     <div className={compact ? "add-crop compact" : "add-crop"}>
       {!compact && (
         <div className="quantity-picker">
           <button
             type="button"
-            aria-label={`Reduce ${name} quantity`}
-            onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+            aria-label={fill(t.addToCart.reduce, { name })}
+            onClick={() => changeQuantity(Math.max(1, quantity - 1))}
             disabled={quantity === 1}
           >
             <Minus size={15} />
           </button>
-          <output aria-label="Selected quantity">{quantity}</output>
+          <output aria-label={t.addToCart.selectedQuantity}>{quantity}</output>
           <button
             type="button"
-            aria-label={`Increase ${name} quantity`}
-            onClick={() => setQuantity((q) => Math.min(99, q + 1))}
+            aria-label={fill(t.addToCart.increase, { name })}
+            onClick={() => changeQuantity(Math.min(99, quantity + 1))}
             disabled={quantity === 99}
           >
             <Plus size={15} />
@@ -41,28 +49,30 @@ export function AddToCart({
       <button
         className={`button ${compact ? "button-outline" : "button-primary"}`}
         type="button"
-        aria-label={`Add ${name} to basket`}
-        onClick={() =>
-          setMessage(
-            cart.add(slug, quantity)
-              ? "Added to your basket."
-              : "Basket limit: 20 crops, up to 99 units each.",
-          )
-        }
+        aria-label={fill(added ? t.addToCart.added : t.addToCart.add, { name })}
+        aria-live="polite"
+        onClick={() => {
+          const success = cart.add(slug, quantity);
+          setAdded(success);
+          setError(success ? "" : t.addToCart.limit);
+        }}
       >
-        {compact ? (
-          message === "Added to your basket." ? <Check size={22} /> : <Plus size={24} />
-        ) : <><ShoppingBag size={16} />Add to Basket</>}
+        {added ? (
+          <Check size={18} aria-hidden="true" />
+        ) : (
+          <ShoppingBag size={compact ? 16 : 18} aria-hidden="true" />
+        )}
+        <span>
+          {added
+            ? t.addToCart.addedShort
+            : compact
+              ? t.addToCart.compact
+              : t.addToCart.addShort}
+        </span>
       </button>
-      {message && (
-        <div className={compact && message === "Added to your basket." ? "sr-only" : "cart-feedback"} role="status">
-          <Check size={13} />
-          {message} {!compact && <Link href="/cart">View basket →</Link>}
-        </div>
-      )}
-      {!compact && (
-        <p className="purchase-note">
-          Delivery across India.
+      {error && (
+        <p className="cart-feedback" role="alert">
+          {error}
         </p>
       )}
     </div>
@@ -70,11 +80,12 @@ export function AddToCart({
 }
 export function CartLink() {
   const { count } = useCart();
+  const { t, plural } = useI18n();
   return (
     <Link
       href="/cart"
       className="cart-link icon-button"
-      aria-label={`Basket, ${count} items`}
+      aria-label={plural(count, t.cartLink)}
     >
       <ShoppingBag size={21} strokeWidth={1.5} />
       <span aria-hidden="true">{count}</span>

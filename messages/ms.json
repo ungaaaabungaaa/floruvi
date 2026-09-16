@@ -1,0 +1,1194 @@
+{
+  "meta": {
+    "siteName": "Floruvi Farm",
+    "defaultTitle": "Floruvi — Kesegaran yang berbaloi ditanam",
+    "titleTemplate": "%s | Floruvi Farm",
+    "description": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar untuk rumah atau perniagaan anda, dihantar ke seluruh India.",
+    "descriptionExport": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar dari India untuk rumah & perniagaan di {country}.",
+    "ogAlt": "Floruvi — Kesegaran yang berbaloi ditanam",
+    "productTitle": "{name} – {country}",
+    "productDescription": "{description} {pack} – {price}.",
+    "recipeTitle": "Resipi {name}",
+    "products": {
+      "title": "Produk Segar Kami",
+      "description": "Terokai sayur-sayuran & herba Floruvi. Terokai sayur berdaun, herba, mikrogrin, tanaman berbuah, akar umbi, & bunga boleh dimakan."
+    },
+    "boxes": {
+      "title": "Langganan Kotak Sayur",
+      "description": "Kotak sayur untuk seorang, dua orang, atau sekeluarga. Pilih kotak sekali sahaja, mingguan, atau penghantaran bulanan. Minta ketersediaan daripada Floruvi."
+    },
+    "cart": {
+      "title": "Bakul Anda"
+    },
+    "checkout": {
+      "title": "Semakan Pesanan"
+    },
+    "wishlist": {
+      "title": "Senarai Kegemaran Anda"
+    },
+    "contact": {
+      "title": "Hubungi Ladang",
+      "description": "Tanya tentang tanaman, ketersediaan, & produk untuk rumah anda. Tiada akaun diperlukan."
+    },
+    "faq": {
+      "title": "Soalan Lazim",
+      "description": "Jawapan tentang membeli-belah, kotak sayur, penghantaran, penjagaan produk, produk disimpan & privasi di Floruvi."
+    },
+    "privacy": {
+      "title": "Notis Privasi",
+      "description": "Cara Floruvi mengendalikan pertanyaan, storan pelayar, produk disimpan & permintaan privasi."
+    },
+    "howWeGrow": {
+      "title": "Di Dalam Menara Aeroponik",
+      "description": "Ikuti aliran air, terokai akar & lihat cara menara aeroponik berkitar menghasilkan sayur segar."
+    },
+    "realTalk": {
+      "title": "Bicara Sebenar Tentang Makanan Harian",
+      "description": "Cara mudah untuk memasukkan lebih banyak sayur dalam menu mingguan anda, tanpa kerumitan & dengan rancangan yang jelas."
+    },
+    "recipes": {
+      "title": "Resipi Mudah",
+      "description": "Idea segar untuk masakan harian. Terokai salad sayur, sup, smoothie, sarapan, bowl & pasta bersama Floruvi."
+    },
+    "productNotFound": "Produk tidak dijumpai",
+    "recipeNotFound": "Resipi tidak dijumpai"
+  },
+  "common": {
+    "skipToContent": "Langkau ke kandungan",
+    "brand": {
+      "home": "Laman utama Floruvi",
+      "tagline": "Kesegaran yang berbaloi ditanam"
+    },
+    "nav": {
+      "shop": "Kedai",
+      "boxes": "Kotak",
+      "recipes": "Resipi",
+      "talk": "Mari berbual",
+      "main": "Navigasi utama",
+      "mobile": "Navigasi mudah alih",
+      "open": "Buka navigasi",
+      "close": "Tutup navigasi",
+      "description": "Terokai ladang & hubungi kami."
+    },
+    "footer": {
+      "shop": "Kedai",
+      "vegetables": "Sayur-sayuran",
+      "boxes": "Langganan kotak",
+      "learn": "Ketahui",
+      "howWeGrow": "Cara kami menanam",
+      "recipes": "Resipi",
+      "help": "Bantuan",
+      "contact": "Hubungi",
+      "faq": "Soalan lazim",
+      "privacy": "Privasi",
+      "copyright": "© {year} Floruvi Farm"
+    },
+    "locale": {
+      "label": "Negara & bahasa",
+      "change": "Tukar negara atau bahasa. Semasa: {country}, {language}",
+      "title": "Pilih negara anda",
+      "description": "Harga, mata wang & butiran penghantaran mengikut negara yang anda pilih.",
+      "close": "Tutup",
+      "language": "Bahasa"
+    },
+    "money": {
+      "unavailable": "Tidak tersedia",
+      "quoteRequired": "Sebut harga diperlukan"
+    },
+    "cartLink": {
+      "other": "Bakul, {count} item"
+    },
+    "addToCart": {
+      "reduce": "Kurangkan kuantiti {name}",
+      "increase": "Tambah kuantiti {name}",
+      "selectedQuantity": "Kuantiti dipilih",
+      "add": "Tambah {name} ke bakul",
+      "added": "{name} ditambah ke bakul",
+      "addShort": "Tambah ke bakul",
+      "addedShort": "Ditambah",
+      "limit": "Had bakul dicapai. Kurangkan kuantiti atau keluarkan satu item.",
+      "compact": "Tambah"
+    },
+    "wishlist": {
+      "save": "Simpan {name} ke senarai kegemaran",
+      "remove": "Keluarkan {name} daripada senarai kegemaran",
+      "title": "Senarai Kegemaran",
+      "menu": {
+        "other": "Senarai kegemaran, {count} produk disimpan"
+      }
+    },
+    "boxes": {
+      "single": {
+        "name": "Individu",
+        "people": "1 orang"
+      },
+      "dual": {
+        "name": "Berdua",
+        "people": "2 orang"
+      },
+      "family": {
+        "name": "Keluarga",
+        "people": "4 orang atau lebih"
+      },
+      "schedules": {
+        "once": "Sekali",
+        "weekly": "Mingguan",
+        "monthly": "Bulanan",
+        "daily": "Sekali sehari",
+        "fortnightly": "Setiap 2 minggu"
+      },
+      "boxName": "Kotak {name} · {schedule}",
+      "perDelivery": "setiap penghantaran"
+    },
+    "basket": {
+      "checkFailed": "Tidak dapat menyemak bakul anda.",
+      "summary": "Ringkasan pesanan",
+      "subtotal": "Jumlah kecil",
+      "items": {
+        "other": "({count} item)"
+      },
+      "deliveryFee": "Yuran penghantaran",
+      "deliveryQuoted": "Disebut harga selepas semakan",
+      "total": "Jumlah",
+      "totalBeforeDelivery": "Jumlah sebelum penghantaran",
+      "noPayment": "Tiada bayaran dikenakan.",
+      "deliveryInfo": "Maklumat penghantaran",
+      "emptyEyebrow": "RUANG UNTUK SESUATU YANG SEGAR",
+      "emptyTitle": "Bakul anda kosong.",
+      "emptyText": "Pilih sayur-sayuran untuk bermula.",
+      "emptyCta": "Terokai Produk"
+    },
+    "validation": {
+      "name": "Masukkan nama anda.",
+      "email": "Masukkan alamat e-mel yang sah.",
+      "phone": "Masukkan nombor telefon yang sah.",
+      "deliveryPhone": "Masukkan nombor telefon untuk penghantaran.",
+      "city": "Masukkan bandar anda.",
+      "message": "Sila tambah sekurang-kurangnya 10 aksara.",
+      "consent": "Sila bersetuju supaya kami dapat menjawab permintaan anda.",
+      "business": "Masukkan nama perniagaan anda.",
+      "generic": "Semak butiran anda."
+    },
+    "requestErrors": {
+      "notConnected": "Pertanyaan belum disambungkan. Sila cuba lagi kemudian.",
+      "tooMany": "Terlalu banyak permintaan. Sila cuba lagi dalam masa satu jam.",
+      "notSaved": "Permintaan anda tidak disimpan. Sila cuba lagi sebentar lagi."
+    },
+    "error": {
+      "eyebrow": "REHAT SEKETIKA",
+      "title": "Kami tidak dapat memuatkan halaman ini.",
+      "text": "Katalog ladang tidak tersedia buat sementara waktu. Sila cuba lagi.",
+      "retry": "Cuba Lagi"
+    }
+  },
+  "home": {
+    "srTitle": "Floruvi — Kesegaran yang berbaloi ditanam",
+    "carousel": "Kesegaran yang berbaloi ditanam",
+    "slide": "{index} daripada {total}: {name}",
+    "chooseStory": "Pilih satu cerita",
+    "showStory": "Tunjukkan cerita {index}: {name}",
+    "previous": "Cerita sebelumnya",
+    "next": "Cerita seterusnya",
+    "pause": "Jeda cerita",
+    "play": "Main cerita",
+    "stories": [
+      {
+        "name": "Tuaian",
+        "eyebrow": "KESEGARAN YANG BERBALOI DITANAM",
+        "title": [
+          "Sayur segar.",
+          "Hari lebih ceria."
+        ],
+        "note": "Sedikit lagi kehijauan. Lebih banyak untuk dinantikan.",
+        "alt": "Sebuah peti kayu berisi selada, kale dan herba segar.",
+        "signature": "Perkara baik\nsedang tumbuh."
+      },
+      {
+        "name": "Harian Anda",
+        "eyebrow": "BERI RUANG UNTUK KESEGARAN",
+        "title": [
+          "Rutin kecil.",
+          "Permulaan segar."
+        ],
+        "note": "Sesuatu yang rangup. Sesuatu yang hijau. Sesuatu untuk anda.",
+        "alt": "Daun hijau rangup dibilas dalam penapis warna gading.",
+        "signature": "Permulaan segar,\nsetiap hari."
+      },
+      {
+        "name": "Lebih Warna",
+        "eyebrow": "PESTA UNTUK PANCAINDERA",
+        "title": [
+          "Makan penuh",
+          "warna-warni."
+        ],
+        "note": "Tomato manis. Daun rangup. Hidangan yang berbaloi dinikmati perlahan-lahan.",
+        "alt": "Tomato, radis, lobak merah dan daun segar berwarna-warni di atas batu pucat.",
+        "signature": "Warna sungguh\nsesuai buat anda."
+      },
+      {
+        "name": "Keajaiban Kecil",
+        "eyebrow": "KENALI MIKROGRIN",
+        "title": [
+          "Daun kecil.",
+          "Rasa besar."
+        ],
+        "note": "Sentuhan akhir segar yang layak untuk hidangan harian anda.",
+        "alt": "Mikrogrin radis segar dengan daun hijau dan batang merah jambu yang halus.",
+        "signature": "Daun kecil,\nbanyak disayangi."
+      },
+      {
+        "name": "Menanam Lebih Baik",
+        "eyebrow": "CARA BAHARU UNTUK MENANAM",
+        "title": [
+          "Berakar dengan teliti.",
+          "Ditanam secara berbeza."
+        ],
+        "note": "Terokai dunia hidroponik & aeroponik.",
+        "alt": "Ilustrasi sayur berdaun tumbuh dalam menara menegak yang disinari cahaya matahari.",
+        "signature": "Sedikit lebih dekat\ndengan alam."
+      },
+      {
+        "name": "Di Meja Anda",
+        "eyebrow": "MAKANAN BAIK. TEMAN BAIK.",
+        "title": [
+          "Perkara terbaik",
+          "dikongsi bersama."
+        ],
+        "note": "Bahan-bahan segar. Hidangan ringkas. Satu lagi sebab untuk berkumpul.",
+        "alt": "Salad segar berwarna-warni dan pinggan tersedia untuk makan tengah hari bersama.",
+        "signature": "Beri ruang\nuntuk makanan baik."
+      }
+    ],
+    "freshToday": "Segar hari ini.",
+    "shopAll": "Beli Semua",
+    "categoriesLabel": "Kategori kedai",
+    "categoryLinks": {
+      "leafy": "Sayur Berdaun",
+      "herbs": "Herba Segar",
+      "microgreens": "Mikrogrin",
+      "colourful": "Tanaman Berwarna-warni"
+    },
+    "nutritionTitle": "Makan pelbagai warna.",
+    "nutritionAccent": "Rasai perbezaannya.",
+    "benefit": "{name}: {nutrient}",
+    "benefits": [
+      {
+        "name": "Kesihatan Pencernaan",
+        "nutrient": "SERAT"
+      },
+      {
+        "name": "Penglihatan Sihat",
+        "nutrient": "VITAMIN A"
+      },
+      {
+        "name": "Imuniti Harian",
+        "nutrient": "VITAMIN C"
+      },
+      {
+        "name": "Pertumbuhan Sel",
+        "nutrient": "FOLAT"
+      }
+    ],
+    "strengthTitle": "Rutin yang lebih kukuh.",
+    "strengthAccent": "Satu pilihan baik\npada satu masa.",
+    "strengthLabel": "Makanan, pergerakan dan rehat",
+    "strengthWords": [
+      "Makan dengan baik",
+      "Bergerak kerap",
+      "Rehat secukupnya"
+    ],
+    "strengthAlt": "Seorang atlet dewasa berpakaian sukan hijau meregangkan badan selepas bersenam, wajahnya di luar bingkai gambar.",
+    "goodnessTitle": "Pilih mengikut perasaan yang anda mahu.",
+    "goodness": [
+      {
+        "name": "Sayangi perut anda.",
+        "note": "Tambah serat pada hidangan anda",
+        "crop": "Lobak Merah"
+      },
+      {
+        "name": "Jaga mata anda.",
+        "note": "Beri ruang untuk vitamin A",
+        "crop": "Bayam"
+      },
+      {
+        "name": "Sokong daya tahan badan anda.",
+        "note": "Kenali vitamin C",
+        "crop": "Lada Benggala"
+      },
+      {
+        "name": "Kekalkan kepelbagaian.",
+        "note": "Sedikit lagi kebaikan sayur berdaun",
+        "crop": "Sayur Berdaun"
+      }
+    ],
+    "mealAlt": "Semangkuk sayur-sayuran, kacang kuda dan kuinoa di atas meja berlapik linen.",
+    "mealTitle": "Tabiat baik anda yang seterusnya",
+    "mealAccent": "bermula di atas pinggan.",
+    "recipesTitle": "Kurang tertanya-tanya. Lebih banyak memasak.",
+    "allRecipes": "Semua Resipi",
+    "minutes": "{count} min",
+    "boxesTitle": "Makanan yang baik.",
+    "boxesAccent": "Ruang untuk semua.",
+    "exploreBoxes": "Terokai Kotak",
+    "boxLabel": "Terokai kotak {name} untuk {people}",
+    "boxAlt": "Kotak {name} dengan selada, bayam, tomato, timun, lobak merah dan pudina",
+    "moreTitle": "Lebih banyak sayur untuk disukai.",
+    "seeEverything": "Lihat Semua",
+    "invitationTitle": "Sedikit lagi kehijauan.",
+    "invitationAccent": "Tempat yang baik untuk bermula.",
+    "findFavourites": "Cari kegemaran segar anda",
+    "searchAction": "Cari produk"
+  },
+  "shop": {
+    "interludes": [
+      {
+        "title": "Bawa warna ke meja makan.",
+        "alt": "Lobak merah, bit & kacang kuda panggang di atas talam"
+      },
+      {
+        "title": "Permulaan segar. Pagi yang santai.",
+        "alt": "Roti bakar avokado & smoothie hijau dalam cahaya pagi"
+      },
+      {
+        "title": "Bahan-bahan baik. Petang yang indah.",
+        "alt": "Pasta basil & tomato ceri di atas meja hijau"
+      }
+    ],
+    "searchLabel": "Cari produk",
+    "searchPlaceholder": "Cari sayur-sayuran & herba",
+    "clearSearch": "Kosongkan carian",
+    "filterLabel": "Tapis mengikut kategori",
+    "allProduce": "Semua Produk",
+    "bannerAlt": "Sebakul sayur-sayuran yang baru dipetik",
+    "eyebrow": "SEGAR DARI FLORUVI",
+    "title": "Pilihan segar.\nUntuk meja anda.",
+    "subtitle": "Sayur-sayuran, herba & mikrogrin.",
+    "sortLabel": "Susun produk",
+    "bestMatch": "Paling Sesuai",
+    "featured": "Pilihan Utama Dahulu",
+    "az": "Nama: A hingga Z",
+    "priceAsc": "Harga pek: rendah ke tinggi",
+    "priceDesc": "Harga pek: tinggi ke rendah",
+    "perPack": "Setiap pek. Saiz berbeza-beza.",
+    "clearFilters": "Kosongkan penapis",
+    "noResults": "Tiada tanaman dijumpai.",
+    "otherCategories": {
+      "other": "{count} padanan dalam kategori lain."
+    },
+    "tryName": "Cuba nama tanaman, seperti bayam atau spinach.",
+    "searchAll": "Cari semua kategori",
+    "loading": "Memuatkan produk…"
+  },
+  "product": {
+    "assurances": {
+      "fresh": "Produk Segar",
+      "care": "Ditanam Dengan Teliti",
+      "cook": "Masak Ikut Cara Anda",
+      "domestic": "Ke Seluruh India",
+      "export": "Dari India ke {country}"
+    },
+    "waysToEnjoy": "Cara Menikmati",
+    "seeAllRecipes": "Lihat Semua Resipi",
+    "minutes": "{count} min",
+    "howToStore": "Cara Menyimpan",
+    "whyEat": "Kenapa makan {name}?",
+    "whySubtitle": "Bahan-bahan baik. Kemungkinan harian.",
+    "keepFresh": "Kekalkan Kesegaran",
+    "foodGuide": "Panduan Makanan",
+    "waysToEnjoyName": "Cara menikmati {name}",
+    "servingInspiration": "Idea Penyajian",
+    "youMayAlsoLike": "Anda Mungkin Juga Suka",
+    "viewAll": "Lihat Semua",
+    "gallery": {
+      "closeUp": "{name} jarak dekat",
+      "servingIdea": "Idea penyajian {name}",
+      "viewRecipe": "Lihat resipi",
+      "images": "Imej produk",
+      "view": "Lihat {label}"
+    },
+    "breadcrumbHome": "Laman Utama",
+    "breadcrumbShop": "Kedai",
+    "story": {
+      "label": "Kesegaran yang berbaloi ditanam",
+      "tagline": "Kesegaran yang berbaloi ditanam",
+      "banners": [
+        {
+          "title": "Makanan baik hari ini.\nLebih banyak untuk dinantikan.",
+          "alt": "Bayam & kale segar di atas latar hijau sage"
+        },
+        {
+          "title": "Sedikit kesegaran.\nBanyak rasa.",
+          "alt": "Basil & pudina di bawah cahaya matahari lembut"
+        },
+        {
+          "title": "Daun kecil.\nPermulaan segar.",
+          "alt": "Mikrogrin muda dalam pinggan seramik"
+        },
+        {
+          "title": "Bawa sedikit warna\nsetiap hari.",
+          "alt": "Tomato & timun di atas latar pic hangat"
+        },
+        {
+          "title": "Bahan-bahan ringkas.\nHidangan berbaloi dimasak.",
+          "alt": "Lobak merah & radis di atas latar krim"
+        },
+        {
+          "title": "Sentuhan akhir\nadalah sesuatu yang segar.",
+          "alt": "Bunga boleh dimakan di atas latar mawar lembut"
+        }
+      ],
+      "fresh": "Produk Segar",
+      "care": "Ditanam Dengan Teliti",
+      "domestic": "Penghantaran ke Seluruh India",
+      "export": "Penghantaran ke {country} atas permintaan",
+      "mix": "Pilih Campuran Anda Sendiri"
+    }
+  },
+  "cart": {
+    "heroAlt": "Sebakul sayur-sayuran segar",
+    "title": "Bakul Anda",
+    "subtitle": "Produk segar, sedia untuk meja anda.",
+    "headProduct": "PRODUK",
+    "headQuantity": "KUANTITI",
+    "headPrice": "HARGA",
+    "packOnRequest": "Pek Atas Permintaan",
+    "unlisted": "Tanaman ini tidak lagi disenaraikan.",
+    "perDelivery": "Setiap Penghantaran",
+    "freshProduce": "Produk Segar",
+    "reduce": "Kurangkan {name}",
+    "increase": "Tambah {name}",
+    "remove": "Keluarkan {name}",
+    "boxDelivery": "Penghantaran termasuk dengan kotak anda.",
+    "domesticDelivery": "Produk segar, dihantar ke seluruh India.",
+    "exportDelivery": "Ladang akan menyebut harga penghantaran ke {country} selepas menyemak permintaan anda.",
+    "continue": "Teruskan Membeli-belah",
+    "checking": "Menyemak katalog…",
+    "tryAgain": "Cuba Lagi",
+    "removeUnlisted": "Keluarkan tanaman yang tidak disenaraikan sebelum meneruskan.",
+    "proceed": "Teruskan ke Semakan Pesanan",
+    "editorialLabel": "Makanan segar untuk hidangan harian",
+    "editorialAlt": "Herba hijau segar",
+    "editorialTitle": "Makanan segar.\nSetiap hari.",
+    "editorialText": "Bahan-bahan ringkas.\nLebih banyak cara untuk menikmatinya."
+  },
+  "checkout": {
+    "returnToBasket": "Sila kembali ke bakul anda & semak tanaman yang dipilih.",
+    "notSaved": "Permintaan anda tidak disimpan. Sila cuba lagi.",
+    "receivedTitle": "Permintaan diterima.",
+    "receivedText": "Kami akan menghubungi anda untuk mengesahkan ketersediaan.",
+    "noPayment": "Tiada bayaran dikenakan.",
+    "keepExploring": "Terus Terokai",
+    "back": "Kembali ke bakul",
+    "eyebrow": "KESEGARAN YANG BERBALOI DITANAM",
+    "title": "Semakan pesanan.",
+    "progress": "Kemajuan semakan pesanan",
+    "steps": [
+      "Butiran anda",
+      "Penghantaran",
+      "Semak & hantar"
+    ],
+    "headings": [
+      "Butiran anda",
+      "Kawasan penghantaran",
+      "Semakan"
+    ],
+    "intro": "Layari & bina bakul anda tanpa akaun.",
+    "name": "Nama penuh",
+    "namePlaceholder": "Nama penuh anda",
+    "email": "Alamat e-mel",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Telefon penghantaran",
+    "phonePlaceholder": "Nombor telefon dengan kod negara",
+    "continue": "Teruskan ke Penghantaran",
+    "deliveryDomestic": "Kami menghantar ke seluruh India.",
+    "deliveryExport": "Ladang akan menyemak penghantaran ke {country} & memberikan sebut harga sebelum apa-apa diatur.",
+    "address": "Alamat",
+    "addressOptional": "Pilihan pada peringkat pertanyaan",
+    "addressPlaceholder": "Rumah, jalan, & kawasan",
+    "addressNote": "Alamat jalan anda kekal di halaman ini & tidak dihantar bersama pertanyaan ini.",
+    "city": "Bandar",
+    "cityPlaceholder": "Bandar",
+    "region": "Negeri / wilayah",
+    "regionPlaceholder": "Negeri atau wilayah",
+    "postal": "Poskod",
+    "postalPlaceholder": "Poskod",
+    "optional": "Pilihan",
+    "notes": "Ada apa-apa yang perlu kami tahu?",
+    "notesPlaceholder": "Hari penghantaran pilihan, catatan kuantiti, atau soalan",
+    "confirmDelivery": "Ladang akan mengesahkan butiran penghantaran.",
+    "backStep": "Kembali",
+    "review": "Semak Bakul Saya",
+    "contact": "PERHUBUNGAN",
+    "editContact": "Edit perhubungan",
+    "deliveryArea": "KAWASAN PENGHANTARAN",
+    "editDelivery": "Edit penghantaran",
+    "consent": "Saya bersetuju bahawa Floruvi boleh menggunakan butiran hubungan & kawasan penghantaran saya untuk menjawab permintaan ketersediaan ini.",
+    "privacy": "Notis privasi",
+    "honeypot": "Laman Web",
+    "sending": "Menghantar…",
+    "send": "Hantar Permintaan",
+    "finalNote": "Tiada bayaran dikenakan. Kami akan mengesahkan ketersediaan.",
+    "checkingBasket": "Menyemak bakul anda…",
+    "tryAgain": "Cuba Lagi",
+    "unlisted": "Satu tanaman tidak lagi disenaraikan.",
+    "returnToRemove": "Kembali ke bakul untuk mengeluarkannya.",
+    "photoAlt": "kotak produk segar",
+    "handwritten": "Kesegaran yang berbaloi ditanam."
+  },
+  "contact": {
+    "portraitAlt": "Sayur-sayuran segar dikumpulkan dalam peti kayu",
+    "sent": "Dihantar",
+    "inTouch": "Kami akan menghubungi anda.",
+    "eyebrow": "MARI BERBUAL",
+    "title": "Makanan yang baik bermula\ndengan satu perbualan.",
+    "intro": "Untuk rumah, dapur, atau perniagaan anda. Beritahu kami apa yang anda fikirkan.",
+    "name": "Nama anda",
+    "namePlaceholder": "Nama penuh",
+    "business": "Nama perniagaan",
+    "optional": "(pilihan)",
+    "businessPlaceholder": "Restoran, kafe, kedai…",
+    "email": "Alamat e-mel",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Nombor telefon",
+    "city": "Bandar anda",
+    "cityPlaceholder": "Di mana anda memerlukan produk?",
+    "interest": "Produk atau kotak",
+    "interestPlaceholder": "cth. basil, selada, mikrogrin",
+    "quantity": "Kuantiti & kekerapan",
+    "quantityPlaceholder": "cth. beberapa pek setiap minggu",
+    "message": "Mesej",
+    "messagePlaceholder": "Tanya soalan atau beritahu kami produk yang anda perlukan…",
+    "honeypot": "Biarkan medan ini kosong",
+    "consent": "Saya bersetuju bahawa Floruvi boleh menggunakan butiran ini untuk menjawab pertanyaan saya.",
+    "privacy": "Notis privasi",
+    "sending": "Menghantar…",
+    "send": "Hantar Pertanyaan",
+    "required": "* Medan wajib.",
+    "boxInterest": "Kotak {name} · {people} · {schedule}",
+    "boxMessage": "Saya ingin menempah kotak sayur {name} untuk {people}, dihantar {schedule}. Sila atur penghantaran pertama dengan saya."
+  },
+  "wishlist": {
+    "heroAlt": "Beg linen berisi sayur-sayuran segar",
+    "eyebrow": "SENARAI KEGEMARAN ANDA",
+    "title": "Pilihan yang baik.",
+    "accent": "Bawa ke meja anda.",
+    "intro": "Hidangan segar anda yang seterusnya bermula di sini. Jadikan bahan-bahan kegemaran anda sesuatu yang anda nikmati hari ini.",
+    "count": {
+      "other": "{count} item disimpan"
+    },
+    "unlisted": "Produk ini tidak lagi disenaraikan.",
+    "emptyTitle": "Simpan sedikit inspirasi.",
+    "emptyText": "Ketik ikon hati pada produk untuk menyimpan kegemaran anda di sini.",
+    "explore": "Terokai produk",
+    "bannerAlt": "Salad segar berwarna-warni dengan herba & lemon",
+    "bannerTitle": "Jadikan hidangan seterusnya lebih segar.",
+    "recommendations": "Anda Mungkin Juga Suka",
+    "exploreAll": "Terokai Semua"
+  },
+  "boxes": {
+    "eyebrow": "LANGGANAN SAYUR",
+    "title": "Makanan yang baik,\nsecara berulang.",
+    "intro": "Sayur-sayuran segar dihantar ke pintu anda.\nKotak anda. Rutin anda.",
+    "values": {
+      "fresh": "Produk Segar",
+      "regular": "Penghantaran Tetap",
+      "good": "Makanan Baik"
+    },
+    "heroAlt": "Kotak sayur dengan selada, bayam, tomato, lobak merah, timun & pudina",
+    "added": "Ditambah ke bakul anda.",
+    "full": "Bakul anda sudah penuh. Sila semak sebelum menambah lagi.",
+    "chooseBox": "Pilih kotak anda",
+    "chooseNote": "Kesegaran yang sama. Saiz untuk setiap isi rumah.",
+    "boxAlt": "Kotak sayur {name}",
+    "frequency": "Kekerapan penghantaran",
+    "frequencyNote": "Pilih kekerapan kotak anda dihantar.",
+    "addedShort": "Ditambah",
+    "addToCart": "Tambah ke bakul",
+    "seasonalAlt": "Sayur berdaun segar",
+    "seasonalTitle": "Campuran segar.\nRutin yang biasa.",
+    "seasonalText": "Sayur hijau, sayur-sayuran & herba untuk hidangan yang anda masak setiap hari.",
+    "insideTitle": "Apa di dalamnya?",
+    "insideNote": "Kotak {name} anda termasuk:",
+    "storyAlt": "Salad sayur segar",
+    "storyTitle": "Makanan sebenar.\nKegemaran harian.",
+    "storyText": "Mula dengan sekotak bahan-bahan segar. Jadikannya milik anda.",
+    "storyValues": {
+      "ingredients": "Bahan-bahan Segar",
+      "meals": "Hidangan Untuk Dinikmati"
+    },
+    "faqTitle": "Soalan lazim",
+    "faq": [
+      [
+        "Apakah yang termasuk dalam harga?",
+        "Harga adalah untuk satu kotak bagi setiap penghantaran. Tiada caj penghantaran tambahan untuk kotak."
+      ],
+      [
+        "Bilakah kotak pertama saya akan tiba?",
+        "Ladang akan mengatur penghantaran pertama anda bersama anda."
+      ],
+      [
+        "Adakah bayaran dikenakan apabila saya menambah kotak?",
+        "Tidak. Kotak & kekerapan anda disimpan dalam bakul anda. Pengebilan berulang belum aktif lagi."
+      ],
+      [
+        "Bolehkah saya menukar kotak atau jadual penghantaran?",
+        "Beritahu kami keperluan anda semasa kami mengesahkan permintaan anda. Hubungi ladang untuk membincangkan perubahan kepada penghantaran yang telah diatur."
+      ]
+    ],
+    "faqExportPrice": [
+      "Apakah yang termasuk dalam harga?",
+      "Harga adalah untuk satu kotak bagi setiap penghantaran. Ladang akan menyebut harga penghantaran ke {country} selepas menyemak permintaan anda."
+    ],
+    "recipesTitle": "Resipi untuk kotak anda"
+  },
+  "recipes": {
+    "interludes": [
+      {
+        "title": "Sedikit pasta. Petang yang indah.",
+        "alt": "Pasta basil & tomato ceri di atas meja hijau gelap"
+      },
+      {
+        "title": "Luangkan masa untuk sarapan.",
+        "alt": "Roti bakar avokado & smoothie hijau dalam cahaya pagi"
+      },
+      {
+        "title": "Bawa warna ke meja makan.",
+        "alt": "Lobak merah, bit & kacang kuda panggang di atas talam"
+      },
+      {
+        "title": "Mula dengan sesuatu yang segar.",
+        "alt": "Tangan memegang sebakul sayur-sayuran segar"
+      }
+    ],
+    "heroAlt": "Semangkuk sayur hijau segar, tomato & radis",
+    "eyebrow": "RESIPI",
+    "title": "Hidangan Ringkas\nDiri Yang Lebih Sihat",
+    "subtitle": "Idea segar untuk menjadikan sayur-sayuran sebahagian daripada kehidupan harian anda.",
+    "searchLabel": "Cari resipi",
+    "searchPlaceholder": "Cari resipi…",
+    "clearSearch": "Kosongkan carian",
+    "categoriesLabel": "Kategori resipi",
+    "all": "Semua",
+    "found": {
+      "other": "{count} resipi dijumpai"
+    },
+    "resultsLabel": "Hasil resipi",
+    "noResults": "Tiada resipi dijumpai.",
+    "noResultsText": "Cuba bahan lain atau kosongkan penapis anda.",
+    "showAll": "Tunjukkan Semua Resipi",
+    "kitchenAlt": "Tangan menggaul salad sayur segar dengan senduk kayu",
+    "kitchenTitle": "Bahan-bahan Baik\nHari Lebih Ceria",
+    "kitchenText": "Makanan sebenar. Sangat ringkas.",
+    "moreLabel": "Lebih banyak hasil resipi",
+    "more": "Lebih Banyak Resipi",
+    "cardMinutes": "{count} min",
+    "breadcrumb": "Laluan navigasi",
+    "breadcrumbRecipes": "Resipi",
+    "kitchen": "DAPUR FLORUVI",
+    "minutes": {
+      "other": "{count} minit"
+    },
+    "servings": {
+      "other": "{count} hidangan"
+    },
+    "letsMake": "Mari Kita Buat",
+    "whatYouNeed": "APA YANG ANDA PERLUKAN",
+    "ingredients": "Bahan-bahan",
+    "allergens": "Semak label bahan untuk alergen. Basuh produk segar sebelum penyediaan.",
+    "stepByStep": "LANGKAH DEMI LANGKAH",
+    "makeSomething": "Mari kita buat sesuatu yang baik.",
+    "kitchenNote": "Sedikit nota dapur",
+    "meetIngredients": "Kenali bahan-bahannya.",
+    "moreRecipes": "Lebih Banyak Resipi"
+  },
+  "howWeGrow": {
+    "heroAlt": "Tangan menuai selada segar dari menara aeroponik",
+    "eyebrow": "BERAKAR DENGAN CARA BERBEZA",
+    "title": "Lebih hijau.",
+    "accent": "Kurang tanah.",
+    "intro": "Udara. Air. Kemungkinan segar.\nSatu cara baharu untuk menanam.",
+    "cropsLabel": "Sayur berdaun & herba segar",
+    "cropAlts": [
+      "Selada",
+      "Basil",
+      "Kale"
+    ],
+    "crops": "Sayur berdaun.\nHerba segar.",
+    "scroll": "Di dalam menara",
+    "principlesLabel": "Asas penanaman",
+    "principles": [
+      "Air berkitar semula",
+      "Akar tanpa tanah",
+      "Tumbuh secara menegak",
+      "Cahaya memacu pertumbuhan"
+    ],
+    "insideEyebrow": "LIHAT DENGAN LEBIH DEKAT",
+    "insideTitle": "Banyak yang berlaku",
+    "insideAccent": "di sebalik daun.",
+    "insideText": "Akar tergantung di udara. Semburan nutrien memberi makanan kepadanya. Ketik nombor untuk terokai.",
+    "journeyEyebrow": "PERMULAAN KECIL. KEMUNGKINAN SEGAR.",
+    "journeyTitle": "Semai. Tumbuh. Tuai. Nikmati.",
+    "stages": [
+      {
+        "title": "Mula kecil",
+        "text": "Benih bermula dalam plag penanaman."
+      },
+      {
+        "title": "Cari tempat tinggal",
+        "text": "Pokok muda dipindahkan ke poket menara."
+      },
+      {
+        "title": "Petik apabila sedia",
+        "text": "Setiap tanaman mempunyai masa tuaiannya sendiri."
+      },
+      {
+        "title": "Jadikan ia milik anda",
+        "text": "Bahan-bahan segar untuk hidangan harian."
+      }
+    ],
+    "rootAlt": "Akar halus pucat tergantung di bawah cawan penanaman anak benih",
+    "rootEyebrow": "BERI AKAR APA YANG DIPERLUKAN",
+    "rootTitle": "Tanpa tanah.",
+    "rootAccent": "Masih penuh kehidupan.",
+    "rootText": "Akar memerlukan air, nutrien & oksigen.\nSemburan halus membekalkan air & nutrien manakala akar kekal tergantung di udara.",
+    "rootTags": [
+      "Air",
+      "Nutrien",
+      "Oksigen"
+    ],
+    "notebookEyebrow": "BEBERAPA CATATAN DARI DALAM",
+    "notebookTitle": "Akar kecil.",
+    "notebookAccent": "Gelung penanaman yang bijak.",
+    "notebookAlt": "Lakaran tangan cawan anak benih, akar menerima semburan nutrien & gelung air menara aeroponik",
+    "notes": [
+      {
+        "label": "01 / Tempat untuk bermula",
+        "title": "Cawan menampung pokok.",
+        "text": "Plag penanaman menyokong anak benih. Akar memanjang melalui cawan jaring ke dalam menara."
+      },
+      {
+        "label": "02 / Sedikit semburan",
+        "title": "Akar kekal di udara.",
+        "text": "Muncung menyemburkan air & nutrien terus ke akar. Masa yang tepat memastikan bekalan berterusan."
+      },
+      {
+        "label": "03 / Kembali ke permulaan",
+        "title": "Air kembali berkitar.",
+        "text": "Larutan yang tidak digunakan mengalir ke tapak. Pam menghantarnya semula melalui sistem."
+      }
+    ],
+    "closingTitle": "Kesan yang kecil.",
+    "closingAccent": "Perspektif yang segar.",
+    "closingText": "Menanam ke atas membuka kemungkinan baharu.",
+    "references": "Terokai sains penanaman",
+    "referenceNasa": "Penanaman aeroponik — NASA Spinoff ↗",
+    "referenceOsu": "Semakan air & nutrien — Oklahoma State University ↗",
+    "tower": {
+      "cutawayAlt": "Keratan rentas menara aeroponik berbentuk nanas menunjukkan akar tergantung, muncung semburan, paip tengah & takungan",
+      "explore": "Terokai {title}",
+      "follow": "IKUTI ALIRANNYA",
+      "cycle": "Satu gelung. Air terus bergerak.",
+      "parts": [
+        {
+          "title": "Poket pokok",
+          "text": "Cawan kecil menyokong setiap pokok. Akarnya memanjang ke dalam menara."
+        },
+        {
+          "title": "Air naik",
+          "text": "Pam menggerakkan air kaya nutrien dari tapak ke paip bekalan tengah."
+        },
+        {
+          "title": "Akar diberi makan",
+          "text": "Muncung menyembur akar yang tergantung dengan air & nutrien terlarut. Udara mengelilingi akar."
+        },
+        {
+          "title": "Air kembali",
+          "text": "Larutan yang tidak digunakan mengalir semula ke takungan untuk dikitar semula."
+        }
+      ]
+    }
+  },
+  "realTalk": {
+    "eyebrow": "BICARA SEBENAR",
+    "title": "Rancang hidangan anda.",
+    "intro": "Pilih beberapa hidangan sebelum anda membeli-belah.",
+    "cta": "Mula di Dapur",
+    "paperEyebrow": "RANCANGAN MAKANAN BAIK MINGGU INI",
+    "paperTitle": "Minggu ini.",
+    "plan": [
+      "Pilih dua hidangan kegemaran anda",
+      "Pilih satu sayur berdaun",
+      "Tambah herba untuk perisa",
+      "Beli jumlah yang anda boleh guna",
+      "Masak sesuatu. Kongsikannya."
+    ],
+    "handwritten": "Perubahan kecil,\nhari lebih ceria.",
+    "keepEyebrow": "KEKAL JUJUR",
+    "keepTitle": "Mula dengan makanan, bukan janji.",
+    "keepText": "Pemakanan yang pelbagai adalah sebahagian daripada menjaga diri anda. Tiada satu makanan yang dapat menjamin kesihatan atau menggantikan rawatan perubatan. Kami memberi tumpuan kepada bahan-bahan & cara praktikal untuk menikmatinya.",
+    "chooseTitle": "Pilih sayur-sayuran anda.",
+    "chooseCta": "Terokai Sayur Segar"
+  },
+  "faq": {
+    "eyebrow": "SEDIKIT BANTUAN",
+    "title": "Soalan?",
+    "intro": "Dari bakul pertama anda sehingga hidangan seterusnya. Ketahui butirannya di sini.",
+    "topics": "Topik soalan lazim",
+    "contactLink": "Hubungi kami →",
+    "helpTitle": "Masih ada soalan?",
+    "helpText": "Beritahu kami keperluan anda. Kami akan membantu langkah seterusnya.",
+    "helpContact": "Hubungi ladang →",
+    "helpPrivacy": "Notis privasi →",
+    "deliveryFee": "Bagi bakul yang mengandungi hasil ladang secara berasingan, penghantaran dikenakan {fee} bagi setiap penghantaran.",
+    "deliveryFeeMissing": "Yuran penghantaran dipaparkan dalam bakul anda sebelum anda menghantar permintaan.",
+    "groups": {
+      "shopping": {
+        "title": "Berbelanja dan bakul anda",
+        "questions": [
+          [
+            "Bagaimana saya membuat pesanan?",
+            "Pilih hasil ladang atau kotak anda, tambahkannya ke dalam bakul, kemudian semak pilihan anda semasa semakan pesanan. Masukkan butiran hubungan anda dan hantar permintaan ketersediaan. Ladang akan menyemak permintaan tersebut dan mengatur langkah seterusnya bersama anda."
+          ],
+          [
+            "Adakah saya perlu akaun?",
+            "Tiada akaun diperlukan. Layari, simpan kegemaran anda dan hantar permintaan anda."
+          ],
+          [
+            "Bolehkah saya mengubah bakul saya sebelum menghantar permintaan?",
+            "Boleh. Buka bakul untuk melaraskan kuantiti atau membuang item. Semak saiz pek, kekerapan kotak yang dipilih dan jumlah keseluruhan sebelum meneruskan. Perubahan pada bakul anda tidak akan mengemas kini permintaan yang telah anda hantar."
+          ],
+          [
+            "Adakah bakul saya akan disimpan apabila saya keluar?",
+            "Bakul anda disimpan dalam pelayar yang sama apabila storan tempatan tersedia. Mengosongkan data laman atau menggunakan pelayar lain boleh membuang atau mengubah apa yang anda lihat. Bakul anda kini tidak diselaraskan merentasi peranti."
+          ],
+          [
+            "Adakah menambah item akan menempahnya?",
+            "Tidak. Menambah hasil ladang ke dalam bakul anda hanya menyimpan pilihan anda. Menghantar permintaan membolehkan ladang menyemaknya; ia tidak menempah stok atau mengesahkan penghantaran."
+          ]
+        ]
+      },
+      "boxes": {
+        "title": "Kotak sayur-sayuran",
+        "questions": [
+          [
+            "Saiz kotak yang mana patut saya pilih?",
+            "Individu direka untuk seorang, Berdua untuk dua orang, dan Keluarga untuk empat orang atau lebih. Gunakan ini sebagai titik permulaan, kemudian semak kandungan yang disenaraikan untuk memilih saiz yang sesuai dengan kekerapan anda memasak."
+          ],
+          [
+            "Kekerapan penghantaran apakah yang boleh saya pilih?",
+            "Pilih Sekali, Mingguan, atau Bulanan pada halaman kotak. Sekali ialah permintaan kotak satu kali sahaja. Mingguan dan Bulanan menyatakan jadual ulangan pilihan anda; memilihnya tidak memulakan pengebilan automatik."
+          ],
+          [
+            "Adakah harga kotak dikira bagi setiap penghantaran?",
+            "Ya. Jumlah yang dipaparkan adalah bagi satu kotak setiap penghantaran, mengikut saiz yang anda pilih. Ia bukan jumlah bulanan atau caj bagi setiap hari antara penghantaran."
+          ],
+          [
+            "Adakah penghantaran termasuk dengan kotak?",
+            "Ya. Tiada caj penghantaran tambahan untuk bakul yang hanya mengandungi kotak. Jika anda turut menambah hasil ladang secara berasingan, yuran penghantaran hasil ladang standard akan dikenakan pada bakul tersebut."
+          ],
+          [
+            "Bolehkah saya menukar kotak atau kekerapannya?",
+            "Sebelum menghantar permintaan, keluarkan kotak daripada bakul anda dan tambah saiz atau kekerapan pilihan anda. Selepas menghantarnya, hubungi ladang untuk membincangkan perubahan tersebut. Perubahan kepada penghantaran yang telah diatur perlu dipersetujui bersama ladang."
+          ]
+        ]
+      },
+      "delivery": {
+        "title": "Penghantaran dan pembayaran",
+        "questions": [
+          [
+            "Ke mana anda menghantar?",
+            "Kami menerima pertanyaan penghantaran di seluruh India. Kongsikan bandar dan kawasan penghantaran anda supaya ladang dapat menyemak permintaan tersebut dan mengatur penghantaran bersama anda."
+          ],
+          [
+            "Berapakah kos penghantaran?",
+            "{deliveryFee} Tiada caj penghantaran tambahan untuk bakul yang hanya mengandungi kotak. Semak jumlah bakul sebelum menghantar permintaan anda."
+          ],
+          [
+            "Bilakah hasil ladang atau kotak pertama saya akan tiba?",
+            "Ladang akan menghubungi anda untuk mengatur penghantaran."
+          ],
+          [
+            "Bolehkah saya bayar dalam talian?",
+            "Tiada pembayaran diambil dalam talian. Ladang akan mengesahkan permintaan dan butiran pembayaran anda."
+          ],
+          [
+            "Bagaimana saya menukar atau membatalkan permintaan?",
+            "Gunakan borang hubungi dan nyatakan alamat e-mel yang digunakan untuk permintaan anda, apa yang anda pilih, dan perubahan yang anda perlukan. Jika penghantaran telah diatur, hubungi ladang untuk membincangkan apa yang boleh dilakukan."
+          ],
+          [
+            "Bagaimana jika terdapat masalah dengan penghantaran saya?",
+            "Hubungi ladang dengan butiran permintaan anda dan penerangan yang jelas tentang masalah tersebut. Sertakan item yang terjejas dan masa penghantaran tiba. Ladang perlu menyemak isu tersebut bersama anda; laman web ini kini tidak menawarkan proses bayaran balik atau penggantian automatik."
+          ]
+        ]
+      },
+      "produce": {
+        "title": "Hasil ladang, penyimpanan dan resipi",
+        "questions": [
+          [
+            "Di mana saya boleh menyemak saiz pek?",
+            "Setiap kad produk memaparkan harga dan saiz pek. Buka halaman produk untuk butiran lanjut, kemudian semak kuantiti pilihan anda dalam bakul. Saiz pek berbeza mengikut jenis tanaman, jadi bandingkan berat atau kuantiti yang disenaraikan selain harga."
+          ],
+          [
+            "Bagaimana saya patut menyimpan hasil ladang saya?",
+            "Buka halaman produk dan baca bahagian Cara menyimpan. Keperluan penyimpanan berbeza mengikut jenis tanaman. Ikut panduan khusus produk tersebut dan sebarang arahan yang disertakan bersama penghantaran anda."
+          ],
+          [
+            "Perlukah saya membasuh hasil ladang sebelum menggunakannya?",
+            "Ikut arahan penyediaan pada halaman produk dan sebarang panduan yang disertakan bersama penghantaran anda. Halaman produk menyertakan petua penyediaan untuk membantu anda menentukan bila hendak membilas, memangkas atau memasak tanaman tersebut."
+          ],
+          [
+            "Di mana saya boleh mendapatkan resipi untuk sesuatu produk?",
+            "Cari bahagian Cara menikmati pada halaman produk tersebut. Pilih resipi untuk melihat bahan-bahan, langkah memasak dan masa penyediaannya. Anda juga boleh melayari halaman resipi untuk mendapatkan lebih banyak idea."
+          ],
+          [
+            "Adakah bahan-bahan resipi termasuk dalam pembelian saya?",
+            "Pembelian produk hanya termasuk pek yang disenaraikan, bukan semua bahan yang ditunjukkan dalam resipi. Resipi adalah idea hidangan. Semak senarai bahan resipi dan kandungan kotak sebelum menentukan apa lagi yang anda perlukan."
+          ]
+        ]
+      },
+      "help": {
+        "title": "Produk disimpan, perniagaan dan sokongan",
+        "questions": [
+          [
+            "Bagaimana senarai hasrat berfungsi?",
+            "Pilih ikon hati pada imej produk untuk menyimpannya. Buka ikon hati pada pengepala untuk melihat produk yang disimpan. Pilih semula ikon hati untuk membuang produk tersebut. Senarai ini disimpan dalam pelayar semasa anda tanpa memerlukan akaun."
+          ],
+          [
+            "Mengapa senarai hasrat saya berbeza pada peranti lain?",
+            "Produk yang disimpan kekal dalam pelayar ini. Ia tidak akan muncul pada peranti lain."
+          ],
+          [
+            "Adakah anda membekalkan kafe, restoran atau perniagaan lain?",
+            "Anda boleh menghantar pertanyaan perniagaan melalui halaman hubungi. Sertakan nama perniagaan, senarai tanaman, kuantiti, bandar dan jadual pilihan anda supaya ladang dapat memahami keperluan anda."
+          ],
+          [
+            "Apa yang berlaku kepada butiran yang saya hantar?",
+            "Butiran pertanyaan anda disimpan secara peribadi supaya ladang dapat menyemak dan membalas permintaan anda. Keutamaan bakul dan senarai hasrat disimpan dalam pelayar anda. Baca notis privasi untuk penjelasan penuh serta maklumat tentang permintaan akses, pembetulan atau pemadaman."
+          ],
+          [
+            "Bagaimana saya boleh bertanya perkara lain?",
+            "Gunakan borang hubungi dan sertakan butiran yang mencukupi supaya ladang dapat memahami soalan anda. Untuk pertanyaan sedia ada, nyatakan alamat e-mel yang anda gunakan. Jangan sertakan kata laluan, butiran kad pembayaran atau maklumat sensitif lain."
+          ]
+        ]
+      }
+    },
+    "export": {
+      "where": [
+        "Ke mana anda menghantar?",
+        "Kami menerima pertanyaan daripada {country}. Kongsikan bandar dan kawasan penghantaran anda. Ladang akan menyemak ketersediaan eksport untuk pilihan anda dan mengatur langkah seterusnya bersama anda."
+      ],
+      "cost": [
+        "Berapakah kos penghantaran?",
+        "Penghantaran ke {country} akan disebut harga selepas ladang menyemak permintaan anda, kerana kos eksport bergantung pada destinasi dan saiz pesanan. Bakul anda memaparkan jumlah hasil ladang sebelum penghantaran."
+      ],
+      "boxDelivery": [
+        "Adakah penghantaran termasuk dengan kotak?",
+        "Harga kotak hanya meliputi kotak tersebut. Ladang akan menyebut harga penghantaran ke {country} selepas menyemak permintaan anda."
+      ]
+    }
+  },
+  "privacy": {
+    "eyebrow": "BUTIRAN ANDA, DENGAN TELITI",
+    "title": "Notis privasi",
+    "intro": "Apa yang anda kongsikan. Di mana ia disimpan. Pilihan yang anda ada.",
+    "updated": "Dikemas kini {date}",
+    "contents": "Kandungan notis privasi",
+    "inThisNotice": "Dalam notis ini",
+    "question": "Ada soalan tentang privasi?",
+    "contactLink": "Hubungi kami →",
+    "sections": [
+      {
+        "id": "about",
+        "title": "Tentang notis ini",
+        "paragraphs": [
+          "Notis ini menerangkan cara maklumat digunakan apabila anda melayari Floruvi, menyimpan produk, membina bakul, atau menghantar pertanyaan. Ia merangkumi laman web semasa, termasuk kedai, kotak, resipi dan borang hubungi. Ia menerangkan ciri-ciri yang tersedia pada masa ini.",
+          "Melayari laman web ini tidak memerlukan akaun pelanggan. Menghantar permintaan ketersediaan memberi ladang maklumat untuk menyemak keperluan anda dan membalas. Ia tidak mewujudkan akaun, mengutip bayaran, menempah hasil ladang, atau mengaktifkan pengebilan berulang. Rujukan kepada semakan pesanan dalam notis ini menerangkan proses permintaan tersebut."
+        ]
+      },
+      {
+        "id": "information",
+        "title": "Maklumat yang anda kongsikan dengan kami",
+        "paragraphs": [
+          "Borang hubungi meminta nama, alamat e-mel, bandar, mesej dan persetujuan anda untuk menggunakan butiran tersebut bagi tujuan membalas. Bergantung pada borang berkenaan, anda juga boleh berkongsi nombor telefon, minat hasil ladang, kuantiti dan maklumat lain tentang permintaan anda. Anda boleh menyertakan nama perniagaan anda jika pertanyaan tersebut adalah bagi perniagaan.",
+          "Sila kongsikan hanya maklumat yang diperlukan untuk pertanyaan tersebut. Sebagai contoh, senarai tanaman, kawasan penghantaran dan kuantiti yang dijangkakan membantu ladang memahami sesuatu permintaan perniagaan. Jangan sertakan kata laluan, nombor kad pembayaran, dokumen pengenalan diri, rekod perubatan, atau maklumat peribadi tentang orang lain dalam sebarang mesej."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "Bagaimana maklumat pertanyaan digunakan",
+        "paragraphs": [
+          "Ladang menggunakan maklumat yang anda hantar untuk memahami permintaan anda, menyemak hasil ladang yang dipilih, menilai keperluan penghantaran dan membalas melalui butiran hubungan yang anda berikan. Rekod permintaan merangkumi masa penghantaran borang, masa persetujuan dan status yang digunakan untuk menyusun pertanyaan.",
+          "Kotak semak persetujuan diperlukan sebelum pertanyaan dapat dihantar. Persetujuan ini berkaitan dengan pengendalian permintaan anda. Laman web semasa tidak menukarkan pertanyaan hubungi kepada langganan surat berita atau mendaftarkan anda dalam kempen pengiklanan. Semak butiran dalam borang anda sebelum menghantarnya."
+        ]
+      },
+      {
+        "id": "basket",
+        "title": "Bakul dan pilihan kotak anda",
+        "paragraphs": [
+          "Bakul menyimpan pengenal produk dan kuantiti dalam pelayar anda. Bagi sesuatu kotak, pengenalnya turut merekodkan saiz kotak dan kekerapan penghantaran yang dipilih. Ini membolehkan laman web memaparkan pilihan anda apabila anda kembali menggunakan pelayar yang sama. Butiran hubungan bukan sebahagian daripada bakul yang disimpan ini.",
+          "Menambah item ke dalam bakul tidak menghantar sebarang pertanyaan. Anda boleh menukar kuantiti atau membuang item sebelum menghantar permintaan. Mengosongkan storan pelayar laman web ini akan membuang bakul yang disimpan daripada pelayar tersebut. Ia tidak membatalkan atau memadamkan permintaan yang telah anda hantar kepada ladang."
+        ]
+      },
+      {
+        "id": "wishlist",
+        "title": "Senarai hasrat dan keutamaan resipi anda",
+        "paragraphs": [
+          "Senarai hasrat menyimpan nama dan pengenal produk yang disimpan dalam storan tempatan pelayar. Ia menyokong kawalan ikon hati dan kiraan produk yang disimpan. Senarai hasrat semasa tidak dikaitkan dengan akaun pelanggan atau diselaraskan merentasi peranti. Orang lain yang menggunakan profil pelayar yang sama mungkin dapat melihat item yang disimpan tersebut.",
+          "Melayari resipi turut menggunakan storan sesi untuk mengekalkan susunan kad resipi yang konsisten sepanjang sesi melayari. Ini menyimpan keutamaan paparan, bukan butiran hubungan anda. Anda boleh membuang keutamaan tempatan melalui kawalan data laman pelayar anda. Melayari secara peribadi atau storan yang disekat boleh mengehadkan tempoh ciri-ciri ini mengingati pilihan anda."
+        ]
+      },
+      {
+        "id": "checkout",
+        "title": "Butiran semakan pesanan dan penghantaran",
+        "paragraphs": [
+          "Medan hubungan dan penghantaran yang dimasukkan semasa semakan pesanan kekal dalam memori halaman sehingga anda menghantar permintaan ketersediaan. Permintaan yang dihantar merangkumi butiran hubungan anda, tanaman atau kotak yang dipilih, kawasan penghantaran dan nota. Medan alamat jalan yang bersifat pilihan tidak disertakan dalam permintaan yang dihantar atau disimpan dalam rekod pertanyaan.",
+          "Butiran borang yang belum dihantar tidak disimpan dalam bakul Floruvi. Meninggalkan atau memuat semula halaman boleh membuang butiran tersebut. Pelayar anda mungkin menawarkan autoisi atau mengingati kemasukan borang secara berasingan mengikut tetapannya sendiri. Semak tetapan tersebut jika anda menggunakan peranti yang dikongsi atau tidak mahu pelayar anda mencadangkan butiran peribadi."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Di mana pertanyaan disimpan",
+        "paragraphs": [
+          "Pertanyaan yang dihantar disimpan dalam projek Convex milik Floruvi di rantau EU West. Ia disimpan secara berasingan daripada katalog produk awam. Pengendali projek yang dibenarkan boleh mengakses rekod pertanyaan untuk menguruskan permintaan. Halaman kedai dan resipi awam tidak mendedahkan rekod pertanyaan peribadi ini.",
+          "Pengehosan laman web memproses permintaan yang diperlukan untuk menyampaikan halaman, imej dan respons borang. Floruvi menggunakan Vercel untuk pengehosan dan Convex untuk data aplikasi. Oleh itu, melawat laman web ini melibatkan perkhidmatan infrastruktur tersebut. Maklumat yang dihantar daripada negara lain mungkin diproses di luar negara tersebut sebagai sebahagian daripada susunan ini."
+        ]
+      },
+      {
+        "id": "protection",
+        "title": "Perlindungan borang dan had permintaan",
+        "paragraphs": [
+          "Laman web ini menyemak medan yang dihantar sebelum sesuatu pertanyaan disimpan. Semakan ini merangkumi medan wajib, had panjang, format hubungan dan satu medan borang yang digunakan untuk mengesan penghantaran automatik. Permintaan yang tidak lulus pengesahan akan ditolak. Kawalan ini membantu melindungi perkhidmatan pertanyaan daripada permintaan yang tidak sah atau berlebihan.",
+          "Had penghantaran sementara menggunakan nilai cincangan berkunci yang diperoleh daripada alamat e-mel anda dan, di Vercel, alamat IP anda. Alamat IP mentah tidak disimpan dalam rekod pertanyaan. Satu tempoh had berlangsung selama satu jam. Rekod had yang telah tamat tempoh dibuang secara kelompok semasa penghantaran berjaya seterusnya, jadi tamat tempoh tidak bermaksud pemadaman segera bagi setiap rekod had."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Kuki, analitik dan perkhidmatan pilihan",
+        "paragraphs": [
+          "Ciri bakul dan senarai hasrat yang diterangkan di sini menggunakan storan tempatan. Keutamaan paparan resipi menggunakan storan sesi. Ini adalah mekanisme storan pelayar, bukan profil berasaskan akaun. Pelayar anda mengawal sama ada storan laman tersedia dan menyediakan pilihan untuk mengosongkannya. Melumpuhkan storan boleh menjejaskan pilihan yang disimpan tanpa menghalang anda daripada membaca halaman awam.",
+          "Aplikasi semasa tidak merangkumi analitik pemasaran, piksel pengiklanan, pemberitahuan tolak, kutipan bayaran, atau akaun pelanggan aktif. Perkhidmatan pengehosan masih memproses permintaan teknikal yang diperlukan untuk mengendalikan laman web ini. Notis ini perlu disemak semula apabila perkhidmatan baharu mengubah maklumat yang dikumpul, tujuannya, atau ke mana ia dihantar."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Berapa lama maklumat disimpan",
+        "paragraphs": [
+          "Rekod pertanyaan kini kekal dalam projek peribadi sehingga pengendali yang dibenarkan membuangnya. Tiada jadual pemadaman pertanyaan automatik dalam aplikasi semasa. Jadual penyimpanan tetap dan hubungan privasi langsung masih perlu ditetapkan. Notis ini tidak menjanjikan tarikh pemadaman automatik yang belum dikuatkuasakan oleh perkhidmatan ini.",
+          "Data pelayar mengikut kitaran hayat yang berbeza. Data bakul dan senarai hasrat tempatan boleh kekal sehingga anda membuang item, mengosongkan data laman, atau pelayar membuangnya. Keutamaan sesi biasanya bertahan sepanjang sesi melayari, tertakluk pada tingkah laku pelayar. Membuang data daripada peranti anda tidak membuang pertanyaan berasingan yang disimpan oleh ladang."
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Permintaan akses, pembetulan dan pemadaman",
+        "paragraphs": [
+          "Gunakan borang hubungi jika anda ingin bertanya tentang sesuatu rekod pertanyaan, membetulkan sesuatu butiran, atau memohon pemadamannya. Nyatakan bahawa mesej anda berkaitan privasi dan berikan konteks yang mencukupi untuk mengenal pasti permintaan tersebut, seperti alamat e-mel yang digunakan dan anggaran tarikh penghantaran. Elakkan menyertakan maklumat sensitif tambahan.",
+          "Ladang perlu mengesahkan pemilikan sebelum melepaskan atau mengubah rekod peribadi. Jangan hantar dokumen pengenalan diri melalui borang pertanyaan am melainkan proses yang sesuai telah dipersetujui terlebih dahulu. Permintaan privasi disemak oleh seorang pengendali; menghantarnya tidak akan menyunting atau memadamkan rekod secara automatik. Laman web ini masih belum menyediakan papan pemuka akaun layan diri bagi tujuan tersebut."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "Pilihan anda pada peranti yang dikongsi",
+        "paragraphs": [
+          "Anda boleh melayari kedai dan membaca resipi tanpa menghantar sebarang borang. Anda boleh membuang produk yang disimpan melalui senarai hasrat, melaraskan bakul anda, atau menggunakan tetapan pelayar untuk mengosongkan data laman web ini yang disimpan. Peranti atau profil pelayar yang berbeza mempunyai pilihan tersimpannya yang tersendiri kerana penyelarasan akaun tidak diaktifkan.",
+          "Jika anda berkongsi peranti, tutup mana-mana halaman yang mengandungi butiran hubungan yang belum dihantar setelah anda selesai. Pertimbangkan untuk mengosongkan item yang disimpan jika anda tidak mahu orang seterusnya yang menggunakan pelayar tersebut melihatnya. Autoisi pelayar, sejarah melayari dan sandaran peranti dikawal di luar aplikasi Floruvi."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Pautan ke laman web lain",
+        "paragraphs": [
+          "Sesetengah halaman memaut kepada rujukan makanan atau penanaman luaran. Mengikuti pautan luaran akan membuka perkhidmatan yang dikendalikan oleh organisasi lain. Notis privasi dan amalan storan pelayar organisasi tersebut terpakai apabila anda melawatnya. Pautan rujukan tidak memberikan organisasi tersebut akses kepada rekod pertanyaan peribadi Floruvi anda melalui aplikasi ini.",
+          "Baca notis laman destinasi tersebut sebelum memberikan maklumat peribadi di sana. Jika anda menghubungi ladang melalui perkhidmatan komunikasi berasingan, perkhidmatan tersebut turut mungkin memproses mesej anda mengikut terma tersendiri. Notis ini menerangkan laman web Floruvi dan tidak menggantikan notis perkhidmatan lain tersebut."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Kemas kini dan cara menghubungi kami",
+        "paragraphs": [
+          "Notis ini perlu diubah apabila kedai dalam talian ini terus berkembang. Akaun pelanggan, pemprosesan bayaran, integrasi penghantaran, atau alat komunikasi baharu boleh memperkenalkan aliran data yang berbeza. Tarikh di bahagian atas menunjukkan semakan terkini halaman ini. Semak notis ini apabila anda menggunakan ciri yang baru diperkenalkan.",
+          "Untuk sebarang soalan tentang laman web semasa atau pertanyaan sedia ada, gunakan halaman hubungi. Terangkan apa yang anda ingin ketahui dalam bahasa yang mudah dan sertakan hanya butiran yang diperlukan untuk mengesan permintaan anda. Borang yang sama boleh digunakan untuk melaporkan kemungkinan masalah privasi untuk disemak oleh ladang."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Makanan segar. Maklumat yang jelas.",
+        "alt": "Bakul dipenuhi sayur-sayuran segar"
+      },
+      {
+        "title": "Sedikit kejelasan banyak membantu.",
+        "alt": "Sayur-sayuran berwarna-warni disediakan untuk hidangan"
+      },
+      {
+        "title": "Luangkan masa anda. Kenali pilihan anda.",
+        "alt": "Roti bakar avokado dan smoothie hijau di bawah cahaya pagi"
+      }
+    ],
+    "localeNote": "Pada lawatan pertama anda, laman web ini menggunakan negara yang dikesan oleh perkhidmatan pengehosan kami daripada sambungan anda untuk membuka versi negara dan bahasa yang sepadan. Pilihan anda kemudian disimpan dalam kuki bernama floruvi-locale selama satu tahun, supaya harga dan halaman kekal dalam versi tersebut. Pertanyaan yang dihantar daripada sesuatu versi negara menyertakan negara tersebut supaya ladang dapat menyemak penghantaran. Anda boleh menukar versi pada bila-bila masa menggunakan kawalan negara dan bahasa, atau membuang kuki tersebut dengan mengosongkan kuki."
+  },
+  "notFound": {
+    "eyebrow": "SEDIKIT TERSASAR DARI LALUAN LADANG",
+    "title": "Tiada apa tumbuh di sini.",
+    "text": "Halaman atau tanaman ini tidak dapat dijumpai.",
+    "cta": "Terokai produk kami ↗"
+  },
+  "categories": {
+    "leafy-greens": {
+      "name": "Sayur Berdaun",
+      "description": "Daun yang lembut, hati yang rangup, & sayur harian untuk tengah pinggan anda."
+    },
+    "herbs": {
+      "name": "Herba Segar",
+      "description": "Sentuhan akhir yang harum. Sehelai daun boleh mengubah keseluruhan hidangan."
+    },
+    "microgreens": {
+      "name": "Mikrogrin & Pucuk",
+      "description": "Daun kecil dengan rasa yang tersendiri, dari radis pedas hingga pucuk kacang manis."
+    },
+    "fruiting-crops": {
+      "name": "Tanaman Berbuah",
+      "description": "Warna, kerangupan, & kemanisan untuk salad, memasak, & snek."
+    },
+    "roots-and-stems": {
+      "name": "Akar & Batang",
+      "description": "Senarai tanaman khusus untuk akar, umbi, & batang yang rangup."
+    },
+    "edible-flowers": {
+      "name": "Bunga Boleh Dimakan",
+      "description": "Warna yang halus untuk hidangan yang penuh perhatian. Hanya jenis bergred makanan."
+    }
+  },
+  "recipeCategories": {
+    "Bowls": "Bowl",
+    "Breakfast": "Sarapan",
+    "Pasta": "Pasta",
+    "Salads": "Salad",
+    "Sides": "Sampingan",
+    "Smoothies": "Smoothie",
+    "Soups": "Sup",
+    "Tray bakes": "Panggang Talam",
+    "Wraps": "Wrap"
+  },
+  "packLabels": {
+    "1 bunch · 125–150 g": "1 ikat · 125–150 g",
+    "1 bunch · 150–200 g": "1 ikat · 150–200 g",
+    "1 bunch · 225–250 g": "1 ikat · 225–250 g",
+    "1 bunch · 450–500 g": "1 ikat · 450–500 g",
+    "1 head · 120–250 g": "1 biji · 120–250 g",
+    "1 kg": "1 kg",
+    "1 live tray": "1 dulang hidup",
+    "1 melon": "1 biji melon",
+    "100 g": "100 g",
+    "150–200 g": "150–200 g",
+    "15–20 flowers": "15–20 kuntum bunga",
+    "200 g": "200 g",
+    "200–300 g": "200–300 g",
+    "25 g": "25 g",
+    "250 g": "250 g",
+    "3 peppers · mixed colours": "3 biji lada benggala · warna campuran",
+    "40 g": "40 g",
+    "50 g": "50 g",
+    "500 g": "500 g",
+    "75 g": "75 g"
+  }
+}

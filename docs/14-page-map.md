@@ -28,6 +28,8 @@ floruvi.vercel.app/
 
 `[slug]` is the URL name, for example `/products/butterhead-lettuce` or `/recipes/everyday-green-salad`.
 
+Every page also exists in 31 other country & language versions under a prefix such as `/ar-ae/products/spinach` or `/de-de/boxes`. India English has no prefix. In code, all pages live in `app/[locale]/`; `proxy.ts` maps unprefixed URLs to `en-in`. See [languages, countries & search](21-languages-and-seo.md).
+
 ## Suggested review order
 
 1. Home
@@ -58,7 +60,8 @@ api/
 ├── checkout-review
 └── enquiries
 robots.txt
-sitemap.xml
+sitemap.xml                  Index of 32 version sitemaps
+sitemaps/[version].xml
 icon.png
 apple-icon.png
 ```

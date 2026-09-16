@@ -6,42 +6,16 @@ import microgreens from "@/src/assets/products/banners/microgreens.webp";
 import tomatoes from "@/src/assets/products/banners/tomatoes.webp";
 import roots from "@/src/assets/products/banners/roots.webp";
 import flowers from "@/src/assets/products/banners/flowers.webp";
-const stories = [
-  {
-    image: leafy,
-    title: "Good food today.\nMore to look forward to.",
-    alt: "Fresh spinach & kale on a sage background",
-  },
-  {
-    image: herbs,
-    title: "A little freshness.\nA lot of flavour.",
-    alt: "Basil & mint in soft sunlight",
-  },
-  {
-    image: microgreens,
-    title: "Small leaves.\nA fresh beginning.",
-    alt: "Young microgreens in a ceramic dish",
-  },
-  {
-    image: tomatoes,
-    title: "Bring a little colour\nto every day.",
-    alt: "Tomatoes & cucumber on a warm peach background",
-  },
-  {
-    image: roots,
-    title: "Simple ingredients.\nMeals worth making.",
-    alt: "Carrots & radishes on a cream background",
-  },
-  {
-    image: flowers,
-    title: "The finishing touch\nis something fresh.",
-    alt: "Edible flowers on a soft rose background",
-  },
-];
-export function ProductStoryBanner({ index }: { index: number }) {
-  const story = stories[((index % 6) + 6) % 6];
+import { getI18n } from "@/lib/i18n/server";
+import { fill } from "@/lib/i18n/format";
+const images = [leafy, herbs, microgreens, tomatoes, roots, flowers];
+export async function ProductStoryBanner({ index }: { index: number }) {
+  const { locale, messages } = await getI18n();
+  const t = messages.product.story;
+  const position = ((index % 6) + 6) % 6;
+  const story = { ...t.banners[position], image: images[position] };
   return (
-    <section className="product-story" aria-label="Freshness worth growing">
+    <section className="product-story" aria-label={t.label}>
       <div className="product-story-art">
         <Image
           src={story.image}
@@ -52,25 +26,25 @@ export function ProductStoryBanner({ index }: { index: number }) {
         <div className="product-story-copy">
           <h2>{story.title}</h2>
           <span className="story-rule" />
-          <p>Freshness worth growing</p>
+          <p>{t.tagline}</p>
         </div>
       </div>
       <div className="product-story-values">
         <span>
           <Leaf />
-          Fresh produce
+          {t.fresh}
         </span>
         <span>
           <Sprout />
-          Grown with care
+          {t.care}
         </span>
         <span>
           <Truck />
-          Delivery across India
+          {locale.domestic ? t.domestic : fill(t.export, { country: locale.countryName })}
         </span>
         <span>
           <ShoppingBag />
-          Pick your own mix
+          {t.mix}
         </span>
       </div>
     </section>

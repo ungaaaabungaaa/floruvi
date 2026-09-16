@@ -1,22 +1,14 @@
-import { formatMoney } from "@/lib/pricing";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import Image from "next/image";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 import { Botanical } from "./botanical";
-import type { Product } from "@/lib/catalogue";
+import type { ShopProduct } from "@/lib/storefront";
 import { productImages } from "@/lib/product-images";
 import { AddToCart } from "./add-to-cart";
 import { WishlistButton } from "./wishlist";
+import { Money } from "./i18n/money";
 
-export const categoryLabels: Record<string, string> = {
-  "leafy-greens": "Leafy greens",
-  herbs: "Fresh herbs",
-  microgreens: "Microgreens & shoots",
-  "fruiting-crops": "Fruiting crops",
-  "roots-and-stems": "Roots & stems",
-  "edible-flowers": "Edible flowers",
-};
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product }: { product: ShopProduct }) {
   const packLabel = product.price?.packLabel.split("·").at(-1)?.trim();
   const cropImage = product.imageUrl || productImages[product.slug];
   return (
@@ -35,7 +27,7 @@ export function ProductCard({ product }: { product: Product }) {
             ) : (
               <Botanical
                 category={product.category}
-                seed={product.name.length % 5}
+                seed={product.englishName.length % 5}
               />
             )}
             {productGalleryImages[product.slug] && (
@@ -50,19 +42,17 @@ export function ProductCard({ product }: { product: Product }) {
             )}
           </div>
         </Link>
+        {packLabel && <span className="product-pack">{packLabel}</span>}
         <WishlistButton slug={product.slug} name={product.name} />
       </div>
       <div className="product-card-bottom">
         <Link href={`/products/${product.slug}`} className="product-meta">
           <h3>{product.name}</h3>
         </Link>
-        <div className="product-card-price-row">
-          <p>
-            <strong>{formatMoney(product.price?.amountMinor)}</strong>
-            {packLabel && <span>{packLabel}</span>}
-          </p>
-          <AddToCart slug={product.slug} name={product.name} compact />
-        </div>
+        <p className="product-card-price">
+          <Money minor={product.price?.amountMinor} currency={product.price?.currency} />
+        </p>
+        <AddToCart slug={product.slug} name={product.name} compact />
       </div>
     </article>
   );

@@ -1,20 +1,22 @@
 "use client";
 import { useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import Image from "next/image";
 import {
   ArrowRight,
   ArrowLeft,
   Check,
-  Mail,
-  Smartphone,
-  LockKeyhole,
   CheckCircle2,
   LoaderCircle,
 } from "lucide-react";
 import { useCart } from "./cart-store";
-import { BasketSummary, EmptyBasket, useBasketReview } from "./basket";
+import { BasketSummary, EmptyBasket, useBasketReview, useLineLabels } from "./basket";
 import { basketEnquiry, checkoutContact } from "@/lib/checkout";
+import { formatCurrency, type CurrencyCode } from "@/lib/i18n/format";
+import { markets } from "@/lib/i18n/config";
+import { requestErrorMessage, validationMessage } from "@/lib/i18n/validation";
+import type { Messages } from "@/lib/i18n/messages";
+import { useI18n } from "./i18n/provider";
 import delivery from "@/src/assets/delivery-greens.png";
 const emptyDetails = {
   name: "",
@@ -26,8 +28,17 @@ const emptyDetails = {
   pincode: "",
   notes: "",
 };
-export function Checkout() {
+export function Checkout({
+  labels,
+  products,
+}: {
+  labels: Messages["checkout"];
+  products: { slug: string; name: string }[];
+}) {
   const cart = useCart();
+  const { t, locale, fill } = useI18n();
+  const lineLabels = useLineLabels();
+  const market = markets[locale.market];
   const {
     review,
     error: reviewError,
@@ -36,7 +47,6 @@ export function Checkout() {
   } = useBasketReview(cart.items);
   const [step, setStep] = useState(0);
   const [details, setDetails] = useState(emptyDetails);
-  const [method, setMethod] = useState<"email" | "phone">("email");
   const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState("");
   const [error, setError] = useState("");
@@ -54,12 +64,16 @@ export function Checkout() {
     if (status === "sending") return;
     setError("");
     if (!review || review.items.some((i) => !i.availableToEnquire)) {
-      setError("Please return to your basket & check the selected crops.");
+      setError(labels.returnToBasket);
       return;
     }
-    const parsed = basketEnquiry(details, review.items, consent, website);
+    const parsed = basketEnquiry(details, review.items, consent, website, {
+      country: locale.countryNameEnglish,
+      total: formatCurrency(review.total, review.currency as CurrencyCode, "en-IN", "unavailable"),
+      deliveryQuoted: review.deliveryQuoted,
+    });
     if (!parsed.success) {
-      setError(parsed.error.issues[0].message);
+      setError(validationMessage(parsed.error.issues[0], t.validation));
       return;
     }
     setStatus("sending");
@@ -67,20 +81,15 @@ export function Checkout() {
       const response = await fetch("/api/enquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(parsed.data),
+        body: JSON.stringify({ ...parsed.data, market: locale.market }),
       });
-      const result = await response.json();
       if (!response.ok)
-        throw new Error(result.error || "Your request was not saved.");
+        throw new Error(requestErrorMessage(response.status, t.requestErrors, t.validation));
       setStatus("success");
       setDetails(emptyDetails);
       cart.clear();
     } catch (error) {
-      setError(
-        error instanceof Error
-          ? error.message
-          : "Your request was not saved. Please try again.",
-      );
+      setError(error instanceof Error ? error.message : labels.notSaved);
       setStatus("idle");
     }
   }
@@ -88,14 +97,11 @@ export function Checkout() {
     return (
       <div className="page-width section checkout-received">
         <CheckCircle2 size={48} strokeWidth={1.2} />
-        <h1>Request received.</h1>
-        <p>We’ve saved your request. We’ll confirm availability.</p>
-        <div className="checkout-notice">
-          This is an availability request. No order, account, or payment has
-          been created.
-        </div>
+        <h1>{labels.receivedTitle}</h1>
+        <p>{labels.receivedText}</p>
+        <div className="checkout-notice">{labels.noPayment}</div>
         <Link href="/products" className="button button-primary">
-          Keep Exploring <ArrowRight size={17} />
+          {labels.keepExploring} <ArrowRight size={17} />
         </Link>
       </div>
     );
@@ -109,26 +115,24 @@ export function Checkout() {
     <div className="page-width section checkout-page">
       <Link className="text-link" href="/cart">
         <ArrowLeft size={15} />
-        Back to basket
+        {labels.back}
       </Link>
       <div className="checkout-heading">
-        <span className="eyebrow">FRESHNESS WORTH GROWING</span>
-        <h1>Checkout.</h1>
+        <span className="eyebrow">{labels.eyebrow}</span>
+        <h1>{labels.title}</h1>
       </div>
-      <ol className="checkout-progress" aria-label="Checkout progress">
-        {["Your details", "Delivery", "Review & checkout"].map(
-          (label, index) => (
-            <li key={label} aria-current={step === index ? "step" : undefined}>
-              <span>{step > index ? <Check size={15} /> : index + 1}</span>
-              {label}
-            </li>
-          ),
-        )}
+      <ol className="checkout-progress" aria-label={labels.progress}>
+        {labels.steps.map((label, index) => (
+          <li key={label} aria-current={step === index ? "step" : undefined}>
+            <span>{step > index ? <Check size={15} /> : index + 1}</span>
+            {label}
+          </li>
+        ))}
       </ol>
       <div className="checkout-layout">
         <div className="checkout-form-panel">
           <h2 ref={heading} tabIndex={-1}>
-            {["Your details", "Delivery area", "Review"][step]}
+            {labels.headings[step]}
           </h2>
           {error && (
             <p className="form-error" role="alert">
@@ -141,16 +145,25 @@ export function Checkout() {
                 e.preventDefault();
                 const parsed = checkoutContact.safeParse(details);
                 if (!parsed.success) {
-                  setError(parsed.error.issues[0].message);
+                  const issue = parsed.error.issues[0];
+                  setError(
+                    validationMessage(
+                      issue,
+                      t.validation,
+                      issue.path[0] === "phone" && !details.phone.trim()
+                        ? "deliveryPhone"
+                        : undefined,
+                    ),
+                  );
                   return;
                 }
                 move(1);
               }}
             >
-              <p>Browse & build your basket without an account.</p>
+              <p>{labels.intro}</p>
               <div className="checkout-fields">
                 <label>
-                  Full name
+                  {labels.name}
                   <input
                     name="name"
                     autoComplete="name"
@@ -159,27 +172,25 @@ export function Checkout() {
                     maxLength={100}
                     value={details.name}
                     onChange={(e) => set("name", e.target.value)}
-                    placeholder="Your full name"
+                    placeholder={labels.namePlaceholder}
                   />
                 </label>
                 <label>
-                  Email address
+                  {labels.email}
                   <input
                     type="email"
                     name="email"
                     autoComplete="email"
                     required
                     maxLength={200}
+                    dir="ltr"
                     value={details.email}
                     onChange={(e) => set("email", e.target.value)}
-                    placeholder="you@example.com"
+                    placeholder={labels.emailPlaceholder}
                   />
-                  <small>
-                    We use this address to reply to your availability request.
-                  </small>
                 </label>
                 <label>
-                  Delivery phone
+                  {labels.phone}
                   <input
                     type="tel"
                     name="phone"
@@ -187,14 +198,19 @@ export function Checkout() {
                     required
                     minLength={7}
                     maxLength={25}
+                    dir="ltr"
                     value={details.phone}
                     onChange={(e) => set("phone", e.target.value)}
-                    placeholder="Phone number with country code"
+                    placeholder={
+                      locale.domestic
+                        ? labels.phonePlaceholder
+                        : `${market.dial} · ${labels.phonePlaceholder}`
+                    }
                   />
                 </label>
               </div>
               <button className="button button-primary" type="submit">
-                Continue to Delivery <ArrowRight size={17} />
+                {labels.continue} <ArrowRight size={17} />
               </button>
             </form>
           )}
@@ -206,27 +222,26 @@ export function Checkout() {
               }}
             >
               <p>
-                We deliver across India.
+                {locale.domestic
+                  ? labels.deliveryDomestic
+                  : fill(labels.deliveryExport, { country: locale.countryName })}
               </p>
               <div className="checkout-fields">
                 <label>
-                  Address <small>Optional at the enquiry stage</small>
+                  {labels.address} <small>{labels.addressOptional}</small>
                   <input
                     name="address"
                     autoComplete="street-address"
                     maxLength={240}
                     value={details.address}
                     onChange={(e) => set("address", e.target.value)}
-                    placeholder="House, street, & area"
+                    placeholder={labels.addressPlaceholder}
                   />
-                  <small>
-                    Your street address stays in this page & is not sent with
-                    this enquiry.
-                  </small>
+                  <small>{labels.addressNote}</small>
                 </label>
                 <div className="checkout-field-pair">
                   <label>
-                    City
+                    {labels.city}
                     <input
                       name="city"
                       autoComplete="address-level2"
@@ -235,11 +250,11 @@ export function Checkout() {
                       maxLength={100}
                       value={details.city}
                       onChange={(e) => set("city", e.target.value)}
-                      placeholder="City"
+                      placeholder={labels.cityPlaceholder}
                     />
                   </label>
                   <label>
-                    State / region
+                    {labels.region}
                     <input
                       name="region"
                       autoComplete="address-level1"
@@ -248,39 +263,38 @@ export function Checkout() {
                       maxLength={100}
                       value={details.region}
                       onChange={(e) => set("region", e.target.value)}
-                      placeholder="State or region"
+                      placeholder={labels.regionPlaceholder}
                     />
                   </label>
                 </div>
                 <label>
-                  Postal code
+                  {labels.postal}
+                  {!market.postalCode && <small> {labels.optional}</small>}
                   <input
                     name="pincode"
                     autoComplete="postal-code"
-                    required
+                    required={market.postalCode}
                     minLength={2}
                     maxLength={12}
+                    dir="ltr"
                     value={details.pincode}
                     onChange={(e) => set("pincode", e.target.value)}
-                    placeholder="Postal code"
+                    placeholder={labels.postalPlaceholder}
                   />
                 </label>
                 <label>
-                  Anything we should know? <small>Optional</small>
+                  {labels.notes} <small>{labels.optional}</small>
                   <textarea
                     name="notes"
                     rows={3}
                     maxLength={800}
                     value={details.notes}
                     onChange={(e) => set("notes", e.target.value)}
-                    placeholder="Preferred delivery days, quantity notes, or questions"
+                    placeholder={labels.notesPlaceholder}
                   />
                 </label>
               </div>
-              <div className="checkout-notice">
-                Delivery dates, fees, & minimum orders will be confirmed with
-                the farm.
-              </div>
+              <div className="checkout-notice">{labels.confirmDelivery}</div>
               <div className="button-row">
                 <button
                   type="button"
@@ -288,10 +302,10 @@ export function Checkout() {
                   onClick={() => move(0)}
                 >
                   <ArrowLeft size={15} />
-                  Back
+                  {labels.backStep}
                 </button>
                 <button className="button button-primary" type="submit">
-                  Review My Basket <ArrowRight size={17} />
+                  {labels.review} <ArrowRight size={17} />
                 </button>
               </div>
             </form>
@@ -300,12 +314,12 @@ export function Checkout() {
             <form onSubmit={sendRequest}>
               <div className="review-detail">
                 <div>
-                  <span className="eyebrow">CONTACT</span>
+                  <span className="eyebrow">{labels.contact}</span>
                   <strong>{details.name}</strong>
                   <p>
-                    {details.email}
+                    <bdi>{details.email}</bdi>
                     <br />
-                    {details.phone}
+                    <bdi>{details.phone}</bdi>
                   </p>
                 </div>
                 <button
@@ -313,16 +327,22 @@ export function Checkout() {
                   type="button"
                   onClick={() => move(0)}
                 >
-                  Edit contact
+                  {labels.editContact}
                 </button>
               </div>
               <div className="review-detail">
                 <div>
-                  <span className="eyebrow">DELIVERY AREA</span>
+                  <span className="eyebrow">{labels.deliveryArea}</span>
                   <p>
                     {details.city}, {details.region}
                     <br />
                     {details.pincode}
+                    {!locale.domestic && (
+                      <>
+                        <br />
+                        {locale.countryName}
+                      </>
+                    )}
                   </p>
                 </div>
                 <button
@@ -330,73 +350,16 @@ export function Checkout() {
                   type="button"
                   onClick={() => move(1)}
                 >
-                  Edit delivery
+                  {labels.editDelivery}
                 </button>
               </div>
               <div className="checkout-selection">
                 {review?.items.map((i) => (
                   <div key={i.slug}>
-                    <span>{i.name}</span>
+                    <span>{lineLabels.name(i.slug, products, i.name)}</span>
                     <span>× {i.quantity}</span>
                   </div>
                 ))}
-              </div>
-              <fieldset className="verification-choice">
-                <legend>
-                  <LockKeyhole size={18} />
-                  Account verification at payment
-                </legend>
-                <p>
-                  When ordering opens, choose one code method at this final
-                  step. Verifying a code will create or open your account.
-                </p>
-                <div>
-                  {(["email", "phone"] as const).map((value) => (
-                    <label
-                      key={value}
-                      className={method === value ? "selected" : ""}
-                    >
-                      <input
-                        type="radio"
-                        name="verification"
-                        checked={method === value}
-                        onChange={() => setMethod(value)}
-                      />
-                      {value === "email" ? (
-                        <Mail size={20} />
-                      ) : (
-                        <Smartphone size={20} />
-                      )}
-                      <span>
-                        {value === "email" ? "Email code" : "Phone code"}
-                      </span>
-                    </label>
-                  ))}
-                </div>
-                <button
-                  type="button"
-                  className="button button-outline"
-                  disabled
-                >
-                  Send {method === "email" ? "Email" : "Phone"} Code
-                </button>
-                <small>
-                  Code delivery is not active yet. No account is created for an
-                  enquiry.
-                </small>
-              </fieldset>
-              <div className="payment-preview">
-                <span className="eyebrow">PAYMENT</span>
-                <h3>Pay securely with Razorpay</h3>
-                <p>Online payment is not active yet.</p>
-                <button
-                  type="button"
-                  className="button button-primary"
-                  disabled
-                >
-                  <LockKeyhole size={16} />
-                  Payment not yet available
-                </button>
               </div>
               <label className="checkout-consent">
                 <input
@@ -406,14 +369,12 @@ export function Checkout() {
                   required
                 />
                 <span>
-                  I agree that Floruvi can use my contact details & delivery
-                  area to respond to this availability request.{" "}
-                  <Link href="/privacy">Privacy notice</Link>
+                  {labels.consent} <Link href="/privacy">{labels.privacy}</Link>
                 </span>
               </label>
               <div className="honeypot" aria-hidden="true">
                 <label>
-                  Website
+                  {labels.honeypot}
                   <input
                     value={website}
                     onChange={(e) => setWebsite(e.target.value)}
@@ -436,17 +397,15 @@ export function Checkout() {
                 {status === "sending" ? (
                   <>
                     <LoaderCircle className="spinner" size={17} />
-                    Sending Request…
+                    {labels.sending}
                   </>
                 ) : (
                   <>
-                    Request Availability <ArrowRight size={17} />
+                    {labels.send} <ArrowRight size={17} />
                   </>
                 )}
               </button>
-              <p className="checkout-final-note">
-                This sends an enquiry. It does not place or charge an order.
-              </p>
+              <p className="checkout-final-note">{labels.finalNote}</p>
             </form>
           )}
         </div>
@@ -454,31 +413,31 @@ export function Checkout() {
           <BasketSummary review={review} />
           {loading && (
             <p role="status" className="checkout-notice">
-              Checking your basket…
+              {labels.checkingBasket}
             </p>
           )}
           {reviewError && (
             <div role="alert" className="checkout-notice">
               {reviewError}
               <button className="text-link" onClick={retry}>
-                Try again
+                {labels.tryAgain}
               </button>
             </div>
           )}
           {review?.items.some((i) => !i.availableToEnquire) && (
             <div role="alert" className="checkout-notice">
-              A crop is no longer listed.{" "}
-              <Link href="/cart">Return to the basket to remove it.</Link>
+              {labels.unlisted}{" "}
+              <Link href="/cart">{labels.returnToRemove}</Link>
             </div>
           )}
           <div className="checkout-photo">
             <Image
               src={delivery}
-              alt="box of fresh produce"
+              alt={labels.photoAlt}
               fill
               sizes="(max-width:800px) 100vw, 35vw"
             />
-            <span className="handwritten">Freshness worth growing.</span>
+            <span className="handwritten">{labels.handwritten}</span>
           </div>
         </div>
       </div>

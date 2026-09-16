@@ -1,30 +1,36 @@
-import Link from "next/link";
+import Link from "@/components/i18n/link";
+import { fill } from "@/lib/i18n/format";
+import { getMessages } from "@/lib/i18n/server";
 import { Brand } from "./brand";
-export function Footer() {
+
+export async function Footer() {
+  const { footer } = (await getMessages()).common;
+  const copyright = fill(footer.copyright, { year: new Date().getFullYear() });
   return (
     <footer className="site-footer">
       <div className="footer-main">
         <Brand />
         <div>
-          <span className="eyebrow">Shop</span>
-          <Link href="/products">Vegetables</Link>
-          <Link href="/boxes">Box subscriptions</Link>
+          <span className="eyebrow">{footer.shop}</span>
+          <Link href="/products">{footer.vegetables}</Link>
+          <Link href="/boxes">{footer.boxes}</Link>
         </div>
         <div>
-          <span className="eyebrow">Learn</span>
-          <Link href="/how-we-grow">How we grow</Link>
-          <Link href="/recipes">Recipes</Link>
+          <span className="eyebrow">{footer.learn}</span>
+          <Link href="/how-we-grow">{footer.howWeGrow}</Link>
+          <Link href="/recipes">{footer.recipes}</Link>
         </div>
         <div>
-          <span className="eyebrow">Help</span>
-          <Link href="/contact">Contact</Link>
-          <Link href="/faq">FAQ</Link>
-          <Link href="/privacy">Privacy</Link>
+          <span className="eyebrow">{footer.help}</span>
+          <Link href="/contact">{footer.contact}</Link>
+          <Link href="/faq">{footer.faq}</Link>
+          <Link href="/privacy">{footer.privacy}</Link>
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} Floruvi Farm</span>
+        <span>{copyright}</span>
       </div>
+      <span className="footer-copyright-mobile">{copyright}</span>
     </footer>
   );
 }

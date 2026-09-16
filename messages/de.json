@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "siteName": "Floruvi Farm",
+    "defaultTitle": "Floruvi — Frische, die sich lohnt",
+    "titleTemplate": "%s | Floruvi Farm",
+    "description": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware für dein Zuhause oder dein Unternehmen – geliefert in ganz Indien.",
+    "descriptionExport": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware aus Indien für Privathaushalte und Unternehmen in {country}.",
+    "ogAlt": "Floruvi — Frische, die sich lohnt",
+    "productTitle": "{name} – {country}",
+    "productDescription": "{description} {pack} – {price}.",
+    "recipeTitle": "{name}-Rezept",
+    "products": {
+      "title": "Unser Gemüse",
+      "description": "Entdecke Floruvis Gemüse & Kräuter. Erkunde Blattgemüse, Kräuter, Microgreens, Fruchtgemüse, Wurzeln & essbare Blüten."
+    },
+    "boxes": {
+      "title": "Gemüseboxen im Abo",
+      "description": "Gemüseboxen für eine Person, zwei oder die ganze Familie. Wähle eine einmalige, wöchentliche oder monatliche Lieferung. Frag bei Floruvi die Verfügbarkeit an."
+    },
+    "cart": {
+      "title": "Dein Warenkorb"
+    },
+    "checkout": {
+      "title": "Kasse"
+    },
+    "wishlist": {
+      "title": "Deine Wunschliste"
+    },
+    "contact": {
+      "title": "Kontaktiere den Hof",
+      "description": "Frag nach Sorten, Verfügbarkeit & Ware für dein Zuhause. Kein Konto nötig."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Antworten rund um Einkauf, Gemüseboxen, Lieferung, Produktpflege, gespeicherte Produkte & Datenschutz bei Floruvi."
+    },
+    "privacy": {
+      "title": "Datenschutzhinweis",
+      "description": "Wie Floruvi mit Anfragen, Browserspeicher, gespeicherten Produkten & Datenschutzanliegen umgeht."
+    },
+    "howWeGrow": {
+      "title": "Im Inneren eines Aeroponik-Turms",
+      "description": "Verfolge das Wasser, entdecke die Wurzeln & erfahre, wie ein Aeroponik-Turm im Kreislauf frisches Grün wachsen lässt."
+    },
+    "realTalk": {
+      "title": "Klartext über alltägliches Essen",
+      "description": "Einfache Wege, um Gemüse mit wenig Aufwand & einem klaren Plan in deinen Wochenspeiseplan einzubauen."
+    },
+    "recipes": {
+      "title": "Einfache Rezepte",
+      "description": "Frische Ideen für den Kochalltag. Entdecke Gemüsesalate, Suppen, Smoothies, Frühstück, Bowls & Pasta mit Floruvi."
+    },
+    "productNotFound": "Produkt nicht gefunden",
+    "recipeNotFound": "Rezept nicht gefunden"
+  },
+  "common": {
+    "skipToContent": "Zum Inhalt springen",
+    "brand": {
+      "home": "Floruvi Startseite",
+      "tagline": "Frische, die sich lohnt"
+    },
+    "nav": {
+      "shop": "Shop",
+      "boxes": "Boxen",
+      "recipes": "Rezepte",
+      "talk": "Kontakt",
+      "main": "Hauptnavigation",
+      "mobile": "Mobile Navigation",
+      "open": "Navigation öffnen",
+      "close": "Navigation schließen",
+      "description": "Entdecke den Hof & nimm Kontakt auf."
+    },
+    "footer": {
+      "shop": "Shop",
+      "vegetables": "Gemüse",
+      "boxes": "Gemüseboxen",
+      "learn": "Wissen",
+      "howWeGrow": "Wie wir anbauen",
+      "recipes": "Rezepte",
+      "help": "Hilfe",
+      "contact": "Kontakt",
+      "faq": "FAQ",
+      "privacy": "Datenschutz",
+      "copyright": "© {year} Floruvi Farm"
+    },
+    "locale": {
+      "label": "Land & Sprache",
+      "change": "Land oder Sprache ändern. Aktuell: {country}, {language}",
+      "title": "Wähle dein Land",
+      "description": "Preise, Währung & Lieferdetails richten sich nach dem gewählten Land.",
+      "close": "Schließen",
+      "language": "Sprache"
+    },
+    "money": {
+      "unavailable": "Nicht verfügbar",
+      "quoteRequired": "Preis auf Anfrage"
+    },
+    "cartLink": {
+      "one": "Warenkorb, {count} Artikel",
+      "other": "Warenkorb, {count} Artikel"
+    },
+    "addToCart": {
+      "reduce": "Menge von {name} verringern",
+      "increase": "Menge von {name} erhöhen",
+      "selectedQuantity": "Ausgewählte Menge",
+      "add": "{name} in den Warenkorb legen",
+      "added": "{name} wurde in den Warenkorb gelegt",
+      "addShort": "In den Warenkorb",
+      "addedShort": "Hinzugefügt",
+      "limit": "Maximale Anzahl im Warenkorb erreicht. Verringere die Menge oder entferne einen Artikel.",
+      "compact": "Hinzufügen"
+    },
+    "wishlist": {
+      "save": "{name} zur Wunschliste hinzufügen",
+      "remove": "{name} von der Wunschliste entfernen",
+      "title": "Wunschliste",
+      "menu": {
+        "one": "Wunschliste, {count} gespeichertes Produkt",
+        "other": "Wunschliste, {count} gespeicherte Produkte"
+      }
+    },
+    "boxes": {
+      "single": {
+        "name": "Single",
+        "people": "1 Person"
+      },
+      "dual": {
+        "name": "Duo",
+        "people": "2 Personen"
+      },
+      "family": {
+        "name": "Familie",
+        "people": "4 oder mehr"
+      },
+      "schedules": {
+        "once": "Einmalig",
+        "weekly": "Wöchentlich",
+        "monthly": "Monatlich",
+        "daily": "Einmal täglich",
+        "fortnightly": "Alle 2 Wochen"
+      },
+      "boxName": "{name}-Box · {schedule}",
+      "perDelivery": "pro Lieferung"
+    },
+    "basket": {
+      "checkFailed": "Dein Warenkorb konnte nicht überprüft werden.",
+      "summary": "Bestellübersicht",
+      "subtotal": "Zwischensumme",
+      "items": {
+        "one": "({count} Artikel)",
+        "other": "({count} Artikel)"
+      },
+      "deliveryFee": "Liefergebühr",
+      "deliveryQuoted": "Preis nach Prüfung",
+      "total": "Gesamt",
+      "totalBeforeDelivery": "Summe vor Lieferung",
+      "noPayment": "Es wird keine Zahlung eingezogen.",
+      "deliveryInfo": "Lieferinformationen",
+      "emptyEyebrow": "PLATZ FÜR ETWAS FRISCHES",
+      "emptyTitle": "Dein Warenkorb ist leer.",
+      "emptyText": "Wähle Gemüse aus, um loszulegen.",
+      "emptyCta": "Zum Gemüse"
+    },
+    "validation": {
+      "name": "Gib deinen Namen ein.",
+      "email": "Gib eine gültige E-Mail-Adresse ein.",
+      "phone": "Gib eine gültige Telefonnummer ein.",
+      "deliveryPhone": "Gib eine Telefonnummer für die Lieferung ein.",
+      "city": "Gib deine Stadt ein.",
+      "message": "Bitte gib mindestens 10 Zeichen ein.",
+      "consent": "Bitte stimme zu, damit wir auf deine Anfrage antworten können.",
+      "business": "Gib den Namen deines Unternehmens ein.",
+      "generic": "Überprüfe deine Angaben."
+    },
+    "requestErrors": {
+      "notConnected": "Anfragen sind noch nicht verbunden. Bitte versuche es später erneut.",
+      "tooMany": "Zu viele Anfragen. Bitte versuche es in einer Stunde erneut.",
+      "notSaved": "Deine Anfrage wurde nicht gespeichert. Bitte versuche es in Kürze erneut."
+    },
+    "error": {
+      "eyebrow": "EINE KLEINE PAUSE",
+      "title": "Wir konnten diese Seite nicht laden.",
+      "text": "Der Hofkatalog ist vorübergehend nicht verfügbar. Bitte versuche es erneut.",
+      "retry": "Erneut versuchen"
+    }
+  },
+  "home": {
+    "srTitle": "Floruvi — Frische, die sich lohnt",
+    "carousel": "Frische, die sich lohnt",
+    "slide": "{index} von {total}: {name}",
+    "chooseStory": "Wähle eine Geschichte",
+    "showStory": "Geschichte {index} anzeigen: {name}",
+    "previous": "Vorherige Geschichte",
+    "next": "Nächste Geschichte",
+    "pause": "Geschichten pausieren",
+    "play": "Geschichten abspielen",
+    "stories": [
+      {
+        "name": "Die Ernte",
+        "eyebrow": "FRISCHE, DIE SICH LOHNT",
+        "title": [
+          "Frisches Grün.",
+          "Hellere Tage."
+        ],
+        "note": "Etwas mehr Grün. Viel mehr, worauf du dich freuen kannst.",
+        "alt": "Eine Holzkiste voller Salat, Grünkohl und frischer Kräuter.",
+        "signature": "Gute Dinge\nwachsen heran."
+      },
+      {
+        "name": "Dein Alltag",
+        "eyebrow": "MACH PLATZ FÜR FRISCHE",
+        "title": [
+          "Kleine Rituale.",
+          "Frische Anfänge."
+        ],
+        "note": "Etwas Knackiges. Etwas Grünes. Etwas nur für dich.",
+        "alt": "Knackige grüne Blätter werden in einem elfenbeinfarbenen Sieb gewaschen.",
+        "signature": "Ein frischer Start,\njeden Tag."
+      },
+      {
+        "name": "Mehr Farbe",
+        "eyebrow": "EIN FEST FÜR DIE SINNE",
+        "title": [
+          "Iss in",
+          "voller Farbe."
+        ],
+        "note": "Süße Tomaten. Knackige Blätter. Ein Teller, für den es sich zu entschleunigen lohnt.",
+        "alt": "Bunte Tomaten, Radieschen, Karotten und frische Blätter auf hellem Stein.",
+        "signature": "Farbe steht\ndir gut."
+      },
+      {
+        "name": "Kleine Wunder",
+        "eyebrow": "LERNE DIE MICROGREENS KENNEN",
+        "title": [
+          "Kleine Blätter.",
+          "Großer Geschmack."
+        ],
+        "note": "Der frische letzte Schliff, den deine Mahlzeiten verdienen.",
+        "alt": "Frische Radieschen-Microgreens mit grünen Blättern und zarten rosa Stängeln.",
+        "signature": "Kleine Blätter,\nviel zu lieben."
+      },
+      {
+        "name": "Besser wachsen",
+        "eyebrow": "EIN FRISCHER WEG ZU WACHSEN",
+        "title": [
+          "Mit Sorgfalt verwurzelt.",
+          "Anders angebaut."
+        ],
+        "note": "Entdecke die Welt der Hydroponik & Aeroponik.",
+        "alt": "Illustration von Blattgemüse, das in sonnigen vertikalen Türmen wächst.",
+        "signature": "Ein Stück näher\nan der Natur."
+      },
+      {
+        "name": "An deinem Tisch",
+        "eyebrow": "GUTES ESSEN. GUTE GESELLSCHAFT.",
+        "title": [
+          "Die besten Dinge",
+          "teilt man."
+        ],
+        "note": "Frische Zutaten. Einfache Mahlzeiten. Ein Grund mehr, zusammenzukommen.",
+        "alt": "Ein frischer, bunter Salat und gedeckte Teller für ein gemeinsames Mittagessen.",
+        "signature": "Mach Platz\nfür gutes Essen."
+      }
+    ],
+    "freshToday": "Heute frisch.",
+    "shopAll": "Alles ansehen",
+    "categoriesLabel": "Einkaufskategorien",
+    "categoryLinks": {
+      "leafy": "Blattgemüse",
+      "herbs": "Frische Kräuter",
+      "microgreens": "Microgreens",
+      "colourful": "Buntes Gemüse"
+    },
+    "nutritionTitle": "Iss deine Farben.",
+    "nutritionAccent": "Spüre den Unterschied.",
+    "benefit": "{name}: {nutrient}",
+    "benefits": [
+      {
+        "name": "Gesunde Verdauung",
+        "nutrient": "BALLASTSTOFFE"
+      },
+      {
+        "name": "Gesunde Augen",
+        "nutrient": "VITAMIN A"
+      },
+      {
+        "name": "Starke Abwehrkräfte",
+        "nutrient": "VITAMIN C"
+      },
+      {
+        "name": "Zellwachstum",
+        "nutrient": "FOLSÄURE"
+      }
+    ],
+    "strengthTitle": "Eine stärkere Routine.",
+    "strengthAccent": "Eine gute Entscheidung\nnach der anderen.",
+    "strengthLabel": "Ernährung, Bewegung und Erholung",
+    "strengthWords": [
+      "Gut essen",
+      "Viel bewegen",
+      "Gut erholen"
+    ],
+    "strengthAlt": "Eine Sportlerin in grüner Sportkleidung dehnt sich nach dem Training, ihr Gesicht ist nicht im Bild.",
+    "goodnessTitle": "Wähle nach dem, wie du dich fühlen willst.",
+    "goodness": [
+      {
+        "name": "Liebe deinen Darm.",
+        "note": "Bring Ballaststoffe auf deinen Teller",
+        "crop": "Karotten"
+      },
+      {
+        "name": "Achte auf deine Augen.",
+        "note": "Mach Platz für Vitamin A",
+        "crop": "Spinat"
+      },
+      {
+        "name": "Stärke deine Abwehrkräfte.",
+        "note": "Lerne Vitamin C kennen",
+        "crop": "Paprika"
+      },
+      {
+        "name": "Bleib abwechslungsreich.",
+        "note": "Etwas mehr grünes Gutes",
+        "crop": "Blattgemüse"
+      }
+    ],
+    "mealAlt": "Eine Schale mit Gemüse, Kichererbsen und Quinoa auf einem leinenbedeckten Tisch.",
+    "mealTitle": "Deine nächste gute Gewohnheit",
+    "mealAccent": "beginnt auf einem Teller.",
+    "recipesTitle": "Weniger überlegen. Mehr kochen.",
+    "allRecipes": "Alle Rezepte",
+    "minutes": "{count} Min.",
+    "boxesTitle": "Gutes Essen.",
+    "boxesAccent": "Platz für alle.",
+    "exploreBoxes": "Entdecke die Boxen",
+    "boxLabel": "Entdecke die {name}-Box für {people}",
+    "boxAlt": "{name}-Box mit Salat, Spinat, Tomaten, Gurke, Karotten und Minze",
+    "moreTitle": "Mehr Gemüse zum Lieben.",
+    "seeEverything": "Alles entdecken",
+    "invitationTitle": "Etwas mehr Grün.",
+    "invitationAccent": "Ein guter Ausgangspunkt.",
+    "findFavourites": "Finde deine frischen Favoriten",
+    "searchAction": "Produkte suchen"
+  },
+  "shop": {
+    "interludes": [
+      {
+        "title": "Bring Farbe auf den Tisch.",
+        "alt": "Geröstete Karotten, Rote Bete & Kichererbsen auf einer Platte"
+      },
+      {
+        "title": "Frische Anfänge. Ruhige Morgen.",
+        "alt": "Avocado-Toast & ein grüner Smoothie im Morgenlicht"
+      },
+      {
+        "title": "Gute Zutaten. Schöne Abende.",
+        "alt": "Basilikum-Pasta & Kirschtomaten auf einem grünen Tisch"
+      }
+    ],
+    "searchLabel": "Produkte suchen",
+    "searchPlaceholder": "Gemüse & Kräuter suchen",
+    "clearSearch": "Suche zurücksetzen",
+    "filterLabel": "Nach Kategorie filtern",
+    "allProduce": "Alle Produkte",
+    "bannerAlt": "Ein Korb mit frisch geerntetem Gemüse",
+    "eyebrow": "FRISCH VON FLORUVI",
+    "title": "Frisch ausgewählt.\nFür deinen Tisch.",
+    "subtitle": "Gemüse, Kräuter & Microgreens.",
+    "sortLabel": "Produkte sortieren",
+    "bestMatch": "Beste Übereinstimmung",
+    "featured": "Empfehlungen zuerst",
+    "az": "Name: A bis Z",
+    "priceAsc": "Packungspreis: aufsteigend",
+    "priceDesc": "Packungspreis: absteigend",
+    "perPack": "Pro Packung. Größen variieren.",
+    "clearFilters": "Filter zurücksetzen",
+    "noResults": "Kein Gemüse gefunden.",
+    "otherCategories": {
+      "one": "{count} Treffer in anderen Kategorien.",
+      "other": "{count} Treffer in anderen Kategorien."
+    },
+    "tryName": "Versuch es mit einem Namen wie Spinat oder Palak.",
+    "searchAll": "Alle Kategorien durchsuchen",
+    "loading": "Produkte werden geladen…"
+  },
+  "product": {
+    "assurances": {
+      "fresh": "Frische Ware",
+      "care": "Mit Sorgfalt angebaut",
+      "cook": "Vielseitig kochen",
+      "domestic": "In ganz Indien",
+      "export": "Von Indien nach {country}"
+    },
+    "waysToEnjoy": "Genussideen",
+    "seeAllRecipes": "Alle Rezepte ansehen",
+    "minutes": "{count} Min.",
+    "howToStore": "So bewahrst du es auf",
+    "whyEat": "Warum {name} essen?",
+    "whySubtitle": "Gute Zutaten. Alltägliche Möglichkeiten.",
+    "keepFresh": "Frisch halten",
+    "foodGuide": "Warenkunde",
+    "waysToEnjoyName": "Genussideen für {name}",
+    "servingInspiration": "Serviervorschläge",
+    "youMayAlsoLike": "Das könnte dir auch gefallen",
+    "viewAll": "Alle ansehen",
+    "gallery": {
+      "closeUp": "Nahaufnahme von {name}",
+      "servingIdea": "Serviervorschlag für {name}",
+      "viewRecipe": "Rezept ansehen",
+      "images": "Produktbilder",
+      "view": "{label} ansehen"
+    },
+    "breadcrumbHome": "Start",
+    "breadcrumbShop": "Shop",
+    "story": {
+      "label": "Frische, die sich lohnt",
+      "tagline": "Frische, die sich lohnt",
+      "banners": [
+        {
+          "title": "Gutes Essen heute.\nMehr, worauf du dich freuen kannst.",
+          "alt": "Frischer Spinat & Grünkohl auf salbeigrünem Hintergrund"
+        },
+        {
+          "title": "Ein bisschen Frische.\nViel Geschmack.",
+          "alt": "Basilikum & Minze im sanften Sonnenlicht"
+        },
+        {
+          "title": "Kleine Blätter.\nEin frischer Anfang.",
+          "alt": "Junge Microgreens in einer Keramikschale"
+        },
+        {
+          "title": "Bring etwas Farbe\nin jeden Tag.",
+          "alt": "Tomaten & Gurke auf warmem pfirsichfarbenem Hintergrund"
+        },
+        {
+          "title": "Einfache Zutaten.\nMahlzeiten, die sich lohnen.",
+          "alt": "Karotten & Radieschen auf cremefarbenem Hintergrund"
+        },
+        {
+          "title": "Der letzte Schliff\nist etwas Frisches.",
+          "alt": "Essbare Blüten auf zartrosa Hintergrund"
+        }
+      ],
+      "fresh": "Frische Ware",
+      "care": "Mit Sorgfalt angebaut",
+      "domestic": "Lieferung in ganz Indien",
+      "export": "Lieferung nach {country} auf Anfrage",
+      "mix": "Stell dir deine eigene Mischung zusammen"
+    }
+  },
+  "cart": {
+    "heroAlt": "Ein Korb mit frischem Gemüse",
+    "title": "Dein Warenkorb",
+    "subtitle": "Frische Ware, bereit für deinen Tisch.",
+    "headProduct": "PRODUKT",
+    "headQuantity": "MENGE",
+    "headPrice": "PREIS",
+    "packOnRequest": "Packung auf Anfrage",
+    "unlisted": "Dieses Produkt ist nicht mehr gelistet.",
+    "perDelivery": "Pro Lieferung",
+    "freshProduce": "Frische Ware",
+    "reduce": "{name} verringern",
+    "increase": "{name} erhöhen",
+    "remove": "{name} entfernen",
+    "boxDelivery": "Lieferung in deiner Box enthalten.",
+    "domesticDelivery": "Frische Ware, geliefert in ganz Indien.",
+    "exportDelivery": "Der Hof nennt dir die Lieferkosten nach {country}, nachdem er deine Anfrage geprüft hat.",
+    "continue": "Weiter einkaufen",
+    "checking": "Katalog wird geprüft…",
+    "tryAgain": "Erneut versuchen",
+    "removeUnlisted": "Entferne nicht gelistete Produkte, bevor du fortfährst.",
+    "proceed": "Weiter zur Kasse",
+    "editorialLabel": "Frisches Essen für den Alltag",
+    "editorialAlt": "Frische grüne Kräuter",
+    "editorialTitle": "Frisches Essen.\nJeden Tag.",
+    "editorialText": "Einfache Zutaten.\nMehr Wege, sie zu genießen."
+  },
+  "checkout": {
+    "returnToBasket": "Bitte kehre zu deinem Warenkorb zurück & überprüfe die ausgewählten Produkte.",
+    "notSaved": "Deine Anfrage wurde nicht gespeichert. Bitte versuche es erneut.",
+    "receivedTitle": "Anfrage erhalten.",
+    "receivedText": "Wir melden uns bei dir, um die Verfügbarkeit zu bestätigen.",
+    "noPayment": "Es wird keine Zahlung eingezogen.",
+    "keepExploring": "Weiter entdecken",
+    "back": "Zurück zum Warenkorb",
+    "eyebrow": "FRISCHE, DIE SICH LOHNT",
+    "title": "Kasse.",
+    "progress": "Fortschritt der Bestellung",
+    "steps": [
+      "Deine Angaben",
+      "Lieferung",
+      "Übersicht & Absenden"
+    ],
+    "headings": [
+      "Deine Angaben",
+      "Liefergebiet",
+      "Übersicht"
+    ],
+    "intro": "Stöbere & fülle deinen Warenkorb – ganz ohne Konto.",
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Dein vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "du@beispiel.de",
+    "phone": "Telefonnummer für die Lieferung",
+    "phonePlaceholder": "Telefonnummer mit Ländervorwahl",
+    "continue": "Weiter zur Lieferung",
+    "deliveryDomestic": "Wir liefern in ganz Indien.",
+    "deliveryExport": "Der Hof prüft die Lieferung nach {country} & nennt dir die Kosten, bevor etwas vereinbart wird.",
+    "address": "Adresse",
+    "addressOptional": "Bei der Anfrage optional",
+    "addressPlaceholder": "Hausnummer, Straße & Stadtteil",
+    "addressNote": "Deine Straßenadresse bleibt auf dieser Seite & wird nicht mit dieser Anfrage gesendet.",
+    "city": "Stadt",
+    "cityPlaceholder": "Stadt",
+    "region": "Bundesland / Region",
+    "regionPlaceholder": "Bundesland oder Region",
+    "postal": "Postleitzahl",
+    "postalPlaceholder": "Postleitzahl",
+    "optional": "Optional",
+    "notes": "Gibt es etwas, das wir wissen sollten?",
+    "notesPlaceholder": "Bevorzugte Liefertage, Mengenangaben oder Fragen",
+    "confirmDelivery": "Der Hof bestätigt dir die Lieferdetails.",
+    "backStep": "Zurück",
+    "review": "Meinen Warenkorb überprüfen",
+    "contact": "KONTAKT",
+    "editContact": "Kontakt bearbeiten",
+    "deliveryArea": "LIEFERGEBIET",
+    "editDelivery": "Lieferung bearbeiten",
+    "consent": "Ich stimme zu, dass Floruvi meine Kontaktdaten & mein Liefergebiet nutzen darf, um auf diese Verfügbarkeitsanfrage zu antworten.",
+    "privacy": "Datenschutzhinweis",
+    "honeypot": "Website",
+    "sending": "Wird gesendet…",
+    "send": "Anfrage senden",
+    "finalNote": "Es wird keine Zahlung eingezogen. Wir bestätigen dir die Verfügbarkeit.",
+    "checkingBasket": "Dein Warenkorb wird geprüft…",
+    "tryAgain": "Erneut versuchen",
+    "unlisted": "Ein Produkt ist nicht mehr gelistet.",
+    "returnToRemove": "Kehre zum Warenkorb zurück, um es zu entfernen.",
+    "photoAlt": "Box mit frischer Ware",
+    "handwritten": "Frische, die sich lohnt."
+  },
+  "contact": {
+    "portraitAlt": "Frisches Gemüse in einer Holzkiste",
+    "sent": "Gesendet",
+    "inTouch": "Wir melden uns bei dir.",
+    "eyebrow": "LASS UNS REDEN",
+    "title": "Gutes Essen beginnt\nmit einem Gespräch.",
+    "intro": "Für dein Zuhause, deine Küche oder dein Unternehmen. Erzähl uns, was du dir vorstellst.",
+    "name": "Dein Name",
+    "namePlaceholder": "Vollständiger Name",
+    "business": "Name des Unternehmens",
+    "optional": "(optional)",
+    "businessPlaceholder": "Restaurant, Café, Laden…",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "du@beispiel.de",
+    "phone": "Telefonnummer",
+    "city": "Deine Stadt",
+    "cityPlaceholder": "Wo benötigst du die Ware?",
+    "interest": "Produkt oder Box",
+    "interestPlaceholder": "z. B. Basilikum, Salat, Microgreens",
+    "quantity": "Menge & Häufigkeit",
+    "quantityPlaceholder": "z. B. ein paar Packungen pro Woche",
+    "message": "Nachricht",
+    "messagePlaceholder": "Stell eine Frage oder erzähl uns, welche Ware du brauchst…",
+    "honeypot": "Dieses Feld leer lassen",
+    "consent": "Ich stimme zu, dass Floruvi diese Angaben nutzen darf, um auf meine Anfrage zu antworten.",
+    "privacy": "Datenschutzhinweis",
+    "sending": "Wird gesendet…",
+    "send": "Anfrage senden",
+    "required": "* Pflichtfelder.",
+    "boxInterest": "{name}-Box · {people} · {schedule}",
+    "boxMessage": "Ich hätte gern eine {name}-Gemüsebox für {people}, geliefert {schedule}. Bitte vereinbare die erste Lieferung mit mir."
+  },
+  "wishlist": {
+    "heroAlt": "Ein Leinenbeutel voller frischem Gemüse",
+    "eyebrow": "DEINE WUNSCHLISTE",
+    "title": "Gute Wahl.",
+    "accent": "Bring sie auf deinen Tisch.",
+    "intro": "Deine nächste frische Mahlzeit beginnt hier. Mach aus den Zutaten, die du liebst, etwas, das du heute genießt.",
+    "count": {
+      "one": "{count} gespeicherter Artikel",
+      "other": "{count} gespeicherte Artikel"
+    },
+    "unlisted": "Dieses Produkt ist nicht mehr gelistet.",
+    "emptyTitle": "Speichere etwas Inspiration.",
+    "emptyText": "Tippe auf das Herz bei einem Produkt, um deine Favoriten hier zu speichern.",
+    "explore": "Produkte entdecken",
+    "bannerAlt": "Ein bunter frischer Salat mit Kräutern & Zitrone",
+    "bannerTitle": "Mach deine nächste Mahlzeit zu einer frischen.",
+    "recommendations": "Das könnte dir auch gefallen",
+    "exploreAll": "Alles entdecken"
+  },
+  "boxes": {
+    "eyebrow": "GEMÜSE IM ABO",
+    "title": "Gutes Essen,\nimmer wieder.",
+    "intro": "Frisches Gemüse direkt an deine Tür.\nDeine Box. Deine Routine.",
+    "values": {
+      "fresh": "Frische Ware",
+      "regular": "Regelmäßige Lieferung",
+      "good": "Gutes Essen"
+    },
+    "heroAlt": "Eine Gemüsebox mit Salat, Spinat, Tomaten, Karotten, Gurke & Minze",
+    "added": "Zu deinem Warenkorb hinzugefügt.",
+    "full": "Dein Warenkorb ist voll. Bitte überprüfe ihn, bevor du mehr hinzufügst.",
+    "chooseBox": "Wähle deine Box",
+    "chooseNote": "Gleiche Frische. Eine Größe für jeden Haushalt.",
+    "boxAlt": "{name}-Gemüsebox",
+    "frequency": "Lieferhäufigkeit",
+    "frequencyNote": "Wähle, wie oft du deine Box erhalten möchtest.",
+    "addedShort": "Hinzugefügt",
+    "addToCart": "In den Warenkorb",
+    "seasonalAlt": "Frisches Blattgemüse",
+    "seasonalTitle": "Eine frische Mischung.\nEine vertraute Routine.",
+    "seasonalText": "Grünes, Gemüse & Kräuter für die Mahlzeiten, die du jeden Tag zubereitest.",
+    "insideTitle": "Was ist drin?",
+    "insideNote": "Deine {name}-Box enthält:",
+    "storyAlt": "Ein frischer Gemüsesalat",
+    "storyTitle": "Echtes Essen.\nAlltägliche Favoriten.",
+    "storyText": "Starte mit einer Box frischer Zutaten. Mach daraus dein eigenes Gericht.",
+    "storyValues": {
+      "ingredients": "Frische Zutaten",
+      "meals": "Mahlzeiten zum Genießen"
+    },
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq": [
+      [
+        "Was ist im Preis enthalten?",
+        "Der Preis gilt für eine Box pro Lieferung. Für Boxen fällt keine zusätzliche Liefergebühr an."
+      ],
+      [
+        "Wann kommt meine erste Box an?",
+        "Der Hof vereinbart deine erste Lieferung mit dir."
+      ],
+      [
+        "Wird beim Hinzufügen einer Box eine Zahlung eingezogen?",
+        "Nein. Deine Box & Häufigkeit werden in deinem Warenkorb gespeichert. Eine wiederkehrende Abrechnung ist noch nicht aktiv."
+      ],
+      [
+        "Kann ich die Box oder den Lieferrhythmus ändern?",
+        "Sag uns, was du brauchst, wenn wir deine Anfrage bestätigen. Kontaktiere den Hof, um Änderungen an einer vereinbarten Lieferung zu besprechen."
+      ]
+    ],
+    "faqExportPrice": [
+      "Was ist im Preis enthalten?",
+      "Der Preis gilt für eine Box pro Lieferung. Der Hof nennt dir die Lieferkosten nach {country}, nachdem er deine Anfrage geprüft hat."
+    ],
+    "recipesTitle": "Rezepte für deine Box"
+  },
+  "recipes": {
+    "interludes": [
+      {
+        "title": "Ein bisschen Pasta. Ein schöner Abend.",
+        "alt": "Basilikum-Pasta & Kirschtomaten auf einem tannengrünen Tisch"
+      },
+      {
+        "title": "Nimm dir Zeit fürs Frühstück.",
+        "alt": "Avocado-Toast & ein grüner Smoothie im Morgenlicht"
+      },
+      {
+        "title": "Bring Farbe auf den Tisch.",
+        "alt": "Geröstete Karotten, Rote Bete & Kichererbsen auf einer Platte"
+      },
+      {
+        "title": "Beginne mit etwas Frischem.",
+        "alt": "Hände halten einen Korb mit frischem Gemüse"
+      }
+    ],
+    "heroAlt": "Eine Schale mit frischem Grün, Tomaten & Radieschen",
+    "eyebrow": "REZEPTE",
+    "title": "Einfache Mahlzeiten\nFür ein gesünderes Leben",
+    "subtitle": "Frische Ideen, um Gemüse zu einem festen Teil deines Alltags zu machen.",
+    "searchLabel": "Rezepte suchen",
+    "searchPlaceholder": "Rezepte suchen…",
+    "clearSearch": "Suche zurücksetzen",
+    "categoriesLabel": "Rezeptkategorien",
+    "all": "Alle",
+    "found": {
+      "one": "{count} Rezept gefunden",
+      "other": "{count} Rezepte gefunden"
+    },
+    "resultsLabel": "Rezeptergebnisse",
+    "noResults": "Keine Rezepte gefunden.",
+    "noResultsText": "Versuch eine andere Zutat oder setze deine Filter zurück.",
+    "showAll": "Alle Rezepte anzeigen",
+    "kitchenAlt": "Hände wenden einen frischen Gemüsesalat mit Holzlöffeln",
+    "kitchenTitle": "Gute Zutaten\nSchönere Tage",
+    "kitchenText": "Echtes Essen. Ganz einfach.",
+    "moreLabel": "Weitere Rezeptergebnisse",
+    "more": "Weitere Rezepte",
+    "cardMinutes": "{count} Min.",
+    "breadcrumb": "Brotkrümelnavigation",
+    "breadcrumbRecipes": "Rezepte",
+    "kitchen": "DIE FLORUVI KÜCHE",
+    "minutes": {
+      "one": "{count} Minute",
+      "other": "{count} Minuten"
+    },
+    "servings": {
+      "one": "{count} Portion",
+      "other": "{count} Portionen"
+    },
+    "letsMake": "Los geht's",
+    "whatYouNeed": "WAS DU BRAUCHST",
+    "ingredients": "Zutaten",
+    "allergens": "Prüfe die Zutatenliste auf Allergene. Wasche frisches Gemüse vor der Zubereitung.",
+    "stepByStep": "SCHRITT FÜR SCHRITT",
+    "makeSomething": "Lass uns etwas Gutes zubereiten.",
+    "kitchenNote": "Eine kleine Küchennotiz",
+    "meetIngredients": "Lerne die Zutaten kennen.",
+    "moreRecipes": "Weitere Rezepte"
+  },
+  "howWeGrow": {
+    "heroAlt": "Hände ernten frischen Salat aus einem Aeroponik-Turm",
+    "eyebrow": "ANDERS VERWURZELT",
+    "title": "Mehr Grün.",
+    "accent": "Weniger Boden.",
+    "intro": "Luft. Wasser. Frische Möglichkeiten.\nEine ganz neue Art des Anbaus.",
+    "cropsLabel": "Blattgemüse & frische Kräuter",
+    "cropAlts": [
+      "Salat",
+      "Basilikum",
+      "Grünkohl"
+    ],
+    "crops": "Blattgemüse.\nFrische Kräuter.",
+    "scroll": "Im Inneren des Turms",
+    "principlesLabel": "Die Grundlagen des Anbaus",
+    "principles": [
+      "Wasser im Kreislauf",
+      "Wurzeln ohne Erde",
+      "Vertikal wachsen",
+      "Licht treibt das Wachstum an"
+    ],
+    "insideEyebrow": "SCHAU GENAUER HIN",
+    "insideTitle": "Es passiert viel",
+    "insideAccent": "unter den Blättern.",
+    "insideText": "Wurzeln hängen frei in der Luft. Ein Nährstoffspray versorgt sie. Tippe auf eine Zahl, um mehr zu erfahren.",
+    "journeyEyebrow": "KLEINE ANFÄNGE. FRISCHE MÖGLICHKEITEN.",
+    "journeyTitle": "Säen. Wachsen. Ernten. Genießen.",
+    "stages": [
+      {
+        "title": "Klein anfangen",
+        "text": "Samen beginnen in einem Anzuchtwürfel."
+      },
+      {
+        "title": "Ein Zuhause finden",
+        "text": "Junge Pflanzen ziehen in die Taschen des Turms um."
+      },
+      {
+        "title": "Ernten, wenn es Zeit ist",
+        "text": "Jede Pflanze hat ihre eigene Erntezeit."
+      },
+      {
+        "title": "Mach es dir zu eigen",
+        "text": "Frische Zutaten für alltägliche Mahlzeiten."
+      }
+    ],
+    "rootAlt": "Feine helle Wurzeln hängen unter einem Anzuchttopf",
+    "rootEyebrow": "GIB WURZELN, WAS SIE BRAUCHEN",
+    "rootTitle": "Keine Erde.",
+    "rootAccent": "Trotzdem voller Leben.",
+    "rootText": "Wurzeln brauchen Wasser, Nährstoffe & Sauerstoff.\nEin feiner Sprühnebel liefert Wasser & Nährstoffe, während die Wurzeln frei in der Luft hängen.",
+    "rootTags": [
+      "Wasser",
+      "Nährstoffe",
+      "Sauerstoff"
+    ],
+    "notebookEyebrow": "EIN PAAR NOTIZEN VON INNEN",
+    "notebookTitle": "Kleine Wurzeln.",
+    "notebookAccent": "Ein cleverer Kreislauf.",
+    "notebookAlt": "Handgezeichnete Studien eines Anzuchttopfs, von Wurzeln im Nährstoffspray & dem Wasserkreislauf eines Aeroponik-Turms",
+    "notes": [
+      {
+        "label": "01 / Ein Anfang",
+        "title": "Der Topf hält die Pflanze.",
+        "text": "Ein Anzuchtwürfel stützt den Setzling. Die Wurzeln wachsen durch den Netztopf in den Turm hinein."
+      },
+      {
+        "label": "02 / Ein feiner Sprühnebel",
+        "title": "Die Wurzeln bleiben in der Luft.",
+        "text": "Düsen bringen Wasser & Nährstoffe direkt zu den Wurzeln. Ein Zeitplan sorgt für ihre Versorgung."
+      },
+      {
+        "label": "03 / Zurück zum Anfang",
+        "title": "Das Wasser kommt zurück.",
+        "text": "Überschüssige Nährlösung fließt in das Becken zurück. Die Pumpe schickt sie erneut durch das System."
+      }
+    ],
+    "closingTitle": "Ein kleiner Fußabdruck.",
+    "closingAccent": "Eine frische Perspektive.",
+    "closingText": "Wachstum in die Höhe eröffnet neue Möglichkeiten.",
+    "references": "Entdecke die Wissenschaft dahinter",
+    "referenceNasa": "Aeroponischer Anbau — NASA Spinoff ↗",
+    "referenceOsu": "Wasser- & Nährstoffkontrollen — Oklahoma State University ↗",
+    "tower": {
+      "cutawayAlt": "Querschnitt eines ananasförmigen Aeroponik-Turms mit frei hängenden Wurzeln, Sprühdüsen, zentralem Rohr & Wasserbecken",
+      "explore": "Entdecke {title}",
+      "follow": "FOLGE DEM WASSERFLUSS",
+      "cycle": "Ein Kreislauf. Wasser bleibt in Bewegung.",
+      "parts": [
+        {
+          "title": "Pflanztaschen",
+          "text": "Kleine Töpfe stützen jede Pflanze. Ihre Wurzeln reichen in den Turm hinein."
+        },
+        {
+          "title": "Wasser nach oben",
+          "text": "Eine Pumpe befördert nährstoffreiches Wasser vom Becken in das zentrale Zuleitungsrohr."
+        },
+        {
+          "title": "Wurzeln versorgt",
+          "text": "Düsen besprühen die frei hängenden Wurzeln mit Wasser & gelösten Nährstoffen. Luft umgibt die Wurzeln."
+        },
+        {
+          "title": "Wasser kehrt zurück",
+          "text": "Überschüssige Nährlösung fließt zurück ins Becken & wird erneut genutzt."
+        }
+      ]
+    }
+  },
+  "realTalk": {
+    "eyebrow": "KLARTEXT",
+    "title": "Plane deine Mahlzeiten.",
+    "intro": "Wähle ein paar Mahlzeiten, bevor du einkaufst.",
+    "cta": "Starte in der Küche",
+    "paperEyebrow": "DER GUTES-ESSEN-PLAN DIESER WOCHE",
+    "paperTitle": "Diese Woche.",
+    "plan": [
+      "Wähle zwei Mahlzeiten, die dir schmecken",
+      "Entscheide dich für ein Blattgemüse",
+      "Füg ein Kraut für den Geschmack hinzu",
+      "Kauf die Menge, die du auch brauchst",
+      "Koch etwas. Teil es."
+    ],
+    "handwritten": "Kleine Veränderungen,\nhellere Tage.",
+    "keepEyebrow": "BLEIB EHRLICH",
+    "keepTitle": "Fang mit Essen an, nicht mit Versprechen.",
+    "keepText": "Eine abwechslungsreiche Ernährung gehört dazu, gut für dich zu sorgen. Kein einzelnes Lebensmittel kann Gesundheit garantieren oder medizinische Versorgung ersetzen. Wir konzentrieren uns auf Zutaten & praktische Wege, sie zu genießen.",
+    "chooseTitle": "Wähle dein Gemüse.",
+    "chooseCta": "Entdecke frisches Grün"
+  },
+  "faq": {
+    "eyebrow": "EIN BISSCHEN HILFE",
+    "title": "Fragen?",
+    "intro": "Vom ersten Warenkorb bis zur nächsten Mahlzeit. Hier findest du alle Details.",
+    "topics": "FAQ-Themen",
+    "contactLink": "Kontaktiere uns →",
+    "helpTitle": "Noch eine Frage?",
+    "helpText": "Sag uns, was du brauchst. Wir helfen dir beim nächsten Schritt.",
+    "helpContact": "Kontaktiere den Hof →",
+    "helpPrivacy": "Datenschutzhinweis →",
+    "deliveryFee": "Für einen Warenkorb mit einzelnen Produkten kostet die Lieferung {fee} pro Lieferung.",
+    "deliveryFeeMissing": "Die Liefergebühr wird in deinem Warenkorb angezeigt, bevor du eine Anfrage sendest.",
+    "groups": {
+      "shopping": {
+        "title": "Einkaufen & dein Warenkorb",
+        "questions": [
+          [
+            "Wie gebe ich eine Bestellung auf?",
+            "Wähle deine Produkte oder eine Box, lege sie in deinen Warenkorb und prüfe deine Auswahl an der Kasse. Gib deine Kontaktdaten ein und sende eine Verfügbarkeitsanfrage. Der Hof prüft die Anfrage und bespricht mit dir die nächsten Schritte."
+          ],
+          [
+            "Brauche ich ein Konto?",
+            "Du brauchst kein Konto. Stöbere, speichere Favoriten und sende deine Anfrage."
+          ],
+          [
+            "Kann ich meinen Warenkorb ändern, bevor ich eine Anfrage sende?",
+            "Ja. Öffne den Warenkorb, um Mengen anzupassen oder Artikel zu entfernen. Prüfe Packungsgrößen, gewählte Box-Häufigkeit und Gesamtsumme, bevor du fortfährst. Änderungen am Warenkorb wirken sich nicht auf eine bereits gesendete Anfrage aus."
+          ],
+          [
+            "Bleibt mein Warenkorb erhalten, wenn ich die Seite verlasse?",
+            "Dein Warenkorb wird im selben Browser gespeichert, sofern lokaler Speicher verfügbar ist. Das Löschen von Website-Daten oder ein Browserwechsel kann diese Inhalte entfernen oder verändern. Dein Warenkorb wird derzeit nicht geräteübergreifend synchronisiert."
+          ],
+          [
+            "Reserviert das Hinzufügen eines Artikels ihn automatisch?",
+            "Nein. Wenn du Produkte in den Warenkorb legst, wird nur deine Auswahl gespeichert. Der Hof prüft sie erst, wenn du eine Anfrage sendest; das reserviert keine Ware und bestätigt keine Lieferung."
+          ]
+        ]
+      },
+      "boxes": {
+        "title": "Gemüseboxen",
+        "questions": [
+          [
+            "Welche Boxgröße soll ich wählen?",
+            "Single ist für eine Person gedacht, Dual für zwei und Family für vier oder mehr. Nutze das als Anhaltspunkt und sieh dir dann den aufgeführten Inhalt an, um die Größe zu wählen, die zu deinem Kochbedarf passt."
+          ],
+          [
+            "Welche Lieferhäufigkeiten kann ich wählen?",
+            "Wähle auf der Boxen-Seite zwischen Einmalig, Wöchentlich oder Monatlich. Einmalig ist eine einmalige Boxanfrage. Wöchentlich und Monatlich geben deinen bevorzugten Rhythmus an; die Auswahl startet keine automatische Abrechnung."
+          ],
+          [
+            "Gilt der Boxpreis pro Lieferung?",
+            "Ja. Der angezeigte Betrag gilt für eine Box pro Lieferung, in der gewählten Größe. Er ist keine Monatssumme und keine Gebühr für die Tage zwischen den Lieferungen."
+          ],
+          [
+            "Ist die Lieferung im Boxpreis enthalten?",
+            "Ja. Für einen Warenkorb, der nur Boxen enthält, fällt keine zusätzliche Liefergebühr an. Wenn du auch einzelne Produkte hinzufügst, gilt für den gesamten Warenkorb die normale Liefergebühr für Produkte."
+          ],
+          [
+            "Kann ich eine Box oder ihre Häufigkeit ändern?",
+            "Entferne die Box vor dem Senden einer Anfrage aus deinem Warenkorb und füge die gewünschte Größe oder Häufigkeit hinzu. Nach dem Senden kontaktierst du den Hof, um die Änderung zu besprechen. Änderungen an einer bereits vereinbarten Lieferung müssen mit dem Hof abgestimmt werden."
+          ]
+        ]
+      },
+      "delivery": {
+        "title": "Lieferung & Zahlung",
+        "questions": [
+          [
+            "Wohin liefert ihr?",
+            "Wir nehmen Lieferanfragen aus ganz Indien entgegen. Teile uns deine Stadt und dein Liefergebiet mit, damit der Hof die Anfrage prüfen und die Lieferung mit dir abstimmen kann."
+          ],
+          [
+            "Was kostet die Lieferung?",
+            "{deliveryFee} Für einen Warenkorb, der nur Boxen enthält, fällt keine zusätzliche Liefergebühr an. Prüfe die Gesamtsumme im Warenkorb, bevor du deine Anfrage sendest."
+          ],
+          [
+            "Wann kommen meine Produkte oder meine erste Box an?",
+            "Der Hof meldet sich bei dir, um die Lieferung zu vereinbaren."
+          ],
+          [
+            "Kann ich online bezahlen?",
+            "Online wird keine Zahlung eingezogen. Der Hof bestätigt deine Anfrage und die Zahlungsdetails."
+          ],
+          [
+            "Wie ändere oder storniere ich eine Anfrage?",
+            "Nutze das Kontaktformular und gib die E-Mail-Adresse deiner Anfrage, deine Auswahl und die gewünschte Änderung an. Wurde die Lieferung bereits vereinbart, kontaktiere den Hof, um die Möglichkeiten zu besprechen."
+          ],
+          [
+            "Was, wenn es ein Problem mit meiner Lieferung gibt?",
+            "Kontaktiere den Hof mit den Details deiner Anfrage und einer klaren Beschreibung des Problems. Nenne die betroffenen Artikel und den Zeitpunkt der Lieferung. Der Hof bespricht das Anliegen dann mit dir; die Website bietet derzeit keinen automatischen Erstattungs- oder Ersatzprozess."
+          ]
+        ]
+      },
+      "produce": {
+        "title": "Produkte, Lagerung & Rezepte",
+        "questions": [
+          [
+            "Wo finde ich die Packungsgröße?",
+            "Jede Produktkarte zeigt Preis und Packungsgröße. Öffne die Produktseite für weitere Details und prüfe anschließend deine gewählten Mengen im Warenkorb. Packungsgrößen unterscheiden sich je nach Kultur, vergleiche also Gewicht oder Menge zusammen mit dem Preis."
+          ],
+          [
+            "Wie lagere ich meine Produkte?",
+            "Öffne die Produktseite und lies den Abschnitt Lagerung. Die Anforderungen unterscheiden sich je nach Kultur. Folge den produktspezifischen Hinweisen und allen Anweisungen, die deiner Lieferung beiliegen."
+          ],
+          [
+            "Sollte ich die Produkte vor der Verwendung waschen?",
+            "Folge den Zubereitungshinweisen auf der Produktseite und allen Angaben, die deiner Lieferung beiliegen. Die Produktseiten enthalten Zubereitungstipps, die dir zeigen, wann du waschen, putzen oder kochen solltest."
+          ],
+          [
+            "Wo finde ich Rezepte zu einem Produkt?",
+            "Schau auf der Produktseite unter So genießt du es nach. Wähle ein Rezept, um Zutaten, Zubereitungsschritte und Zubereitungszeit zu sehen. Weitere Ideen findest du auf der Rezeptseite."
+          ],
+          [
+            "Sind die Rezeptzutaten in meinem Kauf enthalten?",
+            "Ein Produktkauf umfasst die angegebene Packung, nicht jede Zutat, die in einem Rezept genannt wird. Rezepte sind Essensideen. Prüfe die Zutatenliste des Rezepts und den Boxinhalt, bevor du entscheidest, was du noch brauchst."
+          ]
+        ]
+      },
+      "help": {
+        "title": "Gespeicherte Produkte, Geschäftsanfragen & Support",
+        "questions": [
+          [
+            "Wie funktioniert die Wunschliste?",
+            "Klicke auf das Herz bei einem Produktbild, um es zu speichern. Öffne das Herz in der Kopfzeile, um deine gespeicherten Produkte zu sehen. Klicke erneut darauf, um ein Produkt zu entfernen. Die Liste wird ohne Konto in deinem aktuellen Browser gespeichert."
+          ],
+          [
+            "Warum ist meine Wunschliste auf einem anderen Gerät anders?",
+            "Gespeicherte Produkte bleiben in diesem Browser. Sie erscheinen nicht auf anderen Geräten."
+          ],
+          [
+            "Beliefert ihr Cafés, Restaurants oder andere Unternehmen?",
+            "Du kannst über die Kontaktseite eine Geschäftsanfrage senden. Gib deinen Firmennamen, die gewünschten Kulturen, Mengen, deine Stadt und den bevorzugten Rhythmus an, damit der Hof deinen Bedarf versteht."
+          ],
+          [
+            "Was passiert mit meinen übermittelten Daten?",
+            "Deine Anfragedaten werden vertraulich gespeichert, damit der Hof sie prüfen und beantworten kann. Warenkorb- und Wunschlisten-Einstellungen werden in deinem Browser gespeichert. Die vollständige Erklärung sowie Informationen zu Auskunfts-, Berichtigungs- oder Löschanfragen findest du im Datenschutzhinweis."
+          ],
+          [
+            "Wie kann ich etwas anderes fragen?",
+            "Nutze das Kontaktformular und gib genug Details an, damit der Hof deine Frage versteht. Beziehst du dich auf eine bestehende Anfrage, nenne die verwendete E-Mail-Adresse. Gib keine Passwörter, Zahlungsdaten oder andere sensiblen Informationen an."
+          ]
+        ]
+      }
+    },
+    "export": {
+      "where": [
+        "Wohin liefert ihr?",
+        "Wir nehmen Anfragen aus {country} entgegen. Teile uns deine Stadt und dein Liefergebiet mit. Der Hof prüft die Exportverfügbarkeit für deine Auswahl und bespricht mit dir die nächsten Schritte."
+      ],
+      "cost": [
+        "Was kostet die Lieferung?",
+        "Die Lieferung nach {country} wird dir mitgeteilt, nachdem der Hof deine Anfrage geprüft hat, da die Exportkosten vom Zielort und der Bestellgröße abhängen. Dein Warenkorb zeigt die Produktsumme vor der Lieferung."
+      ],
+      "boxDelivery": [
+        "Ist die Lieferung im Boxpreis enthalten?",
+        "Der Boxpreis deckt die Box ab. Der Hof nennt dir die Lieferkosten nach {country}, nachdem er deine Anfrage geprüft hat."
+      ]
+    }
+  },
+  "privacy": {
+    "eyebrow": "DEINE DATEN, MIT SORGFALT",
+    "title": "Datenschutzhinweis",
+    "intro": "Was du teilst. Wo es bleibt. Welche Wahl du hast.",
+    "updated": "Aktualisiert am {date}",
+    "contents": "Inhalt des Datenschutzhinweises",
+    "inThisNotice": "In diesem Hinweis",
+    "question": "Hast du eine Frage zum Datenschutz?",
+    "contactLink": "Kontaktiere uns →",
+    "sections": [
+      {
+        "id": "about",
+        "title": "Über diesen Hinweis",
+        "paragraphs": [
+          "Dieser Hinweis erklärt, wie Informationen verwendet werden, wenn du Floruvi durchstöberst, Produkte speicherst, einen Warenkorb zusammenstellst oder eine Anfrage sendest. Er bezieht sich auf die aktuelle Website, einschließlich Shop, Boxen, Rezepte und Kontaktformular. Er beschreibt die heute verfügbaren Funktionen.",
+          "Zum Stöbern brauchst du kein Kundenkonto. Das Senden einer Verfügbarkeitsanfrage gibt dem Hof Informationen, um deinen Bedarf zu prüfen und zu antworten. Dabei wird kein Konto angelegt, keine Zahlung eingezogen, keine Ware reserviert und keine wiederkehrende Abrechnung aktiviert. Wenn in diesem Hinweis von Checkout die Rede ist, ist damit dieser Anfrageprozess gemeint."
+        ]
+      },
+      {
+        "id": "information",
+        "title": "Informationen, die du mit uns teilst",
+        "paragraphs": [
+          "Das Kontaktformular fragt nach deinem Namen, deiner E-Mail-Adresse, deiner Stadt, deiner Nachricht und deiner Zustimmung, diese Daten für eine Antwort zu verwenden. Je nach Formular kannst du zusätzlich eine Telefonnummer, gewünschte Produkte, Mengen und weitere Angaben zu deiner Anfrage teilen. Bei einer Geschäftsanfrage kannst du deinen Firmennamen angeben.",
+          "Teile bitte nur Informationen, die für die Anfrage nötig sind. Eine Liste der gewünschten Kulturen, das Liefergebiet und die erwartete Menge helfen dem Hof zum Beispiel, eine Geschäftsanfrage zu verstehen. Gib in einer Nachricht keine Passwörter, Zahlungskartennummern, Ausweisdokumente, Gesundheitsdaten oder private Informationen über andere Personen an."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "Wie Anfragedaten verwendet werden",
+        "paragraphs": [
+          "Der Hof nutzt die von dir übermittelten Informationen, um deine Anfrage zu verstehen, die gewählten Produkte zu prüfen, den Lieferbedarf einzuschätzen und über die angegebenen Kontaktdaten zu antworten. Der Anfrageeintrag enthält einen Sendezeitpunkt, einen Zustimmungszeitpunkt und einen Status zur Organisation der Anfragen.",
+          "Vor dem Absenden der Anfrage musst du eine Zustimmungs-Checkbox aktivieren. Diese Zustimmung bezieht sich auf die Bearbeitung deiner Anfrage. Die aktuelle Website macht aus einer Kontaktanfrage weder ein Newsletter-Abonnement noch meldet sie dich für eine Werbekampagne an. Prüfe die Angaben in deinem Formular, bevor du es sendest."
+        ]
+      },
+      {
+        "id": "basket",
+        "title": "Dein Warenkorb & deine Box-Auswahl",
+        "paragraphs": [
+          "Der Warenkorb speichert Produktkennungen und Mengen in deinem Browser. Bei einer Box wird zusätzlich die gewählte Boxgröße und Lieferhäufigkeit erfasst. So kann dir die Website deine Auswahl zeigen, wenn du mit demselben Browser zurückkehrst. Kontaktdaten sind nicht Teil dieses gespeicherten Warenkorbs.",
+          "Das Hinzufügen eines Artikels zum Warenkorb sendet keine Anfrage. Du kannst Mengen ändern oder Artikel entfernen, bevor du eine Anfrage sendest. Wenn du den Browser-Speicher dieser Website löschst, wird der gespeicherte Warenkorb in diesem Browser entfernt. Eine bereits an den Hof gesendete Anfrage wird dadurch weder storniert noch gelöscht."
+        ]
+      },
+      {
+        "id": "wishlist",
+        "title": "Deine Wunschliste & Rezeptvorlieben",
+        "paragraphs": [
+          "Die Wunschliste speichert Namen und Kennungen gespeicherter Produkte im lokalen Browser-Speicher. Sie ermöglicht die Herz-Funktion und die Anzeige der Anzahl gespeicherter Produkte. Die aktuelle Wunschliste ist weder mit einem Kundenkonto verknüpft noch geräteübergreifend synchronisiert. Eine andere Person, die dasselbe Browserprofil nutzt, kann diese gespeicherten Artikel möglicherweise sehen.",
+          "Beim Durchstöbern der Rezepte wird außerdem der Sitzungsspeicher genutzt, damit die Reihenfolge der Rezeptkarten während einer Sitzung gleich bleibt. Dabei wird nur eine Anzeigeeinstellung gespeichert, keine Kontaktdaten. Du kannst lokale Einstellungen über die Website-Daten-Verwaltung deines Browsers entfernen. Privates Surfen oder blockierter Speicher können die Dauer einschränken, für die sich diese Funktionen deine Auswahl merken."
+        ]
+      },
+      {
+        "id": "checkout",
+        "title": "Checkout & Lieferdaten",
+        "paragraphs": [
+          "Kontakt- und Lieferfelder, die du beim Checkout ausfüllst, bleiben nur im Speicher der Seite, bis du die Verfügbarkeitsanfrage sendest. Die gesendete Anfrage enthält deine Kontaktdaten, die gewählten Produkte oder die Box, das Liefergebiet und deine Anmerkungen. Das optionale Straßenadressfeld wird weder in die gesendete Anfrage aufgenommen noch im Anfrageeintrag gespeichert.",
+          "Nicht gesendete Formulardaten werden nicht im Floruvi-Warenkorb gespeichert. Beim Verlassen oder Neuladen der Seite können sie verloren gehen. Unabhängig davon kann dein Browser Formularangaben über eigene Einstellungen automatisch ausfüllen oder sich merken. Überprüfe diese Einstellungen, wenn du ein gemeinsam genutztes Gerät verwendest oder nicht möchtest, dass dein Browser persönliche Daten vorschlägt."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Wo Anfragen gespeichert werden",
+        "paragraphs": [
+          "Gesendete Anfragen werden im Convex-Projekt von Floruvi in der Region EU West gespeichert. Sie werden getrennt vom öffentlichen Produktkatalog aufbewahrt. Autorisierte Projektbetreiber können auf Anfrageeinträge zugreifen, um Anfragen zu bearbeiten. Die öffentlichen Shop- und Rezeptseiten zeigen diese privaten Anfrageeinträge nicht an.",
+          "Das Website-Hosting verarbeitet die Anfragen, die zum Ausliefern von Seiten, Bildern und Formularantworten nötig sind. Floruvi nutzt Vercel für das Hosting und Convex für die Anwendungsdaten. Der Besuch der Website läuft daher über diese Infrastrukturdienste. Aus einem anderen Land gesendete Informationen können im Rahmen dieser Struktur auch außerhalb dieses Landes verarbeitet werden."
+        ]
+      },
+      {
+        "id": "protection",
+        "title": "Formularschutz & Anfragelimits",
+        "paragraphs": [
+          "Die Website prüft die gesendeten Felder, bevor eine Anfrage gespeichert wird. Dazu gehören Pflichtfelder, Längenbegrenzungen, Kontaktformate und ein Formularfeld zur Erkennung automatisierter Übermittlungen. Anfragen, die diese Prüfung nicht bestehen, werden abgelehnt. Diese Kontrollen schützen den Anfragedienst vor ungültigen oder übermäßigen Anfragen.",
+          "Temporäre Sendelimits nutzen schlüsselbasierte Hashes, die aus deiner E-Mail-Adresse und, bei Vercel, deiner IP-Adresse gebildet werden. Die reine IP-Adresse wird nicht im Anfrageeintrag gespeichert. Ein Limitzeitraum dauert eine Stunde. Abgelaufene Limit-Einträge werden bei späteren erfolgreichen Übermittlungen in Gruppen gelöscht; ein Ablauf bedeutet also nicht, dass jeder Limit-Eintrag sofort entfernt wird."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Cookies, Analyse & optionale Dienste",
+        "paragraphs": [
+          "Die hier beschriebenen Warenkorb- und Wunschlisten-Funktionen nutzen den lokalen Speicher. Anzeigeeinstellungen für Rezepte nutzen den Sitzungsspeicher. Das sind Browser-Speichermechanismen, kein kontobasiertes Profil. Dein Browser bestimmt, ob Website-Speicher verfügbar ist, und bietet Optionen, ihn zu löschen. Deaktivierter Speicher kann gespeicherte Auswahlen beeinflussen, hindert dich aber nicht am Lesen der öffentlichen Seiten.",
+          "Die aktuelle Anwendung enthält keine Marketing-Analyse, keine Werbe-Pixel, keine Push-Benachrichtigungen, keine Zahlungsabwicklung und keine aktiven Kundenkonten. Hosting-Dienste verarbeiten weiterhin die technischen Anfragen, die für den Betrieb der Website nötig sind. Dieser Hinweis muss überarbeitet werden, sobald ein neuer Dienst die erfassten Informationen, ihren Zweck oder ihren Empfänger ändert."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Wie lange Informationen aufbewahrt werden",
+        "paragraphs": [
+          "Anfrageeinträge verbleiben derzeit im privaten Projekt, bis ein autorisierter Betreiber sie entfernt. Die aktuelle Anwendung hat keinen automatischen Löschplan für Anfragen. Ein regelmäßiger Aufbewahrungsplan und ein direkter Datenschutzkontakt müssen noch festgelegt werden. Dieser Hinweis verspricht kein automatisches Löschdatum, das der Dienst noch nicht umsetzt.",
+          "Browserdaten folgen einem anderen Lebenszyklus. Lokale Warenkorb- und Wunschlistendaten bleiben bestehen, bis du Artikel entfernst, Website-Daten löschst oder der Browser sie entfernt. Sitzungseinstellungen gelten normalerweise nur für die aktuelle Sitzung, je nach Browserverhalten. Das Entfernen von Daten auf deinem Gerät löscht keine separate Anfrage, die beim Hof gespeichert ist."
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Auskunfts-, Berichtigungs- & Löschanfragen",
+        "paragraphs": [
+          "Nutze das Kontaktformular, wenn du Fragen zu einem Anfrageeintrag hast, eine Angabe korrigieren oder ihre Löschung beantragen möchtest. Gib an, dass es in deiner Nachricht um Datenschutz geht, und liefere genug Kontext, um die Anfrage zuzuordnen, etwa die verwendete E-Mail-Adresse und ein ungefähres Sendedatum. Vermeide zusätzliche sensible Informationen.",
+          "Der Hof muss die Zugehörigkeit prüfen, bevor er persönliche Einträge herausgibt oder ändert. Sende keine Ausweisdokumente über das allgemeine Kontaktformular, es sei denn, ein geeigneter Prozess wurde vorher vereinbart. Eine Datenschutzanfrage wird von einem Betreiber geprüft; das Absenden ändert oder löscht einen Eintrag nicht automatisch. Diese Website bietet dafür noch kein Self-Service-Kontodashboard."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "Deine Möglichkeiten auf einem gemeinsam genutzten Gerät",
+        "paragraphs": [
+          "Du kannst den Shop durchstöbern und Rezepte lesen, ohne ein Formular abzusenden. Du kannst ein gespeichertes Produkt über die Wunschliste entfernen, deinen Warenkorb anpassen oder über die Browsereinstellungen die gespeicherten Daten dieser Website löschen. Ein anderes Gerät oder Browserprofil hat eine eigene gespeicherte Auswahl, da keine Kontosynchronisierung aktiv ist.",
+          "Wenn du ein Gerät gemeinsam nutzt, schließe am Ende jede Seite mit nicht gesendeten Kontaktdaten. Überlege, gespeicherte Artikel zu löschen, wenn die nächste Person, die den Browser nutzt, sie nicht sehen soll. Browser-Autofill, Verlauf und Geräte-Backups werden außerhalb der Floruvi-Anwendung verwaltet."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Links zu anderen Websites",
+        "paragraphs": [
+          "Manche Seiten verlinken auf externe Quellen zu Lebensmitteln oder Anbau. Ein externer Link öffnet einen Dienst, der von einer anderen Organisation betrieben wird. Dort gelten deren Datenschutzhinweis und Browser-Speicherpraktiken. Ein Verweislink gibt dieser Organisation über diese Anwendung keinen Zugriff auf deinen privaten Floruvi-Anfrageeintrag.",
+          "Lies den Hinweis der Zielseite, bevor du dort persönliche Informationen angibst. Wenn du den Hof über einen separaten Kommunikationsdienst kontaktierst, verarbeitet dieser Dienst deine Nachricht möglicherweise zusätzlich nach eigenen Bedingungen. Dieser Hinweis beschreibt die Floruvi-Website und ersetzt nicht die Hinweise dieser anderen Dienste."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Aktualisierungen & Kontakt",
+        "paragraphs": [
+          "Dieser Hinweis wird sich mit der Weiterentwicklung des Shops ändern. Kundenkonten, Zahlungsabwicklung, Lieferintegrationen oder neue Kommunikationswerkzeuge können andere Datenflüsse mit sich bringen. Das Datum oben zeigt die letzte Überarbeitung dieser Seite. Lies den Hinweis erneut, wenn du eine neu eingeführte Funktion nutzt.",
+          "Bei Fragen zur aktuellen Website oder zu einer bestehenden Anfrage nutze die Kontaktseite. Beschreibe in einfachen Worten, was du wissen möchtest, und gib nur die Details an, die nötig sind, um deine Anfrage zu finden. Über dasselbe Formular kannst du auch ein mögliches Datenschutzproblem melden, das der Hof prüfen soll."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Frische Lebensmittel. Klare Informationen.",
+        "alt": "Ein Korb voller frischem Gemüse"
+      },
+      {
+        "title": "Ein bisschen Klarheit bewirkt viel.",
+        "alt": "Buntes Gemüse, bereit für den Tisch"
+      },
+      {
+        "title": "Lass dir Zeit. Kenne deine Möglichkeiten.",
+        "alt": "Avocado-Toast und ein grüner Smoothie im Morgenlicht"
+      }
+    ],
+    "localeNote": "Bei deinem ersten Besuch nutzt die Website das Land, das unser Hosting-Dienst anhand deiner Verbindung erkennt, um die passende Länder- und Sprachversion zu öffnen. Deine Wahl wird danach ein Jahr lang in einem Cookie namens floruvi-locale gespeichert, sodass Preise und Seiten in dieser Version bleiben. Anfragen aus einer Länderversion enthalten dieses Land, damit der Hof die Lieferung prüfen kann. Du kannst die Version jederzeit über die Länder- und Sprachauswahl ändern oder das Cookie durch Löschen der Cookies entfernen."
+  },
+  "notFound": {
+    "eyebrow": "ETWAS ABSEITS DES GARTENWEGS",
+    "title": "Hier wächst nichts.",
+    "text": "Diese Seite oder dieses Produkt wurde nicht gefunden.",
+    "cta": "Entdecke unser Gemüse ↗"
+  },
+  "categories": {
+    "leafy-greens": {
+      "name": "Blattgemüse",
+      "description": "Zarte Blätter, knackige Herzen & Grünes für die Mitte deines Tellers."
+    },
+    "herbs": {
+      "name": "Frische Kräuter",
+      "description": "Der duftende letzte Schliff. Ein einzelnes Blatt kann ein ganzes Gericht verändern."
+    },
+    "microgreens": {
+      "name": "Microgreens & Sprossen",
+      "description": "Kleine Blätter mit kräftigem Geschmack, von pfeffrigem Radieschen bis zu süßen Erbsensprossen."
+    },
+    "fruiting-crops": {
+      "name": "Fruchtgemüse",
+      "description": "Farbe, Biss & Süße für Salate, zum Kochen & für zwischendurch."
+    },
+    "roots-and-stems": {
+      "name": "Wurzeln & Stängel",
+      "description": "Eine besondere Auswahl an Wurzeln, Knollen & knackigen Stängeln."
+    },
+    "edible-flowers": {
+      "name": "Essbare Blüten",
+      "description": "Zarte Farbe für besondere Teller. Nur Sorten in Lebensmittelqualität."
+    }
+  },
+  "recipeCategories": {
+    "Bowls": "Bowls",
+    "Breakfast": "Frühstück",
+    "Pasta": "Pasta",
+    "Salads": "Salate",
+    "Sides": "Beilagen",
+    "Smoothies": "Smoothies",
+    "Soups": "Suppen",
+    "Tray bakes": "Ofengerichte",
+    "Wraps": "Wraps"
+  },
+  "packLabels": {
+    "1 bunch · 125–150 g": "1 Bund · 125–150 g",
+    "1 bunch · 150–200 g": "1 Bund · 150–200 g",
+    "1 bunch · 225–250 g": "1 Bund · 225–250 g",
+    "1 bunch · 450–500 g": "1 Bund · 450–500 g",
+    "1 head · 120–250 g": "1 Kopf · 120–250 g",
+    "1 kg": "1 kg",
+    "1 live tray": "1 lebendes Tablett",
+    "1 melon": "1 Melone",
+    "100 g": "100 g",
+    "150–200 g": "150–200 g",
+    "15–20 flowers": "15–20 Blüten",
+    "200 g": "200 g",
+    "200–300 g": "200–300 g",
+    "25 g": "25 g",
+    "250 g": "250 g",
+    "3 peppers · mixed colours": "3 Paprika · gemischte Farben",
+    "40 g": "40 g",
+    "50 g": "50 g",
+    "500 g": "500 g",
+    "75 g": "75 g"
+  }
+}

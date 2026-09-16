@@ -1,0 +1,21 @@
+{
+  "note": "Reviewed 16 September 2026. Indexes refer to the observations array in research/<market>.json.",
+  "excluded": [
+    { "market": "bd", "index": 10, "reason": "Banana flower is a cooking vegetable, not a comparable edible garnish-flower pack." },
+    { "market": "my", "index": 18, "reason": "Torch ginger flower is a cooking ingredient sold per bud, not a comparable edible garnish-flower pack." },
+    { "market": "np", "index": 15, "reason": "Frozen strawberries; the benchmark is fresh." },
+    { "market": "nl", "index": 21, "reason": "Pre-cooked, cubed vacuum-packed beetroot; the benchmark is raw." },
+    { "market": "jp", "index": 3, "reason": "Marketplace price includes delivery (free-shipping multipack)." },
+    { "market": "jp", "index": 9, "reason": "Marketplace price includes delivery; five-bag broccoli sprout bundle." },
+    { "market": "jp", "index": 11, "reason": "Marketplace price includes delivery (free-shipping option)." },
+    { "market": "jp", "index": 13, "reason": "Marketplace price includes delivery; 2 kg wholesale lot." },
+    { "market": "jp", "index": 15, "reason": "Marketplace price includes delivery; 5 kg bulk lot." },
+    { "market": "jp", "index": 17, "reason": "Marketplace price includes delivery (free-shipping option)." }
+  ],
+  "regularPrice": [
+    { "market": "bd", "index": 0, "price": 55, "reason": "The listing showed a sale price; the study uses the stated regular price." },
+    { "market": "bd", "index": 5, "price": 45, "reason": "The listing showed a sale price; the study uses the stated regular price." },
+    { "market": "bd", "index": 7, "price": 60, "reason": "The listing showed a sale price; the study uses the stated regular price." },
+    { "market": "bd", "index": 9, "price": 55, "reason": "The listing showed a sale price; the study uses the stated regular price." }
+  ]
+}

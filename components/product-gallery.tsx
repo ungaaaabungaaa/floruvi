@@ -1,19 +1,23 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import { ArrowRight } from "lucide-react";
 import { WishlistButton } from "./wishlist";
 import { useState } from "react";
 import Image, { type StaticImageData } from "next/image";
-import type { Product } from "@/lib/catalogue";
+import type { ShopProduct } from "@/lib/storefront";
+import type { Messages } from "@/lib/i18n/messages";
+import { fill } from "@/lib/i18n/format";
 import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 
 export function ProductGallery({
   product,
+  labels,
   dishes = [],
 }: {
-  product: Product;
+  product: ShopProduct;
+  labels: Messages["product"]["gallery"];
   dishes?: { image: StaticImageData; name: string; slug: string }[];
 }) {
   const [selected, setSelected] = useState(0);
@@ -28,14 +32,14 @@ export function ProductGallery({
       ? [
           {
             src: productGalleryImages[product.slug],
-            label: `${product.name} close-up`,
+            label: fill(labels.closeUp, { name: product.name }),
             href: null,
           },
         ]
       : []),
     ...dishes.slice(0, 2).map((dish) => ({
       src: dish.image,
-      label: `${dish.name} serving idea`,
+      label: fill(labels.servingIdea, { name: dish.name }),
       href: `/recipes/${dish.slug}`,
     })),
   ];
@@ -46,7 +50,7 @@ export function ProductGallery({
         <WishlistButton slug={product.slug} name={product.name} />
         {view.href && (
           <Link className="gallery-recipe-link" href={view.href}>
-            View recipe <ArrowRight size={15} />
+            {labels.viewRecipe} <ArrowRight size={15} />
           </Link>
         )}
         {view.src ? (
@@ -61,18 +65,18 @@ export function ProductGallery({
         ) : (
           <Botanical
             category={product.category}
-            seed={product.name.length % 5}
+            seed={product.englishName.length % 5}
           />
         )}
       </div>
-      <div className="gallery-thumbnails" aria-label="Product images">
+      <div className="gallery-thumbnails" aria-label={labels.images}>
         {views.map((item, index) => (
           <button
             key={item.label}
             type="button"
             onClick={() => setSelected(index)}
             aria-pressed={selected === index}
-            aria-label={`View ${item.label}`}
+            aria-label={fill(labels.view, { label: item.label })}
           >
             {item.src ? (
               <Image

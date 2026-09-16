@@ -1,0 +1,4730 @@
+{
+  "butterhead-lettuce": {
+    "source": "91147a03",
+    "name": "Kropsla",
+    "description": "Zachte, ronde bladeren met een milde smaak en een fijne, boterzachte textuur.",
+    "uses": [
+      "Salades",
+      "slabootjes",
+      "broodjes"
+    ],
+    "details": {
+      "tagline": "Salades. Slabootjes. Broodjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zachte, ronde bladeren met een milde smaak en een fijne, boterzachte textuur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer kropsla in salades, slabootjes of op broodjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Haal de bladeren los, spoel ze af en droog ze. Laat ze heel voor slabootjes."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Haal de bladeren los, spoel ze af en droog ze. Laat ze heel voor slabootjes.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "sweet-basil": {
+    "source": "d2cc98c7",
+    "name": "Zoete basilicum",
+    "description": "Brede, geurige blaadjes met een warm, zoet aroma.",
+    "uses": [
+      "Pesto",
+      "tomatensalades",
+      "pasta"
+    ],
+    "details": {
+      "tagline": "Pesto. Tomatensalades. Pasta.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Brede, geurige blaadjes met een warm, zoet aroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer zoete basilicum in pesto, tomatensalades of pasta."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Scheur de blaadjes vlak voor het serveren. Voeg ze na het koken toe, dan blijft het aroma behouden."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met tomaat, mozzarella, citroen of geroosterde zaden."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg zachte blaadjes pas aan het einde van het koken toe. Wil je grotere stukjes op je bord? Scheur ze dan in plaats van ze fijn te hakken."
+        }
+      ],
+      "preparation": "Scheur de blaadjes vlak voor het serveren. Voeg ze na het koken toe, dan blijft het aroma behouden.",
+      "storage": "Zet de bijgesneden stelen in een laagje water, uit de directe zon. Houd de blaadjes droog en gebruik ze snel.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens": {
+    "source": "030e4e45",
+    "name": "Broccoli-microgroenten",
+    "description": "Kleine scheutjes uit de koolfamilie met een milde koolsmaak.",
+    "uses": [
+      "Broodjes",
+      "salades",
+      "gerechten afmaken"
+    ],
+    "details": {
+      "tagline": "Broodjes. Salades. Gerechten afmaken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine scheutjes uit de koolfamilie met een milde koolsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer broccoli-microgroenten op broodjes, in salades of om gerechten af te maken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "cherry-tomatoes": {
+    "source": "4a8e9cf7",
+    "name": "Cherrytomaten",
+    "description": "Kleine tomaten voor een zoet-zuur contrast in rauwe en warme gerechten.",
+    "uses": [
+      "Snacken",
+      "salades",
+      "roosteren"
+    ],
+    "details": {
+      "tagline": "Snacken. Salades. Roosteren.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine tomaten voor een zoet-zuur contrast in rauwe en warme gerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer cherrytomaten als snack, in salades of geroosterd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af en halveer ze voor salades, of rooster ze heel tot het velletje zacht wordt."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met basilicum, olijfolie, knoflook of een milde verse kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd met een scherp mes, dan blijft het sap in het vruchtvlees. Breng pas vlak voor het serveren op smaak."
+        }
+      ],
+      "preparation": "Spoel af en halveer ze voor salades, of rooster ze heel tot het velletje zacht wordt.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine C",
+          "text": "Draagt bij aan de inname van vitamine C als onderdeel van een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Met schil en al",
+          "text": "Gebruik het eetbare vruchtvlees en de schil voor textuur en vezels."
+        },
+        {
+          "title": "De bereiding telt",
+          "text": "Lang koken en bewaren kan het vitamine C-gehalte verlagen."
+        }
+      ]
+    }
+  },
+  "spring-onions": {
+    "source": "1ef5c5a2",
+    "name": "Bosuitjes",
+    "description": "Malse groene stengels met een milde uiensmaak.",
+    "uses": [
+      "Soepen",
+      "roerbakgerechten",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Soepen. Roerbakgerechten. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse groene stengels met een milde uiensmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer bosuitjes in soepen, roerbakgerechten of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af, verwijder de worteltjes en snijd in ringetjes. Bak of kook eerst het witte deel; gebruik het groen om af te maken."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, ei, tofu of een rijstgerecht."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd het groen in dunne ringetjes als garnering en bewaar het witte deel voor in de pan."
+        }
+      ],
+      "preparation": "Spoel af, verwijder de worteltjes en snijd in ringetjes. Bak of kook eerst het witte deel; gebruik het groen om af te maken.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "nasturtium-flowers": {
+    "source": "0b680c2c",
+    "name": "Oost-Indische kersbloemen",
+    "description": "Felgekleurde bloemen met een peperige smaak.",
+    "uses": [
+      "Salades",
+      "hartige garnering"
+    ],
+    "details": {
+      "tagline": "Salades. Hartige garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Felgekleurde bloemen met een peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer Oost-Indische kersbloemen in salades of als hartige garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik alleen eetbare bloemen. Spoel ze voorzichtig af en voeg er vlak voor het serveren een paar toe."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de peperige bloemen met komkommer, zachte kaas of een milde bladsalade."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg op het laatste moment een paar hele bloemen toe. Houd de dressing licht, zodat de bloemblaadjes hun vorm houden."
+        }
+      ],
+      "preparation": "Gebruik alleen eetbare bloemen. Spoel ze voorzichtig af en voeg er vlak voor het serveren een paar toe.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Een klein accent",
+      "nutrition": [
+        {
+          "title": "Als garnering",
+          "text": "Gebruik een paar bloemen of bloemblaadjes voor kleur en textuur."
+        },
+        {
+          "title": "Alleen eetbare bloemen",
+          "text": "Eet alleen bloemen die voor consumptie zijn geteeld en als eetbaar zijn aangemerkt."
+        },
+        {
+          "title": "Kleine porties",
+          "text": "Bloemen maken een maaltijd af, maar vervangen geen portie groente."
+        }
+      ]
+    }
+  },
+  "romaine-lettuce": {
+    "source": "45f0ddeb",
+    "name": "Romainesla",
+    "description": "Lange bladeren met een stevige middennerf maken je salade lekker knapperig.",
+    "uses": [
+      "Caesarsalades",
+      "wraps",
+      "gegrilde harten"
+    ],
+    "details": {
+      "tagline": "Caesarsalades. Wraps. Gegrilde harten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Lange bladeren met een stevige middennerf maken je salade lekker knapperig."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer romainesla in caesarsalades, wraps of als gegrilde harten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel tussen de bladeren af. Snijd dwars door de nerf, of halveer het hart om te grillen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Spoel tussen de bladeren af. Snijd dwars door de nerf, of halveer het hart om te grillen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "thai-basil": {
+    "source": "78d5e578",
+    "name": "Thaise basilicum",
+    "description": "Stevige, aromatische blaadjes met een vleugje anijs.",
+    "uses": [
+      "Curry's",
+      "noedelsoepen",
+      "roerbakgerechten"
+    ],
+    "details": {
+      "tagline": "Curry's. Noedelsoepen. Roerbakgerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Stevige, aromatische blaadjes met een vleugje anijs."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer Thaise basilicum in curry's, noedelsoepen of roerbakgerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Pluk de blaadjes en voeg ze tegen het einde toe aan een curry of noedelsoep."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, kokosmelk of een warm rijstgerecht."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg zachte blaadjes pas aan het einde van het koken toe. Wil je grotere stukjes op je bord? Scheur ze dan in plaats van ze fijn te hakken."
+        }
+      ],
+      "preparation": "Pluk de blaadjes en voeg ze tegen het einde toe aan een curry of noedelsoep.",
+      "storage": "Zet de bijgesneden stelen in een laagje water, uit de directe zon. Houd de blaadjes droog en gebruik ze snel.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "radish-microgreens": {
+    "source": "ca5b8b8c",
+    "name": "Radijs-microgroenten",
+    "description": "Knapperige scheutjes met een uitgesproken peperige smaak.",
+    "uses": [
+      "Taco's",
+      "salades",
+      "bowls"
+    ],
+    "details": {
+      "tagline": "Taco's. Salades. Bowls.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperige scheutjes met een uitgesproken peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer radijs-microgroenten in taco's, salades of bowls."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Breng peperige scheutjes in balans met avocado, hummus of een frisse yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "beefsteak-tomatoes": {
+    "source": "6102074f",
+    "name": "Vleestomaten",
+    "description": "Grote tomaten voor stevige plakken en sauzen.",
+    "uses": [
+      "Broodjes",
+      "salades",
+      "sauzen"
+    ],
+    "details": {
+      "tagline": "Broodjes. Salades. Sauzen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Grote tomaten voor stevige plakken en sauzen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer vleestomaten op broodjes, in salades of in sauzen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de steelaanzet en snijd ze in dikke plakken voor broodjes of salades."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met basilicum, olijfolie, knoflook of een milde verse kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd met een scherp mes, dan blijft het sap in het vruchtvlees. Breng pas vlak voor het serveren op smaak."
+        }
+      ],
+      "preparation": "Verwijder de steelaanzet en snijd ze in dikke plakken voor broodjes of salades.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine C",
+          "text": "Draagt bij aan de inname van vitamine C als onderdeel van een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Met schil en al",
+          "text": "Gebruik het eetbare vruchtvlees en de schil voor textuur en vezels."
+        },
+        {
+          "title": "De bereiding telt",
+          "text": "Lang koken en bewaren kan het vitamine C-gehalte verlagen."
+        }
+      ]
+    }
+  },
+  "celery": {
+    "source": "a8c1355e",
+    "name": "Bleekselderij",
+    "description": "Knapperige, aromatische stengels. Lekker fris, of als hartige basis.",
+    "uses": [
+      "Soepen",
+      "bouillon",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Soepen. Bouillon. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperige, aromatische stengels. Lekker fris, of als hartige basis."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer bleekselderij in soepen, bouillon of salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel tussen de stengels af, snijd de onderkant eraf en snijd in stukjes. Gebruik het blad in bouillon of als garnering."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met wortel, ui, bonen of appel."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd fijn in blokjes als basis voor soep, of snijd dwars door de stengels voor een knapperige salade."
+        }
+      ],
+      "preparation": "Spoel tussen de stengels af, snijd de onderkant eraf en snijd in stukjes. Gebruik het blad in bouillon of als garnering.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "viola-flowers": {
+    "source": "57706c53",
+    "name": "Hoornviooltjes",
+    "description": "Kleine, tere bloemetjes voor een subtiel kleuraccent.",
+    "uses": [
+      "Dessertgarnering",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Dessertgarnering. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine, tere bloemetjes voor een subtiel kleuraccent."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer hoornviooltjes als dessertgarnering of in salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik eetbare bloemen. Spoel ze voorzichtig af, dep ze droog en leg ze op het gerecht als het klaar is."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer een paar eetbare bloemen met fruit, yoghurt of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Leg ze vlak voor het serveren op het gerecht, uit de buurt van hete sauzen en zware dressings."
+        }
+      ],
+      "preparation": "Gebruik eetbare bloemen. Spoel ze voorzichtig af, dep ze droog en leg ze op het gerecht als het klaar is.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Een klein accent",
+      "nutrition": [
+        {
+          "title": "Als garnering",
+          "text": "Gebruik een paar bloemen of bloemblaadjes voor kleur en textuur."
+        },
+        {
+          "title": "Alleen eetbare bloemen",
+          "text": "Eet alleen bloemen die voor consumptie zijn geteeld en als eetbaar zijn aangemerkt."
+        },
+        {
+          "title": "Kleine porties",
+          "text": "Bloemen maken een maaltijd af, maar vervangen geen portie groente."
+        }
+      ]
+    }
+  },
+  "green-oakleaf-lettuce": {
+    "source": "c0dca06d",
+    "name": "Groene eikenbladsla",
+    "description": "Luchtige, diep ingesneden bladeren die goed passen in een gemengde salade.",
+    "uses": [
+      "Slamelanges",
+      "broodjes"
+    ],
+    "details": {
+      "tagline": "Slamelanges. Broodjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Luchtige, diep ingesneden bladeren die goed passen in een gemengde salade."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer groene eikenbladsla in slamelanges of op broodjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af, droog goed en scheur de bladeren in een salade, vlak voordat je de dressing toevoegt."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af, droog goed en scheur de bladeren in een salade, vlak voordat je de dressing toevoegt.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "holy-basil": {
+    "source": "9b51a491",
+    "name": "Heilige basilicum",
+    "description": "Kleine, aromatische tulsiblaadjes voor culinaire aftreksels en bepaalde regionale gerechten.",
+    "uses": [
+      "Aftreksels",
+      "regionale keuken"
+    ],
+    "details": {
+      "tagline": "Aftreksels. Regionale keuken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine, aromatische tulsiblaadjes voor culinaire aftreksels en bepaalde regionale gerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer heilige basilicum in aftreksels of in regionale gerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de blaadjes af en gebruik een kleine hoeveelheid in een culinair aftreksel of een warm gerecht."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, kokosmelk of een warm rijstgerecht."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg zachte blaadjes pas aan het einde van het koken toe. Wil je grotere stukjes op je bord? Scheur ze dan in plaats van ze fijn te hakken."
+        }
+      ],
+      "preparation": "Spoel de blaadjes af en gebruik een kleine hoeveelheid in een culinair aftreksel of een warm gerecht.",
+      "storage": "Zet de bijgesneden stelen in een laagje water, uit de directe zon. Houd de blaadjes droog en gebruik ze snel.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "pea-shoots": {
+    "source": "ae37c735",
+    "name": "Erwtenscheuten",
+    "description": "Malse steeltjes en blaadjes met een frisse erwtensmaak.",
+    "uses": [
+      "Salades",
+      "broodjes",
+      "snelle roerbakgerechten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Snelle roerbakgerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse steeltjes en blaadjes met een frisse erwtensmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer erwtenscheuten in salades, op broodjes of in snelle roerbakgerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de scheutjes met komkommer, zachte kaas of een graanbowl met citroendressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "plum-tomatoes": {
+    "source": "2e9abfe9",
+    "name": "Pruimtomaten",
+    "description": "Stevige, vlezige tomaten die zich goed lenen voor lang en zacht garen.",
+    "uses": [
+      "Sauzen",
+      "roosteren",
+      "soepen"
+    ],
+    "details": {
+      "tagline": "Sauzen. Roosteren. Soepen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Stevige, vlezige tomaten die zich goed lenen voor lang en zacht garen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer pruimtomaten in sauzen, geroosterd of in soepen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de steelaanzet, snijd ze in stukjes en laat ze sudderen voor saus, of halveer ze voor het roosteren."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met basilicum, olijfolie, knoflook of een milde verse kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Laat de gesneden tomaten zachtjes sudderen tot de saus zo dik is als je wilt."
+        }
+      ],
+      "preparation": "Verwijder de steelaanzet, snijd ze in stukjes en laat ze sudderen voor saus, of halveer ze voor het roosteren.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine C",
+          "text": "Draagt bij aan de inname van vitamine C als onderdeel van een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Met schil en al",
+          "text": "Gebruik het eetbare vruchtvlees en de schil voor textuur en vezels."
+        },
+        {
+          "title": "De bereiding telt",
+          "text": "Lang koken en bewaren kan het vitamine C-gehalte verlagen."
+        }
+      ]
+    }
+  },
+  "radish": {
+    "source": "5b6e09ca",
+    "name": "Radijs",
+    "description": "Knapperige knolletjes met een frisse, peperige smaak.",
+    "uses": [
+      "Salades",
+      "inleggen",
+      "roosteren"
+    ],
+    "details": {
+      "tagline": "Salades. Inleggen. Roosteren.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperige knolletjes met een frisse, peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer radijs in salades, ingelegd of geroosterd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon, snijd de uiteinden eraf en snijd in dunne plakjes. Rooster ze gehalveerd voor een zachtere, mildere smaak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, yoghurt, boter of een beetje citroen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd flinterdun voor een knapperige topping, of rooster ze gehalveerd zodat de scherpte zachter wordt."
+        }
+      ],
+      "preparation": "Borstel schoon, snijd de uiteinden eraf en snijd in dunne plakjes. Rooster ze gehalveerd voor een zachtere, mildere smaak.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "pansy-flowers": {
+    "source": "a48c1533",
+    "name": "Grootbloemige violen",
+    "description": "Brede, kleurrijke bloemen voor een fijne afwerking.",
+    "uses": [
+      "Taartdecoratie",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Taartdecoratie. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Brede, kleurrijke bloemen voor een fijne afwerking."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer grootbloemige violen als taartdecoratie of in salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik eetbare bloemen. Ga er voorzichtig mee om en leg ze vlak voor het serveren op salades of taarten."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer een paar eetbare bloemen met fruit, yoghurt of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Leg ze vlak voor het serveren op het gerecht, uit de buurt van hete sauzen en zware dressings."
+        }
+      ],
+      "preparation": "Gebruik eetbare bloemen. Ga er voorzichtig mee om en leg ze vlak voor het serveren op salades of taarten.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Een klein accent",
+      "nutrition": [
+        {
+          "title": "Als garnering",
+          "text": "Gebruik een paar bloemen of bloemblaadjes voor kleur en textuur."
+        },
+        {
+          "title": "Alleen eetbare bloemen",
+          "text": "Eet alleen bloemen die voor consumptie zijn geteeld en als eetbaar zijn aangemerkt."
+        },
+        {
+          "title": "Kleine porties",
+          "text": "Bloemen maken een maaltijd af, maar vervangen geen portie groente."
+        }
+      ]
+    }
+  },
+  "red-oakleaf-lettuce": {
+    "source": "b9c52f5d",
+    "name": "Rode eikenbladsla",
+    "description": "Bronsrode bladeren brengen een zachte textuur en kleur in frisse gerechten.",
+    "uses": [
+      "Gemengde salades",
+      "borden opmaken"
+    ],
+    "details": {
+      "tagline": "Gemengde salades. Borden opmaken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Bronsrode bladeren brengen een zachte textuur en kleur in frisse gerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rode eikenbladsla in gemengde salades of om borden mee op te maken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Laat de tere bladeren heel. Voeg de dressing pas vlak voor het serveren toe."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Laat de tere bladeren heel. Voeg de dressing pas vlak voor het serveren toe.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "mint": {
+    "source": "0b72d3fa",
+    "name": "Munt",
+    "description": "Frisse, verkoelende blaadjes voor levendige chutneys en drankjes.",
+    "uses": [
+      "Chutneys",
+      "raita",
+      "drankjes"
+    ],
+    "details": {
+      "tagline": "Chutneys. Raita. Drankjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Frisse, verkoelende blaadjes voor levendige chutneys en drankjes."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer munt in chutneys, raita of drankjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Pluk de blaadjes en spoel ze af. Hak ze pas vlak voordat je ze door raita, chutney of drankjes doet."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, yoghurt, doperwten of verse limoen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Hak pas vlak voor het serveren. Wil je die frisse, verkoelende smaak? Schep de munt dan door afgekoeld eten."
+        }
+      ],
+      "preparation": "Pluk de blaadjes en spoel ze af. Hak ze pas vlak voordat je ze door raita, chutney of drankjes doet.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "sunflower-shoots": {
+    "source": "1f2b125f",
+    "name": "Zonnebloemscheuten",
+    "description": "Stevige jonge scheutjes, nootachtig van smaak en lekker knapperig.",
+    "uses": [
+      "Salades",
+      "wraps",
+      "bowls"
+    ],
+    "details": {
+      "tagline": "Salades. Wraps. Bowls.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Stevige jonge scheutjes, nootachtig van smaak en lekker knapperig."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer zonnebloemscheuten in salades, wraps of bowls."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de scheutjes met komkommer, zachte kaas of een graanbowl met citroendressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "cucumber": {
+    "source": "2d71685e",
+    "name": "Komkommer",
+    "description": "Knapperig en verfrissend, met een milde smaak.",
+    "uses": [
+      "Salades",
+      "raita",
+      "inleggen"
+    ],
+    "details": {
+      "tagline": "Salades. Raita. Inleggen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperig en verfrissend, met een milde smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer komkommer in salades, raita of ingelegd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af, snijd de uiteinden eraf en snijd in plakjes of blokjes. Schil alleen als je een zachtere textuur wilt."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met munt, yoghurt, tomaat of een beetje limoen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voor een dikkere raita knijp je het overtollige vocht uit de geraspte komkommer voordat je die met yoghurt mengt."
+        }
+      ],
+      "preparation": "Spoel af, snijd de uiteinden eraf en snijd in plakjes of blokjes. Schil alleen als je een zachtere textuur wilt.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "beetroot": {
+    "source": "2dd8dced",
+    "name": "Rode biet",
+    "description": "Zoete, aardse knollen om te koken of in te leggen.",
+    "uses": [
+      "Roosteren",
+      "salades",
+      "inleggen"
+    ],
+    "details": {
+      "tagline": "Roosteren. Salades. Inleggen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zoete, aardse knollen om te koken of in te leggen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rode biet geroosterd, in salades of ingelegd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon, kook gaar en schil daarna als je dat wilt. Draag een schort tegen vlekken."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met sinaasappel, dille, yoghurt of walnoten."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Kook ze apart van lichte ingrediënten als je de kleuren gescheiden wilt houden."
+        }
+      ],
+      "preparation": "Borstel schoon, kook gaar en schil daarna als je dat wilt. Draag een schort tegen vlekken.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "calendula-petals": {
+    "source": "ce6e877b",
+    "name": "Goudsbloemblaadjes",
+    "description": "Goudgele bloemblaadjes voor een licht bloemig accent.",
+    "uses": [
+      "Salades",
+      "rijstgerechten",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Salades. Rijstgerechten. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Goudgele bloemblaadjes voor een licht bloemig accent."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer goudsbloemblaadjes in salades, rijstgerechten of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik eetbare bloemblaadjes, losgehaald van de bloembodem, om rijst of salades af te maken."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Strooi de blaadjes over rijst, zachte kaas of een eenvoudige groene salade."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg de blaadjes na het koken toe, zodat de kleur zichtbaar blijft op het bord."
+        }
+      ],
+      "preparation": "Gebruik eetbare bloemblaadjes, losgehaald van de bloembodem, om rijst of salades af te maken.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Een klein accent",
+      "nutrition": [
+        {
+          "title": "Als garnering",
+          "text": "Gebruik een paar bloemen of bloemblaadjes voor kleur en textuur."
+        },
+        {
+          "title": "Alleen eetbare bloemen",
+          "text": "Eet alleen bloemen die voor consumptie zijn geteeld en als eetbaar zijn aangemerkt."
+        },
+        {
+          "title": "Kleine porties",
+          "text": "Bloemen maken een maaltijd af, maar vervangen geen portie groente."
+        }
+      ]
+    }
+  },
+  "lollo-rosso-lettuce": {
+    "source": "02f4f4c2",
+    "name": "Lollo rosso",
+    "description": "Gekrulde rode bladeren met een licht bittere nasmaak en een luchtige textuur.",
+    "uses": [
+      "Slamelanges",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Slamelanges. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Gekrulde rode bladeren met een licht bittere nasmaak en een luchtige textuur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer lollo rosso in slamelanges of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Scheur de gekrulde bladeren in kleine stukjes en meng ze met mildere slabladeren."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Scheur de gekrulde bladeren in kleine stukjes en meng ze met mildere slabladeren.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "coriander": {
+    "source": "9c2c6566",
+    "name": "Koriander",
+    "description": "Verse korianderblaadjes en malse steeltjes met een uitgesproken citrusachtig aroma.",
+    "uses": [
+      "Chutneys",
+      "curry's",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Chutneys. Curry's. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Verse korianderblaadjes en malse steeltjes met een uitgesproken citrusachtig aroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer koriander in chutneys, curry's of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de blaadjes en malse steeltjes goed af. Hak beide fijn voor chutneys of als garnering om het gerecht af te maken."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met limoen, tomaat, linzen of groene peper."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik de malse steeltjes in chutneys en bewaar de blaadjes om het gerecht af te maken."
+        }
+      ],
+      "preparation": "Spoel de blaadjes en malse steeltjes goed af. Hak beide fijn voor chutneys of als garnering om het gerecht af te maken.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "mustard-microgreens": {
+    "source": "7bc39786",
+    "name": "Mosterd-microgroenten",
+    "description": "Kleine blaadjes met een krachtige, warme mosterdsmaak.",
+    "uses": [
+      "Broodjes",
+      "garnering",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Broodjes. Garnering. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine blaadjes met een krachtige, warme mosterdsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer mosterd-microgroenten op broodjes, als garnering of in salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Breng peperige scheutjes in balans met avocado, hummus of een frisse yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "bell-peppers": {
+    "source": "df9c2c48",
+    "name": "Paprika's",
+    "description": "Zoete paprika's met dik, knapperig vruchtvlees en een mooie kleur.",
+    "uses": [
+      "Salades",
+      "vullen",
+      "roosteren"
+    ],
+    "details": {
+      "tagline": "Salades. Vullen. Roosteren.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zoete paprika's met dik, knapperig vruchtvlees en een mooie kleur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer paprika's in salades, gevuld of geroosterd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de steel, de zaadjes en de witte zaadlijsten. Snijd in reepjes voor salades of halveer om te vullen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met tomaat, ui, bonen of een vulling van rijst."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd in brede stukken om te roosteren en in dunne reepjes om snel in de pan te bakken."
+        }
+      ],
+      "preparation": "Verwijder de steel, de zaadjes en de witte zaadlijsten. Snijd in reepjes voor salades of halveer om te vullen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine C",
+          "text": "Draagt bij aan de inname van vitamine C als onderdeel van een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Met schil en al",
+          "text": "Gebruik het eetbare vruchtvlees en de schil voor textuur en vezels."
+        },
+        {
+          "title": "De bereiding telt",
+          "text": "Lang koken en bewaren kan het vitamine C-gehalte verlagen."
+        }
+      ]
+    }
+  },
+  "carrot": {
+    "source": "4cf54e65",
+    "name": "Wortel",
+    "description": "Knapperige wortels, licht zoet van smaak.",
+    "uses": [
+      "Salades",
+      "roosteren",
+      "soepen"
+    ],
+    "details": {
+      "tagline": "Salades. Roosteren. Soepen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperige wortels, licht zoet van smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer wortel in salades, geroosterd of in soepen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon of schil, snijd de uiteinden eraf en snijd in gelijke stukken om te roosteren of voor soep."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komijn, gember, citrusvruchten of kikkererwten."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd in even grote stukken om te roosteren, of rasp fijn voor een zachtere hap in een rauwe salade."
+        }
+      ],
+      "preparation": "Borstel schoon of schil, snijd de uiteinden eraf en snijd in gelijke stukken om te roosteren of voor soep.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Bètacaroteen",
+          "text": "Een oranje plantenkleurstof die het lichaam kan omzetten in vitamine A."
+        },
+        {
+          "title": "Vezels",
+          "text": "Gebruik de hele wortel in je gerecht voor de voedingsvezels."
+        },
+        {
+          "title": "Rauw of gekookt",
+          "text": "Rasp de wortel door salades of kook hem gaar."
+        }
+      ]
+    }
+  },
+  "borage-flowers": {
+    "source": "8c301c91",
+    "name": "Bernagiebloemen",
+    "description": "Kleine blauwe bloemetjes met een milde, komkommerachtige smaak.",
+    "uses": [
+      "Af en toe als garnering"
+    ],
+    "details": {
+      "tagline": "Af en toe als garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine blauwe bloemetjes met een milde, komkommerachtige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer bernagiebloemen af en toe als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik de eetbare bloemen alleen af en toe als kleine garnering, niet als dagelijkse portie groente."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Maak een komkommersalade of een koud drankje af met een paar eetbare bloemen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Houd het bij een kleine garnering af en toe; eet geen hele kom als portie groente."
+        }
+      ],
+      "preparation": "Gebruik de eetbare bloemen alleen af en toe als kleine garnering, niet als dagelijkse portie groente.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Een klein accent",
+      "nutrition": [
+        {
+          "title": "Als garnering",
+          "text": "Gebruik een paar bloemen of bloemblaadjes voor kleur en textuur."
+        },
+        {
+          "title": "Alleen eetbare bloemen",
+          "text": "Eet alleen bloemen die voor consumptie zijn geteeld en als eetbaar zijn aangemerkt."
+        },
+        {
+          "title": "Kleine porties",
+          "text": "Bloemen maken een maaltijd af, maar vervangen geen portie groente."
+        }
+      ]
+    }
+  },
+  "lollo-bionda-lettuce": {
+    "source": "30e8376e",
+    "name": "Lollo bionda",
+    "description": "Gekrulde groene bladeren vormen een lichte, knapperige basis voor eenvoudige dressings.",
+    "uses": [
+      "Salades",
+      "broodjes"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Gekrulde groene bladeren vormen een lichte, knapperige basis voor eenvoudige dressings."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer lollo bionda in salades of op broodjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de gekrulde bladeren af en droog ze goed, zodat er geen dressing tussen blijft staan."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Spoel de gekrulde bladeren af en droog ze goed, zodat er geen dressing tussen blijft staan.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "flat-leaf-parsley": {
+    "source": "0546d0e1",
+    "name": "Platte peterselie",
+    "description": "Frisse, grasachtige blaadjes met een zuivere nasmaak.",
+    "uses": [
+      "Tabouleh",
+      "sauzen",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Tabouleh. Sauzen. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Frisse, grasachtige blaadjes met een zuivere nasmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer platte peterselie in tabouleh, sauzen of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af, droog en hak de blaadjes en malse steeltjes fijn voor salades en sauzen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met citroen, aardappelen, ei of een eenvoudige bonensalade."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Droog de blaadjes voor het hakken, dan blijven ze los en verdeel je ze gelijkmatig door een dressing."
+        }
+      ],
+      "preparation": "Spoel af, droog en hak de blaadjes en malse steeltjes fijn voor salades en sauzen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "red-cabbage-microgreens": {
+    "source": "a4faaf55",
+    "name": "Rodekool-microgroenten",
+    "description": "Jonge blaadjes met paarse steeltjes en een milde koolsmaak.",
+    "uses": [
+      "Salades",
+      "bowls",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Salades. Bowls. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Jonge blaadjes met paarse steeltjes en een milde koolsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rodekool-microgroenten in salades, bowls of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "green-chillies": {
+    "source": "fbe5364c",
+    "name": "Groene pepers",
+    "description": "Verse pepers voor pit en een frisse smaak.",
+    "uses": [
+      "Curry's",
+      "chutneys",
+      "inleggen"
+    ],
+    "details": {
+      "tagline": "Curry's. Chutneys. Inleggen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Verse pepers voor pit en een frisse smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer groene pepers in curry's, chutneys of ingelegd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Snijd het steeltje eraf en hak voorzichtig. Voeg beetje bij beetje toe en was daarna je handen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met koriander, limoen, tomaat of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Voeg steeds een beetje toe en proef het gerecht. Elke peper kan anders pittig zijn."
+        }
+      ],
+      "preparation": "Snijd het steeltje eraf en hak voorzichtig. Voeg beetje bij beetje toe en was daarna je handen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "ginger": {
+    "source": "96aa67e0",
+    "name": "Gember",
+    "description": "Aromatische wortelstokken met een warme, pittige smaak.",
+    "uses": [
+      "Curry's",
+      "aftreksels",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Curry's. Aftreksels. Marinades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Aromatische wortelstokken met een warme, pittige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer gember in curry's, aftreksels of marinades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon of schil dun. Rasp, hak fijn of snijd dwars op de vezels."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met knoflook, limoen, wortel of kokosmelk."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Rasp de gember voor een gelijkmatige smaak op de achtergrond; gebruik dunne plakjes als je hem na het koken weer wilt verwijderen."
+        }
+      ],
+      "preparation": "Borstel schoon of schil dun. Rasp, hak fijn of snijd dwars op de vezels.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "iceberg-lettuce": {
+    "source": "a81591b3",
+    "name": "IJsbergsla",
+    "description": "Een stevige krop sla, bekend om zijn frisse smaak en knapperige bladeren.",
+    "uses": [
+      "In parten",
+      "wraps",
+      "burgers"
+    ],
+    "details": {
+      "tagline": "In parten. Wraps. Burgers.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Een stevige krop sla, bekend om zijn frisse smaak en knapperige bladeren."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer ijsbergsla in parten, in wraps of op burgers."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de harde kern, spoel de bladeren af en snijd in parten of reepjes."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, tomaat en een dressing van citroen of yoghurt."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe alleen dressing over de blaadjes die je meteen opeet. Houd de rest droog voor je volgende salade of broodje."
+        }
+      ],
+      "preparation": "Verwijder de harde kern, spoel de bladeren af en snijd in parten of reepjes.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "curly-parsley": {
+    "source": "6f8fa57e",
+    "name": "Krulpeterselie",
+    "description": "Gekrulde blaadjes geven textuur en een zachte kruidensmaak.",
+    "uses": [
+      "Garnering",
+      "salades",
+      "kruidenboter"
+    ],
+    "details": {
+      "tagline": "Garnering. Salades. Kruidenboter.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Gekrulde blaadjes geven textuur en een zachte kruidensmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer krulpeterselie als garnering, in salades of in kruidenboter."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel tussen de gekrulde blaadjes af en droog ze voordat je ze hakt voor boter of garnering."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met citroen, aardappelen, ei of een eenvoudige bonensalade."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Droog de blaadjes voor het hakken, dan blijven ze los en verdeel je ze gelijkmatig door een dressing."
+        }
+      ],
+      "preparation": "Spoel tussen de gekrulde blaadjes af en droog ze voordat je ze hakt voor boter of garnering.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "kale-microgreens": {
+    "source": "23032e4b",
+    "name": "Boerenkool-microgroenten",
+    "description": "Malse jonge boerenkoolblaadjes voor een zachte groene afwerking.",
+    "uses": [
+      "Broodjes",
+      "salades",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Broodjes. Salades. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse jonge boerenkoolblaadjes voor een zachte groene afwerking."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer boerenkool-microgroenten op broodjes, in salades of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "jalapeno-peppers": {
+    "source": "50d02da7",
+    "name": "Jalapeño pepers",
+    "description": "Stevige pepers met een kenmerkende smaak en wisselende pittigheid.",
+    "uses": [
+      "Salsa's",
+      "inleggen",
+      "vullen"
+    ],
+    "details": {
+      "tagline": "Salsa's. Inleggen. Vullen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Stevige pepers met een kenmerkende smaak en wisselende pittigheid."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer jalapeño pepers in salsa's, ingelegd of gevuld."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder het steeltje en snijd in ringen. Haal de zaadjes en zaadlijsten eruit voor een milder gerecht; was daarna je handen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met tomaat, limoen, bonen of een vulling van zachte kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd ze dun, dan verdeelt de pit zich over de salsa of het broodje en zit die niet in één hap."
+        }
+      ],
+      "preparation": "Verwijder het steeltje en snijd in ringen. Haal de zaadjes en zaadlijsten eruit voor een milder gerecht; was daarna je handen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "turmeric": {
+    "source": "3dd538ed",
+    "name": "Kurkuma",
+    "description": "Felgekleurde wortelstokken met een aardse, licht bittere smaak.",
+    "uses": [
+      "Curry's",
+      "inleggen",
+      "koken"
+    ],
+    "details": {
+      "tagline": "Curry's. Inleggen. Koken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Felgekleurde wortelstokken met een aardse, licht bittere smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer kurkuma in curry's, ingelegd of bij het koken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon of schil dun en rasp direct in het gerecht. Bescherm je werkblad tegen de sterke kleur."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, kokosmelk, linzen of bloemkool."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een kleine hoeveelheid en proef. Rasp boven een afwasbaar oppervlak, want de kleur kan vlekken geven."
+        }
+      ],
+      "preparation": "Borstel schoon of schil dun en rasp direct in het gerecht. Bescherm je werkblad tegen de sterke kleur.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "arugula": {
+    "source": "113e1546",
+    "name": "Rucola",
+    "description": "Peperige blaadjes die een frisse salade of een pizza uit de oven wat pit geven.",
+    "uses": [
+      "Salades",
+      "pizza",
+      "pesto"
+    ],
+    "details": {
+      "tagline": "Salades. Pizza. Pesto.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Peperige blaadjes die een frisse salade of een pizza uit de oven wat pit geven."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rucola in salades, op pizza of in pesto."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af en droog. Leg na het bakken op de pizza, of schep op het laatste moment door een salade."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de peperige blaadjes met peer, walnoten, tomaat of geschaafde kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het bakken over de pizza, of schep vlak voor het serveren door warme pasta."
+        }
+      ],
+      "preparation": "Spoel af en droog. Leg na het bakken op de pizza, of schep op het laatste moment door een salade.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "dill": {
+    "source": "37344873",
+    "name": "Dille",
+    "description": "Fijne, vederachtige blaadjes met een fris, anijsachtig aroma.",
+    "uses": [
+      "Inleggen",
+      "aardappelen",
+      "dressings"
+    ],
+    "details": {
+      "tagline": "Inleggen. Aardappelen. Dressings.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Fijne, vederachtige blaadjes met een fris, anijsachtig aroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer dille bij het inleggen, bij aardappelen of in dressings."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Knip de fijne takjes vlak voordat je ze bij aardappelen, yoghurt of een dressing doet."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, aardappelen, yoghurt of citroen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Knip de dille over het gerecht als het klaar is, of roer vlak voor het serveren door een koude dressing."
+        }
+      ],
+      "preparation": "Knip de fijne takjes vlak voordat je ze bij aardappelen, yoghurt of een dressing doet.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "arugula-microgreens": {
+    "source": "2a58d288",
+    "name": "Rucola-microgroenten",
+    "description": "Fijne blaadjes met de bekende peperige smaak van rucola.",
+    "uses": [
+      "Pizza",
+      "pasta",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Pizza. Pasta. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Fijne blaadjes met de bekende peperige smaak van rucola."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rucola-microgroenten op pizza, in pasta of in salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Breng peperige scheutjes in balans met avocado, hummus of een frisse yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "strawberries": {
+    "source": "b1c7e0cf",
+    "name": "Aardbeien",
+    "description": "Geurig zacht fruit, lekker uit het handje of in eenvoudige desserts.",
+    "uses": [
+      "Snacken",
+      "desserts",
+      "jam"
+    ],
+    "details": {
+      "tagline": "Snacken. Desserts. Jam.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Geurig zacht fruit, lekker uit het handje of in eenvoudige desserts."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer aardbeien als snack, in desserts of als jam."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel ze vlak voor het eten af en verwijder daarna het groene kroontje. Dep ze droog voor desserts."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met yoghurt, basilicum, munt of een beetje citroenrasp."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd ze vlak voor het serveren, of prak een paar aardbeien voorzichtig voor een snelle topping."
+        }
+      ],
+      "preparation": "Spoel ze vlak voor het eten af en verwijder daarna het groene kroontje. Dep ze droog voor desserts.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine C",
+          "text": "Draagt bij aan de inname van vitamine C als onderdeel van een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Met schil en al",
+          "text": "Gebruik het eetbare vruchtvlees en de schil voor textuur en vezels."
+        },
+        {
+          "title": "De bereiding telt",
+          "text": "Lang koken en bewaren kan het vitamine C-gehalte verlagen."
+        }
+      ]
+    }
+  },
+  "potato": {
+    "source": "54313611",
+    "name": "Aardappel",
+    "description": "Veelzijdige knollen voor in de keuken, met speciale toepassingen voor aeroponische vermeerdering.",
+    "uses": [
+      "Roosteren",
+      "koken",
+      "stampen"
+    ],
+    "details": {
+      "tagline": "Roosteren. Koken. Stampen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Veelzijdige knollen voor in de keuken, met speciale toepassingen voor aeroponische vermeerdering."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer aardappel geroosterd, gekookt of gestampt."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel schoon, verwijder uitlopers en groene plekken en zorg dat ze goed gaar zijn. Gooi erg groene of bittere aardappelen weg."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met rozemarijn, knoflook, doperwten of een yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd in gelijke stukken om te koken. Laat bij het roosteren ruimte tussen de stukken voor knapperige randjes."
+        }
+      ],
+      "preparation": "Borstel schoon, verwijder uitlopers en groene plekken en zorg dat ze goed gaar zijn. Gooi erg groene of bittere aardappelen weg.",
+      "storage": "Bewaar koel, donker en luchtig, apart van uien.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "spinach": {
+    "source": "8f3597fa",
+    "name": "Spinazie",
+    "description": "Veelzijdige groene blaadjes voor frisse bowls of om kort en zacht te garen.",
+    "uses": [
+      "Salades",
+      "dal",
+      "groente uit de pan"
+    ],
+    "details": {
+      "tagline": "Salades. Dal. Groente uit de pan.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Veelzijdige groene blaadjes voor frisse bowls of om kort en zacht te garen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer spinazie in salades, dal of als groente uit de pan."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel goed af. Gebruik jonge blaadjes rauw, of laat ze kort slinken in dal of in een warme pan."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met kikkererwten, paneer, knoflook of een scheutje citroensap."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Roer tegen het einde van de bereiding door dal of soep. De blaadjes slinken snel en nemen dan minder ruimte in de pan in."
+        }
+      ],
+      "preparation": "Spoel goed af. Gebruik jonge blaadjes rauw, of laat ze kort slinken in dal of in een warme pan.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine K",
+          "text": "Een van nature aanwezige voedingsstof die een rol speelt bij een normale bloedstolling."
+        },
+        {
+          "title": "Provitamine A",
+          "text": "Carotenoïden uit planten die het lichaam kan omzetten in vitamine A."
+        },
+        {
+          "title": "Folaat",
+          "text": "Een B-vitamine die een rol speelt bij de aanmaak van nieuwe cellen."
+        },
+        {
+          "title": "Kalium",
+          "text": "Een mineraal dat wordt gebruikt voor de normale werking van spieren en zenuwen."
+        }
+      ]
+    }
+  },
+  "chives": {
+    "source": "731986ca",
+    "name": "Bieslook",
+    "description": "Slanke groene sprietjes met een milde uiensmaak.",
+    "uses": [
+      "Eieren",
+      "soepen",
+      "dips"
+    ],
+    "details": {
+      "tagline": "Eieren. Soepen. Dips.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Slanke groene sprietjes met een milde uiensmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer bieslook bij eieren, in soepen of in dips."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Knip met een schone schaar in korte stukjes en strooi over het gerecht als het klaar is."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met aardappelen, ei, roomkaas of een yoghurtdip."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik een schone schaar voor kleine, gelijke stukjes zonder de sprietjes te kneuzen."
+        }
+      ],
+      "preparation": "Knip met een schone schaar in korte stukjes en strooi over het gerecht als het klaar is.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "beet-microgreens": {
+    "source": "5584ba7c",
+    "name": "Bieten-microgroenten",
+    "description": "Kleurrijke steeltjes en jonge blaadjes met een aardse smaak.",
+    "uses": [
+      "Salades",
+      "borden opmaken",
+      "broodjes"
+    ],
+    "details": {
+      "tagline": "Salades. Borden opmaken. Broodjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleurrijke steeltjes en jonge blaadjes met een aardse smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer bieten-microgroenten in salades, om borden op te maken of op broodjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "eggplant": {
+    "source": "fa849444",
+    "name": "Aubergine",
+    "description": "Zacht vruchtvlees dat tijdens het koken goed smaak opneemt.",
+    "uses": [
+      "Curry's",
+      "roosteren",
+      "grillen"
+    ],
+    "details": {
+      "tagline": "Curry's. Roosteren. Grillen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zacht vruchtvlees dat tijdens het koken goed smaak opneemt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer aubergine in curry's, geroosterd of gegrild."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Snijd het steeltje eraf, snijd in gelijke stukken en laat garen tot het vruchtvlees helemaal zacht is."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met tomaat, knoflook, yoghurt of tahin."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Laat bij het roosteren ruimte tussen de stukken. Liggen ze te dicht op elkaar, dan worden ze zachter en eerder gestoomd."
+        }
+      ],
+      "preparation": "Snijd het steeltje eraf, snijd in gelijke stukken en laat garen tot het vruchtvlees helemaal zacht is.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "baby-kale": {
+    "source": "eec05bf9",
+    "name": "Babyboerenkool",
+    "description": "Jonge boerenkoolblaadjes met een zachtere textuur dan volgroeide bladeren.",
+    "uses": [
+      "Salades",
+      "graanbowls",
+      "kort bakken"
+    ],
+    "details": {
+      "tagline": "Salades. Graanbowls. Kort bakken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Jonge boerenkoolblaadjes met een zachtere textuur dan volgroeide bladeren."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer babyboerenkool in salades, graanbowls of kort gebakken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af en droog. Schep de zachte blaadjes zo door salades of warme graanbowls."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met witte bonen, geroosterde pompoen, knoflook of een beetje citroen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd de bladeren fijn, dan garen ze gelijkmatig. Voor een zachtere salade masseer je ze met een beetje dressing."
+        }
+      ],
+      "preparation": "Spoel af en droog. Schep de zachte blaadjes zo door salades of warme graanbowls.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine K",
+          "text": "Boerenkool bevat vitamine K, die een rol speelt bij een normale bloedstolling."
+        },
+        {
+          "title": "Vezels",
+          "text": "Hele bladeren voegen voedingsvezels toe aan je maaltijd."
+        },
+        {
+          "title": "Portie en bereiding tellen",
+          "text": "Portiegrootte en bereiding beïnvloeden de voedingsstoffen op je bord."
+        }
+      ]
+    }
+  },
+  "garlic-chives": {
+    "source": "40072a96",
+    "name": "Knoflookbieslook",
+    "description": "Platte sprietjes met een zachte knoflooksmaak.",
+    "uses": [
+      "Dumplings",
+      "roerbakgerechten",
+      "omeletten"
+    ],
+    "details": {
+      "tagline": "Dumplings. Roerbakgerechten. Omeletten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Platte sprietjes met een zachte knoflooksmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer knoflookbieslook in dumplings, roerbakgerechten of omeletten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel af, snijd de uiteinden eraf en hak fijn voor een dumplingvulling of een snel roerbakgerecht."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met paddenstoelen, tofu, ei of een dumplingvulling."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd in korte stukjes voor roerbakgerechten, of hak fijn als je ze door een vulling mengt."
+        }
+      ],
+      "preparation": "Spoel af, snijd de uiteinden eraf en hak fijn voor een dumplingvulling of een snel roerbakgerecht.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "amaranth-microgreens": {
+    "source": "cbb2821d",
+    "name": "Amarant-microgroenten",
+    "description": "Heel fijne jonge blaadjes, bij rode rassen met een felle kleur.",
+    "uses": [
+      "Garnering",
+      "salades",
+      "borden opmaken"
+    ],
+    "details": {
+      "tagline": "Garnering. Salades. Borden opmaken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Heel fijne jonge blaadjes, bij rode rassen met een felle kleur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer amarant-microgroenten als garnering, in salades of om borden op te maken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "zucchini": {
+    "source": "0faf3414",
+    "name": "Courgette",
+    "description": "Malse zomerpompoen voor een lichte bereiding.",
+    "uses": [
+      "Grillen",
+      "kort bakken",
+      "in de oven"
+    ],
+    "details": {
+      "tagline": "Grillen. Kort bakken. In de oven.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse zomerpompoen voor een lichte bereiding."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer courgette gegrild, kort gebakken of uit de oven."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Snijd de uiteinden eraf en snijd in gelijke plakken. Bak of kook kort voor stevigere stukjes, of langer voor een zachte textuur."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met citroen, munt, basilicum of een beetje geraspte kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik dikkere plakken om te grillen en kleine stukjes om kort te bakken."
+        }
+      ],
+      "preparation": "Snijd de uiteinden eraf en snijd in gelijke plakken. Bak of kook kort voor stevigere stukjes, of langer voor een zachte textuur.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "curly-kale": {
+    "source": "8f7b1dc8",
+    "name": "Boerenkool",
+    "description": "Gekrulde groene bladeren die goed hun vorm houden in stevige gerechten.",
+    "uses": [
+      "Soepen",
+      "kort bakken",
+      "boerenkoolchips"
+    ],
+    "details": {
+      "tagline": "Soepen. Kort bakken. Boerenkoolchips.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Gekrulde groene bladeren die goed hun vorm houden in stevige gerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer boerenkool in soepen, kort gebakken of als boerenkoolchips."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de bladeren van de dikke stelen. Masseer de gesneden bladeren voor salades, of kook ze tot ze zacht zijn."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met witte bonen, geroosterde pompoen, knoflook of een beetje citroen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd de bladeren fijn, dan garen ze gelijkmatig. Voor een zachtere salade masseer je ze met een beetje dressing."
+        }
+      ],
+      "preparation": "Ris de bladeren van de dikke stelen. Masseer de gesneden bladeren voor salades, of kook ze tot ze zacht zijn.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine K",
+          "text": "Boerenkool bevat vitamine K, die een rol speelt bij een normale bloedstolling."
+        },
+        {
+          "title": "Vezels",
+          "text": "Hele bladeren voegen voedingsvezels toe aan je maaltijd."
+        },
+        {
+          "title": "Portie en bereiding tellen",
+          "text": "Portiegrootte en bereiding beïnvloeden de voedingsstoffen op je bord."
+        }
+      ]
+    }
+  },
+  "oregano": {
+    "source": "8cf92cff",
+    "name": "Oregano",
+    "description": "Kleine blaadjes met een warm, krachtig kruidenaroma.",
+    "uses": [
+      "Tomatensauzen",
+      "roosteren",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Tomatensauzen. Roosteren. Marinades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine blaadjes met een warm, krachtig kruidenaroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer oregano in tomatensauzen, bij het roosteren of in marinades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de blaadjes van de houtige steeltjes. Hak ze en voeg ze toe aan tomatensaus of marinades."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met geroosterde aardappelen, paddenstoelen, bonen of een tomatensaus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een beetje en proef tijdens het koken. Haal houtige steeltjes eruit voor het serveren."
+        }
+      ],
+      "preparation": "Ris de blaadjes van de houtige steeltjes. Hak ze en voeg ze toe aan tomatensaus of marinades.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "basil-microgreens": {
+    "source": "7bb75a9d",
+    "name": "Basilicum-microgroenten",
+    "description": "Piepkleine, aromatische blaadjes met een duidelijke basilicumgeur.",
+    "uses": [
+      "Tomatengerechten",
+      "soepen",
+      "borden opmaken"
+    ],
+    "details": {
+      "tagline": "Tomatengerechten. Soepen. Borden opmaken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Piepkleine, aromatische blaadjes met een duidelijke basilicumgeur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer basilicum-microgroenten in tomatengerechten, soepen of om borden op te maken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Gebruik de aromatische scheutjes bij tomaat, rijst of een warme kom soep."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "source": "cb1da443",
+    "name": "Muskusmeloen",
+    "description": "Zoete, geurige meloen voor verse partjes en fruitgerechten.",
+    "uses": [
+      "Uit het handje",
+      "fruitsalades"
+    ],
+    "details": {
+      "tagline": "Uit het handje. Fruitsalades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zoete, geurige meloen voor verse partjes en fruitgerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer muskusmeloen uit het handje of in fruitsalades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Borstel de schil schoon voor het snijden. Verwijder de pitten, snijd het vruchtvlees en bewaar gesneden stukken in de koelkast."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met munt, limoen, yoghurt of ander vers fruit."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd in hapklare stukjes voor een schaal en zet ze na het snijden koel. Houd de schil uit de serveerschaal."
+        }
+      ],
+      "preparation": "Borstel de schil schoon voor het snijden. Verwijder de pitten, snijd het vruchtvlees en bewaar gesneden stukken in de koelkast.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "lacinato-kale": {
+    "source": "4b96c6ec",
+    "name": "Palmkool",
+    "description": "Lange, donkere bladeren met een stevige textuur, om te koken of voor gesneden salades.",
+    "uses": [
+      "Soepen",
+      "stoofgerechten",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Soepen. Stoofgerechten. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Lange, donkere bladeren met een stevige textuur, om te koken of voor gesneden salades."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer palmkool in soepen, stoofgerechten of salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de harde nerven en snijd de bladeren in dunne reepjes voor soepen of stoofgerechten."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met witte bonen, geroosterde pompoen, knoflook of een beetje citroen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd de bladeren fijn, dan garen ze gelijkmatig. Voor een zachtere salade masseer je ze met een beetje dressing."
+        }
+      ],
+      "preparation": "Verwijder de harde nerven en snijd de bladeren in dunne reepjes voor soepen of stoofgerechten.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Natuurlijke voedingsstoffen",
+      "nutrition": [
+        {
+          "title": "Vitamine K",
+          "text": "Boerenkool bevat vitamine K, die een rol speelt bij een normale bloedstolling."
+        },
+        {
+          "title": "Vezels",
+          "text": "Hele bladeren voegen voedingsvezels toe aan je maaltijd."
+        },
+        {
+          "title": "Portie en bereiding tellen",
+          "text": "Portiegrootte en bereiding beïnvloeden de voedingsstoffen op je bord."
+        }
+      ]
+    }
+  },
+  "thyme": {
+    "source": "e9042f32",
+    "name": "Tijm",
+    "description": "Piepkleine blaadjes met een aards, geurig karakter.",
+    "uses": [
+      "Roosteren",
+      "bouillon",
+      "sauzen"
+    ],
+    "details": {
+      "tagline": "Roosteren. Bouillon. Sauzen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Piepkleine blaadjes met een aards, geurig karakter."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer tijm bij het roosteren, in bouillon of in sauzen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de blaadjes van het takje, of kook een heel takje mee en haal het houtige steeltje eruit voor het serveren."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met geroosterde aardappelen, paddenstoelen, bonen of een tomatensaus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een beetje en proef tijdens het koken. Haal houtige steeltjes eruit voor het serveren."
+        }
+      ],
+      "preparation": "Ris de blaadjes van het takje, of kook een heel takje mee en haal het houtige steeltje eruit voor het serveren.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "coriander-microgreens": {
+    "source": "ed7ab488",
+    "name": "Koriander-microgroenten",
+    "description": "Jonge korianderblaadjes met een geconcentreerd kruidenaroma.",
+    "uses": [
+      "Taco's",
+      "soepen",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Taco's. Soepen. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Jonge korianderblaadjes met een geconcentreerd kruidenaroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer koriander-microgroenten in taco's, soepen of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Gebruik de aromatische scheutjes bij tomaat, rijst of een warme kom soep."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "green-beans": {
+    "source": "c9b841da",
+    "name": "Sperziebonen",
+    "description": "Malse peulen om snel te koken en voor knapperige groentegerechten.",
+    "uses": [
+      "Roerbakgerechten",
+      "salades",
+      "kort bakken"
+    ],
+    "details": {
+      "tagline": "Roerbakgerechten. Salades. Kort bakken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse peulen om snel te koken en voor knapperige groentegerechten."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer sperziebonen in roerbakgerechten, salades of kort gebakken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Snijd de puntjes eraf en kook ze gaar. Laat gekookte bonen afkoelen voor een salade."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met knoflook, sesam, citroen of geroosterde amandelen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd ze op dezelfde lengte, dan garen ze gelijkmatig. Schep ze nog warm door de dressing."
+        }
+      ],
+      "preparation": "Snijd de puntjes eraf en kook ze gaar. Laat gekookte bonen afkoelen voor een salade.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "swiss-chard": {
+    "source": "db568563",
+    "name": "Snijbiet",
+    "description": "Brede bladeren en knapperige stelen: twee texturen in één gerecht.",
+    "uses": [
+      "Kort bakken",
+      "gratins",
+      "soepen"
+    ],
+    "details": {
+      "tagline": "Kort bakken. Gratins. Soepen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Brede bladeren en knapperige stelen: twee texturen in één gerecht."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer snijbiet kort gebakken, in gratins of in soepen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Haal de stelen van de bladeren. Laat eerst de gesneden stelen garen en voeg daarna de bladeren toe."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met knoflook, linzen, witte bonen of een beetje citroenrasp."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Snijd de stelen klein en bewaar ze om kort te bakken; ze hebben meer tijd in de pan nodig dan de bladeren."
+        }
+      ],
+      "preparation": "Haal de stelen van de bladeren. Laat eerst de gesneden stelen garen en voeg daarna de bladeren toe.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "rosemary": {
+    "source": "d0109b10",
+    "name": "Rozemarijn",
+    "description": "Naaldvormige blaadjes met een krachtig, dennenachtig aroma.",
+    "uses": [
+      "Geroosterde groenten",
+      "brood",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Geroosterde groenten. Brood. Marinades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Naaldvormige blaadjes met een krachtig, dennenachtig aroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rozemarijn bij geroosterde groenten, in brood of in marinades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de naaldjes van het takje en hak ze fijn. Gebruik spaarzaam; haal hele takjes eruit voor het serveren."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met geroosterde aardappelen, paddenstoelen, bonen of een tomatensaus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een beetje en proef tijdens het koken. Haal houtige steeltjes eruit voor het serveren."
+        }
+      ],
+      "preparation": "Ris de naaldjes van het takje en hak ze fijn. Gebruik spaarzaam; haal hele takjes eruit voor het serveren.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens": {
+    "source": "a802e69b",
+    "name": "Fenegriek-microgroenten",
+    "description": "Jonge methischeutjes met een hartige, licht bittere smaak.",
+    "uses": [
+      "Salades",
+      "broodjes",
+      "regionale gerechten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Regionale gerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Jonge methischeutjes met een hartige, licht bittere smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer fenegriek-microgroenten in salades, op broodjes of in regionale gerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de hartige scheutjes met aardappelen, linzen of een vulling van kikkererwten."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "bok-choy": {
+    "source": "fc3d870d",
+    "name": "Paksoi",
+    "description": "Lepelvormige bladeren en knapperige lichte stelen met een milde koolsmaak.",
+    "uses": [
+      "Roerbakgerechten",
+      "heldere soepen",
+      "gestoomde groente"
+    ],
+    "details": {
+      "tagline": "Roerbakgerechten. Heldere soepen. Gestoomde groente.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Lepelvormige bladeren en knapperige lichte stelen met een milde koolsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer paksoi in roerbakgerechten, heldere soepen of als gestoomde groente."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel tussen de stelen af. Laat eerst de stelen garen en voeg de bladeren pas tegen het einde toe."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, sesam, paddenstoelen of tofu."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Halveer kleine kroppen in de lengte voor een mooi bord. Laat de onderkant heel, dan blijven de bladeren bij elkaar."
+        }
+      ],
+      "preparation": "Spoel tussen de stelen af. Laat eerst de stelen garen en voeg de bladeren pas tegen het einde toe.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "sage": {
+    "source": "d87fce09",
+    "name": "Salie",
+    "description": "Zachte grijsgroene blaadjes met een diep, hartig aroma.",
+    "uses": [
+      "Bruine boter",
+      "roosteren",
+      "vullen"
+    ],
+    "details": {
+      "tagline": "Bruine boter. Roosteren. Vullen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zachte grijsgroene blaadjes met een diep, hartig aroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer salie in bruine boter, bij het roosteren of in een vulling."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Dep de blaadjes droog en bak ze kort in boter, of hak ze fijn door een vulling."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met geroosterde aardappelen, paddenstoelen, bonen of een tomatensaus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een beetje en proef tijdens het koken. Haal houtige steeltjes eruit voor het serveren."
+        }
+      ],
+      "preparation": "Dep de blaadjes droog en bak ze kort in boter, of hak ze fijn door een vulling.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "wheatgrass": {
+    "source": "aee13940",
+    "name": "Tarwegras",
+    "description": "Jonge tarwescheuten, geteeld om vers te bereiden.",
+    "uses": [
+      "Sap persen"
+    ],
+    "details": {
+      "tagline": "Sap persen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Jonge tarwescheuten, geteeld om vers te bereiden."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer tarwegras om sap van te persen."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de geknipte scheutjes af en gebruik een sappers die geschikt is voor gras. Serveer vers bereid; gebruik het niet als slablad."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Meng een klein beetje vers geperst sap met appel- of komkommersap."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Pers alleen zoveel sap als je gaat serveren. Zeef grove vezels eruit voor een gladder drankje."
+        }
+      ],
+      "preparation": "Spoel de geknipte scheutjes af en gebruik een sappers die geschikt is voor gras. Serveer vers bereid; gebruik het niet als slablad.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "tatsoi": {
+    "source": "41b56aea",
+    "name": "Tatsoi",
+    "description": "Kleine, ronde blaadjes met een milde mosterdsmaak.",
+    "uses": [
+      "Salades",
+      "soepen",
+      "roerbakgerechten"
+    ],
+    "details": {
+      "tagline": "Salades. Soepen. Roerbakgerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine, ronde blaadjes met een milde mosterdsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer tatsoi in salades, soepen of roerbakgerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Haal de blaadjes los en spoel ze af. Voeg ze heel toe aan soep of een snel roerbakgerecht."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met sesam, gember, noedels of tofu."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Doe de zachte blaadjes vlak voor het serveren in een warme kom, dan houden ze nog wat vorm."
+        }
+      ],
+      "preparation": "Haal de blaadjes los en spoel ze af. Voeg ze heel toe aan soep of een snel roerbakgerecht.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "lemon-balm": {
+    "source": "9057880a",
+    "name": "Citroenmelisse",
+    "description": "Zachte blaadjes met een milde citroengeur.",
+    "uses": [
+      "Aftreksels",
+      "fruitgerechten",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Aftreksels. Fruitgerechten. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zachte blaadjes met een milde citroengeur."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer citroenmelisse in aftreksels, fruitgerechten of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Kneus de gespoelde blaadjes licht voor een aftreksel, of hak er een paar fijn boven fruit."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met bessen, meloen of een mild kruidenaftreksel."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Kneus een paar blaadjes licht zodat ze hun geur afgeven, en doe ze daarna in een gekoeld drankje."
+        }
+      ],
+      "preparation": "Kneus de gespoelde blaadjes licht voor een aftreksel, of hak er een paar fijn boven fruit.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "kohlrabi-microgreens": {
+    "source": "46bf5e73",
+    "name": "Koolrabi-microgroenten",
+    "description": "Malse scheutjes met een zachte koolsmaak.",
+    "uses": [
+      "Salades",
+      "bowls",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Salades. Bowls. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse scheutjes met een zachte koolsmaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer koolrabi-microgroenten in salades, bowls of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "mizuna": {
+    "source": "28caab47",
+    "name": "Mizuna",
+    "description": "Fijne, gekartelde blaadjes met een licht peperige smaak.",
+    "uses": [
+      "Slamelanges",
+      "noedelbowls"
+    ],
+    "details": {
+      "tagline": "Slamelanges. Noedelbowls.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Fijne, gekartelde blaadjes met een licht peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer mizuna in slamelanges of noedelbowls."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de fijne blaadjes voorzichtig af en voeg ze op het laatst toe, zodat ze hun textuur houden."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met citrusvruchten, sesam, radijs of een milde noedeldressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Meng met mildere blaadjes voor een salade, of maak een noedelbowl af met een los handje."
+        }
+      ],
+      "preparation": "Spoel de fijne blaadjes voorzichtig af en voeg ze op het laatst toe, zodat ze hun textuur houden.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "shiso": {
+    "source": "49790bae",
+    "name": "Shiso",
+    "description": "Uitgesproken aromatische blaadjes om hapjes in te rollen of als garnering.",
+    "uses": [
+      "Rijstgerechten",
+      "inleggen",
+      "garnering"
+    ],
+    "details": {
+      "tagline": "Rijstgerechten. Inleggen. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Uitgesproken aromatische blaadjes om hapjes in te rollen of als garnering."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer shiso in rijstgerechten, ingelegd of als garnering."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel de blaadjes af en droog ze. Snijd ze in dunne reepjes of laat ze heel om kleine hapjes in te rollen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met komkommer, rijst, sesam of ingelegde groenten."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Stapel een paar droge blaadjes op elkaar en snijd ze in fijne reepjes voor een nette garnering."
+        }
+      ],
+      "preparation": "Spoel de blaadjes af en droog ze. Snijd ze in dunne reepjes of laat ze heel om kleine hapjes in te rollen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "garden-cress-microgreens": {
+    "source": "a462291b",
+    "name": "Tuinkers-microgroenten",
+    "description": "Fijne scheutjes met een scherpe, peperige smaak.",
+    "uses": [
+      "Eiergerechten",
+      "broodjes",
+      "salades"
+    ],
+    "details": {
+      "tagline": "Eiergerechten. Broodjes. Salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Fijne scheutjes met een scherpe, peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer tuinkers-microgroenten in eiergerechten, op broodjes of in salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Breng peperige scheutjes in balans met avocado, hummus of een frisse yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Strooi na het koken over het bord. Met een klein, los handje blijft de textuur luchtig."
+        }
+      ],
+      "preparation": "Spoel voorzichtig af en laat goed uitlekken. Voeg een klein handje toe aan het gerecht als het klaar is, dan blijven de scheutjes knapperig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "mustard-greens": {
+    "source": "f9c39244",
+    "name": "Mosterdblad",
+    "description": "Krachtige bladeren met een mosterdachtige pit die bij het koken zachter wordt.",
+    "uses": [
+      "Saag",
+      "roerbakgerechten",
+      "inleggen"
+    ],
+    "details": {
+      "tagline": "Saag. Roerbakgerechten. Inleggen.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Krachtige bladeren met een mosterdachtige pit die bij het koken zachter wordt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer mosterdblad in saag, roerbakgerechten of ingelegd."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de grove stelen en kook de bladeren tot ze zacht zijn, dan wordt de pit milder."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met knoflook, aardappelen, linzen of een milde yoghurt ernaast."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Hak fijn voor saag, of meng met mildere bladgroenten om de mosterdsmaak zachter te maken."
+        }
+      ],
+      "preparation": "Verwijder de grove stelen en kook de bladeren tot ze zacht zijn, dan wordt de pit milder.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "chervil": {
+    "source": "8c156fac",
+    "name": "Kervel",
+    "description": "Tere blaadjes met een licht anijsaroma.",
+    "uses": [
+      "Eieren",
+      "salades",
+      "sauzen afmaken"
+    ],
+    "details": {
+      "tagline": "Eieren. Salades. Sauzen afmaken.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Tere blaadjes met een licht anijsaroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer kervel bij eieren, in salades of om sauzen af te maken."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Knip de zachte blaadjes en voeg ze na het koken toe, zodat het fijne aroma behouden blijft."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met citroen, aardappelen, ei of een eenvoudige bonensalade."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Droog de blaadjes voor het hakken, dan blijven ze los en verdeel je ze gelijkmatig door een dressing."
+        }
+      ],
+      "preparation": "Knip de zachte blaadjes en voeg ze na het koken toe, zodat het fijne aroma behouden blijft.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "radish-microgreens-live-tray": {
+    "source": "afaa910f",
+    "name": "Radijs-microgroenten · Kweekbak",
+    "description": "Peperige jonge blaadjes. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Peperige jonge blaadjes. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer radijs-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Breng peperige scheutjes in balans met avocado, hummus of een frisse yoghurtdressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "watercress": {
+    "source": "41d3cdc3",
+    "name": "Waterkers",
+    "description": "Kleine, ronde blaadjes met een levendige, peperige smaak.",
+    "uses": [
+      "Soepen",
+      "salades",
+      "broodjes"
+    ],
+    "details": {
+      "tagline": "Soepen. Salades. Broodjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine, ronde blaadjes met een levendige, peperige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer waterkers in soepen, salades of op broodjes."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel goed af en verwijder de grove stelen. Voeg toe aan salades of pureer door gekookte soep."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met aardappelen, ei, citrusvruchten of een milde, romige dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik de zachte topjes voor salades en bewaar de stevigere stelen voor een warme soep."
+        }
+      ],
+      "preparation": "Spoel goed af en verwijder de grove stelen. Voeg toe aan salades of pureer door gekookte soep.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "tarragon": {
+    "source": "69901840",
+    "name": "Dragon",
+    "description": "Smalle blaadjes met een uitgesproken anijsachtige smaak.",
+    "uses": [
+      "Sauzen",
+      "dressings",
+      "kruidenboter"
+    ],
+    "details": {
+      "tagline": "Sauzen. Dressings. Kruidenboter.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Smalle blaadjes met een uitgesproken anijsachtige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer dragon in sauzen, dressings of kruidenboter."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de blaadjes van de steeltjes en hak ze fijn. Begin met een kleine hoeveelheid in een dressing of saus."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met mosterd, aardappelen, ei of een romige dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik eerst een kleine hoeveelheid: de anijsachtige smaak kan een fijne saus overheersen."
+        }
+      ],
+      "preparation": "Ris de blaadjes van de steeltjes en hak ze fijn. Begin met een kleine hoeveelheid in een dressing of saus.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "pea-microgreens-live-tray": {
+    "source": "5198e055",
+    "name": "Erwten-microgroenten · Kweekbak",
+    "description": "Malse scheutjes met een zoete erwtensmaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse scheutjes met een zoete erwtensmaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer erwten-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de scheutjes met komkommer, zachte kaas of een graanbowl met citroendressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "sorrel": {
+    "source": "c2f6c916",
+    "name": "Zuring",
+    "description": "Friszure, citroenachtige blaadjes die in kleine hoeveelheden een gerecht opfrissen.",
+    "uses": [
+      "Sauzen",
+      "soepen",
+      "gemengde salades"
+    ],
+    "details": {
+      "tagline": "Sauzen. Soepen. Gemengde salades.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Friszure, citroenachtige blaadjes die in kleine hoeveelheden een gerecht opfrissen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer zuring in sauzen, soepen of gemengde salades."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Gebruik een paar gespoelde blaadjes voor een frisse, zure toets. Voeg beetje bij beetje toe en proef tussendoor."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer een paar blaadjes met aardappelen, ei of een romige saus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Proef voordat je citroen of azijn toevoegt: zuring geeft zelf al een zure toets."
+        }
+      ],
+      "preparation": "Gebruik een paar gespoelde blaadjes voor een frisse, zure toets. Voeg beetje bij beetje toe en proef tussendoor.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "marjoram": {
+    "source": "802bbebd",
+    "name": "Marjolein",
+    "description": "Zachte blaadjes met een milde, zoete smaak die aan oregano doet denken.",
+    "uses": [
+      "Soepen",
+      "sauzen",
+      "geroosterde groenten"
+    ],
+    "details": {
+      "tagline": "Soepen. Sauzen. Geroosterde groenten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Zachte blaadjes met een milde, zoete smaak die aan oregano doet denken."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer marjolein in soepen, sauzen of bij geroosterde groenten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Ris de kleine blaadjes van de steeltjes en voeg ze tegen het einde toe aan soepen of sauzen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met geroosterde aardappelen, paddenstoelen, bonen of een tomatensaus."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Begin met een beetje en proef tijdens het koken. Haal houtige steeltjes eruit voor het serveren."
+        }
+      ],
+      "preparation": "Ris de kleine blaadjes van de steeltjes en voeg ze tegen het einde toe aan soepen of sauzen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "sunflower-microgreens-live-tray": {
+    "source": "a436640b",
+    "name": "Zonnebloem-microgroenten · Kweekbak",
+    "description": "Knapperige scheutjes met een milde, nootachtige smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Knapperige scheutjes met een milde, nootachtige smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer zonnebloem-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de scheutjes met komkommer, zachte kaas of een graanbowl met citroendressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "endive": {
+    "source": "55ffbd35",
+    "name": "Witlof",
+    "description": "Stevige blaadjes met een aangenaam bittertje.",
+    "uses": [
+      "Salades",
+      "roosteren",
+      "hapjes"
+    ],
+    "details": {
+      "tagline": "Salades. Roosteren. Hapjes.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Stevige blaadjes met een aangenaam bittertje."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer witlof in salades, geroosterd of als hapje."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Haal de blaadjes los voor kleine saladebakjes, of halveer de stronk voor het roosteren."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met sinaasappel, walnoten, appel of zachte kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik de stevige buitenste blaadjes als bakjes voor een vulling van fijngesneden salade."
+        }
+      ],
+      "preparation": "Haal de blaadjes los voor kleine saladebakjes, of halveer de stronk voor het roosteren.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "lemongrass": {
+    "source": "9644eb9b",
+    "name": "Citroengras",
+    "description": "Geurige stengels met een helder citrusaroma.",
+    "uses": [
+      "Curry's",
+      "heldere soepen",
+      "aftreksels"
+    ],
+    "details": {
+      "tagline": "Curry's. Heldere soepen. Aftreksels.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Geurige stengels met een helder citrusaroma."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer citroengras in curry's, heldere soepen of aftreksels."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de harde buitenste lagen. Kneus de stengel voor bouillon en haal hem eruit voor het serveren, of hak het zachte onderste deel fijn."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, kokosmelk, limoen of paddenstoelen."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik gekneusde stengels om een bouillon op smaak te brengen. Haal grote, vezelige stukken eruit voor het serveren."
+        }
+      ],
+      "preparation": "Verwijder de harde buitenste lagen. Kneus de stengel voor bouillon en haal hem eruit voor het serveren, of hak het zachte onderste deel fijn.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Kleine blaadjes, veel smaak",
+      "nutrition": [
+        {
+          "title": "Aroma",
+          "text": "Verse blaadjes geven smaak, ook in kleine hoeveelheden."
+        },
+        {
+          "title": "Voor de afwerking",
+          "text": "Combineer met groenten, peulvruchten en granen voor een compleet gerecht."
+        },
+        {
+          "title": "De portie telt",
+          "text": "Een paar blaadjes zijn garnering, geen volwaardige portie groente."
+        }
+      ]
+    }
+  },
+  "broccoli-microgreens-live-tray": {
+    "source": "184ffb84",
+    "name": "Broccoli-microgroenten · Kweekbak",
+    "description": "Kleine blaadjes met een milde koolsmaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Kleine blaadjes met een milde koolsmaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer broccoli-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "radicchio": {
+    "source": "6054b24c",
+    "name": "Radicchio",
+    "description": "Rode bladeren met witte nerven brengen een bittere smaak en contrast op je bord.",
+    "uses": [
+      "Salades",
+      "grillen",
+      "risotto"
+    ],
+    "details": {
+      "tagline": "Salades. Grillen. Risotto.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Rode bladeren met witte nerven brengen een bittere smaak en contrast op je bord."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer radicchio in salades, gegrild of in risotto."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Verwijder de harde kern. Snijd in dunne reepjes voor salades of in parten om te grillen."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met peer, sinaasappel, walnoten of een milde kaas."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Meng rauwe reepjes met zoetere ingrediënten, of grill de parten voor een zachtere textuur."
+        }
+      ],
+      "preparation": "Verwijder de harde kern. Snijd in dunne reepjes voor salades of in parten om te grillen.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "fenugreek-microgreens-live-tray": {
+    "source": "b724d323",
+    "name": "Fenegriek-microgroenten · Kweekbak",
+    "description": "Aromatische scheutjes met een licht bittere smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Aromatische scheutjes met een licht bittere smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer fenegriek-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de hartige scheutjes met aardappelen, linzen of een vulling van kikkererwten."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "amaranth-greens": {
+    "source": "e36b47cf",
+    "name": "Amarantblad",
+    "description": "Malse bladeren die in veel regionale Indiase groentegerechten worden gebruikt.",
+    "uses": [
+      "Dal",
+      "roerbakgerechten",
+      "gekookte bladgroente"
+    ],
+    "details": {
+      "tagline": "Dal. Roerbakgerechten. Gekookte bladgroente.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse bladeren die in veel regionale Indiase groentegerechten worden gebruikt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer amarantblad in dal, roerbakgerechten of als gekookte bladgroente."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel goed af, verwijder de harde stelen en kook de bladeren mee in dal of een groentegerecht."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met linzen, knoflook, kokos of komijn."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Hak de bladeren en zachte steeltjes voor een warm bijgerecht; verwijder eerst de grove stengels."
+        }
+      ],
+      "preparation": "Spoel goed af, verwijder de harde stelen en kook de bladeren mee in dal of een groentegerecht.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "source": "5db14b16",
+    "name": "Rode amarant-microgroenten · Kweekbak",
+    "description": "Fijne rode scheutjes met een aardse smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt.",
+    "uses": [
+      "Salades",
+      "Broodjes",
+      "Garnering",
+      "Thuis oogsten"
+    ],
+    "details": {
+      "tagline": "Salades. Broodjes. Garnering.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Fijne rode scheutjes met een aardse smaak. Levend geleverd in één kweekbak. Knip wat je nodig hebt."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer rode amarant-microgroenten uit de kweekbak in salades, op broodjes of als garnering."
+        },
+        {
+          "title": "Knip wanneer je het nodig hebt",
+          "text": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer de jonge blaadjes met geroosterde groenten, hummus of een salade met een lichte dressing."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Oogst alleen het stukje dat je nodig hebt. Laat de rest staan voor de volgende maaltijd; reken er niet op dat geknipte scheutjes teruggroeien."
+        }
+      ],
+      "preparation": "Knip de scheutjes met een schone schaar af boven het groeimedium. Spoel de geoogste scheutjes af voor het eten; laat de wortels en het groeimedium in de bak.",
+      "storage": "Zet de bak rechtop op een lichte plek zonder direct zonlicht. Houd het groeimedium licht vochtig, niet doorweekt. Bewaar geknipte scheutjes in de koelkast en gebruik ze snel.",
+      "nutritionTitle": "Over microgroenten",
+      "nutrition": [
+        {
+          "title": "Jonge scheutjes",
+          "text": "Vroeg geoogst om hun smaak en textuur."
+        },
+        {
+          "title": "Natuurlijke variatie",
+          "text": "Het gehalte aan vitamines en mineralen hangt af van de soort en de teeltomstandigheden."
+        },
+        {
+          "title": "Wissel af",
+          "text": "Geniet van verschillende scheutjes naast andere groenten."
+        }
+      ]
+    }
+  },
+  "fenugreek-greens": {
+    "source": "2be34ad8",
+    "name": "Fenegriekblad",
+    "description": "Aromatische methiblaadjes met een kenmerkende bitter-hartige smaak.",
+    "uses": [
+      "Paratha's",
+      "dal",
+      "groentegerechten"
+    ],
+    "details": {
+      "tagline": "Paratha's. Dal. Groentegerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Aromatische methiblaadjes met een kenmerkende bitter-hartige smaak."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer fenegriekblad in paratha's, dal of groentegerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Pluk de blaadjes van de dikke stelen, spoel ze goed af en hak ze fijn voor dal of paratha's."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met aardappelen, doperwten, linzen of volkorendeeg."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Werk de gehakte blaadjes door het parathadeeg, of voeg een klein handje toe aan een groentecurry."
+        }
+      ],
+      "preparation": "Pluk de blaadjes van de dikke stelen, spoel ze goed af en hak ze fijn voor dal of paratha's.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  },
+  "napa-cabbage": {
+    "source": "aa9e90d8",
+    "name": "Chinese kool",
+    "description": "Malse, gelaagde bladeren en milde, knapperige stelen.",
+    "uses": [
+      "Roerbakgerechten",
+      "soepen",
+      "gefermenteerde gerechten"
+    ],
+    "details": {
+      "tagline": "Roerbakgerechten. Soepen. Gefermenteerde gerechten.",
+      "benefits": [
+        {
+          "title": "Smaak en textuur",
+          "text": "Malse, gelaagde bladeren en milde, knapperige stelen."
+        },
+        {
+          "title": "Makkelijk toe te voegen",
+          "text": "Probeer Chinese kool in roerbakgerechten, soepen of gefermenteerde gerechten."
+        },
+        {
+          "title": "Eenvoudig te bereiden",
+          "text": "Spoel tussen de lagen af. Snijd stelen en bladeren apart, dan garen ze gelijkmatig."
+        },
+        {
+          "title": "Past goed bij",
+          "text": "Combineer met gember, paddenstoelen, tofu of bosuitjes."
+        },
+        {
+          "title": "Serveertip",
+          "text": "Gebruik de dikke nerven voor wat knapperigheid en laat de zachte bladeren een lichte bouillon opnemen."
+        }
+      ],
+      "preparation": "Spoel tussen de lagen af. Snijd stelen en bladeren apart, dan garen ze gelijkmatig.",
+      "storage": "Bewaar gekoeld en leg er niets zwaars op. Spoel pas vlak voor gebruik af en maak een geopende verpakking snel op.",
+      "nutritionTitle": "Onderdeel van een gevarieerd bord",
+      "nutrition": [
+        {
+          "title": "Vezels",
+          "text": "Groente levert vezels in een gevarieerd eetpatroon."
+        },
+        {
+          "title": "Vitamines en mineralen",
+          "text": "De samenstelling hangt af van de groente, de portie en de bereiding."
+        },
+        {
+          "title": "Variatie",
+          "text": "Combineer verschillende kleuren met granen en een eiwitbron."
+        }
+      ]
+    }
+  }
+}

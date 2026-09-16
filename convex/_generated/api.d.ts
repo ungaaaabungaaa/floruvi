@@ -19,6 +19,8 @@ import type * as productServingNotes from "../productServingNotes.js";
 import type * as recipeData from "../recipeData.js";
 import type * as recipes from "../recipes.js";
 import type * as seed from "../seed.js";
+import type * as seedI18n from "../seedI18n.js";
+import type * as storefront from "../storefront.js";
 
 import type {
   ApiFromModules,
@@ -38,6 +40,8 @@ declare const fullApi: ApiFromModules<{
   recipeData: typeof recipeData;
   recipes: typeof recipes;
   seed: typeof seed;
+  seedI18n: typeof seedI18n;
+  storefront: typeof storefront;
 }>;
 
 /**
