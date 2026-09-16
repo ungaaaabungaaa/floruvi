@@ -103,7 +103,6 @@ export function HomeHero({
         touchStart.current = null;
       }}
     >
-      <h1 className="sr-only">{labels.srTitle}</h1>
       <div
         className="home-hero-stories"
         aria-live={rotating ? "off" : "polite"}
@@ -139,7 +138,8 @@ export function HomeHero({
       </span>
       <div className="home-hero-content">
         <div className="home-hero-copy">
-          <h2>
+          <span className="eyebrow">{search.eyebrow}</span>
+          <h1>
             {stories[active].title.map((line, lineIndex) => (
               <span
                 key={lineIndex}
@@ -152,7 +152,7 @@ export function HomeHero({
                 {line}
               </span>
             ))}
-          </h2>
+          </h1>
           <p>{stories[active].note}</p>
         </div>
         <div className="home-hero-actions">

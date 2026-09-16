@@ -48,10 +48,7 @@ export function LocalePicker({
         {variant === "row" ? (
           <button type="button" className="navigation-locale" aria-label={label}>
             <span>{t.locale.label}</span>
-            <span className="navigation-locale-current">
-              {locale.countryName} · {languages[locale.language].name}
-              <ChevronRight size={20} aria-hidden="true" />
-            </span>
+            <ChevronRight size={20} aria-hidden="true" />
           </button>
         ) : (
           <button type="button" className="icon-button locale-button" aria-label={label}>

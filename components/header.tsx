@@ -49,14 +49,11 @@ export function Header() {
                   <X />
                 </Dialog.Close>
               </div>
-              <Dialog.Description>{t.nav.description}</Dialog.Description>
+              <Dialog.Description className="sr-only">
+                {t.nav.description}
+              </Dialog.Description>
               <nav aria-label={t.nav.mobile}>
-                {[
-                  ...links,
-                  ["/contact", t.nav.talk],
-                  ["/faq", t.footer.faq],
-                  ["/privacy", t.footer.privacy],
-                ].map(([href, label]) => (
+                {links.map(([href, label]) => (
                   <Link href={href} key={href} onClick={close}>
                     <span>{label}</span>
                     <ChevronRight size={20} aria-hidden="true" />
@@ -91,9 +88,7 @@ export function Header() {
             <LocalePicker />
           </div>
           <CartLink />
-          <div className="desktop-wishlist">
-            <WishlistMenu />
-          </div>
+          <WishlistMenu />
         </div>
       </header>
     </div>

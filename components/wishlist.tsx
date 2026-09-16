@@ -1,7 +1,7 @@
 "use client";
 import { useSyncExternalStore } from "react";
 import Link from "@/components/i18n/link";
-import { Heart } from "lucide-react";
+import { ChevronRight, Heart } from "lucide-react";
 import { useI18n } from "./i18n/provider";
 const KEY = "floruvi.wishlist.v1",
   EVENT = "floruvi:wishlist";
@@ -102,10 +102,7 @@ export function WishlistMenu({
       {inNavigation ? (
         <>
           <span>{t.wishlist.title}</span>
-          <span className="navigation-wishlist-count">
-            {saved.length}
-            <Heart size={20} />
-          </span>
+          <ChevronRight size={20} aria-hidden="true" />
         </>
       ) : (
         <>
