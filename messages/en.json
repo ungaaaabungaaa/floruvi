@@ -38,6 +38,14 @@
       "title": "Privacy notice",
       "description": "How Floruvi handles enquiries, browser storage, saved products & privacy requests."
     },
+    "terms": {
+      "title": "Terms of service",
+      "description": "The terms that apply when you browse Floruvi, send an enquiry, or place an order."
+    },
+    "refunds": {
+      "title": "Cancellation & refund policy",
+      "description": "How cancellations & refunds work for Floruvi orders, including timelines & payment methods."
+    },
     "howWeGrow": {
       "title": "Inside an aeroponic tower",
       "description": "Follow the water, explore the roots & see how a recirculating aeroponic tower grows fresh greens."
@@ -77,6 +85,8 @@
       "contact": "Contact",
       "faq": "FAQ",
       "privacy": "Privacy",
+      "terms": "Terms of service",
+      "refunds": "Cancellations & refunds",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -1121,6 +1131,158 @@
       }
     ],
     "localeNote": "On your first visit, the website uses the country that our hosting service detects from your connection to open the matching country & language version. Your choice is then kept in a cookie named floruvi-locale for one year, so prices & pages stay in that version. Enquiries sent from a country version include that country so the farm can review delivery. You can change the version at any time with the country & language control, or remove the cookie by clearing cookies."
+  },
+  "terms": {
+    "eyebrow": "THE FINE PRINT",
+    "title": "Terms of service",
+    "intro": "The terms that apply when you browse Floruvi, send an enquiry, or place an order.",
+    "updated": "Updated {date}",
+    "contents": "Terms of service contents",
+    "inThisNotice": "In these terms",
+    "question": "Have a question about these terms?",
+    "contactLink": "Contact us →",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Acceptance of these terms",
+        "paragraphs": [
+          "By browsing Floruvi or sending an enquiry through this website, you agree to these terms. If you do not agree, please do not use the website. These terms apply alongside our Privacy notice.",
+          "These terms are written for the website as it works today. They will be updated as new features, such as accounts or online payment, are introduced."
+        ]
+      },
+      {
+        "id": "service",
+        "title": "What this website does",
+        "paragraphs": [
+          "Floruvi's website lets you browse fresh produce, build a basket, and send an availability & delivery enquiry. Submitting an enquiry does not create a binding order, collect payment, or reserve produce — it asks the farm to review your request and get in touch with you directly to confirm availability, pricing & delivery before anything is agreed.",
+          "References to “checkout,” “order,” or “cart” on this website describe that enquiry process, not an automated purchase. A sale is only confirmed once the farm has contacted you and you have both agreed on the produce, price & delivery."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "No customer accounts",
+        "paragraphs": [
+          "The current website does not require or offer a customer account. Your basket & wishlist are stored in your browser only, and are not linked to your identity until you choose to submit an enquiry with your contact details."
+        ]
+      },
+      {
+        "id": "produce",
+        "title": "Produce, pricing & availability",
+        "paragraphs": [
+          "We describe produce, pack sizes & prices as accurately as we can, but fresh produce is seasonal and availability can change quickly. Prices shown are in the currency of the country version you are browsing and can change without notice until an order is confirmed directly with you. A price shown on the website is not a binding offer — it is confirmed when the farm responds to your enquiry.",
+          "Photos are representative of the produce & pack sizes described, but natural variation in size, colour & shape should be expected."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Delivery",
+        "paragraphs": [
+          "Delivery areas, schedules & charges are confirmed with you directly once an enquiry is reviewed, and can vary by location. Submitting an enquiry from a particular country or city version of this website is not a guarantee that delivery is available there."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Payment",
+        "paragraphs": [
+          "Payment is arranged directly with the farm once your order is confirmed. We do not collect payment through this website, and we do not offer cash on delivery. Accepted payment methods are shared with you when your order is confirmed.",
+          "Our Cancellation & refund policy explains how cancellations & refunds work once an order has been confirmed."
+        ]
+      },
+      {
+        "id": "conduct",
+        "title": "Acceptable use",
+        "paragraphs": [
+          "You agree not to misuse this website — for example, by submitting false contact details, attempting to disrupt the site, or using automated tools to scrape or spam the enquiry form. We may decline to respond to, or fulfil, a request that appears abusive, fraudulent, or outside a delivery area we serve."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Content & intellectual property",
+        "paragraphs": [
+          "The text, photography, illustrations & design on this website belong to Floruvi or are used with permission, and may not be copied or reused without asking first. Recipe suggestions are provided for inspiration & general guidance, not professional dietary or medical advice."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Limitation of liability",
+        "paragraphs": [
+          "We take care to describe produce & information accurately, but the website is provided as-is. To the extent permitted by law, Floruvi is not liable for indirect or consequential loss arising from your use of the website, delays in response, or changes in produce availability. Nothing in these terms limits liability that cannot be limited by law."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Changes to these terms",
+        "paragraphs": [
+          "We may update these terms as the website & service develop — for example, if we introduce accounts, online payment, or new delivery options. The date at the top of this page shows the latest revision. Continued use of the website after a change means you accept the updated terms."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Governing law",
+        "paragraphs": [
+          "These terms are governed by the laws of India. Any dispute arising from these terms or your use of the website is subject to the jurisdiction of the courts of India."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Grown with care. Written in plain language.",
+        "alt": "A basket filled with fresh vegetables"
+      },
+      {
+        "title": "Know what to expect, every time.",
+        "alt": "Colourful vegetables prepared for the table"
+      }
+    ]
+  },
+  "refunds": {
+    "eyebrow": "CANCELLATIONS & REFUNDS",
+    "title": "Cancellation & refund policy",
+    "intro": "How cancellations & refunds work once a Floruvi order has been confirmed.",
+    "updated": "Updated {date}",
+    "contents": "Cancellation & refund policy contents",
+    "inThisNotice": "In this policy",
+    "question": "Have a question about an order?",
+    "contactLink": "Contact us →",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "paragraphs": [
+          "This policy explains how cancellations & refunds work for orders confirmed with Floruvi. It applies once an enquiry has been confirmed into an order — see our Terms of service for how an enquiry becomes an order."
+        ]
+      },
+      {
+        "id": "before-delivery",
+        "title": "Cancelling before delivery",
+        "paragraphs": [
+          "You can cancel a confirmed order any time before it has been delivered by contacting us with your order details. If payment has already been made, it will be refunded in full."
+        ]
+      },
+      {
+        "id": "after-delivery",
+        "title": "No refunds after delivery",
+        "paragraphs": [
+          "Because Floruvi delivers fresh, perishable produce, we are unable to offer a refund once an order has been delivered. Please check your delivery as soon as it arrives.",
+          "The one exception is our mistake: if an item is missing, damaged, or wrong, contact us as soon as you notice & we will make it right."
+        ]
+      },
+      {
+        "id": "processing-time",
+        "title": "How refunds are processed",
+        "paragraphs": [
+          "Where a refund is due, we process it within 4–7 working days of it being agreed. Refunds are returned using the same payment method used for the order."
+        ]
+      },
+      {
+        "id": "payment-methods",
+        "title": "Payment methods",
+        "paragraphs": [
+          "We do not offer cash on delivery. Accepted payment methods are shared with you when your order is confirmed."
+        ]
+      }
+    ],
+    "banners": []
   },
   "notFound": {
     "eyebrow": "A LITTLE OFF THE GARDEN PATH",

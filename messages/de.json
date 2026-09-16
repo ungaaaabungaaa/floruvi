@@ -38,6 +38,14 @@
       "title": "Datenschutzhinweis",
       "description": "Wie Floruvi mit Anfragen, Browserspeicher, gespeicherten Produkten & Datenschutzanliegen umgeht."
     },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Die Bedingungen, die gelten, wenn du bei Floruvi stöberst, eine Anfrage sendest oder eine Bestellung aufgibst."
+    },
+    "refunds": {
+      "title": "Stornierungs- & Erstattungsrichtlinie",
+      "description": "Wie Stornierungen & Erstattungen für Floruvi-Bestellungen funktionieren, einschließlich Fristen & Zahlungsmethoden."
+    },
     "howWeGrow": {
       "title": "Im Inneren eines Aeroponik-Turms",
       "description": "Verfolge das Wasser, entdecke die Wurzeln & erfahre, wie ein Aeroponik-Turm im Kreislauf frisches Grün wachsen lässt."
@@ -77,6 +85,8 @@
       "contact": "Kontakt",
       "faq": "FAQ",
       "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "refunds": "Stornierungen & Erstattungen",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -1121,6 +1131,158 @@
       }
     ],
     "localeNote": "Bei deinem ersten Besuch nutzt die Website das Land, das unser Hosting-Dienst anhand deiner Verbindung erkennt, um die passende Länder- und Sprachversion zu öffnen. Deine Wahl wird danach ein Jahr lang in einem Cookie namens floruvi-locale gespeichert, sodass Preise und Seiten in dieser Version bleiben. Anfragen aus einer Länderversion enthalten dieses Land, damit der Hof die Lieferung prüfen kann. Du kannst die Version jederzeit über die Länder- und Sprachauswahl ändern oder das Cookie durch Löschen der Cookies entfernen."
+  },
+  "terms": {
+    "eyebrow": "DAS KLEINGEDRUCKTE",
+    "title": "Nutzungsbedingungen",
+    "intro": "Die Bedingungen, die gelten, wenn du bei Floruvi stöberst, eine Anfrage sendest oder eine Bestellung aufgibst.",
+    "updated": "Aktualisiert am {date}",
+    "contents": "Inhalt der Nutzungsbedingungen",
+    "inThisNotice": "In diesen Bedingungen",
+    "question": "Hast du eine Frage zu diesen Bedingungen?",
+    "contactLink": "Kontaktiere uns →",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Annahme dieser Bedingungen",
+        "paragraphs": [
+          "Wenn du bei Floruvi stöberst oder über diese Website eine Anfrage sendest, stimmst du diesen Bedingungen zu. Wenn du nicht zustimmst, nutze die Website bitte nicht. Diese Bedingungen gelten zusätzlich zu unserem Datenschutzhinweis.",
+          "Diese Bedingungen beschreiben die Website, so wie sie heute funktioniert. Sie werden aktualisiert, sobald neue Funktionen wie Kundenkonten oder Online-Zahlung eingeführt werden."
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Was diese Website macht",
+        "paragraphs": [
+          "Auf der Website von Floruvi kannst du frische Ware durchstöbern, einen Warenkorb zusammenstellen und eine Verfügbarkeits- und Lieferanfrage senden. Das Senden einer Anfrage erstellt keine verbindliche Bestellung, zieht keine Zahlung ein und reserviert keine Ware — sie bittet den Hof, deine Anfrage zu prüfen und sich direkt mit dir in Verbindung zu setzen, um Verfügbarkeit, Preis und Lieferung zu bestätigen, bevor etwas vereinbart ist.",
+          "Begriffe wie „Kasse“, „Bestellung“ oder „Warenkorb“ auf dieser Website beschreiben diesen Anfrageprozess und keinen automatisierten Kauf. Ein Verkauf ist erst bestätigt, wenn der Hof dich kontaktiert hat und ihr euch beide auf Ware, Preis und Lieferung geeinigt habt."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Keine Kundenkonten",
+        "paragraphs": [
+          "Die aktuelle Website erfordert oder bietet kein Kundenkonto. Dein Warenkorb und deine Wunschliste werden nur in deinem Browser gespeichert und erst mit deiner Identität verknüpft, wenn du dich entscheidest, eine Anfrage mit deinen Kontaktdaten zu senden."
+        ]
+      },
+      {
+        "id": "produce",
+        "title": "Ware, Preise & Verfügbarkeit",
+        "paragraphs": [
+          "Wir beschreiben Ware, Packungsgrößen und Preise so genau wie möglich, doch frische Ware ist saisonal, und die Verfügbarkeit kann sich schnell ändern. Angezeigte Preise gelten in der Währung der Länderversion, die du gerade durchstöberst, und können sich ohne vorherige Ankündigung ändern, bis eine Bestellung direkt mit dir bestätigt wird. Ein auf der Website angezeigter Preis ist kein verbindliches Angebot — er wird bestätigt, wenn der Hof auf deine Anfrage antwortet.",
+          "Fotos zeigen die beschriebene Ware und die Packungsgrößen beispielhaft, doch natürliche Abweichungen bei Größe, Farbe und Form sind zu erwarten."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Lieferung",
+        "paragraphs": [
+          "Liefergebiete, Zeitpläne und Kosten werden direkt mit dir bestätigt, sobald eine Anfrage geprüft wurde, und können je nach Standort unterschiedlich sein. Das Senden einer Anfrage aus einer bestimmten Länder- oder Stadtversion dieser Website ist keine Garantie, dass dort eine Lieferung möglich ist."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Zahlung",
+        "paragraphs": [
+          "Die Zahlung wird direkt mit dem Hof vereinbart, sobald deine Bestellung bestätigt ist. Wir ziehen über diese Website keine Zahlung ein und bieten keine Zahlung per Nachnahme an. Akzeptierte Zahlungsmethoden erfährst du, wenn deine Bestellung bestätigt wird.",
+          "Unsere Stornierungs- und Erstattungsrichtlinie erklärt, wie Stornierungen und Erstattungen funktionieren, sobald eine Bestellung bestätigt wurde."
+        ]
+      },
+      {
+        "id": "conduct",
+        "title": "Zulässige Nutzung",
+        "paragraphs": [
+          "Du stimmst zu, diese Website nicht zu missbrauchen — zum Beispiel, indem du falsche Kontaktdaten angibst, versuchst, die Website zu stören, oder automatisierte Tools einsetzt, um das Anfrageformular auszulesen oder mit Spam zu überfluten. Wir können es ablehnen, auf eine Anfrage zu antworten oder sie zu bearbeiten, wenn sie missbräuchlich oder betrügerisch wirkt oder außerhalb eines von uns belieferten Gebiets liegt."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Inhalte & geistiges Eigentum",
+        "paragraphs": [
+          "Die Texte, Fotos, Illustrationen und das Design dieser Website gehören Floruvi oder werden mit Erlaubnis verwendet und dürfen nicht ohne vorherige Nachfrage kopiert oder weiterverwendet werden. Rezeptvorschläge dienen der Inspiration und allgemeinen Orientierung, nicht als professionelle Ernährungs- oder medizinische Beratung."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Haftungsbeschränkung",
+        "paragraphs": [
+          "Wir achten darauf, Ware und Informationen genau zu beschreiben, doch die Website wird ohne Gewähr bereitgestellt. Soweit gesetzlich zulässig, haftet Floruvi nicht für indirekte Schäden oder Folgeschäden, die durch deine Nutzung der Website, Verzögerungen bei einer Antwort oder Änderungen der Warenverfügbarkeit entstehen. Nichts in diesen Bedingungen schränkt eine Haftung ein, die gesetzlich nicht beschränkt werden darf."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Änderungen dieser Bedingungen",
+        "paragraphs": [
+          "Wir können diese Bedingungen mit der Weiterentwicklung der Website und unseres Angebots aktualisieren, zum Beispiel wenn wir Kundenkonten, Online-Zahlung oder neue Lieferoptionen einführen. Das Datum oben auf dieser Seite zeigt die letzte Überarbeitung. Wenn du die Website nach einer Änderung weiter nutzt, bedeutet das, dass du die aktualisierten Bedingungen akzeptierst."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Anwendbares Recht",
+        "paragraphs": [
+          "Für diese Bedingungen gilt das Recht Indiens. Für Streitigkeiten aus diesen Bedingungen oder deiner Nutzung der Website sind die Gerichte Indiens zuständig."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Mit Sorgfalt angebaut. In klaren Worten geschrieben.",
+        "alt": "Ein Korb voller frischem Gemüse"
+      },
+      {
+        "title": "Wisse immer, was dich erwartet.",
+        "alt": "Buntes Gemüse, bereit für den Tisch"
+      }
+    ]
+  },
+  "refunds": {
+    "eyebrow": "STORNIERUNGEN & ERSTATTUNGEN",
+    "title": "Stornierungs- & Erstattungsrichtlinie",
+    "intro": "Wie Stornierungen & Erstattungen funktionieren, sobald eine Floruvi-Bestellung bestätigt wurde.",
+    "updated": "Aktualisiert am {date}",
+    "contents": "Inhalt der Stornierungs- & Erstattungsrichtlinie",
+    "inThisNotice": "In dieser Richtlinie",
+    "question": "Hast du eine Frage zu einer Bestellung?",
+    "contactLink": "Kontaktiere uns →",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Überblick",
+        "paragraphs": [
+          "Diese Richtlinie erklärt, wie Stornierungen und Erstattungen für mit Floruvi bestätigte Bestellungen funktionieren. Sie gilt, sobald eine Anfrage zu einer Bestellung bestätigt wurde — wie aus einer Anfrage eine Bestellung wird, erfährst du in unseren Nutzungsbedingungen."
+        ]
+      },
+      {
+        "id": "before-delivery",
+        "title": "Stornieren vor der Lieferung",
+        "paragraphs": [
+          "Du kannst eine bestätigte Bestellung jederzeit vor der Lieferung stornieren, indem du uns mit deinen Bestelldetails kontaktierst. Wurde bereits gezahlt, wird der volle Betrag erstattet."
+        ]
+      },
+      {
+        "id": "after-delivery",
+        "title": "Keine Erstattung nach der Lieferung",
+        "paragraphs": [
+          "Da Floruvi frische, leicht verderbliche Ware liefert, können wir nach der Lieferung einer Bestellung keine Erstattung mehr anbieten. Bitte überprüfe deine Lieferung, sobald sie ankommt.",
+          "Die einzige Ausnahme ist ein Fehler unsererseits: Fehlt ein Artikel, ist er beschädigt oder falsch, kontaktiere uns, sobald du es bemerkst, und wir bringen es in Ordnung."
+        ]
+      },
+      {
+        "id": "processing-time",
+        "title": "Wie Erstattungen bearbeitet werden",
+        "paragraphs": [
+          "Steht eine Erstattung an, bearbeiten wir sie innerhalb von 4–7 Werktagen, nachdem sie vereinbart wurde. Erstattungen erfolgen über dieselbe Zahlungsmethode, die für die Bestellung verwendet wurde."
+        ]
+      },
+      {
+        "id": "payment-methods",
+        "title": "Zahlungsmethoden",
+        "paragraphs": [
+          "Wir bieten keine Zahlung per Nachnahme an. Akzeptierte Zahlungsmethoden erfährst du, wenn deine Bestellung bestätigt wird."
+        ]
+      }
+    ],
+    "banners": []
   },
   "notFound": {
     "eyebrow": "ETWAS ABSEITS DES GARTENWEGS",

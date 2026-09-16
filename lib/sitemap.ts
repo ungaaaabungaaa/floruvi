@@ -13,6 +13,8 @@ const staticPaths = [
   "/contact",
   "/faq",
   "/privacy",
+  "/terms",
+  "/refunds",
 ];
 
 const escape = (value: string) =>

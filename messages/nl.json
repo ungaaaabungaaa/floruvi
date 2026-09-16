@@ -38,6 +38,14 @@
       "title": "Privacyverklaring",
       "description": "Hoe Floruvi omgaat met aanvragen, browseropslag, opgeslagen producten en privacyverzoeken."
     },
+    "terms": {
+      "title": "Servicevoorwaarden",
+      "description": "De voorwaarden die gelden wanneer je Floruvi bezoekt, een aanvraag verstuurt of een bestelling plaatst."
+    },
+    "refunds": {
+      "title": "Annulerings- en terugbetalingsbeleid",
+      "description": "Hoe annuleringen en terugbetalingen werken voor bestellingen bij Floruvi, inclusief doorlooptijden en betaalmethoden."
+    },
     "howWeGrow": {
       "title": "In een aeroponische toren",
       "description": "Volg het water, ontdek de wortels en zie hoe een circulerende aeroponische toren verse groenten laat groeien."
@@ -77,6 +85,8 @@
       "contact": "Contact",
       "faq": "Veelgestelde vragen",
       "privacy": "Privacy",
+      "terms": "Servicevoorwaarden",
+      "refunds": "Annuleringen en terugbetalingen",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -1121,6 +1131,158 @@
       }
     ],
     "localeNote": "Bij je eerste bezoek gebruikt de website het land dat onze hostingdienst herkent aan de hand van je verbinding, om de bijbehorende land- en taalversie te openen. Je keuze wordt vervolgens een jaar lang bewaard in een cookie met de naam floruvi-locale, zodat prijzen en pagina's in die versie blijven. Aanvragen die vanuit een landversie worden verstuurd, bevatten dat land, zodat de boerderij de bezorging kan beoordelen. Je kunt de versie op elk moment wijzigen met de land- en taalkeuze, of de cookie verwijderen door je cookies te wissen."
+  },
+  "terms": {
+    "eyebrow": "DE KLEINE LETTERTJES",
+    "title": "Servicevoorwaarden",
+    "intro": "De voorwaarden die gelden wanneer je Floruvi bezoekt, een aanvraag verstuurt of een bestelling plaatst.",
+    "updated": "Bijgewerkt op {date}",
+    "contents": "Inhoud van de servicevoorwaarden",
+    "inThisNotice": "In deze voorwaarden",
+    "question": "Heb je een vraag over deze voorwaarden?",
+    "contactLink": "Neem contact op →",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Aanvaarding van deze voorwaarden",
+        "paragraphs": [
+          "Door Floruvi te bezoeken of een aanvraag te versturen via deze website, ga je akkoord met deze voorwaarden. Als je niet akkoord gaat, gebruik de website dan niet. Deze voorwaarden gelden naast onze privacyverklaring.",
+          "Deze voorwaarden zijn geschreven voor de website zoals die vandaag werkt. Ze worden bijgewerkt zodra nieuwe functies, zoals accounts of online betalen, worden geïntroduceerd."
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Wat deze website doet",
+        "paragraphs": [
+          "Op de website van Floruvi kun je verse producten bekijken, een mandje samenstellen en een beschikbaarheids- en bezorgaanvraag versturen. Het versturen van een aanvraag brengt geen bindende bestelling tot stand, int geen betaling en reserveert geen producten — het vraagt de boerderij om je verzoek te bekijken en rechtstreeks contact met je op te nemen om beschikbaarheid, prijs en bezorging te bevestigen voordat er iets is afgesproken.",
+          "Verwijzingen naar “afrekenen”, “bestelling” of “mandje” op deze website beschrijven dat aanvraagproces, niet een geautomatiseerde aankoop. Een verkoop is pas bevestigd zodra de boerderij contact met je heeft opgenomen en jullie het samen eens zijn geworden over de producten, de prijs en de bezorging."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Geen klantaccounts",
+        "paragraphs": [
+          "De huidige website vereist geen klantaccount en biedt deze ook niet aan. Je mandje en verlanglijst worden alleen in je browser opgeslagen en zijn niet aan je identiteit gekoppeld totdat je ervoor kiest een aanvraag met je contactgegevens te versturen."
+        ]
+      },
+      {
+        "id": "produce",
+        "title": "Producten, prijzen en beschikbaarheid",
+        "paragraphs": [
+          "We beschrijven producten, verpakkingsgroottes en prijzen zo nauwkeurig mogelijk, maar verse producten zijn seizoensgebonden en de beschikbaarheid kan snel veranderen. Getoonde prijzen zijn in de valuta van de landversie die je bekijkt en kunnen zonder kennisgeving veranderen totdat een bestelling rechtstreeks met je is bevestigd. Een prijs die op de website wordt getoond, is geen bindend aanbod — deze wordt bevestigd zodra de boerderij op je aanvraag reageert.",
+          "Foto's zijn representatief voor de beschreven producten en verpakkingsgroottes, maar natuurlijke variatie in grootte, kleur en vorm is normaal."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Bezorging",
+        "paragraphs": [
+          "Bezorggebieden, schema's en kosten worden rechtstreeks met je bevestigd zodra een aanvraag is bekeken, en kunnen per locatie verschillen. Het versturen van een aanvraag vanuit een bepaalde land- of stadsversie van deze website is geen garantie dat bezorging daar beschikbaar is."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Betaling",
+        "paragraphs": [
+          "Betaling wordt rechtstreeks met de boerderij geregeld zodra je bestelling is bevestigd. We innen geen betaling via deze website en we bieden geen contante betaling bij bezorging aan. De geaccepteerde betaalmethoden worden met je gedeeld zodra je bestelling is bevestigd.",
+          "Ons annulerings- en terugbetalingsbeleid legt uit hoe annuleringen en terugbetalingen werken zodra een bestelling is bevestigd."
+        ]
+      },
+      {
+        "id": "conduct",
+        "title": "Aanvaardbaar gebruik",
+        "paragraphs": [
+          "Je stemt ermee in deze website niet te misbruiken — bijvoorbeeld door valse contactgegevens op te geven, te proberen de site te verstoren, of geautomatiseerde tools te gebruiken om het aanvraagformulier te scrapen of te bestoken met spam. We kunnen weigeren te reageren op of uitvoering te geven aan een verzoek dat op misbruik of fraude lijkt, of dat buiten een bezorggebied valt dat we bedienen."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Inhoud en intellectueel eigendom",
+        "paragraphs": [
+          "De tekst, fotografie, illustraties en het ontwerp op deze website zijn eigendom van Floruvi of worden met toestemming gebruikt, en mogen niet worden gekopieerd of hergebruikt zonder vooraf toestemming te vragen. Receptsuggesties zijn bedoeld ter inspiratie en als algemene richtlijn, niet als professioneel voedings- of medisch advies."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "We doen ons best om producten en informatie nauwkeurig te beschrijven, maar de website wordt aangeboden in de staat waarin deze verkeert. Voor zover wettelijk toegestaan, is Floruvi niet aansprakelijk voor indirecte schade of gevolgschade die voortvloeit uit je gebruik van de website, vertragingen in reactie, of veranderingen in de beschikbaarheid van producten. Niets in deze voorwaarden beperkt aansprakelijkheid die wettelijk niet kan worden beperkt."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Wijzigingen in deze voorwaarden",
+        "paragraphs": [
+          "We kunnen deze voorwaarden bijwerken naarmate de website en de dienst zich ontwikkelen — bijvoorbeeld als we accounts, online betalen of nieuwe bezorgopties introduceren. De datum bovenaan deze pagina toont de laatste herziening. Als je de website na een wijziging blijft gebruiken, betekent dit dat je de bijgewerkte voorwaarden accepteert."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Toepasselijk recht",
+        "paragraphs": [
+          "Op deze voorwaarden is het recht van India van toepassing. Elk geschil dat voortvloeit uit deze voorwaarden of je gebruik van de website valt onder de bevoegdheid van de rechtbanken van India."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Geteeld met zorg. Geschreven in heldere taal.",
+        "alt": "Een mandje gevuld met verse groenten"
+      },
+      {
+        "title": "Weet wat je kunt verwachten, elke keer.",
+        "alt": "Kleurrijke groenten klaargemaakt voor tafel"
+      }
+    ]
+  },
+  "refunds": {
+    "eyebrow": "ANNULERINGEN EN TERUGBETALINGEN",
+    "title": "Annulerings- en terugbetalingsbeleid",
+    "intro": "Hoe annuleringen en terugbetalingen werken zodra een bestelling bij Floruvi is bevestigd.",
+    "updated": "Bijgewerkt op {date}",
+    "contents": "Inhoud van het annulerings- en terugbetalingsbeleid",
+    "inThisNotice": "In dit beleid",
+    "question": "Heb je een vraag over een bestelling?",
+    "contactLink": "Neem contact op →",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overzicht",
+        "paragraphs": [
+          "Dit beleid legt uit hoe annuleringen en terugbetalingen werken voor bestellingen die bij Floruvi zijn bevestigd. Het geldt zodra een aanvraag is bevestigd tot een bestelling — raadpleeg onze servicevoorwaarden voor hoe een aanvraag een bestelling wordt."
+        ]
+      },
+      {
+        "id": "before-delivery",
+        "title": "Annuleren vóór bezorging",
+        "paragraphs": [
+          "Je kunt een bevestigde bestelling op elk moment annuleren voordat deze is bezorgd, door contact met ons op te nemen met je bestelgegevens. Als er al is betaald, wordt dit volledig terugbetaald."
+        ]
+      },
+      {
+        "id": "after-delivery",
+        "title": "Geen terugbetaling na bezorging",
+        "paragraphs": [
+          "Omdat Floruvi verse, bederfelijke producten bezorgt, kunnen we geen terugbetaling aanbieden zodra een bestelling is bezorgd. Controleer je bezorging zodra deze aankomt.",
+          "De enige uitzondering is een fout van onze kant: als een product ontbreekt, beschadigd is of niet klopt, neem dan contact met ons op zodra je dit opmerkt en we maken het goed."
+        ]
+      },
+      {
+        "id": "processing-time",
+        "title": "Hoe terugbetalingen worden verwerkt",
+        "paragraphs": [
+          "Als een terugbetaling verschuldigd is, verwerken we deze binnen 4–7 werkdagen nadat dit is overeengekomen. Terugbetalingen worden gedaan via dezelfde betaalmethode die voor de bestelling is gebruikt."
+        ]
+      },
+      {
+        "id": "payment-methods",
+        "title": "Betaalmethoden",
+        "paragraphs": [
+          "We bieden geen contante betaling bij bezorging aan. De geaccepteerde betaalmethoden worden met je gedeeld zodra je bestelling is bevestigd."
+        ]
+      }
+    ],
+    "banners": []
   },
   "notFound": {
     "eyebrow": "EVEN VAN HET TUINPAD AF",

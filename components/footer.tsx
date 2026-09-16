@@ -25,6 +25,8 @@ export async function Footer() {
           <Link href="/contact">{footer.contact}</Link>
           <Link href="/faq">{footer.faq}</Link>
           <Link href="/privacy">{footer.privacy}</Link>
+          <Link href="/terms">{footer.terms}</Link>
+          <Link href="/refunds">{footer.refunds}</Link>
         </div>
       </div>
       <div className="footer-bottom">

@@ -38,6 +38,14 @@
       "title": "Maxfiylik siyosati",
       "description": "Floruvi murojaatlar, brauzer xotirasi, saqlangan mahsulotlar va maxfiylik soʻrovlari bilan qanday ishlashi."
     },
+    "terms": {
+      "title": "Xizmat koʻrsatish shartlari",
+      "description": "Floruvi saytini koʻrib chiqqaningizda, soʻrov yuborganingizda yoki buyurtma berganingizda amal qiladigan shartlar."
+    },
+    "refunds": {
+      "title": "Bekor qilish va pul qaytarish siyosati",
+      "description": "Floruvi buyurtmalari uchun bekor qilish va pul qaytarish qanday ishlashi, jumladan muddatlar va toʻlov usullari."
+    },
     "howWeGrow": {
       "title": "Aeroponik minora ichida",
       "description": "Suvni kuzating, ildizlarni kashf eting va aylanma aeroponik minora yangi koʻkatlarni qanday oʻstirishini koʻring."
@@ -77,6 +85,8 @@
       "contact": "Aloqa",
       "faq": "Savol-javob",
       "privacy": "Maxfiylik",
+      "terms": "Xizmat koʻrsatish shartlari",
+      "refunds": "Bekor qilish va pul qaytarish",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -1121,6 +1131,158 @@
       }
     ],
     "localeNote": "Birinchi tashrifingizda sayt xosting xizmatimiz ulanishingizdan aniqlagan davlatdan foydalanib, mos davlat va til versiyasini ochadi. Soʻngra tanlovingiz floruvi-locale nomli cookie-faylda bir yil saqlanadi, shunda narxlar va sahifalar shu versiyada qoladi. Davlat versiyasidan yuborilgan soʻrovlarga ferma yetkazib berishni koʻrib chiqishi uchun shu davlat nomi qoʻshiladi. Versiyani istalgan vaqtda davlat va til boshqaruvi orqali oʻzgartirishingiz yoki cookie-fayllarni tozalab, uni olib tashlashingiz mumkin."
+  },
+  "terms": {
+    "eyebrow": "BATAFSIL SHARTLAR",
+    "title": "Xizmat koʻrsatish shartlari",
+    "intro": "Floruvi saytini koʻrib chiqqaningizda, soʻrov yuborganingizda yoki buyurtma berganingizda amal qiladigan shartlar.",
+    "updated": "Yangilangan: {date}",
+    "contents": "Xizmat koʻrsatish shartlari mundarijasi",
+    "inThisNotice": "Ushbu shartlarda",
+    "question": "Ushbu shartlar boʻyicha savolingiz bormi?",
+    "contactLink": "Biz bilan bogʻlaning →",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Ushbu shartlarni qabul qilish",
+        "paragraphs": [
+          "Floruvi saytini koʻrib chiqsangiz yoki ushbu sayt orqali soʻrov yuborsangiz, ushbu shartlarga rozilik bildirgan boʻlasiz. Agar rozi boʻlmasangiz, iltimos, saytdan foydalanmang. Ushbu shartlar bizning Maxfiylik siyosatimiz bilan bir qatorda qoʻllaniladi.",
+          "Ushbu shartlar sayt bugungi kunda ishlayotgan koʻrinishi uchun yozilgan. Hisoblar yoki onlayn toʻlov kabi yangi funksiyalar joriy etilishi bilan ular yangilanadi."
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Ushbu sayt nima qiladi",
+        "paragraphs": [
+          "Floruvi sayti yangi hosilni koʻrib chiqish, savat toʻldirish va mavjudlik hamda yetkazib berish boʻyicha soʻrov yuborish imkonini beradi. Soʻrov yuborish majburiy buyurtma yaratmaydi, toʻlov olmaydi yoki mahsulotni band qilmaydi — bu fermaga soʻrovingizni koʻrib chiqish va hech narsa kelishilmaguncha mavjudlik, narx hamda yetkazib berishni tasdiqlash uchun siz bilan bevosita bogʻlanish imkonini beradi.",
+          "Ushbu saytdagi “rasmiylashtirish”, “buyurtma” yoki “savat” kabi atamalar aynan shu soʻrov jarayonini bildiradi, avtomatik xaridni emas. Sotuv faqat ferma siz bilan bogʻlangach va ikkalangiz mahsulot, narx hamda yetkazib berish boʻyicha kelishib olgach tasdiqlanadi."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Mijoz hisoblari mavjud emas",
+        "paragraphs": [
+          "Joriy sayt mijoz hisobini talab qilmaydi va taklif etmaydi. Savat va sevimlilar roʻyxatingiz faqat brauzeringizda saqlanadi hamda aloqa maʼlumotlaringiz bilan soʻrov yuborishni tanlamaguningizcha shaxsingizga bogʻlanmaydi."
+        ]
+      },
+      {
+        "id": "produce",
+        "title": "Hosil, narx va mavjudlik",
+        "paragraphs": [
+          "Biz hosil, qadoq hajmi va narxlarni imkon qadar aniq taʼriflaymiz, biroq yangi hosil mavsumiy boʻlib, mavjudlik tez oʻzgarishi mumkin. Koʻrsatilgan narxlar siz koʻrib chiqayotgan mamlakat versiyasining valyutasida boʻlib, buyurtma siz bilan bevosita tasdiqlanmaguncha oldindan ogohlantirmasdan oʻzgarishi mumkin. Saytda koʻrsatilgan narx majburiy taklif emas — u ferma soʻrovingizga javob berganda tasdiqlanadi.",
+          "Rasmlar taʼriflangan hosil va qadoq hajmini aks ettiradi, biroq oʻlcham, rang va shaklda tabiiy farqlar boʻlishi mumkinligini hisobga oling."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Yetkazib berish",
+        "paragraphs": [
+          "Yetkazib berish hududlari, jadvali va toʻlovlari soʻrov koʻrib chiqilgandan keyin siz bilan bevosita tasdiqlanadi va joylashuvga qarab farq qilishi mumkin. Ushbu saytning maʼlum bir mamlakat yoki shahar versiyasidan soʻrov yuborish u yerda yetkazib berish mavjudligiga kafolat bermaydi."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Toʻlov",
+        "paragraphs": [
+          "Toʻlov buyurtmangiz tasdiqlangandan keyin ferma bilan bevosita kelishiladi. Biz ushbu sayt orqali toʻlov qabul qilmaymiz va yetkazib berishda naqd toʻlovni taklif etmaymiz. Qabul qilinadigan toʻlov usullari buyurtmangiz tasdiqlanganda sizga bildiriladi.",
+          "Bizning Bekor qilish va pul qaytarish siyosatimiz buyurtma tasdiqlangandan keyin bekor qilish va pul qaytarish qanday ishlashini tushuntiradi."
+        ]
+      },
+      {
+        "id": "conduct",
+        "title": "Maqbul foydalanish",
+        "paragraphs": [
+          "Siz ushbu saytdan notoʻgʻri foydalanmaslikka roziligingizni bildirasiz — masalan, soxta aloqa maʼlumotlarini yuborish, saytning ishlashiga xalaqit berishga urinish yoki soʻrov formasidan avtomatik vositalar yordamida maʼlumot yigʻish yoki uni spam bilan toʻldirish orqali. Suiisteʼmol yoki firibgarlik xususiyatiga ega koʻrinadigan, shuningdek, biz xizmat koʻrsatmaydigan yetkazib berish hududidan tashqaridan kelgan soʻrovga javob berish yoki uni bajarishni rad etishimiz mumkin."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Kontent va intellektual mulk",
+        "paragraphs": [
+          "Ushbu saytdagi matn, fotosuratlar, illyustratsiyalar va dizayn Floruvi-ga tegishli yoki ruxsat bilan ishlatiladi hamda avval soʻramasdan nusxalanishi yoki qayta ishlatilishi mumkin emas. Retsept tavsiyalari ilhom olish va umumiy yoʻriqnoma sifatida taqdim etiladi, professional ovqatlanish yoki tibbiy maslahat sifatida emas."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Javobgarlikni cheklash",
+        "paragraphs": [
+          "Biz hosil va maʼlumotni aniq taʼriflashga harakat qilamiz, biroq sayt shundayligicha taqdim etiladi. Qonun ruxsat bergan darajada, Floruvi saytdan foydalanishingiz, javobning kechikishi yoki hosil mavjudligining oʻzgarishi natijasida kelib chiqadigan bilvosita yoki oqibatli zarar uchun javobgar emas. Ushbu shartlarning hech bir qismi qonun bilan cheklab boʻlmaydigan javobgarlikni cheklamaydi."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Ushbu shartlarga oʻzgartirishlar",
+        "paragraphs": [
+          "Sayt va xizmat rivojlanishi bilan ushbu shartlarni yangilashimiz mumkin — masalan, hisoblar, onlayn toʻlov yoki yangi yetkazib berish variantlarini joriy etsak. Ushbu sahifa yuqorisidagi sana oxirgi tahrirni koʻrsatadi. Oʻzgartirishdan keyin saytdan foydalanishni davom ettirish yangilangan shartlarni qabul qilganingizni bildiradi."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Amal qiluvchi qonunchilik",
+        "paragraphs": [
+          "Ushbu shartlar Hindiston qonunlari bilan tartibga solinadi. Ushbu shartlardan yoki saytdan foydalanishingizdan kelib chiqadigan har qanday nizo Hindiston sudlari yurisdiktsiyasiga boʻysunadi."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Ehtiyotkorlik bilan oʻstirilgan. Oddiy tilda yozilgan.",
+        "alt": "Yangi sabzavotlarga toʻla savat"
+      },
+      {
+        "title": "Har safar nimani kutishni biling.",
+        "alt": "Dasturxonga tayyorlangan rang-barang sabzavotlar"
+      }
+    ]
+  },
+  "refunds": {
+    "eyebrow": "BEKOR QILISH VA PUL QAYTARISH",
+    "title": "Bekor qilish va pul qaytarish siyosati",
+    "intro": "Floruvi buyurtmasi tasdiqlangandan keyin bekor qilish va pul qaytarish qanday ishlashi.",
+    "updated": "Yangilangan: {date}",
+    "contents": "Bekor qilish va pul qaytarish siyosati mundarijasi",
+    "inThisNotice": "Ushbu siyosatda",
+    "question": "Buyurtma boʻyicha savolingiz bormi?",
+    "contactLink": "Biz bilan bogʻlaning →",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Umumiy maʼlumot",
+        "paragraphs": [
+          "Ushbu siyosat Floruvi bilan tasdiqlangan buyurtmalar uchun bekor qilish va pul qaytarish qanday ishlashini tushuntiradi. U soʻrov tasdiqlanib buyurtmaga aylangandan keyin qoʻllaniladi — soʻrov qanday qilib buyurtmaga aylanishi haqida bizning Xizmat koʻrsatish shartlarimizga qarang."
+        ]
+      },
+      {
+        "id": "before-delivery",
+        "title": "Yetkazib berishdan oldin bekor qilish",
+        "paragraphs": [
+          "Tasdiqlangan buyurtmani yetkazib berilgunga qadar istalgan vaqtda buyurtma tafsilotlaringiz bilan biz bilan bogʻlanib bekor qilishingiz mumkin. Agar toʻlov allaqachon amalga oshirilgan boʻlsa, u toʻliq qaytariladi."
+        ]
+      },
+      {
+        "id": "after-delivery",
+        "title": "Yetkazib berilgandan keyin pul qaytarilmaydi",
+        "paragraphs": [
+          "Floruvi yangi, tez buziladigan hosil yetkazib berganligi sababli, buyurtma yetkazib berilgandan keyin pul qaytarishni taklif eta olmaymiz. Iltimos, buyurtmangiz yetib kelishi bilanoq uni tekshiring.",
+          "Yagona istisno — bizning xatoligimiz: agar biror mahsulot yetishmasa, shikastlangan yoki notoʻgʻri boʻlsa, buni payqashingiz bilanoq biz bilan bogʻlaning va biz buni tuzatamiz."
+        ]
+      },
+      {
+        "id": "processing-time",
+        "title": "Pul qaytarish qanday amalga oshiriladi",
+        "paragraphs": [
+          "Pul qaytarish lozim boʻlgan hollarda, biz buni kelishilgandan keyin 4–7 ish kuni ichida amalga oshiramiz. Pul mablagʻi buyurtma uchun ishlatilgan xuddi shu toʻlov usuli orqali qaytariladi."
+        ]
+      },
+      {
+        "id": "payment-methods",
+        "title": "Toʻlov usullari",
+        "paragraphs": [
+          "Biz yetkazib berishda naqd toʻlovni taklif etmaymiz. Qabul qilinadigan toʻlov usullari buyurtmangiz tasdiqlanganda sizga bildiriladi."
+        ]
+      }
+    ],
+    "banners": []
   },
   "notFound": {
     "eyebrow": "BOGʻ YOʻLIDAN CHETDA",

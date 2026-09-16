@@ -38,6 +38,14 @@
       "title": "Notis Privasi",
       "description": "Cara Floruvi mengendalikan pertanyaan, storan pelayar, produk disimpan & permintaan privasi."
     },
+    "terms": {
+      "title": "Terma Perkhidmatan",
+      "description": "Terma yang terpakai apabila anda melayari Floruvi, menghantar pertanyaan, atau membuat pesanan."
+    },
+    "refunds": {
+      "title": "Dasar Pembatalan & Bayaran Balik",
+      "description": "Cara pembatalan & bayaran balik berfungsi untuk pesanan Floruvi, termasuk garis masa & kaedah pembayaran."
+    },
     "howWeGrow": {
       "title": "Di Dalam Menara Aeroponik",
       "description": "Ikuti aliran air, terokai akar & lihat cara menara aeroponik berkitar menghasilkan sayur segar."
@@ -77,6 +85,8 @@
       "contact": "Hubungi",
       "faq": "Soalan lazim",
       "privacy": "Privasi",
+      "terms": "Terma perkhidmatan",
+      "refunds": "Pembatalan & bayaran balik",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -1113,6 +1123,158 @@
       }
     ],
     "localeNote": "Pada lawatan pertama anda, laman web ini menggunakan negara yang dikesan oleh perkhidmatan pengehosan kami daripada sambungan anda untuk membuka versi negara dan bahasa yang sepadan. Pilihan anda kemudian disimpan dalam kuki bernama floruvi-locale selama satu tahun, supaya harga dan halaman kekal dalam versi tersebut. Pertanyaan yang dihantar daripada sesuatu versi negara menyertakan negara tersebut supaya ladang dapat menyemak penghantaran. Anda boleh menukar versi pada bila-bila masa menggunakan kawalan negara dan bahasa, atau membuang kuki tersebut dengan mengosongkan kuki."
+  },
+  "terms": {
+    "eyebrow": "CETAKAN HALUS",
+    "title": "Terma perkhidmatan",
+    "intro": "Terma yang terpakai apabila anda melayari Floruvi, menghantar pertanyaan, atau membuat pesanan.",
+    "updated": "Dikemas kini {date}",
+    "contents": "Kandungan terma perkhidmatan",
+    "inThisNotice": "Dalam terma ini",
+    "question": "Ada soalan tentang terma ini?",
+    "contactLink": "Hubungi kami →",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Penerimaan terma ini",
+        "paragraphs": [
+          "Dengan melayari Floruvi atau menghantar pertanyaan melalui laman web ini, anda bersetuju dengan terma ini. Jika anda tidak bersetuju, sila jangan gunakan laman web ini. Terma ini terpakai bersama-sama Notis privasi kami.",
+          "Terma ini ditulis untuk laman web ini sebagaimana ia berfungsi pada hari ini. Ia akan dikemas kini apabila ciri baharu, seperti akaun atau pembayaran dalam talian, diperkenalkan."
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Apa yang laman web ini lakukan",
+        "paragraphs": [
+          "Laman web Floruvi membolehkan anda melayari hasil ladang segar, membina bakul, dan menghantar pertanyaan ketersediaan & penghantaran. Menghantar pertanyaan tidak mewujudkan pesanan yang mengikat, mengutip bayaran, atau menempah hasil ladang — ia meminta ladang menyemak permintaan anda dan menghubungi anda secara langsung untuk mengesahkan ketersediaan, harga & penghantaran sebelum apa-apa dipersetujui.",
+          "Rujukan kepada “semakan pesanan,” “pesanan,” atau “bakul” pada laman web ini menerangkan proses pertanyaan tersebut, bukan pembelian automatik. Jualan hanya disahkan sebaik sahaja ladang menghubungi anda dan kedua-dua pihak bersetuju tentang hasil ladang, harga & penghantaran."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Tiada akaun pelanggan",
+        "paragraphs": [
+          "Laman web semasa tidak memerlukan atau menawarkan akaun pelanggan. Bakul & senarai hasrat anda disimpan dalam pelayar anda sahaja, dan tidak dikaitkan dengan identiti anda sehingga anda memilih untuk menghantar pertanyaan berserta butiran hubungan anda."
+        ]
+      },
+      {
+        "id": "produce",
+        "title": "Hasil ladang, harga & ketersediaan",
+        "paragraphs": [
+          "Kami menerangkan hasil ladang, saiz pek & harga seteliti mungkin, tetapi hasil ladang segar adalah bermusim dan ketersediaannya boleh berubah dengan cepat. Harga yang dipaparkan adalah dalam mata wang versi negara yang anda layari dan boleh berubah tanpa notis sehingga pesanan disahkan terus dengan anda. Harga yang dipaparkan pada laman web bukanlah tawaran yang mengikat — ia disahkan apabila ladang membalas pertanyaan anda.",
+          "Foto adalah wakil bagi hasil ladang & saiz pek yang diterangkan, tetapi variasi semula jadi dari segi saiz, warna & bentuk perlu dijangkakan."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Penghantaran",
+        "paragraphs": [
+          "Kawasan, jadual & caj penghantaran disahkan terus dengan anda sebaik sahaja pertanyaan disemak, dan boleh berbeza mengikut lokasi. Menghantar pertanyaan daripada versi negara atau bandar tertentu pada laman web ini bukanlah jaminan bahawa penghantaran tersedia di situ."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Pembayaran",
+        "paragraphs": [
+          "Pembayaran diatur terus dengan ladang sebaik sahaja pesanan anda disahkan. Kami tidak mengutip bayaran melalui laman web ini, dan kami tidak menawarkan bayaran tunai semasa penghantaran. Kaedah pembayaran yang diterima dikongsikan dengan anda apabila pesanan anda disahkan.",
+          "Dasar pembatalan & bayaran balik kami menerangkan cara pembatalan & bayaran balik berfungsi sebaik sahaja pesanan disahkan."
+        ]
+      },
+      {
+        "id": "conduct",
+        "title": "Penggunaan yang boleh diterima",
+        "paragraphs": [
+          "Anda bersetuju untuk tidak menyalahgunakan laman web ini — contohnya, dengan menghantar butiran hubungan palsu, cuba mengganggu laman web, atau menggunakan alat automatik untuk mengikis atau menghantar spam ke borang pertanyaan. Kami boleh enggan membalas atau memenuhi sebarang permintaan yang kelihatan sebagai penyalahgunaan, penipuan, atau yang berada di luar kawasan penghantaran yang kami layani."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Kandungan & harta intelek",
+        "paragraphs": [
+          "Teks, fotografi, ilustrasi & reka bentuk pada laman web ini adalah kepunyaan Floruvi atau digunakan dengan kebenaran, dan tidak boleh disalin atau digunakan semula tanpa meminta izin terlebih dahulu. Cadangan resipi disediakan untuk inspirasi & panduan umum, bukan nasihat pemakanan atau perubatan profesional."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Had liabiliti",
+        "paragraphs": [
+          "Kami berusaha menerangkan hasil ladang & maklumat dengan tepat, tetapi laman web ini disediakan seadanya. Setakat yang dibenarkan oleh undang-undang, Floruvi tidak bertanggungjawab atas sebarang kerugian tidak langsung atau berbangkit yang timbul daripada penggunaan laman web ini, kelewatan membalas, atau perubahan ketersediaan hasil ladang. Tiada apa-apa dalam terma ini yang mengehadkan liabiliti yang tidak boleh dihadkan oleh undang-undang."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Perubahan kepada terma ini",
+        "paragraphs": [
+          "Kami boleh mengemas kini terma ini seiring perkembangan laman web & perkhidmatan — contohnya, jika kami memperkenalkan akaun, pembayaran dalam talian, atau pilihan penghantaran baharu. Tarikh di bahagian atas halaman ini menunjukkan semakan terkini. Penggunaan berterusan laman web selepas sesuatu perubahan bermakna anda menerima terma yang dikemas kini."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Undang-undang yang terpakai",
+        "paragraphs": [
+          "Terma ini ditadbir oleh undang-undang India. Sebarang pertikaian yang timbul daripada terma ini atau penggunaan laman web ini oleh anda tertakluk kepada bidang kuasa mahkamah India."
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "title": "Ditanam dengan teliti. Ditulis dalam bahasa yang mudah difahami.",
+        "alt": "Bakul dipenuhi sayur-sayuran segar"
+      },
+      {
+        "title": "Ketahui apa yang dijangkakan, setiap kali.",
+        "alt": "Sayur-sayuran berwarna-warni disediakan untuk hidangan"
+      }
+    ]
+  },
+  "refunds": {
+    "eyebrow": "PEMBATALAN & BAYARAN BALIK",
+    "title": "Dasar pembatalan & bayaran balik",
+    "intro": "Cara pembatalan & bayaran balik berfungsi sebaik sahaja pesanan Floruvi disahkan.",
+    "updated": "Dikemas kini {date}",
+    "contents": "Kandungan dasar pembatalan & bayaran balik",
+    "inThisNotice": "Dalam dasar ini",
+    "question": "Ada soalan tentang pesanan?",
+    "contactLink": "Hubungi kami →",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Gambaran keseluruhan",
+        "paragraphs": [
+          "Dasar ini menerangkan cara pembatalan & bayaran balik berfungsi untuk pesanan yang disahkan dengan Floruvi. Ia terpakai sebaik sahaja pertanyaan disahkan menjadi pesanan — rujuk Terma perkhidmatan kami untuk mengetahui cara pertanyaan menjadi pesanan."
+        ]
+      },
+      {
+        "id": "before-delivery",
+        "title": "Membatalkan sebelum penghantaran",
+        "paragraphs": [
+          "Anda boleh membatalkan pesanan yang telah disahkan pada bila-bila masa sebelum ia dihantar dengan menghubungi kami berserta butiran pesanan anda. Jika pembayaran telah dibuat, ia akan dibayar balik sepenuhnya."
+        ]
+      },
+      {
+        "id": "after-delivery",
+        "title": "Tiada bayaran balik selepas penghantaran",
+        "paragraphs": [
+          "Oleh sebab Floruvi menghantar hasil ladang segar yang mudah rosak, kami tidak dapat menawarkan bayaran balik sebaik sahaja sesuatu pesanan telah dihantar. Sila semak penghantaran anda sebaik sahaja ia tiba.",
+          "Satu-satunya pengecualian ialah kesilapan pihak kami: jika ada item yang tertinggal, rosak, atau salah, hubungi kami sebaik sahaja anda perasan & kami akan membetulkannya."
+        ]
+      },
+      {
+        "id": "processing-time",
+        "title": "Cara bayaran balik diproses",
+        "paragraphs": [
+          "Apabila bayaran balik patut diberikan, kami akan memprosesnya dalam tempoh 4–7 hari bekerja selepas ia dipersetujui. Bayaran balik dikembalikan menggunakan kaedah pembayaran yang sama seperti yang digunakan untuk pesanan tersebut."
+        ]
+      },
+      {
+        "id": "payment-methods",
+        "title": "Kaedah pembayaran",
+        "paragraphs": [
+          "Kami tidak menawarkan bayaran tunai semasa penghantaran. Kaedah pembayaran yang diterima dikongsikan dengan anda apabila pesanan anda disahkan."
+        ]
+      }
+    ],
+    "banners": []
   },
   "notFound": {
     "eyebrow": "SEDIKIT TERSASAR DARI LALUAN LADANG",

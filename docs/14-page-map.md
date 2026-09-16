@@ -14,6 +14,8 @@ floruvi.vercel.app/
 ├── contact/                  Enquiry form
 ├── faq/                      Common questions
 ├── privacy/                  Privacy notice
+├── terms/                    Terms of service
+├── refunds/                  Cancellation & refund policy
 └── wishlist/                 Saved products
 ```
 
@@ -29,7 +31,7 @@ Every page also exists in 31 other country & language versions under a prefix su
 4. Cart and checkout
 5. Recipes and recipe details
 6. How we grow
-7. Contact, FAQ and privacy
+7. Contact, FAQ, privacy, terms and refunds
 
 ## Current boundaries
 
