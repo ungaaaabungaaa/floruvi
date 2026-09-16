@@ -42,10 +42,6 @@
       "title": "Im Inneren eines Aeroponik-Turms",
       "description": "Verfolge das Wasser, entdecke die Wurzeln & erfahre, wie ein Aeroponik-Turm im Kreislauf frisches Grün wachsen lässt."
     },
-    "realTalk": {
-      "title": "Klartext über alltägliches Essen",
-      "description": "Einfache Wege, um Gemüse mit wenig Aufwand & einem klaren Plan in deinen Wochenspeiseplan einzubauen."
-    },
     "recipes": {
       "title": "Einfache Rezepte",
       "description": "Frische Ideen für den Kochalltag. Entdecke Gemüsesalate, Suppen, Smoothies, Frühstück, Bowls & Pasta mit Floruvi."
@@ -815,27 +811,6 @@
         }
       ]
     }
-  },
-  "realTalk": {
-    "eyebrow": "KLARTEXT",
-    "title": "Plane deine Mahlzeiten.",
-    "intro": "Wähle ein paar Mahlzeiten, bevor du einkaufst.",
-    "cta": "Starte in der Küche",
-    "paperEyebrow": "DER GUTES-ESSEN-PLAN DIESER WOCHE",
-    "paperTitle": "Diese Woche.",
-    "plan": [
-      "Wähle zwei Mahlzeiten, die dir schmecken",
-      "Entscheide dich für ein Blattgemüse",
-      "Füg ein Kraut für den Geschmack hinzu",
-      "Kauf die Menge, die du auch brauchst",
-      "Koch etwas. Teil es."
-    ],
-    "handwritten": "Kleine Veränderungen,\nhellere Tage.",
-    "keepEyebrow": "BLEIB EHRLICH",
-    "keepTitle": "Fang mit Essen an, nicht mit Versprechen.",
-    "keepText": "Eine abwechslungsreiche Ernährung gehört dazu, gut für dich zu sorgen. Kein einzelnes Lebensmittel kann Gesundheit garantieren oder medizinische Versorgung ersetzen. Wir konzentrieren uns auf Zutaten & praktische Wege, sie zu genießen.",
-    "chooseTitle": "Wähle dein Gemüse.",
-    "chooseCta": "Entdecke frisches Grün"
   },
   "faq": {
     "eyebrow": "EIN BISSCHEN HILFE",

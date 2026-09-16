@@ -42,10 +42,6 @@
       "title": "Aeroponik minora ichida",
       "description": "Suvni kuzating, ildizlarni kashf eting va aylanma aeroponik minora yangi koʻkatlarni qanday oʻstirishini koʻring."
     },
-    "realTalk": {
-      "title": "Har kungi ovqat haqida samimiy suhbat",
-      "description": "Kamroq tashvish va aniq reja bilan haftalik taomlaringizda sabzavotlarga oʻrin ajratishning oddiy yoʻllari."
-    },
     "recipes": {
       "title": "Oddiy retseptlar",
       "description": "Har kungi pishirish uchun yangi gʻoyalar. Floruvi bilan sabzavotli salatlar, shoʻrvalar, smuzilar, nonushta, kosalar va pastalarni kashf eting."
@@ -815,27 +811,6 @@
         }
       ]
     }
-  },
-  "realTalk": {
-    "eyebrow": "SAMIMIY SUHBAT",
-    "title": "Taomlaringizni rejalashtiring.",
-    "intro": "Xarid qilishdan oldin bir nechta taom tanlang.",
-    "cta": "Oshxonadan Boshlang",
-    "paperEyebrow": "SHU HAFTAGI YAXSHI TAOM REJASI",
-    "paperTitle": "Shu hafta.",
-    "plan": [
-      "Yoqtirgan ikkita taomni tanlang",
-      "Bargli sabzavot tanlang",
-      "Taʼm uchun koʻkat qoʻshing",
-      "Ishlata oladigan miqdorda sotib oling",
-      "Biror narsa tayyorlang. Ulashing."
-    ],
-    "handwritten": "Kichik oʻzgarishlar,\nyorqinroq kunlar.",
-    "keepEyebrow": "HAQIQIYLIGICHA QOLDIRING",
-    "keepTitle": "Vaʼdalar bilan emas, ovqat bilan boshlang.",
-    "keepText": "Xilma-xil ovqatlanish oʻzingizga gʻamxoʻrlik qilishning bir qismi. Hech qanday yakka oziq-ovqat salomatlikni kafolatlay olmaydi yoki tibbiy yordamning oʻrnini bosa olmaydi. Biz mahsulotlarga va ulardan bahramand boʻlishning amaliy yoʻllariga eʼtibor qaratamiz.",
-    "chooseTitle": "Sabzavotlaringizni tanlang.",
-    "chooseCta": "Yangi Koʻkatlarni Koʻrib Chiqish"
   },
   "faq": {
     "eyebrow": "OZGINA YORDAM",

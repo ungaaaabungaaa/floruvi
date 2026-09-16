@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight, Pause, Play, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useI18n } from "./i18n/provider";
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { Suspense, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import harvest from "@/src/assets/home-hero/harvest.webp";
 import dailyGreens from "@/src/assets/home-hero/daily-greens.webp";
 import colour from "@/src/assets/home-hero/colour.webp";
@@ -12,7 +12,9 @@ import microgreens from "@/src/assets/home-hero/microgreens.webp";
 import growing from "@/src/assets/home-hero/growing.webp";
 import table from "@/src/assets/home-hero/table.webp";
 import type { Messages } from "@/lib/i18n/messages";
+import type { ShopCategory } from "@/lib/storefront";
 import { fill } from "@/lib/i18n/format";
+import { HomeHeroChips } from "./home-hero-chips";
 
 const storyImages = [harvest, dailyGreens, colour, microgreens, growing, table];
 
@@ -25,9 +27,11 @@ function subscribeToMotion(callback: () => void) {
 export function HomeHero({
   labels,
   search,
+  categories,
 }: {
   labels: Messages["home"];
   search: Messages["shop"];
+  categories: ShopCategory[];
 }) {
   const router = useRouter();
   const { href } = useI18n();
@@ -188,6 +192,9 @@ export function HomeHero({
           </button>
         </form>
       </div>
+      <Suspense fallback={null}>
+        <HomeHeroChips categories={categories} labels={search} />
+      </Suspense>
       <div className="home-hero-bottom">
         <div className="home-hero-index" aria-hidden="true">
           <span>{String(active + 1).padStart(2, "0")}</span>

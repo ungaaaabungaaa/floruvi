@@ -36,33 +36,6 @@ export function Header() {
       className={`header-shell${pathname === "/" ? " header-over-hero" : ""}${scrolled ? " is-scrolled" : ""}`}
     >
       <header className="site-header">
-        <Brand />
-        <nav className="desktop-nav" aria-label={t.nav.main}>
-          {links.map(([href, label]) => (
-            <Link
-              key={href}
-              href={href}
-              aria-current={pathname.startsWith(href) ? "page" : undefined}
-            >
-              {label}
-            </Link>
-          ))}
-          <Link
-            href="/contact"
-            aria-current={pathname === "/contact" ? "page" : undefined}
-          >
-            {t.nav.talk} <ArrowUpRight size={14} aria-hidden="true" />
-          </Link>
-        </nav>
-        <div className="header-actions">
-          <div className="desktop-locale">
-            <LocalePicker />
-          </div>
-          <CartLink />
-          <div className="desktop-wishlist">
-            <WishlistMenu />
-          </div>
-        </div>
         <Dialog.Root open={open} onOpenChange={setOpen}>
           <Dialog.Trigger asChild>
             <button className="icon-button mobile-menu" aria-label={t.nav.open}>
@@ -97,6 +70,33 @@ export function Header() {
             </Dialog.Content>
           </Dialog.Portal>
         </Dialog.Root>
+        <Brand />
+        <nav className="desktop-nav" aria-label={t.nav.main}>
+          {links.map(([href, label]) => (
+            <Link
+              key={href}
+              href={href}
+              aria-current={pathname.startsWith(href) ? "page" : undefined}
+            >
+              {label}
+            </Link>
+          ))}
+          <Link
+            href="/contact"
+            aria-current={pathname === "/contact" ? "page" : undefined}
+          >
+            {t.nav.talk} <ArrowUpRight size={14} aria-hidden="true" />
+          </Link>
+        </nav>
+        <div className="header-actions">
+          <div className="desktop-locale">
+            <LocalePicker />
+          </div>
+          <CartLink />
+          <div className="desktop-wishlist">
+            <WishlistMenu />
+          </div>
+        </div>
       </header>
     </div>
   );

@@ -42,10 +42,6 @@
       "title": "In een aeroponische toren",
       "description": "Volg het water, ontdek de wortels en zie hoe een circulerende aeroponische toren verse groenten laat groeien."
     },
-    "realTalk": {
-      "title": "Eerlijk over alledaags eten",
-      "description": "Eenvoudige manieren om ruimte te maken voor groenten in je wekelijkse maaltijden, met minder gedoe en een duidelijk plan."
-    },
     "recipes": {
       "title": "Eenvoudige recepten",
       "description": "Verse ideeën voor het dagelijks koken. Ontdek groentesalades, soepen, smoothies, ontbijt, bowls en pasta met Floruvi."
@@ -815,27 +811,6 @@
         }
       ]
     }
-  },
-  "realTalk": {
-    "eyebrow": "EERLIJK VERHAAL",
-    "title": "Plan je maaltijden.",
-    "intro": "Kies een paar maaltijden voordat je gaat winkelen.",
-    "cta": "Begin in de keuken",
-    "paperEyebrow": "HET GOEDE-ETEN-PLAN VAN DEZE WEEK",
-    "paperTitle": "Deze week.",
-    "plan": [
-      "Kies twee maaltijden waar je van geniet",
-      "Kies een bladgroente",
-      "Voeg een kruid toe voor smaak",
-      "Koop de hoeveelheid die je kunt gebruiken",
-      "Maak iets. Deel het."
-    ],
-    "handwritten": "Kleine veranderingen,\nvrolijkere dagen.",
-    "keepEyebrow": "HOU HET ECHT",
-    "keepTitle": "Begin met eten, niet met beloftes.",
-    "keepText": "Een gevarieerd voedingspatroon hoort bij goed voor jezelf zorgen. Geen enkel voedingsmiddel kan gezondheid garanderen of medische zorg vervangen. Wij richten ons op ingrediënten en praktische manieren om ervan te genieten.",
-    "chooseTitle": "Kies je groenten.",
-    "chooseCta": "Ontdek verse groenten"
   },
   "faq": {
     "eyebrow": "EVEN HELPEN",

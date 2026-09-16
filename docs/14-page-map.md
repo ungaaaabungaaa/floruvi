@@ -1,29 +1,20 @@
 # Floruvi page map
 
-The site has 20 page templates. Dynamic routes create individual product, category, and recipe pages.
-
 ```text
 floruvi.vercel.app/
 ├── /                         Home
 ├── products/                 All products, search and filters
 │   └── [slug]/               Product details — 91 products
-├── categories/               Category index
-│   └── [slug]/               Products in a category — 6 categories
 ├── boxes/                    Single, Dual and Family boxes
 ├── cart/                     Basket
 ├── checkout/                 Delivery details and order request
 ├── recipes/                  Recipe collection
 │   └── [slug]/               Recipe details — 88 recipes
-├── our-farm/                 Farm story
 ├── how-we-grow/              Growing process
-├── health/                   Nutrition
-├── sustainability/           Sustainability
-├── real-talk/                Food and everyday choices
-├── wholesale/                Business enquiry form
-├── contact/                  Personal enquiry form
-├── delivery/                 Delivery information
+├── contact/                  Enquiry form
 ├── faq/                      Common questions
-└── privacy/                  Privacy notice
+├── privacy/                  Privacy notice
+└── wishlist/                 Saved products
 ```
 
 `[slug]` is the URL name, for example `/products/butterhead-lettuce` or `/recipes/everyday-green-salad`.
@@ -34,13 +25,11 @@ Every page also exists in 31 other country & language versions under a prefix su
 
 1. Home
 2. Products and product details
-3. Categories
-4. Boxes
-5. Cart and checkout
-6. Recipes and recipe details
-7. Our farm, growing process, health, sustainability and real talk
-8. Wholesale and contact
-9. Delivery, FAQ and privacy
+3. Boxes
+4. Cart and checkout
+5. Recipes and recipe details
+6. How we grow
+7. Contact, FAQ and privacy
 
 ## Current boundaries
 

@@ -59,16 +59,14 @@ export function AddToCart({
       >
         {added ? (
           <Check size={18} aria-hidden="true" />
+        ) : compact ? (
+          <Plus size={18} aria-hidden="true" />
         ) : (
-          <ShoppingBag size={compact ? 16 : 18} aria-hidden="true" />
+          <ShoppingBag size={18} aria-hidden="true" />
         )}
-        <span>
-          {added
-            ? t.addToCart.addedShort
-            : compact
-              ? t.addToCart.compact
-              : t.addToCart.addShort}
-        </span>
+        {!compact && (
+          <span>{added ? t.addToCart.addedShort : t.addToCart.addShort}</span>
+        )}
       </button>
       {error && (
         <p className="cart-feedback" role="alert">

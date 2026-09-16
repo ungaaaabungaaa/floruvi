@@ -168,6 +168,7 @@ export const recipes = query({
           slug: recipe.slug,
           category: recipe.category,
           minutes: recipe.minutes,
+          servings: recipe.servings,
           imageKey: recipe.imageKey,
           crops: recipe.crops,
           name: text.name,

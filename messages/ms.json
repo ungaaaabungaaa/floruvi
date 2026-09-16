@@ -42,10 +42,6 @@
       "title": "Di Dalam Menara Aeroponik",
       "description": "Ikuti aliran air, terokai akar & lihat cara menara aeroponik berkitar menghasilkan sayur segar."
     },
-    "realTalk": {
-      "title": "Bicara Sebenar Tentang Makanan Harian",
-      "description": "Cara mudah untuk memasukkan lebih banyak sayur dalam menu mingguan anda, tanpa kerumitan & dengan rancangan yang jelas."
-    },
     "recipes": {
       "title": "Resipi Mudah",
       "description": "Idea segar untuk masakan harian. Terokai salad sayur, sup, smoothie, sarapan, bowl & pasta bersama Floruvi."
@@ -807,27 +803,6 @@
         }
       ]
     }
-  },
-  "realTalk": {
-    "eyebrow": "BICARA SEBENAR",
-    "title": "Rancang hidangan anda.",
-    "intro": "Pilih beberapa hidangan sebelum anda membeli-belah.",
-    "cta": "Mula di Dapur",
-    "paperEyebrow": "RANCANGAN MAKANAN BAIK MINGGU INI",
-    "paperTitle": "Minggu ini.",
-    "plan": [
-      "Pilih dua hidangan kegemaran anda",
-      "Pilih satu sayur berdaun",
-      "Tambah herba untuk perisa",
-      "Beli jumlah yang anda boleh guna",
-      "Masak sesuatu. Kongsikannya."
-    ],
-    "handwritten": "Perubahan kecil,\nhari lebih ceria.",
-    "keepEyebrow": "KEKAL JUJUR",
-    "keepTitle": "Mula dengan makanan, bukan janji.",
-    "keepText": "Pemakanan yang pelbagai adalah sebahagian daripada menjaga diri anda. Tiada satu makanan yang dapat menjamin kesihatan atau menggantikan rawatan perubatan. Kami memberi tumpuan kepada bahan-bahan & cara praktikal untuk menikmatinya.",
-    "chooseTitle": "Pilih sayur-sayuran anda.",
-    "chooseCta": "Terokai Sayur Segar"
   },
   "faq": {
     "eyebrow": "SEDIKIT BANTUAN",

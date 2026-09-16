@@ -97,6 +97,7 @@ export const getRecipeList = cache(async () => {
       categoryKey: recipe.category,
       category: categories[recipe.category] ?? recipe.category,
       minutes: recipe.minutes,
+      servings: recipe.servings,
       crops: recipe.crops,
       image: recipeImage(recipe.imageKey),
       name: text.name,

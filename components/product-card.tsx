@@ -42,17 +42,19 @@ export function ProductCard({ product }: { product: ShopProduct }) {
             )}
           </div>
         </Link>
-        {packLabel && <span className="product-pack">{packLabel}</span>}
         <WishlistButton slug={product.slug} name={product.name} />
       </div>
       <div className="product-card-bottom">
         <Link href={`/products/${product.slug}`} className="product-meta">
           <h3>{product.name}</h3>
+          {packLabel && <span className="product-pack">{packLabel}</span>}
         </Link>
-        <p className="product-card-price">
-          <Money minor={product.price?.amountMinor} currency={product.price?.currency} />
-        </p>
-        <AddToCart slug={product.slug} name={product.name} compact />
+        <div className="product-card-row">
+          <p className="product-card-price">
+            <Money minor={product.price?.amountMinor} currency={product.price?.currency} />
+          </p>
+          <AddToCart slug={product.slug} name={product.name} compact />
+        </div>
       </div>
     </article>
   );

@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
 import { ArrowUpRight, Users } from "lucide-react";
-import { getShop } from "@/lib/storefront";
+import { getShop, getRecipeList } from "@/lib/storefront";
 import { getI18n } from "@/lib/i18n/server";
 import { fill } from "@/lib/i18n/format";
-import { pageMetadata } from "@/lib/seo";
-import { ProductCard } from "@/components/product-card";
+import { localizePath } from "@/lib/i18n/config";
+import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { CatalogueBrowser } from "@/components/catalogue-browser";
+import { RecipeCard } from "@/components/recipe-card";
 import { HomeHero } from "@/components/home-hero";
+import { TestimonialsSection } from "@/components/testimonials-section";
 import { boxSizes } from "@/lib/boxes";
 import singleBox from "@/src/assets/boxes/single.webp";
 import dualBox from "@/src/assets/boxes/dual.webp";
@@ -26,45 +29,56 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  const [{ messages }, { products }] = await Promise.all([getI18n(), getShop()]);
+  const [{ locale, messages }, { products, categories }, recipes] = await Promise.all([
+    getI18n(),
+    getShop(),
+    getRecipeList(),
+  ]);
   const t = messages.home;
   const boxes = messages.common.boxes;
-  const featured = [
-    "butterhead-lettuce",
-    "spinach",
-    "cherry-tomatoes",
-    "cucumber",
-    "carrot",
-    "sweet-basil",
-    "curly-kale",
-    "bell-peppers",
-    "radish-microgreens",
-    "arugula",
-  ].flatMap((slug) => products.filter((product) => product.slug === slug));
+  const featuredRecipes = recipes.slice(0, 4);
+
+  const list = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: messages.meta.products.title,
+    numberOfItems: products.length,
+    itemListElement: products.map((product, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: product.name,
+      url: absoluteUrl(localizePath(locale.locale, `/products/${product.slug}`)),
+    })),
+  };
 
   return (
     <>
-      <HomeHero labels={t} search={messages.shop} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(list)} />
+      <div className="page-width home-hero-frame">
+        <HomeHero labels={t} search={messages.shop} categories={categories} />
+      </div>
+      <div className="recipe-collection page-width shop-collection home-catalogue">
+        <CatalogueBrowser
+          products={products}
+          categories={categories}
+          labels={messages.shop}
+          hideBanner
+        />
+      </div>
       <div className="home-chapters">
         <section
-          className="home-picks home-wrap"
-          aria-labelledby="home-picks-title"
+          className="home-recipes home-wrap"
+          aria-labelledby="home-recipes-title"
         >
           <div className="home-section-heading">
-            <h2 id="home-picks-title">{t.freshToday}</h2>
-            <Link href="/products" className="home-more">
-              {t.shopAll} <ArrowUpRight size={19} aria-hidden="true" />
+            <h2 id="home-recipes-title">{t.recipesTitle}</h2>
+            <Link href="/recipes" className="home-more">
+              {t.allRecipes} <ArrowUpRight size={19} aria-hidden="true" />
             </Link>
           </div>
-          <nav className="home-category-links" aria-label={t.categoriesLabel}>
-            <Link href="/products?category=leafy-greens">{t.categoryLinks.leafy}</Link>
-            <Link href="/products?category=herbs">{t.categoryLinks.herbs}</Link>
-            <Link href="/products?category=microgreens">{t.categoryLinks.microgreens}</Link>
-            <Link href="/products?category=fruiting-crops">{t.categoryLinks.colourful}</Link>
-          </nav>
-          <div className="home-fresh-grid">
-            {featured.map((product) => (
-              <ProductCard key={product.slug} product={product} />
+          <div className="recipe-grid">
+            {featuredRecipes.map((recipe) => (
+              <RecipeCard key={recipe.slug} recipe={recipe} minutes={t.minutes} />
             ))}
           </div>
         </section>
@@ -116,6 +130,15 @@ export default async function Home() {
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="home-testimonials" aria-labelledby="home-testimonials-title">
+          <div className="home-wrap">
+            <div className="home-section-heading">
+              <h2 id="home-testimonials-title">What our customers say</h2>
+            </div>
+          </div>
+          <TestimonialsSection />
         </section>
       </div>
     </>

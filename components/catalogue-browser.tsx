@@ -45,9 +45,17 @@ type Props = {
   categories: ShopCategory[];
   labels: Labels;
   initialCategory?: string;
+  /** Skips the built-in banner in shop mode, e.g. when the caller renders its own full-bleed hero. */
+  hideBanner?: boolean;
 };
 
-function Results({ products, categories, labels, initialCategory = "all" }: Props) {
+function Results({
+  products,
+  categories,
+  labels,
+  initialCategory = "all",
+  hideBanner,
+}: Props) {
   const { locale, plural } = useI18n();
   const isShop = initialCategory === "all";
   const params = useSearchParams();
@@ -141,7 +149,7 @@ function Results({ products, categories, labels, initialCategory = "all" }: Prop
   );
   return (
     <div className="catalogue-browser">
-      {isShop ? (
+      {isShop && hideBanner ? null : isShop ? (
         <section
           className="recipe-banner recipe-banner-hero shop-banner"
           aria-labelledby="shop-heading"

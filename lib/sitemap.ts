@@ -10,7 +10,6 @@ const staticPaths = [
   "/boxes",
   "/recipes",
   "/how-we-grow",
-  "/real-talk",
   "/contact",
   "/faq",
   "/privacy",
