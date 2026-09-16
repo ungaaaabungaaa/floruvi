@@ -4998,7 +4998,7 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .home-hero-slide.is-active { opacity: 1; visibility: visible; }
 .home-hero-photo { object-fit: cover; object-position: center 54%; }
 @media (min-width: 1800px) { .home-hero-photo { object-position: center 48%; } }
-.home-hero-bottom { position: absolute; z-index: 2; inset-inline: max(56px, calc((100vw - 1488px) / 2)); bottom: 28px; display: flex; align-items: center; gap: 44px; }
+.home-hero-bottom { display: none; }
 .home-hero-index { display: flex; align-items: center; gap: 12px; font-size: 11px; font-variant-numeric: tabular-nums; }
 .home-hero-index > span:first-child { font-size: 21px; font-family: Georgia, serif; }
 .home-hero-index-line { width: 35px; height: 1px; background: #102b2355; }
