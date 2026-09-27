@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { enquirySchema, nextRate, RATE_WINDOW } from "../lib/enquiry";
+import { enquirySchema, nextRate, RATE_WINDOW, toAsciiDigits } from "../lib/enquiry";
+import { paidOrderDetails } from "../lib/checkout";
 import { isSameOrigin } from "../lib/request-origin";
 
 const valid = {
@@ -90,4 +91,27 @@ test("request limits block at the cap and reset at the window boundary", () => {
     nextRate({ count: 3, windowStart: now }, now + RATE_WINDOW, 3),
     { allowed: true, count: 1, windowStart: now + RATE_WINDOW },
   );
+});
+
+test("phone numbers and PIN codes typed in other scripts' digits are accepted as 0-9", () => {
+  assert.equal(toAsciiDigits("+٩٧١ ٥٠ ١٢٣ ٤٥٦٧"), "+971 50 123 4567");
+  assert.equal(toAsciiDigits("९८७६५४३२१०"), "9876543210");
+  assert.equal(toAsciiDigits("৯৮৭৬৫"), "98765");
+  assert.equal(toAsciiDigits("０９０‐１２３４"), "090‐1234");
+  assert.equal(toAsciiDigits("abc 123"), "abc 123");
+  const phone = enquirySchema.shape.phone.safeParse("९८७६५ ४३२१०");
+  assert.equal(phone.success && phone.data, "98765 43210");
+  const details = paidOrderDetails.safeParse({
+    name: "Test Buyer",
+    email: "buyer@example.com",
+    phone: "+٩١ ٩٨٧٦٥ ٤٣٢١٠",
+    address: "",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "४११००१",
+    notes: "",
+  });
+  assert.equal(details.success, true);
+  assert.equal(details.data?.pincode, "411001");
+  assert.equal(details.data?.phone, "+91 98765 43210");
 });

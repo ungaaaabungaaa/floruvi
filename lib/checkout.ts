@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { MAX_CART_LINES, MAX_QUANTITY } from "./cart";
-import { enquirySchema } from "./enquiry";
+import { enquirySchema, toAsciiDigits } from "./enquiry";
 
 /** Basket lines as the browser sends them: slugs and quantities only, never prices. */
 export const basketLines = z
@@ -38,7 +38,10 @@ export const paidOrderDetails = z
     address: z.string().trim().max(240),
     city: z.string().trim().min(2).max(100),
     region: z.string().trim().min(2).max(100),
-    pincode: z.string().trim().regex(/^[1-9]\d{5}$/),
+    pincode: z
+      .string()
+      .transform(toAsciiDigits)
+      .pipe(z.string().trim().regex(/^[1-9]\d{5}$/)),
     notes: z.string().trim().max(800),
   })
   .strict();

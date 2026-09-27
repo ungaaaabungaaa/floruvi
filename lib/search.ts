@@ -1,3 +1,5 @@
+import { aliasesOf } from "./search-aliases";
+
 type Product = {
   slug: string;
   name: string;
@@ -10,27 +12,6 @@ type Product = {
   englishName?: string;
 };
 
-const aliases: Record<string, string> = {
-  spinach: "palak",
-  coriander: "dhaniya dhania cilantro",
-  mint: "pudina",
-  "bell-peppers": "capsicum shimla mirch",
-  eggplant: "brinjal baingan aubergine",
-  arugula: "rocket roquette rucola",
-  "bok-choy": "pak choi pakchoi bokchoy",
-  "fenugreek-greens": "methi",
-  "holy-basil": "tulsi",
-  "green-beans": "french beans",
-  "spring-onions": "scallions green onions",
-  zucchini: "courgette",
-  muskmelon: "cantaloupe kharbuja",
-  radish: "mooli",
-  carrot: "gajar",
-  potato: "aloo",
-  ginger: "adrak",
-  turmeric: "haldi",
-  "green-chillies": "chili chilli mirch",
-};
 export function normalizeSearch(value: string) {
   return value
     .normalize("NFKD")
@@ -39,6 +20,26 @@ export function normalizeSearch(value: string) {
     .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim();
 }
+
+/**
+ * Folds common spelling variants of Indian names typed in English letters, so
+ * kheera/khira, mooli/muli and baingan/bengan meet. Other scripts pass through.
+ */
+export function foldSpelling(word: string) {
+  if (!/^[a-z]+$/.test(word)) return word;
+  return word
+    .replace(/ee/g, "i")
+    .replace(/oo/g, "u")
+    .replace(/aa/g, "a")
+    .replace(/ph/g, "f")
+    .replace(/w/g, "v")
+    .replace(/z/g, "j")
+    .replace(/ai/g, "e")
+    .replace(/au|ow/g, "o")
+    .replace(/([bcdgjkpst])h/g, "$1")
+    .replace(/(.)\1+/g, "$1");
+}
+
 // Small catalogue: bounded edit distance, including swapped adjacent letters.
 function distance(a: string, b: string) {
   const rows = Array.from({ length: a.length + 1 }, (_, i) => [i]);
@@ -55,6 +56,18 @@ function distance(a: string, b: string) {
     }
   return rows[a.length][b.length];
 }
+
+function nearly(term: string, words: string[]) {
+  const tolerance = term.length < 4 ? 0 : term.length < 7 ? 1 : 2;
+  return (
+    tolerance > 0 &&
+    words.some(
+      (word) =>
+        Math.abs(word.length - term.length) <= tolerance && distance(term, word) <= tolerance,
+    )
+  );
+}
+
 export function findProducts<T extends Product>(
   products: T[],
   search: string,
@@ -62,49 +75,42 @@ export function findProducts<T extends Product>(
 ) {
   const query = normalizeSearch(search.slice(0, 100));
   const terms = query.split(" ").filter(Boolean).slice(0, 8);
-  return products
+  const scored = products
     .filter((p) => category === "all" || p.category === category)
     .map((p) => {
+      const { own, inherited } = aliasesOf(p.slug);
       const name = normalizeSearch(p.name);
       const names = normalizeSearch(
-        `${p.name} ${p.englishName ?? ""} ${aliases[p.slug] ?? ""}`,
+        `${p.name} ${p.englishName ?? ""} ${[...own, ...inherited].join(" ")}`,
       ).split(" ");
+      const folded = names.map(foldSpelling);
       const detail = normalizeSearch(
         `${p.description} ${p.uses.join(" ")} ${p.category}`,
       );
-      let score = name === query ? 100 : 0;
+      // The whole query as the name, or as one of the crop's own local names, ranks first.
+      let score =
+        name === query ? 100 : own.some((alias) => normalizeSearch(alias) === query) ? 60 : 0;
+      let missed = 0;
+      // Whole-word name matches of 3+ letters, for the fallback below.
+      let strong = 0;
       for (const term of terms) {
-        if (names.includes(term)) {
-          score += 20;
-          continue;
-        }
-        if (names.some((word) => word.startsWith(term))) {
-          score += 12;
-          continue;
-        }
-        if (detail.includes(term)) {
-          score += 4;
-          continue;
-        }
-        const tolerance = term.length < 4 ? 0 : term.length < 7 ? 1 : 2;
-        if (
-          tolerance &&
-          names.some(
-            (word) =>
-              Math.abs(word.length - term.length) <= tolerance &&
-              distance(term, word) <= tolerance,
-          )
-        ) {
-          score += 2;
-          continue;
-        }
-        return { product: p, score: -1 };
+        const fold = foldSpelling(term);
+        if (names.includes(term) || folded.includes(fold)) {
+          score += names.includes(term) ? 20 : 16;
+          if (term.length >= 3) strong++;
+        } else if (names.some((word) => word.startsWith(term))) score += 12;
+        else if (detail.includes(term)) score += 4;
+        else if (nearly(term, names) || nearly(fold, folded)) score += 2;
+        else missed++;
       }
-      return { product: p, score };
-    })
-    .filter((p) => p.score >= 0)
-    .sort((a, b) => b.score - a.score)
-    .map((p) => p.product);
+      return { product: p, score, missed, strong };
+    });
+  const complete = scored.filter((s) => s.missed === 0);
+  // No product matches every word ("palak chahiye"): show products that match at
+  // least one whole word by name, best first.
+  const shown =
+    complete.length || terms.length < 2 ? complete : scored.filter((s) => s.strong > 0);
+  return shown.sort((a, b) => b.score - a.score).map((s) => s.product);
 }
 
 export function sortProducts<T extends Product>(

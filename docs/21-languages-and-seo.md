@@ -54,6 +54,7 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 - Structured data: Organization (with the 17 countries served) & WebSite on every page; Product with Offer & BreadcrumbList on product pages; Recipe (with crop keywords) & BreadcrumbList on recipes; ItemList on the shop & recipe lists; AggregateOffer for boxes; FAQPage on the FAQ. Offers show the visible local price and do not claim stock.
 - Product titles: India reads "Order {name} online in India"; export versions read "{name} from India – {country}", so the country is not mistaken for the origin. Product pages show the India delivery fee next to the price.
 - Recipe descriptions add the name, time, servings & crops, because many recipes share an intro.
+- Shop search and the chat assistant accept local names in English letters and Hindi script (palak, kheera, muli, पालक), common spelling variants, and extra words such as "chahiye". The list is in `lib/search-aliases.ts`; see [shipping & languages research](28-shipping-and-languages-research.md).
 - FAQ & box answers are in the page HTML (native `<details>`), so search engines & AI assistants can read them. The shop & home product grids render in place in the first HTML.
 - `/llms.txt` gives AI assistants the main pages, every product with its India price, the FAQ answers & all recipes, from live data.
 - Cart, checkout & wishlist are `noindex`. `robots.txt` blocks everything outside Vercel production and blocks `/api/` in production. AI search crawlers are allowed.

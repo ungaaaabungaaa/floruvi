@@ -57,3 +57,28 @@ test("pack sorting puts unpriced crops last in both directions and preserves rel
   );
   assert.deepEqual(sortProducts(source, "recommended", true), source);
 });
+
+test("search finds Indian names, spelling variants and Devanagari, with the crop itself first", () => {
+  for (const [query, slug] of [
+    ["kheera", "cucumber"],
+    ["khira", "cucumber"],
+    ["tamater", "cherry-tomatoes"],
+    ["muli", "radish"],
+    ["mooli", "radish"],
+    ["alu", "potato"],
+    ["bengan", "eggplant"],
+    ["पालक", "spinach"],
+    ["palak chahiye", "spinach"],
+    ["tulsi", "holy-basil"],
+    ["sarson ka saag", "mustard-greens"],
+    ["piyaz", "spring-onions"],
+    ["zukini", "zucchini"],
+  ]) {
+    assert.equal(findProducts(products, query)[0]?.slug, slug, query);
+  }
+  // Microgreens answer to their parent crop's names, below the crop.
+  const mooli = findProducts(products, "mooli").map((p) => p.slug);
+  assert.ok(mooli.includes("radish-microgreens"));
+  // A word that matches nothing still finds nothing.
+  assert.equal(findProducts(products, "bhindi").length, 0);
+});
