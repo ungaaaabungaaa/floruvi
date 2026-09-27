@@ -138,3 +138,16 @@ export function chatAlert(
   const head = `<b>${escapeHtml(`Chat needs you: ${chat.reason}`)}</b>\nLanguage: ${escapeHtml(chat.language)}\n\n`;
   return fitTelegram(head, lines.join("\n"), adminLink(inboxUrl, "Reply in the admin panel"));
 }
+
+/** Alert when the assistant's monthly budget is used up. */
+export function budgetAlert(
+  usage: { month: string; spentUsd: number; budgetUsd: number },
+  adminUrl?: string,
+) {
+  return [
+    `<b>${escapeHtml(`Chat budget used up for ${usage.month}`)}</b>`,
+    "",
+    `Spent $${usage.spentUsd.toFixed(2)} of $${usage.budgetUsd.toFixed(2)}. The website assistant is paused until next month; customers are asked to use the contact page.`,
+    "To resume now, raise CHAT_MONTHLY_BUDGET_USD in Convex and the OpenRouter key limit.",
+  ].join("\n") + adminLink(adminUrl && `${adminUrl}/chats?sort=cost`, "See the costliest chats");
+}

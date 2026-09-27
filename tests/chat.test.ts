@@ -3,8 +3,8 @@ import assert from "node:assert/strict";
 import { isStepCount, readUIMessageStream, simulateReadableStream, streamText, toUIMessageStream } from "ai";
 import { MockLanguageModelV4 } from "ai/test";
 import type { z } from "zod";
-import { needsPerson } from "../lib/chat";
-import { chatInstructions, chatTools, historyMessages, replySummary } from "../lib/chat-bot";
+import { chatSpend, costLabel, dayKey, monthKey, needsPerson, toMicros } from "../lib/chat";
+import { chatInstructions, chatTools, historyMessages, replyCost, replySummary } from "../lib/chat-bot";
 import { POST } from "../app/api/chat/route";
 
 const products = [
@@ -172,7 +172,7 @@ test("chat route refuses bad requests and stays silent while the owner answers",
   };
   assert.equal((await POST(request(good, "https://attacker.invalid"))).status, 403);
   assert.equal((await POST(request({ ...good, locale: "xx-yy" }))).status, 400);
-  assert.equal((await POST(request({ ...good, text: "x".repeat(501) }))).status, 400);
+  assert.equal((await POST(request({ ...good, text: "x".repeat(301) }))).status, 400);
   assert.equal((await POST(request({ ...good, extra: 1 }))).status, 400);
 
   let sent: Record<string, unknown> = {};
@@ -199,4 +199,47 @@ test("chat route refuses bad requests and stays silent while the owner answers",
   const stream = await handedOff.text();
   assert.match(stream, /passed this to the Floruvi team/);
   assert.match(stream, /"mode":"owner"/);
+
+  // Monthly budget used up: a short notice, and no model call at all.
+  globalThis.fetch = async (url) => {
+    assert.match(String(url), /\/chat\/turn$/, "no model or catalogue call when paused");
+    return Response.json({ ok: true, mode: "bot", handedOff: false, paused: true, history: [] });
+  };
+  const paused = await POST(request({ text: "palak?", locale: "en-in" }, undefined, cookie));
+  assert.equal(paused.status, 200);
+  assert.match(await paused.text(), /assistant is paused/);
+});
+
+test("spend limits pause the assistant for the month or hand one costly chat to the owner", () => {
+  const limits = { monthMicros: toMicros(5), chatDayMicros: toMicros(0.05) };
+  assert.equal(chatSpend({ monthMicros: 4_999_999, chatTodayMicros: 49_999 }, limits), "ok");
+  assert.equal(chatSpend({ monthMicros: 5_000_000, chatTodayMicros: 0 }, limits), "month");
+  assert.equal(chatSpend({ monthMicros: 10, chatTodayMicros: 50_000 }, limits), "chat");
+  // India days and months: 31 August 18:29 UTC is already 1 September in India.
+  const lateAugustUtc = Date.UTC(2026, 7, 31, 18, 31);
+  assert.equal(dayKey(lateAugustUtc), "2026-09-01");
+  assert.equal(monthKey(lateAugustUtc), "2026-09");
+  assert.equal(monthKey(Date.UTC(2026, 7, 31, 18, 29)), "2026-08");
+  assert.equal(costLabel(1_234), "$0.0012 (≈ ₹0.10)");
+  assert.equal(costLabel(2_500_000), "$2.50 (≈ ₹213)");
+});
+
+test("a reply's cost adds up every model call and ignores missing or bad reports", async () => {
+  const steps = [
+    { providerMetadata: { openrouter: { usage: { cost: 0.00031 } } } },
+    { providerMetadata: { openrouter: { usage: { cost: 0.00012 } } } },
+    { providerMetadata: { openrouter: { usage: { cost: "free" } } } },
+    { providerMetadata: undefined },
+  ];
+  assert.deepEqual(
+    await replyCost({
+      steps: Promise.resolve(steps),
+      totalUsage: Promise.resolve({ inputTokens: 5200, outputTokens: 180 }),
+    }),
+    { costMicros: 430, tokensIn: 5200, tokensOut: 180 },
+  );
+  assert.deepEqual(
+    await replyCost({ steps: Promise.reject(new Error("stream failed")), totalUsage: Promise.resolve({ inputTokens: 1, outputTokens: 1 }) }),
+    { costMicros: 0, tokensIn: 0, tokensOut: 0 },
+  );
 });

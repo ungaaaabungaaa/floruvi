@@ -5,7 +5,15 @@ import { internal } from "./_generated/api";
 import { takeRateLimits } from "./limits";
 import { commerceSettings } from "./orders";
 import { activeSession } from "./admin";
-import { CHAT_RETENTION_DAYS, MAX_CHAT_TEXT, needsPerson } from "../lib/chat";
+import {
+  CHAT_RETENTION_DAYS,
+  MAX_CHAT_TEXT,
+  chatSpend,
+  dayKey,
+  monthKey,
+  needsPerson,
+} from "../lib/chat";
+import { monthUsage, spendLimits } from "./chatSpend";
 
 // Website chat storage. Only convex/chatHttp.ts calls these: the public routes
 // with the site's server secret, the owner routes with an admin session.
@@ -77,8 +85,34 @@ export const customerTurn = internalMutation({
     }
     await ctx.db.insert("chatMessages", { threadId: thread._id, author: "customer", text });
     // A closed chat reopens with the assistant. Code, not the model, hands off here.
-    const reason = thread.mode === "owner" ? null : needsPerson(text);
-    const next = reason ? "owner" : thread.mode === "closed" ? "bot" : thread.mode;
+    let reason = thread.mode === "owner" ? null : needsPerson(text);
+    let next = reason ? "owner" : thread.mode === "closed" ? "bot" : thread.mode;
+    // Spend guards: a chat over today's limit goes to the owner; when the monthly
+    // budget is spent, the assistant pauses for everyone and the owner is told once.
+    let paused = false;
+    if (next === "bot") {
+      const usage = await monthUsage(ctx, now);
+      const spend = chatSpend(
+        {
+          monthMicros: usage?.costMicros ?? 0,
+          chatTodayMicros: thread.costDay === dayKey(now) ? (thread.costDayMicros ?? 0) : 0,
+        },
+        spendLimits(),
+      );
+      if (spend === "chat") {
+        reason = "Long chat: today's assistant limit for this chat is used up";
+        next = "owner";
+      } else if (spend === "month") {
+        paused = true;
+        if (usage && !usage.pausedAt) {
+          await ctx.db.patch(usage._id, { pausedAt: now, notifications: pending });
+          await ctx.scheduler.runAfter(0, internal.notifications.sendBudget, { id: usage._id });
+        }
+      } else if (usage?.pausedAt) {
+        // The owner raised the budget: resume, and alert again if it runs out.
+        await ctx.db.patch(usage._id, { pausedAt: undefined });
+      }
+    }
     await ctx.db.patch(thread._id, {
       mode: next,
       language: args.language,
@@ -89,12 +123,14 @@ export const customerTurn = internalMutation({
       ...(reason && { handOffReason: reason, notifications: pending }),
     });
     if (reason) await ctx.scheduler.runAfter(0, internal.notifications.sendChat, { id: thread._id });
-    if (next !== "bot") return { ok: true, mode: next, handedOff: !!reason, history: [] } as const;
+    if (next !== "bot" || paused)
+      return { ok: true, mode: next, handedOff: !!reason, paused, history: [] } as const;
     const history = await latest(ctx, thread._id, HISTORY);
     return {
       ok: true,
       mode: next,
       handedOff: false,
+      paused,
       history: history.map((m) => ({ author: m.author, text: m.text })),
     } as const;
   },
@@ -102,11 +138,32 @@ export const customerTurn = internalMutation({
 
 /** Saves the assistant's reply. A hand-off from the model gives the chat to the owner. */
 export const botReply = internalMutation({
-  args: { tokenHash: v.string(), text: v.string(), products, handOff: v.optional(v.string()) },
+  args: {
+    tokenHash: v.string(),
+    text: v.string(),
+    products,
+    handOff: v.optional(v.string()),
+    // What the reply cost, from OpenRouter's usage report.
+    costMicros: v.optional(v.number()),
+    tokensIn: v.optional(v.number()),
+    tokensOut: v.optional(v.number()),
+  },
   handler: async (ctx, args) => {
     const thread = await threadByToken(ctx, args.tokenHash);
     if (!thread) return;
+    const now = Date.now();
+    const cost = args.costMicros ?? 0;
+    const today = dayKey(now);
     const text = args.text.trim().slice(0, 4000);
+    const replied = text || args.products?.length ? 1 : 0;
+    const usage = await monthUsage(ctx, now);
+    if (usage)
+      await ctx.db.patch(usage._id, {
+        costMicros: usage.costMicros + cost,
+        aiReplies: usage.aiReplies + replied,
+      });
+    else
+      await ctx.db.insert("chatUsage", { month: monthKey(now), costMicros: cost, aiReplies: replied });
     if (text || args.products?.length)
       await ctx.db.insert("chatMessages", {
         threadId: thread._id,
@@ -116,7 +173,13 @@ export const botReply = internalMutation({
       });
     const handOff = args.handOff && thread.mode === "bot" ? args.handOff.slice(0, 200) : null;
     await ctx.db.patch(thread._id, {
-      lastMessageAt: Date.now(),
+      lastMessageAt: now,
+      costMicros: (thread.costMicros ?? 0) + cost,
+      tokensIn: (thread.tokensIn ?? 0) + (args.tokensIn ?? 0),
+      tokensOut: (thread.tokensOut ?? 0) + (args.tokensOut ?? 0),
+      aiReplies: (thread.aiReplies ?? 0) + replied,
+      costDay: today,
+      costDayMicros: (thread.costDay === today ? (thread.costDayMicros ?? 0) : 0) + cost,
       ...(handOff && { mode: "owner", unread: true, handOffReason: handOff, notifications: pending }),
     });
     if (handOff) await ctx.scheduler.runAfter(0, internal.notifications.sendChat, { id: thread._id });
@@ -135,18 +198,26 @@ export const customerThread = internalQuery({
 
 /** Owner inbox: chats waiting for the owner first, then the newest. */
 export const inbox = internalQuery({
-  args: { tokenHash: v.string(), threadId: v.optional(v.string()) },
+  args: {
+    tokenHash: v.string(),
+    threadId: v.optional(v.string()),
+    sort: v.optional(v.literal("cost")),
+  },
   handler: async (ctx, args) => {
     if (!(await activeSession(ctx, args.tokenHash))) return null;
-    const [waiting, recent] = await Promise.all([
+    const [waiting, recent, usage] = await Promise.all([
       ctx.db
         .query("chatThreads")
         .withIndex("by_mode", (q) => q.eq("mode", "owner"))
         .order("desc")
         .take(50),
       ctx.db.query("chatThreads").withIndex("by_last_message").order("desc").take(100),
+      monthUsage(ctx, Date.now()),
     ]);
-    const threads = [...waiting, ...recent.filter((t) => t.mode !== "owner")].map((t) => ({
+    const listed = [...waiting, ...recent.filter((t) => t.mode !== "owner")];
+    // "Most expensive first" shows which chats cost the most, for example a spammer.
+    if (args.sort === "cost") listed.sort((a, b) => (b.costMicros ?? 0) - (a.costMicros ?? 0));
+    const threads = listed.map((t) => ({
       id: t._id,
       mode: t.mode,
       language: t.language,
@@ -155,15 +226,28 @@ export const inbox = internalQuery({
       preview: t.preview,
       unread: t.unread,
       handOffReason: t.handOffReason ?? null,
+      costMicros: t.costMicros ?? 0,
+      aiReplies: t.aiReplies ?? 0,
     }));
     const selectedId = args.threadId ? ctx.db.normalizeId("chatThreads", args.threadId) : null;
     const selected = selectedId ? await ctx.db.get(selectedId) : null;
     return {
+      spend: {
+        month: monthKey(Date.now()),
+        costMicros: usage?.costMicros ?? 0,
+        aiReplies: usage?.aiReplies ?? 0,
+        paused: !!usage?.pausedAt,
+        ...spendLimits(),
+      },
       threads,
       selected: selected && {
         id: selected._id,
         mode: selected.mode,
         handOffReason: selected.handOffReason ?? null,
+        costMicros: selected.costMicros ?? 0,
+        tokensIn: selected.tokensIn ?? 0,
+        tokensOut: selected.tokensOut ?? 0,
+        aiReplies: selected.aiReplies ?? 0,
         messages: (await latest(ctx, selected._id, 200)).map(shown),
       },
     };
@@ -221,4 +305,9 @@ export const threadForAlert = internalQuery({
     const thread = await ctx.db.get(id);
     return thread && { ...thread, recent: await latest(ctx, id, 6) };
   },
+});
+
+export const usageForAlert = internalQuery({
+  args: { id: v.id("chatUsage") },
+  handler: (ctx, { id }) => ctx.db.get(id),
 });

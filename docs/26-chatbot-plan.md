@@ -4,19 +4,20 @@ Status, 28 September 2026: **steps 2 and 3 are built** (owner request: "implemen
 
 ## What is built
 
-- **Stack.** The Vercel AI SDK 7 (`ai`, `@ai-sdk/react`) with the official OpenRouter provider (`@openrouter/ai-sdk-provider`). The AI SDK gives streaming replies, typed tools and the `useChat` window; OpenRouter gives one key for every model, a fallback model and a spending cap. Model: `qwen/qwen3.7-flash`, falling back to `openai/gpt-6-luna` (change with `OPENROUTER_MODEL` / `OPENROUTER_FALLBACK_MODEL`). Only providers that do not keep or train on prompts are used (`data_collection: deny`). Replies are capped at 500 tokens, 4 tool steps and minimal reasoning.
+- **Stack.** The Vercel AI SDK 7 (`ai`, `@ai-sdk/react`) with the official OpenRouter provider (`@openrouter/ai-sdk-provider`). The AI SDK gives streaming replies, typed tools and the `useChat` window; OpenRouter gives one key for every model, a fallback model and a spending cap. Models (owner choice, 28 September 2026): `openai/gpt-6-luna` first, for reliable tool use on hosts that do not train on chats; `google/gemini-3.1-flash-lite` as the backup, the strongest on the site's languages. Change them with `OPENROUTER_MODEL` / `OPENROUTER_FALLBACK_MODEL`. Only providers that do not keep or train on prompts are used (`data_collection: deny`). Replies are capped at 500 tokens, 4 tool steps and minimal reasoning.
 - **Where it runs.** `app/api/chat/route.ts` on Vercel. The key `OPENROUTER_API_KEY` is a Vercel server variable; the browser never sees it. Without the key, the switch shows the old English catalogue guide.
 - **Tools, checked by code** (`lib/chat-bot.ts`): `findProducts`, `getProduct`, `addToBasket` and `handOff`. Prices, packs and stock come from the live catalogue for the visitor's country. `addToBasket` only offers a button; the customer taps it. The model has no database, order, payment or web access.
 - **Languages.** It answers in the visitor's language on all 32 site versions, including Hindi and other Indian languages typed in Latin letters. Search knows common local names (palak, dhaniya, pudina, methi, tulsi and more).
 - **Storage** (`convex/chat.ts`): `chatThreads` and `chatMessages`. A chat belongs to a private, httpOnly cookie; Convex stores only its SHA-256. Chats are deleted 180 days after the last message by a daily job (`convex/crons.ts`).
 - **Hand-off.** Code hands the chat to the owner for "person / call me / where is my order / refund / complaint" (English and common Hinglish); the model can also hand off, and a failed answer hands off too. The owner gets a Telegram alert with a link.
 - **Owner inbox.** `/admin/chats`: chats waiting for the owner first, the full conversation, a reply box, and **Take over**, **Give back to the assistant** and **Close**. Customers see replies within about 10 seconds while their chat window is open.
-- **Limits.** 30 messages an hour per address and per chat, 600 an hour in total, 500 characters a message. Set a monthly cap in OpenRouter as well.
+- **Limits.** 300 characters a message (the chat box shows a counter near the end); 30 messages an hour per address and per chat, 600 an hour in total.
+- **Cost tracking and budget.** OpenRouter reports the cost of each model call; each chat keeps its cost, tokens and reply count, and `/admin/chats` shows them, with "Most expensive" sorting to spot a spammer. `/admin` shows the month's spend. A chat that costs more than US$0.05 in a day goes to the owner. When the month's spend reaches US$5, the assistant pauses for everyone, customers see a short notice, and the owner gets one Telegram alert; it resumes on the 1st (India time) or when the limit is raised. Change the limits with `CHAT_MONTHLY_BUDGET_USD` and `CHAT_DAILY_LIMIT_PER_CHAT_USD` in Convex. Also set a US$5 monthly limit on the OpenRouter key itself.
 - **Tests.** `tests/chat.test.ts` uses the AI SDK's mock model: tool checks, a streamed tool call, hand-off rules, and the route's refusals. Development checks on 28 September 2026 covered storage, hand-off, owner reply, give-back and the chat window; a fake key showed the error message and handed the chat to the owner.
 
 ## Owner setup
 
-1. Create an OpenRouter account, add credit, and set a **monthly limit** on the key (proposal: US$10).
+1. Create an OpenRouter account, add US$5–10 of credit, and set a **US$5 monthly limit** on the key.
 2. Put the key in Vercel → floruvi → Settings → Environment Variables: `OPENROUTER_API_KEY`, Production, Sensitive. Redeploy.
 3. Update the privacy notice: chats are saved for 180 days and processed by OpenRouter and the model provider.
 4. Deploy the backend: `pnpm exec convex deploy` (answer `y`).

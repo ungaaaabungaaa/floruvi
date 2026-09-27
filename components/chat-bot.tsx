@@ -231,6 +231,15 @@ export function ChatBot() {
               placeholder={labels.placeholder}
               autoComplete="off"
             />
+            {/* The limit shows only near the end, to keep the box plain. */}
+            {input.length >= MAX_CHAT_TEXT - 60 && (
+              <span
+                className={input.length >= MAX_CHAT_TEXT ? "chat-count is-full" : "chat-count"}
+                aria-live="polite"
+              >
+                {input.length}/{MAX_CHAT_TEXT}
+              </span>
+            )}
             <button className="icon-button" aria-label={labels.send} disabled={!input.trim() || busy}>
               <ArrowUp size={20} />
             </button>

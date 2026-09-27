@@ -16,7 +16,8 @@ Never put key values in this repo.
 | `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET` | Convex | Payments | Razorpay → API Keys (test keys first) | ⬜ |
 | `RAZORPAY_WEBHOOK_SECRET` | Convex | Payments | Razorpay → Webhooks ([steps](docs/29-razorpay-payments.md)) | ⬜ |
 | `SUPPORT_EMAIL`, `SUPPORT_PHONE`, `BUSINESS_ADDRESS` | Vercel | Contact page & footer (Razorpay checks them) | You | ⬜ |
-| `OPENROUTER_API_KEY` | Vercel | AI chat | openrouter.ai (set a monthly limit) | ⬜ |
+| `OPENROUTER_API_KEY` | Vercel | AI chat (GPT-6 Luna, backup Gemini 3.1 Flash-Lite) | openrouter.ai → set the key's monthly limit to **US$5** | ⬜ |
+| `CHAT_MONTHLY_BUDGET_USD`, `CHAT_DAILY_LIMIT_PER_CHAT_USD` | Convex | Optional: chat spend limits (defaults $5 a month, $0.05 per chat a day) | – | Optional |
 | SMS gateway keys | Convex | SMS codes from your SIM | [Own-SIM SMS codes](docs/30-own-sim-sms-otp.md) | Later |
 | `CONVEX_DEPLOY_KEY` | Vercel | Optional: deploy Convex on every push (build command `pnpm build:vercel`) | Convex dashboard → Settings | Optional |
 | `BUSINESS_NAME` = Floruvi | Vercel | Contact page & footer | – | ✅ |
@@ -29,7 +30,7 @@ Never put key values in this repo.
 - [ ] **Deploy the backend:** `pnpm exec convex deploy` → answer `y`. Then set `ADMIN_CREDENTIAL_HASH` (table above).
 - [ ] **Razorpay:** finish KYC & bank details → add the keys & webhook → turn **Online payment** on in `/admin` → one test order → live keys. Policy pages are done. [Guide](docs/29-razorpay-payments.md)
 - [ ] **Alerts:** create the Telegram bot (orders, payments and chat hand-offs). [Guide](docs/25-admin-and-order-alerts.md)
-- [ ] **Chat:** OpenRouter key → turn **Website chat** on → test 20–50 questions (English, Hindi, Arabic). [Guide](docs/26-chatbot-plan.md)
+- [ ] **Chat:** OpenRouter key (US$5 monthly limit) → turn **Website chat** on → test 20–50 questions (English, Hindi, Arabic). Spend per chat shows in `/admin/chats`. [Guide](docs/26-chatbot-plan.md)
 - [ ] **SMS codes:** set up an old Android phone with your Floruvi SIM as the SMS gateway. [Guide](docs/30-own-sim-sms-otp.md)
 - [ ] **Stock:** mark products in or out of stock in `/admin`.
 - [ ] **Testimonials:** collect real ones with permission, then replace the current quotes.

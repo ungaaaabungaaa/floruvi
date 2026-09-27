@@ -1,7 +1,8 @@
 import { internalAction, internalMutation, internalQuery } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { v } from "convex/values";
-import { chatAlert, orderAlert, paidOrderAlert } from "../lib/order-notification";
+import { budgetAlert, chatAlert, orderAlert, paidOrderAlert } from "../lib/order-notification";
+import { spendLimits } from "./chatSpend";
 
 // Owner alerts by Telegram for each saved enquiry, paid order and chat hand-off.
 // Without the bot settings the alert stays "off". A failed alert retries twice;
@@ -27,7 +28,7 @@ export const orderForAlert = internalQuery({
 
 export const record = internalMutation({
   args: {
-    id: v.union(v.id("enquiries"), v.id("orders"), v.id("chatThreads")),
+    id: v.union(v.id("enquiries"), v.id("orders"), v.id("chatThreads"), v.id("chatUsage")),
     telegram: status,
     attempts: v.number(),
   },
@@ -130,5 +131,25 @@ export const sendChat = internalAction({
       ctx.runMutation(internal.notifications.record, { id, ...notifications }),
     );
     if (retry !== null) await ctx.scheduler.runAfter(retry, internal.notifications.sendChat, { id });
+  },
+});
+
+export const sendBudget = internalAction({
+  args: { id: v.id("chatUsage") },
+  handler: async (ctx, { id }) => {
+    const usage = await ctx.runQuery(internal.chat.usageForAlert, { id });
+    if (!usage?.pausedAt) return;
+    const alert = budgetAlert(
+      {
+        month: usage.month,
+        spentUsd: usage.costMicros / 1e6,
+        budgetUsd: spendLimits().monthMicros / 1e6,
+      },
+      adminUrl(),
+    );
+    const retry = await deliver(alert, usage.notifications, (notifications) =>
+      ctx.runMutation(internal.notifications.record, { id, ...notifications }),
+    );
+    if (retry !== null) await ctx.scheduler.runAfter(retry, internal.notifications.sendBudget, { id });
   },
 });

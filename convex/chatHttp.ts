@@ -57,11 +57,17 @@ export const botReply = httpAction(async (ctx, request) => {
         .filter((p) => p.slug && p.name)
         .slice(0, 10)
     : [];
+  // Cost in micros and token counts: whole numbers, capped so one bad report cannot skew totals.
+  const count = (value: unknown, max: number) =>
+    Number.isSafeInteger(value) && (value as number) >= 0 ? Math.min(value as number, max) : 0;
   await ctx.runMutation(internal.chat.botReply, {
     tokenHash: await sha256(token),
     text: text(body?.text),
     products,
     handOff: text(body?.handOff) || undefined,
+    costMicros: count(body?.costMicros, 1_000_000),
+    tokensIn: count(body?.tokensIn, 5_000_000),
+    tokensOut: count(body?.tokensOut, 1_000_000),
   });
   return reply(200);
 });
@@ -82,6 +88,7 @@ export const inbox = httpAction(async (ctx, request) => {
   const data = await ctx.runQuery(internal.chat.inbox, {
     tokenHash: await sha256(token),
     threadId: text(body?.threadId).slice(0, 64) || undefined,
+    sort: text(body?.sort) === "cost" ? "cost" : undefined,
   });
   return data ? reply(200, data) : reply(401);
 });

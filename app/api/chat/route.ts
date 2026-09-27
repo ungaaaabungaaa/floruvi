@@ -18,6 +18,7 @@ import {
   DEFAULT_MODEL,
   FALLBACK_MODEL,
   historyMessages,
+  replyCost,
   replySummary,
 } from "@/lib/chat-bot";
 import { chatBackend, chatCookie, chatToken } from "@/lib/chat-server";
@@ -93,22 +94,29 @@ export async function POST(request: Request) {
   const messages = await loadMessages(locale.language);
   const mode = turn.mode as ChatMode;
 
-  // The owner answers this chat: store only, and say so once at hand-off.
-  if (mode !== "bot")
+  // No model call: the owner answers this chat (say so once at hand-off), or the
+  // monthly budget is spent and the assistant is paused.
+  if (mode !== "bot" || turn.paused) {
+    const notice = turn.paused
+      ? messages.common.chat.paused
+      : turn.handedOff
+        ? messages.common.chat.handedOff
+        : "";
     return createUIMessageStreamResponse({
       headers,
       stream: createUIMessageStream({
         execute: ({ writer }) => {
           writer.write({ type: "start", messageMetadata: { mode } });
-          if (turn.handedOff) {
-            writer.write({ type: "text-start", id: "handoff" });
-            writer.write({ type: "text-delta", id: "handoff", delta: messages.common.chat.handedOff });
-            writer.write({ type: "text-end", id: "handoff" });
+          if (notice) {
+            writer.write({ type: "text-start", id: "notice" });
+            writer.write({ type: "text-delta", id: "notice", delta: notice });
+            writer.write({ type: "text-end", id: "notice" });
           }
           writer.write({ type: "finish" });
         },
       }),
     });
+  }
 
   const [catalogue, payments, english] = await Promise.all([
     fetchQuery(api.storefront.catalogue, { language: locale.language, market: locale.market }),
@@ -130,6 +138,8 @@ export async function POST(request: Request) {
       // Only providers that do not keep or train on customer messages.
       provider: { data_collection: "deny" },
       user: keyedHash(token, secret).slice(0, 32),
+      // Ask OpenRouter for each call's cost, to track spend per chat.
+      usage: { include: true },
     }),
     instructions: chatInstructions({
       countryName: countryName(locale.country, "en"),
@@ -170,12 +180,16 @@ export async function POST(request: Request) {
       },
       onEnd: async ({ responseMessage }) => {
         const { text, products } = replySummary(responseMessage);
+        const { costMicros, tokensIn, tokensOut } = await replyCost(result);
         // A failed answer goes to the owner, so no customer is left without a reply.
         await chatBackend("reply", {
           token,
           text,
           products,
           handOff: handOff ?? (failed ? "The assistant could not answer" : undefined),
+          costMicros,
+          tokensIn,
+          tokensOut,
         });
         done();
       },

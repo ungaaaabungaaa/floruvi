@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type ChatInbox } from "@/lib/admin";
+import { costLabel } from "@/lib/chat";
 import { updateChat } from "../actions";
 
 export const metadata: Metadata = { title: "Chats" };
@@ -18,9 +19,14 @@ const answering = { bot: "Assistant answers", owner: "You answer", closed: "Clos
 export default async function AdminChats({ searchParams }: PageProps<"/admin/chats">) {
   const token = await adminToken();
   if (!token) redirect("/admin/login");
-  const { t } = await searchParams;
+  const { t, sort } = await searchParams;
   const threadId = typeof t === "string" ? t.slice(0, 64) : undefined;
-  const response = await adminApi("chats", { token, threadId }).catch(() => null);
+  const byCost = sort === "cost";
+  const response = await adminApi("chats", {
+    token,
+    threadId,
+    ...(byCost && { sort: "cost" }),
+  }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
   if (!response?.ok)
     return (
@@ -30,7 +36,9 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
         </p>
       </main>
     );
-  const { threads, selected } = (await response.json()) as ChatInbox;
+  const { spend, threads, selected } = (await response.json()) as ChatInbox;
+  const link = (id?: string) =>
+    `/admin/chats?${new URLSearchParams({ ...(id && { t: id }), ...(byCost && { sort: "cost" }) })}`;
   return (
     <main className="admin-page">
       <header className="admin-top">
@@ -44,6 +52,22 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
             silent until you give it back. Customers see your reply within about 10 seconds while
             their chat window is open.
           </p>
+          <p className={spend.paused ? "admin-error" : "admin-muted"}>
+            Assistant spend in {spend.month}: <strong>{costLabel(spend.costMicros)}</strong> of{" "}
+            {costLabel(spend.monthMicros)} · {spend.aiReplies} replies.{" "}
+            {spend.paused
+              ? "Budget used up: the assistant is paused until next month."
+              : `A chat that costs more than ${costLabel(spend.chatDayMicros)} in a day goes to you.`}
+          </p>
+          <p className="admin-muted">
+            Sort:{" "}
+            {byCost ? <Link href="/admin/chats">Newest</Link> : <strong>Newest</strong>} ·{" "}
+            {byCost ? (
+              <strong>Most expensive</strong>
+            ) : (
+              <Link href="/admin/chats?sort=cost">Most expensive</Link>
+            )}
+          </p>
         </div>
       </header>
       <div className="admin-chats">
@@ -53,7 +77,7 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
             {threads.map((thread) => (
               <li key={thread.id}>
                 <Link
-                  href={`/admin/chats?t=${thread.id}`}
+                  href={link(thread.id)}
                   aria-current={selected?.id === thread.id ? "page" : undefined}
                   className={thread.mode === "owner" ? "is-waiting" : ""}
                 >
@@ -61,7 +85,8 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
                     <strong>{thread.mode === "owner" ? "Needs you" : answering[thread.mode]}</strong>
                     {thread.unread && <span className="admin-tag review">New</span>}
                     <small>
-                      {thread.language}-{thread.market} · {when(thread.lastMessageAt)}
+                      {thread.language}-{thread.market} · {when(thread.lastMessageAt)} ·{" "}
+                      {costLabel(thread.costMicros)} · {thread.aiReplies} replies
                     </small>
                   </span>
                   <span className="admin-muted">{thread.preview}</span>
@@ -72,6 +97,11 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
         </nav>
         {selected ? (
           <section aria-labelledby="thread-title" className="admin-thread">
+            <p className="admin-muted">
+              Cost: {costLabel(selected.costMicros)} · {selected.aiReplies} assistant replies ·{" "}
+              {selected.tokensIn.toLocaleString("en-IN")} tokens in,{" "}
+              {selected.tokensOut.toLocaleString("en-IN")} out
+            </p>
             <h2 id="thread-title">
               {answering[selected.mode]}
               {selected.handOffReason && selected.mode === "owner" && (

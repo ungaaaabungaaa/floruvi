@@ -1346,6 +1346,16 @@ em {
 .chat-message > a small {
   color: var(--muted);
 }
+.chat-count {
+  flex-shrink: 0;
+  font-size: 10px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.chat-count.is-full {
+  color: #b3261e;
+  font-weight: 700;
+}
 .chat-team {
   display: block;
   margin-bottom: 4px;

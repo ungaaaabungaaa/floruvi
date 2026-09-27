@@ -156,6 +156,7 @@
       "team": "Floruvi team",
       "withTeam": "The Floruvi team is answering this chat. Replies appear here.",
       "handedOff": "I’ve passed this to the Floruvi team. They will reply here soon.",
+      "paused": "The assistant is paused for now. Please use the contact page, and the Floruvi team will help you.",
       "suggestions": [
         "What’s in stock?",
         "Delivery charges",

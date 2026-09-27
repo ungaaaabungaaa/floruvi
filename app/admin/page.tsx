@@ -3,6 +3,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type Dashboard } from "@/lib/admin";
 import { formatCurrency } from "@/lib/i18n/format";
+import { costLabel } from "@/lib/chat";
 import { logout, setChat, setPayments, setStock } from "./actions";
 
 export const metadata: Metadata = { title: "Orders & stock" };
@@ -62,8 +63,10 @@ export default async function AdminHome() {
           </h2>
           <p className="admin-muted">
             {data.chatEnabled
-              ? "Visible on the English site versions. Visitors see it within a minute of a change."
-              : "Hidden from visitors. Switch it on to show the chat button on the English site versions."}
+              ? "Visible to visitors. A change reaches them within a minute."
+              : "Hidden from visitors. Switch it on to show the chat button."}
+            {data.chatSpend &&
+              ` This month: ${costLabel(data.chatSpend.costMicros)} of ${costLabel(data.chatSpend.budgetMicros)}, ${data.chatSpend.aiReplies} assistant replies${data.chatSpend.paused ? " (budget used up: paused)" : ""}.`}
           </p>
         </div>
         <form action={setChat}>

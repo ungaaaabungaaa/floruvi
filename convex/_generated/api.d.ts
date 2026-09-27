@@ -15,6 +15,7 @@ import type * as catalogue from "../catalogue.js";
 import type * as catalogueData from "../catalogueData.js";
 import type * as chat from "../chat.js";
 import type * as chatHttp from "../chatHttp.js";
+import type * as chatSpend from "../chatSpend.js";
 import type * as crons from "../crons.js";
 import type * as enquiries from "../enquiries.js";
 import type * as http from "../http.js";
@@ -48,6 +49,7 @@ declare const fullApi: ApiFromModules<{
   catalogueData: typeof catalogueData;
   chat: typeof chat;
   chatHttp: typeof chatHttp;
+  chatSpend: typeof chatSpend;
   crons: typeof crons;
   enquiries: typeof enquiries;
   http: typeof http;

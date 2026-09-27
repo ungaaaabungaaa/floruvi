@@ -1,7 +1,7 @@
 import { tool, type ModelMessage, type UIMessage } from "ai";
 import { z } from "zod";
 import { MAX_QUANTITY } from "./cart";
-import type { ChatProduct } from "./chat";
+import { toMicros, type ChatProduct } from "./chat";
 import { formatCurrency, type CurrencyCode } from "./i18n/format";
 import { findProducts } from "./search";
 
@@ -9,8 +9,10 @@ import { findProducts } from "./search";
 // this code checks every argument and returns public catalogue data only. It has
 // no database, order, payment or web access (AGENTS.md).
 
-export const DEFAULT_MODEL = "qwen/qwen3.7-flash";
-export const FALLBACK_MODEL = "openai/gpt-6-luna";
+// Owner choice, 28 September 2026: reliable tool use and hosts that do not train
+// on chats first; the strongest model for the site's languages as the backup.
+export const DEFAULT_MODEL = "openai/gpt-6-luna";
+export const FALLBACK_MODEL = "google/gemini-3.1-flash-lite";
 
 type CatalogueItem = {
   slug: string;
@@ -149,4 +151,30 @@ export function replySummary(message: UIMessage) {
       }
   }
   return { text, products: [...products.values()].slice(0, 10) };
+}
+
+/**
+ * A reply's cost in micros (millionths of a dollar) and its tokens, summed over
+ * every model call in the reply. OpenRouter reports the cost of each call when
+ * the model is created with `usage: { include: true }`.
+ */
+export async function replyCost(result: {
+  steps: PromiseLike<{ providerMetadata?: Record<string, unknown> | undefined }[]>;
+  totalUsage: PromiseLike<{ inputTokens: number | undefined; outputTokens: number | undefined }>;
+}) {
+  try {
+    const [steps, usage] = await Promise.all([result.steps, result.totalUsage]);
+    const usd = steps.reduce((sum, step) => {
+      const meta = step.providerMetadata?.openrouter as { usage?: { cost?: unknown } } | undefined;
+      const cost = meta?.usage?.cost;
+      return sum + (typeof cost === "number" && Number.isFinite(cost) && cost > 0 ? cost : 0);
+    }, 0);
+    return {
+      costMicros: toMicros(usd),
+      tokensIn: usage.inputTokens ?? 0,
+      tokensOut: usage.outputTokens ?? 0,
+    };
+  } catch {
+    return { costMicros: 0, tokensIn: 0, tokensOut: 0 };
+  }
 }

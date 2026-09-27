@@ -158,10 +158,27 @@ export default defineSchema({
     unread: v.boolean(),
     handOffReason: v.optional(v.string()),
     notifications: v.optional(notifications),
+    // Assistant cost from OpenRouter, in micros (millionths of a US dollar).
+    costMicros: v.optional(v.number()),
+    tokensIn: v.optional(v.number()),
+    tokensOut: v.optional(v.number()),
+    aiReplies: v.optional(v.number()),
+    // Today's cost (India day), for the per-chat daily limit.
+    costDay: v.optional(v.string()),
+    costDayMicros: v.optional(v.number()),
   })
     .index("by_token", ["tokenHash"])
     .index("by_last_message", ["lastMessageAt"])
     .index("by_mode", ["mode", "lastMessageAt"]),
+  // Assistant spend per India month, for the monthly budget.
+  chatUsage: defineTable({
+    month: v.string(),
+    costMicros: v.number(),
+    aiReplies: v.number(),
+    // When the budget ran out; the owner is alerted once.
+    pausedAt: v.optional(v.number()),
+    notifications: v.optional(notifications),
+  }).index("by_month", ["month"]),
   chatMessages: defineTable({
     threadId: v.id("chatThreads"),
     author: v.union(v.literal("customer"), v.literal("bot"), v.literal("owner")),

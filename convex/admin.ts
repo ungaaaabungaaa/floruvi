@@ -2,6 +2,7 @@ import { internalMutation, internalQuery, type QueryCtx } from "./_generated/ser
 import { v } from "convex/values";
 import { takeRateLimits } from "./limits";
 import { commerceSettings, razorpayConfigured } from "./orders";
+import { monthUsage, spendLimits } from "./chatSpend";
 import { paymentMode } from "../lib/razorpay";
 
 // Owner-only functions. They are internal: only convex/http.ts calls them, after
@@ -65,16 +66,23 @@ export const dashboard = internalQuery({
   handler: async (ctx, { tokenHash }) => {
     const session = await activeSession(ctx, tokenHash);
     if (!session) return null;
-    const [orders, onlineOrders, products, settings] = await Promise.all([
+    const [orders, onlineOrders, products, settings, chatUsage] = await Promise.all([
       ctx.db.query("enquiries").order("desc").take(200),
       ctx.db.query("orders").order("desc").take(200),
       ctx.db.query("products").collect(),
       commerceSettings(ctx),
+      monthUsage(ctx, Date.now()),
     ]);
     const keyId = process.env.RAZORPAY_KEY_ID?.trim();
     return {
       expiresAt: session.expiresAt,
       chatEnabled: settings?.chatEnabled === true,
+      chatSpend: {
+        costMicros: chatUsage?.costMicros ?? 0,
+        aiReplies: chatUsage?.aiReplies ?? 0,
+        paused: !!chatUsage?.pausedAt,
+        budgetMicros: spendLimits().monthMicros,
+      },
       payments: {
         enabled: settings?.paymentsEnabled === true,
         keys: razorpayConfigured(),
