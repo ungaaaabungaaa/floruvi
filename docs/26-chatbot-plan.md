@@ -24,6 +24,8 @@ Status, 28 September 2026: **steps 2 and 3 are built** (owner request: "implemen
 
 Still to build: SMS-code sign-in before chatting (step 1), and WhatsApp (step 4).
 
+Owner decision, 28 September 2026: the chat uses OpenRouter only. A model on the farm's own phone (Gemma on a Pixel 9) was considered and dropped: it would save only about ₹100 a month, with weaker answers in Hinglish and a phone server to maintain.
+
 ## What the owner asked for
 
 A website chat that works only after the customer verifies a 10-digit mobile number with a 6-digit SMS code. The bot answers only Floruvi questions, knows every product and price, can add products to the basket, explains payment and delivery, and hands the chat to the owner when a person is needed ("Where is my order?", "I want to talk to a human"). The owner answers from the admin panel. All chats are stored. Later, the same bot runs on WhatsApp. The budget is small.
