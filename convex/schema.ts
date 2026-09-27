@@ -191,6 +191,8 @@ export default defineSchema({
   adminSessions: defineTable({
     tokenHash: v.string(),
     expiresAt: v.number(),
+    // "Keep me signed in" was ticked. Missing on sessions made before 28 September 2026.
+    remembered: v.optional(v.boolean()),
   })
     .index("by_token", ["tokenHash"])
     .index("by_expiry", ["expiresAt"]),

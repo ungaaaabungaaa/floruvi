@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LinkHint } from "./client";
 import { loadDashboard, Unavailable } from "./shared";
 
 export const metadata: Metadata = { title: "Overview" };
@@ -59,6 +60,7 @@ export default async function AdminOverview() {
               <strong>{tile.count}</strong>
               <span>{tile.label}</span>
               <small>{tile.hint}</small>
+              <LinkHint />
             </Link>
           </li>
         ))}

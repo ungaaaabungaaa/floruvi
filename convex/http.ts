@@ -45,6 +45,7 @@ http.route({ path: "/admin/stock", method: "POST", handler: admin.stock });
 http.route({ path: "/admin/chat", method: "POST", handler: admin.chat });
 http.route({ path: "/admin/payments", method: "POST", handler: admin.payments });
 http.route({ path: "/admin/logout", method: "POST", handler: admin.logout });
+http.route({ path: "/admin/renew", method: "POST", handler: admin.renew });
 http.route({ path: "/payments/order", method: "POST", handler: payments.order });
 http.route({ path: "/payments/confirm", method: "POST", handler: payments.confirm });
 http.route({ path: "/razorpay/webhook", method: "POST", handler: payments.webhook });

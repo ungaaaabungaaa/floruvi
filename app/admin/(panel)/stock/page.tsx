@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { setStock } from "../../actions";
+import { SubmitButton } from "../client";
 import { Filters, loadDashboard, rupees, Unavailable } from "../shared";
 
 export const metadata: Metadata = { title: "Stock" };
@@ -85,12 +86,12 @@ export default async function AdminStock({ searchParams }: PageProps<"/admin/sto
                   <form action={setStock}>
                     <input type="hidden" name="slug" value={product.slug} />
                     <input type="hidden" name="inStock" value={String(!product.inStock)} />
-                    <button
+                    <SubmitButton
                       className={`admin-switch ${product.inStock ? "on" : "off"}`}
                       aria-label={`${product.name}: ${product.inStock ? "in stock" : "out of stock"}. Change.`}
                     >
                       {product.inStock ? "In stock" : "Out of stock"}
-                    </button>
+                    </SubmitButton>
                   </form>
                 </td>
               </tr>

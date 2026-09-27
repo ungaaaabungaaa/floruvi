@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type Dashboard } from "@/lib/admin";
 import { formatCurrency } from "@/lib/i18n/format";
+import { LinkHint } from "./client";
 
 // Shared by the admin panel pages. Each page checks the session itself;
 // the layout only draws the navigation.
@@ -59,6 +60,7 @@ export function Filters({
         <Link key={option.href} href={option.href} aria-current={option.current ? "page" : undefined}>
           {option.label}
           {option.count !== undefined && <span>{option.count}</span>}
+          <LinkHint />
         </Link>
       ))}
     </nav>

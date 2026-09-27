@@ -39,7 +39,7 @@
 .admin-stock tbody th { font-weight: 600; }
 .admin-stock tbody th small { display: block; font-weight: 400; color: var(--muted); }
 .admin-stock tr.is-out { background: #fbf7f2; }
-.admin-switch { min-width: 120px; min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid transparent; font-weight: 700; cursor: pointer; }
+.admin-switch { min-width: 132px; min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid transparent; font-weight: 700; cursor: pointer; }
 .admin-switch.on { background: #e3efdc; color: #1f5a2a; border-color: #bcd6b0; }
 .admin-switch.off { background: #f4e3e1; color: #8a1f1f; border-color: #e6c2be; }
 
@@ -99,15 +99,15 @@
 
 .admin-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
 .admin-filters a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-weight: 600; color: var(--muted); }
-.admin-filters a span { padding: 0 7px; border-radius: 999px; background: #eeeeea; font-size: 12px; }
+.admin-filters a span:not(.admin-hint) { padding: 0 7px; border-radius: 999px; background: #eeeeea; font-size: 12px; }
 .admin-filters a[aria-current="page"] { background: var(--green); border-color: var(--green); color: #fff; }
-.admin-filters a[aria-current="page"] span { background: rgb(255 255 255 / 20%); }
+.admin-filters a[aria-current="page"] span:not(.admin-hint) { background: rgb(255 255 255 / 20%); }
 
 .admin-tiles { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
 .admin-tiles a { display: grid; gap: 2px; height: 100%; padding: 16px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
 .admin-tiles a:hover { border-color: var(--green); }
 .admin-tiles strong { font-size: 32px; line-height: 1.1; color: var(--green); }
-.admin-tiles span { font-weight: 700; }
+.admin-tiles span:not(.admin-hint) { font-weight: 700; }
 .admin-tiles small { color: var(--muted); }
 .admin-tiles a.is-warn { background: #fff8ec; border-color: #ecd3a8; }
 .admin-tiles a.is-warn strong { color: #7a4a06; }
@@ -132,3 +132,12 @@
   .admin-nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
   .admin-nav a { padding: 10px 4px; text-align: center; }
 }
+
+/* Steady layout: the scrollbar keeps its space on short pages, and loading states never resize anything. */
+.admin-html { scrollbar-gutter: stable; }
+.admin-nav a, .admin-filters a, .admin-tiles a, .admin-thread-list a { position: relative; }
+.admin-hint { position: absolute; inset-inline: 10px; bottom: 3px; height: 2px; border-radius: 2px; background: currentColor; opacity: 0; pointer-events: none; transition: opacity .15s; }
+.admin-hint.is-pending { opacity: .5; animation: admin-pulse 1s ease-in-out infinite; }
+.admin-button.is-pending, .admin-switch.is-pending { opacity: .6; cursor: progress; }
+@keyframes admin-pulse { 50% { opacity: .15; } }
+@media (prefers-reduced-motion: reduce) { .admin-hint { transition: none; } .admin-hint.is-pending { animation: none; } }

@@ -4,12 +4,12 @@ import { takeRateLimits } from "./limits";
 import { commerceSettings, razorpayConfigured } from "./orders";
 import { monthUsage, spendLimits } from "./chatSpend";
 import { paymentMode } from "../lib/razorpay";
+import { renewedSession, SESSION_HOURS } from "../lib/admin-session";
 
 // Owner-only functions. They are internal: only convex/http.ts calls them, after
 // checking the server secret. Each one then checks the session itself.
 
 const HOUR = 60 * 60 * 1000;
-export const SESSION_HOURS = { remembered: 14 * 24, browser: 12 };
 
 export async function activeSession(ctx: QueryCtx, tokenHash: string) {
   const session = await ctx.db
@@ -34,7 +34,7 @@ export const startSession = internalMutation({
   handler: async (ctx, { tokenHash, remember, ipHash }) => {
     const now = Date.now();
     const hours = remember ? SESSION_HOURS.remembered : SESSION_HOURS.browser;
-    await ctx.db.insert("adminSessions", { tokenHash, expiresAt: now + hours * HOUR });
+    await ctx.db.insert("adminSessions", { tokenHash, expiresAt: now + hours * HOUR, remembered: remember });
     // A successful sign-in clears this address's failed attempts.
     const attempts = await ctx.db
       .query("enquiryLimits")
@@ -47,6 +47,25 @@ export const startSession = internalMutation({
       .take(20);
     for (const row of expired) await ctx.db.delete(row._id);
     return { maxAgeSeconds: hours * 60 * 60 };
+  },
+});
+
+/**
+ * Moves a live session's end to a full period from now, so the owner stays signed in
+ * while using the panel. Writes at most once an hour. Null when nothing changed.
+ */
+export const renewSession = internalMutation({
+  args: { tokenHash: v.string() },
+  handler: async (ctx, { tokenHash }) => {
+    const session = await activeSession(ctx, tokenHash);
+    if (!session) return "unauthorized" as const;
+    const next = renewedSession(
+      { createdAt: session._creationTime, expiresAt: session.expiresAt, remembered: session.remembered },
+      Date.now(),
+    );
+    if (!next) return null;
+    await ctx.db.patch(session._id, { expiresAt: next.expiresAt, remembered: next.remembered });
+    return { remembered: next.remembered, maxAgeSeconds: next.maxAgeSeconds };
   },
 });
 

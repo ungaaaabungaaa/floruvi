@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { logout } from "../actions";
 import { AdminNav } from "./admin-nav";
+import { KeepSignedIn, SubmitButton } from "./client";
 
 export default function PanelLayout({ children }: LayoutProps<"/admin">) {
   return (
@@ -11,12 +12,13 @@ export default function PanelLayout({ children }: LayoutProps<"/admin">) {
             Floruvi admin
           </Link>
           <form action={logout}>
-            <button className="admin-button ghost small">Sign out</button>
+            <SubmitButton className="admin-button ghost small">Sign out</SubmitButton>
           </form>
         </div>
         <AdminNav />
       </header>
       <main className="admin-page">{children}</main>
+      <KeepSignedIn />
     </>
   );
 }

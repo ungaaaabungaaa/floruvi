@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { LinkHint } from "./client";
 
 const tabs = [
   { href: "/admin", label: "Overview" },
@@ -20,6 +21,7 @@ export function AdminNav() {
         return (
           <Link key={tab.href} href={tab.href} aria-current={current ? "page" : undefined}>
             {tab.label}
+            <LinkHint />
           </Link>
         );
       })}

@@ -53,6 +53,15 @@ const config: NextConfig = {
         source,
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive, nosnippet" }],
       })),
+      // Owner pages show customer details: no browser, proxy or back-button copy,
+      // and no admin address in the Referer of any outgoing request.
+      ...["/admin", "/admin/:path*"].map((source) => ({
+        source,
+        headers: [
+          { key: "Cache-Control", value: "private, no-store, max-age=0" },
+          { key: "Referrer-Policy", value: "no-referrer" },
+        ],
+      })),
     ];
   },
 };

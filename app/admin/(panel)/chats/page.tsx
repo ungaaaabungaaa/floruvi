@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { adminApi, adminToken, type ChatInbox } from "@/lib/admin";
 import { costLabel } from "@/lib/chat";
 import { updateChat } from "../../actions";
+import { LinkHint, SubmitButton } from "../client";
 import { Filters } from "../shared";
 
 export const metadata: Metadata = { title: "Chats" };
@@ -78,6 +79,7 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
                     </small>
                   </span>
                   <span className="admin-muted">{thread.preview}</span>
+                  <LinkHint />
                 </Link>
               </li>
             ))}
@@ -117,28 +119,28 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
                 Your reply
                 <textarea name="text" rows={3} maxLength={2000} required dir="auto" />
               </label>
-              <button className="admin-button">Send reply</button>
+              <SubmitButton className="admin-button">Send reply</SubmitButton>
             </form>
             <div className="admin-chat-actions">
               {selected.mode !== "bot" && (
                 <form action={updateChat}>
                   <input type="hidden" name="threadId" value={selected.id} />
                   <input type="hidden" name="mode" value="bot" />
-                  <button className="admin-button ghost">Give back to the assistant</button>
+                  <SubmitButton className="admin-button ghost">Give back to the assistant</SubmitButton>
                 </form>
               )}
               {selected.mode === "bot" && (
                 <form action={updateChat}>
                   <input type="hidden" name="threadId" value={selected.id} />
                   <input type="hidden" name="mode" value="owner" />
-                  <button className="admin-button ghost">Take over</button>
+                  <SubmitButton className="admin-button ghost">Take over</SubmitButton>
                 </form>
               )}
               {selected.mode !== "closed" && (
                 <form action={updateChat}>
                   <input type="hidden" name="threadId" value={selected.id} />
                   <input type="hidden" name="mode" value="closed" />
-                  <button className="admin-button ghost">Close chat</button>
+                  <SubmitButton className="admin-button ghost">Close chat</SubmitButton>
                 </form>
               )}
             </div>

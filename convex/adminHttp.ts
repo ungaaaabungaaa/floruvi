@@ -94,6 +94,14 @@ export const payments = httpAction(async (ctx, request) => {
   });
 });
 
+export const renew = httpAction(async (ctx, request) => {
+  if (!(await fromServer(request))) return reply(401);
+  const token = text((await readBody(request))?.token);
+  if (!TOKEN.test(token)) return reply(401);
+  const renewed = await ctx.runMutation(internal.admin.renewSession, { tokenHash: await sha256(token) });
+  return renewed === "unauthorized" ? reply(401) : reply(200, { renewed });
+});
+
 export const logout = httpAction(async (ctx, request) => {
   if (!(await fromServer(request))) return reply(401);
   const token = text((await readBody(request))?.token);

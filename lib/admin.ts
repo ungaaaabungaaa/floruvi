@@ -27,6 +27,7 @@ export async function adminApi(
     | "chat"
     | "payments"
     | "logout"
+    | "renew"
     | "chats"
     | "chat-update",
   body: object,

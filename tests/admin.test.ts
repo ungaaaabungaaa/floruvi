@@ -5,6 +5,7 @@ import {
   hashAdminCredentials,
   verifyAdminCredentials,
 } from "../lib/admin-credentials";
+import { renewedSession } from "../lib/admin-session";
 import { orderAlert } from "../lib/order-notification";
 import { reviewBasket } from "../lib/pricing";
 
@@ -109,4 +110,33 @@ test("out-of-stock products cannot be requested; boxes and older records stay av
   assert.equal(spinach.outOfStock, true);
   assert.equal(mint.availableToEnquire, true);
   assert.equal(mint.outOfStock, false);
+});
+
+const H = 60 * 60 * 1000;
+const D = 24 * H;
+
+test("an admin session in use moves its end a full period ahead, at most once an hour", () => {
+  const signIn = 0;
+  const remembered = { createdAt: signIn, expiresAt: signIn + 14 * D, remembered: true };
+  // Used 3 days later: 14 days from now again.
+  assert.deepEqual(renewedSession(remembered, 3 * D), {
+    remembered: true,
+    expiresAt: 17 * D,
+    maxAgeSeconds: 14 * 24 * 60 * 60,
+  });
+  // Used again 10 minutes after a renewal: nothing to write.
+  assert.equal(renewedSession({ ...remembered, expiresAt: 17 * D }, 3 * D + 10 * 60 * 1000), null);
+  // A browser-only session slides by 12 hours, never by 14 days.
+  const browser = { createdAt: signIn, expiresAt: signIn + 12 * H, remembered: false };
+  assert.equal(renewedSession(browser, 5 * H)?.expiresAt, 17 * H);
+  // Sessions from before the flag existed are told apart by their length.
+  assert.equal(renewedSession({ createdAt: 0, expiresAt: 14 * D }, 2 * D)?.remembered, true);
+  assert.equal(renewedSession({ createdAt: 0, expiresAt: 12 * H }, 2 * H)?.remembered, false);
+});
+
+test("an admin session never outlives 90 days after sign-in, and an ended one is not renewed", () => {
+  const late = { createdAt: 0, expiresAt: 85 * D, remembered: true };
+  assert.equal(renewedSession(late, 80 * D)?.expiresAt, 90 * D);
+  assert.equal(renewedSession({ ...late, expiresAt: 90 * D }, 89 * D), null);
+  assert.equal(renewedSession({ createdAt: 0, expiresAt: 14 * D, remembered: true }, 15 * D), null);
 });

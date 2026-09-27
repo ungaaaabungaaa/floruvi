@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { costLabel } from "@/lib/chat";
 import { setChat, setPayments } from "../../actions";
+import { SubmitButton } from "../client";
 import { loadDashboard, Unavailable, when } from "../shared";
 
 export const metadata: Metadata = { title: "Settings" };
@@ -31,12 +32,12 @@ export default async function AdminSettings() {
         </div>
         <form action={setChat}>
           <input type="hidden" name="enabled" value={String(!data.chatEnabled)} />
-          <button
+          <SubmitButton
             className={`admin-switch ${data.chatEnabled ? "on" : "off"}`}
             aria-label={`Website chat is ${data.chatEnabled ? "visible" : "hidden"}. Change.`}
           >
             {data.chatEnabled ? "Visible" : "Hidden"}
-          </button>
+          </SubmitButton>
         </form>
       </section>
 
@@ -58,13 +59,13 @@ export default async function AdminSettings() {
         </div>
         <form action={setPayments}>
           <input type="hidden" name="enabled" value={String(!payments.enabled)} />
-          <button
+          <SubmitButton
             className={`admin-switch ${payments.enabled ? "on" : "off"}`}
             disabled={!payments.keys && !payments.enabled}
             aria-label={`Online payment is ${payments.enabled ? "on" : "off"}. Change.`}
           >
             {payments.enabled ? "On" : "Off"}
-          </button>
+          </SubmitButton>
         </form>
       </section>
     </>
