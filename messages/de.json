@@ -47,6 +47,10 @@
       "title": "Stornierungs- & Erstattungsrichtlinie",
       "description": "Wie Stornierungen & Erstattungen für Floruvi-Bestellungen funktionieren, einschließlich Fristen & Zahlungsmethoden."
     },
+    "shipping": {
+      "title": "Versand- & Lieferrichtlinie",
+      "description": "Wohin Floruvi liefert, wie lange die Lieferung dauert, die pauschale Liefergebühr & Zahlung per Nachnahme."
+    },
     "howWeGrow": {
       "title": "Im Inneren eines Aeroponik-Turms",
       "description": "Verfolge das Wasser, entdecke die Wurzeln & erfahre, wie ein Aeroponik-Turm im Kreislauf frisches Grün wachsen lässt."
@@ -88,6 +92,7 @@
       "privacy": "Datenschutz",
       "terms": "Nutzungsbedingungen",
       "refunds": "Stornierungen & Erstattungen",
+      "shipping": "Versand & Lieferung",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -196,6 +201,7 @@
       "total": "Gesamt",
       "totalBeforeDelivery": "Summe vor Lieferung",
       "noPayment": "Es wird keine Zahlung eingezogen.",
+      "securePayment": "Sichere Zahlung über Razorpay.",
       "deliveryInfo": "Lieferinformationen",
       "emptyEyebrow": "PLATZ FÜR ETWAS FRISCHES",
       "emptyTitle": "Dein Warenkorb ist leer.",
@@ -634,7 +640,11 @@
     "send": "Anfrage senden",
     "required": "* Pflichtfelder.",
     "boxInterest": "{name}-Box · {people} · {schedule}",
-    "boxMessage": "Ich hätte gern eine {name}-Gemüsebox für {people}, geliefert {schedule}. Bitte vereinbare die erste Lieferung mit mir."
+    "boxMessage": "Ich hätte gern eine {name}-Gemüsebox für {people}, geliefert {schedule}. Bitte vereinbare die erste Lieferung mit mir.",
+    "detailsTitle": "Kontaktdaten",
+    "detailsEmail": "E-Mail",
+    "detailsPhone": "Telefon",
+    "detailsAddress": "Adresse"
   },
   "wishlist": {
     "heroAlt": "Ein Leinenbeutel voller frischem Gemüse",
@@ -899,7 +909,7 @@
         "questions": [
           [
             "Wie gebe ich eine Bestellung auf?",
-            "Wähle deine Produkte oder eine Box, lege sie in deinen Warenkorb und prüfe deine Auswahl an der Kasse. Gib deine Kontaktdaten ein und sende eine Verfügbarkeitsanfrage. Der Hof prüft die Anfrage und bespricht mit dir die nächsten Schritte."
+            "Wähle deine Produkte oder eine Box, lege sie in deinen Warenkorb und gehe zur Kasse. In Indien bezahlst du online, wenn das an der Kasse angeboten wird; andernfalls sendest du die Bestellanfrage, und der Hof bestätigt mit dir die nächsten Schritte."
           ],
           [
             "Brauche ich ein Konto?",
@@ -949,27 +959,27 @@
         "questions": [
           [
             "Wohin liefert ihr?",
-            "Wir nehmen Lieferanfragen aus ganz Indien entgegen. Teile uns deine Stadt und dein Liefergebiet mit, damit der Hof die Anfrage prüfen und die Lieferung mit dir abstimmen kann."
+            "Wir liefern an jede Postleitzahl (PIN) in Indien. Bestellungen kommen innerhalb von 2 Tagen an."
           ],
           [
             "Was kostet die Lieferung?",
-            "{deliveryFee} Für einen Warenkorb, der nur Boxen enthält, fällt keine zusätzliche Liefergebühr an. Prüfe die Gesamtsumme im Warenkorb, bevor du deine Anfrage sendest."
+            "{deliveryFee} Für einen Warenkorb, der nur Boxen enthält, fällt keine zusätzliche Liefergebühr an. Dein Warenkorb zeigt die Gesamtsumme, bevor du bezahlst oder eine Anfrage sendest."
           ],
           [
             "Wann kommen meine Produkte oder meine erste Box an?",
-            "Der Hof meldet sich bei dir, um die Lieferung zu vereinbaren."
+            "Innerhalb von 2 Tagen nach deiner Bestellung. Wir rufen dich an, um die Adresse und einen Liefertermin zu bestätigen."
           ],
           [
             "Kann ich online bezahlen?",
-            "Online wird keine Zahlung eingezogen. Der Hof bestätigt deine Anfrage und die Zahlungsdetails."
+            "In Indien bietet die Kasse sichere Online-Zahlung über Razorpay an (UPI, Karten, Netbanking oder Wallets), sofern sie verfügbar ist. Wir bieten keine Zahlung per Nachnahme an."
           ],
           [
             "Wie ändere oder storniere ich eine Anfrage?",
-            "Nutze das Kontaktformular und gib die E-Mail-Adresse deiner Anfrage, deine Auswahl und die gewünschte Änderung an. Wurde die Lieferung bereits vereinbart, kontaktiere den Hof, um die Möglichkeiten zu besprechen."
+            "Du kannst deinen Warenkorb jederzeit ändern, bevor du bezahlst oder eine Anfrage sendest. Eine bezahlte Bestellung kann nicht storniert werden, aber kontaktiere uns schnell, wenn du die Adresse oder den Liefertermin ändern möchtest. Bei einer Anfrage nutze das Kontaktformular und nenne die E-Mail-Adresse, die du verwendet hast."
           ],
           [
             "Was, wenn es ein Problem mit meiner Lieferung gibt?",
-            "Kontaktiere den Hof mit den Details deiner Anfrage und einer klaren Beschreibung des Problems. Nenne die betroffenen Artikel und den Zeitpunkt der Lieferung. Der Hof bespricht das Anliegen dann mit dir; die Website bietet derzeit keinen automatischen Erstattungs- oder Ersatzprozess."
+            "Kontaktiere uns innerhalb von 24 Stunden nach der Lieferung mit deiner Bestellnummer, den betroffenen Artikeln und einem Foto. Wenn der Fehler bei uns liegt, erstatten oder ersetzen wir den Artikel. Unsere Stornierungs- und Erstattungsrichtlinie enthält die Details."
           ]
         ]
       },
@@ -1033,6 +1043,10 @@
         "Was kostet die Lieferung?",
         "Die Lieferung nach {country} wird dir mitgeteilt, nachdem der Hof deine Anfrage geprüft hat, da die Exportkosten vom Zielort und der Bestellgröße abhängen. Dein Warenkorb zeigt die Produktsumme vor der Lieferung."
       ],
+      "when": [
+        "Wann kommen meine Produkte oder meine erste Box an?",
+        "Der Hof bestätigt den Liefertermin nach {country}, nachdem er deine Anfrage geprüft hat."
+      ],
       "boxDelivery": [
         "Ist die Lieferung im Boxpreis enthalten?",
         "Der Boxpreis deckt die Box ab. Der Hof nennt dir die Lieferkosten nach {country}, nachdem er deine Anfrage geprüft hat."
@@ -1054,7 +1068,7 @@
         "title": "Über diesen Hinweis",
         "paragraphs": [
           "Dieser Hinweis erklärt, wie Informationen verwendet werden, wenn du Floruvi durchstöberst, Produkte speicherst, einen Warenkorb zusammenstellst oder eine Anfrage sendest. Er bezieht sich auf die aktuelle Website, einschließlich Shop, Boxen, Rezepte und Kontaktformular. Er beschreibt die heute verfügbaren Funktionen.",
-          "Zum Stöbern brauchst du kein Kundenkonto. Das Senden einer Verfügbarkeitsanfrage gibt dem Hof Informationen, um deinen Bedarf zu prüfen und zu antworten. Dabei wird kein Konto angelegt, keine Zahlung eingezogen, keine Ware reserviert und keine wiederkehrende Abrechnung aktiviert. Wenn in diesem Hinweis von Checkout die Rede ist, ist damit dieser Anfrageprozess gemeint."
+          "Zum Stöbern brauchst du kein Kundenkonto. Wenn du eine Anfrage sendest oder eine Bestellung aufgibst, nutzt der Hof deine Angaben, um die Bestellung zu bestätigen und zu liefern. Bei einer Anfrage wird keine Zahlung eingezogen. Wenn beim Checkout in Indien Online-Zahlung angeboten wird, wickelt Razorpay deine Zahlung ab."
         ]
       },
       {
@@ -1070,7 +1084,8 @@
         "title": "Wie Anfragedaten verwendet werden",
         "paragraphs": [
           "Der Hof nutzt die von dir übermittelten Informationen, um deine Anfrage zu verstehen, die gewählten Produkte zu prüfen, den Lieferbedarf einzuschätzen und über die angegebenen Kontaktdaten zu antworten. Der Anfrageeintrag enthält einen Sendezeitpunkt, einen Zustimmungszeitpunkt und einen Status zur Organisation der Anfragen.",
-          "Vor dem Absenden der Anfrage musst du eine Zustimmungs-Checkbox aktivieren. Diese Zustimmung bezieht sich auf die Bearbeitung deiner Anfrage. Die aktuelle Website macht aus einer Kontaktanfrage weder ein Newsletter-Abonnement noch meldet sie dich für eine Werbekampagne an. Prüfe die Angaben in deinem Formular, bevor du es sendest."
+          "Vor dem Absenden der Anfrage musst du eine Zustimmungs-Checkbox aktivieren. Diese Zustimmung bezieht sich auf die Bearbeitung deiner Anfrage. Die aktuelle Website macht aus einer Kontaktanfrage weder ein Newsletter-Abonnement noch meldet sie dich für eine Werbekampagne an. Prüfe die Angaben in deinem Formular, bevor du es sendest.",
+          "Der Hof erhält zu jeder Anfrage und jeder bezahlten Bestellung eine Benachrichtigung per Telegram. Sie enthält deinen Namen, deine Kontaktdaten, dein Liefergebiet und die Artikel, die du ausgewählt hast."
         ]
       },
       {
@@ -1093,8 +1108,24 @@
         "id": "checkout",
         "title": "Checkout & Lieferdaten",
         "paragraphs": [
-          "Kontakt- und Lieferfelder, die du beim Checkout ausfüllst, bleiben nur im Speicher der Seite, bis du die Verfügbarkeitsanfrage sendest. Die gesendete Anfrage enthält deine Kontaktdaten, die gewählten Produkte oder die Box, das Liefergebiet und deine Anmerkungen. Das optionale Straßenadressfeld wird weder in die gesendete Anfrage aufgenommen noch im Anfrageeintrag gespeichert.",
+          "Kontakt- und Lieferfelder, die du beim Checkout ausfüllst, bleiben im Speicher der Seite, bis du die Anfrage sendest oder bezahlst. Eine Anfrage enthält deine Kontaktdaten, die gewählten Produkte oder die Box, das Liefergebiet und deine Anmerkungen; die optionale Straßenadresse wird nicht gesendet. Bei einer bezahlten Bestellung wird zusätzlich deine Straßenadresse gespeichert, falls du eine angibst, damit wir die Bestellung liefern können.",
           "Nicht gesendete Formulardaten werden nicht im Floruvi-Warenkorb gespeichert. Beim Verlassen oder Neuladen der Seite können sie verloren gehen. Unabhängig davon kann dein Browser Formularangaben über eigene Einstellungen automatisch ausfüllen oder sich merken. Überprüfe diese Einstellungen, wenn du ein gemeinsam genutztes Gerät verwendest oder nicht möchtest, dass dein Browser persönliche Daten vorschlägt."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Online-Zahlungen",
+        "paragraphs": [
+          "Wenn du online bezahlst, wickelt Razorpay die Zahlung nach seiner eigenen Datenschutzerklärung ab. Wir erhalten den Zahlungsstatus, den Betrag, die Zahlungsmethode (zum Beispiel UPI oder Karte) und eine Zahlungsreferenz. Wir sehen und speichern niemals deine vollständige Kartennummer, deine UPI-PIN oder dein Bankpasswort.",
+          "Bezahlte Bestellungen werden mit deinen Bestelldaten im Convex-Projekt von Floruvi gespeichert. Wir bewahren sie so lange auf, wie Steuer- und Buchhaltungsvorschriften es verlangen."
+        ]
+      },
+      {
+        "id": "chat",
+        "title": "Website-Chat",
+        "paragraphs": [
+          "Der Website-Chat ist nur verfügbar, wenn der Hof ihn einschaltet. Wenn du ihn nutzt, werden deine Nachrichten 180 Tage lang gespeichert, damit der Hof dir antworten und sein Angebot verbessern kann. Ein Cookie hält deine Nachrichten in einem Chat zusammen; wir speichern das Cookie nur in codierter Form.",
+          "Chatnachrichten werden an OpenRouter und einen Anbieter von KI-Modellen gesendet, um die Antworten zu schreiben. Wir wählen Anbieter, die angeben, diese Nachrichten weder zu speichern noch für das Training zu verwenden. Gib im Chat keine Zahlungsdaten oder Passwörter an."
         ]
       },
       {
@@ -1118,14 +1149,14 @@
         "title": "Cookies, Analyse & optionale Dienste",
         "paragraphs": [
           "Die hier beschriebenen Warenkorb- und Wunschlisten-Funktionen nutzen den lokalen Speicher. Anzeigeeinstellungen für Rezepte nutzen den Sitzungsspeicher. Das sind Browser-Speichermechanismen, kein kontobasiertes Profil. Dein Browser bestimmt, ob Website-Speicher verfügbar ist, und bietet Optionen, ihn zu löschen. Deaktivierter Speicher kann gespeicherte Auswahlen beeinflussen, hindert dich aber nicht am Lesen der öffentlichen Seiten.",
-          "Die aktuelle Anwendung enthält keine Marketing-Analyse, keine Werbe-Pixel, keine Push-Benachrichtigungen, keine Zahlungsabwicklung und keine aktiven Kundenkonten. Hosting-Dienste verarbeiten weiterhin die technischen Anfragen, die für den Betrieb der Website nötig sind. Dieser Hinweis muss überarbeitet werden, sobald ein neuer Dienst die erfassten Informationen, ihren Zweck oder ihren Empfänger ändert."
+          "Die aktuelle Anwendung enthält keine Marketing-Analyse, keine Werbe-Pixel, keine Push-Benachrichtigungen und keine Kundenkonten. Hosting-Dienste verarbeiten weiterhin die technischen Anfragen, die für den Betrieb der Website nötig sind. Dieser Hinweis muss überarbeitet werden, sobald ein neuer Dienst die erfassten Informationen, ihren Zweck oder ihren Empfänger ändert."
         ]
       },
       {
         "id": "retention",
         "title": "Wie lange Informationen aufbewahrt werden",
         "paragraphs": [
-          "Anfrageeinträge verbleiben derzeit im privaten Projekt, bis ein autorisierter Betreiber sie entfernt. Die aktuelle Anwendung hat keinen automatischen Löschplan für Anfragen. Ein regelmäßiger Aufbewahrungsplan und ein direkter Datenschutzkontakt müssen noch festgelegt werden. Dieser Hinweis verspricht kein automatisches Löschdatum, das der Dienst noch nicht umsetzt.",
+          "Anfragen verbleiben im privaten Projekt, bis ein autorisierter Betreiber sie entfernt. Bezahlte Bestellungen werden so lange aufbewahrt, wie Steuer- und Buchhaltungsvorschriften es verlangen. Chats werden 180 Tage nach ihrer letzten Nachricht gelöscht. Ein direkter Datenschutzkontakt muss noch festgelegt werden.",
           "Browserdaten folgen einem anderen Lebenszyklus. Lokale Warenkorb- und Wunschlistendaten bleiben bestehen, bis du Artikel entfernst, Website-Daten löschst oder der Browser sie entfernt. Sitzungseinstellungen gelten normalerweise nur für die aktuelle Sitzung, je nach Browserverhalten. Das Entfernen von Daten auf deinem Gerät löscht keine separate Anfrage, die beim Hof gespeichert ist."
         ]
       },
@@ -1193,15 +1224,15 @@
         "title": "Annahme dieser Bedingungen",
         "paragraphs": [
           "Wenn du bei Floruvi stöberst oder über diese Website eine Anfrage sendest, stimmst du diesen Bedingungen zu. Wenn du nicht zustimmst, nutze die Website bitte nicht. Diese Bedingungen gelten zusätzlich zu unserem Datenschutzhinweis.",
-          "Diese Bedingungen beschreiben die Website, so wie sie heute funktioniert. Sie werden aktualisiert, sobald neue Funktionen wie Kundenkonten oder Online-Zahlung eingeführt werden."
+          "Wir aktualisieren diese Bedingungen, wenn sich unser Angebot ändert."
         ]
       },
       {
         "id": "service",
         "title": "Was diese Website macht",
         "paragraphs": [
-          "Auf der Website von Floruvi kannst du frische Ware durchstöbern, einen Warenkorb zusammenstellen und eine Verfügbarkeits- und Lieferanfrage senden. Das Senden einer Anfrage erstellt keine verbindliche Bestellung, zieht keine Zahlung ein und reserviert keine Ware — sie bittet den Hof, deine Anfrage zu prüfen und sich direkt mit dir in Verbindung zu setzen, um Verfügbarkeit, Preis und Lieferung zu bestätigen, bevor etwas vereinbart ist.",
-          "Begriffe wie „Kasse“, „Bestellung“ oder „Warenkorb“ auf dieser Website beschreiben diesen Anfrageprozess und keinen automatisierten Kauf. Ein Verkauf ist erst bestätigt, wenn der Hof dich kontaktiert hat und ihr euch beide auf Ware, Preis und Lieferung geeinigt habt."
+          "Auf der Website von Floruvi kannst du frische Ware durchstöbern, einen Warenkorb zusammenstellen und ihn bestellen. Wenn in Indien an der Kasse Online-Zahlung angeboten wird, ist deine Bestellung bestätigt, sobald Razorpay deine Zahlung bestätigt. Andernfalls wird an der Kasse eine Bestellanfrage gesendet, und der Hof bestätigt Verfügbarkeit, Gesamtsumme und Zahlung mit dir, bevor etwas geliefert wird.",
+          "Bestellungen aus anderen Ländern sind Anfragen. Nachdem der Hof sie geprüft hat, nennt er dir die Lieferkosten und regelt die Zahlung."
         ]
       },
       {
@@ -1215,7 +1246,7 @@
         "id": "produce",
         "title": "Ware, Preise & Verfügbarkeit",
         "paragraphs": [
-          "Wir beschreiben Ware, Packungsgrößen und Preise so genau wie möglich, doch frische Ware ist saisonal, und die Verfügbarkeit kann sich schnell ändern. Angezeigte Preise gelten in der Währung der Länderversion, die du gerade durchstöberst, und können sich ohne vorherige Ankündigung ändern, bis eine Bestellung direkt mit dir bestätigt wird. Ein auf der Website angezeigter Preis ist kein verbindliches Angebot — er wird bestätigt, wenn der Hof auf deine Anfrage antwortet.",
+          "Wir beschreiben Ware, Packungsgrößen und Preise so genau wie möglich, doch frische Ware ist saisonal, und die Verfügbarkeit kann sich schnell ändern. Preise gelten in der Währung der Länderversion, die du gerade durchstöberst, und können sich ohne vorherige Ankündigung ändern. Wenn du bezahlst, zahlst du die an der Kasse angezeigte Gesamtsumme. Bei einer Anfrage bestätigt der Hof den Preis vor der Lieferung.",
           "Fotos zeigen die beschriebene Ware und die Packungsgrößen beispielhaft, doch natürliche Abweichungen bei Größe, Farbe und Form sind zu erwarten."
         ]
       },
@@ -1223,15 +1254,15 @@
         "id": "delivery",
         "title": "Lieferung",
         "paragraphs": [
-          "Liefergebiete, Zeitpläne und Kosten werden direkt mit dir bestätigt, sobald eine Anfrage geprüft wurde, und können je nach Standort unterschiedlich sein. Das Senden einer Anfrage aus einer bestimmten Länder- oder Stadtversion dieser Website ist keine Garantie, dass dort eine Lieferung möglich ist."
+          "Wir liefern in ganz Indien innerhalb von 2 Tagen. Für einen Warenkorb mit einzelnen Produkten zahlst du pauschal {fee} für die Lieferung; für Warenkörbe, die nur Boxen enthalten, fällt keine Liefergebühr an. Unsere Versand- und Lieferrichtlinie enthält die Details. Die Kosten für Lieferungen in andere Länder nennen wir dir nach einer Prüfung."
         ]
       },
       {
         "id": "payment",
         "title": "Zahlung",
         "paragraphs": [
-          "Die Zahlung wird direkt mit dem Hof vereinbart, sobald deine Bestellung bestätigt ist. Wir ziehen über diese Website keine Zahlung ein und bieten keine Zahlung per Nachnahme an. Akzeptierte Zahlungsmethoden erfährst du, wenn deine Bestellung bestätigt wird.",
-          "Unsere Stornierungs- und Erstattungsrichtlinie erklärt, wie Stornierungen und Erstattungen funktionieren, sobald eine Bestellung bestätigt wurde."
+          "Wenn in Indien an der Kasse Online-Zahlung angeboten wird, bezahlst du über Razorpay mit UPI, Karten, Netbanking oder Wallets. Razorpay wickelt die Zahlung ab; wir sehen und speichern deine Karten- oder Bankdaten nicht. Wir bieten keine Zahlung per Nachnahme an.",
+          "Eine bezahlte Bestellung kann nicht storniert werden. Wir erstatten nur, wenn wir einen Fehler machen. Unsere Stornierungs- und Erstattungsrichtlinie erklärt das."
         ]
       },
       {
@@ -1259,7 +1290,7 @@
         "id": "changes",
         "title": "Änderungen dieser Bedingungen",
         "paragraphs": [
-          "Wir können diese Bedingungen mit der Weiterentwicklung der Website und unseres Angebots aktualisieren, zum Beispiel wenn wir Kundenkonten, Online-Zahlung oder neue Lieferoptionen einführen. Das Datum oben auf dieser Seite zeigt die letzte Überarbeitung. Wenn du die Website nach einer Änderung weiter nutzt, bedeutet das, dass du die aktualisierten Bedingungen akzeptierst."
+          "Wir können diese Bedingungen mit der Weiterentwicklung der Website und unseres Angebots aktualisieren, zum Beispiel wenn wir Kundenkonten oder neue Lieferoptionen einführen. Das Datum oben auf dieser Seite zeigt die letzte Überarbeitung. Wenn du die Website nach einer Änderung weiter nutzt, bedeutet das, dass du die aktualisierten Bedingungen akzeptierst."
         ]
       },
       {
@@ -1284,7 +1315,7 @@
   "refunds": {
     "eyebrow": "STORNIERUNGEN & ERSTATTUNGEN",
     "title": "Stornierungs- & Erstattungsrichtlinie",
-    "intro": "Wie Stornierungen & Erstattungen funktionieren, sobald eine Floruvi-Bestellung bestätigt wurde.",
+    "intro": "Frische Ware lässt sich nicht weiterverkaufen, deshalb erstatten wir nur, wenn wir bei deiner Bestellung einen Fehler machen.",
     "updated": "Aktualisiert am {date}",
     "contents": "Inhalt der Stornierungs- & Erstattungsrichtlinie",
     "inThisNotice": "In dieser Richtlinie",
@@ -1295,36 +1326,107 @@
         "id": "overview",
         "title": "Überblick",
         "paragraphs": [
-          "Diese Richtlinie erklärt, wie Stornierungen und Erstattungen für mit Floruvi bestätigte Bestellungen funktionieren. Sie gilt, sobald eine Anfrage zu einer Bestellung bestätigt wurde — wie aus einer Anfrage eine Bestellung wird, erfährst du in unseren Nutzungsbedingungen."
+          "Diese Richtlinie gilt für alle Floruvi-Bestellungen in Indien, egal ob du online bezahlst oder deine Bestellung mit dem Hof bestätigst. Wir stellen für jede Bestellung frische Ware zusammen und verpacken sie. Deshalb nehmen wir keine Rücksendungen an und erstatten keine Bestellung, die du nicht mehr möchtest."
         ]
       },
       {
-        "id": "before-delivery",
-        "title": "Stornieren vor der Lieferung",
+        "id": "cancel",
+        "title": "Eine Bestellung stornieren",
         "paragraphs": [
-          "Du kannst eine bestätigte Bestellung jederzeit vor der Lieferung stornieren, indem du uns mit deinen Bestelldetails kontaktierst. Wurde bereits gezahlt, wird der volle Betrag erstattet."
+          "Du kannst deinen Warenkorb jederzeit ändern oder leeren, bevor du bezahlst. Nach der Zahlung kann die Bestellung nicht storniert werden, weil wir dann mit dem Zusammenstellen und Verpacken beginnen.",
+          "Wenn du die Lieferadresse oder den Liefertermin ändern möchtest, kontaktiere uns so schnell wie möglich. Wir versuchen, dir zu helfen."
         ]
       },
       {
-        "id": "after-delivery",
-        "title": "Keine Erstattung nach der Lieferung",
+        "id": "our-mistake",
+        "title": "Wann wir erstatten",
         "paragraphs": [
-          "Da Floruvi frische, leicht verderbliche Ware liefert, können wir nach der Lieferung einer Bestellung keine Erstattung mehr anbieten. Bitte überprüfe deine Lieferung, sobald sie ankommt.",
-          "Die einzige Ausnahme ist ein Fehler unsererseits: Fehlt ein Artikel, ist er beschädigt oder falsch, kontaktiere uns, sobald du es bemerkst, und wir bringen es in Ordnung."
+          "Wir erstatten dir den vollen Betrag, wenn der Fehler bei uns liegt: Ein Artikel fehlt, ist beschädigt, verdorben oder falsch; die Bestellung kommt nach Ablauf unserer Lieferzeit von 2 Tagen an; oder wir können sie nicht liefern. Wenn du möchtest, ersetzen wir den Artikel stattdessen bei deiner nächsten Lieferung."
+        ]
+      },
+      {
+        "id": "report",
+        "title": "So meldest du ein Problem",
+        "paragraphs": [
+          "Kontaktiere uns innerhalb von 24 Stunden nach der Lieferung. Nenne uns deine Bestellnummer und die betroffenen Artikel, und sende ein Foto. Wir prüfen jede Meldung und antworten dir mit dem nächsten Schritt."
         ]
       },
       {
         "id": "processing-time",
-        "title": "Wie Erstattungen bearbeitet werden",
+        "title": "Wie Erstattungen ausgezahlt werden",
         "paragraphs": [
-          "Steht eine Erstattung an, bearbeiten wir sie innerhalb von 4–7 Werktagen, nachdem sie vereinbart wurde. Erstattungen erfolgen über dieselbe Zahlungsmethode, die für die Bestellung verwendet wurde."
+          "Die Erstattung erfolgt über Razorpay auf die Zahlungsmethode, die du verwendet hast. Du erhältst das Geld in der Regel 5–7 Werktage, nachdem wir die Erstattung genehmigt haben."
         ]
       },
       {
         "id": "payment-methods",
         "title": "Zahlungsmethoden",
         "paragraphs": [
-          "Wir bieten keine Zahlung per Nachnahme an. Akzeptierte Zahlungsmethoden erfährst du, wenn deine Bestellung bestätigt wird."
+          "Wenn an der Kasse Online-Zahlung angeboten wird, kannst du über Razorpay mit UPI, Karten, Netbanking oder Wallets bezahlen. Wir bieten keine Zahlung per Nachnahme an."
+        ]
+      }
+    ],
+    "banners": []
+  },
+  "shipping": {
+    "eyebrow": "VERSAND & LIEFERUNG",
+    "title": "Versand- & Lieferrichtlinie",
+    "intro": "Wohin wir liefern, wie lange es dauert & was es kostet.",
+    "updated": "Aktualisiert am {date}",
+    "contents": "Inhalt der Versand- & Lieferrichtlinie",
+    "inThisNotice": "In dieser Richtlinie",
+    "question": "Hast du eine Frage zur Lieferung?",
+    "contactLink": "Kontaktiere uns →",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Wohin wir liefern",
+        "paragraphs": [
+          "Wir liefern an jede Postleitzahl (PIN) in Indien.",
+          "Bei Lieferungen in andere Länder prüft der Hof jede Anfrage und nennt dir die Lieferkosten, bevor etwas vereinbart wird. Diese Bestellungen werden nicht online bezahlt."
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Lieferzeit",
+        "paragraphs": [
+          "Wir liefern innerhalb von 2 Tagen nach deiner Bestellung. Wir rufen dich unter der Telefonnummer an, die du angibst, um die Adresse und einen Liefertermin zu bestätigen.",
+          "Wenn wir nicht innerhalb von 2 Tagen liefern können, sagen wir dir das, bevor wir die Bestellung versenden. Du kannst dann einen späteren Termin oder eine vollständige Erstattung wählen."
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Liefergebühren",
+        "paragraphs": [
+          "Für einen Warenkorb mit einzelnen Produkten kostet die Lieferung überall in Indien pauschal {fee}. Für Warenkörbe, die nur Boxen enthalten, fällt keine Liefergebühr an. Dein Warenkorb zeigt die Liefergebühr, bevor du bezahlst."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Zahlung per Nachnahme",
+        "paragraphs": [
+          "Wir bieten keine Zahlung per Nachnahme an. Du bezahlst online an der Kasse, oder der Hof bestätigt die Zahlung vor der Lieferung mit dir."
+        ]
+      },
+      {
+        "id": "freshness",
+        "title": "Verpackung & Frische",
+        "paragraphs": [
+          "Wir verpacken die Ware so, dass sie auf dem Weg zu dir frisch bleibt. Prüfe deine Bestellung, wenn sie ankommt, und lege Blattgemüse, Kräuter und Microgreens sofort in den Kühlschrank."
+        ]
+      },
+      {
+        "id": "missed",
+        "title": "Wenn eine Lieferung verpasst wird",
+        "paragraphs": [
+          "Wenn niemand die Bestellung annehmen kann oder die Adresse nicht stimmt, kontaktieren wir dich, um einen anderen Termin zu vereinbaren."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Probleme mit einer Lieferung",
+        "paragraphs": [
+          "Wenn ein Artikel fehlt, beschädigt oder falsch ist, kontaktiere uns innerhalb von 24 Stunden. Unsere Stornierungs- und Erstattungsrichtlinie erklärt, wie es dann weitergeht."
         ]
       }
     ],

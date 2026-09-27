@@ -5631,3 +5631,10 @@ body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(92px + env(safe
   body:has(.product-page) .chat-launcher { bottom: calc(88px + env(safe-area-inset-bottom)); }
   body:has(.product-page):has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(160px + env(safe-area-inset-bottom)); }
 }
+
+/* Business contact details (shown when set in Vercel; Razorpay's review needs them). */
+.contact-details { grid-column: 1 / -1; font-style: normal; display: grid; gap: 6px; padding: 20px; border-radius: 14px; background: #efefe6; }
+.contact-details h2 { margin: 0 0 4px; font-size: 18px; }
+.contact-details p { margin: 0; overflow-wrap: anywhere; }
+.contact-details a, .footer-contact a { text-decoration: underline; text-underline-offset: 3px; }
+.footer-contact { display: flex; flex-wrap: wrap; gap: 14px; }

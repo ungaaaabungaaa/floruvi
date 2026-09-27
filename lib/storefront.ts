@@ -5,6 +5,7 @@ import { recipeImage } from "./recipes";
 import { storefrontCopy } from "./storefront-copy";
 import { getI18n } from "./i18n/server";
 import type { Messages } from "./i18n/messages";
+import { formatCurrency } from "./i18n/format";
 
 // Convex returns translated text and market prices for the version. English text
 // keeps its storefront formatting; translations are shown as translated.
@@ -49,6 +50,11 @@ export const getShop = cache(async () => {
   }));
   return { commerce: raw.commerce, categories, products };
 });
+/** The India delivery fee from Convex, for policy text. ₹99 is the launch fee (docs/15). */
+export async function deliveryFeeLabel(tag: string) {
+  const { commerce } = await getShop();
+  return formatCurrency(commerce?.deliveryFeeMinor ?? 9900, "INR", tag);
+}
 export type ShopProduct = Awaited<ReturnType<typeof getShop>>["products"][number];
 export type ShopCategory = Awaited<ReturnType<typeof getShop>>["categories"][number];
 

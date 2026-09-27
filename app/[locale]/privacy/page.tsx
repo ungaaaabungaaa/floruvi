@@ -6,7 +6,7 @@ import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
 import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
 import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
 
-const UPDATED = "2026-09-16";
+const UPDATED = "2026-09-28";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
@@ -17,10 +17,11 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
+// Positions are section indexes: after "basket", "protection" and "requests".
 const banners = [
   { after: 3, image: freshlyPicked, style: "right" },
-  { after: 7, image: colourfulTable, style: "warm left" },
-  { after: 10, image: slowMornings, style: "right" },
+  { after: 9, image: colourfulTable, style: "warm left" },
+  { after: 12, image: slowMornings, style: "right" },
 ];
 
 export default async function Privacy() {

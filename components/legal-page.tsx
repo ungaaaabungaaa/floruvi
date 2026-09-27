@@ -28,11 +28,14 @@ export function LegalPage({
   t,
   updatedDate,
   bannerSpecs = [],
+  values = {},
 }: {
   locale: { tag: string };
   t: Labels;
   updatedDate: string;
   bannerSpecs?: BannerSpec[];
+  /** Placeholders in the paragraphs, such as {fee}. */
+  values?: Record<string, string>;
 }) {
   return (
     <article className="page-width section privacy-page">
@@ -73,7 +76,7 @@ export function LegalPage({
               <div>
                 <h2 id={`${section.id}-heading`}>{section.title}</h2>
                 {section.paragraphs.map((paragraph, key) => (
-                  <p key={key}>{paragraph}</p>
+                  <p key={key}>{fill(paragraph, values)}</p>
                 ))}
               </div>
             </section>

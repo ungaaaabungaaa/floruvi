@@ -157,7 +157,8 @@ export function BasketSummary({
       </div>
       {children}
       <span className="summary-trust">
-        <ShieldCheck size={17} /> {t.basket.noPayment}
+        <ShieldCheck size={17} />{" "}
+        {review?.paymentEnabled ? t.basket.securePayment : t.basket.noPayment}
       </span>
       <Link className="text-link" href="/faq#delivery">
         {t.basket.deliveryInfo} <ArrowRight size={14} />

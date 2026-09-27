@@ -3,7 +3,7 @@ import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
 import { pageMetadata } from "@/lib/seo";
 
-const UPDATED = "2026-09-17";
+const UPDATED = "2026-09-28";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();

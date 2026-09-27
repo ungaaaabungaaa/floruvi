@@ -47,6 +47,10 @@
       "title": "Bekor qilish va pul qaytarish siyosati",
       "description": "Floruvi buyurtmalari uchun bekor qilish va pul qaytarish qanday ishlashi, jumladan muddatlar va toʻlov usullari."
     },
+    "shipping": {
+      "title": "Joʻnatish va yetkazib berish siyosati",
+      "description": "Floruvi qayerga yetkazib berishi, yetkazib berish qancha vaqt olishi, qatʼiy yetkazib berish narxi va yetkazib berishda naqd toʻlov."
+    },
     "howWeGrow": {
       "title": "Aeroponik minora ichida",
       "description": "Suvni kuzating, ildizlarni kashf eting va aylanma aeroponik minora yangi koʻkatlarni qanday oʻstirishini koʻring."
@@ -88,6 +92,7 @@
       "privacy": "Maxfiylik",
       "terms": "Xizmat koʻrsatish shartlari",
       "refunds": "Bekor qilish va pul qaytarish",
+      "shipping": "Joʻnatish va yetkazib berish",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -196,6 +201,7 @@
       "total": "Jami",
       "totalBeforeDelivery": "Yetkazib berishgacha jami",
       "noPayment": "Toʻlov olinmaydi.",
+      "securePayment": "Razorpay orqali xavfsiz toʻlov.",
       "deliveryInfo": "Yetkazib berish maʼlumoti",
       "emptyEyebrow": "YANGILIK UCHUN OʻRIN",
       "emptyTitle": "Savatingiz boʻsh.",
@@ -634,7 +640,11 @@
     "send": "Murojaatni yuborish",
     "required": "* Majburiy maydonlar.",
     "boxInterest": "{name} qutisi · {people} · {schedule}",
-    "boxMessage": "Men {people} uchun {name} sabzavot qutisini {schedule} yetkazib berilishini xohlayman. Birinchi yetkazib berishni men bilan kelishib oling."
+    "boxMessage": "Men {people} uchun {name} sabzavot qutisini {schedule} yetkazib berilishini xohlayman. Birinchi yetkazib berishni men bilan kelishib oling.",
+    "detailsTitle": "Aloqa maʼlumotlari",
+    "detailsEmail": "Email",
+    "detailsPhone": "Telefon",
+    "detailsAddress": "Manzil"
   },
   "wishlist": {
     "heroAlt": "Yangi sabzavotlar bilan toʻldirilgan zigʻir sumka",
@@ -899,7 +909,7 @@
         "questions": [
           [
             "Buyurtmani qanday beraman?",
-            "Mahsulot yoki qutini tanlang va savatga qoʻshing, soʻngra rasmiylashtirish bosqichida tanlovingizni tekshirib chiqing. Aloqa maʼlumotlaringizni kiriting va mavjudlik haqida soʻrov yuboring. Ferma soʻrovni koʻrib chiqib, keyingi qadamlarni siz bilan birga belgilaydi."
+            "Mahsulot yoki qutini tanlang, savatga qoʻshing va rasmiylashtirishga oʻting. Hindistonda rasmiylashtirishda onlayn toʻlov taklif qilinsa, onlayn toʻlang; aks holda buyurtma soʻrovini yuboring va ferma keyingi qadamlarni siz bilan tasdiqlaydi."
           ],
           [
             "Hisob ochishim kerakmi?",
@@ -949,27 +959,27 @@
         "questions": [
           [
             "Qayerlarga yetkazib berasiz?",
-            "Biz butun Hindiston boʻylab yetkazib berish soʻrovlarini qabul qilamiz. Ferma soʻrovni koʻrib chiqib, siz bilan yetkazib berishni kelishishi uchun shahringiz va hududingizni yozing."
+            "Biz Hindistondagi har bir PIN kod hududiga yetkazib beramiz. Buyurtmalar 2 kun ichida yetib keladi."
           ],
           [
             "Yetkazib berish qancha turadi?",
-            "{deliveryFee} Faqat qutilardan iborat savat uchun qoʻshimcha yetkazib berish toʻlovi olinmaydi. Soʻrov yuborishdan oldin savat summasini tekshiring."
+            "{deliveryFee} Faqat qutilardan iborat savat uchun qoʻshimcha yetkazib berish toʻlovi olinmaydi. Toʻlov qilishingiz yoki soʻrov yuborishingizdan oldin savatingizda jami summa koʻrsatiladi."
           ],
           [
             "Mahsulotim yoki birinchi qutim qachon yetib keladi?",
-            "Ferma yetkazib berishni kelishish uchun siz bilan bogʻlanadi."
+            "Buyurtma berganingizdan keyin 2 kun ichida. Manzil va yetkazib berish vaqtini tasdiqlash uchun sizga qoʻngʻiroq qilamiz."
           ],
           [
             "Onlayn toʻlov qila olamanmi?",
-            "Onlayn toʻlov qabul qilinmaydi. Ferma soʻrovingizni va toʻlov tafsilotlarini tasdiqlaydi."
+            "Hindistonda, imkoniyat mavjud boʻlganda, rasmiylashtirishda Razorpay orqali xavfsiz onlayn toʻlov (UPI, kartalar, internet-banking yoki hamyonlar) taklif qilinadi. Biz yetkazib berishda naqd toʻlovni taklif etmaymiz."
           ],
           [
             "Soʻrovni qanday oʻzgartiraman yoki bekor qilaman?",
-            "Aloqa formasidan foydalaning va soʻrovingizda ishlatilgan elektron pochta manzilini, nimani tanlaganingizni va qanday oʻzgartirish kerakligini koʻrsating. Agar yetkazib berish allaqachon kelishilgan boʻlsa, mumkin boʻlgan imkoniyatlarni muhokama qilish uchun ferma bilan bogʻlaning."
+            "Toʻlov qilishdan yoki soʻrov yuborishdan oldin savatingizni istalgan vaqtda oʻzgartirishingiz mumkin. Toʻlangan buyurtmani bekor qilib boʻlmaydi, lekin manzil yoki yetkazib berish vaqtini oʻzgartirish uchun tezda biz bilan bogʻlaning. Soʻrov boʻyicha aloqa formasidan foydalaning va ishlatgan elektron pochta manzilingizni koʻrsating."
           ],
           [
             "Yetkazib berishda muammo boʻlsa-chi?",
-            "Soʻrovingiz tafsilotlari va muammoning aniq taʼrifi bilan fermaga murojaat qiling. Taʼsirlangan mahsulotlarni va yetkazib berish qachon yetib kelganini koʻrsating. Ferma muammoni siz bilan birga koʻrib chiqishi kerak boʻladi; sayt hozircha avtomatik pul qaytarish yoki almashtirish jarayonini taklif etmaydi."
+            "Yetkazib berilgandan keyin 24 soat ichida buyurtma raqamingiz, muammoli mahsulotlar va fotosurat bilan biz bilan bogʻlaning. Xato bizdan boʻlsa, pulni qaytaramiz yoki mahsulotni almashtiramiz. Tafsilotlar Bekor qilish va pul qaytarish siyosatimizda keltirilgan."
           ]
         ]
       },
@@ -1033,6 +1043,10 @@
         "Yetkazib berish qancha turadi?",
         "{country}ga yetkazib berish narxi ferma soʻrovingizni koʻrib chiqqandan keyin aytiladi, chunki eksport xarajati manzil va buyurtma hajmiga bogʻliq. Savatingizda yetkazib berishdan oldingi mahsulot summasi koʻrsatiladi."
       ],
+      "when": [
+        "Mahsulotim yoki birinchi qutim qachon yetib keladi?",
+        "Ferma soʻrovingizni koʻrib chiqqach, {country}ga yetkazib berish sanasini tasdiqlaydi."
+      ],
       "boxDelivery": [
         "Quti narxiga yetkazib berish kiradimi?",
         "Quti narxiga faqat quti kiradi. Ferma soʻrovingizni koʻrib chiqqach, {country}ga yetkazib berish narxini aytadi."
@@ -1054,7 +1068,7 @@
         "title": "Ushbu siyosat haqida",
         "paragraphs": [
           "Ushbu siyosat Floruvi saytida koʻrib chiqqaningizda, mahsulotlarni saqlaganingizda, savat toʻldirganingizda yoki soʻrov yuborganingizda maʼlumot qanday ishlatilishini tushuntiradi. U joriy saytni, jumladan doʻkon, qutilar, retseptlar va aloqa formasini qamrab oladi. U bugungi kunda mavjud funksiyalarni taʼriflaydi.",
-          "Saytdan foydalanish uchun mijoz hisobi shart emas. Mavjudlik soʻrovini yuborish fermaga ehtiyojlaringizni koʻrib chiqib javob berish uchun maʼlumot beradi. Bu hisob yaratmaydi, toʻlov olmaydi, mahsulotni band qilmaydi yoki takroriy toʻlovni faollashtirmaydi. Ushbu siyosatda rasmiylashtirish deganda aynan shu soʻrov jarayoni nazarda tutiladi."
+          "Saytdan foydalanish uchun mijoz hisobi shart emas. Soʻrov yuborganingizda yoki buyurtma berganingizda, ferma uni tasdiqlash va yetkazib berish uchun maʼlumotlaringizdan foydalanadi. Soʻrov orqali toʻlov olinmaydi. Hindistonda rasmiylashtirishda onlayn toʻlov taklif qilinganda, toʻlovingizni Razorpay amalga oshiradi."
         ]
       },
       {
@@ -1070,7 +1084,8 @@
         "title": "Soʻrov maʼlumotlari qanday ishlatiladi",
         "paragraphs": [
           "Ferma yuborgan maʼlumotingizdan soʻrovingizni tushunish, tanlangan mahsulotlarni koʻrib chiqish, yetkazib berish ehtiyojlarini baholash va koʻrsatgan aloqa maʼlumotlaringiz orqali javob berish uchun foydalanadi. Soʻrov yozuvida yuborilgan vaqt, rozilik bildirilgan vaqt va soʻrovlarni tartiblash uchun ishlatiladigan holat mavjud boʻladi.",
-          "Soʻrovni yuborishdan oldin rozilik katagini belgilash shart. Bu rozilik soʻrovingizni koʻrib chiqishga tegishli. Joriy sayt aloqa soʻrovini yangiliklar obunasiga aylantirmaydi yoki sizni reklama kampaniyasiga qoʻshmaydi. Yuborishdan oldin formadagi maʼlumotlarni tekshiring."
+          "Soʻrovni yuborishdan oldin rozilik katagini belgilash shart. Bu rozilik soʻrovingizni koʻrib chiqishga tegishli. Joriy sayt aloqa soʻrovini yangiliklar obunasiga aylantirmaydi yoki sizni reklama kampaniyasiga qoʻshmaydi. Yuborishdan oldin formadagi maʼlumotlarni tekshiring.",
+          "Ferma har bir soʻrov va toʻlangan buyurtma haqida Telegram orqali bildirishnoma oladi. Unda ismingiz, aloqa maʼlumotlaringiz, yetkazib berish hududi va siz tanlagan mahsulotlar boʻladi."
         ]
       },
       {
@@ -1093,8 +1108,24 @@
         "id": "checkout",
         "title": "Rasmiylashtirish va yetkazib berish tafsilotlari",
         "paragraphs": [
-          "Rasmiylashtirish jarayonida kiritilgan aloqa va yetkazib berish maydonlari mavjudlik soʻrovini yuborguningizcha sahifa xotirasida qoladi. Yuborilgan soʻrovga aloqa maʼlumotlaringiz, tanlangan ekinlar yoki quti, yetkazib berish hududi va izohlar kiradi. Ixtiyoriy koʻcha manzili maydoni yuborilgan soʻrovga kiritilmaydi va soʻrov yozuvida saqlanmaydi.",
+          "Rasmiylashtirishda kiritilgan aloqa va yetkazib berish maydonlari soʻrovni yuborguningizcha yoki toʻlov qilguningizcha sahifa xotirasida qoladi. Soʻrovga aloqa maʼlumotlaringiz, tanlangan ekinlar yoki quti, yetkazib berish hududi va izohlar kiradi; ixtiyoriy koʻcha manzili yuborilmaydi. Toʻlangan buyurtmada, agar koʻcha manzilingizni koʻrsatsangiz, buyurtmani yetkazib bera olishimiz uchun u ham saqlanadi.",
           "Yuborilmagan forma maʼlumotlari Floruvi savatida saqlanmaydi. Sahifadan chiqish yoki uni qayta yuklash bu maʼlumotlarni oʻchirib yuborishi mumkin. Brauzeringiz oʻz sozlamalari asosida forma yozuvlarini avtomatik toʻldirish yoki eslab qolishni alohida taklif qilishi mumkin. Umumiy qurilmadan foydalansangiz yoki brauzeringiz shaxsiy maʼlumotlarni taklif qilishini istamasangiz, ushbu sozlamalarni tekshiring."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Onlayn toʻlovlar",
+        "paragraphs": [
+          "Onlayn toʻlaganingizda, toʻlovni Razorpay oʻzining maxfiylik siyosati asosida amalga oshiradi. Biz toʻlov holati, summa, usul (masalan, UPI yoki karta) va toʻlov identifikatorini olamiz. Biz hech qachon toʻliq karta raqamingizni, UPI PIN kodingizni yoki bank parolingizni koʻrmaymiz va saqlamaymiz.",
+          "Toʻlangan buyurtmalar buyurtma tafsilotlaringiz bilan birga Floruvi-ning Convex loyihasida saqlanadi. Biz ularni soliq va buxgalteriya qoidalari talab qilgan muddatgacha saqlaymiz."
+        ]
+      },
+      {
+        "id": "chat",
+        "title": "Saytdagi chat",
+        "paragraphs": [
+          "Saytdagi chat faqat ferma uni yoqqanda mavjud boʻladi. Undan foydalansangiz, ferma sizga javob berishi va xizmatni yaxshilashi uchun xabarlaringiz 180 kun saqlanadi. Cookie-fayl xabarlaringizni bitta suhbatga bogʻlaydi; biz uning faqat kodlangan shaklini saqlaymiz.",
+          "Javoblarni yozish uchun chat xabarlari OpenRouter va sunʼiy intellekt modeli provayderiga yuboriladi. Biz bu xabarlarni saqlamasligini va ular asosida modellarni oʻqitmasligini bildirgan provayderlarni tanlaymiz. Chatda toʻlov maʼlumotlari yoki parollarni ulashmang."
         ]
       },
       {
@@ -1118,14 +1149,14 @@
         "title": "Cookie-fayllar, analitika va qoʻshimcha xizmatlar",
         "paragraphs": [
           "Bu yerda taʼriflangan savat va sevimlilar funksiyalari lokal xotiradan foydalanadi. Retseptlarni koʻrsatish tanlovlari seans xotirasidan foydalanadi. Bular hisobga asoslangan profil emas, balki brauzer xotirasi mexanizmlaridir. Sayt xotirasi mavjudligini brauzeringiz boshqaradi va uni tozalash imkonini beradi. Xotirani oʻchirib qoʻyish ommaviy sahifalarni oʻqishingizga toʻsqinlik qilmasdan, saqlangan tanlovlaringizga taʼsir qilishi mumkin.",
-          "Joriy ilova marketing analitikasi, reklama piksellari, push-bildirishnomalar, toʻlov qabul qilish yoki faol mijoz hisoblarini oʻz ichiga olmaydi. Xosting xizmatlari saytni ishlatish uchun zarur texnik soʻrovlarni baribir qayta ishlaydi. Yangi xizmat toʻplanadigan maʼlumotni, uning maqsadini yoki qayerga yuborilishini oʻzgartirsa, ushbu siyosat qayta koʻrib chiqilishi kerak."
+          "Joriy ilova marketing analitikasi, reklama piksellari, push-bildirishnomalar yoki mijoz hisoblarini oʻz ichiga olmaydi. Xosting xizmatlari saytni ishlatish uchun zarur texnik soʻrovlarni baribir qayta ishlaydi. Yangi xizmat toʻplanadigan maʼlumotni, uning maqsadini yoki qayerga yuborilishini oʻzgartirsa, ushbu siyosat qayta koʻrib chiqilishi kerak."
         ]
       },
       {
         "id": "retention",
         "title": "Maʼlumot qancha vaqt saqlanadi",
         "paragraphs": [
-          "Soʻrov yozuvlari hozircha vakolatli operator ularni oʻchirmaguncha maxfiy loyihada saqlanadi. Joriy ilovada soʻrovlarni avtomatik oʻchirish jadvali yoʻq. Muntazam saqlash jadvali va toʻgʻridan-toʻgʻri maxfiylik aloqasi hali belgilanishi kerak. Ushbu siyosat xizmat hali taʼminlamayotgan avtomatik oʻchirish sanasini vaʼda qilmaydi.",
+          "Soʻrovlar vakolatli operator ularni oʻchirmaguncha maxfiy loyihada saqlanadi. Toʻlangan buyurtmalar soliq va buxgalteriya qoidalari talab qilgan muddatgacha saqlanadi. Chatlar oxirgi xabaridan 180 kun oʻtgach oʻchiriladi. Toʻgʻridan-toʻgʻri maxfiylik aloqasi hali belgilanishi kerak.",
           "Brauzer maʼlumotlari boshqacha hayot sikliga ega. Lokal savat va sevimlilar maʼlumotlari siz mahsulotlarni olib tashlaguningizcha, sayt maʼlumotlarini tozalaguningizcha yoki brauzer ularni oʻchirguncha qolishi mumkin. Seans tanlovlari odatda brauzer xatti-harakatiga qarab, koʻrib chiqish seansi davomida saqlanadi. Qurilmangizdan maʼlumotni oʻchirish ferma saqlayotgan alohida soʻrovni oʻchirmaydi."
         ]
       },
@@ -1193,15 +1224,15 @@
         "title": "Ushbu shartlarni qabul qilish",
         "paragraphs": [
           "Floruvi saytini koʻrib chiqsangiz yoki ushbu sayt orqali soʻrov yuborsangiz, ushbu shartlarga rozilik bildirgan boʻlasiz. Agar rozi boʻlmasangiz, iltimos, saytdan foydalanmang. Ushbu shartlar bizning Maxfiylik siyosatimiz bilan bir qatorda qoʻllaniladi.",
-          "Ushbu shartlar sayt bugungi kunda ishlayotgan koʻrinishi uchun yozilgan. Hisoblar yoki onlayn toʻlov kabi yangi funksiyalar joriy etilishi bilan ular yangilanadi."
+          "Xizmat oʻzgarganda ushbu shartlarni yangilaymiz."
         ]
       },
       {
         "id": "service",
         "title": "Ushbu sayt nima qiladi",
         "paragraphs": [
-          "Floruvi sayti yangi hosilni koʻrib chiqish, savat toʻldirish va mavjudlik hamda yetkazib berish boʻyicha soʻrov yuborish imkonini beradi. Soʻrov yuborish majburiy buyurtma yaratmaydi, toʻlov olmaydi yoki mahsulotni band qilmaydi — bu fermaga soʻrovingizni koʻrib chiqish va hech narsa kelishilmaguncha mavjudlik, narx hamda yetkazib berishni tasdiqlash uchun siz bilan bevosita bogʻlanish imkonini beradi.",
-          "Ushbu saytdagi “rasmiylashtirish”, “buyurtma” yoki “savat” kabi atamalar aynan shu soʻrov jarayonini bildiradi, avtomatik xaridni emas. Sotuv faqat ferma siz bilan bogʻlangach va ikkalangiz mahsulot, narx hamda yetkazib berish boʻyicha kelishib olgach tasdiqlanadi."
+          "Floruvi sayti yangi hosilni koʻrib chiqish, savat toʻldirish va uni buyurtma qilish imkonini beradi. Hindistonda rasmiylashtirishda onlayn toʻlov taklif qilinganda, buyurtmangiz Razorpay toʻlovingizni tasdiqlashi bilanoq tasdiqlanadi. Aks holda, rasmiylashtirish buyurtma soʻrovini yuboradi va ferma biror narsa yetkazib berilishidan oldin mavjudlik, jami summa va toʻlovni siz bilan tasdiqlaydi.",
+          "Boshqa mamlakatlardan kelgan buyurtmalar soʻrov hisoblanadi. Ferma ularni koʻrib chiqqach, yetkazib berish narxini aytadi va toʻlovni siz bilan kelishib oladi."
         ]
       },
       {
@@ -1215,7 +1246,7 @@
         "id": "produce",
         "title": "Hosil, narx va mavjudlik",
         "paragraphs": [
-          "Biz hosil, qadoq hajmi va narxlarni imkon qadar aniq taʼriflaymiz, biroq yangi hosil mavsumiy boʻlib, mavjudlik tez oʻzgarishi mumkin. Koʻrsatilgan narxlar siz koʻrib chiqayotgan mamlakat versiyasining valyutasida boʻlib, buyurtma siz bilan bevosita tasdiqlanmaguncha oldindan ogohlantirmasdan oʻzgarishi mumkin. Saytda koʻrsatilgan narx majburiy taklif emas — u ferma soʻrovingizga javob berganda tasdiqlanadi.",
+          "Biz hosil, qadoq hajmi va narxlarni imkon qadar aniq taʼriflaymiz, biroq yangi hosil mavsumiy boʻlib, mavjudlik tez oʻzgarishi mumkin. Narxlar siz koʻrib chiqayotgan mamlakat versiyasining valyutasida boʻladi va oldindan ogohlantirmasdan oʻzgarishi mumkin. Toʻlov paytida rasmiylashtirishda koʻrsatilgan jami summani toʻlaysiz. Soʻrov boʻyicha esa ferma narxni yetkazib berishdan oldin tasdiqlaydi.",
           "Rasmlar taʼriflangan hosil va qadoq hajmini aks ettiradi, biroq oʻlcham, rang va shaklda tabiiy farqlar boʻlishi mumkinligini hisobga oling."
         ]
       },
@@ -1223,15 +1254,15 @@
         "id": "delivery",
         "title": "Yetkazib berish",
         "paragraphs": [
-          "Yetkazib berish hududlari, jadvali va toʻlovlari soʻrov koʻrib chiqilgandan keyin siz bilan bevosita tasdiqlanadi va joylashuvga qarab farq qilishi mumkin. Ushbu saytning maʼlum bir mamlakat yoki shahar versiyasidan soʻrov yuborish u yerda yetkazib berish mavjudligiga kafolat bermaydi."
+          "Biz Hindiston boʻylab 2 kun ichida yetkazib beramiz. Alohida mahsulotlar solingan savat uchun yetkazib berish qatʼiy {fee} turadi; faqat qutilardan iborat savatlar uchun yetkazib berish toʻlovi olinmaydi. Tafsilotlar Joʻnatish va yetkazib berish siyosatimizda keltirilgan. Boshqa mamlakatlarga yetkazib berish narxi koʻrib chiqilgach aytiladi."
         ]
       },
       {
         "id": "payment",
         "title": "Toʻlov",
         "paragraphs": [
-          "Toʻlov buyurtmangiz tasdiqlangandan keyin ferma bilan bevosita kelishiladi. Biz ushbu sayt orqali toʻlov qabul qilmaymiz va yetkazib berishda naqd toʻlovni taklif etmaymiz. Qabul qilinadigan toʻlov usullari buyurtmangiz tasdiqlanganda sizga bildiriladi.",
-          "Bizning Bekor qilish va pul qaytarish siyosatimiz buyurtma tasdiqlangandan keyin bekor qilish va pul qaytarish qanday ishlashini tushuntiradi."
+          "Hindistonda rasmiylashtirishda onlayn toʻlov taklif qilinganda, Razorpay orqali UPI, kartalar, internet-banking yoki hamyonlar bilan toʻlaysiz. Toʻlovni Razorpay amalga oshiradi; biz karta yoki bank maʼlumotlaringizni koʻrmaymiz va saqlamaymiz. Biz yetkazib berishda naqd toʻlovni taklif etmaymiz.",
+          "Toʻlangan buyurtmani bekor qilib boʻlmaydi. Pulni faqat biz xato qilganimizda qaytaramiz. Bu Bekor qilish va pul qaytarish siyosatimizda tushuntirilgan."
         ]
       },
       {
@@ -1259,7 +1290,7 @@
         "id": "changes",
         "title": "Ushbu shartlarga oʻzgartirishlar",
         "paragraphs": [
-          "Sayt va xizmat rivojlanishi bilan ushbu shartlarni yangilashimiz mumkin — masalan, hisoblar, onlayn toʻlov yoki yangi yetkazib berish variantlarini joriy etsak. Ushbu sahifa yuqorisidagi sana oxirgi tahrirni koʻrsatadi. Oʻzgartirishdan keyin saytdan foydalanishni davom ettirish yangilangan shartlarni qabul qilganingizni bildiradi."
+          "Sayt va xizmat rivojlanishi bilan, masalan, hisoblar yoki yangi yetkazib berish variantlarini qoʻshganimizda, ushbu shartlarni yangilashimiz mumkin. Ushbu sahifa yuqorisidagi sana oxirgi tahrirni koʻrsatadi. Oʻzgartirishdan keyin saytdan foydalanishni davom ettirish yangilangan shartlarni qabul qilganingizni bildiradi."
         ]
       },
       {
@@ -1284,7 +1315,7 @@
   "refunds": {
     "eyebrow": "BEKOR QILISH VA PUL QAYTARISH",
     "title": "Bekor qilish va pul qaytarish siyosati",
-    "intro": "Floruvi buyurtmasi tasdiqlangandan keyin bekor qilish va pul qaytarish qanday ishlashi.",
+    "intro": "Yangi hosilni qayta sotish mumkin emas, shuning uchun pulni faqat buyurtmangizda xato qilganimizda qaytaramiz.",
     "updated": "Yangilangan: {date}",
     "contents": "Bekor qilish va pul qaytarish siyosati mundarijasi",
     "inThisNotice": "Ushbu siyosatda",
@@ -1295,36 +1326,107 @@
         "id": "overview",
         "title": "Umumiy maʼlumot",
         "paragraphs": [
-          "Ushbu siyosat Floruvi bilan tasdiqlangan buyurtmalar uchun bekor qilish va pul qaytarish qanday ishlashini tushuntiradi. U soʻrov tasdiqlanib buyurtmaga aylangandan keyin qoʻllaniladi — soʻrov qanday qilib buyurtmaga aylanishi haqida bizning Xizmat koʻrsatish shartlarimizga qarang."
+          "Ushbu siyosat Hindistondagi barcha Floruvi buyurtmalariga tegishli: onlayn toʻlaysizmi yoki buyurtmangizni ferma bilan tasdiqlaysizmi, farqi yoʻq. Biz har bir buyurtma uchun yangi hosilni terib, qadoqlaymiz. Shuning uchun mahsulotlarni qaytarib olmaymiz va sizga endi kerak boʻlmagan buyurtma uchun pulni qaytarmaymiz."
         ]
       },
       {
-        "id": "before-delivery",
-        "title": "Yetkazib berishdan oldin bekor qilish",
+        "id": "cancel",
+        "title": "Buyurtmani bekor qilish",
         "paragraphs": [
-          "Tasdiqlangan buyurtmani yetkazib berilgunga qadar istalgan vaqtda buyurtma tafsilotlaringiz bilan biz bilan bogʻlanib bekor qilishingiz mumkin. Agar toʻlov allaqachon amalga oshirilgan boʻlsa, u toʻliq qaytariladi."
+          "Toʻlovdan oldin savatingizni istalgan vaqtda oʻzgartirishingiz yoki boʻshatishingiz mumkin. Toʻlovdan keyin buyurtmani bekor qilib boʻlmaydi, chunki biz uni terish va qadoqlashni boshlaymiz.",
+          "Yetkazib berish manzili yoki vaqtini oʻzgartirish uchun imkon qadar tezroq biz bilan bogʻlaning. Yordam berishga harakat qilamiz."
         ]
       },
       {
-        "id": "after-delivery",
-        "title": "Yetkazib berilgandan keyin pul qaytarilmaydi",
+        "id": "our-mistake",
+        "title": "Pul qachon qaytariladi",
         "paragraphs": [
-          "Floruvi yangi, tez buziladigan hosil yetkazib berganligi sababli, buyurtma yetkazib berilgandan keyin pul qaytarishni taklif eta olmaymiz. Iltimos, buyurtmangiz yetib kelishi bilanoq uni tekshiring.",
-          "Yagona istisno — bizning xatoligimiz: agar biror mahsulot yetishmasa, shikastlangan yoki notoʻgʻri boʻlsa, buni payqashingiz bilanoq biz bilan bogʻlaning va biz buni tuzatamiz."
+          "Xato bizdan boʻlsa, pulingizni toʻliq qaytaramiz: biror mahsulot yetishmasa, shikastlangan, buzilgan yoki notoʻgʻri boʻlsa; buyurtma 2 kunlik yetkazib berish muddatimizdan kech kelsa; yoki uni yetkazib bera olmasak. Xohlasangiz, buning oʻrniga mahsulotni keyingi yetkazib berishda almashtirib beramiz."
+        ]
+      },
+      {
+        "id": "report",
+        "title": "Muammo haqida qanday xabar berish kerak",
+        "paragraphs": [
+          "Yetkazib berilgandan keyin 24 soat ichida biz bilan bogʻlaning. Buyurtma raqamingiz, muammoli mahsulotlar va fotosuratni yuboring. Biz har bir xabarni tekshiramiz va keyingi qadam haqida javob beramiz."
         ]
       },
       {
         "id": "processing-time",
-        "title": "Pul qaytarish qanday amalga oshiriladi",
+        "title": "Pul qanday qaytariladi",
         "paragraphs": [
-          "Pul qaytarish lozim boʻlgan hollarda, biz buni kelishilgandan keyin 4–7 ish kuni ichida amalga oshiramiz. Pul mablagʻi buyurtma uchun ishlatilgan xuddi shu toʻlov usuli orqali qaytariladi."
+          "Pulni Razorpay orqali siz foydalangan toʻlov usuliga qaytaramiz. Pul odatda qaytarishni tasdiqlaganimizdan keyin 5–7 ish kunida sizga yetib keladi."
         ]
       },
       {
         "id": "payment-methods",
         "title": "Toʻlov usullari",
         "paragraphs": [
-          "Biz yetkazib berishda naqd toʻlovni taklif etmaymiz. Qabul qilinadigan toʻlov usullari buyurtmangiz tasdiqlanganda sizga bildiriladi."
+          "Rasmiylashtirishda onlayn toʻlov taklif qilinganda, Razorpay orqali UPI, kartalar, internet-banking yoki hamyonlar bilan toʻlashingiz mumkin. Biz yetkazib berishda naqd toʻlovni taklif etmaymiz."
+        ]
+      }
+    ],
+    "banners": []
+  },
+  "shipping": {
+    "eyebrow": "JOʻNATISH VA YETKAZIB BERISH",
+    "title": "Joʻnatish va yetkazib berish siyosati",
+    "intro": "Qayerga yetkazib beramiz, bu qancha vaqt oladi va qancha turadi.",
+    "updated": "Yangilangan: {date}",
+    "contents": "Joʻnatish va yetkazib berish siyosati mundarijasi",
+    "inThisNotice": "Ushbu siyosatda",
+    "question": "Yetkazib berish boʻyicha savolingiz bormi?",
+    "contactLink": "Biz bilan bogʻlaning →",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Qayerga yetkazib beramiz",
+        "paragraphs": [
+          "Biz Hindistondagi har bir PIN kod hududiga yetkazib beramiz.",
+          "Boshqa mamlakatlar uchun ferma har bir soʻrovni koʻrib chiqadi va biror narsa kelishilishidan oldin yetkazib berish narxini aytadi. Bu buyurtmalar onlayn toʻlanmaydi."
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Yetkazib berish muddati",
+        "paragraphs": [
+          "Buyurtmangizdan keyin 2 kun ichida yetkazib beramiz. Manzil va yetkazib berish vaqtini tasdiqlash uchun siz bergan telefon raqamiga qoʻngʻiroq qilamiz.",
+          "Agar 2 kun ichida yetkazib bera olmasak, buyurtmani joʻnatishdan oldin sizga xabar beramiz. Shunda kechroq sanani yoki pulning toʻliq qaytarilishini tanlashingiz mumkin."
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Yetkazib berish toʻlovlari",
+        "paragraphs": [
+          "Alohida mahsulotlar solingan savat uchun yetkazib berish Hindistonning istalgan joyiga qatʼiy {fee} turadi. Faqat qutilardan iborat savatlar uchun yetkazib berish toʻlovi olinmaydi. Yetkazib berish narxi toʻlovdan oldin savatingizda koʻrsatiladi."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Yetkazib berishda naqd toʻlov",
+        "paragraphs": [
+          "Biz yetkazib berishda naqd toʻlovni taklif etmaymiz. Siz rasmiylashtirishda onlayn toʻlaysiz yoki ferma yetkazib berishdan oldin toʻlovni siz bilan tasdiqlaydi."
+        ]
+      },
+      {
+        "id": "freshness",
+        "title": "Qadoqlash va hosil yangiligi",
+        "paragraphs": [
+          "Hosil sizga yetib borguncha yangi qolishi uchun uni qadoqlaymiz. Buyurtmangiz yetib kelganda uni tekshiring va bargli sabzavotlar, koʻkatlar hamda mikrokoʻkatlarni darhol sovutgichga qoʻying."
+        ]
+      },
+      {
+        "id": "missed",
+        "title": "Yetkazib berish amalga oshmasa",
+        "paragraphs": [
+          "Agar buyurtmani qabul qilib oladigan hech kim boʻlmasa yoki manzil notoʻgʻri boʻlsa, boshqa vaqtni kelishish uchun siz bilan bogʻlanamiz."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Yetkazib berishdagi muammolar",
+        "paragraphs": [
+          "Agar biror mahsulot yetishmasa, shikastlangan yoki notoʻgʻri boʻlsa, 24 soat ichida biz bilan bogʻlaning. Keyin nima boʻlishini Bekor qilish va pul qaytarish siyosatimiz tushuntiradi."
         ]
       }
     ],

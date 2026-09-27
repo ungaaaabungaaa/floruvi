@@ -47,6 +47,10 @@
       "title": "Annulerings- en terugbetalingsbeleid",
       "description": "Hoe annuleringen en terugbetalingen werken voor bestellingen bij Floruvi, inclusief doorlooptijden en betaalmethoden."
     },
+    "shipping": {
+      "title": "Verzend- en bezorgbeleid",
+      "description": "Waar Floruvi bezorgt, hoe lang dat duurt, de vaste bezorgkosten en contante betaling bij bezorging."
+    },
     "howWeGrow": {
       "title": "In een aeroponische toren",
       "description": "Volg het water, ontdek de wortels en zie hoe een circulerende aeroponische toren verse groenten laat groeien."
@@ -88,6 +92,7 @@
       "privacy": "Privacy",
       "terms": "Servicevoorwaarden",
       "refunds": "Annuleringen en terugbetalingen",
+      "shipping": "Verzending en bezorging",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -196,6 +201,7 @@
       "total": "Totaal",
       "totalBeforeDelivery": "Totaal vóór bezorgkosten",
       "noPayment": "Er wordt niet betaald.",
+      "securePayment": "Veilig betalen via Razorpay.",
       "deliveryInfo": "Bezorginformatie",
       "emptyEyebrow": "RUIMTE VOOR IETS VERS",
       "emptyTitle": "Je winkelmandje is leeg.",
@@ -634,7 +640,11 @@
     "send": "Aanvraag verzenden",
     "required": "* Verplichte velden.",
     "boxInterest": "{name} box · {schedule} · {people}",
-    "boxMessage": "Ik wil graag een {name} groentebox voor {people}, geleverd {schedule}. Neem contact met mij op om de eerste levering te regelen."
+    "boxMessage": "Ik wil graag een {name} groentebox voor {people}, geleverd {schedule}. Neem contact met mij op om de eerste levering te regelen.",
+    "detailsTitle": "Contactgegevens",
+    "detailsEmail": "E-mail",
+    "detailsPhone": "Telefoon",
+    "detailsAddress": "Adres"
   },
   "wishlist": {
     "heroAlt": "Een linnen tas vol verse groenten",
@@ -899,7 +909,7 @@
         "questions": [
           [
             "Hoe plaats ik een bestelling?",
-            "Kies je producten of box en voeg ze toe aan je mandje. Controleer daarna je keuze bij het afrekenen. Vul je contactgegevens in en verstuur een beschikbaarheidsaanvraag. De boerderij bekijkt je aanvraag en regelt de volgende stappen met je."
+            "Kies je producten of box, voeg ze toe aan je mandje en ga naar afrekenen. Betaal in India online als dat bij het afrekenen kan; verstuur anders de bestelaanvraag, dan bevestigt de boerderij de volgende stappen met je."
           ],
           [
             "Heb ik een account nodig?",
@@ -949,27 +959,27 @@
         "questions": [
           [
             "Waar bezorgen jullie?",
-            "We nemen bezorgaanvragen aan in heel India. Deel je stad en bezorggebied, zodat de boerderij de aanvraag kan bekijken en de bezorging met je kan regelen."
+            "We bezorgen op elke postcode (PIN) in India. Bestellingen komen binnen 2 dagen aan."
           ],
           [
             "Wat kost bezorging?",
-            "{deliveryFee} Er zijn geen extra bezorgkosten voor een mandje met alleen boxen. Controleer het totaal van je mandje voordat je je aanvraag verstuurt."
+            "{deliveryFee} Er zijn geen extra bezorgkosten voor een mandje met alleen boxen. Je mandje toont het totaal voordat je betaalt of een aanvraag verstuurt."
           ],
           [
             "Wanneer komen mijn producten of eerste box aan?",
-            "De boerderij neemt contact met je op om de bezorging te regelen."
+            "Binnen 2 dagen na je bestelling. We bellen je om het adres en een bezorgmoment te bevestigen."
           ],
           [
             "Kan ik online betalen?",
-            "Er wordt geen betaling online afgehandeld. De boerderij bevestigt je aanvraag en de betaalgegevens."
+            "In India kun je bij het afrekenen veilig online betalen via Razorpay (UPI, kaarten, internetbankieren of wallets) als dat beschikbaar is. We bieden geen contante betaling bij bezorging aan."
           ],
           [
             "Hoe wijzig of annuleer ik een aanvraag?",
-            "Gebruik het contactformulier en vermeld het e-mailadres van je aanvraag, wat je hebt gekozen en de gewenste wijziging. Is de bezorging al geregeld, neem dan contact op met de boerderij om de mogelijkheden te bespreken."
+            "Je kunt je mandje op elk moment wijzigen voordat je betaalt of een aanvraag verstuurt. Een betaalde bestelling kan niet worden geannuleerd, maar neem snel contact met ons op als je het adres of het bezorgmoment wilt wijzigen. Gebruik bij een aanvraag het contactformulier en vermeld het e-mailadres dat je hebt gebruikt."
           ],
           [
             "Wat als er een probleem is met mijn bezorging?",
-            "Neem contact op met de boerderij met je aanvraaggegevens en een duidelijke omschrijving van het probleem. Vermeld de betreffende producten en wanneer de bezorging aankwam. De boerderij bekijkt het probleem samen met je; de website biedt momenteel geen automatisch terugbetalings- of vervangingsproces."
+            "Neem binnen 24 uur na de bezorging contact met ons op met je bestelnummer, de betreffende producten en een foto. Als de fout bij ons ligt, betalen we het product terug of vervangen we het. Ons annulerings- en terugbetalingsbeleid bevat de details."
           ]
         ]
       },
@@ -1033,6 +1043,10 @@
         "Wat kost bezorging?",
         "De bezorgkosten naar {country} worden opgegeven nadat de boerderij je aanvraag heeft bekeken, omdat de exportkosten afhangen van de bestemming en de omvang van de bestelling. Je mandje toont het producttotaal vóór bezorging."
       ],
+      "when": [
+        "Wanneer komen mijn producten of eerste box aan?",
+        "De boerderij bevestigt de bezorgdatum naar {country} nadat ze je aanvraag heeft bekeken."
+      ],
       "boxDelivery": [
         "Is bezorging inbegrepen bij een box?",
         "De boxprijs geldt alleen voor de box. De boerderij geeft de bezorgkosten naar {country} op na het bekijken van je aanvraag."
@@ -1054,7 +1068,7 @@
         "title": "Over deze verklaring",
         "paragraphs": [
           "Deze verklaring legt uit hoe informatie wordt gebruikt wanneer je Floruvi bezoekt, producten bewaart, een mandje samenstelt of een aanvraag verstuurt. Ze heeft betrekking op de huidige website, waaronder de shop, boxen, recepten en het contactformulier. Ze beschrijft de functies die vandaag beschikbaar zijn.",
-          "Browsen vereist geen klantaccount. Het versturen van een beschikbaarheidsaanvraag geeft de boerderij informatie om je wensen te bekijken en te reageren. Dit maakt geen account aan, int geen betaling, reserveert geen producten en activeert geen automatische betaling. Verwijzingen naar afrekenen in deze verklaring beschrijven dat aanvraagproces."
+          "Browsen vereist geen klantaccount. Als je een aanvraag verstuurt of een bestelling plaatst, gebruikt de boerderij je gegevens om de bestelling te bevestigen en te bezorgen. Bij een aanvraag wordt geen betaling geïnd. Als online betalen in India beschikbaar is bij het afrekenen, verwerkt Razorpay je betaling."
         ]
       },
       {
@@ -1070,7 +1084,8 @@
         "title": "Hoe aanvraaginformatie wordt gebruikt",
         "paragraphs": [
           "De boerderij gebruikt de informatie die je doorgeeft om je aanvraag te begrijpen, de gekozen producten te bekijken, de bezorgbehoeften te beoordelen en te reageren via de contactgegevens die je opgeeft. Het aanvraagrecord bevat een verzendtijd, een toestemmingstijd en een status waarmee aanvragen worden georganiseerd.",
-          "Een toestemmingsvakje is verplicht voordat de aanvraag kan worden verstuurd. Deze toestemming heeft betrekking op het verwerken van je aanvraag. De huidige website zet een contactaanvraag niet om in een nieuwsbriefabonnement en schrijft je niet in voor een reclamecampagne. Controleer de gegevens in je formulier voordat je het verstuurt."
+          "Een toestemmingsvakje is verplicht voordat de aanvraag kan worden verstuurd. Deze toestemming heeft betrekking op het verwerken van je aanvraag. De huidige website zet een contactaanvraag niet om in een nieuwsbriefabonnement en schrijft je niet in voor een reclamecampagne. Controleer de gegevens in je formulier voordat je het verstuurt.",
+          "De boerderij krijgt over elke aanvraag en betaalde bestelling een melding via Telegram. Die bevat je naam, contactgegevens, bezorggebied en de producten die je hebt gekozen."
         ]
       },
       {
@@ -1093,8 +1108,24 @@
         "id": "checkout",
         "title": "Afrekenen en bezorggegevens",
         "paragraphs": [
-          "Contact- en bezorgvelden die je bij het afrekenen invult, blijven in het paginageheugen totdat je de beschikbaarheidsaanvraag verstuurt. De verstuurde aanvraag bevat je contactgegevens, gekozen gewassen of box, bezorggebied en opmerkingen. Het optionele veld voor straatadres wordt niet meegestuurd in de aanvraag en niet bewaard in het aanvraagrecord.",
+          "Contact- en bezorgvelden die je bij het afrekenen invult, blijven in het paginageheugen totdat je de aanvraag verstuurt of betaalt. Een aanvraag bevat je contactgegevens, gekozen gewassen of box, bezorggebied en opmerkingen; het optionele straatadres wordt niet meegestuurd. Bij een betaalde bestelling wordt ook je straatadres bewaard, als je dat opgeeft, zodat we de bestelling kunnen bezorgen.",
           "Niet-verstuurde formuliergegevens worden niet bewaard in het Floruvi-mandje. Als je de pagina verlaat of opnieuw laadt, kunnen deze verdwijnen. Je browser kan los daarvan autoaanvullen aanbieden of formuliergegevens onthouden via zijn eigen instellingen. Bekijk die instellingen als je een gedeeld apparaat gebruikt of niet wilt dat je browser persoonlijke gegevens voorstelt."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Online betalingen",
+        "paragraphs": [
+          "Als je online betaalt, verwerkt Razorpay de betaling volgens zijn eigen privacyverklaring. Wij ontvangen de betaalstatus, het bedrag, de betaalmethode (bijvoorbeeld UPI of kaart) en een betalingsreferentie. We zien en bewaren nooit je volledige kaartnummer, je UPI-PIN of je bankwachtwoord.",
+          "Betaalde bestellingen worden met je bestelgegevens bewaard in het Convex-project van Floruvi. We bewaren ze zo lang als fiscale en boekhoudkundige regels dat vereisen."
+        ]
+      },
+      {
+        "id": "chat",
+        "title": "Websitechat",
+        "paragraphs": [
+          "De websitechat is alleen beschikbaar als de boerderij die aanzet. Als je de chat gebruikt, worden je berichten 180 dagen bewaard, zodat de boerderij je kan antwoorden en de dienst kan verbeteren. Een cookie houdt je berichten bij elkaar in één chat; we bewaren alleen een gecodeerde vorm van die cookie.",
+          "Chatberichten worden naar OpenRouter en een aanbieder van AI-modellen gestuurd om de antwoorden te schrijven. We kiezen aanbieders die zeggen dat ze deze berichten niet bewaren en niet gebruiken voor training. Deel geen betaalgegevens of wachtwoorden in de chat."
         ]
       },
       {
@@ -1118,14 +1149,14 @@
         "title": "Cookies, analyse en optionele diensten",
         "paragraphs": [
           "De hier beschreven mandje- en verlanglijstfuncties gebruiken lokale opslag. Weergavevoorkeuren voor recepten gebruiken sessieopslag. Dit zijn opslagmechanismen van de browser, geen accountgebonden profiel. Je browser bepaalt of siteopslag beschikbaar is en biedt opties om deze te wissen. Het uitschakelen van opslag kan invloed hebben op bewaarde keuzes, maar verhindert niet dat je de openbare pagina's kunt lezen.",
-          "De huidige toepassing bevat geen marketinganalyse, advertentiepixels, pushmeldingen, betalingsverwerking of actieve klantaccounts. Hostingdiensten verwerken nog steeds technische verzoeken die nodig zijn om de site te laten werken. Deze verklaring moet worden herzien wanneer een nieuwe dienst de verzamelde informatie, het doel ervan of de bestemming ervan verandert."
+          "De huidige toepassing bevat geen marketinganalyse, advertentiepixels, pushmeldingen of klantaccounts. Hostingdiensten verwerken nog steeds technische verzoeken die nodig zijn om de site te laten werken. Deze verklaring moet worden herzien wanneer een nieuwe dienst de verzamelde informatie, het doel ervan of de bestemming ervan verandert."
         ]
       },
       {
         "id": "retention",
         "title": "Hoe lang informatie bewaard blijft",
         "paragraphs": [
-          "Aanvraagrecords blijven momenteel in het privéproject totdat een bevoegde beheerder ze verwijdert. Er is nog geen automatisch verwijderingsschema voor aanvragen in de huidige toepassing. Een regelmatig bewaartermijnschema en een rechtstreeks privacycontact moeten nog worden vastgesteld. Deze verklaring belooft geen automatische verwijderdatum die de dienst nog niet toepast.",
+          "Aanvragen blijven in het privéproject totdat een bevoegde beheerder ze verwijdert. Betaalde bestellingen worden bewaard zolang fiscale en boekhoudkundige regels dat vereisen. Chats worden 180 dagen na het laatste bericht verwijderd. Een rechtstreeks privacycontact moet nog worden vastgesteld.",
           "Browsergegevens volgen een andere levenscyclus. Lokale mandje- en verlanglijstgegevens kunnen bewaard blijven totdat je producten verwijdert, sitegegevens wist of de browser ze verwijdert. Sessievoorkeuren duren normaal gesproken zolang de browsersessie, afhankelijk van het browsergedrag. Het verwijderen van gegevens van je apparaat verwijdert geen aparte aanvraag die de boerderij bewaart."
         ]
       },
@@ -1193,15 +1224,15 @@
         "title": "Aanvaarding van deze voorwaarden",
         "paragraphs": [
           "Door Floruvi te bezoeken of een aanvraag te versturen via deze website, ga je akkoord met deze voorwaarden. Als je niet akkoord gaat, gebruik de website dan niet. Deze voorwaarden gelden naast onze privacyverklaring.",
-          "Deze voorwaarden zijn geschreven voor de website zoals die vandaag werkt. Ze worden bijgewerkt zodra nieuwe functies, zoals accounts of online betalen, worden geïntroduceerd."
+          "We werken deze voorwaarden bij wanneer de dienst verandert."
         ]
       },
       {
         "id": "service",
         "title": "Wat deze website doet",
         "paragraphs": [
-          "Op de website van Floruvi kun je verse producten bekijken, een mandje samenstellen en een beschikbaarheids- en bezorgaanvraag versturen. Het versturen van een aanvraag brengt geen bindende bestelling tot stand, int geen betaling en reserveert geen producten — het vraagt de boerderij om je verzoek te bekijken en rechtstreeks contact met je op te nemen om beschikbaarheid, prijs en bezorging te bevestigen voordat er iets is afgesproken.",
-          "Verwijzingen naar “afrekenen”, “bestelling” of “mandje” op deze website beschrijven dat aanvraagproces, niet een geautomatiseerde aankoop. Een verkoop is pas bevestigd zodra de boerderij contact met je heeft opgenomen en jullie het samen eens zijn geworden over de producten, de prijs en de bezorging."
+          "Op de website van Floruvi kun je verse producten bekijken, een mandje samenstellen en dat bestellen. Als online betalen in India beschikbaar is bij het afrekenen, is je bestelling bevestigd zodra Razorpay je betaling bevestigt. Anders verstuur je bij het afrekenen een bestelaanvraag. De boerderij bevestigt dan de beschikbaarheid, het totaal en de betaling met je voordat er iets wordt bezorgd.",
+          "Bestellingen uit andere landen zijn aanvragen. Na beoordeling geeft de boerderij een prijsopgave voor de bezorging en regelt ze de betaling."
         ]
       },
       {
@@ -1215,7 +1246,7 @@
         "id": "produce",
         "title": "Producten, prijzen en beschikbaarheid",
         "paragraphs": [
-          "We beschrijven producten, verpakkingsgroottes en prijzen zo nauwkeurig mogelijk, maar verse producten zijn seizoensgebonden en de beschikbaarheid kan snel veranderen. Getoonde prijzen zijn in de valuta van de landversie die je bekijkt en kunnen zonder kennisgeving veranderen totdat een bestelling rechtstreeks met je is bevestigd. Een prijs die op de website wordt getoond, is geen bindend aanbod — deze wordt bevestigd zodra de boerderij op je aanvraag reageert.",
+          "We beschrijven producten, verpakkingsgroottes en prijzen zo nauwkeurig mogelijk, maar verse producten zijn seizoensgebonden en de beschikbaarheid kan snel veranderen. Prijzen zijn in de valuta van de landversie die je bekijkt en kunnen zonder kennisgeving veranderen. Als je betaalt, betaal je het totaal dat bij het afrekenen wordt getoond. Bij een aanvraag bevestigt de boerderij de prijs vóór de bezorging.",
           "Foto's zijn representatief voor de beschreven producten en verpakkingsgroottes, maar natuurlijke variatie in grootte, kleur en vorm is normaal."
         ]
       },
@@ -1223,15 +1254,15 @@
         "id": "delivery",
         "title": "Bezorging",
         "paragraphs": [
-          "Bezorggebieden, schema's en kosten worden rechtstreeks met je bevestigd zodra een aanvraag is bekeken, en kunnen per locatie verschillen. Het versturen van een aanvraag vanuit een bepaalde land- of stadsversie van deze website is geen garantie dat bezorging daar beschikbaar is."
+          "We bezorgen in heel India binnen 2 dagen. Voor een mandje met losse producten betaal je een vast bedrag van {fee} voor bezorging; voor een mandje met alleen boxen zijn er geen bezorgkosten. Ons verzend- en bezorgbeleid bevat de details. Voor bezorging naar andere landen krijg je na beoordeling een prijsopgave."
         ]
       },
       {
         "id": "payment",
         "title": "Betaling",
         "paragraphs": [
-          "Betaling wordt rechtstreeks met de boerderij geregeld zodra je bestelling is bevestigd. We innen geen betaling via deze website en we bieden geen contante betaling bij bezorging aan. De geaccepteerde betaalmethoden worden met je gedeeld zodra je bestelling is bevestigd.",
-          "Ons annulerings- en terugbetalingsbeleid legt uit hoe annuleringen en terugbetalingen werken zodra een bestelling is bevestigd."
+          "Als online betalen in India beschikbaar is bij het afrekenen, betaal je via Razorpay met UPI, kaarten, internetbankieren of wallets. Razorpay verwerkt de betaling; wij zien en bewaren je kaart- of bankgegevens niet. We bieden geen contante betaling bij bezorging aan.",
+          "Een betaalde bestelling kan niet worden geannuleerd. We betalen alleen terug als we een fout maken. Ons annulerings- en terugbetalingsbeleid legt dit uit."
         ]
       },
       {
@@ -1259,7 +1290,7 @@
         "id": "changes",
         "title": "Wijzigingen in deze voorwaarden",
         "paragraphs": [
-          "We kunnen deze voorwaarden bijwerken naarmate de website en de dienst zich ontwikkelen — bijvoorbeeld als we accounts, online betalen of nieuwe bezorgopties introduceren. De datum bovenaan deze pagina toont de laatste herziening. Als je de website na een wijziging blijft gebruiken, betekent dit dat je de bijgewerkte voorwaarden accepteert."
+          "We kunnen deze voorwaarden bijwerken naarmate de website en de dienst zich ontwikkelen — bijvoorbeeld als we accounts of nieuwe bezorgopties introduceren. De datum bovenaan deze pagina toont de laatste herziening. Als je de website na een wijziging blijft gebruiken, betekent dit dat je de bijgewerkte voorwaarden accepteert."
         ]
       },
       {
@@ -1284,7 +1315,7 @@
   "refunds": {
     "eyebrow": "ANNULERINGEN EN TERUGBETALINGEN",
     "title": "Annulerings- en terugbetalingsbeleid",
-    "intro": "Hoe annuleringen en terugbetalingen werken zodra een bestelling bij Floruvi is bevestigd.",
+    "intro": "Verse producten kunnen niet opnieuw worden verkocht, dus we betalen alleen terug als we een fout maken bij je bestelling.",
     "updated": "Bijgewerkt op {date}",
     "contents": "Inhoud van het annulerings- en terugbetalingsbeleid",
     "inThisNotice": "In dit beleid",
@@ -1295,36 +1326,107 @@
         "id": "overview",
         "title": "Overzicht",
         "paragraphs": [
-          "Dit beleid legt uit hoe annuleringen en terugbetalingen werken voor bestellingen die bij Floruvi zijn bevestigd. Het geldt zodra een aanvraag is bevestigd tot een bestelling — raadpleeg onze servicevoorwaarden voor hoe een aanvraag een bestelling wordt."
+          "Dit beleid geldt voor alle bestellingen bij Floruvi in India, of je nu online betaalt of je bestelling met de boerderij bevestigt. We stellen voor elke bestelling verse producten samen en verpakken ze. Daarom nemen we geen retouren aan en betalen we niets terug voor een bestelling die je niet meer wilt."
         ]
       },
       {
-        "id": "before-delivery",
-        "title": "Annuleren vóór bezorging",
+        "id": "cancel",
+        "title": "Een bestelling annuleren",
         "paragraphs": [
-          "Je kunt een bevestigde bestelling op elk moment annuleren voordat deze is bezorgd, door contact met ons op te nemen met je bestelgegevens. Als er al is betaald, wordt dit volledig terugbetaald."
+          "Je kunt je mandje op elk moment wijzigen of leegmaken voordat je betaalt. Nadat je hebt betaald, kan de bestelling niet worden geannuleerd, omdat we dan beginnen met samenstellen en verpakken.",
+          "Neem zo snel mogelijk contact met ons op om het bezorgadres of het bezorgmoment te wijzigen. We proberen je te helpen."
         ]
       },
       {
-        "id": "after-delivery",
-        "title": "Geen terugbetaling na bezorging",
+        "id": "our-mistake",
+        "title": "Wanneer we terugbetalen",
         "paragraphs": [
-          "Omdat Floruvi verse, bederfelijke producten bezorgt, kunnen we geen terugbetaling aanbieden zodra een bestelling is bezorgd. Controleer je bezorging zodra deze aankomt.",
-          "De enige uitzondering is een fout van onze kant: als een product ontbreekt, beschadigd is of niet klopt, neem dan contact met ons op zodra je dit opmerkt en we maken het goed."
+          "We betalen je het volledige bedrag terug als de fout bij ons ligt: een product ontbreekt, is beschadigd, bedorven of klopt niet; de bestelling komt later aan dan onze bezorgtijd van 2 dagen; of we kunnen de bestelling niet bezorgen. Als je dat liever hebt, vervangen we het product in plaats daarvan bij je volgende bezorging."
+        ]
+      },
+      {
+        "id": "report",
+        "title": "Zo meld je een probleem",
+        "paragraphs": [
+          "Neem binnen 24 uur na de bezorging contact met ons op. Geef je bestelnummer en de betreffende producten door, en stuur een foto. We bekijken elke melding en laten je weten wat de volgende stap is."
         ]
       },
       {
         "id": "processing-time",
-        "title": "Hoe terugbetalingen worden verwerkt",
+        "title": "Hoe we terugbetalen",
         "paragraphs": [
-          "Als een terugbetaling verschuldigd is, verwerken we deze binnen 4–7 werkdagen nadat dit is overeengekomen. Terugbetalingen worden gedaan via dezelfde betaalmethode die voor de bestelling is gebruikt."
+          "We betalen terug via Razorpay, naar de betaalmethode die je hebt gebruikt. Je ontvangt het geld meestal 5–7 werkdagen nadat we de terugbetaling hebben goedgekeurd."
         ]
       },
       {
         "id": "payment-methods",
         "title": "Betaalmethoden",
         "paragraphs": [
-          "We bieden geen contante betaling bij bezorging aan. De geaccepteerde betaalmethoden worden met je gedeeld zodra je bestelling is bevestigd."
+          "Als online betalen beschikbaar is bij het afrekenen, kun je via Razorpay betalen met UPI, kaarten, internetbankieren of wallets. We bieden geen contante betaling bij bezorging aan."
+        ]
+      }
+    ],
+    "banners": []
+  },
+  "shipping": {
+    "eyebrow": "VERZENDING EN BEZORGING",
+    "title": "Verzend- en bezorgbeleid",
+    "intro": "Waar we bezorgen, hoe lang het duurt en wat het kost.",
+    "updated": "Bijgewerkt op {date}",
+    "contents": "Inhoud van het verzend- en bezorgbeleid",
+    "inThisNotice": "In dit beleid",
+    "question": "Heb je een vraag over de bezorging?",
+    "contactLink": "Neem contact op →",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Waar we bezorgen",
+        "paragraphs": [
+          "We bezorgen op elke postcode (PIN) in India.",
+          "Voor andere landen beoordeelt de boerderij elke aanvraag en geeft een prijsopgave voor de bezorging voordat er iets wordt geregeld. Deze bestellingen worden niet online betaald."
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Bezorgtijd",
+        "paragraphs": [
+          "We bezorgen binnen 2 dagen na je bestelling. We bellen je op het telefoonnummer dat je opgeeft om het adres en een bezorgmoment te bevestigen.",
+          "Als we niet binnen 2 dagen kunnen bezorgen, laten we je dat weten voordat we de bestelling versturen. Je kunt dan kiezen voor een latere datum of een volledige terugbetaling."
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Bezorgkosten",
+        "paragraphs": [
+          "Voor een mandje met losse producten kost bezorging overal in India een vast bedrag van {fee}. Voor een mandje met alleen boxen zijn er geen bezorgkosten. Je mandje toont de bezorgkosten voordat je betaalt."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Contante betaling bij bezorging",
+        "paragraphs": [
+          "We bieden geen contante betaling bij bezorging aan. Je betaalt online bij het afrekenen, of de boerderij bevestigt de betaling vóór de bezorging met je."
+        ]
+      },
+      {
+        "id": "freshness",
+        "title": "Verpakking en versheid",
+        "paragraphs": [
+          "We verpakken de producten zo dat ze onderweg naar jou vers blijven. Controleer je bestelling wanneer die aankomt en leg bladgroenten, kruiden en microgroenten meteen in de koelkast."
+        ]
+      },
+      {
+        "id": "missed",
+        "title": "Als een bezorging mislukt",
+        "paragraphs": [
+          "Als niemand de bestelling kan aannemen of het adres niet klopt, nemen we contact met je op om een ander moment af te spreken."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Problemen met een bezorging",
+        "paragraphs": [
+          "Als een product ontbreekt, beschadigd is of niet klopt, neem dan binnen 24 uur contact met ons op. Ons annulerings- en terugbetalingsbeleid legt uit wat er daarna gebeurt."
         ]
       }
     ],

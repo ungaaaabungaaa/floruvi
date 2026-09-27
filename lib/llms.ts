@@ -79,6 +79,7 @@ export function llmsText({
     `- [${meta.privacy.title}](${url("/privacy")}): ${meta.privacy.description}`,
     `- [${meta.terms.title}](${url("/terms")}): ${meta.terms.description}`,
     `- [${meta.refunds.title}](${url("/refunds")}): ${meta.refunds.description}`,
+    `- [${meta.shipping.title}](${url("/shipping")}): ${meta.shipping.description}`,
     `- [Sitemap](${url("/sitemap.xml")}): every page in all 32 country & language versions.`,
     "",
     `### ${meta.recipes.title}`,

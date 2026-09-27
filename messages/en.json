@@ -47,6 +47,10 @@
       "title": "Cancellation & refund policy",
       "description": "How cancellations & refunds work for Floruvi orders, including timelines & payment methods."
     },
+    "shipping": {
+      "title": "Shipping & delivery policy",
+      "description": "Where Floruvi delivers, how long delivery takes, the flat delivery charge & cash on delivery."
+    },
     "howWeGrow": {
       "title": "Inside an aeroponic tower",
       "description": "Follow the water, explore the roots & see how a recirculating aeroponic tower grows fresh greens."
@@ -88,6 +92,7 @@
       "privacy": "Privacy",
       "terms": "Terms of service",
       "refunds": "Cancellations & refunds",
+      "shipping": "Shipping & delivery",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -196,6 +201,7 @@
       "total": "Total",
       "totalBeforeDelivery": "Total before delivery",
       "noPayment": "No payment taken.",
+      "securePayment": "Secure payment by Razorpay.",
       "deliveryInfo": "Delivery information",
       "emptyEyebrow": "ROOM FOR SOMETHING FRESH",
       "emptyTitle": "Your basket is empty.",
@@ -634,7 +640,11 @@
     "send": "Send enquiry",
     "required": "* Required fields.",
     "boxInterest": "{name} box · {people} · {schedule}",
-    "boxMessage": "I would like a {name} vegetable box for {people}, delivered {schedule}. Please arrange the first delivery with me."
+    "boxMessage": "I would like a {name} vegetable box for {people}, delivered {schedule}. Please arrange the first delivery with me.",
+    "detailsTitle": "Contact details",
+    "detailsEmail": "Email",
+    "detailsPhone": "Phone",
+    "detailsAddress": "Address"
   },
   "wishlist": {
     "heroAlt": "A linen bag filled with fresh vegetables",
@@ -899,7 +909,7 @@
         "questions": [
           [
             "How do I place an order?",
-            "Choose your produce or box, add it to your basket, then review your selection at checkout. Enter your contact details & send an availability request. The farm will review the request & arrange the next steps with you."
+            "Choose your produce or box, add it to your basket & go to checkout. In India, pay online when checkout offers it; otherwise, send the order request & the farm confirms the next steps with you."
           ],
           [
             "Do I need an account?",
@@ -949,27 +959,27 @@
         "questions": [
           [
             "Where do you deliver?",
-            "We accept delivery enquiries across India. Share your city & delivery area so the farm can review the request & arrange delivery with you."
+            "We deliver to every PIN code in India. Orders arrive within 2 days."
           ],
           [
             "What does delivery cost?",
-            "{deliveryFee} There is no extra delivery charge for a box-only basket. Check the basket total before sending your request."
+            "{deliveryFee} There is no extra delivery charge for a box-only basket. Your basket shows the total before you pay or send a request."
           ],
           [
             "When will my produce or first box arrive?",
-            "The farm will contact you to arrange delivery."
+            "Within 2 days of your order. We call you to confirm the address & a delivery time."
           ],
           [
             "Can I pay online?",
-            "No payment is taken online. The farm will confirm your request & payment details."
+            "In India, checkout offers secure online payment through Razorpay (UPI, cards, net banking or wallets) when it is available. We do not offer cash on delivery."
           ],
           [
             "How do I change or cancel a request?",
-            "Use the contact form & mention the email address used for your request, what you selected, & the change you need. If delivery has already been arranged, contact the farm to discuss what is possible."
+            "You can change your basket at any time before you pay or send a request. A paid order cannot be cancelled, but contact us quickly to change the address or delivery time. For a request, use the contact form & mention the email address you used."
           ],
           [
             "What if there is a problem with my delivery?",
-            "Contact the farm with your request details & a clear description of the problem. Include the affected items & when the delivery arrived. The farm will need to review the issue with you; the website does not currently offer an automatic refund or replacement process."
+            "Contact us within 24 hours of delivery with your order number, the affected items & a photo. If the mistake is ours, we refund or replace the item. Our Cancellation & refund policy has the details."
           ]
         ]
       },
@@ -1033,6 +1043,10 @@
         "What does delivery cost?",
         "Delivery to {country} is quoted after the farm reviews your request, because export costs depend on the destination & order size. Your basket shows the produce total before delivery."
       ],
+      "when": [
+        "When will my produce or first box arrive?",
+        "The farm confirms the delivery date to {country} after reviewing your request."
+      ],
       "boxDelivery": [
         "Is delivery included with a box?",
         "Box prices cover the box. The farm quotes delivery to {country} after reviewing your request."
@@ -1054,7 +1068,7 @@
         "title": "About this notice",
         "paragraphs": [
           "This notice explains how information is used when you browse Floruvi, save products, build a basket, or send an enquiry. It covers the current website, including the shop, boxes, recipes, contact form. It describes the features available today.",
-          "Browsing does not require a customer account. Sending an availability request gives the farm information to review your needs & respond. It does not create an account, collect a payment, reserve produce, or activate recurring billing. References to checkout in this notice describe that request process."
+          "Browsing does not require a customer account. When you send a request or place an order, the farm uses your details to confirm & deliver it. A request does not collect a payment. When checkout offers online payment in India, Razorpay processes your payment."
         ]
       },
       {
@@ -1070,7 +1084,8 @@
         "title": "How enquiry information is used",
         "paragraphs": [
           "The farm uses the information you submit to understand your request, review the selected produce, assess delivery needs & respond through the contact details you provide. The request record includes a submission time, a consent time & a status used to organise enquiries.",
-          "A consent checkbox is required before the enquiry can be submitted. This consent relates to handling your request. The current website does not turn a contact enquiry into a newsletter subscription or enrol you in an advertising campaign. Check the details in your form before you send it."
+          "A consent checkbox is required before the enquiry can be submitted. This consent relates to handling your request. The current website does not turn a contact enquiry into a newsletter subscription or enrol you in an advertising campaign. Check the details in your form before you send it.",
+          "The farm gets an alert about each request & paid order by Telegram. It contains your name, contact details, delivery area & the items you chose."
         ]
       },
       {
@@ -1093,8 +1108,24 @@
         "id": "checkout",
         "title": "Checkout & delivery details",
         "paragraphs": [
-          "Contact & delivery fields entered at checkout remain in page memory until you send the availability request. The submitted request includes your contact details, selected crops or box, delivery area & notes. The optional street-address field is not included in the submitted request or saved in the enquiry record.",
+          "Contact & delivery fields entered at checkout stay in page memory until you send the request or pay. A request includes your contact details, selected crops or box, delivery area & notes; the optional street address is not sent. A paid order also saves your street address, if you give one, so that we can deliver it.",
           "Unsubmitted form details are not stored in the Floruvi basket. Leaving or reloading the page can remove them. Your browser may separately offer autofill or remember form entries under its own settings. Review those settings if you use a shared device or do not want your browser to suggest personal details."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Online payments",
+        "paragraphs": [
+          "When you pay online, Razorpay processes the payment under its own privacy policy. We receive the payment status, the amount, the method (for example UPI or card) & a payment reference. We never see or store your full card number, UPI PIN or bank password.",
+          "Paid orders are stored with your order details in Floruvi’s Convex project. We keep them as long as tax & accounting rules require."
+        ]
+      },
+      {
+        "id": "chat",
+        "title": "Website chat",
+        "paragraphs": [
+          "The website chat is only available when the farm switches it on. If you use it, your messages are saved for 180 days so that the farm can answer you & improve the service. A cookie keeps your chat together; we store only a coded form of it.",
+          "Chat messages are sent to OpenRouter & an AI model provider to write the replies. We choose providers that say they do not store or train on these messages. Do not share payment details or passwords in the chat."
         ]
       },
       {
@@ -1118,14 +1149,14 @@
         "title": "Cookies, analytics & optional services",
         "paragraphs": [
           "The basket & wishlist features described here use local storage. Recipe display preferences use session storage. These are browser-storage mechanisms rather than an account-based profile. Your browser controls whether site storage is available & provides options to clear it. Disabling storage can affect saved choices without preventing you from reading the public pages.",
-          "The current application does not include marketing analytics, advertising pixels, push notifications, payment collection, or active customer accounts. Hosting services still process technical requests needed to operate the site. This notice must be reviewed when a new service changes the information collected, its purpose, or where it is sent."
+          "The current application does not include marketing analytics, advertising pixels, push notifications or customer accounts. Hosting services still process technical requests needed to operate the site. This notice must be reviewed when a new service changes the information collected, its purpose, or where it is sent."
         ]
       },
       {
         "id": "retention",
         "title": "How long information remains",
         "paragraphs": [
-          "Enquiry records currently remain in the private project until an authorised operator removes them. There is no automatic enquiry-deletion schedule in the current application. A regular retention schedule & a direct privacy contact still need to be set. This notice does not promise an automatic deletion date that the service does not yet enforce.",
+          "Requests remain in the private project until an authorised operator removes them. Paid orders are kept as long as tax & accounting rules require. Chats are deleted 180 days after their last message. A direct privacy contact still needs to be set.",
           "Browser data follows a different lifecycle. Local basket & wishlist data can remain until you remove items, clear site data, or the browser removes it. Session preferences normally last for the browsing session, subject to browser behaviour. Removing data from your device does not remove a separate enquiry held by the farm."
         ]
       },
@@ -1193,15 +1224,15 @@
         "title": "Acceptance of these terms",
         "paragraphs": [
           "By browsing Floruvi or sending an enquiry through this website, you agree to these terms. If you do not agree, please do not use the website. These terms apply alongside our Privacy notice.",
-          "These terms are written for the website as it works today. They will be updated as new features, such as accounts or online payment, are introduced."
+          "We update these terms when the service changes."
         ]
       },
       {
         "id": "service",
         "title": "What this website does",
         "paragraphs": [
-          "Floruvi's website lets you browse fresh produce, build a basket, and send an availability & delivery enquiry. Submitting an enquiry does not create a binding order, collect payment, or reserve produce — it asks the farm to review your request and get in touch with you directly to confirm availability, pricing & delivery before anything is agreed.",
-          "References to “checkout,” “order,” or “cart” on this website describe that enquiry process, not an automated purchase. A sale is only confirmed once the farm has contacted you and you have both agreed on the produce, price & delivery."
+          "Floruvi’s website lets you browse fresh produce, build a basket & order it. In India, when checkout offers online payment, your order is confirmed once Razorpay confirms your payment. Otherwise, checkout sends an order request, & the farm confirms availability, the total & payment with you before anything is delivered.",
+          "Orders from other countries are requests. The farm quotes delivery & arranges payment after reviewing them."
         ]
       },
       {
@@ -1215,7 +1246,7 @@
         "id": "produce",
         "title": "Produce, pricing & availability",
         "paragraphs": [
-          "We describe produce, pack sizes & prices as accurately as we can, but fresh produce is seasonal and availability can change quickly. Prices shown are in the currency of the country version you are browsing and can change without notice until an order is confirmed directly with you. A price shown on the website is not a binding offer — it is confirmed when the farm responds to your enquiry.",
+          "We describe produce, pack sizes & prices as accurately as we can, but fresh produce is seasonal & availability can change quickly. Prices are in the currency of the country version you are browsing & can change without notice. You pay the total shown at checkout when you pay. For a request, the farm confirms the price before delivery.",
           "Photos are representative of the produce & pack sizes described, but natural variation in size, colour & shape should be expected."
         ]
       },
@@ -1223,15 +1254,15 @@
         "id": "delivery",
         "title": "Delivery",
         "paragraphs": [
-          "Delivery areas, schedules & charges are confirmed with you directly once an enquiry is reviewed, and can vary by location. Submitting an enquiry from a particular country or city version of this website is not a guarantee that delivery is available there."
+          "We deliver across India within 2 days. A basket with individual produce pays a flat {fee} for delivery; box-only baskets have no delivery charge. Our Shipping & delivery policy has the details. Delivery to other countries is quoted after review."
         ]
       },
       {
         "id": "payment",
         "title": "Payment",
         "paragraphs": [
-          "Payment is arranged directly with the farm once your order is confirmed. We do not collect payment through this website, and we do not offer cash on delivery. Accepted payment methods are shared with you when your order is confirmed.",
-          "Our Cancellation & refund policy explains how cancellations & refunds work once an order has been confirmed."
+          "When checkout offers online payment in India, you pay with UPI, cards, net banking or wallets through Razorpay. Razorpay processes the payment; we do not see or store your card or bank details. We do not offer cash on delivery.",
+          "A paid order cannot be cancelled. We refund only when we make a mistake. Our Cancellation & refund policy explains this."
         ]
       },
       {
@@ -1259,7 +1290,7 @@
         "id": "changes",
         "title": "Changes to these terms",
         "paragraphs": [
-          "We may update these terms as the website & service develop — for example, if we introduce accounts, online payment, or new delivery options. The date at the top of this page shows the latest revision. Continued use of the website after a change means you accept the updated terms."
+          "We may update these terms as the website & service develop, for example when we add accounts or new delivery options. The date at the top of this page shows the latest revision. Continued use of the website after a change means you accept the updated terms."
         ]
       },
       {
@@ -1284,7 +1315,7 @@
   "refunds": {
     "eyebrow": "CANCELLATIONS & REFUNDS",
     "title": "Cancellation & refund policy",
-    "intro": "How cancellations & refunds work once a Floruvi order has been confirmed.",
+    "intro": "Fresh produce cannot be resold, so we refund only when we get your order wrong.",
     "updated": "Updated {date}",
     "contents": "Cancellation & refund policy contents",
     "inThisNotice": "In this policy",
@@ -1295,36 +1326,107 @@
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
-          "This policy explains how cancellations & refunds work for orders confirmed with Floruvi. It applies once an enquiry has been confirmed into an order — see our Terms of service for how an enquiry becomes an order."
+          "This policy applies to all Floruvi orders in India, whether you pay online or confirm your order with the farm. We pick & pack fresh produce for each order. So we do not take returns, and we do not refund an order you no longer want."
         ]
       },
       {
-        "id": "before-delivery",
-        "title": "Cancelling before delivery",
+        "id": "cancel",
+        "title": "Cancelling an order",
         "paragraphs": [
-          "You can cancel a confirmed order any time before it has been delivered by contacting us with your order details. If payment has already been made, it will be refunded in full."
+          "You can change or empty your basket at any time before you pay. After you pay, the order cannot be cancelled, because we start picking & packing it.",
+          "To change the delivery address or time, contact us as soon as possible. We will try to help."
         ]
       },
       {
-        "id": "after-delivery",
-        "title": "No refunds after delivery",
+        "id": "our-mistake",
+        "title": "When we refund",
         "paragraphs": [
-          "Because Floruvi delivers fresh, perishable produce, we are unable to offer a refund once an order has been delivered. Please check your delivery as soon as it arrives.",
-          "The one exception is our mistake: if an item is missing, damaged, or wrong, contact us as soon as you notice & we will make it right."
+          "We refund you in full when the mistake is ours: an item is missing, damaged, spoiled or wrong; the order arrives later than our 2-day delivery time; or we cannot deliver it. If you prefer, we replace the item in your next delivery instead."
+        ]
+      },
+      {
+        "id": "report",
+        "title": "How to report a problem",
+        "paragraphs": [
+          "Contact us within 24 hours of delivery. Send your order number, the affected items & a photo. We check every report & reply with the next step."
         ]
       },
       {
         "id": "processing-time",
-        "title": "How refunds are processed",
+        "title": "How refunds are paid",
         "paragraphs": [
-          "Where a refund is due, we process it within 4–7 working days of it being agreed. Refunds are returned using the same payment method used for the order."
+          "We refund to the payment method you used, through Razorpay. The money usually reaches you 5–7 working days after we approve the refund."
         ]
       },
       {
         "id": "payment-methods",
         "title": "Payment methods",
         "paragraphs": [
-          "We do not offer cash on delivery. Accepted payment methods are shared with you when your order is confirmed."
+          "When checkout offers online payment, you can pay with UPI, cards, net banking or wallets through Razorpay. We do not offer cash on delivery."
+        ]
+      }
+    ],
+    "banners": []
+  },
+  "shipping": {
+    "eyebrow": "SHIPPING & DELIVERY",
+    "title": "Shipping & delivery policy",
+    "intro": "Where we deliver, how long it takes & what it costs.",
+    "updated": "Updated {date}",
+    "contents": "Shipping & delivery policy contents",
+    "inThisNotice": "In this policy",
+    "question": "Have a question about delivery?",
+    "contactLink": "Contact us →",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Where we deliver",
+        "paragraphs": [
+          "We deliver to every PIN code in India.",
+          "For other countries, the farm reviews each request & quotes delivery before anything is arranged. These orders are not paid online."
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Delivery time",
+        "paragraphs": [
+          "We deliver within 2 days of your order. We call you on the phone number you give us to confirm the address & a delivery time.",
+          "If we cannot deliver within 2 days, we tell you before we send the order. You can then choose a later date or a full refund."
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Delivery charges",
+        "paragraphs": [
+          "Delivery costs a flat {fee} for a basket with individual produce, anywhere in India. Box-only baskets have no delivery charge. Your basket shows the delivery charge before you pay."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Cash on delivery",
+        "paragraphs": [
+          "We do not offer cash on delivery. You pay online at checkout, or the farm confirms payment with you before delivery."
+        ]
+      },
+      {
+        "id": "freshness",
+        "title": "Packing & freshness",
+        "paragraphs": [
+          "We pack produce to stay fresh on the way to you. Check your order when it arrives, & put greens, herbs & microgreens in the fridge straight away."
+        ]
+      },
+      {
+        "id": "missed",
+        "title": "If a delivery is missed",
+        "paragraphs": [
+          "If nobody can receive the order, or the address is not correct, we contact you to arrange another time."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Problems with a delivery",
+        "paragraphs": [
+          "If an item is missing, damaged or wrong, contact us within 24 hours. Our Cancellation & refund policy explains what happens next."
         ]
       }
     ],

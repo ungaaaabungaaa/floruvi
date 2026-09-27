@@ -2,6 +2,8 @@ import { EnquiryForm } from "./enquiry-form";
 import Image from "next/image";
 import type { Messages } from "@/lib/i18n/messages";
 import portrait from "@/src/assets/contact-portrait.webp";
+import { business } from "@/lib/site";
+
 export function EnquiryPage({
   product,
   message,
@@ -23,6 +25,30 @@ export function EnquiryPage({
         />
       </div>
       <EnquiryForm product={product} message={message} labels={labels} />
+      {(business.email || business.phone || business.address) && (
+        <address className="contact-details">
+          <h2>{labels.detailsTitle}</h2>
+          {business.name && <strong>{business.name}</strong>}
+          {business.email && (
+            <p>
+              {labels.detailsEmail}: <a href={`mailto:${business.email}`}>{business.email}</a>
+            </p>
+          )}
+          {business.phone && (
+            <p>
+              {labels.detailsPhone}:{" "}
+              <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`} dir="ltr">
+                {business.phone}
+              </a>
+            </p>
+          )}
+          {business.address && (
+            <p>
+              {labels.detailsAddress}: {business.address}
+            </p>
+          )}
+        </address>
+      )}
     </div>
   );
 }

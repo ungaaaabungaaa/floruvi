@@ -16,6 +16,8 @@ export function faqGroups(
   const exportAnswers = new Map([
     [t.groups.delivery.questions[0][0], t.export.where],
     [t.groups.delivery.questions[1][0], t.export.cost],
+    // The 2-day promise is for India only.
+    [t.groups.delivery.questions[2][0], t.export.when],
     [t.groups.boxes.questions[3][0], t.export.boxDelivery],
   ]);
   return Object.entries(t.groups).map(([id, group]) => ({

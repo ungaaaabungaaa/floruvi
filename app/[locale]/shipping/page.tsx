@@ -1,35 +1,29 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
-import { deliveryFeeLabel } from "@/lib/storefront";
 import { pageMetadata } from "@/lib/seo";
-import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
-import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
+import { deliveryFeeLabel } from "@/lib/storefront";
 
+// Owner decisions, 28 September 2026: every PIN code in India, within 2 days,
+// a flat delivery fee, no cash on delivery. Razorpay's review needs this page.
 const UPDATED = "2026-09-28";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
   return pageMetadata({
-    path: "/terms",
-    title: messages.meta.terms.title,
-    description: messages.meta.terms.description,
+    path: "/shipping",
+    title: messages.meta.shipping.title,
+    description: messages.meta.shipping.description,
   });
 }
 
-const banners = [
-  { after: 2, image: freshlyPicked, style: "right" },
-  { after: 6, image: slowMornings, style: "warm left" },
-];
-
-export default async function Terms() {
+export default async function Shipping() {
   const { locale, messages } = await getI18n();
   return (
     <LegalPage
       locale={locale}
-      t={messages.terms}
+      t={messages.shipping}
       updatedDate={UPDATED}
-      bannerSpecs={banners}
       values={{ fee: await deliveryFeeLabel(locale.tag) }}
     />
   );

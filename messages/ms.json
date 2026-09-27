@@ -47,6 +47,10 @@
       "title": "Dasar Pembatalan & Bayaran Balik",
       "description": "Cara pembatalan & bayaran balik berfungsi untuk pesanan Floruvi, termasuk garis masa & kaedah pembayaran."
     },
+    "shipping": {
+      "title": "Dasar Pengiriman & Penghantaran",
+      "description": "Ke mana Floruvi menghantar, berapa lama penghantaran mengambil masa, caj penghantaran tetap & bayaran tunai semasa penghantaran."
+    },
     "howWeGrow": {
       "title": "Di Dalam Menara Aeroponik",
       "description": "Ikuti aliran air, terokai akar & lihat cara menara aeroponik berkitar menghasilkan sayur segar."
@@ -88,6 +92,7 @@
       "privacy": "Privasi",
       "terms": "Terma perkhidmatan",
       "refunds": "Pembatalan & bayaran balik",
+      "shipping": "Pengiriman & penghantaran",
       "copyright": "© {year} Floruvi Farm"
     },
     "locale": {
@@ -192,6 +197,7 @@
       "total": "Jumlah",
       "totalBeforeDelivery": "Jumlah sebelum penghantaran",
       "noPayment": "Tiada bayaran dikenakan.",
+      "securePayment": "Pembayaran selamat melalui Razorpay.",
       "deliveryInfo": "Maklumat penghantaran",
       "emptyEyebrow": "RUANG UNTUK SESUATU YANG SEGAR",
       "emptyTitle": "Bakul anda kosong.",
@@ -629,7 +635,11 @@
     "send": "Hantar Pertanyaan",
     "required": "* Medan wajib.",
     "boxInterest": "Kotak {name} · {people} · {schedule}",
-    "boxMessage": "Saya ingin menempah kotak sayur {name} untuk {people}, dihantar {schedule}. Sila atur penghantaran pertama dengan saya."
+    "boxMessage": "Saya ingin menempah kotak sayur {name} untuk {people}, dihantar {schedule}. Sila atur penghantaran pertama dengan saya.",
+    "detailsTitle": "Butiran hubungan",
+    "detailsEmail": "E-mel",
+    "detailsPhone": "Telefon",
+    "detailsAddress": "Alamat"
   },
   "wishlist": {
     "heroAlt": "Beg linen berisi sayur-sayuran segar",
@@ -890,7 +900,7 @@
         "questions": [
           [
             "Bagaimana saya membuat pesanan?",
-            "Pilih hasil ladang atau kotak anda, tambahkannya ke dalam bakul, kemudian semak pilihan anda semasa semakan pesanan. Masukkan butiran hubungan anda dan hantar permintaan ketersediaan. Ladang akan menyemak permintaan tersebut dan mengatur langkah seterusnya bersama anda."
+            "Pilih hasil ladang atau kotak anda, tambahkannya ke dalam bakul dan teruskan ke semakan pesanan. Di India, bayar dalam talian apabila semakan pesanan menawarkannya; jika tidak, hantar permintaan pesanan dan ladang akan mengesahkan langkah seterusnya bersama anda."
           ],
           [
             "Adakah saya perlu akaun?",
@@ -940,27 +950,27 @@
         "questions": [
           [
             "Ke mana anda menghantar?",
-            "Kami menerima pertanyaan penghantaran di seluruh India. Kongsikan bandar dan kawasan penghantaran anda supaya ladang dapat menyemak permintaan tersebut dan mengatur penghantaran bersama anda."
+            "Kami menghantar ke setiap kod PIN di India. Pesanan tiba dalam tempoh 2 hari."
           ],
           [
             "Berapakah kos penghantaran?",
-            "{deliveryFee} Tiada caj penghantaran tambahan untuk bakul yang hanya mengandungi kotak. Semak jumlah bakul sebelum menghantar permintaan anda."
+            "{deliveryFee} Tiada caj penghantaran tambahan untuk bakul yang hanya mengandungi kotak. Bakul anda memaparkan jumlah sebelum anda membayar atau menghantar permintaan."
           ],
           [
             "Bilakah hasil ladang atau kotak pertama saya akan tiba?",
-            "Ladang akan menghubungi anda untuk mengatur penghantaran."
+            "Dalam tempoh 2 hari selepas anda membuat pesanan. Kami akan menelefon anda untuk mengesahkan alamat dan masa penghantaran."
           ],
           [
             "Bolehkah saya bayar dalam talian?",
-            "Tiada pembayaran diambil dalam talian. Ladang akan mengesahkan permintaan dan butiran pembayaran anda."
+            "Di India, semakan pesanan menawarkan pembayaran dalam talian yang selamat melalui Razorpay (UPI, kad, perbankan internet atau e-dompet) apabila ia tersedia. Kami tidak menawarkan bayaran tunai semasa penghantaran."
           ],
           [
             "Bagaimana saya menukar atau membatalkan permintaan?",
-            "Gunakan borang hubungi dan nyatakan alamat e-mel yang digunakan untuk permintaan anda, apa yang anda pilih, dan perubahan yang anda perlukan. Jika penghantaran telah diatur, hubungi ladang untuk membincangkan apa yang boleh dilakukan."
+            "Anda boleh menukar bakul anda pada bila-bila masa sebelum anda membayar atau menghantar permintaan. Pesanan yang telah dibayar tidak boleh dibatalkan, tetapi hubungi kami dengan segera untuk menukar alamat atau masa penghantaran. Bagi permintaan, gunakan borang hubungi dan nyatakan alamat e-mel yang anda gunakan."
           ],
           [
             "Bagaimana jika terdapat masalah dengan penghantaran saya?",
-            "Hubungi ladang dengan butiran permintaan anda dan penerangan yang jelas tentang masalah tersebut. Sertakan item yang terjejas dan masa penghantaran tiba. Ladang perlu menyemak isu tersebut bersama anda; laman web ini kini tidak menawarkan proses bayaran balik atau penggantian automatik."
+            "Hubungi kami dalam tempoh 24 jam selepas penghantaran dengan nombor pesanan anda, item yang terjejas dan sekeping foto. Jika kesilapan itu berpunca daripada pihak kami, kami akan membuat bayaran balik atau menggantikan item tersebut. Dasar pembatalan & bayaran balik kami menerangkan butirannya."
           ]
         ]
       },
@@ -1024,6 +1034,10 @@
         "Berapakah kos penghantaran?",
         "Penghantaran ke {country} akan disebut harga selepas ladang menyemak permintaan anda, kerana kos eksport bergantung pada destinasi dan saiz pesanan. Bakul anda memaparkan jumlah hasil ladang sebelum penghantaran."
       ],
+      "when": [
+        "Bilakah hasil ladang atau kotak pertama saya akan tiba?",
+        "Ladang mengesahkan tarikh penghantaran ke {country} selepas menyemak permintaan anda."
+      ],
       "boxDelivery": [
         "Adakah penghantaran termasuk dengan kotak?",
         "Harga kotak hanya meliputi kotak tersebut. Ladang akan menyebut harga penghantaran ke {country} selepas menyemak permintaan anda."
@@ -1045,7 +1059,7 @@
         "title": "Tentang notis ini",
         "paragraphs": [
           "Notis ini menerangkan cara maklumat digunakan apabila anda melayari Floruvi, menyimpan produk, membina bakul, atau menghantar pertanyaan. Ia merangkumi laman web semasa, termasuk kedai, kotak, resipi dan borang hubungi. Ia menerangkan ciri-ciri yang tersedia pada masa ini.",
-          "Melayari laman web ini tidak memerlukan akaun pelanggan. Menghantar permintaan ketersediaan memberi ladang maklumat untuk menyemak keperluan anda dan membalas. Ia tidak mewujudkan akaun, mengutip bayaran, menempah hasil ladang, atau mengaktifkan pengebilan berulang. Rujukan kepada semakan pesanan dalam notis ini menerangkan proses permintaan tersebut."
+          "Melayari laman web ini tidak memerlukan akaun pelanggan. Apabila anda menghantar permintaan atau membuat pesanan, ladang menggunakan butiran anda untuk mengesahkan dan menghantarnya. Permintaan tidak mengutip bayaran. Apabila semakan pesanan menawarkan pembayaran dalam talian di India, Razorpay memproses pembayaran anda."
         ]
       },
       {
@@ -1061,7 +1075,8 @@
         "title": "Bagaimana maklumat pertanyaan digunakan",
         "paragraphs": [
           "Ladang menggunakan maklumat yang anda hantar untuk memahami permintaan anda, menyemak hasil ladang yang dipilih, menilai keperluan penghantaran dan membalas melalui butiran hubungan yang anda berikan. Rekod permintaan merangkumi masa penghantaran borang, masa persetujuan dan status yang digunakan untuk menyusun pertanyaan.",
-          "Kotak semak persetujuan diperlukan sebelum pertanyaan dapat dihantar. Persetujuan ini berkaitan dengan pengendalian permintaan anda. Laman web semasa tidak menukarkan pertanyaan hubungi kepada langganan surat berita atau mendaftarkan anda dalam kempen pengiklanan. Semak butiran dalam borang anda sebelum menghantarnya."
+          "Kotak semak persetujuan diperlukan sebelum pertanyaan dapat dihantar. Persetujuan ini berkaitan dengan pengendalian permintaan anda. Laman web semasa tidak menukarkan pertanyaan hubungi kepada langganan surat berita atau mendaftarkan anda dalam kempen pengiklanan. Semak butiran dalam borang anda sebelum menghantarnya.",
+          "Ladang menerima makluman tentang setiap permintaan dan pesanan yang telah dibayar melalui Telegram. Makluman ini mengandungi nama anda, butiran hubungan, kawasan penghantaran dan item yang anda pilih."
         ]
       },
       {
@@ -1084,8 +1099,24 @@
         "id": "checkout",
         "title": "Butiran semakan pesanan dan penghantaran",
         "paragraphs": [
-          "Medan hubungan dan penghantaran yang dimasukkan semasa semakan pesanan kekal dalam memori halaman sehingga anda menghantar permintaan ketersediaan. Permintaan yang dihantar merangkumi butiran hubungan anda, tanaman atau kotak yang dipilih, kawasan penghantaran dan nota. Medan alamat jalan yang bersifat pilihan tidak disertakan dalam permintaan yang dihantar atau disimpan dalam rekod pertanyaan.",
+          "Medan hubungan dan penghantaran yang dimasukkan semasa semakan pesanan kekal dalam memori halaman sehingga anda menghantar permintaan atau membayar. Permintaan merangkumi butiran hubungan anda, tanaman atau kotak yang dipilih, kawasan penghantaran dan nota; alamat jalan yang bersifat pilihan tidak dihantar. Pesanan yang telah dibayar turut menyimpan alamat jalan anda, jika anda memberikannya, supaya kami dapat menghantar pesanan tersebut.",
           "Butiran borang yang belum dihantar tidak disimpan dalam bakul Floruvi. Meninggalkan atau memuat semula halaman boleh membuang butiran tersebut. Pelayar anda mungkin menawarkan autoisi atau mengingati kemasukan borang secara berasingan mengikut tetapannya sendiri. Semak tetapan tersebut jika anda menggunakan peranti yang dikongsi atau tidak mahu pelayar anda mencadangkan butiran peribadi."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Pembayaran dalam talian",
+        "paragraphs": [
+          "Apabila anda membayar dalam talian, Razorpay memproses pembayaran di bawah dasar privasinya sendiri. Kami menerima status pembayaran, jumlah, kaedah (contohnya UPI atau kad) dan rujukan pembayaran. Kami tidak sekali-kali melihat atau menyimpan nombor kad penuh, PIN UPI atau kata laluan bank anda.",
+          "Pesanan yang telah dibayar disimpan bersama butiran pesanan anda dalam projek Convex milik Floruvi. Kami menyimpannya selama yang dikehendaki oleh peraturan cukai dan perakaunan."
+        ]
+      },
+      {
+        "id": "chat",
+        "title": "Sembang laman web",
+        "paragraphs": [
+          "Sembang laman web hanya tersedia apabila ladang mengaktifkannya. Jika anda menggunakannya, mesej anda disimpan selama 180 hari supaya ladang dapat menjawab anda dan menambah baik perkhidmatan. Satu kuki menghubungkan mesej anda dalam satu perbualan; kami hanya menyimpan bentuk berkod kuki tersebut.",
+          "Mesej sembang dihantar kepada OpenRouter dan penyedia model AI untuk menulis balasan. Kami memilih penyedia yang menyatakan bahawa mereka tidak menyimpan mesej ini atau menggunakannya untuk melatih model. Jangan kongsikan butiran pembayaran atau kata laluan dalam sembang."
         ]
       },
       {
@@ -1109,14 +1140,14 @@
         "title": "Kuki, analitik dan perkhidmatan pilihan",
         "paragraphs": [
           "Ciri bakul dan senarai hasrat yang diterangkan di sini menggunakan storan tempatan. Keutamaan paparan resipi menggunakan storan sesi. Ini adalah mekanisme storan pelayar, bukan profil berasaskan akaun. Pelayar anda mengawal sama ada storan laman tersedia dan menyediakan pilihan untuk mengosongkannya. Melumpuhkan storan boleh menjejaskan pilihan yang disimpan tanpa menghalang anda daripada membaca halaman awam.",
-          "Aplikasi semasa tidak merangkumi analitik pemasaran, piksel pengiklanan, pemberitahuan tolak, kutipan bayaran, atau akaun pelanggan aktif. Perkhidmatan pengehosan masih memproses permintaan teknikal yang diperlukan untuk mengendalikan laman web ini. Notis ini perlu disemak semula apabila perkhidmatan baharu mengubah maklumat yang dikumpul, tujuannya, atau ke mana ia dihantar."
+          "Aplikasi semasa tidak merangkumi analitik pemasaran, piksel pengiklanan, pemberitahuan tolak atau akaun pelanggan. Perkhidmatan pengehosan masih memproses permintaan teknikal yang diperlukan untuk mengendalikan laman web ini. Notis ini perlu disemak semula apabila perkhidmatan baharu mengubah maklumat yang dikumpul, tujuannya, atau ke mana ia dihantar."
         ]
       },
       {
         "id": "retention",
         "title": "Berapa lama maklumat disimpan",
         "paragraphs": [
-          "Rekod pertanyaan kini kekal dalam projek peribadi sehingga pengendali yang dibenarkan membuangnya. Tiada jadual pemadaman pertanyaan automatik dalam aplikasi semasa. Jadual penyimpanan tetap dan hubungan privasi langsung masih perlu ditetapkan. Notis ini tidak menjanjikan tarikh pemadaman automatik yang belum dikuatkuasakan oleh perkhidmatan ini.",
+          "Permintaan kekal dalam projek peribadi sehingga pengendali yang dibenarkan membuangnya. Pesanan yang telah dibayar disimpan selama yang dikehendaki oleh peraturan cukai dan perakaunan. Sembang dipadamkan 180 hari selepas mesej terakhirnya. Hubungan privasi langsung masih perlu ditetapkan.",
           "Data pelayar mengikut kitaran hayat yang berbeza. Data bakul dan senarai hasrat tempatan boleh kekal sehingga anda membuang item, mengosongkan data laman, atau pelayar membuangnya. Keutamaan sesi biasanya bertahan sepanjang sesi melayari, tertakluk pada tingkah laku pelayar. Membuang data daripada peranti anda tidak membuang pertanyaan berasingan yang disimpan oleh ladang."
         ]
       },
@@ -1184,15 +1215,15 @@
         "title": "Penerimaan terma ini",
         "paragraphs": [
           "Dengan melayari Floruvi atau menghantar pertanyaan melalui laman web ini, anda bersetuju dengan terma ini. Jika anda tidak bersetuju, sila jangan gunakan laman web ini. Terma ini terpakai bersama-sama Notis privasi kami.",
-          "Terma ini ditulis untuk laman web ini sebagaimana ia berfungsi pada hari ini. Ia akan dikemas kini apabila ciri baharu, seperti akaun atau pembayaran dalam talian, diperkenalkan."
+          "Kami mengemas kini terma ini apabila perkhidmatan berubah."
         ]
       },
       {
         "id": "service",
         "title": "Apa yang laman web ini lakukan",
         "paragraphs": [
-          "Laman web Floruvi membolehkan anda melayari hasil ladang segar, membina bakul, dan menghantar pertanyaan ketersediaan & penghantaran. Menghantar pertanyaan tidak mewujudkan pesanan yang mengikat, mengutip bayaran, atau menempah hasil ladang — ia meminta ladang menyemak permintaan anda dan menghubungi anda secara langsung untuk mengesahkan ketersediaan, harga & penghantaran sebelum apa-apa dipersetujui.",
-          "Rujukan kepada “semakan pesanan,” “pesanan,” atau “bakul” pada laman web ini menerangkan proses pertanyaan tersebut, bukan pembelian automatik. Jualan hanya disahkan sebaik sahaja ladang menghubungi anda dan kedua-dua pihak bersetuju tentang hasil ladang, harga & penghantaran."
+          "Laman web Floruvi membolehkan anda melayari hasil ladang segar, membina bakul dan memesannya. Di India, apabila semakan pesanan menawarkan pembayaran dalam talian, pesanan anda disahkan sebaik sahaja Razorpay mengesahkan pembayaran anda. Jika tidak, semakan pesanan menghantar permintaan pesanan, dan ladang mengesahkan ketersediaan, jumlah & pembayaran dengan anda sebelum apa-apa dihantar.",
+          "Pesanan dari negara lain ialah permintaan. Ladang memberikan sebut harga penghantaran dan mengatur pembayaran selepas menyemaknya."
         ]
       },
       {
@@ -1206,7 +1237,7 @@
         "id": "produce",
         "title": "Hasil ladang, harga & ketersediaan",
         "paragraphs": [
-          "Kami menerangkan hasil ladang, saiz pek & harga seteliti mungkin, tetapi hasil ladang segar adalah bermusim dan ketersediaannya boleh berubah dengan cepat. Harga yang dipaparkan adalah dalam mata wang versi negara yang anda layari dan boleh berubah tanpa notis sehingga pesanan disahkan terus dengan anda. Harga yang dipaparkan pada laman web bukanlah tawaran yang mengikat — ia disahkan apabila ladang membalas pertanyaan anda.",
+          "Kami menerangkan hasil ladang, saiz pek & harga seteliti mungkin, tetapi hasil ladang segar adalah bermusim dan ketersediaannya boleh berubah dengan cepat. Harga adalah dalam mata wang versi negara yang anda layari dan boleh berubah tanpa notis. Apabila anda membayar, anda membayar jumlah yang dipaparkan semasa semakan pesanan. Bagi permintaan, ladang mengesahkan harga sebelum penghantaran.",
           "Foto adalah wakil bagi hasil ladang & saiz pek yang diterangkan, tetapi variasi semula jadi dari segi saiz, warna & bentuk perlu dijangkakan."
         ]
       },
@@ -1214,15 +1245,15 @@
         "id": "delivery",
         "title": "Penghantaran",
         "paragraphs": [
-          "Kawasan, jadual & caj penghantaran disahkan terus dengan anda sebaik sahaja pertanyaan disemak, dan boleh berbeza mengikut lokasi. Menghantar pertanyaan daripada versi negara atau bandar tertentu pada laman web ini bukanlah jaminan bahawa penghantaran tersedia di situ."
+          "Kami menghantar ke seluruh India dalam tempoh 2 hari. Bakul yang mengandungi hasil ladang secara berasingan dikenakan caj penghantaran tetap {fee}; bakul yang hanya mengandungi kotak tidak dikenakan caj penghantaran. Dasar pengiriman & penghantaran kami menerangkan butirannya. Penghantaran ke negara lain disebut harga selepas semakan."
         ]
       },
       {
         "id": "payment",
         "title": "Pembayaran",
         "paragraphs": [
-          "Pembayaran diatur terus dengan ladang sebaik sahaja pesanan anda disahkan. Kami tidak mengutip bayaran melalui laman web ini, dan kami tidak menawarkan bayaran tunai semasa penghantaran. Kaedah pembayaran yang diterima dikongsikan dengan anda apabila pesanan anda disahkan.",
-          "Dasar pembatalan & bayaran balik kami menerangkan cara pembatalan & bayaran balik berfungsi sebaik sahaja pesanan disahkan."
+          "Apabila semakan pesanan menawarkan pembayaran dalam talian di India, anda membayar dengan UPI, kad, perbankan internet atau e-dompet melalui Razorpay. Razorpay memproses pembayaran; kami tidak melihat atau menyimpan butiran kad atau bank anda. Kami tidak menawarkan bayaran tunai semasa penghantaran.",
+          "Pesanan yang telah dibayar tidak boleh dibatalkan. Kami hanya membuat bayaran balik apabila kami melakukan kesilapan. Dasar pembatalan & bayaran balik kami menerangkan perkara ini."
         ]
       },
       {
@@ -1250,7 +1281,7 @@
         "id": "changes",
         "title": "Perubahan kepada terma ini",
         "paragraphs": [
-          "Kami boleh mengemas kini terma ini seiring perkembangan laman web & perkhidmatan — contohnya, jika kami memperkenalkan akaun, pembayaran dalam talian, atau pilihan penghantaran baharu. Tarikh di bahagian atas halaman ini menunjukkan semakan terkini. Penggunaan berterusan laman web selepas sesuatu perubahan bermakna anda menerima terma yang dikemas kini."
+          "Kami boleh mengemas kini terma ini seiring perkembangan laman web & perkhidmatan, contohnya apabila kami menambah akaun atau pilihan penghantaran baharu. Tarikh di bahagian atas halaman ini menunjukkan semakan terkini. Penggunaan berterusan laman web selepas sesuatu perubahan bermakna anda menerima terma yang dikemas kini."
         ]
       },
       {
@@ -1275,7 +1306,7 @@
   "refunds": {
     "eyebrow": "PEMBATALAN & BAYARAN BALIK",
     "title": "Dasar pembatalan & bayaran balik",
-    "intro": "Cara pembatalan & bayaran balik berfungsi sebaik sahaja pesanan Floruvi disahkan.",
+    "intro": "Hasil ladang segar tidak boleh dijual semula, jadi kami hanya membuat bayaran balik apabila kami melakukan kesilapan pada pesanan anda.",
     "updated": "Dikemas kini {date}",
     "contents": "Kandungan dasar pembatalan & bayaran balik",
     "inThisNotice": "Dalam dasar ini",
@@ -1286,36 +1317,107 @@
         "id": "overview",
         "title": "Gambaran keseluruhan",
         "paragraphs": [
-          "Dasar ini menerangkan cara pembatalan & bayaran balik berfungsi untuk pesanan yang disahkan dengan Floruvi. Ia terpakai sebaik sahaja pertanyaan disahkan menjadi pesanan — rujuk Terma perkhidmatan kami untuk mengetahui cara pertanyaan menjadi pesanan."
+          "Dasar ini terpakai bagi semua pesanan Floruvi di India, sama ada anda membayar dalam talian atau mengesahkan pesanan anda dengan ladang. Kami memetik & membungkus hasil ladang segar bagi setiap pesanan. Oleh itu, kami tidak menerima pemulangan barang, dan kami tidak membuat bayaran balik bagi pesanan yang tidak lagi anda mahukan."
         ]
       },
       {
-        "id": "before-delivery",
-        "title": "Membatalkan sebelum penghantaran",
+        "id": "cancel",
+        "title": "Membatalkan pesanan",
         "paragraphs": [
-          "Anda boleh membatalkan pesanan yang telah disahkan pada bila-bila masa sebelum ia dihantar dengan menghubungi kami berserta butiran pesanan anda. Jika pembayaran telah dibuat, ia akan dibayar balik sepenuhnya."
+          "Anda boleh menukar atau mengosongkan bakul anda pada bila-bila masa sebelum anda membayar. Selepas anda membayar, pesanan tidak boleh dibatalkan kerana kami mula memetik & membungkusnya.",
+          "Untuk menukar alamat atau masa penghantaran, hubungi kami secepat mungkin. Kami akan cuba membantu."
         ]
       },
       {
-        "id": "after-delivery",
-        "title": "Tiada bayaran balik selepas penghantaran",
+        "id": "our-mistake",
+        "title": "Apabila kami membuat bayaran balik",
         "paragraphs": [
-          "Oleh sebab Floruvi menghantar hasil ladang segar yang mudah rosak, kami tidak dapat menawarkan bayaran balik sebaik sahaja sesuatu pesanan telah dihantar. Sila semak penghantaran anda sebaik sahaja ia tiba.",
-          "Satu-satunya pengecualian ialah kesilapan pihak kami: jika ada item yang tertinggal, rosak, atau salah, hubungi kami sebaik sahaja anda perasan & kami akan membetulkannya."
+          "Kami membuat bayaran balik penuh kepada anda apabila kesilapan itu berpunca daripada pihak kami: ada item yang tertinggal, rosak, busuk atau salah; pesanan tiba lewat daripada tempoh penghantaran 2 hari kami; atau kami tidak dapat menghantarnya. Jika anda lebih suka, kami menggantikan item itu dalam penghantaran anda yang seterusnya sebagai ganti bayaran balik."
+        ]
+      },
+      {
+        "id": "report",
+        "title": "Cara melaporkan masalah",
+        "paragraphs": [
+          "Hubungi kami dalam tempoh 24 jam selepas penghantaran. Hantar nombor pesanan anda, item yang terjejas & sekeping foto. Kami menyemak setiap laporan & membalas dengan langkah seterusnya."
         ]
       },
       {
         "id": "processing-time",
-        "title": "Cara bayaran balik diproses",
+        "title": "Cara bayaran balik dibuat",
         "paragraphs": [
-          "Apabila bayaran balik patut diberikan, kami akan memprosesnya dalam tempoh 4–7 hari bekerja selepas ia dipersetujui. Bayaran balik dikembalikan menggunakan kaedah pembayaran yang sama seperti yang digunakan untuk pesanan tersebut."
+          "Kami membuat bayaran balik ke kaedah pembayaran yang anda gunakan, melalui Razorpay. Wang biasanya sampai kepada anda 5–7 hari bekerja selepas kami meluluskan bayaran balik."
         ]
       },
       {
         "id": "payment-methods",
         "title": "Kaedah pembayaran",
         "paragraphs": [
-          "Kami tidak menawarkan bayaran tunai semasa penghantaran. Kaedah pembayaran yang diterima dikongsikan dengan anda apabila pesanan anda disahkan."
+          "Apabila semakan pesanan menawarkan pembayaran dalam talian, anda boleh membayar dengan UPI, kad, perbankan internet atau e-dompet melalui Razorpay. Kami tidak menawarkan bayaran tunai semasa penghantaran."
+        ]
+      }
+    ],
+    "banners": []
+  },
+  "shipping": {
+    "eyebrow": "PENGIRIMAN & PENGHANTARAN",
+    "title": "Dasar pengiriman & penghantaran",
+    "intro": "Ke mana kami menghantar, berapa lama masanya & berapa kosnya.",
+    "updated": "Dikemas kini {date}",
+    "contents": "Kandungan dasar pengiriman & penghantaran",
+    "inThisNotice": "Dalam dasar ini",
+    "question": "Ada soalan tentang penghantaran?",
+    "contactLink": "Hubungi kami →",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Ke mana kami menghantar",
+        "paragraphs": [
+          "Kami menghantar ke setiap kod PIN di India.",
+          "Bagi negara lain, ladang menyemak setiap permintaan & memberikan sebut harga penghantaran sebelum apa-apa diatur. Pesanan ini tidak dibayar dalam talian."
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Tempoh penghantaran",
+        "paragraphs": [
+          "Kami menghantar dalam tempoh 2 hari selepas anda membuat pesanan. Kami akan menelefon anda di nombor telefon yang anda berikan untuk mengesahkan alamat & masa penghantaran.",
+          "Jika kami tidak dapat menghantar dalam tempoh 2 hari, kami akan memberitahu anda sebelum kami mengirim pesanan. Anda kemudian boleh memilih tarikh yang lebih lewat atau bayaran balik penuh."
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Caj penghantaran",
+        "paragraphs": [
+          "Penghantaran dikenakan caj tetap {fee} bagi bakul yang mengandungi hasil ladang secara berasingan, di mana-mana sahaja di India. Bakul yang hanya mengandungi kotak tidak dikenakan caj penghantaran. Bakul anda memaparkan caj penghantaran sebelum anda membayar."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Bayaran tunai semasa penghantaran",
+        "paragraphs": [
+          "Kami tidak menawarkan bayaran tunai semasa penghantaran. Anda membayar dalam talian semasa semakan pesanan, atau ladang mengesahkan pembayaran dengan anda sebelum penghantaran."
+        ]
+      },
+      {
+        "id": "freshness",
+        "title": "Pembungkusan & kesegaran",
+        "paragraphs": [
+          "Kami membungkus hasil ladang supaya ia kekal segar sepanjang perjalanan kepada anda. Semak pesanan anda apabila ia tiba, & masukkan sayur berdaun, herba & mikrogrin ke dalam peti sejuk dengan segera."
+        ]
+      },
+      {
+        "id": "missed",
+        "title": "Jika penghantaran terlepas",
+        "paragraphs": [
+          "Jika tiada sesiapa dapat menerima pesanan, atau alamat tidak betul, kami akan menghubungi anda untuk mengatur masa lain."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "Masalah dengan penghantaran",
+        "paragraphs": [
+          "Jika ada item yang tertinggal, rosak atau salah, hubungi kami dalam tempoh 24 jam. Dasar pembatalan & bayaran balik kami menerangkan apa yang berlaku seterusnya."
         ]
       }
     ],
