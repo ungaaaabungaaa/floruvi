@@ -63,7 +63,7 @@ export async function setChat(form: FormData) {
     enabled: form.get("enabled") === "true",
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
-  revalidatePath("/admin");
+  revalidatePath("/admin", "layout");
 }
 
 export async function setPayments(form: FormData) {
@@ -74,7 +74,7 @@ export async function setPayments(form: FormData) {
     enabled: form.get("enabled") === "true",
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
-  revalidatePath("/admin");
+  revalidatePath("/admin", "layout");
 }
 
 export async function setStock(form: FormData) {
@@ -86,7 +86,7 @@ export async function setStock(form: FormData) {
     inStock: form.get("inStock") === "true",
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
-  revalidatePath("/admin");
+  revalidatePath("/admin", "layout");
 }
 
 /** Owner reply in a website chat, or a change of who answers it. */
@@ -102,5 +102,5 @@ export async function updateChat(form: FormData) {
     ...(["bot", "owner", "closed"].includes(mode) && { mode }),
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
-  revalidatePath("/admin/chats");
+  revalidatePath("/admin", "layout");
 }

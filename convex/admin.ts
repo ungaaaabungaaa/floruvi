@@ -66,17 +66,23 @@ export const dashboard = internalQuery({
   handler: async (ctx, { tokenHash }) => {
     const session = await activeSession(ctx, tokenHash);
     if (!session) return null;
-    const [orders, onlineOrders, products, settings, chatUsage] = await Promise.all([
+    const [orders, onlineOrders, products, settings, chatUsage, chatsWaiting] = await Promise.all([
       ctx.db.query("enquiries").order("desc").take(200),
       ctx.db.query("orders").order("desc").take(200),
       ctx.db.query("products").collect(),
       commerceSettings(ctx),
       monthUsage(ctx, Date.now()),
+      // Chats the owner took over or the assistant handed off; the overview shows the count.
+      ctx.db
+        .query("chatThreads")
+        .withIndex("by_mode", (q) => q.eq("mode", "owner"))
+        .take(100),
     ]);
     const keyId = process.env.RAZORPAY_KEY_ID?.trim();
     return {
       expiresAt: session.expiresAt,
       chatEnabled: settings?.chatEnabled === true,
+      chatsWaiting: chatsWaiting.length,
       chatSpend: {
         costMicros: chatUsage?.costMicros ?? 0,
         aiReplies: chatUsage?.aiReplies ?? 0,

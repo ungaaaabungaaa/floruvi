@@ -4,7 +4,13 @@ Built 28 September 2026. Provider research: [notifications, OTP & chat](23-notif
 
 ## What it does
 
-- **`/admin`** shows all orders & enquiries (newest 200): customer, phone, email, delivery area, items, basket total, payment status and alert status. It also has an **In stock / Out of stock** switch for every product. No quantities are tracked.
+- **Pages** (changed 28 September 2026: one long page became tabs):
+  - **Overview** (`/admin`): counts that need you, each linked to its page: paid orders (last 7 days), payments to check, requests (last 7 days), chats waiting, out-of-stock products. It also shows the chat and payment switches.
+  - **Orders** (`/admin/orders`): paid online orders, newest first. Filters: Paid, Check payment, Awaiting payment. Open an order to see the address, items and payment.
+  - **Requests** (`/admin/requests`): unpaid requests and enquiries (newest 200). Filters: Home, Business.
+  - **Chats** (`/admin/chats`): the chat inbox.
+  - **Stock** (`/admin/stock`): an **In stock / Out of stock** switch for every product, with search, a category filter and an In/Out filter. No quantities are tracked.
+  - **Settings** (`/admin/settings`): the Website chat and Online payment switches, and when the sign-in ends.
 - **Out of stock** products stay on the site with an "Out of stock" label. They cannot be added to a basket, and the server basket check blocks checkout if one is already in a basket.
 - **Website chat switch:** shows or hides the chat button for all visitors (hidden by default). Today it shows the existing catalogue guide on the English site versions. A change reaches visitors within about a minute.
 - **Order alerts:** each saved enquiry, paid order and chat hand-off sends a Telegram message to the owner, when the bot is set up. A failed alert retries after 1 and 5 minutes. A sent alert is never sent twice. The admin panel shows each result: sent, failed or off. Email alerts were removed on 28 September 2026 (owner request).

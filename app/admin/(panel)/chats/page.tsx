@@ -3,7 +3,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type ChatInbox } from "@/lib/admin";
 import { costLabel } from "@/lib/chat";
-import { updateChat } from "../actions";
+import { updateChat } from "../../actions";
+import { Filters } from "../shared";
 
 export const metadata: Metadata = { title: "Chats" };
 
@@ -30,46 +31,33 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
   if (response?.status === 401) redirect("/admin/login");
   if (!response?.ok)
     return (
-      <main className="admin-page">
-        <p className="admin-error" role="alert">
-          The chat inbox is not available yet. Deploy the Convex backend, then reload.
-        </p>
-      </main>
+      <p className="admin-error" role="alert">
+        The chat inbox is not available yet. Deploy the Convex backend, then reload.
+      </p>
     );
   const { spend, threads, selected } = (await response.json()) as ChatInbox;
   const link = (id?: string) =>
     `/admin/chats?${new URLSearchParams({ ...(id && { t: id }), ...(byCost && { sort: "cost" }) })}`;
   return (
-    <main className="admin-page">
-      <header className="admin-top">
-        <div>
-          <p className="admin-eyebrow">
-            <Link href="/admin">← Orders & stock</Link>
-          </p>
-          <h1>Chats</h1>
-          <p className="admin-muted">
-            Chats waiting for you come first. A reply takes the chat over, so the assistant stays
-            silent until you give it back. Customers see your reply within about 10 seconds while
-            their chat window is open.
-          </p>
-          <p className={spend.paused ? "admin-error" : "admin-muted"}>
-            Assistant spend in {spend.month}: <strong>{costLabel(spend.costMicros)}</strong> of{" "}
-            {costLabel(spend.monthMicros)} · {spend.aiReplies} replies.{" "}
-            {spend.paused
-              ? "Budget used up: the assistant is paused until next month."
-              : `A chat that costs more than ${costLabel(spend.chatDayMicros)} in a day goes to you.`}
-          </p>
-          <p className="admin-muted">
-            Sort:{" "}
-            {byCost ? <Link href="/admin/chats">Newest</Link> : <strong>Newest</strong>} ·{" "}
-            {byCost ? (
-              <strong>Most expensive</strong>
-            ) : (
-              <Link href="/admin/chats?sort=cost">Most expensive</Link>
-            )}
-          </p>
-        </div>
-      </header>
+    <>
+      <h1>Chats</h1>
+      <p className="admin-muted">
+        Chats waiting for you come first. Your reply takes the chat over until you give it back.
+      </p>
+      <p className={spend.paused ? "admin-error" : "admin-muted"}>
+        Assistant spend in {spend.month}: <strong>{costLabel(spend.costMicros)}</strong> of{" "}
+        {costLabel(spend.monthMicros)} · {spend.aiReplies} replies.{" "}
+        {spend.paused
+          ? "Budget used up: the assistant is paused until next month."
+          : `A chat that costs more than ${costLabel(spend.chatDayMicros)} in a day goes to you.`}
+      </p>
+      <Filters
+        label="Sort chats"
+        options={[
+          { href: "/admin/chats", label: "Newest", current: !byCost },
+          { href: "/admin/chats?sort=cost", label: "Most expensive", current: byCost },
+        ]}
+      />
       <div className="admin-chats">
         <nav aria-label="Chats">
           {threads.length === 0 && <p className="admin-muted">No chats yet.</p>}
@@ -159,6 +147,6 @@ export default async function AdminChats({ searchParams }: PageProps<"/admin/cha
           <p className="admin-muted">Choose a chat.</p>
         )}
       </div>
-    </main>
+    </>
   );
 }
