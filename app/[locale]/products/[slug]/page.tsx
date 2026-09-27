@@ -21,7 +21,7 @@ import { fill, formatCurrency, type CurrencyCode } from "@/lib/i18n/format";
 import { localizePath } from "@/lib/i18n/config";
 import { recipesForProduct } from "@/lib/product-recipes";
 import { productImages } from "@/lib/product-images";
-import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 import { breadcrumbList, schemaPrice } from "@/lib/structured-data";
 import { ProductGallery } from "@/components/product-gallery";
@@ -51,14 +51,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const [{ locale, messages }, result] = await Promise.all([getI18n(), getProduct(slug)]);
   if (!result) return { title: messages.meta.productNotFound, robots: { index: false } };
   const { product } = result;
-  const image = product.imageUrl ?? productImages[product.slug]?.src;
+  const local = productImages[product.slug];
+  const image = product.imageUrl ? { url: product.imageUrl } : local && shareImage(local);
   const price = product.price;
   return pageMetadata({
     path: `/products/${slug}`,
-    title: fill(messages.meta.productTitle, {
-      name: product.name,
-      country: locale.countryName,
-    }),
+    title: fill(
+      locale.domestic ? messages.meta.productTitle : messages.meta.productTitleExport,
+      { name: product.name, country: locale.countryName },
+    ),
     description: price
       ? fill(messages.meta.productDescription, {
           description: product.description,
@@ -66,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           price: formatCurrency(price.amountMinor, price.currency as CurrencyCode, locale.tag),
         })
       : product.description,
-    image: image ? { url: image, alt: product.name } : undefined,
+    image: image ? { ...image, alt: product.name } : undefined,
   });
 }
 
@@ -82,23 +83,28 @@ export default async function ProductDetails({ params }: Props) {
   const { product: p, details, record } = result;
   const t = messages.product;
   const inlineName = locale.language === "de" ? p.name : p.name.toLocaleLowerCase(locale.tag);
-  const related = shop.products
-    .filter((q) => q.slug !== p.slug)
-    .sort(
-      (a, b) =>
-        Number(b.category === p.category) - Number(a.category === p.category),
-    )
-    .slice(0, 4);
+  // The next products in the same category, so every product is recommended somewhere.
+  const sameCategory = shop.products.filter((q) => q.category === p.category);
+  const position = sameCategory.findIndex((q) => q.slug === p.slug);
+  const related = [
+    ...sameCategory.slice(position + 1),
+    ...sameCategory.slice(0, Math.max(0, position)),
+    ...shop.products.filter((q) => q.category !== p.category),
+  ].slice(0, 4);
   // Recipe matching reads the stored English uses & category keys.
   const meals = recipesForProduct(
     { slug: p.slug, category: p.category, uses: record.uses },
     recipes.map((recipe) => ({ ...recipe, category: recipe.categoryKey })),
+    Object.fromEntries(shop.products.map((q) => [q.slug, q.category])),
   ).map(({ recipe, direct }) => ({
     recipe: recipes.find((item) => item.slug === recipe.slug)!,
     direct,
   }));
+  const directMeals = meals.filter((meal) => meal.direct);
+  const deliveryFee = shop.commerce?.deliveryFeeMinor;
   const url = absoluteUrl(localizePath(locale.locale, `/products/${p.slug}`));
-  const image = p.imageUrl ?? (productImages[p.slug] && absoluteUrl(productImages[p.slug].src));
+  const localImage = productImages[p.slug];
+  const image = p.imageUrl ?? (localImage && absoluteUrl(shareImage(localImage).url));
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -109,7 +115,6 @@ export default async function ProductDetails({ params }: Props) {
         category: shop.categories.find((c) => c.slug === p.category)?.name,
         sku: p.slug,
         url,
-        inLanguage: locale.tag,
         brand: { "@type": "Brand", name: "Floruvi" },
         ...(image ? { image } : {}),
         ...(p.price
@@ -178,35 +183,41 @@ export default async function ProductDetails({ params }: Props) {
             </span>
             <span>
               <Truck />
-              {locale.domestic
-                ? t.assurances.domestic
-                : fill(t.assurances.export, { country: locale.countryName })}
+              {!locale.domestic
+                ? fill(t.assurances.export, { country: locale.countryName })
+                : deliveryFee == null
+                  ? t.assurances.domestic
+                  : fill(t.assurances.domesticFee, {
+                      fee: formatCurrency(deliveryFee, "INR", locale.tag),
+                    })}
             </span>
           </div>
-          <div className="hero-meals">
-            <div className="hero-meals-heading">
-              <h2>{t.waysToEnjoy}</h2>
-              <a href="#ways-heading">
-                {t.seeAllRecipes} <ArrowUpRight size={14} />
-              </a>
+          {directMeals.length > 0 && (
+            <div className="hero-meals">
+              <div className="hero-meals-heading">
+                <h2>{t.waysToEnjoy}</h2>
+                <a href="#ways-heading">
+                  {t.seeAllRecipes} <ArrowUpRight size={14} />
+                </a>
+              </div>
+              <div className="hero-meal-list">
+                {directMeals.slice(0, 3).map(({ recipe }) => (
+                  <Link href={`/recipes/${recipe.slug}`} key={recipe.slug}>
+                    <Image
+                      src={recipe.image}
+                      alt={recipe.name}
+                      width={100}
+                      height={100}
+                    />
+                    <div>
+                      <h3>{recipe.name}</h3>
+                      <p>{fill(t.minutes, { count: recipe.minutes })}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
-            <div className="hero-meal-list">
-              {meals.slice(0, 3).map(({ recipe }) => (
-                <Link href={`/recipes/${recipe.slug}`} key={recipe.slug}>
-                  <Image
-                    src={recipe.image}
-                    alt={recipe.name}
-                    width={100}
-                    height={100}
-                  />
-                  <div>
-                    <h3>{recipe.name}</h3>
-                    <p>{fill(t.minutes, { count: recipe.minutes })}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
+          )}
           {details && (
             <div className="hero-storage">
               <Leaf size={23} />

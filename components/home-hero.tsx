@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight, Pause, Play, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useI18n } from "./i18n/provider";
-import { Suspense, useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import harvest from "@/src/assets/home-hero/harvest.webp";
 import dailyGreens from "@/src/assets/home-hero/daily-greens.webp";
 import colour from "@/src/assets/home-hero/colour.webp";
@@ -28,10 +28,12 @@ export function HomeHero({
   labels,
   search,
   categories,
+  pageQuery,
 }: {
   labels: Messages["home"];
   search: Messages["shop"];
   categories: ShopCategory[];
+  pageQuery: string;
 }) {
   const router = useRouter();
   const { href } = useI18n();
@@ -189,9 +191,7 @@ export function HomeHero({
             </button>
           </form>
         </div>
-        <Suspense fallback={null}>
-          <HomeHeroChips categories={categories} labels={search} />
-        </Suspense>
+        <HomeHeroChips categories={categories} labels={search} query={pageQuery} />
       </div>
       <div className="home-hero-bottom">
         <div className="home-hero-index" aria-hidden="true">

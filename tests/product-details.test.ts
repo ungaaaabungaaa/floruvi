@@ -26,8 +26,8 @@ test("all 91 products have complete details and one of six banner choices", () =
       ),
     );
     const linked = recipesForProduct(product, recipeCatalogue);
-    assert.equal(linked.length, 5);
-    assert.equal(new Set(linked.map((m) => m.recipe.slug)).size, 5);
+    assert.ok(linked.length >= 5 && linked.length <= 10, product.slug);
+    assert.equal(new Set(linked.map((m) => m.recipe.slug)).size, linked.length);
     assert.ok(
       linked.every((m) =>
         recipeCatalogue.some((r) => r.slug === m.recipe.slug),
@@ -51,4 +51,24 @@ test("direct crop recipes lead and unrelated recipes are labelled as inspiration
   assert.ok(
     recipesForProduct(flowers, recipeCatalogue).every((m) => !m.direct),
   );
+});
+
+test("product pages link every recipe and spread inspiration instead of repeating a few", () => {
+  const categories = Object.fromEntries(cropCatalogue.map((p) => [p.slug, p.category]));
+  const linked = new Set<string>();
+  const inspiration = new Map<string, number>();
+  for (const product of cropCatalogue)
+    for (const { recipe, direct } of recipesForProduct(product, recipeCatalogue, categories)) {
+      linked.add(recipe.slug);
+      if (!direct) inspiration.set(recipe.slug, (inspiration.get(recipe.slug) ?? 0) + 1);
+    }
+  assert.equal(linked.size, recipeCatalogue.length);
+  // Alphabetical filling once put one salad on 52 product pages.
+  assert.ok(Math.max(...inspiration.values()) <= 25);
+  const tomatoes = recipesForProduct(
+    cropCatalogue.find((p) => p.slug === "cherry-tomatoes")!,
+    recipeCatalogue,
+    categories,
+  );
+  assert.ok(tomatoes.length > 5 && tomatoes.every((m) => m.direct));
 });

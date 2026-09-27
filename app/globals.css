@@ -8,6 +8,7 @@
   --line: #dcded1;
   --cream: #efefe3;
   --accent: #c5cc9b;
+  --heart: #e25c5c;
   --radius: 0.5rem;
   --background: var(--paper);
   --foreground: var(--ink);
@@ -4457,7 +4458,7 @@ button:disabled {
 .product-page .gallery-main { aspect-ratio: 1; width: 100%; border-radius: 18px; }
 .product-page .gallery-thumbnails { flex-direction: row; gap: 12px; }
 .product-page .gallery-thumbnails button { flex: 1; max-width: 25%; width: auto; height: auto; aspect-ratio: 1; border-radius: 12px; }
-.wishlist-heart { position: absolute; z-index: 2; right: 17px; top: 17px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: #fafaf4; color: var(--green); display: grid; place-items: center; cursor: pointer; }
+.wishlist-heart { position: absolute; z-index: 2; right: 17px; top: 17px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: #fafaf4; color: var(--heart); display: grid; place-items: center; cursor: pointer; }
 .gallery-recipe-link { position: absolute; z-index: 2; right: 15px; bottom: 15px; display: flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 30px; background: #fafaf4; font-size: 12px; }
 .product-page .detail-copy .add-crop { display: flex; flex-wrap: wrap; gap: 12px; }
 .product-page .detail-copy .add-crop > .button { flex: 1; border-radius: 12px; justify-content: center; min-height: 52px; }
@@ -4596,7 +4597,9 @@ button:disabled {
 .faq-trigger { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; padding: 20px 0; background: transparent; border: 0; font: 600 18px/1.5 var(--font-sans), sans-serif; color: var(--green); text-align: left; text-decoration: none; cursor: pointer; }
 .faq-trigger:hover { text-decoration: none; }
 .faq-chevron { flex-shrink: 0; color: var(--muted); transition: transform .2s; }
-.faq-trigger[data-state="open"] .faq-chevron { transform: rotate(180deg); }
+.faq-trigger { list-style: none; }
+.faq-trigger::-webkit-details-marker { display: none; }
+details[open] > .faq-trigger .faq-chevron { transform: rotate(180deg); }
 @media(prefers-reduced-motion:reduce) { .faq-chevron { transition: none; } }
 .faq-content { overflow: hidden; }
 .faq-content p { max-width: 760px; padding-bottom: 22px; font-size: 14px; line-height: 1.7; color: var(--muted); }
@@ -5524,4 +5527,58 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
     font-size: 12px;
     letter-spacing: .01em;
   }
+}
+
+/* Cart pill: floating "View cart" button (Blinkit style) in the site's green. */
+.cart-pill {
+  position: fixed;
+  z-index: 30;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  translate: -50% 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  max-width: calc(100vw - 32px);
+  padding: 8px 10px 8px 8px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 10px 28px rgb(12 48 35 / 30%);
+  animation: cart-pill-in 280ms cubic-bezier(.2, .9, .3, 1.15) both;
+}
+.cart-pill-thumbs { display: flex; }
+.cart-pill-thumbs > span {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border: 2px solid var(--green);
+  border-radius: 50%;
+  background: #fff;
+  animation: cart-pill-pop 240ms ease-out both;
+}
+.cart-pill-thumbs > span + span { margin-inline-start: -14px; }
+.cart-pill-thumbs img { width: 36px; height: 36px; object-fit: cover; border-radius: 50%; }
+.cart-pill-text { display: flex; flex-direction: column; min-width: 0; overflow: hidden; line-height: 1.25; padding-inline-end: 4px; }
+.cart-pill-text strong { font-size: 15px; font-weight: 700; white-space: nowrap; }
+.cart-pill-text small { font-size: 12px; opacity: .88; white-space: nowrap; animation: cart-pill-count 300ms ease-out both; }
+.cart-pill-go { display: grid; flex-shrink: 0; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgb(255 255 255 / 16%); }
+[dir="rtl"] .cart-pill-go svg { transform: scaleX(-1); }
+.cart-pill:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+@media (hover: hover) { .cart-pill:hover { background: #3b5e42; } }
+body:has(.cart-pill) { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+@media (max-width: 600px) {
+  /* Sit above the product page's fixed cart bar. */
+  body:has(.product-page) .cart-pill { bottom: calc(88px + env(safe-area-inset-bottom)); }
+  body:has(.product-page):has(.cart-pill) { padding-bottom: calc(176px + env(safe-area-inset-bottom)); }
+}
+@keyframes cart-pill-in { from { opacity: 0; transform: translateY(24px) scale(.94); } }
+@keyframes cart-pill-pop { from { opacity: 0; transform: scale(.4); } }
+@keyframes cart-pill-count { from { opacity: 0; transform: translateY(-70%); } }
+@media (prefers-reduced-motion: reduce) {
+  .cart-pill, .cart-pill-thumbs > span, .cart-pill-text small { animation: none; }
 }

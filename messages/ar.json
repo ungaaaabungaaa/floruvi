@@ -6,8 +6,9 @@
     "description": "اكتشف الخضار الورقية والأعشاب والمايكروجرين والمزيد. منتجات طازجة لمنزلك أو عملك، تُوصَّل في جميع أنحاء الهند.",
     "descriptionExport": "اكتشف الخضار الورقية والأعشاب والمايكروجرين والمزيد. منتجات طازجة من الهند للمنازل والأعمال في {country}.",
     "ogAlt": "Floruvi — نضارة تستحق الزراعة",
-    "productTitle": "{name} – {country}",
-    "productDescription": "{description}. {pack}: {price}.",
+    "productTitle": "اطلب {name} عبر الإنترنت في {country}",
+    "productTitleExport": "{name} من الهند – {country}",
+    "productDescription": "{description} {pack} بسعر {price}.",
     "recipeTitle": "وصفة {name}",
     "products": {
       "title": "منتجاتنا",
@@ -131,6 +132,17 @@
         "few": "المفضّلة، {count} منتجات محفوظة",
         "many": "المفضّلة، {count} منتجاً محفوظاً",
         "other": "المفضّلة، {count} منتج محفوظ"
+      }
+    },
+    "cartPill": {
+      "view": "عرض السلة",
+      "items": {
+        "zero": "{count} منتجات",
+        "one": "{count} منتج",
+        "two": "{count} منتجان",
+        "few": "{count} منتجات",
+        "many": "{count} منتجاً",
+        "other": "{count} منتج"
       }
     },
     "boxes": {
@@ -415,8 +427,7 @@
       "other": "{count} نتيجة في فئات أخرى."
     },
     "tryName": "جرّب اسم محصول، مثل السبانخ أو الكزبرة.",
-    "searchAll": "البحث في كل الفئات",
-    "loading": "جارٍ تحميل المنتجات…"
+    "searchAll": "البحث في كل الفئات"
   },
   "product": {
     "assurances": {
@@ -424,6 +435,7 @@
       "care": "تُزرع بعناية",
       "cook": "اطهُ بطريقتك",
       "domestic": "في جميع أنحاء الهند",
+      "domesticFee": "توصيل بـ {fee} إلى كل أنحاء الهند",
       "export": "من الهند إلى {country}"
     },
     "waysToEnjoy": "طرق الاستمتاع",

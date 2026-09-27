@@ -6,7 +6,8 @@
     "description": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten voor thuis of je bedrijf, geleverd in heel India.",
     "descriptionExport": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten uit India voor thuis en bedrijven in {country}.",
     "ogAlt": "Floruvi — Versheid die de moeite waard is",
-    "productTitle": "{name} – {country}",
+    "productTitle": "{name} online bestellen in {country}",
+    "productTitleExport": "{name} uit India – {country}",
     "productDescription": "{description} {pack} – {price}.",
     "recipeTitle": "{name} recept",
     "products": {
@@ -123,6 +124,13 @@
       "menu": {
         "one": "Verlanglijst, {count} opgeslagen product",
         "other": "Verlanglijst, {count} opgeslagen producten"
+      }
+    },
+    "cartPill": {
+      "view": "Bekijk winkelmandje",
+      "items": {
+        "one": "{count} artikel",
+        "other": "{count} artikelen"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "{count} matches in andere categorieën."
     },
     "tryName": "Probeer een gewasnaam, zoals rucola of raketsla.",
-    "searchAll": "Zoek in alle categorieën",
-    "loading": "Producten laden…"
+    "searchAll": "Zoek in alle categorieën"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "Met zorg geteeld",
       "cook": "Bereid op jouw manier",
       "domestic": "In heel India",
+      "domesticFee": "{fee} bezorging in heel India",
       "export": "Van India naar {country}"
     },
     "waysToEnjoy": "Manieren om te genieten",

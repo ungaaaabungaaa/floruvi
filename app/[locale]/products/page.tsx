@@ -4,6 +4,7 @@ import { getShop } from "@/lib/storefront";
 import { getI18n } from "@/lib/i18n/server";
 import { localizePath } from "@/lib/i18n/config";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { queryString } from "@/lib/query";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
@@ -14,10 +15,11 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default async function Products() {
-  const [{ locale, messages }, { products, categories }] = await Promise.all([
+export default async function Products({ searchParams }: PageProps<"/[locale]/products">) {
+  const [{ locale, messages }, { products, categories }, params] = await Promise.all([
     getI18n(),
     getShop(),
+    searchParams,
   ]);
   const list = {
     "@context": "https://schema.org",
@@ -38,6 +40,7 @@ export default async function Products() {
         products={products}
         categories={categories}
         labels={messages.shop}
+        query={queryString(params)}
       />
     </div>
   );

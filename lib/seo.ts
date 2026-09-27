@@ -61,6 +61,18 @@ export async function pageMetadata({
   };
 }
 
+/** An optimised copy (at most 1200 px wide) of a local image for share cards and structured data. */
+export function shareImage(image: { src: string; width: number; height: number }) {
+  if (!image.src.startsWith("/")) return { url: image.src };
+  // The optimiser never enlarges, so a narrower source keeps its own size.
+  const width = Math.min(1200, image.width);
+  return {
+    url: `/_next/image?url=${encodeURIComponent(image.src)}&w=1200&q=75`,
+    width,
+    height: Math.round((width * image.height) / image.width),
+  };
+}
+
 /** Serialise JSON-LD safely inside a script tag. */
 export function jsonLd(data: unknown) {
   return { __html: JSON.stringify(data).replace(/</g, "\\u003c") };

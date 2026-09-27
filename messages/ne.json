@@ -6,7 +6,8 @@
     "description": "पातदार सागपात, जडीबुटी, माइक्रोग्रिन्स र थप हेर्नुहोस्। तपाईंको घर वा व्यवसायका लागि ताजा उब्जनी, भारतभर डेलिभर गरिन्छ।",
     "descriptionExport": "पातदार सागपात, जडीबुटी, माइक्रोग्रिन्स र थप हेर्नुहोस्। {country} का घर र व्यवसायका लागि भारतबाट ताजा उब्जनी।",
     "ogAlt": "Floruvi — बढ्नु पर्ने ताजापन",
-    "productTitle": "{name} – {country}",
+    "productTitle": "{country}मा {name} अनलाइन अर्डर गर्नुहोस्",
+    "productTitleExport": "भारतबाट {name} – {country}",
     "productDescription": "{description} {pack}: {price}।",
     "recipeTitle": "{name} रेसिपी",
     "products": {
@@ -123,6 +124,13 @@
       "menu": {
         "one": "विशलिस्ट, {count} सुरक्षित प्रोडक्ट",
         "other": "विशलिस्ट, {count} सुरक्षित प्रोडक्ट"
+      }
+    },
+    "cartPill": {
+      "view": "टोकरी हेर्नुहोस्",
+      "items": {
+        "one": "{count} वस्तु",
+        "other": "{count} वस्तु"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "अन्य श्रेणीमा {count} मिलान।"
     },
     "tryName": "बालीको नाम प्रयास गर्नुहोस्, जस्तै पालुंगो वा पालक।",
-    "searchAll": "सबै श्रेणीमा खोज्नुहोस्",
-    "loading": "उब्जनी लोड हुँदैछ…"
+    "searchAll": "सबै श्रेणीमा खोज्नुहोस्"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "हेरचाहका साथ उब्जाइएको",
       "cook": "आफ्नै तरिकाले पकाउनुहोस्",
       "domestic": "भारतभर",
+      "domesticFee": "भारतभर {fee} डेलिभरी",
       "export": "भारतदेखि {country} सम्म"
     },
     "waysToEnjoy": "उपभोग गर्ने तरिका",

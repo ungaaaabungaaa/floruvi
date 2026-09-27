@@ -1,7 +1,7 @@
 "use client";
-import { useSearchParams } from "next/navigation";
 import type { ShopCategory } from "@/lib/storefront";
 import type { Messages } from "@/lib/i18n/messages";
+import { setUrlParams, useUrlParams } from "./use-url-params";
 
 /**
  * Filters the product grid below via the same `category` URL param the shop
@@ -10,18 +10,17 @@ import type { Messages } from "@/lib/i18n/messages";
 export function HomeHeroChips({
   categories,
   labels,
+  query,
 }: {
   categories: ShopCategory[];
   labels: Messages["shop"];
+  query: string;
 }) {
-  const params = useSearchParams();
+  const params = useUrlParams(query);
   const requested = params.get("category") ?? "all";
   const selected = categories.some((c) => c.slug === requested) ? requested : "all";
   function choose(slug: string) {
-    const url = new URL(window.location.href);
-    if (slug === "all") url.searchParams.delete("category");
-    else url.searchParams.set("category", slug);
-    window.history.replaceState(null, "", url);
+    setUrlParams({ category: slug === "all" ? null : slug });
   }
   return (
     <div className="home-hero-chips" role="group" aria-label={labels.filterLabel}>

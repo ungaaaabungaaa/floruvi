@@ -3,10 +3,12 @@ import { SiteMotion } from "@/components/site-motion";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n/provider";
+import { CartPill } from "@/components/cart-pill";
+import { cartThumbnails } from "@/lib/cart-thumbnails";
 import { siteUrl } from "@/lib/site";
 import { getI18n } from "@/lib/i18n/server";
-import { localizePath, locales } from "@/lib/i18n/config";
-import { fill } from "@/lib/i18n/format";
+import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
+import { countryName, fill } from "@/lib/i18n/format";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import mark from "@/src/assets/floruvi-mark.png";
 import "../globals.css";
@@ -40,9 +42,15 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
         name: messages.meta.siteName,
+        alternateName: "Floruvi",
         url: siteUrl,
         logo: absoluteUrl(mark.src),
         slogan: messages.common.brand.tagline,
+        description: messages.meta.description,
+        areaServed: marketCodes.map((market) => ({
+          "@type": "Country",
+          name: countryName(markets[market].country, "en"),
+        })),
       },
       {
         "@type": "WebSite",
@@ -64,6 +72,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           <Header />
           <main id="main">{children}</main>
           <Footer />
+          <CartPill thumbnails={cartThumbnails} />
         </I18nProvider>
         <SiteMotion />
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organization)} />

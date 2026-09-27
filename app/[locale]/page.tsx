@@ -7,6 +7,7 @@ import { getI18n } from "@/lib/i18n/server";
 import { fill } from "@/lib/i18n/format";
 import { localizePath } from "@/lib/i18n/config";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { queryString } from "@/lib/query";
 import { CatalogueBrowser } from "@/components/catalogue-browser";
 import { RecipeCard } from "@/components/recipe-card";
 import { HomeHero } from "@/components/home-hero";
@@ -28,12 +29,14 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default async function Home() {
-  const [{ locale, messages }, { products, categories }, recipes] = await Promise.all([
+export default async function Home({ searchParams }: PageProps<"/[locale]">) {
+  const [{ locale, messages }, { products, categories }, recipes, params] = await Promise.all([
     getI18n(),
     getShop(),
     getRecipeList(),
+    searchParams,
   ]);
+  const query = queryString(params);
   const t = messages.home;
   const boxes = messages.common.boxes;
   const featuredRecipes = recipes.slice(0, 4);
@@ -55,13 +58,14 @@ export default async function Home() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(list)} />
       <div className="page-width home-hero-frame">
-        <HomeHero labels={t} search={messages.shop} categories={categories} />
+        <HomeHero labels={t} search={messages.shop} categories={categories} pageQuery={query} />
       </div>
       <div className="recipe-collection page-width shop-collection home-catalogue">
         <CatalogueBrowser
           products={products}
           categories={categories}
           labels={messages.shop}
+          query={query}
           hideBanner
         />
       </div>

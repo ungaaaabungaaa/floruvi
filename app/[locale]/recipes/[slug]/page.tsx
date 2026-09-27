@@ -8,7 +8,7 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath } from "@/lib/i18n/config";
 import { fill, plural } from "@/lib/i18n/format";
 import { siteUrl } from "@/lib/site";
-import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { breadcrumbList } from "@/lib/structured-data";
 import { ProductCard } from "@/components/product-card";
 
@@ -16,13 +16,25 @@ type Props = PageProps<"/[locale]/recipes/[slug]">;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const [{ messages }, r] = await Promise.all([getI18n(), getRecipe(slug)]);
+  const [{ locale, messages }, r, { products }] = await Promise.all([
+    getI18n(),
+    getRecipe(slug),
+    getShop(),
+  ]);
   if (!r) return { title: messages.meta.recipeNotFound, robots: { index: false } };
+  const t = messages.recipes;
+  const crops = products.filter((p) => r.crops.includes(p.slug)).map((p) => p.name);
+  // Many recipes share an intro, so the name, time, servings & crops keep each description unique.
+  const facts = [
+    plural(locale.tag, r.minutes, t.minutes),
+    plural(locale.tag, r.servings, t.servings),
+    ...(crops.length ? [crops.join(", ")] : []),
+  ];
   return pageMetadata({
     path: `/recipes/${slug}`,
     title: fill(messages.meta.recipeTitle, { name: r.name }),
-    description: r.description,
-    image: { url: r.image.src, width: r.image.width, height: r.image.height, alt: r.name },
+    description: `${r.name} — ${r.description} ${facts.join(" · ")}`,
+    image: { ...shareImage(r.image), alt: r.name },
     type: "article",
   });
 }
@@ -47,8 +59,13 @@ export default async function RecipeDetails({ params }: Props) {
         description: r.description,
         url,
         inLanguage: locale.tag,
-        image: absoluteUrl(r.image.src),
-        author: { "@type": "Organization", "@id": `${siteUrl}/#organization`, name: "Floruvi" },
+        image: absoluteUrl(shareImage(r.image).url),
+        author: {
+          "@type": "Organization",
+          "@id": `${siteUrl}/#organization`,
+          name: messages.meta.siteName,
+        },
+        ...(crops.length ? { keywords: crops.map((crop) => crop.name).join(", ") } : {}),
         prepTime: `PT${r.prepMinutes}M`,
         cookTime: `PT${r.cookMinutes}M`,
         totalTime: `PT${r.minutes}M`,
@@ -68,6 +85,8 @@ export default async function RecipeDetails({ params }: Props) {
     <div className="page-width section">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(schema)} />
       <nav className="breadcrumb" aria-label={t.breadcrumb}>
+        <Link href="/">{messages.product.breadcrumbHome}</Link>
+        <span>/</span>
         <Link href="/recipes">{t.breadcrumbRecipes}</Link>
         <span>/</span>
         <span>{r.name}</span>

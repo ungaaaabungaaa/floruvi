@@ -6,7 +6,8 @@
     "description": "Explore leafy greens, herbs, microgreens & more. Fresh produce for your home or business, delivered across India.",
     "descriptionExport": "Explore leafy greens, herbs, microgreens & more. Fresh produce from India for homes & businesses in {country}.",
     "ogAlt": "Floruvi — Freshness worth growing",
-    "productTitle": "{name} – {country}",
+    "productTitle": "Order {name} online in {country}",
+    "productTitleExport": "{name} from India – {country}",
     "productDescription": "{description} {pack}: {price}.",
     "recipeTitle": "{name} recipe",
     "products": {
@@ -123,6 +124,13 @@
       "menu": {
         "one": "Wishlist, {count} saved product",
         "other": "Wishlist, {count} saved products"
+      }
+    },
+    "cartPill": {
+      "view": "View cart",
+      "items": {
+        "one": "{count} item",
+        "other": "{count} items"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "{count} matches in other categories."
     },
     "tryName": "Try a crop name, like spinach or palak.",
-    "searchAll": "Search all categories",
-    "loading": "Loading produce…"
+    "searchAll": "Search all categories"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "Grown with care",
       "cook": "Cook your way",
       "domestic": "Across India",
+      "domesticFee": "{fee} delivery across India",
       "export": "From India to {country}"
     },
     "waysToEnjoy": "Ways to enjoy",

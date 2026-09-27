@@ -6,7 +6,8 @@
     "description": "葉物野菜やハーブ、マイクログリーンなどをご覧ください。ご家庭にも事業者の皆さまにも、新鮮な野菜をインド各地へお届けします。",
     "descriptionExport": "葉物野菜やハーブ、マイクログリーンなどをご覧ください。{country}のご家庭や事業者の皆さまに向けた、インド産の新鮮な野菜です。",
     "ogAlt": "Floruvi — 育てる価値のある新鮮さ",
-    "productTitle": "{name}（{country}）",
+    "productTitle": "{name}をオンラインで注文（{country}）",
+    "productTitleExport": "インド産{name}（{country}）",
     "productDescription": "{description}{pack}：{price}。",
     "recipeTitle": "{name}のレシピ",
     "products": {
@@ -121,6 +122,12 @@
       "title": "お気に入り",
       "menu": {
         "other": "お気に入り、保存した商品{count}点"
+      }
+    },
+    "cartPill": {
+      "view": "カートを見る",
+      "items": {
+        "other": "{count}点"
       }
     },
     "boxes": {
@@ -395,8 +402,7 @@
       "other": "ほかのカテゴリに{count}件あります。"
     },
     "tryName": "「ほうれん草」や「バジル」など、作物の名前で探してみてください。",
-    "searchAll": "すべてのカテゴリで検索",
-    "loading": "野菜を読み込んでいます…"
+    "searchAll": "すべてのカテゴリで検索"
   },
   "product": {
     "assurances": {
@@ -404,6 +410,7 @@
       "care": "ていねいに栽培",
       "cook": "お好みの料理に",
       "domestic": "インド各地へ",
+      "domesticFee": "インド全国へ配送 {fee}",
       "export": "インドから{country}へ"
     },
     "waysToEnjoy": "おすすめの食べ方",

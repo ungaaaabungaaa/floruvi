@@ -58,12 +58,14 @@ export function WishlistPage({
                   {product ? (
                     <ProductCard product={product} />
                   ) : (
-                    <div className="wishlist-unavailable">
-                      <h2>{item.name}</h2>
-                      <p>{labels.unlisted}</p>
-                    </div>
+                    <>
+                      <div className="wishlist-unavailable">
+                        <h2>{item.name}</h2>
+                        <p>{labels.unlisted}</p>
+                      </div>
+                      <WishlistButton slug={item.slug} name={item.name} />
+                    </>
                   )}
-                  <WishlistButton slug={item.slug} name={item.name} />
                 </div>
               );
             })}

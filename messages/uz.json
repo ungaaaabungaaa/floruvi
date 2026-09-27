@@ -6,7 +6,8 @@
     "description": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. Butun Hindiston boʻylab uyingiz yoki biznesingiz uchun yangi hosil.",
     "descriptionExport": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. {country} dagi uylar va bizneslar uchun Hindistondan yangi hosil.",
     "ogAlt": "Floruvi — Oʻstirishga arziydigan yangilik",
-    "productTitle": "{name} – {country}",
+    "productTitle": "{country}da {name}ni onlayn buyurtma qiling",
+    "productTitleExport": "Hindistondan {name} – {country}",
     "productDescription": "{description} {pack}, narxi: {price}.",
     "recipeTitle": "{name} retsepti",
     "products": {
@@ -123,6 +124,13 @@
       "menu": {
         "one": "Sevimlilar, {count} ta saqlangan mahsulot",
         "other": "Sevimlilar, {count} ta saqlangan mahsulot"
+      }
+    },
+    "cartPill": {
+      "view": "Savatni koʻrish",
+      "items": {
+        "one": "{count} ta mahsulot",
+        "other": "{count} ta mahsulot"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "Boshqa kategoriyalarda {count} ta mos natija."
     },
     "tryName": "Ismaloq yoki palak kabi ekin nomini sinab koʻring.",
-    "searchAll": "Barcha kategoriyalarda qidirish",
-    "loading": "Hosil yuklanmoqda…"
+    "searchAll": "Barcha kategoriyalarda qidirish"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "Gʻamxoʻrlik bilan oʻstirilgan",
       "cook": "Oʻzingizga mos pishiring",
       "domestic": "Butun Hindiston boʻylab",
+      "domesticFee": "Butun Hindiston boʻylab {fee} yetkazib berish",
       "export": "Hindistondan {country}ga"
     },
     "waysToEnjoy": "Tanovul qilish usullari",

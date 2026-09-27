@@ -5,9 +5,9 @@ import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
 import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
 import pastaNight from "@/src/assets/recipes/banners/pasta-night.webp";
 import shopBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
-import { Fragment, Suspense, useRef } from "react";
-import { useSearchParams } from "next/navigation";
+import { Fragment, useRef } from "react";
 import { Search, X, SlidersHorizontal } from "lucide-react";
+import { setUrlParams, useUrlParams } from "./use-url-params";
 import { findProducts, sortProducts } from "@/lib/search";
 import type { ShopCategory, ShopProduct } from "@/lib/storefront";
 import type { Messages } from "@/lib/i18n/messages";
@@ -44,21 +44,24 @@ type Props = {
   products: ShopProduct[];
   categories: ShopCategory[];
   labels: Labels;
+  /** The request's query string, e.g. "category=herbs". */
+  query: string;
   initialCategory?: string;
   /** Skips the built-in banner in shop mode, e.g. when the caller renders its own full-bleed hero. */
   hideBanner?: boolean;
 };
 
-function Results({
+export function CatalogueBrowser({
   products,
   categories,
   labels,
+  query,
   initialCategory = "all",
   hideBanner,
 }: Props) {
   const { locale, plural } = useI18n();
   const isShop = initialCategory === "all";
-  const params = useSearchParams();
+  const params = useUrlParams(query);
   const search = (params.get("q") ?? "").slice(0, 100);
   const selectedCategory = params.get("category") ?? initialCategory;
   const category = categories.some((c) => c.slug === selectedCategory)
@@ -70,14 +73,7 @@ function Results({
       ? params.get("sort")!
       : "recommended";
   const input = useRef<HTMLInputElement>(null);
-  function update(values: Record<string, string | null>) {
-    const url = new URL(window.location.href);
-    for (const [key, value] of Object.entries(values)) {
-      if (value === null || value === "") url.searchParams.delete(key);
-      else url.searchParams.set(key, value);
-    }
-    window.history.replaceState(null, "", url);
-  }
+  const update = setUrlParams;
   function reset() {
     update({ q: null, category: "all", sort: null, priced: null });
     input.current?.focus();
@@ -249,13 +245,5 @@ function Results({
         </div>
       )}
     </div>
-  );
-}
-
-export function CatalogueBrowser(props: Props) {
-  return (
-    <Suspense fallback={<p role="status">{props.labels.loading}</p>}>
-      <Results {...props} />
-    </Suspense>
   );
 }

@@ -6,7 +6,8 @@
     "description": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar untuk rumah atau perniagaan anda, dihantar ke seluruh India.",
     "descriptionExport": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar dari India untuk rumah & perniagaan di {country}.",
     "ogAlt": "Floruvi — Kesegaran yang berbaloi ditanam",
-    "productTitle": "{name} – {country}",
+    "productTitle": "Pesan {name} dalam talian di {country}",
+    "productTitleExport": "{name} dari India – {country}",
     "productDescription": "{description} {pack} – {price}.",
     "recipeTitle": "Resipi {name}",
     "products": {
@@ -121,6 +122,12 @@
       "title": "Senarai Kegemaran",
       "menu": {
         "other": "Senarai kegemaran, {count} produk disimpan"
+      }
+    },
+    "cartPill": {
+      "view": "Lihat bakul",
+      "items": {
+        "other": "{count} item"
       }
     },
     "boxes": {
@@ -395,8 +402,7 @@
       "other": "{count} padanan dalam kategori lain."
     },
     "tryName": "Cuba nama tanaman, seperti bayam atau spinach.",
-    "searchAll": "Cari semua kategori",
-    "loading": "Memuatkan produk…"
+    "searchAll": "Cari semua kategori"
   },
   "product": {
     "assurances": {
@@ -404,6 +410,7 @@
       "care": "Ditanam Dengan Teliti",
       "cook": "Masak Ikut Cara Anda",
       "domestic": "Ke Seluruh India",
+      "domesticFee": "Penghantaran {fee} ke seluruh India",
       "export": "Dari India ke {country}"
     },
     "waysToEnjoy": "Cara Menikmati",

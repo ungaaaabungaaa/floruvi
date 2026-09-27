@@ -33,7 +33,7 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 - `/en-in/...` redirects to the unprefixed India URL.
 - A saved choice (cookie `floruvi-locale`, one year) wins.
 - Otherwise, a first visit to an unprefixed URL uses Vercel's visitor country. The browser language picks between the local language & English. If neither matches, the UAE, Qatar, Kuwait & Bahrain use English, and the other countries use the local language.
-- Search crawlers, link previews, non-GET requests and URLs that already have a version are never redirected.
+- Only a real browser page load (`Sec-Fetch-Mode: navigate`) is redirected. Search crawlers, AI assistants, link previews, prefetches, non-GET requests and URLs that already have a version are never redirected.
 - The country & language picker saves the choice and opens the same page in the new version.
 
 ## Translations
@@ -50,10 +50,29 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 
 - Every public page has a unique title & description, a canonical URL and `hreflang` links to all 32 versions plus `x-default` (India English).
 - `<html lang>` & `dir` match the version. Open Graph & Twitter tags use the page image and locale.
-- Sitemap: `/sitemap.xml` is an index of 32 files at `/sitemaps/<version>.xml`. Each lists 188 pages with `hreflang` alternates.
-- Structured data: Organization & WebSite on every page; Product with Offer & BreadcrumbList on product pages; Recipe & BreadcrumbList on recipes; ItemList on the shop & recipe lists; AggregateOffer for boxes; FAQPage on the FAQ. Offers show the visible local price and do not claim stock.
-- Cart, checkout & wishlist are `noindex`. `robots.txt` blocks everything outside Vercel production and blocks `/api/` in production.
+- Sitemap: `/sitemap.xml` is an index of 32 files at `/sitemaps/<version>.xml`. Each lists 189 pages with `hreflang` alternates.
+- Structured data: Organization (with the 17 countries served) & WebSite on every page; Product with Offer & BreadcrumbList on product pages; Recipe (with crop keywords) & BreadcrumbList on recipes; ItemList on the shop & recipe lists; AggregateOffer for boxes; FAQPage on the FAQ. Offers show the visible local price and do not claim stock.
+- Product titles: India reads "Order {name} online in India"; export versions read "{name} from India – {country}", so the country is not mistaken for the origin. Product pages show the India delivery fee next to the price.
+- Recipe descriptions add the name, time, servings & crops, because many recipes share an intro.
+- FAQ & box answers are in the page HTML (native `<details>`), so search engines & AI assistants can read them. The shop & home product grids render in place in the first HTML.
+- `/llms.txt` gives AI assistants the main pages, every product with its India price, the FAQ answers & all recipes, from live data.
+- Cart, checkout & wishlist are `noindex`. `robots.txt` blocks everything outside Vercel production and blocks `/api/` in production. AI search crawlers are allowed.
+- `proxy.ts` never redirects search crawlers or AI assistants that fetch a page for a user (ChatGPT, Claude, Perplexity). Their server's country is not the reader's country.
+- Mixed-case URLs redirect to lowercase in one step (308); percent escapes keep their case. Removed pages redirect to their replacement (`next.config.ts`); `/wholesale` is temporary (307) because a wholesale page may return.
 - `siteUrl` uses `NEXT_PUBLIC_SITE_URL`, then Vercel's production domain. Set `NEXT_PUBLIC_SITE_URL` when the custom domain is live.
+
+## Open search decisions (owner)
+
+Checked 27 September 2026 with the ai-seo, site-architecture, programmatic-seo, seo-audit & schema skills. These need the owner:
+
+1. **Homepage testimonials & claims.** The six quotes use stock portraits while no orders are live, and "No harmful chemicals" & "Locally grown" have no evidence (and "locally grown" shows on export versions). Replace them with real, consented quotes & proven facts, or remove them. Never mark them up as reviews.
+2. **"Organic" or "pesticide-free".** Do not use these words until there is NPOP or PGS-India certification (organic) or a lab residue report (pesticide-free). Then show the certificate or report.
+3. **Category pages.** The shop has no indexable page for head terms such as "microgreens" (22 products) or "leafy greens" (24). Proposal: six `/products/category/{slug}` pages, each with 100–150 words of real copy.
+4. **Duplicate language versions.** The 17 English & 7 Arabic versions of FAQ, recipes, privacy & how-we-grow are identical apart from the country. Proposal: point those export copies' canonical to the main version and keep product, shop & box pages localized. Otherwise, watch Search Console for "Duplicate, Google chose different canonical".
+5. **Product page content.** One storage text is shared by 81 products and appears twice per page; 72 of 88 recipes share 12 descriptions. Write crop-specific storage text & unique recipe intros.
+6. **Homepage title.** It has the tagline but no product words, e.g. "Fresh greens, herbs & microgreens | Floruvi".
+7. **Visible product breadcrumb** (schema has one, the page does not), a Contact link in the mobile menu, and banner slogans rendered as `<h2>` (32 on the shop page).
+8. **Merchant data.** Add a return policy & shipping details to offers once delivery times & the refund category are confirmed. Real farm photos and a Google Business Profile (only with a real location or service area) will help most.
 
 ## After deployment
 

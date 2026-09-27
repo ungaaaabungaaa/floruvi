@@ -6,9 +6,10 @@
     "description": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware für dein Zuhause oder dein Unternehmen – geliefert in ganz Indien.",
     "descriptionExport": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware aus Indien für Privathaushalte und Unternehmen in {country}.",
     "ogAlt": "Floruvi — Frische, die sich lohnt",
-    "productTitle": "{name} – {country}",
+    "productTitle": "{name} online bestellen – {country}",
+    "productTitleExport": "{name} aus Indien – {country}",
     "productDescription": "{description} {pack} – {price}.",
-    "recipeTitle": "{name}-Rezept",
+    "recipeTitle": "Rezept: {name}",
     "products": {
       "title": "Unser Gemüse",
       "description": "Entdecke Floruvis Gemüse & Kräuter. Erkunde Blattgemüse, Kräuter, Microgreens, Fruchtgemüse, Wurzeln & essbare Blüten."
@@ -123,6 +124,13 @@
       "menu": {
         "one": "Wunschliste, {count} gespeichertes Produkt",
         "other": "Wunschliste, {count} gespeicherte Produkte"
+      }
+    },
+    "cartPill": {
+      "view": "Zum Warenkorb",
+      "items": {
+        "one": "{count} Artikel",
+        "other": "{count} Artikel"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "{count} Treffer in anderen Kategorien."
     },
     "tryName": "Versuch es mit einem Namen wie Spinat oder Palak.",
-    "searchAll": "Alle Kategorien durchsuchen",
-    "loading": "Produkte werden geladen…"
+    "searchAll": "Alle Kategorien durchsuchen"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "Mit Sorgfalt angebaut",
       "cook": "Vielseitig kochen",
       "domestic": "In ganz Indien",
+      "domesticFee": "{fee} Lieferung in ganz Indien",
       "export": "Von Indien nach {country}"
     },
     "waysToEnjoy": "Genussideen",

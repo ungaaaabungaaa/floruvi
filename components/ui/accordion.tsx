@@ -1,34 +1,61 @@
 "use client";
-import * as React from "react";
-import * as AccordionPrimitive from "@radix-ui/react-accordion";
+import { createContext, useContext, useId, type ReactNode } from "react";
 import { ChevronDown } from "lucide-react";
 
-export const Accordion = AccordionPrimitive.Root;
-export function AccordionItem(
-  props: React.ComponentProps<typeof AccordionPrimitive.Item>,
-) {
-  return (
-    <AccordionPrimitive.Item
-      {...props}
-      className={`faq-item ${props.className ?? ""}`}
-    />
-  );
-}
-export function AccordionTrigger({
+// Native <details> keeps every answer in the page HTML for readers, search
+// engines & AI assistants, and works before JavaScript loads.
+const AccordionContext = createContext<{ name?: string; defaultValue?: string }>({});
+
+export function Accordion({
+  type = "single",
+  defaultValue,
+  className,
   children,
-  ...props
-}: React.ComponentProps<typeof AccordionPrimitive.Trigger>) {
+}: {
+  type?: "single" | "multiple";
+  defaultValue?: string;
+  className?: string;
+  children: ReactNode;
+}) {
+  const name = useId();
   return (
-    <AccordionPrimitive.Header>
-      <AccordionPrimitive.Trigger {...props} className="faq-trigger">
+    <div className={className}>
+      <AccordionContext.Provider
+        value={{ name: type === "single" ? name : undefined, defaultValue }}
+      >
         {children}
-        <ChevronDown className="faq-chevron" size={18} aria-hidden="true" />
-      </AccordionPrimitive.Trigger>
-    </AccordionPrimitive.Header>
+      </AccordionContext.Provider>
+    </div>
   );
 }
-export function AccordionContent(
-  props: React.ComponentProps<typeof AccordionPrimitive.Content>,
-) {
-  return <AccordionPrimitive.Content {...props} className="faq-content" />;
+export function AccordionItem({
+  value,
+  className,
+  children,
+}: {
+  value: string;
+  className?: string;
+  children: ReactNode;
+}) {
+  const { name, defaultValue } = useContext(AccordionContext);
+  return (
+    <details
+      name={name}
+      open={value === defaultValue}
+      className={`faq-item ${className ?? ""}`}
+    >
+      {children}
+    </details>
+  );
+}
+export function AccordionTrigger({ children }: { children: ReactNode }) {
+  return (
+    <summary className="faq-trigger">
+      {children}
+      <ChevronDown className="faq-chevron" size={18} aria-hidden="true" />
+    </summary>
+  );
+}
+export function AccordionContent({ children }: { children: ReactNode }) {
+  return <div className="faq-content">{children}</div>;
 }

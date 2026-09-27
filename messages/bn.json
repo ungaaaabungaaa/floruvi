@@ -6,7 +6,8 @@
     "description": "শাকপাতা, ভেষজ, মাইক্রোগ্রিন ও আরও অনেক কিছু দেখুন। আপনার বাড়ি বা ব্যবসার জন্য তাজা ফসল, সারা ভারতে ডেলিভারি করা হয়।",
     "descriptionExport": "শাকপাতা, ভেষজ, মাইক্রোগ্রিন ও আরও অনেক কিছু দেখুন। {country}-এর বাড়ি ও ব্যবসার জন্য ভারত থেকে তাজা ফসল।",
     "ogAlt": "Floruvi — ফলানোর মতো সতেজতা",
-    "productTitle": "{name} – {country}",
+    "productTitle": "{country}-এ অনলাইনে {name} অর্ডার করুন",
+    "productTitleExport": "ভারত থেকে {name} – {country}",
     "productDescription": "{description} {pack}: {price}।",
     "recipeTitle": "{name} রেসিপি",
     "products": {
@@ -123,6 +124,13 @@
       "menu": {
         "one": "উইশলিস্ট, {count}টি সংরক্ষিত পণ্য",
         "other": "উইশলিস্ট, {count}টি সংরক্ষিত পণ্য"
+      }
+    },
+    "cartPill": {
+      "view": "কার্ট দেখুন",
+      "items": {
+        "one": "{count}টি পণ্য",
+        "other": "{count}টি পণ্য"
       }
     },
     "boxes": {
@@ -399,8 +407,7 @@
       "other": "অন্য বিভাগে {count}টি মিল পাওয়া গেছে।"
     },
     "tryName": "একটি ফসলের নাম দিয়ে চেষ্টা করুন, যেমন পালং শাক।",
-    "searchAll": "সব বিভাগে খুঁজুন",
-    "loading": "ফসল লোড হচ্ছে…"
+    "searchAll": "সব বিভাগে খুঁজুন"
   },
   "product": {
     "assurances": {
@@ -408,6 +415,7 @@
       "care": "যত্নে ফলানো",
       "cook": "নিজের মতো রান্না করুন",
       "domestic": "সারা ভারতে",
+      "domesticFee": "সারা ভারতে {fee} ডেলিভারি",
       "export": "ভারত থেকে {country}-এ"
     },
     "waysToEnjoy": "উপভোগের উপায়",
