@@ -3263,8 +3263,18 @@ textarea {
   border: 0;
   background: transparent;
 }
-.quantity-picker button:hover {
-  background: var(--cream);
+/* No hover box: it showed as a square inside the rounded picker. The icon changes colour instead. */
+.quantity-picker button {
+  transition: color 0.15s ease;
+}
+.quantity-picker button svg {
+  transition: transform 0.12s ease;
+}
+.quantity-picker button:hover:not(:disabled) {
+  color: var(--green);
+}
+.quantity-picker button:active:not(:disabled) svg {
+  transform: scale(0.85);
 }
 .quantity-picker output {
   text-align: center;
@@ -4203,7 +4213,7 @@ button:disabled {
 .catalogue-browser .filter-chips::-webkit-scrollbar { display: none; }
 .catalogue-browser .filter-chips button { flex-shrink: 0; min-height: 42px; border: 0; border-radius: 8px; padding: 9px 13px; background: transparent; }
 .catalogue-browser .filter-chips button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-.catalogue-browser .filter-chips button:hover { background: var(--cream); color: var(--ink); }
+.catalogue-browser .filter-chips button:not([aria-pressed="true"]):hover { color: var(--green); }
 .catalogue-browser .results-heading { margin: 10px 0 22px; min-height: 24px; gap: 12px; }
 .product-card { position: relative; }
 .product-card .product-hover-image { opacity: 0; transition: opacity 220ms ease; }
@@ -5591,9 +5601,13 @@ html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bo
 @keyframes cart-pill-pop { from { opacity: 0; transform: scale(.4); } }
 @keyframes cart-pill-count { from { opacity: 0; transform: translateY(-70%); } }
 /* The page ends at the footer: the pill steps aside while the footer is on screen. */
+/* While a changed basket is checked again, the old totals fade instead of blinking. */
+.basket-summary :is(.summary-row, .summary-total) > span:last-child { transition: opacity 0.2s ease; }
+.basket-summary.is-refreshing :is(.summary-row, .summary-total) > span:last-child { opacity: 0.45; }
 .cart-pill.is-away { translate: -50% calc(100% + 32px); opacity: 0; pointer-events: none; }
 @media (prefers-reduced-motion: reduce) {
   .cart-pill, .cart-pill-thumbs > span, .cart-pill-text small { animation: none; transition: none; }
+  .quantity-picker button, .quantity-picker button svg, .basket-summary :is(.summary-row, .summary-total) > span:last-child { transition: none; }
 }
 
 /* Out of stock (owner-controlled in the admin panel). */

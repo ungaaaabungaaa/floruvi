@@ -51,6 +51,7 @@ export function Checkout({
     review,
     error: reviewError,
     loading,
+    refreshing,
     retry,
   } = useBasketReview(cart.items);
   const [step, setStep] = useState(0);
@@ -481,6 +482,7 @@ export function Checkout({
                 disabled={
                   status !== "idle" ||
                   loading ||
+                  refreshing ||
                   !!reviewError ||
                   !review ||
                   review.items.some((i) => !i.availableToEnquire)
@@ -511,7 +513,7 @@ export function Checkout({
           )}
         </div>
         <div>
-          <BasketSummary review={review} />
+          <BasketSummary review={review} refreshing={refreshing} />
           {loading && (
             <p role="status" className="checkout-notice">
               {labels.checkingBasket}

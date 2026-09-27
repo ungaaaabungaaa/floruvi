@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
 import {
@@ -41,32 +41,51 @@ export function useBasketReview(items: CartLine[]) {
     review?: BasketReview;
     error?: string;
   }>({ key: "" });
+  // The last checked basket stays on screen while a changed basket is checked
+  // again, so prices and buttons do not blink on every tap.
+  const [last, setLast] = useState<BasketReview>();
+  const checked = useRef(false);
   const fallback = t.basket.checkFailed;
   useEffect(() => {
     if (!items.length) return;
     const controller = new AbortController();
-    fetch("/api/checkout-review", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: JSON.parse(key), market }),
-      signal: controller.signal,
-    })
-      .then(async (response) => {
-        if (!response.ok) throw new Error(fallback);
-        return (await response.json()) as BasketReview;
-      })
-      .then((review) => setState({ key: key + attempt, review }))
-      .catch(() => {
-        if (!controller.signal.aborted)
-          setState({ key: key + attempt, error: fallback });
-      });
-    return () => controller.abort();
+    // After the first check, wait briefly so quick +/− taps send one request.
+    const timer = setTimeout(
+      () =>
+        fetch("/api/checkout-review", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ items: JSON.parse(key), market }),
+          signal: controller.signal,
+        })
+          .then(async (response) => {
+            if (!response.ok) throw new Error(fallback);
+            return (await response.json()) as BasketReview;
+          })
+          .then((review) => {
+            checked.current = true;
+            setLast(review);
+            setState({ key: key + attempt, review });
+          })
+          .catch(() => {
+            if (!controller.signal.aborted)
+              setState({ key: key + attempt, error: fallback });
+          }),
+      checked.current ? 250 : 0,
+    );
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
   }, [key, attempt, items.length, market, fallback]);
   const current = state.key === key + attempt ? state : null;
   return {
-    review: current?.review,
+    review: current ? current.review : last,
     error: current?.error,
-    loading: items.length > 0 && !current,
+    /** No result yet: the first check is running. */
+    loading: items.length > 0 && !current && !last,
+    /** Showing the last result while a changed basket is checked again. */
+    refreshing: items.length > 0 && !current && !!last,
     retry: () => setAttempt((n) => n + 1),
   };
 }
@@ -91,15 +110,18 @@ export function useLineLabels() {
 
 export function BasketSummary({
   review,
+  refreshing = false,
   children,
 }: {
   review?: BasketReview;
+  /** The totals are from the previous basket and are being checked again. */
+  refreshing?: boolean;
   children?: React.ReactNode;
 }) {
   const { t, money, plural } = useI18n();
   const quoted = review?.deliveryQuoted;
   return (
-    <aside className="basket-summary">
+    <aside className={refreshing ? "basket-summary is-refreshing" : "basket-summary"} aria-busy={refreshing}>
       <h2>{t.basket.summary}</h2>
       <div className="summary-row">
         <span>
@@ -167,15 +189,17 @@ export function BasketPage({
   const cart = useCart();
   const { t, locale, fill, money } = useI18n();
   const lineLabels = useLineLabels();
-  const { review, error, loading, retry } = useBasketReview(cart.items);
+  const { review, error, loading, refreshing, retry } = useBasketReview(cart.items);
   if (!cart.items.length)
     return (
       <div className="page-width section">
         <EmptyBasket />
       </div>
     );
-  const missing = review?.items.some((i) => !i.availableToEnquire);
-  const outOfStock = review?.items.some((i) => i.outOfStock);
+  // Judge only the lines still in the basket, so removing a problem line clears it at once.
+  const reviewed = cart.items.map((line) => review?.items.find((i) => i.slug === line.slug));
+  const missing = reviewed.some((item) => item && !item.availableToEnquire);
+  const outOfStock = reviewed.some((item) => item?.outOfStock);
   return (
     <div className="page-width cart-page">
       <section className="cart-hero" aria-labelledby="cart-title">
@@ -272,7 +296,15 @@ export function BasketPage({
                     </button>
                   </div>
                   <span className="basket-price">
-                    {review ? money(pricedLine?.lineTotal, review.currency as CurrencyCode) : "—"}
+                    {review
+                      ? money(
+                          // The server's unit price times the new quantity, until the check returns.
+                          pricedLine?.unitPrice != null
+                            ? pricedLine.unitPrice * line.quantity
+                            : pricedLine?.lineTotal,
+                          review.currency as CurrencyCode,
+                        )
+                      : "—"}
                   </span>
                   <button
                     type="button"
@@ -301,7 +333,7 @@ export function BasketPage({
           </Link>
         </div>
         <div className="cart-summary-column">
-          <BasketSummary review={review}>
+          <BasketSummary review={review} refreshing={refreshing}>
             {loading ? (
               <p role="status">
                 <LoaderCircle className="spinner" size={16} />
