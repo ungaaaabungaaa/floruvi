@@ -24,12 +24,34 @@ Assumption, not yet confirmed by the owner: these owner sessions are managed in 
 
 ## Set up the live site
 
-1. **Make the secret.** Run `node -e "console.log(require('crypto').randomBytes(48).toString('base64url'))"`. Put the value in Vercel (Production) as `ADMIN_API_SECRET`, and pipe the same value into `pnpm exec convex env set ADMIN_API_SECRET --prod`.
-2. **Make your sign-in hash.** Run `pnpm admin:hash`, answer the five questions (the password & Aadhaar are hidden), then set the printed value: `pnpm exec convex env set ADMIN_CREDENTIAL_HASH '<value>' --prod`.
-3. **Set the site link for alerts:** `pnpm exec convex env set SITE_URL https://floruvi.vercel.app --prod` (or the custom domain).
-4. **Deploy Convex first, then the site:** `pnpm exec convex deploy`, then push to `main`. The site works before step 4 is done, but `/admin` shows "not available" until both sides share the secret.
+Run these in the project folder, one at a time. Secrets are piped, so they never appear on screen or in shell history.
 
-To change the password later, repeat step 2. To sign out everywhere, change `ADMIN_API_SECRET` in both places or delete rows in the `adminSessions` table.
+1. **Shared secret** (the same value in Vercel and Convex production):
+
+   ```sh
+   SECRET=$(node -e "console.log(require('crypto').randomBytes(48).toString('base64url'))")
+   printf %s "$SECRET" | pnpm exec convex env set ADMIN_API_SECRET --prod
+   printf %s "$SECRET" | vercel env add ADMIN_API_SECRET production
+   unset SECRET
+   ```
+
+   Without the Vercel CLI: Vercel → floruvi → Settings → Environment Variables → add `ADMIN_API_SECRET` for Production, marked Sensitive, with the same value.
+2. **Your sign-in hash.** Answer the five questions with your real details (password and Aadhaar are hidden):
+
+   ```sh
+   pnpm -s admin:hash | pnpm exec convex env set ADMIN_CREDENTIAL_HASH --prod
+   ```
+
+3. **Site link for alerts:** `pnpm exec convex env set SITE_URL https://floruvi.vercel.app --prod` (or the custom domain).
+4. **Deploy the backend:** `pnpm exec convex deploy`, and confirm `polished-mosquito-828` when asked.
+5. **Redeploy the site** so it reads the new variable: `vercel --prod`, or Vercel → Deployments → the latest production deployment → Redeploy. Environment changes apply only to new deployments.
+6. Open `https://floruvi.vercel.app/admin/login` and sign in.
+
+To change the password later, repeat step 2. To sign out everywhere, repeat step 1 (and redeploy), or delete rows in the `adminSessions` table.
+
+## Try it on a preview deployment (optional)
+
+Preview deployments use the development backend, which already has a secret and the test sign-in. Put the development `ADMIN_API_SECRET` from `.env.local` into Vercel for **Preview**: `grep '^ADMIN_API_SECRET=' .env.local | cut -d= -f2- | tr -d '\n' | vercel env add ADMIN_API_SECRET preview`, then redeploy a preview.
 
 ## Connect Telegram (free, recommended first)
 
@@ -52,4 +74,4 @@ Update the privacy notice: enquiry details are sent to the owner through Telegra
 
 ## Local testing
 
-`.env.local` has a development `ADMIN_API_SECRET`, and the development Convex deployment has a matching secret and a test sign-in hash. The local test details are noted in `.env.local`. Tests: `pnpm test` covers the hash, tampered and weak hashes, alert escaping and the out-of-stock rule. Live checks on 28 September 2026 covered sign-in, wrong details, the 11th-attempt limit, forged tokens, sign-out revocation, the stock switch on the product page, the shop and the basket check, and alert status with no channel and with a failing channel.
+`.env.local` has a development `ADMIN_API_SECRET`, and the development Convex deployment has a matching secret and a test sign-in hash. The local test details are noted in `.env.local`. Run `pnpm dev --hostname 127.0.0.1 --port 3105` and open `http://127.0.0.1:3105/admin/login`. To use your own details locally, run `pnpm -s admin:hash | pnpm exec convex env set ADMIN_CREDENTIAL_HASH` (no `--prod`). Tests: `pnpm test` covers the hash, tampered and weak hashes, alert escaping and the out-of-stock rule. Live checks on 28 September 2026 covered sign-in, wrong details, the 11th-attempt limit, forged tokens, sign-out revocation, the stock switch on the product page, the shop and the basket check, and alert status with no channel and with a failing channel.

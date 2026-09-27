@@ -41,7 +41,7 @@ export async function hashAdminCredentials(login: AdminLogin) {
 
 /** Constant-time check. False for any malformed hash, never an exception. */
 export async function verifyAdminCredentials(login: AdminLogin, stored: string) {
-  const parts = stored.split("$");
+  const parts = stored.trim().split("$");
   if (parts.length !== 6 || parts[0] !== "scrypt") return false;
   const [N, r, p] = parts.slice(1, 4).map(Number);
   if (![N, r, p].every(Number.isSafeInteger) || N < 2 ** 15 || N > 2 ** 20 || r < 8 || p < 1 || p > 4)

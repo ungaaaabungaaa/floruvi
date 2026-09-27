@@ -1,12 +1,12 @@
 // Creates ADMIN_CREDENTIAL_HASH for the owner sign-in.
-// Usage: pnpm admin:hash            (asks for each detail; secrets are not shown)
-//        pnpm admin:hash < file.json  ({"email","aadhaar","dob","phone","password"})
-// Then: pnpm exec convex env set ADMIN_CREDENTIAL_HASH '<printed value>'  (add --prod for production)
+// Usage: pnpm -s admin:hash | pnpm exec convex env set ADMIN_CREDENTIAL_HASH --prod
+// It asks for each detail (secrets are not shown) on stderr and prints only the hash,
+// so the hash can go straight into Convex. Leave out --prod for the development backend.
 import { createInterface } from "node:readline";
 import { adminLoginSchema, hashAdminCredentials } from "../../lib/admin-credentials";
 
 async function ask(question: string, hidden = false) {
-  const rl = createInterface({ input: process.stdin, output: process.stdout, terminal: true });
+  const rl = createInterface({ input: process.stdin, output: process.stderr, terminal: true });
   if (hidden) {
     const write = (rl as unknown as { _writeToOutput: (s: string) => void })._writeToOutput;
     (rl as unknown as { _writeToOutput: (s: string) => void })._writeToOutput = (s) =>
@@ -14,7 +14,7 @@ async function ask(question: string, hidden = false) {
   }
   const answer = await new Promise<string>((resolve) => rl.question(question, resolve));
   rl.close();
-  if (hidden) process.stdout.write("\n");
+  if (hidden) process.stderr.write("\n");
   return answer;
 }
 
