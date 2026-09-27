@@ -18,8 +18,8 @@ export function guideReply(message: string, products: Product[]): GuideReply {
     )
   )
     return {
-      text: "Prices, harvest availability, pack sizes, & delivery areas are confirmed by the farm when you enquire. This catalogue does not show live stock.",
-      link: { href: "/contact", label: "Ask about availability" },
+      text: "Each product page shows its price, pack size & whether it is in stock. Add what you need to your basket; the farm confirms delivery after you send the request.",
+      link: { href: "/products", label: "Browse produce" },
     };
   if (/\b(business|wholesale|restaurant|cafe|bulk)\b/.test(text))
     return {

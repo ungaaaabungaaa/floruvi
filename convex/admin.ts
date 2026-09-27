@@ -79,12 +79,17 @@ export const dashboard = internalQuery({
   handler: async (ctx, { tokenHash }) => {
     const session = await activeSession(ctx, tokenHash);
     if (!session) return null;
-    const [orders, products] = await Promise.all([
+    const [orders, products, settings] = await Promise.all([
       ctx.db.query("enquiries").order("desc").take(200),
       ctx.db.query("products").collect(),
+      ctx.db
+        .query("storeSettings")
+        .withIndex("by_key", (q) => q.eq("key", "commerce"))
+        .unique(),
     ]);
     return {
       expiresAt: session.expiresAt,
+      chatEnabled: settings?.chatEnabled === true,
       orders: orders.map((order) => ({
         id: order._id,
         receivedAt: order._creationTime,
@@ -110,6 +115,20 @@ export const dashboard = internalQuery({
           price: p.price ?? null,
         })),
     };
+  },
+});
+
+export const setChat = internalMutation({
+  args: { tokenHash: v.string(), enabled: v.boolean() },
+  handler: async (ctx, { tokenHash, enabled }) => {
+    if (!(await activeSession(ctx, tokenHash))) return "unauthorized" as const;
+    const settings = await ctx.db
+      .query("storeSettings")
+      .withIndex("by_key", (q) => q.eq("key", "commerce"))
+      .unique();
+    if (!settings) return "missing" as const;
+    await ctx.db.patch(settings._id, { chatEnabled: enabled });
+    return "ok" as const;
   },
 });
 

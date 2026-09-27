@@ -1207,18 +1207,18 @@ em {
 .chat-launcher {
   position: fixed;
   z-index: 30;
-  bottom: 23px;
-  right: 25px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  inset-inline-end: 16px;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
   background: var(--green);
-  color: var(--paper);
-  border: 1px solid #718365;
-  padding: 14px 21px;
-  border-radius: 30px;
-  box-shadow: 0 5px 24px #243c3022;
-  font-size: 11px;
+  color: #fff;
+  box-shadow: 0 8px 24px rgb(12 48 35 / 24%);
 }
 .dialog-overlay {
   position: fixed;
@@ -1249,9 +1249,9 @@ em {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 16px;
-  background: var(--green);
-  color: var(--paper);
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
 }
 .chat-header h2 {
   font:
@@ -1260,22 +1260,12 @@ em {
   letter-spacing: 0;
 }
 .chat-header p {
-  font-size: 9px;
-  color: #e0e6cf;
-  margin-top: 4px;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
 }
 .chat-header > .icon-button {
   margin-left: auto;
-}
-.chat-avatar {
-  background: #ffffff14;
-  border: 1px solid #ffffff32;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
 }
 .chat-messages {
   overflow-y: auto;
@@ -1348,12 +1338,6 @@ em {
   color: white;
   width: 34px;
   height: 34px;
-}
-.chat-disclaimer {
-  font-size: 8px;
-  text-align: center;
-  color: var(--muted);
-  padding: 10px 7px;
 }
 .chat-loading {
   font-size: 10px;
@@ -2090,10 +2074,8 @@ em {
     font-size: 13px;
   }
   .chat-launcher {
-    right: 17px;
-    bottom: 17px;
-    font-size: 11px;
-    padding: 12px 17px;
+    width: 48px;
+    height: 48px;
   }
   .chat-panel {
     right: 12px;
@@ -2104,9 +2086,6 @@ em {
   }
   .chat-input input {
     font-size: 16px;
-  }
-  .chat-disclaimer {
-    font-size: 8px;
   }
   .chat-message {
     font-size: 12px;
@@ -5597,3 +5576,10 @@ html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bo
   white-space: nowrap;
 }
 .add-crop:not(.compact) > .stock-out { flex: 1; min-height: 52px; border-radius: 12px; font-size: 14px; }
+
+/* Keep the chat button clear of the cart pill and the product page's cart bar. */
+body:has(.cart-pill) .chat-launcher { bottom: calc(92px + env(safe-area-inset-bottom)); }
+@media (max-width: 600px) {
+  body:has(.product-page) .chat-launcher { bottom: calc(88px + env(safe-area-inset-bottom)); }
+  body:has(.product-page):has(.cart-pill) .chat-launcher { bottom: calc(160px + env(safe-area-inset-bottom)); }
+}

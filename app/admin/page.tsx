@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type Dashboard } from "@/lib/admin";
 import { formatCurrency } from "@/lib/i18n/format";
-import { logout, setStock } from "./actions";
+import { logout, setChat, setStock } from "./actions";
 
 export const metadata: Metadata = { title: "Orders & stock" };
 
@@ -40,6 +40,26 @@ export default async function AdminHome() {
           <button className="admin-button ghost">Sign out</button>
         </form>
       </header>
+
+      <section aria-labelledby="chat-title" className="admin-setting">
+        <div>
+          <h2 id="chat-title">Website chat</h2>
+          <p className="admin-muted">
+            {data.chatEnabled
+              ? "Visible on the English site versions. Visitors see it within a minute of a change."
+              : "Hidden from visitors. Switch it on to show the chat button on the English site versions."}
+          </p>
+        </div>
+        <form action={setChat}>
+          <input type="hidden" name="enabled" value={String(!data.chatEnabled)} />
+          <button
+            className={`admin-switch ${data.chatEnabled ? "on" : "off"}`}
+            aria-label={`Website chat is ${data.chatEnabled ? "visible" : "hidden"}. Change.`}
+          >
+            {data.chatEnabled ? "Visible" : "Hidden"}
+          </button>
+        </form>
+      </section>
 
       <section aria-labelledby="orders-title">
         <h2 id="orders-title">

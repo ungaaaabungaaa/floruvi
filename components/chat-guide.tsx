@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/i18n/link";
 import * as Dialog from "@radix-ui/react-dialog";
-import { ArrowUp, ArrowUpRight, MessageCircle, Sprout, X } from "lucide-react";
+import { ArrowUp, ArrowUpRight, MessageCircle, X } from "lucide-react";
 import type { Product } from "@/lib/catalogue";
 import { guideReply, type GuideReply } from "@/lib/guide";
 
@@ -15,7 +15,7 @@ export function ChatGuide() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "guide",
-      text: "Hello, curious cook. 🌱 Looking for a particular crop? Try a name below, or ask how to contact the farm.",
+      text: "Hi. Ask about a crop, or how to reach the farm.",
     },
   ]);
   const end = useRef<HTMLDivElement>(null);
@@ -57,23 +57,17 @@ export function ChatGuide() {
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
       <Dialog.Trigger asChild>
-        <button className="chat-launcher">
-          <MessageCircle size={20} />
-          <span>Ask Floruvi</span>
+        <button className="chat-launcher" aria-label="Chat with Floruvi">
+          <MessageCircle size={22} strokeWidth={1.8} aria-hidden="true" />
         </button>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="dialog-overlay chat-overlay" />
         <Dialog.Content className="chat-panel">
           <header className="chat-header">
-            <span className="chat-avatar">
-              <Sprout size={23} />
-            </span>
             <div>
-              <Dialog.Title>Floruvi catalogue guide</Dialog.Title>
-              <Dialog.Description>
-                Automated · No live operator
-              </Dialog.Description>
+              <Dialog.Title>Floruvi</Dialog.Title>
+              <Dialog.Description>Automated guide · not a person</Dialog.Description>
             </div>
             <Dialog.Close
               className="icon-button"
@@ -114,13 +108,15 @@ export function ChatGuide() {
             )}
             <div ref={end} />
           </div>
-          <div className="chat-suggestions">
-            {["Basil", "Lettuce", "Business enquiry"].map((text) => (
-              <button key={text} disabled={loading} onClick={() => send(text)}>
-                {text}
-              </button>
-            ))}
-          </div>
+          {messages.length === 1 && (
+            <div className="chat-suggestions">
+              {["Basil", "Microgreens", "Business enquiry"].map((text) => (
+                <button key={text} disabled={loading} onClick={() => send(text)}>
+                  {text}
+                </button>
+              ))}
+            </div>
+          )}
           <form
             className="chat-input"
             onSubmit={(e) => {
@@ -148,9 +144,6 @@ export function ChatGuide() {
               <ArrowUp size={20} />
             </button>
           </form>
-          <p className="chat-disclaimer">
-            Page session only. Translation & human chat come later.
-          </p>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

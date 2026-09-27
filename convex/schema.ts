@@ -114,6 +114,8 @@ export default defineSchema({
     key: v.literal("commerce"),
     currency: v.literal("INR"),
     deliveryFeeMinor: v.number(),
+    // Website chat, switched in the admin panel. Missing means hidden.
+    chatEnabled: v.optional(v.boolean()),
   }).index("by_key", ["key"]),
   enquiryLimits: defineTable({
     key: v.string(),

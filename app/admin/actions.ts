@@ -55,6 +55,17 @@ export async function logout() {
   redirect("/admin/login");
 }
 
+export async function setChat(form: FormData) {
+  const token = await adminToken();
+  if (!token) redirect("/admin/login");
+  const response = await adminApi("chat", {
+    token,
+    enabled: form.get("enabled") === "true",
+  }).catch(() => null);
+  if (response?.status === 401) redirect("/admin/login");
+  revalidatePath("/admin");
+}
+
 export async function setStock(form: FormData) {
   const token = await adminToken();
   if (!token) redirect("/admin/login");

@@ -6,6 +6,7 @@ Built 28 September 2026. Provider research: [notifications, OTP & chat](23-notif
 
 - **`/admin`** shows all orders & enquiries (newest 200): customer, phone, email, delivery area, items, basket total, payment status and alert status. It also has an **In stock / Out of stock** switch for every product. No quantities are tracked.
 - **Out of stock** products stay on the site with an "Out of stock" label. They cannot be added to a basket, and the server basket check blocks checkout if one is already in a basket.
+- **Website chat switch:** shows or hides the chat button for all visitors (hidden by default). Today it shows the existing catalogue guide on the English site versions. A change reaches visitors within about a minute.
 - **Order alerts:** each saved enquiry sends a Telegram message and an email to the owner, when those channels are set up. A failed channel retries after 1 and 5 minutes. A sent channel is never sent twice. The admin panel shows each result: sent, failed or off.
 
 Payment is not taken online yet, and checkout does not ask for a street address. The panel says so on every order. Razorpay payment details will appear here when payments are built.
@@ -16,7 +17,7 @@ Payment is not taken online yet, and checkout does not ask for a street address.
 - **Where the check runs:** in a Convex Node action. The Next.js server calls Convex HTTP routes with `ADMIN_API_SECRET`; the Convex functions behind them are internal, so nobody can call them from a browser.
 - **Sign-in limits:** 10 attempts an hour from one address and 30 an hour in total. They are counted before the check, so parallel guesses cannot slip past. A successful sign-in clears the address's count.
 - **Session:** a random 256-bit token in an httpOnly, SameSite=Lax cookie (`__Host-` prefixed and Secure on the live site). Convex stores only its SHA-256 hash and checks it on every call. "Keep me signed in for 14 days" is ticked by default; without it, the cookie ends with the browser and the server ends the session after 12 hours. Sign out deletes the session on the server.
-- The admin pages are `noindex`, blocked in `robots.txt`, and outside the country-version routing.
+- The admin pages send `X-Robots-Tag: noindex, nofollow, noarchive, nosnippet` (as do `/api/` responses), are never linked from public pages or listed in the sitemap, and sit outside the country-version routing. They are deliberately not named in `robots.txt`, because that file is public and scrapers read it to find hidden paths.
 - Aadhaar numbers, dates of birth and phone numbers are not secret, so the password carries most of the protection. Use a long passphrase on the live site. A later step could add an authenticator-app code.
 
 Assumption, not yet confirmed by the owner: these owner sessions are managed in Convex. AGENTS.md assigns identities & sessions to Better Auth. That still applies to customer phone sign-in, which is not built yet.

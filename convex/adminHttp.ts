@@ -91,6 +91,18 @@ export const stock = httpAction(async (ctx, request) => {
   return reply(result === "ok" ? 200 : result === "missing" ? 404 : 401, { result });
 });
 
+export const chat = httpAction(async (ctx, request) => {
+  if (!(await fromServer(request))) return reply(401);
+  const body = await readBody(request);
+  const token = text(body?.token);
+  if (!TOKEN.test(token) || typeof body?.enabled !== "boolean") return reply(400);
+  const result = await ctx.runMutation(internal.admin.setChat, {
+    tokenHash: await sha256(token),
+    enabled: body.enabled,
+  });
+  return reply(result === "ok" ? 200 : result === "missing" ? 404 : 401, { result });
+});
+
 export const logout = httpAction(async (ctx, request) => {
   if (!(await fromServer(request))) return reply(401);
   const token = text((await readBody(request))?.token);

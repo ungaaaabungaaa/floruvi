@@ -36,6 +36,11 @@ const config: NextConfig = {
           },
         ],
       },
+      // Owner pages and APIs never enter search results, archives or AI answers.
+      ...["/admin", "/admin/:path*", "/api/:path*"].map((source) => ({
+        source,
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive, nosnippet" }],
+      })),
     ];
   },
 };

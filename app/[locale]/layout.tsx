@@ -4,6 +4,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n/provider";
 import { CartPill } from "@/components/cart-pill";
+import { ChatSlot } from "@/components/chat-slot";
 import { cartThumbnails } from "@/lib/cart-thumbnails";
 import { siteUrl } from "@/lib/site";
 import { getI18n } from "@/lib/i18n/server";
@@ -73,6 +74,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           <main id="main">{children}</main>
           <Footer />
           <CartPill thumbnails={cartThumbnails} />
+          <ChatSlot />
         </I18nProvider>
         <SiteMotion />
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organization)} />

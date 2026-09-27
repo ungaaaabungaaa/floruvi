@@ -143,6 +143,18 @@ export const product = query({
   },
 });
 
+/** Public: whether the owner has switched the website chat on. */
+export const chat = query({
+  args: {},
+  handler: async (ctx) => {
+    const settings = await ctx.db
+      .query("storeSettings")
+      .withIndex("by_key", (q) => q.eq("key", "commerce"))
+      .unique();
+    return { enabled: settings?.chatEnabled === true };
+  },
+});
+
 export const recipes = query({
   args: { language: languageArg },
   handler: async (ctx, { language }) => {

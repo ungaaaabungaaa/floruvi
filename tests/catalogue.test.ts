@@ -35,7 +35,7 @@ test("guide returns real product links and keeps stock and human access explicit
   );
   assert.match(
     guideReply("what is the price?", products).text,
-    /does not show live stock/,
+    /in stock.*confirms delivery/,
   );
   assert.match(
     guideReply("talk to a human", products).text,
