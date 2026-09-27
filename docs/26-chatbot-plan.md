@@ -1,12 +1,34 @@
-# Support chatbot — plan for owner approval
+# Support chatbot
 
-Status: proposal, 28 September 2026. Nothing below is built. Costs and providers: [research](23-notifications-otp-chat-research.md). Earlier design: [chat & translation](04-chat.md).
+Status, 28 September 2026: **steps 2 and 3 are built** (owner request: "implement … open router sdk or vercel ai sdk, whichever provides us the best"). The chat stays hidden until the owner turns it on in `/admin`. Step 1 (SMS-code sign-in) waits for MSG91 and DLT. Costs and providers: [research](23-notifications-otp-chat-research.md). Earlier design: [chat & translation](04-chat.md).
+
+## What is built
+
+- **Stack.** The Vercel AI SDK 7 (`ai`, `@ai-sdk/react`) with the official OpenRouter provider (`@openrouter/ai-sdk-provider`). The AI SDK gives streaming replies, typed tools and the `useChat` window; OpenRouter gives one key for every model, a fallback model and a spending cap. Model: `qwen/qwen3.7-flash`, falling back to `openai/gpt-6-luna` (change with `OPENROUTER_MODEL` / `OPENROUTER_FALLBACK_MODEL`). Only providers that do not keep or train on prompts are used (`data_collection: deny`). Replies are capped at 500 tokens, 4 tool steps and minimal reasoning.
+- **Where it runs.** `app/api/chat/route.ts` on Vercel. The key `OPENROUTER_API_KEY` is a Vercel server variable; the browser never sees it. Without the key, the switch shows the old English catalogue guide.
+- **Tools, checked by code** (`lib/chat-bot.ts`): `findProducts`, `getProduct`, `addToBasket` and `handOff`. Prices, packs and stock come from the live catalogue for the visitor's country. `addToBasket` only offers a button; the customer taps it. The model has no database, order, payment or web access.
+- **Languages.** It answers in the visitor's language on all 32 site versions, including Hindi and other Indian languages typed in Latin letters. Search knows common local names (palak, dhaniya, pudina, methi, tulsi and more).
+- **Storage** (`convex/chat.ts`): `chatThreads` and `chatMessages`. A chat belongs to a private, httpOnly cookie; Convex stores only its SHA-256. Chats are deleted 180 days after the last message by a daily job (`convex/crons.ts`).
+- **Hand-off.** Code hands the chat to the owner for "person / call me / where is my order / refund / complaint" (English and common Hinglish); the model can also hand off, and a failed answer hands off too. The owner gets a Telegram/email alert with a link.
+- **Owner inbox.** `/admin/chats`: chats waiting for the owner first, the full conversation, a reply box, and **Take over**, **Give back to the assistant** and **Close**. Customers see replies within about 10 seconds while their chat window is open.
+- **Limits.** 30 messages an hour per address and per chat, 600 an hour in total, 500 characters a message. Set a monthly cap in OpenRouter as well.
+- **Tests.** `tests/chat.test.ts` uses the AI SDK's mock model: tool checks, a streamed tool call, hand-off rules, and the route's refusals. Development checks on 28 September 2026 covered storage, hand-off, owner reply, give-back and the chat window; a fake key showed the error message and handed the chat to the owner.
+
+## Owner setup
+
+1. Create an OpenRouter account, add credit, and set a **monthly limit** on the key (proposal: US$10).
+2. Put the key in Vercel → floruvi → Settings → Environment Variables: `OPENROUTER_API_KEY`, Production, Sensitive. Redeploy.
+3. Update the privacy notice: chats are saved for 180 days and processed by OpenRouter and the model provider.
+4. Deploy the backend: `pnpm exec convex deploy` (answer `y`).
+5. Turn **Website chat** on in `/admin`, try 20–50 real questions in English, Hindi and Arabic, and read them in `/admin/chats`.
+
+Still to build: SMS-code sign-in before chatting (step 1), and WhatsApp (step 4).
 
 ## What the owner asked for
 
 A website chat that works only after the customer verifies a 10-digit mobile number with a 6-digit SMS code. The bot answers only Floruvi questions, knows every product and price, can add products to the basket, explains payment and delivery, and hands the chat to the owner when a person is needed ("Where is my order?", "I want to talk to a human"). The owner answers from the admin panel. All chats are stored. Later, the same bot runs on WhatsApp. The budget is small.
 
-## Recommended design
+## Original design (approved by the owner on 28 September 2026)
 
 ```mermaid
 flowchart LR

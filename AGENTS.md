@@ -35,7 +35,7 @@
 
 ## Data and security
 
-- Convex owns products, stock, orders, leads, and payment records. Better Auth owns identities, codes, and sessions. Chat is hidden for now. The owner plans to use OpenRouter later; the final conversation provider is not yet selected.
+- Convex owns products, stock, orders, leads, and payment records. Better Auth owns identities, codes, and sessions. Chat is hidden until the owner switches it on in /admin. The owner chose OpenRouter through the Vercel AI SDK on 28 September 2026 (docs/26-chatbot-plan.md).
 - Check identity and permissions in every protected Convex function. Hidden buttons and page redirects are not access control.
 - Keep public product outputs separate from private customer and business data.
 - Calculate prices, delivery fees, stock limits, and payment amounts on the server.

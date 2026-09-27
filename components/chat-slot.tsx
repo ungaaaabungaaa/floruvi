@@ -6,19 +6,23 @@ import { useI18n } from "./i18n/provider";
 const ChatGuide = dynamic(() => import("./chat-guide").then((m) => m.ChatGuide), {
   ssr: false,
 });
+const ChatBot = dynamic(() => import("./chat-bot").then((m) => m.ChatBot), { ssr: false });
 
 // The chat loads after the page is idle and only when the owner has switched it on.
-// The current guide answers in English, so other language versions stay chat-free.
+// The AI assistant answers in every language. Without an OpenRouter key, the simple
+// catalogue guide answers, in English only, so other language versions stay chat-free.
 export function ChatSlot() {
   const { locale } = useI18n();
-  const [enabled, setEnabled] = useState(false);
+  const [chat, setChat] = useState<"off" | "guide" | "bot">("off");
   useEffect(() => {
-    if (locale.language !== "en") return;
     let active = true;
     const check = () =>
       fetch("/api/chat")
         .then((response) => (response.ok ? response.json() : null))
-        .then((data) => active && setEnabled(data?.enabled === true))
+        .then((data) => {
+          if (!active || data?.enabled !== true) return;
+          setChat(data.ai ? "bot" : locale.language === "en" ? "guide" : "off");
+        })
         .catch(() => {});
     const idle = "requestIdleCallback" in window;
     const handle = idle ? requestIdleCallback(check, { timeout: 4000 }) : setTimeout(check, 2000);
@@ -28,5 +32,5 @@ export function ChatSlot() {
       else clearTimeout(handle);
     };
   }, [locale.language]);
-  return enabled ? <ChatGuide /> : null;
+  return chat === "bot" ? <ChatBot /> : chat === "guide" ? <ChatGuide /> : null;
 }

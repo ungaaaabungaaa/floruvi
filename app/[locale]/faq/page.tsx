@@ -8,7 +8,7 @@ import Link from "@/components/i18n/link";
 import type { Metadata } from "next";
 import { getShop } from "@/lib/storefront";
 import { getI18n } from "@/lib/i18n/server";
-import { fill, formatCurrency } from "@/lib/i18n/format";
+import { faqGroups } from "@/lib/faq";
 import { jsonLd, pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -23,26 +23,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function FAQ() {
   const [{ locale, messages }, { commerce }] = await Promise.all([getI18n(), getShop()]);
   const t = messages.faq;
-  const deliveryFee =
-    commerce?.deliveryFeeMinor == null
-      ? t.deliveryFeeMissing
-      : fill(t.deliveryFee, {
-          fee: formatCurrency(commerce.deliveryFeeMinor, "INR", locale.tag),
-        });
-  const country = { country: locale.countryName };
-  const exportAnswers = new Map([
-    [t.groups.delivery.questions[0][0], t.export.where],
-    [t.groups.delivery.questions[1][0], t.export.cost],
-    [t.groups.boxes.questions[3][0], t.export.boxDelivery],
-  ]);
-  const groups = Object.entries(t.groups).map(([id, group]) => ({
-    id,
-    title: group.title,
-    questions: group.questions.map(([question, answer]) => {
-      const [q, a] = (!locale.domestic && exportAnswers.get(question)) || [question, answer];
-      return [q, fill(a, { deliveryFee, ...country })];
-    }),
-  }));
+  const groups = faqGroups(t, {
+    domestic: locale.domestic,
+    countryName: locale.countryName,
+    tag: locale.tag,
+    deliveryFeeMinor: commerce?.deliveryFeeMinor,
+  });
   const schema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

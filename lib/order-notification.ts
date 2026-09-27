@@ -146,3 +146,24 @@ export function paidOrderAlert(order: PaidOrderForAlert, adminUrl?: string) {
     telegram: fitTelegram(head, [...items, ...(notes ? ["", `Notes: ${notes}`] : [])].join("\n"), foot),
   };
 }
+
+/** Owner alert when a website chat needs a person. */
+export function chatAlert(
+  chat: { reason: string; language: string; recent: { author: string; text: string }[] },
+  inboxUrl?: string,
+) {
+  const title = `Chat needs you: ${chat.reason}`;
+  const lines = chat.recent.map(
+    (m) => `${m.author === "customer" ? "Customer" : m.author === "owner" ? "You" : "Assistant"}: ${m.text}`,
+  );
+  const text = [
+    title,
+    `Language: ${chat.language}`,
+    "",
+    ...lines,
+    ...(inboxUrl ? ["", `Reply in the admin panel: ${inboxUrl}`] : []),
+  ].join("\n");
+  const head = `<b>${escapeHtml(title)}</b>\nLanguage: ${escapeHtml(chat.language)}\n\n`;
+  const foot = inboxUrl ? `\n\n<a href="${escapeHtml(inboxUrl)}">Reply in the admin panel</a>` : "";
+  return { subject: title, text, telegram: fitTelegram(head, lines.join("\n"), foot) };
+}

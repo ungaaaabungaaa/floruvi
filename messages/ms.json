@@ -131,6 +131,29 @@
         "other": "{count} item"
       }
     },
+    "chat": {
+      "open": "Bersembang dengan Floruvi",
+      "title": "Floruvi",
+      "note": "Pembantu automatik · sembang disimpan",
+      "close": "Tutup sembang",
+      "label": "Mesej anda",
+      "placeholder": "Tanya tentang hasil, harga atau penghantaran…",
+      "send": "Hantar mesej",
+      "greeting": "Hai. Tanya saya tentang hasil tani, harga, penghantaran atau pembayaran kami.",
+      "thinking": "Sedang menaip…",
+      "error": "Maaf, berlaku ralat. Sila cuba lagi.",
+      "tooMany": "Anda telah menghantar banyak mesej. Sila cuba lagi dalam sejam.",
+      "add": "Tambah {quantity} × {name}",
+      "added": "Ditambah ke bakul",
+      "team": "Pasukan Floruvi",
+      "withTeam": "Pasukan Floruvi sedang menjawab sembang ini. Balasan dipaparkan di sini.",
+      "handedOff": "Saya telah menyerahkan ini kepada pasukan Floruvi. Mereka akan membalas di sini tidak lama lagi.",
+      "suggestions": [
+        "Apa yang ada dalam stok?",
+        "Caj penghantaran",
+        "Pesanan perniagaan"
+      ]
+    },
     "boxes": {
       "single": {
         "name": "Individu",

@@ -2,6 +2,9 @@
   "name": "floruvi-farm",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,9 +19,12 @@
     "format": "prettier --write app components lib convex tests *.ts *.mjs package.json"
   },
   "dependencies": {
+    "@ai-sdk/react": "4.0.121",
+    "@openrouter/ai-sdk-provider": "3.1.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-slot": "^1.2.4",
     "@tabler/icons-react": "^3.46.0",
+    "ai": "7.0.118",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "convex": "1.45.0",

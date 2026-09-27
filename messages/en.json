@@ -134,6 +134,29 @@
         "other": "{count} items"
       }
     },
+    "chat": {
+      "open": "Chat with Floruvi",
+      "title": "Floruvi",
+      "note": "Automated assistant · chats are saved",
+      "close": "Close chat",
+      "label": "Your message",
+      "placeholder": "Ask about produce, prices or delivery…",
+      "send": "Send message",
+      "greeting": "Hi. Ask me about our produce, prices, delivery or payment.",
+      "thinking": "Typing…",
+      "error": "Sorry, something went wrong. Please try again.",
+      "tooMany": "You’ve sent many messages. Please try again in an hour.",
+      "add": "Add {quantity} × {name}",
+      "added": "Added to basket",
+      "team": "Floruvi team",
+      "withTeam": "The Floruvi team is answering this chat. Replies appear here.",
+      "handedOff": "I’ve passed this to the Floruvi team. They will reply here soon.",
+      "suggestions": [
+        "What’s in stock?",
+        "Delivery charges",
+        "Business order"
+      ]
+    },
     "boxes": {
       "single": {
         "name": "Single",

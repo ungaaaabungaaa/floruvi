@@ -143,6 +143,32 @@ export default defineSchema({
   })
     .index("by_reference", ["reference"])
     .index("by_razorpay_order", ["razorpayOrderId"]),
+  // Website chat. A thread belongs to whoever holds its cookie; only the
+  // cookie's SHA-256 is stored. Deleted 180 days after the last message.
+  chatThreads: defineTable({
+    tokenHash: v.string(),
+    // bot: the assistant answers. owner: the owner answers and the bot is silent.
+    mode: v.union(v.literal("bot"), v.literal("owner"), v.literal("closed")),
+    language: v.string(),
+    market: v.string(),
+    lastMessageAt: v.number(),
+    preview: v.string(),
+    // The customer wrote since the owner last answered.
+    unread: v.boolean(),
+    handOffReason: v.optional(v.string()),
+    notifications: v.optional(notifications),
+  })
+    .index("by_token", ["tokenHash"])
+    .index("by_last_message", ["lastMessageAt"])
+    .index("by_mode", ["mode", "lastMessageAt"]),
+  chatMessages: defineTable({
+    threadId: v.id("chatThreads"),
+    author: v.union(v.literal("customer"), v.literal("bot"), v.literal("owner")),
+    text: v.string(),
+    products: v.optional(
+      v.array(v.object({ slug: v.string(), name: v.string(), quantity: v.optional(v.number()) })),
+    ),
+  }).index("by_thread", ["threadId"]),
   // Owner admin sessions: only a SHA-256 of the cookie token is stored.
   adminSessions: defineTable({
     tokenHash: v.string(),

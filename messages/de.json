@@ -134,6 +134,29 @@
         "other": "{count} Artikel"
       }
     },
+    "chat": {
+      "open": "Mit Floruvi chatten",
+      "title": "Floruvi",
+      "note": "Automatischer Assistent · Chats werden gespeichert",
+      "close": "Chat schließen",
+      "label": "Deine Nachricht",
+      "placeholder": "Frag nach Produkten, Preisen oder Lieferung…",
+      "send": "Nachricht senden",
+      "greeting": "Hallo. Frag mich nach unseren Produkten, Preisen, der Lieferung oder der Zahlung.",
+      "thinking": "Schreibt…",
+      "error": "Entschuldigung, etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "tooMany": "Du hast viele Nachrichten gesendet. Bitte versuche es in einer Stunde erneut.",
+      "add": "{quantity} × {name} hinzufügen",
+      "added": "Zum Warenkorb hinzugefügt",
+      "team": "Floruvi-Team",
+      "withTeam": "Das Floruvi-Team beantwortet diesen Chat. Antworten erscheinen hier.",
+      "handedOff": "Ich habe das an das Floruvi-Team weitergegeben. Es antwortet bald hier.",
+      "suggestions": [
+        "Was ist vorrätig?",
+        "Lieferkosten",
+        "Geschäftsbestellung"
+      ]
+    },
     "boxes": {
       "single": {
         "name": "Single",

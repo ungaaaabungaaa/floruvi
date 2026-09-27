@@ -4,6 +4,7 @@ import { internal } from "./_generated/api";
 import { enquirySchema } from "../lib/enquiry";
 import * as admin from "./adminHttp";
 import * as payments from "./paymentsHttp";
+import * as chat from "./chatHttp";
 
 const http = httpRouter();
 http.route({
@@ -47,4 +48,9 @@ http.route({ path: "/admin/logout", method: "POST", handler: admin.logout });
 http.route({ path: "/payments/order", method: "POST", handler: payments.order });
 http.route({ path: "/payments/confirm", method: "POST", handler: payments.confirm });
 http.route({ path: "/razorpay/webhook", method: "POST", handler: payments.webhook });
+http.route({ path: "/chat/turn", method: "POST", handler: chat.turn });
+http.route({ path: "/chat/reply", method: "POST", handler: chat.botReply });
+http.route({ path: "/chat/thread", method: "POST", handler: chat.thread });
+http.route({ path: "/admin/chats", method: "POST", handler: chat.inbox });
+http.route({ path: "/admin/chat-update", method: "POST", handler: chat.update });
 export default http;

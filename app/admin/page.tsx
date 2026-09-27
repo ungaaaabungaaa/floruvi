@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type Dashboard } from "@/lib/admin";
 import { formatCurrency } from "@/lib/i18n/format";
@@ -53,7 +54,12 @@ export default async function AdminHome() {
 
       <section aria-labelledby="chat-title" className="admin-setting">
         <div>
-          <h2 id="chat-title">Website chat</h2>
+          <h2 id="chat-title">
+            Website chat{" "}
+            <Link className="admin-link" href="/admin/chats">
+              Open chats →
+            </Link>
+          </h2>
           <p className="admin-muted">
             {data.chatEnabled
               ? "Visible on the English site versions. Visitors see it within a minute of a change."

@@ -1,7 +1,7 @@
 import { internalAction, internalMutation, internalQuery } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { v } from "convex/values";
-import { orderAlert, paidOrderAlert } from "../lib/order-notification";
+import { chatAlert, orderAlert, paidOrderAlert } from "../lib/order-notification";
 
 // Owner alerts for each saved enquiry and each paid order. Channels without settings stay "off".
 // A failed channel retries twice; a sent channel is never sent again.
@@ -26,7 +26,7 @@ export const orderForAlert = internalQuery({
 
 export const record = internalMutation({
   args: {
-    id: v.union(v.id("enquiries"), v.id("orders")),
+    id: v.union(v.id("enquiries"), v.id("orders"), v.id("chatThreads")),
     telegram: status,
     email: status,
     attempts: v.number(),
@@ -63,7 +63,7 @@ async function sendEmail(
   from: string,
   to: string[],
   alert: { subject: string; text: string },
-  replyTo: string,
+  replyTo: string | undefined,
 ) {
   try {
     const response = await fetch("https://api.resend.com/emails", {
@@ -87,7 +87,7 @@ type Notifications = { telegram: Status | "pending"; email: Status | "pending"; 
  */
 async function deliver(
   alert: Alert,
-  replyTo: string,
+  replyTo: string | undefined,
   before: Notifications | undefined,
   save: (notifications: Notifications) => Promise<unknown>,
 ) {
@@ -148,5 +148,22 @@ export const sendOrder = internalAction({
     );
     if (retry !== null)
       await ctx.scheduler.runAfter(retry, internal.notifications.sendOrder, { id });
+  },
+});
+
+export const sendChat = internalAction({
+  args: { id: v.id("chatThreads") },
+  handler: async (ctx, { id }) => {
+    const chat = await ctx.runQuery(internal.chat.threadForAlert, { id });
+    if (!chat || chat.mode !== "owner") return;
+    const inbox = adminUrl();
+    const alert = chatAlert(
+      { reason: chat.handOffReason ?? "Needs a person", language: chat.language, recent: chat.recent },
+      inbox && `${inbox}/chats?t=${id}`,
+    );
+    const retry = await deliver(alert, undefined, chat.notifications, (notifications) =>
+      ctx.runMutation(internal.notifications.record, { id, ...notifications }),
+    );
+    if (retry !== null) await ctx.scheduler.runAfter(retry, internal.notifications.sendChat, { id });
   },
 });

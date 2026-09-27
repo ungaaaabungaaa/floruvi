@@ -7,6 +7,7 @@ import type { internal } from "@/convex/_generated/api";
 // httpOnly cookie; Convex stores only its hash and checks it on every call.
 
 export type Dashboard = NonNullable<FunctionReturnType<typeof internal.admin.dashboard>>;
+export type ChatInbox = NonNullable<FunctionReturnType<typeof internal.chat.inbox>>;
 
 const secure = process.env.NODE_ENV === "production";
 // __Host- cookies must be Secure, host-only and path "/", so no subdomain can set them.
@@ -19,7 +20,15 @@ export async function adminToken() {
 
 /** Calls a Convex admin HTTP route with the server secret. Null when not configured. */
 export async function adminApi(
-  path: "login" | "dashboard" | "stock" | "chat" | "payments" | "logout",
+  path:
+    | "login"
+    | "dashboard"
+    | "stock"
+    | "chat"
+    | "payments"
+    | "logout"
+    | "chats"
+    | "chat-update",
   body: object,
 ) {
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;

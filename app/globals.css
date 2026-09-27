@@ -1343,6 +1343,38 @@ em {
   font-size: 10px;
   color: var(--muted);
 }
+.chat-message > a small {
+  color: var(--muted);
+}
+.chat-team {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--green);
+}
+.chat-add {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 9px;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--green);
+  color: var(--paper);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: start;
+  cursor: pointer;
+}
+.chat-add:disabled {
+  background: var(--paper);
+  color: var(--green);
+  border: 1px solid #d5dcc6;
+  cursor: default;
+}
 .mobile-nav-panel {
   position: fixed;
   inset: 0 0 auto;

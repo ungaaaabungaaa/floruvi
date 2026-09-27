@@ -134,6 +134,29 @@
         "other": "{count} artikelen"
       }
     },
+    "chat": {
+      "open": "Chat met Floruvi",
+      "title": "Floruvi",
+      "note": "Automatische assistent · chats worden bewaard",
+      "close": "Chat sluiten",
+      "label": "Je bericht",
+      "placeholder": "Vraag naar producten, prijzen of bezorging…",
+      "send": "Bericht versturen",
+      "greeting": "Hoi. Vraag me naar onze producten, prijzen, bezorging of betaling.",
+      "thinking": "Aan het typen…",
+      "error": "Sorry, er ging iets mis. Probeer het opnieuw.",
+      "tooMany": "Je hebt veel berichten gestuurd. Probeer het over een uur opnieuw.",
+      "add": "{quantity} × {name} toevoegen",
+      "added": "Toegevoegd aan winkelmandje",
+      "team": "Floruvi-team",
+      "withTeam": "Het Floruvi-team beantwoordt deze chat. Antwoorden verschijnen hier.",
+      "handedOff": "Ik heb dit doorgegeven aan het Floruvi-team. Ze antwoorden hier binnenkort.",
+      "suggestions": [
+        "Wat is op voorraad?",
+        "Bezorgkosten",
+        "Zakelijke bestelling"
+      ]
+    },
     "boxes": {
       "single": {
         "name": "Solo",

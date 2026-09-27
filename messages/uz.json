@@ -134,6 +134,29 @@
         "other": "{count} ta mahsulot"
       }
     },
+    "chat": {
+      "open": "Floruvi bilan suhbat",
+      "title": "Floruvi",
+      "note": "Avtomatik yordamchi · suhbatlar saqlanadi",
+      "close": "Suhbatni yopish",
+      "label": "Xabaringiz",
+      "placeholder": "Mahsulot, narx yoki yetkazib berish haqida soʻrang…",
+      "send": "Xabarni yuborish",
+      "greeting": "Salom. Mahsulotlarimiz, narxlar, yetkazib berish yoki toʻlov haqida soʻrang.",
+      "thinking": "Yozmoqda…",
+      "error": "Kechirasiz, xatolik yuz berdi. Qaytadan urinib koʻring.",
+      "tooMany": "Siz koʻp xabar yubordingiz. Bir soatdan keyin qayta urinib koʻring.",
+      "add": "{name} × {quantity} qoʻshish",
+      "added": "Savatga qoʻshildi",
+      "team": "Floruvi jamoasi",
+      "withTeam": "Bu suhbatga Floruvi jamoasi javob bermoqda. Javoblar shu yerda chiqadi.",
+      "handedOff": "Buni Floruvi jamoasiga yubordim. Ular tez orada shu yerda javob berishadi.",
+      "suggestions": [
+        "Nimalar mavjud?",
+        "Yetkazib berish narxi",
+        "Biznes buyurtma"
+      ]
+    },
     "boxes": {
       "single": {
         "name": "Yakka",

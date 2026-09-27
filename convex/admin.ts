@@ -10,7 +10,7 @@ import { paymentMode } from "../lib/razorpay";
 const HOUR = 60 * 60 * 1000;
 export const SESSION_HOURS = { remembered: 14 * 24, browser: 12 };
 
-async function activeSession(ctx: QueryCtx, tokenHash: string) {
+export async function activeSession(ctx: QueryCtx, tokenHash: string) {
   const session = await ctx.db
     .query("adminSessions")
     .withIndex("by_token", (q) => q.eq("tokenHash", tokenHash))

@@ -88,3 +88,19 @@ export async function setStock(form: FormData) {
   if (response?.status === 401) redirect("/admin/login");
   revalidatePath("/admin");
 }
+
+/** Owner reply in a website chat, or a change of who answers it. */
+export async function updateChat(form: FormData) {
+  const token = await adminToken();
+  if (!token) redirect("/admin/login");
+  const threadId = String(form.get("threadId") ?? "");
+  const mode = String(form.get("mode") ?? "");
+  const response = await adminApi("chat-update", {
+    token,
+    threadId,
+    text: String(form.get("text") ?? "").slice(0, 2000),
+    ...(["bot", "owner", "closed"].includes(mode) && { mode }),
+  }).catch(() => null);
+  if (response?.status === 401) redirect("/admin/login");
+  revalidatePath("/admin/chats");
+}
