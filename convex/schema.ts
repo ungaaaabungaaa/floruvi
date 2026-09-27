@@ -7,10 +7,11 @@ const alertStatus = v.union(
   v.literal("failed"),
   v.literal("off"),
 );
-// Owner alerts. "off" means the channel is not configured.
+// Owner alerts by Telegram. "off" means the bot is not configured. Email alerts
+// were removed on 28 September 2026; older records may still hold `email`.
 const notifications = v.object({
   telegram: alertStatus,
-  email: alertStatus,
+  email: v.optional(alertStatus),
   attempts: v.number(),
 });
 

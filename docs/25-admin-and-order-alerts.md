@@ -7,7 +7,7 @@ Built 28 September 2026. Provider research: [notifications, OTP & chat](23-notif
 - **`/admin`** shows all orders & enquiries (newest 200): customer, phone, email, delivery area, items, basket total, payment status and alert status. It also has an **In stock / Out of stock** switch for every product. No quantities are tracked.
 - **Out of stock** products stay on the site with an "Out of stock" label. They cannot be added to a basket, and the server basket check blocks checkout if one is already in a basket.
 - **Website chat switch:** shows or hides the chat button for all visitors (hidden by default). Today it shows the existing catalogue guide on the English site versions. A change reaches visitors within about a minute.
-- **Order alerts:** each saved enquiry sends a Telegram message and an email to the owner, when those channels are set up. A failed channel retries after 1 and 5 minutes. A sent channel is never sent twice. The admin panel shows each result: sent, failed or off.
+- **Order alerts:** each saved enquiry, paid order and chat hand-off sends a Telegram message to the owner, when the bot is set up. A failed alert retries after 1 and 5 minutes. A sent alert is never sent twice. The admin panel shows each result: sent, failed or off. Email alerts were removed on 28 September 2026 (owner request).
 
 Requests and enquiries are not paid, and they do not include a street address; the panel says so. Paid Razorpay orders appear above them under **Online orders**, with the address, items, payment ID and method, and an **Online payment** switch. See [Razorpay payments](29-razorpay-payments.md).
 
@@ -60,17 +60,9 @@ Preview deployments use the development backend, which already has a secret and 
 3. Open `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser. Copy `chat.id` from the result (group IDs start with `-`).
 4. Set both in Convex: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_OWNER_CHAT_ID` (add `--prod` for the live site).
 
-## Connect email (Resend free plan: 3,000 emails a month, 100 a day)
-
-1. Create a Resend account with the address that should receive alerts. Create a **sending access** API key.
-2. Set in Convex: `RESEND_API_KEY`, `ALERT_EMAIL_FROM` (`onboarding@resend.dev` until a domain is verified) and `OWNER_ALERT_EMAILS` (comma-separated).
-3. Until a domain is verified in Resend, it only delivers to the Resend account's own address. Verify the domain when the custom domain is live, then add the second inbox.
-
-The reply-to address of each alert email is the customer's email.
-
 ## Before switching alerts on
 
-Update the privacy notice: enquiry details are sent to the owner through Telegram and email. The README email checklist already lists this.
+The privacy notice says that request and order details are sent to the owner through Telegram (updated 28 September 2026).
 
 ## Local testing
 

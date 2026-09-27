@@ -3,8 +3,9 @@ import { internal } from "./_generated/api";
 import { v } from "convex/values";
 import { chatAlert, orderAlert, paidOrderAlert } from "../lib/order-notification";
 
-// Owner alerts for each saved enquiry and each paid order. Channels without settings stay "off".
-// A failed channel retries twice; a sent channel is never sent again.
+// Owner alerts by Telegram for each saved enquiry, paid order and chat hand-off.
+// Without the bot settings the alert stays "off". A failed alert retries twice;
+// a sent alert is never sent again. (Email alerts were removed on 28 September 2026.)
 const RETRY_AFTER = [60_000, 5 * 60_000];
 const status = v.union(
   v.literal("pending"),
@@ -28,7 +29,6 @@ export const record = internalMutation({
   args: {
     id: v.union(v.id("enquiries"), v.id("orders"), v.id("chatThreads")),
     telegram: status,
-    email: status,
     attempts: v.number(),
   },
   handler: async (ctx, { id, ...notifications }) => {
@@ -58,64 +58,29 @@ async function sendTelegram(token: string, chat: string, html: string) {
   }
 }
 
-async function sendEmail(
-  key: string,
-  from: string,
-  to: string[],
-  alert: { subject: string; text: string },
-  replyTo: string | undefined,
-) {
-  try {
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
-      body: JSON.stringify({ from, to, subject: alert.subject, text: alert.text, reply_to: replyTo }),
-      signal: timeout(),
-    });
-    return response.ok;
-  } catch {
-    return false;
-  }
-}
-
-type Alert = { subject: string; text: string; telegram: string };
-type Notifications = { telegram: Status | "pending"; email: Status | "pending"; attempts: number };
+type Notifications = { telegram: Status | "pending"; attempts: number };
 
 /**
- * Sends one alert on each configured channel and saves each result. Returns the
- * delay before a retry, or null when nothing failed or the retries are used up.
+ * Sends one alert and saves the result. Returns the delay before a retry, or
+ * null when it was sent, is off, or the retries are used up.
  */
 async function deliver(
-  alert: Alert,
-  replyTo: string | undefined,
+  html: string,
   before: Notifications | undefined,
   save: (notifications: Notifications) => Promise<unknown>,
 ) {
-  const env = process.env;
-  const recipients = (env.OWNER_ALERT_EMAILS ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  const { TELEGRAM_BOT_TOKEN: token, TELEGRAM_OWNER_CHAT_ID: chat } = process.env;
   const telegram: Status =
-    !env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_OWNER_CHAT_ID
+    !token || !chat
       ? "off"
       : before?.telegram === "sent"
         ? "sent"
-        : (await sendTelegram(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_OWNER_CHAT_ID, alert.telegram))
+        : (await sendTelegram(token, chat, html))
           ? "sent"
           : "failed";
   const attempts = (before?.attempts ?? 0) + 1;
-  // Save Telegram's result first, so a crash before email cannot resend it.
-  await save({ telegram, email: before?.email ?? "pending", attempts });
-  const email: Status =
-    !env.RESEND_API_KEY || !env.ALERT_EMAIL_FROM || !recipients.length
-      ? "off"
-      : before?.email === "sent"
-        ? "sent"
-        : (await sendEmail(env.RESEND_API_KEY, env.ALERT_EMAIL_FROM, recipients, alert, replyTo))
-          ? "sent"
-          : "failed";
-  await save({ telegram, email, attempts });
-  return (telegram === "failed" || email === "failed") && attempts <= RETRY_AFTER.length
-    ? RETRY_AFTER[attempts - 1]
-    : null;
+  await save({ telegram, attempts });
+  return telegram === "failed" && attempts <= RETRY_AFTER.length ? RETRY_AFTER[attempts - 1] : null;
 }
 
 const adminUrl = () => {
@@ -129,7 +94,7 @@ export const sendEnquiry = internalAction({
     const enquiry = await ctx.runQuery(internal.notifications.enquiryForAlert, { id });
     if (!enquiry) return;
     const alert = orderAlert({ ...enquiry, receivedAt: enquiry._creationTime }, adminUrl());
-    const retry = await deliver(alert, enquiry.email, enquiry.notifications, (notifications) =>
+    const retry = await deliver(alert, enquiry.notifications, (notifications) =>
       ctx.runMutation(internal.notifications.record, { id, ...notifications }),
     );
     if (retry !== null)
@@ -143,7 +108,7 @@ export const sendOrder = internalAction({
     const order = await ctx.runQuery(internal.notifications.orderForAlert, { id });
     if (!order) return;
     const alert = paidOrderAlert(order, adminUrl());
-    const retry = await deliver(alert, order.customer.email, order.notifications, (notifications) =>
+    const retry = await deliver(alert, order.notifications, (notifications) =>
       ctx.runMutation(internal.notifications.record, { id, ...notifications }),
     );
     if (retry !== null)
@@ -161,7 +126,7 @@ export const sendChat = internalAction({
       { reason: chat.handOffReason ?? "Needs a person", language: chat.language, recent: chat.recent },
       inbox && `${inbox}/chats?t=${id}`,
     );
-    const retry = await deliver(alert, undefined, chat.notifications, (notifications) =>
+    const retry = await deliver(alert, chat.notifications, (notifications) =>
       ctx.runMutation(internal.notifications.record, { id, ...notifications }),
     );
     if (retry !== null) await ctx.scheduler.runAfter(retry, internal.notifications.sendChat, { id });

@@ -14,7 +14,7 @@ This keeps the custom code focused on products, delivery rules, checkout, and a 
 | UI | Tailwind CSS + shadcn/ui | The owner can direct each component and style |
 | Backend | Convex | Reactive stock and dashboard updates; one place for business rules |
 | Auth | Better Auth + official Convex component | One identity owner for email and phone codes |
-| Email | Resend | Codes, receipts, and lead alerts |
+| Email | Resend (later) | Email codes and receipts, if added. Owner alerts use Telegram only (email alerts removed on 28 September 2026) |
 | SMS | Twilio Programmable Messaging | Send Better Auth's phone code through a provider callback |
 | Payment | Razorpay Standard Checkout | Provider-managed payment UI and methods |
 | Hosting | Vercel Pro | Direct Next.js and GitHub deployment path |

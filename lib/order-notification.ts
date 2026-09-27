@@ -1,5 +1,7 @@
 import { formatCurrency } from "./i18n/format";
 
+// Owner alerts, sent by Telegram (HTML). Every customer value is escaped.
+
 export type EnquiryForAlert = {
   kind: "business" | "personal";
   name: string;
@@ -16,55 +18,13 @@ export type EnquiryForAlert = {
 const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-/** One owner alert as plain text (email) and Telegram HTML. */
-export function orderAlert(enquiry: EnquiryForAlert, adminUrl?: string) {
-  const basket = enquiry.message.startsWith("Basket availability request:");
-  const title =
-    enquiry.kind === "business"
-      ? "New business enquiry"
-      : basket
-        ? "New order request"
-        : "New enquiry";
-  const received = new Intl.DateTimeFormat("en-IN", {
-    dateStyle: "medium",
-    timeStyle: "short",
-    timeZone: "Asia/Kolkata",
-  }).format(enquiry.receivedAt);
-  const fields: [string, string][] = [
-    ["Name", enquiry.name],
-    ["Business", enquiry.business],
-    ["Phone", enquiry.phone],
-    ["Email", enquiry.email],
-    ["City", enquiry.city],
-    ["Interest", enquiry.interest],
-    ["Quantity", enquiry.quantity],
-  ];
-  const shown = fields.filter(([, value]) => value.trim());
-  const subject = `${title}: ${enquiry.name}${enquiry.business ? ` (${enquiry.business})` : ""}`;
-  const text = [
-    title,
-    "",
-    ...shown.map(([label, value]) => `${label}: ${value}`),
-    "",
-    enquiry.message,
-    "",
-    `Received ${received} IST`,
-    ...(adminUrl ? [`Open the admin panel: ${adminUrl}`] : []),
-  ].join("\n");
-  const head = [
-    `<b>${escapeHtml(title)}</b>`,
-    "",
-    ...shown.map(([label, value]) => `<b>${label}:</b> ${escapeHtml(value)}`),
-    "",
-  ].join("\n");
-  const foot = [
-    "",
-    "",
-    `<i>Received ${escapeHtml(received)} IST</i>`,
-    ...(adminUrl ? [`<a href="${escapeHtml(adminUrl)}">Open the admin panel</a>`] : []),
-  ].join("\n");
-  return { subject, text, telegram: fitTelegram(head, enquiry.message, foot) };
-}
+const fieldLines = (fields: [string, string][]) =>
+  fields
+    .filter(([, value]) => value.trim())
+    .map(([label, value]) => `<b>${label}:</b> ${escapeHtml(value)}`);
+
+const adminLink = (url: string | undefined, label: string) =>
+  url ? `\n\n<a href="${escapeHtml(url)}">${label}</a>` : "";
 
 /** Telegram rejects messages over 4096 characters. Cuts the body, never inside an entity. */
 function fitTelegram(head: string, body: string, foot: string) {
@@ -81,6 +41,40 @@ function fitTelegram(head: string, body: string, foot: string) {
   return head + fitted + foot;
 }
 
+/** Alert for a saved enquiry or order request. */
+export function orderAlert(enquiry: EnquiryForAlert, adminUrl?: string) {
+  const basket = enquiry.message.startsWith("Basket availability request:");
+  const title =
+    enquiry.kind === "business"
+      ? "New business enquiry"
+      : basket
+        ? "New order request"
+        : "New enquiry";
+  const received = new Intl.DateTimeFormat("en-IN", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "Asia/Kolkata",
+  }).format(enquiry.receivedAt);
+  const head = [
+    `<b>${escapeHtml(title)}</b>`,
+    "",
+    ...fieldLines([
+      ["Name", enquiry.name],
+      ["Business", enquiry.business],
+      ["Phone", enquiry.phone],
+      ["Email", enquiry.email],
+      ["City", enquiry.city],
+      ["Interest", enquiry.interest],
+      ["Quantity", enquiry.quantity],
+    ]),
+    "",
+    "",
+  ].join("\n");
+  const foot =
+    `\n\n<i>Received ${escapeHtml(received)} IST</i>` + adminLink(adminUrl, "Open the admin panel");
+  return fitTelegram(head, enquiry.message, foot);
+}
+
 export type PaidOrderForAlert = {
   reference: string;
   status: "created" | "paid" | "review";
@@ -95,75 +89,52 @@ export type PaidOrderForAlert = {
 
 const rupees = (minor: number) => formatCurrency(minor, "INR", "en-IN");
 
-/** Owner alert for a captured Razorpay payment, as plain text (email) and Telegram HTML. */
+/** Alert for a captured Razorpay payment. */
 export function paidOrderAlert(order: PaidOrderForAlert, adminUrl?: string) {
   const test = order.mode === "test" ? "TEST · no money moved · " : "";
   const title =
     order.status === "paid"
       ? `${test}Paid order ${order.reference}`
       : `${test}Check payment ${order.reference}: the amount did not match`;
-  const fields: [string, string][] = [
-    [
-      "Total paid",
-      `${rupees(order.amountMinor)}${order.deliveryMinor ? ` (includes ${rupees(order.deliveryMinor)} delivery)` : ""}`,
-    ],
-    ["Name", order.customer.name],
-    ["Phone", order.customer.phone],
-    ["Email", order.customer.email],
-    ["Address", order.delivery.address || "Not given. Call to confirm."],
-    ["Area", [order.delivery.city, order.delivery.region, order.delivery.pincode].filter(Boolean).join(", ")],
-    ["Razorpay payment", [order.payment?.id, order.payment?.method].filter(Boolean).join(" · ")],
-  ];
-  const shown = fields.filter(([, value]) => value.trim());
+  const head = [
+    `<b>${escapeHtml(title)}</b>`,
+    "",
+    ...fieldLines([
+      [
+        "Total paid",
+        `${rupees(order.amountMinor)}${order.deliveryMinor ? ` (includes ${rupees(order.deliveryMinor)} delivery)` : ""}`,
+      ],
+      ["Name", order.customer.name],
+      ["Phone", order.customer.phone],
+      ["Email", order.customer.email],
+      ["Address", order.delivery.address || "Not given. Call to confirm."],
+      ["Area", [order.delivery.city, order.delivery.region, order.delivery.pincode].filter(Boolean).join(", ")],
+      ["Razorpay payment", [order.payment?.id, order.payment?.method].filter(Boolean).join(" · ")],
+    ]),
+    "",
+    "<b>Items</b>",
+    "",
+  ].join("\n");
   const items = order.items.map(
     (item) =>
       `${item.name} × ${item.quantity}${item.packLabel ? ` (${item.packLabel})` : ""}: ${rupees(item.lineMinor)}`,
   );
   const notes = order.delivery.notes.trim();
-  const subject = `${title}: ${rupees(order.amountMinor)} from ${order.customer.name}`;
-  const text = [
-    title,
-    "",
-    ...shown.map(([label, value]) => `${label}: ${value}`),
-    "",
-    "Items:",
-    ...items,
-    ...(notes ? ["", `Notes: ${notes}`] : []),
-    ...(adminUrl ? ["", `Open the admin panel: ${adminUrl}`] : []),
-  ].join("\n");
-  const head = [
-    `<b>${escapeHtml(title)}</b>`,
-    "",
-    ...shown.map(([label, value]) => `<b>${label}:</b> ${escapeHtml(value)}`),
-    "",
-    "<b>Items</b>",
-    "",
-  ].join("\n");
-  const foot = adminUrl ? `\n\n<a href="${escapeHtml(adminUrl)}">Open the admin panel</a>` : "";
-  return {
-    subject,
-    text,
-    telegram: fitTelegram(head, [...items, ...(notes ? ["", `Notes: ${notes}`] : [])].join("\n"), foot),
-  };
+  return fitTelegram(
+    head,
+    [...items, ...(notes ? ["", `Notes: ${notes}`] : [])].join("\n"),
+    adminLink(adminUrl, "Open the admin panel"),
+  );
 }
 
-/** Owner alert when a website chat needs a person. */
+/** Alert when a website chat needs a person. */
 export function chatAlert(
   chat: { reason: string; language: string; recent: { author: string; text: string }[] },
   inboxUrl?: string,
 ) {
-  const title = `Chat needs you: ${chat.reason}`;
   const lines = chat.recent.map(
     (m) => `${m.author === "customer" ? "Customer" : m.author === "owner" ? "You" : "Assistant"}: ${m.text}`,
   );
-  const text = [
-    title,
-    `Language: ${chat.language}`,
-    "",
-    ...lines,
-    ...(inboxUrl ? ["", `Reply in the admin panel: ${inboxUrl}`] : []),
-  ].join("\n");
-  const head = `<b>${escapeHtml(title)}</b>\nLanguage: ${escapeHtml(chat.language)}\n\n`;
-  const foot = inboxUrl ? `\n\n<a href="${escapeHtml(inboxUrl)}">Reply in the admin panel</a>` : "";
-  return { subject: title, text, telegram: fitTelegram(head, lines.join("\n"), foot) };
+  const head = `<b>${escapeHtml(`Chat needs you: ${chat.reason}`)}</b>\nLanguage: ${escapeHtml(chat.language)}\n\n`;
+  return fitTelegram(head, lines.join("\n"), adminLink(inboxUrl, "Reply in the admin panel"));
 }

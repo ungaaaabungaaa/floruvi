@@ -150,7 +150,7 @@ export const recordPayment = internalMutation({
     if (patch)
       await ctx.db.patch(order._id, {
         ...patch,
-        ...(alert && { notifications: { telegram: "pending", email: "pending", attempts: 0 } }),
+        ...(alert && { notifications: { telegram: "pending", attempts: 0 } }),
       });
     if (alert) await ctx.scheduler.runAfter(0, internal.notifications.sendOrder, { id: order._id });
     return { status: patch?.status ?? order.status, reference: order.reference };

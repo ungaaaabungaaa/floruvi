@@ -30,12 +30,8 @@ Run the commands in the project folder, one at a time. Secrets are piped, so the
 
 Razorpay checks the website during KYC. It needs these pages: Contact, Terms, Privacy, Cancellation & refunds, and Shipping/delivery.
 
-- [ ] Contact, Privacy, Terms and Refunds pages exist. The FAQ has a delivery section.
-- [ ] **Update the Terms** before you turn payments on. Today they say an enquiry "does not collect payment". Proposed change (needs your approval, then translation):
-  - "Customers in India can pay online through Razorpay. A paid order is confirmed when the payment is captured. We call to confirm the delivery address and time."
-  - "If we cannot deliver a paid order, we refund it in full to the same payment method."
-- [ ] **Update the Privacy notice:** Razorpay processes payments, and paid orders store the delivery address.
-- [ ] **Add a shipping/delivery policy page** (delivery areas, days, cut-off time, fee). See the [shipping research](28-shipping-and-languages-research.md).
+- [x] **Policy pages** (28 September 2026, all 10 languages, from the owner's decisions): Terms of service, Privacy notice (Razorpay, order alerts, chat), Cancellation & refund policy (no cancellation after payment; full refund only for our mistakes, late delivery or no delivery; report within 24 hours; refunds in 5–7 working days) and a new **Shipping & delivery policy** at `/shipping` (every PIN code in India, within 2 days, flat ₹99, no cash on delivery). The FAQ delivery answers match. The texts work with payments on or off.
+- [ ] **Business details on the site.** Set `BUSINESS_NAME`, `SUPPORT_EMAIL`, `SUPPORT_PHONE` and `BUSINESS_ADDRESS` in Vercel (Production) and redeploy. The Contact page and footer then show them. Razorpay checks for these.
 
 ### 2. Test mode
 
@@ -58,7 +54,7 @@ Razorpay checks the website during KYC. It needs these pages: Contact, Terms, Pr
 7. Deploy the backend: `pnpm exec convex deploy`, and answer `y`.
 8. In `https://floruvi.com/admin`, turn **Online payment** on. The panel shows "Test keys".
 9. Buy something small. In test mode, UPI ID `success@razorpay` succeeds and `failure@razorpay` fails. Razorpay's "Test card details" page lists test cards.
-10. Check that `/admin` shows the order as **Paid** and that the Telegram/email alert arrived.
+10. Check that `/admin` shows the order as **Paid** and that the Telegram alert arrived.
 
 ### 3. Go live
 

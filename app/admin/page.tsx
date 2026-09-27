@@ -180,7 +180,7 @@ export default async function AdminHome() {
                   <>
                     <dt>Alerts</dt>
                     <dd>
-                      Telegram {order.notifications.telegram} · Email {order.notifications.email}
+                      Telegram {order.notifications.telegram}
                     </dd>
                   </>
                 )}
@@ -230,7 +230,7 @@ export default async function AdminHome() {
                 <dd>Not paid online</dd>
                 <dt>Alerts</dt>
                 <dd>
-                  Telegram {order.notifications?.telegram ?? "—"} · Email {order.notifications?.email ?? "—"}
+                  Telegram {order.notifications?.telegram ?? "—"}
                 </dd>
               </dl>
               <pre className="admin-message">{order.message}</pre>

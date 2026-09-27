@@ -22,7 +22,7 @@ export const save = internalMutation({
       ...data,
       consentAt: Date.now(),
       status: "new",
-      notifications: { telegram: "pending", email: "pending", attempts: 0 },
+      notifications: { telegram: "pending", attempts: 0 },
     });
     // Runs only if this save commits; owner alerts never block the visitor.
     await ctx.scheduler.runAfter(0, internal.notifications.sendEnquiry, { id });

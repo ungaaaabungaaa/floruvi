@@ -159,12 +159,12 @@ test("paid-order alerts escape customer text and mark test payments", () => {
     delivery: { address: "", city: "Pune", region: "MH", pincode: "411001", notes: "Ring <twice>" },
     payment: { id: "pay_A", method: "upi" },
   });
-  assert.match(alert.subject, /^TEST/);
-  assert.match(alert.text, /Not given\. Call to confirm\./);
-  assert.match(alert.text, /Kale × 2 \(100 g\): ₹277\.20/);
-  assert.ok(!alert.telegram.includes("<b>Eve</b>"));
-  assert.ok(alert.telegram.includes("&lt;b&gt;Eve&lt;/b&gt;"));
-  assert.ok(alert.telegram.includes("Ring &lt;twice&gt;"));
+  assert.match(alert, /^<b>TEST/);
+  assert.match(alert, /Not given\. Call to confirm\./);
+  assert.match(alert, /Kale × 2 \(100 g\): ₹277\.20/);
+  assert.ok(!alert.includes("<b>Eve</b>"));
+  assert.ok(alert.includes("&lt;b&gt;Eve&lt;/b&gt;"));
+  assert.ok(alert.includes("Ring &lt;twice&gt;"));
 });
 
 test("payment routes check origin and input, hash the caller and never trust the browser", async (t) => {

@@ -50,7 +50,7 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 
 - Every public page has a unique title & description, a canonical URL and `hreflang` links to all 32 versions plus `x-default` (India English).
 - `<html lang>` & `dir` match the version. Open Graph & Twitter tags use the page image and locale.
-- Sitemap: `/sitemap.xml` is an index of 32 files at `/sitemaps/<version>.xml`. Each lists 189 pages with `hreflang` alternates.
+- Sitemap: `/sitemap.xml` is an index of 32 files at `/sitemaps/<version>.xml`. Each lists 190 pages with `hreflang` alternates.
 - Structured data: Organization (with the 17 countries served) & WebSite on every page; Product with Offer & BreadcrumbList on product pages; Recipe (with crop keywords) & BreadcrumbList on recipes; ItemList on the shop & recipe lists; AggregateOffer for boxes; FAQPage on the FAQ. Offers show the visible local price and do not claim stock.
 - Product titles: India reads "Order {name} online in India"; export versions read "{name} from India – {country}", so the country is not mistaken for the origin. Product pages show the India delivery fee next to the price.
 - Recipe descriptions add the name, time, servings & crops, because many recipes share an intro.
@@ -73,7 +73,7 @@ Checked 27 September 2026 with the ai-seo, site-architecture, programmatic-seo, 
 5. **Product page content.** One storage text is shared by 81 products and appears twice per page; 72 of 88 recipes share 12 descriptions. Write crop-specific storage text & unique recipe intros.
 6. **Homepage title.** It has the tagline but no product words, e.g. "Fresh greens, herbs & microgreens | Floruvi".
 7. **Visible product breadcrumb** (schema has one, the page does not), a Contact link in the mobile menu, and banner slogans rendered as `<h2>` (32 on the shop page).
-8. **Merchant data.** Add a return policy & shipping details to offers once delivery times & the refund category are confirmed. Real farm photos and a Google Business Profile (only with a real location or service area) will help most.
+8. **Merchant data.** The owner confirmed these on 28 September 2026: delivery within 2 days to every PIN code in India, a flat ₹99 per basket with individual produce, and no returns except for our mistakes (see `/shipping` and `/refunds`). Next step (proposal): add `shippingDetails` and `hasMerchantReturnPolicy` to product offers. Real farm photos and a Google Business Profile (only with a real location or service area) will help most.
 
 ## After deployment
 

@@ -12,7 +12,7 @@ import { CHAT_RETENTION_DAYS, MAX_CHAT_TEXT, needsPerson } from "../lib/chat";
 
 const HISTORY = 12;
 const DAY = 24 * 60 * 60 * 1000;
-const pending = { telegram: "pending", email: "pending", attempts: 0 } as const;
+const pending = { telegram: "pending", attempts: 0 } as const;
 const mode = v.union(v.literal("bot"), v.literal("owner"), v.literal("closed"));
 const products = v.optional(
   v.array(v.object({ slug: v.string(), name: v.string(), quantity: v.optional(v.number()) })),

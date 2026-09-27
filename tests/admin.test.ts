@@ -82,13 +82,13 @@ test("owner alerts escape customer text for Telegram and stay under its limit", 
     },
     "https://floruvi.vercel.app/admin",
   );
-  assert.equal(alert.subject, "New order request: Asha <script>");
-  assert.ok(alert.telegram.length <= 4096);
-  assert.doesNotMatch(alert.telegram, /<script>|<&>/);
-  assert.match(alert.telegram, /Asha &lt;script&gt;/);
-  assert.doesNotMatch(alert.telegram, /&[a-z]*…/, "never cut inside an entity");
-  assert.match(alert.text, /Received 28 Sept 2026, 10:00 am IST|Received 28 Sep 2026, 10:00 am IST/i);
-  assert.match(alert.text, /Open the admin panel: https:\/\/floruvi\.vercel\.app\/admin/);
+  assert.match(alert, /^<b>New order request<\/b>/);
+  assert.ok(alert.length <= 4096);
+  assert.doesNotMatch(alert, /<script>|<&>/);
+  assert.match(alert, /Asha &lt;script&gt;/);
+  assert.doesNotMatch(alert, /&[a-z]*…/, "never cut inside an entity");
+  assert.match(alert, /Received 28 Sept 2026, 10:00 am IST|Received 28 Sep 2026, 10:00 am IST/i);
+  assert.match(alert, /<a href="https:\/\/floruvi\.vercel\.app\/admin">Open the admin panel<\/a>/);
 });
 
 test("out-of-stock products cannot be requested; boxes and older records stay available", () => {
