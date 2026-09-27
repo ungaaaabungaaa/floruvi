@@ -53,7 +53,12 @@ export function ProductCard({ product }: { product: ShopProduct }) {
           <p className="product-card-price">
             <Money minor={product.price?.amountMinor} currency={product.price?.currency} />
           </p>
-          <AddToCart slug={product.slug} name={product.name} compact />
+          <AddToCart
+            slug={product.slug}
+            name={product.name}
+            available={product.inStock !== false}
+            compact
+          />
         </div>
       </div>
     </article>

@@ -114,7 +114,8 @@
       "addShort": "Tambah ke bakul",
       "addedShort": "Ditambah",
       "limit": "Had bakul dicapai. Kurangkan kuantiti atau keluarkan satu item.",
-      "compact": "Tambah"
+      "compact": "Tambah",
+      "outOfStock": "Kehabisan stok"
     },
     "wishlist": {
       "save": "Simpan {name} ke senarai kegemaran",
@@ -491,6 +492,7 @@
     "checking": "Menyemak katalog…",
     "tryAgain": "Cuba Lagi",
     "removeUnlisted": "Keluarkan tanaman yang tidak disenaraikan sebelum meneruskan.",
+    "removeOutOfStock": "Keluarkan item yang kehabisan stok sebelum meneruskan.",
     "proceed": "Teruskan ke Semakan Pesanan",
     "editorialLabel": "Makanan segar untuk hidangan harian",
     "editorialAlt": "Herba hijau segar",

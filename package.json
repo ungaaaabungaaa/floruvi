@@ -11,6 +11,7 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "convex:dev": "convex dev",
     "convex:seed": "convex run seed:catalogue",
+    "admin:hash": "node --import tsx scripts/admin/credential-hash.ts",
     "build:vercel": "convex deploy --cmd 'pnpm build'",
     "format": "prettier --write app components lib convex tests *.ts *.mjs package.json"
   },

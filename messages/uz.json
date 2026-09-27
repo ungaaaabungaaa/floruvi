@@ -115,7 +115,8 @@
       "addShort": "Savatga qoʻshish",
       "addedShort": "Qoʻshildi",
       "limit": "Savat chegarasiga yetdingiz. Miqdorni kamaytiring yoki mahsulotni olib tashlang.",
-      "compact": "Qoʻshish"
+      "compact": "Qoʻshish",
+      "outOfStock": "Omborda yoʻq"
     },
     "wishlist": {
       "save": "{name}ni sevimlilarga saqlash",
@@ -496,6 +497,7 @@
     "checking": "Katalog tekshirilmoqda…",
     "tryAgain": "Qayta urinish",
     "removeUnlisted": "Davom etishdan oldin roʻyxatda yoʻq ekinlarni olib tashlang.",
+    "removeOutOfStock": "Davom etishdan oldin omborda yoʻq mahsulotlarni olib tashlang.",
     "proceed": "Rasmiylashtirishga oʻtish",
     "editorialLabel": "Har kungi taomlar uchun yangi ovqat",
     "editorialAlt": "Yangi yashil koʻkatlar",

@@ -1,6 +1,13 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
+const alertStatus = v.union(
+  v.literal("pending"),
+  v.literal("sent"),
+  v.literal("failed"),
+  v.literal("off"),
+);
+
 export default defineSchema({
   recipes: defineTable({
     slug: v.string(),
@@ -54,6 +61,8 @@ export default defineSchema({
       }),
     ),
     pricingRevision: v.optional(v.string()),
+    // Owner-controlled; missing means in stock. No quantities are tracked.
+    inStock: v.optional(v.boolean()),
     details: v.optional(
       v.object({
         tagline: v.string(),
@@ -85,7 +94,22 @@ export default defineSchema({
     message: v.string(),
     consentAt: v.number(),
     status: v.literal("new"),
+    // Owner alerts. "off" means the channel is not configured.
+    notifications: v.optional(
+      v.object({
+        telegram: alertStatus,
+        email: alertStatus,
+        attempts: v.number(),
+      }),
+    ),
   }),
+  // Owner admin sessions: only a SHA-256 of the cookie token is stored.
+  adminSessions: defineTable({
+    tokenHash: v.string(),
+    expiresAt: v.number(),
+  })
+    .index("by_token", ["tokenHash"])
+    .index("by_expiry", ["expiresAt"]),
   storeSettings: defineTable({
     key: v.literal("commerce"),
     currency: v.literal("INR"),

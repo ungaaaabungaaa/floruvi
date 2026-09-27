@@ -114,7 +114,8 @@
       "addShort": "カートに入れる",
       "addedShort": "追加しました",
       "limit": "カートの上限に達しました。数量を減らすか、商品を削除してください。",
-      "compact": "Add"
+      "compact": "Add",
+      "outOfStock": "在庫切れ"
     },
     "wishlist": {
       "save": "{name}をお気に入りに保存",
@@ -491,6 +492,7 @@
     "checking": "カタログを確認しています…",
     "tryAgain": "もう一度試す",
     "removeUnlisted": "先に進む前に、掲載を終了した商品を削除してください。",
+    "removeOutOfStock": "続行する前に在庫切れの商品を削除してください。",
     "proceed": "手続きへ進む",
     "editorialLabel": "毎日の食事に、新鮮な食材を",
     "editorialAlt": "新鮮な緑のハーブ",

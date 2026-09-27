@@ -115,7 +115,8 @@
       "addShort": "Add to cart",
       "addedShort": "Added",
       "limit": "Cart limit reached. Reduce quantities or remove an item.",
-      "compact": "Add"
+      "compact": "Add",
+      "outOfStock": "Out of stock"
     },
     "wishlist": {
       "save": "Save {name} to wishlist",
@@ -496,6 +497,7 @@
     "checking": "Checking the catalogue…",
     "tryAgain": "Try again",
     "removeUnlisted": "Remove unlisted crops before you continue.",
+    "removeOutOfStock": "Remove out-of-stock items before you continue.",
     "proceed": "Proceed to checkout",
     "editorialLabel": "Fresh food for everyday meals",
     "editorialAlt": "Fresh green herbs",

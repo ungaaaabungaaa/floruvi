@@ -115,7 +115,8 @@
       "addShort": "In den Warenkorb",
       "addedShort": "Hinzugefügt",
       "limit": "Maximale Anzahl im Warenkorb erreicht. Verringere die Menge oder entferne einen Artikel.",
-      "compact": "Hinzufügen"
+      "compact": "Hinzufügen",
+      "outOfStock": "Nicht vorrätig"
     },
     "wishlist": {
       "save": "{name} zur Wunschliste hinzufügen",
@@ -496,6 +497,7 @@
     "checking": "Katalog wird geprüft…",
     "tryAgain": "Erneut versuchen",
     "removeUnlisted": "Entferne nicht gelistete Produkte, bevor du fortfährst.",
+    "removeOutOfStock": "Entferne nicht vorrätige Artikel, bevor du fortfährst.",
     "proceed": "Weiter zur Kasse",
     "editorialLabel": "Frisches Essen für den Alltag",
     "editorialAlt": "Frische grüne Kräuter",

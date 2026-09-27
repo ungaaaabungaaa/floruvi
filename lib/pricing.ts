@@ -15,6 +15,8 @@ type PricedProduct = {
   slug: string;
   name: string;
   price?: { amountMinor: number; currency: string; packLabel: string } | null;
+  /** Missing means in stock. */
+  inStock?: boolean;
 };
 const validMoney = (value: unknown): value is number =>
   typeof value === "number" && Number.isSafeInteger(value) && value >= 0;
@@ -62,10 +64,12 @@ export function reviewBasket(
     const unitPrice = usable(price) ? price!.amountMinor : null;
     const candidate = unitPrice === null ? null : unitPrice * line.quantity;
     const lineTotal = validMoney(candidate) ? candidate : null;
+    const outOfStock = !box && product?.inStock === false;
     return {
       ...line,
       name: product?.name ?? line.slug,
-      availableToEnquire: !!product,
+      availableToEnquire: !!product && !outOfStock,
+      outOfStock,
       packLabel: price?.packLabel ?? null,
       unitPrice,
       lineTotal,

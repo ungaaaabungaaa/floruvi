@@ -1,4 +1,5 @@
 import { internalMutation } from "./_generated/server";
+import { internal } from "./_generated/api";
 import { v } from "convex/values";
 import { enquirySchema, nextRate, RATE_WINDOW } from "../lib/enquiry";
 
@@ -40,11 +41,14 @@ export const save = internalMutation({
     const { consent, website, ...data } = parsed.data;
     void consent;
     void website;
-    await ctx.db.insert("enquiries", {
+    const id = await ctx.db.insert("enquiries", {
       ...data,
       consentAt: now,
       status: "new",
+      notifications: { telegram: "pending", email: "pending", attempts: 0 },
     });
+    // Runs only if this save commits; owner alerts never block the visitor.
+    await ctx.scheduler.runAfter(0, internal.notifications.sendEnquiry, { id });
     return { ok: true } as const;
   },
 });

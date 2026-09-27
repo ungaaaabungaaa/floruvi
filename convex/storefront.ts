@@ -46,6 +46,7 @@ function summary(
     uses: translation?.uses ?? product.uses,
     translated: !!translation,
     price: priceInMarket(product, market, pricing),
+    inStock: product.inStock !== false,
   };
 }
 

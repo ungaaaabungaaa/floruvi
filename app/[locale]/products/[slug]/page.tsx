@@ -167,7 +167,7 @@ export default async function ProductDetails({ params }: Props) {
             <Money minor={p.price?.amountMinor} currency={p.price?.currency} />
             {p.price && <small> / {p.price.packLabel}</small>}
           </p>
-          <AddToCart slug={p.slug} name={p.name} />
+          <AddToCart slug={p.slug} name={p.name} available={p.inStock !== false} />
           <div className="product-assurances">
             <span>
               <Leaf />

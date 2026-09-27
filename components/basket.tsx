@@ -175,6 +175,7 @@ export function BasketPage({
       </div>
     );
   const missing = review?.items.some((i) => !i.availableToEnquire);
+  const outOfStock = review?.items.some((i) => i.outOfStock);
   return (
     <div className="page-width cart-page">
       <section className="cart-hero" aria-labelledby="cart-title">
@@ -234,11 +235,13 @@ export function BasketPage({
                       <p>
                         {box
                           ? `${t.boxes[box.id].people} · ${lineLabels.schedule(line.slug)}`
-                          : product
-                            ? (product.price?.packLabel ??
-                              pricedLine?.packLabel ??
-                              labels.packOnRequest)
-                            : labels.unlisted}
+                          : pricedLine?.outOfStock
+                            ? t.addToCart.outOfStock
+                            : product
+                              ? (product.price?.packLabel ??
+                                pricedLine?.packLabel ??
+                                labels.packOnRequest)
+                              : labels.unlisted}
                       </p>
                       <span className="cart-product-note">
                         <Leaf size={13} aria-hidden="true" />
@@ -313,7 +316,9 @@ export function BasketPage({
                 </button>
               </div>
             ) : missing ? (
-              <p role="alert">{labels.removeUnlisted}</p>
+              <p role="alert">
+                {outOfStock ? labels.removeOutOfStock : labels.removeUnlisted}
+              </p>
             ) : (
               <Link className="button button-primary" href="/checkout">
                 {labels.proceed} <ArrowRight size={17} />

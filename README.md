@@ -43,7 +43,8 @@ Status checked 15 September 2026. ✅ = connected or implemented. ⬜ = not conn
 | ✅ | Vercel hosting | Production runs at https://floruvi.vercel.app. GitHub is connected to the production branch `main`. |
 | ✅ | GitHub source backup | Repository: `ungaaaabungaaa/floruvi`; changes can be committed & pushed. |
 | ✅ | Local basket & wishlist | Saved in the visitor’s browser. No account sync yet. |
-| ⬜ | **Enquiry notification email — Resend** | Create/connect Resend, verify a sending domain, configure an API key & sender address, implement server-side notifications after a successful form save, then verify delivery to both owner inboxes. Deferred at the owner’s request; **forms save to Convex but do not send email yet**. |
+| ⬜ | **Order alerts — Telegram & email (Resend)** | Built 28 September 2026: every saved enquiry alerts the owner by Telegram & email, with retries. Add the bot token, chat ID & Resend key in Convex, then send a test enquiry. See [admin & order alerts](docs/25-admin-and-order-alerts.md). Update the privacy notice before switching alerts on. |
+| ⬜ | **Owner admin panel** | Built 28 September 2026 at `/admin`: orders, per-product stock switch, five-detail sign-in with a 14-day session. Set `ADMIN_API_SECRET` (Vercel + Convex) and `ADMIN_CREDENTIAL_HASH` (Convex), then deploy Convex. |
 | ✅ | GitHub ↔ Vercel connection | Repository `ungaaaabungaaa/floruvi` is linked to production branch `main`; verified through Vercel on 15 September 2026. |
 | ✅ | Automatic Vercel Git deployments | Verified 15 September 2026: push `fc749c1` created a ready Git-sourced production deployment; subsequent push `1868fbe` also triggered a build. Push to `main` to deploy. |
 | ⬜ | Customer accounts — Better Auth | Connect Convex authentication, verify login/session behaviour & add basket/wishlist sync when an account is created during checkout. Guest browsing stays available. |

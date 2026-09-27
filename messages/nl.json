@@ -115,7 +115,8 @@
       "addShort": "In winkelmandje",
       "addedShort": "Toegevoegd",
       "limit": "Limiet van je winkelmandje bereikt. Verlaag de aantallen of verwijder een artikel.",
-      "compact": "Toevoegen"
+      "compact": "Toevoegen",
+      "outOfStock": "Niet op voorraad"
     },
     "wishlist": {
       "save": "{name} opslaan in verlanglijst",
@@ -496,6 +497,7 @@
     "checking": "Catalogus wordt gecontroleerd…",
     "tryAgain": "Probeer opnieuw",
     "removeUnlisted": "Verwijder niet-vermelde gewassen voordat je verdergaat.",
+    "removeOutOfStock": "Verwijder artikelen die niet op voorraad zijn voordat je verdergaat.",
     "proceed": "Ga naar afrekenen",
     "editorialLabel": "Vers eten voor alledaagse maaltijden",
     "editorialAlt": "Verse groene kruiden",

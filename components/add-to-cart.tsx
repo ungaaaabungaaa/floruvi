@@ -8,10 +8,13 @@ export function AddToCart({
   slug,
   name,
   compact = false,
+  available = true,
 }: {
   slug: string;
   name: string;
   compact?: boolean;
+  /** False when the owner marks the product out of stock. */
+  available?: boolean;
 }) {
   const cart = useCart();
   const { t, fill } = useI18n();
@@ -23,6 +26,12 @@ export function AddToCart({
     setAdded(false);
     setError("");
   }
+  if (!available)
+    return (
+      <div className={compact ? "add-crop compact" : "add-crop"}>
+        <span className="stock-out">{t.addToCart.outOfStock}</span>
+      </div>
+    );
   return (
     <div className={compact ? "add-crop compact" : "add-crop"}>
       {!compact && (

@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     process.env.VERCEL_ENV === "production" && !siteUrl.includes("localhost");
   return {
     rules: production
-      ? { userAgent: "*", allow: "/", disallow: "/api/" }
+      ? { userAgent: "*", allow: "/", disallow: ["/api/", "/admin"] }
       : { userAgent: "*", disallow: "/" },
     sitemap: `${siteUrl}/sitemap.xml`,
   };
