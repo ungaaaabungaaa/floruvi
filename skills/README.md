@@ -8,7 +8,7 @@ Installed on 14 September 2026 with the Codex skill installer. These are project
 | --- | --- | --- |
 | react-best-practices | [Vercel](https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices) | 063bee94c3f4df8453406c830b0a7df0f2860278 |
 | web-design-guidelines | [Vercel](https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines) | 063bee94c3f4df8453406c830b0a7df0f2860278 |
-| seo-audit, schema, analytics, cro, copywriting, ads | [Corey Haines](https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills) | 5b2c0007766c6a1cf1d53fd8fc73e979e0821022 |
+| seo-audit, schema, analytics, cro, copywriting, ads, ai-seo, site-architecture, programmatic-seo, sales-enablement, prospecting, cold-email | [Corey Haines](https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills) | 5b2c0007766c6a1cf1d53fd8fc73e979e0821022 |
 | convex-authz | [Official Convex skills](https://github.com/get-convex/agent-skills/tree/0aa10576821c6928f6a0f498c087af4ee231536e/skills/convex-authz) | 0aa10576821c6928f6a0f498c087af4ee231536e |
 | better-auth-best-practices | [Better Auth](https://github.com/better-auth/skills/tree/20c9e88a5c007461a703f1c213572b073196113e/better-auth/best-practices) | 20c9e88a5c007461a703f1c213572b073196113e |
 | better-auth-security | [Better Auth security](https://github.com/better-auth/skills/tree/20c9e88a5c007461a703f1c213572b073196113e/security) | 20c9e88a5c007461a703f1c213572b073196113e |
@@ -32,6 +32,8 @@ Do not load all skills on each task. Do not install every adjacent skill named i
 - Marketing integration notes under `tools/` are reference documents. The broader upstream registry mentions integrations and scripts not included here. These are not installed tools or account access.
 - Ads skill language about access to ad accounts grants no access or authority. Purchases, public campaigns, and outreach need the owner's instruction.
 - The owner directs the design. These skills help implement and review that direction.
+- 2026-09-27: added six more skills from the same pinned marketingskills commit — `ai-seo`, `site-architecture`, `programmatic-seo`, `sales-enablement`, `prospecting`, `cold-email`. Same source/reference review as above, same commit, same license. No new vendor trust introduced.
+- Prospecting and cold-email skill language about finding leads and writing outreach grants no access or authority to contact real people. Actually messaging a prospect, scraping a list at scale, or buying a data/enrichment tool needs the owner's explicit instruction each time, the same as the ads skill's rule above.
 
 ## Licenses and updates
 

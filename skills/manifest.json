@@ -216,6 +216,99 @@
       "files": {
         "SKILL.md": "042f01c76b63b436c71797c8a1b84470c5b6e0c7cd2400aa0928f733da96facf"
       }
+    },
+    {
+      "name": "ai-seo",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/ai-seo",
+      "local_path": "skills/ai-seo",
+      "files": {
+        "SKILL.md": "b1ecd93ebc65af886f81bc0a90645c8fd4ffdf68c5b3d4495a9e61481d954d00",
+        "evals/evals.json": "010677ebde7b375f5569d5ef654c15edfc50f44efc55f9ca2f70a02a1ff1ab17",
+        "references/agent-readiness.md": "4753dc17755cacba2bf783373399baaf98c82a5d45c645848465ab6a11331cd9",
+        "references/citations-vs-recommendations.md": "88016418b43b7e798dd950eb1240f76dec08c3408038f9a5d83005aff5a4daa3",
+        "references/content-patterns.md": "8adcfcc020a3529eda71f783e4893d3e39e8b0f503fd2fa126e8b75a80963824",
+        "references/content-types.md": "9ad0a871f866efa307fc0d6fe2bd19d443a2276cb396afdd5b4d81fe9b4167e3",
+        "references/format-volatility.md": "4d16bbf46b9702b7ee9cf968005dc21cdd74821d5d8e31bb8dcc52b09457ae59",
+        "references/okf.md": "4abcab5b8ee90b63c5d09c98387a8ec3cdb8f5df33e75d3b4b91eb817283bfd8",
+        "references/platform-ranking-factors.md": "ca3fb8c09fec3445abe611bab2cd1b5f20751c5d51a3a5c63ecd2b85cd458ee8",
+        "references/youtube-ai-citations.md": "e4e3356d4c813e460f29dd37a46a212f9d3f3f06e35320cf62bc3e621e1a53b2"
+      }
+    },
+    {
+      "name": "site-architecture",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/site-architecture",
+      "local_path": "skills/site-architecture",
+      "files": {
+        "SKILL.md": "a47f693c6a4f45db89276d8c341b3aa3054090cc8002dd4a2635448d7d152492",
+        "evals/evals.json": "64b76ab82488fd168919fad1b038b7117392ff9748a835104ddde95aac4a5cee",
+        "references/mermaid-templates.md": "362190c7d3f419d5f445170f1fb17beecc163937d2068922893b7a69eeb25f0f",
+        "references/navigation-patterns.md": "2efa772709b753e33d5018c007147ca30aaa95a04b04dc0df6227ea5a053078b",
+        "references/site-type-templates.md": "3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140"
+      }
+    },
+    {
+      "name": "programmatic-seo",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/programmatic-seo",
+      "local_path": "skills/programmatic-seo",
+      "files": {
+        "SKILL.md": "15cb5979cab5263ede902a830e03342869256ece17905bff240eef498e27cde1",
+        "evals/evals.json": "e76b704edfc50210224aa82131dc4e917d6daa3a1467b9f7fe54b2d42af2a264",
+        "references/playbooks.md": "b2b3fd7c58c686f0670b94cf7192ff79436ccf0d602650b33a83a9d01102f11d"
+      }
+    },
+    {
+      "name": "sales-enablement",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/sales-enablement",
+      "local_path": "skills/sales-enablement",
+      "files": {
+        "SKILL.md": "d83c3244dd8e2e64d585f1ff0d760eff181587f06b90ceaf8127a4ce618265dd",
+        "evals/evals.json": "734702bc1a437360fbac100a77a53ec83465ef1fb2364ecfc922b5381ddf342b",
+        "references/deck-frameworks.md": "265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336",
+        "references/demo-scripts.md": "505616ebf73d30fe84a844540727ab8f3aeae29ebcda8c8ace28a18ada003da3",
+        "references/objection-library.md": "e0cdfeffc41afbdbe2c014bcd9b3c024318eac9bd23159e871ec796aba29e0b2",
+        "references/one-pager-templates.md": "2197326faff4ede03fb40e332e9c80a4e084d8efd48c74df8720d70817ac5ded"
+      }
+    },
+    {
+      "name": "prospecting",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/prospecting",
+      "local_path": "skills/prospecting",
+      "files": {
+        "SKILL.md": "beabb53a99b4df893216c18ba84198d7f2622cc83ef35043c09b218840498356",
+        "evals/evals.json": "8ebd8ab4c0d660c263f4adfa3f05fc5920881997e2ab0c5b98b7cec39d7532fd",
+        "references/b2b-prospecting.md": "abb7e697bc357856a585bcb7896b75895be06c4629b33558f67e418f6abc45ca",
+        "references/compliance.md": "e39f980e026f28767d66addd9c28014b3968667e11d776d0480df4d569c6e4b3",
+        "references/data-sources.md": "c05f1e85b89093e1ac3f8691b9b692b737bc9ed8b81db7cff5bf6f73ebf17b6c",
+        "references/demand-signals.md": "250ae03c7b01cd7866b6e3958f384a74cffad58e5d207693e8fa6fd237faf66a",
+        "references/local-prospecting.md": "1dd71471a3413d5b0a9d230b1e42ca95469c617285bf7e2abdfa463428367fc3",
+        "references/saas-prospecting.md": "24a42d2b770a9727d5e88ca01352c80f350822304855818a468f72a3df8a1f3d"
+      }
+    },
+    {
+      "name": "cold-email",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "source_path": "skills/cold-email",
+      "local_path": "skills/cold-email",
+      "files": {
+        "SKILL.md": "b7f8d793169a5111c857e5720c6b80028686cc95d5a0d0d6570957c2710aff9e",
+        "evals/evals.json": "e760f7766434923508d6491be56be68e3d19e2ed2508b075b37601d62c95dd98",
+        "references/benchmarks.md": "3dc1d38a2d1f4fbb2706be7ca3d40156b66a3d7078c183a930ff373c3bb04c09",
+        "references/follow-up-sequences.md": "87e14749104b0c5bcd865e55d33513a161edb8e6773b2a2d9802b5460f2f7369",
+        "references/frameworks.md": "b29fb89922f96ae1c6911675a7e173a8f7c6a40999c9a18b14ac7f357b5f5a03",
+        "references/personalization.md": "08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36",
+        "references/subject-lines.md": "f71f31b1151d972bb19ff03791ffb9d24941a8ccea8b913e5a5c7aca439b45ce"
+      }
     }
   ]
 }

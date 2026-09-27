@@ -74,6 +74,12 @@ Read only the skill that fits the task. The local sources and commit pins are in
 | Page and form conversion | skills/cro/SKILL.md |
 | Product and marketing text | skills/copywriting/SKILL.md |
 | Advertising after launch | skills/ads/SKILL.md |
+| AI-search / answer-engine visibility | skills/ai-seo/SKILL.md |
+| Catalogue URL structure and navigation | skills/site-architecture/SKILL.md |
+| SEO pages at catalogue scale | skills/programmatic-seo/SKILL.md |
+| B2B sales collateral | skills/sales-enablement/SKILL.md |
+| B2B lead list building | skills/prospecting/SKILL.md |
+| B2B cold outreach email | skills/cold-email/SKILL.md |
 | Convex access control | skills/convex-authz/SKILL.md |
 | Better Auth setup | skills/better-auth-best-practices/SKILL.md |
 | Authentication security | skills/better-auth-security/SKILL.md |
