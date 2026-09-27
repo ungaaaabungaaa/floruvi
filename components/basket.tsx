@@ -243,10 +243,9 @@ export function BasketPage({
                                 labels.packOnRequest)
                               : labels.unlisted}
                       </p>
-                      <span className="cart-product-note">
-                        <Leaf size={13} aria-hidden="true" />
-                        {box ? labels.perDelivery : labels.freshProduce}
-                      </span>
+                      {box && (
+                        <span className="cart-product-note">{labels.perDelivery}</span>
+                      )}
                     </div>
                   </div>
                   <div className="quantity-picker">

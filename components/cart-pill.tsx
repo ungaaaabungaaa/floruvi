@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ChevronRight } from "lucide-react";
@@ -12,6 +13,15 @@ export function CartPill({ thumbnails }: { thumbnails: Record<string, string> })
   const { items, count } = useCart();
   const pathname = usePathname();
   const { t, plural } = useI18n();
+  // The pill steps aside at the footer, so the page needs no extra space below it.
+  const [atFooter, setAtFooter] = useState(false);
+  useEffect(() => {
+    const footer = document.querySelector(".site-footer");
+    if (!footer) return;
+    const observer = new IntersectionObserver(([entry]) => setAtFooter(entry.isIntersecting));
+    observer.observe(footer);
+    return () => observer.disconnect();
+  }, [pathname]);
   if (!count || /\/(cart|checkout)$/.test(pathname)) return null;
   const latest = items
     .slice(-3)
@@ -23,7 +33,12 @@ export function CartPill({ thumbnails }: { thumbnails: Record<string, string> })
     .filter((item) => item.src);
   const itemCount = plural(count, t.cartPill.items);
   return (
-    <Link href="/cart" className="cart-pill">
+    <Link
+      href="/cart"
+      className={atFooter ? "cart-pill is-away" : "cart-pill"}
+      aria-hidden={atFooter || undefined}
+      tabIndex={atFooter ? -1 : undefined}
+    >
       {latest.length > 0 && (
         <span className="cart-pill-thumbs" aria-hidden="true">
           {latest.map((item) => (

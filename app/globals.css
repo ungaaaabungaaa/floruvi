@@ -4478,7 +4478,8 @@ button:disabled {
     box-shadow: 0 -4px 20px rgb(16 48 35 / 6%);
   }
   .product-page .detail-copy > .add-crop > .button { min-width: 0; padding-inline: 12px; }
-  body:has(.product-page) { padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
+  /* Room for the fixed cart bar inside the footer, so the page never scrolls past it. */
+  body:has(.product-page) .site-footer { padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
   html:has(.product-page) { scroll-padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
 }
 
@@ -5525,7 +5526,8 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   background: var(--green);
   color: #fff;
   box-shadow: 0 10px 28px rgb(12 48 35 / 30%);
-  animation: cart-pill-in 280ms cubic-bezier(.2, .9, .3, 1.15) both;
+  transition: translate .25s ease, opacity .2s ease;
+  animation: cart-pill-in 280ms cubic-bezier(.2, .9, .3, 1.15) backwards;
 }
 .cart-pill-thumbs { display: flex; }
 .cart-pill-thumbs > span {
@@ -5548,18 +5550,18 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 [dir="rtl"] .cart-pill-go svg { transform: scaleX(-1); }
 .cart-pill:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 @media (hover: hover) { .cart-pill:hover { background: #3b5e42; } }
-body:has(.cart-pill) { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
 html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
 @media (max-width: 600px) {
   /* Sit above the product page's fixed cart bar. */
   body:has(.product-page) .cart-pill { bottom: calc(88px + env(safe-area-inset-bottom)); }
-  body:has(.product-page):has(.cart-pill) { padding-bottom: calc(176px + env(safe-area-inset-bottom)); }
 }
 @keyframes cart-pill-in { from { opacity: 0; transform: translateY(24px) scale(.94); } }
 @keyframes cart-pill-pop { from { opacity: 0; transform: scale(.4); } }
 @keyframes cart-pill-count { from { opacity: 0; transform: translateY(-70%); } }
+/* The page ends at the footer: the pill steps aside while the footer is on screen. */
+.cart-pill.is-away { translate: -50% calc(100% + 32px); opacity: 0; pointer-events: none; }
 @media (prefers-reduced-motion: reduce) {
-  .cart-pill, .cart-pill-thumbs > span, .cart-pill-text small { animation: none; }
+  .cart-pill, .cart-pill-thumbs > span, .cart-pill-text small { animation: none; transition: none; }
 }
 
 /* Out of stock (owner-controlled in the admin panel). */
@@ -5578,8 +5580,8 @@ html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bo
 .add-crop:not(.compact) > .stock-out { flex: 1; min-height: 52px; border-radius: 12px; font-size: 14px; }
 
 /* Keep the chat button clear of the cart pill and the product page's cart bar. */
-body:has(.cart-pill) .chat-launcher { bottom: calc(92px + env(safe-area-inset-bottom)); }
+body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(92px + env(safe-area-inset-bottom)); }
 @media (max-width: 600px) {
   body:has(.product-page) .chat-launcher { bottom: calc(88px + env(safe-area-inset-bottom)); }
-  body:has(.product-page):has(.cart-pill) .chat-launcher { bottom: calc(160px + env(safe-area-inset-bottom)); }
+  body:has(.product-page):has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(160px + env(safe-area-inset-bottom)); }
 }
