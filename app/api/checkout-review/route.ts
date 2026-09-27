@@ -1,76 +1,40 @@
 import { z } from "zod";
 import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
-import { MAX_CART_LINES, MAX_QUANTITY } from "@/lib/cart";
+import { basketLines } from "@/lib/checkout";
 import { isSameOrigin } from "@/lib/request-origin";
+import { readJson } from "@/lib/read-json";
 import { reviewBasket } from "@/lib/pricing";
 import { marketCodes, type Market } from "@/lib/i18n/config";
 const schema = z
   .object({
-    items: z
-      .array(
-        z
-          .object({
-            slug: z
-              .string()
-              .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
-              .max(100),
-            quantity: z.number().int().min(1).max(MAX_QUANTITY),
-          })
-          .strict(),
-      )
-      .min(1)
-      .max(MAX_CART_LINES),
+    items: basketLines,
     market: z.enum(marketCodes as [Market, ...Market[]]).default("in"),
   })
   .strict();
 export async function POST(request: Request) {
   if (!isSameOrigin(request))
     return Response.json({ error: "Invalid request origin." }, { status: 403 });
-  if (!request.headers.get("content-type")?.includes("application/json"))
-    return Response.json({ error: "Use JSON." }, { status: 415 });
-  const reader = request.body?.getReader();
-  if (!reader)
-    return Response.json({ error: "Basket is empty." }, { status: 400 });
-  let bytes = 0;
-  const chunks: Uint8Array[] = [];
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    bytes += value.length;
-    if (bytes > 6000) {
-      await reader.cancel();
-      return Response.json({ error: "Basket is too large." }, { status: 413 });
-    }
-    chunks.push(value);
-  }
-  let body;
-  try {
-    body = JSON.parse(Buffer.concat(chunks).toString("utf8"));
-  } catch {
-    return Response.json({ error: "Invalid basket." }, { status: 400 });
-  }
+  const read = await readJson(request, 6000);
+  if (!read.ok) return read.response;
+  const body = read.value;
   const parsed = schema.safeParse(body);
   if (!parsed.success)
     return Response.json(
       { error: "Check basket quantities." },
       { status: 400 },
     );
-  if (
-    new Set(parsed.data.items.map((i) => i.slug)).size !==
-    parsed.data.items.length
-  )
-    return Response.json({ error: "Duplicate basket items." }, { status: 400 });
   try {
     const { items, market } = parsed.data;
     // Convex recalculates prices for the requested market; the browser sends none.
     // English names keep the enquiry readable for the farm.
-    const { products, commerce } = await fetchQuery(api.storefront.catalogue, {
-      language: "en",
-      market,
-    });
+    const [{ products, commerce }, payments] = await Promise.all([
+      fetchQuery(api.storefront.catalogue, { language: "en", market }),
+      // Payments stay off if the backend is older than this site or unreachable.
+      fetchQuery(api.storefront.payments, {}).catch(() => ({ enabled: false })),
+    ]);
     return Response.json(
-      reviewBasket(items, products, commerce, market),
+      reviewBasket(items, products, commerce, market, payments.enabled),
       {
         headers: { "Cache-Control": "no-store" },
       },

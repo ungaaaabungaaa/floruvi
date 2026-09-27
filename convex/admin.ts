@@ -1,6 +1,8 @@
 import { internalMutation, internalQuery, type QueryCtx } from "./_generated/server";
 import { v } from "convex/values";
-import { nextRate } from "../lib/enquiry";
+import { takeRateLimits } from "./limits";
+import { commerceSettings, razorpayConfigured } from "./orders";
+import { paymentMode } from "../lib/razorpay";
 
 // Owner-only functions. They are internal: only convex/http.ts calls them, after
 // checking the server secret. Each one then checks the session itself.
@@ -19,27 +21,11 @@ async function activeSession(ctx: QueryCtx, tokenHash: string) {
 /** Counts each sign-in attempt before the details are checked, so parallel guesses cannot slip past. */
 export const reserveLoginAttempt = internalMutation({
   args: { ipHash: v.string() },
-  handler: async (ctx, { ipHash }) => {
-    const now = Date.now();
-    const updates = [];
-    for (const rule of [
+  handler: (ctx, { ipHash }) =>
+    takeRateLimits(ctx, [
       { key: `admin-ip:${ipHash}`, max: 10 },
       { key: "admin-all", max: 30 },
-    ]) {
-      const old = await ctx.db
-        .query("enquiryLimits")
-        .withIndex("by_key", (q) => q.eq("key", rule.key))
-        .unique();
-      const rate = nextRate(old, now, rule.max);
-      if (!rate.allowed) return false;
-      updates.push({ old, key: rule.key, count: rate.count, windowStart: rate.windowStart });
-    }
-    for (const { old, ...data } of updates) {
-      if (old) await ctx.db.patch(old._id, data);
-      else await ctx.db.insert("enquiryLimits", data);
-    }
-    return true;
-  },
+    ]),
 });
 
 export const startSession = internalMutation({
@@ -79,17 +65,43 @@ export const dashboard = internalQuery({
   handler: async (ctx, { tokenHash }) => {
     const session = await activeSession(ctx, tokenHash);
     if (!session) return null;
-    const [orders, products, settings] = await Promise.all([
+    const [orders, onlineOrders, products, settings] = await Promise.all([
       ctx.db.query("enquiries").order("desc").take(200),
+      ctx.db.query("orders").order("desc").take(200),
       ctx.db.query("products").collect(),
-      ctx.db
-        .query("storeSettings")
-        .withIndex("by_key", (q) => q.eq("key", "commerce"))
-        .unique(),
+      commerceSettings(ctx),
     ]);
+    const keyId = process.env.RAZORPAY_KEY_ID?.trim();
     return {
       expiresAt: session.expiresAt,
       chatEnabled: settings?.chatEnabled === true,
+      payments: {
+        enabled: settings?.paymentsEnabled === true,
+        keys: razorpayConfigured(),
+        webhook: !!process.env.RAZORPAY_WEBHOOK_SECRET,
+        mode: keyId ? paymentMode(keyId) : null,
+      },
+      onlineOrders: onlineOrders
+        // Checkouts that never reached Razorpay have nothing to act on.
+        .filter((order) => order.razorpayOrderId)
+        .map((order) => ({
+          id: order._id,
+          createdAt: order._creationTime,
+          reference: order.reference,
+          status: order.status,
+          mode: order.mode,
+          amountMinor: order.amountMinor,
+          subtotalMinor: order.subtotalMinor,
+          deliveryMinor: order.deliveryMinor,
+          items: order.items,
+          customer: order.customer,
+          delivery: order.delivery,
+          razorpayOrderId: order.razorpayOrderId ?? null,
+          payment: order.payment ?? null,
+          extraPayments: order.extraPayments ?? [],
+          lastFailure: order.lastFailure ?? null,
+          notifications: order.notifications ?? null,
+        })),
       orders: orders.map((order) => ({
         id: order._id,
         receivedAt: order._creationTime,
@@ -128,6 +140,18 @@ export const setChat = internalMutation({
       .unique();
     if (!settings) return "missing" as const;
     await ctx.db.patch(settings._id, { chatEnabled: enabled });
+    return "ok" as const;
+  },
+});
+
+export const setPayments = internalMutation({
+  args: { tokenHash: v.string(), enabled: v.boolean() },
+  handler: async (ctx, { tokenHash, enabled }) => {
+    if (!(await activeSession(ctx, tokenHash))) return "unauthorized" as const;
+    if (enabled && !razorpayConfigured()) return "keys" as const;
+    const settings = await commerceSettings(ctx);
+    if (!settings) return "missing" as const;
+    await ctx.db.patch(settings._id, { paymentsEnabled: enabled });
     return "ok" as const;
   },
 });

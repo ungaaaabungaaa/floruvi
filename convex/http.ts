@@ -3,6 +3,7 @@ import { httpAction } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { enquirySchema } from "../lib/enquiry";
 import * as admin from "./adminHttp";
+import * as payments from "./paymentsHttp";
 
 const http = httpRouter();
 http.route({
@@ -41,5 +42,9 @@ http.route({ path: "/admin/login", method: "POST", handler: admin.login });
 http.route({ path: "/admin/dashboard", method: "POST", handler: admin.dashboard });
 http.route({ path: "/admin/stock", method: "POST", handler: admin.stock });
 http.route({ path: "/admin/chat", method: "POST", handler: admin.chat });
+http.route({ path: "/admin/payments", method: "POST", handler: admin.payments });
 http.route({ path: "/admin/logout", method: "POST", handler: admin.logout });
+http.route({ path: "/payments/order", method: "POST", handler: payments.order });
+http.route({ path: "/payments/confirm", method: "POST", handler: payments.confirm });
+http.route({ path: "/razorpay/webhook", method: "POST", handler: payments.webhook });
 export default http;

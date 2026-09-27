@@ -11,7 +11,13 @@ import {
 } from "lucide-react";
 import { useCart } from "./cart-store";
 import { BasketSummary, EmptyBasket, useBasketReview, useLineLabels } from "./basket";
-import { basketEnquiry, checkoutContact } from "@/lib/checkout";
+import {
+  basketEnquiry,
+  checkoutContact,
+  paidOrderDetails,
+  paymentOrderRequest,
+} from "@/lib/checkout";
+import { payWithRazorpay, type PaymentOrder } from "@/lib/razorpay-checkout";
 import { formatCurrency, type CurrencyCode } from "@/lib/i18n/format";
 import { markets } from "@/lib/i18n/config";
 import { requestErrorMessage, validationMessage } from "@/lib/i18n/validation";
@@ -28,6 +34,8 @@ const emptyDetails = {
   pincode: "",
   notes: "",
 };
+/** An error whose message is already written for the visitor. */
+class Notice extends Error {}
 export function Checkout({
   labels,
   products,
@@ -36,7 +44,7 @@ export function Checkout({
   products: { slug: string; name: string }[];
 }) {
   const cart = useCart();
-  const { t, locale, fill } = useI18n();
+  const { t, locale, fill, money } = useI18n();
   const lineLabels = useLineLabels();
   const market = markets[locale.market];
   const {
@@ -50,7 +58,13 @@ export function Checkout({
   const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState("");
   const [error, setError] = useState("");
-  const [status, setStatus] = useState<"idle" | "sending" | "success">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "paying" | "confirming" | "paid" | "unconfirmed"
+  >("idle");
+  const [reference, setReference] = useState("");
+  // The Razorpay order for an unchanged basket & details, reused if Checkout is closed and reopened.
+  const pending = useRef<{ key: string; order: PaymentOrder } | null>(null);
+  const payable = !!review?.paymentEnabled;
   const heading = useRef<HTMLHeadingElement>(null);
   const set = (key: keyof typeof details, value: string) =>
     setDetails((d) => ({ ...d, [key]: value }));
@@ -93,6 +107,76 @@ export function Checkout({
       setStatus("idle");
     }
   }
+  async function pay(event: React.SubmitEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (status !== "idle") return;
+    setError("");
+    if (!review?.paymentEnabled) {
+      setError(labels.returnToBasket);
+      return;
+    }
+    const parsed = paymentOrderRequest.safeParse({ items: cart.items, details, consent, website });
+    if (!parsed.success) {
+      const [first, field] = parsed.error.issues[0].path;
+      setError(validationMessage({ path: [first === "details" ? field : first] }, t.validation));
+      return;
+    }
+    setStatus("paying");
+    try {
+      const key = JSON.stringify(parsed.data);
+      let order = pending.current?.key === key ? pending.current.order : null;
+      if (!order) {
+        const response = await fetch("/api/payments/order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: key,
+        });
+        if (response.status === 409) retry();
+        if (!response.ok)
+          throw new Notice(
+            response.status === 409
+              ? labels.basketChanged
+              : response.status === 429
+                ? t.requestErrors.tooMany
+                : response.status === 400
+                  ? t.validation.generic
+                  : labels.paymentUnavailable,
+          );
+        order = (await response.json()) as PaymentOrder;
+        pending.current = { key, order };
+      }
+      const result = await payWithRazorpay(order, parsed.data.details);
+      if (!result) throw new Notice(labels.paymentClosed);
+      setStatus("confirming");
+      const confirmed = await fetch("/api/payments/confirm", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(result),
+      })
+        .then((response) => (response.ok ? response.json() : null))
+        .catch(() => null);
+      // Razorpay reported success, so the order stands. If this check could not
+      // finish, Razorpay's webhook confirms the payment on the server.
+      pending.current = null;
+      cart.clear();
+      setReference(order.reference);
+      setStatus(confirmed?.status === "paid" ? "paid" : "unconfirmed");
+    } catch (error) {
+      setError(error instanceof Notice ? error.message : labels.paymentUnavailable);
+      setStatus("idle");
+    }
+  }
+  if (status === "paid" || status === "unconfirmed")
+    return (
+      <div className="page-width section checkout-received">
+        <CheckCircle2 size={48} strokeWidth={1.2} />
+        <h1>{labels.paidTitle}</h1>
+        <p>{fill(status === "paid" ? labels.paidText : labels.confirmingText, { reference })}</p>
+        <Link href="/products" className="button button-primary">
+          {labels.keepExploring} <ArrowRight size={17} />
+        </Link>
+      </div>
+    );
   if (status === "success")
     return (
       <div className="page-width section checkout-received">
@@ -218,6 +302,13 @@ export function Checkout({
             <form
               onSubmit={(e) => {
                 e.preventDefault();
+                if (payable) {
+                  const parsed = paidOrderDetails.safeParse(details);
+                  if (!parsed.success) {
+                    setError(validationMessage(parsed.error.issues[0], t.validation));
+                    return;
+                  }
+                }
                 move(2);
               }}
             >
@@ -228,7 +319,7 @@ export function Checkout({
               </p>
               <div className="checkout-fields">
                 <label>
-                  {labels.address} <small>{labels.addressOptional}</small>
+                  {labels.address} <small>{payable ? labels.optional : labels.addressOptional}</small>
                   <input
                     name="address"
                     autoComplete="street-address"
@@ -237,7 +328,7 @@ export function Checkout({
                     onChange={(e) => set("address", e.target.value)}
                     placeholder={labels.addressPlaceholder}
                   />
-                  <small>{labels.addressNote}</small>
+                  <small>{payable ? labels.addressNotePay : labels.addressNote}</small>
                 </label>
                 <div className="checkout-field-pair">
                   <label>
@@ -311,7 +402,7 @@ export function Checkout({
             </form>
           )}
           {step === 2 && (
-            <form onSubmit={sendRequest}>
+            <form onSubmit={payable ? pay : sendRequest}>
               <div className="review-detail">
                 <div>
                   <span className="eyebrow">{labels.contact}</span>
@@ -369,7 +460,8 @@ export function Checkout({
                   required
                 />
                 <span>
-                  {labels.consent} <Link href="/privacy">{labels.privacy}</Link>
+                  {payable ? labels.consentPay : labels.consent}{" "}
+                  <Link href="/privacy">{labels.privacy}</Link>
                 </span>
               </label>
               <div className="honeypot" aria-hidden="true">
@@ -387,17 +479,26 @@ export function Checkout({
                 className="button button-primary"
                 type="submit"
                 disabled={
-                  status === "sending" ||
+                  status !== "idle" ||
                   loading ||
                   !!reviewError ||
                   !review ||
                   review.items.some((i) => !i.availableToEnquire)
                 }
               >
-                {status === "sending" ? (
+                {status !== "idle" ? (
                   <>
                     <LoaderCircle className="spinner" size={17} />
-                    {labels.sending}
+                    {status === "paying"
+                      ? labels.opening
+                      : status === "confirming"
+                        ? labels.confirming
+                        : labels.sending}
+                  </>
+                ) : payable ? (
+                  <>
+                    {fill(labels.pay, { amount: money(review?.total, "INR") })}{" "}
+                    <ArrowRight size={17} />
                   </>
                 ) : (
                   <>
@@ -405,7 +506,7 @@ export function Checkout({
                   </>
                 )}
               </button>
-              <p className="checkout-final-note">{labels.finalNote}</p>
+              <p className="checkout-final-note">{payable ? labels.payNote : labels.finalNote}</p>
             </form>
           )}
         </div>

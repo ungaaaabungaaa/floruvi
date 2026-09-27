@@ -2,6 +2,7 @@ import type { CartLine } from "./cart";
 import { boxContents, getCartBox } from "./boxes";
 import { formatCurrency, type CurrencyCode } from "./i18n/format";
 import { markets, type Market } from "./i18n/config";
+import { MIN_PAYMENT_MINOR } from "./razorpay";
 
 export function formatMoney(
   minor: number | null | undefined,
@@ -23,11 +24,13 @@ const validMoney = (value: unknown): value is number =>
 
 // Called only after the request's slug/quantity validation. Prices come from the
 // server: Convex for India, and the reviewed market price table for exports.
+// `payments` is true when the owner has switched online payment on.
 export function reviewBasket(
   lines: CartLine[],
   products: PricedProduct[],
   commerce?: { currency: string; deliveryFeeMinor: number } | null,
   market: Market = "in",
+  payments = false,
 ) {
   const currency: string = markets[market].currency;
   const domestic = market === "in";
@@ -94,6 +97,13 @@ export function reviewBasket(
     : subtotal !== null && delivery !== null && validMoney(subtotal + delivery)
       ? subtotal + delivery
       : null;
+  // Online payment: India only, for a fully priced basket with nothing out of stock.
+  const paymentEnabled =
+    payments &&
+    domestic &&
+    total !== null &&
+    total >= MIN_PAYMENT_MINOR &&
+    items.every((item) => item.availableToEnquire && item.lineTotal !== null);
   return {
     items,
     market,
@@ -102,7 +112,7 @@ export function reviewBasket(
     delivery,
     deliveryQuoted,
     total,
-    paymentEnabled: false as const,
+    paymentEnabled,
     verificationEnabled: false as const,
   };
 }

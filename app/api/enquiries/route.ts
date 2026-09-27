@@ -1,6 +1,6 @@
-import { createHmac } from "node:crypto";
 import { enquirySchema } from "@/lib/enquiry";
 import { isSameOrigin } from "@/lib/request-origin";
+import { callerHash, keyedHash, readJson } from "@/lib/read-json";
 import { withCountry } from "@/lib/i18n/country";
 
 export async function POST(request: Request) {
@@ -13,43 +13,15 @@ export async function POST(request: Request) {
     );
   if (!isSameOrigin(request))
     return Response.json({ error: "Invalid request origin." }, { status: 403 });
-  if (!request.headers.get("content-type")?.includes("application/json"))
-    return Response.json({ error: "Use JSON." }, { status: 415 });
-  // Stream with a cap; do not trust the caller's Content-Length.
-  const reader = request.body?.getReader();
-  if (!reader)
-    return Response.json({ error: "Empty request." }, { status: 400 });
-  let bytes = 0;
-  const chunks: Uint8Array[] = [];
-  while (true) {
-    const { value, done } = await reader.read();
-    if (done) break;
-    bytes += value.length;
-    if (bytes > 12_000) {
-      await reader.cancel();
-      return Response.json({ error: "Request too large." }, { status: 413 });
-    }
-    chunks.push(value);
-  }
-  let input;
-  try {
-    input = JSON.parse(Buffer.concat(chunks).toString("utf8"));
-  } catch {
-    return Response.json({ error: "Invalid request." }, { status: 400 });
-  }
+  const body = await readJson(request, 12_000);
+  if (!body.ok) return body.response;
+  const input = body.value;
   const parsed = enquirySchema.safeParse(input);
   if (!parsed.success)
     return Response.json(
       { error: parsed.error.issues[0]?.message ?? "Check your details." },
       { status: 400 },
     );
-  // Vercel overwrites this header. Never use a caller-controlled forwarded header elsewhere.
-  const ip =
-    process.env.VERCEL === "1"
-      ? request.headers.get("x-vercel-forwarded-for")?.split(",")[0]?.trim()
-      : "local";
-  const hash = (value: string) =>
-    createHmac("sha256", secret).update(value).digest("hex");
   try {
     const response = await fetch(`${site}/enquiries`, {
       method: "POST",
@@ -62,8 +34,8 @@ export async function POST(request: Request) {
           ...parsed.data,
           city: withCountry(parsed.data.city, (input as { market?: unknown }).market),
         },
-        ipHash: hash(ip || "unknown"),
-        contactHash: hash(parsed.data.email),
+        ipHash: callerHash(request, secret),
+        contactHash: keyedHash(parsed.data.email, secret),
       }),
       signal: AbortSignal.timeout(10_000),
       cache: "no-store",

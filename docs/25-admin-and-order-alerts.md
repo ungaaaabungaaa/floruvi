@@ -9,7 +9,7 @@ Built 28 September 2026. Provider research: [notifications, OTP & chat](23-notif
 - **Website chat switch:** shows or hides the chat button for all visitors (hidden by default). Today it shows the existing catalogue guide on the English site versions. A change reaches visitors within about a minute.
 - **Order alerts:** each saved enquiry sends a Telegram message and an email to the owner, when those channels are set up. A failed channel retries after 1 and 5 minutes. A sent channel is never sent twice. The admin panel shows each result: sent, failed or off.
 
-Payment is not taken online yet, and checkout does not ask for a street address. The panel says so on every order. Razorpay payment details will appear here when payments are built.
+Requests and enquiries are not paid, and they do not include a street address; the panel says so. Paid Razorpay orders appear above them under **Online orders**, with the address, items, payment ID and method, and an **Online payment** switch. See [Razorpay payments](29-razorpay-payments.md).
 
 ## Security
 

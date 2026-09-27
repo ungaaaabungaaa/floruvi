@@ -7,6 +7,12 @@ const alertStatus = v.union(
   v.literal("failed"),
   v.literal("off"),
 );
+// Owner alerts. "off" means the channel is not configured.
+const notifications = v.object({
+  telegram: alertStatus,
+  email: alertStatus,
+  attempts: v.number(),
+});
 
 export default defineSchema({
   recipes: defineTable({
@@ -94,15 +100,49 @@ export default defineSchema({
     message: v.string(),
     consentAt: v.number(),
     status: v.literal("new"),
-    // Owner alerts. "off" means the channel is not configured.
-    notifications: v.optional(
+    notifications: v.optional(notifications),
+  }),
+  // Paid online orders (India, Razorpay). Amounts are INR paise, set on the server.
+  orders: defineTable({
+    reference: v.string(),
+    // created: waiting for payment. paid: captured for the exact amount.
+    // review: captured, but the amount or currency did not match. Check it.
+    status: v.union(v.literal("created"), v.literal("paid"), v.literal("review")),
+    // Test-key orders move no money.
+    mode: v.union(v.literal("test"), v.literal("live")),
+    currency: v.literal("INR"),
+    amountMinor: v.number(),
+    subtotalMinor: v.number(),
+    deliveryMinor: v.number(),
+    items: v.array(
       v.object({
-        telegram: alertStatus,
-        email: alertStatus,
-        attempts: v.number(),
+        slug: v.string(),
+        name: v.string(),
+        quantity: v.number(),
+        packLabel: v.string(),
+        lineMinor: v.number(),
       }),
     ),
-  }),
+    customer: v.object({ name: v.string(), email: v.string(), phone: v.string() }),
+    delivery: v.object({
+      address: v.string(),
+      city: v.string(),
+      region: v.string(),
+      pincode: v.string(),
+      notes: v.string(),
+    }),
+    consentAt: v.number(),
+    razorpayOrderId: v.optional(v.string()),
+    payment: v.optional(
+      v.object({ id: v.string(), method: v.string(), capturedAt: v.number() }),
+    ),
+    // Further captures for the same order. Refund them in the Razorpay dashboard.
+    extraPayments: v.optional(v.array(v.string())),
+    lastFailure: v.optional(v.string()),
+    notifications: v.optional(notifications),
+  })
+    .index("by_reference", ["reference"])
+    .index("by_razorpay_order", ["razorpayOrderId"]),
   // Owner admin sessions: only a SHA-256 of the cookie token is stored.
   adminSessions: defineTable({
     tokenHash: v.string(),
@@ -116,6 +156,8 @@ export default defineSchema({
     deliveryFeeMinor: v.number(),
     // Website chat, switched in the admin panel. Missing means hidden.
     chatEnabled: v.optional(v.boolean()),
+    // Online payment, switched in the admin panel. Also needs the Razorpay keys.
+    paymentsEnabled: v.optional(v.boolean()),
   }).index("by_key", ["key"]),
   enquiryLimits: defineTable({
     key: v.string(),

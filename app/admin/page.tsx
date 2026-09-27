@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { adminApi, adminToken, type Dashboard } from "@/lib/admin";
 import { formatCurrency } from "@/lib/i18n/format";
-import { logout, setChat, setStock } from "./actions";
+import { logout, setChat, setPayments, setStock } from "./actions";
 
 export const metadata: Metadata = { title: "Orders & stock" };
+
+const rupees = (minor: number) => formatCurrency(minor, "INR", "en-IN");
+const orderStatus = {
+  created: "Awaiting payment",
+  paid: "Paid",
+  review: "Check payment",
+} as const;
 
 const when = (time: number) =>
   new Intl.DateTimeFormat("en-IN", {
@@ -28,6 +35,9 @@ export default async function AdminHome() {
     );
   const data = (await response.json()) as Dashboard;
   const out = data.products.filter((p) => !p.inStock).length;
+  // Older backends send neither; the page still works until Convex is deployed.
+  const payments = data.payments ?? { enabled: false, keys: false, webhook: false, mode: null };
+  const onlineOrders = data.onlineOrders ?? [];
   return (
     <main className="admin-page">
       <header className="admin-top">
@@ -61,13 +71,126 @@ export default async function AdminHome() {
         </form>
       </section>
 
-      <section aria-labelledby="orders-title">
-        <h2 id="orders-title">
-          Orders & enquiries <span className="admin-count">{data.orders.length}</span>
+      <section aria-labelledby="payments-title" className="admin-setting">
+        <div>
+          <h2 id="payments-title">
+            Online payment
+            {payments.mode === "test" && <span className="admin-tag test">Test keys</span>}
+          </h2>
+          <p className="admin-muted">
+            {!payments.keys
+              ? "Add the Razorpay keys in Convex first. See docs/29-razorpay-payments.md."
+              : payments.enabled
+                ? "Customers in India pay by Razorpay at checkout. Export countries still send requests."
+                : "Off. Checkout sends requests without payment."}
+            {payments.keys && !payments.webhook && " The webhook secret is missing, so closed browser tabs cannot confirm payments."}
+            {payments.mode === "test" && " Test keys take no real money."}
+          </p>
+        </div>
+        <form action={setPayments}>
+          <input type="hidden" name="enabled" value={String(!payments.enabled)} />
+          <button
+            className={`admin-switch ${payments.enabled ? "on" : "off"}`}
+            disabled={!payments.keys && !payments.enabled}
+            aria-label={`Online payment is ${payments.enabled ? "on" : "off"}. Change.`}
+          >
+            {payments.enabled ? "On" : "Off"}
+          </button>
+        </form>
+      </section>
+
+      <section aria-labelledby="online-title">
+        <h2 id="online-title">
+          Online orders <span className="admin-count">{onlineOrders.filter((o) => o.status !== "created").length} paid</span>
         </h2>
         <p className="admin-muted">
-          Newest first. Payment is not taken online yet, so confirm the total and payment by phone.
-          Checkout does not ask for a street address; call to confirm it.
+          Newest first. Deliver only orders marked Paid. Refunds are made in the Razorpay dashboard.
+        </p>
+        {onlineOrders.length === 0 && <p className="admin-muted">No online orders yet.</p>}
+        <ol className="admin-orders">
+          {onlineOrders.map((order) => (
+            <li key={order.id} className={`admin-order ${order.status === "created" ? "is-waiting" : ""}`}>
+              <div className="admin-order-head">
+                <strong>{order.reference}</strong>
+                <span className={`admin-tag ${order.status}`}>{orderStatus[order.status]}</span>
+                {order.mode === "test" && <span className="admin-tag test">Test</span>}
+                <strong>{rupees(order.amountMinor)}</strong>
+                <time dateTime={new Date(order.createdAt).toISOString()}>{when(order.createdAt)}</time>
+              </div>
+              <dl>
+                <dt>Customer</dt>
+                <dd>{order.customer.name}</dd>
+                <dt>Phone</dt>
+                <dd>
+                  <a href={`tel:${order.customer.phone.replace(/[^\d+]/g, "")}`}>{order.customer.phone}</a>
+                </dd>
+                <dt>Email</dt>
+                <dd>
+                  <a href={`mailto:${order.customer.email}`}>{order.customer.email}</a>
+                </dd>
+                <dt>Address</dt>
+                <dd>
+                  {order.delivery.address || "Not given. Call to confirm."}
+                  <br />
+                  {[order.delivery.city, order.delivery.region, order.delivery.pincode].join(", ")}
+                </dd>
+                {order.delivery.notes && (
+                  <>
+                    <dt>Notes</dt>
+                    <dd>{order.delivery.notes}</dd>
+                  </>
+                )}
+                <dt>Items</dt>
+                <dd>
+                  {order.items.map((item) => (
+                    <span key={item.slug} className="admin-line">
+                      {item.name} × {item.quantity}
+                      {item.packLabel && ` (${item.packLabel})`}: {rupees(item.lineMinor)}
+                    </span>
+                  ))}
+                  {order.deliveryMinor > 0 && (
+                    <span className="admin-line">Delivery: {rupees(order.deliveryMinor)}</span>
+                  )}
+                </dd>
+                <dt>Payment</dt>
+                <dd>
+                  {order.payment
+                    ? `${order.payment.id}${order.payment.method ? ` · ${order.payment.method}` : ""} · ${when(order.payment.capturedAt)}`
+                    : order.lastFailure
+                      ? `Not paid. Last attempt failed: ${order.lastFailure}`
+                      : "Not paid"}
+                  {order.status === "review" && (
+                    <span className="admin-line admin-warning">
+                      The captured amount did not match this order. Check it in Razorpay before delivery.
+                    </span>
+                  )}
+                  {order.extraPayments.length > 0 && (
+                    <span className="admin-line admin-warning">
+                      Paid more than once. Refund in Razorpay: {order.extraPayments.join(", ")}
+                    </span>
+                  )}
+                </dd>
+                {order.notifications && (
+                  <>
+                    <dt>Alerts</dt>
+                    <dd>
+                      Telegram {order.notifications.telegram} · Email {order.notifications.email}
+                    </dd>
+                  </>
+                )}
+              </dl>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section aria-labelledby="orders-title">
+        <h2 id="orders-title">
+          Requests & enquiries <span className="admin-count">{data.orders.length}</span>
+        </h2>
+        <p className="admin-muted">
+          Newest first. These are not paid, so confirm the total and payment by phone. Requests do
+          not include a street address; call to confirm it.
         </p>
         {data.orders.length === 0 && <p className="admin-muted">No orders yet.</p>}
         <ol className="admin-orders">

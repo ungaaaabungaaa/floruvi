@@ -57,3 +57,10 @@
 }
 .admin-setting { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
 .admin-setting .admin-muted { margin-bottom: 0; }
+.admin-tag.paid { background: #e3efdc; color: #1f5a2a; }
+.admin-tag.created { background: #eeeeea; color: #55584f; }
+.admin-tag.review, .admin-tag.test { background: #fbead0; color: #7a4a06; }
+.admin-order.is-waiting { opacity: .72; }
+.admin-line { display: block; }
+.admin-warning { margin-top: 6px; color: #8a1f1f; font-weight: 600; }
+.admin-switch:disabled { opacity: .55; cursor: not-allowed; }

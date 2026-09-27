@@ -19,7 +19,7 @@ export async function adminToken() {
 
 /** Calls a Convex admin HTTP route with the server secret. Null when not configured. */
 export async function adminApi(
-  path: "login" | "dashboard" | "stock" | "chat" | "logout",
+  path: "login" | "dashboard" | "stock" | "chat" | "payments" | "logout",
   body: object,
 ) {
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;

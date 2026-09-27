@@ -1,5 +1,6 @@
 import { httpAction } from "./_generated/server";
 import { internal } from "./_generated/api";
+import { hasBearer, readObject, reply, sha256, text } from "./httpUtils";
 
 // HTTP entry points for the Next.js admin pages. The caller must hold
 // ADMIN_API_SECRET (server-only); every call except sign-in also needs a live session.
@@ -8,37 +9,13 @@ const TOKEN = /^[A-Za-z0-9_-]{43}$/;
 const HEX64 = /^[a-f0-9]{64}$/;
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
-async function sha256(text: string) {
-  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
-  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
-}
-
-/** Compares digests, so the time taken does not depend on how much of the secret matched. */
+/** Admin calls need ADMIN_API_SECRET, which is at least 32 characters. */
 async function fromServer(request: Request) {
   const secret = process.env.ADMIN_API_SECRET;
-  if (!secret || secret.length < 32) return false;
-  const [given, expected] = await Promise.all([
-    sha256(request.headers.get("Authorization") ?? ""),
-    sha256(`Bearer ${secret}`),
-  ]);
-  let difference = 0;
-  for (let i = 0; i < expected.length; i++) difference |= given.charCodeAt(i) ^ expected.charCodeAt(i);
-  return difference === 0;
+  return !!secret && secret.length >= 32 && hasBearer(request, secret);
 }
 
-async function readBody(request: Request): Promise<Record<string, unknown> | null> {
-  const text = await request.text();
-  if (text.length > 4000) return null;
-  try {
-    const value = JSON.parse(text);
-    return value && typeof value === "object" && !Array.isArray(value) ? value : null;
-  } catch {
-    return null;
-  }
-}
-
-const reply = (status: number, data: object = {}) => Response.json(data, { status });
-const text = (value: unknown) => (typeof value === "string" ? value : "");
+const readBody = (request: Request) => readObject(request, 4000);
 
 export const login = httpAction(async (ctx, request) => {
   if (!(await fromServer(request))) return reply(401);
@@ -101,6 +78,20 @@ export const chat = httpAction(async (ctx, request) => {
     enabled: body.enabled,
   });
   return reply(result === "ok" ? 200 : result === "missing" ? 404 : 401, { result });
+});
+
+export const payments = httpAction(async (ctx, request) => {
+  if (!(await fromServer(request))) return reply(401);
+  const body = await readBody(request);
+  const token = text(body?.token);
+  if (!TOKEN.test(token) || typeof body?.enabled !== "boolean") return reply(400);
+  const result = await ctx.runMutation(internal.admin.setPayments, {
+    tokenHash: await sha256(token),
+    enabled: body.enabled,
+  });
+  return reply(result === "ok" ? 200 : result === "missing" ? 404 : result === "keys" ? 409 : 401, {
+    result,
+  });
 });
 
 export const logout = httpAction(async (ctx, request) => {

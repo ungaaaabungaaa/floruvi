@@ -4,6 +4,7 @@ import type { Doc } from "./_generated/dataModel";
 import { languages, markets, type Language, type Market } from "../lib/i18n/config";
 import { matchesSource, productText, recipeText } from "../lib/i18n/content-source";
 import { priceInMarket } from "../lib/markets/pricing-core";
+import { paymentsOn } from "./orders";
 
 // Localised public catalogue for one country & language version. Prices are
 // calculated here from stored INR prices and the market's reviewed rates.
@@ -153,6 +154,12 @@ export const chat = query({
       .unique();
     return { enabled: settings?.chatEnabled === true };
   },
+});
+
+/** Public: whether checkout can take online payment (India only). */
+export const payments = query({
+  args: {},
+  handler: async (ctx) => ({ enabled: await paymentsOn(ctx) }),
 });
 
 export const recipes = query({

@@ -1,5 +1,23 @@
 import { z } from "zod";
+import { MAX_CART_LINES, MAX_QUANTITY } from "./cart";
 import { enquirySchema } from "./enquiry";
+
+/** Basket lines as the browser sends them: slugs and quantities only, never prices. */
+export const basketLines = z
+  .array(
+    z
+      .object({
+        slug: z
+          .string()
+          .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
+          .max(100),
+        quantity: z.number().int().min(1).max(MAX_QUANTITY),
+      })
+      .strict(),
+  )
+  .min(1)
+  .max(MAX_CART_LINES)
+  .refine((lines) => new Set(lines.map((l) => l.slug)).size === lines.length);
 export const checkoutContact = z.object({
   name: enquirySchema.shape.name,
   email: enquirySchema.shape.email,
@@ -8,6 +26,33 @@ export const checkoutContact = z.object({
     "Enter a delivery phone number.",
   ),
 });
+/**
+ * Details for a paid order in India. The street address stays optional (owner
+ * decision); the farm calls to confirm it. A 6-digit PIN code is required.
+ */
+export const paidOrderDetails = z
+  .object({
+    name: checkoutContact.shape.name,
+    email: checkoutContact.shape.email,
+    phone: checkoutContact.shape.phone,
+    address: z.string().trim().max(240),
+    city: z.string().trim().min(2).max(100),
+    region: z.string().trim().min(2).max(100),
+    pincode: z.string().trim().regex(/^[1-9]\d{5}$/),
+    notes: z.string().trim().max(800),
+  })
+  .strict();
+
+export const paymentOrderRequest = z
+  .object({
+    items: basketLines,
+    details: paidOrderDetails,
+    consent: z.literal(true),
+    website: z.string().max(0),
+  })
+  .strict();
+export type PaymentOrderRequest = z.infer<typeof paymentOrderRequest>;
+
 export type CheckoutDetails = {
   name: string;
   email: string;
