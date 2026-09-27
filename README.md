@@ -15,7 +15,7 @@ Updated 28 September 2026. Tick items as they are done. **(You)** = only the own
 - [ ] **(You) OTP platform:** sign up with [MSG91](https://msg91.com/in/pricing/otp) (about ₹0.25 per code + GST). Start **TRAI DLT registration** at the same time: principal entity (about ₹5,000 + GST), sender header and a 6-digit OTP template. It takes several working days. Backup: Fast2SMS. See [OTP research](docs/23-notifications-otp-chat-research.md).
 - [ ] **(You) Confirm phone-only checkout:** name + 10-digit mobile + SMS code, address optional, no customer email. This replaces the email + phone plan in AGENTS.md.
 - [ ] **(You) Payment gateway — Razorpay:** finish business KYC and bank details, send the test keys first, then the live keys and webhook secret.
-- [ ] **(You) Live admin panel:** run `pnpm admin:hash` with your real details and set `ADMIN_CREDENTIAL_HASH`, `ADMIN_API_SECRET` (Vercel + Convex) and `SITE_URL`. Then run `pnpm exec convex deploy`. See [admin & order alerts](docs/25-admin-and-order-alerts.md).
+- [ ] **(You) Live admin panel:** `ADMIN_API_SECRET` (Vercel + Convex) and `SITE_URL` are set. Still to do: run `pnpm exec convex deploy` (answer y), then `pnpm -s admin:hash | pnpm exec convex env set ADMIN_CREDENTIAL_HASH --prod` with your real details and a new 12+ character password. See [admin & order alerts](docs/25-admin-and-order-alerts.md).
 - [ ] **(You) Order alerts:** create the Telegram bot and chat ID, and a Resend key. Put them in Convex production.
 - [ ] **(You) Privacy notice:** add the Telegram/email alerts now, and SMS codes, payments and chat storage when those go live. Choose how long to keep enquiries and chats.
 - [ ] **(You) Business details:** legal and trading name, address, support email and phone/WhatsApp, GSTIN, and your FSSAI registration or licence number (shown on the site once you have it).
@@ -35,7 +35,7 @@ Updated 28 September 2026. Tick items as they are done. **(You)** = only the own
 ### 3. Search, marketing & sales channels (You)
 
 - [ ] Verify the site in Google Search Console and Bing Webmaster Tools, and submit `/sitemap.xml` ([search notes](docs/21-languages-and-seo.md)).
-- [ ] Connect a custom domain, set `NEXT_PUBLIC_SITE_URL`, verify the domain in Resend and add the second alert inbox.
+- [ ] Verify `floruvi.com` in Resend (then add the second alert inbox) and use it for the Search Console property. The domain is connected and is now the site's single public address.
 - [ ] Decide on the homepage testimonials and the "No harmful chemicals" / "Locally grown" lines: use real, consented quotes and proven facts, or remove them.
 - [ ] Say "organic" or "pesticide-free" only with NPOP or PGS-India certification, or a lab residue report.
 - [ ] Replace the generated images with real farm and product photos.
@@ -55,6 +55,7 @@ Updated 28 September 2026. Tick items as they are done. **(You)** = only the own
 - [x] Blinkit-style cart pill, red wishlist heart, search and AI-visibility pass, `/llms.txt`.
 - [x] Admin panel at `/admin`: orders, per-product stock switch, website chat switch (needs the live setup above).
 - [x] Order alerts by Telegram and email (need the keys above).
+- [x] Custom domain `floruvi.com` as the single public address (canonical links, sitemaps, redirects).
 - [x] Plans & research: [chatbot](docs/26-chatbot-plan.md), [free gifts](docs/27-free-gifts-plan.md), [notifications, OTP & LLMs](docs/23-notifications-otp-chat-research.md), [growth channels](docs/22-growth-channels-research.md).
 
 ## Current state
@@ -102,7 +103,7 @@ Status checked 15 September 2026. ✅ = connected or implemented. ⬜ = not conn
 | ⬜ | Email verification codes — Resend | Configure sender/domain & server-side code delivery, expiry, request limits & verification. Separate from owner enquiry notifications. |
 | ⬜ | Phone verification codes — SMS provider | Select/configure a provider such as Twilio, complete local sender/template requirements & test delivery before enabling phone codes. |
 | ⬜ | Payments — Razorpay | Activate the merchant account, add test credentials, implement payment verification & webhooks, test checkout, then enable live credentials. No online payments or recurring billing are active. |
-| ⬜ | Custom domain | Choose the public domain, connect DNS & verify HTTPS. The Vercel domain works now. |
+| ✅ | Custom domain | `floruvi.com` is connected (28 September 2026). `NEXT_PUBLIC_SITE_URL` is `https://floruvi.com`, so canonical links, sitemaps and hreflang use it; `floruvi.vercel.app` and `www.floruvi.com` redirect to it (308). |
 | ⬜ | Business & privacy setup | Confirm legal business details, a direct privacy contact, enquiry retention period, fulfilment terms & refund/cancellation policy. |
 | ⬜ | Analytics / error monitoring — optional | PostHog was proposed. Decide whether it is needed, configure it & update the privacy notice before collecting events. |
 | ⬜ | Shared support inbox — deferred | Crisp was proposed for website/WhatsApp/Instagram support. Review need & cost first; no connection is active. |

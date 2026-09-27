@@ -42,10 +42,10 @@ Run these in the project folder, one at a time. Secrets are piped, so they never
    pnpm -s admin:hash | pnpm exec convex env set ADMIN_CREDENTIAL_HASH --prod
    ```
 
-3. **Site link for alerts:** `pnpm exec convex env set SITE_URL https://floruvi.vercel.app --prod` (or the custom domain).
+3. **Site link for alerts:** `pnpm exec convex env set SITE_URL https://floruvi.com --prod`.
 4. **Deploy the backend:** `pnpm exec convex deploy`, and confirm `polished-mosquito-828` when asked.
 5. **Redeploy the site** so it reads the new variable: `vercel --prod`, or Vercel → Deployments → the latest production deployment → Redeploy. Environment changes apply only to new deployments.
-6. Open `https://floruvi.vercel.app/admin/login` and sign in.
+6. Open `https://floruvi.com/admin/login` and sign in.
 
 To change the password later, repeat step 2. To sign out everywhere, repeat step 1 (and redeploy), or delete rows in the `adminSessions` table.
 

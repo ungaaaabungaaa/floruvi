@@ -1,5 +1,11 @@
 import type { NextConfig } from "next";
 
+// One public address for search engines: other hosts of the live site redirect to it.
+const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "");
+const aliasHosts = site
+  ? ["floruvi.vercel.app", "www.floruvi.com"].filter((host) => new URL(site).host !== host)
+  : [];
+
 const config: NextConfig = {
   devIndicators: false,
   images: {
@@ -10,6 +16,12 @@ const config: NextConfig = {
   async redirects() {
     const version = "/:version([a-z]{2}-[a-z]{2})";
     return [
+      ...aliasHosts.map((host) => ({
+        source: "/:path*",
+        has: [{ type: "host" as const, value: host }],
+        destination: `${site}/:path*`,
+        permanent: true,
+      })),
       { source: "/wholesale", destination: "/contact", permanent: false },
       { source: `${version}/wholesale`, destination: "/:version/contact", permanent: false },
       { source: "/real-talk", destination: "/contact", permanent: true },

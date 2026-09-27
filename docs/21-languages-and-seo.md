@@ -59,7 +59,7 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 - Cart, checkout & wishlist are `noindex`. `robots.txt` blocks everything outside Vercel production and blocks `/api/` in production. AI search crawlers are allowed.
 - `proxy.ts` never redirects search crawlers or AI assistants that fetch a page for a user (ChatGPT, Claude, Perplexity). Their server's country is not the reader's country.
 - Mixed-case URLs redirect to lowercase in one step (308); percent escapes keep their case. Removed pages redirect to their replacement (`next.config.ts`); `/wholesale` is temporary (307) because a wholesale page may return.
-- `siteUrl` uses `NEXT_PUBLIC_SITE_URL`, then Vercel's production domain. Set `NEXT_PUBLIC_SITE_URL` when the custom domain is live.
+- `siteUrl` uses `NEXT_PUBLIC_SITE_URL`, then Vercel's production domain. Production uses `https://floruvi.com` (28 September 2026); `floruvi.vercel.app` and `www.floruvi.com` redirect to it with 308 (`next.config.ts`).
 
 ## Open search decisions (owner)
 
