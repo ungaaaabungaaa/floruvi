@@ -39,7 +39,7 @@ Never put key values in this repo.
 - [ ] **Search:** verify the site in Google Search Console and Bing, submit `/sitemap.xml`.
 - [ ] **Registrations:** FSSAI and GSTIN (IEC and APEDA for export), with a professional. Trademark check for "Floruvi".
 - [ ] **Translations:** a native speaker reviews a language before you advertise in that country.
-- [ ] **Growth:** follow the 30-day plan. [Plan](docs/22-growth-channels-research.md)
+- [ ] **Growth:** follow the 30-day plan ([channels](docs/22-growth-channels-research.md)). Set up the business laptop and answer the open questions ([growth tools](docs/31-growth-tools-plan.md)).
 
 ## 3. Build next (dev)
 

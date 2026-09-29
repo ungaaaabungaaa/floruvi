@@ -1,6 +1,6 @@
 # Backlog
 
-Owner requests recorded on 27–28 September 2026, in agreed order. AGENTS.md asks for additions to be recorded here before they are built.
+Owner requests recorded on 27–29 September 2026, in agreed order. AGENTS.md asks for additions to be recorded here before they are built.
 
 | # | Work | Status | Notes |
 | --- | --- | --- | --- |
@@ -11,7 +11,7 @@ Owner requests recorded on 27–28 September 2026, in agreed order. AGENTS.md as
 | 5 | Phone-number checkout with 6-digit SMS OTP | Needs provider (MSG91 recommended; DLT registration first) | Name & 10-digit mobile number required, address optional, no customer email. Cart & wishlist sync to the verified number. Replaces the email + phone code plan in AGENTS.md once the owner confirms the provider. |
 | 6 | Support chatbot (OpenRouter, later WhatsApp) | Built; needs OpenRouter key. SMS gate waits for item 5 | Vercel AI SDK + OpenRouter, stored chats, platform-only answers, product search & "Add to basket" tools, hand-off & `/admin/chats` inbox (owner request, 28 September 2026). [Chatbot](26-chatbot-plan.md). |
 | 7 | Wholesale & export tools | Proposed | Bulk quote page (company, country, products, monthly tonnes, frequency, port/Incoterms), downloadable catalogue & spec sheets, product feeds for Google Merchant Center & Meta, certificate display once certified. |
-| 8 | Social media & marketplace channels | Research | [Growth channels research](22-growth-channels-research.md). |
+| 8 | Social media & marketplace channels | Research | [Growth channels research](22-growth-channels-research.md). Tools and where they live: [growth tools plan](31-growth-tools-plan.md) (item 18). |
 | 9 | Website chat on/off switch | Done | Admin "Website chat" switch, hidden by default; minimal chat button & panel. The AI bot (item 6) will use the same switch. |
 | 10 | Free gifts at ₹2,000 / ₹5,000 | Plan only | Recipe card and hemp tote. [Plan](27-free-gifts-plan.md) with image prompts; owner decides amounts & timing. |
 | 11 | Razorpay payments (India) | Built; needs keys, KYC & policy updates | Owner request, 28 September 2026. Official SDK in Convex, server totals, signature + capture checks, signed webhook, `/admin` switch & paid orders. [Razorpay payments](29-razorpay-payments.md). |
@@ -21,3 +21,5 @@ Owner requests recorded on 27–28 September 2026, in agreed order. AGENTS.md as
 | 16 | Distance-based delivery charge | Proposed (later) | Owner request: keep ₹99 flat for now, add a calculator by distance or PIN zone later. See "Shipping: things to watch" in the README. |
 | 17 | SMS codes from the owner's own SIM | Research | Owner request, 28 September 2026: an Android phone as an SMS gateway instead of MSG91 for now. [Own-SIM SMS codes](30-own-sim-sms-otp.md). |
 | 14 | Cart line note & page end at the footer | Done | "Fresh produce" no longer repeats on each cart line; the cart pill steps aside at the footer, so the page cannot scroll past it. |
+| 18 | Growth tools: admin panel or business laptop | Plan only; needs owner decisions | Owner request, 29 September 2026. Proposal: growth work stays in vendor tools on the business laptop (Buffer, Meta Business Suite, WhatsApp Business app, Apollo, HubSpot Free, the ad managers); Claude drafts and the owner sends. Skip the X API, Unipile and the ad APIs. Admin additions A1–A5: lead source & market on requests and orders, product feeds (item 7), "Ask on WhatsApp" links, a "Replied" mark, the wholesale page (item 7). Export shipments use a checklist and a folder, not the admin panel. [Growth tools plan](31-growth-tools-plan.md). |
+| 19 | Farm monitoring: cameras & sensors | Plan only (later) | Owner request, 29 September 2026. Cameras stay in the maker's app; no video through the website. Buy models on the BIS security list. A sensor tile with Telegram alerts (A9) only after sensors with an official API are installed. [Plan, section 9](31-growth-tools-plan.md#9-farm-monitoring-later). |

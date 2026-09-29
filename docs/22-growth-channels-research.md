@@ -37,7 +37,7 @@ _Checked 27 September 2026._
 | Hyperpure, free B2B directories | Apply now | Hyperpure terms not public | Directories ₹0 [S71], [S74]; Hyperpure not public [S51] |
 | Blinkit, Zepto, Instamart, JioMart | Month 2–3 | GSTIN, trademark, FSSAI, barcodes | Rates not public [S34], [S48] |
 | Alibaba.com, paid directories | Defer | Export readiness | From ₹1,19,000 a year + tax [S78] |
-| Export pilot (UAE) | Days 22–30 | IEC, RCMC, FSSAI, phytosanitary | About ₹13,900 in fees (estimate; RCMC fee not verified) [S86], [S91] |
+| Export pilot (UAE) | Days 22–30 | IEC, RCMC, FSSAI, phytosanitary | About ₹13,900 in fees (estimate; RCMC fee confirmed on 29 September 2026 in [doc 31](31-growth-tools-plan.md#8-export-and-trading)) [S86], [S91] |
 
 ## 1. Social media management
 
@@ -247,7 +247,7 @@ _Checked 27 September 2026._
 | Step | What the sources say | Cost |
 | --- | --- | --- |
 | IEC (DGFT) | Needs PAN, a bank account and an address in the firm's name [S90]. No export without an IEC. Update it every April–June, or DGFT de-activates it [S92]. | ₹500; annual update free [S91] |
-| APEDA RCMC | Exporters of APEDA scheduled products apply on the DGFT portal after the IEC. APEDA has used the DGFT portal since 17 July 2023 [S93]. | ₹5,000 + 18% GST for 5 years: not verified, because APEDA's fee pages did not load |
+| APEDA RCMC | Exporters of APEDA scheduled products apply on the DGFT portal after the IEC. APEDA has used the DGFT portal since 17 July 2023 [S93]. | ₹5,000 + 18% GST for 5 years (confirmed on 29 September 2026 in [doc 31](31-growth-tools-plan.md#8-export-and-trading)) |
 | FSSAI Central licence | Kind of business “Trader/Merchant – Exporter” [S86] | ₹7,500 a year [S86] |
 | Phytosanitary certificate | Register once on PQMS. Apply before each export. Inspectors check the importing country's rules [S94], [S95]. | Not published on the pages checked |
 
@@ -323,7 +323,7 @@ Costs are estimates from the sources above. They exclude professional fees, the 
 | 1–7 | Confirm the legal entity and a GST and FSSAI plan with a CA. Set up the Meta business portfolio, Instagram professional account, Facebook Page, LinkedIn Page and WhatsApp Business app. Connect Buffer Free. Photograph the top 20 products. Buy a custom domain. | Connect the domain. Set `NEXT_PUBLIC_SITE_URL`. Verify Search Console and submit the sitemap. | ₹0 for tools [S1], [S2], [S16], [S30] |
 | 8–14 | Choose the checkout path: Razorpay, payment on delivery, or both. Confirm the return policy, delivery terms, stock wording and WhatsApp number. Post 3 times a week (proposal). | B3, B4, B5, B6, B7. Build B1 and B2 behind a switch. | ₹0 |
 | 15–21 | Apply to Hyperpure. List free on IndiaMART, TradeIndia and ExportersIndia. Contact 20 local restaurants and cafés. Apply for the FSSAI type that the adviser confirms. | B8, B9. Turn on the feeds after checkout works. Create Merchant Center and the Commerce Manager catalogue. | FSSAI: ₹100 to ₹7,500 a year by type [S86] |
-| 22–30 | Apply for the IEC, then the RCMC. Register on PQMS. Choose UAE pilot products. List free on Go4WorldBusiness and Trade Connect. Message 20 UAE importers on LinkedIn. Review leads by UTM source. | Fix feed diagnostics. | IEC ₹500 [S91]; RCMC about ₹5,900 (not verified) |
+| 22–30 | Apply for the IEC, then the RCMC. Register on PQMS. Choose UAE pilot products. List free on Go4WorldBusiness and Trade Connect. Message 20 UAE importers on LinkedIn. Review leads by UTM source. | Fix feed diagnostics. | IEC ₹500 [S91]; RCMC ₹5,900 ([doc 31](31-growth-tools-plan.md#8-export-and-trading)) |
 
 **Optional paid tools after day 30:** Buffer Essentials, about $15 a month for 3 channels, billed yearly [S2]; IndiaMART Mini Dynamic Catalog, ₹40,000 a year + tax [S72]; Go4WorldBusiness Gold, ₹39,999 a year [S80]; Alibaba.com Basic, ₹1,19,000 a year + tax [S78].
 
