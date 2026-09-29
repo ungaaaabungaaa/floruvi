@@ -1,0 +1,1507 @@
+{
+ "summary": "Towers are not the best fit for Floruvi. Land is not the limit, so the tower density advantage is worth little, while its costs are real: heads about 31% lighter (Touliatos 2016), one pump per tower, roots that dry in 30-60 minutes, and more labour per plant. If towers are used, 10 towers per 1,000 L sump is the best balance. It needs about 105 W (10.5 W per tower against 20 W) and 5.1-7.6 kWh per tower per month (against 14.4), costs about Rs 2,970 per tower plus about Rs 1,150 per tower for a shared inverter, and saves about Rs 25,000-34,000 per month at 600 towers. 20-tower clusters cost less per tower but do not cut power further with AC pumps, and one failure puts 1,800 plants at risk. The better system is aerated DWC float-support raft beds: about Rs 50 per site, 140 g base heads, 12-72 h of power-cut tolerance (estimate), and about Rs 19 per sellable kg core cost (capex over 5 years + power + labour). The same core cost is about Rs 37/kg for NFT, about Rs 47/kg for owner-made towers in clusters and about Rs 78/kg for bought tower kits. All-in with seeds, nutrients, polyhouse and RO water, the costs are about Rs 54, 77, 96 and 126 per kg. Build in phases tied to orders; 400 kg/week needs about 17,400 DWC sites (~725 m2).",
+ "line_items": [
+  {
+   "name": "Grid tariff BESCOM LT-5 (all-in)",
+   "unit": "Rs/kWh",
+   "low": 6.1,
+   "base": 6.1,
+   "high": 6.1,
+   "source": "given by owner brief",
+   "confidence": "high",
+   "note": "Used for all power costs."
+  },
+  {
+   "name": "Tanker water",
+   "unit": "Rs/m3",
+   "low": 125,
+   "base": 125,
+   "high": 125,
+   "source": "given by owner brief",
+   "confidence": "high",
+   "note": "Raw water; RO needed because groundwater is salty."
+  },
+  {
+   "name": "RO permeate cost incl. reject and running",
+   "unit": "Rs/L",
+   "low": 0.19,
+   "base": 0.23,
+   "high": 0.28,
+   "source": "estimate: Rs 0.125/L tanker divided by 50-75% RO recovery plus Rs 0.02-0.04/L running cost",
+   "confidence": "low",
+   "note": "Recovery rate of the farm RO plant not known."
+  },
+  {
+   "name": "Bought tower kit, installed",
+   "unit": "Rs per 90-site tower",
+   "low": 12000,
+   "base": 14000,
+   "high": 16000,
+   "source": "given by owner brief (base); range estimate +/-15%",
+   "confidence": "medium",
+   "note": "Includes one pump and reservoir per tower. Indian listings: Rs 6,600-12,500 per aeroponic tower (https://www.indiamart.com/proddetail/aeroponic-tower-lotus-60-72-and-90-planter-commercial-setups-2856842162497.html; https://www.aadyahydro.in/aeroponic-growing-tower.html)."
+  },
+  {
+   "name": "Owner target tower body",
+   "unit": "Rs per tower body",
+   "low": 2500,
+   "base": 3000,
+   "high": 4000,
+   "source": "given by owner brief (base); range estimate",
+   "confidence": "medium",
+   "note": "An IndiaMART listing offers a 100-planter tower at Rs 3,000 (https://www.indiamart.com/proddetail/100-planter-vertical-hydroponic-aeroponics-tower-system-made-by-vegtubes-2853243135130.html), so the target is market-plausible."
+  },
+  {
+   "name": "Existing per-tower pump power",
+   "unit": "W per tower",
+   "low": 18,
+   "base": 20,
+   "high": 25,
+   "source": "given by owner brief (18-25 W)",
+   "confidence": "high",
+   "note": "Typical 25 W class pump: SOBO WP-2880 25 W, 1,800 L/h, Hmax 1.5 m (https://onyxaqua.com/product/sobo-wp-2880-aquarium-power-head-25-watts/), i.e. it runs near shut-off head on a 1.5-2 m tower."
+  },
+  {
+   "name": "Typical tower-kit reservoir",
+   "unit": "L per tower",
+   "low": 30,
+   "base": 30,
+   "high": 60,
+   "source": "https://www.aadyahydro.in/aeroponic-growing-tower.html",
+   "confidence": "medium",
+   "note": "Kit: 1,000 L/h pump, 30 L tank, timer, 96 net pots."
+  },
+  {
+   "name": "Root dry-out time after pump stop, hot weather (towers)",
+   "unit": "minutes",
+   "low": 30,
+   "base": 45,
+   "high": 60,
+   "source": "given by owner brief",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Design flow per 90-site tower during irrigation",
+   "unit": "L/min per tower",
+   "low": 2,
+   "base": 3,
+   "high": 4,
+   "source": "estimate: NFT guidance is 1-2 L/min per gully (https://www.naturehydro.com/news/whats-the-best-flow-rate-for-an-nft-system); a 90-site tower wets more sites per feed point",
+   "confidence": "low",
+   "note": "Commission each tower with a bucket test; ZipGrow media towers use only ~2 US gal/h (https://university.upstartfarmers.com/blog/sizing-a-pump-hydroponics-aquaponics) because the wick matrix holds water."
+  },
+  {
+   "name": "Static lift (sump water level to tower top)",
+   "unit": "m",
+   "low": 1.8,
+   "base": 2.1,
+   "high": 2.5,
+   "source": "estimate: 1.5-2.0 m tower plus sump 0.3-0.5 m below floor for gravity return",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Total dynamic head used for pump selection",
+   "unit": "m",
+   "low": 2.9,
+   "base": 3.4,
+   "high": 3.8,
+   "source": "estimate: Hazen-Williams calculation (32/40/50 mm PVC headers, 16 mm risers) gave 2.8-3.1 m; +10-20% margin",
+   "confidence": "medium",
+   "note": "Pipe friction is small if headers are sized as in cluster_options."
+  },
+  {
+   "name": "Commercial tower-farm pump duty (Tower Farms)",
+   "unit": "W and duty",
+   "low": 45,
+   "base": 45,
+   "high": 45,
+   "source": "https://agrotonomy.com/pumps-used-in-a-tower-farm/",
+   "confidence": "medium",
+   "note": "45 W pump per tower, 3 min on / 12 min off, 0.216 kWh/day per tower. Commercial farms also use a gravity tank with a float valve per tower (https://agrotonomy.com/tower-farm-automated-irrigation/)."
+  },
+  {
+   "name": "Tower Garden standard pump",
+   "unit": "W",
+   "low": 35,
+   "base": 35,
+   "high": 35,
+   "source": "https://us.towergarden.com/products/pump",
+   "confidence": "medium",
+   "note": "357 US gal/h, 35 W (home tower, 20-28 sites)."
+  },
+  {
+   "name": "SOBO WP-6000 submersible (85 W, 4,500 L/h, Hmax 4.0 m)",
+   "unit": "Rs each",
+   "low": 1800,
+   "base": 2199,
+   "high": 2800,
+   "source": "https://www.amazon.in/Sobo-WP-WP-6000-Power-Submersible/dp/B0CNCNFMLF ; https://www.indiamart.com/proddetail/sobo-submersible-aquarium-water-pump-wp-series-for-aquarium-and-pond-27222733748.html",
+   "confidence": "medium",
+   "note": "Enough for a 6-tower cluster at 3.4 m head (est. 18 L/min)."
+  },
+  {
+   "name": "SOBO WP-7000 submersible (105 W, 5,500 L/h, Hmax 5.0 m)",
+   "unit": "Rs each",
+   "low": 3500,
+   "base": 4999,
+   "high": 5500,
+   "source": "https://www.flipkart.com/sobo-submersible-pump-wp-7000-105w-f-max-5500-l-h-water-lifting-pond-fountain-filter-sump-systems-foodie-puppies-aquarium/p/itmf75fc679815d1",
+   "confidence": "medium",
+   "note": "Base-case pump for a 10-tower cluster (est. 39 L/min at 3.4 m). Low price is an estimate."
+  },
+  {
+   "name": "SOBO WP-8000 submersible (135 W, 6,000 L/h, Hmax 5.5 m)",
+   "unit": "Rs each",
+   "low": 2600,
+   "base": 3000,
+   "high": 3500,
+   "source": "https://www.indiamart.com/proddetail/sobo-wp-8000-aquarium-submersible-pump-2852227392973.html ; https://www.amazon.in/Sobo-Aquarium-Submersible-Pump-WP-8000/dp/B09SG9GFLT",
+   "confidence": "medium",
+   "note": "Est. 49 L/min at 3.4 m."
+  },
+  {
+   "name": "SOBO WP-5000 submersible (60 W, 3,000 L/h, Hmax 3.0 m)",
+   "unit": "Rs each",
+   "low": 1600,
+   "base": 1799,
+   "high": 2999,
+   "source": "https://www.amazon.in/Sobo-Aquarium-Submersible-WP-5000-Power/dp/B09SG7ZN7V",
+   "confidence": "medium",
+   "note": "Not suitable: Hmax 3.0 m is below the 3.4 m design head."
+  },
+  {
+   "name": "Jebao DCP DC variable-speed pumps (DCP-5000 50 W/5,500 L/h/4 m; DCP-8000 65 W/8,000 L/h/5.2 m; DCP-10000 80 W/10,000 L/h/6 m)",
+   "unit": "Rs each",
+   "low": 7000,
+   "base": 9500,
+   "high": 12000,
+   "source": "specs: https://www.whitecorals.com/en/dry-goods-/pumps-and-plumbing/booster-pumps/jecod-jebao-dcp-pumps ; price: estimate (no Indian price found; imported aquarium DC pumps)",
+   "confidence": "low",
+   "note": "Roughly halves pump watts per tower and runs from 24 V batteries; 24/7 farm life not proven."
+  },
+  {
+   "name": "Inline domestic monoblock / openwell pumps (e.g., Kirloskar KOSi-0520 0.5 HP)",
+   "unit": "Rs each",
+   "low": 4199,
+   "base": 10478,
+   "high": 13570,
+   "source": "https://eshop.kirloskarpumps.com/openwell-submersible-pump-kosi-0520-0-5-hp-single-phase-210-volts-size-25-mm-x-25-mm.html ; https://www.moglix.com/brands/kirloskar/pumps-motors/128000000",
+   "confidence": "high",
+   "note": "Designed for 12-26 m head (KOSi-0520: 12-18 m). At 3-4 m they run off-curve and waste power. Not recommended."
+  },
+  {
+   "name": "Pump operating flow at design head",
+   "unit": "method",
+   "low": "linear",
+   "base": "n=0.75 curve",
+   "high": "quadratic",
+   "source": "estimate: Q = Qmax x (1 - H/Hmax)^n from catalogue Qmax/Hmax; real curves not published",
+   "confidence": "low",
+   "note": "Confirm with a bucket test before buying in bulk."
+  },
+  {
+   "name": "Food-grade plastic tank",
+   "unit": "Rs/L",
+   "low": 6.0,
+   "base": 6.5,
+   "high": 11.0,
+   "source": "https://dir.indiamart.com/impcat/sintex-water-tanks/storage-capacity-1000-l-q15271150/ ; https://www.nobroker.in/blog/sintex-water-tank-price/",
+   "confidence": "medium",
+   "note": "IndiaMART Bengaluru double-layer 1000 L: Rs 6.5/L; branded premium lines cost more."
+  },
+  {
+   "name": "Digital cyclic timer (230 V, 1 s-999 min)",
+   "unit": "Rs each",
+   "low": 950,
+   "base": 1200,
+   "high": 1890,
+   "source": "https://www.indiamart.com/proddetail/digital-adjustable-cyclic-timer-on-off-timer-23531060073.html",
+   "confidence": "medium",
+   "note": "Add a 24 h timer and contactor: controller total Rs 1,500-4,000 (estimate)."
+  },
+  {
+   "name": "Cable float switch",
+   "unit": "Rs each",
+   "low": 98,
+   "base": 350,
+   "high": 450,
+   "source": "https://dir.indiamart.com/impcat/float-switches.html",
+   "confidence": "medium",
+   "note": "Two per sump: low-level pump cut-out and low-level alarm."
+  },
+  {
+   "name": "Paddle flow switch (1 inch)",
+   "unit": "Rs each",
+   "low": 1500,
+   "base": 1700,
+   "high": 3500,
+   "source": "https://dir.indiamart.com/impcat/paddle-flow-switch.html",
+   "confidence": "medium",
+   "note": "Detects pump failure; triggers standby pump and alarm."
+  },
+  {
+   "name": "GSM power-failure / alarm unit (SMS + call, battery-backed)",
+   "unit": "Rs each",
+   "low": 1200,
+   "base": 1499,
+   "high": 5999,
+   "source": "https://dir.indiamart.com/impcat/sms-alert-module.html ; https://www.technode.co.in/power-sense-alert",
+   "confidence": "medium",
+   "note": "One per farm electrical board; floats and flow switches wire into it."
+  },
+  {
+   "name": "Inverter + battery (Luminous 1100 VA + 150 Ah tall tubular)",
+   "unit": "Rs per set",
+   "low": 20000,
+   "base": 22999,
+   "high": 31200,
+   "source": "https://www.lnbatteries.com/products/luminous-inverter-battery-combo-icon-1100-pure-sine-wave-inverter-rc-18000-150-ah-tall-tubular-battery-white-standard-icon1100-rc18000/83",
+   "confidence": "high",
+   "note": "~1.2 kWh usable (estimate: 80% depth of discharge, 85% inverter efficiency) = ~5.8 h for two 105 W cluster pumps."
+  },
+  {
+   "name": "Manifold, risers, balancing valves, return gutter",
+   "unit": "Rs per tower",
+   "low": 300,
+   "base": 450,
+   "high": 650,
+   "source": "estimate: 20 mm ball valve, 16 mm LDPE riser (Rs 6.4-10.4/m, https://www.indiamart.com/proddetail/16mm-online-agriculture-drip-irrigation-lateral-pipe-11605459130.html), share of PVC header and return pipe",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "UV-C steriliser, 55 W (SunSun CUV-755 SS / CUV-855)",
+   "unit": "Rs each",
+   "low": 11500,
+   "base": 11500,
+   "high": 13900,
+   "source": "https://greenfinindia.com/product/sun-sun-cuv-8110-55w-2-110uv-sterilizer-for-ponds-110-w-uv/",
+   "confidence": "high",
+   "note": "Pond units are rated for algae control; for 80-100 mJ/cm2 in nutrient solution run as a small side-stream (estimate). Lamp life 8,000 h."
+  },
+  {
+   "name": "UV dose needed against Pythium/Fusarium",
+   "unit": "mJ/cm2",
+   "low": 40,
+   "base": 90,
+   "high": 100,
+   "source": "Pythium zoospore survival 0.02% at 40 mJ/cm2; 80-100 mJ/cm2 used before transplanting (search summary of UV studies); https://link.springer.com/article/10.1023/A:1008798710325",
+   "confidence": "medium",
+   "note": "Zhang & Tu 2000: 19-88 mJ/cm2 cut Pythium in solution but did not reduce root rot in tomato."
+  },
+  {
+   "name": "Hydrogen peroxide 50% (technical grade)",
+   "unit": "Rs/kg",
+   "low": 28,
+   "base": 35,
+   "high": 50,
+   "source": "https://www.indiamart.com/proddetail/hydrogen-peroxide-50-21766675248.html ; https://www.indiamart.com/proddetail/hydrogen-peroxide-50-9238090348.html",
+   "confidence": "high",
+   "note": "Use for cleaning tanks and lines between crops. In mineral nutrient solution, 37.5 and 75 mg/L H2O2 stunted or killed lettuce (https://www.biorxiv.org/content/10.1101/2021.01.01.425018v1.full)."
+  },
+  {
+   "name": "Peristaltic dosing pump",
+   "unit": "Rs each",
+   "low": 2199,
+   "base": 2500,
+   "high": 9000,
+   "source": "https://dir.indiamart.com/impcat/peristaltic-pumps.html",
+   "confidence": "medium",
+   "note": "Only needed if continuous dosing is chosen; not recommended for H2O2."
+  },
+  {
+   "name": "NFT channel uPVC 100 x 50 mm",
+   "unit": "Rs/m",
+   "low": 145,
+   "base": 220,
+   "high": 300,
+   "source": "https://www.indiamart.com/proddetail/upvc-nft-channel-100-x-50-mm-23992061473.html",
+   "confidence": "high",
+   "note": "At 20-25 cm spacing = Rs 44-55 per site for channel only."
+  },
+  {
+   "name": "NFT system components (channels, racks, net pots, tank, pump, plumbing), Delhi NCR 2025",
+   "unit": "Rs per plant site",
+   "low": 90,
+   "base": 120,
+   "high": 165,
+   "source": "base: https://www.extensionjournal.com/article/view/1956/8-5-115 (Rs 120 x 30,000 plants); low: build-up estimate; high: A-frame listing Rs 33,000/200 sites (https://www.indiamart.com/proddetail/hydroponic-nft-system-15326920255.html)",
+   "confidence": "medium",
+   "note": "Excludes polyhouse, RO, automation, genset."
+  },
+  {
+   "name": "NFT 1-acre structure (older Indian data)",
+   "unit": "Rs lakh per acre",
+   "low": 38,
+   "base": 46,
+   "high": 78,
+   "source": "https://www.citygreens.ai/blogs/post/cost-hydroponic-nft-farm-india",
+   "confidence": "low",
+   "note": "2019-2021 prices; context only."
+  },
+  {
+   "name": "Floating raft (DWC) system, turnkey listing",
+   "unit": "Rs/m2",
+   "low": 1500,
+   "base": 2000,
+   "high": 2500,
+   "source": "https://www.indiamart.com/proddetail/floating-raft-system-hydroponic-services-9930551188.html (base); range estimate",
+   "confidence": "low",
+   "note": "Listing currently out of stock; contents not stated."
+  },
+  {
+   "name": "XPS raft sheet 1200 x 600 x 20-25 mm",
+   "unit": "Rs/sheet",
+   "low": 210,
+   "base": 250,
+   "high": 310,
+   "source": "https://www.indiamart.com/proddetail/we-hydroponic-raft-xps-sheet-extruded-polystyrene-sheet-dwc-system-23258316333.html",
+   "confidence": "high",
+   "note": "~Rs 350/m2."
+  },
+  {
+   "name": "HDPE pond liner 500 micron",
+   "unit": "Rs/m2",
+   "low": 80,
+   "base": 98,
+   "high": 110,
+   "source": "https://www.indiamart.com/proddetail/hdpe-pond-liner-sheets-3703454991.html ; https://www.indiamart.com/proddetail/rhino-mat-hdpe-pond-liner-500-micron-with-isi-mark-3427571848.html",
+   "confidence": "high",
+   "note": "Use ~1.4 m2 of liner per m2 of bed."
+  },
+  {
+   "name": "2-inch net pot",
+   "unit": "Rs each",
+   "low": 2,
+   "base": 2.5,
+   "high": 3,
+   "source": "https://www.indiamart.com/proddetail/2-inch-net-pots-premium-round-hydroponic-net-pot-15327478848.html ; https://www.indiamart.com/integratedhydroponicsindia/net-pots.html",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "name": "Air pump Resun LP-100 (100 W, 140 L/min)",
+   "unit": "Rs each",
+   "low": 7200,
+   "base": 7500,
+   "high": 8000,
+   "source": "https://www.indiamart.com/proddetail/resun-lp-100-air-pump-22362969691.html",
+   "confidence": "high",
+   "note": "At ~2 L/min air per m2 (1 stone of 4 L/min per 2 m2, https://aquaponics.africa/aeration-in-aquaponics/) one unit aerates ~70 m2 of 25 cm deep bed."
+  },
+  {
+   "name": "DWC bed build-up (walls, liner, raft, pots, aeration, float supports, 10% contingency)",
+   "unit": "Rs/m2 of bed",
+   "low": 1000,
+   "base": 1500,
+   "high": 2550,
+   "source": "estimate from the component prices above; bed walls Rs 300-1,200/m2 is an estimate (masonry at ground level to raised steel frame)",
+   "confidence": "low",
+   "note": "At 25-36 sites/m2 of raft = Rs 27-97 per site (base Rs 50)."
+  },
+  {
+   "name": "Dutch bucket system (200 plants)",
+   "unit": "Rs per system",
+   "low": 160000,
+   "base": 160000,
+   "high": 160000,
+   "source": "https://www.indiamart.com/proddetail/200-plants-dutch-bucket-hydroponic-system-22902490173.html",
+   "confidence": "medium",
+   "note": "Rs 800/site; buckets alone Rs 130-450 each (https://www.indiamart.com/proddetail/urban-farm-dutch-bucket-hydroponics-18634443862.html). Built for vining crops."
+  },
+  {
+   "name": "Ebb-and-flow nursery table 4 x 7 ft (steel)",
+   "unit": "Rs per table",
+   "low": 19000,
+   "base": 77741,
+   "high": 77741,
+   "source": "https://www.indiamart.com/proddetail/ebb-and-flow-nursery-table-25108426888.html ; https://www.indiamart.com/proddetail/ebb-and-flow-hydroponic-system-21708383562.html",
+   "confidence": "medium",
+   "note": "~Rs 30,000/m2 for steel tables; better suited to the seedling nursery."
+  },
+  {
+   "name": "Naturally ventilated polyhouse",
+   "unit": "Rs/m2",
+   "low": 1000,
+   "base": 1150,
+   "high": 1250,
+   "source": "https://agropotli.com/polyhouse-subsidy-in-karnataka/",
+   "confidence": "medium",
+   "note": "MIDH norm Rs 1,000/m2 (revised Aug 2025); Karnataka market 15-25% above; 50% central subsidy not applied here."
+  },
+  {
+   "name": "Lettuce head weight, towers",
+   "unit": "g sellable head",
+   "low": 80,
+   "base": 90,
+   "high": 100,
+   "source": "owner instruction; Touliatos et al. 2016: 95 g tower vs 138 g horizontal, bottom tier 43% lighter (https://pmc.ncbi.nlm.nih.gov/articles/PMC5001193/)",
+   "confidence": "medium",
+   "note": "No better tower evidence found."
+  },
+  {
+   "name": "Lettuce head weight, NFT",
+   "unit": "g",
+   "low": 90,
+   "base": 120,
+   "high": 150,
+   "source": "https://www.extensionjournal.com/article/view/1956/8-5-115 (63-117 g/plant from 1,900-3,500 kg per 30,000 plants); https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf (100-210 g)",
+   "confidence": "medium",
+   "note": "Delhi NCR is hotter than Bengaluru."
+  },
+  {
+   "name": "Lettuce head weight, DWC",
+   "unit": "g",
+   "low": 100,
+   "base": 140,
+   "high": 180,
+   "source": "https://cpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/8/8824/files/2019/06/Cornell-CEA-Lettuce-Handbook-.pdf (150 g at 35 days from seed); https://www.aces.edu/blog/topics/crop-production/greenhouse-lettuce-production/ (5-6 oz = 142-170 g); https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf",
+   "confidence": "medium",
+   "note": "A 2024 study found NFT yield 22.8% higher than DWC in summer but DWC better in autumn, with less tipburn (https://www.sciencedirect.com/science/article/pii/S0304423824003601)."
+  },
+  {
+   "name": "Lettuce head weight, Kratky non-circulating",
+   "unit": "g",
+   "low": 110,
+   "base": 150,
+   "high": 200,
+   "source": "https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf",
+   "confidence": "medium",
+   "note": "Growers aim for 150-250 g; 220 g average over 7 crops (Red Sails, Hawaii). Continuous floating without air gap cut yield up to 23%."
+  },
+  {
+   "name": "Transplant-to-harvest time (lettuce)",
+   "unit": "days",
+   "low": 21,
+   "base": 30,
+   "high": 40,
+   "source": "https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf (21-35 d); https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf (30-40 d); https://www.aces.edu/blog/topics/crop-production/greenhouse-lettuce-production/ (30 d)",
+   "confidence": "high",
+   "note": "Crop cycles/yr used: 8 / 9.5 / 11 (Delhi NCR NFT reports 7.5-8.5)."
+  },
+  {
+   "name": "Planting density, DWC raft",
+   "unit": "plants/m2 of raft",
+   "low": 30,
+   "base": 35,
+   "high": 40,
+   "source": "https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf",
+   "confidence": "high",
+   "note": "Floor basis incl. aisles: 18-27/m2 (estimate)."
+  },
+  {
+   "name": "Planting density, NFT",
+   "unit": "plants/m2",
+   "low": 20,
+   "base": 20,
+   "high": 30,
+   "source": "https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf (~30/m2 bench); https://www.extensionjournal.com/article/view/1956/8-5-115 (30,000 plants on 1,500 m2 = 20/m2 floor)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "name": "Planting density, towers",
+   "unit": "plants/m2 floor",
+   "low": 45,
+   "base": 52,
+   "high": 60,
+   "source": "estimate: 90 sites per 1.5-2.0 m2 per tower incl. aisles and support area (https://agrotonomy.com/space-saving-of-a-vertical-farm-using-aeroponic-towers/)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Planting density, Kratky tanks",
+   "unit": "plants/m2 of tank",
+   "low": 16.7,
+   "base": 16.7,
+   "high": 20,
+   "source": "https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf (20 x 30 cm); https://www.ctahr.hawaii.edu/oc/freepubs/pdf/VC-1.pdf (1.5-1.9 plants/ft2)",
+   "confidence": "high",
+   "note": "Floor basis 10-14/m2 (estimate)."
+  },
+  {
+   "name": "Water use, hydroponic lettuce",
+   "unit": "L/kg",
+   "low": 16,
+   "base": 20,
+   "high": 24,
+   "source": "https://www.mdpi.com/1660-4601/12/6/6879 (20 +/- 3.8 L/kg)",
+   "confidence": "medium",
+   "note": "Kratky: <20 L/kg common, 11 L/kg best (https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf)."
+  },
+  {
+   "name": "Dissolved oxygen: no growth loss down to",
+   "unit": "mg/L",
+   "low": 2.1,
+   "base": 2.1,
+   "high": 4,
+   "source": "https://cpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/8/8824/files/2019/06/Cornell-CEA-Lettuce-Handbook-.pdf (Goto et al. 1996, Acta Hort 440)",
+   "confidence": "medium",
+   "note": "Cornell: keep >4 ppm; without aeration DO eventually falls to near 0."
+  },
+  {
+   "name": "Pond water temperature limit",
+   "unit": "deg C",
+   "low": 24,
+   "base": 25,
+   "high": 26,
+   "source": "https://cpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/8/8824/files/2019/06/Cornell-CEA-Lettuce-Handbook-.pdf",
+   "confidence": "high",
+   "note": "Cornell: no higher than 25 C; high nutrient temperature was the main factor in total crop losses in Australia (https://ausveg.com.au/app/data/technical-insights/docs/VG04012_complete.pdf)."
+  },
+  {
+   "name": "Bengaluru April mean maximum air temperature",
+   "unit": "deg C",
+   "low": 34.3,
+   "base": 34.3,
+   "high": 34.3,
+   "source": "https://www.climatestotravel.com/climate/india/bangalore",
+   "confidence": "medium",
+   "note": "Rainy season June-October."
+  },
+  {
+   "name": "Labour wage",
+   "unit": "Rs per person-hour",
+   "low": 75,
+   "base": 100,
+   "high": 125,
+   "source": "base: Karnataka Zone 3 unskilled minimum Rs 817/day from 22 May 2026 (https://hrsoftwarebangalore.com/minimum-wages-karnataka/) / 8 h; low: estimate of local farm wage; high: incl. statutory costs",
+   "confidence": "low",
+   "note": "The notification does not list agriculture separately."
+  },
+  {
+   "name": "Labour, vertical systems (transplant 4-6 h, harvest+pack 6-8 h, cleaning 3-5 h per ~1,000 plants)",
+   "unit": "h per 1,000 plants per cycle",
+   "low": 13,
+   "base": 16,
+   "high": 20,
+   "source": "https://freightfarms.com/blog/labor-requirements-for-the-greenery",
+   "confidence": "medium",
+   "note": "Freight Farms vertical panels; used as the tower proxy."
+  },
+  {
+   "name": "Labour, NFT",
+   "unit": "h per 1,000 plants per cycle",
+   "low": 8,
+   "base": 11,
+   "high": 14,
+   "source": "estimate: bench-height work, channels carried to a packing table",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Labour, DWC / Kratky",
+   "unit": "h per 1,000 plants per cycle",
+   "low": 7,
+   "base": 10,
+   "high": 13,
+   "source": "estimate: rafts floated to a harvest station (method in https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf)",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Per-plant inputs (seed Rs 1, media Rs 0.7, nutrients and crop protection Rs 1.5)",
+   "unit": "Rs per plant",
+   "low": 3.2,
+   "base": 3.2,
+   "high": 3.2,
+   "source": "https://www.extensionjournal.com/article/view/1956/8-5-115",
+   "confidence": "medium",
+   "note": "Per kg this cost is higher when heads are lighter."
+  },
+  {
+   "name": "Power, towers with one 20 W pump each",
+   "unit": "kWh per site per month",
+   "low": 0.144,
+   "base": 0.16,
+   "high": 0.2,
+   "source": "calculation from owner-given 18-25 W, 24 h/day",
+   "confidence": "high",
+   "note": "14.4 kWh per tower per month at 20 W."
+  },
+  {
+   "name": "Power, towers in 10-tower cluster",
+   "unit": "kWh per site per month",
+   "low": 0.027,
+   "base": 0.068,
+   "high": 0.084,
+   "source": "calculation (cluster_options): 105 W / 10 towers; 67-100% duty; DC option low",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Power, NFT",
+   "unit": "kWh per site per month",
+   "low": 0.018,
+   "base": 0.03,
+   "high": 0.055,
+   "source": "calculation: 1.0-1.5 HP pump for 30,000 plants (https://www.extensionjournal.com/article/view/1956/8-5-115); high = 0.5 HP per 5,000-10,000 sites (estimate)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Power, DWC aeration",
+   "unit": "kWh per site per month",
+   "low": 0.017,
+   "base": 0.035,
+   "high": 0.06,
+   "source": "calculation: 100 W air pump per ~70 m2 (~2,100 sites); high adds circulation pumps",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Indian 1-acre hydroponic firm electricity bill (Bengaluru, 2022-23)",
+   "unit": "Rs per year",
+   "low": 108100,
+   "base": 108100,
+   "high": 108100,
+   "source": "https://www.uasbangalore.edu.in/wp-content/uploads/2024/12/3.pdf",
+   "confidence": "high",
+   "note": "For 19,000 kg/yr (1-acre firms, mostly NFT/DWC). 600 towers with 20 W pumps would use ~Rs 6.3 lakh/yr."
+  },
+  {
+   "name": "Rural supply context",
+   "unit": "hours of 3-phase supply to agricultural feeders",
+   "low": 7,
+   "base": 7,
+   "high": 7,
+   "source": "https://www.countryandpolitics.in/2025/02/20/bescom-appeals-to-farmers-not-to-use-single-phase-pump-sets-in-irrigation-feeders-at-night/",
+   "confidence": "high",
+   "note": "4 h day + 3 h night on irrigation feeders; rural homes on 24 h NJY feeders. Farm is on LT-5."
+  }
+ ],
+ "cluster_options": [
+  {
+   "towers_per_reservoir": 1,
+   "plant_sites": 90,
+   "design_flow_L_per_min": "not specified (1,000 L/h class pump near its shut-off head)",
+   "pump_choice": "one 18-25 W submersible per tower in ~30 L tank (e.g., kit with 1,000 L/h pump)",
+   "running_W": 20,
+   "W_per_tower_AC": 20,
+   "kWh_per_tower_month_100pct": 14.4,
+   "kWh_per_tower_month_67pct": 9.6,
+   "reservoir_L": 30,
+   "reservoir_L_per_tower": 30,
+   "pump_heat_W_per_L": 0.667,
+   "backup_power_share_Rs_per_tower_for_4h": [
+    1307,
+    1503,
+    2039
+   ],
+   "reservoirs_per_600_towers": 600,
+   "plants_lost_if_one_cluster_fails": 90,
+   "note": "Baseline. 600 separate 30 L tanks to monitor, highest pump heat per litre, and no alarm or backup in the kit."
+  },
+  {
+   "towers_per_reservoir": 6,
+   "plant_sites": 540,
+   "design_flow_L_per_min": 18,
+   "design_TDH_m": 3.4,
+   "pump_choice": "SOBO WP-6000 (85 W, 4,500 L/h, Hmax 4.0 m) duty + identical standby",
+   "est_flow_at_3_4m_L_per_min": 18.1,
+   "running_W": 85,
+   "W_per_tower_AC": 14.2,
+   "W_per_tower_DC_option": 8.3,
+   "kWh_per_tower_month_100pct": 10.2,
+   "kWh_per_tower_month_67pct": 6.8,
+   "kWh_per_tower_month_DC_67pct": 4.0,
+   "UV_addon_kWh_per_tower_month": 5.7,
+   "reservoir_L": 500,
+   "reservoir_L_per_tower": 83.33333333333333,
+   "pump_heat_W_per_L": 0.17,
+   "capex_items_Rs": {
+    "reservoir": [
+     3000,
+     3250,
+     5500
+    ],
+    "sump_pit_shade_insulation": [
+     500,
+     1000,
+     2000
+    ],
+    "pumps_duty_and_backup": [
+     3600,
+     4398,
+     5600
+    ],
+    "check_valves": [
+     400,
+     600,
+     1200
+    ],
+    "manifold_risers_valves_return": [
+     1800,
+     2700,
+     3900
+    ],
+    "timer_controller": [
+     1500,
+     2500,
+     4000
+    ],
+    "flow_switch_changeover": [
+     2000,
+     2500,
+     4500
+    ],
+    "float_switches_x2": [
+     200,
+     700,
+     900
+    ],
+    "alarm": [
+     500,
+     900,
+     1500
+    ]
+   },
+   "backup_power_share_Rs": [
+    6667,
+    7666,
+    10400
+   ],
+   "backup_runtime_h_est": 4.8,
+   "capex_per_tower_no_backup_Rs": [
+    2250,
+    3091,
+    4850
+   ],
+   "capex_per_tower_with_backup_Rs": [
+    3361,
+    4369,
+    6583
+   ],
+   "UV_option_per_tower_Rs": [
+    1917,
+    2167,
+    2567
+   ],
+   "reservoirs_per_600_towers": 100,
+   "plants_lost_if_one_cluster_fails": 540,
+   "monthly_saving_600_towers_vs_individual_Rs_100pct": 15372,
+   "monthly_saving_600_towers_vs_individual_Rs_67pct": 27692,
+   "monthly_saving_600_towers_vs_individual_Rs_DC_67pct": 37991,
+   "note": "WP-6000 only just meets 18 L/min at 3.4 m (estimate). Highest watts per tower and the most sumps to check (100 per 600 towers)."
+  },
+  {
+   "towers_per_reservoir": 10,
+   "plant_sites": 900,
+   "design_flow_L_per_min": 30,
+   "design_TDH_m": 3.4,
+   "pump_choice": "SOBO WP-7000 (105 W, 5,500 L/h, Hmax 5.0 m) duty + identical standby",
+   "est_flow_at_3_4m_L_per_min": 39.0,
+   "running_W": 105,
+   "W_per_tower_AC": 10.5,
+   "W_per_tower_DC_option": 5.0,
+   "kWh_per_tower_month_100pct": 7.6,
+   "kWh_per_tower_month_67pct": 5.1,
+   "kWh_per_tower_month_DC_67pct": 2.4,
+   "UV_addon_kWh_per_tower_month": 3.4,
+   "reservoir_L": 1000,
+   "reservoir_L_per_tower": 100.0,
+   "pump_heat_W_per_L": 0.105,
+   "capex_items_Rs": {
+    "reservoir": [
+     6000,
+     6500,
+     11000
+    ],
+    "sump_pit_shade_insulation": [
+     800,
+     1500,
+     3000
+    ],
+    "pumps_duty_and_backup": [
+     7000,
+     9998,
+     11000
+    ],
+    "check_valves": [
+     400,
+     600,
+     1200
+    ],
+    "manifold_risers_valves_return": [
+     3000,
+     4500,
+     6500
+    ],
+    "timer_controller": [
+     1500,
+     2500,
+     4000
+    ],
+    "flow_switch_changeover": [
+     2000,
+     2500,
+     4500
+    ],
+    "float_switches_x2": [
+     200,
+     700,
+     900
+    ],
+    "alarm": [
+     500,
+     900,
+     1500
+    ]
+   },
+   "backup_power_share_Rs": [
+    10000,
+    11500,
+    15600
+   ],
+   "backup_runtime_h_est": 5.8,
+   "capex_per_tower_no_backup_Rs": [
+    2140,
+    2970,
+    4360
+   ],
+   "capex_per_tower_with_backup_Rs": [
+    3140,
+    4120,
+    5920
+   ],
+   "UV_option_per_tower_Rs": [
+    1150,
+    1300,
+    1540
+   ],
+   "reservoirs_per_600_towers": 60,
+   "plants_lost_if_one_cluster_fails": 900,
+   "monthly_saving_600_towers_vs_individual_Rs_100pct": 25034,
+   "monthly_saving_600_towers_vs_individual_Rs_67pct": 34165,
+   "monthly_saving_600_towers_vs_individual_Rs_DC_67pct": 43876,
+   "note": "Recommended. WP-7000 gives an estimated 39 L/min at 3.4 m (30% margin over 30 L/min). One inverter covers two clusters for ~5.8 h (estimate)."
+  },
+  {
+   "towers_per_reservoir": 20,
+   "plant_sites": 1800,
+   "design_flow_L_per_min": 60,
+   "design_TDH_m": 3.4,
+   "pump_choice": "2 x SOBO WP-7000 running in parallel (each ~65% of design flow) + 1 spare on shelf",
+   "est_flow_at_3_4m_L_per_min": 78.0,
+   "running_W": 210,
+   "W_per_tower_AC": 10.5,
+   "W_per_tower_DC_option": 4.0,
+   "kWh_per_tower_month_100pct": 7.6,
+   "kWh_per_tower_month_67pct": 5.1,
+   "kWh_per_tower_month_DC_67pct": 1.9,
+   "UV_addon_kWh_per_tower_month": 1.7,
+   "reservoir_L": 2000,
+   "reservoir_L_per_tower": 100.0,
+   "pump_heat_W_per_L": 0.105,
+   "capex_items_Rs": {
+    "reservoir": [
+     12000,
+     13000,
+     22000
+    ],
+    "sump_pit_shade_insulation": [
+     1500,
+     2500,
+     5000
+    ],
+    "pumps_duty_and_backup": [
+     10500,
+     14997,
+     16500
+    ],
+    "check_valves": [
+     400,
+     600,
+     1200
+    ],
+    "manifold_risers_valves_return": [
+     6600,
+     9900,
+     14300
+    ],
+    "timer_controller": [
+     1500,
+     2500,
+     4000
+    ],
+    "flow_switch_changeover": [
+     2000,
+     2500,
+     4500
+    ],
+    "float_switches_x2": [
+     200,
+     700,
+     900
+    ],
+    "alarm": [
+     500,
+     900,
+     1500
+    ]
+   },
+   "backup_power_share_Rs": [
+    20000,
+    22999,
+    31200
+   ],
+   "backup_runtime_h_est": 5.8,
+   "capex_per_tower_no_backup_Rs": [
+    1760,
+    2380,
+    3495
+   ],
+   "capex_per_tower_with_backup_Rs": [
+    2760,
+    3530,
+    5055
+   ],
+   "UV_option_per_tower_Rs": [
+    575,
+    650,
+    770
+   ],
+   "reservoirs_per_600_towers": 30,
+   "plants_lost_if_one_cluster_fails": 1800,
+   "monthly_saving_600_towers_vs_individual_Rs_100pct": 25034,
+   "monthly_saving_600_towers_vs_individual_Rs_67pct": 34165,
+   "monthly_saving_600_towers_vs_individual_Rs_DC_67pct": 45642,
+   "alternative_pump_note": "Alternative: one SOBO WP-8000 (135 W) plus a standby gives an estimated 49 L/min at 3.4 m (2.4 L/min per tower) = 6.8 W per tower. Use it only if a bucket test shows the towers wet fully at 2.4 L/min.",
+   "note": "At most 1-4 W per tower less than a 10-tower cluster, but one failure affects 1,800 plants."
+  }
+ ],
+ "system_comparison": [
+  {
+   "system": "Vertical towers, bought kit, one pump per tower",
+   "capex_per_site_Rs": {
+    "low": 139,
+    "base": 166.6,
+    "high": 195
+   },
+   "plants_per_m2_floor": {
+    "low": 45,
+    "base": 52,
+    "high": 60
+   },
+   "lettuce_head_g": {
+    "low": 80,
+    "base": 90,
+    "high": 100
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 28,
+    "base": 32,
+    "high": 35
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.144,
+    "base": 0.16,
+    "high": 0.2
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 0.5,
+    "base": 0.75,
+    "high": 1.0
+   },
+   "water_L_per_kg": {
+    "low": 20,
+    "base": 25,
+    "high": 35
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 13,
+    "base": 16,
+    "high": 20
+   },
+   "heat_and_monsoon": "Poor-fair: thin films and small 30 L tanks warm quickly (20 W pump into 30 L = 0.67 W/L); lower tiers get less light in monsoon cloud.",
+   "disease_risk": "Low spread (one tower per tank) but many unmonitored tanks; heat and dry-out stress raise root rot.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": {
+    "low": 47.0,
+    "base": 78.3,
+    "high": 135.4
+   },
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": {
+    "low": 86.0,
+    "base": 126.4,
+    "high": 197.3
+   },
+   "confidence": "medium",
+   "notes": "Capex includes Rs 6-17/site backup power share (not in kit). Water use is an estimate.",
+   "power_cut_tolerance_note": "0.5-1 h without backup (owner data). The capex includes a Rs 6-17/site backup share that would give ~4 h."
+  },
+  {
+   "system": "Vertical towers, owner-made body (Rs 3,000) in 10-tower clusters",
+   "capex_per_site_Rs": {
+    "low": 64.7,
+    "base": 81.6,
+    "high": 113.2
+   },
+   "plants_per_m2_floor": {
+    "low": 45,
+    "base": 52,
+    "high": 60
+   },
+   "lettuce_head_g": {
+    "low": 80,
+    "base": 90,
+    "high": 100
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 28,
+    "base": 32,
+    "high": 35
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.027,
+    "base": 0.068,
+    "high": 0.084
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 4,
+    "base": 5.8,
+    "high": 8
+   },
+   "water_L_per_kg": {
+    "low": 20,
+    "base": 25,
+    "high": 35
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 13,
+    "base": 16,
+    "high": 20
+   },
+   "heat_and_monsoon": "Fair: 1,000 L buried/insulated sump; pump heat 0.105 W/L (6x less than single-tower tanks).",
+   "disease_risk": "Medium: one sump feeds 900 plants; contain with all-in/all-out per cluster, sanitation, cool solution.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": {
+    "low": 24.5,
+    "base": 47.4,
+    "high": 89.8
+   },
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": {
+    "low": 63.6,
+    "base": 95.5,
+    "high": 151.7
+   },
+   "confidence": "medium",
+   "notes": "Tolerance = inverter runtime (estimate), then 30-60 min. Capex includes cluster plumbing, duty+standby pumps, alarms and shared inverter.",
+   "power_cut_tolerance_note": "Hours shown = estimated runtime of the shared inverter. After that, roots dry in 30-60 min."
+  },
+  {
+   "system": "NFT flat channels",
+   "capex_per_site_Rs": {
+    "low": 93,
+    "base": 124,
+    "high": 171
+   },
+   "plants_per_m2_floor": {
+    "low": 16,
+    "base": 20,
+    "high": 24
+   },
+   "lettuce_head_g": {
+    "low": 90,
+    "base": 120,
+    "high": 150
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 21,
+    "base": 30,
+    "high": 35
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.018,
+    "base": 0.03,
+    "high": 0.055
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 0.5,
+    "base": 1,
+    "high": 2
+   },
+   "water_L_per_kg": {
+    "low": 16,
+    "base": 22,
+    "high": 30
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 8,
+    "base": 11,
+    "high": 14
+   },
+   "heat_and_monsoon": "Fair-poor: channel solution reached >35 C in Australian summers (Tesoriero); tipburn worse than DWC in summer (2024 study). Use white insulated channels, shade.",
+   "disease_risk": "Medium-high: one tank per system; warm channels plus pump failure stress drive Pythium/Phytophthora.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": {
+    "low": 16.9,
+    "base": 36.5,
+    "high": 85.3
+   },
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": {
+    "low": 45.1,
+    "base": 76.8,
+    "high": 148.3
+   },
+   "confidence": "medium",
+   "notes": "Tolerance is an estimate (UKY: failure causes rapid dry-out). Running channels as DFT with a 2-3 cm outlet dam raises it to an estimated 3-8 h.",
+   "power_cut_tolerance_note": "Estimated 0.5-2 h without backup. The capex includes a Rs 3-6/site backup share. A 2-3 cm outlet dam (DFT style) gives an estimated 3-8 h."
+  },
+  {
+   "system": "NFT A-frame",
+   "capex_per_site_Rs": {
+    "low": 150,
+    "base": 165,
+    "high": 190
+   },
+   "plants_per_m2_floor": {
+    "low": 40,
+    "base": 50,
+    "high": 60
+   },
+   "lettuce_head_g": {
+    "low": 80,
+    "base": 100,
+    "high": 130
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 21,
+    "base": 30,
+    "high": 35
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.02,
+    "base": 0.035,
+    "high": 0.06
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 0.5,
+    "base": 1,
+    "high": 2
+   },
+   "water_L_per_kg": {
+    "low": 16,
+    "base": 22,
+    "high": 30
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 10,
+    "base": 13,
+    "high": 16
+   },
+   "heat_and_monsoon": "Fair-poor: same channel heating as NFT; lower channels shaded.",
+   "disease_risk": "Medium-high (as NFT).",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": "not modelled",
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": "not modelled",
+   "confidence": "low",
+   "notes": "Capex from IndiaMART 200-planter A-frame at Rs 33,000; density, head weight and labour are estimates."
+  },
+  {
+   "system": "DWC float-support raft beds (aerated)",
+   "capex_per_site_Rs": {
+    "low": 27.5,
+    "base": 52.5,
+    "high": 97
+   },
+   "plants_per_m2_floor": {
+    "low": 18,
+    "base": 24,
+    "high": 27
+   },
+   "lettuce_head_g": {
+    "low": 100,
+    "base": 140,
+    "high": 180
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 24,
+    "base": 32,
+    "high": 40
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.017,
+    "base": 0.035,
+    "high": 0.06
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 12,
+    "base": 24,
+    "high": 72
+   },
+   "water_L_per_kg": {
+    "low": 18,
+    "base": 25,
+    "high": 40
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 7,
+    "base": 10,
+    "high": 13
+   },
+   "heat_and_monsoon": "Good: 200-300 L/m2 of water buffers temperature (UKY 2024: less temperature swing than NFT); white rafts shade the water; still keep solution <=25-26 C.",
+   "disease_risk": "Medium: solution shared within one bed; keep each bed separate (no farm-wide pond), aerate, cool, clean seedlings.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": {
+    "low": 6.7,
+    "base": 18.8,
+    "high": 54.1
+   },
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": {
+    "low": 30.8,
+    "base": 54.0,
+    "high": 113.2
+   },
+   "confidence": "medium",
+   "notes": "Tolerance is an estimate: no yield loss down to 2.1 mg/L DO (Goto 1996) and non-aerated float-support rafts still finish crops (Kratky 2009); raft supports create an air gap if level drops.",
+   "power_cut_tolerance_note": "Estimate. Only air pumps need backup (100 W per ~2,100 sites)."
+  },
+  {
+   "system": "Kratky non-circulating tanks (no pumps)",
+   "capex_per_site_Rs": {
+    "low": 40,
+    "base": 55,
+    "high": 70
+   },
+   "plants_per_m2_floor": {
+    "low": 10,
+    "base": 12,
+    "high": 14
+   },
+   "lettuce_head_g": {
+    "low": 110,
+    "base": 150,
+    "high": 200
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 30,
+    "base": 35,
+    "high": 40
+   },
+   "power_kWh_per_site_month": {
+    "low": 0,
+    "base": 0,
+    "high": 0
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": "no power needed",
+    "base": "no power needed",
+    "high": "no power needed"
+   },
+   "water_L_per_kg": {
+    "low": 11,
+    "base": 16,
+    "high": 20
+   },
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 7,
+    "base": 10,
+    "high": 13
+   },
+   "heat_and_monsoon": "Unproven in Bengaluru heat: shallow 13-14 cm tanks warm; trial first. Needs RO water because salts concentrate.",
+   "disease_risk": "Low spread: each tank isolated, no recirculation; mosquito breeding must be controlled (Bti, screens).",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": {
+    "low": 6.6,
+    "base": 16.0,
+    "high": 36.1
+   },
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": {
+    "low": 28.9,
+    "base": 50.8,
+    "high": 92.6
+   },
+   "confidence": "low",
+   "notes": "Hawaii data (Kratky 2009); head weights in Bengaluru not measured."
+  },
+  {
+   "system": "Dutch buckets",
+   "capex_per_site_Rs": {
+    "low": 150,
+    "base": 500,
+    "high": 800
+   },
+   "plants_per_m2_floor": {
+    "low": 8,
+    "base": 12,
+    "high": 16
+   },
+   "lettuce_head_g": {
+    "low": 100,
+    "base": 120,
+    "high": 150
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 28,
+    "base": 32,
+    "high": 40
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.02,
+    "base": 0.04,
+    "high": 0.06
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 6,
+    "base": 12,
+    "high": 24
+   },
+   "water_L_per_kg": "not researched",
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 12,
+    "base": 16,
+    "high": 20
+   },
+   "heat_and_monsoon": "Good buffer (about 2 L reserve per bucket), but media handling in heat is labour-heavy.",
+   "disease_risk": "Medium: shared drain return.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": "not modelled",
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": "not modelled",
+   "confidence": "low",
+   "notes": "IndiaMART 200-plant system Rs 1,60,000; guides call buckets overkill for leafy greens. Most values are estimates."
+  },
+  {
+   "system": "Ebb-and-flow tables",
+   "capex_per_site_Rs": {
+    "low": 760,
+    "base": 1200,
+    "high": 1200
+   },
+   "plants_per_m2_floor": {
+    "low": 15,
+    "base": 18,
+    "high": 25
+   },
+   "lettuce_head_g": {
+    "low": 100,
+    "base": 120,
+    "high": 150
+   },
+   "cycle_days_transplant_to_harvest": {
+    "low": 28,
+    "base": 32,
+    "high": 40
+   },
+   "power_kWh_per_site_month": {
+    "low": 0.01,
+    "base": 0.02,
+    "high": 0.04
+   },
+   "power_cut_tolerance_h_before_damage": {
+    "low": 4,
+    "base": 8,
+    "high": 12
+   },
+   "water_L_per_kg": "not researched",
+   "labour_h_per_1000_plants_per_cycle": {
+    "low": 12,
+    "base": 16,
+    "high": 20
+   },
+   "heat_and_monsoon": "Fair; best for the seedling nursery.",
+   "disease_risk": "Medium-high: flooding spreads zoospores across a table.",
+   "cost_Rs_per_sellable_kg_core_capex5y_power_labour": "not modelled",
+   "cost_Rs_per_kg_all_in_plus_inputs_polyhouse_water": "not modelled",
+   "confidence": "low",
+   "notes": "Steel table ~Rs 30,000/m2 at 25 plants/m2 (UKY density); low value assumes a Rs 19,000 set holds 25 plants. Estimates."
+  }
+ ],
+ "risks": [
+  "Disease spread: any shared reservoir (tower cluster or DWC bed) can move Pythium between plants. Australian growers lost 20-30% and sometimes whole summer crops; hot nutrient solution was the main factor, and moisture stress from stopped or pulsed flow also raised disease (Tesoriero, VG04012). Limit plants per reservoir, plant each reservoir all-in/all-out, sanitise between crops, keep solution at or below 25-26 C, and start with clean seedlings.",
+  "Centralising: the same report warns that one central tank raises the risk of losses from breakdowns and disease. This is why the recommendation is 10 towers per sump, not 20, and one solution per DWC bed.",
+  "Power cuts: towers and NFT roots dry within 30-60 minutes in hot weather. Any tower or NFT layout needs backup power and alarms. DWC needs only air-pump backup and tolerates hours without power (estimate).",
+  "Pump heat: a submersible pump puts all its power into the water. 20 W in a 30 L tank is 0.67 W/L (up to ~14 C per day of heat input before losses); 105 W in 1,000 L is 0.105 W/L. Small tanks run warmer (calculation).",
+  "Pump quality: aquarium and pond pumps (SOBO, Jebao) are not rated for farm duty. Keep one spare per 5-10 pumps and replace impellers yearly (estimate).",
+  "UV limits: UV units cost about Rs 13,000 each and add about 34 kWh per cluster per month (estimate). One study found that UV cut Pythium in the solution but did not reduce root rot. UV also breaks down iron chelates, so use a UV-stable chelate if UV is added (Arcas et al. 2025).",
+  "Hydrogen peroxide: in mineral nutrient solution, 37.5-75 mg/L stunted or killed lettuce. Use it only to clean empty tanks and lines between crops.",
+  "Water: RO is mandatory. Kratky and DWC concentrate salts when water is topped up. The first DWC fill needs about 250 L of RO water per m2 of bed, e.g. ~120 m3 for 400 kg/week. Check RO plant capacity and fill beds in phases. Decide solution replacement from lab tests, not a fixed monthly dump.",
+  "Mosquitoes breed in still DWC and Kratky water. Use insect screens and Bti (Kratky 2009).",
+  "Evidence gaps: all labour hours except the vertical-system proxy are estimates. Head weights in a Bengaluru polyhouse have not been measured. Pump flows use approximate curves. Indian DC-pump prices were not found. Cost per kg ranges are wide.",
+  "Demand: 600 towers (54,000 sites) would give about 800 kg/week at 90 g heads, twice the 400 kg/week a new seller sells by month 12. Capacity built ahead of buyers raises cost per sold kg."
+ ],
+ "recommendations": [
+  "Main recommendation: build new capacity as aerated DWC float-support raft beds. Use 1.2 m wide, 25-30 cm deep beds, one solution per bed, one 100 W air pump per ~70 m2 plus a spare, and an inverter for the air pumps. Grow lettuce, arugula, pak choi, basil and kale. Estimated core cost is about Rs 19/kg, against about Rs 47/kg for owner-made towers in clusters and about Rs 78/kg for bought tower kits.",
+  "Pilot before scaling: build 4-6 beds (about 2,000 sites) next to one 10-tower cluster and run them for 2-3 cycles. Record sellable head weight, labour minutes, kWh, water, losses and solution temperature. Scale only in step with signed orders.",
+  "If towers are kept or already bought, run them as 10-tower clusters. Each cluster gets a 1,000 L buried or insulated sump and one SOBO WP-7000-class pump (105 W) with an identical standby pump. A flow switch starts the standby pump and raises an alarm. Add two float switches, a cyclic timer (continuous flow by day, 15 min on / 30 min off at night) and one inverter shared by two clusters. Plant each cluster all-in/all-out.",
+  "Do not add UV or continuous hydrogen peroxide to 10-tower clusters unless disease appears. Rely on hygiene, cool solution, clean seedlings and small clusters. Consider a Bacillus subtilis biocontrol product (Tesoriero found consistent suppression); check what is registered in India.",
+  "Use DC variable-speed pumps (Jebao DCP class) only after a test of 2-3 units. Estimated saving is about 5 W more per tower than AC pumps, and they can run from batteries.",
+  "Trial one Kratky tank bed as a zero-power backup crop. Do not scale it until Bengaluru summer data exists.",
+  "Use ebb-and-flow or simple trays only for the nursery. Do not use Dutch buckets or A-frames for leafy greens.",
+  "Do not buy inline monoblock or openwell pumps for 3-4 m head. They are built for 12-26 m head and waste power."
+ ],
+ "sources": [
+  "https://30stades.com/farming/kerala-brothers-build-one-of-indias-largest-hydroponic-lettuce-farms-wayanad-export-to-dubai-qatar-9378532",
+  "https://agropotli.com/polyhouse-subsidy-in-karnataka/",
+  "https://agrotonomy.com/pumps-used-in-a-tower-farm/",
+  "https://agrotonomy.com/space-saving-of-a-vertical-farm-using-aeroponic-towers/",
+  "https://agrotonomy.com/tower-farm-automated-irrigation/",
+  "https://aquaponics.africa/aeration-in-aquaponics/",
+  "https://ausveg.com.au/app/data/technical-insights/docs/VG04012_complete.pdf",
+  "https://ccd.uky.edu/sites/default/files/2026-02/ccd-cp-63_hydrolettuce-updated_accessible.pdf",
+  "https://cpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/8/8824/files/2019/06/Cornell-CEA-Lettuce-Handbook-.pdf",
+  "https://cropking.com/blogs/knowledge-center/nft-production-lettuce",
+  "https://dir.indiamart.com/impcat/float-switches.html",
+  "https://dir.indiamart.com/impcat/paddle-flow-switch.html",
+  "https://dir.indiamart.com/impcat/peristaltic-pumps.html",
+  "https://dir.indiamart.com/impcat/sintex-water-tanks/storage-capacity-1000-l-q15271150/",
+  "https://dir.indiamart.com/impcat/sms-alert-module.html",
+  "https://eshop.kirloskarpumps.com/openwell-submersible-pump-kosi-0520-0-5-hp-single-phase-210-volts-size-25-mm-x-25-mm.html",
+  "https://freightfarms.com/blog/labor-requirements-for-the-greenery",
+  "https://greenfinindia.com/product/sun-sun-cuv-8110-55w-2-110uv-sterilizer-for-ponds-110-w-uv/",
+  "https://hrsoftwarebangalore.com/minimum-wages-karnataka/",
+  "https://link.springer.com/article/10.1023/A:1008798710325",
+  "https://link.springer.com/article/10.1186/s40538-025-00817-8",
+  "https://microworms.in/buy-sobo-submersible-water-pump-india",
+  "https://onyxaqua.com/product/sobo-wp-2880-aquarium-power-head-25-watts/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5001193/",
+  "https://university.upstartfarmers.com/blog/best-crops-for-raft-systems",
+  "https://university.upstartfarmers.com/blog/sizing-a-pump-hydroponics-aquaponics",
+  "https://us.towergarden.com/products/pump",
+  "https://www.aadyahydro.in/aeroponic-growing-tower.html",
+  "https://www.aces.edu/blog/topics/crop-production/greenhouse-lettuce-production/",
+  "https://www.amazon.in/Sobo-Aquarium-Submersible-Pump-WP-8000/dp/B09SG9GFLT",
+  "https://www.amazon.in/Sobo-Aquarium-Submersible-WP-5000-Power/dp/B09SG7ZN7V",
+  "https://www.amazon.in/Sobo-WP-WP-6000-Power-Submersible/dp/B0CNCNFMLF",
+  "https://www.biorxiv.org/content/10.1101/2021.01.01.425018v1.full",
+  "https://www.citygreens.ai/blogs/post/cost-hydroponic-nft-farm-india",
+  "https://www.climatestotravel.com/climate/india/bangalore",
+  "https://www.countryandpolitics.in/2025/02/20/bescom-appeals-to-farmers-not-to-use-single-phase-pump-sets-in-irrigation-feeders-at-night/",
+  "https://www.ctahr.hawaii.edu/hawaii/downloads/three_non-circulating_hydroponic_methods_for_growing_lettuce.pdf",
+  "https://www.ctahr.hawaii.edu/oc/freepubs/pdf/VC-1.pdf",
+  "https://www.extensionjournal.com/article/view/1956/8-5-115",
+  "https://www.flipkart.com/sobo-submersible-pump-wp-7000-105w-f-max-5500-l-h-water-lifting-pond-fountain-filter-sump-systems-foodie-puppies-aquarium/p/itmf75fc679815d1",
+  "https://www.indiamart.com/integratedhydroponicsindia/net-pots.html",
+  "https://www.indiamart.com/proddetail/100-planter-vertical-hydroponic-aeroponics-tower-system-made-by-vegtubes-2853243135130.html",
+  "https://www.indiamart.com/proddetail/16mm-online-agriculture-drip-irrigation-lateral-pipe-11605459130.html",
+  "https://www.indiamart.com/proddetail/2-inch-net-pots-premium-round-hydroponic-net-pot-15327478848.html",
+  "https://www.indiamart.com/proddetail/200-plants-dutch-bucket-hydroponic-system-22902490173.html",
+  "https://www.indiamart.com/proddetail/aeroponic-tower-lotus-60-72-and-90-planter-commercial-setups-2856842162497.html",
+  "https://www.indiamart.com/proddetail/digital-adjustable-cyclic-timer-on-off-timer-23531060073.html",
+  "https://www.indiamart.com/proddetail/ebb-and-flow-hydroponic-system-21708383562.html",
+  "https://www.indiamart.com/proddetail/ebb-and-flow-nursery-table-25108426888.html",
+  "https://www.indiamart.com/proddetail/floating-raft-system-hydroponic-services-9930551188.html",
+  "https://www.indiamart.com/proddetail/hdpe-pond-liner-sheets-3703454991.html",
+  "https://www.indiamart.com/proddetail/hydrogen-peroxide-50-21766675248.html",
+  "https://www.indiamart.com/proddetail/hydrogen-peroxide-50-9238090348.html",
+  "https://www.indiamart.com/proddetail/hydroponic-nft-system-15326920255.html",
+  "https://www.indiamart.com/proddetail/resun-lp-100-air-pump-22362969691.html",
+  "https://www.indiamart.com/proddetail/rhino-mat-hdpe-pond-liner-500-micron-with-isi-mark-3427571848.html",
+  "https://www.indiamart.com/proddetail/sobo-submersible-aquarium-water-pump-wp-series-for-aquarium-and-pond-27222733748.html",
+  "https://www.indiamart.com/proddetail/sobo-wp-8000-aquarium-submersible-pump-2852227392973.html",
+  "https://www.indiamart.com/proddetail/upvc-nft-channel-100-x-50-mm-23992061473.html",
+  "https://www.indiamart.com/proddetail/urban-farm-dutch-bucket-hydroponics-18634443862.html",
+  "https://www.indiamart.com/proddetail/we-hydroponic-raft-xps-sheet-extruded-polystyrene-sheet-dwc-system-23258316333.html",
+  "https://www.lnbatteries.com/products/luminous-inverter-battery-combo-icon-1100-pure-sine-wave-inverter-rc-18000-150-ah-tall-tubular-battery-white-standard-icon1100-rc18000/83",
+  "https://www.mdpi.com/1660-4601/12/6/6879",
+  "https://www.moglix.com/brands/kirloskar/pumps-motors/128000000",
+  "https://www.naturehydro.com/news/whats-the-best-flow-rate-for-an-nft-system",
+  "https://www.nobroker.in/blog/sintex-water-tank-price/",
+  "https://www.sciencedirect.com/science/article/pii/S0304423824003601",
+  "https://www.technode.co.in/power-sense-alert",
+  "https://www.uasbangalore.edu.in/wp-content/uploads/2024/12/3.pdf",
+  "https://www.whitecorals.com/en/dry-goods-/pumps-and-plumbing/booster-pumps/jecod-jebao-dcp-pumps"
+ ],
+ "method_notes": {
+  "cost_model": "Core cost per sellable kg = (capex per site / 5 years + kWh per site per year x Rs 6.1 + labour h per 1,000 plants x cycles x wage) / (cycles x sellable fraction x head weight). Low case uses favourable values for every input and high case uses unfavourable values, so the ranges are wide. Base: 9.5 cycles/yr, 90% sellable, Rs 100/h labour.",
+  "all_in_adders": "Inputs Rs 3.2/plant (Delhi NCR 2025). Polyhouse Rs 1,150/m2 over 10 years without subsidy. RO water Rs 0.23/L x L/kg.",
+  "excluded": "Nursery, packing house, management, sales, delivery, dosing automation and chillers. These are similar across systems.",
+  "cluster_power": "The AC pump runs continuously. The 67% duty case = continuous flow by day and 15 min on / 30 min off at night. The DC option uses Jebao DCP-class pumps (estimate).",
+  "labels": "Every number is either sourced (URL) or marked estimate with its reason."
+ }
+}

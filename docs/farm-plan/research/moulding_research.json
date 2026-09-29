@@ -1,0 +1,1436 @@
+{
+ "summary": "Rs 3,000 for the tower body (rings, basin, cups, pipe, GST) is realistic only at scale. Base case: about 2,200 towers if only the ring is moulded and clusters share a tank (route g2), or about 7,900 towers with a full Indian P20 mould set (route a). At 600 towers the best own-design body costs about Rs 4,500-5,000 (base); at 200 towers about Rs 8,500-9,500. A complete, ready-to-plant tower (with pump/timer/reservoir share) costs about Rs 4,100-4,300 at 6,000 towers, against Rs 11,100 for bulk-bought kits and Rs 5,545 for DIY PVC. DIY PVC is the cheapest complete option up to about 600 towers; Indian contract injection moulding wins at 6,000. Resin is the main cost: PP injection grade rose from Rs 90.7/kg (1 Jan 2026) to Rs 154.7/kg (16 Sep 2026, IOCL ex-works Bangalore), so 8 kg of plastic now costs about Rs 1,450 before GST. Tooling: about Rs 12 lakh (ring mould + development) for the lean route, Rs 26 lakh for a full Indian P20 set, about Rs 40 lakh for a China set landed (moulds Rs 36 lakh + development). China-made parts are not cheaper at Rs 96/USD with about 38-40% duty and IGST. Owning presses pays only above about 20,000-37,000 towers a year.",
+ "as_of": "2026-09-29",
+ "currency": "INR unless stated; USD at Rs 96",
+ "line_items": [
+  {
+   "name": "Net cup (5 cm) mould, India, P20, 8-cavity cold runner",
+   "unit": "INR per mould (ex-GST)",
+   "low": 100000,
+   "base": 120000,
+   "high": 400000,
+   "source": "https://www.indiamart.com/proddetail/hydroponic-net-pots-plastic-injection-mould-26463224430.html (Shree Kiran Mould Plast, Mumbai: P20, 8 cavity, cold runner, Rs 1,20,000). High is an estimate for 16-24 cavities with a hot runner.",
+   "confidence": "medium",
+   "note": "Buying cups (Rs 2-4.5) needs no mould. A cup mould pays back only at about 6,000 towers (saves about Rs 110-150 per tower ex-GST)."
+  },
+  {
+   "name": "Ring panel with 8 plant pockets (25-40 cm, 0.3-0.8 kg), India, P20, 1 cavity with side actions",
+   "unit": "INR per mould (ex-GST)",
+   "low": 400000,
+   "base": 800000,
+   "high": 1500000,
+   "source": "estimate: floor from IndiaMART single-cavity P20 bucket moulds 15-25 L at Rs 2.0-4.2 lakh (https://dir.indiamart.com/impcat/plastic-bucket-mould.html); ceiling from P20 crate moulds at Rs 8-20 lakh (https://dir.indiamart.com/impcat/crate-mould.html); each side action adds cost (China: USD 1,500-8,000 each, https://zetarmold.com/injection-mold-price-list-2026/)",
+   "confidence": "low",
+   "note": "Angled pockets are undercuts. A panel design (2 pockets per panel, 4 panels per ring) cuts slides and mould size. Needs a 250-350 t press (estimate)."
+  },
+  {
+   "name": "Seed-holder basket mould, India, P20",
+   "unit": "INR per mould (ex-GST)",
+   "low": 100000,
+   "base": 200000,
+   "high": 350000,
+   "source": "estimate: IndiaMART P20 small/medium moulds Rs 0.5-2 lakh (e.g. Bengaluru S M S Engineering custom P20 mould Rs 1,25,000, https://www.indiamart.com/proddetail/plastic-injection-mould-p-20-matrial-20195409855.html); Rajkot listings Rs 25,000-5 lakh (https://dir.indiamart.com/rajkot/plastic-injection-mold.html)",
+   "confidence": "low",
+   "note": "Assumed 1 per tower (a top seeding tray). If it is 1 per plant site, add about Rs 100-200 per tower."
+  },
+  {
+   "name": "Basin/reservoir mould 30-50 L (1.5-3 kg part), India, P20, 1 cavity",
+   "unit": "INR per mould (ex-GST)",
+   "low": 300000,
+   "base": 600000,
+   "high": 1000000,
+   "source": "IndiaMART: 25 L bucket P20 Rs 2.5 lakh (Graphikos), 15 L Rs 4.2 lakh (Hattrix), 20 L hot-runner Rs 14.0 lakh (https://www.indiamart.com/proddetail/20-litre-plastic-bucket-mould-hot-runner-24621075688.html), ghamela Rs 2 lakh (https://www.indiamart.com/proddetail/plastic-ghamela-mould-25490467933.html), tub Rs 1.5 lakh (https://dir.indiamart.com/impcat/plastic-tub-mould.html); scaled up for 30-50 L (estimate)",
+   "confidence": "medium-low",
+   "note": "Needs a 600-800 t press (estimate). A shared cluster tank or a bought tub avoids this mould."
+  },
+  {
+   "name": "Lid/cap mould, India, P20",
+   "unit": "INR per mould (ex-GST)",
+   "low": 100000,
+   "base": 200000,
+   "high": 350000,
+   "source": "estimate (same basis as the seed-holder mould)",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Spout/distributor mould, India, P20, 4-8 cavities",
+   "unit": "INR per mould (ex-GST)",
+   "low": 50000,
+   "base": 100000,
+   "high": 200000,
+   "source": "estimate (IndiaMART small P20 moulds Rs 50,000-1.25 lakh)",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Complete tower mould set, India, P20 (ring, basin, seed holder, lid, spout; cups bought)",
+   "unit": "INR (ex-GST)",
+   "low": 950000.0,
+   "base": 1900000.0,
+   "high": 3400000.0,
+   "source": "sum of the lines above; cross-check: India simple mould Rs 0.8-1.2 lakh, medium Rs 1.5-5 lakh, complex Rs 5-25 lakh+ (https://precious3d.com/injection-molding-cost-in-india-2026-tooling-per-unit-hidden-costs/); simple Rs 2-8 lakh, medium Rs 8-15 lakh, complex Rs 15-30 lakh+ (https://www.moldrite.in/blog/injection-molding-cost-india)",
+   "confidence": "medium-low",
+   "note": "With 18% GST: Rs 11.2/22.4/40.1 lakh. City split (Peenya/Bommasandra, Pune, Delhi NCR, Rajkot): listings overlap widely; Gujarat listings are the lowest; no reliable city premium was found."
+  },
+  {
+   "name": "Complete mould set, India, aluminium/soft tooling",
+   "unit": "INR (ex-GST)",
+   "low": 400000.0,
+   "base": 850000.0,
+   "high": 1600000.0,
+   "source": "estimate: 30-60% of P20 cost; China aluminium prototype USD 1,000-3,000 vs P20 production USD 5,000-10,000 (https://zetarmold.com/injection-mold-price-list-2026/); aluminium life about 10,000 parts as a rule of thumb, often more (https://www.protolabs.com/resources/blog/aluminum-mold-tooling-for-injection-molding/)",
+   "confidence": "low",
+   "note": "Fits 200-600 towers (600 towers = 6,600 ring shots). At 6,000 towers the ring tool must be remade several times."
+  },
+  {
+   "name": "Steel grade, shot life",
+   "unit": "shots",
+   "low": 10000,
+   "base": 500000,
+   "high": 1000000,
+   "source": "aluminium about 10,000 (Protolabs); P20 300,000-500,000 for simple production moulds (Zetar); P20/718H flower-pot moulds 500,000-1,000,000+ (https://www.zy-mold.com/flower-pot-mould); H13 adds 25-40% to cost for 500,000+ cycles (Zetar, JCH)",
+   "confidence": "medium",
+   "note": "P20 is enough: 6,000 towers need about 66,000 ring shots and 6,000 basin shots. H13 is not needed."
+  },
+  {
+   "name": "Mould lead time to first samples, India",
+   "unit": "weeks",
+   "low": 4,
+   "base": 8,
+   "high": 12,
+   "source": "https://www.moldrite.in/blog/injection-molding-cost-india (simple 4-6, medium 6-8, complex 8-12 weeks)",
+   "confidence": "medium",
+   "note": "Add 2-6 weeks for T1-T3 trials and corrections (JCH: 45-55 days to an approved first article)."
+  },
+  {
+   "name": "Net cup mould, China",
+   "unit": "USD per mould (FOB)",
+   "low": 2000,
+   "base": 2500,
+   "high": 3000,
+   "source": "https://www.made-in-china.com/products-search/hot-china-products/Net_Pot_Mould.html (Zhejiang JMT USD 2,000; Green Vitality USD 3,000)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Ring panel mould with pockets, China, P20",
+   "unit": "USD per mould (FOB)",
+   "low": 6000,
+   "base": 10000,
+   "high": 18000,
+   "source": "estimate: Made-in-China planter/plant-pot moulds USD 1,000-20,000 and stackable pot moulds USD 1,000-2,000 (https://www.made-in-china.com/products-search/hot-china-products/Plant_Pot_Mould.html, https://www.made-in-china.com/products-search/hot-china-products/Planter_Mould.html) plus side actions USD 1,500-8,000 each (Zetar)",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Basin mould 30-50 L, China, P20",
+   "unit": "USD per mould (FOB)",
+   "low": 5000,
+   "base": 9000,
+   "high": 15000,
+   "source": "Made-in-China: 45 L flower-pot mould USD 6,000-11,000 (Huangyan Beiwei); 20 L bucket mould USD 6,000; large planter USD 20,000-40,000 (Planter_Mould and Bucket_Mould listings)",
+   "confidence": "medium-low",
+   "note": ""
+  },
+  {
+   "name": "Complete tower mould set, China, P20 (5 moulds)",
+   "unit": "INR FOB at Rs 96/USD",
+   "low": 1440000.0,
+   "base": 2592000.0,
+   "high": 4416000.0,
+   "source": "sum of China lines (USD 15,000/27,000/46,000)",
+   "confidence": "low",
+   "note": "Landed in India with BCD 7.5% + SWS, freight, clearance, fit-up and 18% GST: Rs 19.7/35.8/62.3 lakh. At Rs 96/USD, Gujarat-level Indian quotes are cheaper for simple moulds; China may still win on build quality and speed."
+  },
+  {
+   "name": "China mould lead time",
+   "unit": "weeks",
+   "low": 4,
+   "base": 8,
+   "high": 12,
+   "source": "JCH (P20 low-volume 4-6 weeks; high-volume 10-14 weeks, https://jchtrade.com/notes/what-an-injection-mold-really-costs/); Zetar (production 6-10 weeks)",
+   "confidence": "medium",
+   "note": "Plus 2-3 weeks sea transit (Shenzhen-Chennai 14-18 days) and customs clearance."
+  },
+  {
+   "name": "Rotomould for a 30-50 L basin (fabricated MS/cast aluminium)",
+   "unit": "INR per mould (ex-GST)",
+   "low": 45000,
+   "base": 80000,
+   "high": 150000,
+   "source": "IndiaMART tank rotomoulds Rs 45,000 (Vishnu Engineering, https://www.indiamart.com/proddetail/rotomoulding-mould-for-underground-vertical-and-septic-water-tank-rotational-mould-20705392788.html), Rs 53,000-70,000 (other listings); high is an estimate for cast aluminium",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Rotomoulded basin, per part (2.5-4 kg LLDPE UV)",
+   "unit": "INR per part (ex-GST)",
+   "low": 500,
+   "base": 750,
+   "high": 1280,
+   "source": "estimate: IOCL LLDPE roto UV 042R35U ex-works Bangalore Rs 148,970/t on 16-09-2026 (https://www.plastemart.com/Upload/pricelist/16-09-2026-IOCL-Price-List.pdf) + pulverising + roto conversion and margin at Rs 200-320/kg of part",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Vacuum-forming mould (aluminium), per mould",
+   "unit": "INR (ex-GST)",
+   "low": 20000,
+   "base": 45000,
+   "high": 105000,
+   "source": "https://dir.indiamart.com/impcat/vacuum-forming-moulds.html (aluminium moulds Rs 20,000-1,05,000); trim fixtures Rs 20,000-1.5 lakh and tools at 10-20% of an injection tool (https://www.induthermoformers.com/post/how-much-does-a-thermoforming-tool-cost-in-india)",
+   "confidence": "medium",
+   "note": "Indu Thermoformers: 2-4 weeks to first samples; thermoforming usually wins below about 5,000-50,000 units a year."
+  },
+  {
+   "name": "Thermoformed ring (two formed halves joined), per ring",
+   "unit": "INR per ring (ex-GST)",
+   "low": 136,
+   "base": 238,
+   "high": 448,
+   "source": "estimate: PP sheet Rs 200/kg (https://www.indiamart.com/proddetail/pp-sheet-13627388197.html) adjusted to Rs 190-280/kg for 2026 resin prices; 1.5-1.8 kg of sheet per kg of part; forming, trimming and joining labour Rs 30-90",
+   "confidence": "low",
+   "note": "Structural risk: thin corners in deep pockets, seam leaks, stacking strength."
+  },
+  {
+   "name": "3D printing (FDM), Bengaluru/India",
+   "unit": "INR per gram",
+   "low": 6,
+   "base": 12,
+   "high": 20,
+   "source": "FDM PLA from Rs 6/g; SLA ABS-like Rs 30-40/cm3; SLS/MJF nylon Rs 32-40/cm3 (https://iamrapid.com/pricing/); MJF Rs 50/cc in Bengaluru (https://www.indiamart.com/proddetail/hp-mjf-3d-printing-services-27218333855.html); PETG Rs 10-20/g (search summary of Indian price guides)",
+   "confidence": "medium",
+   "note": "A printed 0.5 kg ring costs about Rs 3,000-10,000. Prototype set (1-2 rings, 10 cups, lid, spout): Rs 15,000/40,000/1,00,000 (estimate)."
+  },
+  {
+   "name": "Vacuum casting (silicone soft tool) for 10-30 prototype parts",
+   "unit": "USD",
+   "low": 200,
+   "base": 600,
+   "high": 1000,
+   "source": "search summary of https://jcadusa.com/vacuum-casting-cost-2025/ (silicone moulds USD 200-1,000; parts USD 10-100 each). No INR price list found for Indian providers (Makenica, ProtoZone offer the service).",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "PP homopolymer, injection grade (IOCL 1110MG), ex-works Bangalore",
+   "unit": "INR per kg, basic, GST extra",
+   "low": 90.7,
+   "base": 154.7,
+   "high": 154.7,
+   "source": "IOCL price lists via Plastemart: 01-01-2026 Rs 90,684/t; 01-06-2026 Rs 136,189/t; 16-09-2026 Rs 154,713/t (https://www.plastemart.com/Upload/pricelist/01-01-2026-IOCL-Price-List.pdf, .../01-06-2026-IOCL-Price-List.pdf, .../16-09-2026-IOCL-Price-List.pdf)",
+   "confidence": "high",
+   "note": "Low = 1 Jan 2026 list, base = 16 Sep 2026 list (current), high = highest 2026 list seen; 1 Jun 2026 was Rs 136.2. Not a forecast. Prices rose about 60% in March 2026 after the West Asia conflict (https://www.procurementresource.com/news-and-articles/india-plastic-manufacturing-margin-pressure-pvc-pp-pe-prices)."
+  },
+  {
+   "name": "PP impact copolymer, injection grade (IOCL 3030MG), ex-works Bangalore",
+   "unit": "INR per kg, basic, GST extra",
+   "low": 95.5,
+   "base": 161.5,
+   "high": 161.5,
+   "source": "same IOCL price lists (1 Jan / 16 Sep 2026; 1 Jun 2026 was Rs 145.0)",
+   "confidence": "high",
+   "note": "Better impact strength for outdoor rings. Base of the model uses this grade."
+  },
+  {
+   "name": "HDPE injection grade with UV (IOCL 080M60U), ex-works Bangalore",
+   "unit": "INR per kg, basic, GST extra",
+   "low": 95.7,
+   "base": 136.8,
+   "high": 149.7,
+   "source": "same IOCL price lists (low 1 Jan 2026, base 16 Sep 2026, high 1 Jun 2026)",
+   "confidence": "high",
+   "note": "In Sep 2026 HDPE-UV was about Rs 25/kg cheaper than PP ICP; HDPE is less stiff, so walls may need to be thicker."
+  },
+  {
+   "name": "Market PP/HDPE price, Q2 2026",
+   "unit": "INR per kg",
+   "low": 140,
+   "base": 160,
+   "high": 180,
+   "source": "https://www.moldrite.in/blog/injection-molding-cost-india (PP Rs 150-180, HDPE Rs 140-175, Q2 2026)",
+   "confidence": "medium",
+   "note": "OfBusiness still shows PP Rs 105-120/kg and HDPE Rs 100-115/kg (https://www.ofbusiness.com/prices/polymers-packaging); this looks stale against the IOCL lists."
+  },
+  {
+   "name": "UV stabiliser (HALS) masterbatch price",
+   "unit": "INR per kg",
+   "low": 160,
+   "base": 240,
+   "high": 510,
+   "source": "https://dir.indiamart.com/impcat/uv-stabilizer-masterbatch.html (Rs 85-510/kg; Bengaluru: Sidma Rs 230, Plasmix Rs 280)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "UV masterbatch dosage",
+   "unit": "% of part weight",
+   "low": 0.5,
+   "base": 1.5,
+   "high": 3.0,
+   "source": "Antien UV masterbatch 0.5-3% (http://antienindustries.com/en/product/additive-masterbatch/uv-masterbatch); 0.5-1.5% for 5-10 years outdoors, 1.5-2.5% for harsh sun (https://www.kerkeextruder.com/news/industry-news/comprehensive-guide-to-anti-uv-masterbatch-and-weather-resistance-masterbatch-outdoor-durability-and-testing-standards/)",
+   "confidence": "medium",
+   "note": "Adds about Rs 1-6 per kg of part. Ask for a food-contact declaration for the masterbatch."
+  },
+  {
+   "name": "White (TiO2) masterbatch",
+   "unit": "INR per kg",
+   "low": 171,
+   "base": 180,
+   "high": 285,
+   "source": "https://www.indiamart.com/proddetail/40-tio2-white-masterbatch-15111498448.html (Rs 171/kg); Rs 180-285/kg other listings; dosage 0.5-5%",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Blended material cost used in the model (resin + UV + colour + delivery)",
+   "unit": "INR per kg",
+   "low": 105,
+   "base": 165,
+   "high": 185,
+   "source": "calculation from the IOCL lists (low = early-2026 level, base = Sep 2026 PP ICP + 1.5-2% masterbatch, high = Moldrite upper bound + additives)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Plastic weight per 88-site tower (11 rings + basin + small parts)",
+   "unit": "kg",
+   "low": 5.53,
+   "base": 8.05,
+   "high": 11.35,
+   "source": "estimate: owner ranges (ring 0.3-0.8 kg, basin 1.5-3 kg); cross-checks: Aadya PP tower 48-80 plants, 2.5 mm wall, 10 kg (https://www.aadyahydro.in/hydroponic-system.html); AgriNovix 9-layer ABS tower 10 kg (made-in-china); G&N China tower pot 34 x 15 cm = 0.35 kg",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Moulded plastic parts per tower, route (a), ex-GST",
+   "unit": "INR per tower",
+   "low": 724,
+   "base": 1627,
+   "high": 2795,
+   "source": "calculation: weight x blended material x scrap factor x moulder margin + conversion",
+   "confidence": "medium",
+   "note": "Material is about 85-90% of this at 2026 resin prices."
+  },
+  {
+   "name": "Injection machine-hour rate (contract)",
+   "unit": "INR per machine-hour",
+   "low": 250,
+   "base": 575,
+   "high": 1600,
+   "source": "MSME Tool Room Ludhiana 05-05-2021: 80 t Rs 250, 160 t Rs 300, 200 t Rs 400 per hour (https://www.ctrludhiana.org/wp-content/uploads/2021/07/Machine-Hour-Rates.pdf); IndiaMART Delhi job work on a 450 t press Rs 750-917/h, 27 Jan 2026, 20 pieces/h of 1.1 kg (search-result text for https://dir.indiamart.com/delhi/injection-molding-job-works.html); rule of thumb Rs 10-15 x tonnage per 8-h shift (search summary of a Brainly/Quora answer, unverified)",
+   "confidence": "medium-low",
+   "note": "Base Rs 575/h for 250-350 t; 600-800 t presses about Rs 900-1,600/h (estimate)."
+  },
+  {
+   "name": "Conversion charge per ring shot (250-350 t)",
+   "unit": "INR per ring",
+   "low": 8,
+   "base": 12,
+   "high": 20,
+   "source": "estimate: Rs 450-700/h at 65-80 shots/h, plus setup and packing",
+   "confidence": "low-medium",
+   "note": "Equals about Rs 16-40 per kg of ring."
+  },
+  {
+   "name": "Conversion charge per basin (600-800 t)",
+   "unit": "INR per basin",
+   "low": 20,
+   "base": 35,
+   "high": 60,
+   "source": "estimate: Rs 900-1,600/h at 40-60 shots/h; Delhi 450 t listing implies Rs 34-42/kg for slow 1.1 kg parts",
+   "confidence": "low-medium",
+   "note": ""
+  },
+  {
+   "name": "Scrap and rejects",
+   "unit": "% of material",
+   "low": 2,
+   "base": 4,
+   "high": 8,
+   "source": "quoted 2-5%, measured total often 8-10% including start-up and purge (https://printform.com/why-your-injection-molding-scrap-rate-is-higher-than-quoted/)",
+   "confidence": "medium",
+   "note": "PP runners and rejects can be reground; count only the net loss."
+  },
+  {
+   "name": "Contract moulder MOQ per run",
+   "unit": "parts per setup",
+   "low": 500,
+   "base": 1500,
+   "high": 5000,
+   "source": "estimate: a moulder wants at least 1-2 shifts per mould change; China tower-pot tiers start at 500 pieces and one listing has a 5,000-piece MOQ (G&N Fortune, made-in-china)",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Energy use in moulding",
+   "unit": "kWh per kg",
+   "low": 0.4,
+   "base": 0.7,
+   "high": 0.94,
+   "source": "hydraulic presses: mean 3.39 MJ/kg = 0.94 kWh/kg (https://www.sciencedirect.com/science/article/pii/S092134492500607X); servo presses lower (estimate 0.4-0.7)",
+   "confidence": "medium",
+   "note": "At Rs 6-9/kWh (Bengaluru) this is Rs 3-8 per kg."
+  },
+  {
+   "name": "China stackable tower pot (34 x 15 cm, 0.35 kg, virgin PP, 3-4 pockets)",
+   "unit": "USD per piece FOB",
+   "low": 1.15,
+   "base": 1.58,
+   "high": 2.1,
+   "source": "G&N Fortune on Made-in-China: 10,000+ pcs USD 1.15; 1,000-9,999 USD 1.58; 500-999 USD 2.10 (https://kennedyguan.en.made-in-china.com/product/LdhJnVNOfukM/China-Commercial-Growing-Bucket-Stackable-Tower-Pot-Planter-for-Strawberry.html); another listing USD 1.75-1.85 at 5,000+ pcs",
+   "confidence": "medium",
+   "note": "USD 3.3-6.0 per kg. 38 pots per 0.12 m3 carton; lead time 20-25 days."
+  },
+  {
+   "name": "China complete hydroponic towers",
+   "unit": "USD per tower FOB",
+   "low": 42,
+   "base": 109,
+   "high": 230,
+   "source": "https://www.made-in-china.com/products-search/hot-china-products/Hydroponic_Tower.html (80-pot tower USD 109 at MOQ 75; others USD 42-230); AgriNovix 5-9 layers, 20-36 holes, USD 80-110 (https://agrinovix.en.made-in-china.com/product/nGzrumHUWRYM/China-Hydroponic-Vertical-Garden-Tower-for-Greenhouse-Food-Production.html)",
+   "confidence": "medium",
+   "note": "An 80-pot tower at USD 109 is Rs 10,464 FOB before freight, duty and GST."
+  },
+  {
+   "name": "China 2-inch net pot",
+   "unit": "USD per piece FOB",
+   "low": 0.049,
+   "base": 0.055,
+   "high": 0.06,
+   "source": "https://www.made-in-china.com/products-search/hot-china-products/Hydroponic_Net_Pot.html (G&N, MOQ 2,000)",
+   "confidence": "medium",
+   "note": "Rs 4.7-5.8 each: dearer than Indian cups at Rs 2-4.5."
+  },
+  {
+   "name": "Import duty on moulds, HS 8480.71",
+   "unit": "% of CIF",
+   "low": 8.25,
+   "base": 8.25,
+   "high": 27.7,
+   "source": "BCD 7.5% + SWS 10% of BCD + IGST 18% (https://www.eximguru.com/indian-customs-duty/84807100-moulds-for-rubber-or-plastics.aspx)",
+   "confidence": "medium-high",
+   "note": "Low/base exclude IGST (creditable only for a GST-registered buyer with taxable sales). High includes IGST, which is a real cost for a farm that sells exempt fresh produce."
+  },
+  {
+   "name": "Import duty on plastic parts, HS 3926.90.99",
+   "unit": "% of CIF (incl. IGST)",
+   "low": 38.4,
+   "base": 38.4,
+   "high": 40.4,
+   "source": "BCD 15%, SWS, IGST 18%: 40.39% incl. AIDC per EximPe, verified 13 May 2026 (https://eximpe.com/hsncode-finder/39269099); 38.4% without AIDC",
+   "confidence": "medium",
+   "note": "Check the AIDC line with a customs broker before import."
+  },
+  {
+   "name": "Sea freight China to Chennai, 20 ft",
+   "unit": "USD per container",
+   "low": 800,
+   "base": 1150,
+   "high": 1500,
+   "source": "https://www.seaaircargosystems.com/blog-china-india-freight-rates-2026.html (USD 800-1,500; Shekou-Chennai USD 1,150); USD 600 peak-season surcharge from 15 Aug 2026 on Far East-India routes (search summary)",
+   "confidence": "medium",
+   "note": "LCL USD 45-120 per m3 plus 30-50% local charges. Model uses Rs 150/300/600 per tower for parts freight to Bengaluru."
+  },
+  {
+   "name": "Exchange rate",
+   "unit": "INR per USD",
+   "low": 95.5,
+   "base": 96.0,
+   "high": 96.1,
+   "source": "https://www.exchangerates.org.uk/USD-INR-spot-exchange-rates-history-2026.html (15-28 Sep 2026: 95.5-96.1)",
+   "confidence": "high",
+   "note": "CNY about Rs 14.1-14.3."
+  },
+  {
+   "name": "Injection machine 80-160 t, India",
+   "unit": "INR lakh",
+   "low": 6,
+   "base": 12,
+   "high": 18.5,
+   "source": "IndiaMART: used 80-130 t Rs 6-14 lakh (https://dir.indiamart.com/delhi/used-injection-molding-machines.html); Haitian 120 t servo Rs 10.5-11.5 lakh (https://www.indiamart.com/proddetail/haitian-120-ton-servo-injection-molding-machine-2855498089812.html); new-listed 100-160 t Rs 7.9-18.5 lakh (https://dir.indiamart.com/impcat/plastic-injection-moulding-machine.html)",
+   "confidence": "medium",
+   "note": "China price list (Daoben 2026): 120 t USD 32-48k; 150 t USD 38-58k (https://www.daobenmachinery.com/injection-molding-machine-price-list/)."
+  },
+  {
+   "name": "Injection machine 200-350 t, India",
+   "unit": "INR lakh",
+   "low": 11,
+   "base": 25,
+   "high": 35,
+   "source": "IndiaMART: used 200-350 t Rs 11 lakh; Milacron FM250 Rs 19 lakh; Sigma 300 t Rs 27 lakh; new 300 t Rs 35 lakh (Milacron and moulding-machine directories)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Injection machine 400-550 t, India",
+   "unit": "INR lakh",
+   "low": 24,
+   "base": 42,
+   "high": 65,
+   "source": "IndiaMART: used JSW 450 t Rs 24 lakh; used Toyo 450 t servo Rs 34.2-41.8 lakh; new 450 t Rs 52 lakh (https://www.indiamart.com/proddetail/450-ton-injection-moulding-machine-19731668497.html); Ferromatik 550 t Rs 65 lakh",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Injection machine 650-800 t, India",
+   "unit": "INR lakh",
+   "low": 36,
+   "base": 60,
+   "high": 120,
+   "source": "IndiaMART: Haitian 650 t Rs 36 lakh (https://www.indiamart.com/proddetail/haitian-650-ton-injection-molding-machine-20595840130.html); TradeIndia 650 t Rs 55 lakh (https://www.tradeindia.com/products/injection-moulding-machine-650-ton-9081929.html); used Haitian 801-1,200 t servo Rs 74 lakh; high is an estimate for a new servo 800 t",
+   "confidence": "medium-low",
+   "note": ""
+  },
+  {
+   "name": "Auxiliaries: chiller",
+   "unit": "INR",
+   "low": 65000,
+   "base": 145000,
+   "high": 185000,
+   "source": "IndiaMART: 5 TR about Rs 65,000; 10 TR about Rs 1,45,000; injection-moulding chiller Rs 1,85,000 (https://www.indiamart.com/proddetail/injection-molding-chiller-21722601773.html)",
+   "confidence": "medium",
+   "note": "Also: MTC USD 2,500-6,000, dryer USD 3,000-12,000 (Daoben); PP needs no dryer. Grinder, mixer, loader about Rs 1.5-3 lakh (estimate). A 500-800 t press also needs a mould hoist/crane (estimate Rs 4-8 lakh)."
+  },
+  {
+   "name": "Machine operator wage, Bengaluru",
+   "unit": "INR per month",
+   "low": 16000,
+   "base": 23000,
+   "high": 30042,
+   "source": "https://in.indeed.com/career/injection-mold-operator/salaries/Bengaluru--Karnataka (average Rs 30,042); job listings Rs 16,000-25,000 (search summary)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Industrial shed rent, Bengaluru",
+   "unit": "INR per sq ft per month",
+   "low": 13,
+   "base": 25,
+   "high": 45,
+   "source": "https://www.enoshinfra.com/industrial-sheds-factory-for-rent-bangalore/ (Rs 13-45 plus Rs 8-12 maintenance and statutory costs, July 2026)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Break-even to own a 250 t press (vs contract at Rs 575/h)",
+   "unit": "towers per year",
+   "low": 19599,
+   "base": 32033,
+   "high": 36572,
+   "source": "calculation: annual fixed cost Rs 9.9-18.5 lakh (depreciation, interest, upkeep, rent, fixed power, setter) / (Rs 575 - Rs 290 variable per hour); 0.178 machine-h per tower",
+   "confidence": "medium",
+   "note": "Break-even is 3484-6502 machine-hours a year. 6,000 towers need only about 1,070 h. A basin press would run only about 125 h a year for 6,000 towers."
+  },
+  {
+   "name": "Net cups, bought (2-inch)",
+   "unit": "INR per cup",
+   "low": 2,
+   "base": 3,
+   "high": 4.5,
+   "source": "IndiaMART Rs 2-4.5; Rise Hydroponics Rs 3.5 (https://risehydroponics.in/product/net-pots-2-inch/); earlier Floruvi research",
+   "confidence": "medium",
+   "note": "88 cups = Rs 176/264/396 per tower before GST."
+  },
+  {
+   "name": "Central pipe, spray head, tubing and fittings",
+   "unit": "INR per tower (ex-GST)",
+   "low": 120,
+   "base": 200,
+   "high": 350,
+   "source": "estimate",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Pump, timer and control share (per-tower basin)",
+   "unit": "INR per tower (incl. GST)",
+   "low": 450,
+   "base": 1000,
+   "high": 2000,
+   "source": "Green Warrior 18 W pump Rs 240, 40 W Rs 465, mechanical timer Rs 500 (https://www.greenwarrior.in/shop); Kirloskar 0.5 HP openwell Rs 12,979 incl. GST (https://www.industrybuying.com/openwell-submersible-pump-kirloskar-PUM.OPE.623866011); estimate for manifold and standby pump",
+   "confidence": "medium-low",
+   "note": ""
+  },
+  {
+   "name": "Pump and reservoir share, cluster of 10-20 towers with a central tank",
+   "unit": "INR per tower (incl. GST)",
+   "low": 900,
+   "base": 1600,
+   "high": 2800,
+   "source": "adds Sintex 1,000 L Rs 8,500 + GST (https://essjayenterprises.com/sintex-water-tank-price-list-2026/) and a standby pump; estimate",
+   "confidence": "medium-low",
+   "note": "Used in route g2, where the per-tower basin is replaced by a tray."
+  },
+  {
+   "name": "Bought 40-70 L tub as basin (route g)",
+   "unit": "INR per tub (ex-GST)",
+   "low": 350,
+   "base": 600,
+   "high": 1000,
+   "source": "70 L tub Rs 355.68 + GST (https://www.tradeindia.com/products/70-ltr-plastic-tub-7400092.html); Nilkamal 50 L bin Rs 1,199 + GST (https://www.industrybuying.com/dustbins-and-waste-bins-nilkamal-CLE.WAS.54905763); base is an estimate for a virgin food-grade tub",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Assembly labour",
+   "unit": "INR per tower",
+   "low": 50,
+   "base": 100,
+   "high": 200,
+   "source": "estimate: 0.5-1 h at Rs 77-158/h loaded (earlier Floruvi labour research)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "name": "Packaging and local freight (moulder to farm)",
+   "unit": "INR per tower",
+   "low": 50,
+   "base": 100,
+   "high": 300,
+   "source": "estimate",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "GST on plastic parts and moulds",
+   "unit": "%",
+   "low": 18,
+   "base": 18,
+   "high": 18,
+   "source": "HSN 3926: most plastic articles 18% in 2026 (https://www.gimbooks.com/blog/hsn-code-3926-other-plastics-materials-gst-rate/); HSN 8480 moulds 18%",
+   "confidence": "high",
+   "note": "Fresh produce is GST-exempt, so the farm cannot claim this input credit unless it registers and makes taxable sales (for example, sells towers)."
+  },
+  {
+   "name": "Food-contact and UV tests (one time)",
+   "unit": "INR",
+   "low": 10000,
+   "base": 25000,
+   "high": 80000,
+   "source": "estimate: IndiaMART plastic-testing listings Rs 1,500-12,000 per sample (https://dir.indiamart.com/impcat/plastic-testing-services.html); IS 9845 overall migration in several simulants plus heavy metals per material; no published INR price found for IS 9845",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "CAD/product design rate",
+   "unit": "INR per hour",
+   "low": 500,
+   "base": 2500,
+   "high": 4500,
+   "source": "freelance CAD in India Rs 500-2,000+/h (search summary of https://www.truelancer.com/cad-freelancers); Bengaluru agency TEQZO Rs 3,500/h standard, Rs 4,500/h complex, typical projects 100-360 h (https://consulting.teqzo.com/top-product-design-companies-in-india/); Clutch Bengaluru agencies USD 25-99/h (https://clutch.co/in/agencies/product-design/bengaluru)",
+   "confidence": "medium",
+   "note": "The owner quote of Rs 2,000-3,000/h is mid-market."
+  },
+  {
+   "name": "Design hours for a 6-part tower (reverse engineering, DFM-ready CAD, drawings, 2 revisions)",
+   "unit": "hours",
+   "low": 60,
+   "base": 100,
+   "high": 160,
+   "source": "estimate",
+   "confidence": "low",
+   "note": "At Rs 2,000-3,000/h: Rs 1.2/2.5/4.8 lakh."
+  },
+  {
+   "name": "DFM and mould-flow review",
+   "unit": "INR",
+   "low": 0,
+   "base": 50000,
+   "high": 200000,
+   "source": "estimate: often included free by toolmakers; independent review priced per part",
+   "confidence": "low",
+   "note": ""
+  },
+  {
+   "name": "Novelty (prior-art) search by a patent agent",
+   "unit": "INR",
+   "low": 15000,
+   "base": 22500,
+   "high": 30000,
+   "source": "https://patentfilingcost.com/patent-registration-cost-in-india/ (Rs 15,000-30,000)",
+   "confidence": "medium",
+   "note": "A freedom-to-operate search takes 10-15 working days (https://unimarkslegal.com/prior-art-search-services/); its cost is an estimate of Rs 30,000-1,00,000."
+  },
+  {
+   "name": "Registered design term (Designs Act 2000)",
+   "unit": "years",
+   "low": 10,
+   "base": 15,
+   "high": 15,
+   "source": "term 10 years + 5-year extension (https://www.indiacode.nic.in/bitstream/123456789/1917/1/A2000-16.pdf)",
+   "confidence": "high",
+   "note": "Patents last 20 years."
+  },
+  {
+   "name": "Design piracy remedy, fixed-sum route (Designs Act s.22(2))",
+   "unit": "INR",
+   "low": 25000,
+   "base": 50000,
+   "high": 50000,
+   "source": "https://indiankanoon.org/doc/1643916/ (up to Rs 25,000 per contravention, max Rs 50,000 per design; or a suit for damages and an injunction)",
+   "confidence": "high",
+   "note": "The damages route has no fixed cap. Copyright in a registrable but unregistered design ends after more than 50 industrial copies (Copyright Act s.15(2), https://indiankanoon.org/doc/991805/)."
+  },
+  {
+   "name": "Development one-time total used in the model (design + DFM + prototypes + tests)",
+   "unit": "INR",
+   "low": 145000.0,
+   "base": 365000.0,
+   "high": 860000.0,
+   "source": "calculation from the lines above",
+   "confidence": "low-medium",
+   "note": ""
+  },
+  {
+   "name": "Ready kit, 80-96 sites, ex-GST",
+   "unit": "INR per tower",
+   "low": 9500,
+   "base": 10500,
+   "high": 13500,
+   "source": "earlier Floruvi research: IndiaMART Shivraj Agro Tech Rs 9,500-11,500, Aadya Rs 11,500, Dinesh Chandra Rs 13,500 (https://www.indiamart.com/proddetail/aeroponic-vertical-farming-with-tower-farm-2853449219612.html)",
+   "confidence": "medium",
+   "note": "Model adds 18% GST, freight Rs 150-700, assembly Rs 100-400 and assumed bulk discounts of 5/10/15% at 200/600/6,000 towers (estimate)."
+  },
+  {
+   "name": "DIY PVC tower, 90 sites, complete",
+   "unit": "INR per tower",
+   "low": 2990,
+   "base": 5545,
+   "high": 9005,
+   "source": "earlier Floruvi research (IS 4985 lead-free uPVC, 100-150 L tank, pump, 90 cups, frame, about 4 labour-hours)",
+   "confidence": "medium",
+   "note": "About Rs 6,900 installed with wiring and site preparation."
+  }
+ ],
+ "per_tower_cost_by_route_and_volume": {
+  "base_breakdown_at_6000_towers": {
+   "a": {
+    "rings_11_ex_gst": 1123,
+    "basin_ex_gst": 431,
+    "seed_holder_lid_spout_ex_gst": 73,
+    "net_cups_88_ex_gst": 264,
+    "pipe_fittings_ex_gst": 200.0,
+    "gst_18pct": 376,
+    "assembly_and_local_freight": 200.0,
+    "tooling_and_development_per_tower": 434,
+    "body_kit_total": 3101,
+    "pump_timer_reservoir_share": 1000.0,
+    "complete_total": 4101
+   },
+   "g2": {
+    "rings_11_ex_gst": 1123,
+    "tray_ex_gst": 200.0,
+    "cap_seed_holder_bought_ex_gst": 100.0,
+    "net_cups_88_ex_gst": 264,
+    "pipe_fittings_ex_gst": 200.0,
+    "gst_18pct": 340,
+    "assembly_and_local_freight": 200.0,
+    "tooling_and_development_per_tower": 207,
+    "body_kit_total": 2634,
+    "pump_timer_reservoir_share": 1600.0,
+    "complete_total": 4234
+   }
+  },
+  "definitions": {
+   "body_kit_inr": "Tower body the Rs 3,000 target refers to: moulded/formed parts (11 rings, basin or tray, seed holder, lid, spout) + 88 bought net cups + central pipe and fittings + 18% GST + rejects + assembly + local freight + tooling and development spread over the volume. Values are [low, base, high].",
+   "complete_inr": "Body kit + pump, timer and reservoir share, so it compares with ready kits and DIY PVC. Excludes site wiring, structure and site preparation. Values are [low, base, high].",
+   "design_basis": "88 sites (11 rings x 8 pockets), 30-50 L basin per tower except g2, bought net cups, Rs 96/USD, Sep 2026 resin prices in base.",
+   "scenario_logic": "Low uses every optimistic input together (early-2026 resin price, light parts, low quotes); high uses every pessimistic input. The real result will sit between them."
+  },
+  "table": [
+   {
+    "route": "a",
+    "route_name": "India contract injection moulding, P20 steel moulds (all parts)",
+    "50": {
+     "body_kit_inr": [
+      26624,
+      54808,
+      102118
+     ],
+     "complete_inr": [
+      27074,
+      55808,
+      104118
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      7634,
+      15703,
+      29038
+     ],
+     "complete_inr": [
+      8084,
+      16703,
+      31038
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      3414,
+      7013,
+      12798
+     ],
+     "complete_inr": [
+      3864,
+      8013,
+      14798
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      1515,
+      3102,
+      5490
+     ],
+     "complete_inr": [
+      1965,
+      4102,
+      7490
+     ]
+    }
+   },
+   {
+    "route": "a2",
+    "route_name": "India contract injection moulding, aluminium/soft moulds (all parts)",
+    "50": {
+     "body_kit_inr": [
+      13644,
+      30028,
+      59638
+     ],
+     "complete_inr": [
+      14094,
+      31028,
+      61638
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      4389,
+      9508,
+      18418
+     ],
+     "complete_inr": [
+      4839,
+      10508,
+      20418
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      2332,
+      4948,
+      10634
+     ],
+     "complete_inr": [
+      2782,
+      5948,
+      12634
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      1436,
+      3309,
+      7102
+     ],
+     "complete_inr": [
+      1886,
+      4309,
+      9102
+     ]
+    }
+   },
+   {
+    "route": "b",
+    "route_name": "China P20 moulds + contract moulding in India",
+    "50": {
+     "body_kit_inr": [
+      43987,
+      82614,
+      149493
+     ],
+     "complete_inr": [
+      44437,
+      83614,
+      151493
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      11975,
+      22654,
+      40882
+     ],
+     "complete_inr": [
+      12425,
+      23654,
+      42882
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      4861,
+      9330,
+      16746
+     ],
+     "complete_inr": [
+      5311,
+      10330,
+      18746
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      1659,
+      3334,
+      5885
+     ],
+     "complete_inr": [
+      2109,
+      4334,
+      7885
+     ]
+    }
+   },
+   {
+    "route": "c",
+    "route_name": "China-made parts imported (owner-paid China moulds)",
+    "50": {
+     "body_kit_inr": [
+      36537,
+      67916,
+      122496
+     ],
+     "complete_inr": [
+      36987,
+      68916,
+      124496
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      11527,
+      21177,
+      38200
+     ],
+     "complete_inr": [
+      11977,
+      22177,
+      40200
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      6177,
+      11153,
+      20114
+     ],
+     "complete_inr": [
+      6627,
+      12153,
+      22114
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      2995,
+      5292,
+      9572
+     ],
+     "complete_inr": [
+      3445,
+      6292,
+      11572
+     ]
+    }
+   },
+   {
+    "route": "d",
+    "route_name": "Rotomoulded basin + thermoformed rings (India)",
+    "50": {
+     "body_kit_inr": [
+      8770,
+      18773,
+      40700
+     ],
+     "complete_inr": [
+      9220,
+      19773,
+      42700
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      4383,
+      8519,
+      17534
+     ],
+     "complete_inr": [
+      4833,
+      9519,
+      19534
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      3408,
+      6240,
+      12386
+     ],
+     "complete_inr": [
+      3858,
+      7240,
+      14386
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      2969,
+      5215,
+      10069
+     ],
+     "complete_inr": [
+      3419,
+      6215,
+      12069
+     ]
+    }
+   },
+   {
+    "route": "e",
+    "route_name": "Ready kits bought (Rs 9,500-13,500 + 18% GST)",
+    "50": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      11460,
+      12940,
+      17030
+     ]
+    },
+    "200": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      10900,
+      12320,
+      16234
+     ]
+    },
+    "600": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      10339,
+      11701,
+      15437
+     ]
+    },
+    "6000": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      9778,
+      11082,
+      14640
+     ]
+    }
+   },
+   {
+    "route": "f",
+    "route_name": "DIY PVC tower (earlier research)",
+    "50": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      2990,
+      5545,
+      9005
+     ]
+    },
+    "200": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      2990,
+      5545,
+      9005
+     ]
+    },
+    "600": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      2990,
+      5545,
+      9005
+     ]
+    },
+    "6000": {
+     "body_kit_inr": null,
+     "complete_inr": [
+      2990,
+      5545,
+      9005
+     ]
+    }
+   },
+   {
+    "route": "g",
+    "route_name": "Hybrid: India P20 ring mould only; buy tub, cups, fittings",
+    "50": {
+     "body_kit_inr": [
+      13366,
+      27779,
+      54441
+     ],
+     "complete_inr": [
+      13816,
+      28779,
+      56441
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      4486,
+      9119,
+      17391
+     ],
+     "complete_inr": [
+      4936,
+      10119,
+      19391
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      2513,
+      4972,
+      9158
+     ],
+     "complete_inr": [
+      2963,
+      5972,
+      11158
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      1625,
+      3106,
+      5453
+     ],
+     "complete_inr": [
+      2075,
+      4106,
+      7453
+     ]
+    }
+   },
+   {
+    "route": "g2",
+    "route_name": "Hybrid-cluster: India P20 ring mould only; tray per tower + shared cluster tank",
+    "50": {
+     "body_kit_inr": [
+      13095,
+      27307,
+      53674
+     ],
+     "complete_inr": [
+      13995,
+      28907,
+      56474
+     ]
+    },
+    "200": {
+     "body_kit_inr": [
+      4215,
+      8647,
+      16624
+     ],
+     "complete_inr": [
+      5115,
+      10247,
+      19424
+     ]
+    },
+    "600": {
+     "body_kit_inr": [
+      2242,
+      4500,
+      8391
+     ],
+     "complete_inr": [
+      3142,
+      6100,
+      11191
+     ]
+    },
+    "6000": {
+     "body_kit_inr": [
+      1354,
+      2634,
+      4686
+     ],
+     "complete_inr": [
+      2254,
+      4234,
+      7486
+     ]
+    }
+   }
+  ],
+  "cheapest_by_volume": {
+   "50": {
+    "cheapest_complete_base": "f (Rs 5,545)",
+    "cheapest_own_design_complete_base": "d (Rs 19,773)",
+    "cheapest_own_design_body_kit_base": "d (Rs 18,773)"
+   },
+   "200": {
+    "cheapest_complete_base": "f (Rs 5,545)",
+    "cheapest_own_design_complete_base": "d (Rs 9,519)",
+    "cheapest_own_design_body_kit_base": "d (Rs 8,519)"
+   },
+   "600": {
+    "cheapest_complete_base": "f (Rs 5,545)",
+    "cheapest_own_design_complete_base": "a2 (Rs 5,948)",
+    "cheapest_own_design_body_kit_base": "g2 (Rs 4,500)"
+   },
+   "6000": {
+    "cheapest_complete_base": "a (Rs 4,102)",
+    "cheapest_own_design_complete_base": "a (Rs 4,102)",
+    "cheapest_own_design_body_kit_base": "g2 (Rs 2,634)"
+   }
+  },
+  "body_kit_le_rs3000_breakeven_towers": {
+   "base": {
+    "a": 7900,
+    "a2": null,
+    "b": 12050,
+    "c": null,
+    "d": null,
+    "e": null,
+    "f": null,
+    "g": 12300,
+    "g2": 2200
+   },
+   "low": {
+    "a": 750,
+    "a2": 400,
+    "b": 1300,
+    "c": null,
+    "d": 3700,
+    "e": null,
+    "f": null,
+    "g": 450,
+    "g2": 350
+   }
+  },
+  "body_variable_cost_600_towers_incl_gst_no_tooling": {
+   "a": [
+    1304,
+    2668,
+    4678
+   ],
+   "c": [
+    3502,
+    6142,
+    11070
+   ],
+   "d": [
+    2920,
+    5101,
+    9812
+   ],
+   "g": [
+    1526,
+    2899,
+    5041
+   ],
+   "g2": [
+    1255,
+    2427,
+    4274
+   ]
+  },
+  "own_machine_analysis": {
+   "250t_new_rented_shed": {
+    "annual_fixed_inr": 1853000,
+    "variable_inr_per_hour": 290.0,
+    "breakeven_machine_hours_per_year": 6502,
+    "towers_per_year_to_break_even": 36572,
+    "machine_hours_per_tower": 0.178
+   },
+   "250t_used_rented_shed": {
+    "annual_fixed_inr": 1623000,
+    "variable_inr_per_hour": 290.0,
+    "breakeven_machine_hours_per_year": 5695,
+    "towers_per_year_to_break_even": 32033,
+    "machine_hours_per_tower": 0.178
+   },
+   "250t_used_on_farm_no_rent": {
+    "annual_fixed_inr": 993000,
+    "variable_inr_per_hour": 290.0,
+    "breakeven_machine_hours_per_year": 3484,
+    "towers_per_year_to_break_even": 19599,
+    "machine_hours_per_tower": 0.178
+   },
+   "basin_press_hours_for_6000_towers": 125,
+   "700t_used_rented_shed": {
+    "annual_fixed_inr": 2940000,
+    "breakeven_machine_hours_per_year": 4027,
+    "basins_per_year_to_break_even": 193315
+   }
+  }
+ },
+ "tooling_budget": {
+  "hybrid_ring_mould_only_india_p20_incl_gst_plus_development_inr": [
+   592000,
+   1244000,
+   2470000
+  ],
+  "full_set_india_p20_incl_gst_plus_development_inr": [
+   1266000,
+   2607000,
+   4872000
+  ],
+  "full_set_india_aluminium_incl_gst_plus_development_inr": [
+   617000,
+   1368000,
+   2748000
+  ],
+  "full_set_china_p20_landed_incl_gst_plus_development_inr": [
+   2134184,
+   3997291,
+   7240778
+  ],
+  "thermoform_plus_rotomould_incl_gst_plus_development_inr": [
+   292500,
+   683600,
+   1544400
+  ]
+ },
+ "ip_notes": {
+  "how_to_check": [
+   "Designs: https://search.ipindia.gov.in/designsearch (fields: article name, IDC/Locarno class, applicant; data from April 1997, except 2005, 2006 and 2008; not valid for legal proceedings). Search article names such as hydroponic, planter, grow tower, aeroponic, vertical garden, and class 11-02 (flower pots).",
+   "Patents: https://iprsearch.ipindia.gov.in/PublicSearch (title, abstract, complete specification, IPC; has a CAPTCHA, so search it yourself). Also check Google Patents with country IN.",
+   "Examples found: US10136594B2 (Tower Garden LLC, aeroponic tower, expires 3 May 2036; Google Patents lists no India family member) and US10729080B2 (expires 2038; US only). Foreign patents do not bind in India but matter if towers are exported."
+  ],
+  "design_around": "Registered designs protect appearance only. Change the pocket shape, ring profile, rib pattern and surface features so the ring does not look like any registered design; keep only functional features that are not patented in India. Do not copy the purchased tower CAD one-to-one; measure it for fit and function only."
+ },
+ "risks": [
+  "Resin price: IOCL PP injection grade rose about 70% in 2026 (Rs 90.7 to Rs 154.7/kg, Jan-Sep) after the West Asia conflict; material is about 85-90% of moulded-part cost. A Rs 30/kg move changes the body cost by about Rs 300 per tower incl. GST.",
+  "Volume risk: tooling only pays at thousands of towers. Earlier Floruvi demand research advised starting with 60-150 towers; 6,000 towers is not yet supported by demand.",
+  "Design risk: 8 angled pockets per ring are undercuts that need side actions; thin rings warp; an 11-ring stack must carry wet plants and wind load; UV life depends on HALS dose and wall thickness. Budget 2-3 mould trials (T1-T3).",
+  "Basin needs a 600-800 t press; few moulders have one free and the mould is costly. Avoid by buying a tub or using a shared cluster tank.",
+  "Toolmaker quality: very low Indian quotes may use unhardened or non-certified steel and poor cooling (long cycles, warpage). China moulds may not fit Indian presses (tie-bar spacing, locating ring, ejector layout, 415 V hot-runner controllers) and design files can leak.",
+  "China parts: at Rs 96/USD, BCD 15% + SWS (+AIDC) + 18% IGST (about 38-40%) and freight make parts dearer than Indian moulding; MOQs of 500-5,000 pieces; customs classification disputes; slow replacement of broken parts.",
+  "GST: 18% on parts and moulds is not recoverable for a farm that sells exempt fresh produce.",
+  "Food safety and claims: food-contact PP/HDPE and masterbatches need declarations; IS 9845 migration testing per material/colour; no published INR price found.",
+  "IP: copying the exact look of a registered Indian design is piracy under Designs Act s.22 (up to Rs 50,000 per design, or damages and injunction); functional features may be patented. The IP India design and patent search pages need a manual (CAPTCHA) search that was not done here.",
+  "Owning machines: a 250 t press breaks even only at about 3,500-6,500 machine-hours a year (about 20,000-37,000 towers); a basin press would idle most of the year. Big presses also need HT power, a hoist and skilled setters.",
+  "Cluster pumping: one pump failure or root disease can affect 10-20 towers; keep a standby pump and alarms (earlier Floruvi research).",
+  "Estimate uncertainty: many tooling and conversion numbers are estimates from listing prices; get at least 3 written quotes before committing."
+ ],
+ "recommendations": [
+  "For the first 200 towers, do not buy moulds. Build DIY PVC towers (IS 4985 lead-free) or negotiate bulk kit prices, and use this phase to prove demand and the tower design.",
+  "If you make your own design, mould only the part that defines the tower: the ring panel (route g/g2). Buy net cups (Rs 2-4.5), use a bought tub or a shared cluster tank, and use standard pipe, spray heads and fittings.",
+  "Design the ring for a 250-350 t press: 2.0-2.5 mm walls with ribs, target 0.35-0.40 kg per ring, and a panel layout that needs few or no side actions. Ask the toolmaker for a free DFM and mould-flow report before cutting steel.",
+  "Use P20 steel (not H13) for 1,000+ towers; use an aluminium ring mould (about Rs 1.5-7 lakh) if you want 200-600 towers of your own design with low risk.",
+  "Get written quotes from 3 Indian toolrooms (Peenya/Bommasandra, Pune, Rajkot/Ahmedabad) and 2 China toolmakers. Require the steel certificate, cooling layout, shot-life guarantee, T1 samples, mould ownership, spare inserts, and staged payment (for example 40/40/20).",
+  "Choose PP impact copolymer or HDPE injection grade with 1-2% HALS UV masterbatch and white masterbatch; get food-contact declarations and one IS 9845 migration test per material and colour.",
+  "Put a resin price-variation clause (linked to IOCL/RIL lists) in the moulding contract; buy resin forward only if prices fall back towards early-2026 levels.",
+  "Contract-mould; do not buy presses below about 20,000 towers a year or without other products to fill the machine.",
+  "Before tooling, pay a patent agent for a novelty search (Rs 15,000-30,000) and an FTO opinion; search IP India designs by article name (hydroponic, planter, grow tower, aeroponic) and class 11-02 (flower pots). Change the appearance of any registered design you find; consider registering your own ring design.",
+  "Treat 18% GST as a cost in every budget unless Floruvi registers and sells towers."
+ ],
+ "sources": [
+  "Earlier Floruvi research in this session (scratchpad research.json: kit prices, DIY PVC tower, labour rates)",
+  "http://antienindustries.com/en/product/additive-masterbatch/uv-masterbatch",
+  "https://agrinovix.en.made-in-china.com/product/nGzrumHUWRYM/China-Hydroponic-Vertical-Garden-Tower-for-Greenhouse-Food-Production.html",
+  "https://brainly.in/question/4224255 (rule of thumb, search summary only; page blocked)",
+  "https://clutch.co/in/agencies/product-design/bengaluru",
+  "https://consulting.teqzo.com/top-product-design-companies-in-india/",
+  "https://dir.indiamart.com/delhi/injection-molding-job-works.html (450 t job-work rate from search-result text)",
+  "https://dir.indiamart.com/delhi/used-injection-molding-machines.html",
+  "https://dir.indiamart.com/impcat/crate-mould.html",
+  "https://dir.indiamart.com/impcat/milacron-injection-molding-machines.html",
+  "https://dir.indiamart.com/impcat/plastic-bucket-mould.html",
+  "https://dir.indiamart.com/impcat/plastic-injection-moulding-machine.html",
+  "https://dir.indiamart.com/impcat/plastic-testing-services.html",
+  "https://dir.indiamart.com/impcat/plastic-tub-mould.html",
+  "https://dir.indiamart.com/impcat/uv-stabilizer-masterbatch.html",
+  "https://dir.indiamart.com/impcat/vacuum-forming-moulds.html",
+  "https://dir.indiamart.com/rajkot/plastic-injection-mold.html",
+  "https://essjayenterprises.com/sintex-water-tank-price-list-2026/",
+  "https://eximpe.com/hsncode-finder/39269099",
+  "https://gnhydroponic.en.made-in-china.com/product/UFJGqzPTqlAo/China-Commercial-Hydroponic-Vertical-Tower-Planter-Farming-Grow-System.html",
+  "https://iamrapid.com/pricing/",
+  "https://in.indeed.com/career/injection-mold-operator/salaries/Bengaluru--Karnataka",
+  "https://indiankanoon.org/doc/1643916/",
+  "https://indiankanoon.org/doc/991805/",
+  "https://iprsearch.ipindia.gov.in/PublicSearch",
+  "https://jcadusa.com/vacuum-casting-cost-2025/ (search summary only)",
+  "https://jchtrade.com/notes/what-an-injection-mold-really-costs/",
+  "https://kennedyguan.en.made-in-china.com/product/GFnJDBlKaukt/China-Stackable-Vertical-Planter-Pot-Garden-Tower-Ideal-for-Growing-Strawberries-Herbs-Vegetables-Flowers.html",
+  "https://kennedyguan.en.made-in-china.com/product/LdhJnVNOfukM/China-Commercial-Growing-Bucket-Stackable-Tower-Pot-Planter-for-Strawberry.html",
+  "https://patentfilingcost.com/patent-registration-cost-in-india/",
+  "https://patents.google.com/patent/US10136594",
+  "https://patents.google.com/patent/US10729080",
+  "https://precious3d.com/injection-molding-cost-in-india-2026-tooling-per-unit-hidden-costs/",
+  "https://printform.com/why-your-injection-molding-scrap-rate-is-higher-than-quoted/",
+  "https://risehydroponics.in/product/net-pots-2-inch/",
+  "https://search.ipindia.gov.in/designsearch",
+  "https://unimarkslegal.com/prior-art-search-services/",
+  "https://www.aadyahydro.in/hydroponic-system.html",
+  "https://www.ctrludhiana.org/wp-content/uploads/2021/07/Machine-Hour-Rates.pdf",
+  "https://www.daobenmachinery.com/injection-molding-machine-price-list/",
+  "https://www.enoshinfra.com/industrial-sheds-factory-for-rent-bangalore/",
+  "https://www.exchangerates.org.uk/USD-INR-spot-exchange-rates-history-2026.html",
+  "https://www.eximguru.com/indian-customs-duty/84807100-moulds-for-rubber-or-plastics.aspx",
+  "https://www.gimbooks.com/blog/hsn-code-3926-other-plastics-materials-gst-rate/",
+  "https://www.greenwarrior.in/shop",
+  "https://www.indiacode.nic.in/bitstream/123456789/1917/1/A2000-16.pdf",
+  "https://www.indiamart.com/proddetail/20-litre-plastic-bucket-mould-hot-runner-24621075688.html",
+  "https://www.indiamart.com/proddetail/40-tio2-white-masterbatch-15111498448.html",
+  "https://www.indiamart.com/proddetail/450-ton-injection-moulding-machine-19731668497.html",
+  "https://www.indiamart.com/proddetail/aeroponic-vertical-farming-with-tower-farm-2853449219612.html",
+  "https://www.indiamart.com/proddetail/haitian-120-ton-servo-injection-molding-machine-2855498089812.html",
+  "https://www.indiamart.com/proddetail/haitian-650-ton-injection-molding-machine-20595840130.html",
+  "https://www.indiamart.com/proddetail/hp-mjf-3d-printing-services-27218333855.html",
+  "https://www.indiamart.com/proddetail/hydroponic-net-pots-plastic-injection-mould-26463224430.html",
+  "https://www.indiamart.com/proddetail/injection-molding-chiller-21722601773.html",
+  "https://www.indiamart.com/proddetail/plastic-ghamela-mould-25490467933.html",
+  "https://www.indiamart.com/proddetail/plastic-injection-mould-p-20-matrial-20195409855.html",
+  "https://www.indiamart.com/proddetail/pp-sheet-13627388197.html",
+  "https://www.indiamart.com/proddetail/rotomoulding-mould-for-underground-vertical-and-septic-water-tank-rotational-mould-20705392788.html",
+  "https://www.industrybuying.com/dustbins-and-waste-bins-nilkamal-CLE.WAS.54905763",
+  "https://www.industrybuying.com/openwell-submersible-pump-kirloskar-PUM.OPE.623866011",
+  "https://www.induthermoformers.com/post/how-much-does-a-thermoforming-tool-cost-in-india",
+  "https://www.kerkeextruder.com/news/industry-news/comprehensive-guide-to-anti-uv-masterbatch-and-weather-resistance-masterbatch-outdoor-durability-and-testing-standards/",
+  "https://www.made-in-china.com/products-search/hot-china-products/Bucket_Mould.html",
+  "https://www.made-in-china.com/products-search/hot-china-products/Hydroponic_Net_Pot.html",
+  "https://www.made-in-china.com/products-search/hot-china-products/Hydroponic_Tower.html",
+  "https://www.made-in-china.com/products-search/hot-china-products/Net_Pot_Mould.html",
+  "https://www.made-in-china.com/products-search/hot-china-products/Plant_Pot_Mould.html",
+  "https://www.made-in-china.com/products-search/hot-china-products/Planter_Mould.html",
+  "https://www.moldrite.in/blog/injection-molding-cost-india",
+  "https://www.ofbusiness.com/prices/polymers-packaging",
+  "https://www.plastemart.com/Upload/pricelist/01-01-2026-IOCL-Price-List.pdf",
+  "https://www.plastemart.com/Upload/pricelist/01-06-2026-IOCL-Price-List.pdf",
+  "https://www.plastemart.com/Upload/pricelist/16-09-2026-IOCL-Price-List.pdf",
+  "https://www.plastemart.com/polymer-price-movement",
+  "https://www.procurementresource.com/news-and-articles/india-plastic-manufacturing-margin-pressure-pvc-pp-pe-prices",
+  "https://www.protolabs.com/resources/blog/aluminum-mold-tooling-for-injection-molding/",
+  "https://www.sciencedirect.com/science/article/pii/S092134492500607X",
+  "https://www.seaaircargosystems.com/blog-china-india-freight-rates-2026.html",
+  "https://www.tradeindia.com/products/70-ltr-plastic-tub-7400092.html",
+  "https://www.tradeindia.com/products/injection-moulding-machine-650-ton-9081929.html",
+  "https://www.truelancer.com/cad-freelancers (search summary only)",
+  "https://www.zy-mold.com/flower-pot-mould",
+  "https://zetarmold.com/injection-mold-price-list-2026/"
+ ],
+ "method_notes": [
+  "Model script: scratchpad/manufacturing/tower_cost_model.py; raw output model_output.json.",
+  "Alibaba product pages returned a CAPTCHA and were not used; Made-in-China listings were used instead.",
+  "IndiaMART list prices are indicative asking prices; outliers (for example a Rs 30,000 20 L bucket mould) were ignored.",
+  "All costs exclude site wiring, structure and land. Complete-tower figures include a pump/timer/reservoir share."
+ ]
+}
