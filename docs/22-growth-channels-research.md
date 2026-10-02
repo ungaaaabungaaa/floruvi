@@ -4,6 +4,8 @@ Status: research for outreach planning. Nothing was built. No account was create
 
 Research dates: 27–28 September 2026. Each section says “Checked 27 September 2026” as requested. Some pages were read after midnight, on 28 September.
 
+Update, 2 October 2026: the [current growth system plan](31-growth-tools-plan.md) now includes all buyer groups, institutional and defence procurement, OpenAI/Apollo research in admin, GA4/PostHog and later approved sales tools. It replaces the earlier laptop-only proposal. The dated research below is background; recheck fees, eligibility and live account access before use.
+
 How to read this document:
 
 - `[S12]` links to the source list at the end.
@@ -19,7 +21,7 @@ _Checked 27 September 2026._
 
 1. **Social media:** connect Instagram, Facebook and LinkedIn to Buffer Free (3 channels) [S2]. Answer messages and comments in Meta Business Suite, which is free [S1].
 2. **Skip Facebook Marketplace.** Meta can restrict business sellers in India [S25].
-3. **One product feed from Convex** for a Meta catalogue and Google Merchant Center [S27], [S63]. First choose a working checkout path and replace generated images [S54], [S57].
+3. **One product feed from Convex** for a Meta catalogue and Google Merchant Center [S27], [S63]. First verify a working purchase flow and compliant product images. Real photos are preferred; generated images must meet Google's image and AI-metadata requirements [S54], [S57].
 4. **B2B first:** apply to Hyperpure (restaurant supply) [S51] and list free on IndiaMART, TradeIndia and ExportersIndia [S71], [S74], [S76].
 5. **Quick commerce in month 2–3,** after GSTIN, trademark and FSSAI are ready [S33], [S35], [S48].
 6. **Export:** get an IEC, an APEDA RCMC, an FSSAI Central licence and a phytosanitary certificate per shipment [S86], [S92], [S93], [S94]. Pilot the UAE with cut herbs. Keep live trays in India [S97], [S100].
@@ -169,7 +171,7 @@ _Checked 27 September 2026._
 - In September 2026, Google merges the Shopping ads and free listings policies into one “Shopping policies” set [S58].
 - Ads with some AI-generated assets need labels in India. Google added label settings in July 2026 [S68]. India's rules on synthetically generated information apply from 20 February 2026 [S69].
 
-**Assessment.** Today the checkout sends an enquiry and the images are generated. Google will probably reject the products. Fix both first.
+**Updated assessment, 2 October 2026.** Enquiry-only offers do not meet the purchase requirement. Razorpay code now exists, but this research does not verify live payment readiness. Generated images are not prohibited as a class; they must accurately show the product and retain required AI metadata. Check purchase, image, price, shipping and return requirements before feed activation.
 
 ### How a product feed from the website works
 

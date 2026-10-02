@@ -1,4 +1,213 @@
-# 31. Growth tools plan: admin panel or business laptop
+# 31. Floruvi growth system
+
+Status: **design proposal updated 2 October 2026; growth features are not built**. The separate favicon update uses the existing carrot mark. No provider account, API entitlement, partnership, campaign or live connection was established by this work.
+
+## Current direction
+
+**Owner decisions, 2 October 2026:** plan a growth and research system inside Floruvi admin. Include Google Merchant Center, Google Analytics, PostHog, OpenAI/ChatGPT/Codex access, Apollo, social channels and future sales support. Cover **all buyer groups**, including military contracts and large institutions. Group the options so the owner can compare them.
+
+This replaces the 29 September proposal to keep all research on a separate laptop. The older research remains in the archive below. Its prices, legal summaries and dates need a fresh check before use. This document owns the new design; it does not approve implementation, paid usage, outreach or bids.
+
+**Recommendation:** add one **Growth** entry in `/admin`. Start with cited research, a grouped opportunity list, channel setup and a draft queue. Keep business rules and records in Convex. Add sales delivery only after the owner approves exact actions and the providers work.
+
+| Approach | Benefit | Cost or limit |
+| --- | --- | --- |
+| Vendor tools and a spreadsheet | Fastest start; little code | Evidence, prospects and website results stay separate |
+| **Small Growth workspace in Floruvi — recommended** | One buyer map, research history, evidence and next step | Needs protected data, spend limits and a few provider links |
+| Full CRM and autonomous sales agent | More automation | Too much scope before supply, demand and provider access are proved |
+
+## 1. Buyer map: keep every route visible
+
+These are **sales routes to research**, not confirmed buyers or purchase demand. Show all groups from the start. Let the owner filter by product, city, country, volume, buying route and readiness. “Research now” does not mean “ready to supply”.
+
+| Group | Buyer types | Person or route to find | Main qualification check |
+| --- | --- | --- | --- |
+| Homes and communities | Households, apartment groups, employee produce clubs, weekly-box buyers, farmers' markets | Resident association, community organiser, direct enquiry | Basket margin, repeat demand and delivery cost; boxes remain enquiries |
+| Restaurants and hospitality | Restaurants, cafés, cloud kitchens, QSR chains, hotels, resorts, wedding and event caterers | Chef, purchasing manager, central kitchen or approved distributor | Crop specification, sample approval, frequency and delivery window |
+| Corporate and industrial kitchens | Office campuses, IT parks, factories, business parks, worker canteens | Catering contractor first; procurement team if it buys produce directly | Who pays, site volumes, supplier approval and credit period |
+| Health, education and care | Hospitals, medical colleges, schools, colleges, hostels, elder-care homes, sports academies, wellness resorts | Kitchen operator, purchasing team or food-service contractor | Hygiene, traceability, approved specifications and reliable supply; no health claims |
+| Defence and public institutions | Army supply depots and messes, other defence establishments, CAPF/police kitchens, public hospitals, universities, welfare hostels, prisons, municipal kitchens | Official tender, registered supplier route or an existing catering/supply contractor | Exact tender eligibility, deposits, inspection, delivery duties and payment terms |
+| Transport catering | Railway base kitchens, railway caterers, airport/airline kitchens, other contracted passenger catering | Actual catering operator or tender issuer | Vendor approval, cold chain, site access and strict delivery slots |
+| Retail and commerce | Organic/gourmet stores, supermarkets, neighbourhood grocers, online grocers, quick-commerce chains, produce subscription brands | Category buyer, regional sourcing team or seller onboarding | Margin, rejection/return terms, packing, shelf life and channel admission |
+| Wholesale and aggregation | Mandis, produce wholesalers, HoReCa distributors, food-service aggregators, farmer-producer organisations | Produce buyer or sourcing manager | Price, grading, minimum lot, payment security and aggregation terms |
+| Processing and private label | Salad and meal brands, juice makers, pickle/sauce makers, frozen-food firms, dehydrators, powder makers, private-label packers | Procurement, quality or contract-manufacturing team | Usable grade, food safety, specification, measured yield and processing cost |
+| Export | Importers, overseas wholesalers, retail buyers, hospitality distributors, Indian merchant exporters and commission agents | Verified importer/buyer, exporter or sales agent | Product-country rules, actual buying role, trial size, logistics, payment and commission terms |
+| Social and community kitchens | School-meal operators, charitable kitchens, community meal programmes | Central procurement or approved contractor | Whether this is a paid procurement route, quality rules and price fit |
+
+**Look for the buyer behind the institution.** A hospital or campus may buy a catering service while its contractor buys the vegetables. Research both entities and record the relationship. Compass India describes supplier approval and sourcing of vegetables and microgreens. Sodexo describes local farm sourcing. Akshaya Patra describes supplier checks and daily fresh-vegetable procurement. These prove that the route exists; they do not prove that Floruvi is accepted or that an open requirement exists. [Compass sourcing](https://compass-group.co.in/sourcing/), [Sodexo local sourcing](https://www.sodexo.in/blog/local-food-sourcing), [Akshaya Patra kitchens](https://odisha.akshayapatra.org/our-kitchens).
+
+**Product fit matters.** Research premium herbs, microgreens and edible flowers for buyers that use them. Research staple vegetables for bulk kitchens. Do not assume a large tender pays an organic premium. Match every opportunity to weekly available kilograms and delivery capacity before ranking it as ready.
+
+## 2. Channels and platforms
+
+“Link/manual” means the admin holds a source link, checklist and status. It does not mean the platform has an available API or that Floruvi has a partnership. Provider admission, payment and local service coverage remain separate checks.
+
+| Channel | First use | Connection plan and gate |
+| --- | --- | --- |
+| Google Search Console and Bing Webmaster Tools | Search visibility, sitemap and indexing | Link/manual verification first; add read-only reporting only if it helps a decision |
+| Google Business Profile | Local discovery where Floruvi is eligible | Owner verifies the real business and in-person service model; online-only status is not enough. [Eligibility](https://support.google.com/business/answer/13763036) |
+| Google Merchant Center | Eligible product listings and later Shopping ads | Build a validated catalogue feed. Activate only after real purchase, price, shipping and return details work. Use Merchant API if API management is later needed. [Free listings](https://support.google.com/merchants/answer/9199328), [Merchant API](https://developers.google.com/merchant/api/overview) |
+| Google Analytics 4 and PostHog | Acquisition and website conversion | One event contract, two defined reporting roles; see section 6. Setup is requested, connection is unverified |
+| Instagram, Facebook, Meta catalogue and WhatsApp Business | Product discovery, catalogues and inbound enquiries | Link/manual setup first. Use official account and catalogue routes. Do not assume that Shops or checkout are available for this account and market |
+| Buffer or Meta Business Suite | Draft and schedule social posts | Use existing vendor tools first. Add a publish connector only after social accounts, permissions and exact-content approval work |
+| Hyperpure and Udaan | Food-service or trade distribution | Research supplier admission, supported categories and service cities. Hyperpure has a [seller portal](https://seller.hyperpure.com/); acceptance and terms need direct confirmation |
+| IndiaMART, TradeIndia and ExportersIndia | Business enquiries and supplier visibility | Owner-managed profile and reply process. Check lead quality before buying plans; no scraping or assumed lead API |
+| ONDC | Reach buyers through the network | Join through a suitable seller network participant; compare produce support, settlement, fees and logistics. Do not build a full network participant. [Seller route](https://www.ondc.org/pages/seller-network-participants.html) |
+| BigBasket, Blinkit, Zepto, Instamart, JioMart and retail chains | Larger retail distribution | Supplier onboarding research. Confirm each category, local intake, packing, margins, returns and payment terms before a pilot |
+| GeM, CPPP, Defence eProcurement and Karnataka KPPP | Government and institutional opportunities | Official notice research and bid-readiness checklist first. Owner completes registration, DSC, deposits and bid submission through the relevant portal |
+| APEDA AgriExchange, DGFT Trade Connect and FIEO | Export markets, trade leads and buyer events | Source links and research. Confirm current access, product-country requirements and actual buyer identity |
+| Alibaba.com and trade fairs such as Gulfood | International buyer and distributor discovery | Research and compare costs first. No paid membership or event booking until export supply and buyer fit are proved |
+| Apollo | Organisations and purchasing contacts | Optional API behind server checks. Search first; owner selects records for credit-consuming enrichment. See section 5 |
+
+**Merchant readiness:** an enquiry path is not a completed purchase flow. The code includes Razorpay, but live payment readiness was not checked in this task. Do not submit enquiry-only boxes or quote-only international offers as immediately purchasable items. Keep stable product IDs, canonical country/language URLs, actual price and currency, pack size, stock, image, shipping and return data aligned with the page. Convex owns these facts. Never invent GTINs. The initial feed should include only offers that meet Google's purchase and product requirements. [Checkout requirements](https://support.google.com/merchants/answer/9158778).
+
+New API work must use Merchant API. The legacy Content API sunset date was 18 August 2026. A scheduled feed is a smaller first step than an API sync. [Merchant API updates](https://developers.google.com/merchant/api/latest-updates).
+
+Correction to the older research: Google does not ban all generated product images. Its image specification requires accurate images and the required generative-AI metadata where applicable. Real product photos remain the preferred Floruvi sales evidence. [Image requirements](https://support.google.com/merchants/answer/6324350).
+
+## 3. Defence, government and large contracts
+
+Keep two routes visible: **bid directly** and **supply an approved contractor**. The second can be a practical entry point if a direct contract needs capacity, experience or working capital that Floruvi cannot yet prove. Subcontracting or resale must be permitted by the actual agreement.
+
+Army fresh-food supply and CSD retail product introduction are different routes. Research ASC/supply-depot requirements through official procurement notices. CSD has its own product-introduction process and must not be shown as the default route for supplying fresh vegetables to the Army. [Defence portal](https://defproc.gov.in/nicgep/app), [CSD process](https://www.csdindia.gov.in/faq.html).
+
+Source register: [GeM seller guide](https://assets-bg.gem.gov.in/resources/pdf/seller-user-manual.pdf), [CPPP](https://eprocure.gov.in/epublish/app), [Karnataka KPPP](https://kppp.karnataka.gov.in/). An official [Mangalore University archive](https://www.mangaloreuniversity.ac.in/tender-notifications-2022-23) includes hostel vegetable procurement; it is historical evidence of the route, not a current open bid.
+
+The research job should search crop names and terms such as fresh vegetables, leafy vegetables, fresh fruits, ration supply, hostel provisions and kitchen supplies. It should separate produce supply from catering contracts, equipment tenders and expired notices.
+
+Each tender record must show:
+
+- Issuer, official notice URL, tender reference, document version, checked date and amendments.
+- Product/grade, quantity and period, delivery sites and frequency. Missing values stay unknown.
+- Closing date, timezone and any pre-bid date; recheck the portal before taking action.
+- Registration, tax, food-safety, turnover, past-supply and certification requirements as written in that tender.
+- Bid fee, earnest-money deposit, performance security, payment cycle, rejection rules and penalties where stated.
+- Floruvi's evidence for each requirement: met, missing evidence, not met, or not applicable.
+- Route: direct bid, contractor-supply lead, research only, expired, or rejected with reason.
+
+Do not infer a blanket startup/MSME exemption. Check the tender. Do not rank a large contract as attractive without delivery costs, rejection exposure, credit period and required working capital. The assistant prepares a bid checklist and questions; it does not sign, pay deposits or submit bids.
+
+## 4. What the admin should do
+
+Keep the existing order overview. Add one **Growth** entry with four views:
+
+1. **Opportunities:** grouped buyers and separate tender records. Filters: group, product, location, buying route, readiness and last checked. Each row shows business, role, contact status, source, reason to approach and next step.
+2. **Research:** start a bounded job; view progress, sources, spend and errors. Job types: buyers, tenders, export brief and later channel review. Select all groups or a subset. A group with no verified results must stay visible.
+3. **Channels:** setup checklist, official portal, connected account, permission state, last provider test, last successful sync and errors. Use “not configured”, “configured”, “access tested”, “working” and “error” truthfully. A saved key is not proof of access.
+4. **Drafts and results:** sample offers, supplier introductions, product sheets and questions for the buyer. Later show approved outreach, replies, qualified enquiries and confirmed sales. A draft is not a sent message.
+
+Example requests:
+
+- “Find buyers for basil and leafy vegetables across all buyer groups in Karnataka. Group the results and show how to approach each.”
+- “Find official fresh-vegetable tenders for defence, hospitals and hostels. Show deadlines, deposits and missing eligibility evidence.”
+- “Find the catering firms serving these campuses and the produce purchasing role.”
+- “Compare UAE and UK buyer routes for this product. Cite current official export/import requirements and list what still needs confirmation.”
+- “Which channels brought qualified enquiries and paid orders this month? Suggest one test within my stated budget.”
+
+Use a short supply profile: origin/dispatch location; available crops and weekly kilograms; seasonal limits; grades and packs; delivery capability; minimum order; approved prices; certificates and expiry dates; buyer credit limit; export readiness. Unknowns stay visible. Research can cover all India and the supported export countries; this must not introduce a storefront PIN-code restriction.
+
+Rank with visible reasons: product fit, repeat demand evidence, delivery fit, reachable buying role, margin after costs, payment risk and eligibility. Keep **commercial fit** separate from **evidence confidence**. A model score is not proof that a buyer will purchase. Keep strategic larger accounts alongside near-term prospects.
+
+For organic claims, store the certificate issuer, scope, product, operator, dates and evidence. Do not assume that hydroponic production, a lab test or “chemical-free” proves organic certification. Check the applicable certification and labelling route; the FSSAI portal explains NPOP and PGS. Export acceptance needs a separate destination check. [Jaivik Bharat](https://jaivikbharat.fssai.gov.in/index.php).
+
+## 5. OpenAI, Codex and Apollo design
+
+**Proposed default:** one OpenAI Responses API integration for admin research. Keep the existing Vercel AI SDK + OpenRouter customer chat unchanged and hidden until the owner enables it. The research assistant has a different purpose, permissions and budget; it does not reuse customer chats.
+
+The owner reports existing ChatGPT/Codex access. That does not verify Floruvi's server API entitlement or funded balance. Standard API-key use follows API pricing. The current ChatGPT-plan-use preview documents an open-source/local-app route and directs hosted apps to a separate interest process. Do not promise subscription-funded research in the hosted Floruvi admin. [OpenAI pricing](https://learn.chatgpt.com/docs/pricing), [ChatGPT plan access](https://developers.openai.com/siwc/token-sharing-open-source).
+
+Use a dedicated project key in Convex server variables and a model selected from the account's tested access. Use built-in web search for cited research. Use strict function schemas and application checks for Apollo and catalogue tools. Long jobs can use supported background responses and bounded polling after checking the model's support and data-retention settings. [Web search](https://developers.openai.com/api/docs/guides/tools-web-search), [Function calling](https://developers.openai.com/api/docs/guides/function-calling), [Background mode](https://developers.openai.com/api/docs/guides/background).
+
+**Apollo is one source, not the whole research system.** It can help with hotel groups, caterers, distributors and importers. Verify the branch or delivery location because company-headquarters location can differ. People Search does not return email addresses or phone numbers. Organisation search and enrichment can consume credits; account eligibility and legacy-plan rules vary. Search first, then approve selected enrichment. Keep personal-email, mobile-reveal and waterfall options off initially. Use endpoint-scoped keys where supported. [People search](https://docs.apollo.io/reference/people-api-search), [Organisation search](https://docs.apollo.io/reference/organization-search), [Enrichment](https://docs.apollo.io/reference/people-enrichment), [API keys](https://docs.apollo.io/docs/create-api-key).
+
+**How Codex or ChatGPT can help later:** expose a small authenticated Floruvi MCP interface. Suggested tools: read opportunities, read aggregate channel results, start an approved research job and save a draft. Reuse the same Convex permissions and spend checks. Require separate scoped user authorization; never copy an admin cookie, shared secret or local subscription token into the model. Codex remains an owner-side client; it does not run a shell inside the storefront. Client support and account eligibility must be tested. [Codex MCP](https://learn.chatgpt.com/docs/extend/mcp), [Codex SDK](https://learn.chatgpt.com/docs/codex-sdk).
+
+```mermaid
+flowchart TD
+  Owner[Owner in admin] --> Gate[Server permission and budget check]
+  Client[Optional Codex or ChatGPT client later] --> Gate
+  Gate --> Jobs[Convex research jobs]
+  Jobs --> Model[OpenAI research and cited web search]
+  Model --> Tools[Validated tool requests]
+  Tools --> Apollo[Apollo search or approved enrichment]
+  Tools --> Public[Approved public catalogue and source tools]
+  Jobs --> Records[Private evidence, opportunities and drafts]
+  Records --> Review[Owner review]
+  Review --> Later[Later: exact action approval and provider delivery]
+```
+
+### Data and security boundaries
+
+The current code has a custom owner-session flow in `convex/admin.ts`, `convex/adminHttp.ts` and `lib/admin.ts`. [Doc 25](25-admin-and-order-alerts.md#security) already records that this differs from the Better Auth ownership rule. Do not create a third identity system. Resolve the owner-auth contract before the protected Growth build; Better Auth remains the documented identity owner unless the owner approves an explicit exception. MCP/OAuth access needs its own reviewed scope and cannot expose the current shared admin secret.
+
+Convex owns research runs, buyer candidates, tender opportunities, evidence, drafts, usage and audit records. Buyer candidates are research records; existing inbound enquiries and orders keep their current owners. Link records by ID when a prospect becomes an inbound enquiry. Do not create a second CRM or a duplicate order ledger. A fuller sales pipeline is a later scope decision.
+
+| Record | Minimum design |
+| --- | --- |
+| Research run | Owner, job type, groups, filters, allowed tools, state, reserved budget, actual usage, provider response ID, start/end, failure code |
+| Buyer candidate | Organisation, buyer group, parent/contractor relation, domain, service location, product fit, public business contact, contact source, contact verification status, last checked, next step |
+| Tender opportunity | Portal + reference, issuer, official evidence, dates/timezone, amendments, items/quantity, delivery terms, eligibility gaps, review status |
+| Evidence and export brief | Source URL, publisher, checked date, short supporting extract, claim, source type, country/product, uncertainty; no invented legal conclusion |
+| Draft and audit | Exact draft, related records, revision, actor, tool/result, usage and timestamp; later approval binds recipient, channel, content revision and expiry |
+
+Every protected Convex operation must check identity and permission. Scheduled work must recheck job authorization, revocation and budget. No database credentials, customer order records, payment actions, shell or unrestricted HTTP tools go to the LLM. Treat websites, tender PDFs and provider results as untrusted data. Code validates tool names, argument schemas, source policy, result counts and output. Render sources as text and safe links, not executable HTML. No bulk scraping of Maps, LinkedIn or gated portals; use permitted APIs, assisted review or manual source upload.
+
+Deduplicate buyers by domain plus branch/location and tenders by portal plus reference. Keep provenance when merging; never merge two branches only because they share a brand. Use job IDs and enrichment keys to prevent duplicate scheduling. Internal keys alone cannot prevent a second provider charge. Retry only bounded failures known to precede execution, or calls with documented provider idempotency. For an uncertain timeout, poll a saved provider request ID where supported; otherwise stop for reconciliation and keep the budget reservation. Show partial results. Support cancel, timeout and provider denial. A cancelled job must not schedule more calls.
+
+Store only needed business-contact fields in protected records. Keep them out of Git, analytics and routine logs. Proposal: expire unreviewed candidates after 90 days; review retained lead data every 180 days. Keep the minimum suppression record needed to honour an opt-out. An enrichment match or public address is not consent to marketing. No private prospect documents through public Convex file URLs.
+
+### Spend controls
+
+All paid connectors start disabled. Suggested pilot limits, **not spending approval**: at most 20 candidates per run, 5 runs a day, 10 model/tool steps per run, one running job per owner, and US$10 a month for research. Set separate Apollo credit limits from the actual plan; default enrichment allowance is zero until approved. The existing customer-chat budget stays separate.
+
+Reserve the worst-case allowed run cost atomically before provider calls. Apply token, search-call and credit caps. Reconcile actual use afterward and keep uncertain charges reserved until resolved. Stop when the provider price cannot be bounded. Do not treat a billing alert as a hard cap. Show cost per qualified opportunity, not just token counts.
+
+## 6. Google Analytics, PostHog and real sales evidence
+
+The owner explicitly requested both tools on 2 October. Update the earlier PostHog-only plan with defined roles: **GA4 for acquisition and Google campaign reporting; PostHog for product use, funnels and errors**. Use one event specification and consent state. Do not add GTM or a third analytics service by default. Provider access, consent setup and production delivery are unverified. [GA4 ecommerce events](https://support.google.com/analytics/answer/12924131), [PostHog privacy](https://posthog.com/docs/privacy).
+
+| Business fact | PostHog event | GA4 event | Authority |
+| --- | --- | --- | --- |
+| Product viewed | `product_viewed` | `view_item` | Browser after applicable consent |
+| Added to basket | `product_added_to_cart` | `add_to_cart` | Browser after applicable consent |
+| Checkout started | `checkout_started` | `begin_checkout` | Browser after applicable consent |
+| Enquiry saved | `lead_submitted` | `generate_lead` | Successful backend save; no contact fields or message text |
+| Payment captured | `order_paid` | `purchase` | Verified backend capture, stable transaction/event ID, deduplicated |
+| Refund confirmed | `order_refunded` | `refund` | Confirmed backend/provider event, stable refund ID |
+
+Amounts stay in integer minor units in Convex; analytics adapters convert to the provider's expected units with explicit currency. Client events never prove revenue. Backend events still respect the recorded consent and identifier policy. Keep research, admin, OTP, customer contacts and chat text out of these services. Replay stays off on sensitive pages. Delay analytics scripts until after critical rendering and applicable consent. Check page and referrer fields for query-string leaks.
+
+Save permitted campaign tags and a campaign/opportunity reference with the related enquiry or order; do not put an email or person name in a URL. Reports show traffic, qualified enquiries, sample requests, sample acceptance, first paid order, repeat order, delivery success and contribution after costs where recorded. Show missing costs as unknown. The order/payment record is the revenue authority. Imported institutional or offline outcomes need supporting evidence and must not be counted twice.
+
+The later assistant may compare aggregate results and draft a next test. It must not read private customer records, change prices, publish posts, increase spend or send messages. Implement outreach later with a suppression check, channel permission, recipient validation, exact-content approval, rate limit, idempotency key and delivery receipt. Approval expires when content or recipient changes.
+
+## 7. Build order and acceptance
+
+All growth slices below are **proposed**. No launch deadline or paid-service budget is implied. The favicon is the only implementation in this change.
+
+| Slice | Deliverable | Evidence before the next slice |
+| --- | --- | --- |
+| 1. Foundation | Resolve owner-auth boundary; add Growth, all buyer groups, channel register, supply profile, protected opportunity records and manual evidence entry | Unauthorized/direct calls denied; records persist; no fake connected states; keyboard and narrow-mobile review |
+| 2. Research pilot | OpenAI buyer/tender/export jobs, citations, saved results, deduplication, usage and cancel | Tested provider access; bounded paid pilot approved; source claims checked; deadlines correct; prompt injection and budget-race tests pass |
+| 3. Contact research | Apollo search and selected enrichment | Actual entitlement and credits tested; wrong-company matches rejected; opt-outs and no-repeat charges checked |
+| 4. Measurement and listings | Shared GA4/PostHog events, Merchant feed validation, channel readiness | Consent/no-PII checks; purchase deduplication; feed/page parity; checkout and shipping work; Merchant account review recorded separately |
+| 5. Owner AI access and drafts | Scoped MCP for Codex/ChatGPT; supplier packs, sample offers and social drafts | OAuth/scope/revocation checks; draft saves through the same rules; no send tool exposed |
+| 6. Approved sales delivery | Chosen email/social/WhatsApp provider and exact-action review; approved follow-ups | Working provider, lawful channel use, suppression and retry tests, approval binding, manual stop control and delivery receipts |
+
+Research can proceed before social media or analytics is connected. Growth review needs real data. Merchant activation needs sale readiness. Auto follow-ups, bulk messages, ad changes, bid submissions and autonomous negotiation are outside this first build.
+
+Proposed pilot evaluation: 3 candidates from each buyer group, plus 5 official tender notices and 2 product-country export briefs. These counts are a test target, not a promise of available demand. Check every source/contact claim, label unavailable fields, test duplicate branches and expired/amended tenders, reject invented certification and show groups where no evidence was found. Measure qualified prospects and buyer replies later; do not promise sales from an LLM.
+
+**Inputs needed before live use:** dispatch location and crop capacity; certification evidence; prices and minimum margin; delivery/credit limits; provider account access and approved pilot budget; channel accounts and consent settings. Exact keys belong in provider secret settings, not chat or Git. Details can be entered in setup; they do not prevent review of this design.
+
+Local implementation proof, CI, provider tests, deployment and live owner acceptance must be reported separately. No account was inspected for entitlement, no outreach was sent and no tender was submitted in this planning pass.
+
+---
+
+<details>
+<summary>Archived research — 29 September 2026. Earlier proposals, not the current build plan.</summary>
+
+## Archive: growth tools on the business laptop
 
 Status: plan only, written 29 September 2026. Nothing was built. No account was created, nothing was bought, and nobody was contacted.
 
@@ -527,3 +736,5 @@ _Checked 29 September 2026._ Labels: **official** = the vendor's, regulator's or
 [S80]: https://github.com/OpenWonderLabs/SwitchBotAPI
 [S81]: https://developer.tuya.com/en/docs/iot/membership-service?id=K9m8k45jwvg9j
 [S82]: https://thingspeak.mathworks.com/pages/license_faq
+
+</details>

@@ -34,7 +34,7 @@ Follow [Google's ecommerce structured-data guidance](https://developers.google.c
 
 ## PostHog event plan
 
-Use PostHog as the primary measurement service. Start with explicit events and small dashboards. Avoid duplicate analytics SDKs.
+Use PostHog for product use, funnels and errors. On 2 October 2026, the owner also requested Google Analytics: GA4 will cover acquisition and Google campaign reporting. Use one event contract and consent state; the [growth system plan](31-growth-tools-plan.md#6-google-analytics-posthog-and-real-sales-evidence) defines the mapping. This is a plan, not proof of either service being connected. Start with explicit events and small dashboards. Do not add GTM or a third analytics service by default.
 
 | Event | Source | Allowed useful properties |
 | --- | --- | --- |
