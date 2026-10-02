@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Floruvi Farm",
-    "defaultTitle": "Floruvi — Kesegaran yang berbaloi ditanam",
+    "defaultTitle": "Sayur berdaun, herba & mikrogrin segar | Floruvi",
     "titleTemplate": "%s | Floruvi Farm",
     "description": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar untuk rumah atau perniagaan anda, dihantar ke seluruh India.",
     "descriptionExport": "Terokai sayur berdaun, herba, mikrogrin & banyak lagi. Produk segar dari India untuk rumah & perniagaan di {country}.",
@@ -15,8 +15,8 @@
       "description": "Terokai sayur-sayuran & herba Floruvi. Terokai sayur berdaun, herba, mikrogrin, tanaman berbuah, akar umbi, & bunga boleh dimakan."
     },
     "boxes": {
-      "title": "Langganan Kotak Sayur",
-      "description": "Kotak sayur untuk seorang, dua orang, atau sekeluarga. Pilih kotak sekali sahaja, mingguan, atau penghantaran bulanan. Minta ketersediaan daripada Floruvi."
+      "title": "Ketersediaan kotak sayur",
+      "description": "Tanya tentang kotak sayur Single (1), Dual (2) atau Family (4+), untuk penghantaran harian, mingguan atau setiap dua minggu. Pertanyaan ketersediaan sahaja."
     },
     "cart": {
       "title": "Bakul Anda"
@@ -203,7 +203,9 @@
       "emptyEyebrow": "RUANG UNTUK SESUATU YANG SEGAR",
       "emptyTitle": "Bakul anda kosong.",
       "emptyText": "Pilih sayur-sayuran untuk bermula.",
-      "emptyCta": "Terokai Produk"
+      "emptyCta": "Terokai Produk",
+      "wellnessTitle": "Pelaburan kecil untuk kesihatan harian",
+      "wellnessText": "Sertakan pelbagai makanan berasaskan tumbuhan dalam hidangan kegemaran anda. Pilihan kecil yang dibuat secara tetap membawa makna."
     },
     "validation": {
       "name": "Masukkan nama anda.",
@@ -463,7 +465,8 @@
       "servingIdea": "Idea penyajian {name}",
       "viewRecipe": "Lihat resipi",
       "images": "Imej produk",
-      "view": "Lihat {label}"
+      "view": "Lihat {label}",
+      "additionalView": "{name} · Paparan {number}"
     },
     "breadcrumbHome": "Laman Utama",
     "breadcrumbShop": "Kedai",
@@ -501,7 +504,9 @@
       "domestic": "Penghantaran ke Seluruh India",
       "export": "Penghantaran ke {country} atas permintaan",
       "mix": "Pilih Campuran Anda Sendiri"
-    }
+    },
+    "eatingGuide": "Panduan pemakanan sihat",
+    "fibreGuide": "Panduan serat dan penghadaman"
   },
   "cart": {
     "heroAlt": "Sebakul sayur-sayuran segar",
@@ -1454,6 +1459,41 @@
     "edible-flowers": {
       "name": "Bunga Boleh Dimakan",
       "description": "Warna yang halus untuk hidangan yang penuh perhatian. Hanya jenis bergred makanan."
+    }
+  },
+  "categoryPage": {
+    "title": "{name} dalam talian di India",
+    "titleExport": "{name} dari India – {country}",
+    "productsHeading": "Pilih hasil tanaman anda",
+    "recipesHeading": "Resipi dengan tanaman ini",
+    "browseCategories": "Lihat mengikut kategori",
+    "enquiry": "Tanya tentang bekalan pukal",
+    "deliveryLink": "Butiran penghantaran"
+  },
+  "categoryGuides": {
+    "leafy-greens": {
+      "intro": "Pilih mengikut hidangan yang ingin disediakan. Daun salad butterhead sesuai dijadikan cawan salad yang lembut, manakala romaine menambah kerangupan pada wrap. Bayam sesuai untuk dal dan tumisan ringkas. Pak choy memberikan daun dan batang untuk sup atau tumisan. Campurkan daun berasa lembut dengan arugula atau daun mustard jika anda mahukan rasa yang lebih kuat.",
+      "selection": "Semak saiz pek setiap produk sebelum memilih kuantiti. Gunakan daun salad yang lembut untuk hidangan segar dan daun yang lebih teguh untuk dimasak. Pastikan daun kering sehingga waktu penyediaan, bilas sebelum digunakan dan tambah sos salad sejurus sebelum dihidangkan."
+    },
+    "herbs": {
+      "intro": "Pilih herba mengikut hidangan yang dirancang. Selasih manis sesuai dengan tomato dan pasta. Daun ketumbar dan pudina sesuai untuk chutney dan taburan segar. Dill sesuai dalam sos yogurt, manakala rosemary dan thyme sesuai dengan sayur panggang. Mulakan dengan sedikit apabila menggabungkan herba yang beraroma kuat.",
+      "selection": "Bandingkan saiz pek yang dinyatakan dengan resipi anda. Hiasan hidangan memerlukan kurang herba berbanding pesto atau chutney. Masukkan daun lembut pada akhir proses memasak. Baca panduan penyimpanan setiap produk kerana selasih dan herba berbatang berkayu memerlukan penjagaan yang berbeza."
+    },
+    "microgreens": {
+      "intro": "Pilih mengikut rasa dan tekstur. Mikrogrin radis dan mustard memberikan rasa pedas, manakala pucuk kacang pis dan bunga matahari memberikan kerangupan dengan rasa yang lebih lembut. Gunakannya dalam sandwic, mangkuk bijirin atau sebagai taburan akhir pada hidangan yang sudah dimasak. Gabungkan sedikit dengan daun salad yang lebih besar untuk tekstur berbeza.",
+      "selection": "Katalog merangkumi pek yang telah dipotong dan dulang hidup bagi jenis terpilih. Semak nama produk dan label pek untuk memilih bentuk yang dimahukan. Dulang hidup membolehkan anda memotong bahagian yang diperlukan. Ikuti nota penyediaan dan penjagaan pada halaman produk."
+    },
+    "fruiting-crops": {
+      "intro": "Padankan tanaman dengan cara memasak anda. Tomato ceri sesuai untuk salad dan panggang ringkas, manakala tomato plum sesuai untuk sos. Timun dan lada benggala menambah kerangupan pada hidangan segar. Terung dan zucchini sesuai untuk dipanggang. Strawberi dan tembikai wangi menjadi pilihan untuk mangkuk buah dan pencuci mulut ringkas.",
+      "selection": "Rancang kuantiti berdasarkan label pek yang mungkin menunjukkan berat atau bilangan. Semak jenis sebelum menggantikan satu bahan dengan bahan lain, terutama cili. Lihat resipi yang dipautkan untuk idea menggunakan beberapa tanaman dalam hidangan yang sama."
+    },
+    "roots-and-stems": {
+      "intro": "Tanaman ini memberikan tekstur berbeza dalam masakan harian. Lobak merah dan ubi bit sesuai untuk dipanggang atau diparut dalam salad. Radis menambah kerangupan yang pedas. Saderi dan daun bawang menjadi asas sup atau tumisan. Halia dan kunyit menambah rasa dalam kuantiti kecil, manakala kentang boleh menjadi bahan utama hidangan.",
+      "selection": "Pilih kuantiti mengikut cara penyediaan yang dirancang. Semak sama ada pek dijual mengikut berat atau ikat. Basuh sayur akar sebelum dipotong dan asingkan bahan yang memerlukan masa memasak berbeza. Rujuk nota penyediaan setiap produk untuk maklumat lanjut."
+    },
+    "edible-flowers": {
+      "intro": "Pilih bunga yang sesuai dengan makanan serta warna pinggan. Bunga nasturtium memberikan rasa pedas pada salad. Bunga viola dan pansy sesuai sebagai hiasan kecil, manakala kelopak calendula boleh ditaburkan pada hidangan yang telah siap. Bandingkan penerangan produk sebelum menggabungkan beberapa jenis.",
+      "selection": "Semak sama ada pek mengandungi bunga penuh atau kelopak, serta sama ada kuantitinya dinyatakan mengikut bilangan atau berat. Kendalikan dengan lembut dan tambah sejurus sebelum dihidangkan. Gunakan bunga yang dijual sebagai makanan. Bunga hiasan dari kedai bunga bukan penggantinya."
     }
   },
   "recipeCategories": {

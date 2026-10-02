@@ -1,8 +1,8 @@
 {
   "butterhead-lettuce": {
-    "source": "91147a03",
+    "source": "b7a105b3",
     "name": "Butterhead lettuce",
-    "description": "Soft, rounded leaves with a gentle flavour and a delicate, buttery bite.",
+    "description": "Soft, rounded leaves with a gentle flavour and a delicate, buttery bite. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Salads",
       "lettuce cups",
@@ -47,14 +47,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Separate the leaves, rinse and dry. Leave them whole for lettuce cups."
         }
       ]
     }
   },
   "sweet-basil": {
-    "source": "d2cc98c7",
+    "source": "6bec4b6a",
     "name": "Sweet basil",
-    "description": "Broad, fragrant leaves with a warm, sweet aroma.",
+    "description": "Broad, fragrant leaves with a warm, sweet aroma. Pair with tomatoes, mozzarella, lemon or toasted seeds. Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate.",
     "uses": [
       "Pesto",
       "tomato salads",
@@ -99,14 +107,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "broccoli-microgreens": {
-    "source": "030e4e45",
+    "source": "8a09bc3b",
     "name": "Broccoli microgreens",
-    "description": "Small brassica shoots with a mild cabbage-like flavour.",
+    "description": "Small brassica shoots with a mild cabbage-like flavour. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Sandwiches",
       "salads",
@@ -151,14 +163,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "cherry-tomatoes": {
-    "source": "4a8e9cf7",
+    "source": "82e3db47",
     "name": "Cherry tomatoes",
-    "description": "Small tomatoes for sweet-acid contrast in fresh and cooked dishes.",
+    "description": "Small tomatoes for sweet-acid contrast in fresh and cooked dishes. Pair with basil, olive oil, garlic or a mild fresh cheese. Slice with a sharp knife to keep the juices in the flesh. Season shortly before serving.",
     "uses": [
       "Snacking",
       "salads",
@@ -203,14 +219,22 @@
         {
           "title": "Preparation matters",
           "text": "Long cooking and storage can reduce vitamin C."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse and halve for salads, or roast whole until the skins soften."
         }
       ]
     }
   },
   "spring-onions": {
-    "source": "1ef5c5a2",
+    "source": "3255142d",
     "name": "Spring onions",
-    "description": "Tender green stems with a mild onion flavour.",
+    "description": "Tender green stems with a mild onion flavour. Pair with ginger, eggs, tofu or a rice dish. Slice the green tops thinly for a garnish and save the white ends for the pan.",
     "uses": [
       "Soups",
       "stir-fries",
@@ -255,14 +279,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "nasturtium-flowers": {
-    "source": "0b680c2c",
+    "source": "5fccbffd",
     "name": "Nasturtium flowers",
-    "description": "Bright blossoms with a peppery taste.",
+    "description": "Bright blossoms with a peppery taste. Pair the peppery flowers with cucumber, soft cheese or a mild leaf salad. Add a few whole flowers at the last moment. Keep dressings light so the petals hold their shape.",
     "uses": [
       "Salads",
       "savoury garnish"
@@ -306,14 +334,18 @@
         {
           "title": "Small portions",
           "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        },
+        {
+          "title": "A little is enough",
+          "text": "A few food-grade flowers add colour and interest. Treat them as an occasional garnish, not a source of digestive or weight-loss benefits."
         }
       ]
     }
   },
   "romaine-lettuce": {
-    "source": "45f0ddeb",
+    "source": "61fb126c",
     "name": "Romaine lettuce",
-    "description": "Long leaves and a firm central rib bring a satisfying crunch to a salad.",
+    "description": "Long leaves and a firm central rib bring a satisfying crunch to a salad. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Caesar salads",
       "wraps",
@@ -358,14 +390,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse between the leaves. Chop across the rib, or halve the heart for grilling."
         }
       ]
     }
   },
   "thai-basil": {
-    "source": "78d5e578",
+    "source": "ddaa13ce",
     "name": "Thai basil",
-    "description": "Firm aromatic leaves with an anise-like note.",
+    "description": "Firm aromatic leaves with an anise-like note. Pair with ginger, coconut milk or a warm rice dish. Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate.",
     "uses": [
       "Curries",
       "noodle soups",
@@ -410,14 +450,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "radish-microgreens": {
-    "source": "ca5b8b8c",
+    "source": "5b89d0fb",
     "name": "Radish microgreens",
-    "description": "Crisp little shoots with a clear peppery kick.",
+    "description": "Crisp little shoots with a clear peppery kick. Balance peppery shoots with avocado, hummus or a cool yoghurt dressing. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Tacos",
       "salads",
@@ -462,14 +506,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "beefsteak-tomatoes": {
-    "source": "6102074f",
+    "source": "8b72737a",
     "name": "Beefsteak tomatoes",
-    "description": "Large slicing tomatoes for substantial slices and sauces.",
+    "description": "Large slicing tomatoes for substantial slices and sauces. Pair with basil, olive oil, garlic or a mild fresh cheese. Slice with a sharp knife to keep the juices in the flesh. Season shortly before serving.",
     "uses": [
       "Sandwiches",
       "salads",
@@ -514,14 +562,22 @@
         {
           "title": "Preparation matters",
           "text": "Long cooking and storage can reduce vitamin C."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove the stem core and cut into thick slices for sandwiches or salads."
         }
       ]
     }
   },
   "celery": {
-    "source": "a8c1355e",
+    "source": "b8e84297",
     "name": "Celery",
-    "description": "Crisp, aromatic stalks for fresh crunch or a savoury base.",
+    "description": "Crisp, aromatic stalks for fresh crunch or a savoury base. Pair with carrots, onions, beans or apples. Dice finely for a soup base, or slice across the ribs for a crisp salad texture.",
     "uses": [
       "Soups",
       "stocks",
@@ -566,14 +622,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse between ribs, trim the base and slice. Use the leaves in stocks or a garnish."
         }
       ]
     }
   },
   "viola-flowers": {
-    "source": "57706c53",
+    "source": "c55f1f24",
     "name": "Viola flowers",
-    "description": "Small, delicate blossoms for subtle colour.",
+    "description": "Small, delicate blossoms for subtle colour. Pair a few food-grade blooms with fruit, yoghurt or a lightly dressed salad. Place on the finished dish just before serving, away from hot sauces and heavy dressings.",
     "uses": [
       "Dessert garnish",
       "salads"
@@ -617,14 +681,18 @@
         {
           "title": "Small portions",
           "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        },
+        {
+          "title": "A little is enough",
+          "text": "A few food-grade flowers add colour and interest. Treat them as an occasional garnish, not a source of digestive or weight-loss benefits."
         }
       ]
     }
   },
   "green-oakleaf-lettuce": {
-    "source": "c0dca06d",
+    "source": "0ef0aad2",
     "name": "Green oakleaf lettuce",
-    "description": "Light, deeply lobed leaves that work well in a mixed salad bowl.",
+    "description": "Light, deeply lobed leaves that work well in a mixed salad bowl. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Salad mixes",
       "sandwiches"
@@ -668,14 +736,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse gently, dry well and tear into a salad just before dressing."
         }
       ]
     }
   },
   "holy-basil": {
-    "source": "9b51a491",
+    "source": "4f380d21",
     "name": "Holy basil",
-    "description": "Small aromatic tulsi leaves for culinary infusions and selected regional dishes.",
+    "description": "Small aromatic tulsi leaves for culinary infusions and selected regional dishes. Pair with ginger, coconut milk or a warm rice dish. Add tender leaves late in cooking. Tear rather than finely chop when you want larger pieces on the plate.",
     "uses": [
       "Infusions",
       "regional cooking"
@@ -719,14 +795,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "pea-shoots": {
-    "source": "ae37c735",
+    "source": "8eefd29e",
     "name": "Pea shoots",
-    "description": "Tender stems and leaves with a fresh pea flavour.",
+    "description": "Tender stems and leaves with a fresh pea flavour. Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "sandwiches",
@@ -771,14 +851,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "plum-tomatoes": {
-    "source": "2e9abfe9",
+    "source": "7b92573c",
     "name": "Plum tomatoes",
-    "description": "Firm, fleshy tomatoes well suited to slow cooking.",
+    "description": "Firm, fleshy tomatoes well suited to slow cooking. Pair with basil, olive oil, garlic or a mild fresh cheese. Simmer chopped tomatoes gently until the sauce reaches the thickness you like.",
     "uses": [
       "Sauces",
       "roasting",
@@ -823,14 +907,22 @@
         {
           "title": "Preparation matters",
           "text": "Long cooking and storage can reduce vitamin C."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove the stem core, chop and simmer for sauces, or halve before roasting."
         }
       ]
     }
   },
   "radish": {
-    "source": "5b6e09ca",
+    "source": "9dd4c6dc",
     "name": "Radish",
-    "description": "Crisp roots with a fresh peppery bite.",
+    "description": "Crisp roots with a fresh peppery bite. Pair with cucumber, yoghurt, butter or a little lemon. Slice very thinly for a crisp topping, or roast halves to mellow their sharpness.",
     "uses": [
       "Salads",
       "pickles",
@@ -875,14 +967,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Scrub, trim and slice thinly. Roast halves for a softer, milder bite."
         }
       ]
     }
   },
   "pansy-flowers": {
-    "source": "a48c1533",
+    "source": "9ddaaf38",
     "name": "Pansy flowers",
-    "description": "Broad, colourful blossoms used as a delicate finishing touch.",
+    "description": "Broad, colourful blossoms used as a delicate finishing touch. Pair a few food-grade blooms with fruit, yoghurt or a lightly dressed salad. Place on the finished dish just before serving, away from hot sauces and heavy dressings.",
     "uses": [
       "Cake decoration",
       "salads"
@@ -926,14 +1026,18 @@
         {
           "title": "Small portions",
           "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        },
+        {
+          "title": "A little is enough",
+          "text": "A few food-grade flowers add colour and interest. Treat them as an occasional garnish, not a source of digestive or weight-loss benefits."
         }
       ]
     }
   },
   "red-oakleaf-lettuce": {
-    "source": "b9c52f5d",
+    "source": "3a32c7b3",
     "name": "Red oakleaf lettuce",
-    "description": "Bronze-red leaves add a soft texture and colour to fresh dishes.",
+    "description": "Bronze-red leaves add a soft texture and colour to fresh dishes. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Mixed salads",
       "plating"
@@ -977,14 +1081,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Keep the delicate leaves whole. Add dressing just before serving."
         }
       ]
     }
   },
   "mint": {
-    "source": "0b72d3fa",
+    "source": "5ff6c121",
     "name": "Mint",
-    "description": "Fresh, cooling leaves for bright chutneys and drinks.",
+    "description": "Fresh, cooling leaves for bright chutneys and drinks. Pair with cucumber, yoghurt, peas or fresh lime. Chop just before serving. Fold into cooled food when you want its fresh, cooling flavour.",
     "uses": [
       "Chutneys",
       "raita",
@@ -1029,14 +1141,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "sunflower-shoots": {
-    "source": "1f2b125f",
+    "source": "dd1c0298",
     "name": "Sunflower shoots",
-    "description": "Substantial young shoots with a nutty taste and crisp bite.",
+    "description": "Substantial young shoots with a nutty taste and crisp bite. Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "wraps",
@@ -1081,14 +1197,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "cucumber": {
-    "source": "2d71685e",
+    "source": "fb6ef650",
     "name": "Cucumber",
-    "description": "Crisp, refreshing fruit with a mild flavour.",
+    "description": "Crisp, refreshing fruit with a mild flavour. Pair with mint, yoghurt, tomatoes or a little lime. For a thicker raita, squeeze excess moisture from grated cucumber before mixing it with yoghurt.",
     "uses": [
       "Salads",
       "raita",
@@ -1133,14 +1253,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse, trim the ends and slice or dice. Peel only if you prefer a softer texture."
         }
       ]
     }
   },
   "beetroot": {
-    "source": "2dd8dced",
+    "source": "f366e501",
     "name": "Beetroot",
-    "description": "Sweet, earthy roots for cooking or pickling.",
+    "description": "Sweet, earthy roots for cooking or pickling. Pair with orange, dill, yoghurt or walnuts. Cook separately from pale ingredients if you want to keep their colours distinct.",
     "uses": [
       "Roasting",
       "salads",
@@ -1185,14 +1313,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Scrub and cook until tender, then peel if preferred. Wear an apron to avoid stains."
         }
       ]
     }
   },
   "calendula-petals": {
-    "source": "ce6e877b",
+    "source": "3f92fff7",
     "name": "Calendula petals",
-    "description": "Golden petals for a light floral accent.",
+    "description": "Golden petals for a light floral accent. Scatter petals over rice, soft cheese or a simple green salad. Add the petals after cooking so their colour remains visible on the plate.",
     "uses": [
       "Salads",
       "rice dishes",
@@ -1237,14 +1373,18 @@
         {
           "title": "Small portions",
           "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        },
+        {
+          "title": "A little is enough",
+          "text": "A few food-grade flowers add colour and interest. Treat them as an occasional garnish, not a source of digestive or weight-loss benefits."
         }
       ]
     }
   },
   "lollo-rosso-lettuce": {
-    "source": "02f4f4c2",
+    "source": "b772f709",
     "name": "Lollo rosso lettuce",
-    "description": "Frilled red leaves with a slightly bitter finish and an airy texture.",
+    "description": "Frilled red leaves with a slightly bitter finish and an airy texture. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Salad mixes",
       "garnish"
@@ -1288,14 +1428,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Tear the frilled leaves into small pieces and mix with milder salad leaves."
         }
       ]
     }
   },
   "coriander": {
-    "source": "9c2c6566",
+    "source": "c9bc8b44",
     "name": "Coriander",
-    "description": "Fresh cilantro leaves and tender stems with a distinctive citrus-like aroma.",
+    "description": "Fresh cilantro leaves and tender stems with a distinctive citrus-like aroma. Pair with lime, tomatoes, lentils or green chilli. Use tender stems in chutneys and save the leafy tops to finish the dish.",
     "uses": [
       "Chutneys",
       "curries",
@@ -1340,14 +1488,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "mustard-microgreens": {
-    "source": "7bc39786",
+    "source": "0d68b3c7",
     "name": "Mustard microgreens",
-    "description": "Small leaves with a strong mustard warmth.",
+    "description": "Small leaves with a strong mustard warmth. Balance peppery shoots with avocado, hummus or a cool yoghurt dressing. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Sandwiches",
       "garnish",
@@ -1392,14 +1544,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "bell-peppers": {
-    "source": "df9c2c48",
+    "source": "4d9e4b74",
     "name": "Bell peppers",
-    "description": "Thick-walled sweet peppers that bring colour and crunch.",
+    "description": "Thick-walled sweet peppers that bring colour and crunch. Pair with tomatoes, onions, beans or a rice filling. Cut into wide pieces for roasting and thin strips for quick pan cooking.",
     "uses": [
       "Salads",
       "stuffing",
@@ -1444,14 +1600,22 @@
         {
           "title": "Preparation matters",
           "text": "Long cooking and storage can reduce vitamin C."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove the stalk, seeds and white ribs. Slice for salads or halve for stuffing."
         }
       ]
     }
   },
   "carrot": {
-    "source": "4cf54e65",
+    "source": "831ee38e",
     "name": "Carrot",
-    "description": "Crunchy roots with a gentle sweetness.",
+    "description": "Crunchy roots with a gentle sweetness. Pair with cumin, ginger, citrus or chickpeas. Cut into similar-size pieces for roasting, or grate finely to soften the bite in a raw salad.",
     "uses": [
       "Salads",
       "roasting",
@@ -1496,14 +1660,22 @@
         {
           "title": "Raw or cooked",
           "text": "Grate into salads or cook until tender."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Scrub or peel, trim and cut into even pieces for roasting or soup."
         }
       ]
     }
   },
   "borage-flowers": {
-    "source": "8c301c91",
+    "source": "c10fc81e",
     "name": "Borage flowers",
-    "description": "Small blue blossoms with a mild cucumber-like character.",
+    "description": "Small blue blossoms with a mild cucumber-like character. Use a few food-grade blooms to finish a cucumber salad or a cold drink. Keep this to an occasional small garnish; do not use a bowlful as a vegetable serving.",
     "uses": [
       "Occasional garnish"
     ],
@@ -1546,14 +1718,18 @@
         {
           "title": "Small portions",
           "text": "Flowers complement a meal; they do not replace a vegetable serving."
+        },
+        {
+          "title": "A little is enough",
+          "text": "A few food-grade flowers add colour and interest. Treat them as an occasional garnish, not a source of digestive or weight-loss benefits."
         }
       ]
     }
   },
   "lollo-bionda-lettuce": {
-    "source": "30e8376e",
+    "source": "757c41d7",
     "name": "Lollo bionda lettuce",
-    "description": "Curly green leaves make a light, crisp base for simple dressings.",
+    "description": "Curly green leaves make a light, crisp base for simple dressings. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Salads",
       "sandwiches"
@@ -1597,14 +1773,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse and dry the curly leaves well so dressing does not pool between them."
         }
       ]
     }
   },
   "flat-leaf-parsley": {
-    "source": "0546d0e1",
+    "source": "e114eeec",
     "name": "Flat-leaf parsley",
-    "description": "Fresh, grassy leaves with a clean finish.",
+    "description": "Fresh, grassy leaves with a clean finish. Pair with lemon, potatoes, eggs or a simple bean salad. Dry the leaves before chopping so they stay loose and mix evenly through a dressing.",
     "uses": [
       "Tabbouleh",
       "sauces",
@@ -1649,14 +1833,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "red-cabbage-microgreens": {
-    "source": "a4faaf55",
+    "source": "0c85f65b",
     "name": "Red cabbage microgreens",
-    "description": "Purple-stemmed young leaves with a mild brassica taste.",
+    "description": "Purple-stemmed young leaves with a mild brassica taste. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "bowls",
@@ -1701,14 +1889,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "green-chillies": {
-    "source": "fbe5364c",
+    "source": "77632d06",
     "name": "Green chillies",
-    "description": "Fresh chillies for heat and bright flavour.",
+    "description": "Fresh chillies for heat and bright flavour. Pair with coriander, lime, tomatoes or yoghurt. Add a little at a time and taste the dish. Heat can vary between individual chillies.",
     "uses": [
       "Curries",
       "chutneys",
@@ -1753,14 +1945,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "ginger": {
-    "source": "96aa67e0",
+    "source": "cd6ffa8c",
     "name": "Ginger",
-    "description": "Aromatic rhizomes with a warm, sharp flavour.",
+    "description": "Aromatic rhizomes with a warm, sharp flavour. Pair with garlic, lime, carrots or coconut milk. Grate for an even background flavour; use thin slices when you want to remove the ginger after cooking.",
     "uses": [
       "Curries",
       "infusions",
@@ -1805,14 +2001,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "iceberg-lettuce": {
-    "source": "a81591b3",
+    "source": "60da6f34",
     "name": "Iceberg lettuce",
-    "description": "A crisp-heading lettuce known for its clean flavour and crunchy leaves.",
+    "description": "A crisp-heading lettuce known for its clean flavour and crunchy leaves. Pair with cucumber, tomatoes and a lemon or yoghurt dressing. Dress only the leaves you will eat straight away. Keep the rest dry for your next salad or sandwich.",
     "uses": [
       "Wedges",
       "wraps",
@@ -1857,14 +2057,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove the core, rinse the leaves and slice into wedges or shreds."
         }
       ]
     }
   },
   "curly-parsley": {
-    "source": "6f8fa57e",
+    "source": "2686e3b5",
     "name": "Curly parsley",
-    "description": "Curled leaves add texture and a gentle herbal flavour.",
+    "description": "Curled leaves add texture and a gentle herbal flavour. Pair with lemon, potatoes, eggs or a simple bean salad. Dry the leaves before chopping so they stay loose and mix evenly through a dressing.",
     "uses": [
       "Garnish",
       "salads",
@@ -1909,14 +2117,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "kale-microgreens": {
-    "source": "23032e4b",
+    "source": "6f659df5",
     "name": "Kale microgreens",
-    "description": "Tender young kale leaves for a soft green finish.",
+    "description": "Tender young kale leaves for a soft green finish. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Sandwiches",
       "salads",
@@ -1961,14 +2173,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "jalapeno-peppers": {
-    "source": "50d02da7",
+    "source": "636ee53b",
     "name": "Jalapeño peppers",
-    "description": "Firm chillies with a distinctive flavour and variable heat.",
+    "description": "Firm chillies with a distinctive flavour and variable heat. Pair with tomatoes, lime, beans or a soft cheese filling. Slice thinly to spread the heat through a salsa or sandwich rather than concentrating it in one bite.",
     "uses": [
       "Salsas",
       "pickling",
@@ -2013,14 +2229,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "turmeric": {
-    "source": "3dd538ed",
+    "source": "89efeeb5",
     "name": "Turmeric",
-    "description": "Colourful rhizomes with an earthy, slightly bitter taste.",
+    "description": "Colourful rhizomes with an earthy, slightly bitter taste. Pair with ginger, coconut milk, lentils or cauliflower. Start with a small amount and taste. Grate over a washable surface because the colour can stain.",
     "uses": [
       "Curries",
       "pickles",
@@ -2065,14 +2285,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "arugula": {
-    "source": "113e1546",
+    "source": "64989588",
     "name": "Arugula",
-    "description": "Peppery leaves that give a fresh salad or a finished pizza a little bite.",
+    "description": "Peppery leaves that give a fresh salad or a finished pizza a little bite. Pair the peppery leaves with pear, walnuts, tomatoes or shaved cheese. Scatter over pizza after baking, or fold through warm pasta just before serving.",
     "uses": [
       "Salads",
       "pizza",
@@ -2117,14 +2341,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse and dry. Add to pizza after baking, or toss into a salad at the last moment."
         }
       ]
     }
   },
   "dill": {
-    "source": "37344873",
+    "source": "4ba912fc",
     "name": "Dill",
-    "description": "Fine feathery leaves with a bright, anise-like aroma.",
+    "description": "Fine feathery leaves with a bright, anise-like aroma. Pair with cucumber, potatoes, yoghurt or lemon. Snip over the finished dish, or stir into a cold dressing just before serving.",
     "uses": [
       "Pickles",
       "potatoes",
@@ -2169,14 +2401,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "arugula-microgreens": {
-    "source": "2a58d288",
+    "source": "115b3115",
     "name": "Arugula microgreens",
-    "description": "Fine leaves with a familiar peppery rocket note.",
+    "description": "Fine leaves with a familiar peppery rocket note. Balance peppery shoots with avocado, hummus or a cool yoghurt dressing. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Pizza",
       "pasta",
@@ -2221,14 +2457,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "strawberries": {
-    "source": "b1c7e0cf",
+    "source": "6e885c8b",
     "name": "Strawberries",
-    "description": "Aromatic soft fruit for fresh eating and simple desserts.",
+    "description": "Aromatic soft fruit for fresh eating and simple desserts. Pair with yoghurt, basil, mint or a little lemon zest. Slice just before serving, or gently crush a few berries to make a quick topping.",
     "uses": [
       "Snacking",
       "desserts",
@@ -2273,14 +2513,22 @@
         {
           "title": "Preparation matters",
           "text": "Long cooking and storage can reduce vitamin C."
+        },
+        {
+          "title": "Whole fruit for fibre",
+          "text": "Eat the flesh rather than only the juice to keep its fibre. Fibre supports regular bowel movements as part of a varied diet."
+        },
+        {
+          "title": "A naturally sweet swap",
+          "text": "Try fresh fruit in place of a richer dessert or sweet snack. Replacing food, rather than adding more, can help with weight management."
         }
       ]
     }
   },
   "potato": {
-    "source": "54313611",
+    "source": "fc6171a9",
     "name": "Potato",
-    "description": "Versatile tubers for cooking, with specialist aeroponic propagation uses.",
+    "description": "Versatile tubers for cooking, with specialist aeroponic propagation uses. Pair with rosemary, garlic, peas or a yoghurt dressing. Use even chunks for boiling and leave space between pieces when roasting for crisp edges.",
     "uses": [
       "Roasting",
       "boiling",
@@ -2325,14 +2573,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "A balanced portion",
+          "text": "Potato is a starchy vegetable. Boil or bake it and pair a moderate portion with other vegetables and a protein food; added oil and toppings change the meal."
         }
       ]
     }
   },
   "spinach": {
-    "source": "8f3597fa",
+    "source": "1d695171",
     "name": "Spinach",
-    "description": "Versatile green leaves for fresh bowls or quick, gentle cooking.",
+    "description": "Versatile green leaves for fresh bowls or quick, gentle cooking. Pair with chickpeas, paneer, garlic or a squeeze of lemon. Stir into dal or soup near the end of cooking. The leaves wilt quickly and take up less room in the pan.",
     "uses": [
       "Salads",
       "dal",
@@ -2381,14 +2637,22 @@
         {
           "title": "Potassium",
           "text": "A mineral used in normal muscle and nerve function."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse thoroughly. Use tender leaves raw, or wilt briefly into dal or a warm pan."
         }
       ]
     }
   },
   "chives": {
-    "source": "731986ca",
+    "source": "1a81eba6",
     "name": "Chives",
-    "description": "Slender green leaves with a mild onion flavour.",
+    "description": "Slender green leaves with a mild onion flavour. Pair with potatoes, eggs, cream cheese or a yoghurt dip. Use clean scissors to make small, even pieces without crushing the leaves.",
     "uses": [
       "Eggs",
       "soups",
@@ -2433,14 +2697,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "beet-microgreens": {
-    "source": "5584ba7c",
+    "source": "665e751a",
     "name": "Beet microgreens",
-    "description": "Colourful stems and young leaves with an earthy taste.",
+    "description": "Colourful stems and young leaves with an earthy taste. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "plating",
@@ -2485,14 +2753,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "eggplant": {
-    "source": "fa849444",
+    "source": "969d5d1c",
     "name": "Eggplant",
-    "description": "Tender-fleshed fruit that absorbs flavour well during cooking.",
+    "description": "Tender-fleshed fruit that absorbs flavour well during cooking. Pair with tomatoes, garlic, yoghurt or tahini. Leave space between pieces when roasting. Crowding the tray gives a softer, more steamed result.",
     "uses": [
       "Curries",
       "roasting",
@@ -2537,14 +2809,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Trim the stalk, cut evenly and cook until the flesh is soft throughout."
         }
       ]
     }
   },
   "baby-kale": {
-    "source": "eec05bf9",
+    "source": "dd1f9acb",
     "name": "Baby kale",
-    "description": "Young kale leaves with a softer texture than mature leaves.",
+    "description": "Young kale leaves with a softer texture than mature leaves. Pair with white beans, roasted squash, garlic or a little lemon. Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing.",
     "uses": [
       "Salads",
       "grain bowls",
@@ -2589,14 +2869,22 @@
         {
           "title": "Serving matters",
           "text": "Portion size and cooking affect the nutrients on your plate."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse and dry. Toss tender leaves straight into salads or warm grain bowls."
         }
       ]
     }
   },
   "garlic-chives": {
-    "source": "40072a96",
+    "source": "9d7385d1",
     "name": "Garlic chives",
-    "description": "Flat leaves with a gentle garlic note.",
+    "description": "Flat leaves with a gentle garlic note. Pair with mushrooms, tofu, eggs or dumpling fillings. Cut into short lengths for stir-fries, or chop finely when mixing into a filling.",
     "uses": [
       "Dumplings",
       "stir-fries",
@@ -2641,14 +2929,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "amaranth-microgreens": {
-    "source": "cbb2821d",
+    "source": "e14a0a3d",
     "name": "Amaranth microgreens",
-    "description": "Very fine young leaves with vivid colour in red cultivars.",
+    "description": "Very fine young leaves with vivid colour in red cultivars. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Garnish",
       "salads",
@@ -2693,14 +2985,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "zucchini": {
-    "source": "0faf3414",
+    "source": "650324f9",
     "name": "Zucchini",
-    "description": "Tender summer squash for light cooking.",
+    "description": "Tender summer squash for light cooking. Pair with lemon, mint, basil or a little grated cheese. Use thicker slices for grilling and small pieces for a quick sauté.",
     "uses": [
       "Grilling",
       "sautés",
@@ -2745,14 +3041,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Trim the ends and slice evenly. Cook briefly for firmer pieces or longer for a soft texture."
         }
       ]
     }
   },
   "curly-kale": {
-    "source": "8f7b1dc8",
+    "source": "35845787",
     "name": "Curly kale",
-    "description": "Textured green leaves that hold their shape well in hearty dishes.",
+    "description": "Textured green leaves that hold their shape well in hearty dishes. Pair with white beans, roasted squash, garlic or a little lemon. Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing.",
     "uses": [
       "Soups",
       "sautés",
@@ -2797,14 +3101,22 @@
         {
           "title": "Serving matters",
           "text": "Portion size and cooking affect the nutrients on your plate."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Strip thick stems. Massage chopped leaves for salads, or cook until tender."
         }
       ]
     }
   },
   "oregano": {
-    "source": "8cf92cff",
+    "source": "867961ef",
     "name": "Oregano",
-    "description": "Small leaves with a warm, robust herbal aroma.",
+    "description": "Small leaves with a warm, robust herbal aroma. Pair with roast potatoes, mushrooms, beans or a tomato sauce. Start with a little and taste as the dish cooks. Remove woody stems before serving.",
     "uses": [
       "Tomato sauces",
       "roasting",
@@ -2849,14 +3161,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "basil-microgreens": {
-    "source": "7bb75a9d",
+    "source": "cd895a59",
     "name": "Basil microgreens",
-    "description": "Tiny aromatic leaves with a clear basil fragrance.",
+    "description": "Tiny aromatic leaves with a clear basil fragrance. Use the aromatic shoots with tomatoes, rice or a warm bowl of soup. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Tomato dishes",
       "soups",
@@ -2901,14 +3217,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "muskmelon": {
-    "source": "cb1da443",
+    "source": "4daa1ae1",
     "name": "Muskmelon",
-    "description": "Sweet aromatic melon for fresh slices and fruit dishes.",
+    "description": "Sweet aromatic melon for fresh slices and fruit dishes. Pair with mint, lime, yoghurt or other fresh fruit. Cut into bite-size pieces for a bowl and chill after cutting. Keep the rind out of the serving dish.",
     "uses": [
       "Fresh eating",
       "fruit salads"
@@ -2952,14 +3272,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Whole fruit for fibre",
+          "text": "Eat the flesh rather than only the juice to keep its fibre. Fibre supports regular bowel movements as part of a varied diet."
+        },
+        {
+          "title": "A naturally sweet swap",
+          "text": "Try fresh fruit in place of a richer dessert or sweet snack. Replacing food, rather than adding more, can help with weight management."
         }
       ]
     }
   },
   "lacinato-kale": {
-    "source": "4b96c6ec",
+    "source": "9e8cdf52",
     "name": "Lacinato kale",
-    "description": "Long, dark leaves with a firm texture for cooking and chopped salads.",
+    "description": "Long, dark leaves with a firm texture for cooking and chopped salads. Pair with white beans, roasted squash, garlic or a little lemon. Slice the leaves finely for even cooking. For a softer salad, massage them with a little dressing.",
     "uses": [
       "Soups",
       "braises",
@@ -3004,14 +3332,22 @@
         {
           "title": "Serving matters",
           "text": "Portion size and cooking affect the nutrients on your plate."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove tough ribs and slice the leaves thinly for soups or braises."
         }
       ]
     }
   },
   "thyme": {
-    "source": "e9042f32",
+    "source": "41a7eeea",
     "name": "Thyme",
-    "description": "Tiny leaves with an earthy, fragrant character.",
+    "description": "Tiny leaves with an earthy, fragrant character. Pair with roast potatoes, mushrooms, beans or a tomato sauce. Start with a little and taste as the dish cooks. Remove woody stems before serving.",
     "uses": [
       "Roasting",
       "stocks",
@@ -3056,14 +3392,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "coriander-microgreens": {
-    "source": "ed7ab488",
+    "source": "8979a250",
     "name": "Coriander microgreens",
-    "description": "Young coriander leaves with a concentrated herbal aroma.",
+    "description": "Young coriander leaves with a concentrated herbal aroma. Use the aromatic shoots with tomatoes, rice or a warm bowl of soup. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Tacos",
       "soups",
@@ -3108,14 +3448,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "green-beans": {
-    "source": "c9b841da",
+    "source": "cd90a56f",
     "name": "Green beans",
-    "description": "Tender pods for quick cooking and crisp vegetable dishes.",
+    "description": "Tender pods for quick cooking and crisp vegetable dishes. Pair with garlic, sesame, lemon or toasted almonds. Cut to a similar length for even cooking, then toss with dressing while still warm.",
     "uses": [
       "Stir-fries",
       "salads",
@@ -3160,14 +3504,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Trim the ends and cook until tender. Cool cooked beans for a salad."
         }
       ]
     }
   },
   "swiss-chard": {
-    "source": "db568563",
+    "source": "47071dcf",
     "name": "Swiss chard",
-    "description": "Broad leaves and crisp stems, useful as two textures in the same dish.",
+    "description": "Broad leaves and crisp stems, useful as two textures in the same dish. Pair with garlic, lentils, white beans or a little lemon zest. Chop the stems small and save them for a sauté; they need more time in the pan than the leaves.",
     "uses": [
       "Sautés",
       "gratins",
@@ -3212,14 +3564,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Separate stems from leaves. Cook the chopped stems first, then add the leaves."
         }
       ]
     }
   },
   "rosemary": {
-    "source": "d0109b10",
+    "source": "0b421b3c",
     "name": "Rosemary",
-    "description": "Needle-like leaves with a strong pine-like aroma.",
+    "description": "Needle-like leaves with a strong pine-like aroma. Pair with roast potatoes, mushrooms, beans or a tomato sauce. Start with a little and taste as the dish cooks. Remove woody stems before serving.",
     "uses": [
       "Roast vegetables",
       "breads",
@@ -3264,14 +3624,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "fenugreek-microgreens": {
-    "source": "a802e69b",
+    "source": "5e0836a8",
     "name": "Fenugreek microgreens",
-    "description": "Young methi shoots with a savoury, slightly bitter taste.",
+    "description": "Young methi shoots with a savoury, slightly bitter taste. Pair the savoury shoots with potatoes, lentils or a chickpea filling. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "sandwiches",
@@ -3316,14 +3680,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "bok-choy": {
-    "source": "fc3d870d",
+    "source": "8293ed6e",
     "name": "Bok choy",
-    "description": "Spoon-shaped leaves and crisp pale stems with a mild cabbage flavour.",
+    "description": "Spoon-shaped leaves and crisp pale stems with a mild cabbage flavour. Pair with ginger, sesame, mushrooms or tofu. Halve small heads lengthways for an attractive plate. Keep the base intact to hold the leaves together.",
     "uses": [
       "Stir-fries",
       "broths",
@@ -3368,14 +3736,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse between the stems. Cook stems first and add the leaves near the end."
         }
       ]
     }
   },
   "sage": {
-    "source": "d87fce09",
+    "source": "31a85eef",
     "name": "Sage",
-    "description": "Soft grey-green leaves with a deep, savoury aroma.",
+    "description": "Soft grey-green leaves with a deep, savoury aroma. Pair with roast potatoes, mushrooms, beans or a tomato sauce. Start with a little and taste as the dish cooks. Remove woody stems before serving.",
     "uses": [
       "Brown butter",
       "roasting",
@@ -3420,14 +3796,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "wheatgrass": {
-    "source": "aee13940",
+    "source": "ddd3f197",
     "name": "Wheatgrass",
-    "description": "Young wheat shoots grown for fresh preparation.",
+    "description": "Young wheat shoots grown for fresh preparation. Blend a small amount of freshly extracted juice with apple or cucumber juice. Prepare only the juice you plan to serve. Strain out coarse fibres for a smoother drink.",
     "uses": [
       "Juicing"
     ],
@@ -3470,14 +3850,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "Keep meals balanced",
+          "text": "Enjoy a small serving if you like its taste. A wheatgrass drink does not replace whole vegetables, a meal or a varied diet."
         }
       ]
     }
   },
   "tatsoi": {
-    "source": "41b56aea",
+    "source": "1ba42095",
     "name": "Tatsoi",
-    "description": "Small, rounded leaves with a mild mustard note.",
+    "description": "Small, rounded leaves with a mild mustard note. Pair with sesame, ginger, noodles or tofu. Add tender leaves to a warm bowl just before serving so they keep some shape.",
     "uses": [
       "Salads",
       "soups",
@@ -3522,14 +3906,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Separate and rinse the leaves. Add whole to soup or a quick stir-fry."
         }
       ]
     }
   },
   "lemon-balm": {
-    "source": "9057880a",
+    "source": "e48bb8d8",
     "name": "Lemon balm",
-    "description": "Tender leaves with a gentle lemon scent.",
+    "description": "Tender leaves with a gentle lemon scent. Pair with berries, melon or a mild herbal infusion. Gently bruise a few leaves to release their scent, then add them to a cooled drink.",
     "uses": [
       "Infusions",
       "fruit dishes",
@@ -3574,14 +3966,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "kohlrabi-microgreens": {
-    "source": "46bf5e73",
+    "source": "8cca0f91",
     "name": "Kohlrabi microgreens",
-    "description": "Tender shoots with a gentle cabbage taste.",
+    "description": "Tender shoots with a gentle cabbage taste. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Salads",
       "bowls",
@@ -3626,14 +4022,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "mizuna": {
-    "source": "28caab47",
+    "source": "df448528",
     "name": "Mizuna",
-    "description": "Fine, fringed leaves with a light peppery taste.",
+    "description": "Fine, fringed leaves with a light peppery taste. Pair with citrus, sesame, radish or a mild noodle dressing. Mix with milder leaves for a salad, or use a loose handful to finish a noodle bowl.",
     "uses": [
       "Salad mixes",
       "noodle bowls"
@@ -3677,14 +4077,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse the fine leaves gently and add at the end to keep their texture."
         }
       ]
     }
   },
   "shiso": {
-    "source": "49790bae",
+    "source": "cff169dc",
     "name": "Shiso",
-    "description": "Distinctive aromatic leaves used as a wrap or garnish.",
+    "description": "Distinctive aromatic leaves used as a wrap or garnish. Pair with cucumber, rice, sesame or pickled vegetables. Stack a few dry leaves and slice into fine ribbons for a neat finishing garnish.",
     "uses": [
       "Rice dishes",
       "pickles",
@@ -3729,14 +4137,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "garden-cress-microgreens": {
-    "source": "a462291b",
+    "source": "7d6a137a",
     "name": "Garden cress microgreens",
-    "description": "Fine shoots with a sharp, peppery flavour.",
+    "description": "Fine shoots with a sharp, peppery flavour. Balance peppery shoots with avocado, hummus or a cool yoghurt dressing. Scatter over the plate after cooking. A small loose handful keeps the texture light.",
     "uses": [
       "Egg dishes",
       "sandwiches",
@@ -3781,14 +4193,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "mustard-greens": {
-    "source": "f9c39244",
+    "source": "cd64eaae",
     "name": "Mustard greens",
-    "description": "Bold leaves with a mustard bite that softens during cooking.",
+    "description": "Bold leaves with a mustard bite that softens during cooking. Pair with garlic, potatoes, lentils or a mild yoghurt side. Chop finely for saag, or mix with milder greens to soften the mustard flavour.",
     "uses": [
       "Saag",
       "stir-fries",
@@ -3833,14 +4249,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove coarse stems and cook the leaves until tender to soften their bite."
         }
       ]
     }
   },
   "chervil": {
-    "source": "8c156fac",
+    "source": "4cb3b075",
     "name": "Chervil",
-    "description": "Delicate leaves with a light anise note.",
+    "description": "Delicate leaves with a light anise note. Pair with lemon, potatoes, eggs or a simple bean salad. Dry the leaves before chopping so they stay loose and mix evenly through a dressing.",
     "uses": [
       "Eggs",
       "salads",
@@ -3885,14 +4309,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "radish-microgreens-live-tray": {
-    "source": "afaa910f",
+    "source": "465241ac",
     "name": "Radish microgreens · Live tray",
-    "description": "Peppery young leaves. Delivered growing in one live tray. Cut what you need.",
+    "description": "Peppery young leaves. Delivered growing in one live tray. Cut what you need. Balance peppery shoots with avocado, hummus or a cool yoghurt dressing. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -3938,14 +4366,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "watercress": {
-    "source": "41d3cdc3",
+    "source": "90fcf685",
     "name": "Watercress",
-    "description": "Small, rounded leaves with a lively peppery flavour.",
+    "description": "Small, rounded leaves with a lively peppery flavour. Pair with potatoes, eggs, citrus or a mild creamy dressing. Use tender tips for salads and save firmer stems for a cooked soup.",
     "uses": [
       "Soups",
       "salads",
@@ -3990,14 +4422,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse thoroughly and trim coarse stems. Add to salads or blend into cooked soup."
         }
       ]
     }
   },
   "tarragon": {
-    "source": "69901840",
+    "source": "ace090a7",
     "name": "Tarragon",
-    "description": "Narrow leaves with a pronounced anise-like flavour.",
+    "description": "Narrow leaves with a pronounced anise-like flavour. Pair with mustard, potatoes, eggs or a creamy dressing. Use a small amount first: the anise-like flavour can dominate a delicate sauce.",
     "uses": [
       "Sauces",
       "dressings",
@@ -4042,14 +4482,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "pea-microgreens-live-tray": {
-    "source": "5198e055",
+    "source": "4b8890b6",
     "name": "Pea microgreens · Live tray",
-    "description": "Tender shoots with a sweet pea flavour. Delivered growing in one live tray. Cut what you need.",
+    "description": "Tender shoots with a sweet pea flavour. Delivered growing in one live tray. Cut what you need. Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -4095,14 +4539,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "sorrel": {
-    "source": "c2f6c916",
+    "source": "41fabf30",
     "name": "Sorrel",
-    "description": "Tangy, lemony leaves used in small amounts to brighten a dish.",
+    "description": "Tangy, lemony leaves used in small amounts to brighten a dish. Pair a few leaves with potatoes, eggs or a creamy sauce. Taste before adding lemon or vinegar: sorrel already brings a tart note.",
     "uses": [
       "Sauces",
       "soups",
@@ -4147,14 +4595,18 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "marjoram": {
-    "source": "802bbebd",
+    "source": "5faa205d",
     "name": "Marjoram",
-    "description": "Soft leaves with a gentle, sweet oregano-like flavour.",
+    "description": "Soft leaves with a gentle, sweet oregano-like flavour. Pair with roast potatoes, mushrooms, beans or a tomato sauce. Start with a little and taste as the dish cooks. Remove woody stems before serving.",
     "uses": [
       "Soups",
       "sauces",
@@ -4199,14 +4651,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "sunflower-microgreens-live-tray": {
-    "source": "a436640b",
+    "source": "8e634626",
     "name": "Sunflower microgreens · Live tray",
-    "description": "Crunchy shoots with a mild, nutty flavour. Delivered growing in one live tray. Cut what you need.",
+    "description": "Crunchy shoots with a mild, nutty flavour. Delivered growing in one live tray. Cut what you need. Pair the shoots with cucumber, soft cheese or a lemon-dressed grain bowl. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -4252,14 +4708,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "endive": {
-    "source": "55ffbd35",
+    "source": "2066e2c5",
     "name": "Endive",
-    "description": "Firm leaves with a pleasantly bitter edge.",
+    "description": "Firm leaves with a pleasantly bitter edge. Pair with orange, walnuts, apple or soft cheese. Use the firm outer leaves as small cups for a chopped salad filling.",
     "uses": [
       "Salads",
       "roasting",
@@ -4304,14 +4764,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Separate the leaves for small salad cups, or halve the head before roasting."
         }
       ]
     }
   },
   "lemongrass": {
-    "source": "9644eb9b",
+    "source": "bbdb1907",
     "name": "Lemongrass",
-    "description": "Fragrant stems with a clear citrus aroma.",
+    "description": "Fragrant stems with a clear citrus aroma. Pair with ginger, coconut milk, lime or mushrooms. Use bruised stems to scent a broth. Remove large fibrous pieces before serving.",
     "uses": [
       "Curries",
       "broths",
@@ -4356,14 +4824,18 @@
         {
           "title": "Portion matters",
           "text": "A few leaves are a garnish, not a full vegetable serving."
+        },
+        {
+          "title": "Flavour with less salt",
+          "text": "Use a small amount to flavour vegetables, pulses or grains before reaching for extra salt. A seasoning portion contributes little fibre."
         }
       ]
     }
   },
   "broccoli-microgreens-live-tray": {
-    "source": "184ffb84",
+    "source": "185398fc",
     "name": "Broccoli microgreens · Live tray",
-    "description": "Small leaves with a mild brassica flavour. Delivered growing in one live tray. Cut what you need.",
+    "description": "Small leaves with a mild brassica flavour. Delivered growing in one live tray. Cut what you need. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -4409,14 +4881,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "radicchio": {
-    "source": "6054b24c",
+    "source": "f7622edc",
     "name": "Radicchio",
-    "description": "Red leaves and white ribs bring bitterness and contrast to a plate.",
+    "description": "Red leaves and white ribs bring bitterness and contrast to a plate. Pair with pear, orange, walnuts or a mild cheese. Mix raw shreds with sweeter ingredients, or grill wedges to soften their texture.",
     "uses": [
       "Salads",
       "grilling",
@@ -4461,14 +4937,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Remove the core. Slice thinly for salads or cut into wedges for grilling."
         }
       ]
     }
   },
   "fenugreek-microgreens-live-tray": {
-    "source": "b724d323",
+    "source": "072f253e",
     "name": "Fenugreek microgreens · Live tray",
-    "description": "Aromatic shoots with a light bitterness. Delivered growing in one live tray. Cut what you need.",
+    "description": "Aromatic shoots with a light bitterness. Delivered growing in one live tray. Cut what you need. Pair the savoury shoots with potatoes, lentils or a chickpea filling. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -4514,14 +4998,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "amaranth-greens": {
-    "source": "e36b47cf",
+    "source": "d338806a",
     "name": "Amaranth greens",
-    "description": "Tender leaves used in many regional Indian vegetable dishes.",
+    "description": "Tender leaves used in many regional Indian vegetable dishes. Pair with lentils, garlic, coconut or cumin. Chop leaves and tender stems for a cooked side; remove the coarse stalks first.",
     "uses": [
       "Dal",
       "stir-fries",
@@ -4566,14 +5054,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse well, trim tough stems and cook the leaves into dal or a vegetable dish."
         }
       ]
     }
   },
   "red-amaranth-microgreens-live-tray": {
-    "source": "5db14b16",
+    "source": "0917c4e6",
     "name": "Red amaranth microgreens · Live tray",
-    "description": "Fine red shoots with an earthy flavour. Delivered growing in one live tray. Cut what you need.",
+    "description": "Fine red shoots with an earthy flavour. Delivered growing in one live tray. Cut what you need. Pair the young leaves with roasted vegetables, hummus or a lightly dressed salad. Harvest just the section you need. Leave the rest standing for the next meal; do not rely on cut shoots to regrow.",
     "uses": [
       "Salads",
       "Sandwiches",
@@ -4619,14 +5115,18 @@
         {
           "title": "Mix it up",
           "text": "Enjoy different shoots alongside other vegetables."
+        },
+        {
+          "title": "A small part of the plate",
+          "text": "A handful adds variety to a meal. Nutrients depend on the crop and portion; a garnish does not replace a full serving of vegetables."
         }
       ]
     }
   },
   "fenugreek-greens": {
-    "source": "2be34ad8",
+    "source": "68aecb62",
     "name": "Fenugreek greens",
-    "description": "Aromatic methi leaves with a characteristic bitter-savoury note.",
+    "description": "Aromatic methi leaves with a characteristic bitter-savoury note. Pair with potatoes, peas, lentils or whole-wheat dough. Fold chopped leaves into paratha dough, or add a small handful to a vegetable curry.",
     "uses": [
       "Parathas",
       "dal",
@@ -4671,14 +5171,22 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Pick the leaves from thick stems, rinse well and chop for dal or parathas."
         }
       ]
     }
   },
   "napa-cabbage": {
-    "source": "aa9e90d8",
+    "source": "def1874c",
     "name": "Napa cabbage",
-    "description": "Tender layered leaves and mild, crisp stems.",
+    "description": "Tender layered leaves and mild, crisp stems. Pair with ginger, mushrooms, tofu or spring onions. Use the thicker ribs for crunch and the softer leaves to soak up a light broth.",
     "uses": [
       "Stir-fries",
       "soups",
@@ -4723,6 +5231,14 @@
         {
           "title": "Variety",
           "text": "Combine different colours with grains and a protein source."
+        },
+        {
+          "title": "Fibre & digestion",
+          "text": "Whole vegetables add fibre, which supports regular bowel movements. Increase fibre gradually and drink enough water."
+        },
+        {
+          "title": "Weight-conscious meals",
+          "text": "Use vegetables in place of some higher-calorie ingredients. This can support weight management; portions, dressings and the whole diet still matter. Rinse between the layers. Slice stems and leaves separately for even cooking."
         }
       ]
     }

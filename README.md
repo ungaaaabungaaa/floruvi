@@ -47,7 +47,7 @@ Never put key values in this repo.
 - [ ] Distance-based delivery charge (replaces the flat ₹99).
 - [ ] "Share your experience" form for real testimonials, shown after your approval.
 - [ ] Free gifts at ₹2,000 and ₹5,000. Needs your answers. [Plan](docs/27-free-gifts-plan.md)
-- [ ] Delivery and return details in product search data; Google Merchant Center and Meta product feeds.
+- [ ] Validate product delivery and return search data in Google Rich Results Test; Google Merchant Center and Meta product feeds remain to build. [Catalogue SEO](docs/32-programmatic-seo.md)
 - [ ] Wholesale quote page; WhatsApp for the chat (later).
 
 ## Shipping: things to watch

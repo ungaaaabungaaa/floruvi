@@ -1,0 +1,313 @@
+{
+  "generator": "built-in image_gen",
+  "images": [
+    {
+      "slug": "turmeric",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh turmeric rhizomes, short knobbly golden-tan roots with concentric rings and vivid deep-orange flesh. Composition: Low three-quarter camera angle. A relaxed cluster of six whole harvested turmeric rhizomes directly on limestone, each fully visible with room around them. No dish. No cut pieces. Scene: warm ivory lightly textured limestone with seamless cream background. Style: premium natural farm-to-table editorial photography, botanically accurate shapes, soft diffused daylight from the left, gentle realistic shadows, true natural colours. Single full-frame square photograph. No text, logo, watermark, collage, hands, packaging, powders, drinks, medical symbols, leaves or unrelated food.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-d20bddef-5eb7-4733-8789-6f6779f2274f.png",
+      "destination": "src/assets/products/additional/turmeric-1.webp"
+    },
+    {
+      "slug": "turmeric",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh turmeric rhizomes, short knobbly golden-tan roots with concentric rings and vivid deep-orange flesh. Composition: Overhead flat lay. Three whole turmeric rhizomes alongside several separate round slices, rich deep-orange flesh facing up. Arrange the pieces loosely with clear space between them. No dish. Scene: warm ivory lightly textured limestone with seamless cream background. Style: premium natural farm-to-table editorial photography, botanically accurate shapes, soft diffused daylight from the left, gentle realistic shadows, true natural colours. Single full-frame square photograph. No text, logo, watermark, collage, hands, packaging, powders, drinks, medical symbols, leaves or unrelated food.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-6a7481f2-03ee-4410-8129-23b70f0407d3.png",
+      "destination": "src/assets/products/additional/turmeric-2.webp"
+    },
+    {
+      "slug": "turmeric",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh turmeric rhizomes, short knobbly golden-tan roots with concentric rings and vivid deep-orange flesh. Composition: Close macro photograph of one cut turmeric rhizome with deep-orange interior and thin tan ringed skin in crisp focus, other whole rhizomes softly blurred in the back. Fill the frame with real organic texture. Scene: warm ivory lightly textured limestone with seamless cream background. Style: premium natural farm-to-table editorial photography, botanically accurate shapes, soft diffused daylight from the left, gentle realistic shadows, true natural colours. Single full-frame square photograph. No text, logo, watermark, collage, hands, packaging, powders, drinks, medical symbols, leaves or unrelated food.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-e169594b-e64d-4f48-9c9f-1aabe27f2930.png",
+      "destination": "src/assets/products/additional/turmeric-3.webp"
+    },
+    {
+      "slug": "turmeric",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh turmeric rhizomes, short knobbly golden-tan roots with concentric rings and vivid deep-orange flesh. Composition: A shallow handmade ivory ceramic dish with four whole turmeric rhizomes and a few peeled orange slices, casually arranged, photographed at an elevated three-quarter angle with generous ivory space. Scene: warm ivory lightly textured limestone with seamless cream background. Style: premium natural farm-to-table editorial photography, botanically accurate shapes, soft diffused daylight from the left, gentle realistic shadows, true natural colours. Single full-frame square photograph. No text, logo, watermark, collage, hands, packaging, powders, drinks, medical symbols, leaves or unrelated food.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-646462ff-6b94-4aa3-863c-d0ada9272648.png",
+      "destination": "src/assets/products/additional/turmeric-4.webp"
+    },
+    {
+      "slug": "viola-flowers",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: small edible viola flowers, delicate five-petalled blossoms with natural purple, lavender, cream and yellow colours and fine dark veins toward the tiny yellow centres. These are petite viola flowers, not large pansies, not roses. Composition: Low three-quarter view of a loose small cluster of freshly picked petite viola blossoms, fully visible with generous cream space, directly on the limestone. No dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate flowers, soft diffused daylight from left, gentle realistic shadows, restrained natural colours. One full-frame square photograph. No collage, words, labels, logo, watermark, hands, packaging, garnish on other food, green leaves or unrelated flowers.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-1e5e704c-0220-426b-bfb3-45628c063e83.png",
+      "destination": "src/assets/products/additional/viola-flowers-1.webp"
+    },
+    {
+      "slug": "viola-flowers",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: small edible viola flowers, delicate five-petalled blossoms with natural purple, lavender, cream and yellow colours and fine dark veins toward the tiny yellow centres. These are petite viola flowers, not large pansies, not roses. Composition: Overhead flat lay of eight separate petite viola blossoms with purple, lavender, yellow and cream petals, open faces arranged loosely with spaces between the flowers, no leaves and no dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate flowers, soft diffused daylight from left, gentle realistic shadows, restrained natural colours. One full-frame square photograph. No collage, words, labels, logo, watermark, hands, packaging, garnish on other food, green leaves or unrelated flowers.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-2dec1c24-6963-4280-92e5-b9987635cf53.png",
+      "destination": "src/assets/products/additional/viola-flowers-2.webp"
+    },
+    {
+      "slug": "viola-flowers",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: small edible viola flowers, delicate five-petalled blossoms with natural purple, lavender, cream and yellow colours and fine dark veins toward the tiny yellow centres. These are petite viola flowers, not large pansies, not roses. Composition: Macro close-up of one delicate purple-and-yellow viola blossom, five overlapping petals with fine dark veins, a small bright yellow centre, crisp petal texture, the other blossoms softly blurred. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate flowers, soft diffused daylight from left, gentle realistic shadows, restrained natural colours. One full-frame square photograph. No collage, words, labels, logo, watermark, hands, packaging, garnish on other food, green leaves or unrelated flowers.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-3c7aec7d-1bcb-4e09-8779-0f01926f930a.png",
+      "destination": "src/assets/products/additional/viola-flowers-3.webp"
+    },
+    {
+      "slug": "viola-flowers",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: small edible viola flowers, delicate five-petalled blossoms with natural purple, lavender, cream and yellow colours and fine dark veins toward the tiny yellow centres. These are petite viola flowers, not large pansies, not roses. Composition: An understated shallow ivory ceramic dish holding a small handful of purple, lavender, yellow and cream viola blossoms, open flower faces visible, elevated three-quarter angle with room around the dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate flowers, soft diffused daylight from left, gentle realistic shadows, restrained natural colours. One full-frame square photograph. No collage, words, labels, logo, watermark, hands, packaging, garnish on other food, green leaves or unrelated flowers.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-82890087-ad31-4c48-aa46-d72e0388850b.png",
+      "destination": "src/assets/products/additional/viola-flowers-4.webp"
+    },
+    {
+      "slug": "watercress",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh green watercress (Nasturtium officinale), delicate compound leaves with small rounded oval leaflets on slender branching tender green stems, botanically accurate culinary watercress, no roots or flowers. Composition: Low three-quarter angle. A small loose bunch of freshly harvested watercress sprigs directly on the stone, fully visible, delicate leaves spreading naturally and tender stems facing the viewer. No dish. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true fresh green colours. One full-frame square photograph. No large spinach leaves, no arugula, no microgreen seed leaves, no unrelated vegetables, no text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-537672d3-978e-458f-9c12-a858b4b9f3e4.png",
+      "destination": "src/assets/products/additional/watercress-1.webp"
+    },
+    {
+      "slug": "watercress",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh green watercress (Nasturtium officinale), delicate compound leaves with small rounded oval leaflets on slender branching tender green stems, botanically accurate culinary watercress, no roots or flowers. Composition: Overhead flat lay. Six separate watercress sprigs loosely spaced on limestone, each with delicate round compound leaflets and a few trimmed stem pieces, clear space between sprigs. No dish. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true fresh green colours. One full-frame square photograph. No large spinach leaves, no arugula, no microgreen seed leaves, no unrelated vegetables, no text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-b91cf99f-91eb-438e-b62c-3d931b541c8b.png",
+      "destination": "src/assets/products/additional/watercress-2.webp"
+    },
+    {
+      "slug": "watercress",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh green watercress (Nasturtium officinale), delicate compound leaves with small rounded oval leaflets on slender branching tender green stems, botanically accurate culinary watercress, no roots or flowers. Composition: Macro close-up of a few fresh watercress leaflets and their smooth thin green branching stems, crisp leaf veins and rounded scalloped edges, soft depth of field and natural texture. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true fresh green colours. One full-frame square photograph. No large spinach leaves, no arugula, no microgreen seed leaves, no unrelated vegetables, no text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-963d4162-9d90-445a-a917-ef1ed0fa968f.png",
+      "destination": "src/assets/products/additional/watercress-3.webp"
+    },
+    {
+      "slug": "watercress",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh green watercress (Nasturtium officinale), delicate compound leaves with small rounded oval leaflets on slender branching tender green stems, botanically accurate culinary watercress, no roots or flowers. Composition: Simple serving presentation in a shallow handmade ivory ceramic bowl containing only a small loose handful of fresh watercress sprigs, no dressing, viewed at an elevated three-quarter angle with cream space around it. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true fresh green colours. One full-frame square photograph. No large spinach leaves, no arugula, no microgreen seed leaves, no unrelated vegetables, no text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-2e73f730-8edb-4e6b-b8f4-bdf63814c3a3.png",
+      "destination": "src/assets/products/additional/watercress-4.webp"
+    },
+    {
+      "slug": "wheatgrass",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly harvested young wheatgrass, narrow vivid green flat grass blades with pointed tips and parallel veins, cleanly cut above the roots, botanically accurate seedling wheat leaf blades. Composition: Low three-quarter view of a small loose harvested bunch of fresh wheatgrass blades lying directly on the limestone, cut pale green bases aligned loosely and tips fanning out, entire bunch visible, no vessel. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true greens and restrained earthy palette. Single full-frame square photograph. No roots, soil, seed tray, wheat grain heads, mature wheat ears, sprouts with round leaves, drinks, powder, bottles, unrelated food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-d796f475-d41f-46b4-aa5f-a8b80d997563.png",
+      "destination": "src/assets/products/additional/wheatgrass-1.webp"
+    },
+    {
+      "slug": "wheatgrass",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly harvested young wheatgrass, narrow vivid green flat grass blades with pointed tips and parallel veins, cleanly cut above the roots, botanically accurate seedling wheat leaf blades. Composition: Overhead flat lay of four small separated tufts of cut wheatgrass blades, laid in loose parallel groups with space between, natural slender pointed green blades, no bowl. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true greens and restrained earthy palette. Single full-frame square photograph. No roots, soil, seed tray, wheat grain heads, mature wheat ears, sprouts with round leaves, drinks, powder, bottles, unrelated food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-3bde2ceb-09c9-40a3-bc6f-9c9d7dd6fdaa.png",
+      "destination": "src/assets/products/additional/wheatgrass-2.webp"
+    },
+    {
+      "slug": "wheatgrass",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly harvested young wheatgrass, narrow vivid green flat grass blades with pointed tips and parallel veins, cleanly cut above the roots, botanically accurate seedling wheat leaf blades. Composition: Macro texture photograph of overlapping long slender fresh wheatgrass blades showing parallel veins and natural green surfaces, with cut pale green ends partly visible and soft depth of field. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true greens and restrained earthy palette. Single full-frame square photograph. No roots, soil, seed tray, wheat grain heads, mature wheat ears, sprouts with round leaves, drinks, powder, bottles, unrelated food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-7e0c176b-0e81-4d07-bf53-189600c7bdb3.png",
+      "destination": "src/assets/products/additional/wheatgrass-3.webp"
+    },
+    {
+      "slug": "wheatgrass",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly harvested young wheatgrass, narrow vivid green flat grass blades with pointed tips and parallel veins, cleanly cut above the roots, botanically accurate seedling wheat leaf blades. Composition: Simple serving presentation: a small loose handful of freshly cut wheatgrass blades in a shallow ivory ceramic dish, long tips naturally fanning over the rim, elevated three-quarter angle, no liquid or other ingredients. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true greens and restrained earthy palette. Single full-frame square photograph. No roots, soil, seed tray, wheat grain heads, mature wheat ears, sprouts with round leaves, drinks, powder, bottles, unrelated food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-b5baacc3-fbcc-4ef7-a916-451b959f8188.png",
+      "destination": "src/assets/products/additional/wheatgrass-4.webp"
+    },
+    {
+      "slug": "zucchini",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh tender zucchini courgettes, cylindrical smooth dark-green finely speckled skin, short ridged green stem ends, pale creamy interior with tiny immature seeds, botanically accurate summer squash. Composition: Low three-quarter camera angle. Three whole small tender dark-green zucchini directly on limestone, each fully visible, casually crossing with room around them. No dish and no cut pieces. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from the left, gentle shadows, true natural greens and restrained earthy palette. Single full-frame square photograph. No cucumber skin or watery cucumber seed centre, no large squash, no flowers, no leaves, no unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-6aae1937-c976-4ab1-bcfd-8e6073af94c4.png",
+      "destination": "src/assets/products/additional/zucchini-1.webp"
+    },
+    {
+      "slug": "zucchini",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh tender zucchini courgettes, cylindrical smooth dark-green finely speckled skin, short ridged green stem ends, pale creamy interior with tiny immature seeds, botanically accurate summer squash. Composition: Overhead flat lay. Two whole dark-green zucchini beside five separate thick round slices showing pale cream flesh and a small soft seed pattern, arranged loosely with spaces between pieces. No dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from the left, gentle shadows, true natural greens and restrained earthy palette. Single full-frame square photograph. No cucumber skin or watery cucumber seed centre, no large squash, no flowers, no leaves, no unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-5ef163ee-eeb8-470d-80fd-f9375050782c.png",
+      "destination": "src/assets/products/additional/zucchini-2.webp"
+    },
+    {
+      "slug": "zucchini",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh tender zucchini courgettes, cylindrical smooth dark-green finely speckled skin, short ridged green stem ends, pale creamy interior with tiny immature seeds, botanically accurate summer squash. Composition: Macro texture detail of a cut zucchini end, pale cream interior with tender immature seeds, thin dark green speckled skin in crisp focus and another whole zucchini softly blurred behind. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from the left, gentle shadows, true natural greens and restrained earthy palette. Single full-frame square photograph. No cucumber skin or watery cucumber seed centre, no large squash, no flowers, no leaves, no unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-8d824de9-a947-4cfd-b3c1-8a72314203c1.png",
+      "destination": "src/assets/products/additional/zucchini-3.webp"
+    },
+    {
+      "slug": "zucchini",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh tender zucchini courgettes, cylindrical smooth dark-green finely speckled skin, short ridged green stem ends, pale creamy interior with tiny immature seeds, botanically accurate summer squash. Composition: A shallow ivory ceramic dish holding loosely folded wide raw zucchini ribbons and a few round slices, made only from fresh dark-green zucchini, elevated three-quarter camera angle, no garnish or dressing. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from the left, gentle shadows, true natural greens and restrained earthy palette. Single full-frame square photograph. No cucumber skin or watery cucumber seed centre, no large squash, no flowers, no leaves, no unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-29c82b66-3d08-4748-bd54-58e6816abb97.png",
+      "destination": "src/assets/products/additional/zucchini-4.webp"
+    },
+    {
+      "slug": "endive",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh curly endive frisee (Cichorium endivia), small airy rosettes with slender pale ribs and narrow deeply cut frilly green leaves, naturally pale cream-yellow heart. Composition: Low three-quarter camera angle showing two small whole heads of curly endive directly on the stone, pale centres and frilly green outer leaves fully visible with generous space, no dish. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate, soft diffused daylight from left, gentle realistic shadows, true crop colours. One full-frame square photograph. No Belgian endive torpedo heads, no broad lettuce leaves, no unrelated foods, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-2a5ab86b-c990-4d97-82ef-c07d7bd75d05.png",
+      "destination": "src/assets/products/additional/endive-1.webp"
+    },
+    {
+      "slug": "endive",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh curly endive frisee (Cichorium endivia), small airy rosettes with slender pale ribs and narrow deeply cut frilly green leaves, naturally pale cream-yellow heart. Composition: Overhead flat lay of loose separated curly endive leaves, arranged in a loose fan with pale rib bases inward and finely divided bright-green frilly tips outward, no dish. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate, soft diffused daylight from left, gentle realistic shadows, true crop colours. One full-frame square photograph. No Belgian endive torpedo heads, no broad lettuce leaves, no unrelated foods, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-2ab342d2-2034-4d21-bb53-7608a5c24c3d.png",
+      "destination": "src/assets/products/additional/endive-2.webp"
+    },
+    {
+      "slug": "endive",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh curly endive frisee (Cichorium endivia), small airy rosettes with slender pale ribs and narrow deeply cut frilly green leaves, naturally pale cream-yellow heart. Composition: Macro close-up of crisp intricately curled and finely divided endive leaves, pale yellow-white centre blending to fresh green frills, shallow depth of field with real leaf texture. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate, soft diffused daylight from left, gentle realistic shadows, true crop colours. One full-frame square photograph. No Belgian endive torpedo heads, no broad lettuce leaves, no unrelated foods, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-e34df28f-a814-4937-9f5b-87a83d58350d.png",
+      "destination": "src/assets/products/additional/endive-3.webp"
+    },
+    {
+      "slug": "endive",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh curly endive frisee (Cichorium endivia), small airy rosettes with slender pale ribs and narrow deeply cut frilly green leaves, naturally pale cream-yellow heart. Composition: A shallow ivory ceramic bowl with a small loose handful of washed curly endive leaves, pale ribs and green frilled edges visible, elevated three-quarter angle, no dressing or other ingredients. Scene: warm ivory lightly textured limestone, seamless cream background. Premium natural farm-to-table editorial food photography, botanically accurate, soft diffused daylight from left, gentle realistic shadows, true crop colours. One full-frame square photograph. No Belgian endive torpedo heads, no broad lettuce leaves, no unrelated foods, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-8a6a973a-8b53-4058-9737-e552772f70c4.png",
+      "destination": "src/assets/products/additional/endive-4.webp"
+    },
+    {
+      "slug": "fenugreek-greens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh mature fenugreek greens, methi (Trigonella foenum-graecum), tender slender green stems carrying trifoliate leaves, three small obovate leaflets with lightly toothed rounded tips, botanically accurate edible fenugreek foliage. Composition: Low three-quarter view of one loose harvested bunch of fresh fenugreek greens lying directly on limestone, slender stems at front and many little trifoliate leaves spreading naturally, no dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No round paired microgreen cotyledons, no flowers, seeds, roots, soil, unrelated crops, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-7881aa0e-9247-49cf-a750-240bd428daab.png",
+      "destination": "src/assets/products/additional/fenugreek-greens-1.webp"
+    },
+    {
+      "slug": "fenugreek-greens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh mature fenugreek greens, methi (Trigonella foenum-graecum), tender slender green stems carrying trifoliate leaves, three small obovate leaflets with lightly toothed rounded tips, botanically accurate edible fenugreek foliage. Composition: Overhead flat lay of five separated fenugreek sprigs with their trifoliate leaf clusters clearly visible, loosely spaced on the stone, no dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No round paired microgreen cotyledons, no flowers, seeds, roots, soil, unrelated crops, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-bcc0cd7c-b821-4552-9cd4-4cfc5c411aec.png",
+      "destination": "src/assets/products/additional/fenugreek-greens-2.webp"
+    },
+    {
+      "slug": "fenugreek-greens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh mature fenugreek greens, methi (Trigonella foenum-graecum), tender slender green stems carrying trifoliate leaves, three small obovate leaflets with lightly toothed rounded tips, botanically accurate edible fenugreek foliage. Composition: Macro close-up of several fresh fenugreek leaf clusters, exactly three small obovate green leaflets per cluster with slight teeth toward the rounded tips, thin stems and natural leaf veins in sharp focus. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No round paired microgreen cotyledons, no flowers, seeds, roots, soil, unrelated crops, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-09af4063-7a14-49f5-af78-fcfab19429aa.png",
+      "destination": "src/assets/products/additional/fenugreek-greens-3.webp"
+    },
+    {
+      "slug": "fenugreek-greens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fresh mature fenugreek greens, methi (Trigonella foenum-graecum), tender slender green stems carrying trifoliate leaves, three small obovate leaflets with lightly toothed rounded tips, botanically accurate edible fenugreek foliage. Composition: A shallow handmade ivory ceramic bowl containing only a loose small handful of fresh plucked fenugreek leaves and tender stems, elevated three-quarter view with gentle negative space, no dressing. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial photography, soft diffused daylight from left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No round paired microgreen cotyledons, no flowers, seeds, roots, soil, unrelated crops, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-01b4824b-f38f-4439-8815-7ca672ab0e93.png",
+      "destination": "src/assets/products/additional/fenugreek-greens-4.webp"
+    },
+    {
+      "slug": "fenugreek-microgreens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fenugreek microgreens (Trigonella foenum-graecum), young tiny shoots harvested above the growing medium, fine pale green stems and two elongated oval green cotyledons, very early first-leaf stage. Composition: Low three-quarter view of a small loose mound of freshly cut fenugreek microgreens directly on limestone, many thin pale stems ending in paired elongated oval green cotyledons, no dish. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true natural green colours. One full-frame square photograph. Show cut microgreens only, no mature trifoliate methi leaves, roots, seed husks, soil, tray, flowers, unrelated foods, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-f17d3497-e948-46e5-8d96-d2b21cbd140e.png",
+      "destination": "src/assets/products/additional/fenugreek-microgreens-1.webp"
+    },
+    {
+      "slug": "fenugreek-microgreens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fenugreek microgreens (Trigonella foenum-graecum), young tiny shoots harvested above the growing medium, fine pale green stems and two elongated oval green cotyledons, very early first-leaf stage. Composition: Overhead flat lay of five tiny loose separated clusters of cut fenugreek microgreens, paired slender oblong green cotyledons clearly visible on fine pale stems, cream space between clusters. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true natural green colours. One full-frame square photograph. Show cut microgreens only, no mature trifoliate methi leaves, roots, seed husks, soil, tray, flowers, unrelated foods, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-1d942c70-f2ca-4365-9083-3f7fe3748bf2.png",
+      "destination": "src/assets/products/additional/fenugreek-microgreens-2.webp"
+    },
+    {
+      "slug": "fenugreek-microgreens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fenugreek microgreens (Trigonella foenum-graecum), young tiny shoots harvested above the growing medium, fine pale green stems and two elongated oval green cotyledons, very early first-leaf stage. Composition: Macro detail of young fenugreek microgreens, smooth elongated oval paired cotyledons and delicate pale stems in crisp focus, a few tiny first true leaves just emerging, soft depth of field. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true natural green colours. One full-frame square photograph. Show cut microgreens only, no mature trifoliate methi leaves, roots, seed husks, soil, tray, flowers, unrelated foods, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-9e36a5e4-19a2-4424-a9bc-9e401444baab.png",
+      "destination": "src/assets/products/additional/fenugreek-microgreens-3.webp"
+    },
+    {
+      "slug": "fenugreek-microgreens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: fenugreek microgreens (Trigonella foenum-graecum), young tiny shoots harvested above the growing medium, fine pale green stems and two elongated oval green cotyledons, very early first-leaf stage. Composition: A small shallow ivory ceramic dish holding a loose modest handful of freshly cut fenugreek microgreens, fine pale green stems and pairs of elongated oval seed leaves visible, elevated three-quarter angle. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, true natural green colours. One full-frame square photograph. Show cut microgreens only, no mature trifoliate methi leaves, roots, seed husks, soil, tray, flowers, unrelated foods, text, labels, logos, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-156cd54e-3348-4615-af97-3d5dd77c8604.png",
+      "destination": "src/assets/products/additional/fenugreek-microgreens-4.webp"
+    },
+    {
+      "slug": "pansy-flowers",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: edible pansy flowers, Viola x wittrockiana, large broad velvety five-petalled blossoms with natural violet, purple, cream and golden-yellow colours and dark central face blotches. Botanically accurate garden pansy blossoms. Composition: Low three-quarter view of a small loose group of five fresh pansy flower heads directly on limestone, broad velvety purple and golden-yellow petals with distinctive dark central blotches, full flowers visible, no dish. Scene: warm ivory lightly textured limestone with seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from left, gentle realistic shadows, natural flower colours. One full-frame square photograph. No tiny wild violets, leaves, stems, roses, unrelated flowers, other food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-5edce4d5-e473-4445-b4b8-473d116ffc00.png",
+      "destination": "src/assets/products/additional/pansy-flowers-1.webp"
+    },
+    {
+      "slug": "pansy-flowers",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: edible pansy flowers, Viola x wittrockiana, large broad velvety five-petalled blossoms with natural violet, purple, cream and golden-yellow colours and dark central face blotches. Botanically accurate garden pansy blossoms. Composition: Overhead flat lay of seven separate open pansy blossoms in purple, violet, cream and golden yellow, broad overlapping petals and dark face markings visible, loosely spaced with cream stone between them, no dish. Scene: warm ivory lightly textured limestone with seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from left, gentle realistic shadows, natural flower colours. One full-frame square photograph. No tiny wild violets, leaves, stems, roses, unrelated flowers, other food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-122c848e-04db-48cb-a135-72e6d3f11c66.png",
+      "destination": "src/assets/products/additional/pansy-flowers-2.webp"
+    },
+    {
+      "slug": "pansy-flowers",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: edible pansy flowers, Viola x wittrockiana, large broad velvety five-petalled blossoms with natural violet, purple, cream and golden-yellow colours and dark central face blotches. Botanically accurate garden pansy blossoms. Composition: Macro close-up of one rich purple pansy flower with broad overlapping velvety petals, a dark central face marking and tiny golden-yellow centre, crisp petal texture with other blossoms softly blurred. Scene: warm ivory lightly textured limestone with seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from left, gentle realistic shadows, natural flower colours. One full-frame square photograph. No tiny wild violets, leaves, stems, roses, unrelated flowers, other food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-85a26c3e-038a-46b9-ba4f-d7d45279e4b5.png",
+      "destination": "src/assets/products/additional/pansy-flowers-3.webp"
+    },
+    {
+      "slug": "pansy-flowers",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: edible pansy flowers, Viola x wittrockiana, large broad velvety five-petalled blossoms with natural violet, purple, cream and golden-yellow colours and dark central face blotches. Botanically accurate garden pansy blossoms. Composition: A shallow handmade ivory ceramic dish holding a few broad open pansy blossoms in violet, purple, cream and yellow, distinctive dark central markings visible, elevated three-quarter angle with cream space around it. Scene: warm ivory lightly textured limestone with seamless cream background. Premium natural farm-to-table editorial food photography, soft diffused daylight from left, gentle realistic shadows, natural flower colours. One full-frame square photograph. No tiny wild violets, leaves, stems, roses, unrelated flowers, other food, text, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-6c7c8d5f-98e4-4fca-856e-b37b8afdb1f0.png",
+      "destination": "src/assets/products/additional/pansy-flowers-4.webp"
+    },
+    {
+      "slug": "pea-microgreens-live-tray",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: live tray of young pea microgreens, Pisum sativum pea shoots, tender light-green stems with small oval paired leaflets and fine curling tendrils, healthy early seedling stage, actively growing upright from clean dark medium in a compact charcoal rectangular nursery tray. Composition: Low three-quarter angle showing the entire small charcoal rectangular nursery tray, dense young green pea shoots standing upright in their growing medium, all tray edges visible with space around them. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, botanically accurate natural greens. Single full-frame square photograph. No mature pea pods, flowers, round brassica seed leaves, huge plants, labels, words, logos, watermark, collage, hands, tools or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-ab9f4e28-11be-4b1c-b6f4-d0b27cd56f45.png",
+      "destination": "src/assets/products/additional/pea-microgreens-live-tray-1.webp"
+    },
+    {
+      "slug": "pea-microgreens-live-tray",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: live tray of young pea microgreens, Pisum sativum pea shoots, tender light-green stems with small oval paired leaflets and fine curling tendrils, healthy early seedling stage, actively growing upright from clean dark medium in a compact charcoal rectangular nursery tray. Composition: Overhead top-down view of a small charcoal rectangular nursery tray filled with dense young pea shoots, pairs of fresh small green leaflets and curling tendrils forming a natural canopy, the tray outline fully visible. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, botanically accurate natural greens. Single full-frame square photograph. No mature pea pods, flowers, round brassica seed leaves, huge plants, labels, words, logos, watermark, collage, hands, tools or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-ef323b49-a37f-4dff-b2b9-dc308a0ca2a0.png",
+      "destination": "src/assets/products/additional/pea-microgreens-live-tray-2.webp"
+    },
+    {
+      "slug": "pea-microgreens-live-tray",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: live tray of young pea microgreens, Pisum sativum pea shoots, tender light-green stems with small oval paired leaflets and fine curling tendrils, healthy early seedling stage, actively growing upright from clean dark medium in a compact charcoal rectangular nursery tray. Composition: Macro detail at the corner of a charcoal nursery tray, living young pea shoots still attached to their stems in clean growing medium, thin curling tendrils and fresh paired leaflets crisp, charcoal tray edge visible in foreground. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, botanically accurate natural greens. Single full-frame square photograph. No mature pea pods, flowers, round brassica seed leaves, huge plants, labels, words, logos, watermark, collage, hands, tools or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-fcb40ff5-23cb-4189-9f21-ccdbe1348f98.png",
+      "destination": "src/assets/products/additional/pea-microgreens-live-tray-3.webp"
+    },
+    {
+      "slug": "pea-microgreens-live-tray",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: live tray of young pea microgreens, Pisum sativum pea shoots, tender light-green stems with small oval paired leaflets and fine curling tendrils, healthy early seedling stage, actively growing upright from clean dark medium in a compact charcoal rectangular nursery tray. Composition: An elevated three-quarter view of a compact charcoal rectangular live tray sitting neatly on a plain shallow ivory ceramic catch dish, vibrant young pea shoots growing upright, no detached cut shoots and no tools. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from left, gentle realistic shadows, botanically accurate natural greens. Single full-frame square photograph. No mature pea pods, flowers, round brassica seed leaves, huge plants, labels, words, logos, watermark, collage, hands, tools or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-88f630d2-05fb-4268-bd70-8fced0caa929.png",
+      "destination": "src/assets/products/additional/pea-microgreens-live-tray-4.webp"
+    },
+    {
+      "slug": "pea-shoots",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly cut young pea shoots (Pisum sativum), delicate tender green stems, small paired oval leaflets with fine veins and slender curling tendrils, cleanly cut above the growing medium. Botanically accurate edible pea shoots at microgreen stage. Composition: Low three-quarter view of a small loose mound of freshly cut pea shoots directly on limestone, tender stems and small paired oval leaflets with fine curling tendrils, no vessel. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from the left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No roots, soil, seed tray, peas, pods, flowers, mature vine, round brassica cotyledons, unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-cfaab7b1-4857-4528-8412-552234664aa7.png",
+      "destination": "src/assets/products/additional/pea-shoots-1.webp"
+    },
+    {
+      "slug": "pea-shoots",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly cut young pea shoots (Pisum sativum), delicate tender green stems, small paired oval leaflets with fine veins and slender curling tendrils, cleanly cut above the growing medium. Botanically accurate edible pea shoots at microgreen stage. Composition: Overhead flat lay of six individual freshly cut pea shoot sprigs, each showing a tender cut stem, paired green leaflets and fine curling tendrils, loosely spaced with cream stone around them. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from the left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No roots, soil, seed tray, peas, pods, flowers, mature vine, round brassica cotyledons, unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-b57adc52-3bd8-4b2b-bb87-1d16229edf85.png",
+      "destination": "src/assets/products/additional/pea-shoots-2.webp"
+    },
+    {
+      "slug": "pea-shoots",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly cut young pea shoots (Pisum sativum), delicate tender green stems, small paired oval leaflets with fine veins and slender curling tendrils, cleanly cut above the growing medium. Botanically accurate edible pea shoots at microgreen stage. Composition: Macro close-up of cut pea shoot tips, delicate spiralling tendrils and small fresh paired oval leaflets in crisp focus, thin stems layered naturally with shallow depth of field. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from the left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No roots, soil, seed tray, peas, pods, flowers, mature vine, round brassica cotyledons, unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-79cb9923-e54c-4a2e-8434-7323ca7304a9.png",
+      "destination": "src/assets/products/additional/pea-shoots-3.webp"
+    },
+    {
+      "slug": "pea-shoots",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi crop catalogue gallery photograph. Subject: freshly cut young pea shoots (Pisum sativum), delicate tender green stems, small paired oval leaflets with fine veins and slender curling tendrils, cleanly cut above the growing medium. Botanically accurate edible pea shoots at microgreen stage. Composition: A shallow handmade ivory ceramic bowl containing a modest loose handful of fresh cut pea shoots, small paired leaflets and curling tendrils visible, elevated three-quarter view, no dressing or other ingredients. Scene: warm ivory lightly textured limestone and seamless cream background. Premium natural farm-to-table editorial crop photography, soft diffused daylight from the left, gentle realistic shadows, true natural greens. Single full-frame square photograph. No roots, soil, seed tray, peas, pods, flowers, mature vine, round brassica cotyledons, unrelated foods, text, labels, logo, watermark, collage, hands or packaging.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb1c-22fb-7483-b911-59f253bc1521/exec-5be6994a-49b4-4892-bc20-2d6429d926c6.png",
+      "destination": "src/assets/products/additional/pea-shoots-4.webp"
+    }
+  ]
+}

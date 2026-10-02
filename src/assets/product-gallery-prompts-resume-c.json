@@ -1,0 +1,705 @@
+{
+  "generator": "built-in image_gen",
+  "images": [
+    {
+      "slug": "plum-tomatoes",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: ripe elongated red plum tomatoes, botanically accurate, fresh. Composition: Three-quarter view of three whole plum tomatoes directly on the limestone, fully visible with generous breathing room. No bowl. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, accurate natural crop colours, refined farm-to-table editorial photography. One full-frame photograph. No text, labels, logos, watermarks, collage, hands, packaging, medical symbols or unrelated foods.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-b3b47846-3924-41c5-a055-3411f050ee40.png",
+      "destination": "src/assets/products/additional/plum-tomatoes-1.webp"
+    },
+    {
+      "slug": "plum-tomatoes",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: ripe elongated red plum tomatoes, botanically accurate, fresh. Composition: Overhead flat lay of two whole plum tomatoes, one halved lengthwise, and two thick slices, intentionally separated on the limestone. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, accurate natural crop colours, refined farm-to-table editorial photography. One full-frame photograph. No text, labels, logos, watermarks, collage, hands, packaging, medical symbols or unrelated foods.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-42931003-7e3a-41d2-970e-9399f1dbd965.png",
+      "destination": "src/assets/products/additional/plum-tomatoes-2.webp"
+    },
+    {
+      "slug": "plum-tomatoes",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: ripe elongated red plum tomatoes, botanically accurate, fresh. Composition: Macro photograph of a fresh plum tomato showing glossy red skin and the juicy interior of a cut half, realistic detailed texture. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, accurate natural crop colours, refined farm-to-table editorial photography. One full-frame photograph. No text, labels, logos, watermarks, collage, hands, packaging, medical symbols or unrelated foods.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-b46dde45-b51d-4037-b503-4b34a939c8e3.png",
+      "destination": "src/assets/products/additional/plum-tomatoes-3.webp"
+    },
+    {
+      "slug": "plum-tomatoes",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: ripe elongated red plum tomatoes, botanically accurate, fresh. Composition: A few whole and halved plum tomatoes simply arranged on a plain ivory ceramic plate on limestone. No other ingredients. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, accurate natural crop colours, refined farm-to-table editorial photography. One full-frame photograph. No text, labels, logos, watermarks, collage, hands, packaging, medical symbols or unrelated foods.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-6d88274a-b4fa-451b-a809-aefd19a961e0.png",
+      "destination": "src/assets/products/additional/plum-tomatoes-4.webp"
+    },
+    {
+      "slug": "potato",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Potato: three clean light tan potatoes with natural skin and small eyes.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-8d59f1fc-5fba-4510-af4f-098cb2ff4a15.png",
+      "destination": "src/assets/products/additional/potato-1.webp"
+    },
+    {
+      "slug": "potato",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Potato: three clean light tan potatoes with natural skin and small eyes.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-f28a1809-42f9-4282-9405-1d0ec955c5de.png",
+      "destination": "src/assets/products/additional/potato-2.webp"
+    },
+    {
+      "slug": "potato",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photo of potato tubers ONLY. Composition: Extreme close macro on the tan skin and shallow eyes of one clean potato tuber, another cut half partly visible with pale cream flesh, no greenery. Tight detailed crop. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, natural accurate colours. ONLY harvested edible potato tubers, healthy pale tan skin without green spots or sprouts. No leaves, stems, herbs, leafy greens, garnish, vines, shoots, flowers, or other plants anywhere. No words, logos, watermarks, collage, people or hands. One refined farm-to-table full-frame photograph.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1a5faed9-baf9-4203-9a91-97a388008064.png",
+      "destination": "src/assets/products/additional/potato-3.webp"
+    },
+    {
+      "slug": "potato",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photo of potato tubers ONLY. Composition: Two clean whole tan potatoes and one halved potato with pale cream flesh arranged on a plain ivory ceramic dish, gentle overhead angle, only potato tubers on the dish. Warm ivory lightly textured limestone backdrop, soft diffused daylight from upper left, gentle realistic shadows, natural accurate colours. ONLY harvested edible potato tubers, healthy pale tan skin without green spots or sprouts. No leaves, stems, herbs, leafy greens, garnish, vines, shoots, flowers, or other plants anywhere. No words, logos, watermarks, collage, people or hands. One refined farm-to-table full-frame photograph.",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d4e5530c-abab-45e5-b771-ccd3ff167c65.png",
+      "destination": "src/assets/products/additional/potato-4.webp"
+    },
+    {
+      "slug": "radicchio",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radicchio: round compact red-purple radicchio head with strong white veins.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-debdcb79-d00c-451e-95e3-33e93aae86e2.png",
+      "destination": "src/assets/products/additional/radicchio-1.webp"
+    },
+    {
+      "slug": "radicchio",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radicchio: round compact red-purple radicchio head with strong white veins.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-610a8641-8bb5-4325-9d58-b77f6019dd84.png",
+      "destination": "src/assets/products/additional/radicchio-2.webp"
+    },
+    {
+      "slug": "radicchio",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radicchio: round compact red-purple radicchio head with strong white veins.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-99779952-7bf1-4933-8791-7926f5804cb5.png",
+      "destination": "src/assets/products/additional/radicchio-3.webp"
+    },
+    {
+      "slug": "radicchio",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radicchio: round compact red-purple radicchio head with strong white veins.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-66cb9307-cfe9-471e-bacc-b0a4dff7b68a.png",
+      "destination": "src/assets/products/additional/radicchio-4.webp"
+    },
+    {
+      "slug": "radish",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish: round red radishes with white tips and fresh green tops.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-aac708d9-0c7a-4a50-8808-448caedbf506.png",
+      "destination": "src/assets/products/additional/radish-1.webp"
+    },
+    {
+      "slug": "radish",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish: round red radishes with white tips and fresh green tops.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-4b789ae4-03b1-410c-be41-bb0a5ba1f8c7.png",
+      "destination": "src/assets/products/additional/radish-2.webp"
+    },
+    {
+      "slug": "radish",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish: round red radishes with white tips and fresh green tops.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-5bbfc5ef-b264-4205-8e69-ba06fb5b485b.png",
+      "destination": "src/assets/products/additional/radish-3.webp"
+    },
+    {
+      "slug": "radish",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish: round red radishes with white tips and fresh green tops.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-c7532d13-b72c-45f9-9c08-7bfa7f57364e.png",
+      "destination": "src/assets/products/additional/radish-4.webp"
+    },
+    {
+      "slug": "radish-microgreens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-047c5779-cce1-47dd-9857-498b20617031.png",
+      "destination": "src/assets/products/additional/radish-microgreens-1.webp"
+    },
+    {
+      "slug": "radish-microgreens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-a38901c1-fa48-453d-8cd7-91972af75954.png",
+      "destination": "src/assets/products/additional/radish-microgreens-2.webp"
+    },
+    {
+      "slug": "radish-microgreens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-a2b4713e-8207-41e3-af6f-05845da19197.png",
+      "destination": "src/assets/products/additional/radish-microgreens-3.webp"
+    },
+    {
+      "slug": "radish-microgreens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-c2157e86-f4f6-4d04-86df-f22c83620e29.png",
+      "destination": "src/assets/products/additional/radish-microgreens-4.webp"
+    },
+    {
+      "slug": "radish-microgreens-live-tray",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens growing upright densely in one shallow plain dark charcoal propagation tray; tiny paired green cotyledons on slender pink stems, clean soilless growing mat visible at edges. Only young shoots, never mature radishes. Composition: Three-quarter view of the whole live growing tray with young shoots, centered on limestone, entire tray visible, generous breathing room. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-160ed55d-777f-450e-a493-4442cfbd5212.png",
+      "destination": "src/assets/products/additional/radish-microgreens-live-tray-1.webp"
+    },
+    {
+      "slug": "radish-microgreens-live-tray",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens growing upright densely in one shallow plain dark charcoal propagation tray; tiny paired green cotyledons on slender pink stems, clean soilless growing mat visible at edges. Only young shoots, never mature radishes. Composition: Overhead flat lay of the live growing tray, dense canopy of young shoots, with a few freshly cut shoots separated beside it on limestone. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9eed53c8-4e1d-4442-9cc3-68970d2e6d72.png",
+      "destination": "src/assets/products/additional/radish-microgreens-live-tray-2.webp"
+    },
+    {
+      "slug": "radish-microgreens-live-tray",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens growing upright densely in one shallow plain dark charcoal propagation tray; tiny paired green cotyledons on slender pink stems, clean soilless growing mat visible at edges. Only young shoots, never mature radishes. Composition: Macro close view of tiny young leaves and stems still growing in their tray, showing botanically accurate texture and colour; a subtle tray rim visible below. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-7659f1ce-a6f3-4c93-8b07-5f0b2aceff47.png",
+      "destination": "src/assets/products/additional/radish-microgreens-live-tray-3.webp"
+    },
+    {
+      "slug": "radish-microgreens-live-tray",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Radish microgreens growing upright densely in one shallow plain dark charcoal propagation tray; tiny paired green cotyledons on slender pink stems, clean soilless growing mat visible at edges. Only young shoots, never mature radishes. Composition: One plain live growing tray set on a simple wide ivory ceramic saucer, and a few freshly cut young shoots on the saucer, gentle overhead angle. Keep the live growing tray clearly visible. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-be08a7cf-3ea3-4860-8a85-446deef37ee8.png",
+      "destination": "src/assets/products/additional/radish-microgreens-live-tray-4.webp"
+    },
+    {
+      "slug": "red-amaranth-microgreens-live-tray",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red amaranth microgreens growing upright densely in one shallow plain dark charcoal propagation tray; delicate tiny burgundy-red narrow paired cotyledons on fine ruby stems, clean soilless growing mat visible at edges. Only young shoots, never mature amaranth. Composition: Three-quarter view of the whole live growing tray with young shoots, centered on limestone, entire tray visible, generous breathing room. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-ae8788ac-7ab1-4230-9dca-76632784ff90.png",
+      "destination": "src/assets/products/additional/red-amaranth-microgreens-live-tray-1.webp"
+    },
+    {
+      "slug": "red-amaranth-microgreens-live-tray",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red amaranth microgreens growing upright densely in one shallow plain dark charcoal propagation tray; delicate tiny burgundy-red narrow paired cotyledons on fine ruby stems, clean soilless growing mat visible at edges. Only young shoots, never mature amaranth. Composition: Overhead flat lay of the live growing tray, dense canopy of young shoots, with a few freshly cut shoots separated beside it on limestone. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-f257a824-09a8-431f-867f-3a8ce62c4407.png",
+      "destination": "src/assets/products/additional/red-amaranth-microgreens-live-tray-2.webp"
+    },
+    {
+      "slug": "red-amaranth-microgreens-live-tray",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red amaranth microgreens growing upright densely in one shallow plain dark charcoal propagation tray; delicate tiny burgundy-red narrow paired cotyledons on fine ruby stems, clean soilless growing mat visible at edges. Only young shoots, never mature amaranth. Composition: Macro close view of tiny young leaves and stems still growing in their tray, showing botanically accurate texture and colour; a subtle tray rim visible below. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1c4cd0b4-66fd-444c-80e5-a66a1615bb34.png",
+      "destination": "src/assets/products/additional/red-amaranth-microgreens-live-tray-3.webp"
+    },
+    {
+      "slug": "red-amaranth-microgreens-live-tray",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red amaranth microgreens growing upright densely in one shallow plain dark charcoal propagation tray; delicate tiny burgundy-red narrow paired cotyledons on fine ruby stems, clean soilless growing mat visible at edges. Only young shoots, never mature amaranth. Composition: One plain live growing tray set on a simple wide ivory ceramic saucer, and a few freshly cut young shoots on the saucer, gentle overhead angle. Keep the live growing tray clearly visible. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1c79b4c8-b879-44e4-b100-c3e1f5b7a88b.png",
+      "destination": "src/assets/products/additional/red-amaranth-microgreens-live-tray-4.webp"
+    },
+    {
+      "slug": "red-cabbage-microgreens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red cabbage microgreens: small green-purple cotyledons on distinct purple stems. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-f5132b9a-27b9-4578-bebd-b2cde787712e.png",
+      "destination": "src/assets/products/additional/red-cabbage-microgreens-1.webp"
+    },
+    {
+      "slug": "red-cabbage-microgreens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red cabbage microgreens: small green-purple cotyledons on distinct purple stems. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-dd2a7d1e-ebd4-423d-937f-9d1e501ccd39.png",
+      "destination": "src/assets/products/additional/red-cabbage-microgreens-2.webp"
+    },
+    {
+      "slug": "red-cabbage-microgreens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red cabbage microgreens: small green-purple cotyledons on distinct purple stems. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9179d5c5-3a4b-473a-a4b6-69363567079a.png",
+      "destination": "src/assets/products/additional/red-cabbage-microgreens-3.webp"
+    },
+    {
+      "slug": "red-cabbage-microgreens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red cabbage microgreens: small green-purple cotyledons on distinct purple stems. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-57e3eeac-0c34-4ffa-83f1-eacfa6da2465.png",
+      "destination": "src/assets/products/additional/red-cabbage-microgreens-4.webp"
+    },
+    {
+      "slug": "red-oakleaf-lettuce",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red oakleaf lettuce: loose oakleaf lettuce with rounded lobes, burgundy red outer leaves and green inner leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1199f0e5-8b15-4542-b6a1-fb1e09c4bf92.png",
+      "destination": "src/assets/products/additional/red-oakleaf-lettuce-1.webp"
+    },
+    {
+      "slug": "red-oakleaf-lettuce",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red oakleaf lettuce: loose oakleaf lettuce with rounded lobes, burgundy red outer leaves and green inner leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9daffb0d-73f7-4248-a8fb-4a64bb16e637.png",
+      "destination": "src/assets/products/additional/red-oakleaf-lettuce-2.webp"
+    },
+    {
+      "slug": "red-oakleaf-lettuce",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red oakleaf lettuce: loose oakleaf lettuce with rounded lobes, burgundy red outer leaves and green inner leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-7866d293-a923-4225-81f7-7c4c46ee85d6.png",
+      "destination": "src/assets/products/additional/red-oakleaf-lettuce-3.webp"
+    },
+    {
+      "slug": "red-oakleaf-lettuce",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Red oakleaf lettuce: loose oakleaf lettuce with rounded lobes, burgundy red outer leaves and green inner leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-83eb33a3-44fb-48f9-b14a-87f2d17125d8.png",
+      "destination": "src/assets/products/additional/red-oakleaf-lettuce-4.webp"
+    },
+    {
+      "slug": "romaine-lettuce",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Romaine lettuce: upright elongated romaine head, long ribbed crisp green leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-7a3145d3-4afb-481c-9f65-5e83ba8c2117.png",
+      "destination": "src/assets/products/additional/romaine-lettuce-1.webp"
+    },
+    {
+      "slug": "romaine-lettuce",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Romaine lettuce: upright elongated romaine head, long ribbed crisp green leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-55e2dd33-85f7-42fc-a65e-cfffbbbb7d90.png",
+      "destination": "src/assets/products/additional/romaine-lettuce-2.webp"
+    },
+    {
+      "slug": "romaine-lettuce",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Romaine lettuce: upright elongated romaine head, long ribbed crisp green leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9793ef39-c131-4508-b9f5-abb098e9d04b.png",
+      "destination": "src/assets/products/additional/romaine-lettuce-3.webp"
+    },
+    {
+      "slug": "romaine-lettuce",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Romaine lettuce: upright elongated romaine head, long ribbed crisp green leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d00e931d-1efd-490b-b7c4-a5ba61ed8581.png",
+      "destination": "src/assets/products/additional/romaine-lettuce-4.webp"
+    },
+    {
+      "slug": "rosemary",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Rosemary: woody sprigs with narrow needle-like green leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-635f29a0-6a62-45ee-bea4-c43b73b6696d.png",
+      "destination": "src/assets/products/additional/rosemary-1.webp"
+    },
+    {
+      "slug": "rosemary",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Rosemary: woody sprigs with narrow needle-like green leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-21817409-4498-47f0-b0bc-9a658d0d04dc.png",
+      "destination": "src/assets/products/additional/rosemary-2.webp"
+    },
+    {
+      "slug": "rosemary",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Rosemary: woody sprigs with narrow needle-like green leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-46d90c2e-4431-4ab5-a660-5044e19cbc57.png",
+      "destination": "src/assets/products/additional/rosemary-3.webp"
+    },
+    {
+      "slug": "rosemary",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Rosemary: woody sprigs with narrow needle-like green leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e33486eb-79a4-4e23-9160-566837b7f88f.png",
+      "destination": "src/assets/products/additional/rosemary-4.webp"
+    },
+    {
+      "slug": "sage",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sage: soft textured silvery grey-green oval sage leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-2e10406b-8c53-4427-98a7-f3dcb95f1f74.png",
+      "destination": "src/assets/products/additional/sage-1.webp"
+    },
+    {
+      "slug": "sage",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sage: soft textured silvery grey-green oval sage leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-28804cd1-a930-48fd-b13c-e70ad1421fc2.png",
+      "destination": "src/assets/products/additional/sage-2.webp"
+    },
+    {
+      "slug": "sage",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sage: soft textured silvery grey-green oval sage leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e88c5395-0e68-464a-b89e-d8c73b8d280a.png",
+      "destination": "src/assets/products/additional/sage-3.webp"
+    },
+    {
+      "slug": "sage",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sage: soft textured silvery grey-green oval sage leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-3dac3ff0-f597-453d-84fb-96c05209aebf.png",
+      "destination": "src/assets/products/additional/sage-4.webp"
+    },
+    {
+      "slug": "shiso",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Shiso: large green and burgundy shiso leaves with sharply serrated margins.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-61fa6701-da7f-4dbb-abff-591ca7043a4b.png",
+      "destination": "src/assets/products/additional/shiso-1.webp"
+    },
+    {
+      "slug": "shiso",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Shiso: large green and burgundy shiso leaves with sharply serrated margins.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-aa4c467d-ecb2-40a8-947b-0fb840b66060.png",
+      "destination": "src/assets/products/additional/shiso-2.webp"
+    },
+    {
+      "slug": "shiso",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Shiso: large green and burgundy shiso leaves with sharply serrated margins.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-2d2f165f-ff46-4422-b09b-d18a350f4c66.png",
+      "destination": "src/assets/products/additional/shiso-3.webp"
+    },
+    {
+      "slug": "shiso",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Shiso: large green and burgundy shiso leaves with sharply serrated margins.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-31014b5a-0ed3-4771-847a-338b8566ff02.png",
+      "destination": "src/assets/products/additional/shiso-4.webp"
+    },
+    {
+      "slug": "sorrel",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sorrel: smooth arrow-shaped green sorrel leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-71315c80-3139-4423-8b24-f77e9a70460e.png",
+      "destination": "src/assets/products/additional/sorrel-1.webp"
+    },
+    {
+      "slug": "sorrel",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sorrel: smooth arrow-shaped green sorrel leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d16bf481-4cd4-4acc-809f-67d9937b4cb7.png",
+      "destination": "src/assets/products/additional/sorrel-2.webp"
+    },
+    {
+      "slug": "sorrel",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sorrel: smooth arrow-shaped green sorrel leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d9f5beb6-9456-4d37-ae36-576f65973483.png",
+      "destination": "src/assets/products/additional/sorrel-3.webp"
+    },
+    {
+      "slug": "sorrel",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sorrel: smooth arrow-shaped green sorrel leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1957e6ac-f21b-4856-a831-0ac3babecb28.png",
+      "destination": "src/assets/products/additional/sorrel-4.webp"
+    },
+    {
+      "slug": "spinach",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh spinach: tender medium-green oval to arrow-shaped leaves with slender green stems, naturally varied shapes and clear fine veins, no roots. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9780fe06-cc68-4cac-8d3d-2a31af9721cc.png",
+      "destination": "src/assets/products/additional/spinach-1.webp"
+    },
+    {
+      "slug": "spinach",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh spinach: tender medium-green oval to arrow-shaped leaves with slender green stems, naturally varied shapes and clear fine veins, no roots. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-eda60ff1-09e1-4716-811c-96a1b745a327.png",
+      "destination": "src/assets/products/additional/spinach-2.webp"
+    },
+    {
+      "slug": "spinach",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh spinach: tender medium-green oval to arrow-shaped leaves with slender green stems, naturally varied shapes and clear fine veins, no roots. Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e282ef17-d77c-4465-94ce-831a5068786a.png",
+      "destination": "src/assets/products/additional/spinach-3.webp"
+    },
+    {
+      "slug": "spinach",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh spinach: tender medium-green oval to arrow-shaped leaves with slender green stems, naturally varied shapes and clear fine veins, no roots. Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-0f9b1a49-325b-4ae3-8d80-1cd721212b1b.png",
+      "destination": "src/assets/products/additional/spinach-4.webp"
+    },
+    {
+      "slug": "spring-onions",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Spring onions: spring onions with white bases, small clean roots and long hollow green tops.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-3314aea2-2fcd-42c5-a324-76328638bee5.png",
+      "destination": "src/assets/products/additional/spring-onions-1.webp"
+    },
+    {
+      "slug": "spring-onions",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Spring onions: spring onions with white bases, small clean roots and long hollow green tops.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-c92f0299-7649-4295-9f67-bbcd3a1a68b1.png",
+      "destination": "src/assets/products/additional/spring-onions-2.webp"
+    },
+    {
+      "slug": "spring-onions",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Spring onions: spring onions with white bases, small clean roots and long hollow green tops.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-308941e9-d4d3-45f4-8ea3-7564aa90c01f.png",
+      "destination": "src/assets/products/additional/spring-onions-3.webp"
+    },
+    {
+      "slug": "spring-onions",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Spring onions: spring onions with white bases, small clean roots and long hollow green tops.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-12b7937e-41ec-4337-8437-2e151db6eb48.png",
+      "destination": "src/assets/products/additional/spring-onions-4.webp"
+    },
+    {
+      "slug": "strawberries",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Strawberries: small natural cluster of ripe red strawberries with green calyxes.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-34448d5c-3dd8-41cd-9096-dc73840cd17d.png",
+      "destination": "src/assets/products/additional/strawberries-1.webp"
+    },
+    {
+      "slug": "strawberries",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Strawberries: small natural cluster of ripe red strawberries with green calyxes.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-396727b6-acb0-4605-91b9-ab522075806f.png",
+      "destination": "src/assets/products/additional/strawberries-2.webp"
+    },
+    {
+      "slug": "strawberries",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Strawberries: small natural cluster of ripe red strawberries with green calyxes.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-4bef00e6-7889-451a-8114-83ed2b1c969b.png",
+      "destination": "src/assets/products/additional/strawberries-3.webp"
+    },
+    {
+      "slug": "strawberries",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Strawberries: small natural cluster of ripe red strawberries with green calyxes.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9f1252f5-e997-4641-976f-39889f38f4ad.png",
+      "destination": "src/assets/products/additional/strawberries-4.webp"
+    },
+    {
+      "slug": "sunflower-microgreens-live-tray",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower microgreens growing upright densely in one shallow plain dark charcoal propagation tray; young paired fleshy oval green cotyledons on thick pale stems, clean soilless growing mat visible at edges. Only young shoots, never mature sunflower flowers. Composition: Three-quarter view of the whole live growing tray with young shoots, centered on limestone, entire tray visible, generous breathing room. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-3f90b6c3-6154-4138-9a45-e63643c91886.png",
+      "destination": "src/assets/products/additional/sunflower-microgreens-live-tray-1.webp"
+    },
+    {
+      "slug": "sunflower-microgreens-live-tray",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower microgreens growing upright densely in one shallow plain dark charcoal propagation tray; young paired fleshy oval green cotyledons on thick pale stems, clean soilless growing mat visible at edges. Only young shoots, never mature sunflower flowers. Composition: Overhead flat lay of the live growing tray, dense canopy of young shoots, with a few freshly cut shoots separated beside it on limestone. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-acc49dc3-7142-4f9e-bb1e-5a2e038fb3be.png",
+      "destination": "src/assets/products/additional/sunflower-microgreens-live-tray-2.webp"
+    },
+    {
+      "slug": "sunflower-microgreens-live-tray",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower microgreens growing upright densely in one shallow plain dark charcoal propagation tray; young paired fleshy oval green cotyledons on thick pale stems, clean soilless growing mat visible at edges. Only young shoots, never mature sunflower flowers. Composition: Macro close view of tiny young leaves and stems still growing in their tray, showing botanically accurate texture and colour; a subtle tray rim visible below. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-f8558853-d152-49bb-86ad-ab8884bacd6a.png",
+      "destination": "src/assets/products/additional/sunflower-microgreens-live-tray-3.webp"
+    },
+    {
+      "slug": "sunflower-microgreens-live-tray",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower microgreens growing upright densely in one shallow plain dark charcoal propagation tray; young paired fleshy oval green cotyledons on thick pale stems, clean soilless growing mat visible at edges. Only young shoots, never mature sunflower flowers. Composition: One plain live growing tray set on a simple wide ivory ceramic saucer, and a few freshly cut young shoots on the saucer, gentle overhead angle. Keep the live growing tray clearly visible. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-da7a417d-785a-4a04-aa9e-db362af7d9e0.png",
+      "destination": "src/assets/products/additional/sunflower-microgreens-live-tray-4.webp"
+    },
+    {
+      "slug": "sunflower-shoots",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower shoots: thick pale stems with large paired oval green cotyledons. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-4990effa-0be5-47b3-9c70-fe74832a2d46.png",
+      "destination": "src/assets/products/additional/sunflower-shoots-1.webp"
+    },
+    {
+      "slug": "sunflower-shoots",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower shoots: thick pale stems with large paired oval green cotyledons. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d678870b-48bc-489b-98f5-3b4faa9969f9.png",
+      "destination": "src/assets/products/additional/sunflower-shoots-2.webp"
+    },
+    {
+      "slug": "sunflower-shoots",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower shoots: thick pale stems with large paired oval green cotyledons. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-071c8683-5247-4504-bfdd-95d193fe6444.png",
+      "destination": "src/assets/products/additional/sunflower-shoots-3.webp"
+    },
+    {
+      "slug": "sunflower-shoots",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Sunflower shoots: thick pale stems with large paired oval green cotyledons. Loose freshly cut microgreens/shoots without roots, seed tray, soil, or mature vegetables. Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-85851971-0385-48eb-8ddb-565587e40681.png",
+      "destination": "src/assets/products/additional/sunflower-shoots-4.webp"
+    },
+    {
+      "slug": "sweet-basil",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh sweet basil: bright green broad oval gently cupped leaves with clear veins on tender green stems, harvested fresh sprigs, no roots. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-2470526b-fd36-4c78-80af-8f8fa16e85ff.png",
+      "destination": "src/assets/products/additional/sweet-basil-1.webp"
+    },
+    {
+      "slug": "sweet-basil",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh sweet basil: bright green broad oval gently cupped leaves with clear veins on tender green stems, harvested fresh sprigs, no roots. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-3927826d-65d5-48e6-a145-b9c22c7a6561.png",
+      "destination": "src/assets/products/additional/sweet-basil-2.webp"
+    },
+    {
+      "slug": "sweet-basil",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh sweet basil: bright green broad oval gently cupped leaves with clear veins on tender green stems, harvested fresh sprigs, no roots. Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-1a458a8e-f7b9-45c2-8484-4d7d34ad7c48.png",
+      "destination": "src/assets/products/additional/sweet-basil-3.webp"
+    },
+    {
+      "slug": "sweet-basil",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Fresh sweet basil: bright green broad oval gently cupped leaves with clear veins on tender green stems, harvested fresh sprigs, no roots. Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-2f89da10-91e9-4908-9294-ef35e3b581a5.png",
+      "destination": "src/assets/products/additional/sweet-basil-4.webp"
+    },
+    {
+      "slug": "swiss-chard",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Swiss chard: broad dark green leaves with distinct red, yellow and white stems.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e26ebfbd-ca6a-4895-8999-3ebc37a7015e.png",
+      "destination": "src/assets/products/additional/swiss-chard-1.webp"
+    },
+    {
+      "slug": "swiss-chard",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Swiss chard: broad dark green leaves with distinct red, yellow and white stems.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e8efd6a3-cdd7-446f-b71a-709b461cdd71.png",
+      "destination": "src/assets/products/additional/swiss-chard-2.webp"
+    },
+    {
+      "slug": "swiss-chard",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Swiss chard: broad dark green leaves with distinct red, yellow and white stems.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-c1333f44-0cc6-4721-86e7-b1bbe817bc3d.png",
+      "destination": "src/assets/products/additional/swiss-chard-3.webp"
+    },
+    {
+      "slug": "swiss-chard",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Swiss chard: broad dark green leaves with distinct red, yellow and white stems.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-479fd454-6934-4c83-98c2-beed36c0705a.png",
+      "destination": "src/assets/products/additional/swiss-chard-4.webp"
+    },
+    {
+      "slug": "tarragon",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tarragon: long narrow pointed green leaves along thin stems.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-9b60216d-19b5-4245-876b-d9d862605f1f.png",
+      "destination": "src/assets/products/additional/tarragon-1.webp"
+    },
+    {
+      "slug": "tarragon",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tarragon: long narrow pointed green leaves along thin stems.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-0ff6db65-a909-4e05-8f19-df7bfb00c813.png",
+      "destination": "src/assets/products/additional/tarragon-2.webp"
+    },
+    {
+      "slug": "tarragon",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tarragon: long narrow pointed green leaves along thin stems.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-5f8c1dc7-a385-463e-b23c-324e3c779d07.png",
+      "destination": "src/assets/products/additional/tarragon-3.webp"
+    },
+    {
+      "slug": "tarragon",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tarragon: long narrow pointed green leaves along thin stems.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-5fe4d1ca-39f3-451b-966b-2ef5d901bd87.png",
+      "destination": "src/assets/products/additional/tarragon-4.webp"
+    },
+    {
+      "slug": "tatsoi",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tatsoi: low rosette of small dark green spoon-shaped leaves with pale slender petioles.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-32a9ddcb-327a-4710-a5c1-a56c28b416c3.png",
+      "destination": "src/assets/products/additional/tatsoi-1.webp"
+    },
+    {
+      "slug": "tatsoi",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tatsoi: low rosette of small dark green spoon-shaped leaves with pale slender petioles.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-e1712f0a-56d8-4d6f-a4d0-3857d1fbba48.png",
+      "destination": "src/assets/products/additional/tatsoi-2.webp"
+    },
+    {
+      "slug": "tatsoi",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tatsoi: low rosette of small dark green spoon-shaped leaves with pale slender petioles.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-d7765aae-fd88-4c8f-984e-4e1c547cb305.png",
+      "destination": "src/assets/products/additional/tatsoi-3.webp"
+    },
+    {
+      "slug": "tatsoi",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Tatsoi: low rosette of small dark green spoon-shaped leaves with pale slender petioles.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-f42615cf-4fdb-4017-a48d-06faa2021a0c.png",
+      "destination": "src/assets/products/additional/tatsoi-4.webp"
+    },
+    {
+      "slug": "thai-basil",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thai basil: slim pointed green leaves with characteristic purple stems and a small purple flower tip.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-93fcedea-a3b1-4df8-9534-e2dde514f062.png",
+      "destination": "src/assets/products/additional/thai-basil-1.webp"
+    },
+    {
+      "slug": "thai-basil",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thai basil: slim pointed green leaves with characteristic purple stems and a small purple flower tip.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-464e68de-6a7c-48fa-afe0-edd3412183c0.png",
+      "destination": "src/assets/products/additional/thai-basil-2.webp"
+    },
+    {
+      "slug": "thai-basil",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thai basil: slim pointed green leaves with characteristic purple stems and a small purple flower tip.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-03beb180-4b5b-48c0-9858-86cab1bc51e7.png",
+      "destination": "src/assets/products/additional/thai-basil-3.webp"
+    },
+    {
+      "slug": "thai-basil",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thai basil: slim pointed green leaves with characteristic purple stems and a small purple flower tip.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-a5d908d0-5f77-4689-aaaf-2e3ff9e9a08b.png",
+      "destination": "src/assets/products/additional/thai-basil-4.webp"
+    },
+    {
+      "slug": "thyme",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thyme: delicate woody stems with tiny grey-green leaves.  Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-93e6ed53-6038-44df-a57a-83c16eed381a.png",
+      "destination": "src/assets/products/additional/thyme-1.webp"
+    },
+    {
+      "slug": "thyme",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thyme: delicate woody stems with tiny grey-green leaves.  Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-40d87901-424e-4ecf-beed-5f0050efe6df.png",
+      "destination": "src/assets/products/additional/thyme-2.webp"
+    },
+    {
+      "slug": "thyme",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thyme: delicate woody stems with tiny grey-green leaves.  Composition: Close macro view showing the characteristic surface, leaves, veins, stems or cut texture of this crop. Keep the identity recognizable and real. Shallow depth of field with sharply detailed subject texture. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-2f633935-99ad-4dea-bb33-4736809bfd93.png",
+      "destination": "src/assets/products/additional/thyme-3.webp"
+    },
+    {
+      "slug": "thyme",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Thyme: delicate woody stems with tiny grey-green leaves.  Composition: Simple crop-only presentation on a plain ivory ceramic dish, at a gentle overhead angle. Fresh whole leaves or shoots for leafy crops; whole and cut pieces for fleshy crops. No sauce, oil, dressing or other ingredient. Warm ivory lightly textured limestone fills the background, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colours, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. Herbs shown as fresh leaves, never drinks or infusions. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb4d-1fe7-75b0-9f4b-62f291fcb69c/exec-4f704719-78ff-4c07-ba0a-fb815446872a.png",
+      "destination": "src/assets/products/additional/thyme-4.webp"
+    }
+  ]
+}

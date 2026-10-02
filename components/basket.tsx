@@ -96,13 +96,22 @@ export function useLineLabels() {
   const schedule = (slug: string) => {
     const box = getCartBox(slug);
     if (!box) return "";
-    const id = slug.slice(`box-${box.id}-`.length) as keyof typeof t.boxes.schedules;
+    const id = slug.slice(
+      `box-${box.id}-`.length,
+    ) as keyof typeof t.boxes.schedules;
     return t.boxes.schedules[id] ?? box.schedule;
   };
-  const name = (slug: string, products: { slug: string; name: string }[], fallback?: string) => {
+  const name = (
+    slug: string,
+    products: { slug: string; name: string }[],
+    fallback?: string,
+  ) => {
     const box = getCartBox(slug);
     if (box)
-      return fill(t.boxes.boxName, { name: t.boxes[box.id].name, schedule: schedule(slug) });
+      return fill(t.boxes.boxName, {
+        name: t.boxes[box.id].name,
+        schedule: schedule(slug),
+      });
     return products.find((p) => p.slug === slug)?.name ?? fallback ?? slug;
   };
   return { name, schedule };
@@ -121,7 +130,10 @@ export function BasketSummary({
   const { t, money, plural } = useI18n();
   const quoted = review?.deliveryQuoted;
   return (
-    <aside className={refreshing ? "basket-summary is-refreshing" : "basket-summary"} aria-busy={refreshing}>
+    <aside
+      className={refreshing ? "basket-summary is-refreshing" : "basket-summary"}
+      aria-busy={refreshing}
+    >
       <h2>{t.basket.summary}</h2>
       <div className="summary-row">
         <span>
@@ -133,7 +145,11 @@ export function BasketSummary({
               )
             : ""}
         </span>
-        <span>{review ? money(review.subtotal, review.currency as CurrencyCode) : "—"}</span>
+        <span>
+          {review
+            ? money(review.subtotal, review.currency as CurrencyCode)
+            : "—"}
+        </span>
       </div>
       <div className="summary-row">
         <span>{t.basket.deliveryFee}</span>
@@ -156,6 +172,13 @@ export function BasketSummary({
         </span>
       </div>
       {children}
+      <div className="basket-wellness">
+        <Leaf size={19} aria-hidden="true" />
+        <div>
+          <p className="basket-wellness-title">{t.basket.wellnessTitle}</p>
+          <p>{t.basket.wellnessText}</p>
+        </div>
+      </div>
       <span className="summary-trust">
         <ShieldCheck size={17} />{" "}
         {review?.paymentEnabled ? t.basket.securePayment : t.basket.noPayment}
@@ -190,7 +213,9 @@ export function BasketPage({
   const cart = useCart();
   const { t, locale, fill, money } = useI18n();
   const lineLabels = useLineLabels();
-  const { review, error, loading, refreshing, retry } = useBasketReview(cart.items);
+  const { review, error, loading, refreshing, retry } = useBasketReview(
+    cart.items,
+  );
   if (!cart.items.length)
     return (
       <div className="page-width section">
@@ -198,7 +223,9 @@ export function BasketPage({
       </div>
     );
   // Judge only the lines still in the basket, so removing a problem line clears it at once.
-  const reviewed = cart.items.map((line) => review?.items.find((i) => i.slug === line.slug));
+  const reviewed = cart.items.map((line) =>
+    review?.items.find((i) => i.slug === line.slug),
+  );
   const missing = reviewed.some((item) => item && !item.availableToEnquire);
   const outOfStock = reviewed.some((item) => item?.outOfStock);
   return (
@@ -269,7 +296,9 @@ export function BasketPage({
                               : labels.unlisted}
                       </p>
                       {box && (
-                        <span className="cart-product-note">{labels.perDelivery}</span>
+                        <span className="cart-product-note">
+                          {labels.perDelivery}
+                        </span>
                       )}
                     </div>
                   </div>

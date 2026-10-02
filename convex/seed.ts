@@ -1,3 +1,10 @@
+import { languages, type Language } from "../lib/i18n/config";
+import {
+  productText,
+  type ProductText,
+  type Translation,
+} from "../lib/i18n/content-source";
+import { planWellnessUpdate, wellnessNotes } from "./productWellnessData";
 import { v } from "convex/values";
 import { productDetailCatalogue } from "./productDetailData";
 import { recipeCatalogue } from "./recipeData";
@@ -149,5 +156,81 @@ export const productDetailPoints = internalMutation({
       updated++;
     }
     return { updated, total: productDetailCatalogue.length };
+  },
+});
+
+// One atomic revision per product and all its translations. Default is read-only.
+// Skip changed owner copy and incomplete translations instead of causing English fallback.
+export const productWellness = internalMutation({
+  args: { dryRun: v.optional(v.boolean()) },
+  handler: async (ctx, { dryRun = true }) => {
+    const changed: string[] = [];
+    const unchanged: string[] = [];
+    const skipped: { slug: string; reason: string }[] = [];
+    const translatedLanguages = (Object.keys(languages) as Language[]).filter(
+      (language) => language !== "en",
+    );
+    for (const crop of cropCatalogue) {
+      const product = await ctx.db
+        .query("products")
+        .withIndex("by_slug", (q) => q.eq("slug", crop.slug))
+        .unique();
+      if (!product?.details) {
+        skipped.push({ slug: crop.slug, reason: "Product or details missing" });
+        continue;
+      }
+      const stored = await Promise.all(
+        translatedLanguages.map((language) =>
+          ctx.db
+            .query("productTranslations")
+            .withIndex("by_language_slug", (q) =>
+              q.eq("language", language).eq("slug", crop.slug),
+            )
+            .unique(),
+        ),
+      );
+      const translations = Object.fromEntries(
+        stored.filter((row) => row !== null).map((row) => [row.language, row]),
+      ) as Partial<Record<Language, Translation<ProductText>>>;
+      const plan = planWellnessUpdate(
+        crop.slug,
+        crop.category,
+        productText(product, product.details),
+        translations,
+      );
+      if (plan.status === "skipped") {
+        skipped.push({ slug: crop.slug, reason: plan.reason });
+        continue;
+      }
+      if (plan.status === "unchanged") {
+        unchanged.push(crop.slug);
+        continue;
+      }
+      if (!dryRun) {
+        await ctx.db.patch(product._id, {
+          description: plan.english.description,
+          details: {
+            ...product.details,
+            nutrition: [
+              ...product.details.nutrition,
+              ...wellnessNotes(
+                crop.slug,
+                crop.category,
+                "en",
+                product.details.preparation,
+              ),
+            ],
+          },
+        });
+        for (const translation of plan.translations) {
+          const existing = stored.find(
+            (row) => row?.language === translation.language,
+          )!;
+          await ctx.db.patch(existing._id, translation);
+        }
+      }
+      changed.push(crop.slug);
+    }
+    return { dryRun, total: cropCatalogue.length, changed, unchanged, skipped };
   },
 });

@@ -1,0 +1,366 @@
+{
+  "butterhead-lettuce": {
+    "before": "91147a03",
+    "after": "b7a105b3"
+  },
+  "sweet-basil": {
+    "before": "d2cc98c7",
+    "after": "6bec4b6a"
+  },
+  "broccoli-microgreens": {
+    "before": "030e4e45",
+    "after": "8a09bc3b"
+  },
+  "cherry-tomatoes": {
+    "before": "4a8e9cf7",
+    "after": "82e3db47"
+  },
+  "spring-onions": {
+    "before": "1ef5c5a2",
+    "after": "3255142d"
+  },
+  "nasturtium-flowers": {
+    "before": "0b680c2c",
+    "after": "5fccbffd"
+  },
+  "romaine-lettuce": {
+    "before": "45f0ddeb",
+    "after": "61fb126c"
+  },
+  "thai-basil": {
+    "before": "78d5e578",
+    "after": "ddaa13ce"
+  },
+  "radish-microgreens": {
+    "before": "ca5b8b8c",
+    "after": "5b89d0fb"
+  },
+  "beefsteak-tomatoes": {
+    "before": "6102074f",
+    "after": "8b72737a"
+  },
+  "celery": {
+    "before": "a8c1355e",
+    "after": "b8e84297"
+  },
+  "viola-flowers": {
+    "before": "57706c53",
+    "after": "c55f1f24"
+  },
+  "green-oakleaf-lettuce": {
+    "before": "c0dca06d",
+    "after": "0ef0aad2"
+  },
+  "holy-basil": {
+    "before": "9b51a491",
+    "after": "4f380d21"
+  },
+  "pea-shoots": {
+    "before": "ae37c735",
+    "after": "8eefd29e"
+  },
+  "plum-tomatoes": {
+    "before": "2e9abfe9",
+    "after": "7b92573c"
+  },
+  "radish": {
+    "before": "5b6e09ca",
+    "after": "9dd4c6dc"
+  },
+  "pansy-flowers": {
+    "before": "a48c1533",
+    "after": "9ddaaf38"
+  },
+  "red-oakleaf-lettuce": {
+    "before": "b9c52f5d",
+    "after": "3a32c7b3"
+  },
+  "mint": {
+    "before": "0b72d3fa",
+    "after": "5ff6c121"
+  },
+  "sunflower-shoots": {
+    "before": "1f2b125f",
+    "after": "dd1c0298"
+  },
+  "cucumber": {
+    "before": "2d71685e",
+    "after": "fb6ef650"
+  },
+  "beetroot": {
+    "before": "2dd8dced",
+    "after": "f366e501"
+  },
+  "calendula-petals": {
+    "before": "ce6e877b",
+    "after": "3f92fff7"
+  },
+  "lollo-rosso-lettuce": {
+    "before": "02f4f4c2",
+    "after": "b772f709"
+  },
+  "coriander": {
+    "before": "9c2c6566",
+    "after": "c9bc8b44"
+  },
+  "mustard-microgreens": {
+    "before": "7bc39786",
+    "after": "0d68b3c7"
+  },
+  "bell-peppers": {
+    "before": "df9c2c48",
+    "after": "4d9e4b74"
+  },
+  "carrot": {
+    "before": "4cf54e65",
+    "after": "831ee38e"
+  },
+  "borage-flowers": {
+    "before": "8c301c91",
+    "after": "c10fc81e"
+  },
+  "lollo-bionda-lettuce": {
+    "before": "30e8376e",
+    "after": "757c41d7"
+  },
+  "flat-leaf-parsley": {
+    "before": "0546d0e1",
+    "after": "e114eeec"
+  },
+  "red-cabbage-microgreens": {
+    "before": "a4faaf55",
+    "after": "0c85f65b"
+  },
+  "green-chillies": {
+    "before": "fbe5364c",
+    "after": "77632d06"
+  },
+  "ginger": {
+    "before": "96aa67e0",
+    "after": "cd6ffa8c"
+  },
+  "iceberg-lettuce": {
+    "before": "a81591b3",
+    "after": "60da6f34"
+  },
+  "curly-parsley": {
+    "before": "6f8fa57e",
+    "after": "2686e3b5"
+  },
+  "kale-microgreens": {
+    "before": "23032e4b",
+    "after": "6f659df5"
+  },
+  "jalapeno-peppers": {
+    "before": "50d02da7",
+    "after": "636ee53b"
+  },
+  "turmeric": {
+    "before": "3dd538ed",
+    "after": "89efeeb5"
+  },
+  "arugula": {
+    "before": "113e1546",
+    "after": "64989588"
+  },
+  "dill": {
+    "before": "37344873",
+    "after": "4ba912fc"
+  },
+  "arugula-microgreens": {
+    "before": "2a58d288",
+    "after": "115b3115"
+  },
+  "strawberries": {
+    "before": "b1c7e0cf",
+    "after": "6e885c8b"
+  },
+  "potato": {
+    "before": "54313611",
+    "after": "fc6171a9"
+  },
+  "spinach": {
+    "before": "8f3597fa",
+    "after": "1d695171"
+  },
+  "chives": {
+    "before": "731986ca",
+    "after": "1a81eba6"
+  },
+  "beet-microgreens": {
+    "before": "5584ba7c",
+    "after": "665e751a"
+  },
+  "eggplant": {
+    "before": "fa849444",
+    "after": "969d5d1c"
+  },
+  "baby-kale": {
+    "before": "eec05bf9",
+    "after": "dd1f9acb"
+  },
+  "garlic-chives": {
+    "before": "40072a96",
+    "after": "9d7385d1"
+  },
+  "amaranth-microgreens": {
+    "before": "cbb2821d",
+    "after": "e14a0a3d"
+  },
+  "zucchini": {
+    "before": "0faf3414",
+    "after": "650324f9"
+  },
+  "curly-kale": {
+    "before": "8f7b1dc8",
+    "after": "35845787"
+  },
+  "oregano": {
+    "before": "8cf92cff",
+    "after": "867961ef"
+  },
+  "basil-microgreens": {
+    "before": "7bb75a9d",
+    "after": "cd895a59"
+  },
+  "muskmelon": {
+    "before": "cb1da443",
+    "after": "4daa1ae1"
+  },
+  "lacinato-kale": {
+    "before": "4b96c6ec",
+    "after": "9e8cdf52"
+  },
+  "thyme": {
+    "before": "e9042f32",
+    "after": "41a7eeea"
+  },
+  "coriander-microgreens": {
+    "before": "ed7ab488",
+    "after": "8979a250"
+  },
+  "green-beans": {
+    "before": "c9b841da",
+    "after": "cd90a56f"
+  },
+  "swiss-chard": {
+    "before": "db568563",
+    "after": "47071dcf"
+  },
+  "rosemary": {
+    "before": "d0109b10",
+    "after": "0b421b3c"
+  },
+  "fenugreek-microgreens": {
+    "before": "a802e69b",
+    "after": "5e0836a8"
+  },
+  "bok-choy": {
+    "before": "fc3d870d",
+    "after": "8293ed6e"
+  },
+  "sage": {
+    "before": "d87fce09",
+    "after": "31a85eef"
+  },
+  "wheatgrass": {
+    "before": "aee13940",
+    "after": "ddd3f197"
+  },
+  "tatsoi": {
+    "before": "41b56aea",
+    "after": "1ba42095"
+  },
+  "lemon-balm": {
+    "before": "9057880a",
+    "after": "e48bb8d8"
+  },
+  "kohlrabi-microgreens": {
+    "before": "46bf5e73",
+    "after": "8cca0f91"
+  },
+  "mizuna": {
+    "before": "28caab47",
+    "after": "df448528"
+  },
+  "shiso": {
+    "before": "49790bae",
+    "after": "cff169dc"
+  },
+  "garden-cress-microgreens": {
+    "before": "a462291b",
+    "after": "7d6a137a"
+  },
+  "mustard-greens": {
+    "before": "f9c39244",
+    "after": "cd64eaae"
+  },
+  "chervil": {
+    "before": "8c156fac",
+    "after": "4cb3b075"
+  },
+  "radish-microgreens-live-tray": {
+    "before": "afaa910f",
+    "after": "465241ac"
+  },
+  "watercress": {
+    "before": "41d3cdc3",
+    "after": "90fcf685"
+  },
+  "tarragon": {
+    "before": "69901840",
+    "after": "ace090a7"
+  },
+  "pea-microgreens-live-tray": {
+    "before": "5198e055",
+    "after": "4b8890b6"
+  },
+  "sorrel": {
+    "before": "c2f6c916",
+    "after": "41fabf30"
+  },
+  "marjoram": {
+    "before": "802bbebd",
+    "after": "5faa205d"
+  },
+  "sunflower-microgreens-live-tray": {
+    "before": "a436640b",
+    "after": "8e634626"
+  },
+  "endive": {
+    "before": "55ffbd35",
+    "after": "2066e2c5"
+  },
+  "lemongrass": {
+    "before": "9644eb9b",
+    "after": "bbdb1907"
+  },
+  "broccoli-microgreens-live-tray": {
+    "before": "184ffb84",
+    "after": "185398fc"
+  },
+  "radicchio": {
+    "before": "6054b24c",
+    "after": "f7622edc"
+  },
+  "fenugreek-microgreens-live-tray": {
+    "before": "b724d323",
+    "after": "072f253e"
+  },
+  "amaranth-greens": {
+    "before": "e36b47cf",
+    "after": "d338806a"
+  },
+  "red-amaranth-microgreens-live-tray": {
+    "before": "5db14b16",
+    "after": "0917c4e6"
+  },
+  "fenugreek-greens": {
+    "before": "2be34ad8",
+    "after": "68aecb62"
+  },
+  "napa-cabbage": {
+    "before": "aa9e90d8",
+    "after": "def1874c"
+  }
+}

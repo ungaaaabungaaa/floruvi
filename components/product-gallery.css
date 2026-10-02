@@ -1,0 +1,29 @@
+/* Keep every view reachable without shrinking the thumbnail touch targets. */
+.product-page .product-gallery {
+  min-width: 0;
+}
+
+.product-page .product-gallery .gallery-thumbnails {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 4px;
+  margin: -4px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+
+.product-page .product-gallery .gallery-thumbnails button {
+  flex: 0 0 80px;
+  width: 80px;
+  max-width: none;
+  height: 80px;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 600px) {
+  .product-page .product-gallery .gallery-thumbnails button {
+    flex-basis: 64px;
+    width: 64px;
+    height: 64px;
+  }
+}

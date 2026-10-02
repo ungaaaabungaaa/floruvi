@@ -1,0 +1,117 @@
+{
+  "generator": "built-in image_gen",
+  "images": [
+    {
+      "slug": "lemongrass",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh lemongrass stalks, pale ivory bulbous bases graduating into long narrow green blades. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-71c38838-8b38-45ec-b7f7-e52e366a6a2c.png",
+      "destination": "src/assets/products/additional/lemongrass-1.webp"
+    },
+    {
+      "slug": "lemongrass",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh lemongrass stalks, pale ivory bulbous bases graduating into long narrow green blades. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-da4d50f5-effd-4521-afdd-094f274cc60b.png",
+      "destination": "src/assets/products/additional/lemongrass-2.webp"
+    },
+    {
+      "slug": "lemongrass",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh lemongrass stalks, pale ivory bulbous bases graduating into long narrow green blades. Composition: Intimate macro photograph of the crop's distinctive natural botanical texture, showing leaf veins or fresh flesh or skin as appropriate, with shallow depth of field and softly blurred limestone. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-660d134c-420a-4ec4-bffa-b212baca8c3e.png",
+      "destination": "src/assets/products/additional/lemongrass-3.webp"
+    },
+    {
+      "slug": "lemongrass",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh lemongrass stalks, pale ivory bulbous bases graduating into long narrow green blades. Composition: Three-quarter close view of a simple ready-to-use portion of this crop alone in an unadorned off-white ceramic bowl or plate on the same limestone. Herbs remain fresh sprigs or leaves; no tea, no other food, no sauces. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-9a23b7a3-93bb-4e4b-87e7-e73aa131bcce.png",
+      "destination": "src/assets/products/additional/lemongrass-4.webp"
+    },
+    {
+      "slug": "lollo-bionda-lettuce",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Bionda lettuce with pale lime-green densely frilled leaf edges. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-0f612fdc-6fcc-4f5b-a2af-da817edc1974.png",
+      "destination": "src/assets/products/additional/lollo-bionda-lettuce-1.webp"
+    },
+    {
+      "slug": "lollo-bionda-lettuce",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Bionda lettuce with pale lime-green densely frilled leaf edges. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-0d8e9be6-ea73-4405-9ec3-966e6aaa79b1.png",
+      "destination": "src/assets/products/additional/lollo-bionda-lettuce-2.webp"
+    },
+    {
+      "slug": "lollo-bionda-lettuce",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Bionda lettuce with pale lime-green densely frilled leaf edges. Composition: Intimate macro photograph of the crop's distinctive natural botanical texture, showing leaf veins or fresh flesh or skin as appropriate, with shallow depth of field and softly blurred limestone. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-8c5acf35-ba08-4039-9f32-b60415c500db.png",
+      "destination": "src/assets/products/additional/lollo-bionda-lettuce-3.webp"
+    },
+    {
+      "slug": "lollo-bionda-lettuce",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Bionda lettuce with pale lime-green densely frilled leaf edges. Composition: Three-quarter close view of a simple ready-to-use portion of this crop alone in an unadorned off-white ceramic bowl or plate on the same limestone. Herbs remain fresh sprigs or leaves; no tea, no other food, no sauces. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-9a1cac95-164d-477e-96b3-b279c6f23731.png",
+      "destination": "src/assets/products/additional/lollo-bionda-lettuce-4.webp"
+    },
+    {
+      "slug": "lollo-rosso-lettuce",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Rosso lettuce with green bases and deep burgundy-red frilled leaf edges. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-44d2b59a-f01f-4ffb-a3d2-a750c35c95f0.png",
+      "destination": "src/assets/products/additional/lollo-rosso-lettuce-1.webp"
+    },
+    {
+      "slug": "lollo-rosso-lettuce",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Rosso lettuce with green bases and deep burgundy-red frilled leaf edges. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-312ac97c-5281-4a72-af96-4fc1d29a70fb.png",
+      "destination": "src/assets/products/additional/lollo-rosso-lettuce-2.webp"
+    },
+    {
+      "slug": "lollo-rosso-lettuce",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Rosso lettuce with green bases and deep burgundy-red frilled leaf edges. Composition: Intimate macro photograph of the crop's distinctive natural botanical texture, showing leaf veins or fresh flesh or skin as appropriate, with shallow depth of field and softly blurred limestone. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-6990204f-d3dd-4702-8971-0e59dfb4668f.png",
+      "destination": "src/assets/products/additional/lollo-rosso-lettuce-3.webp"
+    },
+    {
+      "slug": "lollo-rosso-lettuce",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: Lollo Rosso lettuce with green bases and deep burgundy-red frilled leaf edges. Composition: Three-quarter close view of a simple ready-to-use portion of this crop alone in an unadorned off-white ceramic bowl or plate on the same limestone. Herbs remain fresh sprigs or leaves; no tea, no other food, no sauces. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-99449196-2ad9-4064-b26a-d63225f109f3.png",
+      "destination": "src/assets/products/additional/lollo-rosso-lettuce-4.webp"
+    },
+    {
+      "slug": "marjoram",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh marjoram sprigs with small softly oval grey-green leaves. Composition: Three-quarter view of a small loose arrangement of the whole fresh crop directly on the limestone, fully visible with breathing room. No bowl. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-36058103-3555-4b25-aa5a-8b2c9b0603c1.png",
+      "destination": "src/assets/products/additional/marjoram-1.webp"
+    },
+    {
+      "slug": "marjoram",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh marjoram sprigs with small softly oval grey-green leaves. Composition: Overhead flat lay of neatly separated edible portions of the crop, with intentional spacing directly on the limestone. Whole leaves or sprigs for leafy crops and herbs; sliced and whole pieces for fleshy vegetables and fruits. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-c5de4f19-e494-4f51-b01b-9148abe002ac.png",
+      "destination": "src/assets/products/additional/marjoram-2.webp"
+    },
+    {
+      "slug": "marjoram",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh marjoram sprigs with small softly oval grey-green leaves. Composition: Intimate macro photograph of the crop's distinctive natural botanical texture, showing leaf veins or fresh flesh or skin as appropriate, with shallow depth of field and softly blurred limestone. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-016b3a81-c9b1-4104-a2b4-2f01c775fc9a.png",
+      "destination": "src/assets/products/additional/marjoram-3.webp"
+    },
+    {
+      "slug": "marjoram",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Square premium farm catalogue photograph. Subject: fresh marjoram sprigs with small softly oval grey-green leaves. Composition: Three-quarter close view of a simple ready-to-use portion of this crop alone in an unadorned off-white ceramic bowl or plate on the same limestone. Herbs remain fresh sprigs or leaves; no tea, no other food, no sauces. Warm ivory textured limestone fills the background, subtle natural stone texture, soft diffused daylight from upper left, gentle realistic shadows, true natural crop colors, refined farm-to-table editorial photography matching an ivory limestone fresh produce catalogue. Realistic scale, botanically accurate, appetizing fresh condition. One single full frame photograph, not a collage. No words, letters, labels, watermarks, logos, hands, packaging, illustrations, medical symbols or unrelated foods. ",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb21-1fd0-7481-819e-72559774c1e5/exec-a7ebfc5a-dbe7-404a-a6b9-f235fe9a164c.png",
+      "destination": "src/assets/products/additional/marjoram-4.webp"
+    }
+  ]
+}

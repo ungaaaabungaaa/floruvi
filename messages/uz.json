@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Floruvi Farm",
-    "defaultTitle": "Floruvi — Oʻstirishga arziydigan yangilik",
+    "defaultTitle": "Yangi bargli sabzavotlar, koʻkatlar va mikrokoʻkatlar | Floruvi",
     "titleTemplate": "%s | Floruvi Farm",
     "description": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. Butun Hindiston boʻylab uyingiz yoki biznesingiz uchun yangi hosil.",
     "descriptionExport": "Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar va boshqalarni kashf eting. {country} dagi uylar va bizneslar uchun Hindistondan yangi hosil.",
@@ -15,8 +15,8 @@
       "description": "Floruvi sabzavotlari va koʻkatlarini koʻrib chiqing. Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar, mevali ekinlar, ildizmevalar va yeyiladigan gullarni kashf eting."
     },
     "boxes": {
-      "title": "Sabzavot qutisi obunalari",
-      "description": "Bitta kishi, ikki kishi yoki oila uchun sabzavot qutilari. Bir martalik quti, haftalik yoki oylik yetkazib berishni tanlang. Floruvi'dan mavjudligini soʻrang."
+      "title": "Sabzavot qutilari mavjudligi",
+      "description": "Single (1), Dual (2) yoki Family (4+) sabzavot qutilarini har kuni, har hafta yoki har ikki haftada yetkazish haqida soʻrang. Bu faqat mavjudlik soʻrovi."
     },
     "cart": {
       "title": "Savatingiz"
@@ -207,7 +207,9 @@
       "emptyEyebrow": "YANGILIK UCHUN OʻRIN",
       "emptyTitle": "Savatingiz boʻsh.",
       "emptyText": "Boshlash uchun sabzavotlarni tanlang.",
-      "emptyCta": "Hosilni Koʻrib Chiqish"
+      "emptyCta": "Hosilni Koʻrib Chiqish",
+      "wellnessTitle": "Kundalik salomatlikka kichik sarmoya",
+      "wellnessText": "Yoqtirgan taomlaringizda turli o‘simlik mahsulotlariga joy bering. Kichik va muntazam tanlovlar yig‘ilib boradi."
     },
     "validation": {
       "name": "Ismingizni kiriting.",
@@ -468,7 +470,8 @@
       "servingIdea": "{name} tortish gʻoyasi",
       "viewRecipe": "Retseptni koʻrish",
       "images": "Mahsulot rasmlari",
-      "view": "{label}ni koʻrish"
+      "view": "{label}ni koʻrish",
+      "additionalView": "{name} · Ko‘rinish {number}"
     },
     "breadcrumbHome": "Bosh sahifa",
     "breadcrumbShop": "Doʻkon",
@@ -506,7 +509,9 @@
       "domestic": "Butun Hindiston boʻylab yetkazib berish",
       "export": "Soʻrov asosida {country}ga yetkazib berish",
       "mix": "Oʻzingiz xohlagan aralashmani tanlang"
-    }
+    },
+    "eatingGuide": "Sog‘lom ovqatlanish qo‘llanmasi",
+    "fibreGuide": "Tola va hazm bo‘yicha qo‘llanma"
   },
   "cart": {
     "heroAlt": "Yangi sabzavotlar solingan savat",
@@ -1463,6 +1468,41 @@
     "edible-flowers": {
       "name": "Yeyiladigan gullar",
       "description": "Nozik taomlar uchun nafis rang. Faqat oziq-ovqatga yaroqli navlar."
+    }
+  },
+  "categoryPage": {
+    "title": "Hindistonda onlayn {name}",
+    "titleExport": "Hindistondan {name} – {country}",
+    "productsHeading": "Mahsulotlaringizni tanlang",
+    "recipesHeading": "Shu ekinlardan tayyorlanadigan taomlar",
+    "browseCategories": "Turkum boʻyicha koʻrish",
+    "enquiry": "Ulgurji taʼminot haqida soʻrash",
+    "deliveryLink": "Yetkazib berish tafsilotlari"
+  },
+  "categoryGuides": {
+    "leafy-greens": {
+      "intro": "Tanlovni tayyorlamoqchi boʻlgan taomingizga moslang. Butterhead salatining yumshoq barglariga masalliq solib berish mumkin. Romen salati esa oʻramalarga qarsildoq tuzilish beradi. Ismaloq dal va tez qovuriladigan taomlarga mos keladi. Bok choyning bargi ham, poyasi ham shoʻrva va qovurmalarda ishlatiladi. Kuchliroq taʼm uchun mayin barglarni rukola yoki xantal barglari bilan aralashtiring.",
+      "selection": "Miqdorni tanlashdan oldin har bir mahsulotning qadoq hajmini tekshiring. Nozik salat barglarini xom taomlarga, qattiqroq barglarni pishirishga tanlang. Tayyorlashgacha barglarni quruq saqlang. Ishlatishdan oldin yuving va salat sousini dasturxonga tortish oldidan qoʻshing."
+    },
+    "herbs": {
+      "intro": "Koʻkatlarni tayyorlamoqchi boʻlgan taomingizga qarab tanlang. Shirin rayhon pomidor va pastaga mos. Kashnich va yalpiz chatni hamda tayyor taom ustiga sepish uchun qulay. Shivit yogurtli sousga, rozmarin va timyan esa pechda pishirilgan sabzavotlarga mos keladi. Kuchli hidli koʻkatlarni aralashtirganda oz miqdordan boshlang.",
+      "selection": "Koʻrsatilgan qadoq hajmini retsept bilan solishtiring. Taomni bezash uchun pesto yoki chatni tayyorlashga qaraganda kamroq koʻkat kerak. Nozik barglarni pishirish oxirida qoʻshing. Har bir mahsulotning saqlash yoʻriqnomasini oʻqing: rayhon va poyasi yogʻochlashgan koʻkatlar turlicha parvarish talab qiladi."
+    },
+    "microgreens": {
+      "intro": "Taʼmi va tuzilishiga qarab tanlang. Turp va xantal mikrokoʻkatlari achchiqroq taʼm beradi. Koʻk noʻxat va kungaboqar nihollari esa mayinroq taʼm va qarsildoq tuzilish qoʻshadi. Ularni sendvich, donli taom yoki pishgan ovqatning ustiga qoʻshing. Kattaroq salat barglariga oz miqdor aralashtirsangiz, tuzilishi xilma-xil boʻladi.",
+      "selection": "Katalogda kesilgan qadoqlar va ayrim navlarning tirik niholli patnislari bor. Kerakli shaklni tanlash uchun mahsulot nomi va qadoq yorligʻini tekshiring. Tirik patnisdan kerakli vaqtda kerakli miqdorni kesib olishingiz mumkin. Mahsulot sahifasidagi tayyorlash va parvarish koʻrsatmalariga amal qiling."
+    },
+    "fruiting-crops": {
+      "intro": "Ekinni pishirish usuliga mos tanlang. Cherri pomidor salat va tez pishirishga, olxoʻrisimon pomidor esa sousga mos. Bodring va bulgʻor qalampiri xom taomlarga qarsildoq tuzilish beradi. Baqlajon va sukkinini grilda yoki pechda pishirish mumkin. Qulupnay va mushk qovuni mevali kosalar hamda oddiy shirinliklar uchun mos keladi.",
+      "selection": "Miqdorni qadoq yorligʻiga qarab belgilang: unda vazn yoki dona soni koʻrsatilishi mumkin. Bir masalliqni boshqasiga almashtirishdan oldin navini tekshiring, ayniqsa achchiq qalampirni. Bir ovqatda bir nechta ekindan foydalanish gʻoyalari uchun bogʻlangan retseptlarni koʻring."
+    },
+    "roots-and-stems": {
+      "intro": "Bu ekinlar kundalik taomlarga turli tuzilish beradi. Sabzi va lavlagini pechda pishirish yoki qirgʻichdan oʻtkazib salatga qoʻshish mumkin. Turp oʻtkir taʼm va qarsildoq tuzilish beradi. Selderey va koʻk piyoz shoʻrva yoki qovurmalarga asos boʻladi. Zanjabil va zarchava oz miqdorda taʼm qoʻshadi, kartoshka esa taomning asosiy masalligʻi boʻlishi mumkin.",
+      "selection": "Miqdorni tayyorlash usuliga qarab tanlang. Qadoq vazn boʻyicha yoki bogʻlam qilib sotilishini tekshiring. Ildizmevalarni kesishdan oldin yuving. Turli vaqtda pishadigan masalliqlarni ajrating. Batafsil maʼlumot uchun har bir mahsulotning tayyorlash koʻrsatmalarini oʻqing."
+    },
+    "edible-flowers": {
+      "intro": "Gullarni likopcha rangiga ham, taomga ham moslab tanlang. Nastursiya gullari salatga oʻtkirroq taʼm qoʻshadi. Viola va pansy gullari kichik bezaklarga mos, kalendula gulbarglarini esa tayyor taom ustiga sepish mumkin. Bir nechta navni aralashtirishdan oldin mahsulot tavsiflarini solishtiring.",
+      "selection": "Qadoqda butun gullar yoki gulbarglar borligini, miqdor esa dona yoki vazn bilan koʻrsatilganini tekshiring. Ehtiyotkorlik bilan ushlang va dasturxonga tortish oldidan qoʻshing. Oziq-ovqat sifatida sotiladigan gullardan foydalaning. Gul doʻkonidagi bezak gullari ularning oʻrnini bosa olmaydi."
     }
   },
   "recipeCategories": {

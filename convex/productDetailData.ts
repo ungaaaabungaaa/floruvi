@@ -1,5 +1,6 @@
 import { servingNotes } from "./productServingNotes";
-import { cropCatalogue } from "./catalogueData";
+import { cropCatalogue, productFlavourDescriptions } from "./catalogueData";
+import { wellnessNotes } from "./productWellnessData";
 
 const vegetableSource = "https://www.myplate.gov/eat-healthy/vegetables";
 const microgreenSource = "https://extension.psu.edu/the-abcs-of-microgreens";
@@ -263,7 +264,7 @@ export const productDetailCatalogue = cropCatalogue.map((p, index) => {
         : "Rinse gently and drain well. Add a small handful to the finished dish to keep the shoots crisp."
       : "");
   if (!preparation) throw new Error(`Missing preparation: ${p.slug}`);
-  return {
+  const entry = {
     slug: p.slug,
     details: {
       tagline:
@@ -273,7 +274,11 @@ export const productDetailCatalogue = cropCatalogue.map((p, index) => {
           .map((use) => use.charAt(0).toUpperCase() + use.slice(1))
           .join(". ") + ".",
       benefits: [
-        { icon: "leaf", title: "Flavour & texture", text: p.description },
+        {
+          icon: "leaf",
+          title: "Flavour & texture",
+          text: productFlavourDescriptions[p.slug],
+        },
         {
           icon: "utensils",
           title: "An easy addition",
@@ -391,4 +396,9 @@ export const productDetailCatalogue = cropCatalogue.map((p, index) => {
       bannerIndex: index % 6,
     },
   };
+  entry.details.nutrition = [
+    ...entry.details.nutrition,
+    ...wellnessNotes(p.slug, p.category, "en", preparation),
+  ];
+  return entry;
 });
