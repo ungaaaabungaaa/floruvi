@@ -46,4 +46,14 @@ The default is `dryRun: true`. Add `--prod` only when production publication is 
 
 A product updates only if its English text matches the recorded baseline and all nine stored translations match that source and shape. Each update appends to the stored translations, preserving their wording. Missing or stale translations cause the entire product to be skipped. The mutation writes English and translations in one transaction. Prices, images, stock, publication, growing notes, nutrient source URLs and owner edits stay intact.
 
-The content guard is in `convex/productWellnessBaseline.json`. Tests cover all 91 before/after records, translation completeness, owner-copy preservation, stale-translation refusal and repeat runs. No remote seed or production write was run as part of authoring this change.
+The content guard is in `convex/productWellnessBaseline.json`. Tests cover all 91 before/after records, translation completeness, owner-copy preservation, stale-translation refusal and repeat runs.
+
+## Development checks
+
+The existing development deployment `efficient-toad-585` received this revision on 2 October 2026. The dry run proposed 91 updates and skipped zero products. Applying the update changed all 91. A second dry run returned zero changes and 91 unchanged products. All 73 tests pass after merging the SEO revision `1cb685e`. Product and basket pages fit a 320 px viewport. The basket reminder is below the checkout control.
+
+## Production content checks
+
+On 2 October 2026, the Convex deploy completed on `polished-mosquito-828` with TypeScript and schema validation enabled. No indexes were deleted. The guarded preview proposed 91 updates and skipped zero products. The applied update changed all 91; the repeat preview returned zero changes, 91 unchanged and zero skipped.
+
+The public catalogue returned all 91 products in each of the ten languages. All 910 descriptions match the reviewed snapshots, and all non-English records remain translated. Public nutrition rows also match for carrot, potato, sweet basil, radish microgreens and borage flowers. These cover the vegetable, starch, seasoning, microgreen and flower rules. The website release for the basket reminder and full image set is tracked in `docs/34-product-images.md`.

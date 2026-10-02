@@ -1,0 +1,185 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "slug": "amaranth-greens",
+      "name": "Amaranth greens",
+      "category": "leafy-greens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: mature fresh green amaranth leaves and tender stems, oval leaves with subtle reddish stems. Composition: Loose whole harvested crop, relaxed small cluster, low three-quarter camera angle. Plenty of cream negative space. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-greens-1.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-3c7c4a09-1335-4540-8bcb-9e7ebfd8ee89.png"
+    },
+    {
+      "slug": "amaranth-greens",
+      "name": "Amaranth greens",
+      "category": "leafy-greens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: mature fresh green amaranth leaves and tender stems, oval leaves with subtle reddish stems. Composition: Overhead flat-lay of neatly separated edible portions on the bare stone, balanced sparse arrangement. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-greens-2.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-d4604bf5-43f4-41c3-a1f0-68c23c5e9985.png"
+    },
+    {
+      "slug": "amaranth-greens",
+      "name": "Amaranth greens",
+      "category": "leafy-greens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: mature fresh green amaranth leaves and tender stems, oval leaves with subtle reddish stems. Composition: Tight macro botanical detail. Fill most of frame with the crop's distinctive natural texture. Shallow depth of field. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-greens-3.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-9af8aee8-c375-4037-ad2e-6dc4482eb1d3.png"
+    },
+    {
+      "slug": "amaranth-greens",
+      "name": "Amaranth greens",
+      "category": "leafy-greens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: mature fresh green amaranth leaves and tender stems, oval leaves with subtle reddish stems. Composition: A simple ready-to-use portion of this crop alone in a plain shallow off-white ceramic bowl or plate, medium three-quarter view. No seasoning or other food. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-greens-4.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-81ecb5fb-2f8e-429f-af82-5323fdd70d38.png"
+    },
+    {
+      "slug": "amaranth-microgreens",
+      "name": "Amaranth microgreens",
+      "category": "microgreens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: tiny red amaranth microgreens, thin magenta stems and elongated small burgundy cotyledons. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Loose whole harvested crop, relaxed small cluster, low three-quarter camera angle. Plenty of cream negative space. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-microgreens-1.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-826c6592-6661-4272-b3cd-a24068bf28d3.png"
+    },
+    {
+      "slug": "amaranth-microgreens",
+      "name": "Amaranth microgreens",
+      "category": "microgreens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: tiny red amaranth microgreens, thin magenta stems and elongated small burgundy cotyledons. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Overhead flat-lay of neatly separated edible portions on the bare stone, balanced sparse arrangement. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-microgreens-2.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-4e60e5ec-0209-4e5e-a9ed-5e45a7037bd7.png"
+    },
+    {
+      "slug": "amaranth-microgreens",
+      "name": "Amaranth microgreens",
+      "category": "microgreens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: tiny red amaranth microgreens, thin magenta stems and elongated small burgundy cotyledons. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Tight macro botanical detail. Fill most of frame with the crop's distinctive natural texture. Shallow depth of field. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-microgreens-3.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-7e83dfa1-acdb-4f10-a914-7c15cea3e28a.png"
+    },
+    {
+      "slug": "amaranth-microgreens",
+      "name": "Amaranth microgreens",
+      "category": "microgreens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: tiny red amaranth microgreens, thin magenta stems and elongated small burgundy cotyledons. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: A simple ready-to-use portion of this crop alone in a plain shallow off-white ceramic bowl or plate, medium three-quarter view. No seasoning or other food. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/amaranth-microgreens-4.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-f4a317bd-5538-4bbb-a807-9ca7d1194236.png"
+    },
+    {
+      "slug": "arugula",
+      "name": "Arugula",
+      "category": "leafy-greens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula. Composition: Loose whole harvested crop, relaxed small cluster, low three-quarter camera angle. Plenty of cream negative space. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-1.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-a143ae3e-7cd6-40f8-90f6-8f6369221195.png"
+    },
+    {
+      "slug": "arugula",
+      "name": "Arugula",
+      "category": "leafy-greens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula. Composition: Overhead flat-lay of neatly separated edible portions on the bare stone, balanced sparse arrangement. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-2.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-9bee3352-6066-400d-a2a9-a0758812a7ca.png"
+    },
+    {
+      "slug": "arugula",
+      "name": "Arugula",
+      "category": "leafy-greens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula. Composition: Tight macro botanical detail. Fill most of frame with the crop's distinctive natural texture. Shallow depth of field. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-3.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-cf6b1fbf-6a15-45ba-af8c-1ec91690e7b4.png"
+    },
+    {
+      "slug": "arugula",
+      "name": "Arugula",
+      "category": "leafy-greens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula. Composition: A simple ready-to-use portion of this crop alone in a plain shallow off-white ceramic bowl or plate, medium three-quarter view. No seasoning or other food. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-4.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-9100d0e0-d7b1-4178-85c7-8b4005237b6a.png"
+    },
+    {
+      "slug": "arugula-microgreens",
+      "name": "Arugula microgreens",
+      "category": "microgreens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula microgreens. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Loose whole harvested crop, relaxed small cluster, low three-quarter camera angle. Plenty of cream negative space. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-microgreens-1.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-5658aaf6-4861-48f5-8f70-8aa3ebb0868d.png"
+    },
+    {
+      "slug": "arugula-microgreens",
+      "name": "Arugula microgreens",
+      "category": "microgreens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula microgreens. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Overhead flat-lay of neatly separated edible portions on the bare stone, balanced sparse arrangement. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-microgreens-2.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-e75ac4f3-c6dc-488c-bf60-552591643beb.png"
+    },
+    {
+      "slug": "arugula-microgreens",
+      "name": "Arugula microgreens",
+      "category": "microgreens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula microgreens. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: Tight macro botanical detail. Fill most of frame with the crop's distinctive natural texture. Shallow depth of field. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-microgreens-3.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-952a5de3-aec4-4a8f-b163-e3c41c523b19.png"
+    },
+    {
+      "slug": "arugula-microgreens",
+      "name": "Arugula microgreens",
+      "category": "microgreens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Arugula microgreens. Small harvested cotyledon-stage shoots only; no mature crop or roots, no soil. Composition: A simple ready-to-use portion of this crop alone in a plain shallow off-white ceramic bowl or plate, medium three-quarter view. No seasoning or other food. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/arugula-microgreens-4.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-4619b248-683e-4b52-8ccf-8473f90d4bde.png"
+    },
+    {
+      "slug": "baby-kale",
+      "name": "Baby kale",
+      "category": "leafy-greens",
+      "variant": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Baby kale. Composition: Loose whole harvested crop, relaxed small cluster, low three-quarter camera angle. Plenty of cream negative space. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/baby-kale-1.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-15e721b4-883c-468f-97cf-10ff8c9c4582.png"
+    },
+    {
+      "slug": "baby-kale",
+      "name": "Baby kale",
+      "category": "leafy-greens",
+      "variant": 2,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Baby kale. Composition: Overhead flat-lay of neatly separated edible portions on the bare stone, balanced sparse arrangement. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/baby-kale-2.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-2d8e6af4-dd7f-4f23-aa1a-558f23830d4b.png"
+    },
+    {
+      "slug": "baby-kale",
+      "name": "Baby kale",
+      "category": "leafy-greens",
+      "variant": 3,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Baby kale. Composition: Tight macro botanical detail. Fill most of frame with the crop's distinctive natural texture. Shallow depth of field. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/baby-kale-3.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-a8fdd4f9-09d9-488b-807c-e15bdb23e878.png"
+    },
+    {
+      "slug": "baby-kale",
+      "name": "Baby kale",
+      "category": "leafy-greens",
+      "variant": 4,
+      "prompt": "Use case: photorealistic-natural. Asset type: square Floruvi produce product gallery photograph. Subject: Baby kale. Composition: A simple ready-to-use portion of this crop alone in a plain shallow off-white ceramic bowl or plate, medium three-quarter view. No seasoning or other food. Scene: pale warm ivory textured limestone surface, seamless soft cream background. Style: refined farm-to-table editorial food photography, botanically accurate, real textures and natural crop colors, gentle natural daylight from left, soft shadows, restrained earthy palette. Single full-frame photo only. No collage, no inset, no split panels, no words, labels, logos, watermark, packaging, hands, people or unrelated crops. Match a warm cream product catalogue.",
+      "destination": "src/assets/products/additional/baby-kale-4.webp",
+      "sourcePath": "/Users/syedabdulmuqeeth/.codex/generated_images/01a0fb20-bdf2-7ba1-8c16-4d9935aac847/exec-ddbfd9a3-121d-4b95-a322-c6b0bf81f201.png"
+    }
+  ]
+}

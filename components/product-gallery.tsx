@@ -10,6 +10,8 @@ import { fill } from "@/lib/i18n/format";
 import { productImages } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import { productGalleryImages } from "@/lib/product-gallery-images";
+import { additionalProductImages } from "@/lib/additional-product-images";
+import "./product-gallery.css";
 
 export function ProductGallery({
   product,
@@ -37,6 +39,14 @@ export function ProductGallery({
           },
         ]
       : []),
+    ...(additionalProductImages[product.slug] ?? []).map((src, index) => ({
+      src,
+      label: fill(labels.additionalView, {
+        name: product.name,
+        number: index + 1,
+      }),
+      href: null,
+    })),
     ...dishes.slice(0, 2).map((dish) => ({
       src: dish.image,
       label: fill(labels.servingIdea, { name: dish.name }),
@@ -69,7 +79,11 @@ export function ProductGallery({
           />
         )}
       </div>
-      <div className="gallery-thumbnails" aria-label={labels.images}>
+      <div
+        className="gallery-thumbnails"
+        role="group"
+        aria-label={labels.images}
+      >
         {views.map((item, index) => (
           <button
             key={item.label}
