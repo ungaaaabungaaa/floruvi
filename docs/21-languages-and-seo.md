@@ -65,7 +65,7 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 
 ## Search update, 3 October 2026
 
-Owner request: complete general SEO, review the whole platform, push for deployment. Instagram, Facebook and the phone number come later. Checked with the seo-audit, schema, ai-seo, site-architecture and programmatic-seo skills (search), and react-best-practices, web-design-guidelines, convex-authz and better-auth-security (review).
+Owner request: complete general SEO, review the whole platform, push for deployment. Instagram, Facebook and the phone number come later. Search work followed the seo-audit skill checklist. The platform review used react-best-practices, web-design-guidelines, convex-authz and better-auth-security.
 
 - **Speed.** Catalogue and recipe reads use the Next.js data cache (`lib/convex-public.ts`, 5 minutes, tag `catalogue`). Home, product, recipe, category, FAQ and policy pages are now cached (ISR) instead of rendered per request. A stock change in `/admin` refreshes the cache at once. Checkout, payment and chat reads stay live. Shop and contact still read the query string, so they render per request with cached data.
 - **Home hero.** Only the shown and next photos load, so the first photo is not slowed by five hidden ones.
