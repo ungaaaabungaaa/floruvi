@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Floruvi Farm",
-    "defaultTitle": "Floruvi — Freshness worth growing",
+    "defaultTitle": "Fresh greens, herbs & microgreens | Floruvi",
     "titleTemplate": "%s | Floruvi Farm",
     "description": "Explore leafy greens, herbs, microgreens & more. Fresh produce for your home or business, delivered across India.",
     "descriptionExport": "Explore leafy greens, herbs, microgreens & more. Fresh produce from India for homes & businesses in {country}.",
@@ -15,8 +15,8 @@
       "description": "Browse Floruvi’s vegetables & herbs. Explore leafy greens, herbs, microgreens, fruiting crops, roots, & edible flowers."
     },
     "boxes": {
-      "title": "Vegetable box subscriptions",
-      "description": "Vegetable boxes for one, two, or a family. Choose a one-time box, weekly, or monthly delivery. Request availability from Floruvi."
+      "title": "Vegetable box availability",
+      "description": "Ask about Single (1), Dual (2) or Family (4+) vegetable boxes, with daily, weekly or every two weeks delivery. Availability enquiries only."
     },
     "cart": {
       "title": "Your cart"
@@ -1463,6 +1463,41 @@
     "edible-flowers": {
       "name": "Edible flowers",
       "description": "Delicate colour for thoughtful plates. Food-grade varieties only."
+    }
+  },
+  "categoryPage": {
+    "title": "{name} online in India",
+    "titleExport": "{name} from India – {country}",
+    "productsHeading": "Choose your produce",
+    "recipesHeading": "Recipes with these crops",
+    "browseCategories": "Browse by category",
+    "enquiry": "Ask about bulk supply",
+    "deliveryLink": "Delivery details"
+  },
+  "categoryGuides": {
+    "leafy-greens": {
+      "intro": "Build your selection around the meal. Butterhead lettuce suits soft salad cups, while romaine adds crunch to wraps. Spinach works in dal and quick sautés. Bok choy brings both leaves and stems to a broth or stir-fry. Mix mild leaves with arugula or mustard greens when you want a stronger flavour.",
+      "selection": "Check the pack size on each product before you choose quantities. Plan tender salad leaves for fresh dishes and firmer greens for cooking. Keep leaves dry until preparation, rinse before use, and add dressing just before serving."
+    },
+    "herbs": {
+      "intro": "Choose herbs for the dish you plan to make. Sweet basil pairs with tomatoes and pasta. Coriander and mint suit chutneys and fresh toppings. Dill works in yoghurt dressings, while rosemary and thyme suit roast vegetables. Start with a small amount when combining herbs with strong aromas.",
+      "selection": "Compare the listed pack sizes with your recipe. A garnish uses less than a pesto or chutney. Add tender leaves near the end of cooking. Read each product’s storage guidance, as basil and woody herbs need different care."
+    },
+    "microgreens": {
+      "intro": "Choose by flavour and texture. Radish and mustard microgreens add a peppery finish, while pea shoots and sunflower shoots bring a milder crunch. Use them in sandwiches, grain bowls or as a final topping for a cooked dish. Combine a small portion with larger salad leaves for contrast.",
+      "selection": "The catalogue includes cut packs and selected live trays. Check the product name and pack label so you choose the intended format. A live tray lets you cut a portion when needed. Follow the preparation and care notes on the product page."
+    },
+    "fruiting-crops": {
+      "intro": "Match the crop to the way you cook. Cherry tomatoes suit salads and quick roasting, while plum tomatoes work in sauces. Cucumber and bell peppers add crunch to fresh dishes. Eggplant and zucchini suit grilling or roasting. Strawberries and muskmelon offer choices for fruit bowls and simple desserts.",
+      "selection": "Plan quantities from the pack label, which may show weight or a count. Check the variety before replacing one ingredient with another, especially chillies. Browse the linked recipes for ideas that use several crops in the same meal."
+    },
+    "roots-and-stems": {
+      "intro": "These crops bring different textures to everyday cooking. Carrots and beetroot suit roasting or grated salads. Radish adds a sharp crunch. Celery and spring onions form a base for soups or stir-fries. Ginger and turmeric add flavour in smaller amounts, while potatoes can be the main part of a dish.",
+      "selection": "Choose quantities for the preparation you have in mind. Check whether the pack is sold by weight or bunch. Wash roots before cutting, and separate ingredients that need different cooking times. Use each product’s preparation notes for more detail."
+    },
+    "edible-flowers": {
+      "intro": "Choose flowers to suit the food as well as the colour of the plate. Nasturtium flowers add a peppery note to salads. Viola and pansy flowers suit small garnishes, while calendula petals can be scattered over a finished dish. Compare the product descriptions before combining several varieties.",
+      "selection": "Check whether the pack contains whole flowers or petals, and whether it is listed by count or weight. Handle gently and add close to serving. Use flowers sold for food; decorative flowers from a florist are not a substitute."
     }
   },
   "recipeCategories": {

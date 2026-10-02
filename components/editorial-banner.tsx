@@ -24,7 +24,7 @@ export function EditorialBanner({
         className="recipe-banner-photo"
       />
       <div className="recipe-banner-copy">
-        <h2>{title}</h2>
+        <p className="editorial-banner-title">{title}</p>
       </div>
     </aside>
   );

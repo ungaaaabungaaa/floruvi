@@ -3,6 +3,7 @@ import { getRawRecipes } from "./recipes";
 import { siteUrl } from "./site";
 import { isLocale, localizePath, locales, type Locale } from "./i18n/config";
 import { languageAlternates } from "./i18n/alternates";
+import { publishedCategories } from "./category-pages";
 
 const staticPaths = [
   "/",
@@ -23,10 +24,11 @@ const escape = (value: string) =>
 const absolute = (path: string) => new URL(path, siteUrl).toString();
 
 export async function publicPaths() {
-  const [{ products }, recipes] = await Promise.all([getRawCatalogue(), getRawRecipes()]);
+  const [catalogue, recipes] = await Promise.all([getRawCatalogue(), getRawRecipes()]);
   return [
     ...staticPaths,
-    ...products.map((product) => `/products/${product.slug}`),
+    ...publishedCategories(catalogue).map((category) => `/products/category/${category.slug}`),
+    ...catalogue.products.map((product) => `/products/${product.slug}`),
     ...recipes.map((recipe) => `/recipes/${recipe.slug}`),
   ];
 }

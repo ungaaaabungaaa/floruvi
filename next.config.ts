@@ -31,7 +31,9 @@ const config: NextConfig = {
       { source: "/our-farm", destination: "/how-we-grow", permanent: true },
       { source: "/sustainability", destination: "/how-we-grow", permanent: true },
       { source: "/categories", destination: "/products", permanent: true },
-      { source: "/categories/:slug", destination: "/products?category=:slug", permanent: true },
+      { source: "/categories/:slug", destination: "/products/category/:slug", permanent: true },
+      { source: `${version}/categories`, destination: "/:version/products", permanent: true },
+      { source: `${version}/categories/:slug`, destination: "/:version/products/category/:slug", permanent: true },
     ];
   },
   async headers() {

@@ -5,6 +5,8 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath } from "@/lib/i18n/config";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 import { queryString } from "@/lib/query";
+import { CategoryLinks } from "@/components/category-links";
+import { publishedCategories } from "@/lib/category-pages";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
@@ -42,6 +44,7 @@ export default async function Products({ searchParams }: PageProps<"/[locale]/pr
         labels={messages.shop}
         query={queryString(params)}
       />
+      <CategoryLinks categories={publishedCategories({ products, categories })} label={messages.categoryPage.browseCategories} />
     </div>
   );
 }
