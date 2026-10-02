@@ -1,29 +1,28 @@
 "use client";
 import { useRef, useState } from "react";
 import Link from "@/components/i18n/link";
-import Image from "next/image";
+
 import {
   ArrowRight,
   ArrowLeft,
-  Check,
   CheckCircle2,
   LoaderCircle,
 } from "lucide-react";
 import { useCart } from "./cart-store";
-import { BasketSummary, EmptyBasket, useBasketReview, useLineLabels } from "./basket";
 import {
-  basketEnquiry,
-  checkoutContact,
-  paidOrderDetails,
-  paymentOrderRequest,
-} from "@/lib/checkout";
+  BasketSummary,
+  EmptyBasket,
+  useBasketReview,
+  useLineLabels,
+} from "./basket";
+import { basketEnquiry, paymentOrderRequest } from "@/lib/checkout";
 import { payWithRazorpay, type PaymentOrder } from "@/lib/razorpay-checkout";
 import { formatCurrency, type CurrencyCode } from "@/lib/i18n/format";
 import { markets } from "@/lib/i18n/config";
 import { requestErrorMessage, validationMessage } from "@/lib/i18n/validation";
 import type { Messages } from "@/lib/i18n/messages";
 import { useI18n } from "./i18n/provider";
-import delivery from "@/src/assets/delivery-greens.png";
+
 const emptyDetails = {
   name: "",
   email: "",
@@ -54,29 +53,28 @@ export function Checkout({
     refreshing,
     retry,
   } = useBasketReview(cart.items);
-  const [step, setStep] = useState(0);
   const [details, setDetails] = useState(emptyDetails);
   const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState("");
   const [error, setError] = useState("");
   const [status, setStatus] = useState<
-    "idle" | "sending" | "success" | "paying" | "confirming" | "paid" | "unconfirmed"
+    | "idle"
+    | "sending"
+    | "success"
+    | "paying"
+    | "confirming"
+    | "paid"
+    | "unconfirmed"
   >("idle");
   const [reference, setReference] = useState("");
   // The Razorpay order for an unchanged basket & details, reused if Checkout is closed and reopened.
   const pending = useRef<{ key: string; order: PaymentOrder } | null>(null);
   const payable = !!review?.paymentEnabled;
-  const heading = useRef<HTMLHeadingElement>(null);
   const set = (key: keyof typeof details, value: string) =>
     setDetails((d) => ({ ...d, [key]: value }));
-  const move = (next: number) => {
-    setStep(next);
-    setError("");
-    requestAnimationFrame(() => heading.current?.focus());
-  };
   async function sendRequest(event: React.SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (status === "sending") return;
+    if (status !== "idle") return;
     setError("");
     if (!review || review.items.some((i) => !i.availableToEnquire)) {
       setError(labels.returnToBasket);
@@ -84,7 +82,12 @@ export function Checkout({
     }
     const parsed = basketEnquiry(details, review.items, consent, website, {
       country: locale.countryNameEnglish,
-      total: formatCurrency(review.total, review.currency as CurrencyCode, "en-IN", "unavailable"),
+      total: formatCurrency(
+        review.total,
+        review.currency as CurrencyCode,
+        "en-IN",
+        "unavailable",
+      ),
       deliveryQuoted: review.deliveryQuoted,
     });
     if (!parsed.success) {
@@ -99,7 +102,9 @@ export function Checkout({
         body: JSON.stringify({ ...parsed.data, market: locale.market }),
       });
       if (!response.ok)
-        throw new Error(requestErrorMessage(response.status, t.requestErrors, t.validation));
+        throw new Error(
+          requestErrorMessage(response.status, t.requestErrors, t.validation),
+        );
       setStatus("success");
       setDetails(emptyDetails);
       cart.clear();
@@ -116,10 +121,20 @@ export function Checkout({
       setError(labels.returnToBasket);
       return;
     }
-    const parsed = paymentOrderRequest.safeParse({ items: cart.items, details, consent, website });
+    const parsed = paymentOrderRequest.safeParse({
+      items: cart.items,
+      details,
+      consent,
+      website,
+    });
     if (!parsed.success) {
       const [first, field] = parsed.error.issues[0].path;
-      setError(validationMessage({ path: [first === "details" ? field : first] }, t.validation));
+      setError(
+        validationMessage(
+          { path: [first === "details" ? field : first] },
+          t.validation,
+        ),
+      );
       return;
     }
     setStatus("paying");
@@ -163,7 +178,9 @@ export function Checkout({
       setReference(order.reference);
       setStatus(confirmed?.status === "paid" ? "paid" : "unconfirmed");
     } catch (error) {
-      setError(error instanceof Notice ? error.message : labels.paymentUnavailable);
+      setError(
+        error instanceof Notice ? error.message : labels.paymentUnavailable,
+      );
       setStatus("idle");
     }
   }
@@ -172,7 +189,11 @@ export function Checkout({
       <div className="page-width section checkout-received">
         <CheckCircle2 size={48} strokeWidth={1.2} />
         <h1>{labels.paidTitle}</h1>
-        <p>{fill(status === "paid" ? labels.paidText : labels.confirmingText, { reference })}</p>
+        <p>
+          {fill(status === "paid" ? labels.paidText : labels.confirmingText, {
+            reference,
+          })}
+        </p>
         <Link href="/products" className="button button-primary">
           {labels.keepExploring} <ArrowRight size={17} />
         </Link>
@@ -203,124 +224,55 @@ export function Checkout({
         {labels.back}
       </Link>
       <div className="checkout-heading">
-        <span className="eyebrow">{labels.eyebrow}</span>
         <h1>{labels.title}</h1>
       </div>
-      <ol className="checkout-progress" aria-label={labels.progress}>
-        {labels.steps.map((label, index) => (
-          <li key={label} aria-current={step === index ? "step" : undefined}>
-            <span>{step > index ? <Check size={15} /> : index + 1}</span>
-            {label}
-          </li>
-        ))}
-      </ol>
-      <div className="checkout-layout">
+      <div className="checkout-layout checkout-single-block">
         <div className="checkout-form-panel">
-          <h2 ref={heading} tabIndex={-1}>
-            {labels.headings[step]}
-          </h2>
           {error && (
             <p className="form-error" role="alert">
               {error}
             </p>
           )}
-          {step === 0 && (
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                const parsed = checkoutContact.safeParse(details);
-                if (!parsed.success) {
-                  const issue = parsed.error.issues[0];
-                  setError(
-                    validationMessage(
-                      issue,
-                      t.validation,
-                      issue.path[0] === "phone" && !details.phone.trim()
-                        ? "deliveryPhone"
-                        : undefined,
-                    ),
-                  );
-                  return;
-                }
-                move(1);
-              }}
-            >
-              <p>{labels.intro}</p>
+          <form onSubmit={payable ? pay : sendRequest}>
+            <fieldset disabled={status !== "idle"} className="checkout-details">
+              <legend>{labels.headings[1]}</legend>
               <div className="checkout-fields">
+                <div className="checkout-field-pair">
+                  <label>
+                    {labels.name}
+                    <input
+                      name="name"
+                      autoComplete="name"
+                      required
+                      minLength={2}
+                      maxLength={100}
+                      value={details.name}
+                      onChange={(e) => set("name", e.target.value)}
+                      placeholder={labels.namePlaceholder}
+                    />
+                  </label>
+                  <label>
+                    {labels.phone}
+                    <input
+                      type="tel"
+                      name="phone"
+                      autoComplete="tel"
+                      required
+                      minLength={7}
+                      maxLength={25}
+                      dir="ltr"
+                      value={details.phone}
+                      onChange={(e) => set("phone", e.target.value)}
+                      placeholder={
+                        locale.domestic
+                          ? labels.phonePlaceholder
+                          : `${market.dial} · ${labels.phonePlaceholder}`
+                      }
+                    />
+                  </label>
+                </div>
                 <label>
-                  {labels.name}
-                  <input
-                    name="name"
-                    autoComplete="name"
-                    required
-                    minLength={2}
-                    maxLength={100}
-                    value={details.name}
-                    onChange={(e) => set("name", e.target.value)}
-                    placeholder={labels.namePlaceholder}
-                  />
-                </label>
-                <label>
-                  {labels.email}
-                  <input
-                    type="email"
-                    name="email"
-                    autoComplete="email"
-                    required
-                    maxLength={200}
-                    dir="ltr"
-                    value={details.email}
-                    onChange={(e) => set("email", e.target.value)}
-                    placeholder={labels.emailPlaceholder}
-                  />
-                </label>
-                <label>
-                  {labels.phone}
-                  <input
-                    type="tel"
-                    name="phone"
-                    autoComplete="tel"
-                    required
-                    minLength={7}
-                    maxLength={25}
-                    dir="ltr"
-                    value={details.phone}
-                    onChange={(e) => set("phone", e.target.value)}
-                    placeholder={
-                      locale.domestic
-                        ? labels.phonePlaceholder
-                        : `${market.dial} · ${labels.phonePlaceholder}`
-                    }
-                  />
-                </label>
-              </div>
-              <button className="button button-primary" type="submit">
-                {labels.continue} <ArrowRight size={17} />
-              </button>
-            </form>
-          )}
-          {step === 1 && (
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                if (payable) {
-                  const parsed = paidOrderDetails.safeParse(details);
-                  if (!parsed.success) {
-                    setError(validationMessage(parsed.error.issues[0], t.validation));
-                    return;
-                  }
-                }
-                move(2);
-              }}
-            >
-              <p>
-                {locale.domestic
-                  ? labels.deliveryDomestic
-                  : fill(labels.deliveryExport, { country: locale.countryName })}
-              </p>
-              <div className="checkout-fields">
-                <label>
-                  {labels.address} <small>{payable ? labels.optional : labels.addressOptional}</small>
+                  {labels.address} <small>{labels.optional}</small>
                   <input
                     name="address"
                     autoComplete="street-address"
@@ -329,7 +281,6 @@ export function Checkout({
                     onChange={(e) => set("address", e.target.value)}
                     placeholder={labels.addressPlaceholder}
                   />
-                  <small>{payable ? labels.addressNotePay : labels.addressNote}</small>
                 </label>
                 <div className="checkout-field-pair">
                   <label>
@@ -374,84 +325,6 @@ export function Checkout({
                     placeholder={labels.postalPlaceholder}
                   />
                 </label>
-                <label>
-                  {labels.notes} <small>{labels.optional}</small>
-                  <textarea
-                    name="notes"
-                    rows={3}
-                    maxLength={800}
-                    value={details.notes}
-                    onChange={(e) => set("notes", e.target.value)}
-                    placeholder={labels.notesPlaceholder}
-                  />
-                </label>
-              </div>
-              <div className="checkout-notice">{labels.confirmDelivery}</div>
-              <div className="button-row">
-                <button
-                  type="button"
-                  className="text-link"
-                  onClick={() => move(0)}
-                >
-                  <ArrowLeft size={15} />
-                  {labels.backStep}
-                </button>
-                <button className="button button-primary" type="submit">
-                  {labels.review} <ArrowRight size={17} />
-                </button>
-              </div>
-            </form>
-          )}
-          {step === 2 && (
-            <form onSubmit={payable ? pay : sendRequest}>
-              <div className="review-detail">
-                <div>
-                  <span className="eyebrow">{labels.contact}</span>
-                  <strong>{details.name}</strong>
-                  <p>
-                    <bdi>{details.email}</bdi>
-                    <br />
-                    <bdi>{details.phone}</bdi>
-                  </p>
-                </div>
-                <button
-                  className="text-link"
-                  type="button"
-                  onClick={() => move(0)}
-                >
-                  {labels.editContact}
-                </button>
-              </div>
-              <div className="review-detail">
-                <div>
-                  <span className="eyebrow">{labels.deliveryArea}</span>
-                  <p>
-                    {details.city}, {details.region}
-                    <br />
-                    {details.pincode}
-                    {!locale.domestic && (
-                      <>
-                        <br />
-                        {locale.countryName}
-                      </>
-                    )}
-                  </p>
-                </div>
-                <button
-                  className="text-link"
-                  type="button"
-                  onClick={() => move(1)}
-                >
-                  {labels.editDelivery}
-                </button>
-              </div>
-              <div className="checkout-selection">
-                {review?.items.map((i) => (
-                  <div key={i.slug}>
-                    <span>{lineLabels.name(i.slug, products, i.name)}</span>
-                    <span>× {i.quantity}</span>
-                  </div>
-                ))}
               </div>
               <label className="checkout-consent">
                 <input
@@ -508,12 +381,26 @@ export function Checkout({
                   </>
                 )}
               </button>
-              <p className="checkout-final-note">{payable ? labels.payNote : labels.finalNote}</p>
-            </form>
-          )}
+              <p className="checkout-final-note">
+                {payable ? labels.payNote : labels.finalNote}
+              </p>
+            </fieldset>
+          </form>
         </div>
-        <div>
-          <BasketSummary review={review} refreshing={refreshing} />
+        <div className="checkout-order-summary">
+          <div className="checkout-selection">
+            {review?.items.map((item) => (
+              <div key={item.slug}>
+                <span>{lineLabels.name(item.slug, products, item.name)}</span>
+                <span>× {item.quantity}</span>
+              </div>
+            ))}
+          </div>
+          <BasketSummary
+            review={review}
+            refreshing={refreshing}
+            showWellness={false}
+          />
           {loading && (
             <p role="status" className="checkout-notice">
               {labels.checkingBasket}
@@ -533,15 +420,6 @@ export function Checkout({
               <Link href="/cart">{labels.returnToRemove}</Link>
             </div>
           )}
-          <div className="checkout-photo">
-            <Image
-              src={delivery}
-              alt={labels.photoAlt}
-              fill
-              sizes="(max-width:800px) 100vw, 35vw"
-            />
-            <span className="handwritten">{labels.handwritten}</span>
-          </div>
         </div>
       </div>
     </div>

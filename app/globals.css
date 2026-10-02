@@ -5689,3 +5689,27 @@ body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(92px + env(safe
 }
 
 .recipe-banner .editorial-banner-title { max-width: none; font-family: Georgia, "Times New Roman", serif; text-wrap: balance; }
+
+/* One checkout block: delivery details and basket stay visible together. */
+.checkout-single-block {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  gap: 0;
+  overflow: hidden;
+}
+.checkout-single-block .checkout-form-panel { border: 0; border-radius: 0; }
+.checkout-details { border: 0; padding: 0; margin: 0; min-width: 0; }
+.checkout-details legend { font-family: var(--font-serif); font-size: 28px; }
+.checkout-order-summary { padding: 35px; border-inline-start: 1px solid var(--line); }
+.checkout-single-block .checkout-selection { margin-top: 0; }
+.checkout-details .button-primary { width: 100%; justify-content: center; margin-top: 20px; }
+.checkout-details .checkout-final-note { margin-top: 12px; color: var(--muted); font-size: 12px; }
+@media (max-width: 800px) {
+  .checkout-single-block { grid-template-columns: minmax(0, 1fr); }
+  .checkout-order-summary { border-inline-start: 0; border-top: 1px solid var(--line); padding: 24px; }
+}
+@media (max-width: 480px) {
+  .checkout-single-block .checkout-form-panel, .checkout-order-summary { padding: 20px; }
+  .checkout-single-block .checkout-fields input { font-size: 16px; }
+}
+.checkout-order-summary .basket-summary { border: 0; padding: 0; background: transparent; }

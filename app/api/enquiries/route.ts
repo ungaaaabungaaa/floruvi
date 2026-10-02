@@ -32,10 +32,16 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         payload: {
           ...parsed.data,
-          city: withCountry(parsed.data.city, (input as { market?: unknown }).market),
+          city: withCountry(
+            parsed.data.city,
+            (input as { market?: unknown }).market,
+          ),
         },
         ipHash: callerHash(request, secret),
-        contactHash: keyedHash(parsed.data.email, secret),
+        contactHash: keyedHash(
+          parsed.data.email || parsed.data.phone.replace(/\D/g, ""),
+          secret,
+        ),
       }),
       signal: AbortSignal.timeout(10_000),
       cache: "no-store",

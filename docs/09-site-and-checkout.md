@@ -26,3 +26,7 @@ A saved availability enquiry is not an order. A later purchase release must impl
 - Browser check: add a crop, change quantity, reload, complete contact and delivery, select phone-code preview, and send an availability enquiry. The success screen appeared and the basket cleared. A direct development database read confirmed exactly one matching synthetic enquiry with Spinach × 2. It is labelled as QA and requires no fulfilment.
 - Mobile final checkout at 390 px had no horizontal overflow. Generated crops were inspected in category sheets; product and brand placements were checked in the browser.
 - Real OTP delivery, payment, stock reservations, notifications, analytics, and automated Git deployments are outside the verified boundary. Provider setup and launch details are listed in document 10.
+
+## Owner update — 3 October 2026
+
+Checkout now uses one form and one shared block for delivery details and the basket summary. Collect name, phone, one street address (optional), city, state/region, and PIN/postal code where the country uses one. Do not collect email, separate billing details, GST details, or delivery notes. Keep consent and server basket checks. Store an empty email in the existing record format for compatibility with older records; do not invent an email address. Rate limits use the phone when email is absent. Include the supplied street address in availability requests. Phone verification remains future work; payment activation still needs provider setup.

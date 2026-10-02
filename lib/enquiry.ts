@@ -3,8 +3,8 @@ import { z } from "zod";
 // First code point ("0") of each decimal digit set a visitor may type: Arabic-Indic,
 // Persian, Indian scripts, Sinhala, Thai and full-width (Japanese keyboards).
 const digitZeros = [
-  0x0660, 0x06f0, 0x0966, 0x09e6, 0x0a66, 0x0ae6, 0x0b66, 0x0be6, 0x0c66, 0x0ce6, 0x0d66,
-  0x0de6, 0x0e50, 0xff10,
+  0x0660, 0x06f0, 0x0966, 0x09e6, 0x0a66, 0x0ae6, 0x0b66, 0x0be6, 0x0c66,
+  0x0ce6, 0x0d66, 0x0de6, 0x0e50, 0xff10,
 ];
 
 /** Converts digits from other scripts to 0–9 before phone and PIN checks. */
@@ -26,7 +26,7 @@ export const enquirySchema = z
       .trim()
       .toLowerCase()
       .max(254)
-      .pipe(z.email("Enter a valid email address.")),
+      .pipe(z.union([z.email("Enter a valid email address."), z.literal("")])),
     phone: z
       .string()
       .transform(toAsciiDigits)
@@ -51,6 +51,10 @@ export const enquirySchema = z
       error: "Please agree so we can respond to your request.",
     }),
     website: z.string().max(0).default(""),
+  })
+  .refine((v) => !!v.email || (v.kind === "personal" && !!v.phone), {
+    path: ["email"],
+    message: "Enter a valid email address.",
   })
   .refine((v) => v.kind !== "business" || v.business.length >= 2, {
     path: ["business"],

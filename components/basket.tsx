@@ -120,11 +120,13 @@ export function useLineLabels() {
 export function BasketSummary({
   review,
   refreshing = false,
+  showWellness = true,
   children,
 }: {
   review?: BasketReview;
   /** The totals are from the previous basket and are being checked again. */
   refreshing?: boolean;
+  showWellness?: boolean;
   children?: React.ReactNode;
 }) {
   const { t, money, plural } = useI18n();
@@ -172,13 +174,15 @@ export function BasketSummary({
         </span>
       </div>
       {children}
-      <div className="basket-wellness">
-        <Leaf size={19} aria-hidden="true" />
-        <div>
-          <p className="basket-wellness-title">{t.basket.wellnessTitle}</p>
-          <p>{t.basket.wellnessText}</p>
+      {showWellness && (
+        <div className="basket-wellness">
+          <Leaf size={19} aria-hidden="true" />
+          <div>
+            <p className="basket-wellness-title">{t.basket.wellnessTitle}</p>
+            <p>{t.basket.wellnessText}</p>
+          </div>
         </div>
-      </div>
+      )}
       <span className="summary-trust">
         <ShieldCheck size={17} />{" "}
         {review?.paymentEnabled ? t.basket.securePayment : t.basket.noPayment}

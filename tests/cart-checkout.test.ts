@@ -32,7 +32,7 @@ test("basket storage keeps only valid crop identifiers and bounded quantities", 
     { slug: "basil", quantity: 4 },
   ]);
 });
-test("checkout enquiry is valid at basket limits and excludes street address", () => {
+test("checkout enquiry is valid at basket limits and includes the delivery address", () => {
   const details = {
     name: "Test Grower",
     email: "test@example.com",
@@ -57,7 +57,7 @@ test("checkout enquiry is valid at basket limits and excludes street address", (
   );
   assert.equal(parsed.success, true);
   if (parsed.success) {
-    assert.equal(JSON.stringify(parsed.data).includes(details.address), false);
+    assert.equal(JSON.stringify(parsed.data).includes(details.address), true);
     assert.ok(parsed.data.message.length < 2000);
   }
   assert.equal(
@@ -158,4 +158,30 @@ test("basket review rejects altered totals and fails closed without catalogue ac
   assert.equal(priced.items[0].lineTotal, 28000);
   assert.equal(priced.total, 37900);
   assert.equal(priced.paymentEnabled, false);
+});
+
+test("checkout accepts phone-only contact and keeps the delivery address in requests", () => {
+  const details = {
+    name: "Test Buyer",
+    email: "",
+    phone: "+919876543210",
+    address: "12 Farm Road",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  assert.equal(checkoutContact.safeParse(details).success, true);
+  const parsed = basketEnquiry(details, [{ name: "Basil", quantity: 1 }], true);
+  assert.equal(parsed.success, true);
+  assert.equal(parsed.data?.email, "");
+  assert.ok(parsed.data?.message.includes(details.address));
+  assert.equal(
+    basketEnquiry(
+      { ...details, phone: "" },
+      [{ name: "Basil", quantity: 1 }],
+      true,
+    ).success,
+    false,
+  );
 });

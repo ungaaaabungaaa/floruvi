@@ -20,7 +20,7 @@ export const basketLines = z
   .refine((lines) => new Set(lines.map((l) => l.slug)).size === lines.length);
 export const checkoutContact = z.object({
   name: enquirySchema.shape.name,
-  email: enquirySchema.shape.email,
+  email: z.union([enquirySchema.shape.email, z.literal("")]).default(""),
   phone: enquirySchema.shape.phone.refine(
     (v) => v.length > 0,
     "Enter a delivery phone number.",
@@ -41,7 +41,12 @@ export const paidOrderDetails = z
     pincode: z
       .string()
       .transform(toAsciiDigits)
-      .pipe(z.string().trim().regex(/^[1-9]\d{5}$/)),
+      .pipe(
+        z
+          .string()
+          .trim()
+          .regex(/^[1-9]\d{5}$/),
+      ),
     notes: z.string().trim().max(800),
   })
   .strict();
@@ -86,7 +91,7 @@ export function basketEnquiry(
     message: [
       "Basket availability request:",
       ...items.map((i) => `${i.name} × ${i.quantity}`),
-      `Delivery area: ${[details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
+      `Delivery area: ${[details.address, details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
       ...(destination
         ? [
             `Country: ${destination.country}. Basket total: ${destination.total}${destination.deliveryQuoted ? " before delivery (delivery to be quoted)" : ""}.`,

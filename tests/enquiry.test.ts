@@ -1,6 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { enquirySchema, nextRate, RATE_WINDOW, toAsciiDigits } from "../lib/enquiry";
+import {
+  enquirySchema,
+  nextRate,
+  RATE_WINDOW,
+  toAsciiDigits,
+} from "../lib/enquiry";
 import { paidOrderDetails } from "../lib/checkout";
 import { isSameOrigin } from "../lib/request-origin";
 
@@ -114,4 +119,27 @@ test("phone numbers and PIN codes typed in other scripts' digits are accepted as
   assert.equal(details.success, true);
   assert.equal(details.data?.pincode, "411001");
   assert.equal(details.data?.phone, "+91 98765 43210");
+});
+
+test("paid checkout accepts an empty email and still requires a valid phone and PIN", () => {
+  const details = {
+    name: "Test Buyer",
+    email: "",
+    phone: "+919876543210",
+    address: "",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  assert.equal(paidOrderDetails.safeParse(details).success, true);
+  assert.equal(
+    paidOrderDetails.safeParse({ ...details, phone: "" }).success,
+    false,
+  );
+  assert.equal(
+    paidOrderDetails.safeParse({ ...details, pincode: "41100" }).success,
+    false,
+  );
+  assert.equal(enquirySchema.safeParse({ ...valid, email: "" }).success, false);
 });
