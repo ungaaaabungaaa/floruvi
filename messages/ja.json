@@ -203,7 +203,9 @@
       "emptyEyebrow": "新鮮なものを、ここに",
       "emptyTitle": "カートは空です。",
       "emptyText": "野菜を選んで始めましょう。",
-      "emptyCta": "野菜を見る"
+      "emptyCta": "野菜を見る",
+      "wellnessTitle": "毎日の健康への小さな投資",
+      "wellnessText": "好きな食事に、さまざまな植物性食品を取り入れましょう。日々の小さな選択が積み重なります。"
     },
     "validation": {
       "name": "お名前を入力してください。",
@@ -463,7 +465,8 @@
       "servingIdea": "{name}の盛り付け例",
       "viewRecipe": "レシピを見る",
       "images": "商品画像",
-      "view": "{label}を表示"
+      "view": "{label}を表示",
+      "additionalView": "{name} · 画像 {number}"
     },
     "breadcrumbHome": "ホーム",
     "breadcrumbShop": "ショップ",
@@ -501,7 +504,9 @@
       "domestic": "インド各地へ配送",
       "export": "{country}への配送はご相談ください",
       "mix": "お好きな組み合わせで"
-    }
+    },
+    "eatingGuide": "健康的な食事のガイド",
+    "fibreGuide": "食物繊維と消化のガイド"
   },
   "cart": {
     "heroAlt": "新鮮な野菜が入ったかご",

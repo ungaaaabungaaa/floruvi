@@ -207,7 +207,9 @@
       "emptyEyebrow": "PLATZ FÜR ETWAS FRISCHES",
       "emptyTitle": "Dein Warenkorb ist leer.",
       "emptyText": "Wähle Gemüse aus, um loszulegen.",
-      "emptyCta": "Zum Gemüse"
+      "emptyCta": "Zum Gemüse",
+      "wellnessTitle": "Eine kleine Investition in die tägliche Gesundheit",
+      "wellnessText": "Geben Sie verschiedenen pflanzlichen Lebensmitteln Platz in Mahlzeiten, die Ihnen schmecken. Kleine, regelmäßige Entscheidungen summieren sich."
     },
     "validation": {
       "name": "Gib deinen Namen ein.",
@@ -468,7 +470,8 @@
       "servingIdea": "Serviervorschlag für {name}",
       "viewRecipe": "Rezept ansehen",
       "images": "Produktbilder",
-      "view": "{label} ansehen"
+      "view": "{label} ansehen",
+      "additionalView": "{name} · Ansicht {number}"
     },
     "breadcrumbHome": "Start",
     "breadcrumbShop": "Shop",
@@ -506,7 +509,9 @@
       "domestic": "Lieferung in ganz Indien",
       "export": "Lieferung nach {country} auf Anfrage",
       "mix": "Stell dir deine eigene Mischung zusammen"
-    }
+    },
+    "eatingGuide": "Ratgeber für gesunde Ernährung",
+    "fibreGuide": "Ratgeber zu Ballaststoffen und Verdauung"
   },
   "cart": {
     "heroAlt": "Ein Korb mit frischem Gemüse",

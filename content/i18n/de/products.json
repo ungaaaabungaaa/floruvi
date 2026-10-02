@@ -1,8 +1,8 @@
 {
   "butterhead-lettuce": {
-    "source": "91147a03",
+    "source": "b7a105b3",
     "name": "Buttersalat",
-    "description": "Weiche, rundliche Blätter mit mildem Geschmack und zartem, buttrigem Biss.",
+    "description": "Weiche, rundliche Blätter mit mildem Geschmack und zartem, buttrigem Biss. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Salate",
       "Salatschiffchen",
@@ -47,14 +47,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Löse die Blätter ab, wasche und trockne sie. Für Salatschiffchen lässt du sie ganz."
         }
       ]
     }
   },
   "sweet-basil": {
-    "source": "d2cc98c7",
+    "source": "6bec4b6a",
     "name": "Basilikum",
-    "description": "Breite, duftende Blätter mit warmem, süßem Aroma.",
+    "description": "Breite, duftende Blätter mit warmem, süßem Aroma. Dazu passen Tomaten, Mozzarella, Zitrone oder geröstete Kerne. Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest.",
     "uses": [
       "Pesto",
       "Tomatensalate",
@@ -99,14 +107,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "broccoli-microgreens": {
-    "source": "030e4e45",
+    "source": "8a09bc3b",
     "name": "Brokkoli-Microgreens",
-    "description": "Kleine Triebe aus der Kohlfamilie mit mildem, kohlartigem Geschmack.",
+    "description": "Kleine Triebe aus der Kohlfamilie mit mildem, kohlartigem Geschmack. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Sandwiches",
       "Salate",
@@ -151,14 +163,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "cherry-tomatoes": {
-    "source": "4a8e9cf7",
+    "source": "82e3db47",
     "name": "Kirschtomaten",
-    "description": "Kleine Tomaten, die frischen und gekochten Gerichten einen süß-säuerlichen Kontrast geben.",
+    "description": "Kleine Tomaten, die frischen und gekochten Gerichten einen süß-säuerlichen Kontrast geben. Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse. Schneide sie mit einem scharfen Messer, damit der Saft im Fruchtfleisch bleibt. Würze sie erst kurz vor dem Servieren.",
     "uses": [
       "Naschen",
       "Salate",
@@ -203,14 +219,22 @@
         {
           "title": "Auf die Zubereitung kommt es an",
           "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche und halbiere sie für Salate oder röste sie im Ganzen, bis die Haut weich wird."
         }
       ]
     }
   },
   "spring-onions": {
-    "source": "1ef5c5a2",
+    "source": "3255142d",
     "name": "Frühlingszwiebeln",
-    "description": "Zarte grüne Stangen mit mildem Zwiebelgeschmack.",
+    "description": "Zarte grüne Stangen mit mildem Zwiebelgeschmack. Dazu passen Ingwer, Eier, Tofu oder ein Reisgericht. Schneide das Grün in feine Ringe zum Garnieren und hebe die weißen Enden für die Pfanne auf.",
     "uses": [
       "Suppen",
       "Wokgerichte",
@@ -255,14 +279,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "nasturtium-flowers": {
-    "source": "0b680c2c",
+    "source": "5fccbffd",
     "name": "Kapuzinerkresse-Blüten",
-    "description": "Leuchtende Blüten mit pfeffrigem Geschmack.",
+    "description": "Leuchtende Blüten mit pfeffrigem Geschmack. Die pfeffrigen Blüten passen zu Gurke, Frischkäse oder einem milden Blattsalat. Gib ein paar ganze Blüten erst im letzten Moment dazu. Wähle ein leichtes Dressing, damit die Blütenblätter ihre Form behalten.",
     "uses": [
       "Salate",
       "Herzhafte Garnitur"
@@ -306,14 +334,18 @@
         {
           "title": "Kleine Mengen",
           "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        },
+        {
+          "title": "Wenig reicht aus",
+          "text": "Einige essbare Blüten bringen Farbe und Abwechslung. Verwenden Sie sie gelegentlich als Garnitur, nicht für Vorteile bei Verdauung oder Gewichtsabnahme."
         }
       ]
     }
   },
   "romaine-lettuce": {
-    "source": "45f0ddeb",
+    "source": "61fb126c",
     "name": "Romanasalat",
-    "description": "Lange Blätter und eine feste Mittelrippe bringen einen schönen, knackigen Biss in den Salat.",
+    "description": "Lange Blätter und eine feste Mittelrippe bringen einen schönen, knackigen Biss in den Salat. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Caesar Salad",
       "Wraps",
@@ -358,14 +390,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche ihn gut zwischen den Blättern. Schneide die Blätter quer zur Rippe oder halbiere das Herz zum Grillen."
         }
       ]
     }
   },
   "thai-basil": {
-    "source": "78d5e578",
+    "source": "ddaa13ce",
     "name": "Thai-Basilikum",
-    "description": "Feste, aromatische Blätter mit anisartiger Note.",
+    "description": "Feste, aromatische Blätter mit anisartiger Note. Dazu passen Ingwer, Kokosmilch oder ein warmes Reisgericht. Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest.",
     "uses": [
       "Currys",
       "Nudelsuppen",
@@ -410,14 +450,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "radish-microgreens": {
-    "source": "ca5b8b8c",
+    "source": "5b89d0fb",
     "name": "Radieschen-Microgreens",
-    "description": "Knackige kleine Triebe mit deutlich pfeffriger Schärfe.",
+    "description": "Knackige kleine Triebe mit deutlich pfeffriger Schärfe. Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Tacos",
       "Salate",
@@ -462,14 +506,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "beefsteak-tomatoes": {
-    "source": "6102074f",
+    "source": "8b72737a",
     "name": "Fleischtomaten",
-    "description": "Große Tomaten für dicke Scheiben und Soßen.",
+    "description": "Große Tomaten für dicke Scheiben und Soßen. Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse. Schneide sie mit einem scharfen Messer, damit der Saft im Fruchtfleisch bleibt. Würze sie erst kurz vor dem Servieren.",
     "uses": [
       "Sandwiches",
       "Salate",
@@ -514,14 +562,22 @@
         {
           "title": "Auf die Zubereitung kommt es an",
           "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne den Stielansatz und schneide sie in dicke Scheiben für Sandwiches oder Salate."
         }
       ]
     }
   },
   "celery": {
-    "source": "a8c1355e",
+    "source": "b8e84297",
     "name": "Staudensellerie",
-    "description": "Knackige, aromatische Stangen für frischen Biss oder als herzhafte Basis.",
+    "description": "Knackige, aromatische Stangen für frischen Biss oder als herzhafte Basis. Dazu passen Karotten, Zwiebeln, Bohnen oder Äpfel. Würfle ihn fein als Basis für eine Suppe oder schneide die Stangen quer in Scheiben für knackigen Biss im Salat.",
     "uses": [
       "Suppen",
       "Brühen",
@@ -566,14 +622,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche ihn gründlich zwischen den Stangen, kürze den Strunk und schneide ihn in Scheiben. Nutze die Blätter für Brühen oder als Garnitur."
         }
       ]
     }
   },
   "viola-flowers": {
-    "source": "57706c53",
+    "source": "c55f1f24",
     "name": "Hornveilchen-Blüten",
-    "description": "Kleine, zarte Blüten für einen dezenten Farbakzent.",
+    "description": "Kleine, zarte Blüten für einen dezenten Farbakzent. Ein paar Speiseblüten passen zu Obst, Joghurt oder einem leicht angemachten Salat. Lege sie kurz vor dem Servieren auf das fertige Gericht, nicht auf heiße Soßen oder schwere Dressings.",
     "uses": [
       "Dessertdeko",
       "Salate"
@@ -617,14 +681,18 @@
         {
           "title": "Kleine Mengen",
           "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        },
+        {
+          "title": "Wenig reicht aus",
+          "text": "Einige essbare Blüten bringen Farbe und Abwechslung. Verwenden Sie sie gelegentlich als Garnitur, nicht für Vorteile bei Verdauung oder Gewichtsabnahme."
         }
       ]
     }
   },
   "green-oakleaf-lettuce": {
-    "source": "c0dca06d",
+    "source": "0ef0aad2",
     "name": "Grüner Eichblattsalat",
-    "description": "Leichte, tief gelappte Blätter, die sich gut in einer gemischten Salatschüssel machen.",
+    "description": "Leichte, tief gelappte Blätter, die sich gut in einer gemischten Salatschüssel machen. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Salatmischungen",
       "Sandwiches"
@@ -668,14 +736,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Spüle ihn vorsichtig ab, trockne ihn gut und zupfe ihn kurz vor dem Anmachen in den Salat."
         }
       ]
     }
   },
   "holy-basil": {
-    "source": "9b51a491",
+    "source": "4f380d21",
     "name": "Tulsi-Basilikum",
-    "description": "Kleine, aromatische Tulsi-Blätter für kulinarische Aufgüsse und ausgewählte regionale Gerichte.",
+    "description": "Kleine, aromatische Tulsi-Blätter für kulinarische Aufgüsse und ausgewählte regionale Gerichte. Dazu passen Ingwer, Kokosmilch oder ein warmes Reisgericht. Gib zarte Blätter erst spät beim Kochen dazu. Zupfe sie, statt sie fein zu hacken, wenn du größere Stücke auf dem Teller möchtest.",
     "uses": [
       "Aufgüsse",
       "Regionale Küche"
@@ -719,14 +795,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "pea-shoots": {
-    "source": "ae37c735",
+    "source": "8eefd29e",
     "name": "Erbsensprossen",
-    "description": "Zarte Stiele und Blätter mit frischem Erbsengeschmack.",
+    "description": "Zarte Stiele und Blätter mit frischem Erbsengeschmack. Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -771,14 +851,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "plum-tomatoes": {
-    "source": "2e9abfe9",
+    "source": "7b92573c",
     "name": "Flaschentomaten",
-    "description": "Feste, fleischige Tomaten, die sich gut zum langsamen Garen eignen.",
+    "description": "Feste, fleischige Tomaten, die sich gut zum langsamen Garen eignen. Dazu passen Basilikum, Olivenöl, Knoblauch oder ein milder Frischkäse. Lass die gehackten Tomaten sanft köcheln, bis die Soße so dick ist, wie du sie magst.",
     "uses": [
       "Soßen",
       "Rösten",
@@ -823,14 +907,22 @@
         {
           "title": "Auf die Zubereitung kommt es an",
           "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne den Stielansatz. Für Soßen schneidest du sie klein und lässt sie köcheln, zum Rösten halbierst du sie."
         }
       ]
     }
   },
   "radish": {
-    "source": "5b6e09ca",
+    "source": "9dd4c6dc",
     "name": "Radieschen",
-    "description": "Knackige Knollen mit frischer, pfeffriger Schärfe.",
+    "description": "Knackige Knollen mit frischer, pfeffriger Schärfe. Dazu passen Gurke, Joghurt, Butter oder etwas Zitrone. Schneide sie hauchdünn als knackiges Topping oder röste sie halbiert, damit ihre Schärfe milder wird.",
     "uses": [
       "Salate",
       "Eingelegtes",
@@ -875,14 +967,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Bürste sie ab, putze sie und schneide sie in feine Scheiben. Röste sie halbiert für einen weicheren, milderen Biss."
         }
       ]
     }
   },
   "pansy-flowers": {
-    "source": "a48c1533",
+    "source": "9ddaaf38",
     "name": "Stiefmütterchen-Blüten",
-    "description": "Große, farbenfrohe Blüten für den zarten letzten Schliff.",
+    "description": "Große, farbenfrohe Blüten für den zarten letzten Schliff. Ein paar Speiseblüten passen zu Obst, Joghurt oder einem leicht angemachten Salat. Lege sie kurz vor dem Servieren auf das fertige Gericht, nicht auf heiße Soßen oder schwere Dressings.",
     "uses": [
       "Kuchendeko",
       "Salate"
@@ -926,14 +1026,18 @@
         {
           "title": "Kleine Mengen",
           "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        },
+        {
+          "title": "Wenig reicht aus",
+          "text": "Einige essbare Blüten bringen Farbe und Abwechslung. Verwenden Sie sie gelegentlich als Garnitur, nicht für Vorteile bei Verdauung oder Gewichtsabnahme."
         }
       ]
     }
   },
   "red-oakleaf-lettuce": {
-    "source": "b9c52f5d",
+    "source": "3a32c7b3",
     "name": "Roter Eichblattsalat",
-    "description": "Bronzerote Blätter bringen zarte Textur und Farbe in frische Gerichte.",
+    "description": "Bronzerote Blätter bringen zarte Textur und Farbe in frische Gerichte. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Gemischte Salate",
       "Anrichten"
@@ -977,14 +1081,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Lass die zarten Blätter ganz. Gib das Dressing erst kurz vor dem Servieren dazu."
         }
       ]
     }
   },
   "mint": {
-    "source": "0b72d3fa",
+    "source": "5ff6c121",
     "name": "Minze",
-    "description": "Frische, kühlende Blätter für lebendige Chutneys und Getränke.",
+    "description": "Frische, kühlende Blätter für lebendige Chutneys und Getränke. Dazu passen Gurke, Joghurt, Erbsen oder frische Limette. Hacke sie erst kurz vor dem Servieren. Hebe sie unter abgekühlte Speisen, wenn du ihren frischen, kühlenden Geschmack möchtest.",
     "uses": [
       "Chutneys",
       "Raita",
@@ -1029,14 +1141,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "sunflower-shoots": {
-    "source": "1f2b125f",
+    "source": "dd1c0298",
     "name": "Sonnenblumensprossen",
-    "description": "Kräftige junge Triebe mit nussigem Geschmack und knackigem Biss.",
+    "description": "Kräftige junge Triebe mit nussigem Geschmack und knackigem Biss. Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Wraps",
@@ -1081,14 +1197,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "cucumber": {
-    "source": "2d71685e",
+    "source": "fb6ef650",
     "name": "Gurke",
-    "description": "Knackiges, erfrischendes Fruchtgemüse mit mildem Geschmack.",
+    "description": "Knackiges, erfrischendes Fruchtgemüse mit mildem Geschmack. Dazu passen Minze, Joghurt, Tomaten oder etwas Limette. Drücke geriebene Gurke gut aus, bevor du sie mit Joghurt mischst. So wird Raita dicker.",
     "uses": [
       "Salate",
       "Raita",
@@ -1133,14 +1253,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche sie, entferne die Enden und schneide sie in Scheiben oder Würfel. Schäle sie nur, wenn du eine weichere Textur magst."
         }
       ]
     }
   },
   "beetroot": {
-    "source": "2dd8dced",
+    "source": "f366e501",
     "name": "Rote Bete",
-    "description": "Süßliche, erdige Knollen zum Kochen oder Einlegen.",
+    "description": "Süßliche, erdige Knollen zum Kochen oder Einlegen. Dazu passen Orange, Dill, Joghurt oder Walnüsse. Gare sie getrennt von hellen Zutaten, wenn die Farben klar unterscheidbar bleiben sollen.",
     "uses": [
       "Rösten",
       "Salate",
@@ -1185,14 +1313,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Bürste sie ab und gare sie, bis sie weich ist. Schäle sie danach, wenn du magst. Trage eine Schürze, damit keine Flecken entstehen."
         }
       ]
     }
   },
   "calendula-petals": {
-    "source": "ce6e877b",
+    "source": "3f92fff7",
     "name": "Ringelblumen-Blütenblätter",
-    "description": "Goldgelbe Blütenblätter für einen leichten floralen Akzent.",
+    "description": "Goldgelbe Blütenblätter für einen leichten floralen Akzent. Streue die Blütenblätter über Reis, Frischkäse oder einen einfachen grünen Salat. Gib die Blütenblätter erst nach dem Kochen dazu, damit ihre Farbe auf dem Teller sichtbar bleibt.",
     "uses": [
       "Salate",
       "Reisgerichte",
@@ -1237,14 +1373,18 @@
         {
           "title": "Kleine Mengen",
           "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        },
+        {
+          "title": "Wenig reicht aus",
+          "text": "Einige essbare Blüten bringen Farbe und Abwechslung. Verwenden Sie sie gelegentlich als Garnitur, nicht für Vorteile bei Verdauung oder Gewichtsabnahme."
         }
       ]
     }
   },
   "lollo-rosso-lettuce": {
-    "source": "02f4f4c2",
+    "source": "b772f709",
     "name": "Lollo Rosso",
-    "description": "Krause rote Blätter mit leicht bitterem Nachgeschmack und luftiger Textur.",
+    "description": "Krause rote Blätter mit leicht bitterem Nachgeschmack und luftiger Textur. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Salatmischungen",
       "Garnitur"
@@ -1288,14 +1428,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Zupfe die krausen Blätter in kleine Stücke und mische sie mit milderen Salatblättern."
         }
       ]
     }
   },
   "coriander": {
-    "source": "9c2c6566",
+    "source": "c9bc8b44",
     "name": "Koriander",
-    "description": "Frische Korianderblätter und zarte Stiele mit markantem, zitrusartigem Aroma.",
+    "description": "Frische Korianderblätter und zarte Stiele mit markantem, zitrusartigem Aroma. Dazu passen Limette, Tomaten, Linsen oder grüne Chilischoten. Verwende die zarten Stiele für Chutneys und hebe die Blattspitzen auf, um das Gericht zum Schluss zu garnieren.",
     "uses": [
       "Chutneys",
       "Currys",
@@ -1340,14 +1488,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "mustard-microgreens": {
-    "source": "7bc39786",
+    "source": "0d68b3c7",
     "name": "Senf-Microgreens",
-    "description": "Kleine Blätter mit kräftiger Senfschärfe.",
+    "description": "Kleine Blätter mit kräftiger Senfschärfe. Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Sandwiches",
       "Garnitur",
@@ -1392,14 +1544,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "bell-peppers": {
-    "source": "df9c2c48",
+    "source": "4d9e4b74",
     "name": "Paprika",
-    "description": "Dickwandige, süße Paprika für Farbe und knackigen Biss.",
+    "description": "Dickwandige, süße Paprika für Farbe und knackigen Biss. Dazu passen Tomaten, Zwiebeln, Bohnen oder eine Reisfüllung. Schneide sie zum Rösten in breite Stücke und für die schnelle Pfanne in dünne Streifen.",
     "uses": [
       "Salate",
       "Füllen",
@@ -1444,14 +1600,22 @@
         {
           "title": "Auf die Zubereitung kommt es an",
           "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne Stiel, Kerne und weiße Trennwände. Schneide sie für Salate in Streifen oder halbiere sie zum Füllen."
         }
       ]
     }
   },
   "carrot": {
-    "source": "4cf54e65",
+    "source": "831ee38e",
     "name": "Karotte",
-    "description": "Knackige Wurzeln mit sanfter Süße.",
+    "description": "Knackige Wurzeln mit sanfter Süße. Dazu passen Kreuzkümmel, Ingwer, Zitrusfrüchte oder Kichererbsen. Schneide sie zum Rösten in ähnlich große Stücke oder reibe sie fein, damit sie im Rohkostsalat zarter wird.",
     "uses": [
       "Salate",
       "Rösten",
@@ -1496,14 +1660,22 @@
         {
           "title": "Roh oder gegart",
           "text": "Reibe sie in Salate oder gare sie, bis sie weich ist."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Bürste oder schäle sie, putze sie und schneide sie in gleich große Stücke zum Rösten oder für eine Suppe."
         }
       ]
     }
   },
   "borage-flowers": {
-    "source": "8c301c91",
+    "source": "c10fc81e",
     "name": "Borretsch-Blüten",
-    "description": "Kleine blaue Blüten mit mildem, gurkenartigem Aroma.",
+    "description": "Kleine blaue Blüten mit mildem, gurkenartigem Aroma. Gib ein paar Speiseblüten zum Schluss auf einen Gurkensalat oder in ein kaltes Getränk. Nutze sie nur ab und zu als kleine Garnitur und nicht schüsselweise als Portion Gemüse.",
     "uses": [
       "Ab und zu als Garnitur"
     ],
@@ -1546,14 +1718,18 @@
         {
           "title": "Kleine Mengen",
           "text": "Blüten ergänzen eine Mahlzeit, ersetzen aber keine Portion Gemüse."
+        },
+        {
+          "title": "Wenig reicht aus",
+          "text": "Einige essbare Blüten bringen Farbe und Abwechslung. Verwenden Sie sie gelegentlich als Garnitur, nicht für Vorteile bei Verdauung oder Gewichtsabnahme."
         }
       ]
     }
   },
   "lollo-bionda-lettuce": {
-    "source": "30e8376e",
+    "source": "757c41d7",
     "name": "Lollo Bionda",
-    "description": "Krause grüne Blätter sind eine leichte, knackige Basis für einfache Dressings.",
+    "description": "Krause grüne Blätter sind eine leichte, knackige Basis für einfache Dressings. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Salate",
       "Sandwiches"
@@ -1597,14 +1773,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche die krausen Blätter und trockne sie gut, damit sich kein Dressing dazwischen sammelt."
         }
       ]
     }
   },
   "flat-leaf-parsley": {
-    "source": "0546d0e1",
+    "source": "e114eeec",
     "name": "Glatte Petersilie",
-    "description": "Grasig-frische Blätter mit klarem Nachgeschmack.",
+    "description": "Grasig-frische Blätter mit klarem Nachgeschmack. Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat. Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen.",
     "uses": [
       "Taboulé",
       "Soßen",
@@ -1649,14 +1833,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "red-cabbage-microgreens": {
-    "source": "a4faaf55",
+    "source": "0c85f65b",
     "name": "Rotkohl-Microgreens",
-    "description": "Junge Blätter mit violetten Stielen und mildem Kohlgeschmack.",
+    "description": "Junge Blätter mit violetten Stielen und mildem Kohlgeschmack. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Bowls",
@@ -1701,14 +1889,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "green-chillies": {
-    "source": "fbe5364c",
+    "source": "77632d06",
     "name": "Grüne Chilis",
-    "description": "Frische Chilis für Schärfe und lebendigen Geschmack.",
+    "description": "Frische Chilis für Schärfe und lebendigen Geschmack. Dazu passen Koriander, Limette, Tomaten oder Joghurt. Gib nach und nach etwas dazu und schmecke ab. Die Schärfe kann von Chili zu Chili unterschiedlich sein.",
     "uses": [
       "Currys",
       "Chutneys",
@@ -1753,14 +1945,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "ginger": {
-    "source": "96aa67e0",
+    "source": "cd6ffa8c",
     "name": "Ingwer",
-    "description": "Aromatische Wurzeln mit warmem, scharfem Geschmack.",
+    "description": "Aromatische Wurzeln mit warmem, scharfem Geschmack. Dazu passen Knoblauch, Limette, Karotten oder Kokosmilch. Reibe ihn für ein gleichmäßiges, dezentes Aroma. Nimm dünne Scheiben, wenn du den Ingwer nach dem Kochen wieder entfernen möchtest.",
     "uses": [
       "Currys",
       "Aufgüsse",
@@ -1805,14 +2001,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "iceberg-lettuce": {
-    "source": "a81591b3",
+    "source": "60da6f34",
     "name": "Eisbergsalat",
-    "description": "Fester Salatkopf, bekannt für seinen klaren Geschmack und seine knackigen Blätter.",
+    "description": "Fester Salatkopf, bekannt für seinen klaren Geschmack und seine knackigen Blätter. Dazu passen Gurke, Tomaten und ein Zitronen- oder Joghurtdressing. Mach nur die Blätter an, die du gleich isst. Halte den Rest trocken für deinen nächsten Salat oder dein nächstes Sandwich.",
     "uses": [
       "Spalten",
       "Wraps",
@@ -1857,14 +2057,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne den Strunk, wasche die Blätter und schneide den Salat in Spalten oder feine Streifen."
         }
       ]
     }
   },
   "curly-parsley": {
-    "source": "6f8fa57e",
+    "source": "2686e3b5",
     "name": "Krause Petersilie",
-    "description": "Krause Blätter bringen Textur und ein sanftes Kräuteraroma.",
+    "description": "Krause Blätter bringen Textur und ein sanftes Kräuteraroma. Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat. Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen.",
     "uses": [
       "Garnitur",
       "Salate",
@@ -1909,14 +2117,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "kale-microgreens": {
-    "source": "23032e4b",
+    "source": "6f659df5",
     "name": "Grünkohl-Microgreens",
-    "description": "Zarte junge Grünkohlblätter für den sanften grünen Feinschliff.",
+    "description": "Zarte junge Grünkohlblätter für den sanften grünen Feinschliff. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Sandwiches",
       "Salate",
@@ -1961,14 +2173,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "jalapeno-peppers": {
-    "source": "50d02da7",
+    "source": "636ee53b",
     "name": "Jalapeños",
-    "description": "Feste Chilis mit markantem Geschmack und unterschiedlicher Schärfe.",
+    "description": "Feste Chilis mit markantem Geschmack und unterschiedlicher Schärfe. Dazu passen Tomaten, Limette, Bohnen oder eine Füllung aus Frischkäse. Schneide sie dünn, damit sich die Schärfe in Salsa oder Sandwich verteilt, statt in einem Bissen zu landen.",
     "uses": [
       "Salsas",
       "Einlegen",
@@ -2013,14 +2229,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "turmeric": {
-    "source": "3dd538ed",
+    "source": "89efeeb5",
     "name": "Kurkuma",
-    "description": "Farbkräftige Wurzeln mit erdigem, leicht bitterem Geschmack.",
+    "description": "Farbkräftige Wurzeln mit erdigem, leicht bitterem Geschmack. Dazu passen Ingwer, Kokosmilch, Linsen oder Blumenkohl. Nimm zuerst wenig und schmecke ab. Reibe sie über einer abwaschbaren Fläche, denn die Farbe kann Flecken machen.",
     "uses": [
       "Currys",
       "Eingelegtes",
@@ -2065,14 +2285,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "arugula": {
-    "source": "113e1546",
+    "source": "64989588",
     "name": "Rucola",
-    "description": "Pfeffrige Blätter, die einem frischen Salat oder einer fertigen Pizza etwas Schärfe geben.",
+    "description": "Pfeffrige Blätter, die einem frischen Salat oder einer fertigen Pizza etwas Schärfe geben. Die pfeffrigen Blätter passen zu Birne, Walnüssen, Tomaten oder gehobeltem Käse. Streue ihn nach dem Backen über die Pizza oder hebe ihn kurz vor dem Servieren unter warme Pasta.",
     "uses": [
       "Salate",
       "Pizza",
@@ -2117,14 +2341,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche und trockne ihn. Gib ihn nach dem Backen auf die Pizza oder mische ihn im letzten Moment unter den Salat."
         }
       ]
     }
   },
   "dill": {
-    "source": "37344873",
+    "source": "4ba912fc",
     "name": "Dill",
-    "description": "Feine, fedrige Blätter mit frischem, anisartigem Aroma.",
+    "description": "Feine, fedrige Blätter mit frischem, anisartigem Aroma. Dazu passen Gurke, Kartoffeln, Joghurt oder Zitrone. Schneide ihn mit der Schere über das fertige Gericht oder rühre ihn kurz vor dem Servieren in ein kaltes Dressing.",
     "uses": [
       "Eingelegtes",
       "Kartoffeln",
@@ -2169,14 +2401,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "arugula-microgreens": {
-    "source": "2a58d288",
+    "source": "115b3115",
     "name": "Rucola-Microgreens",
-    "description": "Feine Blätter mit der vertrauten pfeffrigen Rucola-Note.",
+    "description": "Feine Blätter mit der vertrauten pfeffrigen Rucola-Note. Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Pizza",
       "Pasta",
@@ -2221,14 +2457,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "strawberries": {
-    "source": "b1c7e0cf",
+    "source": "6e885c8b",
     "name": "Erdbeeren",
-    "description": "Aromatische, zarte Früchte zum frischen Genießen und für einfache Desserts.",
+    "description": "Aromatische, zarte Früchte zum frischen Genießen und für einfache Desserts. Dazu passen Joghurt, Basilikum, Minze oder etwas abgeriebene Zitronenschale. Schneide sie erst kurz vor dem Servieren oder zerdrücke ein paar Beeren sanft für ein schnelles Topping.",
     "uses": [
       "Naschen",
       "Desserts",
@@ -2273,14 +2513,22 @@
         {
           "title": "Auf die Zubereitung kommt es an",
           "text": "Langes Garen und Lagern können den Vitamin-C-Gehalt verringern."
+        },
+        {
+          "title": "Ganzes Obst für Ballaststoffe",
+          "text": "Essen Sie das Fruchtfleisch, statt nur Saft zu trinken. So bleiben die Ballaststoffe erhalten. Sie unterstützen einen regelmäßigen Stuhlgang im Rahmen einer abwechslungsreichen Ernährung."
+        },
+        {
+          "title": "Natürlich süßer Austausch",
+          "text": "Probieren Sie frisches Obst anstelle eines reichhaltigen Desserts oder süßen Snacks. Lebensmittel zu ersetzen, statt zusätzlich zu essen, kann bei der Gewichtskontrolle helfen."
         }
       ]
     }
   },
   "potato": {
-    "source": "54313611",
+    "source": "fc6171a9",
     "name": "Kartoffel",
-    "description": "Vielseitige Knollen für die Küche, auch für die spezielle aeroponische Vermehrung.",
+    "description": "Vielseitige Knollen für die Küche, auch für die spezielle aeroponische Vermehrung. Dazu passen Rosmarin, Knoblauch, Erbsen oder ein Joghurtdressing. Schneide sie zum Kochen in gleich große Stücke. Lass beim Rösten Platz zwischen den Stücken, damit die Ränder knusprig werden.",
     "uses": [
       "Rösten",
       "Kochen",
@@ -2325,14 +2573,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Eine ausgewogene Portion",
+          "text": "Kartoffeln sind stärkehaltiges Gemüse. Kochen oder backen Sie sie und kombinieren Sie eine mäßige Portion mit anderem Gemüse und einer Eiweißquelle. Öl und Beilagen verändern die Mahlzeit."
         }
       ]
     }
   },
   "spinach": {
-    "source": "8f3597fa",
+    "source": "1d695171",
     "name": "Spinat",
-    "description": "Vielseitige grüne Blätter für frische Bowls oder zum kurzen, schonenden Garen.",
+    "description": "Vielseitige grüne Blätter für frische Bowls oder zum kurzen, schonenden Garen. Dazu passen Kichererbsen, Paneer, Knoblauch oder ein Spritzer Zitrone. Rühre ihn gegen Ende der Garzeit in Dal oder Suppe. Die Blätter fallen schnell zusammen und brauchen dann weniger Platz im Topf.",
     "uses": [
       "Salate",
       "Dal",
@@ -2381,14 +2637,22 @@
         {
           "title": "Kalium",
           "text": "Ein Mineralstoff, der für eine normale Muskel- und Nervenfunktion gebraucht wird."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche ihn gründlich. Nimm zarte Blätter roh oder lass sie kurz im Dal oder in einer warmen Pfanne zusammenfallen."
         }
       ]
     }
   },
   "chives": {
-    "source": "731986ca",
+    "source": "1a81eba6",
     "name": "Schnittlauch",
-    "description": "Schlanke grüne Halme mit mildem Zwiebelgeschmack.",
+    "description": "Schlanke grüne Halme mit mildem Zwiebelgeschmack. Dazu passen Kartoffeln, Eier, Frischkäse oder ein Joghurtdip. Mit einer sauberen Schere bekommst du kleine, gleichmäßige Röllchen, ohne die Halme zu quetschen.",
     "uses": [
       "Eier",
       "Suppen",
@@ -2433,14 +2697,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "beet-microgreens": {
-    "source": "5584ba7c",
+    "source": "665e751a",
     "name": "Rote-Bete-Microgreens",
-    "description": "Farbenfrohe Stiele und junge Blätter mit erdigem Geschmack.",
+    "description": "Farbenfrohe Stiele und junge Blätter mit erdigem Geschmack. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Anrichten",
@@ -2485,14 +2753,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "eggplant": {
-    "source": "fa849444",
+    "source": "969d5d1c",
     "name": "Aubergine",
-    "description": "Fruchtgemüse mit zartem Fruchtfleisch, das beim Kochen Aromen gut aufnimmt.",
+    "description": "Fruchtgemüse mit zartem Fruchtfleisch, das beim Kochen Aromen gut aufnimmt. Dazu passen Tomaten, Knoblauch, Joghurt oder Tahini. Lass beim Rösten Platz zwischen den Stücken. Liegen sie zu eng auf dem Blech, werden sie eher weich und gedämpft.",
     "uses": [
       "Currys",
       "Rösten",
@@ -2537,14 +2809,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Schneide den Stielansatz ab, teile sie in gleichmäßige Stücke und gare sie, bis das Fruchtfleisch durch und durch weich ist."
         }
       ]
     }
   },
   "baby-kale": {
-    "source": "eec05bf9",
+    "source": "dd1f9acb",
     "name": "Baby-Grünkohl",
-    "description": "Junge Grünkohlblätter, zarter als ausgewachsene Blätter.",
+    "description": "Junge Grünkohlblätter, zarter als ausgewachsene Blätter. Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone. Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing.",
     "uses": [
       "Salate",
       "Getreide-Bowls",
@@ -2589,14 +2869,22 @@
         {
           "title": "Auf die Portion kommt es an",
           "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche und trockne ihn. Gib die zarten Blätter direkt in Salate oder warme Getreide-Bowls."
         }
       ]
     }
   },
   "garlic-chives": {
-    "source": "40072a96",
+    "source": "9d7385d1",
     "name": "Schnittknoblauch",
-    "description": "Flache Blätter mit sanfter Knoblauchnote.",
+    "description": "Flache Blätter mit sanfter Knoblauchnote. Dazu passen Pilze, Tofu, Eier oder Füllungen für Teigtaschen. Schneide ihn für Wokgerichte in kurze Stücke oder hacke ihn fein, wenn du ihn unter eine Füllung mischst.",
     "uses": [
       "Teigtaschen",
       "Wokgerichte",
@@ -2641,14 +2929,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "amaranth-microgreens": {
-    "source": "cbb2821d",
+    "source": "e14a0a3d",
     "name": "Amaranth-Microgreens",
-    "description": "Sehr feine junge Blätter, bei roten Sorten mit kräftiger Farbe.",
+    "description": "Sehr feine junge Blätter, bei roten Sorten mit kräftiger Farbe. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Garnitur",
       "Salate",
@@ -2693,14 +2985,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "zucchini": {
-    "source": "0faf3414",
+    "source": "650324f9",
     "name": "Zucchini",
-    "description": "Zarter Sommerkürbis für leichte Gerichte.",
+    "description": "Zarter Sommerkürbis für leichte Gerichte. Dazu passen Zitrone, Minze, Basilikum oder etwas geriebener Käse. Nimm dickere Scheiben zum Grillen und kleine Stücke für die schnelle Pfanne.",
     "uses": [
       "Grillen",
       "Pfannengerichte",
@@ -2745,14 +3041,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne die Enden und schneide sie in gleichmäßige Scheiben. Gare sie kurz für mehr Biss oder länger, wenn sie weich werden soll."
         }
       ]
     }
   },
   "curly-kale": {
-    "source": "8f7b1dc8",
+    "source": "35845787",
     "name": "Grünkohl",
-    "description": "Kräftige, krause Blätter, die in herzhaften Gerichten gut in Form bleiben.",
+    "description": "Kräftige, krause Blätter, die in herzhaften Gerichten gut in Form bleiben. Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone. Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing.",
     "uses": [
       "Suppen",
       "Pfannengerichte",
@@ -2797,14 +3101,22 @@
         {
           "title": "Auf die Portion kommt es an",
           "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne die dicken Stiele. Massiere die gehackten Blätter für Salate oder gare sie, bis sie zart sind."
         }
       ]
     }
   },
   "oregano": {
-    "source": "8cf92cff",
+    "source": "867961ef",
     "name": "Oregano",
-    "description": "Kleine Blätter mit warmem, kräftigem Kräuteraroma.",
+    "description": "Kleine Blätter mit warmem, kräftigem Kräuteraroma. Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße. Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren.",
     "uses": [
       "Tomatensoßen",
       "Rösten",
@@ -2849,14 +3161,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "basil-microgreens": {
-    "source": "7bb75a9d",
+    "source": "cd895a59",
     "name": "Basilikum-Microgreens",
-    "description": "Winzige aromatische Blätter mit klarem Basilikumduft.",
+    "description": "Winzige aromatische Blätter mit klarem Basilikumduft. Gib die aromatischen Triebe zu Tomaten, Reis oder einer Schale warmer Suppe. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Tomatengerichte",
       "Suppen",
@@ -2901,14 +3217,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "muskmelon": {
-    "source": "cb1da443",
+    "source": "4daa1ae1",
     "name": "Zuckermelone",
-    "description": "Süße, aromatische Melone für frische Spalten und fruchtige Gerichte.",
+    "description": "Süße, aromatische Melone für frische Spalten und fruchtige Gerichte. Dazu passen Minze, Limette, Joghurt oder anderes frisches Obst. Schneide das Fruchtfleisch in mundgerechte Stücke für eine Schüssel und stelle es danach kalt. Lass die Schale beim Servieren weg.",
     "uses": [
       "Pur genießen",
       "Obstsalate"
@@ -2952,14 +3272,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ganzes Obst für Ballaststoffe",
+          "text": "Essen Sie das Fruchtfleisch, statt nur Saft zu trinken. So bleiben die Ballaststoffe erhalten. Sie unterstützen einen regelmäßigen Stuhlgang im Rahmen einer abwechslungsreichen Ernährung."
+        },
+        {
+          "title": "Natürlich süßer Austausch",
+          "text": "Probieren Sie frisches Obst anstelle eines reichhaltigen Desserts oder süßen Snacks. Lebensmittel zu ersetzen, statt zusätzlich zu essen, kann bei der Gewichtskontrolle helfen."
         }
       ]
     }
   },
   "lacinato-kale": {
-    "source": "4b96c6ec",
+    "source": "9e8cdf52",
     "name": "Schwarzkohl",
-    "description": "Lange, dunkle Blätter mit fester Textur zum Kochen und für gehackte Salate.",
+    "description": "Lange, dunkle Blätter mit fester Textur zum Kochen und für gehackte Salate. Dazu passen weiße Bohnen, gerösteter Kürbis, Knoblauch oder etwas Zitrone. Schneide die Blätter fein, damit sie gleichmäßig garen. Für einen zarteren Salat massierst du sie mit etwas Dressing.",
     "uses": [
       "Suppen",
       "Schmorgerichte",
@@ -3004,14 +3332,22 @@
         {
           "title": "Auf die Portion kommt es an",
           "text": "Portionsgröße und Garen beeinflussen, welche Nährstoffe auf deinem Teller landen."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne die harten Mittelrippen und schneide die Blätter für Suppen oder Schmorgerichte in feine Streifen."
         }
       ]
     }
   },
   "thyme": {
-    "source": "e9042f32",
+    "source": "41a7eeea",
     "name": "Thymian",
-    "description": "Winzige Blätter mit erdigem, duftendem Aroma.",
+    "description": "Winzige Blätter mit erdigem, duftendem Aroma. Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße. Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren.",
     "uses": [
       "Rösten",
       "Brühen",
@@ -3056,14 +3392,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "coriander-microgreens": {
-    "source": "ed7ab488",
+    "source": "8979a250",
     "name": "Koriander-Microgreens",
-    "description": "Junge Korianderblätter mit konzentriertem Kräuteraroma.",
+    "description": "Junge Korianderblätter mit konzentriertem Kräuteraroma. Gib die aromatischen Triebe zu Tomaten, Reis oder einer Schale warmer Suppe. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Tacos",
       "Suppen",
@@ -3108,14 +3448,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "green-beans": {
-    "source": "c9b841da",
+    "source": "cd90a56f",
     "name": "Grüne Bohnen",
-    "description": "Zarte Hülsen für schnelles Garen und knackige Gemüsegerichte.",
+    "description": "Zarte Hülsen für schnelles Garen und knackige Gemüsegerichte. Dazu passen Knoblauch, Sesam, Zitrone oder geröstete Mandeln. Schneide sie auf eine ähnliche Länge, damit sie gleichmäßig garen, und mische sie noch warm mit dem Dressing.",
     "uses": [
       "Wokgerichte",
       "Salate",
@@ -3160,14 +3504,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Schneide die Enden ab und gare sie, bis sie zart sind. Für einen Salat lässt du die gegarten Bohnen abkühlen."
         }
       ]
     }
   },
   "swiss-chard": {
-    "source": "db568563",
+    "source": "47071dcf",
     "name": "Mangold",
-    "description": "Breite Blätter und knackige Stiele – zwei Texturen für ein Gericht.",
+    "description": "Breite Blätter und knackige Stiele – zwei Texturen für ein Gericht. Dazu passen Knoblauch, Linsen, weiße Bohnen oder etwas abgeriebene Zitronenschale. Schneide die Stiele klein und hebe sie für die Pfanne auf. Sie brauchen dort mehr Zeit als die Blätter.",
     "uses": [
       "Pfannengerichte",
       "Gratins",
@@ -3212,14 +3564,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Trenne die Stiele von den Blättern. Gare zuerst die gehackten Stiele und gib dann die Blätter dazu."
         }
       ]
     }
   },
   "rosemary": {
-    "source": "d0109b10",
+    "source": "0b421b3c",
     "name": "Rosmarin",
-    "description": "Nadelförmige Blätter mit kräftigem, kiefernartigem Aroma.",
+    "description": "Nadelförmige Blätter mit kräftigem, kiefernartigem Aroma. Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße. Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren.",
     "uses": [
       "Ofengemüse",
       "Brot",
@@ -3264,14 +3624,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "fenugreek-microgreens": {
-    "source": "a802e69b",
+    "source": "5e0836a8",
     "name": "Bockshornklee-Microgreens",
-    "description": "Junge Bockshornklee-Triebe (Methi) mit würzigem, leicht bitterem Geschmack.",
+    "description": "Junge Bockshornklee-Triebe (Methi) mit würzigem, leicht bitterem Geschmack. Die würzigen Triebe passen zu Kartoffeln, Linsen oder einer Kichererbsenfüllung. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -3316,14 +3680,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "bok-choy": {
-    "source": "fc3d870d",
+    "source": "8293ed6e",
     "name": "Pak Choi",
-    "description": "Löffelförmige Blätter und knackige helle Stiele mit mildem Kohlgeschmack.",
+    "description": "Löffelförmige Blätter und knackige helle Stiele mit mildem Kohlgeschmack. Dazu passen Ingwer, Sesam, Pilze oder Tofu. Halbiere kleine Stauden längs – das sieht auf dem Teller schön aus. Lass den Strunk dran, damit die Blätter zusammenhalten.",
     "uses": [
       "Wokgerichte",
       "Brühen",
@@ -3368,14 +3736,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche ihn gründlich zwischen den Stielen. Gare zuerst die Stiele und gib die Blätter gegen Ende dazu."
         }
       ]
     }
   },
   "sage": {
-    "source": "d87fce09",
+    "source": "31a85eef",
     "name": "Salbei",
-    "description": "Weiche, graugrüne Blätter mit tiefem, würzigem Aroma.",
+    "description": "Weiche, graugrüne Blätter mit tiefem, würzigem Aroma. Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße. Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren.",
     "uses": [
       "Braune Butter",
       "Rösten",
@@ -3420,14 +3796,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "wheatgrass": {
-    "source": "aee13940",
+    "source": "ddd3f197",
     "name": "Weizengras",
-    "description": "Junge Weizentriebe, angebaut für die frische Zubereitung.",
+    "description": "Junge Weizentriebe, angebaut für die frische Zubereitung. Mische eine kleine Menge frisch gepressten Saft mit Apfel- oder Gurkensaft. Bereite nur so viel Saft zu, wie du servieren möchtest. Siebe grobe Fasern ab, dann wird er feiner.",
     "uses": [
       "Entsaften"
     ],
@@ -3470,14 +3850,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Mahlzeiten ausgewogen halten",
+          "text": "Genießen Sie eine kleine Portion, wenn Ihnen der Geschmack gefällt. Ein Weizengrasgetränk ersetzt weder ganzes Gemüse noch eine Mahlzeit oder eine abwechslungsreiche Ernährung."
         }
       ]
     }
   },
   "tatsoi": {
-    "source": "41b56aea",
+    "source": "1ba42095",
     "name": "Tatsoi",
-    "description": "Kleine, rundliche Blätter mit milder Senfnote.",
+    "description": "Kleine, rundliche Blätter mit milder Senfnote. Dazu passen Sesam, Ingwer, Nudeln oder Tofu. Gib die zarten Blätter kurz vor dem Servieren in eine warme Bowl, damit sie noch etwas Form behalten.",
     "uses": [
       "Salate",
       "Suppen",
@@ -3522,14 +3906,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Löse die Blätter ab und wasche sie. Gib sie ganz in eine Suppe oder ein schnelles Wokgericht."
         }
       ]
     }
   },
   "lemon-balm": {
-    "source": "9057880a",
+    "source": "e48bb8d8",
     "name": "Zitronenmelisse",
-    "description": "Zarte Blätter mit sanftem Zitronenduft.",
+    "description": "Zarte Blätter mit sanftem Zitronenduft. Dazu passen Beeren, Melone oder ein milder Kräuteraufguss. Drücke ein paar Blätter leicht an, damit sie ihren Duft freigeben, und gib sie dann in ein abgekühltes Getränk.",
     "uses": [
       "Aufgüsse",
       "Fruchtige Gerichte",
@@ -3574,14 +3966,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "kohlrabi-microgreens": {
-    "source": "46bf5e73",
+    "source": "8cca0f91",
     "name": "Kohlrabi-Microgreens",
-    "description": "Zarte Triebe mit sanftem Kohlgeschmack.",
+    "description": "Zarte Triebe mit sanftem Kohlgeschmack. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Salate",
       "Bowls",
@@ -3626,14 +4022,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "mizuna": {
-    "source": "28caab47",
+    "source": "df448528",
     "name": "Mizuna",
-    "description": "Fein gezackte Blätter mit leicht pfeffrigem Geschmack.",
+    "description": "Fein gezackte Blätter mit leicht pfeffrigem Geschmack. Dazu passen Zitrusfrüchte, Sesam, Radieschen oder ein mildes Nudeldressing. Mische sie für einen Salat mit milderen Blättern oder gib zum Schluss eine lockere Handvoll auf eine Nudel-Bowl.",
     "uses": [
       "Salatmischungen",
       "Nudel-Bowls"
@@ -3677,14 +4077,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Spüle die feinen Blätter vorsichtig ab und gib sie erst zum Schluss dazu, damit sie ihre Textur behalten."
         }
       ]
     }
   },
   "shiso": {
-    "source": "49790bae",
+    "source": "cff169dc",
     "name": "Shiso",
-    "description": "Markante, aromatische Blätter zum Einwickeln oder Garnieren.",
+    "description": "Markante, aromatische Blätter zum Einwickeln oder Garnieren. Dazu passen Gurke, Reis, Sesam oder eingelegtes Gemüse. Lege ein paar trockene Blätter übereinander und schneide sie in feine Streifen für eine saubere Garnitur zum Schluss.",
     "uses": [
       "Reisgerichte",
       "Eingelegtes",
@@ -3729,14 +4137,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "garden-cress-microgreens": {
-    "source": "a462291b",
+    "source": "7d6a137a",
     "name": "Gartenkresse-Microgreens",
-    "description": "Feine Triebe mit scharfem, pfeffrigem Geschmack.",
+    "description": "Feine Triebe mit scharfem, pfeffrigem Geschmack. Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus. Streue sie nach dem Kochen über den Teller. Eine kleine, lockere Handvoll bleibt schön luftig.",
     "uses": [
       "Eiergerichte",
       "Sandwiches",
@@ -3781,14 +4193,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "mustard-greens": {
-    "source": "f9c39244",
+    "source": "cd64eaae",
     "name": "Blattsenf",
-    "description": "Kräftige Blätter mit Senfschärfe, die beim Kochen milder wird.",
+    "description": "Kräftige Blätter mit Senfschärfe, die beim Kochen milder wird. Dazu passen Knoblauch, Kartoffeln, Linsen oder eine milde Joghurtbeilage. Hacke ihn fein für Saag oder mische ihn mit milderem Blattgemüse, damit der Senfgeschmack sanfter wird.",
     "uses": [
       "Saag",
       "Wokgerichte",
@@ -3833,14 +4249,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne grobe Stiele und gare die Blätter, bis sie zart sind und ihre Schärfe milder wird."
         }
       ]
     }
   },
   "chervil": {
-    "source": "8c156fac",
+    "source": "4cb3b075",
     "name": "Kerbel",
-    "description": "Zarte Blätter mit leichter Anisnote.",
+    "description": "Zarte Blätter mit leichter Anisnote. Dazu passen Zitrone, Kartoffeln, Eier oder ein einfacher Bohnensalat. Trockne die Blätter vor dem Hacken, damit sie locker bleiben und sich gleichmäßig im Dressing verteilen.",
     "uses": [
       "Eier",
       "Salate",
@@ -3885,14 +4309,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "radish-microgreens-live-tray": {
-    "source": "afaa910f",
+    "source": "465241ac",
     "name": "Radieschen-Microgreens · Lebend in der Schale",
-    "description": "Pfeffrige junge Blätter. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Pfeffrige junge Blätter. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Gleiche die pfeffrigen Triebe mit Avocado, Hummus oder einem kühlen Joghurtdressing aus. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -3938,14 +4366,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "watercress": {
-    "source": "41d3cdc3",
+    "source": "90fcf685",
     "name": "Brunnenkresse",
-    "description": "Kleine, rundliche Blätter mit lebhaftem, pfeffrigem Geschmack.",
+    "description": "Kleine, rundliche Blätter mit lebhaftem, pfeffrigem Geschmack. Dazu passen Kartoffeln, Eier, Zitrusfrüchte oder ein mildes, cremiges Dressing. Nimm die zarten Spitzen für Salate und hebe die festeren Stiele für eine gekochte Suppe auf.",
     "uses": [
       "Suppen",
       "Salate",
@@ -3990,14 +4422,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche sie gründlich und entferne grobe Stiele. Gib sie in Salate oder püriere sie in eine gekochte Suppe."
         }
       ]
     }
   },
   "tarragon": {
-    "source": "69901840",
+    "source": "ace090a7",
     "name": "Estragon",
-    "description": "Schmale Blätter mit ausgeprägtem, anisartigem Geschmack.",
+    "description": "Schmale Blätter mit ausgeprägtem, anisartigem Geschmack. Dazu passen Senf, Kartoffeln, Eier oder ein cremiges Dressing. Nimm zuerst nur wenig, denn der anisartige Geschmack kann eine feine Soße überdecken.",
     "uses": [
       "Soßen",
       "Dressings",
@@ -4042,14 +4482,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "pea-microgreens-live-tray": {
-    "source": "5198e055",
+    "source": "4b8890b6",
     "name": "Erbsen-Microgreens · Lebend in der Schale",
-    "description": "Zarte Triebe mit süßem Erbsengeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Zarte Triebe mit süßem Erbsengeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -4095,14 +4539,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "sorrel": {
-    "source": "c2f6c916",
+    "source": "41fabf30",
     "name": "Sauerampfer",
-    "description": "Säuerliche, zitronige Blätter, die in kleinen Mengen ein Gericht auffrischen.",
+    "description": "Säuerliche, zitronige Blätter, die in kleinen Mengen ein Gericht auffrischen. Ein paar Blätter passen zu Kartoffeln, Eiern oder einer cremigen Soße. Schmecke ab, bevor du Zitrone oder Essig dazugibst, denn Sauerampfer bringt schon eine säuerliche Note mit.",
     "uses": [
       "Soßen",
       "Suppen",
@@ -4147,14 +4595,18 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "marjoram": {
-    "source": "802bbebd",
+    "source": "5faa205d",
     "name": "Majoran",
-    "description": "Weiche Blätter mit sanftem, süßlichem Geschmack, der an Oregano erinnert.",
+    "description": "Weiche Blätter mit sanftem, süßlichem Geschmack, der an Oregano erinnert. Dazu passen Ofenkartoffeln, Pilze, Bohnen oder eine Tomatensoße. Nimm erst wenig und schmecke beim Kochen ab. Entferne holzige Stiele vor dem Servieren.",
     "uses": [
       "Suppen",
       "Soßen",
@@ -4199,14 +4651,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "sunflower-microgreens-live-tray": {
-    "source": "a436640b",
+    "source": "8e634626",
     "name": "Sonnenblumen-Microgreens · Lebend in der Schale",
-    "description": "Knackige Triebe mit mildem, nussigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Knackige Triebe mit mildem, nussigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Die Triebe passen zu Gurke, Frischkäse oder einer Getreide-Bowl mit Zitronendressing. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -4252,14 +4708,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "endive": {
-    "source": "55ffbd35",
+    "source": "2066e2c5",
     "name": "Chicorée",
-    "description": "Feste Blätter mit angenehm bitterer Note.",
+    "description": "Feste Blätter mit angenehm bitterer Note. Dazu passen Orange, Walnüsse, Apfel oder Frischkäse. Nutze die festen äußeren Blätter als kleine Schiffchen für eine Füllung aus gehacktem Salat.",
     "uses": [
       "Salate",
       "Rösten",
@@ -4304,14 +4764,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Löse die Blätter für kleine Salatschiffchen ab oder halbiere den Kolben vor dem Rösten."
         }
       ]
     }
   },
   "lemongrass": {
-    "source": "9644eb9b",
+    "source": "bbdb1907",
     "name": "Zitronengras",
-    "description": "Duftende Stängel mit klarem Zitrusaroma.",
+    "description": "Duftende Stängel mit klarem Zitrusaroma. Dazu passen Ingwer, Kokosmilch, Limette oder Pilze. Aromatisiere eine Brühe mit angequetschten Stängeln. Nimm große, faserige Stücke vor dem Servieren heraus.",
     "uses": [
       "Currys",
       "Brühen",
@@ -4356,14 +4824,18 @@
         {
           "title": "Auf die Menge kommt es an",
           "text": "Ein paar Blätter sind eine Garnitur, keine vollständige Portion Gemüse."
+        },
+        {
+          "title": "Geschmack mit weniger Salz",
+          "text": "Würzen Sie Gemüse, Hülsenfrüchte oder Getreide mit einer kleinen Menge, bevor Sie mehr Salz verwenden. Eine Würzportion liefert nur wenig Ballaststoffe."
         }
       ]
     }
   },
   "broccoli-microgreens-live-tray": {
-    "source": "184ffb84",
+    "source": "185398fc",
     "name": "Brokkoli-Microgreens · Lebend in der Schale",
-    "description": "Kleine Blätter mit mildem Kohlgeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Kleine Blätter mit mildem Kohlgeschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -4409,14 +4881,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "radicchio": {
-    "source": "6054b24c",
+    "source": "f7622edc",
     "name": "Radicchio",
-    "description": "Rote Blätter mit weißen Rippen bringen Bitterkeit und Kontrast auf den Teller.",
+    "description": "Rote Blätter mit weißen Rippen bringen Bitterkeit und Kontrast auf den Teller. Dazu passen Birne, Orange, Walnüsse oder ein milder Käse. Mische rohe Streifen mit süßeren Zutaten oder grille Spalten, damit sie weicher werden.",
     "uses": [
       "Salate",
       "Grillen",
@@ -4461,14 +4937,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Entferne den Strunk. Schneide ihn für Salate in feine Streifen oder zum Grillen in Spalten."
         }
       ]
     }
   },
   "fenugreek-microgreens-live-tray": {
-    "source": "b724d323",
+    "source": "072f253e",
     "name": "Bockshornklee-Microgreens · Lebend in der Schale",
-    "description": "Aromatische Triebe mit leichter Bitternote. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Aromatische Triebe mit leichter Bitternote. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Die würzigen Triebe passen zu Kartoffeln, Linsen oder einer Kichererbsenfüllung. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -4514,14 +4998,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "amaranth-greens": {
-    "source": "e36b47cf",
+    "source": "d338806a",
     "name": "Amaranthblätter",
-    "description": "Zarte Blätter, die in vielen regionalen indischen Gemüsegerichten verwendet werden.",
+    "description": "Zarte Blätter, die in vielen regionalen indischen Gemüsegerichten verwendet werden. Dazu passen Linsen, Knoblauch, Kokos oder Kreuzkümmel. Hacke Blätter und zarte Stiele für eine gegarte Beilage. Entferne vorher die groben Stängel.",
     "uses": [
       "Dal",
       "Wokgerichte",
@@ -4566,14 +5054,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche sie gut, entferne harte Stiele und gare die Blätter in einem Dal oder Gemüsegericht mit."
         }
       ]
     }
   },
   "red-amaranth-microgreens-live-tray": {
-    "source": "5db14b16",
+    "source": "0917c4e6",
     "name": "Rote Amaranth-Microgreens · Lebend in der Schale",
-    "description": "Feine rote Triebe mit erdigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst.",
+    "description": "Feine rote Triebe mit erdigem Geschmack. Lebend in einer Schale geliefert. Schneide ab, was du brauchst. Die jungen Blätter passen zu Ofengemüse, Hummus oder einem leicht angemachten Salat. Ernte nur den Teil, den du brauchst. Lass den Rest für die nächste Mahlzeit stehen; verlass dich nicht darauf, dass geschnittene Triebe nachwachsen.",
     "uses": [
       "Salate",
       "Sandwiches",
@@ -4619,14 +5115,18 @@
         {
           "title": "Bunt gemischt",
           "text": "Genieße verschiedene Triebe zusammen mit anderem Gemüse."
+        },
+        {
+          "title": "Ein kleiner Teil des Tellers",
+          "text": "Eine Handvoll bringt Abwechslung in die Mahlzeit. Die Nährstoffe hängen von Pflanzenart und Menge ab. Eine Garnitur ersetzt keine volle Gemüseportion."
         }
       ]
     }
   },
   "fenugreek-greens": {
-    "source": "2be34ad8",
+    "source": "68aecb62",
     "name": "Bockshornkleeblätter",
-    "description": "Aromatische Bockshornkleeblätter (Methi) mit typisch bitter-würziger Note.",
+    "description": "Aromatische Bockshornkleeblätter (Methi) mit typisch bitter-würziger Note. Dazu passen Kartoffeln, Erbsen, Linsen oder Vollkornteig. Arbeite gehackte Blätter in Paratha-Teig ein oder gib eine kleine Handvoll in ein Gemüsecurry.",
     "uses": [
       "Parathas",
       "Dal",
@@ -4671,14 +5171,22 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Zupfe die Blätter von den dicken Stielen, wasche sie gut und hacke sie für Dal oder Parathas."
         }
       ]
     }
   },
   "napa-cabbage": {
-    "source": "aa9e90d8",
+    "source": "def1874c",
     "name": "Chinakohl",
-    "description": "Zarte, geschichtete Blätter mit milden, knackigen Rippen.",
+    "description": "Zarte, geschichtete Blätter mit milden, knackigen Rippen. Dazu passen Ingwer, Pilze, Tofu oder Frühlingszwiebeln. Nutze die dickeren Rippen für Biss und die weicheren Blätter, um eine leichte Brühe aufzusaugen.",
     "uses": [
       "Wokgerichte",
       "Suppen",
@@ -4723,6 +5231,14 @@
         {
           "title": "Abwechslung",
           "text": "Kombiniere verschiedene Farben mit Getreide und einer Eiweißquelle."
+        },
+        {
+          "title": "Ballaststoffe & Verdauung",
+          "text": "Ganzes Gemüse liefert Ballaststoffe, die einen regelmäßigen Stuhlgang unterstützen. Erhöhen Sie die Menge langsam und trinken Sie genug Wasser."
+        },
+        {
+          "title": "Gewichtsbewusste Mahlzeiten",
+          "text": "Ersetzen Sie einige kalorienreichere Zutaten durch Gemüse. Das kann die Gewichtskontrolle unterstützen; Portionsgrößen, Dressings und die gesamte Ernährung bleiben wichtig. Wasche ihn gut zwischen den Blattlagen. Schneide Rippen und Blätter getrennt, damit alles gleichmäßig gart."
         }
       ]
     }

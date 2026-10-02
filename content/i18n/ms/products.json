@@ -1,8 +1,8 @@
 {
   "butterhead-lettuce": {
-    "source": "91147a03",
+    "source": "b7a105b3",
     "name": "Salad butterhead",
-    "description": "Daun lembut yang bulat dengan rasa ringan dan gigitan halus seperti mentega.",
+    "description": "Daun lembut yang bulat dengan rasa ringan dan gigitan halus seperti mentega. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Salad",
       "cawan daun salad",
@@ -47,14 +47,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Asingkan daun, bilas dan keringkan. Biarkan daun utuh untuk dijadikan cawan daun salad."
         }
       ]
     }
   },
   "sweet-basil": {
-    "source": "d2cc98c7",
+    "source": "6bec4b6a",
     "name": "Selasih manis",
-    "description": "Daun lebar yang harum dengan aroma manis yang hangat.",
+    "description": "Daun lebar yang harum dengan aroma manis yang hangat. Padankan dengan tomato, mozzarella, lemon atau biji-bijian panggang. Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan.",
     "uses": [
       "Pesto",
       "salad tomato",
@@ -99,14 +107,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "broccoli-microgreens": {
-    "source": "030e4e45",
+    "source": "8a09bc3b",
     "name": "Sayur mikro brokoli",
-    "description": "Pucuk kecil keluarga kubis dengan rasa ringan seakan-akan kubis.",
+    "description": "Pucuk kecil keluarga kubis dengan rasa ringan seakan-akan kubis. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Sandwic",
       "salad",
@@ -151,14 +163,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "cherry-tomatoes": {
-    "source": "4a8e9cf7",
+    "source": "82e3db47",
     "name": "Tomato ceri",
-    "description": "Tomato kecil yang memberikan kontras manis dan masam dalam hidangan segar dan masakan.",
+    "description": "Tomato kecil yang memberikan kontras manis dan masam dalam hidangan segar dan masakan. Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya. Hiris dengan pisau tajam supaya jusnya kekal dalam isi. Perasakan sejurus sebelum dihidangkan.",
     "uses": [
       "Snek",
       "salad",
@@ -203,14 +219,22 @@
         {
           "title": "Cara penyediaan penting",
           "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dan belah dua untuk salad, atau panggang seluruhnya sehingga kulitnya lembut."
         }
       ]
     }
   },
   "spring-onions": {
-    "source": "1ef5c5a2",
+    "source": "3255142d",
     "name": "Daun bawang",
-    "description": "Batang hijau yang lembut dengan rasa bawang yang ringan.",
+    "description": "Batang hijau yang lembut dengan rasa bawang yang ringan. Padankan dengan halia, telur, tauhu atau hidangan nasi. Hiris nipis bahagian hijau untuk hiasan dan simpan bahagian putih untuk dimasak di dalam kuali.",
     "uses": [
       "Sup",
       "goreng kilas",
@@ -255,14 +279,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "nasturtium-flowers": {
-    "source": "0b680c2c",
+    "source": "5fccbffd",
     "name": "Bunga nasturtium",
-    "description": "Bunga berwarna cerah dengan rasa pedas seperti lada.",
+    "description": "Bunga berwarna cerah dengan rasa pedas seperti lada. Padankan bunga yang pedas ini dengan timun, keju lembut atau salad daun yang ringan rasanya. Tambahkan beberapa kuntum bunga utuh pada saat akhir. Gunakan sedikit sos salad sahaja supaya kelopaknya kekal berbentuk.",
     "uses": [
       "Salad",
       "hiasan masakan"
@@ -306,14 +334,18 @@
         {
           "title": "Sedikit sahaja",
           "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        },
+        {
+          "title": "Sedikit sudah memadai",
+          "text": "Beberapa bunga yang selamat dimakan menambah warna dan tarikan. Gunakan sekali-sekala sebagai hiasan, bukan untuk manfaat penghadaman atau penurunan berat badan."
         }
       ]
     }
   },
   "romaine-lettuce": {
-    "source": "45f0ddeb",
+    "source": "61fb126c",
     "name": "Salad romaine",
-    "description": "Daun panjang dan tulang daun yang pejal memberikan kerangupan yang memuaskan dalam salad.",
+    "description": "Daun panjang dan tulang daun yang pejal memberikan kerangupan yang memuaskan dalam salad. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Salad Caesar",
       "gulungan",
@@ -358,14 +390,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas di celah-celah daun. Potong melintang tulang daun, atau belah dua bahagian hatinya untuk dibakar."
         }
       ]
     }
   },
   "thai-basil": {
-    "source": "78d5e578",
+    "source": "ddaa13ce",
     "name": "Selasih Thai",
-    "description": "Daun pejal yang harum dengan sentuhan rasa seperti jintan manis.",
+    "description": "Daun pejal yang harum dengan sentuhan rasa seperti jintan manis. Padankan dengan halia, santan atau hidangan nasi yang panas. Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan.",
     "uses": [
       "Kari",
       "sup mi",
@@ -410,14 +450,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "radish-microgreens": {
-    "source": "ca5b8b8c",
+    "source": "5b89d0fb",
     "name": "Sayur mikro radis",
-    "description": "Pucuk kecil yang rangup dengan rasa pedas yang jelas.",
+    "description": "Pucuk kecil yang rangup dengan rasa pedas yang jelas. Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Taco",
       "salad",
@@ -462,14 +506,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "beefsteak-tomatoes": {
-    "source": "6102074f",
+    "source": "8b72737a",
     "name": "Tomato beefsteak",
-    "description": "Tomato besar yang sesuai untuk hirisan tebal dan sos.",
+    "description": "Tomato besar yang sesuai untuk hirisan tebal dan sos. Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya. Hiris dengan pisau tajam supaya jusnya kekal dalam isi. Perasakan sejurus sebelum dihidangkan.",
     "uses": [
       "Sandwic",
       "salad",
@@ -514,14 +562,22 @@
         {
           "title": "Cara penyediaan penting",
           "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang bahagian tangkai di tengah dan potong hirisan tebal untuk sandwic atau salad."
         }
       ]
     }
   },
   "celery": {
-    "source": "a8c1355e",
+    "source": "b8e84297",
     "name": "Saderi",
-    "description": "Batang rangup dan wangi untuk kerangupan segar atau sebagai asas perisa masakan.",
+    "description": "Batang rangup dan wangi untuk kerangupan segar atau sebagai asas perisa masakan. Padankan dengan lobak merah, bawang, kekacang atau epal. Potong dadu halus untuk asas sup, atau hiris melintang batang untuk tekstur salad yang rangup.",
     "uses": [
       "Sup",
       "stok",
@@ -566,14 +622,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas di celah-celah batang, potong pangkalnya dan hiris. Gunakan daunnya dalam stok atau sebagai hiasan."
         }
       ]
     }
   },
   "viola-flowers": {
-    "source": "57706c53",
+    "source": "c55f1f24",
     "name": "Bunga viola",
-    "description": "Bunga kecil yang halus untuk sentuhan warna yang lembut.",
+    "description": "Bunga kecil yang halus untuk sentuhan warna yang lembut. Padankan beberapa kuntum bunga gred makanan dengan buah-buahan, yogurt atau salad dengan sedikit sos. Letakkan di atas hidangan yang sudah siap sejurus sebelum dihidangkan, jauh daripada sos panas dan sos salad yang pekat.",
     "uses": [
       "Hiasan pencuci mulut",
       "salad"
@@ -617,14 +681,18 @@
         {
           "title": "Sedikit sahaja",
           "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        },
+        {
+          "title": "Sedikit sudah memadai",
+          "text": "Beberapa bunga yang selamat dimakan menambah warna dan tarikan. Gunakan sekali-sekala sebagai hiasan, bukan untuk manfaat penghadaman atau penurunan berat badan."
         }
       ]
     }
   },
   "green-oakleaf-lettuce": {
-    "source": "c0dca06d",
+    "source": "0ef0aad2",
     "name": "Salad oakleaf hijau",
-    "description": "Daun ringan berlekuk dalam yang sesuai untuk semangkuk salad campur.",
+    "description": "Daun ringan berlekuk dalam yang sesuai untuk semangkuk salad campur. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Campuran salad",
       "sandwic"
@@ -668,14 +736,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas perlahan-lahan, keringkan betul-betul dan carik ke dalam salad sejurus sebelum digaul dengan sos salad."
         }
       ]
     }
   },
   "holy-basil": {
-    "source": "9b51a491",
+    "source": "4f380d21",
     "name": "Ruku-ruku (tulsi)",
-    "description": "Daun tulsi kecil yang harum untuk seduhan kulinari dan hidangan serantau tertentu.",
+    "description": "Daun tulsi kecil yang harum untuk seduhan kulinari dan hidangan serantau tertentu. Padankan dengan halia, santan atau hidangan nasi yang panas. Masukkan daun yang lembut menjelang akhir memasak. Carik, bukan cincang halus, jika mahukan cebisan yang lebih besar di dalam pinggan.",
     "uses": [
       "Seduhan",
       "masakan serantau"
@@ -719,14 +795,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "pea-shoots": {
-    "source": "ae37c735",
+    "source": "8eefd29e",
     "name": "Pucuk kacang pis",
-    "description": "Batang dan daun yang lembut dengan rasa segar kacang pis.",
+    "description": "Batang dan daun yang lembut dengan rasa segar kacang pis. Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "sandwic",
@@ -771,14 +851,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "plum-tomatoes": {
-    "source": "2e9abfe9",
+    "source": "7b92573c",
     "name": "Tomato plum",
-    "description": "Tomato pejal yang berisi tebal, sesuai untuk dimasak perlahan.",
+    "description": "Tomato pejal yang berisi tebal, sesuai untuk dimasak perlahan. Padankan dengan selasih, minyak zaitun, bawang putih atau keju segar yang ringan rasanya. Reneh tomato yang telah dipotong dengan api perlahan sehingga sos mencapai kepekatan yang anda suka.",
     "uses": [
       "Sos",
       "panggang",
@@ -823,14 +907,22 @@
         {
           "title": "Cara penyediaan penting",
           "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang bahagian tangkai di tengah, potong dan reneh untuk sos, atau belah dua sebelum dipanggang."
         }
       ]
     }
   },
   "radish": {
-    "source": "5b6e09ca",
+    "source": "9dd4c6dc",
     "name": "Radis",
-    "description": "Umbi rangup dengan rasa pedas yang segar.",
+    "description": "Umbi rangup dengan rasa pedas yang segar. Padankan dengan timun, yogurt, mentega atau sedikit lemon. Hiris sangat nipis untuk taburan yang rangup, atau panggang radis yang dibelah dua untuk melembutkan rasa tajamnya.",
     "uses": [
       "Salad",
       "jeruk",
@@ -875,14 +967,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Gosok hingga bersih, potong hujungnya dan hiris nipis. Panggang radis yang dibelah dua untuk rasa yang lebih lembut dan kurang pedas."
         }
       ]
     }
   },
   "pansy-flowers": {
-    "source": "a48c1533",
+    "source": "9ddaaf38",
     "name": "Bunga pansy",
-    "description": "Bunga lebar yang berwarna-warni untuk sentuhan akhir yang halus.",
+    "description": "Bunga lebar yang berwarna-warni untuk sentuhan akhir yang halus. Padankan beberapa kuntum bunga gred makanan dengan buah-buahan, yogurt atau salad dengan sedikit sos. Letakkan di atas hidangan yang sudah siap sejurus sebelum dihidangkan, jauh daripada sos panas dan sos salad yang pekat.",
     "uses": [
       "Hiasan kek",
       "salad"
@@ -926,14 +1026,18 @@
         {
           "title": "Sedikit sahaja",
           "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        },
+        {
+          "title": "Sedikit sudah memadai",
+          "text": "Beberapa bunga yang selamat dimakan menambah warna dan tarikan. Gunakan sekali-sekala sebagai hiasan, bukan untuk manfaat penghadaman atau penurunan berat badan."
         }
       ]
     }
   },
   "red-oakleaf-lettuce": {
-    "source": "b9c52f5d",
+    "source": "3a32c7b3",
     "name": "Salad oakleaf merah",
-    "description": "Daun merah keperangan menambah tekstur lembut dan warna pada hidangan segar.",
+    "description": "Daun merah keperangan menambah tekstur lembut dan warna pada hidangan segar. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Salad campur",
       "persembahan hidangan"
@@ -977,14 +1081,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Biarkan daun yang halus ini utuh. Tambahkan sos salad sejurus sebelum dihidangkan."
         }
       ]
     }
   },
   "mint": {
-    "source": "0b72d3fa",
+    "source": "5ff6c121",
     "name": "Daun pudina",
-    "description": "Daun segar dengan rasa dingin untuk chutney dan minuman yang menyegarkan.",
+    "description": "Daun segar dengan rasa dingin untuk chutney dan minuman yang menyegarkan. Padankan dengan timun, yogurt, kacang pis atau limau nipis segar. Cincang sejurus sebelum dihidangkan. Gaulkan perlahan ke dalam makanan yang telah sejuk untuk menikmati rasa segar dan dinginnya.",
     "uses": [
       "Chutney",
       "raita",
@@ -1029,14 +1141,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "sunflower-shoots": {
-    "source": "1f2b125f",
+    "source": "dd1c0298",
     "name": "Pucuk bunga matahari",
-    "description": "Pucuk muda yang tebal dengan rasa seperti kacang dan gigitan yang rangup.",
+    "description": "Pucuk muda yang tebal dengan rasa seperti kacang dan gigitan yang rangup. Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "gulungan",
@@ -1081,14 +1197,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "cucumber": {
-    "source": "2d71685e",
+    "source": "fb6ef650",
     "name": "Timun",
-    "description": "Buah rangup yang menyegarkan dengan rasa yang ringan.",
+    "description": "Buah rangup yang menyegarkan dengan rasa yang ringan. Padankan dengan daun pudina, yogurt, tomato atau sedikit limau nipis. Untuk raita yang lebih pekat, perah air berlebihan daripada timun parut sebelum digaul dengan yogurt.",
     "uses": [
       "Salad",
       "raita",
@@ -1133,14 +1253,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas, potong kedua-dua hujung dan hiris atau potong dadu. Kupas kulitnya hanya jika anda mahukan tekstur yang lebih lembut."
         }
       ]
     }
   },
   "beetroot": {
-    "source": "2dd8dced",
+    "source": "f366e501",
     "name": "Ubi bit",
-    "description": "Ubi yang manis dengan rasa tanah, untuk dimasak atau dijeruk.",
+    "description": "Ubi yang manis dengan rasa tanah, untuk dimasak atau dijeruk. Padankan dengan oren, daun dill, yogurt atau walnut. Masak berasingan daripada bahan berwarna pucat jika mahu warna setiap bahan kekal jelas.",
     "uses": [
       "Panggang",
       "salad",
@@ -1185,14 +1313,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Gosok hingga bersih dan masak sehingga empuk, kemudian kupas jika mahu. Pakai apron supaya pakaian tidak terkena kesan warna."
         }
       ]
     }
   },
   "calendula-petals": {
-    "source": "ce6e877b",
+    "source": "3f92fff7",
     "name": "Kelopak kalendula",
-    "description": "Kelopak keemasan untuk sentuhan bunga yang ringan.",
+    "description": "Kelopak keemasan untuk sentuhan bunga yang ringan. Taburkan kelopak di atas nasi, keju lembut atau salad hijau yang ringkas. Tambahkan kelopak selepas dimasak supaya warnanya kekal jelas di dalam pinggan.",
     "uses": [
       "Salad",
       "hidangan nasi",
@@ -1237,14 +1373,18 @@
         {
           "title": "Sedikit sahaja",
           "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        },
+        {
+          "title": "Sedikit sudah memadai",
+          "text": "Beberapa bunga yang selamat dimakan menambah warna dan tarikan. Gunakan sekali-sekala sebagai hiasan, bukan untuk manfaat penghadaman atau penurunan berat badan."
         }
       ]
     }
   },
   "lollo-rosso-lettuce": {
-    "source": "02f4f4c2",
+    "source": "b772f709",
     "name": "Salad lollo rosso",
-    "description": "Daun merah yang beralun dengan rasa akhir sedikit pahit dan tekstur yang ringan.",
+    "description": "Daun merah yang beralun dengan rasa akhir sedikit pahit dan tekstur yang ringan. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Campuran salad",
       "hiasan"
@@ -1288,14 +1428,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Carik daun yang beralun ini kepada cebisan kecil dan gaulkan dengan daun salad yang lebih ringan rasanya."
         }
       ]
     }
   },
   "coriander": {
-    "source": "9c2c6566",
+    "source": "c9bc8b44",
     "name": "Daun ketumbar",
-    "description": "Daun ketumbar segar dan batangnya yang lembut, dengan aroma khas seperti sitrus.",
+    "description": "Daun ketumbar segar dan batangnya yang lembut, dengan aroma khas seperti sitrus. Padankan dengan limau nipis, tomato, kacang dal atau cili hijau. Gunakan batang yang lembut dalam chutney dan simpan bahagian atas yang berdaun sebagai sentuhan akhir hidangan.",
     "uses": [
       "Chutney",
       "kari",
@@ -1340,14 +1488,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "mustard-microgreens": {
-    "source": "7bc39786",
+    "source": "0d68b3c7",
     "name": "Sayur mikro sawi",
-    "description": "Daun kecil dengan rasa hangat mustard yang kuat.",
+    "description": "Daun kecil dengan rasa hangat mustard yang kuat. Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Sandwic",
       "hiasan",
@@ -1392,14 +1544,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "bell-peppers": {
-    "source": "df9c2c48",
+    "source": "4d9e4b74",
     "name": "Lada benggala",
-    "description": "Lada manis berisi tebal yang menambah warna dan kerangupan.",
+    "description": "Lada manis berisi tebal yang menambah warna dan kerangupan. Padankan dengan tomato, bawang, kekacang atau inti nasi. Potong kepingan lebar untuk dipanggang dan jalur nipis untuk dimasak sekejap di dalam kuali.",
     "uses": [
       "Salad",
       "sumbat",
@@ -1444,14 +1600,22 @@
         {
           "title": "Cara penyediaan penting",
           "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang tangkai, biji dan urat putihnya. Hiris untuk salad atau belah dua untuk disumbat."
         }
       ]
     }
   },
   "carrot": {
-    "source": "4cf54e65",
+    "source": "831ee38e",
     "name": "Lobak merah",
-    "description": "Umbi rangup dengan rasa manis yang lembut.",
+    "description": "Umbi rangup dengan rasa manis yang lembut. Padankan dengan jintan putih, halia, sitrus atau kacang kuda. Potong kepada saiz yang sama untuk dipanggang, atau parut halus supaya lebih lembut dalam salad mentah.",
     "uses": [
       "Salad",
       "panggang",
@@ -1496,14 +1660,22 @@
         {
           "title": "Mentah atau dimasak",
           "text": "Parut ke dalam salad atau masak sehingga empuk."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Gosok hingga bersih atau kupas, potong hujungnya dan potong sama saiz untuk dipanggang atau dibuat sup."
         }
       ]
     }
   },
   "borage-flowers": {
-    "source": "8c301c91",
+    "source": "c10fc81e",
     "name": "Bunga borage",
-    "description": "Bunga biru kecil dengan rasa ringan seperti timun.",
+    "description": "Bunga biru kecil dengan rasa ringan seperti timun. Gunakan beberapa kuntum bunga gred makanan sebagai sentuhan akhir salad timun atau minuman sejuk. Hadkan penggunaannya sebagai hiasan kecil sekali-sekala; jangan gunakan semangkuk penuh sebagai hidangan sayur.",
     "uses": [
       "Hiasan sekali-sekala"
     ],
@@ -1546,14 +1718,18 @@
         {
           "title": "Sedikit sahaja",
           "text": "Bunga melengkapkan hidangan, bukan pengganti satu hidangan sayur."
+        },
+        {
+          "title": "Sedikit sudah memadai",
+          "text": "Beberapa bunga yang selamat dimakan menambah warna dan tarikan. Gunakan sekali-sekala sebagai hiasan, bukan untuk manfaat penghadaman atau penurunan berat badan."
         }
       ]
     }
   },
   "lollo-bionda-lettuce": {
-    "source": "30e8376e",
+    "source": "757c41d7",
     "name": "Salad lollo bionda",
-    "description": "Daun hijau kerinting menjadi asas yang ringan dan rangup untuk sos salad yang ringkas.",
+    "description": "Daun hijau kerinting menjadi asas yang ringan dan rangup untuk sos salad yang ringkas. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Salad",
       "sandwic"
@@ -1597,14 +1773,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dan keringkan daun kerinting ini betul-betul supaya sos salad tidak bertakung di celah-celahnya."
         }
       ]
     }
   },
   "flat-leaf-parsley": {
-    "source": "0546d0e1",
+    "source": "e114eeec",
     "name": "Parsli daun leper",
-    "description": "Daun segar dengan rasa seperti rumput hijau dan rasa akhir yang bersih.",
+    "description": "Daun segar dengan rasa seperti rumput hijau dan rasa akhir yang bersih. Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas. Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad.",
     "uses": [
       "Tabbouleh",
       "sos",
@@ -1649,14 +1833,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "red-cabbage-microgreens": {
-    "source": "a4faaf55",
+    "source": "0c85f65b",
     "name": "Sayur mikro kubis merah",
-    "description": "Daun muda berbatang ungu dengan rasa kubis yang ringan.",
+    "description": "Daun muda berbatang ungu dengan rasa kubis yang ringan. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "hidangan mangkuk",
@@ -1701,14 +1889,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "green-chillies": {
-    "source": "fbe5364c",
+    "source": "77632d06",
     "name": "Cili hijau",
-    "description": "Cili segar untuk rasa pedas dan rasa yang menyerlah.",
+    "description": "Cili segar untuk rasa pedas dan rasa yang menyerlah. Padankan dengan daun ketumbar, limau nipis, tomato atau yogurt. Masukkan sedikit demi sedikit dan rasa hidangan. Tahap pedas boleh berbeza antara setiap cili.",
     "uses": [
       "Kari",
       "chutney",
@@ -1753,14 +1945,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "ginger": {
-    "source": "96aa67e0",
+    "source": "cd6ffa8c",
     "name": "Halia",
-    "description": "Rizom yang harum dengan rasa hangat dan tajam.",
+    "description": "Rizom yang harum dengan rasa hangat dan tajam. Padankan dengan bawang putih, limau nipis, lobak merah atau santan. Parut untuk rasa latar yang sekata; gunakan hirisan nipis jika mahu mengeluarkan halia selepas dimasak.",
     "uses": [
       "Kari",
       "seduhan",
@@ -1805,14 +2001,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "iceberg-lettuce": {
-    "source": "a81591b3",
+    "source": "60da6f34",
     "name": "Salad iceberg",
-    "description": "Salad berkepala padat yang terkenal dengan rasanya yang bersih dan daun yang rangup.",
+    "description": "Salad berkepala padat yang terkenal dengan rasanya yang bersih dan daun yang rangup. Padankan dengan timun, tomato dan sos salad lemon atau yogurt. Gaulkan sos salad pada daun yang akan dimakan segera sahaja. Simpan selebihnya dalam keadaan kering untuk salad atau sandwic seterusnya.",
     "uses": [
       "Potongan baji",
       "gulungan",
@@ -1857,14 +2057,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang bahagian teras, bilas daun dan potong berbentuk baji atau hiris halus."
         }
       ]
     }
   },
   "curly-parsley": {
-    "source": "6f8fa57e",
+    "source": "2686e3b5",
     "name": "Parsli kerinting",
-    "description": "Daun kerinting menambah tekstur dan rasa herba yang lembut.",
+    "description": "Daun kerinting menambah tekstur dan rasa herba yang lembut. Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas. Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad.",
     "uses": [
       "Hiasan",
       "salad",
@@ -1909,14 +2117,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "kale-microgreens": {
-    "source": "23032e4b",
+    "source": "6f659df5",
     "name": "Sayur mikro kale",
-    "description": "Daun kale muda yang empuk untuk sentuhan akhir hijau yang lembut.",
+    "description": "Daun kale muda yang empuk untuk sentuhan akhir hijau yang lembut. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Sandwic",
       "salad",
@@ -1961,14 +2173,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "jalapeno-peppers": {
-    "source": "50d02da7",
+    "source": "636ee53b",
     "name": "Cili jalapeño",
-    "description": "Cili pejal dengan rasa tersendiri dan tahap pedas yang berbeza-beza.",
+    "description": "Cili pejal dengan rasa tersendiri dan tahap pedas yang berbeza-beza. Padankan dengan tomato, limau nipis, kekacang atau inti keju lembut. Hiris nipis supaya rasa pedas tersebar rata dalam salsa atau sandwic, bukan tertumpu pada satu gigitan.",
     "uses": [
       "Salsa",
       "jeruk",
@@ -2013,14 +2229,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "turmeric": {
-    "source": "3dd538ed",
+    "source": "89efeeb5",
     "name": "Kunyit",
-    "description": "Rizom berwarna terang dengan rasa tanah dan sedikit pahit.",
+    "description": "Rizom berwarna terang dengan rasa tanah dan sedikit pahit. Padankan dengan halia, santan, kacang dal atau kubis bunga. Mulakan dengan sedikit dan rasa. Parut di atas permukaan yang boleh dibasuh kerana warnanya boleh meninggalkan kesan.",
     "uses": [
       "Kari",
       "jeruk",
@@ -2065,14 +2285,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "arugula": {
-    "source": "113e1546",
+    "source": "64989588",
     "name": "Daun roket",
-    "description": "Daun berasa pedas yang memberi sedikit rasa tajam pada salad segar atau piza yang sudah siap.",
+    "description": "Daun berasa pedas yang memberi sedikit rasa tajam pada salad segar atau piza yang sudah siap. Padankan daun yang pedas ini dengan buah pear, walnut, tomato atau hirisan nipis keju. Taburkan di atas piza selepas dibakar, atau gaulkan perlahan ke dalam pasta yang masih panas sejurus sebelum dihidangkan.",
     "uses": [
       "Salad",
       "piza",
@@ -2117,14 +2341,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dan keringkan. Tambahkan pada piza selepas dibakar, atau gaulkan ke dalam salad pada saat akhir."
         }
       ]
     }
   },
   "dill": {
-    "source": "37344873",
+    "source": "4ba912fc",
     "name": "Daun dill",
-    "description": "Daun halus seperti bulu pelepah dengan aroma segar seakan-akan jintan manis.",
+    "description": "Daun halus seperti bulu pelepah dengan aroma segar seakan-akan jintan manis. Padankan dengan timun, kentang, yogurt atau lemon. Gunting di atas hidangan yang sudah siap, atau kacau ke dalam sos salad sejuk sejurus sebelum dihidangkan.",
     "uses": [
       "Jeruk",
       "kentang",
@@ -2169,14 +2401,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "arugula-microgreens": {
-    "source": "2a58d288",
+    "source": "115b3115",
     "name": "Sayur mikro roket",
-    "description": "Daun halus dengan rasa pedas daun roket yang biasa dikenali.",
+    "description": "Daun halus dengan rasa pedas daun roket yang biasa dikenali. Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Piza",
       "pasta",
@@ -2221,14 +2457,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "strawberries": {
-    "source": "b1c7e0cf",
+    "source": "6e885c8b",
     "name": "Strawberi",
-    "description": "Buah lembut yang harum untuk dimakan segar dan pencuci mulut yang ringkas.",
+    "description": "Buah lembut yang harum untuk dimakan segar dan pencuci mulut yang ringkas. Padankan dengan yogurt, selasih, daun pudina atau sedikit parutan kulit lemon. Hiris sejurus sebelum dihidangkan, atau lenyek perlahan beberapa biji strawberi untuk dijadikan hiasan atas dengan cepat.",
     "uses": [
       "Snek",
       "pencuci mulut",
@@ -2273,14 +2513,22 @@
         {
           "title": "Cara penyediaan penting",
           "text": "Masa memasak dan penyimpanan yang lama boleh mengurangkan vitamin C."
+        },
+        {
+          "title": "Buah utuh untuk serat",
+          "text": "Makan isinya, bukan sekadar minum jus, untuk mengekalkan serat. Serat menyokong pembuangan air besar yang teratur sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Pilihan manis semula jadi",
+          "text": "Cuba buah segar sebagai ganti pencuci mulut yang kaya atau snek manis. Menggantikan makanan, bukan menambah lagi, boleh membantu pengurusan berat."
         }
       ]
     }
   },
   "potato": {
-    "source": "54313611",
+    "source": "fc6171a9",
     "name": "Kentang",
-    "description": "Ubi serba guna untuk masakan, dengan kegunaan khusus dalam pembiakan aeroponik.",
+    "description": "Ubi serba guna untuk masakan, dengan kegunaan khusus dalam pembiakan aeroponik. Padankan dengan rosemary, bawang putih, kacang pis atau sos yogurt. Potong ketulan sama besar untuk direbus, dan jarakkan kepingan semasa memanggang supaya tepinya rangup.",
     "uses": [
       "Panggang",
       "rebus",
@@ -2325,14 +2573,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Bahagian yang seimbang",
+          "text": "Kentang ialah sayuran berkanji. Rebus atau bakar dan padankan bahagian sederhana dengan sayur lain serta sumber protein. Minyak dan bahan tambahan mengubah hidangan."
         }
       ]
     }
   },
   "spinach": {
-    "source": "8f3597fa",
+    "source": "1d695171",
     "name": "Bayam",
-    "description": "Daun hijau serba guna untuk hidangan mangkuk segar atau masakan ringkas dengan api perlahan.",
+    "description": "Daun hijau serba guna untuk hidangan mangkuk segar atau masakan ringkas dengan api perlahan. Padankan dengan kacang kuda, paneer, bawang putih atau sedikit perahan lemon. Kacau ke dalam dal atau sup menjelang akhir memasak. Daunnya cepat layu dan tidak memakan banyak ruang dalam kuali.",
     "uses": [
       "Salad",
       "dal",
@@ -2381,14 +2637,22 @@
         {
           "title": "Kalium",
           "text": "Mineral yang digunakan dalam fungsi otot dan saraf yang normal."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dengan teliti. Gunakan daun yang lembut secara mentah, atau layurkan sekejap dalam dal atau kuali panas."
         }
       ]
     }
   },
   "chives": {
-    "source": "731986ca",
+    "source": "1a81eba6",
     "name": "Kucai halus",
-    "description": "Daun hijau yang halus dengan rasa bawang yang ringan.",
+    "description": "Daun hijau yang halus dengan rasa bawang yang ringan. Padankan dengan kentang, telur, keju krim atau sos cicah yogurt. Gunakan gunting yang bersih untuk mendapatkan potongan kecil yang sekata tanpa menyebabkan daunnya penyek.",
     "uses": [
       "Telur",
       "sup",
@@ -2433,14 +2697,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "beet-microgreens": {
-    "source": "5584ba7c",
+    "source": "665e751a",
     "name": "Sayur mikro bit",
-    "description": "Batang berwarna-warni dan daun muda dengan rasa tanah.",
+    "description": "Batang berwarna-warni dan daun muda dengan rasa tanah. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "persembahan hidangan",
@@ -2485,14 +2753,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "eggplant": {
-    "source": "fa849444",
+    "source": "969d5d1c",
     "name": "Terung",
-    "description": "Buah berisi lembut yang menyerap rasa dengan baik semasa dimasak.",
+    "description": "Buah berisi lembut yang menyerap rasa dengan baik semasa dimasak. Padankan dengan tomato, bawang putih, yogurt atau tahini. Jarakkan kepingan semasa memanggang. Dulang yang terlalu padat menghasilkan tekstur yang lebih lembut, seperti dikukus.",
     "uses": [
       "Kari",
       "panggang",
@@ -2537,14 +2809,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang tangkai, potong sama saiz dan masak sehingga isinya lembut sepenuhnya."
         }
       ]
     }
   },
   "baby-kale": {
-    "source": "eec05bf9",
+    "source": "dd1f9acb",
     "name": "Kale muda",
-    "description": "Daun kale muda dengan tekstur yang lebih lembut berbanding daun matang.",
+    "description": "Daun kale muda dengan tekstur yang lebih lembut berbanding daun matang. Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon. Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad.",
     "uses": [
       "Salad",
       "mangkuk bijirin",
@@ -2589,14 +2869,22 @@
         {
           "title": "Cara menghidang penting",
           "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dan keringkan. Gaulkan daun yang lembut terus ke dalam salad atau mangkuk bijirin yang suam."
         }
       ]
     }
   },
   "garlic-chives": {
-    "source": "40072a96",
+    "source": "9d7385d1",
     "name": "Kucai",
-    "description": "Daun leper dengan sentuhan rasa bawang putih yang lembut.",
+    "description": "Daun leper dengan sentuhan rasa bawang putih yang lembut. Padankan dengan cendawan, tauhu, telur atau inti ladu. Potong pendek-pendek untuk goreng kilas, atau cincang halus apabila digaul ke dalam inti.",
     "uses": [
       "Ladu",
       "goreng kilas",
@@ -2641,14 +2929,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "amaranth-microgreens": {
-    "source": "cbb2821d",
+    "source": "e14a0a3d",
     "name": "Sayur mikro bayam",
-    "description": "Daun muda yang sangat halus dengan warna terang pada varieti merah.",
+    "description": "Daun muda yang sangat halus dengan warna terang pada varieti merah. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Hiasan",
       "salad",
@@ -2693,14 +2985,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "zucchini": {
-    "source": "0faf3414",
+    "source": "650324f9",
     "name": "Zukini",
-    "description": "Labu musim panas yang lembut, sesuai untuk dimasak sekejap.",
+    "description": "Labu musim panas yang lembut, sesuai untuk dimasak sekejap. Padankan dengan lemon, daun pudina, selasih atau sedikit keju parut. Gunakan hirisan tebal untuk dibakar dan potongan kecil untuk ditumis sekejap.",
     "uses": [
       "Bakar",
       "tumis",
@@ -2745,14 +3041,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Potong kedua-dua hujung dan hiris sama tebal. Masak sekejap untuk kepingan yang lebih pejal, atau lebih lama untuk tekstur yang lembut."
         }
       ]
     }
   },
   "curly-kale": {
-    "source": "8f7b1dc8",
+    "source": "35845787",
     "name": "Kale kerinting",
-    "description": "Daun hijau bertekstur yang kekal bentuknya dalam hidangan yang berisi.",
+    "description": "Daun hijau bertekstur yang kekal bentuknya dalam hidangan yang berisi. Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon. Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad.",
     "uses": [
       "Sup",
       "tumis",
@@ -2797,14 +3101,22 @@
         {
           "title": "Cara menghidang penting",
           "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Tanggalkan batang yang tebal. Ramas daun yang telah dipotong untuk salad, atau masak sehingga lembut."
         }
       ]
     }
   },
   "oregano": {
-    "source": "8cf92cff",
+    "source": "867961ef",
     "name": "Daun oregano",
-    "description": "Daun kecil dengan aroma herba yang hangat dan kuat.",
+    "description": "Daun kecil dengan aroma herba yang hangat dan kuat. Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato. Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan.",
     "uses": [
       "Sos tomato",
       "panggang",
@@ -2849,14 +3161,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "basil-microgreens": {
-    "source": "7bb75a9d",
+    "source": "cd895a59",
     "name": "Sayur mikro selasih",
-    "description": "Daun kecil yang harum dengan bau selasih yang jelas.",
+    "description": "Daun kecil yang harum dengan bau selasih yang jelas. Gunakan pucuk yang harum ini bersama tomato, nasi atau semangkuk sup panas. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Hidangan tomato",
       "sup",
@@ -2901,14 +3217,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "muskmelon": {
-    "source": "cb1da443",
+    "source": "4daa1ae1",
     "name": "Tembikai susu",
-    "description": "Tembikai manis yang harum untuk hirisan segar dan hidangan buah.",
+    "description": "Tembikai manis yang harum untuk hirisan segar dan hidangan buah. Padankan dengan daun pudina, limau nipis, yogurt atau buah-buahan segar yang lain. Potong sebesar sesuap untuk dihidangkan dalam mangkuk dan sejukkan selepas dipotong. Jangan masukkan kulit ke dalam bekas hidangan.",
     "uses": [
       "Dimakan segar",
       "salad buah"
@@ -2952,14 +3272,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Buah utuh untuk serat",
+          "text": "Makan isinya, bukan sekadar minum jus, untuk mengekalkan serat. Serat menyokong pembuangan air besar yang teratur sebagai sebahagian daripada pemakanan yang pelbagai."
+        },
+        {
+          "title": "Pilihan manis semula jadi",
+          "text": "Cuba buah segar sebagai ganti pencuci mulut yang kaya atau snek manis. Menggantikan makanan, bukan menambah lagi, boleh membantu pengurusan berat."
         }
       ]
     }
   },
   "lacinato-kale": {
-    "source": "4b96c6ec",
+    "source": "9e8cdf52",
     "name": "Kale lacinato",
-    "description": "Daun panjang berwarna gelap dengan tekstur pejal untuk dimasak dan salad cincang.",
+    "description": "Daun panjang berwarna gelap dengan tekstur pejal untuk dimasak dan salad cincang. Padankan dengan kacang putih, labu panggang, bawang putih atau sedikit lemon. Hiris daun halus-halus supaya masak sekata. Untuk salad yang lebih lembut, ramas daun dengan sedikit sos salad.",
     "uses": [
       "Sup",
       "masakan reneh",
@@ -3004,14 +3332,22 @@
         {
           "title": "Cara menghidang penting",
           "text": "Saiz hidangan dan cara memasak mempengaruhi nutrien dalam pinggan anda."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang tulang daun yang keras dan hiris daun nipis-nipis untuk sup atau masakan reneh."
         }
       ]
     }
   },
   "thyme": {
-    "source": "e9042f32",
+    "source": "41a7eeea",
     "name": "Daun thyme",
-    "description": "Daun kecil halus yang harum dengan rasa tanah.",
+    "description": "Daun kecil halus yang harum dengan rasa tanah. Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato. Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan.",
     "uses": [
       "Panggang",
       "stok",
@@ -3056,14 +3392,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "coriander-microgreens": {
-    "source": "ed7ab488",
+    "source": "8979a250",
     "name": "Sayur mikro ketumbar",
-    "description": "Daun ketumbar muda dengan aroma herba yang pekat.",
+    "description": "Daun ketumbar muda dengan aroma herba yang pekat. Gunakan pucuk yang harum ini bersama tomato, nasi atau semangkuk sup panas. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Taco",
       "sup",
@@ -3108,14 +3448,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "green-beans": {
-    "source": "c9b841da",
+    "source": "cd90a56f",
     "name": "Kacang buncis",
-    "description": "Buncis lembut untuk masakan ringkas dan hidangan sayur yang rangup.",
+    "description": "Buncis lembut untuk masakan ringkas dan hidangan sayur yang rangup. Padankan dengan bawang putih, bijan, lemon atau badam panggang. Potong sama panjang supaya masak sekata, kemudian gaulkan dengan sos salad semasa masih suam.",
     "uses": [
       "Goreng kilas",
       "salad",
@@ -3160,14 +3504,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Potong kedua-dua hujung dan masak sehingga lembut. Sejukkan buncis yang telah dimasak untuk salad."
         }
       ]
     }
   },
   "swiss-chard": {
-    "source": "db568563",
+    "source": "47071dcf",
     "name": "Chard Swiss",
-    "description": "Daun lebar dan batang rangup, memberikan dua tekstur dalam satu hidangan.",
+    "description": "Daun lebar dan batang rangup, memberikan dua tekstur dalam satu hidangan. Padankan dengan bawang putih, kacang dal, kacang putih atau sedikit parutan kulit lemon. Potong kecil batangnya dan simpan untuk ditumis; batang memerlukan masa lebih lama dalam kuali berbanding daun.",
     "uses": [
       "Tumis",
       "gratin",
@@ -3212,14 +3564,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Asingkan batang daripada daun. Masak batang yang telah dipotong dahulu, kemudian masukkan daunnya."
         }
       ]
     }
   },
   "rosemary": {
-    "source": "d0109b10",
+    "source": "0b421b3c",
     "name": "Daun rosemary",
-    "description": "Daun seperti jarum dengan aroma kuat seperti pokok pain.",
+    "description": "Daun seperti jarum dengan aroma kuat seperti pokok pain. Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato. Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan.",
     "uses": [
       "Sayur panggang",
       "roti",
@@ -3264,14 +3624,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "fenugreek-microgreens": {
-    "source": "a802e69b",
+    "source": "5e0836a8",
     "name": "Sayur mikro halba",
-    "description": "Pucuk halba muda dengan rasa gurih dan sedikit pahit.",
+    "description": "Pucuk halba muda dengan rasa gurih dan sedikit pahit. Padankan pucuk yang gurih ini dengan kentang, kacang dal atau inti kacang kuda. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "sandwic",
@@ -3316,14 +3680,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "bok-choy": {
-    "source": "fc3d870d",
+    "source": "8293ed6e",
     "name": "Pak choy",
-    "description": "Daun berbentuk sudu dan batang pucat yang rangup dengan rasa kubis yang ringan.",
+    "description": "Daun berbentuk sudu dan batang pucat yang rangup dengan rasa kubis yang ringan. Padankan dengan halia, bijan, cendawan atau tauhu. Belah dua pak choy yang kecil secara memanjang untuk hidangan yang menarik. Biarkan pangkalnya utuh supaya daun tidak bercerai.",
     "uses": [
       "Goreng kilas",
       "sup jernih",
@@ -3368,14 +3736,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas di celah-celah batang. Masak batang dahulu dan masukkan daun menjelang akhir memasak."
         }
       ]
     }
   },
   "sage": {
-    "source": "d87fce09",
+    "source": "31a85eef",
     "name": "Daun sage",
-    "description": "Daun lembut berwarna hijau kelabu dengan aroma gurih yang mendalam.",
+    "description": "Daun lembut berwarna hijau kelabu dengan aroma gurih yang mendalam. Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato. Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan.",
     "uses": [
       "Mentega perang",
       "panggang",
@@ -3420,14 +3796,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "wheatgrass": {
-    "source": "aee13940",
+    "source": "ddd3f197",
     "name": "Rumput gandum",
-    "description": "Pucuk gandum muda yang ditanam untuk disediakan segar.",
+    "description": "Pucuk gandum muda yang ditanam untuk disediakan segar. Campurkan sedikit jus yang baru diperah dengan jus epal atau timun. Sediakan jus secukupnya untuk dihidangkan sahaja. Tapis serat kasar untuk minuman yang lebih licin.",
     "uses": [
       "Jus"
     ],
@@ -3470,14 +3850,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Kekalkan hidangan seimbang",
+          "text": "Nikmati sedikit jika anda suka rasanya. Minuman rumput gandum tidak menggantikan sayur utuh, satu hidangan atau pemakanan yang pelbagai."
         }
       ]
     }
   },
   "tatsoi": {
-    "source": "41b56aea",
+    "source": "1ba42095",
     "name": "Tatsoi",
-    "description": "Daun kecil yang bulat dengan sentuhan rasa mustard yang ringan.",
+    "description": "Daun kecil yang bulat dengan sentuhan rasa mustard yang ringan. Padankan dengan bijan, halia, mi atau tauhu. Masukkan daun yang lembut ke dalam mangkuk hidangan panas sejurus sebelum dihidangkan supaya bentuk daunnya masih kekal.",
     "uses": [
       "Salad",
       "sup",
@@ -3522,14 +3906,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Asingkan dan bilas daunnya. Masukkan seluruh daun ke dalam sup atau goreng kilas ringkas."
         }
       ]
     }
   },
   "lemon-balm": {
-    "source": "9057880a",
+    "source": "e48bb8d8",
     "name": "Daun lemon balm",
-    "description": "Daun yang lembut dengan haruman lemon yang ringan.",
+    "description": "Daun yang lembut dengan haruman lemon yang ringan. Padankan dengan buah beri, tembikai atau seduhan herba yang ringan. Ramas perlahan beberapa helai daun untuk mengeluarkan baunya, kemudian masukkan ke dalam minuman yang telah sejuk.",
     "uses": [
       "Seduhan",
       "hidangan buah",
@@ -3574,14 +3966,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "kohlrabi-microgreens": {
-    "source": "46bf5e73",
+    "source": "8cca0f91",
     "name": "Sayur mikro kohlrabi",
-    "description": "Pucuk lembut dengan rasa kubis yang ringan.",
+    "description": "Pucuk lembut dengan rasa kubis yang ringan. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Salad",
       "hidangan mangkuk",
@@ -3626,14 +4022,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "mizuna": {
-    "source": "28caab47",
+    "source": "df448528",
     "name": "Mizuna",
-    "description": "Daun halus berjumbai dengan rasa pedas yang ringan.",
+    "description": "Daun halus berjumbai dengan rasa pedas yang ringan. Padankan dengan sitrus, bijan, radis atau sos mi yang ringan. Campurkan dengan daun yang lebih ringan rasanya untuk salad, atau taburkan segenggam sebagai sentuhan akhir semangkuk mi.",
     "uses": [
       "Campuran salad",
       "mangkuk mi"
@@ -3677,14 +4077,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas daun halus ini perlahan-lahan dan masukkan pada akhir penyediaan supaya teksturnya kekal."
         }
       ]
     }
   },
   "shiso": {
-    "source": "49790bae",
+    "source": "cff169dc",
     "name": "Daun shiso",
-    "description": "Daun harum yang tersendiri, digunakan untuk membalut makanan atau sebagai hiasan.",
+    "description": "Daun harum yang tersendiri, digunakan untuk membalut makanan atau sebagai hiasan. Padankan dengan timun, nasi, bijan atau sayur jeruk. Susun beberapa helai daun yang kering dan hiris halus memanjang sebagai hiasan akhir yang kemas.",
     "uses": [
       "Hidangan nasi",
       "jeruk",
@@ -3729,14 +4137,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "garden-cress-microgreens": {
-    "source": "a462291b",
+    "source": "7d6a137a",
     "name": "Sayur mikro kres kebun",
-    "description": "Pucuk halus dengan rasa pedas yang tajam.",
+    "description": "Pucuk halus dengan rasa pedas yang tajam. Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk. Taburkan di atas hidangan selepas dimasak. Segenggam kecil yang ditabur longgar mengekalkan tekstur yang ringan.",
     "uses": [
       "Hidangan telur",
       "sandwic",
@@ -3781,14 +4193,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "mustard-greens": {
-    "source": "f9c39244",
+    "source": "cd64eaae",
     "name": "Sawi pahit",
-    "description": "Daun berperisa kuat dengan rasa pedas mustard yang menjadi lembut apabila dimasak.",
+    "description": "Daun berperisa kuat dengan rasa pedas mustard yang menjadi lembut apabila dimasak. Padankan dengan bawang putih, kentang, kacang dal atau hidangan sampingan yogurt yang ringan. Cincang halus untuk saag, atau campurkan dengan sayur hijau yang lebih ringan rasanya untuk melembutkan rasa mustard.",
     "uses": [
       "Saag",
       "goreng kilas",
@@ -3833,14 +4249,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang batang yang kasar dan masak daunnya sehingga lembut untuk mengurangkan rasa pedasnya."
         }
       ]
     }
   },
   "chervil": {
-    "source": "8c156fac",
+    "source": "4cb3b075",
     "name": "Daun chervil",
-    "description": "Daun halus dengan sentuhan rasa jintan manis yang ringan.",
+    "description": "Daun halus dengan sentuhan rasa jintan manis yang ringan. Padankan dengan lemon, kentang, telur atau salad kekacang yang ringkas. Keringkan daun sebelum dicincang supaya tidak melekat dan dapat bercampur sekata dalam sos salad.",
     "uses": [
       "Telur",
       "salad",
@@ -3885,14 +4309,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "radish-microgreens-live-tray": {
-    "source": "afaa910f",
+    "source": "465241ac",
     "name": "Sayur mikro radis · Dulang hidup",
-    "description": "Daun muda yang pedas. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Daun muda yang pedas. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Imbangi rasa pedas pucuk ini dengan avokado, hummus atau sos yogurt yang sejuk. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -3938,14 +4366,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "watercress": {
-    "source": "41d3cdc3",
+    "source": "90fcf685",
     "name": "Selada air",
-    "description": "Daun kecil yang bulat dengan rasa pedas yang menyerlah.",
+    "description": "Daun kecil yang bulat dengan rasa pedas yang menyerlah. Padankan dengan kentang, telur, sitrus atau sos salad berkrim yang ringan. Gunakan pucuk yang lembut untuk salad dan simpan batang yang lebih keras untuk sup yang dimasak.",
     "uses": [
       "Sup",
       "salad",
@@ -3990,14 +4422,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas dengan teliti dan buang batang yang kasar. Masukkan ke dalam salad atau kisar bersama sup yang telah dimasak."
         }
       ]
     }
   },
   "tarragon": {
-    "source": "69901840",
+    "source": "ace090a7",
     "name": "Daun tarragon",
-    "description": "Daun sempit dengan rasa seperti jintan manis yang ketara.",
+    "description": "Daun sempit dengan rasa seperti jintan manis yang ketara. Padankan dengan mustard, kentang, telur atau sos salad berkrim. Gunakan sedikit dahulu kerana rasa seperti jintan manisnya boleh mengatasi sos yang lembut rasanya.",
     "uses": [
       "Sos",
       "sos salad",
@@ -4042,14 +4482,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "pea-microgreens-live-tray": {
-    "source": "5198e055",
+    "source": "4b8890b6",
     "name": "Sayur mikro kacang pis · Dulang hidup",
-    "description": "Pucuk lembut dengan rasa manis kacang pis. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Pucuk lembut dengan rasa manis kacang pis. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -4095,14 +4539,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "sorrel": {
-    "source": "c2f6c916",
+    "source": "41fabf30",
     "name": "Daun sorrel",
-    "description": "Daun masam seperti lemon yang digunakan sedikit untuk menyegarkan rasa hidangan.",
+    "description": "Daun masam seperti lemon yang digunakan sedikit untuk menyegarkan rasa hidangan. Padankan beberapa helai daun dengan kentang, telur atau sos berkrim. Rasa dahulu sebelum menambah lemon atau cuka kerana daun sorrel sudah memberikan rasa masam.",
     "uses": [
       "Sos",
       "sup",
@@ -4147,14 +4595,18 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "marjoram": {
-    "source": "802bbebd",
+    "source": "5faa205d",
     "name": "Daun marjoram",
-    "description": "Daun lembut dengan rasa manis yang ringan seperti oregano.",
+    "description": "Daun lembut dengan rasa manis yang ringan seperti oregano. Padankan dengan kentang panggang, cendawan, kekacang atau sos tomato. Mulakan dengan sedikit dan rasa semasa memasak. Buang batang yang berkayu sebelum dihidangkan.",
     "uses": [
       "Sup",
       "sos",
@@ -4199,14 +4651,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "sunflower-microgreens-live-tray": {
-    "source": "a436640b",
+    "source": "8e634626",
     "name": "Sayur mikro bunga matahari · Dulang hidup",
-    "description": "Pucuk rangup dengan rasa ringan seperti kacang. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Pucuk rangup dengan rasa ringan seperti kacang. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Padankan pucuk ini dengan timun, keju lembut atau semangkuk bijirin bersos lemon. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -4252,14 +4708,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "endive": {
-    "source": "55ffbd35",
+    "source": "2066e2c5",
     "name": "Endif",
-    "description": "Daun pejal dengan rasa pahit yang menyenangkan.",
+    "description": "Daun pejal dengan rasa pahit yang menyenangkan. Padankan dengan oren, walnut, epal atau keju lembut. Gunakan daun luar yang pejal sebagai cawan kecil untuk diisi salad cincang.",
     "uses": [
       "Salad",
       "panggang",
@@ -4304,14 +4764,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Asingkan daunnya untuk dijadikan cawan salad kecil, atau belah dua sebelum dipanggang."
         }
       ]
     }
   },
   "lemongrass": {
-    "source": "9644eb9b",
+    "source": "bbdb1907",
     "name": "Serai",
-    "description": "Batang harum dengan aroma sitrus yang jelas.",
+    "description": "Batang harum dengan aroma sitrus yang jelas. Padankan dengan halia, santan, limau nipis atau cendawan. Gunakan batang yang telah diketuk untuk mengharumkan sup jernih. Buang kepingan besar yang berserat sebelum dihidangkan.",
     "uses": [
       "Kari",
       "sup jernih",
@@ -4356,14 +4824,18 @@
         {
           "title": "Saiz hidangan penting",
           "text": "Beberapa helai daun hanyalah hiasan, bukan satu hidangan sayur yang penuh."
+        },
+        {
+          "title": "Rasa dengan kurang garam",
+          "text": "Gunakan sedikit untuk menyedapkan sayur, kekacang atau bijirin sebelum menambah garam. Kuantiti sebagai perasa hanya menyumbang sedikit serat."
         }
       ]
     }
   },
   "broccoli-microgreens-live-tray": {
-    "source": "184ffb84",
+    "source": "185398fc",
     "name": "Sayur mikro brokoli · Dulang hidup",
-    "description": "Daun kecil dengan rasa kubis yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Daun kecil dengan rasa kubis yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -4409,14 +4881,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "radicchio": {
-    "source": "6054b24c",
+    "source": "f7622edc",
     "name": "Radicchio",
-    "description": "Daun merah dan urat putih memberikan rasa pahit serta kontras pada hidangan.",
+    "description": "Daun merah dan urat putih memberikan rasa pahit serta kontras pada hidangan. Padankan dengan buah pear, oren, walnut atau keju yang ringan rasanya. Campurkan hirisan mentah dengan bahan yang lebih manis, atau bakar potongan baji untuk melembutkan teksturnya.",
     "uses": [
       "Salad",
       "bakar",
@@ -4461,14 +4937,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Buang bahagian teras. Hiris nipis untuk salad atau potong berbentuk baji untuk dibakar."
         }
       ]
     }
   },
   "fenugreek-microgreens-live-tray": {
-    "source": "b724d323",
+    "source": "072f253e",
     "name": "Sayur mikro halba · Dulang hidup",
-    "description": "Pucuk harum dengan rasa pahit yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Pucuk harum dengan rasa pahit yang ringan. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Padankan pucuk yang gurih ini dengan kentang, kacang dal atau inti kacang kuda. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -4514,14 +4998,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "amaranth-greens": {
-    "source": "e36b47cf",
+    "source": "d338806a",
     "name": "Bayam hijau",
-    "description": "Daun lembut yang digunakan dalam banyak hidangan sayur serantau India.",
+    "description": "Daun lembut yang digunakan dalam banyak hidangan sayur serantau India. Padankan dengan kacang dal, bawang putih, kelapa atau jintan putih. Potong daun dan batang yang lembut untuk hidangan sampingan yang dimasak; buang tangkai yang kasar terlebih dahulu.",
     "uses": [
       "Dal",
       "goreng kilas",
@@ -4566,14 +5054,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas betul-betul, buang batang yang keras dan masak daunnya dalam dal atau hidangan sayur."
         }
       ]
     }
   },
   "red-amaranth-microgreens-live-tray": {
-    "source": "5db14b16",
+    "source": "0917c4e6",
     "name": "Sayur mikro bayam merah · Dulang hidup",
-    "description": "Pucuk merah yang halus dengan rasa tanah. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan.",
+    "description": "Pucuk merah yang halus dengan rasa tanah. Dihantar masih tumbuh dalam satu dulang hidup. Potong mengikut keperluan. Padankan daun muda ini dengan sayur panggang, hummus atau salad dengan sedikit sos. Tuai bahagian yang diperlukan sahaja. Biarkan selebihnya tidak dipotong untuk hidangan seterusnya; jangan harapkan pucuk yang dipotong akan tumbuh semula.",
     "uses": [
       "Salad",
       "Sandwic",
@@ -4619,14 +5115,18 @@
         {
           "title": "Pelbagaikan",
           "text": "Nikmati pelbagai jenis pucuk bersama sayur-sayuran lain."
+        },
+        {
+          "title": "Sebahagian kecil daripada hidangan",
+          "text": "Segenggam menambah kepelbagaian pada hidangan. Nutrien bergantung pada tanaman dan kuantiti; hiasan tidak menggantikan satu hidangan penuh sayur-sayuran."
         }
       ]
     }
   },
   "fenugreek-greens": {
-    "source": "2be34ad8",
+    "source": "68aecb62",
     "name": "Daun halba",
-    "description": "Daun halba yang harum dengan rasa pahit dan gurih yang khas.",
+    "description": "Daun halba yang harum dengan rasa pahit dan gurih yang khas. Padankan dengan kentang, kacang pis, kacang dal atau doh gandum penuh. Gaulkan daun yang dicincang ke dalam doh paratha, atau tambahkan segenggam kecil ke dalam kari sayur.",
     "uses": [
       "Paratha",
       "dal",
@@ -4671,14 +5171,22 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Petik daun daripada batang yang tebal, bilas betul-betul dan cincang untuk dal atau paratha."
         }
       ]
     }
   },
   "napa-cabbage": {
-    "source": "aa9e90d8",
+    "source": "def1874c",
     "name": "Kubis Cina",
-    "description": "Daun berlapis yang lembut dan batang rangup yang ringan rasanya.",
+    "description": "Daun berlapis yang lembut dan batang rangup yang ringan rasanya. Padankan dengan halia, cendawan, tauhu atau daun bawang. Gunakan batang yang lebih tebal untuk kerangupan dan daun yang lebih lembut untuk menyerap sup jernih yang ringan.",
     "uses": [
       "Goreng kilas",
       "sup",
@@ -4723,6 +5231,14 @@
         {
           "title": "Kepelbagaian",
           "text": "Gabungkan sayur pelbagai warna dengan bijirin dan sumber protein."
+        },
+        {
+          "title": "Serat & penghadaman",
+          "text": "Sayur-sayuran utuh membekalkan serat yang menyokong pembuangan air besar yang teratur. Tambah serat secara beransur-ansur dan minum air secukupnya."
+        },
+        {
+          "title": "Hidangan untuk pengurusan berat",
+          "text": "Gantikan sebahagian bahan berkalori tinggi dengan sayur-sayuran. Ini boleh menyokong pengurusan berat; saiz hidangan, sos dan keseluruhan pemakanan tetap penting. Bilas di celah-celah lapisan. Hiris batang dan daun secara berasingan supaya masak sekata."
         }
       ]
     }

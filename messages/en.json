@@ -207,7 +207,9 @@
       "emptyEyebrow": "ROOM FOR SOMETHING FRESH",
       "emptyTitle": "Your basket is empty.",
       "emptyText": "Choose vegetables to get started.",
-      "emptyCta": "Explore the Produce"
+      "emptyCta": "Explore the Produce",
+      "wellnessTitle": "A small investment in everyday health",
+      "wellnessText": "Make room for varied plant foods in meals you enjoy. Small, regular choices add up."
     },
     "validation": {
       "name": "Enter your name.",
@@ -468,7 +470,8 @@
       "servingIdea": "{name} serving idea",
       "viewRecipe": "View recipe",
       "images": "Product images",
-      "view": "View {label}"
+      "view": "View {label}",
+      "additionalView": "{name} · View {number}"
     },
     "breadcrumbHome": "Home",
     "breadcrumbShop": "Shop",
@@ -506,7 +509,9 @@
       "domestic": "Delivery across India",
       "export": "Delivery to {country} on request",
       "mix": "Pick your own mix"
-    }
+    },
+    "eatingGuide": "Healthy eating guide",
+    "fibreGuide": "Fibre & digestion guide"
   },
   "cart": {
     "heroAlt": "A basket of fresh vegetables",

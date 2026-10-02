@@ -1,3 +1,5 @@
+import { servingNotes } from "./productServingNotes";
+
 // Seed input only. Public pages read Convex, never this file as a fallback.
 export const sources = {
   flowers:
@@ -644,4 +646,14 @@ for (const [variety, description] of [
         "Red amaranth",
       ].indexOf(variety),
   });
+}
+
+// Keep the concise flavour line for detail cards; the catalogue description
+// includes practical pairings and serving advice in the same editorial source.
+export const productFlavourDescriptions = Object.fromEntries(
+  cropCatalogue.map((product) => [product.slug, product.description]),
+);
+for (const product of cropCatalogue) {
+  const [pairing, serving] = servingNotes(product.slug, product.category);
+  product.description = `${product.description} ${pairing} ${serving}`;
 }

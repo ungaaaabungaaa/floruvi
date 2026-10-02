@@ -207,7 +207,9 @@
       "emptyEyebrow": "YANGILIK UCHUN OʻRIN",
       "emptyTitle": "Savatingiz boʻsh.",
       "emptyText": "Boshlash uchun sabzavotlarni tanlang.",
-      "emptyCta": "Hosilni Koʻrib Chiqish"
+      "emptyCta": "Hosilni Koʻrib Chiqish",
+      "wellnessTitle": "Kundalik salomatlikka kichik sarmoya",
+      "wellnessText": "Yoqtirgan taomlaringizda turli o‘simlik mahsulotlariga joy bering. Kichik va muntazam tanlovlar yig‘ilib boradi."
     },
     "validation": {
       "name": "Ismingizni kiriting.",
@@ -468,7 +470,8 @@
       "servingIdea": "{name} tortish gʻoyasi",
       "viewRecipe": "Retseptni koʻrish",
       "images": "Mahsulot rasmlari",
-      "view": "{label}ni koʻrish"
+      "view": "{label}ni koʻrish",
+      "additionalView": "{name} · Ko‘rinish {number}"
     },
     "breadcrumbHome": "Bosh sahifa",
     "breadcrumbShop": "Doʻkon",
@@ -506,7 +509,9 @@
       "domestic": "Butun Hindiston boʻylab yetkazib berish",
       "export": "Soʻrov asosida {country}ga yetkazib berish",
       "mix": "Oʻzingiz xohlagan aralashmani tanlang"
-    }
+    },
+    "eatingGuide": "Sog‘lom ovqatlanish qo‘llanmasi",
+    "fibreGuide": "Tola va hazm bo‘yicha qo‘llanma"
   },
   "cart": {
     "heroAlt": "Yangi sabzavotlar solingan savat",

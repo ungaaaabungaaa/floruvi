@@ -203,7 +203,9 @@
       "emptyEyebrow": "RUANG UNTUK SESUATU YANG SEGAR",
       "emptyTitle": "Bakul anda kosong.",
       "emptyText": "Pilih sayur-sayuran untuk bermula.",
-      "emptyCta": "Terokai Produk"
+      "emptyCta": "Terokai Produk",
+      "wellnessTitle": "Pelaburan kecil untuk kesihatan harian",
+      "wellnessText": "Sertakan pelbagai makanan berasaskan tumbuhan dalam hidangan kegemaran anda. Pilihan kecil yang dibuat secara tetap membawa makna."
     },
     "validation": {
       "name": "Masukkan nama anda.",
@@ -463,7 +465,8 @@
       "servingIdea": "Idea penyajian {name}",
       "viewRecipe": "Lihat resipi",
       "images": "Imej produk",
-      "view": "Lihat {label}"
+      "view": "Lihat {label}",
+      "additionalView": "{name} · Paparan {number}"
     },
     "breadcrumbHome": "Laman Utama",
     "breadcrumbShop": "Kedai",
@@ -501,7 +504,9 @@
       "domestic": "Penghantaran ke Seluruh India",
       "export": "Penghantaran ke {country} atas permintaan",
       "mix": "Pilih Campuran Anda Sendiri"
-    }
+    },
+    "eatingGuide": "Panduan pemakanan sihat",
+    "fibreGuide": "Panduan serat dan penghadaman"
   },
   "cart": {
     "heroAlt": "Sebakul sayur-sayuran segar",

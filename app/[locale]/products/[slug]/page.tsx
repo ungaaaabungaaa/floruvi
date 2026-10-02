@@ -1,3 +1,4 @@
+import { wellnessKind } from "@/convex/productWellnessData";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -48,23 +49,35 @@ function DetailIcon({ name }: { name: string }) {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const [{ locale, messages }, result] = await Promise.all([getI18n(), getProduct(slug)]);
-  if (!result) return { title: messages.meta.productNotFound, robots: { index: false } };
+  const [{ locale, messages }, result] = await Promise.all([
+    getI18n(),
+    getProduct(slug),
+  ]);
+  if (!result)
+    return { title: messages.meta.productNotFound, robots: { index: false } };
   const { product } = result;
   const local = productImages[product.slug];
-  const image = product.imageUrl ? { url: product.imageUrl } : local && shareImage(local);
+  const image = product.imageUrl
+    ? { url: product.imageUrl }
+    : local && shareImage(local);
   const price = product.price;
   return pageMetadata({
     path: `/products/${slug}`,
     title: fill(
-      locale.domestic ? messages.meta.productTitle : messages.meta.productTitleExport,
+      locale.domestic
+        ? messages.meta.productTitle
+        : messages.meta.productTitleExport,
       { name: product.name, country: locale.countryName },
     ),
     description: price
       ? fill(messages.meta.productDescription, {
           description: product.description,
           pack: price.packLabel,
-          price: formatCurrency(price.amountMinor, price.currency as CurrencyCode, locale.tag),
+          price: formatCurrency(
+            price.amountMinor,
+            price.currency as CurrencyCode,
+            locale.tag,
+          ),
         })
       : product.description,
     image: image ? { ...image, alt: product.name } : undefined,
@@ -82,7 +95,8 @@ export default async function ProductDetails({ params }: Props) {
   if (!result) notFound();
   const { product: p, details, record } = result;
   const t = messages.product;
-  const inlineName = locale.language === "de" ? p.name : p.name.toLocaleLowerCase(locale.tag);
+  const inlineName =
+    locale.language === "de" ? p.name : p.name.toLocaleLowerCase(locale.tag);
   // The next products in the same category, so every product is recommended somewhere.
   const sameCategory = shop.products.filter((q) => q.category === p.category);
   const position = sameCategory.findIndex((q) => q.slug === p.slug);
@@ -104,7 +118,8 @@ export default async function ProductDetails({ params }: Props) {
   const deliveryFee = shop.commerce?.deliveryFeeMinor;
   const url = absoluteUrl(localizePath(locale.locale, `/products/${p.slug}`));
   const localImage = productImages[p.slug];
-  const image = p.imageUrl ?? (localImage && absoluteUrl(shareImage(localImage).url));
+  const image =
+    p.imageUrl ?? (localImage && absoluteUrl(shareImage(localImage).url));
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -145,7 +160,10 @@ export default async function ProductDetails({ params }: Props) {
   };
   return (
     <div className="page-width product-page">
-      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(structuredData)} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd(structuredData)}
+      />
       <section className="product-detail" aria-labelledby="product-heading">
         <ProductGallery
           key={p.slug}
@@ -167,7 +185,11 @@ export default async function ProductDetails({ params }: Props) {
             <Money minor={p.price?.amountMinor} currency={p.price?.currency} />
             {p.price && <small> / {p.price.packLabel}</small>}
           </p>
-          <AddToCart slug={p.slug} name={p.name} available={p.inStock !== false} />
+          <AddToCart
+            slug={p.slug}
+            name={p.name}
+            available={p.inStock !== false}
+          />
           <div className="product-assurances">
             <span>
               <Leaf />
@@ -265,21 +287,57 @@ export default async function ProductDetails({ params }: Props) {
                   </div>
                 </div>
               ))}
-              <a
-                href={details.nutritionSource}
-                target="_blank"
-                rel="noreferrer"
-                className="nutrition-reference"
-              >
-                {t.foodGuide} <ArrowUpRight size={12} />
-              </a>
+              <div className="nutrition-references">
+                <a
+                  href={details.nutritionSource}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nutrition-reference"
+                >
+                  {t.foodGuide} <ArrowUpRight size={12} />
+                </a>
+                {["vegetable", "fruit", "potato"].includes(
+                  wellnessKind(p.slug, p.category),
+                ) && (
+                  <>
+                    <a
+                      href="https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="nutrition-reference"
+                    >
+                      {t.fibreGuide} <ArrowUpRight size={12} />
+                    </a>
+                    <a
+                      href="https://www.cdc.gov/healthy-weight-growth/healthy-eating/fruits-vegetables.html"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="nutrition-reference"
+                    >
+                      {t.eatingGuide} <ArrowUpRight size={12} />
+                    </a>
+                  </>
+                )}
+                {wellnessKind(p.slug, p.category) === "herb" && (
+                  <a
+                    href="https://www.nhlbi.nih.gov/resources/use-herbs-and-spices-instead-salt-fact-sheet"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="nutrition-reference"
+                  >
+                    {t.eatingGuide} <ArrowUpRight size={12} />
+                  </a>
+                )}
+              </div>
             </aside>
           </div>
         </section>
       )}
       <section className="product-ways" aria-labelledby="ways-heading">
         <div className="product-section-heading">
-          <h2 id="ways-heading">{fill(t.waysToEnjoyName, { name: inlineName })}</h2>
+          <h2 id="ways-heading">
+            {fill(t.waysToEnjoyName, { name: inlineName })}
+          </h2>
         </div>
         <div className="product-meal-grid">
           {meals.map(({ recipe, direct }) => (

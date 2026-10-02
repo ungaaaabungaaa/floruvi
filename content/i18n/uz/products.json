@@ -1,8 +1,8 @@
 {
   "butterhead-lettuce": {
-    "source": "91147a03",
+    "source": "b7a105b3",
     "name": "Batterxed salati",
-    "description": "Yumshoq, dumaloq barglari mayin taʼmli va saryogʻdek nozik.",
+    "description": "Yumshoq, dumaloq barglari mayin taʼmli va saryogʻdek nozik. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Salatlar",
       "salat bargi kosachalari",
@@ -47,14 +47,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Barglarni ajrating, yuving va quriting. Salat kosachalari uchun ularni butunligicha qoldiring."
         }
       ]
     }
   },
   "sweet-basil": {
-    "source": "d2cc98c7",
+    "source": "6bec4b6a",
     "name": "Shirin rayhon",
-    "description": "Keng, xushboʻy barglari iliq va shirin ifor taratadi.",
+    "description": "Keng, xushboʻy barglari iliq va shirin ifor taratadi. Pomidor, motsarella, limon yoki qovurilgan urugʻlar bilan yaxshi uygʻunlashadi. Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing.",
     "uses": [
       "Pesto",
       "pomidor salatlari",
@@ -99,14 +107,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "broccoli-microgreens": {
-    "source": "030e4e45",
+    "source": "8a09bc3b",
     "name": "Brokkoli mikrozeleni",
-    "description": "Karamga oʻxshash yumshoq taʼmli kichik maysalar.",
+    "description": "Karamga oʻxshash yumshoq taʼmli kichik maysalar. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Sendvichlar",
       "salatlar",
@@ -151,14 +163,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "cherry-tomatoes": {
-    "source": "4a8e9cf7",
+    "source": "82e3db47",
     "name": "Cherri pomidor",
-    "description": "Yangi va pishirilgan taomlarga shirin-nordon uygʻunlik beradigan kichik pomidorlar.",
+    "description": "Yangi va pishirilgan taomlarga shirin-nordon uygʻunlik beradigan kichik pomidorlar. Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi. Sharbati etida qolishi uchun oʻtkir pichoq bilan kesing. Tortishdan biroz oldin tuz va ziravor seping.",
     "uses": [
       "Tamaddi",
       "salatlar",
@@ -203,14 +219,22 @@
         {
           "title": "Tayyorlash usuli muhim",
           "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yuving va salatlar uchun teng ikkiga kesing yoki poʻsti yumshaguncha butunligicha pechda pishiring."
         }
       ]
     }
   },
   "spring-onions": {
-    "source": "1ef5c5a2",
+    "source": "3255142d",
     "name": "Koʻk piyoz",
-    "description": "Piyoz taʼmi yumshoq boʻlgan nozik yashil poyalar.",
+    "description": "Piyoz taʼmi yumshoq boʻlgan nozik yashil poyalar. Zanjabil, tuxum, tofu yoki guruchli taom bilan yaxshi uygʻunlashadi. Yashil uchlarini bezak uchun ingichka toʻgʻrang, oq qismini esa tovada pishirish uchun qoldiring.",
     "uses": [
       "Shoʻrvalar",
       "qovurmalar",
@@ -255,14 +279,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "nasturtium-flowers": {
-    "source": "0b680c2c",
+    "source": "5fccbffd",
     "name": "Nasturtsiya gullari",
-    "description": "Qalampirdek achchiqroq taʼmli yorqin gullar.",
+    "description": "Qalampirdek achchiqroq taʼmli yorqin gullar. Achchiqroq gullar bodring, yumshoq pishloq yoki yumshoq taʼmli barg salati bilan yaxshi uygʻunlashadi. Bir nechta butun gulni eng soʻnggi daqiqada qoʻshing. Gulbarglar shaklini saqlashi uchun sousni kam quying.",
     "uses": [
       "Salatlar",
       "tuzli taomlar bezagi"
@@ -306,14 +334,18 @@
         {
           "title": "Kichik porsiyalar",
           "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        },
+        {
+          "title": "Ozgina yetarli",
+          "text": "Yeyishga yaroqli bir nechta gul rang va joziba qo‘shadi. Ularni vaqti-vaqti bilan bezak sifatida ishlating, hazm yoki ozish foydasining manbai deb hisoblamang."
         }
       ]
     }
   },
   "romaine-lettuce": {
-    "source": "45f0ddeb",
+    "source": "61fb126c",
     "name": "Romen salati",
-    "description": "Uzun barglari va qattiq oʻrta tomiri salatga yoqimli qarsildoqlik beradi.",
+    "description": "Uzun barglari va qattiq oʻrta tomiri salatga yoqimli qarsildoqlik beradi. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Sezar salatlari",
       "rollar",
@@ -358,14 +390,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Barglar orasini yuving. Tomirini koʻndalangiga toʻgʻrang yoki grilda pishirish uchun oʻzagini teng ikkiga kesing."
         }
       ]
     }
   },
   "thai-basil": {
-    "source": "78d5e578",
+    "source": "ddaa13ce",
     "name": "Tay rayhoni",
-    "description": "Arpabodiyonga oʻxshash taʼmli, pishiq xushboʻy barglar.",
+    "description": "Arpabodiyonga oʻxshash taʼmli, pishiq xushboʻy barglar. Zanjabil, kokos suti yoki issiq guruchli taom bilan yaxshi uygʻunlashadi. Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing.",
     "uses": [
       "Karri taomlari",
       "lapshali shoʻrvalar",
@@ -410,14 +450,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "radish-microgreens": {
-    "source": "ca5b8b8c",
+    "source": "5b89d0fb",
     "name": "Rediska mikrozeleni",
-    "description": "Qalampirdek aniq achchiqlikka ega qarsildoq kichik maysalar.",
+    "description": "Qalampirdek aniq achchiqlikka ega qarsildoq kichik maysalar. Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Tako",
       "salatlar",
@@ -462,14 +506,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "beefsteak-tomatoes": {
-    "source": "6102074f",
+    "source": "8b72737a",
     "name": "Bifshteks pomidor",
-    "description": "Qalin tilimlar va souslar uchun yirik pomidorlar.",
+    "description": "Qalin tilimlar va souslar uchun yirik pomidorlar. Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi. Sharbati etida qolishi uchun oʻtkir pichoq bilan kesing. Tortishdan biroz oldin tuz va ziravor seping.",
     "uses": [
       "Sendvichlar",
       "salatlar",
@@ -514,14 +562,22 @@
         {
           "title": "Tayyorlash usuli muhim",
           "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Band oʻrnidagi qattiq qismini olib tashlang va sendvich yoki salatlar uchun qalin tilimlab kesing."
         }
       ]
     }
   },
   "celery": {
-    "source": "a8c1355e",
+    "source": "b8e84297",
     "name": "Selderey",
-    "description": "Yangi qarsildoqlik yoki mazali asos uchun qarsildoq, xushboʻy poyalar.",
+    "description": "Yangi qarsildoqlik yoki mazali asos uchun qarsildoq, xushboʻy poyalar. Sabzi, piyoz, loviya yoki olma bilan yaxshi uygʻunlashadi. Shoʻrva asosi uchun mayda toʻgʻrang yoki salat qarsildoq boʻlishi uchun poyalarni koʻndalangiga kesing.",
     "uses": [
       "Shoʻrvalar",
       "bulyonlar",
@@ -566,14 +622,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Poyalar orasini yuving, pastki qismini kesib, toʻgʻrang. Barglarini bulyonga yoki bezakka ishlating."
         }
       ]
     }
   },
   "viola-flowers": {
-    "source": "57706c53",
+    "source": "c55f1f24",
     "name": "Binafsha gullari",
-    "description": "Nafis rang beradigan kichik, nozik gullar.",
+    "description": "Nafis rang beradigan kichik, nozik gullar. Isteʼmolga yaroqli bir nechta gul meva, yogurt yoki sousi kam salat bilan yaxshi uygʻunlashadi. Tortishdan sal oldin tayyor taom ustiga, issiq sous va quyuq salat souslaridan uzoqroq qoʻying.",
     "uses": [
       "Desert bezagi",
       "salatlar"
@@ -617,14 +681,18 @@
         {
           "title": "Kichik porsiyalar",
           "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        },
+        {
+          "title": "Ozgina yetarli",
+          "text": "Yeyishga yaroqli bir nechta gul rang va joziba qo‘shadi. Ularni vaqti-vaqti bilan bezak sifatida ishlating, hazm yoki ozish foydasining manbai deb hisoblamang."
         }
       ]
     }
   },
   "green-oakleaf-lettuce": {
-    "source": "c0dca06d",
+    "source": "0ef0aad2",
     "name": "Yashil eman bargli salat",
-    "description": "Aralash salat uchun juda mos, yengil va chuqur oʻyilgan barglar.",
+    "description": "Aralash salat uchun juda mos, yengil va chuqur oʻyilgan barglar. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Salat aralashmalari",
       "sendvichlar"
@@ -668,14 +736,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Ehtiyotkorlik bilan yuving, yaxshilab quriting va sous quyishdan sal oldin salatga qoʻlda uzib soling."
         }
       ]
     }
   },
   "holy-basil": {
-    "source": "9b51a491",
+    "source": "4f380d21",
     "name": "Tulsi rayhoni",
-    "description": "Damlangan ichimliklar va baʼzi mintaqaviy taomlar uchun kichik, xushboʻy tulsi barglari.",
+    "description": "Damlangan ichimliklar va baʼzi mintaqaviy taomlar uchun kichik, xushboʻy tulsi barglari. Zanjabil, kokos suti yoki issiq guruchli taom bilan yaxshi uygʻunlashadi. Yumshoq barglarni pishirish oxirida qoʻshing. Likopchada kattaroq boʻlaklar boʻlishini istasangiz, mayda toʻgʻramang, qoʻlda uzing.",
     "uses": [
       "Damlangan ichimliklar",
       "mintaqaviy taomlar"
@@ -719,14 +795,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "pea-shoots": {
-    "source": "ae37c735",
+    "source": "8eefd29e",
     "name": "Koʻk noʻxat maysalari",
-    "description": "Yangi koʻk noʻxat taʼmiga ega nozik poya va barglar.",
+    "description": "Yangi koʻk noʻxat taʼmiga ega nozik poya va barglar. Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "sendvichlar",
@@ -771,14 +851,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "plum-tomatoes": {
-    "source": "2e9abfe9",
+    "source": "7b92573c",
     "name": "Choʻzinchoq pomidor",
-    "description": "Past olovda uzoq pishirishga juda mos, pishiq va etli pomidorlar.",
+    "description": "Past olovda uzoq pishirishga juda mos, pishiq va etli pomidorlar. Rayhon, zaytun moyi, sarimsoq yoki yumshoq taʼmli yangi pishloq bilan yaxshi uygʻunlashadi. Toʻgʻralgan pomidorni sous siz istagan quyuqlikka yetguncha past olovda qaynating.",
     "uses": [
       "Souslar",
       "pechda pishirish",
@@ -823,14 +907,22 @@
         {
           "title": "Tayyorlash usuli muhim",
           "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Band oʻrnidagi qattiq qismini olib tashlang. Sous uchun toʻgʻrab, past olovda qaynating yoki pechda pishirishdan oldin teng ikkiga kesing."
         }
       ]
     }
   },
   "radish": {
-    "source": "5b6e09ca",
+    "source": "9dd4c6dc",
     "name": "Rediska",
-    "description": "Qalampirdek yoqimli achchiqlikka ega qarsildoq ildizmevalar.",
+    "description": "Qalampirdek yoqimli achchiqlikka ega qarsildoq ildizmevalar. Bodring, yogurt, saryogʻ yoki ozgina limon bilan yaxshi uygʻunlashadi. Qarsildoq qoʻshimcha uchun juda yupqa tilimlang yoki achchiqligini yumshatish uchun teng ikkiga kesib, pechda pishiring.",
     "uses": [
       "Salatlar",
       "tuzlamalar",
@@ -875,14 +967,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Ishqalab yuving, uchlarini kesing va yupqa tilimlang. Yumshoqroq va mayinroq taʼm uchun teng ikkiga kesib, pechda pishiring."
         }
       ]
     }
   },
   "pansy-flowers": {
-    "source": "a48c1533",
+    "source": "9ddaaf38",
     "name": "Bogʻ binafshasi gullari",
-    "description": "Taomga nozik yakuniy bezak beradigan keng, rang-barang gullar.",
+    "description": "Taomga nozik yakuniy bezak beradigan keng, rang-barang gullar. Isteʼmolga yaroqli bir nechta gul meva, yogurt yoki sousi kam salat bilan yaxshi uygʻunlashadi. Tortishdan sal oldin tayyor taom ustiga, issiq sous va quyuq salat souslaridan uzoqroq qoʻying.",
     "uses": [
       "Tort bezagi",
       "salatlar"
@@ -926,14 +1026,18 @@
         {
           "title": "Kichik porsiyalar",
           "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        },
+        {
+          "title": "Ozgina yetarli",
+          "text": "Yeyishga yaroqli bir nechta gul rang va joziba qo‘shadi. Ularni vaqti-vaqti bilan bezak sifatida ishlating, hazm yoki ozish foydasining manbai deb hisoblamang."
         }
       ]
     }
   },
   "red-oakleaf-lettuce": {
-    "source": "b9c52f5d",
+    "source": "3a32c7b3",
     "name": "Qizil eman bargli salat",
-    "description": "Bronza-qizil barglar yangi taomlarga yumshoq tuzilish va rang qoʻshadi.",
+    "description": "Bronza-qizil barglar yangi taomlarga yumshoq tuzilish va rang qoʻshadi. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Aralash salatlar",
       "taomni bezash"
@@ -977,14 +1081,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Nozik barglarni butunligicha qoldiring. Sousni tortishdan sal oldin quying."
         }
       ]
     }
   },
   "mint": {
-    "source": "0b72d3fa",
+    "source": "5ff6c121",
     "name": "Yalpiz",
-    "description": "Yorqin taʼmli chatnilar va ichimliklar uchun salqinlik beruvchi yangi barglar.",
+    "description": "Yorqin taʼmli chatnilar va ichimliklar uchun salqinlik beruvchi yangi barglar. Bodring, yogurt, koʻk noʻxat yoki yangi laym bilan yaxshi uygʻunlashadi. Tortishdan sal oldin toʻgʻrang. Yangi va salqin taʼmini his qilish uchun sovigan taomga ohista aralashtiring.",
     "uses": [
       "Chatnilar",
       "raita",
@@ -1029,14 +1141,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "sunflower-shoots": {
-    "source": "1f2b125f",
+    "source": "dd1c0298",
     "name": "Kungaboqar maysalari",
-    "description": "Yongʻoqqa oʻxshash taʼmli, qarsildoq va yirikroq yosh maysalar.",
+    "description": "Yongʻoqqa oʻxshash taʼmli, qarsildoq va yirikroq yosh maysalar. Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "rollar",
@@ -1081,14 +1197,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "cucumber": {
-    "source": "2d71685e",
+    "source": "fb6ef650",
     "name": "Bodring",
-    "description": "Yumshoq taʼmli, qarsildoq va tetiklashtiruvchi sabzavot.",
+    "description": "Yumshoq taʼmli, qarsildoq va tetiklashtiruvchi sabzavot. Yalpiz, yogurt, pomidor yoki ozgina laym bilan yaxshi uygʻunlashadi. Raita quyuqroq boʻlishi uchun qirgʻichdan chiqarilgan bodringni yogurtga aralashtirishdan oldin ortiqcha suvini siqib oling.",
     "uses": [
       "Salatlar",
       "raita",
@@ -1133,14 +1253,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yuving, uchlarini kesing va tilimlang yoki kubik shaklida toʻgʻrang. Yumshoqroq boʻlishini istasangizgina poʻstini arching."
         }
       ]
     }
   },
   "beetroot": {
-    "source": "2dd8dced",
+    "source": "f366e501",
     "name": "Lavlagi",
-    "description": "Pishirish yoki tuzlash uchun shirin, tuproqsimon taʼmli ildizmevalar.",
+    "description": "Pishirish yoki tuzlash uchun shirin, tuproqsimon taʼmli ildizmevalar. Apelsin, shivit, yogurt yoki yongʻoq bilan yaxshi uygʻunlashadi. Ranglar aralashib ketmasligini istasangiz, och rangli masalliqlardan alohida pishiring.",
     "uses": [
       "Pechda pishirish",
       "salatlar",
@@ -1185,14 +1313,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Ishqalab yuving va yumshaguncha pishiring, soʻng xohlasangiz poʻstini arching. Dogʻ tushmasligi uchun fartuk taqing."
         }
       ]
     }
   },
   "calendula-petals": {
-    "source": "ce6e877b",
+    "source": "3f92fff7",
     "name": "Tirnoqgul gulbarglari",
-    "description": "Yengil gul nafosatini beradigan tillarang gulbarglar.",
+    "description": "Yengil gul nafosatini beradigan tillarang gulbarglar. Gulbarglarni guruch, yumshoq pishloq yoki oddiy koʻkat salati ustiga seping. Rangi likopchada koʻrinib turishi uchun gulbarglarni pishirib boʻlgach qoʻshing.",
     "uses": [
       "Salatlar",
       "guruchli taomlar",
@@ -1237,14 +1373,18 @@
         {
           "title": "Kichik porsiyalar",
           "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        },
+        {
+          "title": "Ozgina yetarli",
+          "text": "Yeyishga yaroqli bir nechta gul rang va joziba qo‘shadi. Ularni vaqti-vaqti bilan bezak sifatida ishlating, hazm yoki ozish foydasining manbai deb hisoblamang."
         }
       ]
     }
   },
   "lollo-rosso-lettuce": {
-    "source": "02f4f4c2",
+    "source": "b772f709",
     "name": "Lollo rosso salati",
-    "description": "Jingalak qizil barglar yengil tuzilishga ega, taʼmi esa biroz taxir tugaydi.",
+    "description": "Jingalak qizil barglar yengil tuzilishga ega, taʼmi esa biroz taxir tugaydi. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Salat aralashmalari",
       "bezak"
@@ -1288,14 +1428,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Jingalak barglarni mayda boʻlaklarga uzing va yumshoqroq taʼmli salat barglari bilan aralashtiring."
         }
       ]
     }
   },
   "coriander": {
-    "source": "9c2c6566",
+    "source": "c9bc8b44",
     "name": "Kashnich",
-    "description": "Sitrusga oʻxshash oʻziga xos ifor taratuvchi yangi kashnich barglari va nozik poyalari.",
+    "description": "Sitrusga oʻxshash oʻziga xos ifor taratuvchi yangi kashnich barglari va nozik poyalari. Laym, pomidor, yasmiq yoki koʻk achchiq qalampir bilan yaxshi uygʻunlashadi. Nozik poyalarini chatnilarga ishlating, bargli uchlarini esa taomni yakunlash uchun qoldiring.",
     "uses": [
       "Chatnilar",
       "karri taomlari",
@@ -1340,14 +1488,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "mustard-microgreens": {
-    "source": "7bc39786",
+    "source": "0d68b3c7",
     "name": "Xantal mikrozeleni",
-    "description": "Xantalga xos kuchli oʻtkirlikka ega kichik barglar.",
+    "description": "Xantalga xos kuchli oʻtkirlikka ega kichik barglar. Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Sendvichlar",
       "bezak",
@@ -1392,14 +1544,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "bell-peppers": {
-    "source": "df9c2c48",
+    "source": "4d9e4b74",
     "name": "Bulgʻor qalampiri",
-    "description": "Taomga rang va qarsildoqlik qoʻshadigan qalin etli shirin qalampirlar.",
+    "description": "Taomga rang va qarsildoqlik qoʻshadigan qalin etli shirin qalampirlar. Pomidor, piyoz, loviya yoki guruchli ichlik bilan yaxshi uygʻunlashadi. Pechda pishirish uchun keng boʻlaklarga, tovada tez pishirish uchun esa ingichka somonchalarga kesing.",
     "uses": [
       "Salatlar",
       "dolma",
@@ -1444,14 +1600,22 @@
         {
           "title": "Tayyorlash usuli muhim",
           "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Bandi, urugʻlari va oq tomirlarini olib tashlang. Salat uchun tilimlang yoki dolma uchun teng ikkiga kesing."
         }
       ]
     }
   },
   "carrot": {
-    "source": "4cf54e65",
+    "source": "831ee38e",
     "name": "Sabzi",
-    "description": "Mayin shirinlikka ega qarsildoq ildizmevalar.",
+    "description": "Mayin shirinlikka ega qarsildoq ildizmevalar. Zira, zanjabil, sitrus mevalar yoki noʻxat bilan yaxshi uygʻunlashadi. Pechda pishirish uchun bir xil kattalikda kesing yoki xom salatda yumshoqroq boʻlishi uchun mayda qirgʻichdan chiqaring.",
     "uses": [
       "Salatlar",
       "pechda pishirish",
@@ -1496,14 +1660,22 @@
         {
           "title": "Xom yoki pishirilgan",
           "text": "Salatlarga qirgʻichdan chiqarib qoʻshing yoki yumshaguncha pishiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Ishqalab yuving yoki poʻstini arching, uchlarini kesing va pechda pishirish yoki shoʻrva uchun bir xil boʻlaklarga toʻgʻrang."
         }
       ]
     }
   },
   "borage-flowers": {
-    "source": "8c301c91",
+    "source": "c10fc81e",
     "name": "Boraj gullari",
-    "description": "Bodringni eslatuvchi yumshoq taʼmli kichik moviy gullar.",
+    "description": "Bodringni eslatuvchi yumshoq taʼmli kichik moviy gullar. Bodring salati yoki sovuq ichimlikni bezash uchun isteʼmolga yaroqli bir nechta guldan foydalaning. Uni faqat vaqti-vaqti bilan kichik bezak sifatida ishlating; bir kosa gulni sabzavot porsiyasi oʻrnida isteʼmol qilmang.",
     "uses": [
       "Vaqti-vaqti bilan bezak"
     ],
@@ -1546,14 +1718,18 @@
         {
           "title": "Kichik porsiyalar",
           "text": "Gullar taomni toʻldiradi, lekin sabzavot porsiyasining oʻrnini bosmaydi."
+        },
+        {
+          "title": "Ozgina yetarli",
+          "text": "Yeyishga yaroqli bir nechta gul rang va joziba qo‘shadi. Ularni vaqti-vaqti bilan bezak sifatida ishlating, hazm yoki ozish foydasining manbai deb hisoblamang."
         }
       ]
     }
   },
   "lollo-bionda-lettuce": {
-    "source": "30e8376e",
+    "source": "757c41d7",
     "name": "Lollo bionda salati",
-    "description": "Jingalak yashil barglar oddiy souslar uchun yengil va qarsildoq asos boʻladi.",
+    "description": "Jingalak yashil barglar oddiy souslar uchun yengil va qarsildoq asos boʻladi. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Salatlar",
       "sendvichlar"
@@ -1597,14 +1773,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Sous barglar orasida toʻplanib qolmasligi uchun jingalak barglarni yuving va yaxshilab quriting."
         }
       ]
     }
   },
   "flat-leaf-parsley": {
-    "source": "0546d0e1",
+    "source": "e114eeec",
     "name": "Yassi bargli petrushka",
-    "description": "Yangi oʻt taʼmli, soʻngida toza taʼm qoldiradigan barglar.",
+    "description": "Yangi oʻt taʼmli, soʻngida toza taʼm qoldiradigan barglar. Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi. Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi.",
     "uses": [
       "Tabule",
       "souslar",
@@ -1649,14 +1833,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "red-cabbage-microgreens": {
-    "source": "a4faaf55",
+    "source": "0c85f65b",
     "name": "Qizil karam mikrozeleni",
-    "description": "Karamga xos yumshoq taʼmli, binafsharang poyali yosh barglar.",
+    "description": "Karamga xos yumshoq taʼmli, binafsharang poyali yosh barglar. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "kosa taomlari",
@@ -1701,14 +1889,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "green-chillies": {
-    "source": "fbe5364c",
+    "source": "77632d06",
     "name": "Koʻk achchiq qalampir",
-    "description": "Achchiqlik va yorqin taʼm beradigan yangi qalampirlar.",
+    "description": "Achchiqlik va yorqin taʼm beradigan yangi qalampirlar. Kashnich, laym, pomidor yoki yogurt bilan yaxshi uygʻunlashadi. Oz-ozdan qoʻshib, taomni tatib koʻring. Har bir qalampirning achchiqligi turlicha boʻlishi mumkin.",
     "uses": [
       "Karri taomlari",
       "chatnilar",
@@ -1753,14 +1945,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "ginger": {
-    "source": "96aa67e0",
+    "source": "cd6ffa8c",
     "name": "Zanjabil",
-    "description": "Iliq va oʻtkir taʼmli xushboʻy ildizpoyalar.",
+    "description": "Iliq va oʻtkir taʼmli xushboʻy ildizpoyalar. Sarimsoq, laym, sabzi yoki kokos suti bilan yaxshi uygʻunlashadi. Bir tekis mayin taʼm uchun qirgʻichdan chiqaring; pishirgandan keyin zanjabilni olib tashlamoqchi boʻlsangiz, yupqa tilimlang.",
     "uses": [
       "Karri taomlari",
       "damlangan ichimliklar",
@@ -1805,14 +2001,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "iceberg-lettuce": {
-    "source": "a81591b3",
+    "source": "60da6f34",
     "name": "Aysberg salati",
-    "description": "Toza taʼmi va qarsildoq barglari bilan mashhur, zich boshli salat.",
+    "description": "Toza taʼmi va qarsildoq barglari bilan mashhur, zich boshli salat. Bodring, pomidor hamda limonli yoki yogurtli sous bilan yaxshi uygʻunlashadi. Faqat darhol yeydigan barglaringizga sous quying. Qolganini keyingi salat yoki sendvich uchun quruq saqlang.",
     "uses": [
       "Boʻlakli salatlar",
       "rollar",
@@ -1857,14 +2057,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Oʻzagini olib tashlang, barglarni yuving va katta boʻlaklarga yoki ingichka somoncha qilib kesing."
         }
       ]
     }
   },
   "curly-parsley": {
-    "source": "6f8fa57e",
+    "source": "2686e3b5",
     "name": "Jingalak petrushka",
-    "description": "Jingalak barglar taomga tuzilish va mayin koʻkat taʼmini qoʻshadi.",
+    "description": "Jingalak barglar taomga tuzilish va mayin koʻkat taʼmini qoʻshadi. Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi. Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi.",
     "uses": [
       "Bezak",
       "salatlar",
@@ -1909,14 +2117,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "kale-microgreens": {
-    "source": "23032e4b",
+    "source": "6f659df5",
     "name": "Keyl mikrozeleni",
-    "description": "Taomni mayin yashil rang bilan yakunlaydigan nozik yosh keyl barglari.",
+    "description": "Taomni mayin yashil rang bilan yakunlaydigan nozik yosh keyl barglari. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Sendvichlar",
       "salatlar",
@@ -1961,14 +2173,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "jalapeno-peppers": {
-    "source": "50d02da7",
+    "source": "636ee53b",
     "name": "Xalapenyo qalampiri",
-    "description": "Oʻziga xos taʼmli, achchiqligi turlicha boʻladigan pishiq qalampirlar.",
+    "description": "Oʻziga xos taʼmli, achchiqligi turlicha boʻladigan pishiq qalampirlar. Pomidor, laym, loviya yoki yumshoq pishloqli ichlik bilan yaxshi uygʻunlashadi. Achchiqlik bir tishlamda toʻplanib qolmay, salsa yoki sendvich boʻylab tarqalishi uchun yupqa tilimlang.",
     "uses": [
       "Salsalar",
       "tuzlash",
@@ -2013,14 +2229,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "turmeric": {
-    "source": "3dd538ed",
+    "source": "89efeeb5",
     "name": "Zarchava",
-    "description": "Tuproqsimon, biroz taxir taʼmli, yorqin rangli ildizpoyalar.",
+    "description": "Tuproqsimon, biroz taxir taʼmli, yorqin rangli ildizpoyalar. Zanjabil, kokos suti, yasmiq yoki gulkaram bilan yaxshi uygʻunlashadi. Oz miqdordan boshlang va tatib koʻring. Rangi dogʻ qoldirishi mumkin, shuning uchun yuviladigan yuza ustida qirgʻichdan chiqaring.",
     "uses": [
       "Karri taomlari",
       "tuzlamalar",
@@ -2065,14 +2285,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "arugula": {
-    "source": "113e1546",
+    "source": "64989588",
     "name": "Rukkola",
-    "description": "Yangi salat yoki tayyor pitsaga yengil achchiqlik beradigan, qalampirdek taʼmli barglar.",
+    "description": "Yangi salat yoki tayyor pitsaga yengil achchiqlik beradigan, qalampirdek taʼmli barglar. Achchiqroq barglar nok, yongʻoq, pomidor yoki yupqa kesilgan pishloq bilan yaxshi uygʻunlashadi. Pitsa pishgach ustiga seping yoki tortishdan sal oldin iliq pastaga ohista aralashtiring.",
     "uses": [
       "Salatlar",
       "pitsa",
@@ -2117,14 +2341,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yuving va quriting. Pitsa pishgach ustiga qoʻying yoki eng soʻnggi daqiqada salatga qoʻshib aralashtiring."
         }
       ]
     }
   },
   "dill": {
-    "source": "37344873",
+    "source": "4ba912fc",
     "name": "Shivit",
-    "description": "Arpabodiyonga oʻxshash yorqin iforli, ingichka patsimon barglar.",
+    "description": "Arpabodiyonga oʻxshash yorqin iforli, ingichka patsimon barglar. Bodring, kartoshka, yogurt yoki limon bilan yaxshi uygʻunlashadi. Tayyor taom ustiga qaychida qirqib seping yoki tortishdan sal oldin sovuq sousga aralashtiring.",
     "uses": [
       "Tuzlamalar",
       "kartoshka taomlari",
@@ -2169,14 +2401,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "arugula-microgreens": {
-    "source": "2a58d288",
+    "source": "115b3115",
     "name": "Rukkola mikrozeleni",
-    "description": "Rukkolaga xos tanish achchiqroq taʼmli ingichka barglar.",
+    "description": "Rukkolaga xos tanish achchiqroq taʼmli ingichka barglar. Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Pitsa",
       "pasta",
@@ -2221,14 +2457,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "strawberries": {
-    "source": "b1c7e0cf",
+    "source": "6e885c8b",
     "name": "Qulupnay",
-    "description": "Shundayligicha yeyish va oddiy desertlar uchun xushboʻy, yumshoq rezavor.",
+    "description": "Shundayligicha yeyish va oddiy desertlar uchun xushboʻy, yumshoq rezavor. Yogurt, rayhon, yalpiz yoki ozgina qirgʻichdan chiqarilgan limon poʻsti bilan yaxshi uygʻunlashadi. Tortishdan sal oldin tilimlang yoki tezkor qoʻshimcha uchun bir nechta rezavorni ohista ezing.",
     "uses": [
       "Tamaddi",
       "desertlar",
@@ -2273,14 +2513,22 @@
         {
           "title": "Tayyorlash usuli muhim",
           "text": "Uzoq pishirish va saqlash C vitaminini kamaytirishi mumkin."
+        },
+        {
+          "title": "Tola uchun butun meva",
+          "text": "Tolani saqlash uchun faqat sharbatini emas, meva etini ham yeng. Xilma-xil ovqatlanish tarkibida tola muntazam ich kelishini qo‘llab-quvvatlaydi."
+        },
+        {
+          "title": "Tabiiy shirin muqobil",
+          "text": "Quvvatli desert yoki shirin yegulik o‘rniga yangi meva tanlang. Qo‘shimcha ovqat yeyish emas, uni almashtirish vaznni boshqarishga yordam berishi mumkin."
         }
       ]
     }
   },
   "potato": {
-    "source": "54313611",
+    "source": "fc6171a9",
     "name": "Kartoshka",
-    "description": "Taom pishirish uchun koʻp maqsadli tuganaklar; aeroponik koʻpaytirishda ham maxsus qoʻllaniladi.",
+    "description": "Taom pishirish uchun koʻp maqsadli tuganaklar; aeroponik koʻpaytirishda ham maxsus qoʻllaniladi. Rozmarin, sarimsoq, koʻk noʻxat yoki yogurtli sous bilan yaxshi uygʻunlashadi. Qaynatish uchun bir xil boʻlaklarga kesing; pechda pishirganda qirralari qarsildoq boʻlishi uchun boʻlaklar orasida joy qoldiring.",
     "uses": [
       "Pechda pishirish",
       "qaynatish",
@@ -2325,14 +2573,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Muvozanatli porsiya",
+          "text": "Kartoshka kraxmalli sabzavotdir. Uni qaynating yoki pechda pishiring. Me’yoriy porsiyani boshqa sabzavotlar va oqsil manbai bilan iste’mol qiling; yog‘ va qo‘shimchalar taomni o‘zgartiradi."
         }
       ]
     }
   },
   "spinach": {
-    "source": "8f3597fa",
+    "source": "1d695171",
     "name": "Ismaloq",
-    "description": "Yangi kosa taomlari yoki tez va yengil pishirish uchun koʻp maqsadli yashil barglar.",
+    "description": "Yangi kosa taomlari yoki tez va yengil pishirish uchun koʻp maqsadli yashil barglar. Noʻxat, panir, sarimsoq yoki bir necha tomchi limon sharbati bilan yaxshi uygʻunlashadi. Pishishiga oz qolganda dal yoki shoʻrvaga aralashtiring. Barglar tez soʻliydi va qozonda kam joy egallaydi.",
     "uses": [
       "Salatlar",
       "dal",
@@ -2381,14 +2637,22 @@
         {
           "title": "Kaliy",
           "text": "Mushaklar va nervlarning normal ishlashida ishtirok etadigan mineral."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yaxshilab yuving. Nozik barglarni xomligicha ishlating yoki dalga yoxud qizigan tovaga solib, qisqa vaqt soʻlitib oling."
         }
       ]
     }
   },
   "chives": {
-    "source": "731986ca",
+    "source": "1a81eba6",
     "name": "Shnitt piyoz",
-    "description": "Yumshoq piyoz taʼmli ingichka yashil barglar.",
+    "description": "Yumshoq piyoz taʼmli ingichka yashil barglar. Kartoshka, tuxum, qaymoqli pishloq yoki yogurtli dip sous bilan yaxshi uygʻunlashadi. Barglarni ezmasdan mayda va bir xil boʻlaklar qilish uchun toza qaychidan foydalaning.",
     "uses": [
       "Tuxum taomlari",
       "shoʻrvalar",
@@ -2433,14 +2697,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "beet-microgreens": {
-    "source": "5584ba7c",
+    "source": "665e751a",
     "name": "Lavlagi mikrozeleni",
-    "description": "Tuproqsimon taʼmli, rangli poyalar va yosh barglar.",
+    "description": "Tuproqsimon taʼmli, rangli poyalar va yosh barglar. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "taomni bezash",
@@ -2485,14 +2753,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "eggplant": {
-    "source": "fa849444",
+    "source": "969d5d1c",
     "name": "Baqlajon",
-    "description": "Pishirish paytida taʼmni yaxshi shimib oladigan, yumshoq etli sabzavot.",
+    "description": "Pishirish paytida taʼmni yaxshi shimib oladigan, yumshoq etli sabzavot. Pomidor, sarimsoq, yogurt yoki taxina bilan yaxshi uygʻunlashadi. Pechda pishirganda boʻlaklar orasida joy qoldiring. Patnis tiqilinch boʻlsa, boʻlaklar yumshoqroq, bugʻda pishgandek boʻladi.",
     "uses": [
       "Karri taomlari",
       "pechda pishirish",
@@ -2537,14 +2809,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Bandini kesib tashlang, bir xil boʻlaklarga kesing va eti butunlay yumshaguncha pishiring."
         }
       ]
     }
   },
   "baby-kale": {
-    "source": "eec05bf9",
+    "source": "dd1f9acb",
     "name": "Yosh keyl",
-    "description": "Yetilgan barglarga qaraganda yumshoqroq tuzilishli yosh keyl barglari.",
+    "description": "Yetilgan barglarga qaraganda yumshoqroq tuzilishli yosh keyl barglari. Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi. Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring.",
     "uses": [
       "Salatlar",
       "donli kosa taomlari",
@@ -2589,14 +2869,22 @@
         {
           "title": "Porsiya muhim",
           "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yuving va quriting. Nozik barglarni toʻgʻridan-toʻgʻri salatlar yoki iliq donli kosa taomlariga qoʻshib aralashtiring."
         }
       ]
     }
   },
   "garlic-chives": {
-    "source": "40072a96",
+    "source": "9d7385d1",
     "name": "Jusay",
-    "description": "Yengil sarimsoq taʼmli yassi barglar.",
+    "description": "Yengil sarimsoq taʼmli yassi barglar. Qoʻziqorin, tofu, tuxum yoki chuchvara qiymasi bilan yaxshi uygʻunlashadi. Qovurmalar uchun kalta boʻlaklarga kesing, qiymaga aralashtirish uchun esa mayda toʻgʻrang.",
     "uses": [
       "Chuchvara",
       "qovurmalar",
@@ -2641,14 +2929,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "amaranth-microgreens": {
-    "source": "cbb2821d",
+    "source": "e14a0a3d",
     "name": "Amarant mikrozeleni",
-    "description": "Juda ingichka yosh barglar; qizil navlarida rangi yorqin boʻladi.",
+    "description": "Juda ingichka yosh barglar; qizil navlarida rangi yorqin boʻladi. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Bezak",
       "salatlar",
@@ -2693,14 +2985,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "zucchini": {
-    "source": "0faf3414",
+    "source": "650324f9",
     "name": "Kabachok",
-    "description": "Yengil pishirish uchun nozik yozgi qovoq.",
+    "description": "Yengil pishirish uchun nozik yozgi qovoq. Limon, yalpiz, rayhon yoki ozgina qirgʻichdan chiqarilgan pishloq bilan yaxshi uygʻunlashadi. Grilda pishirish uchun qalinroq tilimlang, tez qovurish uchun esa mayda boʻlaklarga kesing.",
     "uses": [
       "Grilda pishirish",
       "yengil qovurmalar",
@@ -2745,14 +3041,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Uchlarini kesing va bir xil qalinlikda tilimlang. Pishiqroq boʻlishi uchun qisqa, yumshoq boʻlishi uchun esa uzoqroq pishiring."
         }
       ]
     }
   },
   "curly-kale": {
-    "source": "8f7b1dc8",
+    "source": "35845787",
     "name": "Jingalak keyl",
-    "description": "Toʻyimli taomlarda shaklini yaxshi saqlaydigan, gʻadir-budir yashil barglar.",
+    "description": "Toʻyimli taomlarda shaklini yaxshi saqlaydigan, gʻadir-budir yashil barglar. Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi. Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring.",
     "uses": [
       "Shoʻrvalar",
       "yengil qovurmalar",
@@ -2797,14 +3101,22 @@
         {
           "title": "Porsiya muhim",
           "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Qalin poyalarini ajratib oling. Salat uchun toʻgʻralgan barglarni qoʻlda ezgilang yoki yumshaguncha pishiring."
         }
       ]
     }
   },
   "oregano": {
-    "source": "8cf92cff",
+    "source": "867961ef",
     "name": "Oregano",
-    "description": "Iliq va kuchli koʻkat iforiga ega kichik barglar.",
+    "description": "Iliq va kuchli koʻkat iforiga ega kichik barglar. Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi. Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang.",
     "uses": [
       "Pomidor souslari",
       "pechda pishirish",
@@ -2849,14 +3161,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "basil-microgreens": {
-    "source": "7bb75a9d",
+    "source": "cd895a59",
     "name": "Rayhon mikrozeleni",
-    "description": "Rayhonning aniq iforini taratadigan mitti xushboʻy barglar.",
+    "description": "Rayhonning aniq iforini taratadigan mitti xushboʻy barglar. Xushboʻy maysalarni pomidor, guruch yoki bir kosa issiq shoʻrva bilan birga ishlating. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Pomidorli taomlar",
       "shoʻrvalar",
@@ -2901,14 +3217,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "muskmelon": {
-    "source": "cb1da443",
+    "source": "4daa1ae1",
     "name": "Qovun",
-    "description": "Tilimlab yeyish va mevali taomlar uchun shirin, xushboʻy qovun.",
+    "description": "Tilimlab yeyish va mevali taomlar uchun shirin, xushboʻy qovun. Yalpiz, laym, yogurt yoki boshqa yangi mevalar bilan yaxshi uygʻunlashadi. Kosaga solish uchun bir luqmalik boʻlaklarga kesing va kesgach sovuting. Poʻstini dasturxonga tortiladigan idishga qoʻshmang.",
     "uses": [
       "Tilimlab yeyish",
       "meva salatlari"
@@ -2952,14 +3272,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola uchun butun meva",
+          "text": "Tolani saqlash uchun faqat sharbatini emas, meva etini ham yeng. Xilma-xil ovqatlanish tarkibida tola muntazam ich kelishini qo‘llab-quvvatlaydi."
+        },
+        {
+          "title": "Tabiiy shirin muqobil",
+          "text": "Quvvatli desert yoki shirin yegulik o‘rniga yangi meva tanlang. Qo‘shimcha ovqat yeyish emas, uni almashtirish vaznni boshqarishga yordam berishi mumkin."
         }
       ]
     }
   },
   "lacinato-kale": {
-    "source": "4b96c6ec",
+    "source": "9e8cdf52",
     "name": "Toskana keyli",
-    "description": "Pishirish va toʻgʻralgan salatlar uchun pishiq tuzilishli, uzun toʻq yashil barglar.",
+    "description": "Pishirish va toʻgʻralgan salatlar uchun pishiq tuzilishli, uzun toʻq yashil barglar. Oq loviya, pechda pishirilgan qovoq, sarimsoq yoki ozgina limon bilan yaxshi uygʻunlashadi. Bir tekis pishishi uchun barglarni ingichka toʻgʻrang. Salat yumshoqroq boʻlishi uchun ularni ozgina sous bilan qoʻlda ezgilab aralashtiring.",
     "uses": [
       "Shoʻrvalar",
       "dimlamalar",
@@ -3004,14 +3332,22 @@
         {
           "title": "Porsiya muhim",
           "text": "Porsiya hajmi va pishirish usuli likopchangizdagi ozuqa moddalariga taʼsir qiladi."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Qattiq tomirlarini olib tashlang va shoʻrva yoki dimlamalar uchun barglarni ingichka toʻgʻrang."
         }
       ]
     }
   },
   "thyme": {
-    "source": "e9042f32",
+    "source": "41a7eeea",
     "name": "Jambil",
-    "description": "Tuproqsimon, xushboʻy taʼmli mitti barglar.",
+    "description": "Tuproqsimon, xushboʻy taʼmli mitti barglar. Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi. Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang.",
     "uses": [
       "Pechda pishirish",
       "bulyonlar",
@@ -3056,14 +3392,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "coriander-microgreens": {
-    "source": "ed7ab488",
+    "source": "8979a250",
     "name": "Kashnich mikrozeleni",
-    "description": "Quyuq koʻkat iforiga ega yosh kashnich barglari.",
+    "description": "Quyuq koʻkat iforiga ega yosh kashnich barglari. Xushboʻy maysalarni pomidor, guruch yoki bir kosa issiq shoʻrva bilan birga ishlating. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Tako",
       "shoʻrvalar",
@@ -3108,14 +3448,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "green-beans": {
-    "source": "c9b841da",
+    "source": "cd90a56f",
     "name": "Koʻk loviya",
-    "description": "Tez pishirish va qarsildoq sabzavotli taomlar uchun nozik dukkaklar.",
+    "description": "Tez pishirish va qarsildoq sabzavotli taomlar uchun nozik dukkaklar. Sarimsoq, kunjut, limon yoki qovurilgan bodom bilan yaxshi uygʻunlashadi. Bir tekis pishishi uchun bir xil uzunlikda kesing, soʻng hali iliqligida sous bilan aralashtiring.",
     "uses": [
       "Qovurmalar",
       "salatlar",
@@ -3160,14 +3504,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Uchlarini kesing va yumshaguncha pishiring. Salat uchun pishgan loviyani sovuting."
         }
       ]
     }
   },
   "swiss-chard": {
-    "source": "db568563",
+    "source": "47071dcf",
     "name": "Mangold",
-    "description": "Keng barglari va qarsildoq poyalari bitta taomda ikki xil tuzilish beradi.",
+    "description": "Keng barglari va qarsildoq poyalari bitta taomda ikki xil tuzilish beradi. Sarimsoq, yasmiq, oq loviya yoki ozgina qirgʻichdan chiqarilgan limon poʻsti bilan yaxshi uygʻunlashadi. Poyalarini mayda toʻgʻrab, qovurish uchun ajratib qoʻying; ular tovada barglardan koʻra uzoqroq pishadi.",
     "uses": [
       "Yengil qovurmalar",
       "gratenlar",
@@ -3212,14 +3564,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Poyalarini barglaridan ajrating. Avval toʻgʻralgan poyalarni pishiring, soʻng barglarini qoʻshing."
         }
       ]
     }
   },
   "rosemary": {
-    "source": "d0109b10",
+    "source": "0b421b3c",
     "name": "Rozmarin",
-    "description": "Qaragʻaynikiga oʻxshash kuchli iforli, ignasimon barglar.",
+    "description": "Qaragʻaynikiga oʻxshash kuchli iforli, ignasimon barglar. Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi. Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang.",
     "uses": [
       "Pechda pishirilgan sabzavotlar",
       "nonlar",
@@ -3264,14 +3624,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "fenugreek-microgreens": {
-    "source": "a802e69b",
+    "source": "5e0836a8",
     "name": "Hulba mikrozeleni",
-    "description": "Boy, biroz taxir taʼmli yosh hulba (methi) maysalari.",
+    "description": "Boy, biroz taxir taʼmli yosh hulba (methi) maysalari. Boy taʼmli maysalar kartoshka, yasmiq yoki noʻxatli ichlik bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "sendvichlar",
@@ -3316,14 +3680,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "bok-choy": {
-    "source": "fc3d870d",
+    "source": "8293ed6e",
     "name": "Bok choy karami",
-    "description": "Qoshiqsimon barglari va qarsildoq och rangli poyalari yumshoq karam taʼmiga ega.",
+    "description": "Qoshiqsimon barglari va qarsildoq och rangli poyalari yumshoq karam taʼmiga ega. Zanjabil, kunjut, qoʻziqorin yoki tofu bilan yaxshi uygʻunlashadi. Chiroyli koʻrinishi uchun kichik boshlarini boʻyiga teng ikkiga kesing. Barglar tarqalib ketmasligi uchun tagini kesmang.",
     "uses": [
       "Qovurmalar",
       "qaynatmalar",
@@ -3368,14 +3736,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Poyalar orasini yuving. Avval poyalarini pishiring, barglarini esa oxiriga yaqin qoʻshing."
         }
       ]
     }
   },
   "sage": {
-    "source": "d87fce09",
+    "source": "31a85eef",
     "name": "Mavrak",
-    "description": "Chuqur va boy iforli, yumshoq kulrang-yashil barglar.",
+    "description": "Chuqur va boy iforli, yumshoq kulrang-yashil barglar. Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi. Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang.",
     "uses": [
       "Qizartirilgan saryogʻ",
       "pechda pishirish",
@@ -3420,14 +3796,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "wheatgrass": {
-    "source": "aee13940",
+    "source": "ddd3f197",
     "name": "Bugʻdoy maysasi",
-    "description": "Yangi tayyorlab isteʼmol qilish uchun yetishtirilgan yosh bugʻdoy maysalari.",
+    "description": "Yangi tayyorlab isteʼmol qilish uchun yetishtirilgan yosh bugʻdoy maysalari. Yangi siqilgan sharbatdan ozgina olib, olma yoki bodring sharbatiga aralashtiring. Faqat dasturxonga tortadigan miqdordagi sharbatni tayyorlang. Ichimlik mayinroq boʻlishi uchun dagʻal tolalarini suzib oling.",
     "uses": [
       "Sharbat tayyorlash"
     ],
@@ -3470,14 +3850,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Taomlar muvozanatini saqlang",
+          "text": "Ta’mi yoqsa, oz miqdorda iste’mol qiling. Bug‘doy maysasi ichimligi butun sabzavotlar, bir mahal ovqat yoki xilma-xil ratsion o‘rnini bosmaydi."
         }
       ]
     }
   },
   "tatsoi": {
-    "source": "41b56aea",
+    "source": "1ba42095",
     "name": "Tatsoy",
-    "description": "Yengil xantal taʼmli kichik, dumaloq barglar.",
+    "description": "Yengil xantal taʼmli kichik, dumaloq barglar. Kunjut, zanjabil, lapsha yoki tofu bilan yaxshi uygʻunlashadi. Nozik barglar biroz shaklini saqlashi uchun ularni tortishdan sal oldin issiq taomli kosaga qoʻshing.",
     "uses": [
       "Salatlar",
       "shoʻrvalar",
@@ -3522,14 +3906,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Barglarni ajratib, yuving. Shoʻrva yoki tez qovurmaga butunligicha qoʻshing."
         }
       ]
     }
   },
   "lemon-balm": {
-    "source": "9057880a",
+    "source": "e48bb8d8",
     "name": "Melissa",
-    "description": "Mayin limon hidli nozik barglar.",
+    "description": "Mayin limon hidli nozik barglar. Rezavorlar, qovun yoki yengil oʻt choyi bilan yaxshi uygʻunlashadi. Hidi chiqishi uchun bir nechta bargni ohista ezgilang, soʻng sovitilgan ichimlikka qoʻshing.",
     "uses": [
       "Damlangan ichimliklar",
       "mevali taomlar",
@@ -3574,14 +3966,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "kohlrabi-microgreens": {
-    "source": "46bf5e73",
+    "source": "8cca0f91",
     "name": "Kolrabi mikrozeleni",
-    "description": "Yengil karam taʼmli nozik maysalar.",
+    "description": "Yengil karam taʼmli nozik maysalar. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Salatlar",
       "kosa taomlari",
@@ -3626,14 +4022,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "mizuna": {
-    "source": "28caab47",
+    "source": "df448528",
     "name": "Mizuna",
-    "description": "Yengil achchiqroq taʼmli, chetlari oʻyilgan ingichka barglar.",
+    "description": "Yengil achchiqroq taʼmli, chetlari oʻyilgan ingichka barglar. Sitrus mevalar, kunjut, rediska yoki yumshoq taʼmli lapsha sousi bilan yaxshi uygʻunlashadi. Salat uchun yumshoqroq taʼmli barglar bilan aralashtiring yoki bir hovuchini lapshali kosa taomi ustiga seping.",
     "uses": [
       "Salat aralashmalari",
       "lapshali kosa taomlari"
@@ -3677,14 +4077,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Ingichka barglarni ehtiyotkorlik bilan yuving va tuzilishi saqlanishi uchun oxirida qoʻshing."
         }
       ]
     }
   },
   "shiso": {
-    "source": "49790bae",
+    "source": "cff169dc",
     "name": "Shiso",
-    "description": "Oʻrash yoki bezak uchun ishlatiladigan oʻziga xos xushboʻy barglar.",
+    "description": "Oʻrash yoki bezak uchun ishlatiladigan oʻziga xos xushboʻy barglar. Bodring, guruch, kunjut yoki tuzlangan sabzavotlar bilan yaxshi uygʻunlashadi. Chiroyli yakuniy bezak uchun bir nechta quruq bargni ustma-ust qoʻyib, ingichka lentasimon qilib kesing.",
     "uses": [
       "Guruchli taomlar",
       "tuzlamalar",
@@ -3729,14 +4137,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "garden-cress-microgreens": {
-    "source": "a462291b",
+    "source": "7d6a137a",
     "name": "Kress-salat mikrozeleni",
-    "description": "Oʻtkir, qalampirdek achchiq taʼmli ingichka maysalar.",
+    "description": "Oʻtkir, qalampirdek achchiq taʼmli ingichka maysalar. Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang. Pishirib boʻlgach, likopcha ustiga sepib chiqing. Siqmasdan olingan kichik bir hovuch tuzilishni yengil saqlaydi.",
     "uses": [
       "Tuxumli taomlar",
       "sendvichlar",
@@ -3781,14 +4193,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "mustard-greens": {
-    "source": "f9c39244",
+    "source": "cd64eaae",
     "name": "Barg xantal",
-    "description": "Pishirilganda yumshaydigan xantal achchiqligiga ega, taʼmi yorqin barglar.",
+    "description": "Pishirilganda yumshaydigan xantal achchiqligiga ega, taʼmi yorqin barglar. Sarimsoq, kartoshka, yasmiq yoki yumshoq taʼmli yogurtli qoʻshimcha taom bilan yaxshi uygʻunlashadi. Saag uchun mayda toʻgʻrang yoki xantal taʼmini yumshatish uchun yumshoqroq koʻkatlar bilan aralashtiring.",
     "uses": [
       "Saag",
       "qovurmalar",
@@ -3833,14 +4249,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Dagʻal poyalarini olib tashlang va achchiqligi yumshashi uchun barglarni yumshaguncha pishiring."
         }
       ]
     }
   },
   "chervil": {
-    "source": "8c156fac",
+    "source": "4cb3b075",
     "name": "Kervel",
-    "description": "Yengil arpabodiyon taʼmli nozik barglar.",
+    "description": "Yengil arpabodiyon taʼmli nozik barglar. Limon, kartoshka, tuxum yoki oddiy loviya salati bilan yaxshi uygʻunlashadi. Toʻgʻrashdan oldin barglarni quriting, shunda ular bir-biriga yopishmaydi va sousga bir tekis aralashadi.",
     "uses": [
       "Tuxum taomlari",
       "salatlar",
@@ -3885,14 +4309,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "radish-microgreens-live-tray": {
-    "source": "afaa910f",
+    "source": "465241ac",
     "name": "Rediska mikrozeleni · Tirik lotok",
-    "description": "Achchiqroq taʼmli yosh barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Achchiqroq taʼmli yosh barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Achchiqroq maysalar taʼmini avokado, humus yoki salqin yogurtli sous bilan muvozanatlang. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -3938,14 +4366,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "watercress": {
-    "source": "41d3cdc3",
+    "source": "90fcf685",
     "name": "Suv kressi",
-    "description": "Jonli, qalampirdek achchiqroq taʼmli kichik, dumaloq barglar.",
+    "description": "Jonli, qalampirdek achchiqroq taʼmli kichik, dumaloq barglar. Kartoshka, tuxum, sitrus mevalar yoki yumshoq taʼmli qaymoqli sous bilan yaxshi uygʻunlashadi. Nozik uchlarini salatlarga ishlating, qattiqroq poyalarini esa pishiriladigan shoʻrva uchun qoldiring.",
     "uses": [
       "Shoʻrvalar",
       "salatlar",
@@ -3990,14 +4422,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yaxshilab yuving va dagʻal poyalarini kesib tashlang. Salatlarga qoʻshing yoki pishgan shoʻrvaga blenderda aralashtiring."
         }
       ]
     }
   },
   "tarragon": {
-    "source": "69901840",
+    "source": "ace090a7",
     "name": "Tarxun",
-    "description": "Arpabodiyonga oʻxshash yaqqol taʼmli ingichka barglar.",
+    "description": "Arpabodiyonga oʻxshash yaqqol taʼmli ingichka barglar. Xantal, kartoshka, tuxum yoki qaymoqli sous bilan yaxshi uygʻunlashadi. Avval oz miqdorda ishlating: arpabodiyonga oʻxshash taʼmi nozik sousni bosib ketishi mumkin.",
     "uses": [
       "Souslar",
       "salat souslari",
@@ -4042,14 +4482,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "pea-microgreens-live-tray": {
-    "source": "5198e055",
+    "source": "4b8890b6",
     "name": "Koʻk noʻxat mikrozeleni · Tirik lotok",
-    "description": "Shirin koʻk noʻxat taʼmli nozik maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Shirin koʻk noʻxat taʼmli nozik maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -4095,14 +4539,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "sorrel": {
-    "source": "c2f6c916",
+    "source": "41fabf30",
     "name": "Otquloq",
-    "description": "Taomga yorqinlik berish uchun oz miqdorda ishlatiladigan nordon, limonsimon barglar.",
+    "description": "Taomga yorqinlik berish uchun oz miqdorda ishlatiladigan nordon, limonsimon barglar. Bir nechta barg kartoshka, tuxum yoki qaymoqli sous bilan yaxshi uygʻunlashadi. Limon yoki sirka qoʻshishdan oldin tatib koʻring: otquloqning oʻzi nordon taʼm beradi.",
     "uses": [
       "Souslar",
       "shoʻrvalar",
@@ -4147,14 +4595,18 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "marjoram": {
-    "source": "802bbebd",
+    "source": "5faa205d",
     "name": "Mayoran",
-    "description": "Oreganoga oʻxshash mayin va shirinroq taʼmli yumshoq barglar.",
+    "description": "Oreganoga oʻxshash mayin va shirinroq taʼmli yumshoq barglar. Pechda pishirilgan kartoshka, qoʻziqorin, loviya yoki pomidor sousi bilan yaxshi uygʻunlashadi. Ozgina qoʻshishdan boshlang va taom pishayotganda tatib koʻring. Tortishdan oldin qattiq poyalarini olib tashlang.",
     "uses": [
       "Shoʻrvalar",
       "souslar",
@@ -4199,14 +4651,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "sunflower-microgreens-live-tray": {
-    "source": "a436640b",
+    "source": "8e634626",
     "name": "Kungaboqar mikrozeleni · Tirik lotok",
-    "description": "Yumshoq, yongʻoqsimon taʼmli qarsildoq maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Yumshoq, yongʻoqsimon taʼmli qarsildoq maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Maysalar bodring, yumshoq pishloq yoki limonli sous quyilgan donli taom bilan yaxshi uygʻunlashadi. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -4252,14 +4708,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "endive": {
-    "source": "55ffbd35",
+    "source": "2066e2c5",
     "name": "Endiviy",
-    "description": "Yoqimli taxirlikka ega pishiq barglar.",
+    "description": "Yoqimli taxirlikka ega pishiq barglar. Apelsin, yongʻoq, olma yoki yumshoq pishloq bilan yaxshi uygʻunlashadi. Pishiq tashqi barglarni toʻgʻralgan salat solinadigan kichik kosachalar sifatida ishlating.",
     "uses": [
       "Salatlar",
       "pechda pishirish",
@@ -4304,14 +4764,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Kichik salat kosachalari uchun barglarni ajrating yoki pechda pishirishdan oldin boshini teng ikkiga kesing."
         }
       ]
     }
   },
   "lemongrass": {
-    "source": "9644eb9b",
+    "source": "bbdb1907",
     "name": "Limon oʻti",
-    "description": "Aniq sitrus iforiga ega xushboʻy poyalar.",
+    "description": "Aniq sitrus iforiga ega xushboʻy poyalar. Zanjabil, kokos suti, laym yoki qoʻziqorin bilan yaxshi uygʻunlashadi. Qaynatmaga ifor berish uchun ezgilangan poyalardan foydalaning. Tortishdan oldin yirik tolali boʻlaklarni olib tashlang.",
     "uses": [
       "Karri taomlari",
       "qaynatmalar",
@@ -4356,14 +4824,18 @@
         {
           "title": "Miqdor muhim",
           "text": "Bir necha barg — bu bezak, toʻliq sabzavot porsiyasi emas."
+        },
+        {
+          "title": "Kamroq tuz bilan ta’m",
+          "text": "Qo‘shimcha tuz solishdan oldin sabzavot, dukkakli yoki donli taomlarga ozgina qo‘shib ta’m bering. Ziravor sifatidagi miqdor ozgina tola beradi."
         }
       ]
     }
   },
   "broccoli-microgreens-live-tray": {
-    "source": "184ffb84",
+    "source": "185398fc",
     "name": "Brokkoli mikrozeleni · Tirik lotok",
-    "description": "Karamga xos yumshoq taʼmli kichik barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Karamga xos yumshoq taʼmli kichik barglar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -4409,14 +4881,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "radicchio": {
-    "source": "6054b24c",
+    "source": "f7622edc",
     "name": "Radikkio",
-    "description": "Qizil barglari va oq tomirlari taomga taxirlik va yorqin tafovut qoʻshadi.",
+    "description": "Qizil barglari va oq tomirlari taomga taxirlik va yorqin tafovut qoʻshadi. Nok, apelsin, yongʻoq yoki yumshoq taʼmli pishloq bilan yaxshi uygʻunlashadi. Xom toʻgʻralgan barglarini shirinroq masalliqlar bilan aralashtiring yoki tuzilishi yumshashi uchun boʻlaklarini grilda pishiring.",
     "uses": [
       "Salatlar",
       "grilda pishirish",
@@ -4461,14 +4937,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Oʻzagini olib tashlang. Salatlar uchun yupqa toʻgʻrang yoki grilda pishirish uchun boʻlaklarga kesing."
         }
       ]
     }
   },
   "fenugreek-microgreens-live-tray": {
-    "source": "b724d323",
+    "source": "072f253e",
     "name": "Hulba mikrozeleni · Tirik lotok",
-    "description": "Yengil taxirlikka ega xushboʻy maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Yengil taxirlikka ega xushboʻy maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Boy taʼmli maysalar kartoshka, yasmiq yoki noʻxatli ichlik bilan yaxshi uygʻunlashadi. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -4514,14 +4998,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "amaranth-greens": {
-    "source": "e36b47cf",
+    "source": "d338806a",
     "name": "Amarant barglari",
-    "description": "Hindistonning koʻplab mintaqaviy sabzavotli taomlarida ishlatiladigan nozik barglar.",
+    "description": "Hindistonning koʻplab mintaqaviy sabzavotli taomlarida ishlatiladigan nozik barglar. Yasmiq, sarimsoq, kokos yoki zira bilan yaxshi uygʻunlashadi. Pishirilgan garnir uchun barglar va nozik poyalarni toʻgʻrang; avval dagʻal poyalarini olib tashlang.",
     "uses": [
       "Dal",
       "qovurmalar",
@@ -4566,14 +5054,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Yaxshilab yuving, qattiq poyalarini kesib tashlang va barglarni dal yoki sabzavotli taomga qoʻshib pishiring."
         }
       ]
     }
   },
   "red-amaranth-microgreens-live-tray": {
-    "source": "5db14b16",
+    "source": "0917c4e6",
     "name": "Qizil amarant mikrozeleni · Tirik lotok",
-    "description": "Tuproqsimon taʼmli ingichka qizil maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling.",
+    "description": "Tuproqsimon taʼmli ingichka qizil maysalar. Bitta tirik lotokda oʻsib turgan holda yetkaziladi. Kerakli qismini kesib oling. Yosh barglar pechda pishirilgan sabzavotlar, humus yoki sousi kam salat bilan yaxshi uygʻunlashadi. Faqat kerakli qismini kesib oling. Qolganini keyingi ovqat uchun oʻsib turgan holda qoldiring; kesilgan maysalar qayta oʻsishiga umid qilmang.",
     "uses": [
       "Salatlar",
       "Sendvichlar",
@@ -4619,14 +5115,18 @@
         {
           "title": "Almashtirib turing",
           "text": "Turli maysalarni boshqa sabzavotlar bilan birga isteʼmol qiling."
+        },
+        {
+          "title": "Likopchaning kichik qismi",
+          "text": "Bir hovuch taomga xilma-xillik qo‘shadi. Oziq moddalar ekin turi va porsiyaga bog‘liq; bezak uchun ozgina ko‘kat to‘liq sabzavot porsiyasini almashtirmaydi."
         }
       ]
     }
   },
   "fenugreek-greens": {
-    "source": "2be34ad8",
+    "source": "68aecb62",
     "name": "Hulba barglari",
-    "description": "Oʻziga xos taxir va boy taʼmli xushboʻy hulba (methi) barglari.",
+    "description": "Oʻziga xos taxir va boy taʼmli xushboʻy hulba (methi) barglari. Kartoshka, koʻk noʻxat, yasmiq yoki toʻliq donli bugʻdoy xamiri bilan yaxshi uygʻunlashadi. Toʻgʻralgan barglarni paratxa xamiriga qoʻshib qoring yoki sabzavotli karriga kichik bir hovuch qoʻshing.",
     "uses": [
       "Paratxa",
       "dal",
@@ -4671,14 +5171,22 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Barglarini qalin poyalardan uzib oling, yaxshilab yuving va dal yoki paratxa uchun toʻgʻrang."
         }
       ]
     }
   },
   "napa-cabbage": {
-    "source": "aa9e90d8",
+    "source": "def1874c",
     "name": "Pekin karami",
-    "description": "Nozik qatlamli barglar va yumshoq taʼmli, qarsildoq poyalar.",
+    "description": "Nozik qatlamli barglar va yumshoq taʼmli, qarsildoq poyalar. Zanjabil, qoʻziqorin, tofu yoki koʻk piyoz bilan yaxshi uygʻunlashadi. Qalinroq tomirlarini qarsildoqlik uchun, yumshoqroq barglarini esa yengil qaynatmani shimishi uchun ishlating.",
     "uses": [
       "Qovurmalar",
       "shoʻrvalar",
@@ -4723,6 +5231,14 @@
         {
           "title": "Xilma-xillik",
           "text": "Turli rangdagi sabzavotlarni donli mahsulotlar va oqsil manbai bilan birlashtiring."
+        },
+        {
+          "title": "Tola va hazm",
+          "text": "Butun sabzavotlar muntazam ich kelishini qo‘llab-quvvatlovchi oziq tolalarini beradi. Tola miqdorini asta-sekin oshiring va yetarli suv iching."
+        },
+        {
+          "title": "Vaznni hisobga olgan taomlar",
+          "text": "Kaloriyasi ko‘proq masalliqlarning bir qismini sabzavotlar bilan almashtiring. Bu vaznni boshqarishga yordam berishi mumkin; porsiya, souslar va umumiy ovqatlanish ham muhim. Qatlamlar orasini yuving. Bir tekis pishishi uchun poya va barglarni alohida toʻgʻrang."
         }
       ]
     }

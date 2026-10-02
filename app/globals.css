@@ -5648,3 +5648,20 @@ body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(92px + env(safe
 .contact-details p { margin: 0; overflow-wrap: anywhere; }
 .contact-details a, .footer-contact a { text-decoration: underline; text-underline-offset: 3px; }
 .footer-contact { display: flex; flex-wrap: wrap; gap: 14px; }
+
+/* A quiet food reminder. Keep it separate from totals and payment controls. */
+.basket-wellness {
+  display: flex;
+  gap: 9px;
+  margin-block: 18px;
+  padding-block: 13px;
+  border-block: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+  text-align: start;
+}
+.basket-wellness > svg { flex: 0 0 auto; margin-top: 2px; }
+.basket-wellness p { margin: 0; }
+.basket-wellness .basket-wellness-title { color: var(--ink); margin-bottom: 4px; font-weight: 500; }
+.nutrition-references { display: flex; flex-wrap: wrap; gap: 4px 18px; }

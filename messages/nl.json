@@ -207,7 +207,9 @@
       "emptyEyebrow": "RUIMTE VOOR IETS VERS",
       "emptyTitle": "Je winkelmandje is leeg.",
       "emptyText": "Kies groenten om te beginnen.",
-      "emptyCta": "Ontdek de producten"
+      "emptyCta": "Ontdek de producten",
+      "wellnessTitle": "Een kleine investering in dagelijkse gezondheid",
+      "wellnessText": "Geef gevarieerde plantaardige voeding een plek in maaltijden die u lekker vindt. Kleine, regelmatige keuzes tellen op."
     },
     "validation": {
       "name": "Vul je naam in.",
@@ -468,7 +470,8 @@
       "servingIdea": "{name} serveertip",
       "viewRecipe": "Bekijk recept",
       "images": "Productafbeeldingen",
-      "view": "Bekijk {label}"
+      "view": "Bekijk {label}",
+      "additionalView": "{name} · Beeld {number}"
     },
     "breadcrumbHome": "Home",
     "breadcrumbShop": "Shop",
@@ -506,7 +509,9 @@
       "domestic": "Levering in heel India",
       "export": "Levering naar {country} op aanvraag",
       "mix": "Stel je eigen mix samen"
-    }
+    },
+    "eatingGuide": "Gids voor gezond eten",
+    "fibreGuide": "Gids voor vezels en spijsvertering"
   },
   "cart": {
     "heroAlt": "Een mand met verse groenten",

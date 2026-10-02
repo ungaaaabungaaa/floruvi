@@ -223,7 +223,9 @@
       "emptyEyebrow": "مساحة لشيء طازج",
       "emptyTitle": "سلتك فارغة.",
       "emptyText": "اختر الخضار لتبدأ.",
-      "emptyCta": "استكشف المنتجات"
+      "emptyCta": "استكشف المنتجات",
+      "wellnessTitle": "استثمار صغير في الصحة اليومية",
+      "wellnessText": "أفسح مجالًا لأطعمة نباتية متنوعة في الوجبات التي تحبها. الخيارات الصغيرة المنتظمة تتراكم."
     },
     "validation": {
       "name": "أدخل اسمك.",
@@ -488,7 +490,8 @@
       "servingIdea": "فكرة تقديم لـ{name}",
       "viewRecipe": "عرض الوصفة",
       "images": "صور المنتج",
-      "view": "عرض {label}"
+      "view": "عرض {label}",
+      "additionalView": "{name} · الصورة {number}"
     },
     "breadcrumbHome": "الرئيسية",
     "breadcrumbShop": "المتجر",
@@ -526,7 +529,9 @@
       "domestic": "التوصيل إلى جميع أنحاء الهند",
       "export": "التوصيل إلى {country} عند الطلب",
       "mix": "اختر مزيجك الخاص"
-    }
+    },
+    "eatingGuide": "دليل الأكل الصحي",
+    "fibreGuide": "دليل الألياف والهضم"
   },
   "cart": {
     "heroAlt": "سلة مليئة بالخضار الطازجة",
