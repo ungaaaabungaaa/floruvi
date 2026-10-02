@@ -50,11 +50,11 @@ pnpm exec convex run seed:pricing --prod
 vercel deploy --prod
 ```
 
-Confirm the production target `polished-mosquito-828` when the CLI asks. Read the seed result and verify the public query returns six categories and 85 crops. A repeat seed should report `added: 0` unless new crop slugs were added.
+Confirm the production target `polished-mosquito-828` when the CLI asks. Do not run seeds for a code-only release. If seed changes are intended, read the result and verify expected counts (current catalogue: six categories and 91 products). A repeat seed should report `added: 0` unless new crop slugs were added.
 
 The current Vercel build command is `pnpm build`. Convex functions must be deployed first when their schema or function API changes. For automatic deployments later, configure a production `CONVEX_DEPLOY_KEY` as a Vercel secret and use `pnpm build:vercel`. This key is not created or stored in Git by the current build.
 
-The Vercel project exists in `thehelds-projects`. Its GitHub connection is pending: Vercel requires the owner's GitHub login connection before it can link `ungaaaabungaaa/floruvi`. Until connected, a GitHub push is a backup, not an automatic deployment.
+The Vercel project `floruvi` in `thehelds-projects` is connected to `ungaaaabungaaa/floruvi`, production branch `main` (verified 2 October 2026). Pushing `main` starts a production build. Deploy Convex first for backend changes, then push and verify the resulting Vercel commit, READY state and custom-domain aliases. Do not use a second Vercel CLI deployment for the same release.
 
 ## 4. Products and enquiries
 

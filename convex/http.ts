@@ -5,8 +5,11 @@ import { enquirySchema } from "../lib/enquiry";
 import * as admin from "./adminHttp";
 import * as payments from "./paymentsHttp";
 import * as chat from "./chatHttp";
+import * as growth from "./growthHttp";
 
 const http = httpRouter();
+http.route({ path:"/admin/growth",method:"POST",handler:growth.adminGrowth });
+http.route({ path:"/growth/mcp",method:"POST",handler:growth.mcpGrowth });
 http.route({
   path: "/enquiries",
   method: "POST",

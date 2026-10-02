@@ -9,6 +9,7 @@ const tabs = [
   { href: "/admin/requests", label: "Requests" },
   { href: "/admin/chats", label: "Chats" },
   { href: "/admin/stock", label: "Stock" },
+  { href: "/admin/growth", label: "Growth" },
   { href: "/admin/settings", label: "Settings" },
 ] as const;
 
@@ -17,9 +18,14 @@ export function AdminNav() {
   return (
     <nav aria-label="Admin" className="admin-nav">
       {tabs.map((tab) => {
-        const current = tab.href === "/admin" ? path === "/admin" : path.startsWith(tab.href);
+        const current =
+          tab.href === "/admin" ? path === "/admin" : path.startsWith(tab.href);
         return (
-          <Link key={tab.href} href={tab.href} aria-current={current ? "page" : undefined}>
+          <Link
+            key={tab.href}
+            href={tab.href}
+            aria-current={current ? "page" : undefined}
+          >
             {tab.label}
             <LinkHint />
           </Link>

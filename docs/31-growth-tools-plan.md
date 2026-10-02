@@ -1,14 +1,50 @@
 # 31. Floruvi growth system
 
-Status: **design proposal updated 2 October 2026; growth features are not built**. The separate favicon update uses the existing carrot mark. No provider account, API entitlement, partnership, campaign or live connection was established by this work.
+Status: **built 2 October 2026; provider setup required**. The owner asked for the admin system to work after provider setup and added Exa and Codex access. Provider entitlement, paid execution and channel admission remain separate checks.
+
+## Implementation checkpoint — 2 October 2026
+
+- Goal: ship a working owner Growth workspace with all buyer groups, persisted research/opportunities/drafts/supply details, OpenAI + optional Exa + Apollo adapters, channel readiness and protected Codex access. Keep external sending and bidding owner-controlled in vendor tools.
+- Baseline: `28b3f17` on `main`, clean before this build. This contains the favicon/design commit and all existing SEO, product-benefit and gallery branch work. `origin/main` is `99de353`; Vercel production currently serves that commit. No other registered Floruvi worktree exists.
+- Authority: the owner's follow-up asks to implement the plan in admin, add Exa/Codex, commit/push all work, deploy and clean worktrees. This approves implementation and deployment, not paid provider calls or unsolicited outreach.
+- Architecture: reuse the existing protected owner admin transport and live-session checks; all Growth data/functions stay private in Convex. No new login system or public database mutation. The existing custom-session/Better Auth discrepancy remains an explicit auth migration item; do not weaken existing protection or move customer identity ownership in this feature.
+- Stack: existing Next.js/React/Convex; official provider SDKs where available; the existing admin layout and CSS. No new UI library, queue or database.
+- Tests: risk-based regression tests for validation, denied access, job reservation/concurrency, cancellation, duplicate results, provider failure, source integrity and MCP scopes. No strict test-first workflow was requested.
+- Tasks: (1) shared schemas and buyer/channel definitions; (2) protected Convex records, jobs, budgets and admin HTTP routes; (3) provider clients with no automatic paid retry; (4) admin views and setup actions; (5) narrow MCP tools; (6) channel feed/measurement readiness; (7) local tests, development checks, independent review, production Convex deploy, Git push, Vercel exact-commit and live checks.
+- Ownership: coordinator owns shared contracts, Convex storage/HTTP, integration and Git; UI and provider/MCP tasks may run in parallel on distinct files. Preserve the customer OpenRouter chat and commerce gates.
+- Setup boundary: API keys, provider billing/permissions, channel account approval and real supply/certificate data are entered by the owner. Missing setup must produce a useful disabled state, never fake results or fake connected status.
+- Verification: `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`; protected backend denial and workflow checks on development; live page/icon/feed checks after deployment. No production seed or customer mutation as a test.
+
+
+## Setup the built workspace
+
+Local checks on 2 October 2026: all 110 automated tests, TypeScript, ESLint and the standard Next.js production build passed (473 generated pages). Independent review fixes cover branch deduplication, employer changes, MCP draft retries, contact redaction and retained uncertain costs. Development checks confirmed the signed-out redirect and the authenticated desktop Growth screen. The temporary session was revoked. Narrow-mobile acceptance, browser form-save acceptance and live paid provider execution remain unverified. Production and exact-commit verification are separate release checks.
+
+1. Open `/admin/growth`. Add dispatch location, products, capacity, delivery, certificates and commercial terms. Blank fields remain unknown.
+2. Add `OPENAI_API_KEY` in the **Convex production** environment. Add `EXA_API_KEY` for optional Exa source search and `APOLLO_API_KEY` for contact research. Keys never go in a browser form or Git.
+3. In Channels, test OpenAI and Apollo access. Exa has no free authenticated test in this adapter; its setup remains unverified until an owner-started search succeeds. Configuration is not access proof.
+4. Set `GROWTH_MONTHLY_BUDGET_USD` in Convex (default 10), then `GROWTH_RESEARCH_ENABLED=true` when ready for paid runs. Start a small buyer, tender or export run and review the sources. Research works before social or analytics setup.
+5. For paid Apollo contact checks, set `GROWTH_APOLLO_MONTHLY_CREDITS` after checking the actual plan. Search a named company and domain first. Select a person and confirm the possible charge. No address is sent to outreach tools.
+6. Optional Codex access: generate a dedicated random token of at least 32 characters. Set the same `GROWTH_MCP_TOKEN` in Vercel and Convex; it must differ from `ADMIN_API_SECRET`. Redeploy Vercel after an environment change. Set the local `FLORUVI_GROWTH_MCP_TOKEN` environment variable without putting its value in config or chat, then use:
+
+```toml
+[mcp_servers.floruvi_growth]
+url = "https://floruvi.com/api/growth/mcp"
+bearer_token_env_var = "FLORUVI_GROWTH_MCP_TOKEN"
+```
+
+7. Google Merchant: review eligible India offers, genuine product photos, checkout, shipping and returns. Set `GROWTH_MERCHANT_FEED_ENABLED=true` in Convex only after live Razorpay and listing requirements work. Submit `/feeds/google.xml` as a scheduled feed in the verified Merchant account. The feed excludes boxes, exports and offers with missing facts. An enabled feed is not Merchant approval.
+8. Use Channels for official portal links and owner readiness notes. Marketplace admission, account linking, certifications and social setup are manual provider steps. GA4/PostHog event delivery and consent controls remain later implementation; these cards do not collect analytics.
+
+The first workspace displays the latest 200 opportunities, 30 runs and 100 drafts. These are bounded views, not a complete CRM. Sources and contacts remain candidates until checked. Review/delete draft text in admin; a future retention job for research/contact records remains in the backlog.
 
 ## Current direction
 
 **Owner decisions, 2 October 2026:** plan a growth and research system inside Floruvi admin. Include Google Merchant Center, Google Analytics, PostHog, OpenAI/ChatGPT/Codex access, Apollo, social channels and future sales support. Cover **all buyer groups**, including military contracts and large institutions. Group the options so the owner can compare them.
 
-This replaces the 29 September proposal to keep all research on a separate laptop. The older research remains in the archive below. Its prices, legal summaries and dates need a fresh check before use. This document owns the new design; it does not approve implementation, paid usage, outreach or bids.
+This replaces the 29 September proposal to keep all research on a separate laptop. The older research remains in the archive below. Its prices, legal summaries and dates need a fresh check before use. This document owns the design and setup instructions. The follow-up authorizes implementation and deployment. Paid usage, outreach and bids need their own setup and owner action.
 
-**Recommendation:** add one **Growth** entry in `/admin`. Start with cited research, a grouped opportunity list, channel setup and a draft queue. Keep business rules and records in Convex. Add sales delivery only after the owner approves exact actions and the providers work.
+**Implemented:** one **Growth** entry in `/admin`. Start with cited research, a grouped opportunity list, channel setup and a draft queue. Keep business rules and records in Convex. Add sales delivery only after the owner approves exact actions and the providers work.
 
 | Approach | Benefit | Cost or limit |
 | --- | --- | --- |
@@ -46,7 +82,7 @@ These are **sales routes to research**, not confirmed buyers or purchase demand.
 | --- | --- | --- |
 | Google Search Console and Bing Webmaster Tools | Search visibility, sitemap and indexing | Link/manual verification first; add read-only reporting only if it helps a decision |
 | Google Business Profile | Local discovery where Floruvi is eligible | Owner verifies the real business and in-person service model; online-only status is not enough. [Eligibility](https://support.google.com/business/answer/13763036) |
-| Google Merchant Center | Eligible product listings and later Shopping ads | Build a validated catalogue feed. Activate only after real purchase, price, shipping and return details work. Use Merchant API if API management is later needed. [Free listings](https://support.google.com/merchants/answer/9199328), [Merchant API](https://developers.google.com/merchant/api/overview) |
+| Google Merchant Center | Eligible product listings and later Shopping ads | A gated catalogue feed is built at `/feeds/google.xml`. Activate only after real purchase, price, shipping and return details work. Use Merchant API if API management is later needed. [Free listings](https://support.google.com/merchants/answer/9199328), [Merchant API](https://developers.google.com/merchant/api/overview) |
 | Google Analytics 4 and PostHog | Acquisition and website conversion | One event contract, two defined reporting roles; see section 6. Setup is requested, connection is unverified |
 | Instagram, Facebook, Meta catalogue and WhatsApp Business | Product discovery, catalogues and inbound enquiries | Link/manual setup first. Use official account and catalogue routes. Do not assume that Shops or checkout are available for this account and market |
 | Buffer or Meta Business Suite | Draft and schedule social posts | Use existing vendor tools first. Add a publish connector only after social accounts, permissions and exact-content approval work |
@@ -89,7 +125,7 @@ Do not infer a blanket startup/MSME exemption. Check the tender. Do not rank a l
 
 ## 4. What the admin should do
 
-Keep the existing order overview. Add one **Growth** entry with four views:
+The existing order overview remains. **Growth** has four views:
 
 1. **Opportunities:** grouped buyers and separate tender records. Filters: group, product, location, buying route, readiness and last checked. Each row shows business, role, contact status, source, reason to approach and next step.
 2. **Research:** start a bounded job; view progress, sources, spend and errors. Job types: buyers, tenders, export brief and later channel review. Select all groups or a subset. A group with no verified results must stay visible.
@@ -112,20 +148,20 @@ For organic claims, store the certificate issuer, scope, product, operator, date
 
 ## 5. OpenAI, Codex and Apollo design
 
-**Proposed default:** one OpenAI Responses API integration for admin research. Keep the existing Vercel AI SDK + OpenRouter customer chat unchanged and hidden until the owner enables it. The research assistant has a different purpose, permissions and budget; it does not reuse customer chats.
+**Implemented:** one OpenAI Responses API integration for admin research. Keep the existing Vercel AI SDK + OpenRouter customer chat unchanged and hidden until the owner enables it. The research assistant has a different purpose, permissions and budget; it does not reuse customer chats.
 
 The owner reports existing ChatGPT/Codex access. That does not verify Floruvi's server API entitlement or funded balance. Standard API-key use follows API pricing. The current ChatGPT-plan-use preview documents an open-source/local-app route and directs hosted apps to a separate interest process. Do not promise subscription-funded research in the hosted Floruvi admin. [OpenAI pricing](https://learn.chatgpt.com/docs/pricing), [ChatGPT plan access](https://developers.openai.com/siwc/token-sharing-open-source).
 
-Use a dedicated project key in Convex server variables and a model selected from the account's tested access. Use built-in web search for cited research. Use strict function schemas and application checks for Apollo and catalogue tools. Long jobs can use supported background responses and bounded polling after checking the model's support and data-retention settings. [Web search](https://developers.openai.com/api/docs/guides/tools-web-search), [Function calling](https://developers.openai.com/api/docs/guides/function-calling), [Background mode](https://developers.openai.com/api/docs/guides/background).
+Use a dedicated project key in Convex server variables. The bounded adapter currently uses `gpt-5-mini`; test account access before enabling paid runs. A model change needs a reviewed cost bound. Use built-in web search for cited research. Use strict function schemas and application checks for Apollo and catalogue tools. This version uses a Convex scheduled action, a provider timeout and a five-minute job expiry. It makes no automatic paid retries. Background responses are a later option. [Web search](https://developers.openai.com/api/docs/guides/tools-web-search), [Function calling](https://developers.openai.com/api/docs/guides/function-calling), [Background mode](https://developers.openai.com/api/docs/guides/background).
 
 **Apollo is one source, not the whole research system.** It can help with hotel groups, caterers, distributors and importers. Verify the branch or delivery location because company-headquarters location can differ. People Search does not return email addresses or phone numbers. Organisation search and enrichment can consume credits; account eligibility and legacy-plan rules vary. Search first, then approve selected enrichment. Keep personal-email, mobile-reveal and waterfall options off initially. Use endpoint-scoped keys where supported. [People search](https://docs.apollo.io/reference/people-api-search), [Organisation search](https://docs.apollo.io/reference/organization-search), [Enrichment](https://docs.apollo.io/reference/people-enrichment), [API keys](https://docs.apollo.io/docs/create-api-key).
 
-**How Codex or ChatGPT can help later:** expose a small authenticated Floruvi MCP interface. Suggested tools: read opportunities, read aggregate channel results, start an approved research job and save a draft. Reuse the same Convex permissions and spend checks. Require separate scoped user authorization; never copy an admin cookie, shared secret or local subscription token into the model. Codex remains an owner-side client; it does not run a shell inside the storefront. Client support and account eligibility must be tested. [Codex MCP](https://learn.chatgpt.com/docs/extend/mcp), [Codex SDK](https://learn.chatgpt.com/docs/codex-sdk).
+**Codex access is built:** the optional protected MCP endpoint exposes only `read_opportunities`, `read_research` and create-only `save_draft`. It uses a dedicated bearer token in Vercel and Convex; it does not accept the shared admin secret. Read results omit contact fields, private notes and session data, with extra email/phone redaction in prose. Treat the remaining public research text as untrusted source material. Draft creation requires an idempotency key. Owner edits stay in admin. No paid research, sending, orders or payment tools are exposed. Rotate both server tokens to revoke clients. ChatGPT connector/OAuth compatibility remains unverified. [Codex MCP](https://learn.chatgpt.com/docs/extend/mcp).
 
 ```mermaid
 flowchart TD
   Owner[Owner in admin] --> Gate[Server permission and budget check]
-  Client[Optional Codex or ChatGPT client later] --> Gate
+  Client[Optional scoped Codex client] --> Records
   Gate --> Jobs[Convex research jobs]
   Jobs --> Model[OpenAI research and cited web search]
   Model --> Tools[Validated tool requests]
@@ -138,7 +174,7 @@ flowchart TD
 
 ### Data and security boundaries
 
-The current code has a custom owner-session flow in `convex/admin.ts`, `convex/adminHttp.ts` and `lib/admin.ts`. [Doc 25](25-admin-and-order-alerts.md#security) already records that this differs from the Better Auth ownership rule. Do not create a third identity system. Resolve the owner-auth contract before the protected Growth build; Better Auth remains the documented identity owner unless the owner approves an explicit exception. MCP/OAuth access needs its own reviewed scope and cannot expose the current shared admin secret.
+The current code has a custom owner-session flow in `convex/admin.ts`, `convex/adminHttp.ts` and `lib/admin.ts`. [Doc 25](25-admin-and-order-alerts.md#security) already records that this differs from the Better Auth ownership rule. Do not create a third identity system. Growth reuses the existing owner-session checks, as authorized in this implementation checkpoint. Better Auth migration remains a separate project decision. MCP uses an independently checked dedicated token and cannot expose the current shared admin secret.
 
 Convex owns research runs, buyer candidates, tender opportunities, evidence, drafts, usage and audit records. Buyer candidates are research records; existing inbound enquiries and orders keep their current owners. Link records by ID when a prospect becomes an inbound enquiry. Do not create a second CRM or a duplicate order ledger. A fuller sales pipeline is a later scope decision.
 
@@ -158,9 +194,9 @@ Store only needed business-contact fields in protected records. Keep them out of
 
 ### Spend controls
 
-All paid connectors start disabled. Suggested pilot limits, **not spending approval**: at most 20 candidates per run, 5 runs a day, 10 model/tool steps per run, one running job per owner, and US$10 a month for research. Set separate Apollo credit limits from the actual plan; default enrichment allowance is zero until approved. The existing customer-chat budget stays separate.
+Paid research starts disabled. Enforced limits: at most 20 candidates per run, 5 runs a day, one active job and a default US$10 monthly budget. Each job reserves US$1 before execution. The adapter caps web-search calls at 4 and output tokens at 4096; the current researched upper bound is below the reservation. Actual model/search usage is recorded when available. Unknown outcomes consume the reservation rather than freeing it for another charged call. Set a separate Apollo credit limit from the actual plan; the default allowance is zero. Each selected enrichment conservatively consumes 9 allowance credits to cover differing plan rules. This is an application allowance, not a claim that Apollo always bills 9 credits. Search results are saved for one hour and bound to the live owner session. Enrichment must still match the selected person and employer; cached mismatches are rejected. Repeated uncertain requests are blocked. The existing customer-chat budget stays separate.
 
-Reserve the worst-case allowed run cost atomically before provider calls. Apply token, search-call and credit caps. Reconcile actual use afterward and keep uncertain charges reserved until resolved. Stop when the provider price cannot be bounded. Do not treat a billing alert as a hard cap. Show cost per qualified opportunity, not just token counts.
+Reserve the worst-case allowed run cost atomically before provider calls. Apply token, search-call and credit caps. Reconcile actual use afterward and keep uncertain charges reserved until resolved. Stop when the provider price cannot be bounded. Do not treat a billing alert as a hard cap. The first version shows recorded run cost and owner review counts. Cost per qualified opportunity is a later report.
 
 ## 6. Google Analytics, PostHog and real sales evidence
 
@@ -183,15 +219,15 @@ The later assistant may compare aggregate results and draft a next test. It must
 
 ## 7. Build order and acceptance
 
-All growth slices below are **proposed**. No launch deadline or paid-service budget is implied. The favicon is the only implementation in this change.
+Foundation, research adapters, contact research, drafts and scoped Codex access are built. The Merchant feed is gated pending sales readiness. The table also records later measurement and sales work; these are not represented as connected integrations.
 
 | Slice | Deliverable | Evidence before the next slice |
 | --- | --- | --- |
 | 1. Foundation | Resolve owner-auth boundary; add Growth, all buyer groups, channel register, supply profile, protected opportunity records and manual evidence entry | Unauthorized/direct calls denied; records persist; no fake connected states; keyboard and narrow-mobile review |
 | 2. Research pilot | OpenAI buyer/tender/export jobs, citations, saved results, deduplication, usage and cancel | Tested provider access; bounded paid pilot approved; source claims checked; deadlines correct; prompt injection and budget-race tests pass |
 | 3. Contact research | Apollo search and selected enrichment | Actual entitlement and credits tested; wrong-company matches rejected; opt-outs and no-repeat charges checked |
-| 4. Measurement and listings | Shared GA4/PostHog events, Merchant feed validation, channel readiness | Consent/no-PII checks; purchase deduplication; feed/page parity; checkout and shipping work; Merchant account review recorded separately |
-| 5. Owner AI access and drafts | Scoped MCP for Codex/ChatGPT; supplier packs, sample offers and social drafts | OAuth/scope/revocation checks; draft saves through the same rules; no send tool exposed |
+| 4. Measurement and listings | Built: gated Merchant feed and channel readiness. Later: shared GA4/PostHog event delivery and consent integration | Consent/no-PII checks; purchase deduplication; feed/page parity; checkout and shipping work; Merchant account review recorded separately |
+| 5. Owner AI access and drafts | Scoped Codex MCP and editable drafts; ChatGPT/OAuth remains later | Token/scope/revocation checks; draft saves through the same rules; no send tool exposed |
 | 6. Approved sales delivery | Chosen email/social/WhatsApp provider and exact-action review; approved follow-ups | Working provider, lawful channel use, suppression and retry tests, approval binding, manual stop control and delivery receipts |
 
 Research can proceed before social media or analytics is connected. Growth review needs real data. Merchant activation needs sale readiness. Auto follow-ups, bulk messages, ad changes, bid submissions and autonomous negotiation are outside this first build.
@@ -200,7 +236,7 @@ Proposed pilot evaluation: 3 candidates from each buyer group, plus 5 official t
 
 **Inputs needed before live use:** dispatch location and crop capacity; certification evidence; prices and minimum margin; delivery/credit limits; provider account access and approved pilot budget; channel accounts and consent settings. Exact keys belong in provider secret settings, not chat or Git. Details can be entered in setup; they do not prevent review of this design.
 
-Local implementation proof, CI, provider tests, deployment and live owner acceptance must be reported separately. No account was inspected for entitlement, no outreach was sent and no tender was submitted in this planning pass.
+Local implementation proof, CI, provider tests, deployment and live owner acceptance must be reported separately. Provider tests use mocked transports. Real provider entitlement and paid execution remain unverified. No outreach was sent and no tender was submitted.
 
 ---
 

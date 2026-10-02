@@ -1,5 +1,6 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
+import { growthTables } from "./growthSchema";
 
 const alertStatus = v.union(
   v.literal("pending"),
@@ -16,6 +17,7 @@ const notifications = v.object({
 });
 
 export default defineSchema({
+  ...growthTables,
   recipes: defineTable({
     slug: v.string(),
     name: v.string(),

@@ -29,7 +29,8 @@ export async function adminApi(
     | "logout"
     | "renew"
     | "chats"
-    | "chat-update",
+    | "chat-update"
+    | "growth",
   body: object,
 ) {
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
