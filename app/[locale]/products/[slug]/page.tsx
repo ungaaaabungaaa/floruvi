@@ -12,7 +12,6 @@ import {
   Utensils,
   Sun,
   Flower2,
-  Snowflake,
   Salad,
   Lightbulb,
 } from "lucide-react";
@@ -24,7 +23,8 @@ import { recipesForProduct } from "@/lib/product-recipes";
 import { productImages } from "@/lib/product-images";
 import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
-import { breadcrumbList, schemaPrice } from "@/lib/structured-data";
+import { isCategorySlug } from "@/lib/category-pages";
+import { breadcrumbList, productOfferPolicies, schemaPrice } from "@/lib/structured-data";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
 import { AddToCart } from "@/components/add-to-cart";
@@ -115,6 +115,10 @@ export default async function ProductDetails({ params }: Props) {
     direct,
   }));
   const directMeals = meals.filter((meal) => meal.direct);
+  const category = shop.categories.find(
+    (item) => item.slug === p.category && isCategorySlug(item.slug),
+  );
+  const categoryPath = `/products/category/${p.category}`;
   const deliveryFee = shop.commerce?.deliveryFeeMinor;
   const url = absoluteUrl(localizePath(locale.locale, `/products/${p.slug}`));
   const localImage = productImages[p.slug];
@@ -127,7 +131,7 @@ export default async function ProductDetails({ params }: Props) {
         "@type": "Product",
         name: p.name,
         description: p.description,
-        category: shop.categories.find((c) => c.slug === p.category)?.name,
+        category: category?.name,
         sku: p.slug,
         url,
         brand: { "@type": "Brand", name: "Floruvi" },
@@ -141,6 +145,12 @@ export default async function ProductDetails({ params }: Props) {
                 priceCurrency: p.price.currency,
                 itemCondition: "https://schema.org/NewCondition",
                 seller: { "@id": `${siteUrl}/#organization` },
+                ...productOfferPolicies({
+                  country: locale.country,
+                  currency: p.price.currency,
+                  deliveryFeeMinor: deliveryFee,
+                  shippingPolicyUrl: absoluteUrl("/shipping"),
+                }),
               },
             }
           : {}),
@@ -154,6 +164,9 @@ export default async function ProductDetails({ params }: Props) {
           name: t.breadcrumbShop,
           url: absoluteUrl(localizePath(locale.locale, "/products")),
         },
+        ...(category
+          ? [{ name: category.name, url: absoluteUrl(localizePath(locale.locale, categoryPath)) }]
+          : []),
         { name: p.name, url },
       ]),
     ],
@@ -268,13 +281,6 @@ export default async function ProductDetails({ params }: Props) {
                   </div>
                 </div>
               ))}
-              <div className="product-benefit">
-                <Snowflake strokeWidth={1.4} />
-                <div>
-                  <h3>{t.keepFresh}</h3>
-                  <p>{details.storage}</p>
-                </div>
-              </div>
             </div>
             <aside className="product-nutrition">
               <h3>{details.nutritionTitle}</h3>
@@ -364,8 +370,8 @@ export default async function ProductDetails({ params }: Props) {
       <section className="product-recommendations">
         <div className="section-heading">
           <h2>{t.youMayAlsoLike}</h2>
-          <Link href="/products" className="text-link">
-            {t.viewAll} <ArrowUpRight size={16} />
+          <Link href={category ? categoryPath : "/products"} className="text-link">
+            {category?.name ?? t.viewAll} <ArrowUpRight size={16} />
           </Link>
         </div>
         <div className="product-grid">

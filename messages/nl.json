@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Floruvi Farm",
-    "defaultTitle": "Floruvi — Versheid die de moeite waard is",
+    "defaultTitle": "Verse bladgroenten, kruiden & microgroenten | Floruvi",
     "titleTemplate": "%s | Floruvi Farm",
     "description": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten voor thuis of je bedrijf, geleverd in heel India.",
     "descriptionExport": "Ontdek bladgroenten, kruiden, microgroenten en meer. Verse producten uit India voor thuis en bedrijven in {country}.",
@@ -15,8 +15,8 @@
       "description": "Bekijk Floruvi’s groenten en kruiden. Ontdek bladgroenten, kruiden, microgroenten, vruchtgewassen, wortelgewassen en eetbare bloemen."
     },
     "boxes": {
-      "title": "Groentebox-abonnementen",
-      "description": "Groenteboxen voor één, twee personen of een gezin. Kies een eenmalige box, wekelijkse of maandelijkse levering. Vraag de beschikbaarheid aan bij Floruvi."
+      "title": "Beschikbaarheid van groenteboxen",
+      "description": "Vraag naar groenteboxen voor één (1), twee (2) of een gezin (4+), dagelijks, wekelijks of elke twee weken bezorgd. Alleen aanvragen voor beschikbaarheid."
     },
     "cart": {
       "title": "Je winkelmandje"
@@ -1468,6 +1468,41 @@
     "edible-flowers": {
       "name": "Eetbare bloemen",
       "description": "Delicate kleur voor doordachte gerechten. Alleen voedselveilige soorten."
+    }
+  },
+  "categoryPage": {
+    "title": "{name} online in India",
+    "titleExport": "{name} uit India – {country}",
+    "productsHeading": "Kies je groenten en kruiden",
+    "recipesHeading": "Recepten met deze gewassen",
+    "browseCategories": "Bekijk per categorie",
+    "enquiry": "Vraag naar levering in grote hoeveelheden",
+    "deliveryLink": "Informatie over bezorging"
+  },
+  "categoryGuides": {
+    "leafy-greens": {
+      "intro": "Kies op basis van je maaltijd. Botersla is geschikt voor zachte slacups, terwijl romainesla wraps extra beet geeft. Spinazie past in dal en korte roerbakgerechten. Paksoi voegt zowel bladeren als stelen toe aan bouillon of roerbakgerechten. Meng milde bladeren met rucola of mosterdblad als je een sterkere smaak wilt.",
+      "selection": "Bekijk de verpakkingsgrootte van elk product voordat je de hoeveelheid kiest. Gebruik zachte slabladeren voor verse gerechten en stevigere bladgroenten om te koken. Houd bladeren droog tot de bereiding, spoel ze voor gebruik en voeg dressing vlak voor het serveren toe."
+    },
+    "herbs": {
+      "intro": "Kies kruiden die passen bij het gerecht dat je wilt maken. Zoete basilicum past bij tomaten en pasta. Koriander en munt zijn geschikt voor chutneys en verse toppings. Dille past in yoghurtdressing; rozemarijn en tijm bij geroosterde groenten. Begin met een kleine hoeveelheid als je kruiden met sterke geuren combineert.",
+      "selection": "Vergelijk de vermelde verpakkingsgrootte met je recept. Voor een garnering heb je minder nodig dan voor pesto of chutney. Voeg zachte bladeren tegen het einde van het koken toe. Lees het bewaaradvies per product: basilicum en houtige kruiden hebben verschillende zorg nodig."
+    },
+    "microgreens": {
+      "intro": "Kies op smaak en structuur. Microgroenten van radijs en mosterd geven een peperige afwerking. Erwtenscheuten en zonnebloemscheuten zorgen voor een mildere beet. Gebruik ze in sandwiches, graanbowls of als laatste topping op een warm gerecht. Combineer een kleine portie met grotere slabladeren voor afwisseling.",
+      "selection": "Het assortiment bevat gesneden porties en bepaalde soorten in levende kweekbakjes. Bekijk de productnaam en verpakkingsaanduiding om de juiste vorm te kiezen. Uit een levend bakje kun je naar behoefte een portie knippen. Volg de bereidings- en verzorgingsinstructies op de productpagina."
+    },
+    "fruiting-crops": {
+      "intro": "Kies het gewas op basis van je bereiding. Cherrytomaten passen in salades en zijn geschikt om kort te roosteren. Pruimtomaten passen in sauzen. Komkommer en paprika geven verse gerechten extra beet. Aubergine en courgette kun je grillen of roosteren. Aardbeien en meloen passen in fruitschalen en eenvoudige desserts.",
+      "selection": "Plan de hoeveelheid met het verpakkingsetiket, dat een gewicht of aantal kan vermelden. Controleer de soort voordat je een ingrediënt vervangt, vooral bij pepers. Bekijk de gekoppelde recepten voor ideeën om meerdere gewassen in dezelfde maaltijd te gebruiken."
+    },
+    "roots-and-stems": {
+      "intro": "Deze gewassen geven alledaagse gerechten verschillende structuren. Wortels en rode bieten kun je roosteren of raspen voor salades. Radijs geeft een scherpe beet. Bleekselderij en bosui vormen een basis voor soepen of roerbakgerechten. Gember en kurkuma geven in kleine hoeveelheden smaak, terwijl aardappelen het hoofdbestanddeel van een gerecht kunnen zijn.",
+      "selection": "Kies hoeveelheden voor de bereiding die je voor ogen hebt. Controleer of het product per gewicht of per bos wordt verkocht. Was wortelgroenten voor het snijden en houd rekening met verschillende kooktijden. Lees de bereidingsinstructies van elk product voor meer informatie."
+    },
+    "edible-flowers": {
+      "intro": "Kies bloemen die passen bij het eten en bij de kleur van het bord. Oost-Indische kers geeft salades een peperige smaak. Viooltjes en tuinviolen passen als kleine garnering; goudsbloemblaadjes kun je over een bereid gerecht strooien. Vergelijk de productbeschrijvingen voordat je meerdere soorten combineert.",
+      "selection": "Controleer of de verpakking hele bloemen of bloemblaadjes bevat en of de hoeveelheid in aantal of gewicht staat. Behandel ze voorzichtig en voeg ze vlak voor het serveren toe. Gebruik bloemen die als voedsel worden verkocht. Sierbloemen van een bloemist zijn geen vervanging."
     }
   },
   "recipeCategories": {

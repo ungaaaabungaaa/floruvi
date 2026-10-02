@@ -9,6 +9,8 @@ import { localizePath } from "@/lib/i18n/config";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 import { queryString } from "@/lib/query";
 import { CatalogueBrowser } from "@/components/catalogue-browser";
+import { CategoryLinks } from "@/components/category-links";
+import { publishedCategories } from "@/lib/category-pages";
 import { RecipeCard } from "@/components/recipe-card";
 import { HomeHero } from "@/components/home-hero";
 import { TestimonialsSection } from "@/components/testimonials-section";
@@ -68,6 +70,7 @@ export default async function Home({ searchParams }: PageProps<"/[locale]">) {
           query={query}
           hideBanner
         />
+        <CategoryLinks categories={publishedCategories({ products, categories })} label={messages.categoryPage.browseCategories} />
       </div>
       <div className="home-chapters">
         <section

@@ -1,6 +1,7 @@
 import type { Messages } from "./i18n/messages";
 import { fill, formatCurrency, type CurrencyCode } from "./i18n/format";
 import { storefrontCopy } from "./storefront-copy";
+import { publishedCategories } from "./category-pages";
 
 type Price = { amountMinor: number; currency: string; packLabel: string } | null;
 type Product = { slug: string; category: string; name: string; description: string; price: Price };
@@ -50,6 +51,9 @@ export function llmsText({
     "## Main pages",
     "",
     ...pages.map(([path, title, description]) => `- [${title}](${url(path)}): ${description}`),
+    ...publishedCategories({ categories, products }).map((category) =>
+      `- [${categoryNames[category.slug]?.name ?? storefrontCopy(category.name)}](${url(`/products/category/${category.slug}`)})`,
+    ),
     "",
     "## Produce",
   ];

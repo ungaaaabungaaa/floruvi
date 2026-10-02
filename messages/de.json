@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Floruvi Farm",
-    "defaultTitle": "Floruvi — Frische, die sich lohnt",
+    "defaultTitle": "Frisches Blattgemüse, Kräuter & Microgreens | Floruvi",
     "titleTemplate": "%s | Floruvi Farm",
     "description": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware für dein Zuhause oder dein Unternehmen – geliefert in ganz Indien.",
     "descriptionExport": "Entdecke Blattgemüse, Kräuter, Microgreens und mehr. Frische Ware aus Indien für Privathaushalte und Unternehmen in {country}.",
@@ -15,8 +15,8 @@
       "description": "Entdecke Floruvis Gemüse & Kräuter. Erkunde Blattgemüse, Kräuter, Microgreens, Fruchtgemüse, Wurzeln & essbare Blüten."
     },
     "boxes": {
-      "title": "Gemüseboxen im Abo",
-      "description": "Gemüseboxen für eine Person, zwei oder die ganze Familie. Wähle eine einmalige, wöchentliche oder monatliche Lieferung. Frag bei Floruvi die Verfügbarkeit an."
+      "title": "Verfügbarkeit von Gemüseboxen",
+      "description": "Fragen Sie nach Gemüseboxen für eine Person (1), zwei (2) oder Familien (4+), täglich, wöchentlich oder alle zwei Wochen. Nur Verfügbarkeitsanfragen."
     },
     "cart": {
       "title": "Dein Warenkorb"
@@ -1468,6 +1468,41 @@
     "edible-flowers": {
       "name": "Essbare Blüten",
       "description": "Zarte Farbe für besondere Teller. Nur Sorten in Lebensmittelqualität."
+    }
+  },
+  "categoryPage": {
+    "title": "{name} online in Indien",
+    "titleExport": "{name} aus Indien – {country}",
+    "productsHeading": "Gemüse und Kräuter auswählen",
+    "recipesHeading": "Rezepte mit diesen Zutaten",
+    "browseCategories": "Nach Kategorie stöbern",
+    "enquiry": "Großmengen anfragen",
+    "deliveryLink": "Informationen zur Lieferung"
+  },
+  "categoryGuides": {
+    "leafy-greens": {
+      "intro": "Wählen Sie passend zum Gericht. Kopfsalat eignet sich für zarte Salatschiffchen, Römersalat gibt Wraps Biss. Spinat passt in Dal und kurz gebratene Gerichte. Pak Choi ergänzt Brühen und Pfannengerichte mit Blättern und Stielen. Mischen Sie milde Blätter mit Rucola oder Senfblättern, wenn Sie einen kräftigeren Geschmack möchten.",
+      "selection": "Prüfen Sie vor der Mengenwahl die Packungsgröße jedes Produkts. Planen Sie zarte Salatblätter für frische Gerichte und festere Blätter zum Kochen ein. Halten Sie die Blätter bis zur Zubereitung trocken, waschen Sie sie vor Gebrauch und geben Sie das Dressing erst kurz vor dem Servieren dazu."
+    },
+    "herbs": {
+      "intro": "Wählen Sie Kräuter passend zum geplanten Gericht. Basilikum passt zu Tomaten und Pasta. Koriander und Minze eignen sich für Chutneys und frische Garnituren. Dill passt zu Joghurtdressings, Rosmarin und Thymian zu Ofengemüse. Beginnen Sie mit kleinen Mengen, wenn Sie Kräuter mit kräftigen Aromen kombinieren.",
+      "selection": "Vergleichen Sie die angegebenen Packungsgrößen mit Ihrem Rezept. Für eine Garnitur brauchen Sie weniger als für Pesto oder Chutney. Geben Sie zarte Blätter erst gegen Ende der Garzeit dazu. Beachten Sie die Lagerhinweise des jeweiligen Produkts: Basilikum und holzige Kräuter benötigen unterschiedliche Pflege."
+    },
+    "microgreens": {
+      "intro": "Wählen Sie nach Geschmack und Konsistenz. Radieschen- und Senf-Microgreens geben eine pfeffrige Note. Erbsentriebe und Sonnenblumentriebe sind milder und knackig. Verwenden Sie sie in Sandwiches, Getreide-Bowls oder als Abschluss auf warmen Gerichten. Eine kleine Portion bildet einen Kontrast zu größeren Salatblättern.",
+      "selection": "Im Sortiment finden Sie geschnittene Packungen und ausgewählte lebende Anzuchtschalen. Prüfen Sie Produktname und Packungsangabe, damit Sie die gewünschte Form wählen. Aus einer lebenden Schale können Sie bei Bedarf eine Portion schneiden. Beachten Sie die Hinweise zur Zubereitung und Pflege auf der Produktseite."
+    },
+    "fruiting-crops": {
+      "intro": "Wählen Sie die Sorte nach der Zubereitung. Kirschtomaten eignen sich für Salate und zum kurzen Rösten, Pflaumentomaten für Saucen. Gurken und Paprika geben frischen Gerichten Biss. Auberginen und Zucchini passen auf den Grill oder in den Ofen. Erdbeeren und Zuckermelonen eignen sich für Obstschalen und einfache Desserts.",
+      "selection": "Planen Sie die Menge nach der Packungsangabe. Sie kann ein Gewicht oder eine Stückzahl nennen. Prüfen Sie die Sorte, bevor Sie eine Zutat ersetzen, besonders bei Chilis. Die verlinkten Rezepte zeigen, wie sich mehrere Zutaten in einer Mahlzeit kombinieren lassen."
+    },
+    "roots-and-stems": {
+      "intro": "Diese Zutaten bringen unterschiedliche Konsistenzen in den Küchenalltag. Karotten und Rote Bete eignen sich zum Rösten oder für geraspelte Salate. Radieschen geben scharfen Biss. Sellerie und Frühlingszwiebeln bilden eine Grundlage für Suppen und Pfannengerichte. Ingwer und Kurkuma würzen in kleinen Mengen, während Kartoffeln den Hauptteil eines Gerichts bilden können.",
+      "selection": "Wählen Sie die Menge passend zur geplanten Zubereitung. Prüfen Sie, ob die Packung nach Gewicht oder als Bund verkauft wird. Waschen Sie Wurzeln vor dem Schneiden. Garen Sie Zutaten mit unterschiedlichen Garzeiten entsprechend getrennt. Weitere Hinweise finden Sie auf der jeweiligen Produktseite."
+    },
+    "edible-flowers": {
+      "intro": "Wählen Sie Blüten passend zum Essen und zur Farbe des Tellers. Kapuzinerkresseblüten geben Salaten eine pfeffrige Note. Veilchen- und Stiefmütterchenblüten eignen sich als kleine Garnitur. Ringelblumenblütenblätter können Sie über ein fertiges Gericht streuen. Vergleichen Sie die Produktbeschreibungen, bevor Sie mehrere Sorten kombinieren.",
+      "selection": "Prüfen Sie, ob die Packung ganze Blüten oder Blütenblätter enthält und ob die Menge als Stückzahl oder Gewicht angegeben ist. Behandeln Sie die Blüten vorsichtig und fügen Sie sie kurz vor dem Servieren hinzu. Verwenden Sie als Lebensmittel verkaufte Blüten. Dekorative Blumen aus dem Blumenladen sind kein Ersatz."
     }
   },
   "recipeCategories": {
