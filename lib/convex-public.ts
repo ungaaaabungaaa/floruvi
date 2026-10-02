@@ -3,8 +3,11 @@ import type { FunctionArgs, FunctionReference, FunctionReturnType } from "convex
 
 /** Cache tag for public catalogue and recipe reads. Admin stock changes update it. */
 export const CATALOGUE_TAG = "catalogue";
-/** Public pages show catalogue edits within five minutes, or at once after an admin stock change. */
-const REVALIDATE_SECONDS = 300;
+/**
+ * Public pages show catalogue edits within an hour, or at once after an admin stock
+ * change. A long window keeps a low-traffic site's pages cached between visits.
+ */
+const REVALIDATE_SECONDS = 60 * 60;
 
 /**
  * Reads public catalogue and recipe data through the Next.js data cache, so product,

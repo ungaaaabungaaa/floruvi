@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       convex:
-        specifier: 1.45.0
-        version: 1.45.0(react@19.3.0)
+        specifier: 1.46.0
+        version: 1.46.0(react@19.3.0)
       exa-js:
         specifier: 2.25.0
         version: 2.25.0(ws@8.21.0)
@@ -83,7 +83,7 @@ importers:
         version: 19.3.0(@types/react@19.3.0)
       convex-test:
         specifier: 0.0.60
-        version: 0.0.60(convex@1.45.0(react@19.3.0))
+        version: 0.0.60(convex@1.46.0(react@19.3.0))
       eslint:
         specifier: ^9.39.0
         version: 9.39.5(jiti@2.7.0)
@@ -1521,8 +1521,8 @@ packages:
     peerDependencies:
       convex: ^1.43.0
 
-  convex@1.45.0:
-    resolution: {integrity: sha512-AV3B56Ptu/14d76g3urBJ50dwpiZa6uJaLT84OWox5aCwZIJiuAamdjv3lLHDzs8vv5kC31anEZohhUe3qJ2bA==}
+  convex@1.46.0:
+    resolution: {integrity: sha512-dhBwDQTZDOhi5SUGAX17EWNehCdNq6/UFrSL0eLZuGfMkdsQbCVWVRZCzbZ5CF+/pgvoGxtApbEoTSipqL4JTw==}
     engines: {node: '>=20.0.0', npm: '>=7.0.0'}
     hasBin: true
     peerDependencies:
@@ -4132,11 +4132,11 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  convex-test@0.0.60(convex@1.45.0(react@19.3.0)):
+  convex-test@0.0.60(convex@1.46.0(react@19.3.0)):
     dependencies:
-      convex: 1.45.0(react@19.3.0)
+      convex: 1.46.0(react@19.3.0)
 
-  convex@1.45.0(react@19.3.0):
+  convex@1.46.0(react@19.3.0):
     dependencies:
       esbuild: 0.27.0
       prettier: 3.9.6
