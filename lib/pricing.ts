@@ -67,7 +67,12 @@ export function reviewBasket(
     const unitPrice = usable(price) ? price!.amountMinor : null;
     const candidate = unitPrice === null ? null : unitPrice * line.quantity;
     const lineTotal = validMoney(candidate) ? candidate : null;
-    const outOfStock = !box && product?.inStock === false;
+    // A box is out of stock when any crop in it is out of stock.
+    const outOfStock = box
+      ? boxContents.some(
+          (item) => products.find((p) => p.slug === item.slug)?.inStock === false,
+        )
+      : product?.inStock === false;
     return {
       ...line,
       name: product?.name ?? line.slug,
@@ -98,9 +103,12 @@ export function reviewBasket(
       ? subtotal + delivery
       : null;
   // Online payment: India only, for a fully priced basket with nothing out of stock.
+  // Boxes are availability enquiries until box sales are set up (AGENTS.md), so a
+  // basket with a box is never payable online.
   const paymentEnabled =
     payments &&
     domestic &&
+    lines.every((line) => !getCartBox(line.slug)) &&
     total !== null &&
     total >= MIN_PAYMENT_MINOR &&
     items.every((item) => item.availableToEnquire && item.lineTotal !== null);

@@ -1509,6 +1509,7 @@
   "categoryPage": {
     "title": "{name} عبر الإنترنت في الهند",
     "titleExport": "{name} من الهند – {country}",
+    "metaDescription": "{intro} تشمل {examples}.",
     "productsHeading": "اختر منتجاتك",
     "recipesHeading": "وصفات بهذه المحاصيل",
     "browseCategories": "تصفح حسب الفئة",

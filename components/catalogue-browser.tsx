@@ -74,8 +74,11 @@ export function CatalogueBrowser({
       : "recommended";
   const input = useRef<HTMLInputElement>(null);
   const update = setUrlParams;
+  // "All" is the default, so it leaves no ?category=all copy of the page URL.
+  const categoryParam = (slug: string) =>
+    slug === "all" && initialCategory === "all" ? null : slug;
   function reset() {
-    update({ q: null, category: "all", sort: null, priced: null });
+    update({ q: null, category: categoryParam("all"), sort: null, priced: null });
     input.current?.focus();
   }
   const matches = findProducts(products, search);
@@ -129,7 +132,7 @@ export function CatalogueBrowser({
         <button
           key={c.slug}
           aria-pressed={category === c.slug}
-          onClick={() => update({ category: c.slug })}
+          onClick={() => update({ category: categoryParam(c.slug) })}
         >
           {c.name}
           {!isShop && (
@@ -145,7 +148,12 @@ export function CatalogueBrowser({
   );
   return (
     <div className="catalogue-browser">
-      {isShop && hideBanner ? null : isShop ? (
+      {isShop && hideBanner ? (
+        // The home page has its own <h1>; this keeps the product cards' <h3> in order.
+        <h2 className="sr-only">
+          <Lines text={labels.title} />
+        </h2>
+      ) : isShop ? (
         <section
           className="recipe-banner recipe-banner-hero shop-banner"
           aria-labelledby="shop-heading"
@@ -232,7 +240,7 @@ export function CatalogueBrowser({
           {matches.length > 0 && (
             <button
               className="button button-outline"
-              onClick={() => update({ category: "all" })}
+              onClick={() => update({ category: categoryParam("all") })}
             >
               {labels.searchAll}
             </button>

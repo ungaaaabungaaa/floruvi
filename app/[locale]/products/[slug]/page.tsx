@@ -21,7 +21,8 @@ import { fill, formatCurrency, type CurrencyCode } from "@/lib/i18n/format";
 import { localizePath } from "@/lib/i18n/config";
 import { recipesForProduct } from "@/lib/product-recipes";
 import { productImages } from "@/lib/product-images";
-import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
+import { productPhotos } from "@/lib/product-photos";
+import { absoluteUrl, fitDescription, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 import { isCategorySlug } from "@/lib/category-pages";
 import { breadcrumbList, productOfferPolicies, schemaPrice } from "@/lib/structured-data";
@@ -32,6 +33,11 @@ import { ProductStoryBanner } from "@/components/product-story-banner";
 import { Money } from "@/components/i18n/money";
 
 type Props = PageProps<"/[locale]/products/[slug]">;
+
+// Each page renders on its first visit, then is served from the cache (ISR).
+export function generateStaticParams() {
+  return [];
+}
 const icons = {
   leaf: Leaf,
   sprout: Sprout,
@@ -69,16 +75,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : messages.meta.productTitleExport,
       { name: product.name, country: locale.countryName },
     ),
+    // The pack size & price stay complete; only the product text is shortened.
     description: price
-      ? fill(messages.meta.productDescription, {
-          description: product.description,
-          pack: price.packLabel,
-          price: formatCurrency(
-            price.amountMinor,
-            price.currency as CurrencyCode,
-            locale.tag,
-          ),
-        })
+      ? fitDescription(
+          (description) =>
+            fill(messages.meta.productDescription, {
+              description,
+              pack: price.packLabel,
+              price: formatCurrency(
+                price.amountMinor,
+                price.currency as CurrencyCode,
+                locale.tag,
+              ),
+            }),
+          product.description,
+        )
       : product.description,
     image: image ? { ...image, alt: product.name } : undefined,
   });
@@ -121,9 +132,10 @@ export default async function ProductDetails({ params }: Props) {
   const categoryPath = `/products/category/${p.category}`;
   const deliveryFee = shop.commerce?.deliveryFeeMinor;
   const url = absoluteUrl(localizePath(locale.locale, `/products/${p.slug}`));
-  const localImage = productImages[p.slug];
-  const image =
-    p.imageUrl ?? (localImage && absoluteUrl(shareImage(localImage).url));
+  // All product photos, so image search can show each view.
+  const images = productPhotos(p.slug, p.imageUrl).map((photo) =>
+    typeof photo === "string" ? photo : absoluteUrl(shareImage(photo).url),
+  );
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -135,7 +147,7 @@ export default async function ProductDetails({ params }: Props) {
         sku: p.slug,
         url,
         brand: { "@type": "Brand", name: "Floruvi" },
-        ...(image ? { image } : {}),
+        ...(images.length ? { image: images } : {}),
         ...(p.price
           ? {
               offers: {

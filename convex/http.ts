@@ -6,6 +6,7 @@ import * as admin from "./adminHttp";
 import * as payments from "./paymentsHttp";
 import * as chat from "./chatHttp";
 import * as growth from "./growthHttp";
+import { hasBearer, readObject } from "./httpUtils";
 
 const http = httpRouter();
 http.route({ path:"/admin/growth",method:"POST",handler:growth.adminGrowth });
@@ -14,22 +15,18 @@ http.route({
   path: "/enquiries",
   method: "POST",
   handler: httpAction(async (ctx, request) => {
-    const secret = process.env.LEAD_INGEST_SECRET;
-    if (!secret || request.headers.get("Authorization") !== `Bearer ${secret}`)
+    // Same constant-time check as the payment and chat routes.
+    if (!(await hasBearer(request, process.env.LEAD_INGEST_SECRET)))
       return new Response("Unauthorized", { status: 401 });
-    const text = await request.text();
-    if (text.length > 12_000) return new Response("Too large", { status: 413 });
-    let body;
-    try {
-      body = JSON.parse(text);
-    } catch {
-      return new Response("Invalid request", { status: 400 });
-    }
+    const body = await readObject(request, 12_000);
+    if (!body) return new Response("Invalid request", { status: 400 });
     const parsed = enquirySchema.safeParse(body.payload);
     if (
       !parsed.success ||
-      !/^[a-f0-9]{64}$/.test(body.ipHash ?? "") ||
-      !/^[a-f0-9]{64}$/.test(body.contactHash ?? "")
+      typeof body.ipHash !== "string" ||
+      typeof body.contactHash !== "string" ||
+      !/^[a-f0-9]{64}$/.test(body.ipHash) ||
+      !/^[a-f0-9]{64}$/.test(body.contactHash)
     )
       return new Response("Invalid request", { status: 400 });
     const result = await ctx.runMutation(internal.enquiries.save, {

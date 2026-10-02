@@ -1,7 +1,8 @@
 "use server";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
+import { CATALOGUE_TAG } from "@/lib/convex-public";
 import { adminLoginSchema } from "@/lib/admin-credentials";
 import { ADMIN_COOKIE, adminApi, adminToken, callerHash, cookieOptions } from "@/lib/admin";
 
@@ -86,6 +87,8 @@ export async function setStock(form: FormData) {
     inStock: form.get("inStock") === "true",
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
+  // Public product pages are cached; show the new stock state at once.
+  updateTag(CATALOGUE_TAG);
   revalidatePath("/admin", "layout");
 }
 

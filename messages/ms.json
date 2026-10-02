@@ -1464,6 +1464,7 @@
   "categoryPage": {
     "title": "{name} dalam talian di India",
     "titleExport": "{name} dari India – {country}",
+    "metaDescription": "{intro} Termasuk {examples}.",
     "productsHeading": "Pilih hasil tanaman anda",
     "recipesHeading": "Resipi dengan tanaman ini",
     "browseCategories": "Lihat mengikut kategori",

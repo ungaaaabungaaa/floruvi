@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "ভারতে অনলাইনে {name}",
     "titleExport": "ভারত থেকে {name} – {country}",
+    "metaDescription": "{intro} রয়েছে {examples}।",
     "productsHeading": "আপনার সবজি ও পাতা বেছে নিন",
     "recipesHeading": "এই ফসল দিয়ে রান্নার রেসিপি",
     "browseCategories": "বিভাগ অনুযায়ী দেখুন",

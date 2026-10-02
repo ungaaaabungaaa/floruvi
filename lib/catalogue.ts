@@ -1,6 +1,6 @@
 import { storefrontCopy } from "./storefront-copy";
 import { cache } from "react";
-import { fetchQuery } from "convex/nextjs";
+import { cachedPublicQuery } from "./convex-public";
 import type { FunctionReturnType } from "convex/server";
 import { api } from "@/convex/_generated/api";
 
@@ -11,9 +11,9 @@ export type Category = Catalogue["categories"][number];
 export type ProductDetails = FunctionReturnType<typeof api.catalogue.details>;
 
 /** Stored English catalogue text, before display formatting. */
-export const getRawCatalogue = cache(() => fetchQuery(api.catalogue.browse, {}));
+export const getRawCatalogue = cache(() => cachedPublicQuery(api.catalogue.browse, {}));
 export const getRawProductDetails = cache((slug: string) =>
-  fetchQuery(api.catalogue.details, { slug }),
+  cachedPublicQuery(api.catalogue.details, { slug }),
 );
 
 export const getCatalogue = cache(async () => storefrontCopy(await getRawCatalogue()));

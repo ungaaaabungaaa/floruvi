@@ -21,3 +21,36 @@ export const business = {
   phone: process.env.SUPPORT_PHONE?.trim() || null,
   address: process.env.BUSINESS_ADDRESS?.trim() || null,
 };
+
+/** Only a full https:// address is used, so a typo cannot publish a broken link. */
+function httpsUrl(value: string | undefined) {
+  try {
+    const url = new URL(value?.trim() ?? "");
+    return url.protocol === "https:" ? url.toString() : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Official social profiles, set in Vercel when the accounts exist. Each one shows
+ * in the footer and in the Organization search data (sameAs) only when it is set.
+ */
+export const socialProfiles = (
+  [
+    ["instagram", "Instagram", process.env.INSTAGRAM_URL],
+    ["facebook", "Facebook", process.env.FACEBOOK_URL],
+    ["youtube", "YouTube", process.env.YOUTUBE_URL],
+    ["linkedin", "LinkedIn", process.env.LINKEDIN_URL],
+    ["x", "X", process.env.X_URL],
+  ] as const
+).flatMap(([key, label, value]) => {
+  const url = httpsUrl(value);
+  return url ? [{ key, label, url }] : [];
+});
+
+/** Search Console and Bing Webmaster HTML-tag verification codes (optional). */
+export const searchVerification = {
+  google: process.env.GOOGLE_SITE_VERIFICATION?.trim() || null,
+  bing: process.env.BING_SITE_VERIFICATION?.trim() || null,
+};

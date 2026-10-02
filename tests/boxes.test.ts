@@ -68,3 +68,24 @@ test("cart boxes use current produce prices and retain the delivery frequency", 
     null,
   );
 });
+
+test("boxes stay enquiries: never payable online, and out of stock with any missing crop", async () => {
+  const { reviewBasket } = await import("../lib/pricing");
+  const { boxContents } = await import("../lib/boxes");
+  const products = boxContents.map((item) => ({
+    slug: item.slug,
+    name: item.slug,
+    price: { amountMinor: 10000, currency: "INR", packLabel: "1 pack" },
+  }));
+  const commerce = { currency: "INR", deliveryFeeMinor: 9900 };
+  const box = [{ slug: "box-family-weekly", quantity: 1 }];
+  assert.equal(reviewBasket(box, products, commerce, "in", true).paymentEnabled, false);
+  const single = [{ slug: products[0].slug, quantity: 1 }];
+  assert.equal(reviewBasket(single, products, commerce, "in", true).paymentEnabled, true);
+  const missing = products.map((product, index) =>
+    index === 0 ? { ...product, inStock: false } : product,
+  );
+  const review = reviewBasket(box, missing, commerce, "in", true);
+  assert.equal(review.items[0].outOfStock, true);
+  assert.equal(review.items[0].availableToEnquire, false);
+});

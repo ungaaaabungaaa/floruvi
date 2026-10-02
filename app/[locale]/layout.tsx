@@ -6,7 +6,7 @@ import { I18nProvider } from "@/components/i18n/provider";
 import { CartPill } from "@/components/cart-pill";
 import { ChatSlot } from "@/components/chat-slot";
 import { cartThumbnails } from "@/lib/cart-thumbnails";
-import { siteUrl } from "@/lib/site";
+import { business, searchVerification, siteUrl, socialProfiles } from "@/lib/site";
 import { getI18n } from "@/lib/i18n/server";
 import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
 import { countryName, fill } from "@/lib/i18n/format";
@@ -31,6 +31,16 @@ export async function generateMetadata(): Promise<Metadata> {
       : fill(messages.meta.descriptionExport, { country: locale.countryName }),
     applicationName: messages.meta.siteName,
     formatDetection: { telephone: false },
+    ...(searchVerification.google || searchVerification.bing
+      ? {
+          verification: {
+            ...(searchVerification.google ? { google: searchVerification.google } : {}),
+            ...(searchVerification.bing
+              ? { other: { "msvalidate.01": searchVerification.bing } }
+              : {}),
+          },
+        }
+      : {}),
   };
 }
 
@@ -40,7 +50,8 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        // An online shop is the most specific schema.org Organization type for the site.
+        "@type": "OnlineStore",
         "@id": `${siteUrl}/#organization`,
         name: messages.meta.siteName,
         alternateName: "Floruvi",
@@ -52,6 +63,21 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           "@type": "Country",
           name: countryName(markets[market].country, "en"),
         })),
+        ...(socialProfiles.length ? { sameAs: socialProfiles.map((profile) => profile.url) } : {}),
+        ...(business.email ? { email: business.email } : {}),
+        ...(business.phone ? { telephone: business.phone } : {}),
+        ...(business.address ? { address: business.address } : {}),
+        ...(business.email || business.phone
+          ? {
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer service",
+                url: absoluteUrl(localizePath(locale.locale, "/contact")),
+                ...(business.email ? { email: business.email } : {}),
+                ...(business.phone ? { telephone: business.phone } : {}),
+              },
+            }
+          : {}),
       },
       {
         "@type": "WebSite",

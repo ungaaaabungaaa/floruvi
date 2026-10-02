@@ -44,6 +44,14 @@ export function HomeHero({
   }));
   const total = stories.length;
   const [active, setActive] = useState(0);
+  // Photos load only when their slide is shown or is next, so the first photo (the
+  // largest paint) does not compete with five hidden ones. Loaded slides stay mounted
+  // for the cross-fade.
+  const [loaded, setLoaded] = useState<number[]>([0, 1]);
+  function show(index: number) {
+    setActive(index);
+    setLoaded((list) => [...new Set([...list, index, (index + 1) % total])]);
+  }
   const [playing, setPlaying] = useState(true);
   const [hovered, setHovered] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -66,14 +74,16 @@ export function HomeHero({
         bounds.bottom > 0 &&
         bounds.top < window.innerHeight
       ) {
-        setActive((current) => (current + 1) % total);
+        const next = (active + 1) % total;
+        setActive(next);
+        setLoaded((list) => [...new Set([...list, next, (next + 1) % total])]);
       }
     }, 7000);
     return () => window.clearInterval(timer);
   }, [rotating, active, total]);
 
   function select(index: number) {
-    setActive((index + stories.length) % stories.length);
+    show((index + stories.length) % stories.length);
     setPlaying(false);
   }
 
@@ -124,14 +134,16 @@ export function HomeHero({
               name: story.name,
             })}
           >
-            <Image
-              src={story.image}
-              alt={story.alt}
-              fill
-              sizes="100vw"
-              preload={index === 0}
-              className="home-hero-photo"
-            />
+            {loaded.includes(index) && (
+              <Image
+                src={story.image}
+                alt={story.alt}
+                fill
+                sizes="100vw"
+                preload={index === 0}
+                className="home-hero-photo"
+              />
+            )}
           </div>
         ))}
       </div>

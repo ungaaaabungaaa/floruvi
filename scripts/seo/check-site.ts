@@ -627,7 +627,8 @@ async function main() {
         assert(
           !page.nodes.some(
             (node) =>
-              node["@type"] === "Organization" && "hasShippingService" in node,
+              ["Organization", "OnlineStore"].includes(String(node["@type"])) &&
+              "hasShippingService" in node,
           ),
           `${name}: organization shipping service could apply the produce fee to free boxes`,
         );

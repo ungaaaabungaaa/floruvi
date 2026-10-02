@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "ඉන්දියාවේ අන්තර්ජාලයෙන් {name}",
     "titleExport": "ඉන්දියාවෙන් {name} – {country}",
+    "metaDescription": "{intro} {examples} ඇතුළත් වේ.",
     "productsHeading": "ඔබේ එළවළු තෝරන්න",
     "recipesHeading": "මෙම බෝග යොදාගත් වට්ටෝරු",
     "browseCategories": "කාණ්ඩය අනුව බලන්න",

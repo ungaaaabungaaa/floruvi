@@ -1,5 +1,5 @@
 import { cache } from "react";
-import { fetchQuery } from "convex/nextjs";
+import { cachedPublicQuery } from "./convex-public";
 import { api } from "@/convex/_generated/api";
 import { recipeImage } from "./recipes";
 import { storefrontCopy } from "./storefront-copy";
@@ -16,7 +16,7 @@ const englishCopy = <T extends { translated: boolean }>(record: T) =>
 
 export const getShop = cache(async () => {
   const { locale, messages } = await getI18n();
-  const raw = await fetchQuery(api.storefront.catalogue, {
+  const raw = await cachedPublicQuery(api.storefront.catalogue, {
     language: locale.language,
     market: locale.market,
   });
@@ -60,7 +60,7 @@ export type ShopCategory = Awaited<ReturnType<typeof getShop>>["categories"][num
 
 export const getProduct = cache(async (slug: string) => {
   const { locale, messages } = await getI18n();
-  const result = await fetchQuery(api.storefront.product, {
+  const result = await cachedPublicQuery(api.storefront.product, {
     slug,
     language: locale.language,
     market: locale.market,
@@ -89,7 +89,7 @@ export const getProduct = cache(async (slug: string) => {
 
 export const getRecipeList = cache(async () => {
   const { locale, messages } = await getI18n();
-  const raw = await fetchQuery(api.storefront.recipes, { language: locale.language });
+  const raw = await cachedPublicQuery(api.storefront.recipes, { language: locale.language });
   const categories = messages.recipeCategories as Record<string, string | undefined>;
   return raw.map((recipe) => {
     const text = englishCopy({
@@ -116,7 +116,7 @@ export type RecipeSummary = Awaited<ReturnType<typeof getRecipeList>>[number];
 
 export const getRecipe = cache(async (slug: string) => {
   const { locale, messages } = await getI18n();
-  const recipe = await fetchQuery(api.storefront.recipe, { slug, language: locale.language });
+  const recipe = await cachedPublicQuery(api.storefront.recipe, { slug, language: locale.language });
   if (!recipe) return null;
   const text = englishCopy({
     translated: recipe.translated,

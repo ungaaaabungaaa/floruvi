@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "Hindistonda onlayn {name}",
     "titleExport": "Hindistondan {name} – {country}",
+    "metaDescription": "{intro} Jumladan: {examples}.",
     "productsHeading": "Mahsulotlaringizni tanlang",
     "recipesHeading": "Shu ekinlardan tayyorlanadigan taomlar",
     "browseCategories": "Turkum boʻyicha koʻrish",

@@ -7,7 +7,6 @@ import { getI18n } from "@/lib/i18n/server";
 import { fill } from "@/lib/i18n/format";
 import { localizePath } from "@/lib/i18n/config";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
-import { queryString } from "@/lib/query";
 import { CatalogueBrowser } from "@/components/catalogue-browser";
 import { CategoryLinks } from "@/components/category-links";
 import { publishedCategories } from "@/lib/category-pages";
@@ -31,14 +30,15 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default async function Home({ searchParams }: PageProps<"/[locale]">) {
-  const [{ locale, messages }, { products, categories }, recipes, params] = await Promise.all([
+export default async function Home() {
+  const [{ locale, messages }, { products, categories }, recipes] = await Promise.all([
     getI18n(),
     getShop(),
     getRecipeList(),
-    searchParams,
   ]);
-  const query = queryString(params);
+  // The home page is cached for everyone, so it never reads the query string on the
+  // server. useUrlParams applies a ?q= or ?category= filter after hydration.
+  const query = "";
   const t = messages.home;
   const boxes = messages.common.boxes;
   const featuredRecipes = recipes.slice(0, 4);

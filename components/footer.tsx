@@ -1,11 +1,18 @@
 import Link from "@/components/i18n/link";
 import { fill } from "@/lib/i18n/format";
 import { getMessages } from "@/lib/i18n/server";
-import { business } from "@/lib/site";
+import { publishedCategories } from "@/lib/category-pages";
+import { business, socialProfiles } from "@/lib/site";
+import { getShop } from "@/lib/storefront";
 import { Brand } from "./brand";
 
 export async function Footer() {
-  const { footer } = (await getMessages()).common;
+  const [{ footer }, shop] = await Promise.all([
+    getMessages().then((messages) => messages.common),
+    // The footer still renders if the catalogue is unavailable.
+    getShop().catch(() => null),
+  ]);
+  const categories = shop ? publishedCategories(shop) : [];
   const copyright = fill(footer.copyright, { year: new Date().getFullYear() });
   return (
     <footer className="site-footer">
@@ -14,6 +21,11 @@ export async function Footer() {
         <div>
           <span className="eyebrow">{footer.shop}</span>
           <Link href="/products">{footer.vegetables}</Link>
+          {categories.map((category) => (
+            <Link key={category.slug} href={`/products/category/${category.slug}`}>
+              {category.name}
+            </Link>
+          ))}
           <Link href="/boxes">{footer.boxes}</Link>
         </div>
         <div>
@@ -33,8 +45,13 @@ export async function Footer() {
       </div>
       <div className="footer-bottom">
         <span>{copyright}</span>
-        {(business.email || business.phone) && (
+        {(business.email || business.phone || socialProfiles.length > 0) && (
           <span className="footer-contact">
+            {socialProfiles.map((profile) => (
+              <a key={profile.key} href={profile.url} rel="me noopener" target="_blank">
+                {profile.label}
+              </a>
+            ))}
             {business.email && <a href={`mailto:${business.email}`}>{business.email}</a>}
             {business.phone && (
               <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`} dir="ltr">

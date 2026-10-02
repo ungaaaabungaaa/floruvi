@@ -25,7 +25,9 @@ export const reserveLoginAttempt = internalMutation({
   handler: (ctx, { ipHash }) =>
     takeRateLimits(ctx, [
       { key: `admin-ip:${ipHash}`, max: 10 },
-      { key: "admin-all", max: 30 },
+      // The per-address limit stops guessing. The global cap only bounds scrypt work
+      // under a distributed attack; set high so a few addresses cannot lock the owner out.
+      { key: "admin-all", max: 300 },
     ]),
 });
 

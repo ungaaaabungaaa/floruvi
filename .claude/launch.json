@@ -15,6 +15,21 @@
       ],
       "port": 3105,
       "url": "http://127.0.0.1:3105"
+    },
+    {
+      "name": "floruvi-prod",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "exec",
+        "next",
+        "start",
+        "--hostname",
+        "127.0.0.1",
+        "--port",
+        "3106"
+      ],
+      "port": 3106,
+      "url": "http://127.0.0.1:3106"
     }
   ]
 }

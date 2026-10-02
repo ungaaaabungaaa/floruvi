@@ -1,5 +1,5 @@
 import { cache } from "react";
-import { fetchQuery } from "convex/nextjs";
+import { cachedPublicQuery } from "./convex-public";
 import type { FunctionReturnType } from "convex/server";
 import { api } from "@/convex/_generated/api";
 import { recipeImages } from "./recipe-images";
@@ -12,5 +12,5 @@ export function recipeImage(key: string) {
 export type RecipeSummaryRecord = FunctionReturnType<typeof api.recipes.list>[number];
 export type RecipeRecord = NonNullable<FunctionReturnType<typeof api.recipes.get>>;
 
-export const getRawRecipes = cache(() => fetchQuery(api.recipes.list, {}));
-export const getRawRecipe = cache((slug: string) => fetchQuery(api.recipes.get, { slug }));
+export const getRawRecipes = cache(() => cachedPublicQuery(api.recipes.list, {}));
+export const getRawRecipe = cache((slug: string) => cachedPublicQuery(api.recipes.get, { slug }));

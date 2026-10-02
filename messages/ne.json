@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "भारतमा अनलाइन {name}",
     "titleExport": "भारतबाट {name} – {country}",
+    "metaDescription": "{intro} {examples} समावेश छन्।",
     "productsHeading": "आफ्नो तरकारी र साग छान्नुहोस्",
     "recipesHeading": "यी बाली प्रयोग हुने परिकार",
     "browseCategories": "श्रेणीअनुसार हेर्नुहोस्",

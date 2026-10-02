@@ -1464,6 +1464,7 @@
   "categoryPage": {
     "title": "インドで{name}をオンライン注文",
     "titleExport": "インド産{name} – {country}",
+    "metaDescription": "{intro} {examples}など。",
     "productsHeading": "野菜やハーブを選ぶ",
     "recipesHeading": "この作物を使ったレシピ",
     "browseCategories": "カテゴリーから探す",

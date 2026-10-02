@@ -164,7 +164,9 @@ export const botReply = internalMutation({
       });
     else
       await ctx.db.insert("chatUsage", { month: monthKey(now), costMicros: cost, aiReplies: replied });
-    if (text || args.products?.length)
+    // The owner may have taken over while the model was answering. The cost still
+    // counts, but a late assistant reply must not appear after the owner's message.
+    if ((text || args.products?.length) && thread.mode === "bot")
       await ctx.db.insert("chatMessages", {
         threadId: thread._id,
         author: "bot",

@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "{name} online in Indien",
     "titleExport": "{name} aus Indien – {country}",
+    "metaDescription": "{intro} Mit {examples}.",
     "productsHeading": "Gemüse und Kräuter auswählen",
     "recipesHeading": "Rezepte mit diesen Zutaten",
     "browseCategories": "Nach Kategorie stöbern",

@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "{name} online in India",
     "titleExport": "{name} uit India – {country}",
+    "metaDescription": "{intro} Met onder meer {examples}.",
     "productsHeading": "Kies je groenten en kruiden",
     "recipesHeading": "Recepten met deze gewassen",
     "browseCategories": "Bekijk per categorie",

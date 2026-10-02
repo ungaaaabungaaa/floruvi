@@ -75,3 +75,16 @@ test("llms.txt lists every product and recipe once with absolute links and fille
   assert.match(text, /₹99 per delivery/);
   assert.doesNotMatch(text, /\{\w+\}|undefined|null|NaN/);
 });
+
+test("meta descriptions fit search results and keep the price complete", async () => {
+  const { clampText, fitDescription, DESCRIPTION_LIMIT } = await import("../lib/meta-description");
+  const long = "Versatile green leaves for fresh bowls or quick, gentle cooking. ".repeat(5);
+  const clamped = clampText(long);
+  assert.ok(clamped.length <= DESCRIPTION_LIMIT);
+  assert.ok(clamped.endsWith("…"));
+  assert.equal(clampText("Short text."), "Short text.");
+  const fitted = fitDescription((text) => `${text} 1 bunch: ₹105.`, long);
+  assert.ok(fitted.length <= DESCRIPTION_LIMIT);
+  assert.ok(fitted.endsWith("1 bunch: ₹105."));
+  assert.ok(clampText("あ".repeat(300)).length <= DESCRIPTION_LIMIT);
+});

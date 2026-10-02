@@ -8,6 +8,8 @@ const aliasHosts = site
 
 const config: NextConfig = {
   devIndicators: false,
+  // Do not advertise the framework in every response.
+  poweredByHeader: false,
   images: {
     remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
   },

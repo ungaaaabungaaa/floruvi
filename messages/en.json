@@ -1473,6 +1473,7 @@
   "categoryPage": {
     "title": "{name} online in India",
     "titleExport": "{name} from India – {country}",
+    "metaDescription": "{intro} Includes {examples}.",
     "productsHeading": "Choose your produce",
     "recipesHeading": "Recipes with these crops",
     "browseCategories": "Browse by category",

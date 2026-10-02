@@ -59,7 +59,6 @@ export function AddToCart({
         className={`button ${compact ? "button-outline" : "button-primary"}`}
         type="button"
         aria-label={fill(added ? t.addToCart.added : t.addToCart.add, { name })}
-        aria-live="polite"
         onClick={() => {
           const success = cart.add(slug, quantity);
           setAdded(success);
@@ -77,6 +76,10 @@ export function AddToCart({
           <span>{added ? t.addToCart.addedShort : t.addToCart.addShort}</span>
         )}
       </button>
+      {/* Screen readers announce a status region's text, not a changed button label. */}
+      <span className="sr-only" role="status">
+        {added ? fill(t.addToCart.added, { name }) : ""}
+      </span>
       {error && (
         <p className="cart-feedback" role="alert">
           {error}

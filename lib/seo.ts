@@ -4,6 +4,9 @@ import { getI18n } from "./i18n/server";
 import { localizePath, parseLocale, type Locale } from "./i18n/config";
 import { languageAlternates } from "./i18n/alternates";
 import hero from "@/src/assets/home-hero/harvest.webp";
+import { clampText } from "./meta-description";
+
+export { DESCRIPTION_LIMIT, clampText, fitDescription } from "./meta-description";
 
 export const absoluteUrl = (path: string) => new URL(path, siteUrl).toString();
 const ogLocale = (locale: Locale) => parseLocale(locale).tag.replace("-", "_");
@@ -28,6 +31,7 @@ export async function pageMetadata({
 }): Promise<Metadata> {
   const { locale, messages } = await getI18n();
   const url = localizePath(locale.locale, path);
+  if (description) description = clampText(description);
   const images = [
     image ?? {
       url: hero.src,

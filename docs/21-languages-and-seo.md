@@ -63,6 +63,19 @@ The export countries follow [APEDA's main fresh fruit & vegetable destinations](
 - Mixed-case URLs redirect to lowercase in one step (308); percent escapes keep their case. Removed pages redirect to their replacement (`next.config.ts`); `/wholesale` is temporary (307) because a wholesale page may return.
 - `siteUrl` uses `NEXT_PUBLIC_SITE_URL`, then Vercel's production domain. Production uses `https://floruvi.com` (28 September 2026); `floruvi.vercel.app` and `www.floruvi.com` redirect to it with 308 (`next.config.ts`).
 
+## Search update, 3 October 2026
+
+Owner request: complete general SEO, review the whole platform, push for deployment. Instagram, Facebook and the phone number come later. Checked with the seo-audit, schema, ai-seo, site-architecture and programmatic-seo skills (search), and react-best-practices, web-design-guidelines, convex-authz and better-auth-security (review).
+
+- **Speed.** Catalogue and recipe reads use the Next.js data cache (`lib/convex-public.ts`, 5 minutes, tag `catalogue`). Home, product, recipe, category, FAQ and policy pages are now cached (ISR) instead of rendered per request. A stock change in `/admin` refreshes the cache at once. Checkout, payment and chat reads stay live. Shop and contact still read the query string, so they render per request with cached data.
+- **Home hero.** Only the shown and next photos load, so the first photo is not slowed by five hidden ones.
+- **Descriptions.** At most 160 characters, cut at a word. Product descriptions keep the pack size and price; recipe descriptions keep time, servings and crops. Category descriptions name a few crops.
+- **Structured data.** The organization is an `OnlineStore`. It adds `sameAs`, email, telephone, address and a customer-service `ContactPoint` when the Vercel settings exist (README keys table). Product data lists every product photo.
+- **Image sitemap.** Each sitemap URL lists its product, recipe or category photos.
+- **Links.** The footer links the six category pages from every page, and the social profiles when set.
+- **Verification.** Optional Google and Bing meta tags from Vercel settings. DNS verification in Search Console is still the better choice.
+- Removed: the `X-Powered-By` header, and `?category=all` URLs in the shop.
+
 ## Open search decisions (owner)
 
 Checked 27 September 2026 with the ai-seo, site-architecture, programmatic-seo, seo-audit & schema skills. These need the owner:

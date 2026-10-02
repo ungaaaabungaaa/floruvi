@@ -1,7 +1,7 @@
 "use client";
 
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import { motion, AnimatePresence } from "motion/react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { motion, AnimatePresence, MotionConfig, useReducedMotion } from "motion/react";
 import Image from "next/image";
 
 import { useEffect, useState, useSyncExternalStore } from "react";
@@ -24,6 +24,10 @@ export const AnimatedTestimonials = ({
   autoplay?: boolean;
 }) => {
   const [active, setActive] = useState(0);
+  // Autoplay stops while the pointer or keyboard focus is in the carousel, and never
+  // starts for visitors who ask for reduced motion (WCAG 2.2.2).
+  const [paused, setPaused] = useState(false);
+  const reduceMotion = useReducedMotion();
   // Randomised tilt only once hydrated — computing it during render would differ
   // between the server-rendered HTML and the client's first paint.
   const mounted = useSyncExternalStore(
@@ -48,15 +52,24 @@ export const AnimatedTestimonials = ({
   };
 
   useEffect(() => {
-    if (!autoplay) return;
+    if (!autoplay || paused || reduceMotion) return;
     const interval = setInterval(() => {
       setActive((prev) => (prev + 1) % testimonials.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, [autoplay, testimonials.length]);
+  }, [autoplay, paused, reduceMotion, testimonials.length]);
 
   return (
-    <div className="mx-auto max-w-sm px-4 py-20 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12">
+    <MotionConfig reducedMotion="user">
+    <div
+      className="mx-auto max-w-sm px-4 py-20 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocus={() => setPaused(true)}
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setPaused(false);
+      }}
+    >
       <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2">
         <div>
           <div className="relative h-80 w-full">
@@ -159,20 +172,25 @@ export const AnimatedTestimonials = ({
           </motion.div>
           <div className="flex gap-4 pt-12 md:pt-0">
             <button
+              type="button"
               onClick={handlePrev}
+              aria-label="Previous testimonial"
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100"
             >
-              <IconArrowLeft className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12" />
+              <ArrowLeft aria-hidden="true" className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12" />
             </button>
             <button
+              type="button"
               onClick={handleNext}
+              aria-label="Next testimonial"
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100"
             >
-              <IconArrowRight className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12" />
+              <ArrowRight aria-hidden="true" className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12" />
             </button>
           </div>
         </div>
       </div>
     </div>
+    </MotionConfig>
   );
 };

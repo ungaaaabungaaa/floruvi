@@ -8,11 +8,16 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath } from "@/lib/i18n/config";
 import { fill, plural } from "@/lib/i18n/format";
 import { siteUrl } from "@/lib/site";
-import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
+import { absoluteUrl, fitDescription, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { breadcrumbList } from "@/lib/structured-data";
 import { ProductCard } from "@/components/product-card";
 
 type Props = PageProps<"/[locale]/recipes/[slug]">;
+
+// Each page renders on its first visit, then is served from the cache (ISR).
+export function generateStaticParams() {
+  return [];
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -33,7 +38,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return pageMetadata({
     path: `/recipes/${slug}`,
     title: fill(messages.meta.recipeTitle, { name: r.name }),
-    description: `${r.name} — ${r.description} ${facts.join(" · ")}`,
+    description: fitDescription(
+      (intro) => `${r.name} — ${intro} ${facts.join(" · ")}`,
+      r.description,
+    ),
     image: { ...shareImage(r.image), alt: r.name },
     type: "article",
   });

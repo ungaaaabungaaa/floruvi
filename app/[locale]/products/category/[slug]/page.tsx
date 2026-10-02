@@ -11,10 +11,15 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath } from "@/lib/i18n/config";
 import { fill, formatCurrency } from "@/lib/i18n/format";
 import { getRecipeList, getShop } from "@/lib/storefront";
-import { absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
+import { DESCRIPTION_LIMIT, absoluteUrl, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
 import { breadcrumbList } from "@/lib/structured-data";
 
 type Props = PageProps<"/[locale]/products/category/[slug]">;
+
+// Each page renders on its first visit, then is served from the cache (ISR).
+export function generateStaticParams() {
+  return [];
+}
 
 async function categoryData(slug: string) {
   if (!isCategorySlug(slug)) notFound();
@@ -34,8 +39,19 @@ async function categoryData(slug: string) {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const { category, locale, messages } = await categoryData(slug);
+  const { category, products, locale, messages } = await categoryData(slug);
   const image = categoryImages[slug];
+  // Name a few crops, as many as fit in a search result description.
+  const list = new Intl.ListFormat(locale.tag, { type: "conjunction" });
+  const description =
+    [4, 3, 2, 1]
+      .map((count) =>
+        fill(messages.categoryPage.metaDescription, {
+          intro: category.description,
+          examples: list.format(products.slice(0, count).map((product) => product.name)),
+        }),
+      )
+      .find((text) => text.length <= DESCRIPTION_LIMIT) ?? category.description;
   return pageMetadata({
     path: `/products/category/${slug}`,
     title: fill(
@@ -47,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         country: locale.countryName,
       },
     ),
-    description: category.description,
+    description,
     image: image ? { ...shareImage(image), alt: category.name } : undefined,
   });
 }
