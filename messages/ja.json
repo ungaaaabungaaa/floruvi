@@ -609,7 +609,13 @@
     "unlisted": "掲載を終了した商品があります。",
     "returnToRemove": "カートに戻って削除してください。",
     "photoAlt": "新鮮な野菜が入った箱",
-    "handwritten": "育てる価値のある新鮮さ。"
+    "handwritten": "育てる価値のある新鮮さ。",
+    "indiaPhoneHint": "10桁の携帯電話番号を入力してください。",
+    "chooseStateFirst": "先に州を選択",
+    "otherCity": "都市が一覧にありません",
+    "customCity": "市・町・村",
+    "indiaPostal": "郵便番号",
+    "locationData": "地域データ"
   },
   "contact": {
     "portraitAlt": "木箱に集められた新鮮な野菜",

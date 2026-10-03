@@ -614,7 +614,13 @@
     "unlisted": "একটি ফসল আর তালিকায় নেই।",
     "returnToRemove": "এটি সরাতে কার্টে ফিরে যান।",
     "photoAlt": "তাজা ফসলের বক্স",
-    "handwritten": "ফলানোর মতো সতেজতা।"
+    "handwritten": "ফলানোর মতো সতেজতা।",
+    "indiaPhoneHint": "আপনার ১০ সংখ্যার মোবাইল নম্বর লিখুন।",
+    "chooseStateFirst": "প্রথমে রাজ্য বেছে নিন",
+    "otherCity": "আমার শহর তালিকায় নেই",
+    "customCity": "শহর / নগর / গ্রাম",
+    "indiaPostal": "পিন কোড",
+    "locationData": "অবস্থানের তথ্য"
   },
   "contact": {
     "portraitAlt": "একটি কাঠের ক্রেটে জড়ো করা তাজা সবজি",

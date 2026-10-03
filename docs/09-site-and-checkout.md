@@ -30,3 +30,13 @@ A saved availability enquiry is not an order. A later purchase release must impl
 ## Owner update — 3 October 2026
 
 Checkout now uses one form and one shared block for delivery details and the basket summary. Collect name, phone, one street address (optional), city, state/region, and PIN/postal code where the country uses one. Do not collect email, separate billing details, GST details, or delivery notes. Keep consent and server basket checks. Store an empty email in the existing record format for compatibility with older records; do not invent an email address. Rate limits use the phone when email is absent. Include the supplied street address in availability requests. Phone verification remains future work; payment activation still needs provider setup.
+
+## Checkout refinement — 3 October 2026
+
+Use the cart page as the visual reference. The checkout block has rounded inputs, clear contact and delivery groups, and product rows with images, short descriptions, pack sizes, quantities, and server prices. Totals stay below a scrollable product list. At 390 px, the basket summary appears above the form.
+
+India phone input shows +91 separately and accepts ten national mobile digits. A pasted +91 number is normalised. The paid-order schema also checks the length and stores the number with +91. Export phone fields keep international numbers. India state selection controls the city list and clears the old city after a state change. The city list has a manual option so towns and villages are not blocked. This is not a delivery-area filter.
+
+Location names come from the India extract of the [CSC database](https://github.com/dr5hn/countries-states-cities-database), retrieved 3 October 2026. The source notice and ODbL licence are in `lib/data/india-locations.LICENSE.md`. All 36 states and territories have city options. No lookup service or location permission is needed.
+
+Local checks: TypeScript, ESLint, 118 tests, desktop inspection, dependent-selector/reset checks, manual-city entry, and 390 px layout without horizontal overflow. These checks do not confirm OTP delivery or a real provider payment.

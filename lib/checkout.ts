@@ -18,6 +18,14 @@ export const basketLines = z
   .min(1)
   .max(MAX_CART_LINES)
   .refine((lines) => new Set(lines.map((l) => l.slug)).size === lines.length);
+export const indiaPhone = enquirySchema.shape.phone
+  .transform((phone) => phone.replace(/[\s()-]/g, ""))
+  .refine(
+    (phone) => /^(?:\+91|91)?[6-9]\d{9}$/.test(phone),
+    "Enter a valid 10-digit mobile number.",
+  )
+  .transform((phone) => `+91${phone.slice(-10)}`);
+
 export const checkoutContact = z.object({
   name: enquirySchema.shape.name,
   email: z.union([enquirySchema.shape.email, z.literal("")]).default(""),
@@ -34,7 +42,7 @@ export const paidOrderDetails = z
   .object({
     name: checkoutContact.shape.name,
     email: checkoutContact.shape.email,
-    phone: checkoutContact.shape.phone,
+    phone: indiaPhone,
     address: z.string().trim().max(240),
     city: z.string().trim().min(2).max(100),
     region: z.string().trim().min(2).max(100),
@@ -79,11 +87,17 @@ export function basketEnquiry(
   website = "",
   destination?: { country: string; total: string; deliveryQuoted: boolean },
 ) {
+  const domestic = destination?.country === "India";
+  const phone = domestic
+    ? z.object({ phone: indiaPhone }).safeParse(details)
+    : null;
+  if (phone && !phone.success)
+    return { success: false as const, error: phone.error };
   return enquirySchema.safeParse({
     kind: "personal",
     name: details.name,
     email: details.email,
-    phone: details.phone,
+    phone: phone?.success ? phone.data.phone : details.phone,
     business: "",
     city: details.city,
     interest: `Basket availability: ${items.length} crops`,

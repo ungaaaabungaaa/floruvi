@@ -185,3 +185,42 @@ test("checkout accepts phone-only contact and keeps the delivery address in requ
     false,
   );
 });
+
+test("India availability requests require ten mobile digits while export numbers stay valid", () => {
+  const details = {
+    name: "Test Buyer",
+    email: "",
+    phone: "9876543210",
+    address: "",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  const destination = {
+    country: "India",
+    total: "INR 100",
+    deliveryQuoted: false,
+  };
+  const items = [{ name: "Basil", quantity: 1 }];
+  const parsed = basketEnquiry(details, items, true, "", destination);
+  assert.ok(parsed.success);
+  assert.equal(parsed.data.phone, "+919876543210");
+  assert.equal(
+    basketEnquiry(
+      { ...details, phone: "987654321" },
+      items,
+      true,
+      "",
+      destination,
+    ).success,
+    false,
+  );
+  assert.equal(
+    basketEnquiry({ ...details, phone: "+971501234567" }, items, true, "", {
+      ...destination,
+      country: "United Arab Emirates",
+    }).success,
+    true,
+  );
+});

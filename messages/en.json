@@ -614,7 +614,13 @@
     "unlisted": "A crop is no longer listed.",
     "returnToRemove": "Return to the basket to remove it.",
     "photoAlt": "box of fresh produce",
-    "handwritten": "Freshness worth growing."
+    "handwritten": "Freshness worth growing.",
+    "indiaPhoneHint": "Enter your 10-digit mobile number.",
+    "chooseStateFirst": "Choose a state first",
+    "otherCity": "My city is not listed",
+    "customCity": "City / town / village",
+    "indiaPostal": "PIN code",
+    "locationData": "Location data"
   },
   "contact": {
     "portraitAlt": "Fresh vegetables gathered in a wooden crate",

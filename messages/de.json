@@ -614,7 +614,13 @@
     "unlisted": "Ein Produkt ist nicht mehr gelistet.",
     "returnToRemove": "Kehre zum Warenkorb zurück, um es zu entfernen.",
     "photoAlt": "Box mit frischer Ware",
-    "handwritten": "Frische, die sich lohnt."
+    "handwritten": "Frische, die sich lohnt.",
+    "indiaPhoneHint": "Geben Sie Ihre 10-stellige Mobilnummer ein.",
+    "chooseStateFirst": "Zuerst einen Bundesstaat wählen",
+    "otherCity": "Meine Stadt ist nicht aufgeführt",
+    "customCity": "Stadt / Ort / Dorf",
+    "indiaPostal": "PIN-Code",
+    "locationData": "Ortsdaten"
   },
   "contact": {
     "portraitAlt": "Frisches Gemüse in einer Holzkiste",

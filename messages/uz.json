@@ -614,7 +614,13 @@
     "unlisted": "Ekin endi roʻyxatda yoʻq.",
     "returnToRemove": "Uni olib tashlash uchun savatga qayting.",
     "photoAlt": "yangi hosil qutisi",
-    "handwritten": "Oʻstirishga arziydigan yangilik."
+    "handwritten": "Oʻstirishga arziydigan yangilik.",
+    "indiaPhoneHint": "10 xonali mobil raqamingizni kiriting.",
+    "chooseStateFirst": "Avval shtatni tanlang",
+    "otherCity": "Mening shahrim ro‘yxatda yo‘q",
+    "customCity": "Shahar / shaharcha / qishloq",
+    "indiaPostal": "PIN kodi",
+    "locationData": "Joylashuv ma’lumotlari"
   },
   "contact": {
     "portraitAlt": "Yogʻoch qutida yigʻilgan yangi sabzavotlar",

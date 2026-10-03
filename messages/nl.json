@@ -614,7 +614,13 @@
     "unlisted": "Een gewas staat niet meer op de lijst.",
     "returnToRemove": "Ga terug naar het winkelmandje om het te verwijderen.",
     "photoAlt": "doos met verse producten",
-    "handwritten": "Versheid die de moeite waard is."
+    "handwritten": "Versheid die de moeite waard is.",
+    "indiaPhoneHint": "Voer uw mobiele nummer van 10 cijfers in.",
+    "chooseStateFirst": "Kies eerst een staat",
+    "otherCity": "Mijn stad staat niet in de lijst",
+    "customCity": "Stad / plaats / dorp",
+    "indiaPostal": "PIN-code",
+    "locationData": "Locatiegegevens"
   },
   "contact": {
     "portraitAlt": "Verse groenten verzameld in een houten krat",

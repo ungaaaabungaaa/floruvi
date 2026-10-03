@@ -614,7 +614,13 @@
     "unlisted": "एउटा बाली अब सूचीमा छैन।",
     "returnToRemove": "यसलाई हटाउन टोकरीमा फर्किनुहोस्।",
     "photoAlt": "ताजा उब्जनीको बक्स",
-    "handwritten": "बढ्नु पर्ने ताजापन।"
+    "handwritten": "बढ्नु पर्ने ताजापन।",
+    "indiaPhoneHint": "१० अङ्कको मोबाइल नम्बर लेख्नुहोस्।",
+    "chooseStateFirst": "पहिले राज्य छान्नुहोस्",
+    "otherCity": "मेरो सहर सूचीमा छैन",
+    "customCity": "सहर / नगर / गाउँ",
+    "indiaPostal": "पिन कोड",
+    "locationData": "स्थान विवरण"
   },
   "contact": {
     "portraitAlt": "काठको बाकसमा जम्मा गरिएको ताजा तरकारी",

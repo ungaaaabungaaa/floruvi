@@ -118,7 +118,7 @@ test("phone numbers and PIN codes typed in other scripts' digits are accepted as
   });
   assert.equal(details.success, true);
   assert.equal(details.data?.pincode, "411001");
-  assert.equal(details.data?.phone, "+91 98765 43210");
+  assert.equal(details.data?.phone, "+919876543210");
 });
 
 test("paid checkout accepts an empty email and still requires a valid phone and PIN", () => {
@@ -142,4 +142,30 @@ test("paid checkout accepts an empty email and still requires a valid phone and 
     false,
   );
   assert.equal(enquirySchema.safeParse({ ...valid, email: "" }).success, false);
+});
+
+test("India checkout normalises national digits and rejects invalid mobile lengths", () => {
+  const base = {
+    name: "Test Buyer",
+    email: "",
+    address: "",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  for (const phone of ["9876543210", "+91 98765 43210", "९८७६५४३२१०"]) {
+    assert.equal(
+      paidOrderDetails.parse({ ...base, phone }).phone,
+      "+919876543210",
+    );
+  }
+  for (const phone of [
+    "987654321",
+    "98765432101",
+    "+44 9876543210",
+    "1234567890",
+  ]) {
+    assert.equal(paidOrderDetails.safeParse({ ...base, phone }).success, false);
+  }
 });

@@ -609,7 +609,13 @@
     "unlisted": "Satu tanaman tidak lagi disenaraikan.",
     "returnToRemove": "Kembali ke bakul untuk mengeluarkannya.",
     "photoAlt": "kotak produk segar",
-    "handwritten": "Kesegaran yang berbaloi ditanam."
+    "handwritten": "Kesegaran yang berbaloi ditanam.",
+    "indiaPhoneHint": "Masukkan nombor mudah alih 10 digit anda.",
+    "chooseStateFirst": "Pilih negeri dahulu",
+    "otherCity": "Bandar saya tiada dalam senarai",
+    "customCity": "Bandar / pekan / kampung",
+    "indiaPostal": "Kod PIN",
+    "locationData": "Data lokasi"
   },
   "contact": {
     "portraitAlt": "Sayur-sayuran segar dikumpulkan dalam peti kayu",

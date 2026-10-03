@@ -1,5 +1,14 @@
 "use client";
 import { useRef, useState } from "react";
+import Image from "next/image";
+import { productImages } from "@/lib/product-images";
+import { getCartBox } from "@/lib/boxes";
+import { Botanical } from "./botanical";
+import singleBox from "@/src/assets/boxes/single.webp";
+import dualBox from "@/src/assets/boxes/dual.webp";
+import familyBox from "@/src/assets/boxes/family.webp";
+import { indiaStates, citiesForState } from "@/lib/india-locations";
+import { toAsciiDigits } from "@/lib/enquiry";
 import Link from "@/components/i18n/link";
 
 import {
@@ -37,10 +46,19 @@ const emptyDetails = {
 class Notice extends Error {}
 export function Checkout({
   labels,
+  cartLabels,
   products,
 }: {
   labels: Messages["checkout"];
-  products: { slug: string; name: string }[];
+  cartLabels: Pick<Messages["cart"], "headQuantity" | "packOnRequest">;
+  products: {
+    slug: string;
+    name: string;
+    description: string;
+    imageUrl?: string | null;
+    category: string;
+    packLabel?: string;
+  }[];
 }) {
   const cart = useCart();
   const { t, locale, fill, money } = useI18n();
@@ -54,6 +72,7 @@ export function Checkout({
     retry,
   } = useBasketReview(cart.items);
   const [details, setDetails] = useState(emptyDetails);
+  const [cityChoice, setCityChoice] = useState("");
   const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState("");
   const [error, setError] = useState("");
@@ -72,6 +91,11 @@ export function Checkout({
   const payable = !!review?.paymentEnabled;
   const set = (key: keyof typeof details, value: string) =>
     setDetails((d) => ({ ...d, [key]: value }));
+  const cities = citiesForState(details.region);
+  const submissionDetails = {
+    ...details,
+    phone: locale.domestic ? `+91${details.phone}` : details.phone,
+  };
   async function sendRequest(event: React.SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
     if (status !== "idle") return;
@@ -80,16 +104,22 @@ export function Checkout({
       setError(labels.returnToBasket);
       return;
     }
-    const parsed = basketEnquiry(details, review.items, consent, website, {
-      country: locale.countryNameEnglish,
-      total: formatCurrency(
-        review.total,
-        review.currency as CurrencyCode,
-        "en-IN",
-        "unavailable",
-      ),
-      deliveryQuoted: review.deliveryQuoted,
-    });
+    const parsed = basketEnquiry(
+      submissionDetails,
+      review.items,
+      consent,
+      website,
+      {
+        country: locale.countryNameEnglish,
+        total: formatCurrency(
+          review.total,
+          review.currency as CurrencyCode,
+          "en-IN",
+          "unavailable",
+        ),
+        deliveryQuoted: review.deliveryQuoted,
+      },
+    );
     if (!parsed.success) {
       setError(validationMessage(parsed.error.issues[0], t.validation));
       return;
@@ -123,7 +153,7 @@ export function Checkout({
     }
     const parsed = paymentOrderRequest.safeParse({
       items: cart.items,
-      details,
+      details: submissionDetails,
       consent,
       website,
     });
@@ -235,7 +265,7 @@ export function Checkout({
           )}
           <form onSubmit={payable ? pay : sendRequest}>
             <fieldset disabled={status !== "idle"} className="checkout-details">
-              <legend>{labels.headings[1]}</legend>
+              <legend>{labels.headings[0]}</legend>
               <div className="checkout-fields">
                 <div className="checkout-field-pair">
                   <label>
@@ -253,24 +283,56 @@ export function Checkout({
                   </label>
                   <label>
                     {labels.phone}
-                    <input
-                      type="tel"
-                      name="phone"
-                      autoComplete="tel"
-                      required
-                      minLength={7}
-                      maxLength={25}
-                      dir="ltr"
-                      value={details.phone}
-                      onChange={(e) => set("phone", e.target.value)}
-                      placeholder={
-                        locale.domestic
-                          ? labels.phonePlaceholder
-                          : `${market.dial} · ${labels.phonePlaceholder}`
-                      }
-                    />
+                    <div className="checkout-phone-input">
+                      {locale.domestic && <span aria-hidden="true">+91</span>}
+                      <input
+                        type="tel"
+                        inputMode="tel"
+                        name="phone"
+                        autoComplete={locale.domestic ? "tel-national" : "tel"}
+                        required
+                        minLength={locale.domestic ? 10 : 7}
+                        maxLength={locale.domestic ? 17 : 25}
+                        pattern={locale.domestic ? "[6-9][0-9]{9}" : undefined}
+                        title={
+                          locale.domestic ? labels.indiaPhoneHint : undefined
+                        }
+                        aria-describedby={
+                          locale.domestic ? "checkout-phone-hint" : undefined
+                        }
+                        dir="ltr"
+                        value={details.phone}
+                        onChange={(e) => {
+                          let value = toAsciiDigits(e.target.value);
+                          if (locale.domestic) {
+                            value = value.replace(/[^0-9]/g, "");
+                            if (value.length === 12 && value.startsWith("91"))
+                              value = value.slice(2);
+                          }
+                          set("phone", value);
+                        }}
+                        placeholder={
+                          locale.domestic
+                            ? "98765 43210"
+                            : `${market.dial} · ${labels.phonePlaceholder}`
+                        }
+                      />
+                    </div>
+                    {locale.domestic && (
+                      <small id="checkout-phone-hint">
+                        {labels.indiaPhoneHint}
+                      </small>
+                    )}
                   </label>
                 </div>
+              </div>
+            </fieldset>
+            <fieldset
+              disabled={status !== "idle"}
+              className="checkout-details checkout-delivery-fields"
+            >
+              <legend>{labels.headings[1]}</legend>
+              <div className="checkout-fields">
                 <label>
                   {labels.address} <small>{labels.optional}</small>
                   <input
@@ -284,7 +346,89 @@ export function Checkout({
                 </label>
                 <div className="checkout-field-pair">
                   <label>
+                    {labels.region}
+                    {locale.domestic ? (
+                      <select
+                        name="region"
+                        autoComplete="address-level1"
+                        required
+                        value={details.region}
+                        onChange={(e) => {
+                          set("region", e.target.value);
+                          set("city", "");
+                          setCityChoice("");
+                        }}
+                      >
+                        <option value="" disabled>
+                          {labels.regionPlaceholder}
+                        </option>
+                        {indiaStates.map((state) => (
+                          <option key={state.code} value={state.name}>
+                            {state.name}
+                          </option>
+                        ))}
+                      </select>
+                    ) : (
+                      <input
+                        name="region"
+                        autoComplete="address-level1"
+                        required
+                        minLength={2}
+                        maxLength={100}
+                        value={details.region}
+                        onChange={(e) => set("region", e.target.value)}
+                        placeholder={labels.regionPlaceholder}
+                      />
+                    )}
+                  </label>
+                  <label>
                     {labels.city}
+                    {locale.domestic ? (
+                      <select
+                        name="city-choice"
+                        autoComplete={
+                          cityChoice === "other" ? "off" : "address-level2"
+                        }
+                        required
+                        disabled={!details.region}
+                        value={cityChoice}
+                        onChange={(e) => {
+                          setCityChoice(e.target.value);
+                          set(
+                            "city",
+                            e.target.value === "other" ? "" : e.target.value,
+                          );
+                        }}
+                      >
+                        <option value="" disabled>
+                          {details.region
+                            ? labels.cityPlaceholder
+                            : labels.chooseStateFirst}
+                        </option>
+                        {cities.map((city) => (
+                          <option key={city} value={city}>
+                            {city}
+                          </option>
+                        ))}
+                        <option value="other">{labels.otherCity}</option>
+                      </select>
+                    ) : (
+                      <input
+                        name="city"
+                        autoComplete="address-level2"
+                        required
+                        minLength={2}
+                        maxLength={100}
+                        value={details.city}
+                        onChange={(e) => set("city", e.target.value)}
+                        placeholder={labels.cityPlaceholder}
+                      />
+                    )}
+                  </label>
+                </div>
+                {locale.domestic && cityChoice === "other" && (
+                  <label>
+                    {labels.customCity}
                     <input
                       name="city"
                       autoComplete="address-level2"
@@ -296,33 +440,26 @@ export function Checkout({
                       placeholder={labels.cityPlaceholder}
                     />
                   </label>
-                  <label>
-                    {labels.region}
-                    <input
-                      name="region"
-                      autoComplete="address-level1"
-                      required
-                      minLength={2}
-                      maxLength={100}
-                      value={details.region}
-                      onChange={(e) => set("region", e.target.value)}
-                      placeholder={labels.regionPlaceholder}
-                    />
-                  </label>
-                </div>
+                )}
                 <label>
-                  {labels.postal}
+                  {locale.domestic ? labels.indiaPostal : labels.postal}
                   {!market.postalCode && <small> {labels.optional}</small>}
                   <input
                     name="pincode"
                     autoComplete="postal-code"
                     required={market.postalCode}
-                    minLength={2}
-                    maxLength={12}
+                    inputMode={locale.domestic ? "numeric" : "text"}
+                    pattern={locale.domestic ? "[1-9][0-9]{5}" : undefined}
+                    minLength={locale.domestic ? 6 : 2}
+                    maxLength={locale.domestic ? 6 : 12}
                     dir="ltr"
                     value={details.pincode}
-                    onChange={(e) => set("pincode", e.target.value)}
-                    placeholder={labels.postalPlaceholder}
+                    onChange={(e) =>
+                      set("pincode", toAsciiDigits(e.target.value))
+                    }
+                    placeholder={
+                      locale.domestic ? "560001" : labels.postalPlaceholder
+                    }
                   />
                 </label>
               </div>
@@ -388,13 +525,82 @@ export function Checkout({
           </form>
         </div>
         <div className="checkout-order-summary">
-          <div className="checkout-selection">
-            {review?.items.map((item) => (
-              <div key={item.slug}>
-                <span>{lineLabels.name(item.slug, products, item.name)}</span>
-                <span>× {item.quantity}</span>
-              </div>
-            ))}
+          <div className="checkout-basket-heading">
+            <h2>{t.basket.summary}</h2>
+            <Link href="/cart" className="text-link">
+              {labels.review}
+            </Link>
+          </div>
+          <div
+            className="checkout-product-list"
+            role="region"
+            aria-label={t.basket.summary}
+            tabIndex={0}
+          >
+            {cart.items.map((item) => {
+              const product = products.find(
+                (product) => product.slug === item.slug,
+              );
+              const box = getCartBox(item.slug);
+              const checked = review?.items.find(
+                (line) => line.slug === item.slug,
+              );
+              const name = lineLabels.name(item.slug, products, checked?.name);
+              const src = box
+                ? { single: singleBox, dual: dualBox, family: familyBox }[
+                    box.id
+                  ]
+                : product?.imageUrl || productImages[item.slug];
+              return (
+                <article className="checkout-product-row" key={item.slug}>
+                  <Link
+                    className="basket-image"
+                    href={box ? "/boxes" : `/products/${item.slug}`}
+                    aria-label={name}
+                  >
+                    {src ? (
+                      <Image
+                        src={src}
+                        alt=""
+                        fill
+                        sizes="76px"
+                        unoptimized={!!product?.imageUrl}
+                      />
+                    ) : (
+                      <Botanical category={product?.category} />
+                    )}
+                  </Link>
+                  <div className="checkout-product-copy">
+                    <Link href={box ? "/boxes" : `/products/${item.slug}`}>
+                      <h3>{name}</h3>
+                    </Link>
+                    <p>
+                      {box
+                        ? `${t.boxes[box.id].people} · ${lineLabels.schedule(item.slug)}`
+                        : (product?.packLabel ??
+                          checked?.packLabel ??
+                          cartLabels.packOnRequest)}
+                    </p>
+                    {product?.description && (
+                      <p className="checkout-product-description">
+                        {product.description.split(/(?<=[.!?])\s/)[0]}
+                      </p>
+                    )}
+                    <span className="checkout-product-quantity">
+                      {cartLabels.headQuantity}: {item.quantity}
+                    </span>
+                  </div>
+                  <span className="checkout-product-price">
+                    {checked
+                      ? money(
+                          checked.lineTotal,
+                          review!.currency as CurrencyCode,
+                        )
+                      : "—"}
+                  </span>
+                </article>
+              );
+            })}
           </div>
           <BasketSummary
             review={review}
@@ -419,6 +625,16 @@ export function Checkout({
               {labels.unlisted}{" "}
               <Link href="/cart">{labels.returnToRemove}</Link>
             </div>
+          )}
+          {locale.domestic && (
+            <a
+              className="checkout-location-source"
+              href="https://github.com/dr5hn/countries-states-cities-database"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {labels.locationData}: CSC · ODbL
+            </a>
           )}
         </div>
       </div>

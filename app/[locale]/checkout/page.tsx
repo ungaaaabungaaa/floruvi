@@ -6,15 +6,35 @@ import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
-  return pageMetadata({ path: "/checkout", title: messages.meta.checkout.title, noindex: true });
+  return pageMetadata({
+    path: "/checkout",
+    title: messages.meta.checkout.title,
+    noindex: true,
+  });
 }
 
 export default async function CheckoutPage() {
-  const [{ messages }, { products }] = await Promise.all([getI18n(), getShop()]);
+  const [{ messages }, { products }] = await Promise.all([
+    getI18n(),
+    getShop(),
+  ]);
   return (
     <Checkout
       labels={messages.checkout}
-      products={products.map(({ slug, name }) => ({ slug, name }))}
+      cartLabels={{
+        headQuantity: messages.cart.headQuantity,
+        packOnRequest: messages.cart.packOnRequest,
+      }}
+      products={products.map(
+        ({ slug, name, description, imageUrl, category, price }) => ({
+          slug,
+          name,
+          description,
+          imageUrl,
+          category,
+          packLabel: price?.packLabel,
+        }),
+      )}
     />
   );
 }
