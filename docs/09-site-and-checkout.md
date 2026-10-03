@@ -40,3 +40,9 @@ India phone input shows +91 separately and accepts ten national mobile digits. A
 Location names come from the India extract of the [CSC database](https://github.com/dr5hn/countries-states-cities-database), retrieved 3 October 2026. The source notice and ODbL licence are in `lib/data/india-locations.LICENSE.md`. All 36 states and territories have city options. No lookup service or location permission is needed.
 
 Local checks: TypeScript, ESLint, 118 tests, desktop inspection, dependent-selector/reset checks, manual-city entry, and 390 px layout without horizontal overflow. These checks do not confirm OTP delivery or a real provider payment.
+
+## Required address and submission notice — 3 October 2026
+
+The owner confirmed that delivery address is required. Remove the optional label and reject missing or blank addresses in checkout validation and paid-order validation. Align native state and city selects with the input height, text inset, and arrow position.
+
+Remove the separate consent checkbox. Show a short privacy notice after the submit button. Submitting the form supplies the existing request-specific consent flag; it does not create marketing permission. This supersedes the earlier optional-address and checkbox decisions.

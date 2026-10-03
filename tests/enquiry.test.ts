@@ -110,7 +110,7 @@ test("phone numbers and PIN codes typed in other scripts' digits are accepted as
     name: "Test Buyer",
     email: "buyer@example.com",
     phone: "+٩١ ٩٨٧٦٥ ٤٣٢١٠",
-    address: "",
+    address: "12 Farm Road",
     city: "Pune",
     region: "Maharashtra",
     pincode: "४११००१",
@@ -126,7 +126,7 @@ test("paid checkout accepts an empty email and still requires a valid phone and 
     name: "Test Buyer",
     email: "",
     phone: "+919876543210",
-    address: "",
+    address: "12 Farm Road",
     city: "Pune",
     region: "Maharashtra",
     pincode: "411001",
@@ -148,7 +148,7 @@ test("India checkout normalises national digits and rejects invalid mobile lengt
   const base = {
     name: "Test Buyer",
     email: "",
-    address: "",
+    address: "12 Farm Road",
     city: "Pune",
     region: "Maharashtra",
     pincode: "411001",
@@ -168,4 +168,26 @@ test("India checkout normalises national digits and rejects invalid mobile lengt
   ]) {
     assert.equal(paidOrderDetails.safeParse({ ...base, phone }).success, false);
   }
+});
+
+test("paid checkout rejects missing or blank delivery addresses", () => {
+  const details = {
+    name: "Test Buyer",
+    email: "",
+    phone: "+919876543210",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  for (const address of [undefined, "", "   "]) {
+    assert.equal(
+      paidOrderDetails.safeParse({ ...details, address }).success,
+      false,
+    );
+  }
+  assert.equal(
+    paidOrderDetails.parse({ ...details, address: "  12 Farm Road  " }).address,
+    "12 Farm Road",
+  );
 });

@@ -5786,3 +5786,14 @@ body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(92px + env(safe
 }
 
 .checkout-location-source { display: block; width: fit-content; color: var(--muted); font-size: 10px; line-height: 1.5; margin-top: 18px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Native selects share text-field dimensions; the arrow has a fixed inset. */
+.checkout-page .checkout-fields input,
+.checkout-page .checkout-fields select { box-sizing: border-box; height: 52px; line-height: 24px; }
+.checkout-field-label { display: block; line-height: 20px; }
+.checkout-select { position: relative; width: 100%; min-width: 0; }
+.checkout-page .checkout-select select { display: block; appearance: none; -webkit-appearance: none; padding: 13px 14px; padding-inline-end: 42px; }
+.checkout-select > svg { position: absolute; inset-inline-end: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--green); }
+.checkout-select select:disabled + svg { color: var(--muted); }
+.checkout-privacy-note { margin-top: 14px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.checkout-privacy-note a { text-decoration: underline; text-underline-offset: 3px; }

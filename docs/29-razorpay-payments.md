@@ -9,7 +9,7 @@ Built 28 September 2026 with the official `razorpay` Node SDK (2.9.8). Payments 
 3. After payment, the page shows the order number, for example `FL-7K3P9QXM`. Razorpay emails its own payment receipt.
 4. Export countries do not pay online. Their checkout still sends a request, and the farm quotes delivery.
 
-The street address stays optional (owner decision). The farm calls to confirm it. A 6-digit PIN code is required for paid orders.
+The delivery address is required (owner update, 3 October 2026). A 6-digit PIN code is required for paid orders.
 
 ## How it is protected
 

@@ -222,7 +222,8 @@
       "message": "Bitte gib mindestens 10 Zeichen ein.",
       "consent": "Bitte stimme zu, damit wir auf deine Anfrage antworten können.",
       "business": "Gib den Namen deines Unternehmens ein.",
-      "generic": "Überprüfe deine Angaben."
+      "generic": "Überprüfe deine Angaben.",
+      "address": "Geben Sie Ihre Lieferadresse ein."
     },
     "requestErrors": {
       "notConnected": "Anfragen sind noch nicht verbunden. Bitte versuche es später erneut.",
@@ -620,7 +621,8 @@
     "otherCity": "Meine Stadt ist nicht aufgeführt",
     "customCity": "Stadt / Ort / Dorf",
     "indiaPostal": "PIN-Code",
-    "locationData": "Ortsdaten"
+    "locationData": "Ortsdaten",
+    "submitPrivacy": "Mit dem Absenden erlauben Sie Floruvi, Ihre Angaben für diese Anfrage zu verwenden."
   },
   "contact": {
     "portraitAlt": "Frisches Gemüse in einer Holzkiste",

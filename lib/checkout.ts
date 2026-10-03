@@ -26,6 +26,12 @@ export const indiaPhone = enquirySchema.shape.phone
   )
   .transform((phone) => `+91${phone.slice(-10)}`);
 
+export const deliveryAddress = z
+  .string()
+  .trim()
+  .min(1, "Enter your delivery address.")
+  .max(240);
+
 export const checkoutContact = z.object({
   name: enquirySchema.shape.name,
   email: z.union([enquirySchema.shape.email, z.literal("")]).default(""),
@@ -35,15 +41,14 @@ export const checkoutContact = z.object({
   ),
 });
 /**
- * Details for a paid order in India. The street address stays optional (owner
- * decision); the farm calls to confirm it. A 6-digit PIN code is required.
+ * Paid orders in India require a delivery address and a 6-digit PIN code.
  */
 export const paidOrderDetails = z
   .object({
     name: checkoutContact.shape.name,
     email: checkoutContact.shape.email,
     phone: indiaPhone,
-    address: z.string().trim().max(240),
+    address: deliveryAddress,
     city: z.string().trim().min(2).max(100),
     region: z.string().trim().min(2).max(100),
     pincode: z
@@ -87,6 +92,9 @@ export function basketEnquiry(
   website = "",
   destination?: { country: string; total: string; deliveryQuoted: boolean },
 ) {
+  const address = z.object({ address: deliveryAddress }).safeParse(details);
+  if (!address.success)
+    return { success: false as const, error: address.error };
   const domestic = destination?.country === "India";
   const phone = domestic
     ? z.object({ phone: indiaPhone }).safeParse(details)
@@ -105,7 +113,7 @@ export function basketEnquiry(
     message: [
       "Basket availability request:",
       ...items.map((i) => `${i.name} × ${i.quantity}`),
-      `Delivery area: ${[details.address, details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
+      `Delivery area: ${[address.data.address, details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
       ...(destination
         ? [
             `Country: ${destination.country}. Basket total: ${destination.total}${destination.deliveryQuoted ? " before delivery (delivery to be quoted)" : ""}.`,

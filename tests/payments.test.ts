@@ -120,7 +120,7 @@ const details = {
   name: "Test Buyer",
   email: "Buyer@Example.com",
   phone: "+91 98765 43210",
-  address: "",
+  address: "12 Farm Road",
   city: "Bengaluru",
   region: "Karnataka",
   pincode: "560001",

@@ -218,7 +218,8 @@
       "message": "Sila tambah sekurang-kurangnya 10 aksara.",
       "consent": "Sila bersetuju supaya kami dapat menjawab permintaan anda.",
       "business": "Masukkan nama perniagaan anda.",
-      "generic": "Semak butiran anda."
+      "generic": "Semak butiran anda.",
+      "address": "Masukkan alamat penghantaran anda."
     },
     "requestErrors": {
       "notConnected": "Pertanyaan belum disambungkan. Sila cuba lagi kemudian.",
@@ -615,7 +616,8 @@
     "otherCity": "Bandar saya tiada dalam senarai",
     "customCity": "Bandar / pekan / kampung",
     "indiaPostal": "Kod PIN",
-    "locationData": "Data lokasi"
+    "locationData": "Data lokasi",
+    "submitPrivacy": "Dengan menghantar, anda membenarkan Floruvi menggunakan butiran anda untuk permintaan ini."
   },
   "contact": {
     "portraitAlt": "Sayur-sayuran segar dikumpulkan dalam peti kayu",

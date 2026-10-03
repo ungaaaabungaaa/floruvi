@@ -12,6 +12,7 @@ import { toAsciiDigits } from "@/lib/enquiry";
 import Link from "@/components/i18n/link";
 
 import {
+  ChevronDown,
   ArrowRight,
   ArrowLeft,
   CheckCircle2,
@@ -73,7 +74,6 @@ export function Checkout({
   } = useBasketReview(cart.items);
   const [details, setDetails] = useState(emptyDetails);
   const [cityChoice, setCityChoice] = useState("");
-  const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState("");
   const [error, setError] = useState("");
   const [status, setStatus] = useState<
@@ -107,7 +107,7 @@ export function Checkout({
     const parsed = basketEnquiry(
       submissionDetails,
       review.items,
-      consent,
+      true,
       website,
       {
         country: locale.countryNameEnglish,
@@ -154,7 +154,7 @@ export function Checkout({
     const parsed = paymentOrderRequest.safeParse({
       items: cart.items,
       details: submissionDetails,
-      consent,
+      consent: true,
       website,
     });
     if (!parsed.success) {
@@ -334,10 +334,11 @@ export function Checkout({
               <legend>{labels.headings[1]}</legend>
               <div className="checkout-fields">
                 <label>
-                  {labels.address} <small>{labels.optional}</small>
+                  <span className="checkout-field-label">{labels.address}</span>
                   <input
                     name="address"
                     autoComplete="street-address"
+                    required
                     maxLength={240}
                     value={details.address}
                     onChange={(e) => set("address", e.target.value)}
@@ -346,28 +347,33 @@ export function Checkout({
                 </label>
                 <div className="checkout-field-pair">
                   <label>
-                    {labels.region}
+                    <span className="checkout-field-label">
+                      {labels.region}
+                    </span>
                     {locale.domestic ? (
-                      <select
-                        name="region"
-                        autoComplete="address-level1"
-                        required
-                        value={details.region}
-                        onChange={(e) => {
-                          set("region", e.target.value);
-                          set("city", "");
-                          setCityChoice("");
-                        }}
-                      >
-                        <option value="" disabled>
-                          {labels.regionPlaceholder}
-                        </option>
-                        {indiaStates.map((state) => (
-                          <option key={state.code} value={state.name}>
-                            {state.name}
+                      <div className="checkout-select">
+                        <select
+                          name="region"
+                          autoComplete="address-level1"
+                          required
+                          value={details.region}
+                          onChange={(e) => {
+                            set("region", e.target.value);
+                            set("city", "");
+                            setCityChoice("");
+                          }}
+                        >
+                          <option value="" disabled>
+                            {labels.regionPlaceholder}
                           </option>
-                        ))}
-                      </select>
+                          {indiaStates.map((state) => (
+                            <option key={state.code} value={state.name}>
+                              {state.name}
+                            </option>
+                          ))}
+                        </select>
+                        <ChevronDown size={16} aria-hidden="true" />
+                      </div>
                     ) : (
                       <input
                         name="region"
@@ -382,36 +388,39 @@ export function Checkout({
                     )}
                   </label>
                   <label>
-                    {labels.city}
+                    <span className="checkout-field-label">{labels.city}</span>
                     {locale.domestic ? (
-                      <select
-                        name="city-choice"
-                        autoComplete={
-                          cityChoice === "other" ? "off" : "address-level2"
-                        }
-                        required
-                        disabled={!details.region}
-                        value={cityChoice}
-                        onChange={(e) => {
-                          setCityChoice(e.target.value);
-                          set(
-                            "city",
-                            e.target.value === "other" ? "" : e.target.value,
-                          );
-                        }}
-                      >
-                        <option value="" disabled>
-                          {details.region
-                            ? labels.cityPlaceholder
-                            : labels.chooseStateFirst}
-                        </option>
-                        {cities.map((city) => (
-                          <option key={city} value={city}>
-                            {city}
+                      <div className="checkout-select">
+                        <select
+                          name="city-choice"
+                          autoComplete={
+                            cityChoice === "other" ? "off" : "address-level2"
+                          }
+                          required
+                          disabled={!details.region}
+                          value={cityChoice}
+                          onChange={(e) => {
+                            setCityChoice(e.target.value);
+                            set(
+                              "city",
+                              e.target.value === "other" ? "" : e.target.value,
+                            );
+                          }}
+                        >
+                          <option value="" disabled>
+                            {details.region
+                              ? labels.cityPlaceholder
+                              : labels.chooseStateFirst}
                           </option>
-                        ))}
-                        <option value="other">{labels.otherCity}</option>
-                      </select>
+                          {cities.map((city) => (
+                            <option key={city} value={city}>
+                              {city}
+                            </option>
+                          ))}
+                          <option value="other">{labels.otherCity}</option>
+                        </select>
+                        <ChevronDown size={16} aria-hidden="true" />
+                      </div>
                     ) : (
                       <input
                         name="city"
@@ -463,18 +472,6 @@ export function Checkout({
                   />
                 </label>
               </div>
-              <label className="checkout-consent">
-                <input
-                  type="checkbox"
-                  checked={consent}
-                  onChange={(e) => setConsent(e.target.checked)}
-                  required
-                />
-                <span>
-                  {payable ? labels.consentPay : labels.consent}{" "}
-                  <Link href="/privacy">{labels.privacy}</Link>
-                </span>
-              </label>
               <div className="honeypot" aria-hidden="true">
                 <label>
                   {labels.honeypot}
@@ -518,6 +515,10 @@ export function Checkout({
                   </>
                 )}
               </button>
+              <p className="checkout-privacy-note">
+                {labels.submitPrivacy}{" "}
+                <Link href="/privacy">{labels.privacy}</Link>
+              </p>
               <p className="checkout-final-note">
                 {payable ? labels.payNote : labels.finalNote}
               </p>

@@ -191,7 +191,7 @@ test("India availability requests require ten mobile digits while export numbers
     name: "Test Buyer",
     email: "",
     phone: "9876543210",
-    address: "",
+    address: "12 Farm Road",
     city: "Pune",
     region: "Maharashtra",
     pincode: "411001",
@@ -223,4 +223,27 @@ test("India availability requests require ten mobile digits while export numbers
     }).success,
     true,
   );
+});
+
+test("checkout availability requests require a non-blank delivery address", () => {
+  const details = {
+    name: "Test Buyer",
+    email: "",
+    phone: "+919876543210",
+    address: "12 Farm Road",
+    city: "Pune",
+    region: "Maharashtra",
+    pincode: "411001",
+    notes: "",
+  };
+  for (const address of ["", "   "]) {
+    const parsed = basketEnquiry(
+      { ...details, address },
+      [{ name: "Basil", quantity: 1 }],
+      true,
+    );
+    assert.equal(parsed.success, false);
+    if (!parsed.success)
+      assert.equal(parsed.error.issues[0].path[0], "address");
+  }
 });

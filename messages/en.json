@@ -222,7 +222,8 @@
       "message": "Please add at least 10 characters.",
       "consent": "Please agree so we can respond to your request.",
       "business": "Enter your business name.",
-      "generic": "Check your details."
+      "generic": "Check your details.",
+      "address": "Enter your delivery address."
     },
     "requestErrors": {
       "notConnected": "Enquiries are not connected yet. Please try again later.",
@@ -620,7 +621,8 @@
     "otherCity": "My city is not listed",
     "customCity": "City / town / village",
     "indiaPostal": "PIN code",
-    "locationData": "Location data"
+    "locationData": "Location data",
+    "submitPrivacy": "By submitting, you allow Floruvi to use your details for this request."
   },
   "contact": {
     "portraitAlt": "Fresh vegetables gathered in a wooden crate",

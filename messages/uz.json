@@ -222,7 +222,8 @@
       "message": "Kamida 10 ta belgi kiriting.",
       "consent": "Soʻrovingizga javob bera olishimiz uchun roziligingizni bildiring.",
       "business": "Biznesingiz nomini kiriting.",
-      "generic": "Maʼlumotlaringizni tekshiring."
+      "generic": "Maʼlumotlaringizni tekshiring.",
+      "address": "Yetkazib berish manzilini kiriting."
     },
     "requestErrors": {
       "notConnected": "Murojaatlar hali ulanmagan. Birozdan soʻng qayta urinib koʻring.",
@@ -620,7 +621,8 @@
     "otherCity": "Mening shahrim ro‘yxatda yo‘q",
     "customCity": "Shahar / shaharcha / qishloq",
     "indiaPostal": "PIN kodi",
-    "locationData": "Joylashuv ma’lumotlari"
+    "locationData": "Joylashuv ma’lumotlari",
+    "submitPrivacy": "Yuborish orqali Floruviga ushbu so‘rov uchun ma’lumotlaringizdan foydalanishga ruxsat berasiz."
   },
   "contact": {
     "portraitAlt": "Yogʻoch qutida yigʻilgan yangi sabzavotlar",

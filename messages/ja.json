@@ -218,7 +218,8 @@
       "message": "10文字以上で入力してください。",
       "consent": "ご依頼にお応えするため、同意をお願いします。",
       "business": "会社名・店舗名を入力してください。",
-      "generic": "入力内容をご確認ください。"
+      "generic": "入力内容をご確認ください。",
+      "address": "配送先住所を入力してください。"
     },
     "requestErrors": {
       "notConnected": "お問い合わせの受付はまだ準備中です。しばらくしてから、もう一度お試しください。",
@@ -615,7 +616,8 @@
     "otherCity": "都市が一覧にありません",
     "customCity": "市・町・村",
     "indiaPostal": "郵便番号",
-    "locationData": "地域データ"
+    "locationData": "地域データ",
+    "submitPrivacy": "送信すると、このリクエストのためにFloruviが入力情報を使用することに同意したものとします。"
   },
   "contact": {
     "portraitAlt": "木箱に集められた新鮮な野菜",

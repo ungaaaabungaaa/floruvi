@@ -222,7 +222,8 @@
       "message": "Voeg minstens 10 tekens toe.",
       "consent": "Ga akkoord zodat we kunnen reageren op je aanvraag.",
       "business": "Vul je bedrijfsnaam in.",
-      "generic": "Controleer je gegevens."
+      "generic": "Controleer je gegevens.",
+      "address": "Voer uw bezorgadres in."
     },
     "requestErrors": {
       "notConnected": "Aanvragen zijn nog niet verbonden. Probeer het later opnieuw.",
@@ -620,7 +621,8 @@
     "otherCity": "Mijn stad staat niet in de lijst",
     "customCity": "Stad / plaats / dorp",
     "indiaPostal": "PIN-code",
-    "locationData": "Locatiegegevens"
+    "locationData": "Locatiegegevens",
+    "submitPrivacy": "Door te verzenden geeft u Floruvi toestemming om uw gegevens voor dit verzoek te gebruiken."
   },
   "contact": {
     "portraitAlt": "Verse groenten verzameld in een houten krat",
