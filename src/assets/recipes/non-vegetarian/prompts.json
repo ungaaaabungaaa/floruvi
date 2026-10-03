@@ -1,0 +1,892 @@
+[
+  {
+    "slug": "lemon-garlic-chicken-carrot-beans",
+    "prompt": "Subject: Lemon Garlic Chicken Carrot Beans. Finished dish: a skillet meal, with fully cooked chicken, carrot batons, green beans, parsley. Flavour: lemon and garlic.   ",
+    "asset": "lemon-garlic-chicken-carrot-beans.webp",
+    "sha256": "e00d897542b541b8b86a91f8e4979f1b87912b6c0e038253518a0d2c0bdaa98f",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-spinach-tomato-curry",
+    "prompt": "Subject: Chicken Spinach Tomato Curry. Finished dish: a curry, with fully cooked chicken, spinach, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "chicken-spinach-tomato-curry.webp",
+    "sha256": "7144bbee0e81e92560f5c6e9fa71664e096fdbec8e82205a3796a65754d6b11c",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-methi-yoghurt-curry",
+    "prompt": "Subject: Chicken Methi Yoghurt Curry. Finished dish: a curry, with fully cooked chicken, fenugreek leaves, tomatoes, coriander. Flavour: plain yoghurt and cumin.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "chicken-methi-yoghurt-curry.webp",
+    "sha256": "8506fffe6c2d291c8b85afdeb1d6bc40b18d8d27a83f1c1bae5b0c73ef29ea98",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-bell-pepper-stir-fry",
+    "prompt": "Subject: Chicken Bell Pepper Stir Fry. Finished dish: a quick stir-fry, with fully cooked chicken, bell peppers, spring onions, ginger. Flavour: ginger and a light soy sauce.   ",
+    "asset": "chicken-bell-pepper-stir-fry.webp",
+    "sha256": "d2bdb48bedf443d27aff3ed0759796f86dc75f6ca6d400f13786bc48a4550d45",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "basil-chicken-zucchini-pasta",
+    "prompt": "Subject: Basil Chicken Zucchini Pasta. Finished dish: a pasta bowl, with fully cooked chicken, zucchini, cherry tomatoes, basil leaves, pasta. Flavour: garlic and fresh herbs.   ",
+    "asset": "basil-chicken-zucchini-pasta.webp",
+    "sha256": "8474a53963c7206a9804f3b1e59e30d24fd274f4b2df3d0d22a2851c6b340b8c",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "rosemary-chicken-potato-tray",
+    "prompt": "Subject: Rosemary Chicken Potato Tray. Finished dish: an oven tray bake, with fully cooked chicken, potato cubes, carrot batons, rosemary. Flavour: lemon and garlic.   ",
+    "asset": "rosemary-chicken-potato-tray.webp",
+    "sha256": "c31bd043c31d25593e587cbbf7ae5fcb1a72afd22b3b37c4485d6b222ba32544",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-cucumber-mint-wraps",
+    "prompt": "Subject: Chicken Cucumber Mint Wraps. Finished dish: fresh wraps, with fully cooked chicken, cucumber, romaine lettuce, mint, flatbread wraps. Flavour: plain yoghurt and cumin.   ",
+    "asset": "chicken-cucumber-mint-wraps.webp",
+    "sha256": "2bbacf7968b7020b2160fb3030c9793d3307f6f8a591557e650dfbb88ecd9612",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-bok-choy-noodle-soup",
+    "prompt": "Subject: Chicken Bok Choy Noodle Soup. Finished dish: a warming soup, with fully cooked chicken, bok choy, carrot batons, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "chicken-bok-choy-noodle-soup.webp",
+    "sha256": "397e2542b04223402910e06f7be0831bde520d61ec3e78cf3ee5abba6ede33d3",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-carrot-coriander-rice",
+    "prompt": "Subject: Chicken Carrot Coriander Rice. Finished dish: a rice bowl, with fully cooked chicken, carrot batons, green beans, coriander, basmati rice. Flavour: toasted cumin.   ",
+    "asset": "chicken-carrot-coriander-rice.webp",
+    "sha256": "56f4931128a84877a332e57ca0621dec51c6d6ba56cbca1b75edaebe342fcca3",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-rocket-tomato-salad",
+    "prompt": "Subject: Chicken Rocket Tomato Salad. Finished dish: a fresh salad, with fully cooked chicken, rocket leaves, cherry tomatoes, cucumber. Flavour: lemon and garlic.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "chicken-rocket-tomato-salad.webp",
+    "sha256": "20b624d0400c845156885667b10c59f9c9afd57cb729d36346797b25554152eb",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-coconut-spinach-curry",
+    "prompt": "Subject: Chicken Coconut Spinach Curry. Finished dish: a curry, with fully cooked chicken, spinach, tomatoes, ginger. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "chicken-coconut-spinach-curry.webp",
+    "sha256": "107927c9a647d97661c7a1138597e08ba49998fc2018691304412f536b505f69",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-pepper-potato-skillet",
+    "prompt": "Subject: Chicken Pepper Potato Skillet. Finished dish: a skillet meal, with fully cooked chicken, potato cubes, bell peppers, parsley. Flavour: black pepper and garlic.   ",
+    "asset": "chicken-pepper-potato-skillet.webp",
+    "sha256": "35c431284aae66131ace909247272647a9b4fcae45a50b78022b25ce72dacb1c",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-lettuce-radish-cups",
+    "prompt": "Subject: Chicken Lettuce Radish Cups. Finished dish: fresh wraps, with fully cooked chicken, butterhead lettuce, radish, mint. Flavour: lime and cumin.   ",
+    "asset": "chicken-lettuce-radish-cups.webp",
+    "sha256": "b6c6c17f3ab781d9e5150246919da87c4f9d7bb5e129cbbf81debcc7d9a5ed85",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-celery-herb-soup",
+    "prompt": "Subject: Chicken Celery Herb Soup. Finished dish: a warming soup, with fully cooked chicken, celery, carrot batons, thyme, noodles. Flavour: garlic and fresh herbs.   ",
+    "asset": "chicken-celery-herb-soup.webp",
+    "sha256": "d250f84a6ac19e3d72684823413e180bad82947791d661f0e7611edd931114a2",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-tomato-basil-rice",
+    "prompt": "Subject: Chicken Tomato Basil Rice. Finished dish: a rice bowl, with fully cooked chicken, tomatoes, basil leaves, spring onions, basmati rice. Flavour: garlic and fresh herbs.   ",
+    "asset": "chicken-tomato-basil-rice.webp",
+    "sha256": "21e0168ea6f210f9622ad975b67f522e2476ceadd618bd74e64d01dd9fcd44f6",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-ginger-napa-noodles",
+    "prompt": "Subject: Chicken Ginger Napa Noodles. Finished dish: a noodle bowl, with fully cooked chicken, napa cabbage, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "chicken-ginger-napa-noodles.webp",
+    "sha256": "48e2222d212a3286bf0f4fa1014c08347584ba7a3c6c69b6223a94007d95bf26",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-mustard-greens-curry",
+    "prompt": "Subject: Chicken Mustard Greens Curry. Finished dish: a curry, with fully cooked chicken, mustard greens, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "chicken-mustard-greens-curry.webp",
+    "sha256": "243d66c7cff0bd9b241c34c19951c1c00e6e8b34c197a904be6ccbdcf2364cd7",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-beetroot-yoghurt-salad",
+    "prompt": "Subject: Chicken Beetroot Yoghurt Salad. Finished dish: a fresh salad, with fully cooked chicken, cooked beetroot, cucumber, dill. Flavour: plain yoghurt and cumin.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "chicken-beetroot-yoghurt-salad.webp",
+    "sha256": "e285065898f8f9dec81097d5b3aa75361c3adf6e0f78e42fcac4510e788d5b70",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-eggplant-tomato-bake",
+    "prompt": "Subject: Chicken Eggplant Tomato Bake. Finished dish: an oven tray bake, with fully cooked chicken, eggplant, cherry tomatoes, oregano. Flavour: garlic and fresh herbs.   ",
+    "asset": "chicken-eggplant-tomato-bake.webp",
+    "sha256": "5cda2fc554930360052ef20c119ddae89c3defc8288296d246d8e23ad6da5748",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-lemongrass-coconut-soup",
+    "prompt": "Subject: Chicken Lemongrass Coconut Soup. Finished dish: a warming soup, with fully cooked chicken, lemongrass broth, bok choy, ginger, noodles. Flavour: coconut milk and turmeric.   ",
+    "asset": "chicken-lemongrass-coconut-soup.webp",
+    "sha256": "035a78a16d86e871ca091c08ebf1992368c5e7a08354530ab8da19061fdb2065",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-chilli-green-bean-toss",
+    "prompt": "Subject: Chicken Chilli Green Bean Toss. Finished dish: a quick stir-fry, with fully cooked chicken, green beans, bell peppers, green chilli. Flavour: ginger and a light soy sauce.   ",
+    "asset": "chicken-chilli-green-bean-toss.webp",
+    "sha256": "de4a3bf2a0527a8566a13e711e8906b360711fa12da32c03db42de9c93e416ff",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-spinach-lemon-pasta",
+    "prompt": "Subject: Chicken Spinach Lemon Pasta. Finished dish: a pasta bowl, with fully cooked chicken, spinach, zucchini, parsley, pasta. Flavour: lemon and garlic.   ",
+    "asset": "chicken-spinach-lemon-pasta.webp",
+    "sha256": "3f56e9965c6e4a7a90012b2d773d99fa1e3d43d6be237839811d9d51c06470e8",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-mint-potato-rice",
+    "prompt": "Subject: Chicken Mint Potato Rice. Finished dish: a rice bowl, with fully cooked chicken, potato cubes, tomatoes, mint, basmati rice. Flavour: warming cumin and coriander.   ",
+    "asset": "chicken-mint-potato-rice.webp",
+    "sha256": "0a111435eaa341b6e3f59514d59e3870356f93eed762e90bbd20de5e1ec706af",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-kale-white-bean-stew",
+    "prompt": "Subject: Chicken Kale White Bean Stew. Finished dish: a slow-simmered stew, with fully cooked chicken, baby kale, carrot batons, tomatoes, white beans. Flavour: garlic and fresh herbs.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "chicken-kale-white-bean-stew.webp",
+    "sha256": "bb551d9801a3ac97ab9952abb8338fada0035673c9386efbf1033b32d3bcfe07",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "chicken-coriander-tomato-skewers",
+    "prompt": "Subject: Chicken Coriander Tomato Skewers. Finished dish: grilled skewers, with fully cooked chicken, bell peppers, cherry tomatoes, coriander. Flavour: plain yoghurt and cumin. Serve on metal skewers with grilled peppers and tomatoes.  ",
+    "asset": "chicken-coriander-tomato-skewers.webp",
+    "sha256": "b8c0fbc7059702b01e547e6cc0b11d4b707766fb84342e014894cb15bc0a0fdb",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "dill-fish-potato-tray",
+    "prompt": "Subject: Dill Fish Potato Tray. Finished dish: an oven tray bake, with fully cooked fish, potato cubes, cherry tomatoes, dill. Flavour: lemon and garlic.   ",
+    "asset": "dill-fish-potato-tray.webp",
+    "sha256": "34e37ae605e25c3f39220122dc1c01e43feb4987e147ec53d997aa1ec01aff4e",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-tomato-coconut-curry",
+    "prompt": "Subject: Fish Tomato Coconut Curry. Finished dish: a curry, with fully cooked fish, tomatoes, ginger, coriander. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "fish-tomato-coconut-curry.webp",
+    "sha256": "6f9bc4452adf50494d524f5f7c26dd9910b8b291e1ab24b9f77c2e32068ce4f9",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-spinach-garlic-skillet",
+    "prompt": "Subject: Fish Spinach Garlic Skillet. Finished dish: a skillet meal, with fully cooked fish, spinach, cherry tomatoes, parsley. Flavour: garlic and fresh herbs.   ",
+    "asset": "fish-spinach-garlic-skillet.webp",
+    "sha256": "7605fdbfe43f156f6df5f9b776b3f3f3ca979925c25e1ba266d2dc78bcb406a6",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-cucumber-mint-wraps",
+    "prompt": "Subject: Fish Cucumber Mint Wraps. Finished dish: fresh wraps, with fully cooked fish, cucumber, romaine lettuce, mint, flatbread wraps. Flavour: plain yoghurt and cumin.   ",
+    "asset": "fish-cucumber-mint-wraps.webp",
+    "sha256": "08f7c945a880445f58a5a0c6c3a5a81eb1368ed784beaece5bce15b1c8eeecde",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-bok-choy-ginger-broth",
+    "prompt": "Subject: Fish Bok Choy Ginger Broth. Finished dish: a warming soup, with fully cooked fish, bok choy, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "fish-bok-choy-ginger-broth.webp",
+    "sha256": "ac3f1441459b913d850dfa6db6b91e056baade89f3a1bb1c5e6875f8f9c15ae5",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-bell-pepper-tomato-rice",
+    "prompt": "Subject: Fish Bell Pepper Tomato Rice. Finished dish: a rice bowl, with fully cooked fish, bell peppers, tomatoes, coriander, basmati rice. Flavour: toasted cumin.   ",
+    "asset": "fish-bell-pepper-tomato-rice.webp",
+    "sha256": "2d26922a04378b14ebae42a4ac119d8b992cc2450cb7fc82ecb9bc8a1fd77537",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-rocket-radish-salad",
+    "prompt": "Subject: Fish Rocket Radish Salad. Finished dish: a fresh salad, with fully cooked fish, rocket leaves, radish, cucumber. Flavour: lemon and garlic.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "fish-rocket-radish-salad.webp",
+    "sha256": "4dd33a9c635224a204c882ae196acb7d49e2e15828b1f91b15dc12df4e92b0d1",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-basil-tomato-pasta",
+    "prompt": "Subject: Fish Basil Tomato Pasta. Finished dish: a pasta bowl, with fully cooked fish, cherry tomatoes, zucchini, basil leaves, pasta. Flavour: garlic and fresh herbs.   ",
+    "asset": "fish-basil-tomato-pasta.webp",
+    "sha256": "ba93317b890c419a1774e8b38d9d8505e98e7e5f68eb9667317b3186030b91aa",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-turmeric-potato-curry",
+    "prompt": "Subject: Fish Turmeric Potato Curry. Finished dish: a curry, with fully cooked fish, potato cubes, tomatoes, turmeric. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "fish-turmeric-potato-curry.webp",
+    "sha256": "d2313a1c081798d185555fcfd512cb9f36dcbaec804d6f72bb592acc31b17194",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-lemongrass-coconut-soup",
+    "prompt": "Subject: Fish Lemongrass Coconut Soup. Finished dish: a warming soup, with fully cooked fish, lemongrass broth, carrot batons, ginger, noodles. Flavour: coconut milk and turmeric.   ",
+    "asset": "fish-lemongrass-coconut-soup.webp",
+    "sha256": "254118f73938a191ec21e025cc059311f0d4e122e8ef24910c06370ba86d3fdb",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-rosemary-zucchini-bake",
+    "prompt": "Subject: Fish Rosemary Zucchini Bake. Finished dish: an oven tray bake, with fully cooked fish, zucchini, cherry tomatoes, rosemary. Flavour: lemon and garlic.   ",
+    "asset": "fish-rosemary-zucchini-bake.webp",
+    "sha256": "a29f185cf884bc7751dd1ae846c56eed09e4835033374b94063f1cfeb135b9b2",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-napa-spring-onion-noodles",
+    "prompt": "Subject: Fish Napa Spring Onion Noodles. Finished dish: a noodle bowl, with fully cooked fish, napa cabbage, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "fish-napa-spring-onion-noodles.webp",
+    "sha256": "8232164dc24f310483fd68a7c9ee5a253cc1bde8ae52e3386f4f22737b763f07",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-green-bean-pepper-skillet",
+    "prompt": "Subject: Fish Green Bean Pepper Skillet. Finished dish: a skillet meal, with fully cooked fish, green beans, bell peppers, parsley. Flavour: black pepper and garlic.   ",
+    "asset": "fish-green-bean-pepper-skillet.webp",
+    "sha256": "24664f54be26de8bb61092c40b1103f2712ded72b07f4c79196df5c94f85f156",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-methi-tomato-curry",
+    "prompt": "Subject: Fish Methi Tomato Curry. Finished dish: a curry, with fully cooked fish, fenugreek leaves, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "fish-methi-tomato-curry.webp",
+    "sha256": "c56b5f13f09157f0986f6343dc4e25660d30d588a140a3e12fbab6d180a4d902",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-lettuce-carrot-cups",
+    "prompt": "Subject: Fish Lettuce Carrot Cups. Finished dish: fresh wraps, with fully cooked fish, butterhead lettuce, carrot batons, mint. Flavour: lime and cumin.   ",
+    "asset": "fish-lettuce-carrot-cups.webp",
+    "sha256": "491c89746ca1672767cf8639fdd32782381a4f064132ccef702fab54dbb69201",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-celery-tomato-stew",
+    "prompt": "Subject: Fish Celery Tomato Stew. Finished dish: a slow-simmered stew, with fully cooked fish, celery, tomatoes, thyme. Flavour: garlic and fresh herbs.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "fish-celery-tomato-stew.webp",
+    "sha256": "deb2e1d4db43139e05fc4848c8e4e5b9063b35fd18532b28f4b4bdd7cd96874b",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-beetroot-dill-salad",
+    "prompt": "Subject: Fish Beetroot Dill Salad. Finished dish: a fresh salad, with fully cooked fish, cooked beetroot, cucumber, dill. Flavour: plain yoghurt and cumin.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "fish-beetroot-dill-salad.webp",
+    "sha256": "716d229f785aa9c9e34b2fd353b7918b68721d917f17dd150a44c261bcccb96b",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-coriander-pepper-skewers",
+    "prompt": "Subject: Fish Coriander Pepper Skewers. Finished dish: grilled skewers, with fully cooked fish, bell peppers, cherry tomatoes, coriander. Flavour: lemon and garlic. Serve on metal skewers with grilled peppers and tomatoes.  ",
+    "asset": "fish-coriander-pepper-skewers.webp",
+    "sha256": "ca4b67f5f17221ffd82fe6ffedd546d3af92885ad9e0901a401c9765f537c05a",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-spinach-coconut-rice",
+    "prompt": "Subject: Fish Spinach Coconut Rice. Finished dish: a rice bowl, with fully cooked fish, spinach, spring onions, ginger, basmati rice. Flavour: coconut milk and turmeric.   ",
+    "asset": "fish-spinach-coconut-rice.webp",
+    "sha256": "19293e433eb978781bf9fe8f259c00330e674aafa4b08a054375b855f8de9137",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "fish-eggplant-basil-bake",
+    "prompt": "Subject: Fish Eggplant Basil Bake. Finished dish: an oven tray bake, with fully cooked fish, eggplant, cherry tomatoes, basil leaves. Flavour: garlic and fresh herbs.   ",
+    "asset": "fish-eggplant-basil-bake.webp",
+    "sha256": "9fc067252a6e63e4cffec5177fa12115f0d2f90bd6ca50980eab86a1dbdec2b0",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-garlic-green-bean-skillet",
+    "prompt": "Subject: Prawn Garlic Green Bean Skillet. Finished dish: a skillet meal, with fully cooked prawns, green beans, cherry tomatoes, parsley. Flavour: garlic and fresh herbs.   ",
+    "asset": "prawn-garlic-green-bean-skillet.webp",
+    "sha256": "9c60b715f12bdb67ffb50f07b91491bc836de3932cff73fb06c23659c89e7936",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-coconut-tomato-curry",
+    "prompt": "Subject: Prawn Coconut Tomato Curry. Finished dish: a curry, with fully cooked prawns, tomatoes, ginger, coriander. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "prawn-coconut-tomato-curry.webp",
+    "sha256": "b0f33ae39776e36ac5d8793c8a69b5cc4aed5c383e758815c820680675be2f37",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-bok-choy-stir-fry",
+    "prompt": "Subject: Prawn Bok Choy Stir Fry. Finished dish: a quick stir-fry, with fully cooked prawns, bok choy, bell peppers, ginger. Flavour: ginger and a light soy sauce.   ",
+    "asset": "prawn-bok-choy-stir-fry.webp",
+    "sha256": "deaee0a92e3b76e45942be7749d77a490c9ac0e079d1414426fa0780f37b0c7a",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-basil-zucchini-pasta",
+    "prompt": "Subject: Prawn Basil Zucchini Pasta. Finished dish: a pasta bowl, with fully cooked prawns, zucchini, cherry tomatoes, basil leaves, pasta. Flavour: garlic and fresh herbs.   ",
+    "asset": "prawn-basil-zucchini-pasta.webp",
+    "sha256": "0aea66069ed0eebd259e7ed20478f48259daacba2a70518220d1e6f05a950207",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-cucumber-mint-salad",
+    "prompt": "Subject: Prawn Cucumber Mint Salad. Finished dish: a fresh salad, with fully cooked prawns, cucumber, romaine lettuce, mint. Flavour: lime and cumin.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "prawn-cucumber-mint-salad.webp",
+    "sha256": "f046f0ff37672f28b656d4d9826a39e0b020a9db367993a84c0c33278029ef13",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-pepper-spring-onion-rice",
+    "prompt": "Subject: Prawn Pepper Spring Onion Rice. Finished dish: a rice bowl, with fully cooked prawns, bell peppers, spring onions, coriander, basmati rice. Flavour: toasted cumin.   ",
+    "asset": "prawn-pepper-spring-onion-rice.webp",
+    "sha256": "ca001b03452b6deaa0c7264478ea978c9bc11706a3978c67265104c3adb92dc8",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-lemongrass-noodle-soup",
+    "prompt": "Subject: Prawn Lemongrass Noodle Soup. Finished dish: a warming soup, with fully cooked prawns, lemongrass broth, bok choy, ginger, noodles. Flavour: coconut milk and turmeric.   ",
+    "asset": "prawn-lemongrass-noodle-soup.webp",
+    "sha256": "89b76560d44f0d1063ca4824500a6f4c74d24c8818a2601c4730c79fb4f83936",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-lettuce-radish-wraps",
+    "prompt": "Subject: Prawn Lettuce Radish Wraps. Finished dish: fresh wraps, with fully cooked prawns, butterhead lettuce, radish, mint, flatbread wraps. Flavour: plain yoghurt and cumin.   ",
+    "asset": "prawn-lettuce-radish-wraps.webp",
+    "sha256": "0876632a9ca1302a654a4cd11cfa849813db417f65a3bc02bf13f02f22b6937e",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-spinach-tomato-skillet",
+    "prompt": "Subject: Prawn Spinach Tomato Skillet. Finished dish: a skillet meal, with fully cooked prawns, spinach, cherry tomatoes, parsley. Flavour: lemon and garlic.   ",
+    "asset": "prawn-spinach-tomato-skillet.webp",
+    "sha256": "c29cfd42238881999299b6dfc2e42f0839db720f34f2a469a1bd1987ccf08938",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-ginger-napa-noodles",
+    "prompt": "Subject: Prawn Ginger Napa Noodles. Finished dish: a noodle bowl, with fully cooked prawns, napa cabbage, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "prawn-ginger-napa-noodles.webp",
+    "sha256": "4f4de96ccb50b30c26e42854f67d5098685fb3d8e61c4686dcb4ba0b53326cbc",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-turmeric-potato-curry",
+    "prompt": "Subject: Prawn Turmeric Potato Curry. Finished dish: a curry, with fully cooked prawns, potato cubes, tomatoes, turmeric. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "prawn-turmeric-potato-curry.webp",
+    "sha256": "7ce16506245c6ac7c62ca40ce312464448e2dbf5d51848dbdafd63584c923568",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-rosemary-carrot-tray",
+    "prompt": "Subject: Prawn Rosemary Carrot Tray. Finished dish: an oven tray bake, with fully cooked prawns, carrot batons, zucchini, rosemary. Flavour: lemon and garlic.   ",
+    "asset": "prawn-rosemary-carrot-tray.webp",
+    "sha256": "28d47128922402c43d890b88babce912e7e166fe642edf2bb10f936a04877fb0",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-rocket-tomato-salad",
+    "prompt": "Subject: Prawn Rocket Tomato Salad. Finished dish: a fresh salad, with fully cooked prawns, rocket leaves, cherry tomatoes, cucumber. Flavour: lemon and garlic.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "prawn-rocket-tomato-salad.webp",
+    "sha256": "0a92f100a06ff05fbe65ac3b6aa70ff2263500cdfc0d61e70fbced71b086033c",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-chilli-pepper-skewers",
+    "prompt": "Subject: Prawn Chilli Pepper Skewers. Finished dish: grilled skewers, with fully cooked prawns, bell peppers, cherry tomatoes, green chilli. Flavour: lime and cumin. Serve on metal skewers with grilled peppers and tomatoes.  ",
+    "asset": "prawn-chilli-pepper-skewers.webp",
+    "sha256": "a03128c4f40beeb328aabac5cbec953ec3af398602b6facd633f64ec3e094e3f",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-celery-tomato-stew",
+    "prompt": "Subject: Prawn Celery Tomato Stew. Finished dish: a slow-simmered stew, with fully cooked prawns, celery, tomatoes, thyme. Flavour: garlic and fresh herbs.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "prawn-celery-tomato-stew.webp",
+    "sha256": "c8e57d4ad24a2d121df498e824cbbe18f72444b306fde1c0fd307292725a94f0",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "prawn-methi-coconut-curry",
+    "prompt": "Subject: Prawn Methi Coconut Curry. Finished dish: a curry, with fully cooked prawns, fenugreek leaves, tomatoes, ginger. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "prawn-methi-coconut-curry.webp",
+    "sha256": "3eab78769f25c0d0b7dbfd52d6eb88244f7d7422498ff3f0f337b2396e8ce03f",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-spinach-tomato-curry",
+    "prompt": "Subject: Mutton Spinach Tomato Curry. Finished dish: a curry, with fully cooked mutton, spinach, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-spinach-tomato-curry.webp",
+    "sha256": "92c346e1353839ab40b7327db6774cfbf3313fe8d00852c465f44a7786cab859",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-potato-pepper-stew",
+    "prompt": "Subject: Mutton Potato Pepper Stew. Finished dish: a slow-simmered stew, with fully cooked mutton, potato cubes, bell peppers, thyme. Flavour: black pepper and garlic.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-potato-pepper-stew.webp",
+    "sha256": "2ec5de944d7c9b1ff60d092d5a29f55d90c6bea82e6cf58852e87faa9e2f9272",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-methi-yoghurt-curry",
+    "prompt": "Subject: Mutton Methi Yoghurt Curry. Finished dish: a curry, with fully cooked mutton, fenugreek leaves, tomatoes, coriander. Flavour: plain yoghurt and cumin.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-methi-yoghurt-curry.webp",
+    "sha256": "30506321d9c3879d01e577f2451b6722f387610c2ee43fe5af4d14283187a7bc",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-carrot-celery-soup",
+    "prompt": "Subject: Mutton Carrot Celery Soup. Finished dish: a warming soup, with fully cooked mutton, carrot batons, celery, parsley, noodles. Flavour: garlic and fresh herbs.   ",
+    "asset": "mutton-carrot-celery-soup.webp",
+    "sha256": "4307861a5e68b6cd8510e2e7d77b42802fd0fd4781726cdefefa7c79d31ccec4",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-mint-tomato-rice",
+    "prompt": "Subject: Mutton Mint Tomato Rice. Finished dish: a rice bowl, with fully cooked mutton, tomatoes, carrot batons, mint, basmati rice. Flavour: warming cumin and coriander.   ",
+    "asset": "mutton-mint-tomato-rice.webp",
+    "sha256": "1d77a0468d4284e900e5affb1d63210a87ac28dc84d53a0dc96e36aefbdc6dc4",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-spinach-skillet",
+    "prompt": "Subject: Mutton Keema Spinach Skillet. Finished dish: a keema skillet, with fully cooked crumbled minced mutton, spinach, tomatoes, coriander. Flavour: warming cumin and coriander.   ",
+    "asset": "mutton-keema-spinach-skillet.webp",
+    "sha256": "f0ee027ccc6a3c33ec4715d8d754f924ced006af2ad438d459bcafd83fbfc168",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-lettuce-wraps",
+    "prompt": "Subject: Mutton Keema Lettuce Wraps. Finished dish: keema wraps, with fully cooked crumbled minced mutton, romaine lettuce, cucumber, mint, flatbread wraps. Flavour: plain yoghurt and cumin.   ",
+    "asset": "mutton-keema-lettuce-wraps.webp",
+    "sha256": "d7eeefe8b63f3c7b8a19246c366aeaed291a97c52bb9f106c5f578bfbdb0f9df",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-pepper-pasta",
+    "prompt": "Subject: Mutton Keema Pepper Pasta. Finished dish: keema pasta, with fully cooked crumbled minced mutton, bell peppers, tomatoes, oregano, pasta. Flavour: garlic and fresh herbs.   ",
+    "asset": "mutton-keema-pepper-pasta.webp",
+    "sha256": "894ebd471a9e7ba817b4ca9ea9fc6e80726fe91da8f4e8534aaa22c1426d5602",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-potato-bowl",
+    "prompt": "Subject: Mutton Keema Potato Bowl. Finished dish: a keema skillet, with fully cooked crumbled minced mutton, potato cubes, tomatoes, coriander. Flavour: toasted cumin.   ",
+    "asset": "mutton-keema-potato-bowl.webp",
+    "sha256": "bc444c4c712b0a452745f666226db5b6726b79b16f6a640d21464b892bd25dd6",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-coconut-eggplant-curry",
+    "prompt": "Subject: Mutton Coconut Eggplant Curry. Finished dish: a curry, with fully cooked mutton, eggplant, tomatoes, ginger. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-coconut-eggplant-curry.webp",
+    "sha256": "ae6f6fc6365e7287affacaba0f1c52b8896cb536e236657e27b5e22650fd9939",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-mustard-greens-stew",
+    "prompt": "Subject: Mutton Mustard Greens Stew. Finished dish: a slow-simmered stew, with fully cooked mutton, mustard greens, tomatoes, ginger. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-mustard-greens-stew.webp",
+    "sha256": "33faf955586e438158ece33cade3ad490a932d258fc878422297415ae9334b8f",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-rosemary-root-stew",
+    "prompt": "Subject: Mutton Rosemary Root Stew. Finished dish: a slow-simmered stew, with fully cooked mutton, carrot batons, potato cubes, rosemary. Flavour: garlic and fresh herbs.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-rosemary-root-stew.webp",
+    "sha256": "1e6d4edb0cf48aa07be61a375a508c1ead5dddd6bc7ee27bd51c857c554fca82",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-napa-noodles",
+    "prompt": "Subject: Mutton Keema Napa Noodles. Finished dish: keema noodles, with fully cooked crumbled minced mutton, napa cabbage, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "mutton-keema-napa-noodles.webp",
+    "sha256": "8af015eb1a1f8dc9a12af4e259f9097913b83d8d77bba9ca15f5f8b584a00501",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-tomato-green-bean-curry",
+    "prompt": "Subject: Mutton Tomato Green Bean Curry. Finished dish: a curry, with fully cooked mutton, green beans, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "mutton-tomato-green-bean-curry.webp",
+    "sha256": "37940a236e66b1075d720482f792315416d34e94b31cdaa89554160aa5e4c74f",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "mutton-keema-coriander-rice",
+    "prompt": "Subject: Mutton Keema Coriander Rice. Finished dish: a keema rice bowl, with fully cooked crumbled minced mutton, carrot batons, spring onions, coriander, basmati rice. Flavour: toasted cumin.   ",
+    "asset": "mutton-keema-coriander-rice.webp",
+    "sha256": "f5fe76c620651dbd080a3c11b675a1da9c59b8af535f256aefb0664156071ba2",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "spinach-tomato-egg-scramble",
+    "prompt": "Subject: Spinach Tomato Egg Scramble. Finished dish: a soft, fully cooked scramble, with fully cooked fully cooked scrambled eggs, spinach, cherry tomatoes, chives. Flavour: black pepper and garlic.   ",
+    "asset": "spinach-tomato-egg-scramble.webp",
+    "sha256": "67dc1789454f0a759f3add6170c936ba908b882c4247d470bf0576707c59f7b7",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "methi-spring-onion-omelette",
+    "prompt": "Subject: Methi Spring Onion Omelette. Finished dish: a folded omelette, with fully cooked folded omelette, fenugreek leaves, spring onions, coriander. Flavour: toasted cumin.   ",
+    "asset": "methi-spring-onion-omelette.webp",
+    "sha256": "5d5fc1d8b8581e4f7b2dc0712a7296962aec3ec2f5fe80179aa17e54caf38e09",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-tomato-coconut-curry",
+    "prompt": "Subject: Egg Tomato Coconut Curry. Finished dish: a boiled egg curry, with fully cooked halved hard-boiled eggs, tomatoes, ginger, coriander. Flavour: coconut milk and turmeric.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "egg-tomato-coconut-curry.webp",
+    "sha256": "b254bb51c599e9d90f57454d18295620c1f43a1dfaab87f87ece54eddb391b67",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-bell-pepper-rice",
+    "prompt": "Subject: Egg Bell Pepper Rice. Finished dish: egg fried rice, with fully cooked fully cooked scrambled eggs, bell peppers, carrot batons, spring onions, basmati rice. Flavour: ginger and a light soy sauce.   ",
+    "asset": "egg-bell-pepper-rice.webp",
+    "sha256": "bf6afc496ae866aa17b4db2e5a12e52bef64d7645068f58ff97746acfc30136a",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-cucumber-dill-salad",
+    "prompt": "Subject: Egg Cucumber Dill Salad. Finished dish: a boiled egg salad, with fully cooked halved hard-boiled eggs, cucumber, romaine lettuce, dill. Flavour: plain yoghurt and cumin.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "egg-cucumber-dill-salad.webp",
+    "sha256": "3070150d1e3d56d03470c8f165484432300d517d2c250983cdd815cdd3910508",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-spinach-breakfast-wraps",
+    "prompt": "Subject: Egg Spinach Breakfast Wraps. Finished dish: an egg breakfast wrap, with fully cooked fully cooked scrambled eggs, spinach, cherry tomatoes, chives, flatbread wraps. Flavour: black pepper and garlic.   ",
+    "asset": "egg-spinach-breakfast-wraps.webp",
+    "sha256": "b7ea80207f03a1514b88cd33c711c3ef546499728fb022418a7c8893ec92ee65",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "zucchini-basil-frittata",
+    "prompt": "Subject: Zucchini Basil Frittata. Finished dish: a golden baked frittata, with fully cooked golden frittata wedges, zucchini, cherry tomatoes, basil leaves. Flavour: garlic and fresh herbs.   ",
+    "asset": "zucchini-basil-frittata.webp",
+    "sha256": "cc2ce2bb95a921a26ce9aef911ab17688c0578890ab482918daeb2a2737087ec",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-bok-choy-noodle-broth",
+    "prompt": "Subject: Egg Bok Choy Noodle Broth. Finished dish: an egg ribbon noodle broth, with fully cooked delicate fully cooked egg ribbons, bok choy, spring onions, ginger, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "egg-bok-choy-noodle-broth.webp",
+    "sha256": "5345b948e969e0e66f9291a6c431cda8c9b9e06017db12e05df0a1ef11c8bd1b",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-potato-coriander-curry",
+    "prompt": "Subject: Egg Potato Coriander Curry. Finished dish: a boiled egg curry, with fully cooked halved hard-boiled eggs, potato cubes, tomatoes, coriander. Flavour: warming cumin and coriander.  Serve in a ceramic bowl with visible rich sauce. ",
+    "asset": "egg-potato-coriander-curry.webp",
+    "sha256": "0729a4a3c0ec183aa74ca0f8328331485d8853d4500eeb76f57405d2e0d7798e",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-rocket-radish-toast",
+    "prompt": "Subject: Egg Rocket Radish Toast. Finished dish: boiled egg toast, with fully cooked halved hard-boiled eggs, rocket leaves, radish, chives. Flavour: lemon and garlic.   ",
+    "asset": "egg-rocket-radish-toast.webp",
+    "sha256": "7d73d1741f0555075df2543fa985cb9c62036b4dcb50cb063758580b73bf1138",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-napa-carrot-noodles",
+    "prompt": "Subject: Egg Napa Carrot Noodles. Finished dish: egg noodles, with fully cooked fully cooked scrambled eggs, napa cabbage, carrot batons, spring onions, noodles. Flavour: ginger and a light soy sauce.   ",
+    "asset": "egg-napa-carrot-noodles.webp",
+    "sha256": "c9a298c2d60606bca0c5891d70a93277f3aa4b8a1eadf85799abc1ee40f59648",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-green-bean-tomato-skillet",
+    "prompt": "Subject: Egg Green Bean Tomato Skillet. Finished dish: eggs set in a vegetable skillet, with fully cooked whole fully set eggs, green beans, tomatoes, parsley. Flavour: toasted cumin.   ",
+    "asset": "egg-green-bean-tomato-skillet.webp",
+    "sha256": "5e7195f742cd81395bc7719d6e670ff4a111e701d4530fded69dc614c9dd922b",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  },
+  {
+    "slug": "egg-beetroot-mint-salad",
+    "prompt": "Subject: Egg Beetroot Mint Salad. Finished dish: a boiled egg salad, with fully cooked halved hard-boiled eggs, cooked beetroot, cucumber, mint. Flavour: plain yoghurt and cumin.   A fresh composed salad with cooked protein clearly visible.",
+    "asset": "egg-beetroot-mint-salad.webp",
+    "sha256": "1fe08e445a202922ca83e6e1f0946d52298c229ee70bfd26e14a2c454509ff39",
+    "width": 960,
+    "height": 960,
+    "generatedOn": "2026-10-03",
+    "style": "Photorealistic-natural. Square editorial Floruvi recipe photograph. Warm ivory limestone table, simple ceramic bowl or plate, soft window daylight, natural realistic textures, slight overhead angle. Fully cooked dish. No text, watermark, logos, collage, raw meat or hands."
+  }
+]

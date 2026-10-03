@@ -11,6 +11,7 @@ import { CatalogueBrowser } from "@/components/catalogue-browser";
 import { CategoryLinks } from "@/components/category-links";
 import { publishedCategories } from "@/lib/category-pages";
 import { RecipeCard } from "@/components/recipe-card";
+import { featureRecipeOrder } from "@/lib/session-order";
 import { HomeHero } from "@/components/home-hero";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { boxSizes } from "@/lib/boxes";
@@ -41,7 +42,7 @@ export default async function Home() {
   const query = "";
   const t = messages.home;
   const boxes = messages.common.boxes;
-  const featuredRecipes = recipes.slice(0, 4);
+  const featuredRecipes = featureRecipeOrder(recipes).slice(0, 4);
 
   const list = {
     "@context": "https://schema.org",

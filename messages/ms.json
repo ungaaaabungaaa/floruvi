@@ -57,7 +57,7 @@
     },
     "recipes": {
       "title": "Resipi Mudah",
-      "description": "Idea segar untuk masakan harian. Terokai salad sayur, sup, smoothie, sarapan, bowl & pasta bersama Floruvi."
+      "description": "Resipi vegetarian dan resipi dengan daging, ikan atau telur, bersama sayur-sayuran dan herba segar."
     },
     "productNotFound": "Produk tidak dijumpai",
     "recipeNotFound": "Resipi tidak dijumpai"
@@ -751,7 +751,7 @@
     "heroAlt": "Semangkuk sayur hijau segar, tomato & radis",
     "eyebrow": "RESIPI",
     "title": "Hidangan Ringkas\nDiri Yang Lebih Sihat",
-    "subtitle": "Idea segar untuk menjadikan sayur-sayuran sebahagian daripada kehidupan harian anda.",
+    "subtitle": "Resipi vegetarian dan resipi dengan daging, ikan atau telur, bersama sayur-sayuran dan herba segar.",
     "searchLabel": "Cari resipi",
     "searchPlaceholder": "Cari resipi…",
     "clearSearch": "Kosongkan carian",
@@ -1514,7 +1514,12 @@
     "Smoothies": "Smoothie",
     "Soups": "Sup",
     "Tray bakes": "Panggang Talam",
-    "Wraps": "Wrap"
+    "Wraps": "Wrap",
+    "Chicken": "Ayam",
+    "Fish": "Ikan",
+    "Prawns": "Udang",
+    "Mutton": "Daging kambing",
+    "Eggs": "Telur"
   },
   "packLabels": {
     "1 bunch · 125–150 g": "1 ikat · 125–150 g",

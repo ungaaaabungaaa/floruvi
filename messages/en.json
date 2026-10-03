@@ -57,7 +57,7 @@
     },
     "recipes": {
       "title": "Simple recipes",
-      "description": "Fresh ideas for everyday cooking. Explore vegetable salads, soups, smoothies, breakfast, bowls & pasta with Floruvi."
+      "description": "Vegetarian and non-vegetarian recipes with fresh vegetables and herbs."
     },
     "productNotFound": "Product not found",
     "recipeNotFound": "Recipe not found"
@@ -757,7 +757,7 @@
     "heroAlt": "A bowl of fresh greens, tomatoes & radishes",
     "eyebrow": "RECIPES",
     "title": "Simple Meals\nA Healthier You",
-    "subtitle": "Fresh ideas to make vegetables part of your everyday life.",
+    "subtitle": "Vegetarian and non-vegetarian recipes with fresh vegetables and herbs.",
     "searchLabel": "Search recipes",
     "searchPlaceholder": "Search recipes…",
     "clearSearch": "Clear search",
@@ -1523,7 +1523,12 @@
     "Smoothies": "Smoothies",
     "Soups": "Soups",
     "Tray bakes": "Tray bakes",
-    "Wraps": "Wraps"
+    "Wraps": "Wraps",
+    "Chicken": "Chicken",
+    "Fish": "Fish",
+    "Prawns": "Prawns",
+    "Mutton": "Mutton",
+    "Eggs": "Eggs"
   },
   "packLabels": {
     "1 bunch · 125–150 g": "1 bunch · 125–150 g",

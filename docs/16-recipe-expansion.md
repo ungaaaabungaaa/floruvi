@@ -1,5 +1,7 @@
 # Recipe expansion
 
+The 3 October 2026 [non-vegetarian extension](35-non-vegetarian-recipes.md) adds 89 recipes to this original 88-recipe set.
+
 ## Scope
 
 Add 84 original vegetable recipes to the existing four. Store all recipe content in Convex, including production. Keep existing URLs. Public queries return published recipes only. Seeds add missing slugs and preserve owner edits.

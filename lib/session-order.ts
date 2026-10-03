@@ -1,3 +1,27 @@
+const nonVegetarianCategories = new Set([
+  "Chicken",
+  "Fish",
+  "Prawns",
+  "Mutton",
+  "Eggs",
+]);
+
+/** Feature three non-vegetarian dishes and one vegetarian dish when available. */
+export function featureRecipeOrder<
+  T extends { slug: string; categoryKey: string },
+>(items: T[]): T[] {
+  const featured = [
+    ...items
+      .filter((item) => nonVegetarianCategories.has(item.categoryKey))
+      .slice(0, 3),
+    ...items
+      .filter((item) => !nonVegetarianCategories.has(item.categoryKey))
+      .slice(0, 1),
+  ];
+  const selected = new Set(featured.map((item) => item.slug));
+  return [...featured, ...items.filter((item) => !selected.has(item.slug))];
+}
+
 /** A seeded shuffle keeps the same catalogue in the same order on every render. */
 export function sessionOrder<T extends { slug: string }>(
   items: T[],

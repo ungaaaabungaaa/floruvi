@@ -1,6 +1,10 @@
 "use client";
 import { useMemo, useSyncExternalStore } from "react";
-import { readSessionSeed, sessionOrder } from "@/lib/session-order";
+import {
+  featureRecipeOrder,
+  readSessionSeed,
+  sessionOrder,
+} from "@/lib/session-order";
 
 let seed: number | null = null;
 const getSnapshot = () => seed;
@@ -20,14 +24,16 @@ function subscribe(notify: () => void) {
   return () => {};
 }
 
-export function useRecipeOrder<T extends { slug: string }>(recipes: T[]) {
+export function useRecipeOrder<T extends { slug: string; categoryKey: string }>(
+  recipes: T[],
+) {
   const sessionSeed = useSyncExternalStore(
     subscribe,
     getSnapshot,
     getServerSnapshot,
   );
   return useMemo(
-    () => sessionOrder(recipes, sessionSeed),
+    () => featureRecipeOrder(sessionOrder(recipes, sessionSeed)),
     [recipes, sessionSeed],
   );
 }

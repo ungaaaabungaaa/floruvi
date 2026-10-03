@@ -26,7 +26,7 @@ test("all 91 products have complete details and one of six banner choices", () =
       ),
     );
     const linked = recipesForProduct(product, recipeCatalogue);
-    assert.ok(linked.length >= 5 && linked.length <= 10, product.slug);
+    assert.ok(linked.length >= 5 && linked.length <= 24, product.slug);
     assert.equal(new Set(linked.map((m) => m.recipe.slug)).size, linked.length);
     assert.ok(
       linked.every((m) =>

@@ -57,7 +57,7 @@
     },
     "recipes": {
       "title": "Eenvoudige recepten",
-      "description": "Verse ideeën voor het dagelijks koken. Ontdek groentesalades, soepen, smoothies, ontbijt, bowls en pasta met Floruvi."
+      "description": "Vegetarische recepten en recepten met vlees, vis of eieren, met verse groenten en kruiden."
     },
     "productNotFound": "Product niet gevonden",
     "recipeNotFound": "Recept niet gevonden"
@@ -757,7 +757,7 @@
     "heroAlt": "Een kom verse sla, tomaten en radijsjes",
     "eyebrow": "RECEPTEN",
     "title": "Simpele maaltijden\nEen gezonder jij",
-    "subtitle": "Verse ideeën om groenten deel te maken van je dagelijks leven.",
+    "subtitle": "Vegetarische recepten en recepten met vlees, vis of eieren, met verse groenten en kruiden.",
     "searchLabel": "Zoek recepten",
     "searchPlaceholder": "Zoek recepten…",
     "clearSearch": "Zoekopdracht wissen",
@@ -1523,7 +1523,12 @@
     "Smoothies": "Smoothies",
     "Soups": "Soepen",
     "Tray bakes": "Ovenschotels",
-    "Wraps": "Wraps"
+    "Wraps": "Wraps",
+    "Chicken": "Kip",
+    "Fish": "Vis",
+    "Prawns": "Garnalen",
+    "Mutton": "Lams- en geitenvlees",
+    "Eggs": "Eieren"
   },
   "packLabels": {
     "1 bunch · 125–150 g": "1 bos · 125–150 g",

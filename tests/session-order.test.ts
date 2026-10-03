@@ -1,8 +1,39 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readSessionSeed, sessionOrder } from "../lib/session-order";
+import {
+  featureRecipeOrder,
+  readSessionSeed,
+  sessionOrder,
+} from "../lib/session-order";
 
 const recipes = Array.from({ length: 88 }, (_, i) => ({ slug: `recipe-${i}` }));
+test("featured rows contain three non-vegetarian recipes and one vegetarian recipe", () => {
+  const items = [
+    { slug: "salad", categoryKey: "Salads" },
+    { slug: "soup", categoryKey: "Soups" },
+    { slug: "chicken", categoryKey: "Chicken" },
+    { slug: "fish", categoryKey: "Fish" },
+    { slug: "prawns", categoryKey: "Prawns" },
+    { slug: "eggs", categoryKey: "Eggs" },
+  ];
+  const featured = featureRecipeOrder(items);
+  assert.deepEqual(
+    featured.slice(0, 4).map((item) => item.slug),
+    ["chicken", "fish", "prawns", "salad"],
+  );
+  assert.equal(new Set(featured.map((item) => item.slug)).size, items.length);
+  assert.deepEqual(
+    featured.slice(4).map((item) => item.slug),
+    ["soup", "eggs"],
+  );
+  assert.deepEqual(featureRecipeOrder(items.slice(0, 2)), items.slice(0, 2));
+  const shuffled = sessionOrder(items, 123);
+  assert.deepEqual(
+    featureRecipeOrder(shuffled),
+    featureRecipeOrder(sessionOrder(items, 123)),
+  );
+});
+
 test("shuffle is complete, repeatable and independent of source ordering", () => {
   const order = sessionOrder(recipes, 123);
   assert.equal(new Set(order.map((r) => r.slug)).size, 88);

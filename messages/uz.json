@@ -57,7 +57,7 @@
     },
     "recipes": {
       "title": "Oddiy retseptlar",
-      "description": "Har kungi pishirish uchun yangi gʻoyalar. Floruvi bilan sabzavotli salatlar, shoʻrvalar, smuzilar, nonushta, kosalar va pastalarni kashf eting."
+      "description": "Yangi sabzavot va ko‘katlar bilan vegetarian hamda go‘sht, baliq yoki tuxumli taomlar retseptlari."
     },
     "productNotFound": "Mahsulot topilmadi",
     "recipeNotFound": "Retsept topilmadi"
@@ -757,7 +757,7 @@
     "heroAlt": "Yangi koʻkatlar, pomidor va turp solingan kosa",
     "eyebrow": "RETSEPTLAR",
     "title": "Oddiy Taomlar\nSogʻlomroq Siz",
-    "subtitle": "Sabzavotlarni har kungi hayotingizning bir qismiga aylantirish uchun yangi gʻoyalar.",
+    "subtitle": "Yangi sabzavot va ko‘katlar bilan vegetarian hamda go‘sht, baliq yoki tuxumli taomlar retseptlari.",
     "searchLabel": "Retseptlarni qidirish",
     "searchPlaceholder": "Retseptlarni qidirish…",
     "clearSearch": "Qidiruvni tozalash",
@@ -1523,7 +1523,12 @@
     "Smoothies": "Smuzilar",
     "Soups": "Shoʻrvalar",
     "Tray bakes": "Pechda pishirilganlar",
-    "Wraps": "Lavashlar"
+    "Wraps": "Lavashlar",
+    "Chicken": "Tovuq",
+    "Fish": "Baliq",
+    "Prawns": "Krevetka",
+    "Mutton": "Qo‘y yoki echki go‘shti",
+    "Eggs": "Tuxum"
   },
   "packLabels": {
     "1 bunch · 125–150 g": "1 bogʻlam · 125–150 g",
