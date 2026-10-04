@@ -17,6 +17,8 @@ export function RecipeCard({
           <Image
             src={recipe.image}
             alt={recipe.name}
+            // Dish assets are already compressed; serve them without paid transforms.
+            unoptimized
             fill
             sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 25vw"
           />

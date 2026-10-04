@@ -26,6 +26,8 @@ Add 89 non-vegetarian recipes and a generated image for each dish. Preserve all 
 
 Run `node scripts/prepare-non-vegetarian-recipe-images.mjs` after saving all dish images. This verifies the files and updates the static image map. It does not call an image provider or replace the older images.
 
+Recipe cards and detail images serve their saved assets directly. On 4 October 2026, Vercel returned `402 OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED` for the Egg Beetroot Mint Salad transformation while its source WebP returned 200. Direct delivery avoids this service dependency for every dish. It preserves lazy loading and image layout, but sends the full saved file instead of a resized variant.
+
 ## Verification and release
 
 - Images: all 89 generated dishes passed visual review. All 89 WebP files are distinct and 960 × 960 pixels.

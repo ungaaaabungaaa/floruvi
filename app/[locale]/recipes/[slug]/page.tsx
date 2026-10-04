@@ -124,6 +124,8 @@ export default async function RecipeDetails({ params }: Props) {
           <Image
             src={r.image}
             alt={r.name}
+            // Match recipe cards: the saved dish image needs no runtime transform.
+            unoptimized
             fill
             sizes="(max-width: 800px) 100vw, 55vw"
             preload
