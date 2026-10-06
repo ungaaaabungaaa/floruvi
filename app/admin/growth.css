@@ -305,3 +305,52 @@
     padding: 14px;
   }
 }
+
+/* Research starts with one short form; secondary controls stay within reach. */
+.growth-research {
+  max-width: 760px;
+}
+.growth-research .growth-heading h2 {
+  margin: 0;
+}
+.growth-research-budget,
+.growth-research-options {
+  margin-top: 0;
+  border-block: 1px solid var(--line);
+}
+.growth-research-budget > summary,
+.growth-research-options > summary {
+  padding-block: 12px;
+  font-size: 14px;
+}
+.growth-research-options > .growth-fields {
+  padding-bottom: 16px;
+}
+.growth-research .growth-budget {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.growth-research .growth-budget > div {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.growth-research .growth-budget dd {
+  font-variant-numeric: tabular-nums;
+}
+.growth-research .growth-group-field {
+  border: 0;
+  padding: 0;
+}
+.growth-research .growth-group-field legend {
+  padding: 0;
+  margin-bottom: 10px;
+}
+.growth-research .growth-form-grid > label:last-child {
+  grid-column: 1 / -1;
+}
+@media (max-width: 520px) {
+  .growth-research .growth-budget {
+    grid-template-columns: 1fr;
+  }
+}

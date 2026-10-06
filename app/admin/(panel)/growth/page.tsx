@@ -97,9 +97,14 @@ export default async function GrowthPage({
           <p className="admin-eyebrow">Find and review buyers</p>
           <h1>Growth</h1>
         </div>
-        <Link className="admin-button ghost" href="/admin/growth?view=research">
-          Research buyers
-        </Link>
+        {view !== "research" && (
+          <Link
+            className="admin-button ghost"
+            href="/admin/growth?view=research"
+          >
+            Research buyers
+          </Link>
+        )}
       </div>
       <p className="admin-muted">
         Keep buyer evidence, source links and next steps in one place. Review
@@ -453,42 +458,51 @@ function Research({
 }) {
   const openai = data.providers.find((provider) => provider.id === "openai");
   const exa = data.providers.find((provider) => provider.id === "exa");
+  const visibleRuns = data.runs.filter(
+    (run, index) =>
+      index === 0 || run.status === "queued" || run.status === "running",
+  );
+  const pastRuns = data.runs.filter((run) => !visibleRuns.includes(run));
   return (
     <>
-      <section aria-labelledby="research-budget-title">
-        <h2 id="research-budget-title">Research budget</h2>
+      <section
+        className="growth-research"
+        aria-labelledby="start-research-title"
+      >
+        <div className="growth-heading">
+          <h2 id="start-research-title">Start research</h2>
+          <span className="admin-tag">
+            {data.enabled ? "Research on" : "Research paused"}
+          </span>
+        </div>
         <p className="admin-muted">
-          {data.usage.month} · Separate from website chat
+          Find buyers, tenders or export opportunities with source links.
         </p>
-        <dl className="growth-budget">
-          <div>
-            <dt>Monthly limit</dt>
-            <dd>{usdLabel(data.usage.budgetMicros)}</dd>
-          </div>
-          <div>
-            <dt>Recorded charges</dt>
-            <dd>{usdLabel(data.usage.chargedMicros)}</dd>
-          </div>
-          <div>
-            <dt>Reserved for runs</dt>
-            <dd>{usdLabel(data.usage.reservedMicros)}</dd>
-          </div>
-          <div>
-            <dt>Runs today</dt>
-            <dd>{data.usage.dailyRuns}</dd>
-          </div>
-        </dl>
-        <p className="admin-muted">
-          Reservations can include uncertain provider charges. The provider
-          billing page is the final billing record.
-        </p>
-      </section>
-      <section aria-labelledby="start-research-title">
-        <h2 id="start-research-title">Start research</h2>
-        <p className="admin-muted">
-          Find buying routes and cited evidence. A result is a candidate for
-          review.
-        </p>
+        <details className="growth-review growth-research-budget">
+          <summary>
+            {usdLabel(data.usage.chargedMicros + data.usage.reservedMicros)}{" "}
+            used or reserved · {usdLabel(data.usage.budgetMicros)} monthly limit
+          </summary>
+          <dl className="growth-budget">
+            <div>
+              <dt>Recorded charges</dt>
+              <dd>{usdLabel(data.usage.chargedMicros)}</dd>
+            </div>
+            <div>
+              <dt>Reserved for runs</dt>
+              <dd>{usdLabel(data.usage.reservedMicros)}</dd>
+            </div>
+            <div>
+              <dt>Runs today</dt>
+              <dd>{data.usage.dailyRuns}</dd>
+            </div>
+          </dl>
+          <p className="admin-muted">
+            {data.usage.month} · Separate from website chat. Reservations can
+            include uncertain charges. Check the provider billing page for final
+            costs.
+          </p>
+        </details>
         <ResearchForm
           profile={data.profile}
           enabled={data.enabled}
@@ -497,32 +511,40 @@ function Research({
           active={active}
         />
       </section>
-      <section aria-labelledby="runs-title">
+      <section className="growth-research" aria-labelledby="runs-title">
         <div className="growth-heading">
-          <h2 id="runs-title">Research runs</h2>
+          <h2 id="runs-title">Recent research</h2>
+          <ResearchRefresh active={active} />
         </div>
-        <ResearchRefresh active={active} />
         {data.runs.length === 0 ? (
-          <div className="growth-empty">
-            <h3>No research runs yet.</h3>
-            <p>
-              Configure OpenAI in Channels. Then approve the server budget and
-              start a run.
-            </p>
-          </div>
+          <p className="admin-muted">
+            Your results will appear here after your first search.
+          </p>
         ) : (
-          <ul className="admin-orders">
-            {data.runs.map((run) => (
-              <RunCard key={run._id} run={run} />
-            ))}
-          </ul>
+          <>
+            <ul className="admin-orders">
+              {visibleRuns.map((run) => (
+                <RunCard key={run._id} run={run} />
+              ))}
+            </ul>
+            {pastRuns.length > 0 && (
+              <details className="growth-review">
+                <summary>Past searches ({pastRuns.length})</summary>
+                <ul className="admin-orders">
+                  {pastRuns.map((run) => (
+                    <RunCard key={run._id} run={run} />
+                  ))}
+                </ul>
+              </details>
+            )}
+          </>
         )}
       </section>
-      <section aria-labelledby="apollo-title">
-        <h2 id="apollo-title">Apollo contact research</h2>
+      <details className="growth-review growth-research">
+        <summary>Find a contact at a company</summary>
         <p className="admin-muted">
-          Credits used or reserved this month: {data.usage.apolloUsed} of{" "}
-          {data.usage.apolloLimit} allowed.
+          Apollo credits used or reserved: {data.usage.apolloUsed} of{" "}
+          {data.usage.apolloLimit} this month.
         </p>
         <ApolloSearch
           configured={Boolean(
@@ -531,7 +553,7 @@ function Research({
           )}
           creditsAvailable={data.usage.apolloLimit > data.usage.apolloUsed}
         />
-      </section>
+      </details>
     </>
   );
 }

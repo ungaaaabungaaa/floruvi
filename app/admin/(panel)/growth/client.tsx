@@ -109,12 +109,7 @@ export function ResearchRefresh({ active }: { active: boolean }) {
       >
         {pending ? "Refreshing…" : "Refresh status"}
       </button>
-      {active && (
-        <span className="admin-muted">
-          Updates every 10 seconds while this tab is visible and you are not
-          typing.
-        </span>
-      )}
+      {active && <span className="admin-muted">Updates automatically.</span>}
     </div>
   );
 }
@@ -135,7 +130,7 @@ export function ResearchForm({
   const [groups, setGroups] = useState<string[]>(
     buyerGroups.map((group) => group.id),
   );
-  const canRun = enabled && hasOpenAI && !active;
+  const canRun = enabled && hasOpenAI && !active && groups.length > 0;
   return (
     <ActionForm
       operation="startResearch"
@@ -144,23 +139,12 @@ export function ResearchForm({
     >
       <div className="growth-form-grid">
         <label>
-          Research type
+          What to find
           <select name="kind" defaultValue="buyers">
             <option value="buyers">Buyers</option>
             <option value="tenders">Official tenders</option>
             <option value="export">Export research</option>
           </select>
-        </label>
-        <label>
-          Maximum results
-          <input
-            name="limit"
-            type="number"
-            defaultValue={10}
-            min={1}
-            max={20}
-            required
-          />
         </label>
         <label>
           City, state or country
@@ -185,63 +169,86 @@ export function ResearchForm({
           />
         </label>
       </div>
-      <fieldset className="growth-group-field">
-        <legend>Buyer groups</legend>
-        <div className="growth-actions">
-          <button
-            type="button"
-            className="admin-button ghost"
-            onClick={() => setGroups(buyerGroups.map((group) => group.id))}
-          >
-            Select all
-          </button>
-          <button
-            type="button"
-            className="admin-button ghost"
-            onClick={() => setGroups([])}
-          >
-            Clear all
-          </button>
-          <span>
-            {groups.length} of {buyerGroups.length} selected
-          </span>
+      <details className="growth-review growth-research-options">
+        <summary>
+          Search options ·{" "}
+          {groups.length === buyerGroups.length
+            ? "All buyer groups"
+            : `${groups.length} buyer groups`}
+        </summary>
+        <div className="growth-fields">
+          <label>
+            Maximum results
+            <input
+              name="limit"
+              type="number"
+              defaultValue={10}
+              min={1}
+              max={20}
+              required
+            />
+          </label>
+          <fieldset className="growth-group-field">
+            <legend>Buyer groups</legend>
+            <div className="growth-actions">
+              <button
+                type="button"
+                className="admin-button ghost"
+                onClick={() => setGroups(buyerGroups.map((group) => group.id))}
+              >
+                Select all
+              </button>
+              <button
+                type="button"
+                className="admin-button ghost"
+                onClick={() => setGroups([])}
+              >
+                Clear all
+              </button>
+              <span>
+                {groups.length} of {buyerGroups.length} selected
+              </span>
+            </div>
+            <div className="growth-group-checks">
+              {buyerGroups.map((group) => (
+                <label key={group.id} className="admin-check">
+                  <input
+                    type="checkbox"
+                    name="groups"
+                    value={group.id}
+                    checked={groups.includes(group.id)}
+                    onChange={(event) =>
+                      setGroups((current) =>
+                        event.target.checked
+                          ? [...current, group.id]
+                          : current.filter((id) => id !== group.id),
+                      )
+                    }
+                  />
+                  {group.label}
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <label className="admin-check">
+            <input type="checkbox" name="useExa" disabled={!hasExa} />
+            Use Exa for added source search{!hasExa && " (key not configured)"}
+          </label>
         </div>
-        <div className="growth-group-checks">
-          {buyerGroups.map((group) => (
-            <label key={group.id} className="admin-check">
-              <input
-                type="checkbox"
-                name="groups"
-                value={group.id}
-                checked={groups.includes(group.id)}
-                onChange={(event) =>
-                  setGroups((current) =>
-                    event.target.checked
-                      ? [...current, group.id]
-                      : current.filter((id) => id !== group.id),
-                  )
-                }
-              />
-              {group.label}
-            </label>
-          ))}
-        </div>
-      </fieldset>
-      <label className="admin-check">
-        <input type="checkbox" name="useExa" disabled={!hasExa} />
-        Use Exa for added source search{!hasExa && " (key not configured)"}
-      </label>
+      </details>
       <p className="admin-muted">
-        A run uses the server budget and can incur provider charges. Review the
-        cited sources before acting on a result.
+        Paid search · Up to 10 results by default. Check sources before
+        contacting a buyer.
       </p>
       {!canRun && (
         <p className="growth-note">
           {active
             ? "A research run is already active. Wait for it to finish or cancel it."
             : !enabled
-              ? "Research is off. Set GROWTH_RESEARCH_ENABLED=true in Convex after you approve the budget."
-              : "Add OPENAI_API_KEY in Convex, then test access in Channels."}
+              ? "Research is paused. Check research setup in Channels."
+              : !hasOpenAI
+                ? "Connect OpenAI in Channels to start research."
+                : "Choose at least one buyer group in Search options."}
         </p>
       )}
     </ActionForm>

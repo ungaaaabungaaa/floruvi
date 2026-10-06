@@ -2,6 +2,12 @@
 
 Status: **built 2 October 2026; provider setup required**. The owner asked for the admin system to work after provider setup and added Exa and Codex access. Provider entitlement, paid execution and channel admission remain separate checks.
 
+## Research update — 6 October 2026
+
+The owner asked to enable research and simplify the admin screen. Production `polished-mosquito-828` now has `GROWTH_RESEARCH_ENABLED=true` and `GROWTH_MONTHLY_BUDGET_USD=10`, verified by CLI readback. This preserves the existing default budget. No paid run was started for this update; provider execution remains unverified. Apollo enrichment keeps its default zero-credit allowance.
+
+The research screen starts with type, region and products. Search options hold buyer groups, result count and optional Exa search. A compact budget summary expands to show charges and reservations. The latest and active runs remain visible; older runs and company contact lookup expand on demand. Server limits and authorization are unchanged.
+
 ## Implementation checkpoint — 2 October 2026
 
 - Goal: ship a working owner Growth workspace with all buyer groups, persisted research/opportunities/drafts/supply details, OpenAI + optional Exa + Apollo adapters, channel readiness and protected Codex access. Keep external sending and bidding owner-controlled in vendor tools.
