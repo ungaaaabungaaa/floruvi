@@ -9,11 +9,13 @@ import {
   CHAT_RETENTION_DAYS,
   CHAT_IDLE_MS,
   MAX_CHAT_TEXT,
+  ORDER_REFERENCE,
   chatSpend,
   dayKey,
   monthKey,
   needsPerson,
 } from "../lib/chat";
+import { indiaPhone } from "../lib/checkout";
 import { monthUsage, spendLimits } from "./chatSpend";
 
 // Website chat storage. Only convex/chatHttp.ts calls these: the public routes
@@ -191,6 +193,46 @@ export const botReply = internalMutation({
       ...(handOff && { mode: "owner", unread: true, handOffReason: handOff, notifications: pending }),
     });
     if (handOff) await ctx.scheduler.runAfter(0, internal.notifications.sendChat, { id: thread._id });
+  },
+});
+
+/**
+ * Returns a small, non-sensitive view of one order. The caller must provide
+ * both details that were issued at checkout; there is no phone or address
+ * search, and a miss is indistinguishable from a wrong detail.
+ */
+export const orderLookup = internalMutation({
+  args: {
+    tokenHash: v.string(),
+    sessionId: v.optional(v.string()),
+    ipHash: v.string(),
+    reference: v.string(),
+    phone: v.string(),
+  },
+  handler: async (ctx, args) => {
+    const reference = args.reference.trim().toUpperCase();
+    const phone = indiaPhone.safeParse(args.phone);
+    if (!ORDER_REFERENCE.test(reference) || !phone.success) return { ok: false as const, reason: "missing" };
+    if (!(await threadByToken(ctx, args.tokenHash, args.sessionId)))
+      return { ok: false as const, reason: "missing" };
+    // Limit guesses per chat and address before reading the order record.
+    const allowed = await takeRateLimits(ctx, [
+      { key: `chat-order-token:${args.tokenHash}`, max: 5 },
+      { key: `chat-order-ip:${args.ipHash}`, max: 10 },
+      { key: "chat-order-all", max: 100 },
+    ]);
+    if (!allowed) return { ok: false as const, reason: "limited" };
+    const order = await ctx.db
+      .query("orders")
+      .withIndex("by_reference", (q) => q.eq("reference", reference))
+      .unique();
+    if (!order || order.customer.phone !== phone.data) return { ok: false as const, reason: "missing" };
+    return {
+      ok: true as const,
+      reference: order.reference,
+      status: order.status,
+      items: order.items.map((item) => ({ name: item.name, quantity: item.quantity, pack: item.packLabel })),
+    };
   },
 });
 

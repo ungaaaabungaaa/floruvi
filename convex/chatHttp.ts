@@ -1,7 +1,7 @@
 import { httpAction } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { languages, markets } from "../lib/i18n/config";
-import { CHAT_SESSION, CHAT_TOKEN, MAX_CHAT_TEXT } from "../lib/chat";
+import { CHAT_SESSION, CHAT_TOKEN, MAX_CHAT_TEXT, ORDER_REFERENCE } from "../lib/chat";
 import { hasBearer, readObject, reply, sha256, text } from "./httpUtils";
 
 // /chat/* are called by the Next.js server with LEAD_INGEST_SECRET and the
@@ -73,6 +73,30 @@ export const botReply = httpAction(async (ctx, request) => {
     tokensOut: count(body?.tokensOut, 1_000_000),
   });
   return reply(200);
+});
+
+export const order = httpAction(async (ctx, request) => {
+  if (!(await fromSite(request))) return reply(401);
+  const body = await readObject(request, 1000);
+  const token = text(body?.token);
+  const reference = text(body?.reference).trim().toUpperCase();
+  const phone = text(body?.phone);
+  if (
+    !CHAT_TOKEN.test(token) ||
+    (body?.sessionId !== undefined && !CHAT_SESSION.test(text(body.sessionId))) ||
+    !HEX64.test(text(body?.ipHash)) ||
+    !ORDER_REFERENCE.test(reference) ||
+    !phone
+  )
+    return reply(400);
+  const result = await ctx.runMutation(internal.chat.orderLookup, {
+    tokenHash: await sha256(token),
+    ...(typeof body?.sessionId === "string" && body.sessionId ? { sessionId: body.sessionId } : {}),
+    ipHash: text(body?.ipHash),
+    reference,
+    phone,
+  });
+  return reply(200, result);
 });
 
 export const thread = httpAction(async (ctx, request) => {

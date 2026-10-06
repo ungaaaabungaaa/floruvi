@@ -120,3 +120,38 @@ test("live queries deny missing server credentials and expired admin sessions on
   await db.run((ctx) => ctx.db.patch(id, { expiresAt: Date.now() - 1 }));
   assert.equal(await db.query(api.chatLive.inbox, { secret, tokenHash: owner }), null);
 });
+
+test("order lookup requires both exact details and returns no private fields or order list", async () => {
+  const db = await setup();
+  await db.mutation(internal.chat.customerTurn, turn());
+  await db.run(async (ctx) => {
+    await ctx.db.insert("orders", {
+      reference: "FL-ABCD2345",
+      status: "paid",
+      mode: "live",
+      currency: "INR",
+      amountMinor: 20400,
+      subtotalMinor: 10500,
+      deliveryMinor: 9900,
+      items: [{ slug: "spinach", name: "Spinach", quantity: 1, packLabel: "250 g", lineMinor: 10500 }],
+      customer: { name: "Private Customer", email: "private@example.com", phone: "+919876543210" },
+      delivery: { address: "12 Private Road", city: "Pune", region: "MH", pincode: "411001", notes: "" },
+      consentAt: Date.now(),
+    });
+  });
+  const args = { tokenHash: visitor, sessionId: sessionA, ipHash: hash("lookup-ip"), reference: "FL-ABCD2345", phone: "9876543210" };
+  assert.deepEqual(await db.mutation(internal.chat.orderLookup, args), {
+    ok: true,
+    reference: "FL-ABCD2345",
+    status: "paid",
+    items: [{ name: "Spinach", quantity: 1, pack: "250 g" }],
+  });
+  assert.deepEqual(
+    await db.mutation(internal.chat.orderLookup, { ...args, phone: "9123456789" }),
+    { ok: false, reason: "missing" },
+  );
+  assert.deepEqual(
+    await db.mutation(internal.chat.orderLookup, { ...args, reference: "FL-ZYXW9876" }),
+    { ok: false, reason: "missing" },
+  );
+});

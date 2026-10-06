@@ -52,6 +52,7 @@ http.route({ path: "/razorpay/webhook", method: "POST", handler: payments.webhoo
 http.route({ path: "/chat/turn", method: "POST", handler: chat.turn });
 http.route({ path: "/chat/reply", method: "POST", handler: chat.botReply });
 http.route({ path: "/chat/thread", method: "POST", handler: chat.thread });
+http.route({ path: "/chat/order", method: "POST", handler: chat.order });
 http.route({ path: "/admin/chats", method: "POST", handler: chat.inbox });
 http.route({ path: "/admin/chat-update", method: "POST", handler: chat.update });
 http.route({ path: "/admin/chat-typing", method: "POST", handler: chat.typing });

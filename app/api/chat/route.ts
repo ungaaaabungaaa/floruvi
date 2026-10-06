@@ -159,9 +159,21 @@ export async function POST(request: Request) {
       }).flatMap((group) => group.questions),
     }),
     messages: historyMessages(turn.history),
-    tools: chatTools(catalogue.products, locale.tag, (reason) => {
-      handOff ??= reason;
-    }),
+    tools: chatTools(
+      catalogue.products,
+      locale.tag,
+      (reason) => {
+        handOff ??= reason;
+      },
+      (reference, phone) =>
+        chatBackend("order", {
+          token,
+          sessionId: parsed.data.sessionId,
+          ipHash: callerHash(request, secret),
+          reference,
+          phone,
+        }) ?? { ok: false, reason: "missing" },
+    ),
     stopWhen: isStepCount(4),
     maxOutputTokens: 500,
     temperature: 0.3,

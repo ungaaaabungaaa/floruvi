@@ -21,7 +21,7 @@ export const chatCookie = (token: string) =>
   `${CHAT_COOKIE}=${token}; Path=/; Max-Age=${CHAT_RETENTION_DAYS * 24 * 60 * 60}; HttpOnly; SameSite=Lax${secure ? "; Secure" : ""}`;
 
 /** Calls a Convex /chat route with the site's server secret. Null when not configured or failed. */
-export async function chatBackend(path: "turn" | "reply" | "thread", body: object) {
+export async function chatBackend(path: "turn" | "reply" | "thread" | "order", body: object) {
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
   const secret = process.env.LEAD_INGEST_SECRET;
   if (!site || !secret) return null;
