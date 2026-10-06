@@ -150,6 +150,9 @@ export default defineSchema({
   // cookie's SHA-256 is stored. Deleted 180 days after the last message.
   chatThreads: defineTable({
     tokenHash: v.string(),
+    sessionId: v.optional(v.string()),
+    ownerTypingUntil: v.optional(v.number()),
+    archivedAt: v.optional(v.number()),
     // bot: the assistant answers. owner: the owner answers and the bot is silent.
     mode: v.union(v.literal("bot"), v.literal("owner"), v.literal("closed")),
     language: v.string(),

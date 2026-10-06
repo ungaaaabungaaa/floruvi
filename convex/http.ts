@@ -54,4 +54,5 @@ http.route({ path: "/chat/reply", method: "POST", handler: chat.botReply });
 http.route({ path: "/chat/thread", method: "POST", handler: chat.thread });
 http.route({ path: "/admin/chats", method: "POST", handler: chat.inbox });
 http.route({ path: "/admin/chat-update", method: "POST", handler: chat.update });
+http.route({ path: "/admin/chat-typing", method: "POST", handler: chat.typing });
 export default http;

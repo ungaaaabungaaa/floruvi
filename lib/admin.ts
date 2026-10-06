@@ -30,6 +30,7 @@ export async function adminApi(
     | "renew"
     | "chats"
     | "chat-update"
+    | "chat-typing"
     | "growth",
   body: object,
 ) {

@@ -3,12 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport, type InferUITools, type UIDataTypes, type UIMessage } from "ai";
-import { ArrowUp, ArrowUpRight, Check, MessageCircle, Plus, X } from "lucide-react";
+import { ArrowLeft, ArrowUp, ArrowUpRight, Check, History, Leaf, Plus, ShoppingBag, Truck, Users } from "lucide-react";
 import Link from "@/components/i18n/link";
 import { MAX_CHAT_TEXT, type ChatMode, type ChatProduct, type StoredChatMessage } from "@/lib/chat";
 import type { chatTools } from "@/lib/chat-bot";
 import { useCart } from "./cart-store";
 import { useI18n } from "./i18n/provider";
+import { ChatHeader, ChatLauncher, ChatPrivacy, ChatTyping } from "./chat-chrome";
+import { useCustomerChat } from "./use-customer-chat";
 
 type Meta = { mode?: ChatMode; author?: StoredChatMessage["author"]; products?: ChatProduct[] };
 type ChatMessage = UIMessage<Meta, UIDataTypes, InferUITools<ReturnType<typeof chatTools>>>;
@@ -50,13 +52,14 @@ export function ChatBot() {
   const [input, setInput] = useState("");
   const [mode, setMode] = useState<ChatMode>("bot");
   const [added, setAdded] = useState<string[]>([]);
+  const [showHistory, setShowHistory] = useState(false);
   const [transport] = useState(
     () =>
       new DefaultChatTransport<ChatMessage>({
         api: "/api/chat",
         // The server keeps the history; send only the new message and the site version.
-        prepareSendMessagesRequest: ({ messages }) => ({
-          body: { text: textOf(messages.at(-1)), locale: locale.locale },
+        prepareSendMessagesRequest: ({ messages, body }) => ({
+          body: { ...body, text: textOf(messages.at(-1)), locale: locale.locale },
         }),
       }),
   );
@@ -71,33 +74,10 @@ export function ChatBot() {
     },
   });
   const busy = status === "submitted" || status === "streaming";
-  const live = useRef({ busy, mode });
-  useEffect(() => {
-    live.current = { busy, mode };
-  }, [busy, mode]);
-
-  // Restore the chat when the window opens, and fetch the team's replies while it answers.
-  useEffect(() => {
-    if (!open) return;
-    let active = true;
-    const load = async () => {
-      if (live.current.busy) return;
-      const data = await fetch("/api/chat/thread")
-        .then((response) => (response.ok ? response.json() : null))
-        .catch(() => null);
-      if (!active || !data || live.current.busy) return;
-      setMode(data.mode);
-      if (data.messages.length) setMessages(restore(data.messages));
-    };
-    void load();
-    const timer = setInterval(() => {
-      if (live.current.mode === "owner") void load();
-    }, 10_000);
-    return () => {
-      active = false;
-      clearInterval(timer);
-    };
-  }, [open, setMessages]);
+  const liveChat = useCustomerChat(open, busy, (data) => {
+    setMode(data.mode);
+    setMessages(restore(data.messages));
+  });
 
   const end = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -106,36 +86,51 @@ export function ChatBot() {
 
   function send(text: string) {
     const value = text.trim().slice(0, MAX_CHAT_TEXT);
-    if (!value || busy) return;
+    if (!value || busy || mode === "closed" || liveChat.session === null) return;
     clearError();
     setInput("");
-    void sendMessage({ text: value });
+    void sendMessage({ text: value }, { body: { ...(liveChat.session && { sessionId: liveChat.session }) } });
   }
 
   return (
-    <Dialog.Root open={open} onOpenChange={setOpen}>
-      <Dialog.Trigger asChild>
-        <button className="chat-launcher" aria-label={labels.open}>
-          <MessageCircle size={22} strokeWidth={1.8} aria-hidden="true" />
-        </button>
-      </Dialog.Trigger>
+    <Dialog.Root open={open} onOpenChange={(value) => { setOpen(value); if (value) liveChat.markRead(); }}>
+      <ChatLauncher unread={liveChat.unread} />
       <Dialog.Portal>
         <Dialog.Overlay className="dialog-overlay chat-overlay" />
         <Dialog.Content className="chat-panel" dir={locale.dir}>
-          <header className="chat-header">
-            <div>
-              <Dialog.Title>{labels.title}</Dialog.Title>
-              <Dialog.Description>{labels.note}</Dialog.Description>
-            </div>
-            <Dialog.Close className="icon-button" aria-label={labels.close}>
-              <X size={20} />
-            </Dialog.Close>
-          </header>
+          <ChatHeader team={mode === "owner"} />
+          <div className="chat-toolbar">
+            <button type="button" disabled={busy} onClick={() => { liveChat.startNew(); clearError(); setInput(""); setAdded([]); setShowHistory(false); }}><Plus size={15} aria-hidden="true" />{labels.newChat}</button>
+            <button type="button" disabled={busy} aria-pressed={showHistory} onClick={() => setShowHistory(!showHistory)}>{showHistory ? <ArrowLeft size={15} aria-hidden="true" /> : <History size={15} aria-hidden="true" />}{showHistory ? labels.back : labels.history}</button>
+          </div>
           <div className="chat-messages" role="log" aria-live="polite" aria-label={labels.title}>
-            <div className="chat-message">
-              <p dir="auto">{labels.greeting}</p>
-            </div>
-            {messages.map((message) => {
+            {showHistory && <div className="chat-history">
+              {liveChat.history.length === 0 && <p>{labels.noHistory}</p>}
+              {liveChat.history.map((chat) => <button key={chat.sessionId} type="button" onClick={() => { liveChat.select(chat.sessionId); clearError(); setInput(""); setShowHistory(false); }}><span>{chat.preview || labels.title}</span><small>{new Intl.DateTimeFormat(locale.tag, { dateStyle: "medium" }).format(chat.at)}</small></button>)}
+            </div>}
+            {!showHistory && messages.length === 0 && (
+              <div className="chat-welcome">
+                <p dir="auto">{labels.greeting}</p>
+                <div className="chat-suggestions">
+                  <Link href="/products" onClick={() => setOpen(false)}>
+                    <ShoppingBag size={18} aria-hidden="true" />
+                    <span>{t.footer.vegetables}</span>
+                    <ArrowUpRight size={16} aria-hidden="true" />
+                  </Link>
+                  {labels.suggestions.map((text, index) => {
+                    const Icon = [Leaf, Truck, Users][index] ?? Leaf;
+                    return (
+                      <button key={text} type="button" disabled={busy} onClick={() => send(text)}>
+                        <Icon size={18} aria-hidden="true" />
+                        <span>{text}</span>
+                        <ArrowUpRight size={16} aria-hidden="true" />
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+            {!showHistory && messages.map((message) => {
               const text = textOf(message);
               const products = message.role === "assistant" ? listed(message) : [];
               if (!text && !products.length) return null;
@@ -194,25 +189,18 @@ export function ChatBot() {
                 </div>
               );
             })}
-            {status === "submitted" && <p className="chat-loading">{labels.thinking}</p>}
-            {error && (
-              <p className="chat-loading" role="alert">
-                {error.message.includes("limited") ? labels.tooMany : labels.error}
-              </p>
+            {!showHistory && (status === "submitted" || liveChat.typing) && <ChatTyping label={liveChat.typing ? labels.typing : labels.thinking} />}
+            {!showHistory && error && (
+              <div className="chat-error" role="alert">
+                <p>{error.message.includes("limited") ? labels.tooMany : labels.error}</p>
+                <Link href="/contact" onClick={() => setOpen(false)}>{t.footer.contact} <ArrowUpRight size={14} aria-hidden="true" /></Link>
+              </div>
             )}
-            {mode === "owner" && <p className="chat-loading">{labels.withTeam}</p>}
+            {!showHistory && mode === "closed" && <p className="chat-loading">{labels.closed}</p>}
+            {!liveChat.connected && messages.length > 0 && <p className="chat-loading" role="status">{labels.reconnecting}</p>}
             <div ref={end} />
           </div>
-          {messages.length === 0 && (
-            <div className="chat-suggestions">
-              {labels.suggestions.map((text) => (
-                <button key={text} type="button" disabled={busy} onClick={() => send(text)}>
-                  {text}
-                </button>
-              ))}
-            </div>
-          )}
-          <form
+          {!showHistory && <form
             className="chat-input"
             onSubmit={(e) => {
               e.preventDefault();
@@ -224,12 +212,14 @@ export function ChatBot() {
             </label>
             <input
               id="chat-message"
+              name="message"
               dir="auto"
               value={input}
               maxLength={MAX_CHAT_TEXT}
               onChange={(e) => setInput(e.target.value)}
               placeholder={labels.placeholder}
               autoComplete="off"
+              disabled={mode === "closed" || liveChat.session === null}
             />
             {/* The limit shows only near the end, to keep the box plain. */}
             {input.length >= MAX_CHAT_TEXT - 60 && (
@@ -240,10 +230,11 @@ export function ChatBot() {
                 {input.length}/{MAX_CHAT_TEXT}
               </span>
             )}
-            <button className="icon-button" aria-label={labels.send} disabled={!input.trim() || busy}>
-              <ArrowUp size={20} />
+            <button className="icon-button" aria-label={labels.send} disabled={!input.trim() || busy || mode === "closed" || liveChat.session === null}>
+              <ArrowUp size={20} aria-hidden="true" />
             </button>
-          </form>
+          </form>}
+          <ChatPrivacy />
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

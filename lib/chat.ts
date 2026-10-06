@@ -39,6 +39,14 @@ export function chatSpend(
 }
 
 export type ChatMode = "bot" | "owner" | "closed";
+export const CHAT_SESSION = /^[a-f0-9-]{36}$/i;
+export const CHAT_IDLE_MS = 3 * 24 * 60 * 60 * 1000;
+export type CustomerChat = {
+  mode: ChatMode;
+  messages: StoredChatMessage[];
+  typingUntil: number;
+  history: { sessionId: string; preview: string; at: number; mode: ChatMode }[];
+};
 export type ChatProduct = { slug: string; name: string; quantity?: number };
 export type StoredChatMessage = {
   id: string;

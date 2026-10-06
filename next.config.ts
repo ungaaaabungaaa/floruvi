@@ -11,6 +11,9 @@ const config: NextConfig = {
   // Do not advertise the framework in every response.
   poweredByHeader: false,
   images: {
+    // The free Vercel image-optimisation allowance is exhausted. Keep Image's
+    // layout and lazy-loading behaviour, but send each source file directly.
+    unoptimized: true,
     remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
   },
   // Old addresses of removed pages keep their visitors and search signals.

@@ -11,7 +11,7 @@ import {
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { z } from "zod";
 import { api } from "@/convex/_generated/api";
-import { MAX_CHAT_TEXT, type ChatMode } from "@/lib/chat";
+import { CHAT_SESSION, MAX_CHAT_TEXT, type ChatMode } from "@/lib/chat";
 import {
   chatInstructions,
   chatTools,
@@ -58,10 +58,11 @@ const schema = z
   .object({
     text: z.string().trim().min(1).max(MAX_CHAT_TEXT),
     locale: z.string().refine(isLocale),
+    sessionId: z.string().regex(CHAT_SESSION).optional(),
   })
   .strict();
 
-const statusFor: Record<string, number> = { limited: 429, invalid: 400 };
+const statusFor: Record<string, number> = { limited: 429, invalid: 400, closed: 409 };
 
 export async function POST(request: Request) {
   const secret = process.env.LEAD_INGEST_SECRET;
@@ -81,6 +82,7 @@ export async function POST(request: Request) {
   };
   const turn = await chatBackend("turn", {
     token,
+    sessionId: parsed.data.sessionId,
     ipHash: callerHash(request, secret),
     text: parsed.data.text,
     language: locale.language,
@@ -163,6 +165,8 @@ export async function POST(request: Request) {
     stopWhen: isStepCount(4),
     maxOutputTokens: 500,
     temperature: 0.3,
+    // Provider errors can contain prompt text. Never log the error object.
+    onError: () => { failed = true; },
   });
   // Finish and save the reply even if the visitor closes the chat mid-answer.
   result.consumeStream();
@@ -184,6 +188,7 @@ export async function POST(request: Request) {
         // A failed answer goes to the owner, so no customer is left without a reply.
         await chatBackend("reply", {
           token,
+          sessionId: parsed.data.sessionId,
           text,
           products,
           handOff: handOff ?? (failed ? "The assistant could not answer" : undefined),

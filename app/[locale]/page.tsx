@@ -13,7 +13,6 @@ import { publishedCategories } from "@/lib/category-pages";
 import { RecipeCard } from "@/components/recipe-card";
 import { featureRecipeOrder } from "@/lib/session-order";
 import { HomeHero } from "@/components/home-hero";
-import { TestimonialsSection } from "@/components/testimonials-section";
 import { boxSizes } from "@/lib/boxes";
 import singleBox from "@/src/assets/boxes/single.webp";
 import dualBox from "@/src/assets/boxes/dual.webp";
@@ -160,14 +159,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <section className="home-testimonials" aria-labelledby="home-testimonials-title">
-          <div className="home-wrap">
-            <div className="home-section-heading">
-              <h2 id="home-testimonials-title">What our customers say</h2>
-            </div>
-          </div>
-          <TestimonialsSection />
-        </section>
+        {/* Testimonials stay unpublished until real customer quotes are approved. */}
       </div>
     </>
   );

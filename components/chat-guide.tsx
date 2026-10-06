@@ -2,9 +2,10 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "@/components/i18n/link";
 import * as Dialog from "@radix-ui/react-dialog";
-import { ArrowUp, ArrowUpRight, MessageCircle, X } from "lucide-react";
+import { ArrowUp, ArrowUpRight } from "lucide-react";
 import type { Product } from "@/lib/catalogue";
 import { guideReply, type GuideReply } from "@/lib/guide";
+import { ChatHeader, ChatLauncher, ChatPrivacy } from "./chat-chrome";
 
 type Message = GuideReply & { role: "guide" | "visitor" };
 export function ChatGuide() {
@@ -15,7 +16,7 @@ export function ChatGuide() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "guide",
-      text: "Hi. Ask about a crop, or how to reach the farm.",
+      text: "Welcome to Floruvi. Choose a crop, or ask how to reach the farm.",
     },
   ]);
   const end = useRef<HTMLDivElement>(null);
@@ -56,26 +57,11 @@ export function ChatGuide() {
   }
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
-      <Dialog.Trigger asChild>
-        <button className="chat-launcher" aria-label="Chat with Floruvi">
-          <MessageCircle size={22} strokeWidth={1.8} aria-hidden="true" />
-        </button>
-      </Dialog.Trigger>
+      <ChatLauncher />
       <Dialog.Portal>
         <Dialog.Overlay className="dialog-overlay chat-overlay" />
         <Dialog.Content className="chat-panel">
-          <header className="chat-header">
-            <div>
-              <Dialog.Title>Floruvi</Dialog.Title>
-              <Dialog.Description>Automated guide · not a person</Dialog.Description>
-            </div>
-            <Dialog.Close
-              className="icon-button"
-              aria-label="Close catalogue guide"
-            >
-              <X size={20} />
-            </Dialog.Close>
-          </header>
+          <ChatHeader ai={false} />
           <div
             className="chat-messages"
             role="log"
@@ -103,20 +89,20 @@ export function ChatGuide() {
                 )}
               </div>
             ))}
+            {messages.length === 1 && (
+              <div className="chat-suggestions">
+                {["Basil", "Microgreens", "Business enquiry"].map((text) => (
+                  <button key={text} type="button" disabled={loading} onClick={() => void send(text)}>
+                    <span>{text}</span><ArrowUpRight size={16} aria-hidden="true" />
+                  </button>
+                ))}
+              </div>
+            )}
             {loading && (
               <p className="chat-loading">Looking through the growing list…</p>
             )}
             <div ref={end} />
           </div>
-          {messages.length === 1 && (
-            <div className="chat-suggestions">
-              {["Basil", "Microgreens", "Business enquiry"].map((text) => (
-                <button key={text} disabled={loading} onClick={() => send(text)}>
-                  {text}
-                </button>
-              ))}
-            </div>
-          )}
           <form
             className="chat-input"
             onSubmit={(e) => {
@@ -129,6 +115,7 @@ export function ChatGuide() {
             </label>
             <input
               id="chat-message"
+              name="message"
               dir="auto"
               value={input}
               maxLength={300}
@@ -141,9 +128,10 @@ export function ChatGuide() {
               aria-label="Send message"
               disabled={!input.trim() || loading}
             >
-              <ArrowUp size={20} />
+              <ArrowUp size={20} aria-hidden="true" />
             </button>
           </form>
+          <ChatPrivacy />
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

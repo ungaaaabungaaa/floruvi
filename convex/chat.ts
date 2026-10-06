@@ -7,6 +7,7 @@ import { commerceSettings } from "./orders";
 import { activeSession } from "./admin";
 import {
   CHAT_RETENTION_DAYS,
+  CHAT_IDLE_MS,
   MAX_CHAT_TEXT,
   chatSpend,
   dayKey,
@@ -26,11 +27,12 @@ const products = v.optional(
   v.array(v.object({ slug: v.string(), name: v.string(), quantity: v.optional(v.number()) })),
 );
 
-const threadByToken = (ctx: QueryCtx, tokenHash: string) =>
+const threadByToken = (ctx: QueryCtx, tokenHash: string, sessionId?: string) =>
   ctx.db
     .query("chatThreads")
     .withIndex("by_token", (q) => q.eq("tokenHash", tokenHash))
-    .unique();
+    .filter((q) => q.eq(q.field("sessionId"), sessionId))
+    .first();
 
 const shown = (message: Doc<"chatMessages">) => ({
   id: message._id,
@@ -53,6 +55,7 @@ async function latest(ctx: QueryCtx, threadId: Id<"chatThreads">, count: number)
 export const customerTurn = internalMutation({
   args: {
     tokenHash: v.string(),
+    sessionId: v.optional(v.string()),
     ipHash: v.string(),
     text: v.string(),
     language: v.string(),
@@ -70,10 +73,12 @@ export const customerTurn = internalMutation({
     ]);
     if (!allowed) return { ok: false, reason: "limited" } as const;
     const now = Date.now();
-    let thread = await threadByToken(ctx, args.tokenHash);
+    let thread = await threadByToken(ctx, args.tokenHash, args.sessionId);
+    if (thread?.mode === "closed") return { ok: false, reason: "closed" } as const;
     if (!thread) {
       const id = await ctx.db.insert("chatThreads", {
         tokenHash: args.tokenHash,
+        ...(args.sessionId && { sessionId: args.sessionId }),
         mode: "bot",
         language: args.language,
         market: args.market,
@@ -84,9 +89,9 @@ export const customerTurn = internalMutation({
       thread = (await ctx.db.get(id))!;
     }
     await ctx.db.insert("chatMessages", { threadId: thread._id, author: "customer", text });
-    // A closed chat reopens with the assistant. Code, not the model, hands off here.
+    // Code, not the model, hands off here. Closed chats require a new session.
     let reason = thread.mode === "owner" ? null : needsPerson(text);
-    let next = reason ? "owner" : thread.mode === "closed" ? "bot" : thread.mode;
+    let next = reason ? "owner" : thread.mode;
     // Spend guards: a chat over today's limit goes to the owner; when the monthly
     // budget is spent, the assistant pauses for everyone and the owner is told once.
     let paused = false;
@@ -140,6 +145,7 @@ export const customerTurn = internalMutation({
 export const botReply = internalMutation({
   args: {
     tokenHash: v.string(),
+    sessionId: v.optional(v.string()),
     text: v.string(),
     products,
     handOff: v.optional(v.string()),
@@ -149,7 +155,7 @@ export const botReply = internalMutation({
     tokensOut: v.optional(v.number()),
   },
   handler: async (ctx, args) => {
-    const thread = await threadByToken(ctx, args.tokenHash);
+    const thread = await threadByToken(ctx, args.tokenHash, args.sessionId);
     if (!thread) return;
     const now = Date.now();
     const cost = args.costMicros ?? 0;
@@ -190,11 +196,16 @@ export const botReply = internalMutation({
 
 /** The customer's own chat, found by the cookie's hash. */
 export const customerThread = internalQuery({
-  args: { tokenHash: v.string() },
-  handler: async (ctx, { tokenHash }) => {
-    const thread = await threadByToken(ctx, tokenHash);
-    if (!thread) return null;
-    return { mode: thread.mode, messages: (await latest(ctx, thread._id, 50)).map(shown) };
+  args: { tokenHash: v.string(), sessionId: v.optional(v.string()) },
+  handler: async (ctx, { tokenHash, sessionId }) => {
+    const owned = await ctx.db.query("chatThreads").withIndex("by_token", (q) => q.eq("tokenHash", tokenHash)).order("desc").take(100);
+    const thread = owned.find((t) => t.sessionId === sessionId);
+    return {
+      mode: thread?.mode ?? "bot",
+      typingUntil: thread?.ownerTypingUntil ?? 0,
+      messages: thread ? (await latest(ctx, thread._id, 50)).map(shown) : [],
+      history: owned.map((t) => ({ sessionId: t.sessionId ?? "", preview: t.preview, at: t.lastMessageAt, mode: t.mode })),
+    };
   },
 });
 
@@ -227,6 +238,7 @@ export const inbox = internalQuery({
       lastMessageAt: t.lastMessageAt,
       preview: t.preview,
       unread: t.unread,
+      archivedAt: t.archivedAt ?? null,
       handOffReason: t.handOffReason ?? null,
       costMicros: t.costMicros ?? 0,
       aiReplies: t.aiReplies ?? 0,
@@ -244,6 +256,11 @@ export const inbox = internalQuery({
       threads,
       selected: selected && {
         id: selected._id,
+        language: selected.language,
+        market: selected.market,
+        lastMessageAt: selected.lastMessageAt,
+        canArchive: Date.now() - selected.lastMessageAt >= CHAT_IDLE_MS,
+        archivedAt: selected.archivedAt ?? null,
         mode: selected.mode,
         handOffReason: selected.handOffReason ?? null,
         costMicros: selected.costMicros ?? 0,
@@ -263,21 +280,56 @@ export const ownerUpdate = internalMutation({
     threadId: v.string(),
     text: v.optional(v.string()),
     mode: v.optional(mode),
+    archive: v.optional(v.boolean()),
+    read: v.optional(v.boolean()),
   },
   handler: async (ctx, args) => {
     if (!(await activeSession(ctx, args.tokenHash))) return "unauthorized" as const;
     const id = ctx.db.normalizeId("chatThreads", args.threadId);
     const thread = id ? await ctx.db.get(id) : null;
     if (!thread) return "missing" as const;
+    if (args.read) {
+      await ctx.db.patch(thread._id, { unread: false });
+      return "ok" as const;
+    }
+    if (args.archive && Date.now() - thread.lastMessageAt < CHAT_IDLE_MS) return "recent" as const;
     const text = args.text?.trim().slice(0, 2000);
     if (text) await ctx.db.insert("chatMessages", { threadId: thread._id, author: "owner", text });
     await ctx.db.patch(thread._id, {
       // Replying takes the chat over, so the assistant stays silent.
       mode: args.mode ?? (text ? "owner" : thread.mode),
       unread: false,
-      ...(text && { lastMessageAt: Date.now() }),
+      ownerTypingUntil: undefined,
+      ...(args.archive !== undefined && { archivedAt: args.archive ? Date.now() : undefined, ...(args.archive && { mode: "closed" as const }) }),
+      ...(text && { lastMessageAt: Date.now(), preview: text.slice(0, 140), archivedAt: undefined }),
     });
     return "ok" as const;
+  },
+});
+
+/** A typing signal contains no draft text and expires if an agent leaves. */
+export const ownerTyping = internalMutation({
+  args: { tokenHash: v.string(), threadId: v.string(), typing: v.boolean() },
+  handler: async (ctx, args) => {
+    if (!(await activeSession(ctx, args.tokenHash))) return "unauthorized" as const;
+    const id = ctx.db.normalizeId("chatThreads", args.threadId);
+    const thread = id ? await ctx.db.get(id) : null;
+    if (!thread) return "missing" as const;
+    if (thread.mode === "closed") return "closed" as const;
+    await ctx.db.patch(thread._id, { ownerTypingUntil: args.typing ? Date.now() + 8000 : undefined });
+    return "ok" as const;
+  },
+});
+
+/** Close idle chats in bounded batches; keep the history and existing retention. */
+export const closeIdle = internalMutation({
+  args: {},
+  handler: async (ctx) => {
+    for (const state of ["bot", "owner"] as const) {
+      const old = await ctx.db.query("chatThreads").withIndex("by_mode", (q) => q.eq("mode", state).lt("lastMessageAt", Date.now() - CHAT_IDLE_MS)).take(100);
+      for (const t of old) await ctx.db.patch(t._id, { mode: "closed", ownerTypingUntil: undefined, unread: false });
+      if (old.length === 100) await ctx.scheduler.runAfter(0, internal.chat.closeIdle, {});
+    }
   },
 });
 

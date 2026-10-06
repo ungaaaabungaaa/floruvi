@@ -142,12 +142,21 @@
     "chat": {
       "open": "Chat with Floruvi",
       "title": "Floruvi",
-      "note": "Automated assistant · chats are saved",
+      "assistant": "AI assistant",
+      "newChat": "New chat",
+      "history": "Past chats",
+      "back": "Back",
+      "noHistory": "Your past chats will appear here.",
+      "unread": "unread replies",
+      "typing": "The Floruvi team is typing",
+      "closed": "This chat is closed. Start a new chat to continue.",
+      "reconnecting": "Reconnecting…",
+      "note": "Chats are saved for support",
       "close": "Close chat",
       "label": "Your message",
       "placeholder": "Ask about produce, prices or delivery…",
       "send": "Send message",
-      "greeting": "Hi. Ask me about our produce, prices, delivery or payment.",
+      "greeting": "Welcome to Floruvi. What can I help you find today?",
       "thinking": "Typing…",
       "error": "Sorry, something went wrong. Please try again.",
       "tooMany": "You’ve sent many messages. Please try again in an hour.",
@@ -159,8 +168,8 @@
       "paused": "The assistant is paused for now. Please use the contact page, and the Floruvi team will help you.",
       "suggestions": [
         "What’s in stock?",
-        "Delivery charges",
-        "Business order"
+        "Delivery & payment",
+        "Business orders"
       ]
     },
     "boxes": {

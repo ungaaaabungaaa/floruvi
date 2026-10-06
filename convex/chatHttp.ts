@@ -1,7 +1,7 @@
 import { httpAction } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { languages, markets } from "../lib/i18n/config";
-import { CHAT_TOKEN, MAX_CHAT_TEXT } from "../lib/chat";
+import { CHAT_SESSION, CHAT_TOKEN, MAX_CHAT_TEXT } from "../lib/chat";
 import { hasBearer, readObject, reply, sha256, text } from "./httpUtils";
 
 // /chat/* are called by the Next.js server with LEAD_INGEST_SECRET and the
@@ -24,6 +24,7 @@ export const turn = httpAction(async (ctx, request) => {
   const market = text(body?.market);
   if (
     !CHAT_TOKEN.test(token) ||
+    (body?.sessionId !== undefined && !CHAT_SESSION.test(text(body.sessionId))) ||
     !HEX64.test(text(body?.ipHash)) ||
     !message ||
     message.length > MAX_CHAT_TEXT ||
@@ -33,6 +34,7 @@ export const turn = httpAction(async (ctx, request) => {
     return reply(400);
   const result = await ctx.runMutation(internal.chat.customerTurn, {
     tokenHash: await sha256(token),
+    ...(typeof body?.sessionId === "string" && body.sessionId ? { sessionId: body.sessionId } : {}),
     ipHash: text(body?.ipHash),
     text: message,
     language,
@@ -45,7 +47,7 @@ export const botReply = httpAction(async (ctx, request) => {
   if (!(await fromSite(request))) return reply(401);
   const body = await readObject(request, 12_000);
   const token = text(body?.token);
-  if (!CHAT_TOKEN.test(token)) return reply(400);
+  if (!CHAT_TOKEN.test(token) || (body?.sessionId !== undefined && !CHAT_SESSION.test(text(body.sessionId)))) return reply(400);
   const products = Array.isArray(body?.products)
     ? body.products
         .filter((p): p is Record<string, unknown> => !!p && typeof p === "object")
@@ -62,6 +64,7 @@ export const botReply = httpAction(async (ctx, request) => {
     Number.isSafeInteger(value) && (value as number) >= 0 ? Math.min(value as number, max) : 0;
   await ctx.runMutation(internal.chat.botReply, {
     tokenHash: await sha256(token),
+    ...(typeof body?.sessionId === "string" && body.sessionId ? { sessionId: body.sessionId } : {}),
     text: text(body?.text),
     products,
     handOff: text(body?.handOff) || undefined,
@@ -74,9 +77,10 @@ export const botReply = httpAction(async (ctx, request) => {
 
 export const thread = httpAction(async (ctx, request) => {
   if (!(await fromSite(request))) return reply(401);
-  const token = text((await readObject(request, 200))?.token);
-  if (!CHAT_TOKEN.test(token)) return reply(400);
-  const data = await ctx.runQuery(internal.chat.customerThread, { tokenHash: await sha256(token) });
+  const body = await readObject(request, 300);
+  const token = text(body?.token);
+  if (!CHAT_TOKEN.test(token) || (body?.sessionId !== undefined && !CHAT_SESSION.test(text(body.sessionId)))) return reply(400);
+  const data = await ctx.runQuery(internal.chat.customerThread, { tokenHash: await sha256(token), ...(typeof body?.sessionId === "string" && body.sessionId ? { sessionId: body.sessionId } : {}) });
   return reply(200, data ?? { mode: "bot", messages: [] });
 });
 
@@ -105,6 +109,17 @@ export const update = httpAction(async (ctx, request) => {
     threadId: text(body?.threadId).slice(0, 64),
     text: text(body?.text) || undefined,
     mode: (mode || undefined) as "bot" | "owner" | "closed" | undefined,
+    ...(typeof body?.archive === "boolean" && { archive: body.archive }),
+    ...(body?.read === true && { read: true }),
   });
-  return reply(result === "ok" ? 200 : result === "missing" ? 404 : 401, { result });
+  return reply(result === "ok" ? 200 : result === "missing" ? 404 : result === "recent" ? 409 : 401, { result });
+});
+
+export const typing = httpAction(async (ctx, request) => {
+  if (!(await fromAdmin(request))) return reply(401);
+  const body = await readObject(request, 500);
+  const token = text(body?.token);
+  if (!ADMIN_TOKEN.test(token) || typeof body?.typing !== "boolean") return reply(400);
+  const result = await ctx.runMutation(internal.chat.ownerTyping, { tokenHash: await sha256(token), threadId: text(body.threadId).slice(0, 64), typing: body.typing });
+  return reply(result === "ok" ? 200 : result === "missing" ? 404 : result === "closed" ? 409 : 401);
 });

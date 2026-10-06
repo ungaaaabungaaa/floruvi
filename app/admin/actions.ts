@@ -103,7 +103,11 @@ export async function updateChat(form: FormData) {
     threadId,
     text: String(form.get("text") ?? "").slice(0, 2000),
     ...(["bot", "owner", "closed"].includes(mode) && { mode }),
+    ...(form.has("archive") && { archive: form.get("archive") === "true" }),
+    ...(form.get("read") === "true" && { read: true }),
   }).catch(() => null);
   if (response?.status === 401) redirect("/admin/login");
-  revalidatePath("/admin", "layout");
+  if (!response?.ok) return { error: response?.status === 409 ? "Only chats inactive for three days can be archived." : "Your reply was not saved. Try again." };
+  if (form.get("read") !== "true") revalidatePath("/admin", "layout");
+  return { error: null };
 }
