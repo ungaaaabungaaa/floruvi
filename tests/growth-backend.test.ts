@@ -647,3 +647,154 @@ test("Apollo cache is reusable only for the current owned company selection", as
   });
   assert.equal((await reserve()).ok, false);
 });
+
+test("general research saves its question and answer without creating buyer records", async (t) => {
+  const { db } = await setup(t);
+  const question = {
+    ...request,
+    kind: "general",
+    prompt: "Compare farm input prices",
+    groups: [],
+    products: "",
+    region: "",
+  };
+  const started = await db.mutation(internal.growth.start, {
+    tokenHash: ownerHash,
+    payload: question,
+  });
+  assert.equal(started.ok, true);
+  const id = started.id as Id<"growthRuns">;
+  assert.ok(await db.mutation(internal.growth.claim, { id }));
+  const result = {
+    summary: "Compare delivered prices per kilogram.",
+    opportunities: [opportunity()],
+    sources: [{ url: "https://supplier.example/prices", title: "Price list" }],
+    nextSteps: ["Check the current delivery charge."],
+  };
+  await db.mutation(internal.growth.finish, { id, result, costMicros: 10000 });
+  const dashboard = await db.query(internal.growth.dashboard, {
+    tokenHash: ownerHash,
+  });
+  assert.equal(dashboard?.runs[0].request.prompt, question.prompt);
+  assert.equal(dashboard?.runs[0].summary, result.summary);
+  assert.deepEqual(dashboard?.runs[0].sources, result.sources);
+  assert.equal(dashboard?.opportunities.length, 0);
+  const mcp = await db.mutation(internal.growth.mcp, {
+    tokenHash: mcpHash,
+    operation: "readResearch",
+    payload: { limit: 10 },
+  });
+  assert.equal(
+    JSON.stringify(mcp.data).includes(question.prompt),
+    false,
+    "Raw prompts stay outside the existing MCP read scope",
+  );
+});
+
+test("research note snapshots keep full-size answers, sources and dates across edits and retries", async (t) => {
+  const { db } = await setup(t);
+  const summary = "A".repeat(6000);
+  const sources = Array.from({ length: 40 }, (_, i) => ({
+    url: `https://supplier.example/prices/${i}`,
+    title: `Source ${i}`,
+  }));
+  const nextSteps = Array.from({ length: 10 }, () => "B".repeat(600));
+  const question = "Compare delivered prices and explain the trade-offs.";
+  const finishedAt = Date.now();
+  const runId = await db.run((ctx) =>
+    ctx.db.insert("growthRuns", {
+      request: { ...request, kind: "general", prompt: question, groups: [] },
+      status: "complete",
+      actorHash: ownerHash,
+      month: "2026-10",
+      createdAt: finishedAt - 1000,
+      finishedAt,
+      reservationMicros: 0,
+      settled: true,
+      summary,
+      sources,
+      nextSteps,
+    }),
+  );
+  const save = () =>
+    db.mutation(internal.growth.update, {
+      tokenHash: ownerHash,
+      operation: "saveResearchNote",
+      payload: { id: runId },
+    });
+  const first = await save();
+  assert.equal(first.ok, true);
+  const read = () =>
+    db.query(internal.growth.dashboard, { tokenHash: ownerHash });
+  let draft = (await read())!.drafts[0];
+  assert.equal(draft.body, summary);
+  assert.deepEqual(draft.sources, sources);
+  assert.deepEqual(draft.researchNextSteps, nextSteps);
+  assert.equal(draft.researchPrompt, question);
+  assert.equal(draft.researchedAt, finishedAt);
+  assert.equal(draft.researchRunId, runId);
+  assert.equal(
+    (
+      await db.mutation(internal.growth.update, {
+        tokenHash: ownerHash,
+        operation: "saveDraft",
+        payload: {
+          id: first.id,
+          title: "My comparison",
+          body: "My edited research note.",
+          opportunityId: "",
+        },
+      })
+    ).ok,
+    true,
+  );
+  assert.equal((await save()).id, first.id);
+  const dashboard = (await read())!;
+  assert.equal(dashboard.drafts.length, 1);
+  draft = dashboard.drafts[0];
+  assert.equal(draft.body, "My edited research note.");
+  assert.deepEqual(draft.sources, sources);
+  assert.deepEqual(draft.researchNextSteps, nextSteps);
+  assert.equal(draft.researchedAt, finishedAt);
+});
+
+test("research notes reject unauthorized, expired, incomplete and forged result saves", async (t) => {
+  const { db, sessionId } = await setup(t);
+  const id = await db.run((ctx) =>
+    ctx.db.insert("growthRuns", {
+      request,
+      status: "running",
+      actorHash: ownerHash,
+      month: "2026-10",
+      createdAt: Date.now(),
+      reservationMicros: 0,
+      settled: false,
+    }),
+  );
+  const save = (tokenHash: string, payload: unknown = { id }) =>
+    db.mutation(internal.growth.update, {
+      tokenHash,
+      operation: "saveResearchNote",
+      payload,
+    });
+  assert.equal((await save("missing")).ok, false);
+  assert.equal((await save(ownerHash)).ok, false);
+  assert.equal((await save(ownerHash, { id: "invalid" })).ok, false);
+  await db.run((ctx) =>
+    ctx.db.patch(id, {
+      status: "complete",
+      summary: "A completed answer.",
+      finishedAt: Date.now(),
+    }),
+  );
+  assert.equal(
+    (await save(ownerHash, { id, summary: "Forged browser text" })).ok,
+    false,
+  );
+  await db.run((ctx) => ctx.db.patch(sessionId, { expiresAt: Date.now() - 1 }));
+  assert.equal((await save(ownerHash)).ok, false);
+  assert.equal(
+    (await db.run((ctx) => ctx.db.query("growthDrafts").collect())).length,
+    0,
+  );
+});

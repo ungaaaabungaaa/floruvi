@@ -86,7 +86,7 @@ export default async function GrowthPage({
         </p>
       </>
     );
-  const view = views.find((value) => value === params.view) || "opportunities";
+  const view = views.find((value) => value === params.view) || "research";
   const active = data.runs.some(
     (run) => run.status === "queued" || run.status === "running",
   );
@@ -94,7 +94,7 @@ export default async function GrowthPage({
     <div className="growth-workspace">
       <div className="growth-heading">
         <div>
-          <p className="admin-eyebrow">Find and review buyers</p>
+          <p className="admin-eyebrow">Research and grow your farm</p>
           <h1>Growth</h1>
         </div>
         {view !== "research" && (
@@ -102,13 +102,12 @@ export default async function GrowthPage({
             className="admin-button ghost"
             href="/admin/growth?view=research"
           >
-            Research buyers
+            Research
           </Link>
         )}
       </div>
       <p className="admin-muted">
-        Keep buyer evidence, source links and next steps in one place. Review
-        each opportunity before contact.
+        Research a question, review the sources and save useful notes.
       </p>
       <Filters
         label="Growth views"
@@ -116,7 +115,7 @@ export default async function GrowthPage({
           href: `/admin/growth?view=${value}`,
           label:
             value === "drafts"
-              ? "Drafts & results"
+              ? "Notes & drafts"
               : value[0].toUpperCase() + value.slice(1),
           current: view === value,
           count:
@@ -476,7 +475,7 @@ function Research({
           </span>
         </div>
         <p className="admin-muted">
-          Find buyers, tenders or export opportunities with source links.
+          Ask a question. Get a short answer with sources.
         </p>
         <details className="growth-review growth-research-budget">
           <summary>
@@ -564,11 +563,13 @@ function RunCard({ run }: { run: GrowthRun }) {
     <li className="admin-order">
       <div className="admin-order-head">
         <h3>
-          {run.request.kind === "tenders"
-            ? "Tender research"
-            : run.request.kind === "export"
-              ? "Export research"
-              : "Buyer research"}
+          {run.request.kind === "general"
+            ? "Research answer"
+            : run.request.kind === "tenders"
+              ? "Tender research"
+              : run.request.kind === "export"
+                ? "Export research"
+                : "Buyer research"}
         </h3>
         <span
           className={`admin-tag${run.status === "failed" ? " review" : ""}`}
@@ -577,12 +578,21 @@ function RunCard({ run }: { run: GrowthRun }) {
         </span>
         <time>{when(run.createdAt)} IST</time>
       </div>
-      <p>
-        {run.request.products} · {run.request.region}
-      </p>
-      <p className="admin-muted">
-        {run.request.groups.map(groupLabel).join(" · ")}
-      </p>
+      {run.request.prompt && (
+        <p className="growth-preserve">{run.request.prompt}</p>
+      )}
+      {(run.request.products || run.request.region) && (
+        <p className="admin-muted">
+          {[run.request.products, run.request.region]
+            .filter(Boolean)
+            .join(" · ")}
+        </p>
+      )}
+      {run.request.kind !== "general" && (
+        <p className="admin-muted">
+          {run.request.groups.map(groupLabel).join(" · ")}
+        </p>
+      )}
       {active && (
         <p role="status">
           {run.status === "queued"
@@ -622,6 +632,16 @@ function RunCard({ run }: { run: GrowthRun }) {
             ))}
           </ol>
         </>
+      )}
+      {run.status === "complete" && (run.summary?.trim().length ?? 0) >= 5 && (
+        <div className="growth-actions">
+          <ActionForm operation="saveResearchNote" label="Save as note">
+            <input type="hidden" name="id" value={run._id} />
+          </ActionForm>
+          <Link className="admin-link" href="/admin/growth?view=drafts">
+            Open notes
+          </Link>
+        </div>
       )}
       {active && (
         <ActionForm operation="cancelResearch" label="Cancel research">
@@ -863,10 +883,10 @@ function Drafts({ data }: { data: GrowthDashboard }) {
   return (
     <>
       <section aria-labelledby="drafts-title">
-        <h2 id="drafts-title">Drafts & results</h2>
+        <h2 id="drafts-title">Notes & drafts</h2>
         <p className="admin-muted">
-          Prepare an introduction, sample offer or buyer questions. Nothing is
-          sent from this workspace.
+          Save research, your own notes or a message draft. Research notes keep
+          their original sources when you edit the text.
         </p>
         <dl className="growth-budget">
           <div>
@@ -909,7 +929,7 @@ function Drafts({ data }: { data: GrowthDashboard }) {
       <section aria-labelledby="new-draft-title">
         <details className="admin-order" open={data.drafts.length === 0}>
           <summary className="admin-order-head">
-            <h2 id="new-draft-title">New draft</h2>
+            <h2 id="new-draft-title">New note or draft</h2>
           </summary>
           <DraftEditor opportunities={opportunities} />
         </details>

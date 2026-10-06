@@ -21,6 +21,15 @@ const request: ResearchRequest = {
   limit: 3,
   useExa: false,
 };
+const generalRequest: ResearchRequest = {
+  kind: "general",
+  prompt: "Compare cocopeat prices per kilogram, with delivery to Bengaluru.",
+  groups: [],
+  region: "",
+  products: "",
+  limit: 3,
+  useExa: false,
+};
 const url = "https://buyer.example/procurement";
 const opportunity = {
   kind: "buyer",
@@ -172,6 +181,174 @@ test("an unknown source URL cannot become a stored opportunity", async () => {
       /source/.test(error.message),
   );
   assert.equal(calls.length, 1);
+});
+
+test("general OpenAI research uses the question and excludes opportunities even with selected groups", async () => {
+  const { providers, calls } = harness(() => json(response()));
+  const found = await providers.research(
+    { ...generalRequest, groups: ["hospitality"] },
+    emptySupplyProfile,
+  );
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].url, "https://api.openai.com/v1/responses");
+  const body = calls[0].body;
+  const input = JSON.parse(String(body.input));
+  assert.equal(input.request.prompt, generalRequest.prompt);
+  assert.equal(input.request.kind, "general");
+  assert.equal(body.model, RESEARCH_MODEL);
+  assert.equal(body.max_tool_calls, 4);
+  assert.equal(body.max_output_tokens, 4096);
+  assert.equal(body.tool_choice, "required");
+  assert.match(
+    String(body.instructions),
+    /Answer the actual free-text question/,
+  );
+  assert.match(String(body.instructions), /context, not restrictions/);
+  assert.match(String(body.instructions), /date, currency and unit/);
+  assert.match(String(body.instructions), /official registration records/);
+  assert.match(String(body.instructions), /Do not invent safe use, doses/);
+  assert.doesNotMatch(
+    String(body.instructions),
+    /Cover only selected buyer groups/,
+  );
+  assert.deepEqual(found.result.opportunities, []);
+  assert.deepEqual(found.result.sources, [
+    { url, title: "Procurement source" },
+  ]);
+});
+
+test("general Exa research searches the actual question and uses only returned evidence", async () => {
+  const { providers, calls } = harness(({ url: endpoint }) => {
+    if (endpoint === "https://api.exa.ai/search")
+      return json({
+        requestId: "exa_general",
+        results: [
+          {
+            url,
+            title: "Supplier price list",
+            text: "Price needs a current quote.",
+          },
+        ],
+        costDollars: { total: 0.007 },
+      });
+    const synthesis = response();
+    synthesis.output = synthesis.output.filter(
+      (item) => item.type === "message",
+    );
+    return json(synthesis);
+  });
+  const found = await providers.research(
+    { ...generalRequest, useExa: true },
+    emptySupplyProfile,
+  );
+  assert.equal(calls.length, 2);
+  assert.equal(calls[0].body.query, generalRequest.prompt);
+  assert.equal(calls[0].body.numResults, 3);
+  assert.equal(calls[1].body.max_tool_calls, 0);
+  assert.deepEqual(calls[1].body.tools, []);
+  assert.equal(calls[1].body.tool_choice, "none");
+  assert.equal(
+    JSON.parse(String(calls[1].body.input)).request.prompt,
+    generalRequest.prompt,
+  );
+  assert.deepEqual(found.result.opportunities, []);
+  assert.deepEqual(found.result.sources, [
+    { url, title: "Supplier price list" },
+  ]);
+  assert.equal(found.costMicros, 8250);
+});
+
+test("Exa keeps optional general context separate and keeps custom buyer direction", async () => {
+  for (const selected of [
+    { ...generalRequest, region: "Karnataka", products: "basil" },
+    { ...request, prompt: "Prefer independent kitchens." },
+  ]) {
+    const { providers, calls } = harness(({ url: endpoint }) => {
+      if (endpoint === "https://api.exa.ai/search")
+        return json({ results: [{ url, title: "Source", text: "Evidence" }] });
+      const synthesis = response();
+      synthesis.output = synthesis.output.filter(
+        (item) => item.type === "message",
+      );
+      return json(synthesis);
+    });
+    await providers.research({ ...selected, useExa: true }, emptySupplyProfile);
+    const query = String(calls[0].body.query);
+    assert.ok(query.includes(selected.prompt!));
+    if (selected.kind === "general") {
+      assert.match(
+        query,
+        /Optional context \(question takes priority\): Region: Karnataka. Products: basil/,
+      );
+      assert.doesNotMatch(query, /Business produce buyers/);
+    } else {
+      assert.match(query, /Business produce buyers/);
+      assert.match(String(calls[1].body.instructions), /additional direction/);
+    }
+  }
+});
+
+test("malformed or oversized prompts fail before network access for both research paths", async () => {
+  const { providers, calls } = harness(() => {
+    throw new Error("Must not call");
+  });
+  for (const useExa of [false, true]) {
+    for (const prompt of [
+      undefined,
+      "    ",
+      "abcd",
+      "x".repeat(4001),
+      42,
+      {},
+    ]) {
+      await assert.rejects(
+        providers.research(
+          { ...generalRequest, useExa, prompt } as ResearchRequest,
+          emptySupplyProfile,
+        ),
+        (error: unknown) =>
+          error instanceof ProviderFailure && !error.outcomeUnknown,
+      );
+    }
+    await assert.rejects(
+      providers.research(
+        { ...request, useExa, prompt: "x".repeat(4001) },
+        emptySupplyProfile,
+      ),
+      (error: unknown) =>
+        error instanceof ProviderFailure && !error.outcomeUnknown,
+    );
+  }
+  assert.equal(calls.length, 0);
+});
+
+test("general research rejects fake source citations without a paid retry", async () => {
+  for (const useExa of [false, true]) {
+    const invented = { ...output(), opportunities: [] };
+    invented.sources = [
+      { url: "https://invented.example/price", title: "Fake price list" },
+    ];
+    const { providers, calls } = harness(({ url: endpoint }) => {
+      if (endpoint === "https://api.exa.ai/search")
+        return json({
+          results: [{ url, title: "Real source", text: "Evidence" }],
+        });
+      const synthesis = response(invented);
+      if (useExa)
+        synthesis.output = synthesis.output.filter(
+          (item) => item.type === "message",
+        );
+      return json(synthesis);
+    });
+    await assert.rejects(
+      providers.research({ ...generalRequest, useExa }, emptySupplyProfile),
+      (error: unknown) =>
+        error instanceof ProviderFailure &&
+        error.outcomeUnknown &&
+        /source/.test(error.message),
+    );
+    assert.equal(calls.length, useExa ? 2 : 1);
+  }
 });
 
 test("citations are accepted, but an invented website is not accepted", async () => {

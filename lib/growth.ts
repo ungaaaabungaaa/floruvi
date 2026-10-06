@@ -93,18 +93,42 @@ export const sourceUrlSchema = z
 const short = (max: number) => z.string().trim().max(max);
 export const researchRequestSchema = z
   .object({
-    kind: z.enum(["buyers", "tenders", "export"]),
+    kind: z.enum(["general", "buyers", "tenders", "export"]),
+    prompt: short(4000).optional(),
     groups: z
       .array(groupSchema)
-      .min(1)
       .max(11)
       .transform((groups) => [...new Set(groups)]),
-    region: short(160).min(2),
-    products: short(500).min(2),
+    region: short(160),
+    products: short(500),
     limit: z.number().int().min(1).max(20),
     useExa: z.boolean(),
   })
-  .strict();
+  .strict()
+  .superRefine((value, ctx) => {
+    if (value.kind === "general") {
+      if ((value.prompt?.length ?? 0) < 5)
+        ctx.addIssue({
+          code: "custom",
+          path: ["prompt"],
+          message: "Enter a research question (at least 5 characters).",
+        });
+    } else {
+      if (!value.groups.length)
+        ctx.addIssue({
+          code: "custom",
+          path: ["groups"],
+          message: "Choose at least one buyer group.",
+        });
+      for (const field of ["region", "products"] as const)
+        if (value[field].length < 2)
+          ctx.addIssue({
+            code: "custom",
+            path: [field],
+            message: "Enter at least 2 characters.",
+          });
+    }
+  });
 export type ResearchRequest = z.infer<typeof researchRequestSchema>;
 
 export const opportunitySchema = z
@@ -412,6 +436,11 @@ export type GrowthDraft = {
   body: string;
   opportunityId: string;
   createdAt: number;
+  researchRunId?: string;
+  researchPrompt?: string;
+  researchedAt?: number;
+  sources?: { url: string; title: string }[];
+  researchNextSteps?: string[];
 };
 export type GrowthDashboard = {
   profile: SupplyProfile;

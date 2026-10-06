@@ -21,7 +21,7 @@ Never put key values in this repo.
 | `OPENROUTER_API_KEY` | Vercel | AI chat (GPT-6 Luna, backup Gemini 3.1 Flash-Lite) | openrouter.ai → set the key's monthly limit to **US$5** | ⬜ |
 | `CHAT_MONTHLY_BUDGET_USD`, `CHAT_DAILY_LIMIT_PER_CHAT_USD` | Convex | Optional: chat spend limits (defaults $5 a month, $0.05 per chat a day) | – | Optional |
 | `OPENAI_API_KEY`, optional `EXA_API_KEY` and `APOLLO_API_KEY` | Convex | Admin buyer, tender, export and contact research | Provider dashboards; [Growth setup](docs/31-growth-tools-plan.md#setup-the-built-workspace) | Needs setup |
-| `GROWTH_RESEARCH_ENABLED`, `GROWTH_MONTHLY_BUDGET_USD`, `GROWTH_APOLLO_MONTHLY_CREDITS` | Convex | Research activation and limits | Defaults: off, US$10/month, zero Apollo credits | Needs owner limits |
+| `GROWTH_RESEARCH_ENABLED`, `GROWTH_MONTHLY_BUDGET_USD`, `GROWTH_APOLLO_MONTHLY_CREDITS` | Convex | Research activation and limits | Research enabled at US$10/month; zero Apollo credits | Enabled; paid execution unverified |
 | `GROWTH_MCP_TOKEN` | Vercel + Convex | Scoped Codex read and draft tools | A dedicated random token; [setup](docs/31-growth-tools-plan.md#setup-the-built-workspace) | Optional |
 | `GROWTH_MERCHANT_FEED_ENABLED` | Convex | Eligible India offers at `/feeds/google.xml` | Enable after live checkout and listing review | Off by default |
 | SMS gateway keys | Convex | SMS codes from your SIM | [Own-SIM SMS codes](docs/30-own-sim-sms-otp.md) | Later |

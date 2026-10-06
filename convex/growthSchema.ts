@@ -11,7 +11,13 @@ export const profileFields = {
 };
 export const source = v.object({ url: v.string(), title: v.string() });
 export const request = v.object({
-  kind: v.union(v.literal("buyers"), v.literal("tenders"), v.literal("export")),
+  kind: v.union(
+    v.literal("general"),
+    v.literal("buyers"),
+    v.literal("tenders"),
+    v.literal("export"),
+  ),
+  prompt: v.optional(v.string()),
   groups: v.array(v.string()),
   region: v.string(),
   products: v.string(),
@@ -96,6 +102,11 @@ export const growthTables = {
     createdAt: v.number(),
     updatedAt: v.number(),
     idempotencyKey: v.optional(v.string()),
+    researchRunId: v.optional(v.id("growthRuns")),
+    researchPrompt: v.optional(v.string()),
+    researchedAt: v.optional(v.number()),
+    sources: v.optional(v.array(source)),
+    researchNextSteps: v.optional(v.array(v.string())),
   }).index("by_idempotency", ["idempotencyKey"]),
   growthUsage: defineTable({
     month: v.string(),

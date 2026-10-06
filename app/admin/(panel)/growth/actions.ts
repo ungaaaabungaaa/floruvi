@@ -22,6 +22,7 @@ export type GrowthOperation =
   | "saveOpportunity"
   | "updateOpportunity"
   | "saveChannel"
+  | "saveResearchNote"
   | "saveDraft"
   | "deleteDraft"
   | "startResearch"
@@ -93,12 +94,14 @@ function parsePayload(operation: GrowthOperation, form: FormData) {
       const id = text(form, "id");
       return id ? { ...draft, id: idSchema.parse(id) } : draft;
     }
+    case "saveResearchNote":
     case "deleteDraft":
     case "cancelResearch":
       return { id: idSchema.parse(text(form, "id")) };
     case "startResearch":
       return researchRequestSchema.parse({
         kind: text(form, "kind"),
+        prompt: text(form, "prompt"),
         groups: form.getAll("groups"),
         region: text(form, "region"),
         products: text(form, "products"),
@@ -130,7 +133,9 @@ const messages: Record<GrowthOperation, string> = {
   saveOpportunity: "Opportunity saved.",
   updateOpportunity: "Review saved.",
   saveChannel: "Channel notes saved. This does not test API access.",
-  saveDraft: "Draft saved. Nothing was sent.",
+  saveDraft: "Note or draft saved.",
+  saveResearchNote:
+    "Saved in Notes & drafts. Your answer and sources are kept together.",
   deleteDraft: "Draft deleted.",
   startResearch: "Research queued.",
   cancelResearch:

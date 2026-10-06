@@ -8,6 +8,18 @@ The owner asked to enable research and simplify the admin screen. Production `po
 
 The research screen starts with type, region and products. Search options hold buyer groups, result count and optional Exa search. A compact budget summary expands to show charges and reservations. The latest and active runs remain visible; older runs and company contact lookup expand on demand. Server limits and authorization are unchanged.
 
+## General research extension — 6 October 2026
+
+Owner request: research arbitrary questions (including costs, supplies, crop care and prices), use editable suggestions, produce concise LLM answers with sources, and save private notes. Presets must not limit the question.
+
+Implementation plan: (1) add a bounded custom prompt and general research mode to the existing request contract; retain buyer/tender/export requests and stored history; (2) use the existing OpenAI/Exa adapters and server tool/cost limits for the custom question; (3) show a question-first form and optional presets, with contextual fields under options; (4) save completed results as idempotent private draft notes with prompt, source links, date and next steps retained separately from editable prose; (5) verify request validation, citation rejection, no general-to-buyer inserts, note persistence/edit/retry/access denial and mobile controls; deploy Convex before the frontend.
+
+Baseline: `b78fcf9`, clean main. No new service, credentials, LLM agent framework, autonomous paid loop or messaging. Convex stays the owner of research and notes. Existing dollar limits, reservations, cancellation and protected-session checks remain in force. A code-review agent checks reliability; no production paid run is part of verification.
+
+Current implementation: the question is optional only for the existing structured buyer/tender/export formats. General research requires a custom question, with no required buyer group or location. Both provider and database layers prevent general results from becoming buyer records. Saved notes preserve sources, next steps, prompt and date as metadata outside the editable answer. The existing scoped MCP can read answer summaries and sources but still cannot read raw prompts or notes.
+
+Validation: 138 tests passed, including provider mock transport and full-size note snapshots, retry/edit preservation, denied access and no general buyer inserts. Browser fixtures confirmed editable suggestions, legacy buyer options, mobile reflow at 375 pixels, result save controls and source metadata in notes. Live paid execution and signed-in browser saving remain unverified.
+
 ## Implementation checkpoint — 2 October 2026
 
 - Goal: ship a working owner Growth workspace with all buyer groups, persisted research/opportunities/drafts/supply details, OpenAI + optional Exa + Apollo adapters, channel readiness and protected Codex access. Keep external sending and bidding owner-controlled in vendor tools.

@@ -346,11 +346,20 @@
   padding: 0;
   margin-bottom: 10px;
 }
-.growth-research .growth-form-grid > label:last-child {
-  grid-column: 1 / -1;
-}
 @media (max-width: 520px) {
   .growth-research .growth-budget {
     grid-template-columns: 1fr;
   }
+}
+
+.growth-prompt-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.growth-prompt-suggestions > span {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 12px;
 }

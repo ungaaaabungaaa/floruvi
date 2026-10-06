@@ -169,6 +169,43 @@ async function saveDraft(ctx: MutationCtx, payload: unknown) {
   });
 }
 
+// Snapshot the stored result; never trust browser-supplied answer text or links.
+async function saveResearchNote(ctx: MutationCtx, payload: unknown) {
+  const { id } = z.object({ id: z.string() }).strict().parse(payload);
+  const runId = ctx.db.normalizeId("growthRuns", id);
+  const run = runId ? await ctx.db.get(runId) : null;
+  if (
+    !run ||
+    run.status !== "complete" ||
+    !run.summary ||
+    run.summary.trim().length < 5
+  )
+    throw new Error("Choose a completed research answer.");
+  const idempotencyKey = `research:${run._id}`;
+  const existing = await ctx.db
+    .query("growthDrafts")
+    .withIndex("by_idempotency", (q) => q.eq("idempotencyKey", idempotencyKey))
+    .unique();
+  if (existing) return existing._id;
+  const question =
+    run.request.prompt ||
+    `${run.request.kind}: ${run.request.products} in ${run.request.region}`;
+  const now = Date.now();
+  return ctx.db.insert("growthDrafts", {
+    title: question.slice(0, 180),
+    body: run.summary,
+    opportunityId: "",
+    idempotencyKey,
+    researchRunId: run._id,
+    researchPrompt: question,
+    researchedAt: run.finishedAt ?? run.createdAt,
+    sources: run.sources ?? [],
+    researchNextSteps: run.nextSteps ?? [],
+    createdAt: now,
+    updatedAt: now,
+  });
+}
+
 export const dashboard = internalQuery({
   args: { tokenHash: v.string() },
   handler: async (ctx, { tokenHash }): Promise<GrowthDashboard | null> => {
@@ -230,6 +267,11 @@ export const dashboard = internalQuery({
           "title",
           "body",
           "opportunityId",
+          "researchRunId",
+          "researchPrompt",
+          "researchedAt",
+          "sources",
+          "researchNextSteps",
           "createdAt",
           "updatedAt",
         ]),
@@ -308,6 +350,8 @@ export const update = internalMutation({
         });
         id = record;
       } else if (operation === "saveDraft") id = await saveDraft(ctx, payload);
+      else if (operation === "saveResearchNote")
+        id = await saveResearchNote(ctx, payload);
       else if (operation === "deleteDraft") {
         const p = z.object({ id: z.string() }).strict().parse(payload);
         const record = ctx.db.normalizeId("growthDrafts", p.id);
@@ -479,8 +523,9 @@ export const finish = internalMutation({
     }
     const data: ResearchResult = valid.data;
     const allowedGroups = new Set(run.request.groups);
-    for (const item of data.opportunities.slice(0, run.request.limit))
-      if (allowedGroups.has(item.group)) await saveOpportunity(ctx, item, id);
+    if (run.request.kind !== "general")
+      for (const item of data.opportunities.slice(0, run.request.limit))
+        if (allowedGroups.has(item.group)) await saveOpportunity(ctx, item, id);
     await ctx.db.patch(id, {
       status: "complete",
       summary: data.summary,

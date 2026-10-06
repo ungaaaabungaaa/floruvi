@@ -13,6 +13,7 @@ import {
 import { useRouter } from "next/navigation";
 import {
   buyerGroups,
+  publicSourceUrl,
   type GrowthDraft,
   type Opportunity,
   type SupplyProfile,
@@ -127,118 +128,181 @@ export function ResearchForm({
   hasExa: boolean;
   active: boolean;
 }) {
+  const [kind, setKind] = useState("general");
+  const [prompt, setPrompt] = useState("");
   const [groups, setGroups] = useState<string[]>(
     buyerGroups.map((group) => group.id),
   );
-  const canRun = enabled && hasOpenAI && !active && groups.length > 0;
+  const general = kind === "general";
+  const canRun =
+    enabled && hasOpenAI && !active && (general || groups.length > 0);
+  const suggestions = [
+    {
+      label: "Compare prices",
+      prompt:
+        "Compare current prices for a product or farm input. Include pack size, unit price, delivery costs, source dates and the main trade-offs.",
+    },
+    {
+      label: "Find cheaper options",
+      prompt:
+        "Find lower-cost alternatives for a farm supply or process. Compare total cost, quality, availability and any hidden costs.",
+    },
+    {
+      label: "Crop care",
+      prompt:
+        "Research a crop or pest problem. Compare practical options using official guidance. List the crop, pest and location details needed before recommending treatment.",
+    },
+    {
+      label: "Find buyers",
+      prompt:
+        "Find potential buyers for my products. Explain product fit, buying routes and what I should check before contact.",
+    },
+  ];
   return (
     <ActionForm
       operation="startResearch"
       label="Start research"
       disabled={!canRun}
     >
-      <div className="growth-form-grid">
-        <label>
-          What to find
-          <select name="kind" defaultValue="buyers">
-            <option value="buyers">Buyers</option>
-            <option value="tenders">Official tenders</option>
-            <option value="export">Export research</option>
-          </select>
-        </label>
-        <label>
-          City, state or country
-          <input
-            name="region"
-            defaultValue={profile.origin}
-            minLength={2}
-            maxLength={160}
-            required
-            placeholder="For example, Karnataka, India"
-          />
-        </label>
-        <label>
-          Products
-          <input
-            name="products"
-            defaultValue={profile.products.slice(0, 500)}
-            minLength={2}
-            maxLength={500}
-            required
-            placeholder="For example, basil and leafy vegetables"
-          />
-        </label>
+      <label>
+        What do you want to research?
+        <textarea
+          name="prompt"
+          value={prompt}
+          onChange={(event) => setPrompt(event.target.value)}
+          rows={4}
+          minLength={general ? 5 : undefined}
+          maxLength={4000}
+          required={general}
+          placeholder="Ask about prices, suppliers, crop care, equipment, buyers, or any other topic. Add the details that matter to you."
+        />
+      </label>
+      <div
+        className="growth-prompt-suggestions"
+        aria-label="Research suggestions"
+      >
+        <span className="admin-muted">Start with an idea</span>
+        {suggestions.map((suggestion) => (
+          <button
+            key={suggestion.label}
+            type="button"
+            className="admin-button ghost small"
+            onClick={() => {
+              setPrompt(suggestion.prompt);
+              setKind("general");
+            }}
+          >
+            {suggestion.label}
+          </button>
+        ))}
       </div>
       <details className="growth-review growth-research-options">
-        <summary>
-          Search options ·{" "}
-          {groups.length === buyerGroups.length
-            ? "All buyer groups"
-            : `${groups.length} buyer groups`}
-        </summary>
+        <summary>Search options</summary>
         <div className="growth-fields">
-          <label>
-            Maximum results
-            <input
-              name="limit"
-              type="number"
-              defaultValue={10}
-              min={1}
-              max={20}
-              required
-            />
-          </label>
-          <fieldset className="growth-group-field">
-            <legend>Buyer groups</legend>
-            <div className="growth-actions">
-              <button
-                type="button"
-                className="admin-button ghost"
-                onClick={() => setGroups(buyerGroups.map((group) => group.id))}
+          <div className="growth-form-grid">
+            <label>
+              Result format
+              <select
+                name="kind"
+                value={kind}
+                onChange={(event) => setKind(event.target.value)}
               >
-                Select all
-              </button>
-              <button
-                type="button"
-                className="admin-button ghost"
-                onClick={() => setGroups([])}
-              >
-                Clear all
-              </button>
-              <span>
-                {groups.length} of {buyerGroups.length} selected
-              </span>
-            </div>
-            <div className="growth-group-checks">
-              {buyerGroups.map((group) => (
-                <label key={group.id} className="admin-check">
-                  <input
-                    type="checkbox"
-                    name="groups"
-                    value={group.id}
-                    checked={groups.includes(group.id)}
-                    onChange={(event) =>
-                      setGroups((current) =>
-                        event.target.checked
-                          ? [...current, group.id]
-                          : current.filter((id) => id !== group.id),
-                      )
-                    }
-                  />
-                  {group.label}
-                </label>
-              ))}
-            </div>
-          </fieldset>
+                <option value="general">Answer & sources</option>
+                <option value="buyers">Buyer list</option>
+                <option value="tenders">Tender list</option>
+                <option value="export">Export opportunities</option>
+              </select>
+            </label>
+            <label>
+              Maximum results
+              <input
+                name="limit"
+                type="number"
+                defaultValue={10}
+                min={1}
+                max={20}
+                required
+              />
+            </label>
+            <label>
+              Location {general && "(optional)"}
+              <input
+                name="region"
+                defaultValue={profile.origin.slice(0, 160)}
+                minLength={general ? undefined : 2}
+                maxLength={160}
+                required={!general}
+                placeholder="City, state or country"
+              />
+            </label>
+            <label>
+              Products {general && "(optional)"}
+              <input
+                name="products"
+                defaultValue={profile.products.slice(0, 500)}
+                minLength={general ? undefined : 2}
+                maxLength={500}
+                required={!general}
+                placeholder="Products or farm inputs"
+              />
+            </label>
+          </div>
+          {!general && (
+            <fieldset className="growth-group-field">
+              <legend>Buyer groups</legend>
+              <div className="growth-actions">
+                <button
+                  type="button"
+                  className="admin-button ghost"
+                  onClick={() =>
+                    setGroups(buyerGroups.map((group) => group.id))
+                  }
+                >
+                  Select all
+                </button>
+                <button
+                  type="button"
+                  className="admin-button ghost"
+                  onClick={() => setGroups([])}
+                >
+                  Clear all
+                </button>
+                <span>
+                  {groups.length} of {buyerGroups.length} selected
+                </span>
+              </div>
+              <div className="growth-group-checks">
+                {buyerGroups.map((group) => (
+                  <label key={group.id} className="admin-check">
+                    <input
+                      type="checkbox"
+                      name="groups"
+                      value={group.id}
+                      checked={groups.includes(group.id)}
+                      onChange={(event) =>
+                        setGroups((current) =>
+                          event.target.checked
+                            ? [...current, group.id]
+                            : current.filter((id) => id !== group.id),
+                        )
+                      }
+                    />
+                    {group.label}
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+          )}
           <label className="admin-check">
             <input type="checkbox" name="useExa" disabled={!hasExa} />
-            Use Exa for added source search{!hasExa && " (key not configured)"}
+            Search with Exa instead of OpenAI web search
+            {!hasExa && " (not connected)"}
           </label>
         </div>
       </details>
       <p className="admin-muted">
-        Paid search · Up to 10 results by default. Check sources before
-        contacting a buyer.
+        Paid research. Answers and sources are saved in your history. Check
+        sources before acting.
       </p>
       {!canRun && (
         <p className="growth-note">
@@ -451,16 +515,31 @@ export function DraftEditor({
     growthAction.bind(null, "deleteDraft"),
     null,
   );
+  function noteText() {
+    return [
+      title,
+      body,
+      draft?.researchPrompt && `Research question: ${draft.researchPrompt}`,
+      draft?.researchedAt &&
+        `Researched: ${new Date(draft.researchedAt).toISOString()}`,
+      draft?.researchNextSteps?.length &&
+        `Suggested next steps:\n${draft.researchNextSteps.join("\n")}`,
+      draft?.sources?.length &&
+        `Sources:\n${draft.sources.map((source) => `${source.title}: ${source.url}`).join("\n")}`,
+    ]
+      .filter(Boolean)
+      .join("\n\n");
+  }
   async function copy() {
     try {
-      await navigator.clipboard.writeText(`${title}\n\n${body}`);
+      await navigator.clipboard.writeText(noteText());
       setCopyState("Draft copied.");
     } catch {
       setCopyState("Copy did not work. Select the draft text and copy it.");
     }
   }
   function download() {
-    const blob = new Blob([`${title}\n\n${body}\n`], {
+    const blob = new Blob([`${noteText()}\n`], {
       type: "text/plain;charset=utf-8",
     });
     const url = URL.createObjectURL(blob);
@@ -472,6 +551,52 @@ export function DraftEditor({
   }
   return (
     <div className="growth-draft">
+      {draft?.researchRunId && (
+        <details className="growth-review">
+          <summary>Original research & sources</summary>
+          <p className="growth-preserve">{draft.researchPrompt}</p>
+          {draft.researchedAt && (
+            <p className="admin-muted">
+              Researched{" "}
+              {new Date(draft.researchedAt).toLocaleDateString("en-IN", {
+                timeZone: "Asia/Kolkata",
+              })}
+            </p>
+          )}
+          {!!draft.sources?.length && (
+            <ul>
+              {draft.sources.map((source) => (
+                <li key={source.url}>
+                  {publicSourceUrl(source.url) ? (
+                    <a
+                      className="admin-link"
+                      href={source.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      referrerPolicy="no-referrer"
+                    >
+                      {source.title || source.url}
+                      <span className="growth-sr-only"> (opens a new tab)</span>
+                    </a>
+                  ) : (
+                    source.title
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+          {!!draft.researchNextSteps?.length && (
+            <>
+              <h4>Suggested next steps</h4>
+              <ul>
+                {draft.researchNextSteps.map((step, index) => (
+                  <li key={index}>{step}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </details>
+      )}
       <form
         action={action}
         onSubmit={(event) => preserveFields(event, action)}
@@ -506,7 +631,7 @@ export function DraftEditor({
             </select>
           </label>
           <label>
-            Draft text
+            Note or draft text
             <textarea
               name="body"
               value={body}
@@ -520,7 +645,11 @@ export function DraftEditor({
         </fieldset>
         <div className="growth-actions">
           <button className="admin-button" disabled={pending || deleting}>
-            {pending ? "Saving…" : draftId ? "Save changes" : "Save draft"}
+            {pending
+              ? "Saving…"
+              : draftId
+                ? "Save changes"
+                : "Save note or draft"}
           </button>
           <button
             type="button"
