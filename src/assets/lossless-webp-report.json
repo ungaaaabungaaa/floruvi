@@ -1,0 +1,702 @@
+[
+  {
+    "source": "src/assets/business-kitchen.png",
+    "target": "src/assets/business-kitchen.webp",
+    "originalBytes": 2366946,
+    "webpBytes": 1544618,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-flowers.png",
+    "target": "src/assets/category-flowers.webp",
+    "originalBytes": 2386633,
+    "webpBytes": 1607642,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-fruiting.png",
+    "target": "src/assets/category-fruiting.webp",
+    "originalBytes": 2312381,
+    "webpBytes": 1566644,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-herbs.png",
+    "target": "src/assets/category-herbs.webp",
+    "originalBytes": 3052287,
+    "webpBytes": 2019908,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-leafy.png",
+    "target": "src/assets/category-leafy.webp",
+    "originalBytes": 2885140,
+    "webpBytes": 1981546,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-microgreens.png",
+    "target": "src/assets/category-microgreens.webp",
+    "originalBytes": 2615769,
+    "webpBytes": 1735294,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/category-roots.png",
+    "target": "src/assets/category-roots.webp",
+    "originalBytes": 2735080,
+    "webpBytes": 1795964,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-basil.png",
+    "target": "src/assets/crop-basil.webp",
+    "originalBytes": 2336749,
+    "webpBytes": 1659374,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-kale.png",
+    "target": "src/assets/crop-kale.webp",
+    "originalBytes": 2561333,
+    "webpBytes": 1803196,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-lettuce.png",
+    "target": "src/assets/crop-lettuce.webp",
+    "originalBytes": 2322841,
+    "webpBytes": 1627262,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-microgreens.png",
+    "target": "src/assets/crop-microgreens.webp",
+    "originalBytes": 2392052,
+    "webpBytes": 1706538,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-spinach.png",
+    "target": "src/assets/crop-spinach.webp",
+    "originalBytes": 2480198,
+    "webpBytes": 1736502,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/crop-tomatoes.png",
+    "target": "src/assets/crop-tomatoes.webp",
+    "originalBytes": 2252166,
+    "webpBytes": 1612528,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/delivery-greens.png",
+    "target": "src/assets/delivery-greens.webp",
+    "originalBytes": 2416119,
+    "webpBytes": 1602128,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/floruvi-mark.png",
+    "target": "src/assets/floruvi-mark.webp",
+    "originalBytes": 326809,
+    "webpBytes": 188466,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/growing-towers.png",
+    "target": "src/assets/growing-towers.webp",
+    "originalBytes": 2623715,
+    "webpBytes": 1873884,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/hero-lifestyle.png",
+    "target": "src/assets/hero-lifestyle.webp",
+    "originalBytes": 2076150,
+    "webpBytes": 1322142,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/nutrition-botanical.png",
+    "target": "src/assets/nutrition-botanical.webp",
+    "originalBytes": 2387305,
+    "webpBytes": 1554756,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/pineapple-cutaway.png",
+    "target": "src/assets/pineapple-cutaway.webp",
+    "originalBytes": 1847855,
+    "webpBytes": 1257540,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/amaranth-greens.png",
+    "target": "src/assets/products/amaranth-greens.webp",
+    "originalBytes": 2808327,
+    "webpBytes": 1969632,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/amaranth-microgreens.png",
+    "target": "src/assets/products/amaranth-microgreens.webp",
+    "originalBytes": 2646568,
+    "webpBytes": 1914088,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/arugula-microgreens.png",
+    "target": "src/assets/products/arugula-microgreens.webp",
+    "originalBytes": 2359076,
+    "webpBytes": 1733302,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/arugula.png",
+    "target": "src/assets/products/arugula.webp",
+    "originalBytes": 2635136,
+    "webpBytes": 1880192,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/baby-kale.png",
+    "target": "src/assets/products/baby-kale.webp",
+    "originalBytes": 2539213,
+    "webpBytes": 1807036,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/basil-microgreens.png",
+    "target": "src/assets/products/basil-microgreens.webp",
+    "originalBytes": 2297108,
+    "webpBytes": 1674446,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/beefsteak-tomatoes.png",
+    "target": "src/assets/products/beefsteak-tomatoes.webp",
+    "originalBytes": 2555081,
+    "webpBytes": 1866370,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/beet-microgreens.png",
+    "target": "src/assets/products/beet-microgreens.webp",
+    "originalBytes": 2439865,
+    "webpBytes": 1786692,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/beetroot.png",
+    "target": "src/assets/products/beetroot.webp",
+    "originalBytes": 2805249,
+    "webpBytes": 2000440,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/bell-peppers.png",
+    "target": "src/assets/products/bell-peppers.webp",
+    "originalBytes": 2549270,
+    "webpBytes": 1808214,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/bok-choy.png",
+    "target": "src/assets/products/bok-choy.webp",
+    "originalBytes": 2586173,
+    "webpBytes": 1807864,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/borage-flowers.png",
+    "target": "src/assets/products/borage-flowers.webp",
+    "originalBytes": 2554918,
+    "webpBytes": 1856216,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/broccoli-microgreens.png",
+    "target": "src/assets/products/broccoli-microgreens.webp",
+    "originalBytes": 2421213,
+    "webpBytes": 1742374,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/calendula-petals.png",
+    "target": "src/assets/products/calendula-petals.webp",
+    "originalBytes": 2520768,
+    "webpBytes": 1841920,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/carrot.png",
+    "target": "src/assets/products/carrot.webp",
+    "originalBytes": 2785034,
+    "webpBytes": 1987390,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/celery.png",
+    "target": "src/assets/products/celery.webp",
+    "originalBytes": 2603229,
+    "webpBytes": 1842484,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/chervil.png",
+    "target": "src/assets/products/chervil.webp",
+    "originalBytes": 2669964,
+    "webpBytes": 1932896,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/chives.png",
+    "target": "src/assets/products/chives.webp",
+    "originalBytes": 2809886,
+    "webpBytes": 1928538,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/coriander-microgreens.png",
+    "target": "src/assets/products/coriander-microgreens.webp",
+    "originalBytes": 2376070,
+    "webpBytes": 1723918,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/coriander.png",
+    "target": "src/assets/products/coriander.webp",
+    "originalBytes": 2709865,
+    "webpBytes": 1895120,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/cucumber.png",
+    "target": "src/assets/products/cucumber.webp",
+    "originalBytes": 2942080,
+    "webpBytes": 2033498,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/curly-parsley.png",
+    "target": "src/assets/products/curly-parsley.webp",
+    "originalBytes": 2544296,
+    "webpBytes": 1810820,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/dill.png",
+    "target": "src/assets/products/dill.webp",
+    "originalBytes": 2848372,
+    "webpBytes": 1996954,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/eggplant.png",
+    "target": "src/assets/products/eggplant.webp",
+    "originalBytes": 2614802,
+    "webpBytes": 1819332,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/endive.png",
+    "target": "src/assets/products/endive.webp",
+    "originalBytes": 2726709,
+    "webpBytes": 1985760,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/fenugreek-greens.png",
+    "target": "src/assets/products/fenugreek-greens.webp",
+    "originalBytes": 2634968,
+    "webpBytes": 1858526,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/fenugreek-microgreens.png",
+    "target": "src/assets/products/fenugreek-microgreens.webp",
+    "originalBytes": 2438350,
+    "webpBytes": 1739256,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/flat-leaf-parsley.png",
+    "target": "src/assets/products/flat-leaf-parsley.webp",
+    "originalBytes": 2732976,
+    "webpBytes": 1955416,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/garden-cress-microgreens.png",
+    "target": "src/assets/products/garden-cress-microgreens.webp",
+    "originalBytes": 2609192,
+    "webpBytes": 1875826,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/garlic-chives.png",
+    "target": "src/assets/products/garlic-chives.webp",
+    "originalBytes": 2667998,
+    "webpBytes": 1820786,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/ginger.png",
+    "target": "src/assets/products/ginger.webp",
+    "originalBytes": 2457718,
+    "webpBytes": 1723026,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/green-beans.png",
+    "target": "src/assets/products/green-beans.webp",
+    "originalBytes": 2674846,
+    "webpBytes": 1907460,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/green-chillies.png",
+    "target": "src/assets/products/green-chillies.webp",
+    "originalBytes": 2478344,
+    "webpBytes": 1760188,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/green-oakleaf-lettuce.png",
+    "target": "src/assets/products/green-oakleaf-lettuce.webp",
+    "originalBytes": 2538852,
+    "webpBytes": 1804230,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/holy-basil.png",
+    "target": "src/assets/products/holy-basil.webp",
+    "originalBytes": 2783788,
+    "webpBytes": 2001408,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/iceberg-lettuce.png",
+    "target": "src/assets/products/iceberg-lettuce.webp",
+    "originalBytes": 2355519,
+    "webpBytes": 1677664,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/jalapeno-peppers.png",
+    "target": "src/assets/products/jalapeno-peppers.webp",
+    "originalBytes": 2574737,
+    "webpBytes": 1812842,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/kale-microgreens.png",
+    "target": "src/assets/products/kale-microgreens.webp",
+    "originalBytes": 2582505,
+    "webpBytes": 1857158,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/kohlrabi-microgreens.png",
+    "target": "src/assets/products/kohlrabi-microgreens.webp",
+    "originalBytes": 2501457,
+    "webpBytes": 1809926,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/lacinato-kale.png",
+    "target": "src/assets/products/lacinato-kale.webp",
+    "originalBytes": 2711765,
+    "webpBytes": 1884870,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/lemon-balm.png",
+    "target": "src/assets/products/lemon-balm.webp",
+    "originalBytes": 2590197,
+    "webpBytes": 1837652,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/lemongrass.png",
+    "target": "src/assets/products/lemongrass.webp",
+    "originalBytes": 2655041,
+    "webpBytes": 1879002,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/lollo-bionda-lettuce.png",
+    "target": "src/assets/products/lollo-bionda-lettuce.webp",
+    "originalBytes": 2675251,
+    "webpBytes": 1944064,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/lollo-rosso-lettuce.png",
+    "target": "src/assets/products/lollo-rosso-lettuce.webp",
+    "originalBytes": 2553091,
+    "webpBytes": 1856624,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/marjoram.png",
+    "target": "src/assets/products/marjoram.webp",
+    "originalBytes": 2707760,
+    "webpBytes": 1918042,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/mint.png",
+    "target": "src/assets/products/mint.webp",
+    "originalBytes": 2766392,
+    "webpBytes": 1958614,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/mizuna.png",
+    "target": "src/assets/products/mizuna.webp",
+    "originalBytes": 2776032,
+    "webpBytes": 1961792,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/muskmelon.png",
+    "target": "src/assets/products/muskmelon.webp",
+    "originalBytes": 2696325,
+    "webpBytes": 1884452,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/mustard-greens.png",
+    "target": "src/assets/products/mustard-greens.webp",
+    "originalBytes": 2823740,
+    "webpBytes": 2006124,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/mustard-microgreens.png",
+    "target": "src/assets/products/mustard-microgreens.webp",
+    "originalBytes": 2480770,
+    "webpBytes": 1803224,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/napa-cabbage.png",
+    "target": "src/assets/products/napa-cabbage.webp",
+    "originalBytes": 2539196,
+    "webpBytes": 1769902,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/nasturtium-flowers.png",
+    "target": "src/assets/products/nasturtium-flowers.webp",
+    "originalBytes": 2671391,
+    "webpBytes": 1945426,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/oregano.png",
+    "target": "src/assets/products/oregano.webp",
+    "originalBytes": 2615963,
+    "webpBytes": 1891080,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/pansy-flowers.png",
+    "target": "src/assets/products/pansy-flowers.webp",
+    "originalBytes": 2616477,
+    "webpBytes": 1868090,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/pea-shoots.png",
+    "target": "src/assets/products/pea-shoots.webp",
+    "originalBytes": 2605042,
+    "webpBytes": 1892772,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/plum-tomatoes.png",
+    "target": "src/assets/products/plum-tomatoes.webp",
+    "originalBytes": 2547198,
+    "webpBytes": 1849072,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/potato.png",
+    "target": "src/assets/products/potato.webp",
+    "originalBytes": 2522865,
+    "webpBytes": 1774018,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/radicchio.png",
+    "target": "src/assets/products/radicchio.webp",
+    "originalBytes": 2394497,
+    "webpBytes": 1695176,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/radish.png",
+    "target": "src/assets/products/radish.webp",
+    "originalBytes": 2745789,
+    "webpBytes": 1967646,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/red-cabbage-microgreens.png",
+    "target": "src/assets/products/red-cabbage-microgreens.webp",
+    "originalBytes": 2447831,
+    "webpBytes": 1771914,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/red-oakleaf-lettuce.png",
+    "target": "src/assets/products/red-oakleaf-lettuce.webp",
+    "originalBytes": 2601838,
+    "webpBytes": 1868016,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/romaine-lettuce.png",
+    "target": "src/assets/products/romaine-lettuce.webp",
+    "originalBytes": 2637920,
+    "webpBytes": 1865966,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/rosemary.png",
+    "target": "src/assets/products/rosemary.webp",
+    "originalBytes": 2678852,
+    "webpBytes": 1864168,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/sage.png",
+    "target": "src/assets/products/sage.webp",
+    "originalBytes": 2964067,
+    "webpBytes": 2012376,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/shiso.png",
+    "target": "src/assets/products/shiso.webp",
+    "originalBytes": 2812957,
+    "webpBytes": 2033248,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/sorrel.png",
+    "target": "src/assets/products/sorrel.webp",
+    "originalBytes": 2663013,
+    "webpBytes": 1877284,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/spring-onions.png",
+    "target": "src/assets/products/spring-onions.webp",
+    "originalBytes": 2535961,
+    "webpBytes": 1778282,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/strawberries.png",
+    "target": "src/assets/products/strawberries.webp",
+    "originalBytes": 2578807,
+    "webpBytes": 1901924,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/sunflower-shoots.png",
+    "target": "src/assets/products/sunflower-shoots.webp",
+    "originalBytes": 2673410,
+    "webpBytes": 1915892,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/swiss-chard.png",
+    "target": "src/assets/products/swiss-chard.webp",
+    "originalBytes": 2681275,
+    "webpBytes": 1937626,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/tarragon.png",
+    "target": "src/assets/products/tarragon.webp",
+    "originalBytes": 2586458,
+    "webpBytes": 1820492,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/tatsoi.png",
+    "target": "src/assets/products/tatsoi.webp",
+    "originalBytes": 2593940,
+    "webpBytes": 1814808,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/thai-basil.png",
+    "target": "src/assets/products/thai-basil.webp",
+    "originalBytes": 2754238,
+    "webpBytes": 1947062,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/thyme.png",
+    "target": "src/assets/products/thyme.webp",
+    "originalBytes": 2790228,
+    "webpBytes": 2000154,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/turmeric.png",
+    "target": "src/assets/products/turmeric.webp",
+    "originalBytes": 2505931,
+    "webpBytes": 1794690,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/viola-flowers.png",
+    "target": "src/assets/products/viola-flowers.webp",
+    "originalBytes": 2555649,
+    "webpBytes": 1861284,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/watercress.png",
+    "target": "src/assets/products/watercress.webp",
+    "originalBytes": 2499973,
+    "webpBytes": 1797740,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/wheatgrass.png",
+    "target": "src/assets/products/wheatgrass.webp",
+    "originalBytes": 2738658,
+    "webpBytes": 1948866,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/products/zucchini.png",
+    "target": "src/assets/products/zucchini.webp",
+    "originalBytes": 2883757,
+    "webpBytes": 1996732,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/recipe-smoothie.png",
+    "target": "src/assets/recipe-smoothie.webp",
+    "originalBytes": 2334864,
+    "webpBytes": 1543476,
+    "visiblePixelsEqual": true
+  },
+  {
+    "source": "src/assets/story-seedling.png",
+    "target": "src/assets/story-seedling.webp",
+    "originalBytes": 2042446,
+    "webpBytes": 1363466,
+    "visiblePixelsEqual": true
+  }
+]

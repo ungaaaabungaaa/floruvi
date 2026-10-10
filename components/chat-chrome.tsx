@@ -3,7 +3,7 @@ import Image from "next/image";
 import * as Dialog from "@radix-ui/react-dialog";
 import { MessageCircle, X } from "lucide-react";
 import Link from "@/components/i18n/link";
-import mark from "@/src/assets/floruvi-mark.png";
+import mark from "@/src/assets/floruvi-mark.webp";
 import { useI18n } from "./i18n/provider";
 
 export function ChatLauncher({ unread = 0 }: { unread?: number }) {

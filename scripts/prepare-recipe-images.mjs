@@ -10,7 +10,7 @@ if (entries.some(entry => !entry.path)) throw new Error('Missing generated recip
 for (const entry of entries) {
   await sharp(entry.path).resize(960, 960, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 82 }).toFile(`${directory}/${entry.slug}.webp`);
 }
-const base = `import type { StaticImageData } from "next/image";\nimport salad from "@/src/assets/salad-bowl.png";\nimport smoothie from "@/src/assets/recipe-smoothie.png";\nimport bowl from "@/src/assets/recipe-roasted-bowl.png";\nimport pasta from "@/src/assets/recipe-pasta.png";\n`;
+const base = `import type { StaticImageData } from "next/image";\nimport salad from "@/src/assets/salad-bowl.webp";\nimport smoothie from "@/src/assets/recipe-smoothie.webp";\nimport bowl from "@/src/assets/recipe-roasted-bowl.webp";\nimport pasta from "@/src/assets/recipe-pasta.webp";\n`;
 await fs.writeFile('lib/recipe-images.ts', base + entries.map((entry, i) => `import recipe${i} from "@/src/assets/recipes/${entry.slug}.webp";`).join('\n') + '\nexport const recipeImages: Record<string, StaticImageData> = { salad, smoothie, bowl, pasta,\n' + entries.map((entry, i) => `"recipe:${entry.slug}": recipe${i},`).join('\n') + '\n};\n');
 const escape = text => text.replaceAll('&', '&amp;').replaceAll('<', '&lt;');
 for (let batch = 0; batch < entries.length; batch += 12) {

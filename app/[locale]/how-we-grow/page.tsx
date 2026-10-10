@@ -15,9 +15,9 @@ import { getI18n } from "@/lib/i18n/server";
 import { pageMetadata } from "@/lib/seo";
 import hero from "@/src/assets/aeroponic-harvest.webp";
 import roots from "@/src/assets/tower-roots.webp";
-import lettuce from "@/src/assets/crop-lettuce.png";
-import basil from "@/src/assets/crop-basil.png";
-import kale from "@/src/assets/crop-kale.png";
+import lettuce from "@/src/assets/crop-lettuce.webp";
+import basil from "@/src/assets/crop-basil.webp";
+import kale from "@/src/assets/crop-kale.webp";
 import notebook from "@/src/assets/growing-notebook.webp";
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();

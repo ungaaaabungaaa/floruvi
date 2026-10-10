@@ -562,7 +562,7 @@ export function Checkout({
                     {src ? (
                       <Image
                         src={src}
-                        alt=""
+                        alt={name}
                         fill
                         sizes="76px"
                         unoptimized={!!product?.imageUrl}

@@ -1,7 +1,7 @@
 "use client";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
-import mark from "@/src/assets/floruvi-mark.png";
+import mark from "@/src/assets/floruvi-mark.webp";
 import { useI18n } from "./i18n/provider";
 
 export function Brand() {

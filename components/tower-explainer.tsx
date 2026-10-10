@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowDown, Droplets, Sprout, Waves, ArrowUp } from "lucide-react";
-import cutaway from "@/src/assets/pineapple-cutaway.png";
+import cutaway from "@/src/assets/pineapple-cutaway.webp";
 import type { Messages } from "@/lib/i18n/messages";
 import { fill } from "@/lib/i18n/format";
 const partStyles = [

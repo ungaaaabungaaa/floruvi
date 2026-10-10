@@ -1,6 +1,6 @@
 import type { StaticImageData } from "next/image";
 import salad from "@/src/assets/salad-bowl.webp";
-import smoothie from "@/src/assets/recipe-smoothie.png";
+import smoothie from "@/src/assets/recipe-smoothie.webp";
 import bowl from "@/src/assets/recipe-roasted-bowl.webp";
 import pasta from "@/src/assets/recipe-pasta.webp";
 import recipe0 from "@/src/assets/recipes/rocket-pear-and-walnut-salad.webp";

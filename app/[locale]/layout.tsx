@@ -11,7 +11,7 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
 import { countryName, fill } from "@/lib/i18n/format";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
-import mark from "@/src/assets/floruvi-mark.png";
+import mark from "@/src/assets/floruvi-mark.webp";
 import "../globals.css";
 
 export function generateStaticParams() {
