@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "@/components/i18n/link";
-import { ShoppingBag, Check, Minus, Plus } from "lucide-react";
+import { ShoppingBag, Check, Minus, Plus, ChevronRight } from "lucide-react";
 import { useCart } from "./cart-store";
 import { useI18n } from "./i18n/provider";
 export function AddToCart({
@@ -88,17 +88,30 @@ export function AddToCart({
     </div>
   );
 }
-export function CartLink() {
+export function CartLink({ inNavigation = false, onNavigate }: { inNavigation?: boolean; onNavigate?: () => void }) {
   const { count } = useCart();
   const { t, plural } = useI18n();
   return (
     <Link
       href="/cart"
-      className="cart-link icon-button"
+      className={inNavigation ? "navigation-cart" : "cart-link icon-button"}
+      onClick={onNavigate}
       aria-label={plural(count, t.cartLink)}
     >
-      <ShoppingBag size={21} strokeWidth={1.5} />
-      <span aria-hidden="true">{count}</span>
+      {inNavigation ? (
+        <>
+          <span>{t.cartPill.view}</span>
+          <span className="navigation-link-end" aria-hidden="true">
+            <span className="navigation-count">{count}</span>
+            <ChevronRight size={20} />
+          </span>
+        </>
+      ) : (
+        <>
+          <ShoppingBag size={21} strokeWidth={1.5} />
+          <span aria-hidden="true">{count}</span>
+        </>
+      )}
     </Link>
   );
 }

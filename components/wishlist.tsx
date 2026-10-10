@@ -102,7 +102,10 @@ export function WishlistMenu({
       {inNavigation ? (
         <>
           <span>{t.wishlist.title}</span>
-          <ChevronRight size={20} aria-hidden="true" />
+          <span className="navigation-link-end" aria-hidden="true">
+            <span className="navigation-count">{saved.length}</span>
+            <ChevronRight size={20} />
+          </span>
         </>
       ) : (
         <>

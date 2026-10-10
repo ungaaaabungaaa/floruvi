@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import * as Dialog from "@radix-ui/react-dialog";
 import { MessageCircle, X } from "lucide-react";
 import Link from "@/components/i18n/link";
@@ -8,14 +10,23 @@ import { useI18n } from "./i18n/provider";
 
 export function ChatLauncher({ unread = 0 }: { unread?: number }) {
   const { t } = useI18n();
-  return (
+  const [headerSlot, setHeaderSlot] = useState<HTMLElement | null>(null);
+  useEffect(() => {
+    const mobile = window.matchMedia("(max-width: 800px)");
+    const update = () => setHeaderSlot(mobile.matches ? document.getElementById("mobile-chat-slot") : null);
+    update();
+    mobile.addEventListener("change", update);
+    return () => mobile.removeEventListener("change", update);
+  }, []);
+  const trigger = (
     <Dialog.Trigger asChild>
-      <button type="button" className="chat-launcher" aria-label={`${t.chat.open}${unread > 0 ? ` · ${unread} ${t.chat.unread}` : ""}`}>
-        <MessageCircle size={25} strokeWidth={2} fill="currentColor" aria-hidden="true" />
+      <button type="button" className={headerSlot ? "icon-button header-chat" : "chat-launcher"} aria-label={`${t.chat.open}${unread > 0 ? ` · ${unread} ${t.chat.unread}` : ""}`}>
+        <MessageCircle size={headerSlot ? 21 : 25} strokeWidth={headerSlot ? 1.5 : 2} fill={headerSlot ? "none" : "currentColor"} aria-hidden="true" />
         {unread > 0 && <span className="chat-unread"><span aria-hidden="true">{unread > 9 ? "9+" : unread}</span><span className="sr-only">{unread} {t.chat.unread}</span></span>}
       </button>
     </Dialog.Trigger>
   );
+  return headerSlot ? createPortal(trigger, headerSlot) : trigger;
 }
 
 export function ChatHeader({ ai = true, team = false }: { ai?: boolean; team?: boolean }) {

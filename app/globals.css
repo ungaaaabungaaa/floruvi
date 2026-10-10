@@ -1496,7 +1496,7 @@ em {
   flex-direction: column;
   margin-top: 30px;
 }
-.mobile-nav-panel nav a {
+.mobile-nav-panel nav :is(a, .navigation-chat) {
   display: flex;
   justify-content: space-between;
   padding: 17px 0;
@@ -5604,7 +5604,7 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 .mobile-nav-panel .wordmark { font-size: 30px; }
 .mobile-nav-panel > p { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
 .mobile-nav-panel nav { margin-top: 22px; }
-.mobile-nav-panel nav a {
+.mobile-nav-panel nav :is(a, .navigation-chat) {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -5616,8 +5616,8 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   font-family: Georgia, "Times New Roman", serif;
   letter-spacing: -.01em;
 }
-.mobile-nav-panel nav a svg { color: #8a9a83; flex-shrink: 0; }
-.mobile-nav-panel nav a:active { color: #527547; }
+.mobile-nav-panel nav :is(a, .navigation-chat) svg { color: #8a9a83; flex-shrink: 0; }
+.mobile-nav-panel nav :is(a, .navigation-chat):active { color: #527547; }
 .mobile-nav-panel .navigation-wishlist { min-height: 58px; font-size: 19px; font-family: Georgia, "Times New Roman", serif; }
 @media (prefers-reduced-motion: no-preference) {
   /* Sheet opens from the left (hamburger lives on the left); RTL flips to the right. */
@@ -5730,13 +5730,22 @@ html:has(.cart-pill) { scroll-padding-bottom: calc(92px + env(safe-area-inset-bo
 }
 .add-crop:not(.compact) > .stock-out { flex: 1; min-height: 52px; border-radius: 12px; font-size: 14px; }
 
-/* Keep the chat button clear of the cart pill and the product page's cart bar. */
-body:has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(16px + env(safe-area-inset-bottom)); }
-@media (max-width: 700px) {
-  body:has(.product-page) .chat-launcher { bottom: calc(88px + env(safe-area-inset-bottom)); }
-  body:has(.cart-pill:not(.is-away)) .cart-pill { max-width: calc(100vw - 108px); left: 16px; translate: 0 0; }
-  body:has(.product-page):has(.cart-pill:not(.is-away)) .chat-launcher { bottom: calc(88px + env(safe-area-inset-bottom)); }
-  [dir="rtl"] .cart-pill { left: auto; right: 16px; }
+/* Mobile chat uses the header; the cart remains centered below the page. */
+#mobile-chat-slot { display: none; }
+.mobile-nav-panel nav .navigation-chat { display: none; border-top: 0; border-inline: 0; background: transparent; color: inherit; text-align: start; }
+body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
+.header-chat { position: relative; }
+.navigation-link-end { display: inline-flex; align-items: center; gap: 12px; }
+.navigation-count { display: grid; place-items: center; min-width: 26px; height: 26px; padding-inline: 7px; border-radius: 999px; background: var(--green); color: #fff; font-size: 12px; font-variant-numeric: tabular-nums; }
+@media (max-width: 800px) {
+  .site-header .wishlist-link, .chat-launcher { display: none; }
+  #mobile-chat-slot { display: flex; }
+}
+@media (max-width: 360px) {
+  .site-header { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 4px; padding-inline: 16px; }
+  .site-header .brand { gap: 4px; }
+  .site-header .brand-name { font-size: 30px; }
+  .site-header .brand-mark { width: 26px; height: 34px; }
 }
 
 /* Business contact details (shown when set in Vercel; Razorpay's review needs them). */

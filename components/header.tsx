@@ -3,7 +3,7 @@ import Link from "@/components/i18n/link";
 import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X, ArrowUpRight, ChevronRight } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { stripLocale } from "@/lib/i18n/config";
 import { CartLink } from "./add-to-cart";
 import { WishlistMenu } from "./wishlist";
@@ -15,6 +15,7 @@ export function Header() {
   const { t } = useI18n();
   const pathname = stripLocale(usePathname());
   const [open, setOpen] = useState(false);
+  const openChatAfterMenu = useRef(false);
   const [scrolled, setScrolled] = useState(false);
   const links = [
     ["/products", t.nav.shop],
@@ -42,7 +43,12 @@ export function Header() {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="dialog-overlay" />
-            <Dialog.Content className="mobile-nav-panel">
+            <Dialog.Content className="mobile-nav-panel" onCloseAutoFocus={(event) => {
+              if (!openChatAfterMenu.current) return;
+              openChatAfterMenu.current = false;
+              event.preventDefault();
+              document.querySelector<HTMLButtonElement>(".header-chat")?.click();
+            }}>
               <div className="mobile-nav-top">
                 <Dialog.Title className="wordmark">floruvi</Dialog.Title>
                 <Dialog.Close className="icon-button" aria-label={t.nav.close}>
@@ -60,6 +66,14 @@ export function Header() {
                   </Link>
                 ))}
                 <LocalePicker variant="row" onNavigate={close} />
+                <button type="button" className="navigation-chat" onClick={() => {
+                  openChatAfterMenu.current = true;
+                  close();
+                }}>
+                  <span>{t.chat.open}</span>
+                  <ChevronRight size={20} aria-hidden="true" />
+                </button>
+                <CartLink inNavigation onNavigate={close} />
                 <WishlistMenu inNavigation onNavigate={close} />
               </nav>
             </Dialog.Content>
@@ -87,6 +101,7 @@ export function Header() {
           <div className="desktop-locale">
             <LocalePicker />
           </div>
+          <div id="mobile-chat-slot" />
           <CartLink />
           <WishlistMenu />
         </div>
