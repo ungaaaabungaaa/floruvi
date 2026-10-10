@@ -94,3 +94,25 @@ Release correction: the first conversion also replaced three existing recipe Web
 files. The pre-push review caught this size increase. Their original WebP files
 were restored, and the conversion script now preserves them. The earlier
 103-file summary included these three unnecessary conversions.
+
+## Approved splash release — 10 October 2026
+
+The owner approved the local design and requested production deployment. This
+replaces the proposed 1.5-second maximum and once-per-session behaviour above.
+The splash plays on a full page load, including cached visits. Client navigation
+keeps the shared layout and does not replay it. The name and tagline remain
+visible for a 2.8-second minimum preparation period, followed by a 1.3-second
+upward reveal. There is no loading sentence, progress counter or preview chrome.
+
+Only the first page image and fonts participate in readiness. A 4.5-second
+JavaScript limit and a CSS exit after six seconds prevent an indefinite overlay.
+Reduced-motion visitors get a short fade without the minimum display period.
+Tap, Tab or Escape can start the reveal early. Without JavaScript, the overlay
+is hidden. Public server-rendered content and existing lazy loading are retained.
+No whole-platform preload or private-data cache was added.
+
+The reported vton hydration mismatch involved elements absent from both the
+source and server HTML. Fresh browser checks did not reproduce it; the specific
+browser feature or extension remains unidentified. No warning suppression was
+added. The exit timing bug was fixed with separate fallback and ready animation
+names, so readiness starts a fresh animation rather than skipping to its end.

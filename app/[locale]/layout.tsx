@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SiteMotion } from "@/components/site-motion";
+import { SplashScreen } from "@/components/splash-screen";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n/provider";
@@ -92,6 +93,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
   return (
     <html lang={locale.tag} dir={locale.dir} data-scroll-behavior="smooth">
       <body>
+        <SplashScreen tagline={messages.common.brand.tagline} />
         <I18nProvider locale={locale} common={messages.common}>
           <a className="skip-link" href="#main">
             {messages.common.skipToContent}

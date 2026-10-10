@@ -1,0 +1,159 @@
+.floruvi-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  background: #f8f7f0;
+  color: #263f30;
+  animation: splash-failsafe 1.3s cubic-bezier(0.22, 1, 0.36, 1) 6s forwards;
+  overflow: hidden;
+  cursor: default;
+  touch-action: none;
+}
+.floruvi-splash[data-ready="true"] {
+  animation: splash-exit 1.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.floruvi-splash::before {
+  content: "";
+  position: absolute;
+  width: min(80vw, 780px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(197, 204, 155, 0.14),
+    transparent 65%
+  );
+  pointer-events: none;
+}
+.splash-identity {
+  position: relative;
+  text-align: center;
+  margin-top: -24px;
+}
+.splash-mark-wrap {
+  height: 112px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  margin-bottom: 17px;
+}
+.splash-mark {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+  transform-origin: 50% 88%;
+  animation: splash-grow 1.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.splash-name-wrap {
+  overflow: hidden;
+  padding: 0 14px 10px;
+}
+.splash-name {
+  display: block;
+  font:
+    104px/0.97 Georgia,
+    "Times New Roman",
+    serif;
+  font-weight: 400;
+  letter-spacing: -7px;
+  padding-right: 7px;
+  animation: splash-rise 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
+}
+.splash-tagline {
+  font:
+    13px/1.5 Arial,
+    Helvetica,
+    sans-serif;
+  letter-spacing: 0.7px;
+  margin: 14px 0 0;
+  animation: splash-soft 0.9s ease 1s both;
+}
+@keyframes splash-grow {
+  from {
+    transform: translateY(100%) rotate(-12deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes splash-rise {
+  from {
+    transform: translateY(115%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes splash-soft {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* A distinct name starts a fresh exit timeline when readiness changes. */
+@keyframes splash-failsafe {
+  to {
+    transform: translateY(-102%);
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@keyframes splash-exit {
+  to {
+    transform: translateY(-102%);
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@media (max-width: 600px) {
+  .splash-mark-wrap {
+    height: 90px;
+    margin-bottom: 10px;
+  }
+  .splash-mark {
+    width: 72px;
+    height: 72px;
+  }
+  .splash-name {
+    font-size: 80px;
+    letter-spacing: -5px;
+    padding-right: 5px;
+  }
+  .splash-tagline {
+    font-size: 11px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .splash-mark,
+  .splash-name,
+  .splash-tagline {
+    animation: none;
+  }
+  .floruvi-splash {
+    animation-name: splash-fade-failsafe;
+    animation-duration: 0.15s;
+  }
+  .floruvi-splash[data-ready="true"] {
+    animation: splash-fade 0.15s forwards;
+  }
+  @keyframes splash-fade {
+    to {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+  @keyframes splash-fade-failsafe {
+    to {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+}
