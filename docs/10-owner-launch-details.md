@@ -70,7 +70,8 @@ Confirmed from the account setup chat and the owner on 12 October 2026:
 - Instagram: https://www.instagram.com/floruvi/
 - Facebook: https://www.facebook.com/profile.php?id=61595080272376
 - Pinterest: https://www.pinterest.com/floruvifarm/
+- Threads: https://www.threads.com/@floruvi
 - Calls: +91 9071187879
 - WhatsApp link: https://wa.me/919071187879
 
-Social icons appear only in the footer, without a visible label. The phone number appears in Contact details, without a repeated footer phone link. The phone number also supplies business search data. Existing environment settings can override the phone and social profile defaults. WhatsApp registration and message delivery still need a phone check: Meta did not recognise the number during account setup. LinkedIn and Threads have no confirmed public profile links yet.
+The footer icons and the named links in the Learn column use this order: Instagram, Pinterest, Facebook, Threads, and WhatsApp. The phone number appears in Contact details, without a repeated footer phone link. The phone number also supplies business search data. Existing environment settings can override the phone and social profile defaults. WhatsApp registration and message delivery still need a phone check: Meta did not recognise the number during account setup. LinkedIn has no confirmed public profile link yet.

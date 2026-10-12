@@ -47,15 +47,20 @@ export const socialProfiles = (
       process.env.INSTAGRAM_URL || "https://www.instagram.com/floruvi/",
     ],
     [
+      "pinterest",
+      "Pinterest",
+      process.env.PINTEREST_URL || "https://www.pinterest.com/floruvifarm/",
+    ],
+    [
       "facebook",
       "Facebook",
       process.env.FACEBOOK_URL ||
         "https://www.facebook.com/profile.php?id=61595080272376",
     ],
     [
-      "pinterest",
-      "Pinterest",
-      process.env.PINTEREST_URL || "https://www.pinterest.com/floruvifarm/",
+      "threads",
+      "Threads",
+      process.env.THREADS_URL || "https://www.threads.com/@floruvi",
     ],
     ["youtube", "YouTube", process.env.YOUTUBE_URL],
     ["linkedin", "LinkedIn", process.env.LINKEDIN_URL],

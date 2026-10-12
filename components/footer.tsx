@@ -2,6 +2,7 @@ import Link from "@/components/i18n/link";
 import { fill } from "@/lib/i18n/format";
 import { getMessages } from "@/lib/i18n/server";
 import { publishedCategories } from "@/lib/category-pages";
+import { socialProfiles, whatsappUrl } from "@/lib/site";
 import { getShop } from "@/lib/storefront";
 import { SocialLinks } from "./social-links";
 import { Brand } from "./brand";
@@ -35,6 +36,19 @@ export async function Footer() {
           <span className="eyebrow">{footer.learn}</span>
           <Link href="/how-we-grow">{footer.howWeGrow}</Link>
           <Link href="/recipes">{footer.recipes}</Link>
+          {socialProfiles.map((profile) => (
+            <a
+              key={profile.key}
+              href={profile.url}
+              target="_blank"
+              rel="me noopener noreferrer"
+            >
+              {profile.label}
+            </a>
+          ))}
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            WhatsApp
+          </a>
         </div>
         <div>
           <span className="eyebrow">{footer.help}</span>
