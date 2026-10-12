@@ -48,3 +48,28 @@ Add keys through the service dashboard or private environment settings. Do not p
 Both email and phone code options are part of the planned final checkout. A buyer chooses one code method. Live authentication and payments still need provider integration, rate limits, signature/webhook checks, stock checks, and end-to-end tests before activation.
 
 Chat remains hidden for later OpenRouter work. It does not block the storefront launch.
+
+## Public email addresses
+
+Confirmed from the Lark setup chat on 12 October 2026. All five shared inboxes use the owner's existing Lark login.
+
+| Address | Website placement |
+| --- | --- |
+| support@floruvi.com | Contact page and business search data |
+| orders@floruvi.com | Shipping and refunds |
+| marketing@floruvi.com | Shared inbox for wholesale, exports, and partnerships; not listed on Contact |
+| accounts@floruvi.com | Shared inbox for invoices and billing; not listed on Contact |
+| legal@floruvi.com | Privacy and terms |
+
+The addresses are defined in `lib/site.ts`. Email links open the visitor's email app. The enquiry form continues to save requests in Convex; this change does not add automatic email delivery. External Lark sending and receiving have not been tested.
+
+## Public social and phone links
+
+Confirmed from the account setup chat and the owner on 12 October 2026:
+
+- Instagram: https://www.instagram.com/floruvi/
+- Facebook: https://www.facebook.com/profile.php?id=61595080272376
+- Calls: +91 9071187879
+- WhatsApp link: https://wa.me/919071187879
+
+Social icons appear only in the footer, without a visible label. The phone number appears in Contact details, without a repeated footer phone link. The phone number also supplies business search data. Existing environment settings can override the phone and social profile defaults. WhatsApp registration and message delivery still need a phone check: Meta did not recognise the number during account setup. LinkedIn, Pinterest, and Threads have no confirmed public profile links yet.

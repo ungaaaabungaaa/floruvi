@@ -23,6 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const { locale, messages } = await getI18n();
   return {
     metadataBase: new URL(siteUrl),
+    other: { "p:domain_verify": "f14cc42807d6d74239b2f35e594394dc" },
     title: {
       default: messages.meta.defaultTitle,
       template: messages.meta.titleTemplate,

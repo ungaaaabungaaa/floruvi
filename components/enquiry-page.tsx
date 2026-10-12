@@ -1,3 +1,4 @@
+import { Mail, Phone } from "lucide-react";
 import { EnquiryForm } from "./enquiry-form";
 import Image from "next/image";
 import type { Messages } from "@/lib/i18n/messages";
@@ -28,20 +29,23 @@ export function EnquiryPage({
       {(business.email || business.phone || business.address) && (
         <address className="contact-details">
           <h2>{labels.detailsTitle}</h2>
-          {business.name && <strong>{business.name}</strong>}
-          {business.email && (
-            <p>
-              {labels.detailsEmail}: <a href={`mailto:${business.email}`}>{business.email}</a>
-            </p>
-          )}
-          {business.phone && (
-            <p>
-              {labels.detailsPhone}:{" "}
-              <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`} dir="ltr">
-                {business.phone}
+          <div className="contact-direct-links">
+            {business.email && (
+              <a href={`mailto:${business.email}`} dir="ltr">
+                <Mail size={20} aria-hidden="true" />
+                <span>{business.email}</span>
               </a>
-            </p>
-          )}
+            )}
+            {business.phone && (
+              <a
+                href={`tel:${business.phone.replace(/[^\d+]/g, "")}`}
+                dir="ltr"
+              >
+                <Phone size={20} aria-hidden="true" />
+                <span>{business.phone}</span>
+              </a>
+            )}
+          </div>
           {business.address && (
             <p>
               {labels.detailsAddress}: {business.address}

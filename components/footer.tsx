@@ -2,8 +2,8 @@ import Link from "@/components/i18n/link";
 import { fill } from "@/lib/i18n/format";
 import { getMessages } from "@/lib/i18n/server";
 import { publishedCategories } from "@/lib/category-pages";
-import { business, socialProfiles } from "@/lib/site";
 import { getShop } from "@/lib/storefront";
+import { SocialLinks } from "./social-links";
 import { Brand } from "./brand";
 
 export async function Footer() {
@@ -22,7 +22,10 @@ export async function Footer() {
           <span className="eyebrow">{footer.shop}</span>
           <Link href="/products">{footer.vegetables}</Link>
           {categories.map((category) => (
-            <Link key={category.slug} href={`/products/category/${category.slug}`}>
+            <Link
+              key={category.slug}
+              href={`/products/category/${category.slug}`}
+            >
               {category.name}
             </Link>
           ))}
@@ -45,21 +48,11 @@ export async function Footer() {
       </div>
       <div className="footer-bottom">
         <span>{copyright}</span>
-        {(business.email || business.phone || socialProfiles.length > 0) && (
-          <span className="footer-contact">
-            {socialProfiles.map((profile) => (
-              <a key={profile.key} href={profile.url} rel="me noopener" target="_blank">
-                {profile.label}
-              </a>
-            ))}
-            {business.email && <a href={`mailto:${business.email}`}>{business.email}</a>}
-            {business.phone && (
-              <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`} dir="ltr">
-                {business.phone}
-              </a>
-            )}
-          </span>
-        )}
+        <div className="footer-contact">
+          <div className="footer-icon-row">
+            <SocialLinks iconsOnly />
+          </div>
+        </div>
       </div>
       <span className="footer-copyright-mobile">{copyright}</span>
     </footer>
