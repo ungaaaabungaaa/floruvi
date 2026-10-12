@@ -2,6 +2,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
+  FaPinterest,
   FaWhatsapp,
   FaXTwitter,
   FaYoutube,
@@ -11,6 +12,7 @@ import { socialProfiles, whatsappUrl } from "@/lib/site";
 const icons = {
   instagram: FaInstagram,
   facebook: FaFacebook,
+  pinterest: FaPinterest,
   youtube: FaYoutube,
   linkedin: FaLinkedin,
   x: FaXTwitter,

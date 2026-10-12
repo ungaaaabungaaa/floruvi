@@ -52,6 +52,11 @@ export const socialProfiles = (
       process.env.FACEBOOK_URL ||
         "https://www.facebook.com/profile.php?id=61595080272376",
     ],
+    [
+      "pinterest",
+      "Pinterest",
+      process.env.PINTEREST_URL || "https://www.pinterest.com/floruvifarm/",
+    ],
     ["youtube", "YouTube", process.env.YOUTUBE_URL],
     ["linkedin", "LinkedIn", process.env.LINKEDIN_URL],
     ["x", "X", process.env.X_URL],
