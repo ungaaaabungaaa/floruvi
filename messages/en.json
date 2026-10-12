@@ -666,6 +666,13 @@
     "boxMessage": "I would like a {name} vegetable box for {people}, delivered {schedule}. Please arrange the first delivery with me.",
     "detailsTitle": "Contact details",
     "detailsEmail": "Email",
+    "emailRoles": {
+      "support": "Customer support",
+      "orders": "Orders and delivery",
+      "marketing": "Wholesale, exports and partnerships",
+      "accounts": "Invoices and billing",
+      "legal": "Legal and privacy"
+    },
     "detailsPhone": "Phone",
     "detailsAddress": "Address"
   },

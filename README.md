@@ -15,7 +15,7 @@ Never put key values in this repo.
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_OWNER_CHAT_ID` | Convex | Order alerts | Telegram @BotFather ([steps](docs/25-admin-and-order-alerts.md)) | ⬜ |
 | `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET` | Convex | Payments | Razorpay → API Keys (test keys first) | ⬜ |
 | `RAZORPAY_WEBHOOK_SECRET` | Convex | Payments | Razorpay → Webhooks ([steps](docs/29-razorpay-payments.md)) | ⬜ |
-| `SUPPORT_EMAIL`, `SUPPORT_PHONE`, `BUSINESS_ADDRESS` | Vercel | Contact page, footer & search data (Razorpay checks them) | You | ⬜ |
+| `SUPPORT_PHONE`, `BUSINESS_ADDRESS` | Vercel | Contact page, footer & search data (Razorpay checks them) | You | ⬜ |
 | `INSTAGRAM_URL`, `FACEBOOK_URL` (optional `YOUTUBE_URL`, `LINKEDIN_URL`, `X_URL`) | Vercel | Footer links & Google's brand profile (`sameAs`). Full `https://` address | Your profile pages | ⬜ |
 | `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION` | Vercel | Search Console / Bing ownership (HTML-tag method; only the code in `content="…"`). Not needed with DNS verification | Search Console, Bing Webmaster Tools | ⬜ |
 | `OPENROUTER_API_KEY` | Vercel | AI chat (GPT-6 Luna, backup Gemini 3.1 Flash-Lite) | openrouter.ai → set the key's monthly limit to **US$5** | ⬜ |
@@ -30,6 +30,8 @@ Never put key values in this repo.
 | `ADMIN_API_SECRET`, `LEAD_INGEST_SECRET` | Vercel + Convex | Site ↔ backend | – | ✅ |
 | `NEXT_PUBLIC_CONVEX_URL`, `NEXT_PUBLIC_CONVEX_SITE_URL`, `NEXT_PUBLIC_SITE_URL` | Vercel | Site | – | ✅ |
 | `SITE_URL` | Convex | Links in alerts | – | ✅ |
+
+Public email addresses are set in `lib/site.ts`: support, orders, marketing, accounts, and legal at `floruvi.com`. These use the existing Lark shared inboxes. See [contact placement](docs/10-owner-launch-details.md#public-email-addresses).
 
 ## 2. To do (you)
 

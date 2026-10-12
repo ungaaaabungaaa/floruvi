@@ -666,6 +666,13 @@
     "boxMessage": "Men {people} uchun {name} sabzavot qutisini {schedule} yetkazib berilishini xohlayman. Birinchi yetkazib berishni men bilan kelishib oling.",
     "detailsTitle": "Aloqa maʼlumotlari",
     "detailsEmail": "Email",
+    "emailRoles": {
+      "support": "Mijozlarni qoʻllab-quvvatlash",
+      "orders": "Buyurtmalar va yetkazib berish",
+      "marketing": "Ulgurji savdo, eksport va hamkorlik",
+      "accounts": "Hisob-fakturalar va toʻlovlar",
+      "legal": "Huquqiy masalalar va maxfiylik"
+    },
     "detailsPhone": "Telefon",
     "detailsAddress": "Manzil"
   },

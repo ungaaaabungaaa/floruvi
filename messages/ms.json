@@ -661,6 +661,13 @@
     "boxMessage": "Saya ingin menempah kotak sayur {name} untuk {people}, dihantar {schedule}. Sila atur penghantaran pertama dengan saya.",
     "detailsTitle": "Butiran hubungan",
     "detailsEmail": "E-mel",
+    "emailRoles": {
+      "support": "Sokongan pelanggan",
+      "orders": "Pesanan dan penghantaran",
+      "marketing": "Borong, eksport dan perkongsian",
+      "accounts": "Invois dan bil",
+      "legal": "Undang-undang dan privasi"
+    },
     "detailsPhone": "Telefon",
     "detailsAddress": "Alamat"
   },

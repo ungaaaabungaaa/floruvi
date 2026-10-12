@@ -666,6 +666,13 @@
     "boxMessage": "Ik wil graag een {name} groentebox voor {people}, geleverd {schedule}. Neem contact met mij op om de eerste levering te regelen.",
     "detailsTitle": "Contactgegevens",
     "detailsEmail": "E-mail",
+    "emailRoles": {
+      "support": "Klantenservice",
+      "orders": "Bestellingen en bezorging",
+      "marketing": "Groothandel, export en partnerschappen",
+      "accounts": "Facturen en betalingen",
+      "legal": "Juridische zaken en privacy"
+    },
     "detailsPhone": "Telefoon",
     "detailsAddress": "Adres"
   },

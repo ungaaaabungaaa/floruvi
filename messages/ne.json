@@ -666,6 +666,13 @@
     "boxMessage": "मलाई {people} का लागि {name} तरकारी बक्स चाहिन्छ, {schedule} डेलिभर हुने। कृपया मसँग पहिलो डेलिभरी मिलाउनुहोस्।",
     "detailsTitle": "सम्पर्क विवरण",
     "detailsEmail": "इमेल",
+    "emailRoles": {
+      "support": "ग्राहक सहायता",
+      "orders": "अर्डर र डेलिभरी",
+      "marketing": "थोक, निर्यात र साझेदारी",
+      "accounts": "बिल र भुक्तानी",
+      "legal": "कानुनी र गोपनीयता"
+    },
     "detailsPhone": "फोन",
     "detailsAddress": "ठेगाना"
   },

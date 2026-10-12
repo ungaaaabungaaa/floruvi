@@ -1,3 +1,4 @@
+import { contactEmails } from "@/lib/site";
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
@@ -16,5 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Refunds() {
   const { locale, messages } = await getI18n();
-  return <LegalPage locale={locale} t={messages.refunds} updatedDate={UPDATED} />;
+  return (
+    <LegalPage
+      contactEmail={contactEmails.orders}
+      locale={locale}
+      t={messages.refunds}
+      updatedDate={UPDATED}
+    />
+  );
 }

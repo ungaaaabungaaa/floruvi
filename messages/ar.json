@@ -686,6 +686,13 @@
     "boxMessage": "أرغب في صندوق خضار {name} لـ{people}، يُوصَّل {schedule}. الرجاء ترتيب أول توصيلة معي.",
     "detailsTitle": "بيانات التواصل",
     "detailsEmail": "البريد الإلكتروني",
+    "emailRoles": {
+      "support": "دعم العملاء",
+      "orders": "الطلبات والتوصيل",
+      "marketing": "الجملة والتصدير والشراكات",
+      "accounts": "الفواتير والمدفوعات",
+      "legal": "الشؤون القانونية والخصوصية"
+    },
     "detailsPhone": "الهاتف",
     "detailsAddress": "العنوان"
   },

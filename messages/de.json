@@ -666,6 +666,13 @@
     "boxMessage": "Ich hätte gern eine {name}-Gemüsebox für {people}, geliefert {schedule}. Bitte vereinbare die erste Lieferung mit mir.",
     "detailsTitle": "Kontaktdaten",
     "detailsEmail": "E-Mail",
+    "emailRoles": {
+      "support": "Kundenservice",
+      "orders": "Bestellungen und Lieferung",
+      "marketing": "Großhandel, Export und Partnerschaften",
+      "accounts": "Rechnungen und Abrechnung",
+      "legal": "Rechtliches und Datenschutz"
+    },
     "detailsPhone": "Telefon",
     "detailsAddress": "Adresse"
   },

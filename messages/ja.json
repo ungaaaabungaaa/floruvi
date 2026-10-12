@@ -661,6 +661,13 @@
     "boxMessage": "{people}の{name}野菜ボックスを、{schedule}のお届けで希望します。初回のお届けの手配について、ご相談させてください。",
     "detailsTitle": "連絡先",
     "detailsEmail": "メール",
+    "emailRoles": {
+      "support": "カスタマーサポート",
+      "orders": "注文と配送",
+      "marketing": "卸売・輸出・提携",
+      "accounts": "請求書・お支払い",
+      "legal": "法務・プライバシー"
+    },
     "detailsPhone": "電話",
     "detailsAddress": "住所"
   },

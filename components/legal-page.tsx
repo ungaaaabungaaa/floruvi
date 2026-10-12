@@ -6,7 +6,11 @@ import { fill, formatDate } from "@/lib/i18n/format";
 
 type Section = { id: string; title: string; paragraphs: string[] };
 type BannerContent = { title: string; alt: string };
-export type BannerSpec = { after: number; image: StaticImageData; style: string };
+export type BannerSpec = {
+  after: number;
+  image: StaticImageData;
+  style: string;
+};
 
 type Labels = {
   eyebrow: string;
@@ -29,9 +33,11 @@ export function LegalPage({
   updatedDate,
   bannerSpecs = [],
   values = {},
+  contactEmail,
 }: {
   locale: { tag: string };
   t: Labels;
+  contactEmail?: string;
   updatedDate: string;
   bannerSpecs?: BannerSpec[];
   /** Placeholders in the paragraphs, such as {fee}. */
@@ -93,6 +99,13 @@ export function LegalPage({
       })}
       <div className="privacy-contact">
         <p>{t.question}</p>
+        {contactEmail && (
+          <p>
+            <a className="text-link" href={`mailto:${contactEmail}`} dir="ltr">
+              {contactEmail}
+            </a>
+          </p>
+        )}
         <Link className="text-link" href="/contact">
           {t.contactLink}
         </Link>

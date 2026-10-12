@@ -1,3 +1,4 @@
+import { contactEmails } from "@/lib/site";
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
@@ -21,6 +22,7 @@ export default async function Shipping() {
   const { locale, messages } = await getI18n();
   return (
     <LegalPage
+      contactEmail={contactEmails.orders}
       locale={locale}
       t={messages.shipping}
       updatedDate={UPDATED}

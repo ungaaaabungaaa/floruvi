@@ -1,3 +1,4 @@
+import { contactEmails } from "@/lib/site";
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
@@ -35,6 +36,7 @@ export default async function Privacy() {
   );
   return (
     <LegalPage
+      contactEmail={contactEmails.legal}
       locale={locale}
       t={{ ...t, sections }}
       updatedDate={UPDATED}

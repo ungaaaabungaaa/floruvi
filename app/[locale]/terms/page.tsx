@@ -1,3 +1,4 @@
+import { contactEmails } from "@/lib/site";
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
@@ -26,6 +27,7 @@ export default async function Terms() {
   const { locale, messages } = await getI18n();
   return (
     <LegalPage
+      contactEmail={contactEmails.legal}
       locale={locale}
       t={messages.terms}
       updatedDate={UPDATED}
