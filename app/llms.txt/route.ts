@@ -1,4 +1,4 @@
-import { fetchQuery } from "convex/nextjs";
+import { cachedPublicQuery } from "@/lib/convex-public";
 import { api } from "@/convex/_generated/api";
 import messages from "@/messages/en.json";
 import { llmsText } from "@/lib/llms";
@@ -7,8 +7,8 @@ import { siteUrl } from "@/lib/site";
 export async function GET() {
   try {
     const [catalogue, recipes] = await Promise.all([
-      fetchQuery(api.storefront.catalogue, { language: "en", market: "in" }),
-      fetchQuery(api.storefront.recipes, { language: "en" }),
+      cachedPublicQuery(api.storefront.catalogue, { language: "en", market: "in" }),
+      cachedPublicQuery(api.storefront.recipes, { language: "en" }),
     ]);
     const body = llmsText({
       site: siteUrl,
