@@ -20,7 +20,7 @@ Owner request: list the 11 supplied products separately, with five images per pr
 
 The shared onion price applies to each separate form. Pack counts, cost and profit from the pricing reference are not confirmed stock and are not public listing data. Export prices require reviewed benchmarks; do not invent a category conversion rate.
 
-## Work checkpoint
+## Initial work checkpoint
 
 - The five banana flour images are complete.
 - The other 50 images are generating in four concurrent workers through built-in image_gen.
@@ -42,4 +42,12 @@ Development and production each added 11 products, preserved all 91 existing pro
 
 Local checks: 141 tests passed, lint passed, TypeScript passed, and the production build passed. The category page shows all 11 individual prices and pack sizes. The banana flour gallery has five loaded images; the fifth image can be selected, keyboard selection works, and the page fits 320 px without horizontal overflow. Pantry pages omit the shared fresh crop banner, crop nutrition links and unrelated recipe suggestions. Fresh crop pages retain these sections.
 
-Website publication and live acceptance are the remaining checks.
+Website publication and live acceptance followed these local checks.
+
+## Publication and live acceptance
+
+Application commit 75b8fda was pushed to main. Vercel production deployment dpl_BuxhCD63ZefeR8eMRw1LhWsDkCa7 reached READY and was assigned to https://floruvi.com. The existing catalogue cache needed tag invalidation after seeding; the new category then returned HTTP 200 and displayed all 11 separate product cards.
+
+The final live HTTP check passed for every new product page: HTTP 200, correct INR price, correct pack size in the description, five unique gallery images and five gallery controls. All 55 image URLs loaded successfully. The production category returned HTTP 200. The live browser confirmed 11 product cards and no horizontal overflow. A screenshot was saved for the owner.
+
+No GitHub Actions workflow is configured in this repository. Provider/payment tests were not part of this catalogue change. Commerce, payment, OTP, chat and stock settings were preserved. There is no remaining work for this product-listing request.
