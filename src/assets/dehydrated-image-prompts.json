@@ -1,0 +1,520 @@
+{
+  "date": "2026-10-18",
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "slug": "onion-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Onion powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of pale cream onion powder and some golden onions sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (9).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-b4b3e960-146e-41a4-a17e-269ac2b9f331.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-b4b3e960-146e-41a4-a17e-269ac2b9f331.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of pale cream onion powder, wooden spoon, and some golden onions, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (9).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ae0dee1b-a1c3-4cbc-9887-6639ebc794ac.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ae0dee1b-a1c3-4cbc-9887-6639ebc794ac.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Onion powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary golden onions softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (9).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-90610795-c88a-464a-898d-91775ea44a65.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-90610795-c88a-464a-898d-91775ea44a65.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of pale cream onion powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some golden onions softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (9).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d7f261e4-88ab-48ce-8db4-cf8e0197aabb.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d7f261e4-88ab-48ce-8db4-cf8e0197aabb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-flakes",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Onion flakes pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of small dried pale ivory onion flakes and some golden onions sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (7).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-7cdeaa67-e9dd-45b8-a24e-759be5ddc191.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-7cdeaa67-e9dd-45b8-a24e-759be5ddc191.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of pale cream onion powder, a small wooden scoop, and some golden onions. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (9).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f8c343f0-be3e-4bbc-aa7d-43755627d4e8.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f8c343f0-be3e-4bbc-aa7d-43755627d4e8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-flakes",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Onion flakes pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary golden onions softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (7).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-c1d85275-24f4-4096-ad2a-1030b687f1cd.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-c1d85275-24f4-4096-ad2a-1030b687f1cd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-flakes",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of small dried pale ivory onion flakes in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some golden onions softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (7).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-cc06fa68-d305-4494-8b88-816d77d2cb69.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-cc06fa68-d305-4494-8b88-816d77d2cb69.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-flakes",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of small dried pale ivory onion flakes, a small wooden scoop, and some golden onions. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (7).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-608ac471-9770-4bc0-b1b4-f3e070a02585.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-608ac471-9770-4bc0-b1b4-f3e070a02585.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "onion-flakes",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of small dried pale ivory onion flakes, wooden spoon, and some golden onions, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (7).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f0b4d579-da06-4c69-9a20-58d2782aaa30.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f0b4d579-da06-4c69-9a20-58d2782aaa30.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "garlic-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine pale ivory garlic powder, a small wooden scoop, and some garlic bulbs and cloves. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (1).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a9d90535-a594-4fb6-a677-15db94d45bab.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a9d90535-a594-4fb6-a677-15db94d45bab.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "garlic-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Garlic powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '200 g'. Remove outside artwork code and caption. Secondary garlic bulbs and cloves softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (1).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8474f549-ee57-4894-a269-d01f3c0fe44f.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8474f549-ee57-4894-a269-d01f3c0fe44f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "garlic-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine pale ivory garlic powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some garlic bulbs and cloves softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (1).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f01596eb-ee12-4111-81ae-11ed8fc1fece.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f01596eb-ee12-4111-81ae-11ed8fc1fece.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "garlic-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine pale ivory garlic powder, wooden spoon, and some garlic bulbs and cloves, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (1).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-5677a81a-be2e-40c8-b7de-4f410d343e8a.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-5677a81a-be2e-40c8-b7de-4f410d343e8a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "garlic-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Garlic powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '200 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine pale ivory garlic powder and some garlic bulbs and cloves sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (1).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fc0df738-eed8-4063-bc97-cf455a72ada3.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fc0df738-eed8-4063-bc97-cf455a72ada3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "ginger-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Ginger powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine light beige ginger powder and some fresh ginger rhizomes sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (8).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-813529e6-5c4c-42d2-b848-9a237ad1ceb2.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-813529e6-5c4c-42d2-b848-9a237ad1ceb2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "ginger-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine light beige ginger powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some fresh ginger rhizomes softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (8).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f772b8af-548e-442c-b892-90bd3b1d0bf0.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f772b8af-548e-442c-b892-90bd3b1d0bf0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "ginger-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine light beige ginger powder, wooden spoon, and some fresh ginger rhizomes, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (8).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-2fed10a6-f3fc-4da6-ab92-452a97e2257a.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-2fed10a6-f3fc-4da6-ab92-452a97e2257a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "ginger-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Ginger powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary fresh ginger rhizomes softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (8).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e0092e3e-b7f0-4a54-a61b-9a7a4d59887f.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e0092e3e-b7f0-4a54-a61b-9a7a4d59887f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "ginger-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine light beige ginger powder, a small wooden scoop, and some fresh ginger rhizomes. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (8).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d6c7cc59-654e-4881-aaa2-c04d36662aff.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d6c7cc59-654e-4881-aaa2-c04d36662aff.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "turmeric-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Turmeric powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '500 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine warm golden turmeric powder and some fresh turmeric rhizomes sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (3).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-db0833f6-3ac6-47a8-a7c9-07ce86657acc.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-db0833f6-3ac6-47a8-a7c9-07ce86657acc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "turmeric-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine warm golden turmeric powder, a small wooden scoop, and some fresh turmeric rhizomes. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (3).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-859204ef-0d0d-44b1-9d33-7298aeb9de2f.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-859204ef-0d0d-44b1-9d33-7298aeb9de2f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "turmeric-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine warm golden turmeric powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some fresh turmeric rhizomes softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (3).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d438639d-b80c-413b-95b6-71ff05e7ac23.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d438639d-b80c-413b-95b6-71ff05e7ac23.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "turmeric-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine warm golden turmeric powder, wooden spoon, and some fresh turmeric rhizomes, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (3).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-0ace7606-37aa-4187-a8cb-fb5d53dec2ae.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-0ace7606-37aa-4187-a8cb-fb5d53dec2ae.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "turmeric-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Turmeric powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '500 g'. Remove outside artwork code and caption. Secondary fresh turmeric rhizomes softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (3).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ed3a6b0d-0fa2-4941-bdbc-45af2e636fba.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ed3a6b0d-0fa2-4941-bdbc-45af2e636fba.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "moringa-leaf-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine natural muted green moringa leaf powder, a small wooden scoop, and some botanically accurate moringa leaf sprigs. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (2).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-3bf660a7-4d54-4705-a47e-3a18d7f605d6.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-3bf660a7-4d54-4705-a47e-3a18d7f605d6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "moringa-leaf-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine natural muted green moringa leaf powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some botanically accurate moringa leaf sprigs softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (2).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-520febbb-dea5-4a7e-8b70-8c9eaa34b061.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-520febbb-dea5-4a7e-8b70-8c9eaa34b061.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "moringa-leaf-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Moringa leaf powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine natural muted green moringa leaf powder and some botanically accurate moringa leaf sprigs sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (2).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-534ee004-a240-4db1-8051-d68bff8ee0b6.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-534ee004-a240-4db1-8051-d68bff8ee0b6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "moringa-leaf-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine natural muted green moringa leaf powder, wooden spoon, and some botanically accurate moringa leaf sprigs, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (2).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e5cf7470-325c-402f-b096-31ab52ab31f5.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e5cf7470-325c-402f-b096-31ab52ab31f5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "moringa-leaf-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Moringa leaf powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary botanically accurate moringa leaf sprigs softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (2).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e63395e2-980d-44e1-92a6-f6dee274c3a0.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e63395e2-980d-44e1-92a6-f6dee274c3a0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "tomato-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Tomato powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '200 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine muted brick-red tomato powder and some ripe red tomatoes sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (10).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-04a00bb1-b7e3-4f98-9362-5d9bafd42f61.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-04a00bb1-b7e3-4f98-9362-5d9bafd42f61.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "tomato-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Tomato powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '200 g'. Remove outside artwork code and caption. Secondary ripe red tomatoes softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (10).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1fec873f-bbf2-4733-b57b-45e4986a0692.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1fec873f-bbf2-4733-b57b-45e4986a0692.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "tomato-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine muted brick-red tomato powder, a small wooden scoop, and some ripe red tomatoes. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (10).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1628ea43-3898-434b-a286-4898a8eb3e51.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1628ea43-3898-434b-a286-4898a8eb3e51.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "tomato-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine muted brick-red tomato powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some ripe red tomatoes softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (10).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e523cd7d-e6ea-4267-8fa3-315ad7c76ab0.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e523cd7d-e6ea-4267-8fa3-315ad7c76ab0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "tomato-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine muted brick-red tomato powder, wooden spoon, and some ripe red tomatoes, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (10).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ce2f361f-d92e-4a77-b418-4884d3886125.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ce2f361f-d92e-4a77-b418-4884d3886125.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "beetroot-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Beetroot powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine deep burgundy beetroot powder and some whole beetroot and a cut half sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11.jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fedd94d9-c163-40cb-bb9e-5fc604b59637.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fedd94d9-c163-40cb-bb9e-5fc604b59637.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "beetroot-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Beetroot powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary whole beetroot and a cut half softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11.jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8dd138be-8a1c-439c-99fb-33ae7d229cc6.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8dd138be-8a1c-439c-99fb-33ae7d229cc6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "beetroot-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine deep burgundy beetroot powder, a small wooden scoop, and some whole beetroot and a cut half. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11.jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f90e1402-6d7f-4b39-a81d-f38dab3b2dc0.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f90e1402-6d7f-4b39-a81d-f38dab3b2dc0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "beetroot-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine deep burgundy beetroot powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some whole beetroot and a cut half softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11.jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-efd596f6-07e9-4192-96f3-1ad030c628a4.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-efd596f6-07e9-4192-96f3-1ad030c628a4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "beetroot-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine deep burgundy beetroot powder, wooden spoon, and some whole beetroot and a cut half, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11.jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-702f2550-782f-4bc9-8f9a-d0437f57f963.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-702f2550-782f-4bc9-8f9a-d0437f57f963.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "carrot-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Carrot powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine warm orange carrot powder and some fresh orange carrots sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (4).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a9bfa47c-a520-426e-8746-50d7d6706dac.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a9bfa47c-a520-426e-8746-50d7d6706dac.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "carrot-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine warm orange carrot powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some fresh orange carrots softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (4).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-3a0a0a52-25ae-4058-a39a-c15fe9be370d.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-3a0a0a52-25ae-4058-a39a-c15fe9be370d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "carrot-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine warm orange carrot powder, wooden spoon, and some fresh orange carrots, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (4).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1793f247-f280-439f-b0d4-ca5f2044a3de.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1793f247-f280-439f-b0d4-ca5f2044a3de.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "carrot-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Carrot powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary fresh orange carrots softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (4).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1575835c-e4ee-47c6-aa9a-3d465f35199e.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1575835c-e4ee-47c6-aa9a-3d465f35199e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "carrot-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine warm orange carrot powder, a small wooden scoop, and some fresh orange carrots. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (4).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-caf747b8-e79b-4c7a-8cb7-904f809159f9.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-caf747b8-e79b-4c7a-8cb7-904f809159f9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "spinach-powder",
+      "view": "pouch-detail",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Closer three-quarter detail photograph of the supplied Floruvi Spinach powder pouch, front label clearly visible and correct. Preserve supplied botanical ribbon packaging, carrot mark, brand name and product name; change weight to exactly '250 g'. Remove outside artwork code and caption. Secondary fresh spinach leaves softly blurred. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (5).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-dbba7209-df4f-4a42-a6bd-be27affc5b90.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-dbba7209-df4f-4a42-a6bd-be27affc5b90.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "spinach-powder",
+      "view": "main",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. The full upright supplied Floruvi Spinach powder pouch centered in three-quarter view, entirely visible with generous margins. Preserve the exact supplied botanical ribbon packaging, carrot mark, brand name and product name; change its pack weight to exactly '250 g'. Remove the outside bottom artwork code and caption. A small ivory bowl of fine natural dark green spinach powder and some fresh spinach leaves sit beside the pouch. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (5).jpeg",
+      "packaged": true,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-5ee063b0-29d2-4696-b5fb-c7ad52e39971.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-5ee063b0-29d2-4696-b5fb-c7ad52e39971.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "spinach-powder",
+      "view": "texture",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Macro detail of fine natural dark green spinach powder in a shallow ivory ceramic bowl, wooden scoop lifting the dried ingredient, some fresh spinach leaves softly blurred near the frame edge. Show realistic dried ingredient texture, no packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (5).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8d411b13-997b-46cb-859d-e0382e0e5f89.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8d411b13-997b-46cb-859d-e0382e0e5f89.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "spinach-powder",
+      "view": "ingredient",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. A shallow ivory ceramic bowl of fine natural dark green spinach powder, a small wooden scoop, and some fresh spinach leaves. Balanced three-quarter composition showing the dried ingredient clearly. No packaging. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (5).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-7c49524b-9c3e-4339-8bcf-eb5c229b8944.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-7c49524b-9c3e-4339-8bcf-eb5c229b8944.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "slug": "spinach-powder",
+      "view": "preparation",
+      "prompt": "One square photorealistic editorial ecommerce photograph for Floruvi. Overhead preparation scene: shallow ivory bowl of fine natural dark green spinach powder, wooden spoon, and some fresh spinach leaves, spacious restrained composition, no packaging or finished dishes. Match website theme: warm ivory #f8f7f0 limestone surface, soft natural side daylight, restrained dark green #294b35 accents, realistic materials and food colours, calm farm editorial photography. One separate photograph, never a collage. No overlay text, watermark, price, 'sample', 'mockup', 'preview', or artwork reference codes. No invented label claims.",
+      "ref": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (5).jpeg",
+      "packaged": false,
+      "path": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fcf4e4ab-5005-46a2-a6e6-b7392a638d11.png",
+      "status": "generated",
+      "hint": "Generated images are saved to /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e as /Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-fcf4e4ab-5005-46a2-a6e6-b7392a638d11.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "firstProduct": {
+    "slug": "green-banana-flour",
+    "pack": "500 g",
+    "tool": "built-in image_gen",
+    "reference": "/Users/syedabdulmuqeeth/Downloads/WhatsApp Image 2026-10-18 at 21.36.11 (6).jpeg",
+    "promptSet": "Preserve the supplied botanical ribbon pouch, carrot mark and product name. Correct weight to 500 g. Warm ivory limestone, soft daylight, subtle dark green accents. Five separate square photographs: main pouch with bananas and flour bowl, closer pouch detail, ingredient bowl and bananas, flour texture with scoop, overhead preparation. No overlay captions, prices, reference codes, sample, mockup or preview wording.",
+    "files": [
+      "src/assets/products/dehydrated/green-banana-flour/main.webp",
+      "src/assets/products/dehydrated/green-banana-flour/pouch-detail.webp",
+      "src/assets/products/dehydrated/green-banana-flour/ingredient.webp",
+      "src/assets/products/dehydrated/green-banana-flour/texture.webp",
+      "src/assets/products/dehydrated/green-banana-flour/preparation.webp"
+    ]
+  }
+}

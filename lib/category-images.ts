@@ -1,3 +1,4 @@
+import { dehydratedMainImages } from "./dehydrated-images";
 import leafy from "@/src/assets/category-leafy.webp";
 import herbs from "@/src/assets/category-herbs.webp";
 import microgreens from "@/src/assets/category-microgreens.webp";
@@ -6,6 +7,7 @@ import roots from "@/src/assets/category-roots.webp";
 import flowers from "@/src/assets/category-flowers.webp";
 import type { StaticImageData } from "next/image";
 export const categoryImages: Record<string, StaticImageData> = {
+  "flours-and-powders": dehydratedMainImages["green-banana-flour"],
   "leafy-greens": leafy,
   herbs,
   microgreens,

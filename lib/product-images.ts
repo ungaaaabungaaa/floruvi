@@ -1,3 +1,4 @@
+import { dehydratedMainImages } from "./dehydrated-images";
 import tray0 from "@/src/assets/products/trays/radish.webp";
 import tray1 from "@/src/assets/products/trays/pea.webp";
 import tray2 from "@/src/assets/products/trays/sunflower.webp";
@@ -93,6 +94,7 @@ import type { StaticImageData } from "next/image";
 
 // Match each illustration to its crop. Owner-uploaded Convex images take priority.
 export const productImages: Record<string, StaticImageData> = {
+  ...dehydratedMainImages,
   "butterhead-lettuce": lettuce,
   spinach,
   "curly-kale": kale,

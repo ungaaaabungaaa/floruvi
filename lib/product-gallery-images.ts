@@ -1,3 +1,4 @@
+import { dehydratedDetailImages } from "./dehydrated-images";
 import type { StaticImageData } from "next/image";
 import gallery0 from "@/src/assets/products/gallery/amaranth-greens.webp";
 import gallery1 from "@/src/assets/products/gallery/amaranth-microgreens.webp";
@@ -85,6 +86,7 @@ import gallery82 from "@/src/assets/products/gallery/watercress.webp";
 import gallery83 from "@/src/assets/products/gallery/wheatgrass.webp";
 import gallery84 from "@/src/assets/products/gallery/zucchini.webp";
 export const productGalleryImages: Record<string, StaticImageData> = {
+  ...dehydratedDetailImages,
   "amaranth-greens": gallery0,
   "amaranth-microgreens": gallery1,
   "arugula-microgreens": gallery2,

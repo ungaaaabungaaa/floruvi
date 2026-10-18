@@ -18,6 +18,8 @@ import type * as chatHttp from "../chatHttp.js";
 import type * as chatLive from "../chatLive.js";
 import type * as chatSpend from "../chatSpend.js";
 import type * as crons from "../crons.js";
+import type * as dehydrated from "../dehydrated.js";
+import type * as dehydratedData from "../dehydratedData.js";
 import type * as enquiries from "../enquiries.js";
 import type * as growth from "../growth.js";
 import type * as growthActions from "../growthActions.js";
@@ -59,6 +61,8 @@ declare const fullApi: ApiFromModules<{
   chatLive: typeof chatLive;
   chatSpend: typeof chatSpend;
   crons: typeof crons;
+  dehydrated: typeof dehydrated;
+  dehydratedData: typeof dehydratedData;
   enquiries: typeof enquiries;
   growth: typeof growth;
   growthActions: typeof growthActions;

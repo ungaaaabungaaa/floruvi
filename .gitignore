@@ -16,3 +16,4 @@ exports/
 # Full-resolution gallery originals stay local; ship optimized WebP assets.
 src/assets/products/gallery/*.png
 src/assets/boxes/*.png
+src/assets/products/dehydrated/**/*.png

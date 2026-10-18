@@ -13,3 +13,9 @@ playwright-report/
 src/assets/products/gallery/*.png
 scripts/
 src/assets/boxes/*.png
+src/assets/products/dehydrated/**/*.png
+
+# Local artwork and verification records are not website assets.
+output/
+backups/
+exports/

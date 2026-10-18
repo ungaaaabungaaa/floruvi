@@ -6,6 +6,7 @@ export const categorySlugs = [
   "fruiting-crops",
   "roots-and-stems",
   "edible-flowers",
+  "flours-and-powders",
 ] as const;
 
 export type CategorySlug = (typeof categorySlugs)[number];

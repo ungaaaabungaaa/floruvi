@@ -105,6 +105,7 @@ export default async function ProductDetails({ params }: Props) {
   ]);
   if (!result) notFound();
   const { product: p, details, record } = result;
+  const pantry = p.category === "flours-and-powders";
   const t = messages.product;
   const inlineName =
     locale.language === "de" ? p.name : p.name.toLocaleLowerCase(locale.tag);
@@ -124,7 +125,7 @@ export default async function ProductDetails({ params }: Props) {
   ).map(({ recipe, direct }) => ({
     recipe: recipes.find((item) => item.slug === recipe.slug)!,
     direct,
-  }));
+  })).filter(() => !pantry);
   const directMeals = meals.filter((meal) => meal.direct);
   const category = shop.categories.find(
     (item) => item.slug === p.category && isCategorySlug(item.slug),
@@ -204,7 +205,7 @@ export default async function ProductDetails({ params }: Props) {
         />
         <div className="detail-copy">
           <h1 id="product-heading">{p.name}</h1>
-          {details && <p className="product-tagline">{details.tagline}</p>}
+          {details && !pantry && <p className="product-tagline">{details.tagline}</p>}
           <p className="detail-description">{p.description}</p>
           <p className="detail-price">
             <Money minor={p.price?.amountMinor} currency={p.price?.currency} />
@@ -218,11 +219,11 @@ export default async function ProductDetails({ params }: Props) {
           <div className="product-assurances">
             <span>
               <Leaf />
-              {t.assurances.fresh}
+              {pantry ? "Dehydrated" : t.assurances.fresh}
             </span>
             <span>
               <Sprout />
-              {t.assurances.care}
+              {pantry ? "Store sealed" : t.assurances.care}
             </span>
             <span>
               <ChefHat />
@@ -305,7 +306,7 @@ export default async function ProductDetails({ params }: Props) {
                   </div>
                 </div>
               ))}
-              <div className="nutrition-references">
+              {!pantry && <div className="nutrition-references">
                 <a
                   href={details.nutritionSource}
                   target="_blank"
@@ -346,12 +347,12 @@ export default async function ProductDetails({ params }: Props) {
                     {t.eatingGuide} <ArrowUpRight size={12} />
                   </a>
                 )}
-              </div>
+              </div>}
             </aside>
           </div>
         </section>
       )}
-      <section className="product-ways" aria-labelledby="ways-heading">
+      {meals.length > 0 && <section className="product-ways" aria-labelledby="ways-heading">
         <div className="product-section-heading">
           <h2 id="ways-heading">
             {fill(t.waysToEnjoyName, { name: inlineName })}
@@ -377,8 +378,8 @@ export default async function ProductDetails({ params }: Props) {
             </Link>
           ))}
         </div>
-      </section>
-      {details && <ProductStoryBanner index={details.bannerIndex} />}
+      </section>}
+      {!pantry && details && <ProductStoryBanner index={details.bannerIndex} />}
       <section className="product-recommendations">
         <div className="section-heading">
           <h2>{t.youMayAlsoLike}</h2>

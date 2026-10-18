@@ -32,7 +32,9 @@ async function categoryData(slug: string) {
     category,
     categories,
     products: shop.products.filter((product) => product.category === slug),
-    guide: i18n.messages.categoryGuides[slug],
+    guide: slug === "flours-and-powders"
+      ? { intro: category.description, selection: "Choose a flour, vegetable powder or onion flakes for your next recipe." }
+      : i18n.messages.categoryGuides[slug],
     commerce: shop.commerce,
   };
 }
