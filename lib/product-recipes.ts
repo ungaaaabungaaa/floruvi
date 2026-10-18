@@ -20,7 +20,7 @@ export function recipesForProduct<T extends Dish>(
   product: Crop,
   recipes: T[],
   cropCategories: Record<string, string> = {},
-  { min = 5, max = 24 } = {},
+  { min = 5, max = 32 } = {},
 ) {
   const aliases = [product.slug, ...(alternatives[product.slug] ?? [])];
   const text = product.uses.join(" ").toLowerCase();

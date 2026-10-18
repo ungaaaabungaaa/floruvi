@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-18",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "slug": "banana-flour-yoghurt-pancakes",
+      "name": "Banana flour yoghurt pancakes",
+      "product": "green-banana-flour",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Banana flour yoghurt pancakes. Show a stack of small golden pancakes with plain yoghurt and sliced banana, no syrup. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f5534807-c6e1-488a-a842-21dbb8c87925.png",
+      "target": "src/assets/recipes/pantry/banana-flour-yoghurt-pancakes.png",
+      "status": "generated"
+    },
+    {
+      "slug": "moringa-besan-chilla",
+      "name": "Moringa besan chilla",
+      "product": "moringa-leaf-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Moringa besan chilla. Show two thin greenish chickpea-flour pancakes with finely diced onion and coriander and a small bowl of plain yoghurt. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a8785884-2901-416f-bcdc-84c7cd20855f.png",
+      "target": "src/assets/recipes/pantry/moringa-besan-chilla.png",
+      "status": "generated"
+    },
+    {
+      "slug": "banana-flour-cumin-flatbreads",
+      "name": "Banana flour cumin flatbreads",
+      "product": "green-banana-flour",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Banana flour cumin flatbreads. Show three thin rustic wheat and green banana flour flatbreads with toasted cumin, cut wedges, small plain yoghurt bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-6b1119a8-59fe-4a04-ba00-b2cf2a6477b7.png",
+      "target": "src/assets/recipes/pantry/banana-flour-cumin-flatbreads.png",
+      "status": "generated"
+    },
+    {
+      "slug": "moringa-lemon-lentil-soup",
+      "name": "Moringa lemon lentil soup",
+      "product": "moringa-leaf-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Moringa lemon lentil soup. Show a ceramic bowl of thick yellow split-lentil soup with a muted green moringa tint, lemon wedge, cumin and chopped coriander. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8720e1a2-6e28-4302-9abe-3a368f97562e.png",
+      "target": "src/assets/recipes/pantry/moringa-lemon-lentil-soup.png",
+      "status": "generated"
+    },
+    {
+      "slug": "moringa-pea-pulao",
+      "name": "Moringa pea pulao",
+      "product": "moringa-leaf-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Moringa pea pulao. Show basmati rice with peas and a light natural green moringa tint, toasted cumin and a lemon wedge. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-2936fd3e-695a-494e-ac51-1546e8a02807.png",
+      "target": "src/assets/recipes/pantry/moringa-pea-pulao.png",
+      "status": "generated"
+    },
+    {
+      "slug": "banana-flour-savoury-waffles",
+      "name": "Banana flour savoury waffles",
+      "product": "green-banana-flour",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Banana flour savoury waffles. Show golden savoury waffles with tiny spring onion flecks and plain yoghurt, no sweet toppings. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-c20c6728-3cec-49d7-829c-7d014dbc0ca5.png",
+      "target": "src/assets/recipes/pantry/banana-flour-savoury-waffles.png",
+      "status": "generated"
+    },
+    {
+      "slug": "moringa-sesame-roti",
+      "name": "Moringa sesame roti",
+      "product": "moringa-leaf-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Moringa sesame roti. Show rustic whole-wheat rotis with a natural muted green tint and sesame seeds, a small yoghurt bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d286547c-8016-4454-9f82-cb47f83c4448.png",
+      "target": "src/assets/recipes/pantry/moringa-sesame-roti.png",
+      "status": "generated"
+    },
+    {
+      "slug": "banana-flour-cardamom-muffins",
+      "name": "Banana flour cardamom muffins",
+      "product": "green-banana-flour",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Banana flour cardamom muffins. Show four small golden-brown banana-flour and wheat muffins, one broken open showing a soft pale crumb, cardamom pods subtly nearby. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-380cddc4-1f20-49ae-b366-a3f77c9417b8.png",
+      "target": "src/assets/recipes/pantry/banana-flour-cardamom-muffins.png",
+      "status": "generated"
+    },
+    {
+      "slug": "beetroot-cumin-paratha",
+      "name": "Beetroot cumin paratha",
+      "product": "beetroot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Beetroot cumin paratha. Show pink whole-wheat parathas with toasted brown spots and cumin, cut into wedges, plain yoghurt. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f7878715-d202-413f-a2d8-80441995c994.png",
+      "target": "src/assets/recipes/pantry/beetroot-cumin-paratha.png",
+      "status": "generated"
+    },
+    {
+      "slug": "beetroot-coconut-rice",
+      "name": "Beetroot coconut rice",
+      "product": "beetroot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Beetroot coconut rice. Show naturally pink cooked rice with white grated coconut, toasted mustard seeds and curry leaves. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-bd9ae133-c6ac-411e-99a2-11dd509fb483.png",
+      "target": "src/assets/recipes/pantry/beetroot-coconut-rice.png",
+      "status": "generated"
+    },
+    {
+      "slug": "beetroot-powder-hummus",
+      "name": "Beetroot powder hummus",
+      "product": "beetroot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Beetroot powder hummus. Show creamy pink beetroot-powder chickpea hummus in a shallow ivory bowl, olive oil, chickpeas, parsley and plain flatbread wedges. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-d32b337c-39f8-424c-9180-8dbd123d4154.png",
+      "target": "src/assets/recipes/pantry/beetroot-powder-hummus.png",
+      "status": "generated"
+    },
+    {
+      "slug": "beetroot-cocoa-pancakes",
+      "name": "Beetroot cocoa pancakes",
+      "product": "beetroot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Beetroot cocoa pancakes. Show dark cocoa pancakes with a subtle reddish-brown crumb, plain yoghurt and sliced banana, no berries or syrup. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8a5f5659-27b5-4009-bd9f-6a978c580e3f.png",
+      "target": "src/assets/recipes/pantry/beetroot-cocoa-pancakes.png",
+      "status": "generated"
+    },
+    {
+      "slug": "turmeric-lemon-chickpeas",
+      "name": "Turmeric lemon chickpeas",
+      "product": "turmeric-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Turmeric lemon chickpeas. Show golden turmeric chickpeas with cumin, chopped parsley and lemon wedges in a shallow ivory bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f1971b55-941d-4943-b5d7-dddff8bb52a3.png",
+      "target": "src/assets/recipes/pantry/turmeric-lemon-chickpeas.png",
+      "status": "generated"
+    },
+    {
+      "slug": "turmeric-cauliflower-tray-bake",
+      "name": "Turmeric cauliflower tray bake",
+      "product": "turmeric-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Turmeric cauliflower tray bake. Show roasted golden turmeric cauliflower florets and chickpeas with browned edges, lemon wedges and coriander on an ivory platter. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-03172238-a87c-4b2f-9ab8-6cbb7a8d2b76.png",
+      "target": "src/assets/recipes/pantry/turmeric-cauliflower-tray-bake.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-powder-lentil-patties",
+      "name": "Onion powder lentil patties",
+      "product": "onion-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion powder lentil patties. Show four golden pan-seared red lentil patties with coriander flecks, lemon and a small yoghurt bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-3b295fc5-8373-4f27-8765-9796f9a0b1b3.png",
+      "target": "src/assets/recipes/pantry/onion-powder-lentil-patties.png",
+      "status": "generated"
+    },
+    {
+      "slug": "turmeric-pea-upma",
+      "name": "Turmeric pea upma",
+      "product": "turmeric-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Turmeric pea upma. Show golden semolina upma with peas, mustard seeds, curry leaves and a lemon wedge. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-de2f0b54-8e2c-46d9-9410-91dde911a7bc.png",
+      "target": "src/assets/recipes/pantry/turmeric-pea-upma.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-powder-creamy-polenta",
+      "name": "Onion powder creamy polenta",
+      "product": "onion-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion powder creamy polenta. Show creamy pale golden polenta in a shallow ivory bowl with sauteed mushrooms, chives and black pepper. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-8eb8a6b3-41f0-4ff3-9f4c-68cc8bc6e189.png",
+      "target": "src/assets/recipes/pantry/onion-powder-creamy-polenta.png",
+      "status": "generated"
+    },
+    {
+      "slug": "turmeric-coconut-dal",
+      "name": "Turmeric coconut dal",
+      "product": "turmeric-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Turmeric coconut dal. Show golden yellow split-lentil dal with coconut milk, cumin and coriander in an ivory ceramic bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-a8d19c17-fb00-4b17-88e3-43867a2e7f0b.png",
+      "target": "src/assets/recipes/pantry/turmeric-coconut-dal.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-powder-butter-beans",
+      "name": "Onion powder butter beans",
+      "product": "onion-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion powder butter beans. Show creamy white butter beans with sauteed carrots, onion-powder broth and fresh parsley. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-85698cb1-a13b-42c5-8d9d-d2b3829ca0a2.png",
+      "target": "src/assets/recipes/pantry/onion-powder-butter-beans.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-powder-potato-wedges",
+      "name": "Onion powder potato wedges",
+      "product": "onion-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion powder potato wedges. Show oven-baked golden potato wedges lightly seasoned with onion powder and paprika, parsley and plain yoghurt dip. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-58f1722e-8370-4208-8bdb-28df4286c425.png",
+      "target": "src/assets/recipes/pantry/onion-powder-potato-wedges.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-flake-rice-pilaf",
+      "name": "Onion flake rice pilaf",
+      "product": "onion-flakes",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion flake rice pilaf. Show fluffy white basmati rice with rehydrated golden onion flakes, peas, cumin and coriander. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-617843c0-aee0-4848-8bea-5417b9bbddba.png",
+      "target": "src/assets/recipes/pantry/onion-flake-rice-pilaf.png",
+      "status": "generated"
+    },
+    {
+      "slug": "spinach-powder-green-pasta",
+      "name": "Spinach powder green pasta",
+      "product": "spinach-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Spinach powder green pasta. Show homemade green tagliatelle tossed in butter and garlic with black pepper and grated hard vegetarian cheese. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-766e2962-858c-43d9-badb-cba3c9678d12.png",
+      "target": "src/assets/recipes/pantry/spinach-powder-green-pasta.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-flake-tomato-dal",
+      "name": "Onion flake tomato dal",
+      "product": "onion-flakes",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion flake tomato dal. Show orange-red split-lentil dal with soft onion flakes and tomato, cumin and fresh coriander. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-25bb5679-68ef-4171-9ffe-8aaa1b05f914.png",
+      "target": "src/assets/recipes/pantry/onion-flake-tomato-dal.png",
+      "status": "generated"
+    },
+    {
+      "slug": "spinach-powder-paneer-paratha",
+      "name": "Spinach powder paneer paratha",
+      "product": "spinach-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Spinach powder paneer paratha. Show green whole-wheat paratha stuffed with white paneer, one wedge showing the filling, small yoghurt bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-5a9a8c11-4c35-4014-89f1-39f95ff544a2.png",
+      "target": "src/assets/recipes/pantry/spinach-powder-paneer-paratha.png",
+      "status": "generated"
+    },
+    {
+      "slug": "onion-flake-roast-potatoes",
+      "name": "Onion flake roast potatoes",
+      "product": "onion-flakes",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Onion flake roast potatoes. Show crispy roasted potato cubes with golden onion flakes and rosemary, light olive oil sheen. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-c1050f0a-62a1-40d3-ba34-1de6359d7e8d.png",
+      "target": "src/assets/recipes/pantry/onion-flake-roast-potatoes.png",
+      "status": "generated"
+    },
+    {
+      "slug": "spinach-powder-potato-soup",
+      "name": "Spinach powder potato soup",
+      "product": "spinach-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Spinach powder potato soup. Show smooth creamy green potato and spinach-powder soup with black pepper and plain toasted bread. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-e71b8907-6334-4e61-b2ed-f93a48600cc9.png",
+      "target": "src/assets/recipes/pantry/spinach-powder-potato-soup.png",
+      "status": "generated"
+    },
+    {
+      "slug": "carrot-powder-cumin-rice",
+      "name": "Carrot powder cumin rice",
+      "product": "carrot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Carrot powder cumin rice. Show warm orange-tinted basmati rice with cumin and peas, chopped coriander in an ivory bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-017ac12a-096b-4f69-9b42-a905bac65e4b.png",
+      "target": "src/assets/recipes/pantry/carrot-powder-cumin-rice.png",
+      "status": "generated"
+    },
+    {
+      "slug": "carrot-powder-ginger-soup",
+      "name": "Carrot powder ginger soup",
+      "product": "carrot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Carrot powder ginger soup. Show smooth warm orange carrot-powder potato soup with ginger, black pepper and plain yoghurt swirl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-10908ed7-cc8f-41fa-9d7f-1c745afe32eb.png",
+      "target": "src/assets/recipes/pantry/carrot-powder-ginger-soup.png",
+      "status": "generated"
+    },
+    {
+      "slug": "spinach-powder-savoury-crepes",
+      "name": "Spinach powder savoury crepes",
+      "product": "spinach-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Spinach powder savoury crepes. Show thin pale green savoury crepes folded with sauteed mushrooms and small paneer cubes. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-1cbb9fe6-a0f6-417c-8ead-06d856123e18.png",
+      "target": "src/assets/recipes/pantry/spinach-powder-savoury-crepes.png",
+      "status": "generated"
+    },
+    {
+      "slug": "carrot-powder-oat-pancakes",
+      "name": "Carrot powder oat pancakes",
+      "product": "carrot-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Carrot powder oat pancakes. Show small golden-orange oat pancakes with plain yoghurt and chopped walnuts, no syrup. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-9102ecf8-d5a2-452b-83ff-62e0d31f3d5b.png",
+      "target": "src/assets/recipes/pantry/carrot-powder-oat-pancakes.png",
+      "status": "generated"
+    },
+    {
+      "slug": "tomato-powder-pasta-sauce",
+      "name": "Tomato powder pasta sauce",
+      "product": "tomato-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Tomato powder pasta sauce. Show penne pasta coated with smooth red tomato-powder sauce, fresh basil and a small amount of grated vegetarian cheese. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-05e6654d-78ab-455e-9cad-0a1780a9d5cb.png",
+      "target": "src/assets/recipes/pantry/tomato-powder-pasta-sauce.png",
+      "status": "generated"
+    },
+    {
+      "slug": "tomato-powder-chickpea-stew",
+      "name": "Tomato powder chickpea stew",
+      "product": "tomato-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Tomato powder chickpea stew. Show red tomato-powder chickpea stew with diced carrots and cumin, fresh coriander. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-0a626f6f-21ca-4eab-b14a-e3a04012f098.png",
+      "target": "src/assets/recipes/pantry/tomato-powder-chickpea-stew.png",
+      "status": "generated"
+    },
+    {
+      "slug": "tomato-powder-lentil-soup",
+      "name": "Tomato powder lentil soup",
+      "product": "tomato-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Tomato powder lentil soup. Show thick red tomato and lentil soup with carrots, fresh basil and black pepper. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-536e9e4c-242d-4445-aa0f-eccec7d93684.png",
+      "target": "src/assets/recipes/pantry/tomato-powder-lentil-soup.png",
+      "status": "generated"
+    },
+    {
+      "slug": "ginger-powder-sesame-tofu",
+      "name": "Ginger powder sesame tofu",
+      "product": "ginger-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Ginger powder sesame tofu. Show golden pan-seared tofu cubes coated in a light ginger soy glaze with sesame seeds and spring onion. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-733e9eaa-8667-42f6-856c-7b1069eb17fd.png",
+      "target": "src/assets/recipes/pantry/ginger-powder-sesame-tofu.png",
+      "status": "generated"
+    },
+    {
+      "slug": "tomato-powder-spiced-rice",
+      "name": "Tomato powder spiced rice",
+      "product": "tomato-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Tomato powder spiced rice. Show red-orange basmati rice with peas and tomato-powder seasoning, coriander and lemon. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-82ce7383-d8e4-4f6a-9f1f-e5b0c007f740.png",
+      "target": "src/assets/recipes/pantry/tomato-powder-spiced-rice.png",
+      "status": "generated"
+    },
+    {
+      "slug": "ginger-powder-pear-porridge",
+      "name": "Ginger powder pear porridge",
+      "product": "ginger-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Ginger powder pear porridge. Show creamy rolled-oat porridge with tender cooked pear slices, ground ginger and chopped walnuts. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-28c3fbde-6af7-4e9f-8541-d28a943f89c0.png",
+      "target": "src/assets/recipes/pantry/ginger-powder-pear-porridge.png",
+      "status": "generated"
+    },
+    {
+      "slug": "ginger-powder-coconut-chickpeas",
+      "name": "Ginger powder coconut chickpeas",
+      "product": "ginger-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Ginger powder coconut chickpeas. Show chickpeas in a light creamy coconut-ginger sauce with coriander and a lime wedge. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-98a3088e-e080-4d47-8f12-d40ae537f7a6.png",
+      "target": "src/assets/recipes/pantry/ginger-powder-coconut-chickpeas.png",
+      "status": "generated"
+    },
+    {
+      "slug": "garlic-powder-roasted-chickpeas",
+      "name": "Garlic powder roasted chickpeas",
+      "product": "garlic-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Garlic powder roasted chickpeas. Show crispy golden roasted chickpeas with garlic powder, paprika and black pepper in a small ivory bowl. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-570a735a-6eba-4869-ab61-12081c188f14.png",
+      "target": "src/assets/recipes/pantry/garlic-powder-roasted-chickpeas.png",
+      "status": "generated"
+    },
+    {
+      "slug": "garlic-powder-yoghurt-dip",
+      "name": "Garlic powder yoghurt dip",
+      "product": "garlic-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Garlic powder yoghurt dip. Show thick white garlic-powder yoghurt dip with finely chopped dill and black pepper, cucumber batons and flatbread. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-ea47aab1-4bf7-40f0-9340-b88618713be9.png",
+      "target": "src/assets/recipes/pantry/garlic-powder-yoghurt-dip.png",
+      "status": "generated"
+    },
+    {
+      "slug": "garlic-powder-herb-flatbreads",
+      "name": "Garlic powder herb flatbreads",
+      "product": "garlic-powder",
+      "prompt": "One square photorealistic editorial food photograph for Floruvi. Dish: Garlic powder herb flatbreads. Show golden skillet yoghurt flatbreads with garlic-powder butter and finely chopped parsley. One finished dish only, realistic portions, accurate cooked texture and natural ingredient colours. Shallow ivory ceramic serveware on warm ivory limestone #f8f7f0, soft natural side daylight, restrained sage and dark green accents #294b35, calm elegant home-cooking atmosphere. Three-quarter camera view. No packaging, people, text, logos, watermark, sample wording, collage, nutrition labels, or unrelated ingredients.",
+      "source": "/Users/syedabdulmuqeeth/.codex/generated_images/01a14fc4-e732-7ae0-a2df-6ba9f6cc9b2e/exec-f5f19f3d-0d11-41e4-a5cd-9089e188abfa.png",
+      "target": "src/assets/recipes/pantry/garlic-powder-herb-flatbreads.png",
+      "status": "generated"
+    }
+  ]
+}

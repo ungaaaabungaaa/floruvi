@@ -1,3 +1,4 @@
+import { dehydratedProducts } from "../convex/dehydratedData";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { productDetailCatalogue } from "../convex/productDetailData";
@@ -26,7 +27,7 @@ test("all 91 products have complete details and one of six banner choices", () =
       ),
     );
     const linked = recipesForProduct(product, recipeCatalogue);
-    assert.ok(linked.length >= 5 && linked.length <= 24, product.slug);
+    assert.ok(linked.length >= 5 && linked.length <= 32, product.slug);
     assert.equal(new Set(linked.map((m) => m.recipe.slug)).size, linked.length);
     assert.ok(
       linked.every((m) =>
@@ -54,10 +55,10 @@ test("direct crop recipes lead and unrelated recipes are labelled as inspiration
 });
 
 test("product pages link every recipe and spread inspiration instead of repeating a few", () => {
-  const categories = Object.fromEntries(cropCatalogue.map((p) => [p.slug, p.category]));
+  const categories = Object.fromEntries([...cropCatalogue, ...dehydratedProducts].map((p) => [p.slug, p.category]));
   const linked = new Set<string>();
   const inspiration = new Map<string, number>();
-  for (const product of cropCatalogue)
+  for (const product of [...cropCatalogue, ...dehydratedProducts])
     for (const { recipe, direct } of recipesForProduct(product, recipeCatalogue, categories)) {
       linked.add(recipe.slug);
       if (!direct) inspiration.set(recipe.slug, (inspiration.get(recipe.slug) ?? 0) + 1);

@@ -19,3 +19,5 @@ src/assets/products/dehydrated/**/*.png
 output/
 backups/
 exports/
+
+src/assets/recipes/pantry/*.png

@@ -4328,5 +4328,964 @@
       "Serve the salad as soon as it is assembled."
     ],
     "tip": "Use fresh eggs. Cook both the yolks and whites until firm."
+  },
+  "banana-flour-yoghurt-pancakes": {
+    "source": "c0eb4b36",
+    "name": "Banana flour yoghurt pancakes",
+    "description": "Small, soft pancakes made with a blend of banana flour, wheat flour and yoghurt.",
+    "ingredients": [
+      "40 g green banana flour",
+      "80 g plain wheat flour",
+      "1 tsp baking powder",
+      "1 tsp sugar",
+      "80 g plain yoghurt, plus 4 tbsp to serve",
+      "120 ml milk",
+      "2 tsp neutral oil",
+      "1 ripe banana, sliced"
+    ],
+    "steps": [
+      "Mix the banana flour, wheat flour, baking powder and sugar in a bowl.",
+      "Whisk in the yoghurt, milk and 1 tsp oil until no dry flour remains. Rest for 5 minutes.",
+      "Heat a non-stick pan over medium-low heat. Brush it with the remaining oil.",
+      "Spoon in small rounds of batter. Cook for 2–3 minutes, until the edges set and bubbles appear.",
+      "Turn each pancake and cook for another 1–2 minutes, until the centre is set. Repeat with the remaining batter.",
+      "Serve warm with the extra yoghurt and sliced banana."
+    ],
+    "tip": "Banana flour absorbs liquid. Add milk 1 tbsp at a time if the rested batter is too thick to spoon."
+  },
+  "banana-flour-cumin-flatbreads": {
+    "source": "ea7d5243",
+    "name": "Banana flour cumin flatbreads",
+    "description": "A wheat and banana flour blend makes these small cumin flatbreads easy to serve with yoghurt.",
+    "ingredients": [
+      "40 g green banana flour",
+      "120 g whole-wheat flour",
+      "1 tsp cumin seeds",
+      "¼ tsp salt",
+      "100 ml warm water, plus a little if needed",
+      "2 tsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mix both flours, the cumin and salt. Add the water and 1 tsp oil.",
+      "Knead for 4–5 minutes to make a soft dough. Add water 1 tsp at a time if it cracks.",
+      "Cover the dough and rest for 10 minutes. Divide it into four equal pieces.",
+      "Roll each piece into a thin round on a lightly floured surface.",
+      "Cook on a hot dry skillet for about 1 minute on each side. Brush lightly with the remaining oil and turn again until brown spots appear.",
+      "Keep the cooked breads wrapped in a clean cloth. Serve with yoghurt."
+    ],
+    "tip": "Roll small breads rather than large ones; the flour blend is easier to handle this way."
+  },
+  "banana-flour-savoury-waffles": {
+    "source": "2f8b43d7",
+    "name": "Banana flour savoury waffles",
+    "description": "Crisp-edged savoury waffles with spring onion and a wheat–banana flour blend.",
+    "ingredients": [
+      "40 g green banana flour",
+      "100 g plain wheat flour",
+      "1½ tsp baking powder",
+      "¼ tsp salt",
+      "100 g plain yoghurt, plus 4 tbsp to serve",
+      "140 ml milk",
+      "1 tbsp neutral oil, plus a little for the waffle iron",
+      "2 tbsp finely sliced spring onion"
+    ],
+    "steps": [
+      "Preheat the waffle iron according to its instructions.",
+      "Mix both flours, the baking powder and salt. Whisk in the yoghurt, milk and oil.",
+      "Fold in the spring onion and rest the batter for 5 minutes.",
+      "Lightly oil the waffle plates. Add the amount of batter recommended for the iron.",
+      "Cook until the waffles are golden, release easily and have a set centre, usually 4–6 minutes per batch.",
+      "Place cooked waffles on a rack so they stay crisp. Serve with yoghurt."
+    ],
+    "tip": "Keep the first batch warm in a 100°C oven while you cook the rest."
+  },
+  "banana-flour-cardamom-muffins": {
+    "source": "012fa011",
+    "name": "Banana flour cardamom muffins",
+    "description": "Small yoghurt muffins with banana flour, wheat flour and a light cardamom flavour.",
+    "ingredients": [
+      "40 g green banana flour",
+      "120 g plain wheat flour",
+      "1½ tsp baking powder",
+      "¼ tsp ground cardamom",
+      "60 g sugar",
+      "100 g plain yoghurt",
+      "60 ml milk",
+      "40 ml neutral oil",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Heat the oven to 180°C. Line six muffin cups with paper cases.",
+      "Mix the flours, baking powder, cardamom, sugar and salt.",
+      "Whisk the yoghurt, milk and oil in a second bowl.",
+      "Fold the wet mixture into the dry ingredients until no dry flour remains. Divide among the six cups.",
+      "Bake for 20–22 minutes, until the tops spring back and a skewer comes out without wet batter.",
+      "Cool in the tin for 5 minutes, then transfer to a rack."
+    ],
+    "tip": "Mix only until combined. Extra mixing can make the crumb firm."
+  },
+  "moringa-besan-chilla": {
+    "source": "f3a3449a",
+    "name": "Moringa besan chilla",
+    "description": "Thin chickpea-flour pancakes with moringa leaf powder, onion and coriander.",
+    "ingredients": [
+      "100 g chickpea flour (besan)",
+      "1 tsp moringa leaf powder",
+      "160 ml water",
+      "40 g onion, finely diced",
+      "2 tbsp chopped coriander",
+      "¼ tsp ground cumin",
+      "¼ tsp salt",
+      "2 tsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mix the besan, moringa powder, cumin and salt.",
+      "Whisk in the water to make a smooth, pourable batter. Stir in the onion and coriander.",
+      "Heat a non-stick skillet over medium heat and brush it with a little oil.",
+      "Spread a small ladle of batter into a thin round. Cook for 2–3 minutes, until the top looks set.",
+      "Turn and cook for 1–2 minutes, until cooked through. Repeat with the remaining batter and oil.",
+      "Serve warm with yoghurt."
+    ],
+    "tip": "Add water 1 tbsp at a time if the batter thickens as it stands."
+  },
+  "moringa-lemon-lentil-soup": {
+    "source": "19ebb927",
+    "name": "Moringa lemon lentil soup",
+    "description": "A thick split-lentil soup finished with moringa leaf powder and lemon.",
+    "ingredients": [
+      "100 g yellow split lentils (moong dal), rinsed",
+      "1 tsp moringa leaf powder",
+      "600 ml water",
+      "60 g onion, diced",
+      "1 tsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Add the cumin and stir for 30 seconds.",
+      "Add the onion and cook for 4 minutes, until softened.",
+      "Add the lentils and water. Bring to a boil, then simmer for 18–22 minutes, until the lentils are soft.",
+      "Mix the moringa powder with 2 tbsp of the hot soup. Stir it back into the pan with the salt.",
+      "Simmer for 2 minutes. Add a little water if the soup is too thick.",
+      "Remove from the heat and stir in the lemon juice and coriander."
+    ],
+    "tip": "Use a whisk to break down the soft lentils if you prefer a smoother soup."
+  },
+  "moringa-pea-pulao": {
+    "source": "d1b01d1a",
+    "name": "Moringa pea pulao",
+    "description": "Basmati rice and peas with a small amount of moringa powder and cumin.",
+    "ingredients": [
+      "150 g basmati rice, rinsed and drained",
+      "1 tsp moringa leaf powder",
+      "100 g frozen peas",
+      "300 ml water",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "1 tbsp lemon juice"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan with a tight-fitting lid. Add the cumin and stir for 30 seconds.",
+      "Add the drained rice and stir gently for 1 minute.",
+      "Mix the moringa powder with the water. Add it to the rice with the peas and salt.",
+      "Bring to a boil, cover and reduce the heat to low. Cook for 12 minutes.",
+      "Turn off the heat and leave the pan covered for 5 minutes. Check that the rice is tender.",
+      "Fluff with a fork and add the lemon juice."
+    ],
+    "tip": "Use the rice pack’s water ratio if it differs from this recipe."
+  },
+  "moringa-sesame-roti": {
+    "source": "3c1412d6",
+    "name": "Moringa sesame roti",
+    "description": "Whole-wheat rotis with moringa leaf powder and sesame seeds.",
+    "ingredients": [
+      "160 g whole-wheat flour, plus a little for rolling",
+      "1 tsp moringa leaf powder",
+      "2 tsp sesame seeds",
+      "¼ tsp salt",
+      "105 ml warm water, plus a little if needed",
+      "2 tsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mix the flour, moringa powder, sesame seeds and salt.",
+      "Add the water and 1 tsp oil. Knead for 4–5 minutes, until soft and smooth.",
+      "Cover and rest for 10 minutes. Divide into four equal balls.",
+      "Roll each ball into a thin round on a lightly floured surface.",
+      "Cook on a hot skillet for about 1 minute per side. Brush with the remaining oil and turn until brown spots appear.",
+      "Keep warm in a clean cloth and serve with yoghurt."
+    ],
+    "tip": "Begin with the listed amount of moringa powder; its earthy flavour becomes stronger as you add more."
+  },
+  "beetroot-powder-hummus": {
+    "source": "9b535190",
+    "name": "Beetroot powder hummus",
+    "description": "Chickpea hummus coloured and flavoured with beetroot powder.",
+    "ingredients": [
+      "240 g cooked chickpeas, drained",
+      "2 tsp beetroot powder",
+      "2 tbsp tahini",
+      "2 tbsp lemon juice",
+      "1 tbsp olive oil, plus 1 tsp to finish",
+      "1 small garlic clove",
+      "3 tbsp water, plus a little if needed",
+      "¼ tsp salt",
+      "1 tbsp chopped parsley"
+    ],
+    "steps": [
+      "Mix the beetroot powder with the water in a small bowl until smooth.",
+      "Put the chickpeas, tahini, lemon juice, olive oil, garlic and salt in a food processor.",
+      "Add the beetroot mixture and blend until smooth, scraping down the bowl as needed.",
+      "Add water 1 tbsp at a time to reach a soft, spreadable texture.",
+      "Spoon into a shallow bowl. Finish with the extra olive oil and parsley."
+    ],
+    "tip": "Use cooked, cooled chickpeas. Keep the finished dip covered in the fridge and use within 2 days."
+  },
+  "beetroot-cumin-paratha": {
+    "source": "e37a5923",
+    "name": "Beetroot cumin paratha",
+    "description": "Whole-wheat parathas with beetroot powder and cumin.",
+    "ingredients": [
+      "160 g whole-wheat flour, plus a little for rolling",
+      "2 tsp beetroot powder",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "105 ml warm water, plus a little if needed",
+      "1 tbsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mix the flour, beetroot powder, cumin and salt.",
+      "Add the water and 1 tsp oil. Knead into a soft dough, adding a little water if needed.",
+      "Cover and rest for 10 minutes. Divide into four balls.",
+      "Roll each ball into a thin round on a lightly floured surface.",
+      "Cook each bread on a hot skillet for 1 minute per side. Add a little of the remaining oil and cook until brown spots appear and the centre is cooked.",
+      "Serve warm with yoghurt."
+    ],
+    "tip": "Beetroot powder can stain the work surface. Roll on a washable board."
+  },
+  "beetroot-coconut-rice": {
+    "source": "5b95238f",
+    "name": "Beetroot coconut rice",
+    "description": "Pink rice with beetroot powder, grated coconut and curry leaves.",
+    "ingredients": [
+      "150 g basmati rice, rinsed and drained",
+      "2 tsp beetroot powder",
+      "300 ml water",
+      "30 g grated coconut",
+      "1 tbsp neutral oil",
+      "½ tsp mustard seeds",
+      "8 curry leaves",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Add the mustard seeds and let them begin to pop.",
+      "Add the curry leaves carefully, then stir in the drained rice.",
+      "Mix the beetroot powder with the water. Add this mixture and the salt to the pan.",
+      "Bring to a boil. Cover and cook over low heat for 12 minutes.",
+      "Turn off the heat and rest, covered, for 5 minutes. Check that the rice is tender.",
+      "Fluff gently and fold in the grated coconut."
+    ],
+    "tip": "Add the coconut at the end to keep its texture."
+  },
+  "beetroot-cocoa-pancakes": {
+    "source": "8eb1090b",
+    "name": "Beetroot cocoa pancakes",
+    "description": "Cocoa pancakes with beetroot powder, served with yoghurt and banana.",
+    "ingredients": [
+      "100 g plain wheat flour",
+      "2 tsp beetroot powder",
+      "1 tbsp cocoa powder",
+      "1 tsp baking powder",
+      "1 tbsp sugar",
+      "100 g plain yoghurt, plus 4 tbsp to serve",
+      "120 ml milk",
+      "2 tsp neutral oil",
+      "1 ripe banana, sliced"
+    ],
+    "steps": [
+      "Mix the flour, beetroot powder, cocoa, baking powder and sugar.",
+      "Whisk in the yoghurt, milk and 1 tsp oil. Rest the batter for 5 minutes.",
+      "Heat a non-stick pan over medium-low heat. Brush with the remaining oil.",
+      "Spoon small rounds of batter into the pan. Cook for 2–3 minutes, until the edges set.",
+      "Turn and cook for another 1–2 minutes, until there is no wet batter in the centre. Repeat with the remaining batter.",
+      "Serve with yoghurt and sliced banana."
+    ],
+    "tip": "Cocoa makes the cooked colour darker. Do not expect bright pink pancakes."
+  },
+  "turmeric-lemon-chickpeas": {
+    "source": "e0c01fbe",
+    "name": "Turmeric lemon chickpeas",
+    "description": "Warm chickpeas with turmeric, cumin and lemon.",
+    "ingredients": [
+      "480 g cooked chickpeas, drained",
+      "½ tsp turmeric powder",
+      "½ tsp ground cumin",
+      "1 tbsp olive oil",
+      "60 ml water",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "2 tbsp chopped parsley"
+    ],
+    "steps": [
+      "Pat the drained chickpeas dry.",
+      "Heat the oil in a wide pan over medium heat. Add the turmeric and cumin and stir for 20 seconds.",
+      "Add the chickpeas, water and salt. Stir to coat.",
+      "Cover and cook for 5 minutes. Uncover and cook for another 4–5 minutes, until hot and lightly coated.",
+      "Remove from the heat. Add the lemon juice and parsley, then serve."
+    ],
+    "tip": "Add a little water if the spices begin to catch on the pan."
+  },
+  "turmeric-coconut-dal": {
+    "source": "90ad01d5",
+    "name": "Turmeric coconut dal",
+    "description": "Yellow split lentils simmered with turmeric and coconut milk.",
+    "ingredients": [
+      "120 g yellow split lentils (moong dal), rinsed",
+      "½ tsp turmeric powder",
+      "450 ml water",
+      "150 ml coconut milk",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "60 g onion, finely diced",
+      "¼ tsp salt",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Put the lentils, turmeric and water in a saucepan. Bring to a boil.",
+      "Reduce the heat and simmer for 18–22 minutes, until the lentils are soft. Stir occasionally.",
+      "Meanwhile, heat the oil in a small pan. Add the cumin, then the onion. Cook for 5–6 minutes, until softened.",
+      "Stir the onion mixture, coconut milk and salt into the lentils.",
+      "Simmer for 3 minutes. Add a little water if needed and finish with coriander."
+    ],
+    "tip": "Keep the final simmer gentle after adding coconut milk."
+  },
+  "turmeric-cauliflower-tray-bake": {
+    "source": "d5d68739",
+    "name": "Turmeric cauliflower tray bake",
+    "description": "Roasted cauliflower and chickpeas with turmeric and cumin.",
+    "ingredients": [
+      "400 g cauliflower florets",
+      "240 g cooked chickpeas, drained and dried",
+      "½ tsp turmeric powder",
+      "½ tsp ground cumin",
+      "1½ tbsp olive oil",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Heat the oven to 210°C. Line a large tray with baking paper.",
+      "Mix the oil, turmeric, cumin and salt in a large bowl.",
+      "Add the cauliflower and chickpeas. Toss until evenly coated.",
+      "Spread in one layer on the tray. Roast for 22–25 minutes, turning once, until the cauliflower is tender with browned edges.",
+      "Add the lemon juice and coriander before serving."
+    ],
+    "tip": "Use a large tray. Crowded florets steam instead of browning."
+  },
+  "turmeric-pea-upma": {
+    "source": "2007b533",
+    "name": "Turmeric pea upma",
+    "description": "Semolina upma with peas, turmeric and curry leaves.",
+    "ingredients": [
+      "120 g fine semolina",
+      "¼ tsp turmeric powder",
+      "80 g frozen peas",
+      "360 ml hot water",
+      "1 tbsp neutral oil",
+      "½ tsp mustard seeds",
+      "8 curry leaves",
+      "40 g onion, finely diced",
+      "¼ tsp salt",
+      "1 tbsp lemon juice"
+    ],
+    "steps": [
+      "Dry-toast the semolina in a saucepan over medium-low heat for 3–4 minutes. Transfer to a plate.",
+      "Heat the oil in the pan. Add the mustard seeds and let them begin to pop. Add the curry leaves and onion. Cook for 3 minutes.",
+      "Add the turmeric, peas, hot water and salt. Bring to a gentle boil.",
+      "Lower the heat. Pour in the semolina slowly while stirring to avoid lumps.",
+      "Cover and cook for 3 minutes. Turn off the heat and rest for 2 minutes.",
+      "Fluff gently and stir in the lemon juice."
+    ],
+    "tip": "Pour slowly and stir continuously when you add the semolina."
+  },
+  "onion-powder-potato-wedges": {
+    "source": "bc585d17",
+    "name": "Onion powder potato wedges",
+    "description": "Oven-baked potato wedges seasoned with onion powder and paprika.",
+    "ingredients": [
+      "500 g potatoes, scrubbed",
+      "1½ tsp onion powder",
+      "½ tsp paprika",
+      "1½ tbsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "1 tbsp chopped parsley",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Heat the oven to 220°C. Line a large baking tray.",
+      "Cut the potatoes into even wedges and pat them dry.",
+      "Mix the onion powder, paprika, oil, salt and pepper. Toss with the wedges.",
+      "Spread the wedges in one layer. Roast for 28–30 minutes, turning halfway, until tender inside and browned outside.",
+      "Scatter with parsley and serve with yoghurt."
+    ],
+    "tip": "Leave space between the wedges so the edges can brown."
+  },
+  "onion-powder-lentil-patties": {
+    "source": "8af6a06b",
+    "name": "Onion powder lentil patties",
+    "description": "Pan-seared cooked lentil patties with onion powder and coriander.",
+    "ingredients": [
+      "250 g cooked red lentils, cooled and well drained",
+      "60 g dry breadcrumbs",
+      "1½ tsp onion powder",
+      "½ tsp ground cumin",
+      "2 tbsp chopped coriander",
+      "1 tbsp lemon juice",
+      "¼ tsp salt",
+      "1½ tbsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mash the drained lentils in a bowl.",
+      "Mix in the breadcrumbs, onion powder, cumin, coriander, lemon juice and salt. Rest for 5 minutes.",
+      "Shape into six small patties. If the mixture is wet, add breadcrumbs 1 tbsp at a time.",
+      "Heat the oil in a non-stick skillet over medium heat. Cook the patties for 4–5 minutes on each side, until browned and hot throughout.",
+      "Serve with yoghurt."
+    ],
+    "tip": "Cool and drain the lentils before mixing; extra water makes the patties difficult to turn."
+  },
+  "onion-powder-creamy-polenta": {
+    "source": "d4193889",
+    "name": "Onion powder creamy polenta",
+    "description": "Soft polenta with onion powder and sautéed mushrooms.",
+    "ingredients": [
+      "80 g fine polenta",
+      "1 tsp onion powder",
+      "350 ml water",
+      "100 ml milk",
+      "150 g mushrooms, sliced",
+      "1 tbsp butter",
+      "1 tsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "1 tbsp chopped chives"
+    ],
+    "steps": [
+      "Bring the water, milk, onion powder and salt to a gentle simmer in a saucepan.",
+      "Pour in the polenta slowly while whisking. Reduce the heat to low.",
+      "Cook for 20–25 minutes, stirring often, until smooth and tender. Follow the pack timing if it differs.",
+      "Meanwhile, heat the oil in a skillet. Cook the mushrooms for 6–8 minutes, until browned.",
+      "Stir the butter into the polenta. Serve with the mushrooms, black pepper and chives."
+    ],
+    "tip": "Add hot water 1 tbsp at a time if the polenta becomes too firm."
+  },
+  "onion-powder-butter-beans": {
+    "source": "5fd491d5",
+    "name": "Onion powder butter beans",
+    "description": "Butter beans simmered with carrot, onion powder and parsley.",
+    "ingredients": [
+      "480 g cooked butter beans, drained",
+      "1½ tsp onion powder",
+      "100 g carrot, finely diced",
+      "250 ml water",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "2 tbsp chopped parsley"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Add the carrot and cook for 5 minutes.",
+      "Stir the onion powder into the water, then add it to the pan.",
+      "Add the beans, salt and pepper. Bring to a simmer.",
+      "Cook for 12–15 minutes, until the carrot is tender. Mash a few beans against the side of the pan to thicken the sauce.",
+      "Remove from the heat and add the lemon juice and parsley."
+    ],
+    "tip": "Add water in small amounts if the beans become too dry during cooking."
+  },
+  "onion-flake-rice-pilaf": {
+    "source": "b5f74d06",
+    "name": "Onion flake rice pilaf",
+    "description": "Basmati rice with softened onion flakes, peas and cumin.",
+    "ingredients": [
+      "150 g basmati rice, rinsed and drained",
+      "2 tbsp onion flakes",
+      "100 g frozen peas",
+      "330 ml water",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Soak the onion flakes in the measured water for 5 minutes. Keep the soaking water.",
+      "Heat the oil in a saucepan. Add the cumin and stir for 30 seconds.",
+      "Add the drained rice and stir for 1 minute. Add the onion flakes with their water, peas and salt.",
+      "Bring to a boil. Cover and cook on low heat for 12 minutes.",
+      "Turn off the heat and rest, covered, for 5 minutes. Check that the rice is tender, then fluff and add coriander."
+    ],
+    "tip": "The onion flakes need liquid to soften; do not discard their soaking water."
+  },
+  "onion-flake-roast-potatoes": {
+    "source": "e6748a9c",
+    "name": "Onion flake roast potatoes",
+    "description": "Roast potato cubes finished with softened onion flakes and rosemary.",
+    "ingredients": [
+      "500 g potatoes, scrubbed and cut into 2 cm cubes",
+      "2 tbsp onion flakes",
+      "3 tbsp warm water",
+      "1½ tbsp olive oil",
+      "1 tsp chopped rosemary",
+      "¼ tsp salt",
+      "¼ tsp black pepper"
+    ],
+    "steps": [
+      "Heat the oven to 220°C. Line a baking tray.",
+      "Toss the potato cubes with the oil, rosemary, salt and pepper. Spread in one layer.",
+      "Roast for 20 minutes, turning once.",
+      "Meanwhile, soak the onion flakes in the warm water for 10 minutes. Drain any remaining water.",
+      "Scatter the softened flakes over the potatoes. Turn gently and roast for 8–10 minutes more, until the potatoes are tender and the flakes are golden."
+    ],
+    "tip": "Add the onion flakes near the end so they do not burn."
+  },
+  "onion-flake-tomato-dal": {
+    "source": "f67dc088",
+    "name": "Onion flake tomato dal",
+    "description": "Red lentils with onion flakes, tomato and cumin.",
+    "ingredients": [
+      "120 g red lentils, rinsed",
+      "2 tbsp onion flakes",
+      "200 g chopped tomatoes",
+      "500 ml water",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp turmeric powder",
+      "¼ tsp salt",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Add the cumin and stir for 30 seconds.",
+      "Add the chopped tomatoes and turmeric. Cook for 4 minutes.",
+      "Add the lentils, onion flakes and water. Bring to a boil.",
+      "Simmer for 18–22 minutes, stirring occasionally, until the lentils and onion flakes are soft.",
+      "Add the salt and a little water if needed. Finish with coriander."
+    ],
+    "tip": "The flakes soften directly in the dal, so no separate soaking is needed."
+  },
+  "spinach-powder-green-pasta": {
+    "source": "126217c1",
+    "name": "Spinach powder green pasta",
+    "description": "Hand-cut wheat pasta with spinach powder, tossed with butter and garlic.",
+    "ingredients": [
+      "200 g plain wheat flour, plus a little for rolling",
+      "1 tbsp spinach powder",
+      "95 ml water, plus a little if needed",
+      "1 tsp olive oil",
+      "1 tbsp butter",
+      "1 garlic clove, finely chopped",
+      "¼ tsp black pepper",
+      "20 g grated vegetarian hard cheese",
+      "½ tsp salt for the cooking water"
+    ],
+    "steps": [
+      "Mix the flour and spinach powder. Add the water and oil, then knead for 6–8 minutes into a firm, smooth dough. Add water 1 tsp at a time only if needed.",
+      "Cover and rest for 20 minutes.",
+      "Roll thinly on a floured surface, about 1–2 mm thick. Dust lightly, fold loosely and cut into strips. Unfold the strips.",
+      "Bring a large pan of water to a boil and add the salt. Cook the pasta for 3–5 minutes, until tender. Reserve 4 tbsp cooking water before draining.",
+      "Melt the butter in a skillet. Cook the garlic for 30 seconds without browning.",
+      "Toss in the pasta with 2–4 tbsp cooking water. Add the pepper and cheese, then serve."
+    ],
+    "tip": "Roll the dough evenly so all the pasta strips cook at the same rate."
+  },
+  "spinach-powder-paneer-paratha": {
+    "source": "ff0b7d01",
+    "name": "Spinach powder paneer paratha",
+    "description": "Green wheat parathas filled with crumbled paneer and cumin.",
+    "ingredients": [
+      "160 g whole-wheat flour, plus a little for rolling",
+      "2 tsp spinach powder",
+      "105 ml warm water, plus a little if needed",
+      "120 g paneer, finely crumbled",
+      "½ tsp ground cumin",
+      "2 tbsp chopped coriander",
+      "¼ tsp salt",
+      "1 tbsp neutral oil",
+      "100 g plain yoghurt to serve"
+    ],
+    "steps": [
+      "Mix the flour and spinach powder. Add the water and knead into a soft dough. Cover and rest for 10 minutes.",
+      "Mix the paneer with the cumin, coriander and salt. Divide the filling into four portions.",
+      "Divide the dough into four balls. Flatten one, place a filling portion in the centre and pinch the edges closed.",
+      "Roll gently into a small round. Repeat with the remaining dough and filling.",
+      "Cook on a hot skillet for about 1 minute per side. Brush with oil and turn until browned and hot through the centre.",
+      "Serve warm with yoghurt."
+    ],
+    "tip": "Keep the filling dry and roll gently to reduce tearing."
+  },
+  "spinach-powder-potato-soup": {
+    "source": "be1ae6df",
+    "name": "Spinach powder potato soup",
+    "description": "A smooth potato soup finished with spinach powder and milk.",
+    "ingredients": [
+      "300 g potatoes, peeled and diced",
+      "1 tbsp spinach powder",
+      "60 g onion, diced",
+      "500 ml water",
+      "100 ml milk",
+      "1 tbsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "2 slices bread, toasted"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Add the onion and cook for 4 minutes.",
+      "Add the potatoes and water. Bring to a boil, then simmer for 15–18 minutes, until the potatoes are soft.",
+      "Remove from the heat. Blend carefully with a stick blender until smooth.",
+      "Mix the spinach powder with the milk. Stir into the soup with the salt and pepper.",
+      "Return to low heat and simmer for 3 minutes. Serve with toasted bread."
+    ],
+    "tip": "Add water to loosen the soup after blending if needed."
+  },
+  "spinach-powder-savoury-crepes": {
+    "source": "c73c7422",
+    "name": "Spinach powder savoury crepes",
+    "description": "Thin spinach-powder crepes filled with mushrooms and paneer.",
+    "ingredients": [
+      "100 g plain wheat flour",
+      "2 tsp spinach powder",
+      "200 ml milk",
+      "2 tsp neutral oil, plus 1 tsp for the filling",
+      "150 g mushrooms, sliced",
+      "100 g paneer, diced small",
+      "¼ tsp salt",
+      "¼ tsp black pepper"
+    ],
+    "steps": [
+      "Whisk the flour, spinach powder, milk, half the salt and 1 tsp oil into a smooth batter. Rest for 10 minutes.",
+      "Heat 1 tsp oil in a skillet. Cook the mushrooms for 6–8 minutes, until browned. Add the paneer and pepper and cook for 2 minutes.",
+      "Heat a non-stick crepe pan over medium heat. Brush lightly with the remaining oil.",
+      "Pour in a small ladle of batter and swirl into a thin layer. Cook for 1–2 minutes, until set, then turn and cook for 30–60 seconds.",
+      "Repeat with the remaining batter. Divide the filling among the crepes and fold to serve."
+    ],
+    "tip": "If the batter will not spread thinly, add milk 1 tbsp at a time."
+  },
+  "carrot-powder-cumin-rice": {
+    "source": "5664a4af",
+    "name": "Carrot powder cumin rice",
+    "description": "Basmati rice with carrot powder, cumin and peas.",
+    "ingredients": [
+      "150 g basmati rice, rinsed and drained",
+      "1 tbsp carrot powder",
+      "100 g frozen peas",
+      "310 ml water",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp salt",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan with a lid. Add the cumin and stir for 30 seconds.",
+      "Add the drained rice and stir gently for 1 minute.",
+      "Mix the carrot powder with the water. Add it to the pan with the peas and salt.",
+      "Bring to a boil. Cover and cook over low heat for 12 minutes.",
+      "Turn off the heat and rest for 5 minutes. Check that the rice is tender, then fluff and add coriander."
+    ],
+    "tip": "Use the rice pack’s water ratio if it differs, allowing a little extra liquid for the powder."
+  },
+  "carrot-powder-ginger-soup": {
+    "source": "61873ba5",
+    "name": "Carrot powder ginger soup",
+    "description": "A smooth potato-based soup with carrot powder and ginger.",
+    "ingredients": [
+      "2 tbsp carrot powder",
+      "250 g potatoes, peeled and diced",
+      "60 g onion, diced",
+      "1 tsp finely grated fresh ginger",
+      "500 ml water",
+      "1 tbsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "2 tbsp plain yoghurt"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 4 minutes, then add the ginger and stir for 30 seconds.",
+      "Add the potatoes and water. Bring to a boil, then simmer for 15–18 minutes, until soft.",
+      "Mix the carrot powder with 3 tbsp of the hot liquid. Stir it back into the soup.",
+      "Remove from the heat and blend carefully with a stick blender.",
+      "Return to low heat for 2 minutes. Add the salt and pepper, then serve with a small yoghurt swirl."
+    ],
+    "tip": "Mix the powder into liquid before blending to avoid dry clumps."
+  },
+  "carrot-powder-oat-pancakes": {
+    "source": "a2e2dc34",
+    "name": "Carrot powder oat pancakes",
+    "description": "Soft oat pancakes with carrot powder, yoghurt and walnuts.",
+    "ingredients": [
+      "80 g finely ground oats",
+      "40 g plain wheat flour",
+      "1 tbsp carrot powder",
+      "1 tsp baking powder",
+      "1 tbsp sugar",
+      "100 g plain yoghurt, plus 4 tbsp to serve",
+      "120 ml milk",
+      "2 tsp neutral oil",
+      "20 g chopped walnuts"
+    ],
+    "steps": [
+      "Mix the ground oats, wheat flour, carrot powder, baking powder and sugar.",
+      "Whisk in the yoghurt, milk and 1 tsp oil. Rest for 5 minutes.",
+      "Heat a non-stick pan over medium-low heat. Brush with the remaining oil.",
+      "Cook small rounds of batter for 2–3 minutes, until the edges set. Turn and cook for 1–2 minutes, until the centres are cooked.",
+      "Repeat with the remaining batter. Serve with yoghurt and walnuts."
+    ],
+    "tip": "Oats thicken the batter as it stands. Loosen with milk 1 tbsp at a time."
+  },
+  "tomato-powder-pasta-sauce": {
+    "source": "57df899a",
+    "name": "Tomato powder pasta sauce",
+    "description": "A cooked tomato-powder sauce for penne, finished with basil.",
+    "ingredients": [
+      "160 g dried penne",
+      "3 tbsp tomato powder",
+      "250 ml warm water",
+      "1 tbsp olive oil",
+      "1 garlic clove, finely chopped",
+      "¼ tsp dried oregano",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "2 tbsp torn basil leaves",
+      "20 g grated vegetarian hard cheese"
+    ],
+    "steps": [
+      "Mix the tomato powder with the warm water until smooth.",
+      "Heat the oil in a saucepan. Cook the garlic for 30 seconds without browning.",
+      "Add the tomato mixture, oregano, salt and pepper. Simmer gently for 12–15 minutes, stirring occasionally.",
+      "Meanwhile, cook the penne according to its pack instructions. Reserve 4 tbsp cooking water, then drain.",
+      "Toss the pasta with the sauce. Add cooking water a little at a time if needed.",
+      "Finish with the basil and cheese."
+    ],
+    "tip": "Tomato powders differ in strength. Taste the cooked sauce before adding more seasoning."
+  },
+  "tomato-powder-chickpea-stew": {
+    "source": "5f40f92e",
+    "name": "Tomato powder chickpea stew",
+    "description": "Chickpeas and carrots simmered in a tomato-powder sauce.",
+    "ingredients": [
+      "480 g cooked chickpeas, drained",
+      "3 tbsp tomato powder",
+      "350 ml warm water",
+      "120 g carrot, diced small",
+      "60 g onion, diced",
+      "1 tbsp olive oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Mix the tomato powder with the warm water.",
+      "Heat the oil in a saucepan. Cook the onion and carrot for 5 minutes.",
+      "Add the cumin and stir for 20 seconds. Add the chickpeas, tomato mixture and salt.",
+      "Bring to a simmer and cook for 18–20 minutes, until the carrots are tender. Stir occasionally.",
+      "Add a little water if needed and finish with coriander."
+    ],
+    "tip": "Mash a few chickpeas into the sauce if you prefer a thicker stew."
+  },
+  "tomato-powder-spiced-rice": {
+    "source": "1ea00159",
+    "name": "Tomato powder spiced rice",
+    "description": "Basmati rice with tomato powder, peas and cumin.",
+    "ingredients": [
+      "150 g basmati rice, rinsed and drained",
+      "2 tbsp tomato powder",
+      "100 g frozen peas",
+      "330 ml warm water",
+      "1 tbsp neutral oil",
+      "½ tsp cumin seeds",
+      "¼ tsp ground cinnamon",
+      "¼ tsp salt",
+      "1 tbsp lemon juice",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Mix the tomato powder with the warm water until smooth.",
+      "Heat the oil in a saucepan. Add the cumin and stir for 30 seconds.",
+      "Add the rice and cinnamon. Stir gently for 1 minute.",
+      "Add the tomato mixture, peas and salt. Bring to a boil, cover and cook on low heat for 12 minutes.",
+      "Turn off the heat and rest for 5 minutes. Check that the rice is tender.",
+      "Fluff gently, then add the lemon juice and coriander."
+    ],
+    "tip": "Keep the heat low once covered; tomato mixtures can catch on the pan."
+  },
+  "tomato-powder-lentil-soup": {
+    "source": "e75a8021",
+    "name": "Tomato powder lentil soup",
+    "description": "Red lentils and carrots in a tomato-powder soup.",
+    "ingredients": [
+      "100 g red lentils, rinsed",
+      "2 tbsp tomato powder",
+      "100 g carrot, finely diced",
+      "60 g onion, diced",
+      "650 ml warm water",
+      "1 tbsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper",
+      "2 tbsp torn basil leaves"
+    ],
+    "steps": [
+      "Mix the tomato powder with 150 ml of the measured warm water.",
+      "Heat the oil in a saucepan. Cook the onion and carrot for 5 minutes.",
+      "Add the lentils, tomato mixture and remaining water. Bring to a boil.",
+      "Simmer for 18–22 minutes, stirring occasionally, until the lentils and carrots are soft.",
+      "Add the salt and pepper. Loosen with a little water if needed and finish with basil."
+    ],
+    "tip": "Leave the soup chunky or blend a portion to make it smoother."
+  },
+  "ginger-powder-pear-porridge": {
+    "source": "c1bcc84f",
+    "name": "Ginger powder pear porridge",
+    "description": "Warm oat porridge with cooked pear and ginger powder.",
+    "ingredients": [
+      "80 g rolled oats",
+      "½ tsp ginger powder",
+      "1 ripe pear, cored and thinly sliced",
+      "250 ml milk",
+      "250 ml water",
+      "20 g chopped walnuts",
+      "1 tsp sugar, optional",
+      "A pinch of salt"
+    ],
+    "steps": [
+      "Put the oats, milk, water, ginger and salt in a saucepan.",
+      "Add half the pear slices and bring to a gentle simmer.",
+      "Cook over low heat for 8–10 minutes, stirring often, until the oats and pear are tender.",
+      "Add the remaining pear for the last 2 minutes. Stir in the optional sugar if using.",
+      "Divide between two bowls and finish with walnuts."
+    ],
+    "tip": "Use the oat pack’s cooking time if it differs from the listed time."
+  },
+  "ginger-powder-coconut-chickpeas": {
+    "source": "f4c03e6c",
+    "name": "Ginger powder coconut chickpeas",
+    "description": "Chickpeas in a light coconut sauce with ginger powder and lime.",
+    "ingredients": [
+      "480 g cooked chickpeas, drained",
+      "¾ tsp ginger powder",
+      "200 ml coconut milk",
+      "100 ml water",
+      "60 g onion, finely diced",
+      "1 tbsp neutral oil",
+      "½ tsp ground cumin",
+      "¼ tsp salt",
+      "1 tbsp lime juice",
+      "2 tbsp chopped coriander"
+    ],
+    "steps": [
+      "Heat the oil in a saucepan. Cook the onion for 5 minutes, until softened.",
+      "Stir in the cumin and ginger powder for 20 seconds.",
+      "Add the chickpeas, coconut milk, water and salt. Bring to a gentle simmer.",
+      "Cook for 10–12 minutes, stirring occasionally, until hot and lightly thickened.",
+      "Remove from the heat and add the lime juice and coriander."
+    ],
+    "tip": "Do not let the dry spices sit in the hot oil for long; add the liquid promptly."
+  },
+  "ginger-powder-sesame-tofu": {
+    "source": "0afbb71f",
+    "name": "Ginger powder sesame tofu",
+    "description": "Pan-seared tofu with a ginger-soy glaze and sesame seeds.",
+    "ingredients": [
+      "300 g firm tofu, drained and patted dry",
+      "¾ tsp ginger powder",
+      "1 tbsp soy sauce",
+      "3 tbsp water",
+      "1 tsp sugar",
+      "1 tsp cornflour",
+      "1 tbsp neutral oil",
+      "2 tsp sesame seeds",
+      "2 tbsp sliced spring onion"
+    ],
+    "steps": [
+      "Cut the dry tofu into 2 cm cubes.",
+      "Mix the ginger powder, soy sauce, water, sugar and cornflour in a small bowl.",
+      "Heat the oil in a non-stick skillet over medium-high heat. Cook the tofu for 8–10 minutes, turning gently, until golden on several sides.",
+      "Stir the sauce again, then pour it into the pan. Reduce the heat and cook for 1–2 minutes, until the glaze thickens and coats the tofu.",
+      "Finish with sesame seeds and spring onion."
+    ],
+    "tip": "Pat the tofu dry before frying to reduce splashing and improve browning."
+  },
+  "garlic-powder-yoghurt-dip": {
+    "source": "d4e85034",
+    "name": "Garlic powder yoghurt dip",
+    "description": "A cool yoghurt dip with garlic powder, dill and lemon.",
+    "ingredients": [
+      "200 g thick plain yoghurt",
+      "½ tsp garlic powder",
+      "1 tbsp finely chopped dill",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "¼ tsp black pepper",
+      "A pinch of salt",
+      "1 cucumber, cut into batons",
+      "2 plain flatbreads, cut into wedges"
+    ],
+    "steps": [
+      "Stir the garlic powder and lemon juice into the yoghurt until smooth.",
+      "Mix in the dill, olive oil, pepper and salt.",
+      "Let the dip stand in the fridge for 5 minutes so the garlic powder can hydrate.",
+      "Stir again and spoon into a small bowl.",
+      "Serve with the cucumber batons and flatbread wedges."
+    ],
+    "tip": "Keep covered in the fridge and use within 2 days."
+  },
+  "garlic-powder-roasted-chickpeas": {
+    "source": "85d73aaf",
+    "name": "Garlic powder roasted chickpeas",
+    "description": "Crisp roasted chickpeas with garlic powder and paprika.",
+    "ingredients": [
+      "480 g cooked chickpeas, drained",
+      "1 tsp garlic powder",
+      "½ tsp paprika",
+      "1 tbsp olive oil",
+      "¼ tsp salt",
+      "¼ tsp black pepper"
+    ],
+    "steps": [
+      "Heat the oven to 200°C. Line a large tray with baking paper.",
+      "Pat the chickpeas very dry with a clean cloth or kitchen paper.",
+      "Toss with the oil, garlic powder, paprika, salt and pepper.",
+      "Spread in one layer and roast for 25–30 minutes, shaking the tray twice, until dry and crisp on the outside.",
+      "Cool for 5 minutes on the tray before serving."
+    ],
+    "tip": "Serve soon after roasting for the crispest texture."
+  },
+  "garlic-powder-herb-flatbreads": {
+    "source": "364d41ea",
+    "name": "Garlic powder herb flatbreads",
+    "description": "Skillet yoghurt flatbreads brushed with garlic-powder butter and parsley.",
+    "ingredients": [
+      "160 g plain wheat flour, plus a little for rolling",
+      "1 tsp baking powder",
+      "100 g plain yoghurt",
+      "2 tbsp water, plus a little if needed",
+      "½ tsp garlic powder",
+      "15 g butter",
+      "2 tbsp chopped parsley",
+      "¼ tsp salt"
+    ],
+    "steps": [
+      "Mix the flour, baking powder and salt. Add the yoghurt and water, then knead into a soft dough.",
+      "Cover and rest for 10 minutes. Divide into four equal pieces.",
+      "Roll each piece into a small round on a lightly floured surface.",
+      "Cook on a hot dry skillet for 2–3 minutes per side, until browned and cooked through.",
+      "Melt the butter over low heat. Remove from the heat and stir in the garlic powder and parsley.",
+      "Brush the warm breads with the garlic butter and serve."
+    ],
+    "tip": "Add the garlic powder after taking the butter off the heat so it does not scorch."
   }
 }

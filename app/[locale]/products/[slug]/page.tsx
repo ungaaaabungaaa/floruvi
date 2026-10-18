@@ -125,7 +125,7 @@ export default async function ProductDetails({ params }: Props) {
   ).map(({ recipe, direct }) => ({
     recipe: recipes.find((item) => item.slug === recipe.slug)!,
     direct,
-  })).filter(() => !pantry);
+  })).filter((meal) => !pantry || meal.direct);
   const directMeals = meals.filter((meal) => meal.direct);
   const category = shop.categories.find(
     (item) => item.slug === p.category && isCategorySlug(item.slug),
@@ -196,7 +196,7 @@ export default async function ProductDetails({ params }: Props) {
           product={p}
           labels={t.gallery}
           dishes={meals
-            .filter((m) => m.direct)
+            .filter((m) => m.direct && !pantry)
             .map((m) => ({
               image: m.recipe.image,
               name: m.recipe.name,

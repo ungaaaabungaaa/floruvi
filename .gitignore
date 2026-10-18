@@ -17,3 +17,5 @@ exports/
 src/assets/products/gallery/*.png
 src/assets/boxes/*.png
 src/assets/products/dehydrated/**/*.png
+
+src/assets/recipes/pantry/*.png

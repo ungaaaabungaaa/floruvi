@@ -2,13 +2,15 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { recipeCatalogue } from "../convex/recipeData";
 import { cropCatalogue } from "../convex/catalogueData";
+import { dehydratedProducts } from "../convex/dehydratedData";
+import pantryRecipes from "../convex/pantryRecipes.json";
 import nonVegetarianRecipes from "../convex/nonVegetarianRecipes.json";
 import { existsSync } from "node:fs";
 
-test("177 recipes have complete cooking instructions and preserve original routes", () => {
-  assert.equal(recipeCatalogue.length, 177);
-  assert.equal(new Set(recipeCatalogue.map((r) => r.slug)).size, 177);
-  assert.equal(new Set(recipeCatalogue.map((r) => r.name)).size, 177);
+test("217 recipes have complete cooking instructions and preserve original routes", () => {
+  assert.equal(recipeCatalogue.length, 217);
+  assert.equal(new Set(recipeCatalogue.map((r) => r.slug)).size, 217);
+  assert.equal(new Set(recipeCatalogue.map((r) => r.name)).size, 217);
   for (const slug of [
     "everyday-green-salad",
     "spinach-apple-smoothie",
@@ -36,7 +38,7 @@ test("177 recipes have complete cooking instructions and preserve original route
     assert.ok(recipe.crops.length > 0, recipe.slug);
     for (const crop of recipe.crops)
       assert.ok(
-        cropCatalogue.some((p) => p.slug === crop),
+        [...cropCatalogue, ...dehydratedProducts].some((p) => p.slug === crop),
         `${recipe.slug}: ${crop}`,
       );
   }
@@ -46,7 +48,7 @@ test("89 non-vegetarian recipes have dish images and protein cooking checks", ()
   assert.equal(nonVegetarianRecipes.length, 89);
   assert.ok(
     nonVegetarianRecipes.length >
-      recipeCatalogue.length - nonVegetarianRecipes.length,
+      recipeCatalogue.length - nonVegetarianRecipes.length - pantryRecipes.length,
   );
   for (const recipe of nonVegetarianRecipes) {
     assert.ok(

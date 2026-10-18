@@ -12,6 +12,7 @@ import { productDetailCatalogue } from "../convex/productDetailData";
 import { cropCatalogue } from "../convex/catalogueData";
 import { recipeCatalogue } from "../convex/recipeData";
 import nonVegetarianRecipes from "../convex/nonVegetarianRecipes.json";
+import pantryRecipes from "../convex/pantryRecipes.json";
 
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 const english = read("messages/en.json");
@@ -105,7 +106,7 @@ test("catalogue translations preserve existing coverage and validate translated 
       const translated = read(path);
       // New recipes use the supported English fallback until translations are reviewed.
       const pending = new Set(
-        nonVegetarianRecipes.map((recipe) => recipe.slug),
+        [...nonVegetarianRecipes, ...pantryRecipes].map((recipe) => recipe.slug),
       );
       const required = Object.keys(source).filter(
         (slug) => file !== "recipes" || !pending.has(slug),

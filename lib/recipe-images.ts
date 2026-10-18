@@ -176,6 +176,46 @@ import nonVegetarian85 from "@/src/assets/recipes/non-vegetarian/egg-rocket-radi
 import nonVegetarian86 from "@/src/assets/recipes/non-vegetarian/egg-napa-carrot-noodles.webp";
 import nonVegetarian87 from "@/src/assets/recipes/non-vegetarian/egg-green-bean-tomato-skillet.webp";
 import nonVegetarian88 from "@/src/assets/recipes/non-vegetarian/egg-beetroot-mint-salad.webp";
+import pantryRecipe0 from "@/src/assets/recipes/pantry/banana-flour-yoghurt-pancakes.webp";
+import pantryRecipe1 from "@/src/assets/recipes/pantry/banana-flour-cumin-flatbreads.webp";
+import pantryRecipe2 from "@/src/assets/recipes/pantry/banana-flour-savoury-waffles.webp";
+import pantryRecipe3 from "@/src/assets/recipes/pantry/banana-flour-cardamom-muffins.webp";
+import pantryRecipe4 from "@/src/assets/recipes/pantry/moringa-besan-chilla.webp";
+import pantryRecipe5 from "@/src/assets/recipes/pantry/moringa-lemon-lentil-soup.webp";
+import pantryRecipe6 from "@/src/assets/recipes/pantry/moringa-pea-pulao.webp";
+import pantryRecipe7 from "@/src/assets/recipes/pantry/moringa-sesame-roti.webp";
+import pantryRecipe8 from "@/src/assets/recipes/pantry/beetroot-powder-hummus.webp";
+import pantryRecipe9 from "@/src/assets/recipes/pantry/beetroot-cumin-paratha.webp";
+import pantryRecipe10 from "@/src/assets/recipes/pantry/beetroot-coconut-rice.webp";
+import pantryRecipe11 from "@/src/assets/recipes/pantry/beetroot-cocoa-pancakes.webp";
+import pantryRecipe12 from "@/src/assets/recipes/pantry/turmeric-lemon-chickpeas.webp";
+import pantryRecipe13 from "@/src/assets/recipes/pantry/turmeric-coconut-dal.webp";
+import pantryRecipe14 from "@/src/assets/recipes/pantry/turmeric-cauliflower-tray-bake.webp";
+import pantryRecipe15 from "@/src/assets/recipes/pantry/turmeric-pea-upma.webp";
+import pantryRecipe16 from "@/src/assets/recipes/pantry/onion-powder-potato-wedges.webp";
+import pantryRecipe17 from "@/src/assets/recipes/pantry/onion-powder-lentil-patties.webp";
+import pantryRecipe18 from "@/src/assets/recipes/pantry/onion-powder-creamy-polenta.webp";
+import pantryRecipe19 from "@/src/assets/recipes/pantry/onion-powder-butter-beans.webp";
+import pantryRecipe20 from "@/src/assets/recipes/pantry/onion-flake-rice-pilaf.webp";
+import pantryRecipe21 from "@/src/assets/recipes/pantry/onion-flake-roast-potatoes.webp";
+import pantryRecipe22 from "@/src/assets/recipes/pantry/onion-flake-tomato-dal.webp";
+import pantryRecipe23 from "@/src/assets/recipes/pantry/spinach-powder-green-pasta.webp";
+import pantryRecipe24 from "@/src/assets/recipes/pantry/spinach-powder-paneer-paratha.webp";
+import pantryRecipe25 from "@/src/assets/recipes/pantry/spinach-powder-potato-soup.webp";
+import pantryRecipe26 from "@/src/assets/recipes/pantry/spinach-powder-savoury-crepes.webp";
+import pantryRecipe27 from "@/src/assets/recipes/pantry/carrot-powder-cumin-rice.webp";
+import pantryRecipe28 from "@/src/assets/recipes/pantry/carrot-powder-ginger-soup.webp";
+import pantryRecipe29 from "@/src/assets/recipes/pantry/carrot-powder-oat-pancakes.webp";
+import pantryRecipe30 from "@/src/assets/recipes/pantry/tomato-powder-pasta-sauce.webp";
+import pantryRecipe31 from "@/src/assets/recipes/pantry/tomato-powder-chickpea-stew.webp";
+import pantryRecipe32 from "@/src/assets/recipes/pantry/tomato-powder-spiced-rice.webp";
+import pantryRecipe33 from "@/src/assets/recipes/pantry/tomato-powder-lentil-soup.webp";
+import pantryRecipe34 from "@/src/assets/recipes/pantry/ginger-powder-pear-porridge.webp";
+import pantryRecipe35 from "@/src/assets/recipes/pantry/ginger-powder-coconut-chickpeas.webp";
+import pantryRecipe36 from "@/src/assets/recipes/pantry/ginger-powder-sesame-tofu.webp";
+import pantryRecipe37 from "@/src/assets/recipes/pantry/garlic-powder-yoghurt-dip.webp";
+import pantryRecipe38 from "@/src/assets/recipes/pantry/garlic-powder-roasted-chickpeas.webp";
+import pantryRecipe39 from "@/src/assets/recipes/pantry/garlic-powder-herb-flatbreads.webp";
 export const recipeImages: Record<string, StaticImageData> = {
   "recipe:lemon-garlic-chicken-carrot-beans": nonVegetarian0,
   "recipe:chicken-spinach-tomato-curry": nonVegetarian1,
@@ -266,6 +306,46 @@ export const recipeImages: Record<string, StaticImageData> = {
   "recipe:egg-napa-carrot-noodles": nonVegetarian86,
   "recipe:egg-green-bean-tomato-skillet": nonVegetarian87,
   "recipe:egg-beetroot-mint-salad": nonVegetarian88,
+  "recipe:banana-flour-yoghurt-pancakes": pantryRecipe0,
+  "recipe:banana-flour-cumin-flatbreads": pantryRecipe1,
+  "recipe:banana-flour-savoury-waffles": pantryRecipe2,
+  "recipe:banana-flour-cardamom-muffins": pantryRecipe3,
+  "recipe:moringa-besan-chilla": pantryRecipe4,
+  "recipe:moringa-lemon-lentil-soup": pantryRecipe5,
+  "recipe:moringa-pea-pulao": pantryRecipe6,
+  "recipe:moringa-sesame-roti": pantryRecipe7,
+  "recipe:beetroot-powder-hummus": pantryRecipe8,
+  "recipe:beetroot-cumin-paratha": pantryRecipe9,
+  "recipe:beetroot-coconut-rice": pantryRecipe10,
+  "recipe:beetroot-cocoa-pancakes": pantryRecipe11,
+  "recipe:turmeric-lemon-chickpeas": pantryRecipe12,
+  "recipe:turmeric-coconut-dal": pantryRecipe13,
+  "recipe:turmeric-cauliflower-tray-bake": pantryRecipe14,
+  "recipe:turmeric-pea-upma": pantryRecipe15,
+  "recipe:onion-powder-potato-wedges": pantryRecipe16,
+  "recipe:onion-powder-lentil-patties": pantryRecipe17,
+  "recipe:onion-powder-creamy-polenta": pantryRecipe18,
+  "recipe:onion-powder-butter-beans": pantryRecipe19,
+  "recipe:onion-flake-rice-pilaf": pantryRecipe20,
+  "recipe:onion-flake-roast-potatoes": pantryRecipe21,
+  "recipe:onion-flake-tomato-dal": pantryRecipe22,
+  "recipe:spinach-powder-green-pasta": pantryRecipe23,
+  "recipe:spinach-powder-paneer-paratha": pantryRecipe24,
+  "recipe:spinach-powder-potato-soup": pantryRecipe25,
+  "recipe:spinach-powder-savoury-crepes": pantryRecipe26,
+  "recipe:carrot-powder-cumin-rice": pantryRecipe27,
+  "recipe:carrot-powder-ginger-soup": pantryRecipe28,
+  "recipe:carrot-powder-oat-pancakes": pantryRecipe29,
+  "recipe:tomato-powder-pasta-sauce": pantryRecipe30,
+  "recipe:tomato-powder-chickpea-stew": pantryRecipe31,
+  "recipe:tomato-powder-spiced-rice": pantryRecipe32,
+  "recipe:tomato-powder-lentil-soup": pantryRecipe33,
+  "recipe:ginger-powder-pear-porridge": pantryRecipe34,
+  "recipe:ginger-powder-coconut-chickpeas": pantryRecipe35,
+  "recipe:ginger-powder-sesame-tofu": pantryRecipe36,
+  "recipe:garlic-powder-yoghurt-dip": pantryRecipe37,
+  "recipe:garlic-powder-roasted-chickpeas": pantryRecipe38,
+  "recipe:garlic-powder-herb-flatbreads": pantryRecipe39,
   salad,
   smoothie,
   bowl,
