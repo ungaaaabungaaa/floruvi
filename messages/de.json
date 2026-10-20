@@ -77,7 +77,8 @@
       "mobile": "Mobile Navigation",
       "open": "Navigation öffnen",
       "close": "Navigation schließen",
-      "description": "Entdecke den Hof & nimm Kontakt auf."
+      "description": "Entdecke den Hof & nimm Kontakt auf.",
+      "how": "Wie?"
     },
     "footer": {
       "shop": "Shop",
@@ -141,8 +142,8 @@
     },
     "chat": {
       "open": "Mit Floruvi chatten",
-      "title": "Floruvi",
-      "assistant": "KI-Assistent",
+      "title": "Floruvi Support",
+      "assistant": "Kundenservice",
       "newChat": "Neuer Chat",
       "history": "Bisherige Chats",
       "back": "Zurück",
@@ -412,7 +413,14 @@
     "boxTagline": [
       "Echtes Essen",
       "Hellere Tage"
-    ]
+    ],
+    "pantry": {
+      "eyebrow": "DIE FLORUVI VORRATSKAMMER",
+      "title": "Gutes im Glas.",
+      "note": "Mehle, Gewürze und Gemüsepulver für die tägliche Küche.",
+      "browse": "Vorratssortiment entdecken",
+      "alt": "Floruvi-Gläser mit botanischen Etiketten auf einer warm beleuchteten Küchenfläche."
+    }
   },
   "shop": {
     "interludes": [
@@ -919,7 +927,22 @@
           "text": "Überschüssige Nährlösung fließt zurück ins Becken & wird erneut genutzt."
         }
       ]
-    }
+    },
+    "productsTitle": "Aus dem Anbauraum",
+    "hydroLessons": [
+      {
+        "eyebrow": "WASSER & NÄHRSTOFFE",
+        "title": "Jeden Tag im Gleichgewicht.",
+        "text": "Hydroponische Wurzeln nehmen im Wasser gelöste Nährstoffe auf. pH- und Leitfähigkeitsmessungen helfen, die Lösung auf die Kultur abzustimmen.",
+        "alt": "Nährstoffbehälter mit pH- und Leitfähigkeitssonden neben einer Salatpflanze."
+      },
+      {
+        "eyebrow": "EIN GUTER START",
+        "title": "Raum für die Wurzeln.",
+        "text": "Ein kleiner Anzuchtwürfel stützt den Keimling. Später hält ein Netztopf die Pflanze, während Wasser, Nährstoffe und Sauerstoff die Wurzeln erreichen.",
+        "alt": "Ein Salatkeimling wächst vom Anzuchtwürfel in eine hydroponische Rinne."
+      }
+    ]
   },
   "faq": {
     "eyebrow": "EIN BISSCHEN HILFE",

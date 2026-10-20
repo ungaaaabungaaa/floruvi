@@ -77,7 +77,8 @@
       "mobile": "Navigasi mudah alih",
       "open": "Buka navigasi",
       "close": "Tutup navigasi",
-      "description": "Terokai ladang & hubungi kami."
+      "description": "Terokai ladang & hubungi kami.",
+      "how": "Bagaimana?"
     },
     "footer": {
       "shop": "Kedai",
@@ -138,8 +139,8 @@
     },
     "chat": {
       "open": "Bersembang dengan Floruvi",
-      "title": "Floruvi",
-      "assistant": "Pembantu AI",
+      "title": "Sokongan Floruvi",
+      "assistant": "Khidmat pelanggan",
       "newChat": "Sembang baharu",
       "history": "Sembang lalu",
       "back": "Kembali",
@@ -408,7 +409,14 @@
     "boxTagline": [
       "Makanan sebenar",
       "Hari yang lebih cerah"
-    ]
+    ],
+    "pantry": {
+      "eyebrow": "PANTRI FLORUVI",
+      "title": "Kebaikan dalam kaca.",
+      "note": "Tepung, rempah dan serbuk sayuran untuk masakan harian.",
+      "browse": "Terokai pantri",
+      "alt": "Balang kaca Floruvi berlabel botani di atas kaunter dapur yang hangat."
+    }
   },
   "shop": {
     "interludes": [
@@ -910,7 +918,22 @@
           "text": "Larutan yang tidak digunakan mengalir semula ke takungan untuk dikitar semula."
         }
       ]
-    }
+    },
+    "productsTitle": "Dari ruang tanaman",
+    "hydroLessons": [
+      {
+        "eyebrow": "AIR & NUTRIEN",
+        "title": "Seimbang setiap hari.",
+        "text": "Akar hidroponik menyerap nutrien yang larut dalam air. Pemeriksaan pH dan kekonduksian elektrik membantu menyesuaikan larutan dengan tanaman.",
+        "alt": "Takungan nutrien dengan prob pH dan kekonduksian di sebelah pokok salad."
+      },
+      {
+        "eyebrow": "PERMULAAN YANG BAIK",
+        "title": "Ruang untuk akar tumbuh.",
+        "text": "Palam tanaman kecil menyokong anak benih. Apabila akar berkembang, pasu jaring memegang pokok sementara air, nutrien dan oksigen sampai ke akar.",
+        "alt": "Anak benih salad berkembang dari palam tanaman ke saluran hidroponik."
+      }
+    ]
   },
   "faq": {
     "eyebrow": "SEDIKIT BANTUAN",

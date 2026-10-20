@@ -1,0 +1,12 @@
+[
+  {
+    "name": "water-care",
+    "source": "exec-a3c41328-3f24-4306-9ebd-39aaf28375c2.png",
+    "method": "Built-in image generation with growing-notebook.webp as style reference"
+  },
+  {
+    "name": "seedling-care",
+    "source": "exec-5c61ebec-951c-48af-840a-e2407689f8ee.png",
+    "method": "Built-in image generation with growing-notebook.webp as style reference"
+  }
+]

@@ -1,0 +1,135 @@
+.home-growing-notebook {
+  --tower-ink: #f4f3e6;
+  --tower-muted: #b5c8b5;
+  background: #092c22;
+  color: var(--tower-ink);
+  padding-block: 35px;
+}
+.home-growing-notebook h2,
+.home-growing-notebook h3 {
+  color: var(--tower-ink);
+}
+.home-growing-notebook h3 {
+  font-size: 20px;
+}
+.home-growing-notebook em {
+  color: #c5dba9;
+}
+.home-growing-notebook .eyebrow {
+  color: #b8cead;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+}
+.tower-notebook,
+.tower-notes > article {
+  min-width: 0;
+}
+.tower-notebook h2,
+.tower-notebook h3,
+.hydro-lesson h2 {
+  overflow-wrap: anywhere;
+}
+.hydro-lesson {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 48px;
+  padding-block: 32px 60px;
+}
+.hydro-lesson > img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--banner-radius);
+}
+.hydro-lesson h2 {
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.08;
+  margin-block: 18px 24px;
+}
+.hydro-lesson p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--tower-muted);
+}
+.grow-products {
+  padding-block: 48px 80px;
+}
+.grow-product-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 60px) / 4);
+  gap: 20px;
+  overflow-x: auto;
+  padding: 4px 4px 20px;
+  margin-top: 28px;
+}
+.grow-product-row .product-card {
+  background: #fff;
+  color: #173d2c;
+  min-width: 0;
+}
+.tower-page .grow-product-row h3 {
+  color: #173d2c;
+  font-size: 17px;
+}
+.grow-product-row:focus-visible {
+  outline: 2px solid #c5dba9;
+  outline-offset: 3px;
+}
+body:has(.tower-page) .site-header :is(a, button) {
+  color: #fff;
+}
+body:has(.tower-page) .site-header :is(.cart-link, .wishlist-link) > span {
+  background: #fff;
+  color: #092c22;
+}
+body:has(.tower-page) :is(.cart-pill, .chat-launcher) {
+  background: #fff;
+  color: #092c22;
+  border: 1px solid #d8e3d3;
+  box-shadow: 0 8px 30px #0003;
+}
+body:has(.tower-page) :is(.cart-pill, .chat-launcher):hover {
+  background: #f1f6ea;
+  color: #092c22;
+}
+body:has(.tower-page) .cart-pill-go {
+  background: #092c22;
+  color: #fff;
+}
+body:has(.tower-page) .site-header .header-chat {
+  background: #fff;
+  color: #092c22;
+  border-radius: 50%;
+}
+@media (max-width: 800px) {
+  .home-growing-notebook {
+    padding-block: 16px;
+  }
+  .tower-notebook {
+    padding-block: 28px 36px;
+  }
+  .tower-notebook .tower-section-heading h2 {
+    font-size: clamp(32px, 6vw, 44px);
+  }
+  .tower-notes {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .tower-notebook > img {
+    margin-block: 24px;
+  }
+  .hydro-lesson {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .grow-product-row {
+    grid-auto-columns: 65%;
+    gap: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .grow-product-row {
+    grid-auto-columns: 82%;
+  }
+}

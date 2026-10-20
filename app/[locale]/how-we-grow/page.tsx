@@ -18,30 +18,40 @@ import roots from "@/src/assets/tower-roots.webp";
 import lettuce from "@/src/assets/crop-lettuce.webp";
 import basil from "@/src/assets/crop-basil.webp";
 import kale from "@/src/assets/crop-kale.webp";
-import notebook from "@/src/assets/growing-notebook.webp";
+import { GrowingNotebook } from "@/components/growing-notebook";
+import { ProductCard } from "@/components/product-card";
+import { getShop } from "@/lib/storefront";
+import waterCare from "@/src/assets/hydroponics/water-care.webp";
+import seedlingCare from "@/src/assets/hydroponics/seedling-care.webp";
+import "@/components/growing-additions.css";
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
   return pageMetadata({
     path: "/how-we-grow",
     title: messages.meta.howWeGrow.title,
     description: messages.meta.howWeGrow.description,
-    image: { url: hero.src, width: hero.width, height: hero.height, alt: messages.howWeGrow.heroAlt },
+    image: {
+      url: hero.src,
+      width: hero.width,
+      height: hero.height,
+      alt: messages.howWeGrow.heroAlt,
+    },
   });
 }
 export default async function HowWeGrow() {
-  const { messages } = await getI18n();
+  const [{ messages }, { products }] = await Promise.all([
+    getI18n(),
+    getShop(),
+  ]);
   const t = messages.howWeGrow;
+  const growProducts = ["butterhead-lettuce", "sweet-basil", "curly-kale", "arugula"].flatMap((slug) =>
+    products.filter((p) => p.slug === slug),
+  );
   return (
     <div className="tower-page">
       <section className="tower-hero">
         <div className="tower-hero-art">
-          <Image
-            src={hero}
-            alt={t.heroAlt}
-            fill
-            sizes="100vw"
-            preload
-          />
+          <Image src={hero} alt={t.heroAlt} fill sizes="100vw" preload />
         </div>
         <div className="page-width tower-hero-inner">
           <span className="eyebrow">{t.eyebrow}</span>
@@ -53,10 +63,7 @@ export default async function HowWeGrow() {
           <p>
             <Lines text={t.intro} />
           </p>
-          <div
-            className="tower-hero-crops"
-            aria-label={t.cropsLabel}
-          >
+          <div className="tower-hero-crops" aria-label={t.cropsLabel}>
             <div>
               {[lettuce, basil, kale].map((image, index) => (
                 <Image
@@ -78,19 +85,18 @@ export default async function HowWeGrow() {
         </div>
       </section>
       <div className="page-width tower-content">
-        <section
-          className="tower-principles"
-          aria-label={t.principlesLabel}
-        >
-          {[Droplets, Sprout, Leaf, Sun].map((Icon, index) => ({
-            Icon,
-            label: t.principles[index],
-          })).map(({ Icon, label }) => (
-            <div key={label}>
-              <Icon size={29} strokeWidth={1.3} />
-              <span>{label}</span>
-            </div>
-          ))}
+        <section className="tower-principles" aria-label={t.principlesLabel}>
+          {[Droplets, Sprout, Leaf, Sun]
+            .map((Icon, index) => ({
+              Icon,
+              label: t.principles[index],
+            }))
+            .map(({ Icon, label }) => (
+              <div key={label}>
+                <Icon size={29} strokeWidth={1.3} />
+                <span>{label}</span>
+              </div>
+            ))}
         </section>
         <section className="tower-inside" aria-labelledby="inside-title">
           <div className="tower-section-heading">
@@ -110,19 +116,21 @@ export default async function HowWeGrow() {
             <h2 id="journey-title">{t.journeyTitle}</h2>
           </div>
           <div className="tower-stages">
-            {[Sprout, Droplets, Leaf, Utensils].map((Icon, index) => ({
-              Icon,
-              ...t.stages[index],
-            })).map(({ Icon, title, text }, index) => (
-              <article key={title}>
-                <div className="tower-stage-top">
-                  <Icon size={42} strokeWidth={1.2} />
-                  <span>0{index + 1}</span>
-                </div>
-                <h3>{title}</h3>
-                <p>{text}</p>
-              </article>
-            ))}
+            {[Sprout, Droplets, Leaf, Utensils]
+              .map((Icon, index) => ({
+                Icon,
+                ...t.stages[index],
+              }))
+              .map(({ Icon, title, text }, index) => (
+                <article key={title}>
+                  <div className="tower-stage-top">
+                    <Icon size={42} strokeWidth={1.2} />
+                    <span>0{index + 1}</span>
+                  </div>
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                </article>
+              ))}
           </div>
         </section>
         <section className="tower-root-story" aria-labelledby="root-title">
@@ -154,30 +162,25 @@ export default async function HowWeGrow() {
             </div>
           </div>
         </section>
-        <section className="tower-notebook" aria-labelledby="notebook-title">
-          <div className="tower-section-heading">
-            <span className="eyebrow">{t.notebookEyebrow}</span>
-            <h2 id="notebook-title">
-              {t.notebookTitle}
-              <br />
-              <em>{t.notebookAccent}</em>
-            </h2>
-          </div>
-          <Image
-            src={notebook}
-            alt={t.notebookAlt}
-            sizes="(max-width: 800px) 100vw, 1168px"
-          />
-          <div className="tower-notes">
-            {t.notes.map((note) => (
-              <article key={note.label}>
-                <span>{note.label}</span>
-                <h3>{note.title}</h3>
-                <p>{note.text}</p>
-              </article>
-            ))}
-          </div>
-        </section>
+        {t.hydroLessons.map((lesson, index) => (
+          <section
+            className="hydro-lesson"
+            key={lesson.title}
+            aria-labelledby={`hydro-lesson-${index}`}
+          >
+            <Image
+              src={[waterCare, seedlingCare][index]}
+              alt={lesson.alt}
+              sizes="(max-width: 800px) 100vw, 650px"
+            />
+            <div>
+              <span className="eyebrow">{lesson.eyebrow}</span>
+              <h2 id={`hydro-lesson-${index}`}>{lesson.title}</h2>
+              <p>{lesson.text}</p>
+            </div>
+          </section>
+        ))}
+        <GrowingNotebook labels={t} />
         <section className="tower-closing">
           <Leaf size={36} strokeWidth={1} />
           <h2>
@@ -204,8 +207,33 @@ export default async function HowWeGrow() {
             >
               {t.referenceOsu}
             </a>
+            <a
+              href="https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/small-scale-hydroponics"
+              target="_blank"
+              rel="noreferrer"
+            >
+              University of Minnesota Extension — Hydroponics
+            </a>
           </div>
         </details>
+        <section
+          className="grow-products"
+          aria-labelledby="grow-products-title"
+        >
+          <div className="tower-section-heading">
+            <h2 id="grow-products-title">{t.productsTitle}</h2>
+          </div>
+          <div
+            className="grow-product-row"
+            tabIndex={0}
+            role="region"
+            aria-label={t.productsTitle}
+          >
+            {growProducts.map((product) => (
+              <ProductCard key={product.slug} product={product} />
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

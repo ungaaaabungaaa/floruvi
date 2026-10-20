@@ -227,7 +227,7 @@ test("chat route refuses bad requests and stays silent while the owner answers",
   };
   const paused = await POST(request({ text: "palak?", locale: "en-in" }, undefined, cookie));
   assert.equal(paused.status, 200);
-  assert.match(await paused.text(), /assistant is paused/);
+  assert.match(await paused.text(), /Support chat is unavailable/);
 });
 
 test("spend limits pause the assistant for the month or hand one costly chat to the owner", () => {

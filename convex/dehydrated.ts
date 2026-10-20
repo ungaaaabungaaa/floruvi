@@ -9,6 +9,75 @@ export const imageUploadUrl = internalMutation({
   handler: (ctx) => ctx.storage.generateUploadUrl(),
 });
 
+// Owner CLI only. Compare the current URL to the saved audit before changing it.
+// All 11 replacements commit together; a concurrent owner edit aborts the batch.
+export const replaceImages = internalMutation({
+  args: {
+    images: v.array(
+      v.object({
+        slug: v.string(),
+        imageId: v.id("_storage"),
+        expectedUrl: v.union(v.string(), v.null()),
+      }),
+    ),
+  },
+  returns: v.object({ updated: v.number(), deleted: v.number() }),
+  handler: async (ctx, { images }) => {
+    const expected = new Set<string>(dehydratedProducts.map((p) => p.slug));
+    if (
+      images.length !== expected.size ||
+      new Set(images.map((p) => p.slug)).size !== expected.size
+    )
+      throw new Error("Provide exactly 11 distinct pantry products");
+    const changes = [];
+    for (const image of images) {
+      if (!expected.has(image.slug)) throw new Error("Unknown pantry product");
+      const product = await ctx.db
+        .query("products")
+        .withIndex("by_slug", (q) => q.eq("slug", image.slug))
+        .unique();
+      if (!product) throw new Error(`Missing product: ${image.slug}`);
+      const metadata = await ctx.db.system.get(image.imageId);
+      if (!metadata || metadata.contentType !== "image/webp")
+        throw new Error("Expected an uploaded WebP image");
+      const currentUrl = product.imageId
+        ? await ctx.storage.getUrl(product.imageId)
+        : null;
+      if (currentUrl !== image.expectedUrl)
+        throw new Error(`Image changed since audit: ${image.slug}`);
+      changes.push({ product, imageId: image.imageId });
+    }
+    // Bounded maintenance scan: never delete a file still used by another product.
+    const products = await ctx.db.query("products").take(1000);
+    if (products.length === 1000)
+      throw new Error("Catalogue exceeds maintenance scan limit");
+    let updated = 0;
+    const oldIds = new Set<
+      NonNullable<(typeof changes)[number]["product"]["imageId"]>
+    >();
+    for (const { product, imageId } of changes) {
+      if (product.imageId === imageId) continue;
+      await ctx.db.patch(product._id, { imageId });
+      if (product.imageId) oldIds.add(product.imageId);
+      updated++;
+    }
+    const replacements = new Map(
+      changes.map(({ product, imageId }) => [product._id, imageId]),
+    );
+    const used = new Set(
+      products.map((p) => replacements.get(p._id) ?? p.imageId),
+    );
+    let deleted = 0;
+    for (const id of oldIds) {
+      if (!used.has(id)) {
+        await ctx.storage.delete(id);
+        deleted++;
+      }
+    }
+    return { updated, deleted };
+  },
+});
+
 export const seed = internalMutation({
   args: { imageIds: v.optional(v.record(v.string(), v.id("_storage"))) },
   returns: v.object({
