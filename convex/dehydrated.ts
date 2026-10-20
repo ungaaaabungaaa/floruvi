@@ -172,3 +172,59 @@ export const audit = internalQuery({
       }),
     ),
 });
+
+// Targeted owner-authorized update. Never copies orders, customers or other records.
+export const updatePricing = internalMutation({
+  args: {
+    expected: v.array(
+      v.object({
+        slug: v.string(),
+        amountMinor: v.number(),
+        packLabel: v.string(),
+        description: v.string(),
+      }),
+    ),
+  },
+  returns: v.object({ updated: v.number(), preserved: v.number() }),
+  handler: async (ctx, { expected }) => {
+    if (
+      expected.length !== 11 ||
+      new Set(expected.map((p) => p.slug)).size !== 11 ||
+      expected.some((p) => !dehydratedProducts.some((d) => d.slug === p.slug))
+    )
+      throw new Error("Expected all 11 pantry products");
+    let updated = 0;
+    for (const target of dehydratedProducts) {
+      const product = await ctx.db
+        .query("products")
+        .withIndex("by_slug", (q) => q.eq("slug", target.slug))
+        .unique();
+      const before = expected.find((p) => p.slug === target.slug)!;
+      if (!product) throw new Error(`Missing product: ${target.slug}`);
+      if (product.pricingRevision === target.pricingRevision) {
+        if (
+          product.price?.amountMinor !== target.price.amountMinor ||
+          product.price?.packLabel !== target.price.packLabel ||
+          product.price?.currency !== "INR" ||
+          product.description !== target.description
+        )
+          throw new Error(`Price edited after migration: ${target.slug}`);
+        continue;
+      }
+      if (
+        product.price?.currency !== "INR" ||
+        product.price.amountMinor !== before.amountMinor ||
+        product.price.packLabel !== before.packLabel ||
+        product.description !== before.description
+      )
+        throw new Error(`Product changed since audit: ${target.slug}`);
+      await ctx.db.patch(product._id, {
+        price: target.price,
+        description: target.description,
+        pricingRevision: target.pricingRevision,
+      });
+      updated++;
+    }
+    return { updated, preserved: 11 - updated };
+  },
+});

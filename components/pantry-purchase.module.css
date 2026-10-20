@@ -1,0 +1,141 @@
+.preview {
+  margin: 22px 0 28px;
+  color: #183e30;
+}
+.priceLine {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.priceLine strong {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+}
+.priceLine > span {
+  font-size: 13px;
+  color: #657066;
+}
+.orderHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.orderHeading > span:last-child {
+  color: #657066;
+  font-size: 13px;
+}
+.controls {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 12px;
+}
+.stepper {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  border: 1px solid #c5cec1;
+  border-radius: 999px;
+  min-height: 54px;
+}
+.stepper button {
+  display: grid;
+  place-items: center;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.stepper button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.stepper output {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 22px;
+  border: 1px solid #183e30;
+  border-radius: 999px;
+  background: #183e30;
+  color: #fffdf4;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  min-height: 54px;
+}
+.add:hover {
+  background: #28523f;
+}
+.add:focus-visible,
+.stepper button:focus-visible {
+  outline: 2px solid #183e30;
+  outline-offset: 4px;
+}
+.packaging {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 14px 0 0;
+  color: #4e6054;
+}
+.note {
+  font-size: 11px;
+  color: #657066;
+  line-height: 1.6;
+  margin: 8px 0 0;
+}
+.confirmation {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 12px 0 0;
+}
+.confirmation:empty {
+  display: none;
+}
+@media (max-width: 440px) {
+  .controls {
+    grid-template-columns: 145px minmax(0, 1fr);
+    gap: 8px;
+  }
+  .stepper {
+    grid-template-columns: 38px 1fr 38px;
+  }
+  .add {
+    padding: 14px 16px;
+    font-size: 13px;
+  }
+  .add > svg {
+    display: none;
+  }
+}
+@media (max-width: 340px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tax {
+  margin: 0 0 26px;
+  color: #657066;
+  font-size: 12px;
+}
+.add:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .add { justify-content: center; text-align: center; }
+  .packaging { text-align: center; text-wrap: balance; }
+}

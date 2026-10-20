@@ -1,5 +1,9 @@
 import { ConvexHttpClient } from "convex/browser";
-import type { FunctionArgs, FunctionReference, FunctionReturnType } from "convex/server";
+import type {
+  FunctionArgs,
+  FunctionReference,
+  FunctionReturnType,
+} from "convex/server";
 
 /** Cache tag for public catalogue and recipe reads. Admin stock changes update it. */
 export const CATALOGUE_TAG = "catalogue";
@@ -15,18 +19,22 @@ const REVALIDATE_SECONDS = 24 * 60 * 60;
  * `fetchQuery` from convex/nextjs always sends `cache: "no-store"`. Use it, not this,
  * for prices at checkout, payments, chat and anything private: those must stay live.
  */
-export function cachedPublicQuery<Query extends FunctionReference<"query", "public">>(
-  query: Query,
-  args: FunctionArgs<Query>,
-): Promise<FunctionReturnType<Query>> {
+export function cachedPublicQuery<
+  Query extends FunctionReference<"query", "public">,
+>(query: Query, args: FunctionArgs<Query>): Promise<FunctionReturnType<Query>> {
   const url = process.env.NEXT_PUBLIC_CONVEX_URL;
   if (!url) throw new Error("NEXT_PUBLIC_CONVEX_URL is not set.");
   const client = new ConvexHttpClient(url, {
     fetch: (input, init) =>
       fetch(input, {
         ...init,
-        cache: "force-cache",
-        next: { revalidate: REVALIDATE_SECONDS, tags: [CATALOGUE_TAG] },
+        cache:
+          process.env.NODE_ENV === "development" ? "no-store" : "force-cache",
+        ...(process.env.NODE_ENV === "development"
+          ? {}
+          : {
+              next: { revalidate: REVALIDATE_SECONDS, tags: [CATALOGUE_TAG] },
+            }),
       }),
   });
   return client.query(query, args);

@@ -1,4 +1,5 @@
 "use client";
+import { weightLabel } from "@/lib/pantry-weights";
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { productImages } from "@/lib/product-images";
@@ -578,9 +579,11 @@ export function Checkout({
                     <p>
                       {box
                         ? `${t.boxes[box.id].people} · ${lineLabels.schedule(item.slug)}`
-                        : (product?.packLabel ??
-                          checked?.packLabel ??
-                          cartLabels.packOnRequest)}
+                        : item.weightGrams
+                          ? weightLabel(item.weightGrams)
+                          : (checked?.packLabel ??
+                            product?.packLabel ??
+                            cartLabels.packOnRequest)}
                     </p>
                     {product?.description && (
                       <p className="checkout-product-description">
@@ -588,7 +591,9 @@ export function Checkout({
                       </p>
                     )}
                     <span className="checkout-product-quantity">
-                      {cartLabels.headQuantity}: {item.quantity}
+                      {item.weightGrams
+                        ? ""
+                        : `${cartLabels.headQuantity}: ${item.quantity}`}
                     </span>
                   </div>
                   <span className="checkout-product-price">

@@ -1,3 +1,4 @@
+import { isPantry, validWeight, weightLabel } from "./pantry-weights";
 import { z } from "zod";
 import { MAX_CART_LINES, MAX_QUANTITY } from "./cart";
 import { enquirySchema, toAsciiDigits } from "./enquiry";
@@ -12,8 +13,16 @@ export const basketLines = z
           .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
           .max(100),
         quantity: z.number().int().min(1).max(MAX_QUANTITY),
+        weightGrams: z.number().optional(),
       })
-      .strict(),
+      .strict()
+      .refine(
+        (line) =>
+          line.weightGrams === undefined ||
+          (line.quantity === 1 &&
+            isPantry(line.slug) &&
+            validWeight(line.weightGrams)),
+      ),
   )
   .min(1)
   .max(MAX_CART_LINES)
@@ -87,7 +96,7 @@ export type CheckoutDetails = {
 /** The farm reads requests in English, so item names and totals stay in English. */
 export function basketEnquiry(
   details: CheckoutDetails,
-  items: { name: string; quantity: number }[],
+  items: { name: string; quantity: number; weightGrams?: number }[],
   consent: boolean,
   website = "",
   destination?: { country: string; total: string; deliveryQuoted: boolean },
@@ -112,7 +121,11 @@ export function basketEnquiry(
     quantity: `${items.reduce((n, i) => n + i.quantity, 0)} requested units across ${items.length} crops`,
     message: [
       "Basket availability request:",
-      ...items.map((i) => `${i.name} × ${i.quantity}`),
+      ...items.map((i) =>
+        i.weightGrams
+          ? `${i.name} · ${weightLabel(i.weightGrams)}`
+          : `${i.name} × ${i.quantity}`,
+      ),
       `Delivery area: ${[address.data.address, details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
       ...(destination
         ? [

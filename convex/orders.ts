@@ -1,3 +1,5 @@
+import type { CartLine } from "../lib/cart";
+import { pantryPrices } from "../lib/pantry-weights";
 import { v } from "convex/values";
 import { internalMutation, internalQuery, type QueryCtx } from "./_generated/server";
 import { internal } from "./_generated/api";
@@ -26,7 +28,7 @@ export async function paymentsOn(ctx: QueryCtx) {
 }
 
 /** Prices a basket for India from stored products, as the public catalogue does. */
-async function priceForIndia(ctx: QueryCtx, lines: { slug: string; quantity: number }[]) {
+async function priceForIndia(ctx: QueryCtx, lines: CartLine[]) {
   const slugs = new Set(lines.map((line) => line.slug));
   if (lines.some((line) => getCartBox(line.slug)))
     for (const item of boxContents) slugs.add(item.slug);
@@ -40,7 +42,7 @@ async function priceForIndia(ctx: QueryCtx, lines: { slug: string; quantity: num
       products.push({
         slug,
         name: product.name,
-        price: priceInMarket(product, "in", null),
+        ...pantryPrices(slug, priceInMarket(product, "in", null), "in"),
         inStock: product.inStock !== false,
       });
   }

@@ -51,14 +51,27 @@ export function ProductCard({ product }: { product: ShopProduct }) {
         </Link>
         <div className="product-card-row">
           <p className="product-card-price">
-            <Money minor={product.price?.amountMinor} currency={product.price?.currency} />
+            <Money
+              minor={product.price?.amountMinor}
+              currency={product.price?.currency}
+            />
           </p>
-          <AddToCart
-            slug={product.slug}
-            name={product.name}
-            available={product.inStock !== false}
-            compact
-          />
+          {product.weightPricing ? (
+            <Link
+              href={`/products/${product.slug}`}
+              className="button button-outline"
+              aria-label={`Choose weight for ${product.name}`}
+            >
+              +
+            </Link>
+          ) : (
+            <AddToCart
+              slug={product.slug}
+              name={product.name}
+              available={product.inStock !== false}
+              compact
+            />
+          )}
         </div>
       </div>
     </article>

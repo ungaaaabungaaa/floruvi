@@ -12,12 +12,12 @@ const modules = {
 
 test("owner pack prices stay separate, including onion powder and flakes", () => {
   const expected = [
-    ["green-banana-flour", "500 g", 74900],
+    ["green-banana-flour", "500 g", 78645],
     ["onion-powder", "250 g", 32900],
     ["onion-flakes", "250 g", 32900],
     ["garlic-powder", "200 g", 34900],
-    ["ginger-powder", "250 g", 42900],
-    ["turmeric-powder", "500 g", 52900],
+    ["ginger-powder", "250 g", 45045],
+    ["turmeric-powder", "500 g", 55545],
     ["moringa-leaf-powder", "250 g", 59900],
     ["tomato-powder", "200 g", 47900],
     ["beetroot-powder", "250 g", 84900],
@@ -33,10 +33,7 @@ test("owner pack prices stay separate, including onion powder and flakes", () =>
     expected,
   );
   for (const p of dehydratedProducts) {
-    assert.match(
-      p.description,
-      new RegExp(`India price: ₹${p.price.amountMinor / 100}`),
-    );
+    assert.doesNotMatch(p.description, /India price|pack\./);
     assert.doesNotMatch(
       p.description,
       /sample|mockup|preview|organic|gluten.free/i,
@@ -146,13 +143,12 @@ test("jar replacement removes unreferenced old files but preserves shared files"
     { updated: 11, deleted: 1 },
   );
   assert.equal(await t.run((ctx) => ctx.storage.get(oldId)), null);
-  assert.ok(await t.run(async (ctx) => Boolean(await ctx.storage.get(sharedId))));
+  assert.ok(
+    await t.run(async (ctx) => Boolean(await ctx.storage.get(sharedId))),
+  );
 });
 
-async function uploadImage(
-  t: TestConvex<typeof schema>,
-  content: string,
-) {
+async function uploadImage(t: TestConvex<typeof schema>, content: string) {
   return t.run(async (ctx) => {
     const id = await ctx.storage.store(
       new Blob([content], { type: "image/webp" }),
@@ -163,3 +159,49 @@ async function uploadImage(
     return id;
   });
 }
+
+test("pricing update compares prior state, is atomic and does not compound taxes", async () => {
+  const t = convexTest(schema, modules);
+  await t.run(async (ctx) => {
+    for (const p of dehydratedProducts)
+      await ctx.db.insert("products", {
+        ...p,
+        pricingRevision: "old",
+        price: { ...p.price, amountMinor: 10000 },
+        inStock: false,
+      });
+  });
+  const expected = dehydratedProducts.map((p) => ({
+    slug: p.slug,
+    amountMinor: 10000,
+    packLabel: p.price.packLabel,
+    description: p.description,
+  }));
+  await assert.rejects(
+    t.mutation(internal.dehydrated.updatePricing, {
+      expected: expected.map((p, i) =>
+        i === 10 ? { ...p, amountMinor: 1 } : p,
+      ),
+    }),
+    /changed since audit/,
+  );
+  assert.ok(
+    (await t.query(internal.dehydrated.audit, {})).every(
+      (p) => "price" in p && p.price?.amountMinor === 10000,
+    ),
+  );
+  assert.equal(
+    (await t.mutation(internal.dehydrated.updatePricing, { expected })).updated,
+    11,
+  );
+  assert.equal(
+    (await t.mutation(internal.dehydrated.updatePricing, { expected })).updated,
+    0,
+  );
+  const stored = await t.run((ctx) => ctx.db.query("products").collect());
+  assert.ok(stored.every((p) => p.inStock === false));
+  assert.equal(
+    stored.find((p) => p.slug === "moringa-leaf-powder")!.price!.amountMinor,
+    59900,
+  );
+});
