@@ -1,3 +1,4 @@
+import { pantryPrices } from "../lib/pantry-weights";
 import { v } from "convex/values";
 import { query, type QueryCtx } from "./_generated/server";
 import type { Doc } from "./_generated/dataModel";
@@ -46,7 +47,7 @@ function summary(
     description: translation?.description ?? product.description,
     uses: translation?.uses ?? product.uses,
     translated: !!translation,
-    price: priceInMarket(product, market, pricing),
+    ...pantryPrices(product.slug, priceInMarket(product, market, pricing), market),
     inStock: product.inStock !== false,
   };
 }

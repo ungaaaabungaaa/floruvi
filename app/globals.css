@@ -5942,3 +5942,7 @@ body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
   .contact-details { align-items: flex-start; gap: 12px; }
   .contact-direct-links { flex-direction: column; gap: 0; width: 100%; }
 }
+
+/* Weight labels must fit beside both controls, including three-digit kg values. */
+.cart-page .weight-picker button { width: 28px; flex-shrink: 0; }
+.cart-page .weight-picker output { min-width: 40px; white-space: nowrap; font-size: 12px; }

@@ -1,4 +1,5 @@
 "use client";
+import { isPantry, validWeight } from "@/lib/pantry-weights";
 import { useSyncExternalStore } from "react";
 import {
   normalizeCart,
@@ -58,6 +59,7 @@ export function useCart() {
     count: items.reduce((sum, line) => sum + line.quantity, 0),
     add(slug: string, quantity = 1) {
       const current = getSnapshot();
+      if (current.find((i) => i.slug === slug)?.weightGrams) return false;
       const nextQuantity =
         (current.find((i) => i.slug === slug)?.quantity ?? 0) + quantity;
       if (
@@ -67,6 +69,21 @@ export function useCart() {
       )
         return false;
       save(updateCart(current, slug, nextQuantity));
+      return true;
+    },
+    setWeight(slug: string, weightGrams: number) {
+      const current = getSnapshot();
+      if (
+        !isPantry(slug) ||
+        !validWeight(weightGrams) ||
+        (current.length >= MAX_CART_LINES &&
+          !current.some((i) => i.slug === slug))
+      )
+        return false;
+      save([
+        ...current.filter((i) => i.slug !== slug),
+        { slug, quantity: 1, weightGrams },
+      ]);
       return true;
     },
     setQuantity(slug: string, quantity: number) {

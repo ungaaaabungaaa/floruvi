@@ -1,4 +1,5 @@
 "use client";
+import { isPantry } from "@/lib/pantry-weights";
 import { useState } from "react";
 import Link from "@/components/i18n/link";
 import { ShoppingBag, Check, Minus, Plus, ChevronRight } from "lucide-react";
@@ -17,7 +18,7 @@ export function AddToCart({
   available?: boolean;
 }) {
   const cart = useCart();
-  const { t, fill } = useI18n();
+  const { t, fill, locale } = useI18n();
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
   const [error, setError] = useState("");
@@ -31,6 +32,16 @@ export function AddToCart({
       <div className={compact ? "add-crop compact" : "add-crop"}>
         <span className="stock-out">{t.addToCart.outOfStock}</span>
       </div>
+    );
+  if (locale.domestic && isPantry(slug))
+    return (
+      <Link
+        href={`/products/${slug}`}
+        className="button button-outline"
+        aria-label={`Choose weight for ${name}`}
+      >
+        {compact ? <Plus size={18} /> : "Choose weight"}
+      </Link>
     );
   return (
     <div className={compact ? "add-crop compact" : "add-crop"}>
@@ -88,7 +99,13 @@ export function AddToCart({
     </div>
   );
 }
-export function CartLink({ inNavigation = false, onNavigate }: { inNavigation?: boolean; onNavigate?: () => void }) {
+export function CartLink({
+  inNavigation = false,
+  onNavigate,
+}: {
+  inNavigation?: boolean;
+  onNavigate?: () => void;
+}) {
   const { count } = useCart();
   const { t, plural } = useI18n();
   return (

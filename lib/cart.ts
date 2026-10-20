@@ -1,10 +1,11 @@
-export type CartLine = { slug: string; quantity: number };
+import { isPantry, validWeight } from "./pantry-weights";
+export type CartLine = { slug: string; quantity: number; weightGrams?: number };
 export const MAX_CART_LINES = 20;
 export const MAX_QUANTITY = 99;
 
 export function normalizeCart(value: unknown): CartLine[] {
   if (!Array.isArray(value)) return [];
-  const lines = new Map<string, number>();
+  const lines = new Map<string, CartLine>();
   for (const item of value.slice(0, 200)) {
     if (
       !item ||
@@ -17,12 +18,29 @@ export function normalizeCart(value: unknown): CartLine[] {
     )
       continue;
     if (!lines.has(item.slug) && lines.size >= MAX_CART_LINES) continue;
-    lines.set(
-      item.slug,
-      Math.min(MAX_QUANTITY, (lines.get(item.slug) ?? 0) + item.quantity),
-    );
+    if (item.weightGrams !== undefined) {
+      if (
+        !isPantry(item.slug) ||
+        !validWeight(item.weightGrams) ||
+        item.quantity !== 1
+      )
+        continue;
+      lines.set(item.slug, {
+        slug: item.slug,
+        quantity: 1,
+        weightGrams: item.weightGrams,
+      });
+    } else if (!lines.get(item.slug)?.weightGrams) {
+      lines.set(item.slug, {
+        slug: item.slug,
+        quantity: Math.min(
+          MAX_QUANTITY,
+          (lines.get(item.slug)?.quantity ?? 0) + item.quantity,
+        ),
+      });
+    }
   }
-  return [...lines].map(([slug, quantity]) => ({ slug, quantity }));
+  return [...lines.values()];
 }
 
 export function updateCart(

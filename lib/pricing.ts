@@ -1,3 +1,9 @@
+import {
+  weightPrice,
+  weightLabel,
+  isPantry,
+  type WeightPricing,
+} from "./pantry-weights";
 import type { CartLine } from "./cart";
 import { boxContents, getCartBox } from "./boxes";
 import { formatCurrency, type CurrencyCode } from "./i18n/format";
@@ -16,6 +22,8 @@ type PricedProduct = {
   slug: string;
   name: string;
   price?: { amountMinor: number; currency: string; packLabel: string } | null;
+  legacyPrice?: PricedProduct["price"];
+  weightPricing?: WeightPricing | null;
   /** Missing means in stock. */
   inStock?: boolean;
 };
@@ -63,20 +71,40 @@ export function reviewBasket(
             : null,
         }
       : products.find((p) => p.slug === line.slug);
-    const price = product?.price;
+    const stored = products.find((p) => p.slug === line.slug);
+    const weighted = line.weightGrams !== undefined;
+    const weightedMinor =
+      weighted &&
+      market === "in" &&
+      line.quantity === 1 &&
+      isPantry(line.slug) &&
+      stored?.weightPricing
+        ? weightPrice(stored.weightPricing, line.weightGrams!)
+        : null;
+    const price = weighted
+      ? weightedMinor !== null
+        ? {
+            amountMinor: weightedMinor,
+            currency,
+            packLabel: weightLabel(line.weightGrams!),
+          }
+        : null
+      : (stored?.legacyPrice ?? product?.price);
     const unitPrice = usable(price) ? price!.amountMinor : null;
     const candidate = unitPrice === null ? null : unitPrice * line.quantity;
     const lineTotal = validMoney(candidate) ? candidate : null;
     // A box is out of stock when any crop in it is out of stock.
     const outOfStock = box
       ? boxContents.some(
-          (item) => products.find((p) => p.slug === item.slug)?.inStock === false,
+          (item) =>
+            products.find((p) => p.slug === item.slug)?.inStock === false,
         )
       : product?.inStock === false;
     return {
       ...line,
       name: product?.name ?? line.slug,
-      availableToEnquire: !!product && !outOfStock,
+      availableToEnquire:
+        !!product && !outOfStock && (!weighted || weightedMinor !== null),
       outOfStock,
       packLabel: price?.packLabel ?? null,
       unitPrice,

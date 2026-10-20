@@ -1,4 +1,5 @@
-// Owner-approved India pack prices, 18 October 2026. Onion forms sell separately.
+// Owner base prices, 18 October 2026. Confirmed 5% added once to banana flour,
+// ginger and turmeric on 20 October. Moringa remains unchanged pending HSN.
 export const dehydratedCategory = {
   slug: "flours-and-powders",
   name: "Flours & powders",
@@ -116,7 +117,7 @@ export const dehydratedProducts = items.map(
     slug,
     name,
     category: dehydratedCategory.slug,
-    description: `${flavour} ${grams} g pack. India price: ₹${rupees}.`,
+    description: flavour,
     uses: uses.split(", "),
     growingNote:
       "A dried pantry product for cooking. Follow the pack instructions.",
@@ -130,11 +131,19 @@ export const dehydratedProducts = items.map(
     published: true,
     rank: 100 + rank,
     price: {
-      amountMinor: rupees * 100,
+      amountMinor: Math.round(
+        rupees *
+          100 *
+          (["green-banana-flour", "ginger-powder", "turmeric-powder"].includes(
+            slug,
+          )
+            ? 1.05
+            : 1),
+      ),
       currency: "INR" as const,
       packLabel: `${grams} g`,
     },
-    pricingRevision: "owner-dehydrated-2026-10-18",
+    pricingRevision: "pantry-inclusive-2026-10-20",
     details: {
       tagline: flavour,
       benefits: [

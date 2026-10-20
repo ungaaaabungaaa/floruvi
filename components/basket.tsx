@@ -12,6 +12,12 @@ import {
   Leaf,
   LoaderCircle,
 } from "lucide-react";
+import {
+  formatWeight,
+  weightLabel,
+  nextWeight,
+  MAX_WEIGHT_GRAMS,
+} from "@/lib/pantry-weights";
 import { useCart } from "./cart-store";
 import { getCartBox } from "@/lib/boxes";
 import singleBox from "@/src/assets/boxes/single.webp";
@@ -294,9 +300,12 @@ export function BasketPage({
                           : pricedLine?.outOfStock
                             ? t.addToCart.outOfStock
                             : product
-                              ? (product.price?.packLabel ??
-                                pricedLine?.packLabel ??
-                                labels.packOnRequest)
+                              ? line.weightGrams
+                                ? weightLabel(line.weightGrams)
+                                : (product.legacyPrice?.packLabel ??
+                                  product.price?.packLabel ??
+                                  pricedLine?.packLabel ??
+                                  labels.packOnRequest)
                               : labels.unlisted}
                       </p>
                       {box && (
@@ -306,24 +315,52 @@ export function BasketPage({
                       )}
                     </div>
                   </div>
-                  <div className="quantity-picker">
+                  <div
+                    className={
+                      line.weightGrams
+                        ? "quantity-picker weight-picker"
+                        : "quantity-picker"
+                    }
+                  >
                     <button
                       type="button"
                       aria-label={fill(labels.reduce, { name })}
-                      disabled={line.quantity === 1}
+                      disabled={
+                        line.weightGrams
+                          ? line.weightGrams === 250
+                          : line.quantity === 1
+                      }
                       onClick={() =>
-                        cart.setQuantity(line.slug, line.quantity - 1)
+                        line.weightGrams
+                          ? cart.setWeight(
+                              line.slug,
+                              nextWeight(line.weightGrams, -1),
+                            )
+                          : cart.setQuantity(line.slug, line.quantity - 1)
                       }
                     >
                       <Minus size={14} />
                     </button>
-                    <output>{line.quantity}</output>
+                    <output>
+                      {line.weightGrams
+                        ? formatWeight(line.weightGrams)
+                        : line.quantity}
+                    </output>
                     <button
                       type="button"
                       aria-label={fill(labels.increase, { name })}
-                      disabled={line.quantity === 99}
+                      disabled={
+                        line.weightGrams
+                          ? line.weightGrams === MAX_WEIGHT_GRAMS
+                          : line.quantity === 99
+                      }
                       onClick={() =>
-                        cart.setQuantity(line.slug, line.quantity + 1)
+                        line.weightGrams
+                          ? cart.setWeight(
+                              line.slug,
+                              nextWeight(line.weightGrams, 1),
+                            )
+                          : cart.setQuantity(line.slug, line.quantity + 1)
                       }
                     >
                       <Plus size={14} />
@@ -332,10 +369,13 @@ export function BasketPage({
                   <span className="basket-price">
                     {review
                       ? money(
-                          // The server's unit price times the new quantity, until the check returns.
-                          pricedLine?.unitPrice != null
-                            ? pricedLine.unitPrice * line.quantity
-                            : pricedLine?.lineTotal,
+                          // A changed weight waits for its matching server quote.
+                          line.weightGrams &&
+                            pricedLine?.weightGrams !== line.weightGrams
+                            ? null
+                            : pricedLine?.unitPrice != null
+                              ? pricedLine.unitPrice * line.quantity
+                              : pricedLine?.lineTotal,
                           review.currency as CurrencyCode,
                         )
                       : "—"}

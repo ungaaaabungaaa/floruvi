@@ -28,6 +28,7 @@ import { isCategorySlug } from "@/lib/category-pages";
 import { breadcrumbList, productOfferPolicies, schemaPrice } from "@/lib/structured-data";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
+import { PantryPurchase } from "@/components/pantry-purchase";
 import { AddToCart } from "@/components/add-to-cart";
 import { ProductStoryBanner } from "@/components/product-story-banner";
 import { Money } from "@/components/i18n/money";
@@ -207,6 +208,9 @@ export default async function ProductDetails({ params }: Props) {
           <h1 id="product-heading">{p.name}</h1>
           {details && !pantry && <p className="product-tagline">{details.tagline}</p>}
           <p className="detail-description">{p.description}</p>
+          {p.weightPricing ? (
+            <PantryPurchase slug={p.slug} name={p.name} pricing={p.weightPricing} available={p.inStock !== false} />
+          ) : <>
           <p className="detail-price">
             <Money minor={p.price?.amountMinor} currency={p.price?.currency} />
             {p.price && <small> / {p.price.packLabel}</small>}
@@ -216,6 +220,7 @@ export default async function ProductDetails({ params }: Props) {
             name={p.name}
             available={p.inStock !== false}
           />
+          </>}
           <div className="product-assurances">
             <span>
               <Leaf />
