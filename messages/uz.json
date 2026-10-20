@@ -77,7 +77,8 @@
       "mobile": "Mobil navigatsiya",
       "open": "Navigatsiyani ochish",
       "close": "Navigatsiyani yopish",
-      "description": "Fermani kashf eting va biz bilan bogʻlaning."
+      "description": "Fermani kashf eting va biz bilan bogʻlaning.",
+      "how": "Qanday?"
     },
     "footer": {
       "shop": "Doʻkon",
@@ -141,8 +142,8 @@
     },
     "chat": {
       "open": "Floruvi bilan suhbat",
-      "title": "Floruvi",
-      "assistant": "AI yordamchi",
+      "title": "Floruvi yordami",
+      "assistant": "Mijozlarni qo‘llab-quvvatlash",
       "newChat": "Yangi suhbat",
       "history": "Oldingi suhbatlar",
       "back": "Orqaga",
@@ -412,7 +413,14 @@
     "boxTagline": [
       "Haqiqiy taom",
       "Yorqinroq kunlar"
-    ]
+    ],
+    "pantry": {
+      "eyebrow": "FLORUVI OSHXONASI",
+      "title": "Yaxshilik shisha idishda.",
+      "note": "Kundalik taomlar uchun un, ziravorlar va sabzavot kukunlari.",
+      "browse": "Mahsulotlarni ko‘rish",
+      "alt": "Iliq oshxona peshtaxtasida o‘simlik tasvirli yorliqlarga ega Floruvi shisha idishlari."
+    }
   },
   "shop": {
     "interludes": [
@@ -919,7 +927,22 @@
           "text": "Ishlatilmagan eritma qayta aylanish uchun suv omboriga qaytib oqadi."
         }
       ]
-    }
+    },
+    "productsTitle": "Yetishtirish xonasidan",
+    "hydroLessons": [
+      {
+        "eyebrow": "SUV VA OZUQA",
+        "title": "Har kuni muvozanat.",
+        "text": "Gidroponik ildizlar suvda erigan ozuqalarni o‘zlashtiradi. pH va elektr o‘tkazuvchanligini tekshirish eritmani ekinga mos saqlashga yordam beradi.",
+        "alt": "Salat o‘simligi yonidagi pH va o‘tkazuvchanlik datchiklari o‘rnatilgan ozuqa idishi."
+      },
+      {
+        "eyebrow": "YAXSHI BOSHLANISH",
+        "title": "Ildizlar uchun joy.",
+        "text": "Kichik o‘stirish tiqini niholni ushlab turadi. Ildizlar rivojlangach, to‘rli idish o‘simlikni tutib turadi, suv, ozuqa va kislorod esa ildizlarga yetadi.",
+        "alt": "O‘stirish tiqinidan gidroponik kanalga rivojlanayotgan salat niholi."
+      }
+    ]
   },
   "faq": {
     "eyebrow": "OZGINA YORDAM",

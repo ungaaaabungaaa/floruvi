@@ -21,6 +21,7 @@ export function Header() {
     ["/products", t.nav.shop],
     ["/boxes", t.nav.boxes],
     ["/recipes", t.nav.recipes],
+    ["/how-we-grow", t.nav.how],
   ];
   const close = () => setOpen(false);
   useEffect(() => {
@@ -43,12 +44,17 @@ export function Header() {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="dialog-overlay" />
-            <Dialog.Content className="mobile-nav-panel" onCloseAutoFocus={(event) => {
-              if (!openChatAfterMenu.current) return;
-              openChatAfterMenu.current = false;
-              event.preventDefault();
-              document.querySelector<HTMLButtonElement>(".header-chat")?.click();
-            }}>
+            <Dialog.Content
+              className="mobile-nav-panel"
+              onCloseAutoFocus={(event) => {
+                if (!openChatAfterMenu.current) return;
+                openChatAfterMenu.current = false;
+                event.preventDefault();
+                document
+                  .querySelector<HTMLButtonElement>(".header-chat")
+                  ?.click();
+              }}
+            >
               <div className="mobile-nav-top">
                 <Dialog.Title className="wordmark">floruvi</Dialog.Title>
                 <Dialog.Close className="icon-button" aria-label={t.nav.close}>
@@ -66,10 +72,14 @@ export function Header() {
                   </Link>
                 ))}
                 <LocalePicker variant="row" onNavigate={close} />
-                <button type="button" className="navigation-chat" onClick={() => {
-                  openChatAfterMenu.current = true;
-                  close();
-                }}>
+                <button
+                  type="button"
+                  className="navigation-chat"
+                  onClick={() => {
+                    openChatAfterMenu.current = true;
+                    close();
+                  }}
+                >
                   <span>{t.chat.open}</span>
                   <ChevronRight size={20} aria-hidden="true" />
                 </button>

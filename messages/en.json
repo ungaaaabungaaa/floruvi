@@ -77,7 +77,8 @@
       "mobile": "Mobile navigation",
       "open": "Open navigation",
       "close": "Close navigation",
-      "description": "Explore the farm & get in touch."
+      "description": "Explore the farm & get in touch.",
+      "how": "How?"
     },
     "footer": {
       "shop": "Shop",
@@ -141,8 +142,8 @@
     },
     "chat": {
       "open": "Contact us",
-      "title": "Floruvi",
-      "assistant": "AI assistant",
+      "title": "Floruvi Support",
+      "assistant": "Customer support",
       "newChat": "New chat",
       "history": "Past chats",
       "back": "Back",
@@ -165,7 +166,7 @@
       "team": "Floruvi team",
       "withTeam": "The Floruvi team is answering this chat. Replies appear here.",
       "handedOff": "I’ve passed this to the Floruvi team. They will reply here soon.",
-      "paused": "The assistant is paused for now. Please use the contact page, and the Floruvi team will help you.",
+      "paused": "Support chat is unavailable for now. Please use the contact page, and the Floruvi team will help you.",
       "suggestions": [
         "What’s in stock?",
         "Delivery & payment",
@@ -412,7 +413,14 @@
     "boxTagline": [
       "Real food",
       "Brighter days"
-    ]
+    ],
+    "pantry": {
+      "eyebrow": "THE FLORUVI PANTRY",
+      "title": "Good things, in glass.",
+      "note": "Flours, spices and vegetable powders for everyday cooking.",
+      "browse": "Explore the pantry",
+      "alt": "Floruvi glass jars with botanical labels on a warm kitchen counter."
+    }
   },
   "shop": {
     "interludes": [
@@ -919,7 +927,22 @@
           "text": "Unused solution drains back to the reservoir for recirculation."
         }
       ]
-    }
+    },
+    "productsTitle": "From the growing room",
+    "hydroLessons": [
+      {
+        "eyebrow": "WATER & NUTRIENTS",
+        "title": "A little balance, every day.",
+        "text": "Hydroponic roots take up nutrients dissolved in water. Checking pH and electrical conductivity helps keep that solution suited to the crop.",
+        "alt": "A nutrient reservoir with pH and conductivity probes beside a lettuce plant."
+      },
+      {
+        "eyebrow": "A STRONG START",
+        "title": "Room for roots to grow.",
+        "text": "A small growing plug supports a young seedling. As roots develop, a net pot holds the plant while water, nutrients and oxygen reach its roots.",
+        "alt": "A lettuce seedling develops from a growing plug into a hydroponic channel."
+      }
+    ]
   },
   "faq": {
     "eyebrow": "A LITTLE HELP",

@@ -1,7 +1,11 @@
+// Rebuild the approved single-jar catalogue assets from local PNG originals.
 import fs from "node:fs/promises";
+import path from "node:path";
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const sharp = createRequire(require.resolve("next/package.json"))("sharp");
+const source =
+  process.argv[2] ?? "output/packaging/glass-jars-approval-2026-10-20/images";
 const slugs = [
   "green-banana-flour",
   "onion-powder",
@@ -15,51 +19,31 @@ const slugs = [
   "carrot-powder",
   "spinach-powder",
 ];
-const views = ["main", "pouch-detail", "ingredient", "texture", "preparation"];
 const imports = ['import type { StaticImageData } from "next/image";'];
-const groups = {
-  dehydratedMainImages: [],
-  dehydratedDetailImages: [],
-  dehydratedAdditionalImages: [],
-};
+const entries = [];
 let bytes = 0;
 for (const [i, slug] of slugs.entries()) {
-  const variables = [];
-  for (const [j, view] of views.entries()) {
-    const stem = `src/assets/products/dehydrated/${slug}/${view}`;
-    const input = await fs.readFile(`${stem}.png`);
-    const metadata = await sharp(input).metadata();
-    if (!metadata.width || metadata.width !== metadata.height)
-      throw new Error(`Expected square image: ${stem}`);
-    const webp = await sharp(input).webp({ quality: 88, effort: 5 }).toBuffer();
-    await fs.writeFile(`${stem}.webp`, webp);
-    bytes += webp.length;
-    const variable = `p${i}v${j}`;
-    imports.push(`import ${variable} from "@/${stem}.webp";`);
-    variables.push(variable);
-  }
-  groups.dehydratedMainImages.push(`  "${slug}": ${variables[0]},`);
-  groups.dehydratedDetailImages.push(`  "${slug}": ${variables[1]},`);
-  groups.dehydratedAdditionalImages.push(
-    `  "${slug}": [${variables.slice(2).join(", ")}],`,
+  const input = await fs.readFile(
+    path.join(source, `${String(i + 1).padStart(2, "0")}-${slug}.png`),
   );
+  const metadata = await sharp(input).metadata();
+  if (!metadata.width || metadata.width !== metadata.height)
+    throw new Error(`Expected square image: ${slug}`);
+  const destination = `src/assets/products/dehydrated/${slug}/main.webp`;
+  const webp = await sharp(input).webp({ quality: 88, effort: 5 }).toBuffer();
+  await fs.writeFile(destination, webp);
+  bytes += webp.length;
+  imports.push(`import jar${i} from "@/${destination}";`);
+  entries.push(`  "${slug}": jar${i},`);
 }
 await fs.writeFile(
   "lib/dehydrated-images.ts",
-  imports.join("\n") +
-    "\n\n" +
-    Object.entries(groups)
-      .map(
-        ([key, entries]) =>
-          `export const ${key}: Record<string, ${key.endsWith("AdditionalImages") ? "StaticImageData[]" : "StaticImageData"}> = {\n${entries.join("\n")}\n};`,
-      )
-      .join("\n\n") +
-    "\n",
+  `${imports.join("\n")}\n\nexport const dehydratedMainImages: Record<string, StaticImageData> = {\n${entries.join("\n")}\n};\n`,
 );
 console.log(
   JSON.stringify({
     products: slugs.length,
-    images: slugs.length * views.length,
+    images: slugs.length,
     webpBytes: bytes,
   }),
 );

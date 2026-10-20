@@ -77,7 +77,8 @@
       "mobile": "Mobiele navigatie",
       "open": "Navigatie openen",
       "close": "Navigatie sluiten",
-      "description": "Ontdek de boerderij en neem contact op."
+      "description": "Ontdek de boerderij en neem contact op.",
+      "how": "Hoe?"
     },
     "footer": {
       "shop": "Shop",
@@ -141,8 +142,8 @@
     },
     "chat": {
       "open": "Chat met Floruvi",
-      "title": "Floruvi",
-      "assistant": "AI-assistent",
+      "title": "Floruvi Support",
+      "assistant": "Klantenservice",
       "newChat": "Nieuwe chat",
       "history": "Vorige chats",
       "back": "Terug",
@@ -412,7 +413,14 @@
     "boxTagline": [
       "Echt eten",
       "Lichtere dagen"
-    ]
+    ],
+    "pantry": {
+      "eyebrow": "DE FLORUVI VOORRAADKAST",
+      "title": "Het goede, in glas.",
+      "note": "Meel, specerijen en groentepoeders voor elke dag.",
+      "browse": "Ontdek de voorraadkast",
+      "alt": "Floruvi-glazen potten met botanische etiketten op een warm keukenblad."
+    }
   },
   "shop": {
     "interludes": [
@@ -919,7 +927,22 @@
           "text": "Ongebruikte oplossing stroomt terug naar het reservoir voor hergebruik."
         }
       ]
-    }
+    },
+    "productsTitle": "Uit de kweekruimte",
+    "hydroLessons": [
+      {
+        "eyebrow": "WATER & VOEDING",
+        "title": "Elke dag in balans.",
+        "text": "Hydroponische wortels nemen opgeloste voedingsstoffen uit water op. Metingen van pH en geleidbaarheid helpen de oplossing op het gewas af te stemmen.",
+        "alt": "Voedingsreservoir met pH- en geleidbaarheidssondes naast een slaplant."
+      },
+      {
+        "eyebrow": "EEN GOEDE START",
+        "title": "Ruimte voor wortels.",
+        "text": "Een kleine kweekplug ondersteunt de zaailing. Later houdt een netpot de plant vast terwijl water, voeding en zuurstof de wortels bereiken.",
+        "alt": "Een slazaailing groeit van een kweekplug naar een hydroponisch kanaal."
+      }
+    ]
   },
   "faq": {
     "eyebrow": "EVEN HELPEN",
