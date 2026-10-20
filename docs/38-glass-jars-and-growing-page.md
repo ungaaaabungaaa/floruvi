@@ -1,11 +1,11 @@
 # Glass jars and growing-page update — 20 October 2026
 
-The owner approved 11 individual glass-jar product photos, including the printed lid strip. Each product keeps its existing pack size, price, description, use and storage instructions. Descriptions were reviewed: they contain no pouch wording or unverified health, organic or shelf-life claims. The 18 October price table in document 37 remains current; its five-image pouch gallery is superseded by one approved jar image per product.
+The owner approved 11 individual glass-jar product photos, including the printed lid strip. Each product keeps its existing pack size, price, description, use and storage instructions. Descriptions were reviewed: they contain no pouch wording or unverified health, organic or shelf-life claims. The 18 October price table in document 37 remains current; its pouch views are replaced by one approved jar image per product. Each product also retains its ingredient, texture and preparation photos.
 
 ## Storefront changes
 
-- Replace all 11 pantry main images and remove the 44 old supporting gallery assets.
-- Add three rotating jar banners and an 11-product pantry rail to the homepage. Controls sit outside the editorial image. Rotation stops for reduced motion, keyboard focus, hover and hidden pages.
+- Replace all 11 pantry main images and remove the 11 old pouch-detail images. Restore the 33 ingredient, texture and preparation photos after the owner confirmed these must stay. Each pantry gallery has four views.
+- Add one static seasoning-jar banner and an 11-product pantry rail to the homepage. The owner rejected carousel controls after live review. No rotation, arrows, playback buttons or slide counter remain. The other two banner images are kept for later use.
 - Replace the homepage category-link strip with the existing green growing-notebook section, shared without copy changes.
 - Add two hydroponic lessons: water and nutrients, and seedling support. Add four fresh products in one row before the growing-page footer.
 - Add “How?” beside “Let’s talk”. Use white header icons and white/green floating controls on the growing page.

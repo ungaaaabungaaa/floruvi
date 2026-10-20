@@ -16,7 +16,7 @@
 
 ## Brand
 
-- Editorial banners contain images and text only. Do not add buttons inside them. Keep purchase controls in the product section.
+- Editorial banners are static images and text only. Do not add carousel arrows, play/pause buttons, slide counters or automatic rotation. Keep purchase controls in the product section. Preserve unused banner images for later use.
 
 - The tagline is “Freshness worth growing”. Use the supplied carrot mark for the site identity.
 
