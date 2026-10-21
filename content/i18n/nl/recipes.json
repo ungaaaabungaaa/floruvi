@@ -1846,5 +1846,3446 @@
       "Voeg het zout en eventueel de hierboven genoemde ingrediënten voor het afmaken toe. Roer door en serveer in twee kommen."
     ],
     "tip": "Gebruik gespleten rode linzen; hele linzen hebben een andere kooktijd."
+  },
+  "lemon-garlic-chicken-carrot-beans": {
+    "source": "856ac1e2",
+    "name": "Kip met citroen, knoflook, wortel en sperziebonen",
+    "description": "Kip met wortel en sperziebonen, als koekenpanmaaltijd met citroen en knoflook.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g wortels, in dunne staafjes",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de wortelstaafjes en de sperziebonen toe. Bak ze 8–10 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-spinach-tomato-curry": {
+    "source": "ef12816b",
+    "name": "Kerrie van kip met spinazie en tomaat",
+    "description": "Kip met spinazie en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de spinazie en de tomaten toe. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-methi-yoghurt-curry": {
+    "source": "760c42f3",
+    "name": "Kerrie van kip met fenegriek en yoghurt",
+    "description": "Kip met fenegriekblad en pruimtomaten, als kerrie met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "80 g fenegriekblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het fenegriekblad en de tomaten toe. Voeg de komijn en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Haal de pan van het vuur. Laat 2 minuten afkoelen. Roer de yoghurt er lepel voor lepel door.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-bell-pepper-stir-fry": {
+    "source": "7b8b7d92",
+    "name": "Roerbak van kip met paprika",
+    "description": "Kip met paprika en bosui, als snelle roerbak met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de paprika en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "basil-chicken-zucchini-pasta": {
+    "source": "2a83c0ff",
+    "name": "Pasta met kip, courgette en basilicum",
+    "description": "Kip met courgette en cherrytomaten, als pastakom met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g courgette, in halve maantjes",
+      "150 g cherrytomaten, gehalveerd",
+      "15 g basilicumblaadjes, gescheurd",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "180 g gedroogde pasta"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de pasta, terwijl je de saus maakt, in een aparte pan met kokend water volgens de verpakking. Bewaar 100 ml kookwater. Giet de pasta af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de courgette en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte pasta in de pan. Voeg een beetje van het bewaarde kookwater toe om de saus losser te maken.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "rosemary-chicken-potato-tray": {
+    "source": "2c806302",
+    "name": "Ovenschotel van kip met rozemarijn en aardappel",
+    "description": "Kip met aardappelen en wortel, als ovenschotel met citroen en knoflook.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "200 g wortels, in dunne staafjes",
+      "1 tl fijngehakte rozemarijn",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de kip met de rest van de olie en de droge kruiden. Leg de kip in de ovenschaal. Rooster 20–25 minuten. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de rozemarijn vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-cucumber-mint-wraps": {
+    "source": "1baf36d9",
+    "name": "Wraps met kip, komkommer en munt",
+    "description": "Kip met komkommer en romaine sla, als frisse wraps met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "1 komkommer (200 g), in plakjes",
+      "100 g romaine sla, gewassen en gedroogd",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "4 kleine platbroden"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de kip in de pan. Voeg de komijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Verwarm de platbroden in een droge pan. Doe de vulling erop, met de komkommer en de romaine sla, en vouw dicht.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-bok-choy-noodle-soup": {
+    "source": "cbd4320c",
+    "name": "Noedelsoep met kip en pak choi",
+    "description": "Kip met pak choi en wortel, als warme soep met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "200 g wortels, in dunne staafjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de pak choi en de wortelstaafjes toe. Voeg de sojasaus, de rijstazijn en het zout toe. Giet er 700 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-carrot-coriander-rice": {
+    "source": "6a7be972",
+    "name": "Rijst met kip, wortel en koriander",
+    "description": "Kip met wortel en sperziebonen, als rijstkom met geroosterde komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g wortels, in dunne staafjes",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de wortelstaafjes en de sperziebonen toe. Bak ze 8–10 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de komijn, de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-rocket-tomato-salad": {
+    "source": "3a552a16",
+    "name": "Salade met kip, rucola en tomaat",
+    "description": "Kip met rucola en cherrytomaten, als frisse salade met citroen en knoflook.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "80 g rucola, gewassen en gedroogd",
+      "150 g cherrytomaten, gehalveerd",
+      "1 komkommer (200 g), in plakjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Laat de gebakken kip 5 minuten afkoelen. Schep de kip door de rucola, de komkommer en de overige groenten voor de salade.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-coconut-spinach-curry": {
+    "source": "ab6fcf59",
+    "name": "Kerrie van kip met kokos en spinazie",
+    "description": "Kip met spinazie en pruimtomaten, als kerrie met kokosmelk en kurkuma.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de spinazie en de tomaten toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 250 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-pepper-potato-skillet": {
+    "source": "4fb61069",
+    "name": "Koekenpan met kip, peper en aardappel",
+    "description": "Kip met aardappelen en paprika, als koekenpanmaaltijd met zwarte peper en knoflook.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl grof gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de aardappelblokjes en de paprika toe. Bak ze 12–15 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-lettuce-radish-cups": {
+    "source": "1051b930",
+    "name": "Slakommetjes met kip en radijs",
+    "description": "Kip met botersla en radijs, als frisse wraps met limoen en komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "8 botersla-bladeren, gewassen en gedroogd",
+      "100 g radijsjes, in dunne plakjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el limoensap",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de kip in de pan. Voeg de komijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg het limoensap vlak voor het serveren toe.",
+      "Schep de vulling in de slabladeren. Voeg de voorbereide radijs toe.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-celery-herb-soup": {
+    "source": "ed4fe137",
+    "name": "Soep van kip, bleekselderij en kruiden",
+    "description": "Kip met bleekselderij en wortel, als warme soep met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "2 stengels bleekselderij, in dunne plakjes",
+      "200 g wortels, in dunne staafjes",
+      "1 tl verse tijmblaadjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de bleekselderij en de wortelstaafjes toe. Voeg de zwarte peper en het zout toe. Giet er 700 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Voeg de tijm vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-tomato-basil-rice": {
+    "source": "1e4f3733",
+    "name": "Rijst met kip, tomaat en basilicum",
+    "description": "Kip met pruimtomaten en basilicumblaadjes, als rijstkom met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "250 g pruimtomaten, in blokjes",
+      "15 g basilicumblaadjes, gescheurd",
+      "3 bosuitjes, in ringetjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de tomaten en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-ginger-napa-noodles": {
+    "source": "79416cbb",
+    "name": "Noedels met kip, gember en Chinese kool",
+    "description": "Kip met Chinese kool en bosui, als noedelkom met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g Chinese kool, in dunne reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de Chinese kool en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-mustard-greens-curry": {
+    "source": "10ebc5f3",
+    "name": "Kerrie van kip met mosterdblad",
+    "description": "Kip met mosterdblad en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "120 g mosterdblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het mosterdblad en de tomaten toe. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-beetroot-yoghurt-salad": {
+    "source": "6a3af518",
+    "name": "Salade met kip, rode biet en yoghurt",
+    "description": "Kip met gekookte rode biet en komkommer, als frisse salade met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "150 g gekookte rode biet, afgekoeld en in blokjes",
+      "1 komkommer (200 g), in plakjes",
+      "2 el gehakte dille",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de kip in de pan. Voeg de komijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Laat de gebakken kip 5 minuten afkoelen. Schep de kip door de gekookte rode biet, de komkommer en de overige groenten voor de salade.",
+      "Voeg de dille vlak voor het serveren toe.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-eggplant-tomato-bake": {
+    "source": "c8c16a1c",
+    "name": "Ovenschotel van kip met aubergine en tomaat",
+    "description": "Kip met aubergine en cherrytomaten, als ovenschotel met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "200 g aubergine, in blokjes van 2 cm",
+      "150 g cherrytomaten, gehalveerd",
+      "1 tl gedroogde oregano",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de kip met de rest van de olie en de droge kruiden. Leg de kip in de ovenschaal. Rooster 20–25 minuten. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de oregano vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-lemongrass-coconut-soup": {
+    "source": "5b872b10",
+    "name": "Kokossoep met kip en citroengras",
+    "description": "Kip met citroengras en pak choi, als warme soep met kokosmelk en kurkuma.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "1 stengel citroengras, geplet en in grote stukken",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook, de citroengrasbouillon en de gember toe en roer 1 minuut.",
+      "Voeg de pak choi toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 700 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Haal de stukken citroengras eruit voor het serveren.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-chilli-green-bean-toss": {
+    "source": "9542233b",
+    "name": "Kip met chili en sperziebonen uit de wok",
+    "description": "Kip met sperziebonen en paprika, als snelle roerbak met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "1 groene chilipeper, fijngehakt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de groene chilipeper toe en roer 1 minuut.",
+      "Voeg de sperziebonen en de paprika toe. Bak ze 8–10 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-spinach-lemon-pasta": {
+    "source": "dce949a2",
+    "name": "Pasta met kip, spinazie en citroen",
+    "description": "Kip met spinazie en courgette, als pastakom met citroen en knoflook.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "200 g courgette, in halve maantjes",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper",
+      "180 g gedroogde pasta"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de pasta, terwijl je de saus maakt, in een aparte pan met kokend water volgens de verpakking. Bewaar 100 ml kookwater. Giet de pasta af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de spinazie en de courgette toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de zwarte peper en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Doe de gekookte pasta in de pan. Voeg een beetje van het bewaarde kookwater toe om de saus losser te maken.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-mint-potato-rice": {
+    "source": "9a27781c",
+    "name": "Rijst met kip, munt en aardappel",
+    "description": "Kip met aardappelen en pruimtomaten, als rijstkom met warme komijn en koriander.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de aardappelblokjes en de tomaten toe. Bak ze 12–15 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de kip in de pan. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Bak 12–16 minuten en keer de stukjes regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-kale-white-bean-stew": {
+    "source": "80ae9bba",
+    "name": "Stoofpot van kip met boerenkool en witte bonen",
+    "description": "Kip met jonge boerenkool en wortel, als langzaam gestoofde stoofpot met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "100 g jonge boerenkool, gewassen en gehakt",
+      "200 g wortels, in dunne staafjes",
+      "250 g pruimtomaten, in blokjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "200 g gekookte witte bonen, uitgelekt",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de jonge boerenkool, de wortelstaafjes en de tomaten toe. Voeg de zwarte peper en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de kip toe. Laat 15–20 minuten zachtjes koken. Laat langer koken als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de gekookte witte bonen toe. Laat 3 minuten zachtjes koken om ze door en door warm te maken.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "chicken-coriander-tomato-skewers": {
+    "source": "572016e2",
+    "name": "Spiesen van kip met koriander en tomaat",
+    "description": "Kip met paprika en cherrytomaten, als gegrilde spiesen met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g kippendijfilet zonder bot, in stukjes van 2 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Meng de yoghurt, knoflook, komijn, zout en olie. Bedek de kip ermee en zet 10 minuten in de koelkast.",
+      "Rijg het vlees of de vis en de stukjes paprika en tomaat aan metalen spiesen. Verhit een grillpan op middelhoog vuur.",
+      "Bak de spiesen 12–16 minuten en draai ze regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk kip met een keukenthermometer. De kern moet 74 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Controleer de kip met een keukenthermometer. De bereidingstijd kan veranderen met de grootte van de stukjes."
+  },
+  "dill-fish-potato-tray": {
+    "source": "f6fc5ea6",
+    "name": "Ovenschotel van vis met dille en aardappel",
+    "description": "Witvis met aardappelen en cherrytomaten, als ovenschotel met citroen en knoflook.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte dille",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de vis met de rest van de olie en de droge kruiden. Leg de vis in de ovenschaal. Rooster 12–15 minuten. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de dille vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-tomato-coconut-curry": {
+    "source": "c1388a6e",
+    "name": "Kerrie van vis met tomaat en kokos",
+    "description": "Witvis met pruimtomaten en geraspte gember, als kerrie met kokosmelk en kurkuma.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de tomaten toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 250 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-spinach-garlic-skillet": {
+    "source": "e63a7e41",
+    "name": "Koekenpan met vis, spinazie en knoflook",
+    "description": "Witvis met spinazie en cherrytomaten, als koekenpanmaaltijd met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de spinazie en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de zwarte peper en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-cucumber-mint-wraps": {
+    "source": "d27c7701",
+    "name": "Wraps met vis, komkommer en munt",
+    "description": "Witvis met komkommer en romaine sla, als frisse wraps met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "1 komkommer (200 g), in plakjes",
+      "100 g romaine sla, gewassen en gedroogd",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "4 kleine platbroden"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de vis in de pan. Voeg de komijn en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Verwarm de platbroden in een droge pan. Doe de vulling erop, met de komkommer en de romaine sla, en vouw dicht.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-bok-choy-ginger-broth": {
+    "source": "368a9bc3",
+    "name": "Bouillon met vis, pak choi en gember",
+    "description": "Witvis met pak choi en bosui, als warme soep met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de pak choi en de bosuitjes toe. Voeg de sojasaus, de rijstazijn en het zout toe. Giet er 700 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-bell-pepper-tomato-rice": {
+    "source": "9053be09",
+    "name": "Rijst met vis, paprika en tomaat",
+    "description": "Witvis met paprika en pruimtomaten, als rijstkom met geroosterde komijn.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de paprika en de tomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de komijn, de zwarte peper en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-rocket-radish-salad": {
+    "source": "ba4aae9e",
+    "name": "Salade met vis, rucola en radijs",
+    "description": "Witvis met rucola en radijs, als frisse salade met citroen en knoflook.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "80 g rucola, gewassen en gedroogd",
+      "100 g radijsjes, in dunne plakjes",
+      "1 komkommer (200 g), in plakjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de vis in de pan. Voeg de zwarte peper en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Laat de gebakken vis 5 minuten afkoelen. Schep de vis door de rucola, de radijs, de komkommer en de overige groenten voor de salade.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-basil-tomato-pasta": {
+    "source": "b16fe578",
+    "name": "Pasta met vis, basilicum en tomaat",
+    "description": "Witvis met cherrytomaten en courgette, als pastakom met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "150 g cherrytomaten, gehalveerd",
+      "200 g courgette, in halve maantjes",
+      "15 g basilicumblaadjes, gescheurd",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "180 g gedroogde pasta"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de pasta, terwijl je de saus maakt, in een aparte pan met kokend water volgens de verpakking. Bewaar 100 ml kookwater. Giet de pasta af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de cherrytomaten en de courgette toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de zwarte peper en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Doe de gekookte pasta in de pan. Voeg een beetje van het bewaarde kookwater toe om de saus losser te maken.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-turmeric-potato-curry": {
+    "source": "6fee2083",
+    "name": "Kerrie van vis met kurkuma en aardappel",
+    "description": "Witvis met aardappelen en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "250 g pruimtomaten, in blokjes",
+      "1 tl geraspte verse kurkuma",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de kurkuma toe en roer 1 minuut.",
+      "Voeg de aardappelblokjes en de tomaten toe. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Giet er 250 ml water bij. Laat 15–20 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-lemongrass-coconut-soup": {
+    "source": "84aa3868",
+    "name": "Kokossoep met vis en citroengras",
+    "description": "Witvis met citroengras en wortel, als warme soep met kokosmelk en kurkuma.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "1 stengel citroengras, geplet en in grote stukken",
+      "200 g wortels, in dunne staafjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook, de citroengrasbouillon en de gember toe en roer 1 minuut.",
+      "Voeg de wortelstaafjes toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 700 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Haal de stukken citroengras eruit voor het serveren.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-rosemary-zucchini-bake": {
+    "source": "1a6e2b24",
+    "name": "Ovenschotel van vis met rozemarijn en courgette",
+    "description": "Witvis met courgette en cherrytomaten, als ovenschotel met citroen en knoflook.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "200 g courgette, in halve maantjes",
+      "150 g cherrytomaten, gehalveerd",
+      "1 tl fijngehakte rozemarijn",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de vis met de rest van de olie en de droge kruiden. Leg de vis in de ovenschaal. Rooster 12–15 minuten. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de rozemarijn vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-napa-spring-onion-noodles": {
+    "source": "22fbc067",
+    "name": "Noedels met vis, Chinese kool en bosui",
+    "description": "Witvis met Chinese kool en bosui, als noedelkom met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "200 g Chinese kool, in dunne reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de Chinese kool en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-green-bean-pepper-skillet": {
+    "source": "5e5ef8a7",
+    "name": "Koekenpan met vis, sperziebonen en paprika",
+    "description": "Witvis met sperziebonen en paprika, als koekenpanmaaltijd met zwarte peper en knoflook.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl grof gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de sperziebonen en de paprika toe. Bak ze 8–10 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de zwarte peper en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-methi-tomato-curry": {
+    "source": "48df8c6c",
+    "name": "Kerrie van vis met methi en tomaat",
+    "description": "Witvis met fenegriekblad en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "80 g fenegriekblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het fenegriekblad en de tomaten toe. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-lettuce-carrot-cups": {
+    "source": "5f01b7cd",
+    "name": "Slakommetjes met vis en wortel",
+    "description": "Witvis met botersla en wortel, als frisse wraps met limoen en komijn.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "8 botersla-bladeren, gewassen en gedroogd",
+      "200 g wortels, in dunne staafjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el limoensap",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de vis in de pan. Voeg de komijn en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg het limoensap vlak voor het serveren toe.",
+      "Schep de vulling in de slabladeren. Voeg de voorbereide wortel toe.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-celery-tomato-stew": {
+    "source": "95db9064",
+    "name": "Stoofpot van vis met bleekselderij en tomaat",
+    "description": "Witvis met bleekselderij en pruimtomaten, als langzaam gestoofde stoofpot met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "2 stengels bleekselderij, in dunne plakjes",
+      "250 g pruimtomaten, in blokjes",
+      "1 tl verse tijmblaadjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de bleekselderij en de tomaten toe. Voeg de zwarte peper en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de vis toe. Laat 8–10 minuten zachtjes sudderen. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de tijm vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-beetroot-dill-salad": {
+    "source": "3a7bc416",
+    "name": "Salade met vis, rode biet en dille",
+    "description": "Witvis met gekookte rode biet en komkommer, als frisse salade met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "150 g gekookte rode biet, afgekoeld en in blokjes",
+      "1 komkommer (200 g), in plakjes",
+      "2 el gehakte dille",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de vis in de pan. Voeg de komijn en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Laat de gebakken vis 5 minuten afkoelen. Schep de vis door de gekookte rode biet, de komkommer en de overige groenten voor de salade.",
+      "Voeg de dille vlak voor het serveren toe.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-coriander-pepper-skewers": {
+    "source": "13db7d48",
+    "name": "Spiesen van vis met koriander en paprika",
+    "description": "Witvis met paprika en cherrytomaten, als gegrilde spiesen met citroen en knoflook.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Meng de olie, knoflook, droge kruiden en het zout. Bedek de vis ermee.",
+      "Rijg het vlees of de vis en de stukjes paprika en tomaat aan metalen spiesen. Verhit een grillpan op middelhoog vuur.",
+      "Bak de spiesen 8–10 minuten en draai ze regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-spinach-coconut-rice": {
+    "source": "d6683ce9",
+    "name": "Rijst met vis, spinazie en kokos",
+    "description": "Witvis met spinazie en bosui, als rijstkom met kokosmelk en kurkuma.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de spinazie en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de vis in de pan. Voeg de kurkuma, de komijn en het zout toe. Bak 8–10 minuten en keer de stukken regelmatig. Bak langer als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Roer de kokosmelk erdoor. Laat 3 minuten zachtjes koken voordat je de rijst toevoegt.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "fish-eggplant-basil-bake": {
+    "source": "e3ce82f4",
+    "name": "Ovenschotel van vis met aubergine en basilicum",
+    "description": "Witvis met aubergine en cherrytomaten, als ovenschotel met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g witvisfilet zonder bot, in stukken van 4 cm",
+      "200 g aubergine, in blokjes van 2 cm",
+      "150 g cherrytomaten, gehalveerd",
+      "15 g basilicumblaadjes, gescheurd",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de vis met de rest van de olie en de droge kruiden. Leg de vis in de ovenschaal. Rooster 12–15 minuten. Laat langer garen als dat nodig is.",
+      "Controleer het dikste stuk vis met een keukenthermometer. De kern moet 63 °C bereiken.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik visfilets zonder bot. Controleer voor het bereiden op kleine graten."
+  },
+  "prawn-garlic-green-bean-skillet": {
+    "source": "a8202591",
+    "name": "Koekenpan met garnalen, knoflook en sperziebonen",
+    "description": "Garnalen met sperziebonen en cherrytomaten, als koekenpanmaaltijd met knoflook en verse kruiden.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de sperziebonen en de cherrytomaten toe. Bak ze 8–10 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de zwarte peper en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-coconut-tomato-curry": {
+    "source": "a1690f59",
+    "name": "Kerrie van garnalen met kokos en tomaat",
+    "description": "Garnalen met pruimtomaten en geraspte gember, als kerrie met kokosmelk en kurkuma.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de tomaten toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 250 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de garnalen toe. Laat 4–6 minuten zachtjes koken. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-bok-choy-stir-fry": {
+    "source": "5fc7e26e",
+    "name": "Roerbak van garnalen met pak choi",
+    "description": "Garnalen met pak choi en paprika, als snelle roerbak met gember en lichte sojasaus.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de pak choi en de paprika toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-basil-zucchini-pasta": {
+    "source": "442690b1",
+    "name": "Pasta met garnalen, basilicum en courgette",
+    "description": "Garnalen met courgette en cherrytomaten, als pastakom met knoflook en verse kruiden.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "200 g courgette, in halve maantjes",
+      "150 g cherrytomaten, gehalveerd",
+      "15 g basilicumblaadjes, gescheurd",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "180 g gedroogde pasta"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de pasta, terwijl je de saus maakt, in een aparte pan met kokend water volgens de verpakking. Bewaar 100 ml kookwater. Giet de pasta af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de courgette en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de zwarte peper en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Doe de gekookte pasta in de pan. Voeg een beetje van het bewaarde kookwater toe om de saus losser te maken.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-cucumber-mint-salad": {
+    "source": "8d91c0c6",
+    "name": "Salade met garnalen, komkommer en munt",
+    "description": "Garnalen met komkommer en romaine sla, als frisse salade met limoen en komijn.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "1 komkommer (200 g), in plakjes",
+      "100 g romaine sla, gewassen en gedroogd",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el limoensap",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de garnalen in de pan. Voeg de komijn en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg het limoensap vlak voor het serveren toe.",
+      "Laat de gebakken garnalen 5 minuten afkoelen. Schep de garnalen door de komkommer, de romaine sla en de overige groenten voor de salade.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-pepper-spring-onion-rice": {
+    "source": "ed185f73",
+    "name": "Rijst met garnalen, paprika en bosui",
+    "description": "Garnalen met paprika en bosui, als rijstkom met geroosterde komijn.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de paprika en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de komijn, de zwarte peper en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-lemongrass-noodle-soup": {
+    "source": "d105cc6a",
+    "name": "Noedelsoep met garnalen en citroengras",
+    "description": "Garnalen met citroengras en pak choi, als warme soep met kokosmelk en kurkuma.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "1 stengel citroengras, geplet en in grote stukken",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook, de citroengrasbouillon en de gember toe en roer 1 minuut.",
+      "Voeg de pak choi toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 700 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de garnalen toe. Laat 4–6 minuten zachtjes koken. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Haal de stukken citroengras eruit voor het serveren.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-lettuce-radish-wraps": {
+    "source": "9aafa129",
+    "name": "Wraps met garnalen, sla en radijs",
+    "description": "Garnalen met botersla en radijs, als frisse wraps met naturel yoghurt en komijn.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "8 botersla-bladeren, gewassen en gedroogd",
+      "100 g radijsjes, in dunne plakjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "4 kleine platbroden"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de garnalen in de pan. Voeg de komijn en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Verwarm de platbroden in een droge pan. Doe de vulling erop, met de botersla en de radijs, en vouw dicht.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-spinach-tomato-skillet": {
+    "source": "e6733547",
+    "name": "Koekenpan met garnalen, spinazie en tomaat",
+    "description": "Garnalen met spinazie en cherrytomaten, als koekenpanmaaltijd met citroen en knoflook.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "100 g spinazie, gewassen en grof gehakt",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de spinazie en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de zwarte peper en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-ginger-napa-noodles": {
+    "source": "e452e347",
+    "name": "Noedels met garnalen, gember en Chinese kool",
+    "description": "Garnalen met Chinese kool en bosui, als noedelkom met gember en lichte sojasaus.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "200 g Chinese kool, in dunne reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een brede pan. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg de Chinese kool en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Leg de groenten op een bord.",
+      "Doe de garnalen in de pan. Voeg de sojasaus, de rijstazijn en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-turmeric-potato-curry": {
+    "source": "a23e0da8",
+    "name": "Kerrie van garnalen met kurkuma en aardappel",
+    "description": "Garnalen met aardappelen en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "250 g pruimtomaten, in blokjes",
+      "1 tl geraspte verse kurkuma",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de kurkuma toe en roer 1 minuut.",
+      "Voeg de aardappelblokjes en de tomaten toe. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe. Giet er 250 ml water bij. Laat 15–20 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de garnalen toe. Laat 4–6 minuten zachtjes koken. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-rosemary-carrot-tray": {
+    "source": "4b32db12",
+    "name": "Ovenschotel van garnalen met rozemarijn en wortel",
+    "description": "Garnalen met wortel en courgette, als ovenschotel met citroen en knoflook.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "200 g wortels, in dunne staafjes",
+      "200 g courgette, in halve maantjes",
+      "1 tl fijngehakte rozemarijn",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verwarm de oven voor op 200 °C. Doe de voorbereide groenten, de knoflook, het zout en de helft van de olie in een ovenschaal.",
+      "Rooster de groenten 15 minuten. Houd het vlees of de vis in de koelkast terwijl de groenten garen.",
+      "Bedek de garnalen met de rest van de olie en de droge kruiden. Leg de garnalen in de ovenschaal. Rooster 8–10 minuten. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Voeg de rozemarijn vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-rocket-tomato-salad": {
+    "source": "ce5835b8",
+    "name": "Salade met garnalen, rucola en tomaat",
+    "description": "Garnalen met rucola en cherrytomaten, als frisse salade met citroen en knoflook.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "80 g rucola, gewassen en gedroogd",
+      "150 g cherrytomaten, gehalveerd",
+      "1 komkommer (200 g), in plakjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een brede pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Doe de garnalen in de pan. Voeg de zwarte peper en het zout toe. Bak 4–6 minuten en keer de garnalen regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Laat de gebakken garnalen 5 minuten afkoelen. Schep de garnalen door de rucola, de komkommer en de overige groenten voor de salade.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-chilli-pepper-skewers": {
+    "source": "2793c109",
+    "name": "Spiesen van garnalen met chili en paprika",
+    "description": "Garnalen met paprika en cherrytomaten, als gegrilde spiesen met limoen en komijn.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "150 g cherrytomaten, gehalveerd",
+      "1 groene chilipeper, fijngehakt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el limoensap",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Meng de olie, knoflook, droge kruiden en het zout. Bedek de garnalen ermee.",
+      "Rijg het vlees of de vis en de stukjes paprika en tomaat aan metalen spiesen. Verhit een grillpan op middelhoog vuur.",
+      "Bak de spiesen 6–8 minuten en draai ze regelmatig. Bak langer als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg het limoensap vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-celery-tomato-stew": {
+    "source": "5d33ae81",
+    "name": "Stoofpot van garnalen met bleekselderij en tomaat",
+    "description": "Garnalen met bleekselderij en pruimtomaten, als langzaam gestoofde stoofpot met knoflook en verse kruiden.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "2 stengels bleekselderij, in dunne plakjes",
+      "250 g pruimtomaten, in blokjes",
+      "1 tl verse tijmblaadjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg de bleekselderij en de tomaten toe. Voeg de zwarte peper en het zout toe. Giet er 250 ml water bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de garnalen toe. Laat 4–6 minuten zachtjes koken. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Voeg de tijm vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "prawn-methi-coconut-curry": {
+    "source": "916e70ad",
+    "name": "Kerrie van garnalen met methi en kokos",
+    "description": "Garnalen met fenegriekblad en pruimtomaten, als kerrie met kokosmelk en kurkuma.",
+    "ingredients": [
+      "300 g rauwe garnalen, gepeld en ontdarmd",
+      "80 g fenegriekblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg het fenegriekblad en de tomaten toe. Voeg de kurkuma, de komijn en het zout toe. Giet er 250 ml water en de kokosmelk bij. Laat 8–10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de garnalen toe. Laat 4–6 minuten zachtjes koken. Laat langer garen als dat nodig is.",
+      "Bak tot elke garnaal stevig, parelmoerachtig en door en door ondoorzichtig is.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Laat diepgevroren garnalen ontdooien in de koelkast. Laat ze goed uitlekken voor het bereiden."
+  },
+  "mutton-spinach-tomato-curry": {
+    "source": "71850930",
+    "name": "Kerrie van schapenvlees met spinazie en tomaat",
+    "description": "Schapenvlees met spinazie en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "100 g spinazie, gewassen en grof gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de spinazie en de tomaten toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-potato-pepper-stew": {
+    "source": "50256ed0",
+    "name": "Stoofpot van schapenvlees met aardappel en peper",
+    "description": "Schapenvlees met aardappelen en paprika, als langzaam gestoofde stoofpot met zwarte peper en knoflook.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "1 tl verse tijmblaadjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl grof gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de zwarte peper en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de aardappelblokjes en de paprika toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Voeg de tijm vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-methi-yoghurt-curry": {
+    "source": "b9f8515c",
+    "name": "Kerrie van schapenvlees met methi en yoghurt",
+    "description": "Schapenvlees met fenegriekblad en pruimtomaten, als kerrie met naturel yoghurt en komijn.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "80 g fenegriekblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de komijn en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg het fenegriekblad en de tomaten toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Haal de pan van het vuur. Laat 2 minuten afkoelen. Roer de yoghurt er lepel voor lepel door.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-carrot-celery-soup": {
+    "source": "d47d754b",
+    "name": "Soep van schapenvlees met wortel en bleekselderij",
+    "description": "Schapenvlees met wortel en bleekselderij, als warme soep met knoflook en verse kruiden.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "200 g wortels, in dunne staafjes",
+      "2 stengels bleekselderij, in dunne plakjes",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de zwarte peper en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de wortelstaafjes en de bleekselderij toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-mint-tomato-rice": {
+    "source": "d1557030",
+    "name": "Rijst met schapenvlees, munt en tomaat",
+    "description": "Schapenvlees met pruimtomaten en wortel, als rijstkom met warme komijn en koriander.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "250 g pruimtomaten, in blokjes",
+      "200 g wortels, in dunne staafjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "150 g basmatirijst, afgespoeld",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe tijdens de laatste 20 minuten van de kooktijd van het schapenvlees de rijst en 250 ml water in een steelpan. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de tomaten en de wortelstaafjes toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-keema-spinach-skillet": {
+    "source": "98dabc29",
+    "name": "Keema-koekenpan met schapengehakt en spinazie",
+    "description": "Schapengehakt met spinazie en pruimtomaten, als keema-koekenpan met warme komijn en koriander.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "100 g spinazie, gewassen en grof gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Voeg de spinazie en de tomaten toe. Doe het deksel op de pan en laat 5–8 minuten garen, tot de groenten gaar zijn. Voeg zo nodig 2 el water toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "mutton-keema-lettuce-wraps": {
+    "source": "c0ca8d98",
+    "name": "Keema-wraps met schapengehakt en sla",
+    "description": "Schapengehakt met romaine sla en komkommer, als keema-wraps met naturel yoghurt en komijn.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "100 g romaine sla, gewassen en gedroogd",
+      "1 komkommer (200 g), in plakjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "4 kleine platbroden"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de komijn en het zout toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Meng de yoghurt en de komijn in een kommetje. Schep het bij het serveren over het gerecht.",
+      "Verwarm de platbroden in een droge pan. Doe de vulling erop, met de romaine sla en de komkommer, en vouw dicht.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "mutton-keema-pepper-pasta": {
+    "source": "07452d9e",
+    "name": "Keema-pasta met schapengehakt en paprika",
+    "description": "Schapengehakt met paprika en pruimtomaten, als keema-pasta met knoflook en verse kruiden.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "250 g pruimtomaten, in blokjes",
+      "1 tl gedroogde oregano",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd",
+      "180 g gedroogde pasta"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de pasta, terwijl je de saus maakt, in een aparte pan met kokend water volgens de verpakking. Bewaar 100 ml kookwater. Giet de pasta af en zet apart.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de zwarte peper en het zout toe.",
+      "Voeg de paprika en de tomaten toe. Doe het deksel op de pan en laat 5–8 minuten garen, tot de groenten gaar zijn. Voeg zo nodig 2 el water toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Doe de gekookte pasta in de pan. Voeg een beetje van het bewaarde kookwater toe om de saus losser te maken.",
+      "Voeg de oregano vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "mutton-keema-potato-bowl": {
+    "source": "a9afd84f",
+    "name": "Keema-kom met schapengehakt en aardappel",
+    "description": "Schapengehakt met aardappelen en pruimtomaten, als keema-koekenpan met geroosterde komijn.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de komijn, de zwarte peper en het zout toe.",
+      "Voeg de aardappelblokjes en de tomaten toe. Doe het deksel op de pan en laat 12–15 minuten garen, tot de groenten gaar zijn. Voeg zo nodig 2 el water toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "mutton-coconut-eggplant-curry": {
+    "source": "aec2ae99",
+    "name": "Kerrie van schapenvlees met kokos en aubergine",
+    "description": "Schapenvlees met aubergine en pruimtomaten, als kerrie met kokosmelk en kurkuma.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "200 g aubergine, in blokjes van 2 cm",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook en de gember toe. Roer 1 minuut. Voeg de kurkuma, de komijn en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de aubergine en de tomaten toe. Voeg de kokosmelk toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-mustard-greens-stew": {
+    "source": "b74406e7",
+    "name": "Stoofpot van schapenvlees met mosterdblad",
+    "description": "Schapenvlees met mosterdblad en pruimtomaten, als langzaam gestoofde stoofpot met warme komijn en koriander.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "120 g mosterdblad, gewassen en gehakt",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook en de gember toe. Roer 1 minuut. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg het mosterdblad en de tomaten toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-rosemary-root-stew": {
+    "source": "75037af8",
+    "name": "Stoofpot van schapenvlees met rozemarijn en wortelgroenten",
+    "description": "Schapenvlees met wortel en aardappelen, als langzaam gestoofde stoofpot met knoflook en verse kruiden.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "200 g wortels, in dunne staafjes",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "1 tl fijngehakte rozemarijn",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de zwarte peper en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de wortelstaafjes en de aardappelblokjes toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Voeg de rozemarijn vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-keema-napa-noodles": {
+    "source": "1b985af5",
+    "name": "Keema-noedels met schapengehakt en Chinese kool",
+    "description": "Schapengehakt met Chinese kool en bosui, als keema-noedels met gember en lichte sojasaus.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "200 g Chinese kool, in dunne reepjes",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "150 g gedroogde noedels"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de sojasaus, de rijstazijn en het zout toe.",
+      "Voeg de Chinese kool en de bosuitjes toe. Doe het deksel op de pan en laat 5–8 minuten garen, tot de groenten gaar zijn. Voeg zo nodig 2 el water toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "mutton-tomato-green-bean-curry": {
+    "source": "d2ecd74f",
+    "name": "Kerrie van schapenvlees met tomaat en sperziebonen",
+    "description": "Schapenvlees met sperziebonen en pruimtomaten, als kerrie met warme komijn en koriander.",
+    "ingredients": [
+      "450 g schapenvlees zonder bot, in stukjes van 2 cm",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "600 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een diepe pan. Bak het schapenvlees 6–8 minuten bruin en leg het op een bord.",
+      "Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Doe het schapenvlees terug in de pan. Giet er 600 ml water bij, breng aan de kook, zet het vuur laag en doe het deksel erop. Laat 60 minuten zachtjes garen.",
+      "Voeg de sperziebonen en de tomaten toe. Laat 20–30 minuten zachtjes koken, tot het schapenvlees mals is. Voeg een beetje water toe als de pan droog wordt.",
+      "Controleer het dikste stuk vlees met een keukenthermometer. De kern moet minstens 63 °C bereiken. Laat het vlees 3 minuten rusten voor het serveren.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "De malsheid hangt af van het stuk vlees. Laat stevig vlees langer zachtjes koken."
+  },
+  "mutton-keema-coriander-rice": {
+    "source": "cf91b952",
+    "name": "Keema-rijst met schapengehakt en koriander",
+    "description": "Schapengehakt met wortel en bosui, als keema-rijstkom met geroosterde komijn.",
+    "ingredients": [
+      "350 g schapengehakt",
+      "200 g wortels, in dunne staafjes",
+      "3 bosuitjes, in ringetjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper",
+      "1 middelgrote ui, fijngesnipperd",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe en roer 1 minuut.",
+      "Voeg het schapengehakt toe. Bak 8–10 minuten en breek de klontjes uit elkaar. Voeg de komijn, de zwarte peper en het zout toe.",
+      "Voeg de wortelstaafjes en de bosuitjes toe. Doe het deksel op de pan en laat 5–8 minuten garen, tot de groenten gaar zijn. Voeg zo nodig 2 el water toe.",
+      "Controleer het midden van het schapengehakt met een keukenthermometer. De kern moet 71 °C bereiken.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Breek het gehakt in kleine stukjes, zodat het gelijkmatig gaar wordt."
+  },
+  "spinach-tomato-egg-scramble": {
+    "source": "c6eff1ec",
+    "name": "Roerei met spinazie en tomaat",
+    "description": "Eieren met spinazie en cherrytomaten, als zacht, volledig gaar roerei met zwarte peper en knoflook.",
+    "ingredients": [
+      "4 grote eieren",
+      "100 g spinazie, gewassen en grof gehakt",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte bieslook",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl grof gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de spinazie en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de zwarte peper en het zout toe.",
+      "Klop de eieren los in een kom. Giet ze in de pan. Roer 3–5 minuten zachtjes, tot de eieren helemaal gestold zijn.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Voeg de bieslook vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "methi-spring-onion-omelette": {
+    "source": "babc87d3",
+    "name": "Omelet met methi en bosui",
+    "description": "Eieren met fenegriekblad en bosui, als dubbelgevouwen omelet met geroosterde komijn.",
+    "ingredients": [
+      "4 grote eieren",
+      "80 g fenegriekblad, gewassen en gehakt",
+      "3 bosuitjes, in ringetjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg het fenegriekblad en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de komijn, de zwarte peper en het zout toe.",
+      "Klop de eieren los in een kom. Giet ze in de pan. Bak 4–6 minuten op laag vuur en vouw de omelet dubbel.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-tomato-coconut-curry": {
+    "source": "f8fa2fd5",
+    "name": "Eierkerrie met tomaat en kokos",
+    "description": "Eieren met pruimtomaten en geraspte gember, als kerrie van gekookte eieren met kokosmelk en kurkuma.",
+    "ingredients": [
+      "4 grote eieren",
+      "250 g pruimtomaten, in blokjes",
+      "2 tl geraspte gember",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "200 ml kokosmelk",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de eieren in een steelpan, terwijl je de groenten voorbereidt, en bedek ze met koud water. Breng aan de kook en laat 10–12 minuten zachtjes koken, tot de dooiers en het eiwit stevig zijn. Laat afkoelen in koud water, pel en halveer.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook en de gember toe. Roer 1 minuut. Voeg de kurkuma, de komijn en het zout toe.",
+      "Voeg de tomaten, 250 ml water en de kokosmelk toe. Laat 10 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de gekookte eieren toe en laat 2 minuten zachtjes koken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-bell-pepper-rice": {
+    "source": "d56044fd",
+    "name": "Rijst met ei en paprika",
+    "description": "Eieren met paprika en wortel, als gebakken rijst met ei, gember en lichte sojasaus.",
+    "ingredients": [
+      "4 grote eieren",
+      "1 paprika (150 g), zonder zaadjes, in reepjes",
+      "200 g wortels, in dunne staafjes",
+      "3 bosuitjes, in ringetjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g basmatirijst, afgespoeld"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de rijst en 250 ml water in een steelpan, terwijl je de rest van het gerecht maakt. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen. Zet het vuur uit en laat nog 10 minuten onder het deksel staan.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de paprika, de wortelstaafjes en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de sojasaus, de rijstazijn en het zout toe.",
+      "Klop de eieren los in een kom. Giet ze in de pan. Roer 3–5 minuten zachtjes, tot de eieren helemaal gestold zijn.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Doe de gekookte rijst in de pan en schep voorzichtig door. Verwarm 2 minuten.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-cucumber-dill-salad": {
+    "source": "148130bf",
+    "name": "Salade met ei, komkommer en dille",
+    "description": "Eieren met komkommer en romaine sla, als salade van gekookte eieren met naturel yoghurt en komijn.",
+    "ingredients": [
+      "4 grote eieren",
+      "1 komkommer (200 g), in plakjes",
+      "100 g romaine sla, gewassen en gedroogd",
+      "2 el gehakte dille",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de eieren in een steelpan, terwijl je de groenten voorbereidt, en bedek ze met koud water. Breng aan de kook en laat 10–12 minuten zachtjes koken, tot de dooiers en het eiwit stevig zijn. Laat afkoelen in koud water, pel en halveer.",
+      "Meng de olie, knoflook, zout, yoghurt en komijn in een kom. Schep de komkommer en de romaine sla door de dressing.",
+      "Leg de groenten met dressing op borden en leg de gehalveerde gekookte eieren erop.",
+      "Voeg de dille vlak voor het serveren toe.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-spinach-breakfast-wraps": {
+    "source": "9e3e8a3b",
+    "name": "Ontbijtwraps met ei en spinazie",
+    "description": "Eieren met spinazie en cherrytomaten, als ontbijtwrap met ei, zwarte peper en knoflook.",
+    "ingredients": [
+      "4 grote eieren",
+      "100 g spinazie, gewassen en grof gehakt",
+      "150 g cherrytomaten, gehalveerd",
+      "2 el gehakte bieslook",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl grof gemalen zwarte peper",
+      "4 kleine platbroden"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de voorbereide groenten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de zwarte peper en het zout toe.",
+      "Klop de eieren los in een kom. Giet ze in de pan. Roer 3–5 minuten zachtjes, tot de eieren helemaal gestold zijn.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Verwarm de platbroden in een droge pan. Doe de vulling en de voorbereide groenten voor de salade erop en vouw dicht.",
+      "Voeg de bieslook vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "zucchini-basil-frittata": {
+    "source": "23d44d6d",
+    "name": "Frittata met courgette en basilicum",
+    "description": "Eieren met courgette en cherrytomaten, als goudbruin gebakken frittata met knoflook en verse kruiden.",
+    "ingredients": [
+      "4 grote eieren",
+      "200 g courgette, in halve maantjes",
+      "150 g cherrytomaten, gehalveerd",
+      "15 g basilicumblaadjes, gescheurd",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een ovenvaste koekenpan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de courgette en de cherrytomaten toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de zwarte peper en het zout toe.",
+      "Verwarm de oven voor op 180 °C. Klop de eieren los, giet ze over de groenten en laat 3 minuten op laag vuur garen. Zet de pan in de oven en bak 12–15 minuten.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Voeg de basilicumblaadjes vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-bok-choy-noodle-broth": {
+    "source": "bcd95a60",
+    "name": "Noedelbouillon met ei en pak choi",
+    "description": "Eieren met pak choi en bosui, als noedelbouillon met eilinten, gember en lichte sojasaus.",
+    "ingredients": [
+      "4 grote eieren",
+      "200 g pak choi, stelen in plakjes en bladeren gehakt",
+      "3 bosuitjes, in ringetjes",
+      "2 tl geraspte gember",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels",
+      "700 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een pan. Voeg de knoflook en de gember toe. Roer 1 minuut.",
+      "Voeg de pak choi en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de sojasaus, de rijstazijn en het zout toe.",
+      "Giet er 700 ml water bij. Breng aan de kook en zet het vuur laag. Klop de eieren los en giet ze in een dun straaltje in de pan. Roer zachtjes, zodat er linten ontstaan. Laat 3–4 minuten koken.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-potato-coriander-curry": {
+    "source": "01e74afc",
+    "name": "Eierkerrie met aardappel en koriander",
+    "description": "Eieren met aardappelen en pruimtomaten, als kerrie van gekookte eieren met warme komijn en koriander.",
+    "ingredients": [
+      "4 grote eieren",
+      "250 g aardappelen, in blokjes van 1 cm",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte koriander",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "1 tl gemalen koriander",
+      "½ tl kurkumapoeder",
+      "½ tl garam masala",
+      "1 middelgrote ui, fijngesnipperd",
+      "250 ml water"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de eieren in een steelpan, terwijl je de groenten voorbereidt, en bedek ze met koud water. Breng aan de kook en laat 10–12 minuten zachtjes koken, tot de dooiers en het eiwit stevig zijn. Laat afkoelen in koud water, pel en halveer.",
+      "Verhit de olie in een pan. Bak de ui 5 minuten. Voeg de knoflook toe. Roer 1 minuut. Voeg de komijn, gemalen koriander, kurkuma, garam masala en het zout toe.",
+      "Voeg de aardappelblokjes, de tomaten en 250 ml water toe. Laat 15–20 minuten zachtjes koken, tot de groenten gaar zijn.",
+      "Voeg de gekookte eieren toe en laat 2 minuten zachtjes koken.",
+      "Voeg de koriander vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-rocket-radish-toast": {
+    "source": "af906ed1",
+    "name": "Toast met ei, rucola en radijs",
+    "description": "Eieren met rucola en radijs, als toast met gekookt ei, citroen en knoflook.",
+    "ingredients": [
+      "4 grote eieren",
+      "80 g rucola, gewassen en gedroogd",
+      "100 g radijsjes, in dunne plakjes",
+      "2 el gehakte bieslook",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 el citroensap",
+      "½ tl gemalen zwarte peper",
+      "4 sneetjes volkorenbrood"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de eieren in een steelpan, terwijl je de groenten voorbereidt, en bedek ze met koud water. Breng aan de kook en laat 10–12 minuten zachtjes koken, tot de dooiers en het eiwit stevig zijn. Laat afkoelen in koud water, pel en halveer.",
+      "Meng de olie, knoflook, zout, citroensap en zwarte peper in een kom. Schep de rucola en de radijs door de dressing.",
+      "Voeg het citroensap vlak voor het serveren toe.",
+      "Rooster het brood. Beleg het met de groenten met dressing en de gehalveerde gekookte eieren.",
+      "Voeg de bieslook vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-napa-carrot-noodles": {
+    "source": "35bcf4d7",
+    "name": "Noedels met ei, Chinese kool en wortel",
+    "description": "Eieren met Chinese kool en wortel, als eiernoedels met gember en lichte sojasaus.",
+    "ingredients": [
+      "4 grote eieren",
+      "200 g Chinese kool, in dunne reepjes",
+      "200 g wortels, in dunne staafjes",
+      "3 bosuitjes, in ringetjes",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "⅛ tl zout",
+      "1 el sojasaus met minder zout",
+      "1 tl rijstazijn",
+      "150 g gedroogde noedels"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Kook de noedels, terwijl je de rest van het gerecht maakt, in een aparte pan met kokend water volgens de verpakking. Giet af en zet apart.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de Chinese kool, de wortelstaafjes en de bosuitjes toe. Bak ze 4–6 minuten, tot ze gaar zijn. Voeg de sojasaus, de rijstazijn en het zout toe.",
+      "Klop de eieren los in een kom. Giet ze in de pan. Roer 3–5 minuten zachtjes, tot de eieren helemaal gestold zijn.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Doe de gekookte noedels in de pan. Schep voorzichtig om, of verdeel de noedels over kommen en schep de bouillon erover.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-green-bean-tomato-skillet": {
+    "source": "6e00a316",
+    "name": "Koekenpan met ei, sperziebonen en tomaat",
+    "description": "Eieren met sperziebonen en pruimtomaten, als eieren gegaard in een groentepan met geroosterde komijn.",
+    "ingredients": [
+      "4 grote eieren",
+      "150 g sperziebonen, schoongemaakt en gehalveerd",
+      "250 g pruimtomaten, in blokjes",
+      "2 el gehakte platte peterselie",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "1 tl gemalen komijn",
+      "½ tl gemalen zwarte peper"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Verhit de olie in een pan. Voeg de knoflook toe. Roer 1 minuut.",
+      "Voeg de sperziebonen en de tomaten toe. Bak ze 8–10 minuten, tot ze gaar zijn. Voeg de komijn, de zwarte peper en het zout toe.",
+      "Maak vier kuiltjes in de groenten. Breek in elk kuiltje een ei. Doe het deksel op de pan en laat 6–10 minuten op laag vuur garen, tot het eiwit en de dooier stevig zijn.",
+      "Bak tot het eimengsel 71 °C bereikt en er geen vloeibaar ei meer over is.",
+      "Voeg de peterselie vlak voor het serveren toe.",
+      "Proef voordat je meer zout toevoegt. Serveer warm."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "egg-beetroot-mint-salad": {
+    "source": "6aff41c2",
+    "name": "Salade met ei, rode biet en munt",
+    "description": "Eieren met gekookte rode biet en komkommer, als salade van gekookte eieren met naturel yoghurt en komijn.",
+    "ingredients": [
+      "4 grote eieren",
+      "150 g gekookte rode biet, afgekoeld en in blokjes",
+      "1 komkommer (200 g), in plakjes",
+      "2 el gehakte munt",
+      "1 el olijfolie",
+      "2 teentjes knoflook, fijngehakt",
+      "¼ tl zout",
+      "100 g naturel yoghurt",
+      "½ tl gemalen komijn"
+    ],
+    "steps": [
+      "Was de groenten en kruiden en maak ze klaar. Houd rauw vlees en vis en het bijbehorende keukengerei gescheiden van de verse groenten.",
+      "Doe de eieren in een steelpan, terwijl je de groenten voorbereidt, en bedek ze met koud water. Breng aan de kook en laat 10–12 minuten zachtjes koken, tot de dooiers en het eiwit stevig zijn. Laat afkoelen in koud water, pel en halveer.",
+      "Meng de olie, knoflook, zout, yoghurt en komijn in een kom. Schep de gekookte rode biet en de komkommer door de dressing.",
+      "Leg de groenten met dressing op borden en leg de gehalveerde gekookte eieren erop.",
+      "Voeg de munt vlak voor het serveren toe.",
+      "Serveer de salade direct na het samenstellen."
+    ],
+    "tip": "Gebruik verse eieren. Bak zowel de dooier als het eiwit tot ze stevig zijn."
+  },
+  "banana-flour-yoghurt-pancakes": {
+    "source": "c0eb4b36",
+    "name": "Pannenkoekjes met bananenmeel en yoghurt",
+    "description": "Kleine, zachte pannenkoekjes van een mengsel van bananenmeel, tarwebloem en yoghurt.",
+    "ingredients": [
+      "40 g groene bananenmeel",
+      "80 g tarwebloem",
+      "1 tl bakpoeder",
+      "1 tl suiker",
+      "80 g naturel yoghurt, plus 4 el om te serveren",
+      "120 ml melk",
+      "2 tl neutrale olie",
+      "1 rijpe banaan, in plakjes"
+    ],
+    "steps": [
+      "Meng het bananenmeel, de tarwebloem, het bakpoeder en de suiker in een kom.",
+      "Klop de yoghurt, de melk en 1 tl olie erdoor, tot er geen droge bloem meer te zien is. Laat 5 minuten rusten.",
+      "Verhit een anti-aanbakpan op middellaag vuur. Bestrijk de pan met de rest van de olie.",
+      "Schep kleine rondjes beslag in de pan. Bak 2–3 minuten, tot de randen stevig zijn en er belletjes verschijnen.",
+      "Keer elke pannenkoek en bak nog 1–2 minuten, tot het midden gestold is. Herhaal met het resterende beslag.",
+      "Serveer warm met extra yoghurt en plakjes banaan."
+    ],
+    "tip": "Bananenmeel neemt vocht op. Voeg de melk per eetlepel toe als het beslag na het rusten te dik is om te scheppen."
+  },
+  "banana-flour-cumin-flatbreads": {
+    "source": "ea7d5243",
+    "name": "Platbroden met bananenmeel en komijn",
+    "description": "Een mengsel van tarwe- en bananenmeel maakt deze kleine platbroden met komijn makkelijk te serveren met yoghurt.",
+    "ingredients": [
+      "40 g groene bananenmeel",
+      "120 g volkorentarwebloem",
+      "1 tl komijnzaad",
+      "¼ tl zout",
+      "100 ml warm water, plus eventueel een beetje extra",
+      "2 tl neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Meng beide soorten bloem, de komijn en het zout. Voeg het water en 1 tl olie toe.",
+      "Kneed 4–5 minuten tot een zacht deeg. Voeg het water per theelepel toe als het deeg scheurt.",
+      "Dek het deeg af en laat 10 minuten rusten. Verdeel het in vier gelijke stukken.",
+      "Rol elk stuk uit tot een dun rondje op een licht bebloemd werkblad.",
+      "Bak ongeveer 1 minuut per kant in een hete droge koekenpan. Bestrijk licht met de rest van de olie en keer opnieuw, tot er bruine plekjes verschijnen.",
+      "Houd de gebakken broden ingepakt in een schone doek. Serveer met yoghurt."
+    ],
+    "tip": "Rol liever kleine broden uit dan grote. Zo is dit meelmengsel makkelijker te verwerken."
+  },
+  "banana-flour-savoury-waffles": {
+    "source": "2f8b43d7",
+    "name": "Hartige wafels met bananenmeel",
+    "description": "Hartige wafels met krokante randjes, bosui en een mengsel van tarwe- en bananenmeel.",
+    "ingredients": [
+      "40 g groene bananenmeel",
+      "100 g tarwebloem",
+      "1½ tl bakpoeder",
+      "¼ tl zout",
+      "100 g naturel yoghurt, plus 4 el om te serveren",
+      "140 ml melk",
+      "1 el neutrale olie, plus een beetje voor het wafelijzer",
+      "2 el fijngesneden bosui"
+    ],
+    "steps": [
+      "Verwarm het wafelijzer voor volgens de gebruiksaanwijzing.",
+      "Meng beide soorten bloem, het bakpoeder en het zout. Klop de yoghurt, de melk en de olie erdoor.",
+      "Spatel de bosui erdoor en laat het beslag 5 minuten rusten.",
+      "Vet de wafelplaten licht in met olie. Doe de hoeveelheid beslag erin die voor het ijzer wordt aangeraden.",
+      "Bak tot de wafels goudbruin zijn, makkelijk loskomen en een gestold midden hebben, meestal 4–6 minuten per keer.",
+      "Leg de gebakken wafels op een rooster, zodat ze krokant blijven. Serveer met yoghurt."
+    ],
+    "tip": "Houd de eerste portie warm in een oven van 100 °C terwijl je de rest bakt."
+  },
+  "banana-flour-cardamom-muffins": {
+    "source": "012fa011",
+    "name": "Muffins met bananenmeel en kardemom",
+    "description": "Kleine yoghurtmuffins met bananenmeel, tarwebloem en een lichte smaak van kardemom.",
+    "ingredients": [
+      "40 g groene bananenmeel",
+      "120 g tarwebloem",
+      "1½ tl bakpoeder",
+      "¼ tl gemalen kardemom",
+      "60 g suiker",
+      "100 g naturel yoghurt",
+      "60 ml melk",
+      "40 ml neutrale olie",
+      "¼ tl zout"
+    ],
+    "steps": [
+      "Verwarm de oven voor op 180 °C. Zet zes papieren muffinvormpjes in een muffinplaat.",
+      "Meng de bloem, het bakpoeder, de kardemom, de suiker en het zout.",
+      "Klop de yoghurt, de melk en de olie in een tweede kom.",
+      "Spatel het natte mengsel door de droge ingrediënten, tot er geen droge bloem meer te zien is. Verdeel over de zes vormpjes.",
+      "Bak 20–22 minuten, tot de bovenkant terugveert en er geen nat beslag meer aan een prikker blijft zitten.",
+      "Laat 5 minuten afkoelen in de vorm en leg de muffins daarna op een rooster."
+    ],
+    "tip": "Meng alleen tot alles gemengd is. Te lang mengen kan de kruim stevig maken."
+  },
+  "moringa-besan-chilla": {
+    "source": "f3a3449a",
+    "name": "Chilla met moringa en besan",
+    "description": "Dunne pannenkoekjes van kikkererwtenmeel met moringabladpoeder, ui en koriander.",
+    "ingredients": [
+      "100 g kikkererwtenmeel (besan)",
+      "1 tl moringabladpoeder",
+      "160 ml water",
+      "40 g ui, fijngesnipperd",
+      "2 el gehakte koriander",
+      "¼ tl gemalen komijn",
+      "¼ tl zout",
+      "2 tl neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Meng de besan, het moringapoeder, de komijn en het zout.",
+      "Klop het water erdoor tot een glad, gietbaar beslag. Roer de ui en de koriander erdoor.",
+      "Verhit een anti-aanbakpan op middelhoog vuur en bestrijk de pan met een beetje olie.",
+      "Verdeel een kleine soeplepel beslag tot een dun rondje. Bak 2–3 minuten, tot de bovenkant gestold lijkt.",
+      "Keer om en bak 1–2 minuten, tot het door en door gaar is. Herhaal met het resterende beslag en de olie.",
+      "Serveer warm met yoghurt."
+    ],
+    "tip": "Voeg het water per eetlepel toe als het beslag tijdens het staan dikker wordt."
+  },
+  "moringa-lemon-lentil-soup": {
+    "source": "19ebb927",
+    "name": "Linzensoep met moringa en citroen",
+    "description": "Een dikke soep van gespleten linzen, afgemaakt met moringabladpoeder en citroen.",
+    "ingredients": [
+      "100 g gele gespleten linzen (moong dal), afgespoeld",
+      "1 tl moringabladpoeder",
+      "600 ml water",
+      "60 g ui, in blokjes",
+      "1 tl neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl zout",
+      "1 el citroensap",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de ui toe en bak 4 minuten, tot de ui zacht is.",
+      "Voeg de linzen en het water toe. Breng aan de kook en laat 18–22 minuten zachtjes koken, tot de linzen zacht zijn.",
+      "Meng het moringapoeder met 2 el van de hete soep. Roer het met het zout terug in de pan.",
+      "Laat 2 minuten zachtjes koken. Voeg een beetje water toe als de soep te dik is.",
+      "Haal van het vuur en roer het citroensap en de koriander erdoor."
+    ],
+    "tip": "Gebruik een garde om de zachte linzen fijn te maken als je de soep liever gladder hebt."
+  },
+  "moringa-pea-pulao": {
+    "source": "d1b01d1a",
+    "name": "Pulao met moringa en erwten",
+    "description": "Basmatirijst en erwten met een beetje moringapoeder en komijn.",
+    "ingredients": [
+      "150 g basmatirijst, afgespoeld en uitgelekt",
+      "1 tl moringabladpoeder",
+      "100 g diepvriespeulen",
+      "300 ml water",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl zout",
+      "1 el citroensap"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan met een goed sluitend deksel. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de uitgelekte rijst toe en roer 1 minuut voorzichtig.",
+      "Meng het moringapoeder met het water. Voeg het met de erwten en het zout toe aan de rijst.",
+      "Breng aan de kook, doe het deksel erop en zet het vuur laag. Laat 12 minuten garen.",
+      "Zet het vuur uit en laat de pan nog 5 minuten afgedekt staan. Controleer of de rijst gaar is.",
+      "Maak de rijst los met een vork en voeg het citroensap toe."
+    ],
+    "tip": "Gebruik de verhouding rijst en water van de verpakking als die anders is dan in dit recept."
+  },
+  "moringa-sesame-roti": {
+    "source": "3c1412d6",
+    "name": "Roti met moringa en sesam",
+    "description": "Volkoren roti met moringabladpoeder en sesamzaad.",
+    "ingredients": [
+      "160 g volkorentarwebloem, plus een beetje om uit te rollen",
+      "1 tl moringabladpoeder",
+      "2 tl sesamzaad",
+      "¼ tl zout",
+      "105 ml warm water, plus eventueel een beetje extra",
+      "2 tl neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Meng de bloem, het moringapoeder, het sesamzaad en het zout.",
+      "Voeg het water en 1 tl olie toe. Kneed 4–5 minuten, tot het deeg zacht en glad is.",
+      "Dek af en laat 10 minuten rusten. Verdeel in vier gelijke ballen.",
+      "Rol elke bal uit tot een dun rondje op een licht bebloemd werkblad.",
+      "Bak ongeveer 1 minuut per kant in een hete koekenpan. Bestrijk met de rest van de olie en keer, tot er bruine plekjes verschijnen.",
+      "Houd warm in een schone doek en serveer met yoghurt."
+    ],
+    "tip": "Begin met de vermelde hoeveelheid moringapoeder. De aardse smaak wordt sterker naarmate je meer toevoegt."
+  },
+  "beetroot-powder-hummus": {
+    "source": "9b535190",
+    "name": "Hummus met bietenpoeder",
+    "description": "Hummus van kikkererwten, gekleurd en op smaak gebracht met bietenpoeder.",
+    "ingredients": [
+      "240 g gekookte kikkererwten, uitgelekt",
+      "2 tl bietenpoeder",
+      "2 el tahini",
+      "2 el citroensap",
+      "1 el olijfolie, plus 1 tl om af te maken",
+      "1 klein teentje knoflook",
+      "3 el water, plus eventueel een beetje extra",
+      "¼ tl zout",
+      "1 el gehakte peterselie"
+    ],
+    "steps": [
+      "Meng het bietenpoeder in een kommetje met het water tot een glad mengsel.",
+      "Doe de kikkererwten, tahini, citroensap, olijfolie, knoflook en het zout in een keukenmachine.",
+      "Voeg het bietenmengsel toe en mix tot een gladde massa. Schraap de kom indien nodig schoon.",
+      "Voeg het water per eetlepel toe, tot de hummus zacht en smeerbaar is.",
+      "Schep in een ondiepe kom. Maak af met de extra olijfolie en de peterselie."
+    ],
+    "tip": "Gebruik gekookte, afgekoelde kikkererwten. Bewaar de dip afgedekt in de koelkast en gebruik hem binnen 2 dagen."
+  },
+  "beetroot-cumin-paratha": {
+    "source": "e37a5923",
+    "name": "Paratha met bietenpoeder en komijn",
+    "description": "Volkoren paratha met bietenpoeder en komijn.",
+    "ingredients": [
+      "160 g volkorentarwebloem, plus een beetje om uit te rollen",
+      "2 tl bietenpoeder",
+      "½ tl komijnzaad",
+      "¼ tl zout",
+      "105 ml warm water, plus eventueel een beetje extra",
+      "1 el neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Meng de bloem, het bietenpoeder, de komijn en het zout.",
+      "Voeg het water en 1 tl olie toe. Kneed tot een zacht deeg en voeg zo nodig een beetje water toe.",
+      "Dek af en laat 10 minuten rusten. Verdeel in vier ballen.",
+      "Rol elke bal uit tot een dun rondje op een licht bebloemd werkblad.",
+      "Bak elk brood 1 minuut per kant in een hete koekenpan. Voeg een beetje van de resterende olie toe en bak tot er bruine plekjes verschijnen en het midden gaar is.",
+      "Serveer warm met yoghurt."
+    ],
+    "tip": "Bietenpoeder kan het werkblad verkleuren. Rol uit op een plank die je kunt afwassen."
+  },
+  "beetroot-coconut-rice": {
+    "source": "5b95238f",
+    "name": "Kokosrijst met bietenpoeder",
+    "description": "Roze rijst met bietenpoeder, geraspte kokos en kerrieblaadjes.",
+    "ingredients": [
+      "150 g basmatirijst, afgespoeld en uitgelekt",
+      "2 tl bietenpoeder",
+      "300 ml water",
+      "30 g geraspte kokos",
+      "1 el neutrale olie",
+      "½ tl mosterdzaad",
+      "8 kerrieblaadjes",
+      "¼ tl zout"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Voeg het mosterdzaad toe en laat het beginnen te knappen.",
+      "Voeg de kerrieblaadjes voorzichtig toe en roer de uitgelekte rijst erdoor.",
+      "Meng het bietenpoeder met het water. Voeg dit mengsel en het zout toe aan de pan.",
+      "Breng aan de kook. Doe het deksel erop en laat 12 minuten op laag vuur garen.",
+      "Zet het vuur uit en laat afgedekt 5 minuten rusten. Controleer of de rijst gaar is.",
+      "Maak de rijst voorzichtig los en spatel de geraspte kokos erdoor."
+    ],
+    "tip": "Voeg de kokos aan het eind toe, zodat de structuur behouden blijft."
+  },
+  "beetroot-cocoa-pancakes": {
+    "source": "8eb1090b",
+    "name": "Pannenkoeken met bietenpoeder en cacao",
+    "description": "Cacaopannenkoeken met bietenpoeder, geserveerd met yoghurt en banaan.",
+    "ingredients": [
+      "100 g tarwebloem",
+      "2 tl bietenpoeder",
+      "1 el cacaopoeder",
+      "1 tl bakpoeder",
+      "1 el suiker",
+      "100 g naturel yoghurt, plus 4 el om te serveren",
+      "120 ml melk",
+      "2 tl neutrale olie",
+      "1 rijpe banaan, in plakjes"
+    ],
+    "steps": [
+      "Meng de bloem, het bietenpoeder, de cacao, het bakpoeder en de suiker.",
+      "Klop de yoghurt, de melk en 1 tl olie erdoor. Laat het beslag 5 minuten rusten.",
+      "Verhit een anti-aanbakpan op middellaag vuur. Bestrijk met de rest van de olie.",
+      "Schep kleine rondjes beslag in de pan. Bak 2–3 minuten, tot de randen stevig zijn.",
+      "Keer om en bak nog 1–2 minuten, tot er in het midden geen nat beslag meer is. Herhaal met het resterende beslag.",
+      "Serveer met yoghurt en plakjes banaan."
+    ],
+    "tip": "Cacao maakt de gebakken kleur donkerder. Verwacht geen felroze pannenkoeken."
+  },
+  "turmeric-lemon-chickpeas": {
+    "source": "e0c01fbe",
+    "name": "Kikkererwten met kurkuma en citroen",
+    "description": "Warme kikkererwten met kurkuma, komijn en citroen.",
+    "ingredients": [
+      "480 g gekookte kikkererwten, uitgelekt",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1 el olijfolie",
+      "60 ml water",
+      "¼ tl zout",
+      "1 el citroensap",
+      "2 el gehakte peterselie"
+    ],
+    "steps": [
+      "Dep de uitgelekte kikkererwten droog.",
+      "Verhit de olie in een brede pan op middelhoog vuur. Voeg de kurkuma en de komijn toe en roer 20 seconden.",
+      "Voeg de kikkererwten, het water en het zout toe. Roer, zodat alles bedekt is.",
+      "Doe het deksel op de pan en laat 5 minuten garen. Haal het deksel eraf en bak nog 4–5 minuten, tot de kikkererwten heet zijn en een dun laagje saus hebben.",
+      "Haal van het vuur. Voeg het citroensap en de peterselie toe en serveer."
+    ],
+    "tip": "Voeg een beetje water toe als de kruiden aan de pan gaan plakken."
+  },
+  "turmeric-coconut-dal": {
+    "source": "90ad01d5",
+    "name": "Dal met kurkuma en kokos",
+    "description": "Gele gespleten linzen, zachtjes gekookt met kurkuma en kokosmelk.",
+    "ingredients": [
+      "120 g gele gespleten linzen (moong dal), afgespoeld",
+      "½ tl kurkumapoeder",
+      "450 ml water",
+      "150 ml kokosmelk",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "60 g ui, fijngesnipperd",
+      "¼ tl zout",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Doe de linzen, de kurkuma en het water in een steelpan. Breng aan de kook.",
+      "Zet het vuur lager en laat 18–22 minuten zachtjes koken, tot de linzen zacht zijn. Roer af en toe.",
+      "Verhit ondertussen de olie in een kleine pan. Voeg de komijn toe en daarna de ui. Bak 5–6 minuten, tot de ui zacht is.",
+      "Roer het uienmengsel, de kokosmelk en het zout door de linzen.",
+      "Laat 3 minuten zachtjes koken. Voeg zo nodig een beetje water toe en maak af met koriander."
+    ],
+    "tip": "Laat het gerecht na het toevoegen van de kokosmelk zachtjes sudderen."
+  },
+  "turmeric-cauliflower-tray-bake": {
+    "source": "d5d68739",
+    "name": "Ovenschotel van bloemkool met kurkuma",
+    "description": "Geroosterde bloemkool en kikkererwten met kurkuma en komijn.",
+    "ingredients": [
+      "400 g bloemkoolroosjes",
+      "240 g gekookte kikkererwten, uitgelekt en drooggedept",
+      "½ tl kurkumapoeder",
+      "½ tl gemalen komijn",
+      "1½ el olijfolie",
+      "¼ tl zout",
+      "1 el citroensap",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Verwarm de oven voor op 210 °C. Bekleed een grote bakplaat met bakpapier.",
+      "Meng de olie, de kurkuma, de komijn en het zout in een grote kom.",
+      "Voeg de bloemkool en de kikkererwten toe. Schep om, tot alles gelijkmatig bedekt is.",
+      "Verdeel in één laag over de bakplaat. Rooster 22–25 minuten en keer één keer om, tot de bloemkool gaar is met gebruinde randjes.",
+      "Voeg het citroensap en de koriander vlak voor het serveren toe."
+    ],
+    "tip": "Gebruik een grote bakplaat. Als de roosjes te dicht op elkaar liggen, stomen ze in plaats van bruin te worden."
+  },
+  "turmeric-pea-upma": {
+    "source": "2007b533",
+    "name": "Upma met kurkuma en erwten",
+    "description": "Upma van griesmeel met erwten, kurkuma en kerrieblaadjes.",
+    "ingredients": [
+      "120 g fijne griesmeel",
+      "¼ tl kurkumapoeder",
+      "80 g diepvriespeulen",
+      "360 ml heet water",
+      "1 el neutrale olie",
+      "½ tl mosterdzaad",
+      "8 kerrieblaadjes",
+      "40 g ui, fijngesnipperd",
+      "¼ tl zout",
+      "1 el citroensap"
+    ],
+    "steps": [
+      "Rooster de griesmeel 3–4 minuten droog in een steelpan op middellaag vuur. Leg de griesmeel op een bord.",
+      "Verhit de olie in dezelfde pan. Voeg het mosterdzaad toe en laat het beginnen te knappen. Voeg de kerrieblaadjes en de ui toe. Bak 3 minuten.",
+      "Voeg de kurkuma, de erwten, het hete water en het zout toe. Breng zachtjes aan de kook.",
+      "Zet het vuur lager. Giet de griesmeel langzaam erbij en roer, zodat er geen klontjes ontstaan.",
+      "Doe het deksel op de pan en laat 3 minuten garen. Zet het vuur uit en laat nog 2 minuten rusten.",
+      "Maak voorzichtig los met een vork en roer het citroensap erdoor."
+    ],
+    "tip": "Giet langzaam en roer voortdurend als je de griesmeel toevoegt."
+  },
+  "onion-powder-potato-wedges": {
+    "source": "bc585d17",
+    "name": "Aardappelpartjes met uienpoeder",
+    "description": "Aardappelpartjes uit de oven, gekruid met uienpoeder en paprikapoeder.",
+    "ingredients": [
+      "500 g aardappelen, goed geschrobd",
+      "1½ tl uienpoeder",
+      "½ tl paprikapoeder",
+      "1½ el olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "1 el gehakte peterselie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Verwarm de oven voor op 220 °C. Bekleed een grote bakplaat.",
+      "Snijd de aardappelen in gelijke partjes en dep ze droog.",
+      "Meng het uienpoeder, het paprikapoeder, de olie, het zout en de peper. Schep de partjes erdoor.",
+      "Verdeel de partjes in één laag. Rooster 28–30 minuten en keer halverwege om, tot ze van binnen gaar en van buiten bruin zijn.",
+      "Bestrooi met peterselie en serveer met yoghurt."
+    ],
+    "tip": "Laat ruimte tussen de partjes, zodat de randjes bruin kunnen worden."
+  },
+  "onion-powder-lentil-patties": {
+    "source": "8af6a06b",
+    "name": "Linzenkoekjes met uienpoeder",
+    "description": "In de pan gebakken koekjes van gekookte linzen met uienpoeder en koriander.",
+    "ingredients": [
+      "250 g gekookte rode linzen, afgekoeld en goed uitgelekt",
+      "60 g droog paneermeel",
+      "1½ tl uienpoeder",
+      "½ tl gemalen komijn",
+      "2 el gehakte koriander",
+      "1 el citroensap",
+      "¼ tl zout",
+      "1½ el neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Prak de uitgelekte linzen in een kom.",
+      "Meng het paneermeel, het uienpoeder, de komijn, de koriander, het citroensap en het zout erdoor. Laat 5 minuten rusten.",
+      "Vorm zes kleine koekjes. Is het mengsel te nat, voeg dan het paneermeel per eetlepel toe.",
+      "Verhit de olie in een anti-aanbakpan op middelhoog vuur. Bak de koekjes 4–5 minuten per kant, tot ze bruin en door en door heet zijn.",
+      "Serveer met yoghurt."
+    ],
+    "tip": "Laat de linzen afkoelen en goed uitlekken voor het mengen. Extra water maakt de koekjes lastig om te keren."
+  },
+  "onion-powder-creamy-polenta": {
+    "source": "d4193889",
+    "name": "Romige polenta met uienpoeder",
+    "description": "Zachte polenta met uienpoeder en gebakken champignons.",
+    "ingredients": [
+      "80 g fijne polenta",
+      "1 tl uienpoeder",
+      "350 ml water",
+      "100 ml melk",
+      "150 g champignons, in plakjes",
+      "1 el boter",
+      "1 tl olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "1 el gehakte bieslook"
+    ],
+    "steps": [
+      "Breng het water, de melk, het uienpoeder en het zout in een steelpan zachtjes aan de kook.",
+      "Giet de polenta langzaam erbij en klop ondertussen. Zet het vuur laag.",
+      "Kook 20–25 minuten en roer vaak, tot de polenta glad en zacht is. Volg de kooktijd op de verpakking als die anders is.",
+      "Verhit ondertussen de olie in een koekenpan. Bak de champignons 6–8 minuten, tot ze bruin zijn.",
+      "Roer de boter door de polenta. Serveer met de champignons, zwarte peper en bieslook."
+    ],
+    "tip": "Voeg het hete water per eetlepel toe als de polenta te stevig wordt."
+  },
+  "onion-powder-butter-beans": {
+    "source": "5fd491d5",
+    "name": "Boterbonen met uienpoeder",
+    "description": "Boterbonen, zachtjes gekookt met wortel, uienpoeder en peterselie.",
+    "ingredients": [
+      "480 g gekookte boterbonen, uitgelekt",
+      "1½ tl uienpoeder",
+      "100 g wortel, fijn in blokjes",
+      "250 ml water",
+      "1 el olijfolie",
+      "1 el citroensap",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "2 el gehakte peterselie"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Voeg de wortel toe en bak 5 minuten.",
+      "Roer het uienpoeder door het water en voeg het toe aan de pan.",
+      "Voeg de bonen, het zout en de peper toe. Breng zachtjes aan de kook.",
+      "Kook 12–15 minuten, tot de wortel gaar is. Prak een paar bonen tegen de rand van de pan om de saus te binden.",
+      "Haal van het vuur en voeg het citroensap en de peterselie toe."
+    ],
+    "tip": "Voeg in kleine hoeveelheden water toe als de bonen tijdens het koken te droog worden."
+  },
+  "onion-flake-rice-pilaf": {
+    "source": "b5f74d06",
+    "name": "Pilav met uienvlokken",
+    "description": "Basmatirijst met zachte uienvlokken, erwten en komijn.",
+    "ingredients": [
+      "150 g basmatirijst, afgespoeld en uitgelekt",
+      "2 el uienvlokken",
+      "100 g diepvriespeulen",
+      "330 ml water",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl zout",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Laat de uienvlokken 5 minuten weken in het afgemeten water. Bewaar het weekwater.",
+      "Verhit de olie in een steelpan. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de uitgelekte rijst toe en roer 1 minuut. Voeg de uienvlokken met hun water, de erwten en het zout toe.",
+      "Breng aan de kook. Doe het deksel erop en laat 12 minuten op laag vuur garen.",
+      "Zet het vuur uit en laat afgedekt 5 minuten rusten. Controleer of de rijst gaar is, maak los met een vork en voeg koriander toe."
+    ],
+    "tip": "De uienvlokken hebben vocht nodig om zacht te worden. Gooi het weekwater niet weg."
+  },
+  "onion-flake-roast-potatoes": {
+    "source": "e6748a9c",
+    "name": "Geroosterde aardappelen met uienvlokken",
+    "description": "Geroosterde aardappelblokjes, afgemaakt met zachte uienvlokken en rozemarijn.",
+    "ingredients": [
+      "500 g aardappelen, geschrobd en in blokjes van 2 cm",
+      "2 el uienvlokken",
+      "3 el warm water",
+      "1½ el olijfolie",
+      "1 tl gehakte rozemarijn",
+      "¼ tl zout",
+      "¼ tl zwarte peper"
+    ],
+    "steps": [
+      "Verwarm de oven voor op 220 °C. Bekleed een bakplaat.",
+      "Schep de aardappelblokjes om met de olie, de rozemarijn, het zout en de peper. Verdeel in één laag.",
+      "Rooster 20 minuten en keer één keer om.",
+      "Laat ondertussen de uienvlokken 10 minuten weken in het warme water. Giet het resterende water af.",
+      "Strooi de zachte vlokken over de aardappelen. Schep voorzichtig om en rooster nog 8–10 minuten, tot de aardappelen gaar zijn en de vlokken goudbruin."
+    ],
+    "tip": "Voeg de uienvlokken pas tegen het einde toe, zodat ze niet verbranden."
+  },
+  "onion-flake-tomato-dal": {
+    "source": "f67dc088",
+    "name": "Tomatendal met uienvlokken",
+    "description": "Rode linzen met uienvlokken, tomaat en komijn.",
+    "ingredients": [
+      "120 g rode linzen, afgespoeld",
+      "2 el uienvlokken",
+      "200 g gehakte tomaten",
+      "500 ml water",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl kurkumapoeder",
+      "¼ tl zout",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de gehakte tomaten en de kurkuma toe. Bak 4 minuten.",
+      "Voeg de linzen, de uienvlokken en het water toe. Breng aan de kook.",
+      "Laat 18–22 minuten zachtjes koken en roer af en toe, tot de linzen en de uienvlokken zacht zijn.",
+      "Voeg het zout en zo nodig een beetje water toe. Maak af met koriander."
+    ],
+    "tip": "De vlokken worden direct in de dal zacht, dus vooraf weken is niet nodig."
+  },
+  "spinach-powder-green-pasta": {
+    "source": "126217c1",
+    "name": "Groene pasta met spinaziepoeder",
+    "description": "Handgesneden pasta van tarwebloem met spinaziepoeder, door boter en knoflook geschept.",
+    "ingredients": [
+      "200 g tarwebloem, plus een beetje om uit te rollen",
+      "1 el spinaziepoeder",
+      "95 ml water, plus eventueel een beetje extra",
+      "1 tl olijfolie",
+      "1 el boter",
+      "1 teentje knoflook, fijngehakt",
+      "¼ tl zwarte peper",
+      "20 g geraspte vegetarische harde kaas",
+      "½ tl zout voor het kookwater"
+    ],
+    "steps": [
+      "Meng de bloem en het spinaziepoeder. Voeg het water en de olie toe en kneed 6–8 minuten tot een stevig, glad deeg. Voeg het water alleen per theelepel toe als dat nodig is.",
+      "Dek af en laat 20 minuten rusten.",
+      "Rol dun uit op een bebloemd werkblad, ongeveer 1–2 mm dik. Bestuif licht met bloem, vouw los op en snijd in repen. Vouw de repen weer open.",
+      "Breng een grote pan water aan de kook en voeg het zout toe. Kook de pasta 3–5 minuten, tot hij gaar is. Bewaar 4 el kookwater voordat je afgiet.",
+      "Smelt de boter in een koekenpan. Bak de knoflook 30 seconden, zonder dat de knoflook bruin wordt.",
+      "Schep de pasta met 2–4 el kookwater erdoor. Voeg de peper en de kaas toe en serveer."
+    ],
+    "tip": "Rol het deeg gelijkmatig uit, zodat alle repen pasta even snel gaar worden."
+  },
+  "spinach-powder-paneer-paratha": {
+    "source": "ff0b7d01",
+    "name": "Paratha met spinaziepoeder en paneer",
+    "description": "Groene tarweparatha's gevuld met verkruimelde paneer en komijn.",
+    "ingredients": [
+      "160 g volkorentarwebloem, plus een beetje om uit te rollen",
+      "2 tl spinaziepoeder",
+      "105 ml warm water, plus eventueel een beetje extra",
+      "120 g paneer, fijn verkruimeld",
+      "½ tl gemalen komijn",
+      "2 el gehakte koriander",
+      "¼ tl zout",
+      "1 el neutrale olie",
+      "100 g naturel yoghurt om te serveren"
+    ],
+    "steps": [
+      "Meng de bloem en het spinaziepoeder. Voeg het water toe en kneed tot een zacht deeg. Dek af en laat 10 minuten rusten.",
+      "Meng de paneer met de komijn, de koriander en het zout. Verdeel de vulling in vier porties.",
+      "Verdeel het deeg in vier ballen. Druk een bal plat, leg een portie vulling in het midden en knijp de randen dicht.",
+      "Rol voorzichtig uit tot een klein rondje. Herhaal met het resterende deeg en de vulling.",
+      "Bak ongeveer 1 minuut per kant in een hete koekenpan. Bestrijk met olie en keer, tot het brood bruin en in het midden door en door heet is.",
+      "Serveer warm met yoghurt."
+    ],
+    "tip": "Houd de vulling droog en rol voorzichtig uit, zodat het deeg minder snel scheurt."
+  },
+  "spinach-powder-potato-soup": {
+    "source": "be1ae6df",
+    "name": "Aardappelsoep met spinaziepoeder",
+    "description": "Een gladde aardappelsoep, afgemaakt met spinaziepoeder en melk.",
+    "ingredients": [
+      "300 g aardappelen, geschild en in blokjes",
+      "1 el spinaziepoeder",
+      "60 g ui, in blokjes",
+      "500 ml water",
+      "100 ml melk",
+      "1 el olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "2 sneetjes brood, geroosterd"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Voeg de ui toe en bak 4 minuten.",
+      "Voeg de aardappelen en het water toe. Breng aan de kook en laat 15–18 minuten zachtjes koken, tot de aardappelen zacht zijn.",
+      "Haal van het vuur. Pureer voorzichtig met een staafmixer tot een gladde soep.",
+      "Meng het spinaziepoeder met de melk. Roer het met het zout en de peper door de soep.",
+      "Zet het vuur weer laag en laat 3 minuten zachtjes koken. Serveer met geroosterd brood."
+    ],
+    "tip": "Voeg na het pureren zo nodig water toe om de soep losser te maken."
+  },
+  "spinach-powder-savoury-crepes": {
+    "source": "c73c7422",
+    "name": "Hartige crêpes met spinaziepoeder",
+    "description": "Dunne crêpes met spinaziepoeder, gevuld met champignons en paneer.",
+    "ingredients": [
+      "100 g tarwebloem",
+      "2 tl spinaziepoeder",
+      "200 ml melk",
+      "2 tl neutrale olie, plus 1 tl voor de vulling",
+      "150 g champignons, in plakjes",
+      "100 g paneer, in kleine blokjes",
+      "¼ tl zout",
+      "¼ tl zwarte peper"
+    ],
+    "steps": [
+      "Klop de bloem, het spinaziepoeder, de melk, de helft van het zout en 1 tl olie tot een glad beslag. Laat 10 minuten rusten.",
+      "Verhit 1 tl olie in een koekenpan. Bak de champignons 6–8 minuten, tot ze bruin zijn. Voeg de paneer en de peper toe en bak 2 minuten.",
+      "Verhit een anti-aanbakpan voor crêpes op middelhoog vuur. Bestrijk licht met de rest van de olie.",
+      "Giet een kleine soeplepel beslag in de pan en draai de pan rond, zodat er een dunne laag ontstaat. Bak 1–2 minuten, tot het beslag gestold is, keer dan om en bak 30–60 seconden.",
+      "Herhaal met het resterende beslag. Verdeel de vulling over de crêpes en vouw dicht om te serveren."
+    ],
+    "tip": "Als het beslag niet dun uitloopt, voeg dan de melk per eetlepel toe."
+  },
+  "carrot-powder-cumin-rice": {
+    "source": "5664a4af",
+    "name": "Komijnrijst met wortelpoeder",
+    "description": "Basmatirijst met wortelpoeder, komijn en erwten.",
+    "ingredients": [
+      "150 g basmatirijst, afgespoeld en uitgelekt",
+      "1 el wortelpoeder",
+      "100 g diepvriespeulen",
+      "310 ml water",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl zout",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan met deksel. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de uitgelekte rijst toe en roer 1 minuut voorzichtig.",
+      "Meng het wortelpoeder met het water. Voeg het met de erwten en het zout toe aan de pan.",
+      "Breng aan de kook. Doe het deksel erop en laat 12 minuten op laag vuur garen.",
+      "Zet het vuur uit en laat 5 minuten rusten. Controleer of de rijst gaar is, maak los met een vork en voeg koriander toe."
+    ],
+    "tip": "Gebruik de verhouding rijst en water van de verpakking als die anders is. Reken op iets meer vocht voor het poeder."
+  },
+  "carrot-powder-ginger-soup": {
+    "source": "61873ba5",
+    "name": "Gembersoep met wortelpoeder",
+    "description": "Een gladde soep op basis van aardappel, met wortelpoeder en gember.",
+    "ingredients": [
+      "2 el wortelpoeder",
+      "250 g aardappelen, geschild en in blokjes",
+      "60 g ui, in blokjes",
+      "1 tl fijngeraspte verse gember",
+      "500 ml water",
+      "1 el olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "2 el naturel yoghurt"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Bak de ui 4 minuten, voeg dan de gember toe en roer 30 seconden.",
+      "Voeg de aardappelen en het water toe. Breng aan de kook en laat 15–18 minuten zachtjes koken, tot ze zacht zijn.",
+      "Meng het wortelpoeder met 3 el van de hete vloeistof. Roer het terug in de soep.",
+      "Haal van het vuur en pureer voorzichtig met een staafmixer.",
+      "Zet het vuur 2 minuten weer laag. Voeg het zout en de peper toe en serveer met een kleine draai yoghurt."
+    ],
+    "tip": "Meng het poeder eerst met vloeistof voordat je gaat mixen, zodat er geen droge klontjes ontstaan."
+  },
+  "carrot-powder-oat-pancakes": {
+    "source": "a2e2dc34",
+    "name": "Havermoutpannenkoekjes met wortelpoeder",
+    "description": "Zachte havermoutpannenkoekjes met wortelpoeder, yoghurt en walnoten.",
+    "ingredients": [
+      "80 g fijngemalen havermout",
+      "40 g tarwebloem",
+      "1 el wortelpoeder",
+      "1 tl bakpoeder",
+      "1 el suiker",
+      "100 g naturel yoghurt, plus 4 el om te serveren",
+      "120 ml melk",
+      "2 tl neutrale olie",
+      "20 g gehakte walnoten"
+    ],
+    "steps": [
+      "Meng de gemalen havermout, de tarwebloem, het wortelpoeder, het bakpoeder en de suiker.",
+      "Klop de yoghurt, de melk en 1 tl olie erdoor. Laat 5 minuten rusten.",
+      "Verhit een anti-aanbakpan op middellaag vuur. Bestrijk met de rest van de olie.",
+      "Bak kleine rondjes beslag 2–3 minuten, tot de randen stevig zijn. Keer om en bak 1–2 minuten, tot het midden gaar is.",
+      "Herhaal met het resterende beslag. Serveer met yoghurt en walnoten."
+    ],
+    "tip": "Havermout maakt het beslag dikker tijdens het staan. Maak het losser met melk, per eetlepel."
+  },
+  "tomato-powder-pasta-sauce": {
+    "source": "57df899a",
+    "name": "Pastasaus met tomatenpoeder",
+    "description": "Een gekookte saus van tomatenpoeder voor penne, afgemaakt met basilicum.",
+    "ingredients": [
+      "160 g gedroogde penne",
+      "3 el tomatenpoeder",
+      "250 ml warm water",
+      "1 el olijfolie",
+      "1 teentje knoflook, fijngehakt",
+      "¼ tl gedroogde oregano",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "2 el gescheurde basilicumblaadjes",
+      "20 g geraspte vegetarische harde kaas"
+    ],
+    "steps": [
+      "Meng het tomatenpoeder met het warme water tot een glad mengsel.",
+      "Verhit de olie in een steelpan. Bak de knoflook 30 seconden, zonder dat de knoflook bruin wordt.",
+      "Voeg het tomatenmengsel, de oregano, het zout en de peper toe. Laat 12–15 minuten zachtjes koken en roer af en toe.",
+      "Kook ondertussen de penne volgens de verpakking. Bewaar 4 el kookwater en giet daarna af.",
+      "Schep de pasta door de saus. Voeg zo nodig het kookwater beetje bij beetje toe.",
+      "Maak af met de basilicum en de kaas."
+    ],
+    "tip": "Tomatenpoeder verschilt in sterkte. Proef de gekookte saus voordat je meer kruiden toevoegt."
+  },
+  "tomato-powder-chickpea-stew": {
+    "source": "5f40f92e",
+    "name": "Kikkererwtenstoof met tomatenpoeder",
+    "description": "Kikkererwten en wortel, zachtjes gekookt in een saus van tomatenpoeder.",
+    "ingredients": [
+      "480 g gekookte kikkererwten, uitgelekt",
+      "3 el tomatenpoeder",
+      "350 ml warm water",
+      "120 g wortel, in kleine blokjes",
+      "60 g ui, in blokjes",
+      "1 el olijfolie",
+      "½ tl gemalen komijn",
+      "¼ tl zout",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Meng het tomatenpoeder met het warme water.",
+      "Verhit de olie in een steelpan. Bak de ui en de wortel 5 minuten.",
+      "Voeg de komijn toe en roer 20 seconden. Voeg de kikkererwten, het tomatenmengsel en het zout toe.",
+      "Breng zachtjes aan de kook en kook 18–20 minuten, tot de wortel gaar is. Roer af en toe.",
+      "Voeg zo nodig een beetje water toe en maak af met koriander."
+    ],
+    "tip": "Prak een paar kikkererwten door de saus als je de stoofpot liever dikker hebt."
+  },
+  "tomato-powder-spiced-rice": {
+    "source": "1ea00159",
+    "name": "Gekruide rijst met tomatenpoeder",
+    "description": "Basmatirijst met tomatenpoeder, erwten en komijn.",
+    "ingredients": [
+      "150 g basmatirijst, afgespoeld en uitgelekt",
+      "2 el tomatenpoeder",
+      "100 g diepvriespeulen",
+      "330 ml warm water",
+      "1 el neutrale olie",
+      "½ tl komijnzaad",
+      "¼ tl gemalen kaneel",
+      "¼ tl zout",
+      "1 el citroensap",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Meng het tomatenpoeder met het warme water tot een glad mengsel.",
+      "Verhit de olie in een steelpan. Voeg de komijn toe en roer 30 seconden.",
+      "Voeg de rijst en de kaneel toe. Roer 1 minuut voorzichtig.",
+      "Voeg het tomatenmengsel, de erwten en het zout toe. Breng aan de kook, doe het deksel erop en laat 12 minuten op laag vuur garen.",
+      "Zet het vuur uit en laat 5 minuten rusten. Controleer of de rijst gaar is.",
+      "Maak voorzichtig los met een vork en voeg het citroensap en de koriander toe."
+    ],
+    "tip": "Houd het vuur laag zodra het deksel erop zit. Tomatenmengsels kunnen aan de pan blijven plakken."
+  },
+  "tomato-powder-lentil-soup": {
+    "source": "e75a8021",
+    "name": "Linzensoep met tomatenpoeder",
+    "description": "Rode linzen en wortel in een soep van tomatenpoeder.",
+    "ingredients": [
+      "100 g rode linzen, afgespoeld",
+      "2 el tomatenpoeder",
+      "100 g wortel, fijn in blokjes",
+      "60 g ui, in blokjes",
+      "650 ml warm water",
+      "1 el olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper",
+      "2 el gescheurde basilicumblaadjes"
+    ],
+    "steps": [
+      "Meng het tomatenpoeder met 150 ml van het afgemeten warme water.",
+      "Verhit de olie in een steelpan. Bak de ui en de wortel 5 minuten.",
+      "Voeg de linzen, het tomatenmengsel en het resterende water toe. Breng aan de kook.",
+      "Laat 18–22 minuten zachtjes koken en roer af en toe, tot de linzen en de wortel zacht zijn.",
+      "Voeg het zout en de peper toe. Maak de soep zo nodig losser met een beetje water en maak af met basilicum."
+    ],
+    "tip": "Laat de soep grof of mix een deel fijn voor een gladdere soep."
+  },
+  "ginger-powder-pear-porridge": {
+    "source": "c1bcc84f",
+    "name": "Havermoutpap met peer en gemberpoeder",
+    "description": "Warme havermoutpap met gekookte peer en gemberpoeder.",
+    "ingredients": [
+      "80 g havervlokken",
+      "½ tl gemberpoeder",
+      "1 rijpe peer, zonder klokhuis, in dunne plakjes",
+      "250 ml melk",
+      "250 ml water",
+      "20 g gehakte walnoten",
+      "1 tl suiker (optioneel)",
+      "Een snufje zout"
+    ],
+    "steps": [
+      "Doe de havervlokken, de melk, het water, de gember en het zout in een steelpan.",
+      "Voeg de helft van de plakjes peer toe en breng zachtjes aan de kook.",
+      "Kook 8–10 minuten op laag vuur en roer vaak, tot de havervlokken en de peer zacht zijn.",
+      "Voeg de rest van de peer de laatste 2 minuten toe. Roer de suiker erdoor als je die gebruikt.",
+      "Verdeel over twee kommen en maak af met walnoten."
+    ],
+    "tip": "Gebruik de kooktijd van de verpakking van de havermout als die afwijkt van de vermelde tijd."
+  },
+  "ginger-powder-coconut-chickpeas": {
+    "source": "f4c03e6c",
+    "name": "Kikkererwten met kokos en gemberpoeder",
+    "description": "Kikkererwten in een lichte kokossaus met gemberpoeder en limoen.",
+    "ingredients": [
+      "480 g gekookte kikkererwten, uitgelekt",
+      "¾ tl gemberpoeder",
+      "200 ml kokosmelk",
+      "100 ml water",
+      "60 g ui, fijngesnipperd",
+      "1 el neutrale olie",
+      "½ tl gemalen komijn",
+      "¼ tl zout",
+      "1 el limoensap",
+      "2 el gehakte koriander"
+    ],
+    "steps": [
+      "Verhit de olie in een steelpan. Bak de ui 5 minuten, tot de ui zacht is.",
+      "Roer de komijn en het gemberpoeder 20 seconden mee.",
+      "Voeg de kikkererwten, de kokosmelk, het water en het zout toe. Breng zachtjes aan de kook.",
+      "Kook 10–12 minuten en roer af en toe, tot het gerecht heet en licht ingedikt is.",
+      "Haal van het vuur en voeg het limoensap en de koriander toe."
+    ],
+    "tip": "Laat de droge kruiden niet lang in de hete olie liggen. Voeg snel de vloeistof toe."
+  },
+  "ginger-powder-sesame-tofu": {
+    "source": "0afbb71f",
+    "name": "Sesamtofu met gemberpoeder",
+    "description": "In de pan gebakken tofu met een glazuur van gember en soja en sesamzaad.",
+    "ingredients": [
+      "300 g stevige tofu, uitgelekt en drooggedept",
+      "¾ tl gemberpoeder",
+      "1 el sojasaus",
+      "3 el water",
+      "1 tl suiker",
+      "1 tl maiszetmeel",
+      "1 el neutrale olie",
+      "2 tl sesamzaad",
+      "2 el fijngesneden bosui"
+    ],
+    "steps": [
+      "Snijd de droge tofu in blokjes van 2 cm.",
+      "Meng het gemberpoeder, de sojasaus, het water, de suiker en het maiszetmeel in een kommetje.",
+      "Verhit de olie in een anti-aanbakpan op middelhoog tot hoog vuur. Bak de tofu 8–10 minuten en keer voorzichtig om, tot de tofu aan meerdere kanten goudbruin is.",
+      "Roer de saus nog een keer door en giet hem in de pan. Zet het vuur lager en kook 1–2 minuten, tot de glazuur indikt en de tofu bedekt.",
+      "Maak af met sesamzaad en bosui."
+    ],
+    "tip": "Dep de tofu droog voor het bakken. Zo spettert het minder en wordt de tofu mooier bruin."
+  },
+  "garlic-powder-yoghurt-dip": {
+    "source": "d4e85034",
+    "name": "Yoghurtdip met knoflookpoeder",
+    "description": "Een koele yoghurtdip met knoflookpoeder, dille en citroen.",
+    "ingredients": [
+      "200 g dikke naturel yoghurt",
+      "½ tl knoflookpoeder",
+      "1 el fijngehakte dille",
+      "1 tl citroensap",
+      "1 tl olijfolie",
+      "¼ tl zwarte peper",
+      "Een snufje zout",
+      "1 komkommer, in staafjes",
+      "2 gewone platbroden, in punten gesneden"
+    ],
+    "steps": [
+      "Roer het knoflookpoeder en het citroensap glad door de yoghurt.",
+      "Meng de dille, de olijfolie, de peper en het zout erdoor.",
+      "Laat de dip 5 minuten in de koelkast staan, zodat het knoflookpoeder kan intrekken.",
+      "Roer nog een keer door en schep in een kommetje.",
+      "Serveer met de komkommerstaafjes en de punten platbrood."
+    ],
+    "tip": "Bewaar afgedekt in de koelkast en gebruik binnen 2 dagen."
+  },
+  "garlic-powder-roasted-chickpeas": {
+    "source": "85d73aaf",
+    "name": "Geroosterde kikkererwten met knoflookpoeder",
+    "description": "Krokant geroosterde kikkererwten met knoflookpoeder en paprikapoeder.",
+    "ingredients": [
+      "480 g gekookte kikkererwten, uitgelekt",
+      "1 tl knoflookpoeder",
+      "½ tl paprikapoeder",
+      "1 el olijfolie",
+      "¼ tl zout",
+      "¼ tl zwarte peper"
+    ],
+    "steps": [
+      "Verwarm de oven voor op 200 °C. Bekleed een grote bakplaat met bakpapier.",
+      "Dep de kikkererwten heel goed droog met een schone doek of keukenpapier.",
+      "Schep om met de olie, het knoflookpoeder, het paprikapoeder, het zout en de peper.",
+      "Verdeel in één laag en rooster 25–30 minuten. Schud de bakplaat twee keer, tot de kikkererwten van buiten droog en krokant zijn.",
+      "Laat 5 minuten afkoelen op de bakplaat voor het serveren."
+    ],
+    "tip": "Serveer kort na het roosteren voor de krokantste structuur."
+  },
+  "garlic-powder-herb-flatbreads": {
+    "source": "364d41ea",
+    "name": "Kruidenplatbroden met knoflookpoeder",
+    "description": "Platbroden met yoghurt uit de koekenpan, bestreken met boter met knoflookpoeder en peterselie.",
+    "ingredients": [
+      "160 g tarwebloem, plus een beetje om uit te rollen",
+      "1 tl bakpoeder",
+      "100 g naturel yoghurt",
+      "2 el water, plus eventueel een beetje extra",
+      "½ tl knoflookpoeder",
+      "15 g boter",
+      "2 el gehakte peterselie",
+      "¼ tl zout"
+    ],
+    "steps": [
+      "Meng de bloem, het bakpoeder en het zout. Voeg de yoghurt en het water toe en kneed tot een zacht deeg.",
+      "Dek af en laat 10 minuten rusten. Verdeel in vier gelijke stukken.",
+      "Rol elk stuk uit tot een klein rondje op een licht bebloemd werkblad.",
+      "Bak 2–3 minuten per kant in een hete droge koekenpan, tot de broden bruin en door en door gaar zijn.",
+      "Smelt de boter op laag vuur. Haal van het vuur en roer het knoflookpoeder en de peterselie erdoor.",
+      "Bestrijk de warme broden met de knoflookboter en serveer."
+    ],
+    "tip": "Voeg het knoflookpoeder toe nadat je de boter van het vuur hebt gehaald, zodat het niet aanbrandt."
   }
 }
