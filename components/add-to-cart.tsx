@@ -35,13 +35,15 @@ export function AddToCart({
     );
   if (locale.domestic && isPantry(slug))
     return (
-      <Link
-        href={`/products/${slug}`}
-        className="button button-outline"
-        aria-label={`Choose weight for ${name}`}
-      >
-        {compact ? <Plus size={18} /> : "Choose weight"}
-      </Link>
+      <div className={compact ? "add-crop compact" : "add-crop"}>
+        <Link
+          href={`/products/${slug}`}
+          className="button button-outline"
+          aria-label={`Choose weight for ${name}`}
+        >
+          {compact ? <Plus size={18} aria-hidden="true" /> : "Choose weight"}
+        </Link>
+      </div>
     );
   return (
     <div className={compact ? "add-crop compact" : "add-crop"}>
