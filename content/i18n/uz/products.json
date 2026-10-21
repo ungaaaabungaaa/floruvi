@@ -5242,5 +5242,456 @@
         }
       ]
     }
+  },
+  "green-banana-flour": {
+    "source": "d9cb8404",
+    "name": "Yashil banan uni",
+    "description": "Pishirish va taom tayyorlash uchun yumshoq taʼmli un.",
+    "uses": [
+      "Pankeyklar",
+      "nonlar",
+      "shoʻrvalar",
+      "souslar"
+    ],
+    "details": {
+      "tagline": "Pishirish va taom tayyorlash uchun yumshoq taʼmli un.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Pankeyklar, nonlar, shoʻrvalar, souslar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Yetarli suyuqlik bilan retseptga aralashtiring. Un aralashmasini taomga moslang."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Yetarli suyuqlik bilan retseptga aralashtiring. Un aralashmasini taomga moslang.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "onion-powder": {
+    "source": "4867c1a2",
+    "name": "Piyoz kukuni",
+    "description": "Toʻgʻramasdan taomga mazali asos beradigan mayda piyoz kukuni.",
+    "uses": [
+      "Shoʻrvalar",
+      "souslar",
+      "marinadlar",
+      "ziravor aralashmalari"
+    ],
+    "details": {
+      "tagline": "Toʻgʻramasdan taomga mazali asos beradigan mayda piyoz kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Shoʻrvalar, souslar, marinadlar, ziravor aralashmalari."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Souslarga aralashtiring yoki boshqa quruq ziravorlar bilan qoʻshing. Oz miqdordan boshlang."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Souslarga aralashtiring yoki boshqa quruq ziravorlar bilan qoʻshing. Oz miqdordan boshlang.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "onion-flakes": {
+    "source": "2e64b20b",
+    "name": "Piyoz boʻlakchalari",
+    "description": "Mazali taʼm va ozgina tuzilish beruvchi quritilgan piyoz boʻlakchalari.",
+    "uses": [
+      "Shoʻrvalar",
+      "dimlamalar",
+      "guruchli taomlar",
+      "souslar"
+    ],
+    "details": {
+      "tagline": "Mazali taʼm va ozgina tuzilish beruvchi quritilgan piyoz boʻlakchalari.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Shoʻrvalar, dimlamalar, guruchli taomlar, souslar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Pishirish suyuqligi bilan taomga qoʻshing yoki yumshoqroq boʻlishi kerak boʻlsa, ishlatishdan oldin ivitib qoʻying."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Pishirish suyuqligi bilan taomga qoʻshing yoki yumshoqroq boʻlishi kerak boʻlsa, ishlatishdan oldin ivitib qoʻying.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "garlic-powder": {
+    "source": "778802a3",
+    "name": "Sarimsoq kukuni",
+    "description": "Iliq, mazali taʼm beruvchi sarimsoq kukuni.",
+    "uses": [
+      "Marinadlar",
+      "souslar",
+      "shoʻrvalar",
+      "ziravor aralashmalari"
+    ],
+    "details": {
+      "tagline": "Iliq, mazali taʼm beruvchi sarimsoq kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Marinadlar, souslar, shoʻrvalar, ziravor aralashmalari."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Sous yoki marinadga aralashtiring. Asta-sekin qoʻshing va pishirayotganda tatib koʻring."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Sous yoki marinadga aralashtiring. Asta-sekin qoʻshing va pishirayotganda tatib koʻring.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "ginger-powder": {
+    "source": "9ecbbf37",
+    "name": "Zanjabil kukuni",
+    "description": "Iliq va achchiqroq taʼmli quritilgan zanjabil kukuni.",
+    "uses": [
+      "Karri taomlari",
+      "pishiriqlar",
+      "marinadlar",
+      "ziravor aralashmalari"
+    ],
+    "details": {
+      "tagline": "Iliq va achchiqroq taʼmli quritilgan zanjabil kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Karri taomlari, pishiriqlar, marinadlar, ziravor aralashmalari."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Taom yoki pishiriqqa oz miqdorda qoʻshing. Retseptga moslab oʻzgartiring."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Taom yoki pishiriqqa oz miqdorda qoʻshing. Retseptga moslab oʻzgartiring.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "turmeric-powder": {
+    "source": "1665705e",
+    "name": "Zarchava kukuni",
+    "description": "Oltin rang va tuproqsimon taʼm beruvchi zarchava kukuni.",
+    "uses": [
+      "Karri taomlari",
+      "guruchli taomlar",
+      "shoʻrvalar",
+      "marinadlar"
+    ],
+    "details": {
+      "tagline": "Oltin rang va tuproqsimon taʼm beruvchi zarchava kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Karri taomlari, guruchli taomlar, shoʻrvalar, marinadlar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Pishirish vaqtida taomga oz miqdorda aralashtiring. Dogʻ qoldiradigan yuzalarga tegishidan saqlang."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Pishirish vaqtida taomga oz miqdorda aralashtiring. Dogʻ qoldiradigan yuzalarga tegishidan saqlang.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "moringa-leaf-powder": {
+    "source": "cf91332e",
+    "name": "Moringa bargi kukuni",
+    "description": "Oʻziga xos yashil, tuproqsimon taʼmli moringa bargi kukuni.",
+    "uses": [
+      "Shoʻrvalar",
+      "souslar",
+      "yassi non xamiri",
+      "mazali aralashmalar"
+    ],
+    "details": {
+      "tagline": "Oʻziga xos yashil, tuproqsimon taʼmli moringa bargi kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Shoʻrvalar, souslar, yassi non xamiri, mazali aralashmalar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Oz miqdordan boshlang va retseptga tekis aralashtiring."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Oz miqdordan boshlang va retseptga tekis aralashtiring.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "tomato-powder": {
+    "source": "5bf82055",
+    "name": "Pomidor kukuni",
+    "description": "Taom pishirishda pomidorning mazali taʼmini beruvchi pomidor kukuni.",
+    "uses": [
+      "Shoʻrvalar",
+      "souslar",
+      "pasta",
+      "ziravor aralashmalari"
+    ],
+    "details": {
+      "tagline": "Taom pishirishda pomidorning mazali taʼmini beruvchi pomidor kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Shoʻrvalar, souslar, pasta, ziravor aralashmalari."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Ozgina suv bilan aralashtirib quyuq massa qiling yoki pishirish suyuqligi bilan taomga toʻgʻridan-toʻgʻri qoʻshing."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Ozgina suv bilan aralashtirib quyuq massa qiling yoki pishirish suyuqligi bilan taomga toʻgʻridan-toʻgʻri qoʻshing.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "beetroot-powder": {
+    "source": "6f859739",
+    "name": "Lavlagi kukuni",
+    "description": "Tuproqsimon taʼmli va toʻq rangli lavlagi kukuni.",
+    "uses": [
+      "Pishiriqlar",
+      "souslar",
+      "yassi non xamiri",
+      "mazali aralashmalar"
+    ],
+    "details": {
+      "tagline": "Tuproqsimon taʼmli va toʻq rangli lavlagi kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Pishiriqlar, souslar, yassi non xamiri, mazali aralashmalar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Retseptga oz miqdorda aralashtiring. Yuzalar va idish-tovoqlarni dogʻdan asrang."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Retseptga oz miqdorda aralashtiring. Yuzalar va idish-tovoqlarni dogʻdan asrang.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "carrot-powder": {
+    "source": "dff6bbca",
+    "name": "Sabzi kukuni",
+    "description": "Yumshoq sabzavot taʼmi va iliq rang beruvchi sabzi kukuni.",
+    "uses": [
+      "Shoʻrvalar",
+      "souslar",
+      "pishiriqlar",
+      "yassi non xamiri"
+    ],
+    "details": {
+      "tagline": "Yumshoq sabzavot taʼmi va iliq rang beruvchi sabzi kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Shoʻrvalar, souslar, pishiriqlar, yassi non xamiri."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Pishirish suyuqligiga aralashtiring yoki pishirishdan oldin quruq masalliqlar bilan tekis qoʻshing."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Pishirish suyuqligiga aralashtiring yoki pishirishdan oldin quruq masalliqlar bilan tekis qoʻshing.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
+  },
+  "spinach-powder": {
+    "source": "991025ad",
+    "name": "Ismaloq kukuni",
+    "description": "Taom pishirishda yashil sabzavot taʼmini beruvchi ismaloq kukuni.",
+    "uses": [
+      "Pasta xamiri",
+      "yassi nonlar",
+      "shoʻrvalar",
+      "souslar"
+    ],
+    "details": {
+      "tagline": "Taom pishirishda yashil sabzavot taʼmini beruvchi ismaloq kukuni.",
+      "benefits": [
+        {
+          "title": "Qoʻllash usullari",
+          "text": "Pasta xamiri, yassi nonlar, shoʻrvalar, souslar."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Xamirga tekis aralashtiring yoki pishirish vaqtida shoʻrva va souslarga qoʻshing."
+        },
+        {
+          "title": "Ehtiyotkorlik bilan saqlang",
+          "text": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating."
+        }
+      ],
+      "preparation": "Xamirga tekis aralashtiring yoki pishirish vaqtida shoʻrva va souslarga qoʻshing.",
+      "storage": "Mahsulotni yopiq holda, quruq va salqin joyda, quyosh nuridan uzoqda saqlang. Toza va quruq qoshiq ishlating. Qadoqda koʻrsatilgan eng yaxshi isteʼmol muddatiga amal qiling.",
+      "nutritionTitle": "Pishirish boʻyicha eslatmalar",
+      "nutrition": [
+        {
+          "title": "Asta-sekin qoʻshing",
+          "text": "Quritilgan mahsulotlar yangi mahsulotdan tuzilishi va kuchi bilan farq qiladi. Miqdorni retseptingizga moslang."
+        },
+        {
+          "title": "Qadoqni tekshiring",
+          "text": "Ishlatishdan oldin tarkib va allergen maʼlumotini oʻqing."
+        }
+      ]
+    }
   }
 }

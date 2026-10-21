@@ -5242,5 +5242,456 @@
         }
       ]
     }
+  },
+  "green-banana-flour": {
+    "source": "d9cb8404",
+    "name": "Groen bananenmeel",
+    "description": "Een mild meel om te bakken en te koken.",
+    "uses": [
+      "Pannenkoeken",
+      "brood",
+      "soepen",
+      "sauzen"
+    ],
+    "details": {
+      "tagline": "Een mild meel om te bakken en te koken.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Pannenkoeken, brood, soepen, sauzen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Meng het met genoeg vloeistof door een recept. Pas de meelmix aan op het gerecht."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Meng het met genoeg vloeistof door een recept. Pas de meelmix aan op het gerecht.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "onion-powder": {
+    "source": "4867c1a2",
+    "name": "Uienpoeder",
+    "description": "Fijn uienpoeder als hartige basis, zonder snijden.",
+    "uses": [
+      "Soepen",
+      "sauzen",
+      "marinades",
+      "kruidenmixen"
+    ],
+    "details": {
+      "tagline": "Fijn uienpoeder als hartige basis, zonder snijden.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Soepen, sauzen, marinades, kruidenmixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Roer het door sauzen of meng het met andere droge kruiden. Begin met een kleine hoeveelheid."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Roer het door sauzen of meng het met andere droge kruiden. Begin met een kleine hoeveelheid.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "onion-flakes": {
+    "source": "2e64b20b",
+    "name": "Uienvlokken",
+    "description": "Gedroogde uienvlokken voor hartige smaak en een beetje textuur.",
+    "uses": [
+      "Soepen",
+      "stoofgerechten",
+      "rijstgerechten",
+      "sauzen"
+    ],
+    "details": {
+      "tagline": "Gedroogde uienvlokken voor hartige smaak en een beetje textuur.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Soepen, stoofgerechten, rijstgerechten, sauzen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Voeg ze toe aan een gerecht met kookvocht, of week ze vooraf als je een zachtere textuur wilt."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Voeg ze toe aan een gerecht met kookvocht, of week ze vooraf als je een zachtere textuur wilt.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "garlic-powder": {
+    "source": "778802a3",
+    "name": "Knoflookpoeder",
+    "description": "Knoflookpoeder voor een warme, hartige smaak.",
+    "uses": [
+      "Marinades",
+      "sauzen",
+      "soepen",
+      "kruidenmixen"
+    ],
+    "details": {
+      "tagline": "Knoflookpoeder voor een warme, hartige smaak.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Marinades, sauzen, soepen, kruidenmixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Meng het door een saus of marinade. Voeg het geleidelijk toe en proef tijdens het koken."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Meng het door een saus of marinade. Voeg het geleidelijk toe en proef tijdens het koken.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "ginger-powder": {
+    "source": "9ecbbf37",
+    "name": "Gemberpoeder",
+    "description": "Gedroogd gemberpoeder met een warme, scherpe smaak.",
+    "uses": [
+      "Curry's",
+      "bakken",
+      "marinades",
+      "kruidenmixen"
+    ],
+    "details": {
+      "tagline": "Gedroogd gemberpoeder met een warme, scherpe smaak.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Curry's, bakken, marinades, kruidenmixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Voeg een kleine hoeveelheid toe aan gerechten of bakwerk. Pas de hoeveelheid aan op het recept."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Voeg een kleine hoeveelheid toe aan gerechten of bakwerk. Pas de hoeveelheid aan op het recept.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "turmeric-powder": {
+    "source": "1665705e",
+    "name": "Kurkumapoeder",
+    "description": "Kurkumapoeder voor een gouden kleur en een aardse smaak.",
+    "uses": [
+      "Curry's",
+      "rijstgerechten",
+      "soepen",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Kurkumapoeder voor een gouden kleur en een aardse smaak.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Curry's, rijstgerechten, soepen, marinades."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Roer tijdens het koken een kleine hoeveelheid door het gerecht. Voorkom contact met oppervlakken die kunnen verkleuren."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Roer tijdens het koken een kleine hoeveelheid door het gerecht. Voorkom contact met oppervlakken die kunnen verkleuren.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "moringa-leaf-powder": {
+    "source": "cf91332e",
+    "name": "Moringabladpoeder",
+    "description": "Moringabladpoeder met een uitgesproken groene, aardse smaak.",
+    "uses": [
+      "Soepen",
+      "sauzen",
+      "deeg voor platbrood",
+      "hartige mixen"
+    ],
+    "details": {
+      "tagline": "Moringabladpoeder met een uitgesproken groene, aardse smaak.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Soepen, sauzen, deeg voor platbrood, hartige mixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Begin met een kleine hoeveelheid en meng die gelijkmatig door je recept."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Begin met een kleine hoeveelheid en meng die gelijkmatig door je recept.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "tomato-powder": {
+    "source": "5bf82055",
+    "name": "Tomatenpoeder",
+    "description": "Tomatenpoeder voor een hartige tomatensmaak bij het koken.",
+    "uses": [
+      "Soepen",
+      "sauzen",
+      "pasta",
+      "kruidenmixen"
+    ],
+    "details": {
+      "tagline": "Tomatenpoeder voor een hartige tomatensmaak bij het koken.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Soepen, sauzen, pasta, kruidenmixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Meng het met een beetje water tot een pasta, of roer het direct door een gerecht met kookvocht."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Meng het met een beetje water tot een pasta, of roer het direct door een gerecht met kookvocht.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "beetroot-powder": {
+    "source": "6f859739",
+    "name": "Rodebietpoeder",
+    "description": "Rodebietpoeder met een aardse smaak en een diepe kleur.",
+    "uses": [
+      "Bakken",
+      "sauzen",
+      "deeg voor platbrood",
+      "hartige mixen"
+    ],
+    "details": {
+      "tagline": "Rodebietpoeder met een aardse smaak en een diepe kleur.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Bakken, sauzen, deeg voor platbrood, hartige mixen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Meng een kleine hoeveelheid door je recept. Bescherm oppervlakken en keukengerei tegen vlekken."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Meng een kleine hoeveelheid door je recept. Bescherm oppervlakken en keukengerei tegen vlekken.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "carrot-powder": {
+    "source": "dff6bbca",
+    "name": "Wortelpoeder",
+    "description": "Wortelpoeder voor een milde groentesmaak en een warme kleur.",
+    "uses": [
+      "Soepen",
+      "sauzen",
+      "bakken",
+      "deeg voor platbrood"
+    ],
+    "details": {
+      "tagline": "Wortelpoeder voor een milde groentesmaak en een warme kleur.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Soepen, sauzen, bakken, deeg voor platbrood."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Roer het door het kookvocht of meng het voor het bakken gelijkmatig door de droge ingrediënten."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Roer het door het kookvocht of meng het voor het bakken gelijkmatig door de droge ingrediënten.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
+  },
+  "spinach-powder": {
+    "source": "991025ad",
+    "name": "Spinaziepoeder",
+    "description": "Spinaziepoeder voor een groene groentesmaak bij het koken.",
+    "uses": [
+      "Pastadeeg",
+      "platbroden",
+      "soepen",
+      "sauzen"
+    ],
+    "details": {
+      "tagline": "Spinaziepoeder voor een groene groentesmaak bij het koken.",
+      "benefits": [
+        {
+          "title": "Gebruik",
+          "text": "Pastadeeg, platbroden, soepen, sauzen."
+        },
+        {
+          "title": "Bereiding",
+          "text": "Meng het gelijkmatig door het deeg of roer het tijdens het koken door soepen en sauzen."
+        },
+        {
+          "title": "Goed bewaren",
+          "text": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel."
+        }
+      ],
+      "preparation": "Meng het gelijkmatig door het deeg of roer het tijdens het koken door soepen en sauzen.",
+      "storage": "Bewaar goed afgesloten op een koele, droge plek, uit de zon. Gebruik een schone, droge lepel. Let op de houdbaarheidsdatum op de verpakking.",
+      "nutritionTitle": "Tips voor het koken",
+      "nutrition": [
+        {
+          "title": "Voeg geleidelijk toe",
+          "text": "Gedroogde ingrediënten verschillen van vers product in textuur en kracht. Pas de hoeveelheid aan op je recept."
+        },
+        {
+          "title": "Check de verpakking",
+          "text": "Lees voor gebruik de informatie over ingrediënten en allergenen."
+        }
+      ]
+    }
   }
 }

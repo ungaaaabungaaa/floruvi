@@ -92,6 +92,8 @@ Changes:
 - **Pantry descriptions.** Product descriptions shorter than 90 characters add the first "ways to use" line.
 - **Share image.** The default card is a 1200×630 JPEG (`src/assets/home-hero/harvest-share.jpg`). LinkedIn and some WhatsApp clients do not preview WebP.
 - **Structured data.** The organization adds a sized logo, the India return policy (`MerchantReturnNotPermitted`, link to `/refunds`) and topics (`knowsAbout`). The WebSite adds `alternateName` "Floruvi" for Google's site name.
+- **Pantry product translations.** The English snapshot now includes the 11 flours & powders, translated into all nine languages. They show on the site only after `node --import tsx scripts/i18n/seed-convex.ts --prod` (owner). The 129 non-vegetarian & pantry recipes are still English-only in the other languages.
+- **Search Console & Bing.** Both are verified with the sitemap accepted (owner, 22 October 2026).
 - **IndexNow.** The key file is `public/5b1d2d545aceb671dfae98abd08c431d.txt`. After a release that adds or changes pages, run `node --import tsx scripts/seo/indexnow.ts`. Bing, Yandex, Seznam & Naver receive the sitemap URLs. Bing results also feed other search tools.
 
 ## Open search decisions (owner)

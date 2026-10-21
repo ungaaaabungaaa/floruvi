@@ -5242,5 +5242,456 @@
         }
       ]
     }
+  },
+  "green-banana-flour": {
+    "source": "d9cb8404",
+    "name": "Green banana flour",
+    "description": "A mild flour for baking and cooking.",
+    "uses": [
+      "Pancakes",
+      "breads",
+      "soups",
+      "sauces"
+    ],
+    "details": {
+      "tagline": "A mild flour for baking and cooking.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Pancakes, breads, soups, sauces."
+        },
+        {
+          "title": "Preparation",
+          "text": "Mix into a recipe with enough liquid. Adjust the flour blend to suit the dish."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Mix into a recipe with enough liquid. Adjust the flour blend to suit the dish.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "onion-powder": {
+    "source": "4867c1a2",
+    "name": "Onion powder",
+    "description": "Fine onion powder for a savoury base without chopping.",
+    "uses": [
+      "Soups",
+      "sauces",
+      "marinades",
+      "seasoning blends"
+    ],
+    "details": {
+      "tagline": "Fine onion powder for a savoury base without chopping.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Soups, sauces, marinades, seasoning blends."
+        },
+        {
+          "title": "Preparation",
+          "text": "Stir into sauces or mix with other dry seasonings. Start with a small amount."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Stir into sauces or mix with other dry seasonings. Start with a small amount.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "onion-flakes": {
+    "source": "2e64b20b",
+    "name": "Onion flakes",
+    "description": "Dried onion flakes for savoury flavour and a little texture.",
+    "uses": [
+      "Soups",
+      "stews",
+      "rice dishes",
+      "sauces"
+    ],
+    "details": {
+      "tagline": "Dried onion flakes for savoury flavour and a little texture.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Soups, stews, rice dishes, sauces."
+        },
+        {
+          "title": "Preparation",
+          "text": "Add to a dish with cooking liquid, or soak before use when a softer texture is needed."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Add to a dish with cooking liquid, or soak before use when a softer texture is needed.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "garlic-powder": {
+    "source": "778802a3",
+    "name": "Garlic powder",
+    "description": "Garlic powder for a warm, savoury flavour.",
+    "uses": [
+      "Marinades",
+      "sauces",
+      "soups",
+      "seasoning blends"
+    ],
+    "details": {
+      "tagline": "Garlic powder for a warm, savoury flavour.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Marinades, sauces, soups, seasoning blends."
+        },
+        {
+          "title": "Preparation",
+          "text": "Mix into a sauce or marinade. Add gradually and taste as you cook."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Mix into a sauce or marinade. Add gradually and taste as you cook.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "ginger-powder": {
+    "source": "9ecbbf37",
+    "name": "Ginger powder",
+    "description": "Dried ginger powder with a warm, sharp flavour.",
+    "uses": [
+      "Curries",
+      "baking",
+      "marinades",
+      "spice blends"
+    ],
+    "details": {
+      "tagline": "Dried ginger powder with a warm, sharp flavour.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Curries, baking, marinades, spice blends."
+        },
+        {
+          "title": "Preparation",
+          "text": "Add a small amount to cooking or baking. Adjust to suit the recipe."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Add a small amount to cooking or baking. Adjust to suit the recipe.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "turmeric-powder": {
+    "source": "1665705e",
+    "name": "Turmeric powder",
+    "description": "Turmeric powder for golden colour and an earthy flavour.",
+    "uses": [
+      "Curries",
+      "rice dishes",
+      "soups",
+      "marinades"
+    ],
+    "details": {
+      "tagline": "Turmeric powder for golden colour and an earthy flavour.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Curries, rice dishes, soups, marinades."
+        },
+        {
+          "title": "Preparation",
+          "text": "Stir a small amount into a dish during cooking. Avoid contact with surfaces that stain."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Stir a small amount into a dish during cooking. Avoid contact with surfaces that stain.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "moringa-leaf-powder": {
+    "source": "cf91332e",
+    "name": "Moringa leaf powder",
+    "description": "Moringa leaf powder with a distinct green, earthy taste.",
+    "uses": [
+      "Soups",
+      "sauces",
+      "flatbread dough",
+      "savoury mixes"
+    ],
+    "details": {
+      "tagline": "Moringa leaf powder with a distinct green, earthy taste.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Soups, sauces, flatbread dough, savoury mixes."
+        },
+        {
+          "title": "Preparation",
+          "text": "Start with a small amount and mix evenly into your recipe."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Start with a small amount and mix evenly into your recipe.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "tomato-powder": {
+    "source": "5bf82055",
+    "name": "Tomato powder",
+    "description": "Tomato powder for a savoury tomato flavour in cooking.",
+    "uses": [
+      "Soups",
+      "sauces",
+      "pasta",
+      "seasoning blends"
+    ],
+    "details": {
+      "tagline": "Tomato powder for a savoury tomato flavour in cooking.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Soups, sauces, pasta, seasoning blends."
+        },
+        {
+          "title": "Preparation",
+          "text": "Mix with a little water to make a paste, or stir directly into a dish with cooking liquid."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Mix with a little water to make a paste, or stir directly into a dish with cooking liquid.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "beetroot-powder": {
+    "source": "6f859739",
+    "name": "Beetroot powder",
+    "description": "Beetroot powder with an earthy taste and deep colour.",
+    "uses": [
+      "Baking",
+      "sauces",
+      "flatbread dough",
+      "savoury mixes"
+    ],
+    "details": {
+      "tagline": "Beetroot powder with an earthy taste and deep colour.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Baking, sauces, flatbread dough, savoury mixes."
+        },
+        {
+          "title": "Preparation",
+          "text": "Mix a small amount into your recipe. Protect surfaces and utensils from staining."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Mix a small amount into your recipe. Protect surfaces and utensils from staining.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "carrot-powder": {
+    "source": "dff6bbca",
+    "name": "Carrot powder",
+    "description": "Carrot powder for a mild vegetable flavour and warm colour.",
+    "uses": [
+      "Soups",
+      "sauces",
+      "baking",
+      "flatbread dough"
+    ],
+    "details": {
+      "tagline": "Carrot powder for a mild vegetable flavour and warm colour.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Soups, sauces, baking, flatbread dough."
+        },
+        {
+          "title": "Preparation",
+          "text": "Stir into cooking liquid or mix evenly with dry ingredients before baking."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Stir into cooking liquid or mix evenly with dry ingredients before baking.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
+  },
+  "spinach-powder": {
+    "source": "991025ad",
+    "name": "Spinach powder",
+    "description": "Spinach powder for a green vegetable flavour in cooking.",
+    "uses": [
+      "Pasta dough",
+      "flatbreads",
+      "soups",
+      "sauces"
+    ],
+    "details": {
+      "tagline": "Spinach powder for a green vegetable flavour in cooking.",
+      "benefits": [
+        {
+          "title": "Ways to use",
+          "text": "Pasta dough, flatbreads, soups, sauces."
+        },
+        {
+          "title": "Preparation",
+          "text": "Mix evenly into dough or stir into soups and sauces during cooking."
+        },
+        {
+          "title": "Store with care",
+          "text": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon."
+        }
+      ],
+      "preparation": "Mix evenly into dough or stir into soups and sauces during cooking.",
+      "storage": "Keep sealed in a cool, dry place away from sunlight. Use a clean, dry spoon. Follow the best-before date on the pack.",
+      "nutritionTitle": "Cooking notes",
+      "nutrition": [
+        {
+          "title": "Add gradually",
+          "text": "Dried ingredients differ from fresh produce in texture and strength. Adjust the amount to suit your recipe."
+        },
+        {
+          "title": "Check the pack",
+          "text": "Read the ingredient and allergen information before use."
+        }
+      ]
+    }
   }
 }

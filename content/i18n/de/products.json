@@ -5242,5 +5242,456 @@
         }
       ]
     }
+  },
+  "green-banana-flour": {
+    "source": "d9cb8404",
+    "name": "Grünes Bananenmehl",
+    "description": "Ein mildes Mehl zum Backen und Kochen.",
+    "uses": [
+      "Pfannkuchen",
+      "Brot",
+      "Suppen",
+      "Soßen"
+    ],
+    "details": {
+      "tagline": "Ein mildes Mehl zum Backen und Kochen.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Pfannkuchen, Brot, Suppen, Soßen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Gib es mit genug Flüssigkeit in ein Rezept. Passe die Mehlmischung an das Gericht an."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Gib es mit genug Flüssigkeit in ein Rezept. Passe die Mehlmischung an das Gericht an.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "onion-powder": {
+    "source": "4867c1a2",
+    "name": "Zwiebelpulver",
+    "description": "Feines Zwiebelpulver für eine herzhafte Basis ohne Schneiden.",
+    "uses": [
+      "Suppen",
+      "Soßen",
+      "Marinaden",
+      "Gewürzmischungen"
+    ],
+    "details": {
+      "tagline": "Feines Zwiebelpulver für eine herzhafte Basis ohne Schneiden.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Suppen, Soßen, Marinaden, Gewürzmischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Rühre es in Soßen oder mische es mit anderen trockenen Gewürzen. Beginne mit einer kleinen Menge."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Rühre es in Soßen oder mische es mit anderen trockenen Gewürzen. Beginne mit einer kleinen Menge.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "onion-flakes": {
+    "source": "2e64b20b",
+    "name": "Zwiebelflocken",
+    "description": "Getrocknete Zwiebelflocken für herzhaften Geschmack und etwas Biss.",
+    "uses": [
+      "Suppen",
+      "Eintöpfe",
+      "Reisgerichte",
+      "Soßen"
+    ],
+    "details": {
+      "tagline": "Getrocknete Zwiebelflocken für herzhaften Geschmack und etwas Biss.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Suppen, Eintöpfe, Reisgerichte, Soßen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Gib sie in ein Gericht mit Kochflüssigkeit oder weiche sie vorher ein, wenn du eine weichere Textur möchtest."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Gib sie in ein Gericht mit Kochflüssigkeit oder weiche sie vorher ein, wenn du eine weichere Textur möchtest.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "garlic-powder": {
+    "source": "778802a3",
+    "name": "Knoblauchpulver",
+    "description": "Knoblauchpulver für einen warmen, herzhaften Geschmack.",
+    "uses": [
+      "Marinaden",
+      "Soßen",
+      "Suppen",
+      "Gewürzmischungen"
+    ],
+    "details": {
+      "tagline": "Knoblauchpulver für einen warmen, herzhaften Geschmack.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Marinaden, Soßen, Suppen, Gewürzmischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Rühre es in eine Soße oder Marinade. Gib es nach und nach zu und schmecke beim Kochen ab."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Rühre es in eine Soße oder Marinade. Gib es nach und nach zu und schmecke beim Kochen ab.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "ginger-powder": {
+    "source": "9ecbbf37",
+    "name": "Ingwerpulver",
+    "description": "Getrocknetes Ingwerpulver mit warmem, scharfem Geschmack.",
+    "uses": [
+      "Currys",
+      "Backen",
+      "Marinaden",
+      "Gewürzmischungen"
+    ],
+    "details": {
+      "tagline": "Getrocknetes Ingwerpulver mit warmem, scharfem Geschmack.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Currys, Backen, Marinaden, Gewürzmischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Gib eine kleine Menge zum Kochen oder Backen. Passe die Menge an das Rezept an."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Gib eine kleine Menge zum Kochen oder Backen. Passe die Menge an das Rezept an.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "turmeric-powder": {
+    "source": "1665705e",
+    "name": "Kurkumapulver",
+    "description": "Kurkumapulver für goldene Farbe und einen erdigen Geschmack.",
+    "uses": [
+      "Currys",
+      "Reisgerichte",
+      "Suppen",
+      "Marinaden"
+    ],
+    "details": {
+      "tagline": "Kurkumapulver für goldene Farbe und einen erdigen Geschmack.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Currys, Reisgerichte, Suppen, Marinaden."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Rühre beim Kochen eine kleine Menge in das Gericht. Vermeide Kontakt mit Flächen, die Flecken bekommen."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Rühre beim Kochen eine kleine Menge in das Gericht. Vermeide Kontakt mit Flächen, die Flecken bekommen.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "moringa-leaf-powder": {
+    "source": "cf91332e",
+    "name": "Moringablattpulver",
+    "description": "Moringablattpulver mit ausgeprägt grünem, erdigem Geschmack.",
+    "uses": [
+      "Suppen",
+      "Soßen",
+      "Fladenbrotteig",
+      "herzhafte Mischungen"
+    ],
+    "details": {
+      "tagline": "Moringablattpulver mit ausgeprägt grünem, erdigem Geschmack.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Suppen, Soßen, Fladenbrotteig, herzhafte Mischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Beginne mit einer kleinen Menge und mische sie gleichmäßig in dein Rezept."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Beginne mit einer kleinen Menge und mische sie gleichmäßig in dein Rezept.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "tomato-powder": {
+    "source": "5bf82055",
+    "name": "Tomatenpulver",
+    "description": "Tomatenpulver für einen herzhaften Tomatengeschmack beim Kochen.",
+    "uses": [
+      "Suppen",
+      "Soßen",
+      "Pasta",
+      "Gewürzmischungen"
+    ],
+    "details": {
+      "tagline": "Tomatenpulver für einen herzhaften Tomatengeschmack beim Kochen.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Suppen, Soßen, Pasta, Gewürzmischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Verrühre es mit etwas Wasser zu einer Paste oder rühre es direkt in ein Gericht mit Kochflüssigkeit."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Verrühre es mit etwas Wasser zu einer Paste oder rühre es direkt in ein Gericht mit Kochflüssigkeit.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "beetroot-powder": {
+    "source": "6f859739",
+    "name": "Rote-Bete-Pulver",
+    "description": "Rote-Bete-Pulver mit erdigem Geschmack und tiefer Farbe.",
+    "uses": [
+      "Backen",
+      "Soßen",
+      "Fladenbrotteig",
+      "herzhafte Mischungen"
+    ],
+    "details": {
+      "tagline": "Rote-Bete-Pulver mit erdigem Geschmack und tiefer Farbe.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Backen, Soßen, Fladenbrotteig, herzhafte Mischungen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Mische eine kleine Menge in dein Rezept. Schütze Flächen und Küchenutensilien vor Flecken."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Mische eine kleine Menge in dein Rezept. Schütze Flächen und Küchenutensilien vor Flecken.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "carrot-powder": {
+    "source": "dff6bbca",
+    "name": "Karottenpulver",
+    "description": "Karottenpulver für einen milden Gemüsegeschmack und warme Farbe.",
+    "uses": [
+      "Suppen",
+      "Soßen",
+      "Backen",
+      "Fladenbrotteig"
+    ],
+    "details": {
+      "tagline": "Karottenpulver für einen milden Gemüsegeschmack und warme Farbe.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Suppen, Soßen, Backen, Fladenbrotteig."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Rühre es in die Kochflüssigkeit oder mische es vor dem Backen gleichmäßig unter die trockenen Zutaten."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Rühre es in die Kochflüssigkeit oder mische es vor dem Backen gleichmäßig unter die trockenen Zutaten.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
+  },
+  "spinach-powder": {
+    "source": "991025ad",
+    "name": "Spinatpulver",
+    "description": "Spinatpulver für einen grünen Gemüsegeschmack beim Kochen.",
+    "uses": [
+      "Nudelteig",
+      "Fladenbrote",
+      "Suppen",
+      "Soßen"
+    ],
+    "details": {
+      "tagline": "Spinatpulver für einen grünen Gemüsegeschmack beim Kochen.",
+      "benefits": [
+        {
+          "title": "Verwendung",
+          "text": "Nudelteig, Fladenbrote, Suppen, Soßen."
+        },
+        {
+          "title": "Zubereitung",
+          "text": "Mische es gleichmäßig in den Teig oder rühre es beim Kochen in Suppen und Soßen."
+        },
+        {
+          "title": "Sorgfältig lagern",
+          "text": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel."
+        }
+      ],
+      "preparation": "Mische es gleichmäßig in den Teig oder rühre es beim Kochen in Suppen und Soßen.",
+      "storage": "Gut verschlossen an einem kühlen, trockenen Ort lagern, vor Sonnenlicht geschützt. Nimm einen sauberen, trockenen Löffel. Beachte das Mindesthaltbarkeitsdatum auf der Packung.",
+      "nutritionTitle": "Hinweise zum Kochen",
+      "nutrition": [
+        {
+          "title": "Nach und nach zugeben",
+          "text": "Getrocknete Zutaten unterscheiden sich von frischem Gemüse in Textur und Intensität. Passe die Menge an dein Rezept an."
+        },
+        {
+          "title": "Packung prüfen",
+          "text": "Lies vor der Verwendung die Angaben zu Zutaten und Allergenen."
+        }
+      ]
+    }
   }
 }

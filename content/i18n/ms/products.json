@@ -5242,5 +5242,456 @@
         }
       ]
     }
+  },
+  "green-banana-flour": {
+    "source": "d9cb8404",
+    "name": "Tepung pisang hijau",
+    "description": "Tepung berperisa lembut untuk membakar dan memasak.",
+    "uses": [
+      "Pankek",
+      "roti",
+      "sup",
+      "sos"
+    ],
+    "details": {
+      "tagline": "Tepung berperisa lembut untuk membakar dan memasak.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Pankek, roti, sup, sos."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Gaul ke dalam resipi dengan cecair yang secukupnya. Laraskan campuran tepung mengikut hidangan."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Gaul ke dalam resipi dengan cecair yang secukupnya. Laraskan campuran tepung mengikut hidangan.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "onion-powder": {
+    "source": "4867c1a2",
+    "name": "Serbuk bawang besar",
+    "description": "Serbuk bawang besar halus untuk asas rasa yang enak tanpa perlu memotong.",
+    "uses": [
+      "Sup",
+      "sos",
+      "perapan",
+      "campuran perasa"
+    ],
+    "details": {
+      "tagline": "Serbuk bawang besar halus untuk asas rasa yang enak tanpa perlu memotong.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Sup, sos, perapan, campuran perasa."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Kacau ke dalam sos atau campurkan dengan perasa kering yang lain. Mulakan dengan jumlah yang sedikit."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Kacau ke dalam sos atau campurkan dengan perasa kering yang lain. Mulakan dengan jumlah yang sedikit.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "onion-flakes": {
+    "source": "2e64b20b",
+    "name": "Kepingan bawang besar",
+    "description": "Kepingan bawang besar kering untuk rasa yang enak dan sedikit tekstur.",
+    "uses": [
+      "Sup",
+      "stew",
+      "hidangan nasi",
+      "sos"
+    ],
+    "details": {
+      "tagline": "Kepingan bawang besar kering untuk rasa yang enak dan sedikit tekstur.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Sup, stew, hidangan nasi, sos."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Masukkan ke dalam hidangan bersama cecair memasak, atau rendam sebelum digunakan jika mahukan tekstur yang lebih lembut."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Masukkan ke dalam hidangan bersama cecair memasak, atau rendam sebelum digunakan jika mahukan tekstur yang lebih lembut.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "garlic-powder": {
+    "source": "778802a3",
+    "name": "Serbuk bawang putih",
+    "description": "Serbuk bawang putih untuk rasa yang hangat dan enak.",
+    "uses": [
+      "Perapan",
+      "sos",
+      "sup",
+      "campuran perasa"
+    ],
+    "details": {
+      "tagline": "Serbuk bawang putih untuk rasa yang hangat dan enak.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Perapan, sos, sup, campuran perasa."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Gaul ke dalam sos atau perapan. Tambah sedikit demi sedikit dan rasa semasa memasak."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Gaul ke dalam sos atau perapan. Tambah sedikit demi sedikit dan rasa semasa memasak.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "ginger-powder": {
+    "source": "9ecbbf37",
+    "name": "Serbuk halia",
+    "description": "Serbuk halia kering dengan rasa yang hangat dan pedas.",
+    "uses": [
+      "Kari",
+      "masakan ketuhar",
+      "perapan",
+      "campuran rempah"
+    ],
+    "details": {
+      "tagline": "Serbuk halia kering dengan rasa yang hangat dan pedas.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Kari, masakan ketuhar, perapan, campuran rempah."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Tambah sedikit semasa memasak atau membakar. Laraskan mengikut resipi."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Tambah sedikit semasa memasak atau membakar. Laraskan mengikut resipi.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "turmeric-powder": {
+    "source": "1665705e",
+    "name": "Serbuk kunyit",
+    "description": "Serbuk kunyit untuk warna keemasan dan rasa seperti tanah.",
+    "uses": [
+      "Kari",
+      "hidangan nasi",
+      "sup",
+      "perapan"
+    ],
+    "details": {
+      "tagline": "Serbuk kunyit untuk warna keemasan dan rasa seperti tanah.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Kari, hidangan nasi, sup, perapan."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Kacau sedikit ke dalam hidangan semasa memasak. Elakkan daripada terkena permukaan yang mudah bernoda."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Kacau sedikit ke dalam hidangan semasa memasak. Elakkan daripada terkena permukaan yang mudah bernoda.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "moringa-leaf-powder": {
+    "source": "cf91332e",
+    "name": "Serbuk daun kelor",
+    "description": "Serbuk daun kelor dengan rasa hijau yang jelas dan seperti tanah.",
+    "uses": [
+      "Sup",
+      "sos",
+      "doh roti pipih",
+      "adunan berperisa"
+    ],
+    "details": {
+      "tagline": "Serbuk daun kelor dengan rasa hijau yang jelas dan seperti tanah.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Sup, sos, doh roti pipih, adunan berperisa."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Mulakan dengan jumlah yang sedikit dan gaul sekata ke dalam resipi anda."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Mulakan dengan jumlah yang sedikit dan gaul sekata ke dalam resipi anda.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "tomato-powder": {
+    "source": "5bf82055",
+    "name": "Serbuk tomato",
+    "description": "Serbuk tomato untuk rasa tomato yang enak dalam masakan.",
+    "uses": [
+      "Sup",
+      "sos",
+      "pasta",
+      "campuran perasa"
+    ],
+    "details": {
+      "tagline": "Serbuk tomato untuk rasa tomato yang enak dalam masakan.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Sup, sos, pasta, campuran perasa."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Campurkan dengan sedikit air untuk membuat pes, atau kacau terus ke dalam hidangan bersama cecair memasak."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Campurkan dengan sedikit air untuk membuat pes, atau kacau terus ke dalam hidangan bersama cecair memasak.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "beetroot-powder": {
+    "source": "6f859739",
+    "name": "Serbuk ubi bit",
+    "description": "Serbuk ubi bit dengan rasa seperti tanah dan warna yang pekat.",
+    "uses": [
+      "Masakan ketuhar",
+      "sos",
+      "doh roti pipih",
+      "adunan berperisa"
+    ],
+    "details": {
+      "tagline": "Serbuk ubi bit dengan rasa seperti tanah dan warna yang pekat.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Masakan ketuhar, sos, doh roti pipih, adunan berperisa."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Gaul sedikit ke dalam resipi anda. Lindungi permukaan dan peralatan daripada kesan noda."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Gaul sedikit ke dalam resipi anda. Lindungi permukaan dan peralatan daripada kesan noda.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "carrot-powder": {
+    "source": "dff6bbca",
+    "name": "Serbuk lobak merah",
+    "description": "Serbuk lobak merah untuk rasa sayur yang lembut dan warna yang hangat.",
+    "uses": [
+      "Sup",
+      "sos",
+      "masakan ketuhar",
+      "doh roti pipih"
+    ],
+    "details": {
+      "tagline": "Serbuk lobak merah untuk rasa sayur yang lembut dan warna yang hangat.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Sup, sos, masakan ketuhar, doh roti pipih."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Kacau ke dalam cecair memasak atau gaul sekata dengan bahan kering sebelum membakar."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Kacau ke dalam cecair memasak atau gaul sekata dengan bahan kering sebelum membakar.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
+  },
+  "spinach-powder": {
+    "source": "991025ad",
+    "name": "Serbuk bayam",
+    "description": "Serbuk bayam untuk rasa sayur hijau dalam masakan.",
+    "uses": [
+      "Doh pasta",
+      "roti pipih",
+      "sup",
+      "sos"
+    ],
+    "details": {
+      "tagline": "Serbuk bayam untuk rasa sayur hijau dalam masakan.",
+      "benefits": [
+        {
+          "title": "Cara penggunaan",
+          "text": "Doh pasta, roti pipih, sup, sos."
+        },
+        {
+          "title": "Cara penyediaan",
+          "text": "Gaul sekata ke dalam doh atau kacau ke dalam sup dan sos semasa memasak."
+        },
+        {
+          "title": "Simpan dengan teliti",
+          "text": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering."
+        }
+      ],
+      "preparation": "Gaul sekata ke dalam doh atau kacau ke dalam sup dan sos semasa memasak.",
+      "storage": "Simpan dalam bekas tertutup di tempat yang sejuk dan kering, jauh daripada cahaya matahari. Gunakan sudu yang bersih dan kering. Ikut tarikh terbaik sebelum pada bungkusan.",
+      "nutritionTitle": "Nota memasak",
+      "nutrition": [
+        {
+          "title": "Tambah sedikit demi sedikit",
+          "text": "Bahan kering berbeza daripada hasil segar dari segi tekstur dan kekuatan. Laraskan jumlah mengikut resipi anda."
+        },
+        {
+          "title": "Semak bungkusan",
+          "text": "Baca maklumat bahan dan alergen sebelum digunakan."
+        }
+      ]
+    }
   }
 }

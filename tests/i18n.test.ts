@@ -10,6 +10,7 @@ import {
 } from "../lib/i18n/content-source";
 import { productDetailCatalogue } from "../convex/productDetailData";
 import { cropCatalogue } from "../convex/catalogueData";
+import { dehydratedProducts } from "../convex/dehydratedData";
 import { recipeCatalogue } from "../convex/recipeData";
 import nonVegetarianRecipes from "../convex/nonVegetarianRecipes.json";
 import pantryRecipes from "../convex/pantryRecipes.json";
@@ -56,7 +57,12 @@ test("every dictionary has the English keys, arrays and plural forms", () => {
 test("English source snapshots match the reviewed seed catalogue", () => {
   const products = read("content/i18n/en/products.json");
   const recipes = read("content/i18n/en/recipes.json");
-  assert.equal(Object.keys(products).length, cropCatalogue.length);
+  // Pantry products are seeded separately (scripts/seed-dehydrated.mjs) and exported from production.
+  assert.equal(
+    Object.keys(products).length,
+    cropCatalogue.length + dehydratedProducts.length,
+  );
+  for (const { slug } of dehydratedProducts) assert.ok(products[slug], slug);
   assert.equal(Object.keys(recipes).length, recipeCatalogue.length);
   for (const crop of cropCatalogue) {
     const details = productDetailCatalogue.find(
