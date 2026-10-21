@@ -58,13 +58,32 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
         name: messages.meta.siteName,
         alternateName: "Floruvi",
         url: siteUrl,
-        logo: absoluteUrl(mark.src),
+        logo: {
+          "@type": "ImageObject",
+          url: absoluteUrl(mark.src),
+          width: mark.width,
+          height: mark.height,
+        },
         slogan: messages.common.brand.tagline,
         description: messages.meta.description,
+        knowsAbout: [
+          "Leafy greens",
+          "Fresh herbs",
+          "Microgreens",
+          "Edible flowers",
+          "Aeroponic farming",
+        ],
         areaServed: marketCodes.map((market) => ({
           "@type": "Country",
           name: countryName(markets[market].country, "en"),
         })),
+        // The confirmed India policy: no returns except for our mistakes (/refunds).
+        hasMerchantReturnPolicy: {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "IN",
+          returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+          merchantReturnLink: absoluteUrl("/refunds"),
+        },
         ...(socialProfiles.length ? { sameAs: socialProfiles.map((profile) => profile.url) } : {}),
         ...(business.email ? { email: business.email } : {}),
         ...(business.phone ? { telephone: business.phone } : {}),
@@ -85,6 +104,8 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
         "@type": "WebSite",
         "@id": `${siteUrl}/#website-${locale.locale}`,
         name: messages.meta.siteName,
+        // Google reads the site name from here; the short brand is the fallback.
+        alternateName: "Floruvi",
         url: absoluteUrl(localizePath(locale.locale, "/")),
         inLanguage: locale.tag,
         publisher: { "@id": `${siteUrl}/#organization` },

@@ -11,11 +11,11 @@
     "productDescription": "{description} {pack} – {price}.",
     "recipeTitle": "{name} recept",
     "products": {
-      "title": "Onze producten",
-      "description": "Bekijk Floruvi’s groenten en kruiden. Ontdek bladgroenten, kruiden, microgroenten, vruchtgewassen, wortelgewassen en eetbare bloemen."
+      "title": "Verse groenten, kruiden & microgroenten",
+      "description": "Bladgroenten, verse kruiden, microgroenten, cherrytomaten, wortelgewassen, eetbare bloemen, meel en poeders – met duidelijke prijzen en verpakkingsgroottes."
     },
     "boxes": {
-      "title": "Beschikbaarheid van groenteboxen",
+      "title": "Groenteboxen voor 1, 2 of 4+ personen",
       "description": "Vraag naar groenteboxen voor één (1), twee (2) of een gezin (4+), dagelijks, wekelijks of elke twee weken bezorgd. Alleen aanvragen voor beschikbaarheid."
     },
     "cart": {
@@ -28,8 +28,8 @@
       "title": "Je verlanglijst"
     },
     "contact": {
-      "title": "Neem contact op met de boerderij",
-      "description": "Vraag naar gewassen, beschikbaarheid en producten voor thuis. Geen account nodig."
+      "title": "Contact Floruvi voor bestellingen & groothandel",
+      "description": "Vraag naar gewassen, beschikbaarheid, bestellingen voor thuis of grote hoeveelheden voor restaurants en winkels. Geen account nodig."
     },
     "faq": {
       "title": "Veelgestelde vragen",
@@ -52,12 +52,12 @@
       "description": "Waar Floruvi bezorgt, hoe lang dat duurt, de vaste bezorgkosten en contante betaling bij bezorging."
     },
     "howWeGrow": {
-      "title": "In een aeroponische toren",
-      "description": "Volg het water, ontdek de wortels en zie hoe een circulerende aeroponische toren verse groenten laat groeien."
+      "title": "Zo telen we: aeroponische torens",
+      "description": "Zie hoe Floruvi bladgroenten en kruiden zonder aarde teelt in aeroponische torens met circulerend water. Volg het water en ontdek de wortels."
     },
     "recipes": {
-      "title": "Eenvoudige recepten",
-      "description": "Vegetarische recepten en recepten met vlees, vis of eieren, met verse groenten en kruiden."
+      "title": "Makkelijke recepten met verse groenten & kruiden",
+      "description": "Makkelijke recepten, vegetarisch of met vlees, vis of eieren, met bladgroenten, kruiden en microgroenten. Met bereidingstijd, porties en stappen."
     },
     "productNotFound": "Product niet gevonden",
     "recipeNotFound": "Recept niet gevonden"

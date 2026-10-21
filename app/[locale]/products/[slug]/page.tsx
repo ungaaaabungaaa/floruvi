@@ -62,12 +62,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   ]);
   if (!result)
     return { title: messages.meta.productNotFound, robots: { index: false } };
-  const { product } = result;
+  const { product, details } = result;
   const local = productImages[product.slug];
   const image = product.imageUrl
     ? { url: product.imageUrl }
     : local && shareImage(local);
   const price = product.price;
+  // Short pantry texts give search results little to show, so add the first use.
+  const firstUse = details?.benefits[0];
+  const summary =
+    product.description.length < 90 && firstUse
+      ? `${product.description} ${firstUse.title}: ${firstUse.text}`
+      : product.description;
   return pageMetadata({
     path: `/products/${slug}`,
     title: fill(
@@ -89,9 +95,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 locale.tag,
               ),
             }),
-          product.description,
+          summary,
         )
-      : product.description,
+      : summary,
     image: image ? { ...image, alt: product.name } : undefined,
   });
 }

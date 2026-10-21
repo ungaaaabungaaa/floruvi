@@ -11,11 +11,11 @@
     "productDescription": "{description} {pack}: {price}.",
     "recipeTitle": "{name} recipe",
     "products": {
-      "title": "Our produce",
-      "description": "Browse Floruvi’s vegetables & herbs. Explore leafy greens, herbs, microgreens, fruiting crops, roots, & edible flowers."
+      "title": "Fresh vegetables, herbs & microgreens",
+      "description": "Shop leafy greens, fresh herbs, microgreens, cherry tomatoes, roots, edible flowers, flours & powders. Clear prices and pack sizes on every product."
     },
     "boxes": {
-      "title": "Vegetable box availability",
+      "title": "Vegetable boxes for 1, 2 or 4+ people",
       "description": "Ask about Single (1), Dual (2) or Family (4+) vegetable boxes, with daily, weekly or every two weeks delivery. Availability enquiries only."
     },
     "cart": {
@@ -28,8 +28,8 @@
       "title": "Your wishlist"
     },
     "contact": {
-      "title": "Contact the farm",
-      "description": "Ask about crops, availability, & produce for your home. No account needed."
+      "title": "Contact Floruvi for orders & bulk supply",
+      "description": "Ask about crops, availability, home orders or bulk supply for restaurants and shops. No account needed."
     },
     "faq": {
       "title": "Frequently asked questions",
@@ -52,12 +52,12 @@
       "description": "Where Floruvi delivers, how long delivery takes, the flat delivery charge & cash on delivery."
     },
     "howWeGrow": {
-      "title": "Inside an aeroponic tower",
-      "description": "Follow the water, explore the roots & see how a recirculating aeroponic tower grows fresh greens."
+      "title": "How we grow: aeroponic tower farming",
+      "description": "See how Floruvi grows leafy greens and herbs without soil in recirculating aeroponic towers. Follow the water and explore the roots."
     },
     "recipes": {
-      "title": "Simple recipes",
-      "description": "Vegetarian and non-vegetarian recipes with fresh vegetables and herbs."
+      "title": "Easy recipes with fresh greens & herbs",
+      "description": "Easy vegetarian and non-vegetarian recipes with leafy greens, herbs, microgreens and flours. Each lists the time, servings, ingredients and steps."
     },
     "productNotFound": "Product not found",
     "recipeNotFound": "Recipe not found"

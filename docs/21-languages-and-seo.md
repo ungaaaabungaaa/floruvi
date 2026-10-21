@@ -76,6 +76,24 @@ Owner request: complete general SEO, review the whole platform, push for deploym
 - **Verification.** Optional Google and Bing meta tags from Vercel settings. DNS verification in Search Console is still the better choice.
 - Removed: the `X-Powered-By` header, and `?category=all` URLs in the shop.
 
+## Search audit, 22 October 2026
+
+Owner request: complete SEO audit, push for deployment, make the site more discoverable.
+
+Audit evidence:
+
+- The live HTTP check passed: 32 sitemaps, 10,784 URLs, 224 category pages, 0 failures.
+- A crawl of all 337 India pages found no errors, no duplicate titles or descriptions, and exactly one H1 per page.
+- A `site:floruvi.com` web search returned no Floruvi pages. Indexing is the main gap, not page markup.
+
+Changes:
+
+- **Titles.** The shop, recipes, boxes, growing and contact pages now lead with search words in all ten languages, for example "Fresh vegetables, herbs & microgreens".
+- **Pantry descriptions.** Product descriptions shorter than 90 characters add the first "ways to use" line.
+- **Share image.** The default card is a 1200×630 JPEG (`src/assets/home-hero/harvest-share.jpg`). LinkedIn and some WhatsApp clients do not preview WebP.
+- **Structured data.** The organization adds a sized logo, the India return policy (`MerchantReturnNotPermitted`, link to `/refunds`) and topics (`knowsAbout`). The WebSite adds `alternateName` "Floruvi" for Google's site name.
+- **IndexNow.** The key file is `public/5b1d2d545aceb671dfae98abd08c431d.txt`. After a release that adds or changes pages, run `node --import tsx scripts/seo/indexnow.ts`. Bing, Yandex, Seznam & Naver receive the sitemap URLs. Bing results also feed other search tools.
+
 ## Open search decisions (owner)
 
 Checked 27 September 2026 with the ai-seo, site-architecture, programmatic-seo, seo-audit & schema skills. These need the owner:

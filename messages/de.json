@@ -11,11 +11,11 @@
     "productDescription": "{description} {pack} – {price}.",
     "recipeTitle": "Rezept: {name}",
     "products": {
-      "title": "Unser Gemüse",
-      "description": "Entdecke Floruvis Gemüse & Kräuter. Erkunde Blattgemüse, Kräuter, Microgreens, Fruchtgemüse, Wurzeln & essbare Blüten."
+      "title": "Frisches Gemüse, Kräuter & Microgreens",
+      "description": "Blattgemüse, frische Kräuter, Microgreens, Kirschtomaten, Wurzelgemüse, essbare Blüten, Mehle & Pulver – mit klaren Preisen und Packungsgrößen."
     },
     "boxes": {
-      "title": "Verfügbarkeit von Gemüseboxen",
+      "title": "Gemüseboxen für 1, 2 oder 4+ Personen",
       "description": "Fragen Sie nach Gemüseboxen für eine Person (1), zwei (2) oder Familien (4+), täglich, wöchentlich oder alle zwei Wochen. Nur Verfügbarkeitsanfragen."
     },
     "cart": {
@@ -28,8 +28,8 @@
       "title": "Deine Wunschliste"
     },
     "contact": {
-      "title": "Kontaktiere den Hof",
-      "description": "Frag nach Sorten, Verfügbarkeit & Ware für dein Zuhause. Kein Konto nötig."
+      "title": "Floruvi kontaktieren: Bestellungen & Großmengen",
+      "description": "Frag nach Sorten, Verfügbarkeit, Bestellungen für zu Hause oder Großmengen für Restaurants und Läden. Kein Konto nötig."
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
@@ -52,12 +52,12 @@
       "description": "Wohin Floruvi liefert, wie lange die Lieferung dauert, die pauschale Liefergebühr & Zahlung per Nachnahme."
     },
     "howWeGrow": {
-      "title": "Im Inneren eines Aeroponik-Turms",
-      "description": "Verfolge das Wasser, entdecke die Wurzeln & erfahre, wie ein Aeroponik-Turm im Kreislauf frisches Grün wachsen lässt."
+      "title": "So bauen wir an: Aeroponik im Turm",
+      "description": "Sieh, wie Floruvi Blattgemüse und Kräuter ohne Erde in Aeroponik-Türmen mit Wasserkreislauf anbaut. Folge dem Wasser & entdecke die Wurzeln."
     },
     "recipes": {
-      "title": "Einfache Rezepte",
-      "description": "Vegetarische Rezepte und Rezepte mit Fleisch, Fisch oder Eiern, mit frischem Gemüse und Kräutern."
+      "title": "Einfache Rezepte mit frischem Grün & Kräutern",
+      "description": "Einfache Rezepte, vegetarisch oder mit Fleisch, Fisch oder Eiern – mit Blattgemüse, Kräutern und Microgreens. Mit Zeit, Portionen und Schritten."
     },
     "productNotFound": "Produkt nicht gefunden",
     "recipeNotFound": "Rezept nicht gefunden"

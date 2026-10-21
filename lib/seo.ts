@@ -3,7 +3,8 @@ import { siteUrl } from "./site";
 import { getI18n } from "./i18n/server";
 import { localizePath, parseLocale, type Locale } from "./i18n/config";
 import { languageAlternates } from "./i18n/alternates";
-import hero from "@/src/assets/home-hero/harvest.webp";
+// JPEG at 1200×630: LinkedIn and some WhatsApp clients do not preview WebP.
+import hero from "@/src/assets/home-hero/harvest-share.jpg";
 import { clampText } from "./meta-description";
 
 export { DESCRIPTION_LIMIT, clampText, fitDescription } from "./meta-description";

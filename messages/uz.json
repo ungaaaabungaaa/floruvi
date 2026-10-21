@@ -11,11 +11,11 @@
     "productDescription": "{description} {pack}, narxi: {price}.",
     "recipeTitle": "{name} retsepti",
     "products": {
-      "title": "Bizning hosilimiz",
-      "description": "Floruvi sabzavotlari va koʻkatlarini koʻrib chiqing. Bargli sabzavotlar, koʻkatlar, mikrokoʻkatlar, mevali ekinlar, ildizmevalar va yeyiladigan gullarni kashf eting."
+      "title": "Yangi sabzavotlar, koʻkatlar va mikrokoʻkatlar",
+      "description": "Bargli sabzavotlar, yangi koʻkatlar, mikrokoʻkatlar, cherri pomidorlar, ildizmevalar, yeyiladigan gullar, un va kukunlar. Aniq narx va qadoq hajmi."
     },
     "boxes": {
-      "title": "Sabzavot qutilari mavjudligi",
+      "title": "1, 2 yoki 4+ kishilik sabzavot qutilari",
       "description": "Single (1), Dual (2) yoki Family (4+) sabzavot qutilarini har kuni, har hafta yoki har ikki haftada yetkazish haqida soʻrang. Bu faqat mavjudlik soʻrovi."
     },
     "cart": {
@@ -28,8 +28,8 @@
       "title": "Sevimlilar roʻyxatingiz"
     },
     "contact": {
-      "title": "Ferma bilan bogʻlaning",
-      "description": "Ekinlar, mavjudlik va uyingiz uchun hosil haqida soʻrang. Hisob ochish shart emas."
+      "title": "Buyurtma va ulgurji savdo uchun Floruvi",
+      "description": "Ekinlar, mavjudlik, uy uchun buyurtma yoki restoran va doʻkonlar uchun ulgurji yetkazib berish haqida soʻrang. Hisob ochish shart emas."
     },
     "faq": {
       "title": "Koʻp beriladigan savollar",
@@ -52,12 +52,12 @@
       "description": "Floruvi qayerga yetkazib berishi, yetkazib berish qancha vaqt olishi, qatʼiy yetkazib berish narxi va yetkazib berishda naqd toʻlov."
     },
     "howWeGrow": {
-      "title": "Aeroponik minora ichida",
-      "description": "Suvni kuzating, ildizlarni kashf eting va aylanma aeroponik minora yangi koʻkatlarni qanday oʻstirishini koʻring."
+      "title": "Qanday oʻstiramiz: aeroponik minoralar",
+      "description": "Floruvi bargli sabzavot va koʻkatlarni tuproqsiz, suvni aylantiruvchi aeroponik minoralarda qanday oʻstirishini koʻring. Suvni kuzating, ildizlarni koʻring."
     },
     "recipes": {
-      "title": "Oddiy retseptlar",
-      "description": "Yangi sabzavot va ko‘katlar bilan vegetarian hamda go‘sht, baliq yoki tuxumli taomlar retseptlari."
+      "title": "Yangi koʻkatlar bilan oson retseptlar",
+      "description": "Bargli sabzavotlar, koʻkatlar va mikrokoʻkatlar bilan oson vegetarian hamda goʻsht, baliq yoki tuxumli retseptlar. Vaqt, porsiya, masalliq va bosqichlar bilan."
     },
     "productNotFound": "Mahsulot topilmadi",
     "recipeNotFound": "Retsept topilmadi"

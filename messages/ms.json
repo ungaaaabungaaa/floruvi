@@ -11,11 +11,11 @@
     "productDescription": "{description} {pack} – {price}.",
     "recipeTitle": "Resipi {name}",
     "products": {
-      "title": "Produk Segar Kami",
-      "description": "Terokai sayur-sayuran & herba Floruvi. Terokai sayur berdaun, herba, mikrogrin, tanaman berbuah, akar umbi, & bunga boleh dimakan."
+      "title": "Sayur, Herba & Mikrogrin Segar",
+      "description": "Beli sayur berdaun, herba segar, mikrogrin, tomato ceri, akar umbi, bunga boleh dimakan, tepung & serbuk. Harga dan saiz pek yang jelas bagi setiap produk."
     },
     "boxes": {
-      "title": "Ketersediaan kotak sayur",
+      "title": "Kotak sayur untuk 1, 2 atau 4+ orang",
       "description": "Tanya tentang kotak sayur Single (1), Dual (2) atau Family (4+), untuk penghantaran harian, mingguan atau setiap dua minggu. Pertanyaan ketersediaan sahaja."
     },
     "cart": {
@@ -28,8 +28,8 @@
       "title": "Senarai Kegemaran Anda"
     },
     "contact": {
-      "title": "Hubungi Ladang",
-      "description": "Tanya tentang tanaman, ketersediaan, & produk untuk rumah anda. Tiada akaun diperlukan."
+      "title": "Hubungi Floruvi untuk Pesanan & Bekalan Pukal",
+      "description": "Tanya tentang tanaman, ketersediaan, pesanan untuk rumah atau bekalan pukal untuk restoran dan kedai. Tiada akaun diperlukan."
     },
     "faq": {
       "title": "Soalan Lazim",
@@ -52,12 +52,12 @@
       "description": "Ke mana Floruvi menghantar, berapa lama penghantaran mengambil masa, caj penghantaran tetap & bayaran tunai semasa penghantaran."
     },
     "howWeGrow": {
-      "title": "Di Dalam Menara Aeroponik",
-      "description": "Ikuti aliran air, terokai akar & lihat cara menara aeroponik berkitar menghasilkan sayur segar."
+      "title": "Cara Kami Menanam: Menara Aeroponik",
+      "description": "Lihat cara Floruvi menanam sayur berdaun dan herba tanpa tanah dalam menara aeroponik yang mengitar semula air. Ikuti aliran air & terokai akar."
     },
     "recipes": {
-      "title": "Resipi Mudah",
-      "description": "Resipi vegetarian dan resipi dengan daging, ikan atau telur, bersama sayur-sayuran dan herba segar."
+      "title": "Resipi Mudah dengan Sayur & Herba Segar",
+      "description": "Resipi mudah, vegetarian atau dengan daging, ikan atau telur, menggunakan sayur berdaun, herba dan mikrogrin. Dengan masa, hidangan, bahan dan langkah."
     },
     "productNotFound": "Produk tidak dijumpai",
     "recipeNotFound": "Resipi tidak dijumpai"
