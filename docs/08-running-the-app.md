@@ -97,7 +97,7 @@ Apply the Figma design. Confirm real stock, pack sizes, delivery rules, and priv
 
 ## Design and editorial content
 
-The owner’s reference controls the visual direction. Original generated PNGs and prompts are in `src/assets`. Next Image serves optimized variants. Six crops have matching generated images; other crops keep category illustrations. Convex image uploads override the local crop image.
+The owner’s reference controls the visual direction. Original generated PNGs and prompts are in `src/assets`. Next Image serves source files directly (`images.unoptimized: true`); Vercel image optimization is disabled. Six crops have matching generated images; other crops keep category illustrations. Convex image uploads override the local crop image, except pantry artwork. Pantry artwork uses the bundled WebP files so storage outages do not break these images.
 
 Recipes are edited in `lib/recipes.ts`; they do not require a new service. The nutrition pages link to their primary sources. The chat component is retained but is not mounted in the root layout. Do not turn it on until the later OpenRouter work is approved.
 

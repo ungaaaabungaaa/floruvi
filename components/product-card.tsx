@@ -3,14 +3,14 @@ import Image from "next/image";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 import { Botanical } from "./botanical";
 import type { ShopProduct } from "@/lib/storefront";
-import { productImages } from "@/lib/product-images";
+import { productImage } from "@/lib/product-images";
 import { AddToCart } from "./add-to-cart";
 import { WishlistButton } from "./wishlist";
 import { Money } from "./i18n/money";
 
 export function ProductCard({ product }: { product: ShopProduct }) {
   const packLabel = product.price?.packLabel.split("·").at(-1)?.trim();
-  const cropImage = product.imageUrl || productImages[product.slug];
+  const cropImage = productImage(product.slug, product.imageUrl);
   return (
     <article className="product-card">
       <div className="product-art-wrap">

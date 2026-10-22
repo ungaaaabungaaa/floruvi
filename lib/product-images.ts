@@ -187,3 +187,8 @@ export const productImages: Record<string, StaticImageData> = {
   "fenugreek-microgreens-live-tray": tray4,
   "red-amaranth-microgreens-live-tray": tray5,
 };
+
+// Pantry artwork ships with the site; do not depend on storage availability.
+export function productImage(slug: string, imageUrl?: string | null) {
+  return dehydratedMainImages[slug] || imageUrl || productImages[slug];
+}

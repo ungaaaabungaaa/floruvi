@@ -2,7 +2,7 @@
 import { weightLabel } from "@/lib/pantry-weights";
 import { useRef, useState } from "react";
 import Image from "next/image";
-import { productImages } from "@/lib/product-images";
+import { productImage } from "@/lib/product-images";
 import { getCartBox } from "@/lib/boxes";
 import { Botanical } from "./botanical";
 import singleBox from "@/src/assets/boxes/single.webp";
@@ -552,7 +552,7 @@ export function Checkout({
                 ? { single: singleBox, dual: dualBox, family: familyBox }[
                     box.id
                   ]
-                : product?.imageUrl || productImages[item.slug];
+                : productImage(item.slug, product?.imageUrl);
               return (
                 <article className="checkout-product-row" key={item.slug}>
                   <Link

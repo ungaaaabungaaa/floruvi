@@ -24,7 +24,7 @@ import singleBox from "@/src/assets/boxes/single.webp";
 import dualBox from "@/src/assets/boxes/dual.webp";
 import familyBox from "@/src/assets/boxes/family.webp";
 const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
-import { productImages } from "@/lib/product-images";
+import { productImage } from "@/lib/product-images";
 import cartBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
 import herbsBanner from "@/src/assets/products/banners/herbs.webp";
 import { Botanical } from "./botanical";
@@ -273,7 +273,7 @@ export function BasketPage({
               );
               const src = box
                 ? boxImages[box.id]
-                : product?.imageUrl || productImages[line.slug];
+                : productImage(line.slug, product?.imageUrl);
               return (
                 <article className="basket-row" key={line.slug}>
                   <div className="basket-product">

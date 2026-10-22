@@ -7,7 +7,7 @@ import Image, { type StaticImageData } from "next/image";
 import type { ShopProduct } from "@/lib/storefront";
 import type { Messages } from "@/lib/i18n/messages";
 import { fill } from "@/lib/i18n/format";
-import { productImages } from "@/lib/product-images";
+import { productImage } from "@/lib/product-images";
 import { Botanical } from "./botanical";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 import { additionalProductImages } from "@/lib/additional-product-images";
@@ -23,7 +23,7 @@ export function ProductGallery({
   dishes?: { image: StaticImageData; name: string; slug: string }[];
 }) {
   const [selected, setSelected] = useState(0);
-  const crop = product.imageUrl || productImages[product.slug];
+  const crop = productImage(product.slug, product.imageUrl);
   const views = [
     {
       src: crop,
