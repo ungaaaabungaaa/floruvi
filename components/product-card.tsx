@@ -9,7 +9,10 @@ import { WishlistButton } from "./wishlist";
 import { Money } from "./i18n/money";
 
 export function ProductCard({ product }: { product: ShopProduct }) {
-  const packLabel = product.price?.packLabel.split("·").at(-1)?.trim();
+  const packLabel =
+    product.slug === "farm-eggs" && product.price?.packLabel === "12 eggs"
+      ? "1 dozen (12 eggs)"
+      : product.price?.packLabel.split("·").at(-1)?.trim();
   const cropImage = productImage(product.slug, product.imageUrl);
   return (
     <article className="product-card">

@@ -22,13 +22,26 @@ import { localizePath } from "@/lib/i18n/config";
 import { recipesForProduct } from "@/lib/product-recipes";
 import { productImages } from "@/lib/product-images";
 import { productPhotos } from "@/lib/product-photos";
-import { absoluteUrl, fitDescription, jsonLd, pageMetadata, shareImage } from "@/lib/seo";
+import {
+  absoluteUrl,
+  fitDescription,
+  jsonLd,
+  pageMetadata,
+  shareImage,
+} from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 import { isCategorySlug } from "@/lib/category-pages";
-import { breadcrumbList, productOfferPolicies, schemaPrice } from "@/lib/structured-data";
+import {
+  breadcrumbList,
+  productOfferPolicies,
+  schemaPrice,
+} from "@/lib/structured-data";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
 import { PantryPurchase } from "@/components/pantry-purchase";
+import { PackPurchase } from "@/components/pack-purchase";
+import { PackSelection } from "@/components/pack-selection";
+import { packOptions, isPackProduct } from "@/lib/product-packs";
 import { AddToCart } from "@/components/add-to-cart";
 import { ProductStoryBanner } from "@/components/product-story-banner";
 import { Money } from "@/components/i18n/money";
@@ -113,6 +126,8 @@ export default async function ProductDetails({ params }: Props) {
   if (!result) notFound();
   const { product: p, details, record } = result;
   const pantry = p.category === "flours-and-powders";
+  const packChoices = packOptions(p.slug, p.price, locale.market);
+  const packed = isPackProduct(p.slug);
   const t = messages.product;
   const inlineName =
     locale.language === "de" ? p.name : p.name.toLocaleLowerCase(locale.tag);
@@ -129,10 +144,12 @@ export default async function ProductDetails({ params }: Props) {
     { slug: p.slug, category: p.category, uses: record.uses },
     recipes.map((recipe) => ({ ...recipe, category: recipe.categoryKey })),
     Object.fromEntries(shop.products.map((q) => [q.slug, q.category])),
-  ).map(({ recipe, direct }) => ({
-    recipe: recipes.find((item) => item.slug === recipe.slug)!,
-    direct,
-  })).filter((meal) => !pantry || meal.direct);
+  )
+    .map(({ recipe, direct }) => ({
+      recipe: recipes.find((item) => item.slug === recipe.slug)!,
+      direct,
+    }))
+    .filter((meal) => (!pantry && !packed) || meal.direct);
   const directMeals = meals.filter((meal) => meal.direct);
   const category = shop.categories.find(
     (item) => item.slug === p.category && isCategorySlug(item.slug),
@@ -185,7 +202,12 @@ export default async function ProductDetails({ params }: Props) {
           url: absoluteUrl(localizePath(locale.locale, "/products")),
         },
         ...(category
-          ? [{ name: category.name, url: absoluteUrl(localizePath(locale.locale, categoryPath)) }]
+          ? [
+              {
+                name: category.name,
+                url: absoluteUrl(localizePath(locale.locale, categoryPath)),
+              },
+            ]
           : []),
         { name: p.name, url },
       ]),
@@ -197,97 +219,133 @@ export default async function ProductDetails({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={jsonLd(structuredData)}
       />
-      <section className="product-detail" aria-labelledby="product-heading">
-        <ProductGallery
-          key={p.slug}
-          product={p}
-          labels={t.gallery}
-          dishes={meals
-            .filter((m) => m.direct && !pantry)
-            .map((m) => ({
-              image: m.recipe.image,
-              name: m.recipe.name,
-              slug: m.recipe.slug,
-            }))}
-        />
-        <div className="detail-copy">
-          <h1 id="product-heading">{p.name}</h1>
-          {details && !pantry && <p className="product-tagline">{details.tagline}</p>}
-          <p className="detail-description">{p.description}</p>
-          {p.weightPricing ? (
-            <PantryPurchase slug={p.slug} name={p.name} pricing={p.weightPricing} available={p.inStock !== false} />
-          ) : <>
-          <p className="detail-price">
-            <Money minor={p.price?.amountMinor} currency={p.price?.currency} />
-            {p.price && <small> / {p.price.packLabel}</small>}
-          </p>
-          <AddToCart
-            slug={p.slug}
-            name={p.name}
-            available={p.inStock !== false}
+      <PackSelection
+        key={p.slug}
+        sizes={packChoices?.map((choice) => choice.size) ?? []}
+      >
+        <section className="product-detail" aria-labelledby="product-heading">
+          <ProductGallery
+            key={p.slug}
+            product={p}
+            labels={t.gallery}
+            dishes={meals
+              .filter((m) => m.direct && !pantry)
+              .map((m) => ({
+                image: m.recipe.image,
+                name: m.recipe.name,
+                slug: m.recipe.slug,
+              }))}
           />
-          </>}
-          <div className="product-assurances">
-            <span>
-              <Leaf />
-              {pantry ? "Dehydrated" : t.assurances.fresh}
-            </span>
-            <span>
-              <Sprout />
-              {pantry ? "Store sealed" : t.assurances.care}
-            </span>
-            <span>
-              <ChefHat />
-              {t.assurances.cook}
-            </span>
-            <span>
-              <Truck />
-              {!locale.domestic
-                ? fill(t.assurances.export, { country: locale.countryName })
-                : deliveryFee == null
-                  ? t.assurances.domestic
-                  : fill(t.assurances.domesticFee, {
-                      fee: formatCurrency(deliveryFee, "INR", locale.tag),
-                    })}
-            </span>
+          <div className="detail-copy">
+            <h1 id="product-heading">{p.name}</h1>
+            {details && !pantry && (
+              <p className="product-tagline">{details.tagline}</p>
+            )}
+            <p className="detail-description">{p.description}</p>
+            {packChoices ? (
+              <PackPurchase
+                slug={p.slug}
+                name={p.name}
+                options={packChoices}
+                available={p.inStock !== false}
+              />
+            ) : p.weightPricing ? (
+              <PantryPurchase
+                slug={p.slug}
+                name={p.name}
+                pricing={p.weightPricing}
+                available={p.inStock !== false}
+              />
+            ) : (
+              <>
+                <p className="detail-price">
+                  <Money
+                    minor={p.price?.amountMinor}
+                    currency={p.price?.currency}
+                  />
+                  {p.price && <small> / {p.price.packLabel}</small>}
+                </p>
+                <AddToCart
+                  slug={p.slug}
+                  name={p.name}
+                  available={p.inStock !== false}
+                />
+              </>
+            )}
+            <div className="product-assurances">
+              <span>
+                <Leaf />
+                {packed
+                  ? p.category === "honey"
+                    ? "Glass jar"
+                    : "Protective carton"
+                  : pantry
+                    ? "Dehydrated"
+                    : t.assurances.fresh}
+              </span>
+              <span>
+                <Sprout />
+                {packed
+                  ? p.category === "honey"
+                    ? "Store sealed"
+                    : "Keep refrigerated"
+                  : pantry
+                    ? "Store sealed"
+                    : t.assurances.care}
+              </span>
+              <span>
+                <ChefHat />
+                {t.assurances.cook}
+              </span>
+              <span>
+                <Truck />
+                {!locale.domestic
+                  ? fill(t.assurances.export, { country: locale.countryName })
+                  : deliveryFee == null
+                    ? t.assurances.domestic
+                    : fill(t.assurances.domesticFee, {
+                        fee: formatCurrency(deliveryFee, "INR", locale.tag),
+                      })}
+              </span>
+            </div>
+            {directMeals.length > 0 && (
+              <div className="hero-meals">
+                <div className="hero-meals-heading">
+                  <h2>{t.waysToEnjoy}</h2>
+                  <a href="#ways-heading">
+                    {t.seeAllRecipes} <ArrowUpRight size={14} />
+                  </a>
+                </div>
+                <div className="hero-meal-list">
+                  {directMeals.slice(0, 3).map(({ recipe }) => (
+                    <Link href={`/recipes/${recipe.slug}`} key={recipe.slug}>
+                      <Image
+                        src={recipe.image}
+                        alt={recipe.name}
+                        width={100}
+                        height={100}
+                      />
+                      <div>
+                        <h3>{recipe.name}</h3>
+                        <p>{fill(t.minutes, { count: recipe.minutes })}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+            {details && (
+              <div className="hero-storage">
+                <Leaf size={23} />
+                <div>
+                  <h2>{t.howToStore}</h2>
+                  <p>{details.storage}</p>
+                </div>
+              </div>
+            )}
           </div>
-          {directMeals.length > 0 && (
-            <div className="hero-meals">
-              <div className="hero-meals-heading">
-                <h2>{t.waysToEnjoy}</h2>
-                <a href="#ways-heading">
-                  {t.seeAllRecipes} <ArrowUpRight size={14} />
-                </a>
-              </div>
-              <div className="hero-meal-list">
-                {directMeals.slice(0, 3).map(({ recipe }) => (
-                  <Link href={`/recipes/${recipe.slug}`} key={recipe.slug}>
-                    <Image
-                      src={recipe.image}
-                      alt={recipe.name}
-                      width={100}
-                      height={100}
-                    />
-                    <div>
-                      <h3>{recipe.name}</h3>
-                      <p>{fill(t.minutes, { count: recipe.minutes })}</p>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-          {details && (
-            <div className="hero-storage">
-              <Leaf size={23} />
-              <div>
-                <h2>{t.howToStore}</h2>
-                <p>{details.storage}</p>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
+        </section>
+      </PackSelection>
       {details && (
         <section className="product-why" aria-labelledby="why-heading">
           <div className="product-section-heading">
@@ -317,84 +375,93 @@ export default async function ProductDetails({ params }: Props) {
                   </div>
                 </div>
               ))}
-              {!pantry && <div className="nutrition-references">
-                <a
-                  href={details.nutritionSource}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nutrition-reference"
-                >
-                  {t.foodGuide} <ArrowUpRight size={12} />
-                </a>
-                {["vegetable", "fruit", "potato"].includes(
-                  wellnessKind(p.slug, p.category),
-                ) && (
-                  <>
+              {!pantry && !packed && (
+                <div className="nutrition-references">
+                  <a
+                    href={details.nutritionSource}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="nutrition-reference"
+                  >
+                    {t.foodGuide} <ArrowUpRight size={12} />
+                  </a>
+                  {["vegetable", "fruit", "potato"].includes(
+                    wellnessKind(p.slug, p.category),
+                  ) && (
+                    <>
+                      <a
+                        href="https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="nutrition-reference"
+                      >
+                        {t.fibreGuide} <ArrowUpRight size={12} />
+                      </a>
+                      <a
+                        href="https://www.cdc.gov/healthy-weight-growth/healthy-eating/fruits-vegetables.html"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="nutrition-reference"
+                      >
+                        {t.eatingGuide} <ArrowUpRight size={12} />
+                      </a>
+                    </>
+                  )}
+                  {wellnessKind(p.slug, p.category) === "herb" && (
                     <a
-                      href="https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="nutrition-reference"
-                    >
-                      {t.fibreGuide} <ArrowUpRight size={12} />
-                    </a>
-                    <a
-                      href="https://www.cdc.gov/healthy-weight-growth/healthy-eating/fruits-vegetables.html"
+                      href="https://www.nhlbi.nih.gov/resources/use-herbs-and-spices-instead-salt-fact-sheet"
                       target="_blank"
                       rel="noreferrer"
                       className="nutrition-reference"
                     >
                       {t.eatingGuide} <ArrowUpRight size={12} />
                     </a>
-                  </>
-                )}
-                {wellnessKind(p.slug, p.category) === "herb" && (
-                  <a
-                    href="https://www.nhlbi.nih.gov/resources/use-herbs-and-spices-instead-salt-fact-sheet"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="nutrition-reference"
-                  >
-                    {t.eatingGuide} <ArrowUpRight size={12} />
-                  </a>
-                )}
-              </div>}
+                  )}
+                </div>
+              )}
             </aside>
           </div>
         </section>
       )}
-      {meals.length > 0 && <section className="product-ways" aria-labelledby="ways-heading">
-        <div className="product-section-heading">
-          <h2 id="ways-heading">
-            {fill(t.waysToEnjoyName, { name: inlineName })}
-          </h2>
-        </div>
-        <div className="product-meal-grid">
-          {meals.map(({ recipe, direct }) => (
-            <Link
-              className="product-meal"
-              href={`/recipes/${recipe.slug}`}
-              key={recipe.slug}
-            >
-              <div className="product-meal-image">
-                <Image
-                  src={recipe.image}
-                  alt={recipe.name}
-                  fill
-                  sizes="(max-width: 600px) 44vw, (max-width: 900px) 30vw, 19vw"
-                />
-              </div>
-              <h3>{recipe.name}</h3>
-              {!direct && <p>{t.servingInspiration}</p>}
-            </Link>
-          ))}
-        </div>
-      </section>}
-      {!pantry && details && <ProductStoryBanner index={details.bannerIndex} />}
+      {meals.length > 0 && (
+        <section className="product-ways" aria-labelledby="ways-heading">
+          <div className="product-section-heading">
+            <h2 id="ways-heading">
+              {fill(t.waysToEnjoyName, { name: inlineName })}
+            </h2>
+          </div>
+          <div className="product-meal-grid">
+            {meals.map(({ recipe, direct }) => (
+              <Link
+                className="product-meal"
+                href={`/recipes/${recipe.slug}`}
+                key={recipe.slug}
+              >
+                <div className="product-meal-image">
+                  <Image
+                    src={recipe.image}
+                    alt={recipe.name}
+                    fill
+                    sizes="(max-width: 600px) 44vw, (max-width: 900px) 30vw, 19vw"
+                  />
+                </div>
+                <h3>{recipe.name}</h3>
+                {!direct && <p>{t.servingInspiration}</p>}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+      {!pantry && !packed && details && (
+        <ProductStoryBanner index={details.bannerIndex} />
+      )}
       <section className="product-recommendations">
         <div className="section-heading">
           <h2>{t.youMayAlsoLike}</h2>
-          <Link href={category ? categoryPath : "/products"} className="text-link">
+          <Link
+            href={category ? categoryPath : "/products"}
+            className="text-link"
+          >
             {category?.name ?? t.viewAll} <ArrowUpRight size={16} />
           </Link>
         </div>

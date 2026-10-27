@@ -1,3 +1,4 @@
+import { honeyEggAdditionalImages } from "./honey-eggs-images";
 import { dehydratedAdditionalImages } from "./dehydrated-additional-images";
 import type { StaticImageData } from "next/image";
 import product0View1 from "@/src/assets/products/additional/amaranth-greens-1.webp";
@@ -366,6 +367,7 @@ import product90View3 from "@/src/assets/products/additional/zucchini-3.webp";
 import product90View4 from "@/src/assets/products/additional/zucchini-4.webp";
 
 export const additionalProductImages: Record<string, StaticImageData[]> = {
+  ...honeyEggAdditionalImages,
   ...dehydratedAdditionalImages,
   "amaranth-greens": [
     product0View1,

@@ -1,0 +1,169 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-27",
+  "reference": "Existing Floruvi green banana flour glass jar and approved egg carton design",
+  "assets": [
+    {
+      "file": "farm-eggs-12.webp",
+      "sha256": "9775fbf7520d50ce267925dda69960fb6196a1307174a393581034cb16de9c54",
+      "bytes": 247810
+    },
+    {
+      "file": "farm-eggs-24.webp",
+      "sha256": "669866538a9ad8d5739c865dd501404b69fda3e995e7c0c975fc05c188ad87e7",
+      "bytes": 243592
+    },
+    {
+      "file": "farm-eggs-36.webp",
+      "sha256": "8f8361d29ef65f9fa0de7161fead425ef9c20aae1764087f06be8016e45407f7",
+      "bytes": 247198
+    },
+    {
+      "file": "farm-eggs-48.webp",
+      "sha256": "cfd4518734d5df2162d769d3d8d50bf5075c0bbffac30694ab526cf22f2b8501",
+      "bytes": 307314
+    },
+    {
+      "file": "honey-lemon-mint-drink.webp",
+      "sha256": "e0aa7d8b4b35537451b985ba46faaf879115aad576abfd96b56f92b4c9199081",
+      "bytes": 242240
+    },
+    {
+      "file": "honey-mustard-salad-dressing.webp",
+      "sha256": "ef8b1c270a4b4a49f51e7108130eb02a248999295674b1c83fbbf5f9a4d371e7",
+      "bytes": 267198
+    },
+    {
+      "file": "honey-yoghurt-fruit-bowl.webp",
+      "sha256": "f15f39b91ae74fc888da811c40d41b9ab0c96a8121418d33966ae109c6985b7a",
+      "bytes": 198104
+    },
+    {
+      "file": "raw-honey-100ml.webp",
+      "sha256": "5c5a87148e4e2311867b241823725da28993f69b93f0800195143d2f7167c9a1",
+      "bytes": 205118
+    },
+    {
+      "file": "raw-honey-250ml.webp",
+      "sha256": "628124e05442471429788adbe35b565f50f968cde4e82a1178a526cb54f5be53",
+      "bytes": 228492
+    },
+    {
+      "file": "raw-honey-500ml.webp",
+      "sha256": "6573b8ec8066723386fa156f718d687058c1f899fdcac14fb0cab2581508d468",
+      "bytes": 248062
+    },
+    {
+      "file": "single-flower-honey-100ml.webp",
+      "sha256": "55767b0d0020063012d1f4903137fab4b4010660681d2b504862c7a8b45dc413",
+      "bytes": 182148
+    },
+    {
+      "file": "single-flower-honey-250ml.webp",
+      "sha256": "0964be3c8d62ca9d4d34075a849806e335878fcd56c27ede5ec6964f4077c482",
+      "bytes": 206552
+    },
+    {
+      "file": "single-flower-honey-500ml.webp",
+      "sha256": "869de992bf89de44aee2f1b6145609f95f79877c9d92f084eb09d9b37814d084",
+      "bytes": 234498
+    },
+    {
+      "file": "wildflower-honey-100ml.webp",
+      "sha256": "64b6d1f1f4528f43373c62d36483863610ba4e73b75c7b46d04b22535260039f",
+      "bytes": 205354
+    },
+    {
+      "file": "wildflower-honey-250ml.webp",
+      "sha256": "1122d5e2d6f98b594cd0a95ec445f7705363834a60580ca42084d4f9e83e3284",
+      "bytes": 241880
+    },
+    {
+      "file": "wildflower-honey-500ml.webp",
+      "sha256": "b34f3ca982fa40ef554a9fae2c38b958bc74087497e4ec0c28359fb9ccdbfd56",
+      "bytes": 238528
+    }
+  ],
+  "prompts": [
+    {
+      "slug": "raw-honey-100ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with amber honey, botanical honeycomb and wildflower illustration. One 100 ml glass jar only, sized plausibly for 100 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'RAW HONEY', '100 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-fb4661d2-7a13-4bae-ad2b-bd4b32b62cf5.png"
+    },
+    {
+      "slug": "raw-honey-250ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with amber honey, botanical honeycomb and wildflower illustration. One 250 ml glass jar only, sized plausibly for 250 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'RAW HONEY', '250 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-e24355ff-fe46-40fc-8c4b-d2d0b75f3612.png"
+    },
+    {
+      "slug": "raw-honey-500ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with amber honey, botanical honeycomb and wildflower illustration. One 500 ml glass jar only, sized plausibly for 500 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'RAW HONEY', '500 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-3645be29-b7b2-409d-95d0-5b3a1d757cdf.png"
+    },
+    {
+      "slug": "wildflower-honey-100ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with golden honey, mixed meadow wildflower botanical illustration. One 100 ml glass jar only, sized plausibly for 100 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'WILDFLOWER HONEY', '100 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-975a717e-02df-4c04-b026-97ab06ca6c64.png"
+    },
+    {
+      "slug": "wildflower-honey-250ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with golden honey, mixed meadow wildflower botanical illustration. One 250 ml glass jar only, sized plausibly for 250 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'WILDFLOWER HONEY', '250 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-657a14a6-7cf5-4f99-96fe-c5db3fb36785.png"
+    },
+    {
+      "slug": "wildflower-honey-500ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with golden honey, mixed meadow wildflower botanical illustration. One 500 ml glass jar only, sized plausibly for 500 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'WILDFLOWER HONEY', '500 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-5588e68d-9cb1-4bc3-91e3-0bb94107cba0.png"
+    },
+    {
+      "slug": "single-flower-honey-100ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with pale gold honey, a restrained single blossom botanical illustration; no named flower species claim. One 100 ml glass jar only, sized plausibly for 100 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'SINGLE-FLOWER HONEY', '100 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-ba0da9ec-85c8-457e-bb0e-a9429be96c47.png"
+    },
+    {
+      "slug": "single-flower-honey-250ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with pale gold honey, a restrained single blossom botanical illustration; no named flower species claim. One 250 ml glass jar only, sized plausibly for 250 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'SINGLE-FLOWER HONEY', '250 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-4e4c278d-7a34-4696-84fd-4d3bcfbd96bc.png"
+    },
+    {
+      "slug": "single-flower-honey-500ml",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi ecommerce product photograph. Use reference for the approved cream/forest-green/mustard-yellow packaging, orange carrot mark, lowercase flor uvi wordmark spelled exactly 'floruvi', botanical illustration style and warm ivory limestone/daylight studio setting. Subject: glass jar filled with pale gold honey, a restrained single blossom botanical illustration; no named flower species claim. One 500 ml glass jar only, sized plausibly for 500 ml, with dark green screw lid, tamper seal, cream front panel, mustard geometric areas, illustration matching honey variety; honey visible through glass. Exact front label text ONLY: 'floruvi', 'SINGLE-FLOWER HONEY', '500 ml'. Clearly write ml in lowercase. ABSOLUTELY NO grams, g, kg, 500 g, or weight text anywhere. No organic, certifications, health claims, origin claims, price or other words. No banana fruit or banana trees. Full jar in frame with margin; close three-quarter front view; legible label. One SKU, no collage. Match the other sizes of this honey family in design.",
+      "sourceFile": "exec-832945a2-3c32-40f0-8431-ac33b6ee7822.png"
+    },
+    {
+      "slug": "farm-eggs-12",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi catalogue photograph using the reference image for packaging identity, cream/green/yellow botanical artwork, orange carrot mark and serif typography. Change the six-egg carton to one protective natural moulded-paper TWELVE egg carton, 2 rows of 6, lid partly open enough to show a realistic carton of twelve eggs; no loose extra eggs. Exact label text only 'floruvi', 'FARM EGGS', '12 eggs'. The illustration should show a hen. No banana fruit, no health/free-range/organic claims. Same warm ivory limestone tabletop and natural daylight, full carton visible with margin. Product view, not a collage.",
+      "sourceFile": "exec-8beab293-e79d-4e3a-aa26-31ce01061974.png"
+    },
+    {
+      "slug": "farm-eggs-24",
+      "prompt": "Use case: product-mockup. ONE square photorealistic Floruvi catalogue photograph using the reference for the approved cream/green/yellow botanical packaging, orange carrot mark, serif typography and warm ivory limestone/daylight setting. One rectangular protective moulded-paper TWENTY-FOUR egg tray in a retail cardboard carrier, 4 rows of 6 egg cells, arranged plausibly with brown eggs; cream paper sleeve wraps one end of tray so some eggs are covered. Exact sleeve text only 'floruvi', 'FARM EGGS', '24 eggs'. Detailed hen artwork. Full carrier visible in frame with margin. No loose eggs, no banana fruit, no organic/free-range/health claims, no collage.",
+      "sourceFile": "exec-dfcbd1cb-fe08-47b1-afa4-9201f42fcc30.png"
+    },
+    {
+      "slug": "honey-yoghurt-fruit-bowl",
+      "prompt": "Use case: photorealistic-natural. Square premium editorial food photograph for Floruvi recipe 'Honey yoghurt fruit bowl'. Two ivory ceramic bowls of plain thick yoghurt topped with sliced banana and rolled oats, a small golden honey drizzle visibly glistening on top. Warm ivory limestone tabletop, soft natural window daylight and subtle leaf shadows. Front three-quarter overhead close composition with full bowls visible, appetising true ingredient textures. No product packaging, no labels, no text, no logos, no watermark. This is a serving idea.",
+      "sourceFile": "exec-eb186ed7-2052-490c-84e3-4416b322e377.png"
+    },
+    {
+      "slug": "honey-lemon-mint-drink",
+      "prompt": "Use case: photorealistic-natural. Square premium Floruvi recipe serving photograph. Two clear glasses of pale golden honey-lemon water with a few fresh mint leaves and optional ice. Lemon wedges and a small spoon with honey beside the glasses. Warm ivory limestone tabletop, natural window daylight, subtle leaf shadows. Crisp refreshing realistic scene, close three-quarter composition, glasses fully visible. No labels, packaging, text, health symbols, logos or watermark.",
+      "sourceFile": "exec-a95157fc-1690-473c-90e4-60aa9235ce91.png"
+    },
+    {
+      "slug": "honey-mustard-salad-dressing",
+      "prompt": "Use case: photorealistic-natural. Square premium Floruvi recipe serving photograph. Small ivory bowl filled with glossy golden honey mustard lemon olive-oil dressing, a spoon lifting the dressing, beside a simple fresh green leaf salad lightly dressed. Mustard seeds can appear in the dressing, lemon wedge nearby. Warm ivory limestone tabletop and natural window daylight with subtle shadows. Accurate food texture, restrained editorial still life, close three-quarter view. No product jars or labels, no text, no logos, no watermark.",
+      "sourceFile": "exec-fa6e91f4-0030-4e91-a97d-bc0a95a3cdda.png"
+    },
+    {
+      "slug": "farm-eggs-36",
+      "prompt": "Use case: product-mockup. ONE square Floruvi ecommerce photograph. Use the reference for the exact approved cream, forest-green and mustard-yellow illustrated packaging, orange carrot logo, hen botanical artwork, typography and warm ivory limestone natural-daylight setting. Subject: 3 protective TWELVE-EGG moulded-paper cartons, neatly stacked as one retail multipack with a wide cream printed outer sleeve. There must be EXACTLY 3 visibly separate stacked carton layers, each a 12-egg carton, not one implausibly enlarged carton. The outer sleeve has exact prominent text 'floruvi', 'FARM EGGS', '3 dozen', '36 eggs'. Each carton can be closed so egg count need not be visible. Full multipack visible, natural three-quarter view, packaging precise and convincing. No six-egg cartons, no extra cartons, no loose eggs, no health, free-range or organic claims. No other words. Match reference packaging design with hen illustration on the sleeve. No banana fruit.",
+      "sourceFile": "exec-c85edfb6-3563-4ccf-9968-23c453fe0b9d.png"
+    },
+    {
+      "slug": "farm-eggs-48",
+      "prompt": "Use case: product-mockup. ONE square Floruvi ecommerce photograph. Use the reference for the exact approved cream, forest-green and mustard-yellow illustrated packaging, orange carrot logo, hen botanical artwork, typography and warm ivory limestone natural-daylight setting. Subject: 4 protective TWELVE-EGG moulded-paper cartons, neatly stacked as one retail multipack with a wide cream printed outer sleeve. There must be EXACTLY 4 visibly separate stacked carton layers, each a 12-egg carton, not one implausibly enlarged carton. The outer sleeve has exact prominent text 'floruvi', 'FARM EGGS', '4 dozen', '48 eggs'. Each carton can be closed so egg count need not be visible. Full multipack visible, natural three-quarter view, packaging precise and convincing. No six-egg cartons, no extra cartons, no loose eggs, no health, free-range or organic claims. No other words. Match reference packaging design with hen illustration on the sleeve. No banana fruit.",
+      "sourceFile": "exec-6d532692-e89a-4760-abf5-be21cab326ae.png"
+    }
+  ]
+}

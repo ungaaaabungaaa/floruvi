@@ -6,6 +6,7 @@ import { isSameOrigin } from "@/lib/request-origin";
 import { readJson } from "@/lib/read-json";
 import { reviewBasket } from "@/lib/pricing";
 import { marketCodes, type Market } from "@/lib/i18n/config";
+import { localProductPreview } from "@/lib/local-product-preview";
 const schema = z
   .object({
     items: basketLines,
@@ -26,6 +27,15 @@ export async function POST(request: Request) {
     );
   try {
     const { items, market } = parsed.data;
+    if (localProductPreview() && market === "in") {
+      const { products, commerce } = (
+        await import("@/lib/local-product-preview-data")
+      ).previewShop();
+      return Response.json(
+        reviewBasket(items, products, commerce, market, false),
+        { headers: { "Cache-Control": "no-store" } },
+      );
+    }
     // Convex recalculates prices for the requested market; the browser sends none.
     // English names keep the enquiry readable for the farm.
     const [{ products, commerce }, payments] = await Promise.all([

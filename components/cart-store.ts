@@ -1,5 +1,6 @@
 "use client";
 import { isPantry, validWeight } from "@/lib/pantry-weights";
+import { isPackProduct, validPackSize } from "@/lib/product-packs";
 import { useSyncExternalStore } from "react";
 import {
   normalizeCart,
@@ -59,6 +60,7 @@ export function useCart() {
     count: items.reduce((sum, line) => sum + line.quantity, 0),
     add(slug: string, quantity = 1) {
       const current = getSnapshot();
+      if (isPackProduct(slug)) return false;
       if (current.find((i) => i.slug === slug)?.weightGrams) return false;
       const nextQuantity =
         (current.find((i) => i.slug === slug)?.quantity ?? 0) + quantity;
@@ -87,7 +89,22 @@ export function useCart() {
       return true;
     },
     setQuantity(slug: string, quantity: number) {
+      if (isPackProduct(slug)) return;
       save(updateCart(getSnapshot(), slug, quantity));
+    },
+    setPackSize(slug: string, packSize: number) {
+      const current = getSnapshot();
+      if (
+        !validPackSize(slug, packSize) ||
+        (current.length >= MAX_CART_LINES &&
+          !current.some((i) => i.slug === slug))
+      )
+        return false;
+      save([
+        ...current.filter((i) => i.slug !== slug),
+        { slug, quantity: 1, packSize },
+      ]);
+      return true;
     },
     remove(slug: string) {
       save(getSnapshot().filter((i) => i.slug !== slug));

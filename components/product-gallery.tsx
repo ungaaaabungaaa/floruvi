@@ -12,6 +12,8 @@ import { Botanical } from "./botanical";
 import { productGalleryImages } from "@/lib/product-gallery-images";
 import { additionalProductImages } from "@/lib/additional-product-images";
 import "./product-gallery.css";
+import { usePackSelection } from "./pack-selection";
+import { packSizeLabel } from "@/lib/product-packs";
 
 export function ProductGallery({
   product,
@@ -22,7 +24,12 @@ export function ProductGallery({
   labels: Messages["product"]["gallery"];
   dishes?: { image: StaticImageData; name: string; slug: string }[];
 }) {
-  const [selected, setSelected] = useState(0);
+  const selection = usePackSelection();
+  const [chosen, setChosen] = useState({ index: 0, size: selection?.size });
+  const selected =
+    selection && chosen.size !== selection.size
+      ? Math.max(0, selection.sizes.indexOf(selection.size))
+      : chosen.index;
   const crop = productImage(product.slug, product.imageUrl);
   const views = [
     {
@@ -53,7 +60,15 @@ export function ProductGallery({
       href: `/recipes/${dish.slug}`,
     })),
   ];
-  const view = views[selected];
+  const labeledViews = views.map((view, index) =>
+    selection && index < selection.sizes.length
+      ? {
+          ...view,
+          label: `${product.name} · ${packSizeLabel(product.slug, selection.sizes[index])}`,
+        }
+      : view,
+  );
+  const view = labeledViews[selected];
   return (
     <div className="product-gallery">
       <div className="gallery-main">
@@ -84,11 +99,18 @@ export function ProductGallery({
         role="group"
         aria-label={labels.images}
       >
-        {views.map((item, index) => (
+        {labeledViews.map((item, index) => (
           <button
             key={item.label}
             type="button"
-            onClick={() => setSelected(index)}
+            onClick={() => {
+              const size =
+                selection && index < selection.sizes.length
+                  ? selection.sizes[index]
+                  : selection?.size;
+              if (size !== undefined) selection?.setSize(size);
+              setChosen({ index, size });
+            }}
             aria-pressed={selected === index}
             aria-label={fill(labels.view, { label: item.label })}
           >

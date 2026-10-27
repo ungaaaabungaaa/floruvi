@@ -2,8 +2,14 @@ import { enquirySchema } from "@/lib/enquiry";
 import { isSameOrigin } from "@/lib/request-origin";
 import { callerHash, keyedHash, readJson } from "@/lib/read-json";
 import { withCountry } from "@/lib/i18n/country";
+import { localProductPreview } from "@/lib/local-product-preview";
 
 export async function POST(request: Request) {
+  if (localProductPreview())
+    return Response.json(
+      { error: "This is a local review. Enquiries are disabled." },
+      { status: 503 },
+    );
   const secret = process.env.LEAD_INGEST_SECRET;
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
   if (!secret || !site)

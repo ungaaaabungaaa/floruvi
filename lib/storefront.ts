@@ -6,6 +6,7 @@ import { storefrontCopy } from "./storefront-copy";
 import { getI18n } from "./i18n/server";
 import type { Messages } from "./i18n/messages";
 import { formatCurrency } from "./i18n/format";
+import { localProductPreview } from "./local-product-preview";
 
 // Convex returns translated text and market prices for the version. English text
 // keeps its storefront formatting; translations are shown as translated.
@@ -16,6 +17,8 @@ const englishCopy = <T extends { translated: boolean }>(record: T) =>
 
 export const getShop = cache(async () => {
   const { locale, messages } = await getI18n();
+  if (localProductPreview() && locale.market === "in")
+    return (await import("./local-product-preview-data")).previewShop();
   const raw = await cachedPublicQuery(api.storefront.catalogue, {
     language: locale.language,
     market: locale.market,
@@ -46,7 +49,8 @@ export const getShop = cache(async () => {
     slug: category.slug,
     name: categoryText[category.slug]?.name ?? storefrontCopy(category.name),
     description:
-      categoryText[category.slug]?.description ?? storefrontCopy(category.description),
+      categoryText[category.slug]?.description ??
+      storefrontCopy(category.description),
   }));
   return { commerce: raw.commerce, categories, products };
 });
@@ -55,11 +59,17 @@ export async function deliveryFeeLabel(tag: string) {
   const { commerce } = await getShop();
   return formatCurrency(commerce?.deliveryFeeMinor ?? 9900, "INR", tag);
 }
-export type ShopProduct = Awaited<ReturnType<typeof getShop>>["products"][number];
-export type ShopCategory = Awaited<ReturnType<typeof getShop>>["categories"][number];
+export type ShopProduct = Awaited<
+  ReturnType<typeof getShop>
+>["products"][number];
+export type ShopCategory = Awaited<
+  ReturnType<typeof getShop>
+>["categories"][number];
 
 export const getProduct = cache(async (slug: string) => {
   const { locale, messages } = await getI18n();
+  if (localProductPreview() && locale.market === "in")
+    return (await import("./local-product-preview-data")).previewProduct(slug);
   const result = await cachedPublicQuery(api.storefront.product, {
     slug,
     language: locale.language,
@@ -82,15 +92,36 @@ export const getProduct = cache(async (slug: string) => {
         packLabel: packLabel(messages, product.price.packLabel),
       },
     },
-    details: details && (product.translated ? details : storefrontCopy(details)),
+    details:
+      details && (product.translated ? details : storefrontCopy(details)),
     record: english,
   };
 });
 
 export const getRecipeList = cache(async () => {
   const { locale, messages } = await getI18n();
-  const raw = await cachedPublicQuery(api.storefront.recipes, { language: locale.language });
-  const categories = messages.recipeCategories as Record<string, string | undefined>;
+  if (localProductPreview() && locale.market === "in")
+    return (await import("./local-product-preview-data"))
+      .previewRecipes()
+      .map((recipe) => ({
+        slug: recipe.slug,
+        categoryKey: recipe.category,
+        category: recipe.category,
+        minutes: recipe.minutes,
+        servings: recipe.servings,
+        crops: recipe.crops,
+        image: recipeImage(recipe.imageKey),
+        name: recipe.name,
+        description: recipe.description,
+        ingredientSearch: recipe.ingredients.join(" "),
+      }));
+  const raw = await cachedPublicQuery(api.storefront.recipes, {
+    language: locale.language,
+  });
+  const categories = messages.recipeCategories as Record<
+    string,
+    string | undefined
+  >;
   return raw.map((recipe) => {
     const text = englishCopy({
       translated: recipe.translated,
@@ -116,7 +147,22 @@ export type RecipeSummary = Awaited<ReturnType<typeof getRecipeList>>[number];
 
 export const getRecipe = cache(async (slug: string) => {
   const { locale, messages } = await getI18n();
-  const recipe = await cachedPublicQuery(api.storefront.recipe, { slug, language: locale.language });
+  if (localProductPreview() && locale.market === "in") {
+    const recipe = (await import("./local-product-preview-data"))
+      .previewRecipes()
+      .find((recipe) => recipe.slug === slug);
+    return recipe
+      ? {
+          ...recipe,
+          categoryKey: recipe.category,
+          image: recipeImage(recipe.imageKey),
+        }
+      : null;
+  }
+  const recipe = await cachedPublicQuery(api.storefront.recipe, {
+    slug,
+    language: locale.language,
+  });
   if (!recipe) return null;
   const text = englishCopy({
     translated: recipe.translated,
@@ -126,7 +172,10 @@ export const getRecipe = cache(async (slug: string) => {
     steps: recipe.steps,
     tip: recipe.tip,
   });
-  const categories = messages.recipeCategories as Record<string, string | undefined>;
+  const categories = messages.recipeCategories as Record<
+    string,
+    string | undefined
+  >;
   return {
     ...recipe,
     ...text,

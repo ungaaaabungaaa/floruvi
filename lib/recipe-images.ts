@@ -1,3 +1,4 @@
+import { honeyRecipeImages } from "./honey-eggs-images";
 import type { StaticImageData } from "next/image";
 import salad from "@/src/assets/salad-bowl.webp";
 import smoothie from "@/src/assets/recipe-smoothie.webp";
@@ -217,6 +218,7 @@ import pantryRecipe37 from "@/src/assets/recipes/pantry/garlic-powder-yoghurt-di
 import pantryRecipe38 from "@/src/assets/recipes/pantry/garlic-powder-roasted-chickpeas.webp";
 import pantryRecipe39 from "@/src/assets/recipes/pantry/garlic-powder-herb-flatbreads.webp";
 export const recipeImages: Record<string, StaticImageData> = {
+  ...honeyRecipeImages,
   "recipe:lemon-garlic-chicken-carrot-beans": nonVegetarian0,
   "recipe:chicken-spinach-tomato-curry": nonVegetarian1,
   "recipe:chicken-methi-yoghurt-curry": nonVegetarian2,

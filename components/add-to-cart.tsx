@@ -1,5 +1,6 @@
 "use client";
 import { isPantry } from "@/lib/pantry-weights";
+import { isPackProduct } from "@/lib/product-packs";
 import { useState } from "react";
 import Link from "@/components/i18n/link";
 import { ShoppingBag, Check, Minus, Plus, ChevronRight } from "lucide-react";
@@ -33,15 +34,37 @@ export function AddToCart({
         <span className="stock-out">{t.addToCart.outOfStock}</span>
       </div>
     );
-  if (locale.domestic && isPantry(slug))
+  if (!locale.domestic && isPackProduct(slug))
+    return (
+      <div className={compact ? "add-crop compact" : "add-crop"}>
+        <Link
+          href={`/contact?product=${encodeURIComponent(name)}`}
+          className="button button-outline"
+          aria-label={`Request a quote for ${name}`}
+        >
+          {compact ? (
+            <ChevronRight size={18} aria-hidden="true" />
+          ) : (
+            "Request a quote"
+          )}
+        </Link>
+      </div>
+    );
+  if ((locale.domestic && isPantry(slug)) || isPackProduct(slug))
     return (
       <div className={compact ? "add-crop compact" : "add-crop"}>
         <Link
           href={`/products/${slug}`}
           className="button button-outline"
-          aria-label={`Choose weight for ${name}`}
+          aria-label={`Choose ${isPackProduct(slug) ? "pack" : "weight"} for ${name}`}
         >
-          {compact ? <Plus size={18} aria-hidden="true" /> : "Choose weight"}
+          {compact ? (
+            <Plus size={18} aria-hidden="true" />
+          ) : isPackProduct(slug) ? (
+            "Choose pack"
+          ) : (
+            "Choose weight"
+          )}
         </Link>
       </div>
     );

@@ -5,6 +5,7 @@ import {
   type WeightPricing,
 } from "./pantry-weights";
 import type { CartLine } from "./cart";
+import { isPackProduct, packOptions, packLabel } from "./product-packs";
 import { boxContents, getCartBox } from "./boxes";
 import { formatCurrency, type CurrencyCode } from "./i18n/format";
 import { markets, type Market } from "./i18n/config";
@@ -73,6 +74,13 @@ export function reviewBasket(
       : products.find((p) => p.slug === line.slug);
     const stored = products.find((p) => p.slug === line.slug);
     const weighted = line.weightGrams !== undefined;
+    const selectedPack = line.packSize !== undefined;
+    const pack =
+      selectedPack && !weighted && line.quantity === 1
+        ? packOptions(line.slug, stored?.price, market)?.find(
+            (option) => option.size === line.packSize,
+          )
+        : null;
     const weightedMinor =
       weighted &&
       market === "in" &&
@@ -81,15 +89,25 @@ export function reviewBasket(
       stored?.weightPricing
         ? weightPrice(stored.weightPricing, line.weightGrams!)
         : null;
-    const price = weighted
-      ? weightedMinor !== null
+    const price = selectedPack
+      ? pack
         ? {
-            amountMinor: weightedMinor,
+            amountMinor: pack.amountMinor,
             currency,
-            packLabel: weightLabel(line.weightGrams!),
+            packLabel: packLabel(line.slug, line.packSize!),
           }
         : null
-      : (stored?.legacyPrice ?? product?.price);
+      : isPackProduct(line.slug)
+        ? null
+        : weighted
+          ? weightedMinor !== null
+            ? {
+                amountMinor: weightedMinor,
+                currency,
+                packLabel: weightLabel(line.weightGrams!),
+              }
+            : null
+          : (stored?.legacyPrice ?? product?.price);
     const unitPrice = usable(price) ? price!.amountMinor : null;
     const candidate = unitPrice === null ? null : unitPrice * line.quantity;
     const lineTotal = validMoney(candidate) ? candidate : null;
@@ -104,7 +122,11 @@ export function reviewBasket(
       ...line,
       name: product?.name ?? line.slug,
       availableToEnquire:
-        !!product && !outOfStock && (!weighted || weightedMinor !== null),
+        !!product &&
+        !outOfStock &&
+        (!weighted || weightedMinor !== null) &&
+        (!selectedPack || !!pack) &&
+        (!isPackProduct(line.slug) || !!pack),
       outOfStock,
       packLabel: price?.packLabel ?? null,
       unitPrice,
@@ -137,6 +159,7 @@ export function reviewBasket(
     payments &&
     domestic &&
     lines.every((line) => !getCartBox(line.slug)) &&
+    lines.every((line) => line.packSize === undefined) &&
     total !== null &&
     total >= MIN_PAYMENT_MINOR &&
     items.every((item) => item.availableToEnquire && item.lineTotal !== null);

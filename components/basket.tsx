@@ -19,6 +19,7 @@ import {
   MAX_WEIGHT_GRAMS,
 } from "@/lib/pantry-weights";
 import { useCart } from "./cart-store";
+import { nextPackSize, packSizeLabel, packLabel } from "@/lib/product-packs";
 import { getCartBox } from "@/lib/boxes";
 import singleBox from "@/src/assets/boxes/single.webp";
 import dualBox from "@/src/assets/boxes/dual.webp";
@@ -273,7 +274,7 @@ export function BasketPage({
               );
               const src = box
                 ? boxImages[box.id]
-                : productImage(line.slug, product?.imageUrl);
+                : productImage(line.slug, product?.imageUrl, line.packSize);
               return (
                 <article className="basket-row" key={line.slug}>
                   <div className="basket-product">
@@ -300,12 +301,14 @@ export function BasketPage({
                           : pricedLine?.outOfStock
                             ? t.addToCart.outOfStock
                             : product
-                              ? line.weightGrams
-                                ? weightLabel(line.weightGrams)
-                                : (product.legacyPrice?.packLabel ??
-                                  product.price?.packLabel ??
-                                  pricedLine?.packLabel ??
-                                  labels.packOnRequest)
+                              ? line.packSize
+                                ? packLabel(line.slug, line.packSize)
+                                : line.weightGrams
+                                  ? weightLabel(line.weightGrams)
+                                  : (product.legacyPrice?.packLabel ??
+                                    product.price?.packLabel ??
+                                    pricedLine?.packLabel ??
+                                    labels.packOnRequest)
                               : labels.unlisted}
                       </p>
                       {box && (
@@ -317,7 +320,7 @@ export function BasketPage({
                   </div>
                   <div
                     className={
-                      line.weightGrams
+                      line.weightGrams || line.packSize
                         ? "quantity-picker weight-picker"
                         : "quantity-picker"
                     }
@@ -326,41 +329,59 @@ export function BasketPage({
                       type="button"
                       aria-label={fill(labels.reduce, { name })}
                       disabled={
-                        line.weightGrams
-                          ? line.weightGrams === 250
-                          : line.quantity === 1
+                        line.packSize
+                          ? nextPackSize(line.slug, line.packSize, -1) ===
+                            line.packSize
+                          : line.weightGrams
+                            ? line.weightGrams === 250
+                            : line.quantity === 1
                       }
                       onClick={() =>
-                        line.weightGrams
-                          ? cart.setWeight(
+                        line.packSize
+                          ? cart.setPackSize(
                               line.slug,
-                              nextWeight(line.weightGrams, -1),
+                              nextPackSize(line.slug, line.packSize, -1)!,
                             )
-                          : cart.setQuantity(line.slug, line.quantity - 1)
+                          : line.weightGrams
+                            ? cart.setWeight(
+                                line.slug,
+                                nextWeight(line.weightGrams, -1),
+                              )
+                            : cart.setQuantity(line.slug, line.quantity - 1)
                       }
                     >
                       <Minus size={14} />
                     </button>
                     <output>
-                      {line.weightGrams
-                        ? formatWeight(line.weightGrams)
-                        : line.quantity}
+                      {line.packSize
+                        ? packSizeLabel(line.slug, line.packSize)
+                        : line.weightGrams
+                          ? formatWeight(line.weightGrams)
+                          : line.quantity}
                     </output>
                     <button
                       type="button"
                       aria-label={fill(labels.increase, { name })}
                       disabled={
-                        line.weightGrams
-                          ? line.weightGrams === MAX_WEIGHT_GRAMS
-                          : line.quantity === 99
+                        line.packSize
+                          ? nextPackSize(line.slug, line.packSize, 1) ===
+                            line.packSize
+                          : line.weightGrams
+                            ? line.weightGrams === MAX_WEIGHT_GRAMS
+                            : line.quantity === 99
                       }
                       onClick={() =>
-                        line.weightGrams
-                          ? cart.setWeight(
+                        line.packSize
+                          ? cart.setPackSize(
                               line.slug,
-                              nextWeight(line.weightGrams, 1),
+                              nextPackSize(line.slug, line.packSize, 1)!,
                             )
-                          : cart.setQuantity(line.slug, line.quantity + 1)
+                          : line.weightGrams
+                            ? cart.setWeight(
+                                line.slug,
+                                nextWeight(line.weightGrams, 1),
+                              )
+                            : cart.setQuantity(line.slug, line.quantity + 1)
                       }
                     >
                       <Plus size={14} />
@@ -370,8 +391,10 @@ export function BasketPage({
                     {review
                       ? money(
                           // A changed weight waits for its matching server quote.
-                          line.weightGrams &&
-                            pricedLine?.weightGrams !== line.weightGrams
+                          (line.weightGrams &&
+                            pricedLine?.weightGrams !== line.weightGrams) ||
+                            (line.packSize &&
+                              pricedLine?.packSize !== line.packSize)
                             ? null
                             : pricedLine?.unitPrice != null
                               ? pricedLine.unitPrice * line.quantity

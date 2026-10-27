@@ -5395,7 +5395,7 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   .product-card:hover { border-color: #1c3b2426; box-shadow: 0 8px 20px #1c3b240f; }
 }
 .product-card .product-art-wrap { position: relative; }
-.product-card .product-art { aspect-ratio: 3 / 2; border-radius: 0; box-sizing: content-box; padding-top: 10px; }
+.product-card .product-art { aspect-ratio: 1 / 1; border-radius: 0; box-sizing: border-box; padding-top: 0; }
 .product-card .product-art-wrap > .wishlist-heart {
   top: 8px;
   inset-inline-end: 8px;
@@ -5405,8 +5405,8 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   background: #fbfaf5e6;
 }
 .product-card .product-art-wrap > .wishlist-heart svg { width: 17px; height: 17px; }
-.product-card-bottom { display: flex; flex-direction: column; gap: 0; flex: 1; padding: 8px 11px 9px; }
-.product-card .product-meta { padding-block: 9px; }
+.product-card-bottom { display: flex; flex-direction: column; gap: 0; flex: 1; padding: 6px 11px 8px; }
+.product-card .product-meta { padding-block: 3px; }
 .product-card .product-meta h3 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 15px;
@@ -5424,8 +5424,8 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-top: auto;
-  padding-top: 6px;
+  margin-top: 0;
+  padding-top: 2px;
 }
 .product-card-price { font-size: 15px; font-weight: 600; color: var(--green); }
 /* A small round "+" button beside the price — not a full-width bar. */
@@ -5463,13 +5463,13 @@ body:has(.tower-page) :is(.header-shell,.tower-page,.tower-hero,.site-footer) { 
 }
 @media (min-width: 700px) {
   .product-card { border-radius: 18px; }
-  .product-card .product-art { padding-top: 16px; }
-  .product-card-bottom { padding: 12px 15px 13px; }
-  .product-card .product-meta { padding-block: 6px; }
+  .product-card .product-art { padding-top: 0; }
+  .product-card-bottom { padding: 9px 15px 10px; }
+  .product-card .product-meta { padding-block: 3px; }
   .product-card .product-meta h3 { font-size: 19px; }
   .product-pack { font-size: 13px; }
   .product-card-price { font-size: 17px; }
-  .product-card-row { padding-top: 10px; }
+  .product-card-row { padding-top: 2px; }
   .product-card .add-crop.compact .button { width: 44px; min-height: 44px; }
 }
 /* Two comfortable columns on a phone, without a horizontal scroll. */
@@ -5949,3 +5949,5 @@ body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
 /* Weight labels must fit beside both controls, including three-digit kg values. */
 .cart-page .weight-picker button { width: 28px; flex-shrink: 0; }
 .cart-page .weight-picker output { min-width: 40px; white-space: nowrap; font-size: 12px; }
+
+.local-product-preview-note { margin: 0; padding: 10px 20px; text-align: center; font-size: 12px; line-height: 1.6; color: #183e30; background: #f2e6be; }

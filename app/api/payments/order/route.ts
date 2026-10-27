@@ -1,6 +1,7 @@
 import { paymentOrderRequest } from "@/lib/checkout";
 import { isSameOrigin } from "@/lib/request-origin";
 import { callerHash, keyedHash, readJson } from "@/lib/read-json";
+import { localProductPreview } from "@/lib/local-product-preview";
 
 const statusFor: Record<string, number> = {
   invalid: 400,
@@ -11,6 +12,8 @@ const statusFor: Record<string, number> = {
 // Starts a Razorpay payment. The browser sends slugs, quantities and contact
 // details only; Convex prices the basket and creates the Razorpay order.
 export async function POST(request: Request) {
+  if (localProductPreview())
+    return Response.json({ error: "off" }, { status: 503 });
   const secret = process.env.LEAD_INGEST_SECRET;
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
   if (!secret || !site) return Response.json({ error: "off" }, { status: 503 });

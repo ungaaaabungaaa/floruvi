@@ -1,4 +1,5 @@
 "use client";
+import { packLabel } from "@/lib/product-packs";
 import { weightLabel } from "@/lib/pantry-weights";
 import { useRef, useState } from "react";
 import Image from "next/image";
@@ -552,7 +553,7 @@ export function Checkout({
                 ? { single: singleBox, dual: dualBox, family: familyBox }[
                     box.id
                   ]
-                : productImage(item.slug, product?.imageUrl);
+                : productImage(item.slug, product?.imageUrl, item.packSize);
               return (
                 <article className="checkout-product-row" key={item.slug}>
                   <Link
@@ -579,11 +580,13 @@ export function Checkout({
                     <p>
                       {box
                         ? `${t.boxes[box.id].people} · ${lineLabels.schedule(item.slug)}`
-                        : item.weightGrams
-                          ? weightLabel(item.weightGrams)
-                          : (checked?.packLabel ??
-                            product?.packLabel ??
-                            cartLabels.packOnRequest)}
+                        : item.packSize
+                          ? packLabel(item.slug, item.packSize)
+                          : item.weightGrams
+                            ? weightLabel(item.weightGrams)
+                            : (checked?.packLabel ??
+                              product?.packLabel ??
+                              cartLabels.packOnRequest)}
                     </p>
                     {product?.description && (
                       <p className="checkout-product-description">
@@ -591,7 +594,7 @@ export function Checkout({
                       </p>
                     )}
                     <span className="checkout-product-quantity">
-                      {item.weightGrams
+                      {item.weightGrams || item.packSize
                         ? ""
                         : `${cartLabels.headQuantity}: ${item.quantity}`}
                     </span>

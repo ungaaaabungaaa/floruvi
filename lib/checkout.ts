@@ -1,4 +1,5 @@
 import { isPantry, validWeight, weightLabel } from "./pantry-weights";
+import { isPackProduct, validPackSize, packLabel } from "./product-packs";
 import { z } from "zod";
 import { MAX_CART_LINES, MAX_QUANTITY } from "./cart";
 import { enquirySchema, toAsciiDigits } from "./enquiry";
@@ -14,14 +15,20 @@ export const basketLines = z
           .max(100),
         quantity: z.number().int().min(1).max(MAX_QUANTITY),
         weightGrams: z.number().optional(),
+        packSize: z.number().optional(),
       })
       .strict()
       .refine(
         (line) =>
-          line.weightGrams === undefined ||
-          (line.quantity === 1 &&
-            isPantry(line.slug) &&
-            validWeight(line.weightGrams)),
+          (line.packSize === undefined
+            ? !isPackProduct(line.slug)
+            : line.weightGrams === undefined &&
+              line.quantity === 1 &&
+              validPackSize(line.slug, line.packSize)) &&
+          (line.weightGrams === undefined ||
+            (line.quantity === 1 &&
+              isPantry(line.slug) &&
+              validWeight(line.weightGrams))),
       ),
   )
   .min(1)
@@ -80,7 +87,11 @@ export const paymentOrderRequest = z
     consent: z.literal(true),
     website: z.string().max(0),
   })
-  .strict();
+  .strict()
+  .refine(
+    (request) => request.items.every((line) => line.packSize === undefined),
+    "Selected packs are not enabled for online payment.",
+  );
 export type PaymentOrderRequest = z.infer<typeof paymentOrderRequest>;
 
 export type CheckoutDetails = {
@@ -96,7 +107,13 @@ export type CheckoutDetails = {
 /** The farm reads requests in English, so item names and totals stay in English. */
 export function basketEnquiry(
   details: CheckoutDetails,
-  items: { name: string; quantity: number; weightGrams?: number }[],
+  items: {
+    name: string;
+    slug?: string;
+    quantity: number;
+    weightGrams?: number;
+    packSize?: number;
+  }[],
   consent: boolean,
   website = "",
   destination?: { country: string; total: string; deliveryQuoted: boolean },
@@ -122,9 +139,11 @@ export function basketEnquiry(
     message: [
       "Basket availability request:",
       ...items.map((i) =>
-        i.weightGrams
-          ? `${i.name} · ${weightLabel(i.weightGrams)}`
-          : `${i.name} × ${i.quantity}`,
+        i.packSize && i.slug
+          ? `${i.name} · ${packLabel(i.slug, i.packSize)}`
+          : i.weightGrams
+            ? `${i.name} · ${weightLabel(i.weightGrams)}`
+            : `${i.name} × ${i.quantity}`,
       ),
       `Delivery area: ${[address.data.address, details.city, details.region, details.pincode].filter(Boolean).join(", ")}.`,
       ...(destination

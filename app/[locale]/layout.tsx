@@ -7,13 +7,19 @@ import { I18nProvider } from "@/components/i18n/provider";
 import { CartPill } from "@/components/cart-pill";
 import { ChatSlot } from "@/components/chat-slot";
 import { cartThumbnails } from "@/lib/cart-thumbnails";
-import { business, searchVerification, siteUrl, socialProfiles } from "@/lib/site";
+import {
+  business,
+  searchVerification,
+  siteUrl,
+  socialProfiles,
+} from "@/lib/site";
 import { getI18n } from "@/lib/i18n/server";
 import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
 import { countryName, fill } from "@/lib/i18n/format";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import mark from "@/src/assets/floruvi-mark.webp";
 import "../globals.css";
+import { localProductPreview } from "@/lib/local-product-preview";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -23,6 +29,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const { locale, messages } = await getI18n();
   return {
     metadataBase: new URL(siteUrl),
+    ...(localProductPreview()
+      ? { robots: { index: false, follow: false } }
+      : {}),
     other: { "p:domain_verify": "f14cc42807d6d74239b2f35e594394dc" },
     title: {
       default: messages.meta.defaultTitle,
@@ -36,7 +45,9 @@ export async function generateMetadata(): Promise<Metadata> {
     ...(searchVerification.google || searchVerification.bing
       ? {
           verification: {
-            ...(searchVerification.google ? { google: searchVerification.google } : {}),
+            ...(searchVerification.google
+              ? { google: searchVerification.google }
+              : {}),
             ...(searchVerification.bing
               ? { other: { "msvalidate.01": searchVerification.bing } }
               : {}),
@@ -46,7 +57,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function LocaleLayout({ children }: LayoutProps<"/[locale]">) {
+export default async function LocaleLayout({
+  children,
+}: LayoutProps<"/[locale]">) {
   const { locale, messages } = await getI18n();
   const organization = {
     "@context": "https://schema.org",
@@ -84,7 +97,9 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
           merchantReturnLink: absoluteUrl("/refunds"),
         },
-        ...(socialProfiles.length ? { sameAs: socialProfiles.map((profile) => profile.url) } : {}),
+        ...(socialProfiles.length
+          ? { sameAs: socialProfiles.map((profile) => profile.url) }
+          : {}),
         ...(business.email ? { email: business.email } : {}),
         ...(business.phone ? { telephone: business.phone } : {}),
         ...(business.address ? { address: business.address } : {}),
@@ -121,13 +136,24 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
             {messages.common.skipToContent}
           </a>
           <Header />
-          <main id="main">{children}</main>
+          <main id="main">
+            {localProductPreview() && (
+              <p className="local-product-preview-note">
+                Local product review · Proposed prices before GST and delivery ·
+                Orders are disabled
+              </p>
+            )}
+            {children}
+          </main>
           <Footer />
           <CartPill thumbnails={cartThumbnails} />
           <ChatSlot />
         </I18nProvider>
         <SiteMotion />
-        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organization)} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={jsonLd(organization)}
+        />
       </body>
     </html>
   );

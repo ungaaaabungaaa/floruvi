@@ -1,5 +1,11 @@
 import { isPantry, validWeight } from "./pantry-weights";
-export type CartLine = { slug: string; quantity: number; weightGrams?: number };
+import { validPackSize } from "./product-packs";
+export type CartLine = {
+  slug: string;
+  quantity: number;
+  weightGrams?: number;
+  packSize?: number;
+};
 export const MAX_CART_LINES = 20;
 export const MAX_QUANTITY = 99;
 
@@ -18,7 +24,19 @@ export function normalizeCart(value: unknown): CartLine[] {
     )
       continue;
     if (!lines.has(item.slug) && lines.size >= MAX_CART_LINES) continue;
-    if (item.weightGrams !== undefined) {
+    if (item.packSize !== undefined) {
+      if (
+        !validPackSize(item.slug, item.packSize) ||
+        item.quantity !== 1 ||
+        item.weightGrams !== undefined
+      )
+        continue;
+      lines.set(item.slug, {
+        slug: item.slug,
+        quantity: 1,
+        packSize: item.packSize,
+      });
+    } else if (item.weightGrams !== undefined) {
       if (
         !isPantry(item.slug) ||
         !validWeight(item.weightGrams) ||
@@ -30,7 +48,10 @@ export function normalizeCart(value: unknown): CartLine[] {
         quantity: 1,
         weightGrams: item.weightGrams,
       });
-    } else if (!lines.get(item.slug)?.weightGrams) {
+    } else if (
+      !lines.get(item.slug)?.weightGrams &&
+      !lines.get(item.slug)?.packSize
+    ) {
       lines.set(item.slug, {
         slug: item.slug,
         quantity: Math.min(

@@ -1,4 +1,5 @@
 import { dehydratedMainImages } from "./dehydrated-images";
+import { honeyEggMainImages, honeyEggPackImages } from "./honey-eggs-images";
 import tray0 from "@/src/assets/products/trays/radish.webp";
 import tray1 from "@/src/assets/products/trays/pea.webp";
 import tray2 from "@/src/assets/products/trays/sunflower.webp";
@@ -94,6 +95,7 @@ import type { StaticImageData } from "next/image";
 
 // Match each illustration to its crop. Owner-uploaded Convex images take priority.
 export const productImages: Record<string, StaticImageData> = {
+  ...honeyEggMainImages,
   ...dehydratedMainImages,
   "butterhead-lettuce": lettuce,
   spinach,
@@ -189,6 +191,6 @@ export const productImages: Record<string, StaticImageData> = {
 };
 
 // Pantry artwork ships with the site; do not depend on storage availability.
-export function productImage(slug: string, imageUrl?: string | null) {
-  return dehydratedMainImages[slug] || imageUrl || productImages[slug];
+export function productImage(slug: string, imageUrl?: string | null, packSize?: number) {
+  return (packSize ? honeyEggPackImages[slug]?.[packSize] : null) || dehydratedMainImages[slug] || imageUrl || productImages[slug];
 }

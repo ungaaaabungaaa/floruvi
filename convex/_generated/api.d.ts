@@ -25,6 +25,7 @@ import type * as growth from "../growth.js";
 import type * as growthActions from "../growthActions.js";
 import type * as growthHttp from "../growthHttp.js";
 import type * as growthSchema from "../growthSchema.js";
+import type * as honeyEggs from "../honeyEggs.js";
 import type * as http from "../http.js";
 import type * as httpUtils from "../httpUtils.js";
 import type * as limits from "../limits.js";
@@ -68,6 +69,7 @@ declare const fullApi: ApiFromModules<{
   growthActions: typeof growthActions;
   growthHttp: typeof growthHttp;
   growthSchema: typeof growthSchema;
+  honeyEggs: typeof honeyEggs;
   http: typeof http;
   httpUtils: typeof httpUtils;
   limits: typeof limits;
