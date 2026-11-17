@@ -1,6 +1,7 @@
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import type { Messages } from "@/lib/i18n/messages";
-import notebook from "@/src/assets/growing-notebook.webp";
+const notebook = publicImage("flourvi/src/assets/growing-notebook.4b4b4170a59bae26.webp", 1536, 1024);
 
 export function GrowingNotebook({
   labels: t,

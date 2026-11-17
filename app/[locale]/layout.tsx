@@ -1,3 +1,4 @@
+import { publicImage } from "@/lib/public-images";
 import type { Metadata } from "next";
 import { SiteMotion } from "@/components/site-motion";
 import { SplashScreen } from "@/components/splash-screen";
@@ -17,7 +18,7 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
 import { countryName, fill } from "@/lib/i18n/format";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
-import mark from "@/src/assets/floruvi-mark.webp";
+const mark = publicImage("flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp", 1254, 1254);
 import "../globals.css";
 import { localProductPreview } from "@/lib/local-product-preview";
 

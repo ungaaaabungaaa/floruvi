@@ -1,3 +1,4 @@
+import { publicProductImage } from "./publicImages";
 import { v } from "convex/values";
 import { internalMutation, internalQuery } from "./_generated/server";
 import { dehydratedCategory, dehydratedProducts } from "./dehydratedData";
@@ -40,9 +41,7 @@ export const replaceImages = internalMutation({
       const metadata = await ctx.db.system.get(image.imageId);
       if (!metadata || metadata.contentType !== "image/webp")
         throw new Error("Expected an uploaded WebP image");
-      const currentUrl = product.imageId
-        ? await ctx.storage.getUrl(product.imageId)
-        : null;
+      const currentUrl = await publicProductImage(ctx, product);
       if (currentUrl !== image.expectedUrl)
         throw new Error(`Image changed since audit: ${image.slug}`);
       changes.push({ product, imageId: image.imageId });
@@ -57,7 +56,7 @@ export const replaceImages = internalMutation({
     >();
     for (const { product, imageId } of changes) {
       if (product.imageId === imageId) continue;
-      await ctx.db.patch(product._id, { imageId });
+      await ctx.db.patch(product._id, { imageId, publicImage: undefined });
       if (product.imageId) oldIds.add(product.imageId);
       updated++;
     }
@@ -166,7 +165,7 @@ export const audit = internalQuery({
               description: p.description,
               price: p.price,
               published: p.published,
-              imageUrl: p.imageId ? await ctx.storage.getUrl(p.imageId) : null,
+              imageUrl: await publicProductImage(ctx, p),
             }
           : { slug, missing: true as const };
       }),

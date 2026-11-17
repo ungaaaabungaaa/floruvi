@@ -1,11 +1,12 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import * as Dialog from "@radix-ui/react-dialog";
 import { MessageCircle, X } from "lucide-react";
 import Link from "@/components/i18n/link";
-import mark from "@/src/assets/floruvi-mark.webp";
+const mark = publicImage("flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp", 1254, 1254);
 import { useI18n } from "./i18n/provider";
 
 export function ChatLauncher({ unread = 0 }: { unread?: number }) {

@@ -1,10 +1,11 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
-import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
-import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
-import pastaNight from "@/src/assets/recipes/banners/pasta-night.webp";
-import shopBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
+const colourfulTable = publicImage("flourvi/src/assets/recipes/banners/colourful-table.27f7c6c458d62450.webp", 1800, 600);
+const slowMornings = publicImage("flourvi/src/assets/recipes/banners/slow-mornings.07709f5522aa98d9.webp", 1800, 600);
+const pastaNight = publicImage("flourvi/src/assets/recipes/banners/pasta-night.13e57483ab29cb85.webp", 1800, 600);
+const shopBanner = publicImage("flourvi/src/assets/recipes/banners/freshly-picked.b4e1462b2cdf8ca5.webp", 1800, 600);
 import { Fragment, useRef } from "react";
 import { Search, X, SlidersHorizontal } from "lucide-react";
 import { setUrlParams, useUrlParams } from "./use-url-params";

@@ -1,20 +1,21 @@
+import { publicImage } from "@/lib/public-images";
 import type { StaticImageData } from "next/image";
-import rawhoney0 from "@/src/assets/products/honey-eggs/raw-honey-100ml.webp";
-import rawhoney1 from "@/src/assets/products/honey-eggs/raw-honey-250ml.webp";
-import rawhoney2 from "@/src/assets/products/honey-eggs/raw-honey-500ml.webp";
-import wildflowerhoney0 from "@/src/assets/products/honey-eggs/wildflower-honey-100ml.webp";
-import wildflowerhoney1 from "@/src/assets/products/honey-eggs/wildflower-honey-250ml.webp";
-import wildflowerhoney2 from "@/src/assets/products/honey-eggs/wildflower-honey-500ml.webp";
-import singleflowerhoney0 from "@/src/assets/products/honey-eggs/single-flower-honey-100ml.webp";
-import singleflowerhoney1 from "@/src/assets/products/honey-eggs/single-flower-honey-250ml.webp";
-import singleflowerhoney2 from "@/src/assets/products/honey-eggs/single-flower-honey-500ml.webp";
-import farmeggs1 from "@/src/assets/products/honey-eggs/farm-eggs-12.webp";
-import farmeggs2 from "@/src/assets/products/honey-eggs/farm-eggs-24.webp";
-import farmeggs3 from "@/src/assets/products/honey-eggs/farm-eggs-36.webp";
-import farmeggs4 from "@/src/assets/products/honey-eggs/farm-eggs-48.webp";
-import honeyRecipe0 from "@/src/assets/products/honey-eggs/honey-yoghurt-fruit-bowl.webp";
-import honeyRecipe1 from "@/src/assets/products/honey-eggs/honey-lemon-mint-drink.webp";
-import honeyRecipe2 from "@/src/assets/products/honey-eggs/honey-mustard-salad-dressing.webp";
+const rawhoney0 = publicImage("flourvi/src/assets/products/honey-eggs/raw-honey-100ml.5c5a87148e4e2311.webp", 1100, 1100);
+const rawhoney1 = publicImage("flourvi/src/assets/products/honey-eggs/raw-honey-250ml.628124e054424714.webp", 1100, 1100);
+const rawhoney2 = publicImage("flourvi/src/assets/products/honey-eggs/raw-honey-500ml.6573b8ec80667233.webp", 1100, 1100);
+const wildflowerhoney0 = publicImage("flourvi/src/assets/products/honey-eggs/wildflower-honey-100ml.64b6d1f1f4528f43.webp", 1100, 1100);
+const wildflowerhoney1 = publicImage("flourvi/src/assets/products/honey-eggs/wildflower-honey-250ml.1122d5e2d6f98b59.webp", 1100, 1100);
+const wildflowerhoney2 = publicImage("flourvi/src/assets/products/honey-eggs/wildflower-honey-500ml.b34f3ca982fa40ef.webp", 1100, 1100);
+const singleflowerhoney0 = publicImage("flourvi/src/assets/products/honey-eggs/single-flower-honey-100ml.55767b0d00200630.webp", 1100, 1100);
+const singleflowerhoney1 = publicImage("flourvi/src/assets/products/honey-eggs/single-flower-honey-250ml.0964be3c8d62ca9d.webp", 1100, 1100);
+const singleflowerhoney2 = publicImage("flourvi/src/assets/products/honey-eggs/single-flower-honey-500ml.869de992bf89de44.webp", 1100, 1100);
+const farmeggs1 = publicImage("flourvi/src/assets/products/honey-eggs/farm-eggs-12.9775fbf7520d50ce.webp", 1100, 1100);
+const farmeggs2 = publicImage("flourvi/src/assets/products/honey-eggs/farm-eggs-24.669866538a9ad8d5.webp", 1100, 1100);
+const farmeggs3 = publicImage("flourvi/src/assets/products/honey-eggs/farm-eggs-36.8f8361d29ef65f9f.webp", 1100, 1100);
+const farmeggs4 = publicImage("flourvi/src/assets/products/honey-eggs/farm-eggs-48.cfd4518734d5df21.webp", 1100, 1100);
+const honeyRecipe0 = publicImage("flourvi/src/assets/products/honey-eggs/honey-yoghurt-fruit-bowl.f15f39b91ae74fc8.webp", 1100, 1100);
+const honeyRecipe1 = publicImage("flourvi/src/assets/products/honey-eggs/honey-lemon-mint-drink.e0aa7d8b4b355374.webp", 1100, 1100);
+const honeyRecipe2 = publicImage("flourvi/src/assets/products/honey-eggs/honey-mustard-salad-dressing.ef8b1c270a4b4a49.webp", 1100, 1100);
 export const honeyEggMainImages: Record<string, StaticImageData> = {
   "raw-honey": rawhoney0,
   "wildflower-honey": wildflowerhoney0,

@@ -1,11 +1,12 @@
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import { Leaf, Sprout, Truck, ShoppingBag } from "lucide-react";
-import leafy from "@/src/assets/products/banners/leafy.webp";
-import herbs from "@/src/assets/products/banners/herbs.webp";
-import microgreens from "@/src/assets/products/banners/microgreens.webp";
-import tomatoes from "@/src/assets/products/banners/tomatoes.webp";
-import roots from "@/src/assets/products/banners/roots.webp";
-import flowers from "@/src/assets/products/banners/flowers.webp";
+const leafy = publicImage("flourvi/src/assets/products/banners/leafy.064980aa9b64a678.webp", 1600, 533);
+const herbs = publicImage("flourvi/src/assets/products/banners/herbs.308093e4663bfafb.webp", 1600, 539);
+const microgreens = publicImage("flourvi/src/assets/products/banners/microgreens.1224ef54034f3a13.webp", 1600, 533);
+const tomatoes = publicImage("flourvi/src/assets/products/banners/tomatoes.5e52efb2242df0fd.webp", 1600, 533);
+const roots = publicImage("flourvi/src/assets/products/banners/roots.4d00bd0ba1f35ea5.webp", 1600, 533);
+const flowers = publicImage("flourvi/src/assets/products/banners/flowers.73034c3ba03ea832.webp", 1600, 533);
 import { getI18n } from "@/lib/i18n/server";
 import { fill } from "@/lib/i18n/format";
 const images = [leafy, herbs, microgreens, tomatoes, roots, flowers];

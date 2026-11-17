@@ -1,4 +1,5 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { packLabel } from "@/lib/product-packs";
 import { weightLabel } from "@/lib/pantry-weights";
 import { useRef, useState } from "react";
@@ -6,9 +7,9 @@ import Image from "next/image";
 import { productImage } from "@/lib/product-images";
 import { getCartBox } from "@/lib/boxes";
 import { Botanical } from "./botanical";
-import singleBox from "@/src/assets/boxes/single.webp";
-import dualBox from "@/src/assets/boxes/dual.webp";
-import familyBox from "@/src/assets/boxes/family.webp";
+const singleBox = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
+const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
+const familyBox = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
 import { indiaStates, citiesForState } from "@/lib/india-locations";
 import { toAsciiDigits } from "@/lib/enquiry";
 import Link from "@/components/i18n/link";

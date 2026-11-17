@@ -1,8 +1,9 @@
+import { publicImage } from "@/lib/public-images";
 import { Mail, Phone } from "lucide-react";
 import { EnquiryForm } from "./enquiry-form";
 import Image from "next/image";
 import type { Messages } from "@/lib/i18n/messages";
-import portrait from "@/src/assets/contact-portrait.webp";
+const portrait = publicImage("flourvi/src/assets/contact-portrait.6ff127421cb2d6c2.webp", 1024, 1536);
 import { business } from "@/lib/site";
 
 export function EnquiryPage({

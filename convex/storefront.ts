@@ -1,3 +1,4 @@
+import { publicProductImage } from "./publicImages";
 import { pantryPrices } from "../lib/pantry-weights";
 import { v } from "convex/values";
 import { query, type QueryCtx } from "./_generated/server";
@@ -91,7 +92,7 @@ export const catalogue = query({
               productTranslation(product, bySlug.get(product.slug)),
               pricing,
               market,
-              product.imageId ? await ctx.storage.getUrl(product.imageId) : null,
+              await publicProductImage(ctx, product),
             ),
           ),
       ),
@@ -118,7 +119,7 @@ export const product = query({
     ]);
     const translation = productTranslation(product, stored);
     const details = product.details ?? null;
-    const imageUrl = product.imageId ? await ctx.storage.getUrl(product.imageId) : null;
+    const imageUrl = await publicProductImage(ctx, product);
     return {
       product: summary(product, translation, pricing, market, imageUrl),
       details:

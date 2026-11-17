@@ -1,8 +1,9 @@
 "use client";
 
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import mark from "@/src/assets/floruvi-mark.webp";
+const mark = publicImage("flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp", 1254, 1254);
 import "./splash-screen.css";
 
 /** Replays on a full refresh, not on client navigation. */

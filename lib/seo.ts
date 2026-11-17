@@ -1,10 +1,11 @@
+import { publicImage } from "@/lib/public-images";
 import type { Metadata } from "next";
 import { siteUrl } from "./site";
 import { getI18n } from "./i18n/server";
 import { localizePath, parseLocale, type Locale } from "./i18n/config";
 import { languageAlternates } from "./i18n/alternates";
 // JPEG at 1200×630: LinkedIn and some WhatsApp clients do not preview WebP.
-import hero from "@/src/assets/home-hero/harvest-share.jpg";
+const hero = publicImage("flourvi/src/assets/home-hero/harvest-share.cae0a88bd0db2fac.jpg", 1200, 630);
 import { clampText } from "./meta-description";
 
 export { DESCRIPTION_LIMIT, clampText, fitDescription } from "./meta-description";

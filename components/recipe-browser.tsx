@@ -1,4 +1,5 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { Fragment, useState } from "react";
 import { EditorialBanner } from "./editorial-banner";
 import Image from "next/image";
@@ -7,12 +8,12 @@ import type { RecipeSummary } from "@/lib/storefront";
 import type { Messages } from "@/lib/i18n/messages";
 import { Lines } from "@/components/i18n/lines";
 import { useI18n } from "@/components/i18n/provider";
-import hero from "@/src/assets/recipes/banners/hero.webp";
-import kitchen from "@/src/assets/recipes/banners/kitchen.webp";
-import pastaNight from "@/src/assets/recipes/banners/pasta-night.webp";
-import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
-import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
-import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
+const hero = publicImage("flourvi/src/assets/recipes/banners/hero.2e8126bf0cdf75ea.webp", 1800, 693);
+const kitchen = publicImage("flourvi/src/assets/recipes/banners/kitchen.669745e92b5cadcf.webp", 1800, 605);
+const pastaNight = publicImage("flourvi/src/assets/recipes/banners/pasta-night.13e57483ab29cb85.webp", 1800, 600);
+const slowMornings = publicImage("flourvi/src/assets/recipes/banners/slow-mornings.07709f5522aa98d9.webp", 1800, 600);
+const colourfulTable = publicImage("flourvi/src/assets/recipes/banners/colourful-table.27f7c6c458d62450.webp", 1800, 600);
+const freshlyPicked = publicImage("flourvi/src/assets/recipes/banners/freshly-picked.b4e1462b2cdf8ca5.webp", 1800, 600);
 import { RecipeCard } from "./recipe-card";
 import { useRecipeOrder } from "./use-recipe-order";
 

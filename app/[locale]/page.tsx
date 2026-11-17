@@ -1,3 +1,4 @@
+import { publicImage } from "@/lib/public-images";
 import type { Metadata } from "next";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
@@ -16,9 +17,9 @@ import { HomeHero } from "@/components/home-hero";
 import { PantryBanner } from "@/components/pantry-banner";
 import { ProductCard } from "@/components/product-card";
 import { boxSizes } from "@/lib/boxes";
-import singleBox from "@/src/assets/boxes/single.webp";
-import dualBox from "@/src/assets/boxes/dual.webp";
-import familyBox from "@/src/assets/boxes/family.webp";
+const singleBox = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
+const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
+const familyBox = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
 
 const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
 

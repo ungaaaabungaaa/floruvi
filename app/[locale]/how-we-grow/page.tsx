@@ -1,3 +1,4 @@
+import { publicImage } from "@/lib/public-images";
 import type { Metadata } from "next";
 import Image from "next/image";
 import {
@@ -13,16 +14,16 @@ import { TowerExplainer } from "@/components/tower-explainer";
 import { Lines } from "@/components/i18n/lines";
 import { getI18n } from "@/lib/i18n/server";
 import { pageMetadata } from "@/lib/seo";
-import hero from "@/src/assets/aeroponic-harvest.webp";
-import roots from "@/src/assets/tower-roots.webp";
-import lettuce from "@/src/assets/crop-lettuce.webp";
-import basil from "@/src/assets/crop-basil.webp";
-import kale from "@/src/assets/crop-kale.webp";
+const hero = publicImage("flourvi/src/assets/aeroponic-harvest.2bd9d6e7d482c125.webp", 1024, 1536);
+const roots = publicImage("flourvi/src/assets/tower-roots.37f4e98855e6dffc.webp", 1300, 867);
+const lettuce = publicImage("flourvi/src/assets/crop-lettuce.179cd80f3944b659.webp", 1254, 1254);
+const basil = publicImage("flourvi/src/assets/crop-basil.ccc4520a1ff48c7f.webp", 1254, 1254);
+const kale = publicImage("flourvi/src/assets/crop-kale.a31c8a7d6eb92c45.webp", 1254, 1254);
 import { GrowingNotebook } from "@/components/growing-notebook";
 import { ProductCard } from "@/components/product-card";
 import { getShop } from "@/lib/storefront";
-import waterCare from "@/src/assets/hydroponics/water-care.webp";
-import seedlingCare from "@/src/assets/hydroponics/seedling-care.webp";
+const waterCare = publicImage("flourvi/src/assets/hydroponics/water-care.bf5dc928ffa51873.webp", 1536, 1024);
+const seedlingCare = publicImage("flourvi/src/assets/hydroponics/seedling-care.5fe14c5cb954c429.webp", 1536, 1024);
 import "@/components/growing-additions.css";
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();

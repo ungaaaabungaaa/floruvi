@@ -1,7 +1,8 @@
+import { publicImage } from "@/lib/public-images";
 import { productImages } from "./product-images";
-import singleBox from "@/src/assets/boxes/single.webp";
-import dualBox from "@/src/assets/boxes/dual.webp";
-import familyBox from "@/src/assets/boxes/family.webp";
+const singleBox = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
+const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
+const familyBox = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
 
 /** Image URL per cart slug for the cart pill. Only URLs, so layouts stay light. */
 export const cartThumbnails: Record<string, string> = {

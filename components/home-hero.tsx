@@ -1,16 +1,17 @@
 "use client";
 
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Pause, Play, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useI18n } from "./i18n/provider";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import harvest from "@/src/assets/home-hero/harvest.webp";
-import dailyGreens from "@/src/assets/home-hero/daily-greens.webp";
-import colour from "@/src/assets/home-hero/colour.webp";
-import microgreens from "@/src/assets/home-hero/microgreens.webp";
-import growing from "@/src/assets/home-hero/growing.webp";
-import table from "@/src/assets/home-hero/table.webp";
+const harvest = publicImage("flourvi/src/assets/home-hero/harvest.d6ce1ca9dac22014.webp", 1536, 1024);
+const dailyGreens = publicImage("flourvi/src/assets/home-hero/daily-greens.f147fa886d28fc13.webp", 1536, 1024);
+const colour = publicImage("flourvi/src/assets/home-hero/colour.a8454c5ab4678b92.webp", 1536, 1024);
+const microgreens = publicImage("flourvi/src/assets/home-hero/microgreens.ffe479547b8f6834.webp", 1536, 1024);
+const growing = publicImage("flourvi/src/assets/home-hero/growing.56ec6ee2841229a0.webp", 1536, 1024);
+const table = publicImage("flourvi/src/assets/home-hero/table.738abae53a4ac748.webp", 1536, 1024);
 import type { Messages } from "@/lib/i18n/messages";
 import type { ShopCategory } from "@/lib/storefront";
 import { fill } from "@/lib/i18n/format";

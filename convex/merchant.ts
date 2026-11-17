@@ -1,3 +1,4 @@
+import { publicProductMedia } from "./publicImages";
 import { query } from "./_generated/server";
 import { commerceSettings } from "./orders";
 import { priceInMarket } from "../lib/markets/pricing-core";
@@ -46,16 +47,11 @@ export const google = query({
       };
     const items = [];
     for (const product of products.sort((a, b) => a.rank - b.rank)) {
-      if (!product.imageId) continue;
-      const metadata = await ctx.db.system.get(product.imageId);
-      if (!metadata) continue;
+      const media = await publicProductMedia(ctx, product);
+      if (!media) continue;
       const item = merchantItem(
         { ...product, price: priceInMarket(product, "in", null) },
-        {
-          url: await ctx.storage.getUrl(product.imageId),
-          contentType: metadata.contentType,
-          size: metadata.size,
-        },
+        media,
       );
       if (item) items.push(item);
     }

@@ -1,3 +1,4 @@
+import { publicImage } from "@/lib/public-images";
 import type { Metadata } from "next";
 import { reviewBasket } from "@/lib/pricing";
 import { boxSizes, boxContents } from "@/lib/boxes";
@@ -9,7 +10,7 @@ import { siteUrl } from "@/lib/site";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 import { schemaPrice } from "@/lib/structured-data";
 import { BoxSelector } from "@/components/box-selector";
-import dualBox from "@/src/assets/boxes/dual.webp";
+const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();

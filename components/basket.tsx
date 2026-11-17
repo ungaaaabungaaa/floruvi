@@ -1,4 +1,5 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { useEffect, useRef, useState } from "react";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
@@ -21,13 +22,13 @@ import {
 import { useCart } from "./cart-store";
 import { nextPackSize, packSizeLabel, packLabel } from "@/lib/product-packs";
 import { getCartBox } from "@/lib/boxes";
-import singleBox from "@/src/assets/boxes/single.webp";
-import dualBox from "@/src/assets/boxes/dual.webp";
-import familyBox from "@/src/assets/boxes/family.webp";
+const singleBox = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
+const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
+const familyBox = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
 const boxImages = { single: singleBox, dual: dualBox, family: familyBox };
 import { productImage } from "@/lib/product-images";
-import cartBanner from "@/src/assets/recipes/banners/freshly-picked.webp";
-import herbsBanner from "@/src/assets/products/banners/herbs.webp";
+const cartBanner = publicImage("flourvi/src/assets/recipes/banners/freshly-picked.b4e1462b2cdf8ca5.webp", 1800, 600);
+const herbsBanner = publicImage("flourvi/src/assets/products/banners/herbs.308093e4663bfafb.webp", 1600, 539);
 import { Botanical } from "./botanical";
 import type { ShopProduct } from "@/lib/storefront";
 import type { CartLine } from "@/lib/cart";

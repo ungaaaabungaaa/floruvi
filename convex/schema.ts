@@ -62,6 +62,13 @@ export default defineSchema({
     published: v.boolean(),
     rank: v.number(),
     imageId: v.optional(v.id("_storage")),
+    publicImage: v.optional(v.object({
+      key: v.string(),
+      sha256: v.string(),
+      size: v.number(),
+      contentType: v.string(),
+      sourceImageId: v.id("_storage"),
+    })),
     price: v.optional(
       v.object({
         amountMinor: v.number(),

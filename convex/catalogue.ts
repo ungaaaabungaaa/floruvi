@@ -1,3 +1,4 @@
+import { publicProductImage } from "./publicImages";
 import { v } from "convex/values";
 import { query } from "./_generated/server";
 
@@ -48,7 +49,7 @@ export const browse = query({
             featured: p.featured,
             status: p.status,
             price: p.price ?? null,
-            imageUrl: p.imageId ? await ctx.storage.getUrl(p.imageId) : null,
+            imageUrl: await publicProductImage(ctx, p),
           })),
       ),
     };

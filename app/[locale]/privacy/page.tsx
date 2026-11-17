@@ -1,11 +1,12 @@
+import { publicImage } from "@/lib/public-images";
 import { contactEmails } from "@/lib/site";
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { getI18n } from "@/lib/i18n/server";
 import { pageMetadata } from "@/lib/seo";
-import freshlyPicked from "@/src/assets/recipes/banners/freshly-picked.webp";
-import colourfulTable from "@/src/assets/recipes/banners/colourful-table.webp";
-import slowMornings from "@/src/assets/recipes/banners/slow-mornings.webp";
+const freshlyPicked = publicImage("flourvi/src/assets/recipes/banners/freshly-picked.b4e1462b2cdf8ca5.webp", 1800, 600);
+const colourfulTable = publicImage("flourvi/src/assets/recipes/banners/colourful-table.27f7c6c458d62450.webp", 1800, 600);
+const slowMornings = publicImage("flourvi/src/assets/recipes/banners/slow-mornings.07709f5522aa98d9.webp", 1800, 600);
 
 const UPDATED = "2026-09-28";
 

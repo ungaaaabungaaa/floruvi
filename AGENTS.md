@@ -25,7 +25,7 @@
 - Owner confirmed on 14 September 2026: all catalogue products are offered across India, with no PIN-code restriction. Do not show planning-stock labels. Payment and OTP remain disabled until provider setup is complete.
 
 - Owner confirmed on 16 September 2026: the site also serves 16 export countries in local languages & English (see docs/21-languages-and-seo.md). Export prices are local retail benchmarks + 40%, calculated on the server (docs/20-international-pricing.md). International delivery is quoted after review. First-time visitors are redirected to their country version; crawlers and saved choices are not.
-- Convex is the selected backend and file store. Do not introduce Supabase.
+- Convex is the selected backend for data and private records. Cloudflare R2 is the public image store. Use the `flourvi/` prefix in the owner's `flourvi` bucket. Do not introduce Supabase.
 - No account or login gate before the final checkout page. Do not create anonymous auth users for browsing or cart use.
 - At checkout, provide email OTP and phone OTP. Do not require both codes for a purchase.
 - The owner directs layout, colors, fonts, imagery, and motion. Use shadcn/ui as the proposed component base. Do not mix UI libraries without a clear need.
@@ -45,7 +45,7 @@
 - Do not store secrets, OTP values, sessions, customer exports, or private chat text in Git, logs, or analytics.
 - Never give the LLM database credentials, unrestricted HTTP access, order access, or payment actions. Validate each proposed tool call outside the LLM.
 - Use rate limits and the provider's abuse controls for OTP, forms, chat, and payments. Limits must work when callers bypass the UI.
-- Generated Convex file URLs are public bearer URLs. Use them for public product images. Serve private files only through an authorized path.
+- Public product, recipe, gallery, and banner images use R2 through `NEXT_PUBLIC_MEDIA_BASE_URL`. Keep `images.unoptimized: true` so image requests go directly to the public media host. Use versioned keys and preserve dimensions. Set `Cache-Control: public, max-age=86400` on every public image upload. This is a one-day cache; do not add `immutable` or a longer cache time without the owner's instruction. Run `node scripts/prepare-r2-media.mjs --rewrite` after changing local artwork, then upload and verify the manifest objects before deployment. Keep R2 credentials server-only. Never put customer files or backups in the public bucket. Preserve old Convex file references during migration until live checks pass; serve private files only through an authorized path.
 
 ## Implementation rules after approval
 

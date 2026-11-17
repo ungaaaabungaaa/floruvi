@@ -1,4 +1,5 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import Link from "@/components/i18n/link";
 import { Heart, ArrowRight } from "lucide-react";
@@ -8,8 +9,8 @@ import { useI18n } from "./i18n/provider";
 import { ProductCard } from "./product-card";
 import { EditorialBanner } from "./editorial-banner";
 import { useWishlist, WishlistButton } from "./wishlist";
-import freshBag from "@/src/assets/fresh-bag.webp";
-import freshMeal from "@/src/assets/fresh-meal.webp";
+const freshBag = publicImage("flourvi/src/assets/fresh-bag.4b379500e8bf5771.webp", 1800, 600);
+const freshMeal = publicImage("flourvi/src/assets/fresh-meal.a47a356d65faab8b.webp", 1800, 600);
 export function WishlistPage({
   products,
   labels,

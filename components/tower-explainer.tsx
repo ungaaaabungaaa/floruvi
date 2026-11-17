@@ -1,8 +1,9 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowDown, Droplets, Sprout, Waves, ArrowUp } from "lucide-react";
-import cutaway from "@/src/assets/pineapple-cutaway.webp";
+const cutaway = publicImage("flourvi/src/assets/pineapple-cutaway.f8b3f71d234aa664.webp", 1024, 1536);
 import type { Messages } from "@/lib/i18n/messages";
 import { fill } from "@/lib/i18n/format";
 const partStyles = [

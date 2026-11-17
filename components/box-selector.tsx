@@ -1,4 +1,5 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import { useState } from "react";
 import {
   Accordion,
@@ -9,11 +10,11 @@ import {
 import { useCart } from "./cart-store";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
-import singleImage from "@/src/assets/boxes/single.webp";
-import dualImage from "@/src/assets/boxes/dual.webp";
-import familyImage from "@/src/assets/boxes/family.webp";
-import leafy from "@/src/assets/products/banners/leafy.webp";
-import salad from "@/src/assets/boxes/salad.webp";
+const singleImage = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
+const dualImage = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
+const familyImage = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
+const leafy = publicImage("flourvi/src/assets/products/banners/leafy.064980aa9b64a678.webp", 1600, 533);
+const salad = publicImage("flourvi/src/assets/boxes/salad.44fedf3b60af7b84.webp", 1100, 733);
 import { ShoppingBag, Check, Leaf, Truck, Heart } from "lucide-react";
 import type { BasketReview } from "@/lib/pricing";
 import { boxSchedules } from "@/lib/boxes";

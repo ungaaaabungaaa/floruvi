@@ -1,6 +1,7 @@
+import { publicImage } from "@/lib/public-images";
 import Image from "next/image";
 import type { Messages } from "@/lib/i18n/messages";
-import seasonings from "@/src/assets/pantry-banners/seasonings.webp";
+const seasonings = publicImage("flourvi/src/assets/pantry-banners/seasonings.909b252518b3a079.webp", 1536, 1024);
 import "./pantry-banner.css";
 
 export function PantryBanner({ labels }: { labels: Messages["home"] }) {

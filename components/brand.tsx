@@ -1,7 +1,8 @@
 "use client";
+import { publicImage } from "@/lib/public-images";
 import Link from "@/components/i18n/link";
 import Image from "next/image";
-import mark from "@/src/assets/floruvi-mark.webp";
+const mark = publicImage("flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp", 1254, 1254);
 import { useI18n } from "./i18n/provider";
 
 export function Brand() {
