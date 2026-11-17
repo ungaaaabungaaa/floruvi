@@ -1,5 +1,9 @@
 # React Best Practices
 
+## FLORUVI project override
+
+Follow the root [AGENTS.md](../../AGENTS.md) and [public image guide](../../docs/media/README.md). Public content images use `https://images.floruvi.com` from the `flourvi` R2 bucket and `flourvi/` prefix. Use one-day `Cache-Control: public, max-age=86400`, content-hash keys, and `images.unoptimized: true`. Generic examples below do not authorize Vercel image processing, bundled content images, or a longer image cache. Retain source artwork and original Convex files for recovery. Stable metadata icons remain on Vercel. Never cache private data with the image rule.
+
 **Version 1.0.0**  
 Vercel Engineering  
 January 2026

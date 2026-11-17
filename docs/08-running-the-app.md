@@ -66,7 +66,7 @@ Use the Convex dashboard for this first build:
 - View `enquiries` for private business and personal requests. There is no public enquiry-list function or account-free admin page.
 - After handling a request, remove personal records according to the retention policy you set for the farm. A scheduled retention policy and a direct privacy contact remain launch tasks.
 
-Product records can reference a Convex Storage file with `imageId`. The application renders that public image when present. Otherwise it uses a category illustration. An upload dashboard is outside this slice; do not add an unauthenticated upload function.
+Product records use verified R2 `publicImage` metadata when it matches the source `imageId`. Original Convex files remain for recovery. Legacy or changed records can fall back to Convex until migrated. New public artwork must follow [the R2 media guide](media/README.md). Set `NEXT_PUBLIC_MEDIA_BASE_URL=https://images.floruvi.com` before a local build and set `R2_PUBLIC_BASE_URL` on the selected Convex deployment. Do not add an unauthenticated upload function.
 
 The initial seed is a broad planning list, not every possible species or cultivar and not current farm stock. Product sources distinguish routine crops, specialist trials, and aeroponic seed-potato production. Confirm actual crops, food-grade varieties, prices, pack sizes, delivery areas, and availability before sales begin.
 
@@ -97,7 +97,7 @@ Apply the Figma design. Confirm real stock, pack sizes, delivery rules, and priv
 
 ## Design and editorial content
 
-The owner’s reference controls the visual direction. Original generated PNGs and prompts are in `src/assets`. Next Image serves source files directly (`images.unoptimized: true`); Vercel image optimization is disabled. Six crops have matching generated images; other crops keep category illustrations. Convex image uploads override the local crop image, except pantry artwork. Pantry artwork uses the bundled WebP files so storage outages do not break these images.
+The owner’s reference controls the visual direction. Original generated PNGs and prompts are in `src/assets`. Public content images, including pantry artwork and category illustrations, use versioned R2 URLs. `images.unoptimized: true` bypasses Vercel image processing and delivery. Local files are source and recovery copies, not bundled public content images. Stable metadata icons remain on Vercel.
 
 Recipes are edited in `lib/recipes.ts`; they do not require a new service. The nutrition pages link to their primary sources. The chat component is retained but is not mounted in the root layout. Do not turn it on until the later OpenRouter work is approved.
 

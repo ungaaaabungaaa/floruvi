@@ -21,7 +21,7 @@ Keep `images.unoptimized: true`. Images then go directly to the public media add
 - Preserve `app/icon.png`, `app/apple-icon.png`, and `app/favicon.ico` as stable Next.js metadata endpoints.
 - Keep local source artwork for rollback. The manifest also includes currently unused originals so they can be preserved in R2.
 - Six testimonial portraits in `components/testimonials-section.tsx` use versioned keys under `flourvi/external/testimonials/`. They were downloaded from the original Unsplash addresses without changing the image settings. They are separate from the local artwork manifest. Preserve their migration manifest and source files with the release evidence; verify their checksums and public URLs before deployment.
-- Convex-uploaded product images need separate metadata and reference migration. Keep legacy file IDs until acceptance. Do not use the old pantry replacement operation to remove source files during this migration.
+- The 11 existing Convex-uploaded product images now use verified R2 metadata. New or changed images need the same upload, verification, and metadata migration before publication. Keep legacy file IDs for recovery. Do not use the old pantry replacement operation to remove source files during this migration.
 - Never change public caching for checkout, orders, sessions, admin pages, or other private data.
 
 ## Verification

@@ -13,7 +13,7 @@ Baseline: initial source commit `09006d2`. The initial working tree was clean. T
 - Health and nutrition, how we grow, our story, sustainability, and real talk.
 - Personal enquiry, business enquiry, and current privacy notice.
 
-Twelve generated image sources are in `src/assets`. They are illustrative. Owner-uploaded Convex crop images take priority. Chat code remains in the repository but the layout does not mount it.
+Twelve generated image sources are in `src/assets`. They are illustrative. Current public images use verified R2 URLs; legacy Convex references remain for recovery. See [the media guide](media/README.md). Chat code remains in the repository but the layout does not mount it.
 
 ## Data and enquiry boundaries
 

@@ -67,7 +67,8 @@ Store the lead in Convex first. Send an owner alert with a dashboard link. Recor
 | --- | --- |
 | Better Auth component | Identities, verification records, sessions |
 | Convex application | Products, stock, customer profile, orders, payment attempts, leads, notification status |
-| Convex storage | Public product images; private files only if later required |
+| Cloudflare R2 | Public content images through images.floruvi.com; one-day cache |
+| Convex storage | Legacy image files retained for recovery; private files only through authorized access |
 | Crisp | Conversation history and operator handoff |
 | Razorpay | Payment execution and settlement |
 | PostHog | Allowed measurement events; never financial truth |

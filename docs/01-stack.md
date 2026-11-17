@@ -41,9 +41,9 @@ WordPress and headless WooCommerce are outside the requested approach. Supabase 
 
 ## Storage and baseline cost
 
-Use Convex File Storage directly. Set an application storage target of at most 20 GB. Resize product images before upload and serve suitable image sizes. Start without customer file uploads.
+Use Cloudflare R2 for public images at `https://images.floruvi.com`, in bucket `flourvi` under `flourvi/`. Use versioned keys and a one-day cache. Convex remains the data backend. Preserve legacy Convex files for recovery. Start without customer file uploads. See [the media guide](media/README.md).
 
-Convex lists 1 GB of included file storage on Free/Starter. Starter can meter additional use. The listed base-region file rate is $0.033 per extra GB per month, so 20 GB totals about $0.63 in storage overage. This is not the full backend bill: data egress, functions, database use, region, and other meters are separate. Professional starts at $25 per developer/month and includes 100 GB of file storage and daily backups. [Convex pricing](https://www.convex.dev/pricing).
+Historical Convex storage comparison (not the current public image plan): Convex lists 1 GB of included file storage on Free/Starter. Starter can meter additional use. The listed base-region file rate is $0.033 per extra GB per month, so 20 GB totals about $0.63 in storage overage. This is not the full backend bill: data egress, functions, database use, region, and other meters are separate. Professional starts at $25 per developer/month and includes 100 GB of file storage and daily backups. [Convex pricing](https://www.convex.dev/pricing).
 
 Recommendation: use Free for development, then Starter with billing and usage alerts for an initial small launch. Before live orders, choose and test the backup process. Use Professional if managed daily backups are preferred. A GitHub backup contains source code, not customer data or uploaded images.
 

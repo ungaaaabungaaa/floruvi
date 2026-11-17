@@ -33,6 +33,18 @@
 - Use existing providers for payments, identity, email, SMS, chat, and push delivery.
 - Keep the first release within the agreed one-week scope. Record additions in the backlog before building them.
 
+## Public image rules: current owner decision
+
+- Serve public content images from `https://images.floruvi.com`, using bucket `flourvi` and prefix `flourvi/`. This includes product photos, banners, galleries, recipe images, portraits, and brand artwork.
+- Use `NEXT_PUBLIC_MEDIA_BASE_URL` in Next.js and `R2_PUBLIC_BASE_URL` in Convex. These values are public URLs. Keep storage credentials in a private local file; do not add them to browser variables, Git, logs, or runtime settings for public image reads.
+- Keep `images.unoptimized: true`. Do not add Vercel image processing, an image proxy, raster imports from `src/assets`, or public content image copies in `public/`. Do not set `assetPrefix`; JavaScript and CSS stay on Vercel.
+- Set every public image to `Cache-Control: public, max-age=86400` (one day). Cloudflare edge and browser cache must respect this header. Do not use `immutable` or a longer image cache without the owner's instruction.
+- Use content-hash keys and preserve dimensions. Keep local source files for recovery. Run `node scripts/prepare-r2-media.mjs --rewrite`, upload the manifest objects, verify hashes and public URLs, then deploy.
+- Stable `app/icon.png`, `app/apple-icon.png`, and `app/favicon.ico` endpoints remain on Vercel. Do not claim that every image file was deleted from Vercel or Git.
+- The current 11 uploaded product images use R2 metadata. Preserve their original Convex files and IDs for recovery. The legacy Convex fallback supports old or changed records; it is not the target for new public artwork. Verify and migrate a replacement image before publishing it.
+- Never cache private orders, checkout responses, admin pages, sessions, or customer files with the public image rule. Never upload private files or backups to the public bucket.
+- These project rules take priority over generic skill examples and older delivery notes. Follow [the media guide](docs/media/README.md) for image changes. Keep documentation aligned with this decision.
+
 ## Data and security
 
 - Convex owns products, stock, orders, leads, and payment records. Better Auth owns identities, codes, and sessions. Chat is hidden until the owner switches it on in /admin. The owner chose OpenRouter through the Vercel AI SDK on 28 September 2026 (docs/26-chatbot-plan.md).
@@ -45,7 +57,6 @@
 - Do not store secrets, OTP values, sessions, customer exports, or private chat text in Git, logs, or analytics.
 - Never give the LLM database credentials, unrestricted HTTP access, order access, or payment actions. Validate each proposed tool call outside the LLM.
 - Use rate limits and the provider's abuse controls for OTP, forms, chat, and payments. Limits must work when callers bypass the UI.
-- Public product, recipe, gallery, and banner images use R2 through `NEXT_PUBLIC_MEDIA_BASE_URL`. Keep `images.unoptimized: true` so image requests go directly to the public media host. Use versioned keys and preserve dimensions. Set `Cache-Control: public, max-age=86400` on every public image upload. This is a one-day cache; do not add `immutable` or a longer cache time without the owner's instruction. Run `node scripts/prepare-r2-media.mjs --rewrite` after changing local artwork, then upload and verify the manifest objects before deployment. Keep R2 credentials server-only. Never put customer files or backups in the public bucket. Preserve old Convex file references during migration until live checks pass; serve private files only through an authorized path.
 
 ## Implementation rules after approval
 
