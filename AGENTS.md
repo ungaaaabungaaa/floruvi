@@ -48,6 +48,8 @@
 ## Data and security
 
 - PostHog uses the owner's US FLORUVI project 745889 on the capped Free plan. Follow [the analytics guide](docs/42-posthog-analytics.md). Keep collection behind consent, keep replay separately optional and masked, and preserve the public-route allowlist. Never collect customer contact, payment, order, form or URL-query data.
+- PostHog is already connected in the storefront and Vercel environment. Reuse US project **745889**. The owner confirmed on **18 November 2026** that FLORUVI has **zero real users**. Treat this as the launch baseline, not a live user count. Internal checks are test traffic. Do not create another organization/project, migrate analytics data, backfill events, or add a second SDK because a dashboard is empty.
+- When a feature changes a customer action, funnel step, conversion, or error path, review the PostHog tracking in the same change. Reuse `lib/analytics.ts` and the event/property allowlist in `lib/analytics-policy.ts`. Update the event guide, relevant funnels/dashboards, and privacy checks. Add only events needed for a clear product decision. Verify the event after deployment with `internal_test=true`; do not count QA as customers or sales. If no tracking change is needed, state that in the delivery notes.
 - The owner removed ratings and user-feedback surveys on 18 November 2026. Do not add a rating widget, feedback prompt, survey trigger, or survey collection. Keep surveys disabled.
 - Keep paid analytics products, AI tasks, managed proxies, warehouse syncs and automatic flag requests off. Dashboard QA must exclude `internal_test=true`. Add purchase/refund events only from verified payment records. Do not infer a sale from a browser click.
 

@@ -2,6 +2,12 @@
 
 FLORUVI uses the US Cloud project **FLORUVI (745889)**. The previous organization was deleted by the owner. Do not reconnect the site to the old project.
 
+## Launch baseline
+
+The owner confirmed zero real users on 18 November 2026. PostHog project 745889 and the storefront connection already exist. An empty chart at launch is expected. Reuse this project; do not migrate, backfill or recreate it. Internal QA is not customer traffic. Recheck live data before reporting a later user count.
+
+When a feature changes an action or funnel, update the event guide, safe properties and relevant dashboards in the same change. Verify live events with the QA marker.
+
 ## Cost controls
 
 The selected plan is **Free**, with capped usage and no card or paid subscription. The account showed these monthly limits on 18 November 2026: 1 million analytics events, 5,000 recordings, 100,000 exceptions, 1,500 survey responses, and 1 million flag requests. Check the live billing screen before relying on future limits. Do not add a card, paid plan, add-on, managed proxy, AI task, or warehouse sync without the owner's explicit instruction.
