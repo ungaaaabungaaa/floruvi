@@ -5,9 +5,18 @@ import {
   parseAnalyticsConsent,
   REPLAY_PRIVACY,
   campaignProperties,
+  isCheckoutEntry,
 } from "../lib/analytics-policy";
 import { beforeSend, setAnalyticsConsent } from "../lib/analytics";
 import type { CaptureResult } from "posthog-js";
+test("basket navigation does not suppress checkout entries or count duplicate renders", () => {
+  assert.equal(isCheckoutEntry("/cart", "/products/basil"), false);
+  assert.equal(isCheckoutEntry("/checkout", "/cart"), true);
+  assert.equal(isCheckoutEntry("/checkout", "/checkout"), false);
+  assert.equal(isCheckoutEntry("/en-in/checkout", "/en-in/cart"), true);
+  assert.equal(isCheckoutEntry("/en-in/checkout", "/en-in/checkout"), false);
+  assert.equal(isCheckoutEntry("/contact", "/cart"), false);
+});
 test("analytics excludes private paths in all locales and strips URL secrets", () => {
   for (const path of [
     "/checkout",

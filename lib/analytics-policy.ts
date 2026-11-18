@@ -20,6 +20,10 @@ export function analyticsToken(value: unknown): string | undefined {
 
 export type AnalyticsConsent = { analytics: boolean; replay: boolean };
 
+export function isCheckoutEntry(path: string, previousPath: string) {
+  return /\/checkout\/?$/.test(path) && path !== previousPath;
+}
+
 /** Only published campaign labels. Expand this list with the ads setup, never with visitor data. */
 export function campaignProperties(values: Record<string, unknown>) {
   const safe: Record<string, string> = {};

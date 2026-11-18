@@ -4,6 +4,7 @@ import type { PostHog, CaptureResult } from "posthog-js";
 import {
   analyticsToken,
   campaignProperties,
+  isCheckoutEntry,
   publicAnalyticsPath,
   REPLAY_PRIVACY,
   type AnalyticsConsent,
@@ -261,12 +262,9 @@ export function pageViewed() {
     if (product) client.capture("product_viewed", { product_slug: product });
   }
   if (!path) {
-    if (
-      /\/(?:checkout)\/?$/.test(window.location.pathname) &&
-      lastPage !== "checkout"
-    )
+    if (isCheckoutEntry(window.location.pathname, lastPage))
       client.capture("checkout_started");
-    lastPage = "checkout";
+    lastPage = window.location.pathname;
   }
 }
 
