@@ -3,6 +3,7 @@
 import type { PostHog, CaptureResult } from "posthog-js";
 import {
   analyticsToken,
+  campaignProperties,
   publicAnalyticsPath,
   REPLAY_PRIVACY,
   type AnalyticsConsent,
@@ -69,10 +70,13 @@ export function beforeSend(event: CaptureResult): CaptureResult | null {
     return null;
   const source = event.properties;
   const properties: Record<string, unknown> = {
+    // Required SDK transport field: this is the public ingestion token, not a secret.
+    token: process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN,
     $process_person_profile: false,
     $ip: null,
     app: "floruvi",
     environment: "production",
+    ...campaignProperties(source),
   };
   for (const key of [
     "distinct_id",
@@ -177,6 +181,8 @@ async function getClient() {
         ui_host: "https://us.posthog.com",
         defaults: "2026-08-30",
         persistence: consent.analytics ? "localStorage" : "memory",
+        save_campaign_params: false,
+        save_referrer: false,
         person_profiles: "never",
         autocapture: false,
         capture_pageview: false,
@@ -198,6 +204,11 @@ async function getClient() {
         },
         before_send: beforeSend,
       });
+      client?.register(
+        campaignProperties(
+          Object.fromEntries(new URLSearchParams(window.location.search)),
+        ),
+      );
       return client;
     })
     .catch(() => undefined)

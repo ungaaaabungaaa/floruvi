@@ -19,6 +19,35 @@ export function analyticsToken(value: unknown): string | undefined {
 }
 
 export type AnalyticsConsent = { analytics: boolean; replay: boolean };
+
+/** Only published campaign labels. Expand this list with the ads setup, never with visitor data. */
+export function campaignProperties(values: Record<string, unknown>) {
+  const safe: Record<string, string> = {};
+  const vocabulary: Record<string, readonly string[]> = {
+    utm_source: [
+      "google",
+      "meta",
+      "facebook",
+      "instagram",
+      "whatsapp",
+      "pinterest",
+    ],
+    utm_medium: [
+      "cpc",
+      "paid_social",
+      "social",
+      "organic",
+      "email",
+      "referral",
+    ],
+    utm_campaign: ["floruvi_launch"],
+  };
+  for (const [key, allowed] of Object.entries(vocabulary)) {
+    const value = values[key];
+    if (typeof value === "string" && allowed.includes(value)) safe[key] = value;
+  }
+  return safe;
+}
 export function parseAnalyticsConsent(
   raw: string | null,
 ): AnalyticsConsent | null {

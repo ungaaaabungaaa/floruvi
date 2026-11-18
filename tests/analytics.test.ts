@@ -4,6 +4,7 @@ import {
   publicAnalyticsPath,
   parseAnalyticsConsent,
   REPLAY_PRIVACY,
+  campaignProperties,
 } from "../lib/analytics-policy";
 import { beforeSend, setAnalyticsConsent } from "../lib/analytics";
 import type { CaptureResult } from "posthog-js";
@@ -39,9 +40,28 @@ test("analytics excludes private paths in all locales and strips URL secrets", (
   assert.equal(REPLAY_PRIVACY.maskAllElementAttributes, true);
   assert.equal(REPLAY_PRIVACY.recordBody, false);
   assert.equal(REPLAY_PRIVACY.recordHeaders, false);
+  assert.deepEqual(
+    campaignProperties({
+      utm_source: "google",
+      utm_medium: "cpc",
+      utm_campaign: "floruvi_launch",
+      utm_content: "private@example.com",
+      gclid: "private-id",
+    }),
+    { utm_source: "google", utm_medium: "cpc", utm_campaign: "floruvi_launch" },
+  );
+  assert.deepEqual(
+    campaignProperties({
+      utm_source: "private@example.com",
+      utm_campaign: "customer_123",
+    }),
+    {},
+  );
 });
 
 test("final event boundary enforces consent, redaction, replay exclusions and volume caps", async () => {
+  const oldToken = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN;
+  process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN = "phc_test_public_ingestion";
   const oldWindow = Object.getOwnPropertyDescriptor(globalThis, "window");
   const oldDocument = Object.getOwnPropertyDescriptor(globalThis, "document");
   const location = {
@@ -68,6 +88,9 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
       email: "private@example.com",
       product_slug: "basil",
       quantity: 2,
+      token: "untrusted-token",
+      utm_source: "google",
+      utm_campaign: "private@example.com",
       $initial_referrer: "https://private.example.com/?token=secret",
     },
   });
@@ -83,6 +106,13 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
     );
     assert.equal(safe?.properties.$referring_domain, "google.com");
     assert.equal(safe?.properties.product_slug, "basil");
+    assert.equal(
+      safe?.properties.token,
+      process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN,
+    );
+    assert.notEqual(safe?.properties.token, "untrusted-token");
+    assert.equal(safe?.properties.utm_source, "google");
+    assert.equal(safe?.properties.utm_campaign, undefined);
     assert.doesNotMatch(JSON.stringify(safe), /private@|secret|\$set/);
     assert.equal(beforeSend(event("$snapshot")), null);
     await setAnalyticsConsent({ analytics: true, replay: true });
@@ -126,6 +156,9 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
     assert.equal(beforeSend(event("$pageview")), null);
   } finally {
     await setAnalyticsConsent({ analytics: false, replay: false });
+    if (oldToken === undefined)
+      delete process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN;
+    else process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN = oldToken;
     if (oldWindow) Object.defineProperty(globalThis, "window", oldWindow);
     else Reflect.deleteProperty(globalThis, "window");
     if (oldDocument) Object.defineProperty(globalThis, "document", oldDocument);

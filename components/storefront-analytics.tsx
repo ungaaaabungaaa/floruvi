@@ -129,16 +129,15 @@ export function StorefrontAnalytics() {
           aria-label="Optional analytics"
         >
           <p>
-            Help us improve FLORUVI with optional, anonymous analytics. Session
-            recordings stay off unless you select them. You can change your
-            choice below.
+            Optional analytics helps us improve the shop. No contact or payment
+            details. Recordings stay off.
           </p>
           <div className="privacy-actions">
             <button type="button" onClick={() => save(NONE)}>
               Decline
             </button>
             <button type="button" onClick={openPrivacy}>
-              Choose settings
+              Settings
             </button>
             <button
               type="button"

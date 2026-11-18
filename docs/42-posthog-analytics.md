@@ -20,10 +20,13 @@ Requests go directly to PostHog. There is no Vercel analytics proxy or extra ser
 
 - The SDK loads only after analytics consent. No optional collection runs before that.
 - Analytics runs only on `floruvi.com` and `www.floruvi.com`. Preview and local builds send no measurement data.
+- The small consent notice is inline in the footer, with no fixed overlay or automatic dialog. Shopping is available after decline. Detailed settings open only on request.
 - The privacy control in the footer can withdraw consent. Withdrawal stops recordings, clears analytics persistence, and keeps the essential consent choice.
 - Do Not Track and Global Privacy Control keep optional analytics off.
 - Analytics uses a random browser identifier after consent. Person profiles, account identification, click autocapture, heatmaps, automatic surveys, flag evaluation, console logs and network capture are disabled.
 - Only known event and property names pass the final send filter. Search parameters, hashes, free text, contact details, order IDs and payment data are excluded.
+- The final filter preserves the required public ingestion `token`. Removing it prevents event delivery. The regression test checks this field.
+- Campaign attribution accepts only named source/medium values and the published campaign `floruvi_launch`. Full query strings, `gclid`, `fbclid`, search terms and unknown values are dropped. Extend the fixed campaign vocabulary during the ads setup. Native automatic campaign/referrer persistence is off; only the sanitized labels persist after consent.
 - Replay masks text, inputs and attributes. It blocks forms, private content, payment frames, video and canvas. The client checks a public route allowlist. Cloud project settings also block private routes and URLs with query strings or hashes.
 - Admin uses a separate layout and has no SDK component. Cart, checkout and contact content have server-rendered `data-private` wrappers.
 - Error reports remove messages, variables and external stack locations. They keep static bundle frame positions. Private source-map uploads need a separate scoped build credential; no admin key is in the website.
