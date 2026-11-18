@@ -19,22 +19,24 @@ export default async function CheckoutPage() {
     getShop(),
   ]);
   return (
-    <Checkout
-      labels={messages.checkout}
-      cartLabels={{
-        headQuantity: messages.cart.headQuantity,
-        packOnRequest: messages.cart.packOnRequest,
-      }}
-      products={products.map(
-        ({ slug, name, description, imageUrl, category, price }) => ({
-          slug,
-          name,
-          description,
-          imageUrl,
-          category,
-          packLabel: price?.packLabel,
-        }),
-      )}
-    />
+    <div data-private>
+      <Checkout
+        labels={messages.checkout}
+        cartLabels={{
+          headQuantity: messages.cart.headQuantity,
+          packOnRequest: messages.cart.packOnRequest,
+        }}
+        products={products.map(
+          ({ slug, name, description, imageUrl, category, price }) => ({
+            slug,
+            name,
+            description,
+            imageUrl,
+            category,
+            packLabel: price?.packLabel,
+          }),
+        )}
+      />
+    </div>
   );
 }

@@ -6,10 +6,21 @@ import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { messages } = await getI18n();
-  return pageMetadata({ path: "/cart", title: messages.meta.cart.title, noindex: true });
+  return pageMetadata({
+    path: "/cart",
+    title: messages.meta.cart.title,
+    noindex: true,
+  });
 }
 
 export default async function Cart() {
-  const [{ messages }, { products }] = await Promise.all([getI18n(), getShop()]);
-  return <BasketPage products={products} labels={messages.cart} />;
+  const [{ messages }, { products }] = await Promise.all([
+    getI18n(),
+    getShop(),
+  ]);
+  return (
+    <div data-private>
+      <BasketPage products={products} labels={messages.cart} />
+    </div>
+  );
 }

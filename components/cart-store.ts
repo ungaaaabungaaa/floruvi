@@ -2,6 +2,7 @@
 import { isPantry, validWeight } from "@/lib/pantry-weights";
 import { isPackProduct, validPackSize } from "@/lib/product-packs";
 import { useSyncExternalStore } from "react";
+import { trackStorefront } from "@/lib/analytics";
 import {
   normalizeCart,
   updateCart,
@@ -71,6 +72,10 @@ export function useCart() {
       )
         return false;
       save(updateCart(current, slug, nextQuantity));
+      trackStorefront("product_added_to_cart", {
+        product_slug: slug,
+        quantity,
+      });
       return true;
     },
     setWeight(slug: string, weightGrams: number) {
@@ -86,6 +91,10 @@ export function useCart() {
         ...current.filter((i) => i.slug !== slug),
         { slug, quantity: 1, weightGrams },
       ]);
+      trackStorefront("product_added_to_cart", {
+        product_slug: slug,
+        quantity: 1,
+      });
       return true;
     },
     setQuantity(slug: string, quantity: number) {
@@ -104,6 +113,10 @@ export function useCart() {
         ...current.filter((i) => i.slug !== slug),
         { slug, quantity: 1, packSize },
       ]);
+      trackStorefront("product_added_to_cart", {
+        product_slug: slug,
+        quantity: 1,
+      });
       return true;
     },
     remove(slug: string) {

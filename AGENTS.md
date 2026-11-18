@@ -47,6 +47,10 @@
 
 ## Data and security
 
+- PostHog uses the owner's US FLORUVI project 745889 on the capped Free plan. Follow [the analytics guide](docs/42-posthog-analytics.md). Keep collection behind consent, keep replay separately optional and masked, and preserve the public-route allowlist. Never collect customer contact, payment, order, form or URL-query data.
+- The owner removed ratings and user-feedback surveys on 18 November 2026. Do not add a rating widget, feedback prompt, survey trigger, or survey collection. Keep surveys disabled.
+- Keep paid analytics products, AI tasks, managed proxies, warehouse syncs and automatic flag requests off. Dashboard QA must exclude `internal_test=true`. Add purchase/refund events only from verified payment records. Do not infer a sale from a browser click.
+
 - Convex owns products, stock, orders, leads, and payment records. Better Auth owns identities, codes, and sessions. Chat is hidden until the owner switches it on in /admin. The owner chose OpenRouter through the Vercel AI SDK on 28 September 2026 (docs/26-chatbot-plan.md).
 - Check identity and permissions in every protected Convex function. Hidden buttons and page redirects are not access control.
 - Keep public product outputs separate from private customer and business data.

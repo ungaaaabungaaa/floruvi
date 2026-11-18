@@ -14,7 +14,9 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default async function Contact({ searchParams }: PageProps<"/[locale]/contact">) {
+export default async function Contact({
+  searchParams,
+}: PageProps<"/[locale]/contact">) {
   const [{ locale, messages }, { product, box, schedule }] = await Promise.all([
     getI18n(),
     searchParams,
@@ -32,16 +34,21 @@ export default async function Contact({ searchParams }: PageProps<"/[locale]/con
       schedule: labels.schedules[delivery.id],
     };
   return (
-    <EnquiryPage
-      product={
-        values
-          ? fill(messages.contact.boxInterest, { ...values, name: labels[size!.id].name })
-          : typeof product === "string"
-            ? product
-            : ""
-      }
-      message={values ? fill(messages.contact.boxMessage, values) : undefined}
-      labels={messages.contact}
-    />
+    <div data-private>
+      <EnquiryPage
+        product={
+          values
+            ? fill(messages.contact.boxInterest, {
+                ...values,
+                name: labels[size!.id].name,
+              })
+            : typeof product === "string"
+              ? product
+              : ""
+        }
+        message={values ? fill(messages.contact.boxMessage, values) : undefined}
+        labels={messages.contact}
+      />
+    </div>
   );
 }

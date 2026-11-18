@@ -7,9 +7,21 @@ import Image from "next/image";
 import { productImage } from "@/lib/product-images";
 import { getCartBox } from "@/lib/boxes";
 import { Botanical } from "./botanical";
-const singleBox = publicImage("flourvi/src/assets/boxes/single.7342877a73128478.webp", 1200, 1200);
-const dualBox = publicImage("flourvi/src/assets/boxes/dual.db94086bb4683784.webp", 1200, 1200);
-const familyBox = publicImage("flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp", 1200, 1200);
+const singleBox = publicImage(
+  "flourvi/src/assets/boxes/single.7342877a73128478.webp",
+  1200,
+  1200,
+);
+const dualBox = publicImage(
+  "flourvi/src/assets/boxes/dual.db94086bb4683784.webp",
+  1200,
+  1200,
+);
+const familyBox = publicImage(
+  "flourvi/src/assets/boxes/family.bdb02bb9f3802f90.webp",
+  1200,
+  1200,
+);
 import { indiaStates, citiesForState } from "@/lib/india-locations";
 import { toAsciiDigits } from "@/lib/enquiry";
 import Link from "@/components/i18n/link";
@@ -35,6 +47,7 @@ import { markets } from "@/lib/i18n/config";
 import { requestErrorMessage, validationMessage } from "@/lib/i18n/validation";
 import type { Messages } from "@/lib/i18n/messages";
 import { useI18n } from "./i18n/provider";
+import { trackStorefront } from "@/lib/analytics";
 
 const emptyDetails = {
   name: "",
@@ -139,6 +152,10 @@ export function Checkout({
           requestErrorMessage(response.status, t.requestErrors, t.validation),
         );
       setStatus("success");
+      trackStorefront("enquiry_submitted", {
+        form_type: "basket",
+        market: locale.market,
+      });
       setDetails(emptyDetails);
       cart.clear();
     } catch (error) {
@@ -171,6 +188,7 @@ export function Checkout({
       return;
     }
     setStatus("paying");
+    trackStorefront("payment_started", { market: locale.market });
     try {
       const key = JSON.stringify(parsed.data);
       let order = pending.current?.key === key ? pending.current.order : null;
@@ -211,6 +229,10 @@ export function Checkout({
       setReference(order.reference);
       setStatus(confirmed?.status === "paid" ? "paid" : "unconfirmed");
     } catch (error) {
+      trackStorefront("payment_failed", {
+        failure_stage: "payment_or_confirmation",
+        market: locale.market,
+      });
       setError(
         error instanceof Notice ? error.message : labels.paymentUnavailable,
       );

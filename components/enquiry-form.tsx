@@ -9,6 +9,7 @@ import { requestErrorMessage, validationMessage } from "@/lib/i18n/validation";
 import type { Messages } from "@/lib/i18n/messages";
 import { Lines } from "./i18n/lines";
 import { useI18n } from "./i18n/provider";
+import { trackStorefront } from "@/lib/analytics";
 
 export function EnquiryForm({
   product = "",
@@ -45,10 +46,18 @@ export function EnquiryForm({
         body: JSON.stringify({ ...parsed.data, market: locale.market }),
       });
       if (!response.ok)
-        throw new Error(requestErrorMessage(response.status, t.requestErrors, t.validation));
+        throw new Error(
+          requestErrorMessage(response.status, t.requestErrors, t.validation),
+        );
       setStatus("success");
+      trackStorefront("enquiry_submitted", {
+        form_type: "contact",
+        market: locale.market,
+      });
     } catch (error) {
-      setError(error instanceof Error ? error.message : t.requestErrors.notSaved);
+      setError(
+        error instanceof Error ? error.message : t.requestErrors.notSaved,
+      );
       setStatus("idle");
     }
   }

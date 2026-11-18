@@ -2,6 +2,8 @@
 
 Fresh produce store for homes and businesses. Live: [floruvi.com](https://floruvi.com) · Owner panel: [floruvi.com/admin](https://floruvi.com/admin)
 
+Consent-based PostHog measurement: [setup and privacy guide](docs/42-posthog-analytics.md).
+
 ## 1. Keys to add
 
 Never put key values in this repo.

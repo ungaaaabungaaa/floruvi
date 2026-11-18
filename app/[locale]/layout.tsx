@@ -7,6 +7,8 @@ import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n/provider";
 import { CartPill } from "@/components/cart-pill";
 import { ChatSlot } from "@/components/chat-slot";
+import { StorefrontAnalytics } from "@/components/storefront-analytics";
+import { Suspense } from "react";
 import { cartThumbnails } from "@/lib/cart-thumbnails";
 import {
   business,
@@ -18,7 +20,11 @@ import { getI18n } from "@/lib/i18n/server";
 import { localizePath, locales, marketCodes, markets } from "@/lib/i18n/config";
 import { countryName, fill } from "@/lib/i18n/format";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
-const mark = publicImage("flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp", 1254, 1254);
+const mark = publicImage(
+  "flourvi/src/assets/floruvi-mark.f02f04b1ea886ddb.webp",
+  1254,
+  1254,
+);
 import "../globals.css";
 import { localProductPreview } from "@/lib/local-product-preview";
 
@@ -147,6 +153,9 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
+          <Suspense fallback={null}>
+            <StorefrontAnalytics />
+          </Suspense>
           <CartPill thumbnails={cartThumbnails} />
           <ChatSlot />
         </I18nProvider>
