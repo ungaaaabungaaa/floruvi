@@ -5957,6 +5957,8 @@ body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
 .privacy-links button { min-height: 44px; text-decoration: underline; text-underline-offset: 4px; font-size: 13px; }
 .analytics-consent-banner { display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 1200px; margin: 0 auto; padding: 12px 24px; border-top: 1px solid #d7dccf; background: #f5f3eb; color: #183e30; font-size: 12px; }
 .analytics-consent-banner p { max-width: 560px; margin: 0; line-height: 1.6; }
+/* Keep consent actions clear of the fixed contact launcher on desktop. */
+@media (min-width: 768px) { .analytics-consent-banner { padding-inline-end: 96px; } }
 .privacy-dialog p { margin-block: 0 16px; line-height: 1.6; }
 .privacy-actions { display: flex; align-items: center; justify-content: flex-end; gap: 12px; flex-wrap: wrap; }
 .privacy-actions button { min-height: 44px; padding: 8px 14px; }
