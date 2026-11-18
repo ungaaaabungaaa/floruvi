@@ -20,6 +20,24 @@ export function analyticsToken(value: unknown): string | undefined {
 
 export type AnalyticsConsent = { analytics: boolean; replay: boolean };
 
+/** Global opt-in: country, shop market and language cannot grant permission. */
+export function resolveAnalyticsConsent(
+  saved: AnalyticsConsent | null,
+  signals: {
+    doNotTrack?: string | null;
+    globalPrivacyControl?: boolean;
+  } = {},
+): AnalyticsConsent | null {
+  if (signals.doNotTrack === "1" || signals.globalPrivacyControl === true)
+    return { analytics: false, replay: false };
+  // Preserve the first-visit state so the inline notice can offer a choice.
+  if (!saved) return null;
+  return {
+    analytics: saved.analytics === true,
+    replay: saved.analytics === true && saved.replay === true,
+  };
+}
+
 export function isCheckoutEntry(path: string, previousPath: string) {
   return /\/checkout\/?$/.test(path) && path !== previousPath;
 }

@@ -73,12 +73,36 @@ Verify four separate outcomes after a change: local privacy tests, production bu
 - Optional replay is enabled in the project, with masking, private-route exclusions, a 10% sample, a 10-second minimum and 30-day retention. The recorder script loaded after explicit replay consent. No saved recording was returned during QA, so playback acceptance remains unverified. Do not claim that all sessions are recorded.
 - Billing was rechecked: Free plan, no customer/card record and no active paid subscription. Surveys remain disabled.
 
-The owner requested regional consent rules. The current release still uses opt-in globally. Do not infer visitor location from the selected store country or language. A later regional rule needs verified request-country input, a policy for each served country, an opt-in fallback for unknown locations, and opt-in replay everywhere. Do not treat every country outside the EU and UK as automatically exempt.
+## Regional consent policy
+
+Defined and tested on 18 November 2026. **Global opt-in remains active.** These are FLORUVI's product rules, not a claim that each country has the same law. No country currently allows analytics to start without permission.
+
+| Visitor region or country | Analytics and funnels | Session recordings |
+| --- | --- | --- |
+| EU/EEA, including Germany and Netherlands | Explicit opt-in | Separate opt-in, plus analytics permission |
+| United Kingdom | Explicit opt-in | Separate opt-in, plus analytics permission |
+| Switzerland | Explicit opt-in | Separate opt-in, plus analytics permission |
+| India | Explicit opt-in | Separate opt-in, plus analytics permission |
+| UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, Iraq | Explicit opt-in | Separate opt-in, plus analytics permission |
+| Japan, Nepal, Bangladesh, Malaysia, Sri Lanka, Uzbekistan | Explicit opt-in | Separate opt-in, plus analytics permission |
+| All other countries | Explicit opt-in | Separate opt-in, plus analytics permission |
+| Unknown, missing or untrusted visitor country | Explicit opt-in | Separate opt-in, plus analytics permission |
+
+The same rule applies when a visitor chooses another shop country or language, travels, or uses a VPN. The existing explicit choice stays in the browser; a country or language change cannot grant permission or undo a decline. DNT or GPC keeps both options off even when a saved choice allows them. Essential shopping storage continues to work.
+
+`resolveAnalyticsConsent` in `lib/analytics-policy.ts` is the shared decision used at initial load, save, cross-tab updates and the SDK entry point. Missing, unreadable, malformed or unsupported-version saved data grants no permission. Clearing saved choices restores the inline notice. Replay requires both permissions. Withdrawing permission blocks the final event filter and stops recording. No new event, dashboard or data migration is needed for this policy.
+
+There is no analytics country lookup, geolocation permission, policy API request or additional server function. All countries use the same rule, so public pages keep their current caching. Locale routing may still use Vercel's country data, but that routing data cannot enable analytics.
+
+`tests/analytics.test.ts` checks the shared decision and the final event filter across all 17 served markets and 32 language versions, plus the unprefixed route. Checks cover first visits, saved decline, analytics-only permission, separate replay permission, invalid saved data, withdrawal, DNT and GPC. Country spoofing cannot create an exemption because there is no country-based bypass.
+
+A future change that enables analytics by default in any country is a separate policy change. Review the applicable rules and actual SDK behavior first. Use trusted request-country data, never the store market, language, URL parameters or browser-supplied country claims. Keep unknown locations and replay opt-in. Do not assume all countries outside the EU and UK are exempt.
+
+Policy references reviewed: [EDPB consent guidance](https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_202005_consent_en.pdf) requires a clear affirmative act and rejects consent inferred from ordinary browsing. [ICO exceptions guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) describes a limited statistical-purpose exception, not a blanket exemption for individual tracking, recordings or advertising. FLORUVI does not rely on that exception for its current browser identifiers and funnels.
 
 ## Remaining provider acceptance
 
 1. Confirm one saved, masked public-page recording and verify that private forms are absent. Keep normal sampling at 10%; do not increase it just to force a test.
 2. With Razorpay, add `purchase_completed` and `refund_completed` from verified, deduplicated payment records. Verify order value in minor units, currency, consent/attribution policy and test-mode exclusion. Then add paid conversion, revenue, refunds and campaign return charts. Browser clicks must not generate these events.
-3. Apply regional consent only after its country policy is defined and tested. The existing global opt-in policy remains active.
 
 Official references: [Next.js error tracking](https://posthog.com/docs/error-tracking/installation/nextjs), [replay privacy](https://posthog.com/docs/session-replay/privacy).

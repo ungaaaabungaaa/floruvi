@@ -6,9 +6,72 @@ import {
   REPLAY_PRIVACY,
   campaignProperties,
   isCheckoutEntry,
+  resolveAnalyticsConsent,
 } from "../lib/analytics-policy";
 import { beforeSend, setAnalyticsConsent } from "../lib/analytics";
+import { locales, markets, parseLocale } from "../lib/i18n/config";
 import type { CaptureResult } from "posthog-js";
+
+test("global opt-in preserves the choice and never grants replay with analytics alone", () => {
+  assert.equal(resolveAnalyticsConsent(null), null);
+  assert.deepEqual(
+    resolveAnalyticsConsent({ analytics: false, replay: true }),
+    {
+      analytics: false,
+      replay: false,
+    },
+  );
+  assert.deepEqual(
+    resolveAnalyticsConsent({ analytics: true, replay: false }),
+    {
+      analytics: true,
+      replay: false,
+    },
+  );
+  assert.deepEqual(resolveAnalyticsConsent({ analytics: true, replay: true }), {
+    analytics: true,
+    replay: true,
+  });
+  for (const raw of [
+    null,
+    "",
+    "broken",
+    '{"version":0,"analytics":true,"replay":true}',
+    '{"version":1,"analytics":"true","replay":true}',
+  ])
+    assert.equal(
+      resolveAnalyticsConsent(parseAnalyticsConsent(raw)),
+      null,
+      raw || "empty",
+    );
+});
+
+test("DNT and GPC override every saved choice, including both permissions", () => {
+  for (const saved of [
+    null,
+    { analytics: false, replay: false },
+    { analytics: true, replay: false },
+    { analytics: true, replay: true },
+  ]) {
+    for (const signals of [
+      { doNotTrack: "1" },
+      { globalPrivacyControl: true },
+      { doNotTrack: "0", globalPrivacyControl: true },
+      { doNotTrack: "1", globalPrivacyControl: false },
+    ])
+      assert.deepEqual(resolveAnalyticsConsent(saved, signals), {
+        analytics: false,
+        replay: false,
+      });
+    assert.deepEqual(
+      resolveAnalyticsConsent(saved, {
+        doNotTrack: "0",
+        globalPrivacyControl: false,
+      }),
+      resolveAnalyticsConsent(saved),
+    );
+  }
+});
 test("basket navigation does not suppress checkout entries or count duplicate renders", () => {
   assert.equal(isCheckoutEntry("/cart", "/products/basil"), false);
   assert.equal(isCheckoutEntry("/checkout", "/cart"), true);
@@ -73,6 +136,12 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
   process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN = "phc_test_public_ingestion";
   const oldWindow = Object.getOwnPropertyDescriptor(globalThis, "window");
   const oldDocument = Object.getOwnPropertyDescriptor(globalThis, "document");
+  const oldNavigator = Object.getOwnPropertyDescriptor(globalThis, "navigator");
+  const privacySignals = { doNotTrack: "0", globalPrivacyControl: false };
+  Object.defineProperty(globalThis, "navigator", {
+    configurable: true,
+    value: privacySignals,
+  });
   const location = {
     hostname: "floruvi.com",
     pathname: "/products/basil",
@@ -104,8 +173,45 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
     },
   });
   try {
-    await setAnalyticsConsent({ analytics: false, replay: false });
-    assert.equal(beforeSend(event("$pageview")), null);
+    // All 17 markets and every language must share the same off-by-default gate.
+    // The unprefixed route also covers visitors whose country is unknown or
+    // whose selected shop country differs from their request country.
+    assert.deepEqual(
+      new Set(locales.map((locale) => parseLocale(locale).country)),
+      new Set(Object.values(markets).map((market) => market.country)),
+    );
+    for (const route of [
+      "/products/basil",
+      ...locales.map((locale) => `/${locale}/products/basil`),
+    ]) {
+      location.pathname = route;
+      for (const saved of [null, { analytics: false, replay: false }]) {
+        await setAnalyticsConsent(
+          resolveAnalyticsConsent(saved) || { analytics: false, replay: false },
+        );
+        assert.equal(beforeSend(event("$pageview")), null, route);
+        assert.equal(beforeSend(event("product_added_to_cart")), null, route);
+        assert.equal(beforeSend(event("$snapshot")), null, route);
+      }
+      for (const signal of ["doNotTrack", "globalPrivacyControl"] as const) {
+        privacySignals.doNotTrack = signal === "doNotTrack" ? "1" : "0";
+        privacySignals.globalPrivacyControl = signal === "globalPrivacyControl";
+        await setAnalyticsConsent({ analytics: true, replay: true });
+        assert.equal(
+          beforeSend(event("$pageview")),
+          null,
+          `${route}: ${signal}`,
+        );
+        assert.equal(
+          beforeSend(event("$snapshot")),
+          null,
+          `${route}: ${signal}`,
+        );
+      }
+    }
+    privacySignals.doNotTrack = "0";
+    privacySignals.globalPrivacyControl = false;
+    location.pathname = "/products/basil";
     await setAnalyticsConsent({ analytics: true, replay: false });
     assert.equal(beforeSend(event("survey sent")), null);
     const safe = beforeSend(event("product_added_to_cart"));
@@ -172,5 +278,8 @@ test("final event boundary enforces consent, redaction, replay exclusions and vo
     else Reflect.deleteProperty(globalThis, "window");
     if (oldDocument) Object.defineProperty(globalThis, "document", oldDocument);
     else Reflect.deleteProperty(globalThis, "document");
+    if (oldNavigator)
+      Object.defineProperty(globalThis, "navigator", oldNavigator);
+    else Reflect.deleteProperty(globalThis, "navigator");
   }
 });

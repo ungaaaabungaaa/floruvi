@@ -6,6 +6,7 @@ import {
   campaignProperties,
   isCheckoutEntry,
   publicAnalyticsPath,
+  resolveAnalyticsConsent,
   REPLAY_PRIVACY,
   type AnalyticsConsent,
 } from "./analytics-policy";
@@ -220,10 +221,18 @@ async function getClient() {
 }
 
 export async function setAnalyticsConsent(next: AnalyticsConsent) {
-  consent = {
-    analytics: next.analytics,
-    replay: next.analytics && next.replay,
-  };
+  // Recheck browser signals at the SDK boundary as well as in the controls.
+  consent = resolveAnalyticsConsent(
+    next,
+    typeof navigator === "undefined"
+      ? {}
+      : {
+          doNotTrack: navigator.doNotTrack,
+          globalPrivacyControl: (
+            navigator as Navigator & { globalPrivacyControl?: boolean }
+          ).globalPrivacyControl,
+        },
+  ) || { analytics: false, replay: false };
   if (!consent.analytics) {
     client?.stopSessionRecording();
     client?.opt_out_capturing();

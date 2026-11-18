@@ -15,15 +15,18 @@ import {
 import {
   parseAnalyticsConsent,
   publicAnalyticsPath,
+  resolveAnalyticsConsent,
   type AnalyticsConsent,
 } from "@/lib/analytics-policy";
 
 const NONE: AnalyticsConsent = { analytics: false, replay: false };
-function browserPrivacySignal() {
-  return (
-    (navigator as Navigator & { globalPrivacyControl?: boolean })
-      .globalPrivacyControl || navigator.doNotTrack === "1"
-  );
+function browserPrivacySignals() {
+  return {
+    globalPrivacyControl: (
+      navigator as Navigator & { globalPrivacyControl?: boolean }
+    ).globalPrivacyControl,
+    doNotTrack: navigator.doNotTrack,
+  };
 }
 
 export function StorefrontAnalytics() {
@@ -42,7 +45,7 @@ export function StorefrontAnalytics() {
     } catch {
       /* Default off if storage is unavailable. */
     }
-    if (browserPrivacySignal()) saved = NONE;
+    saved = resolveAnalyticsConsent(saved, browserPrivacySignals());
     // Read browser-only preferences after hydration.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setChoice(saved);
@@ -67,13 +70,14 @@ export function StorefrontAnalytics() {
       captureStorefrontError(event.reason);
     const onStorage = (event: StorageEvent) => {
       if (event.key === CONSENT_KEY || event.key === null) {
-        const next = browserPrivacySignal()
-          ? NONE
-          : parseAnalyticsConsent(event.newValue) || NONE;
+        const next = resolveAnalyticsConsent(
+          parseAnalyticsConsent(event.newValue),
+          browserPrivacySignals(),
+        );
         setChoice(next);
-        setAnalytics(next.analytics);
-        setReplay(next.replay);
-        void setAnalyticsConsent(next);
+        setAnalytics(next?.analytics || false);
+        setReplay(next?.replay || false);
+        void setAnalyticsConsent(next || NONE);
       }
     };
     document.addEventListener("click", beforeNavigation, true);
@@ -94,7 +98,8 @@ export function StorefrontAnalytics() {
   }, [pathname]);
 
   function save(next: AnalyticsConsent) {
-    const value = browserPrivacySignal() ? NONE : next;
+    const value =
+      resolveAnalyticsConsent(next, browserPrivacySignals()) || NONE;
     setChoice(value);
     setAnalytics(value.analytics);
     setReplay(value.replay);
