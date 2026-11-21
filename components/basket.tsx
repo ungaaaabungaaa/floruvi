@@ -5,6 +5,7 @@ import Link from "@/components/i18n/link";
 import Image from "next/image";
 import {
   ArrowRight,
+  ChevronRight,
   Minus,
   Plus,
   Trash2,
@@ -137,8 +138,12 @@ export function BasketSummary({
   showWellness?: boolean;
   children?: React.ReactNode;
 }) {
-  const { t, money, plural } = useI18n();
+  const { t, money, plural, fill } = useI18n();
   const quoted = review?.deliveryQuoted;
+  const deliverySaved =
+    review?.delivery != null &&
+    review.standardDelivery != null &&
+    review.delivery < review.standardDelivery;
   return (
     <aside
       className={refreshing ? "basket-summary is-refreshing" : "basket-summary"}
@@ -164,13 +169,30 @@ export function BasketSummary({
       <div className="summary-row">
         <span>{t.basket.deliveryFee}</span>
         <span>
-          {!review
-            ? "—"
-            : quoted
-              ? t.basket.deliveryQuoted
-              : money(review.delivery, review.currency as CurrencyCode)}
+          {!review ? (
+            "—"
+          ) : quoted ? (
+            t.basket.deliveryQuoted
+          ) : (
+            <>
+              {deliverySaved && (
+                <s className="summary-was">
+                  {money(review.standardDelivery, review.currency as CurrencyCode)}
+                </s>
+              )}
+              {deliverySaved && review.delivery === 0
+                ? t.basket.free
+                : money(review.delivery, review.currency as CurrencyCode)}
+            </>
+          )}
         </span>
       </div>
+      {!!review?.discount && (
+        <div className="summary-row summary-saving">
+          <span>{t.basket.discount}</span>
+          <span>−{money(review.discount, review.currency as CurrencyCode)}</span>
+        </div>
+      )}
       <div className="summary-total">
         <span>{quoted ? t.basket.totalBeforeDelivery : t.basket.total}</span>
         <span>
@@ -181,6 +203,19 @@ export function BasketSummary({
             : "—"}
         </span>
       </div>
+      {review?.nextDelivery && (
+        <p className="summary-hint">
+          {fill(
+            review.nextDelivery.feeMinor === 0
+              ? t.basket.addForFreeDelivery
+              : t.basket.addForLowerDelivery,
+            {
+              amount: money(review.nextDelivery.addMinor, review.currency as CurrencyCode),
+              fee: money(review.nextDelivery.feeMinor, review.currency as CurrencyCode),
+            },
+          )}
+        </p>
+      )}
       {children}
       {showWellness && (
         <div className="basket-wellness">
@@ -218,9 +253,12 @@ export function EmptyBasket() {
 export function BasketPage({
   products,
   labels,
+  checkoutLabel,
 }: {
   products: ShopProduct[];
   labels: Messages["cart"];
+  /** Short action word for the phone checkout pill, e.g. "Checkout". */
+  checkoutLabel: string;
 }) {
   const cart = useCart();
   const { t, locale, fill, money } = useI18n();
@@ -252,8 +290,10 @@ export function BasketPage({
         />
         <div>
           <h1 id="cart-title">{labels.title}</h1>
-          <p>{labels.subtitle}</p>
-          <Leaf size={22} strokeWidth={1.3} aria-hidden="true" />
+          <p>
+            {labels.subtitle}{" "}
+            <Leaf size={22} strokeWidth={1.3} aria-hidden="true" />
+          </p>
         </div>
       </section>
       <div className="basket-layout">
@@ -472,6 +512,53 @@ export function BasketPage({
           </aside>
         </div>
       </div>
+      {/* Phones: a floating checkout pill, in the style of the "View cart" pill (shown by CSS). */}
+      {review && !loading && !error && !missing && (
+        <Link
+          className="cart-pill checkout-pill"
+          href="/checkout"
+          aria-label={labels.proceed}
+        >
+          <span className="cart-pill-thumbs" aria-hidden="true">
+            {cart.items
+              .slice(-3)
+              .reverse()
+              .map((line) => {
+                const box = getCartBox(line.slug);
+                const src = box
+                  ? boxImages[box.id]
+                  : productImage(
+                      line.slug,
+                      products.find((p) => p.slug === line.slug)?.imageUrl,
+                      line.packSize,
+                    );
+                return src ? (
+                  <span key={line.slug}>
+                    <Image
+                      src={src}
+                      alt=""
+                      width={36}
+                      height={36}
+                      sizes="36px"
+                      unoptimized={typeof src === "string"}
+                    />
+                  </span>
+                ) : null;
+              })}
+          </span>
+          <span className="cart-pill-text">
+            <strong>{checkoutLabel}</strong>
+            <small className={refreshing ? "is-refreshing" : undefined}>
+              {review.total === null
+                ? t.money.quoteRequired
+                : money(review.total, review.currency as CurrencyCode)}
+            </small>
+          </span>
+          <span className="cart-pill-go" aria-hidden="true">
+            <ChevronRight size={18} strokeWidth={2.4} />
+          </span>
+        </Link>
+      )}
     </div>
   );
 }

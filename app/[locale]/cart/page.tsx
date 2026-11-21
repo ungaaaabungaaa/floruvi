@@ -20,7 +20,11 @@ export default async function Cart() {
   ]);
   return (
     <div data-private>
-      <BasketPage products={products} labels={messages.cart} />
+      <BasketPage
+        products={products}
+        labels={messages.cart}
+        checkoutLabel={messages.meta.checkout.title}
+      />
     </div>
   );
 }

@@ -86,6 +86,9 @@ export default async function AdminOrders({ searchParams }: PageProps<"/admin/or
                   {order.deliveryMinor > 0 && (
                     <span className="admin-line">Delivery: {rupees(order.deliveryMinor)}</span>
                   )}
+                  {(order.discountMinor ?? 0) > 0 && (
+                    <span className="admin-line">Discount: −{rupees(order.discountMinor)}</span>
+                  )}
                 </dd>
                 <dt>Payment</dt>
                 <dd>

@@ -124,6 +124,8 @@ export default defineSchema({
     amountMinor: v.number(),
     subtotalMinor: v.number(),
     deliveryMinor: v.number(),
+    // Automatic round-down discount. Missing on orders before 21 November 2026.
+    discountMinor: v.optional(v.number()),
     items: v.array(
       v.object({
         slug: v.string(),
@@ -216,6 +218,12 @@ export default defineSchema({
     chatEnabled: v.optional(v.boolean()),
     // Online payment, switched in the admin panel. Also needs the Razorpay keys.
     paymentsEnabled: v.optional(v.boolean()),
+    // Automatic discounts, set in the admin panel. Missing means the starting
+    // values in lib/discounts.ts. Paise; 0 switches a rule off.
+    roundDownStepMinor: v.optional(v.number()),
+    reducedDeliveryFromMinor: v.optional(v.number()),
+    reducedDeliveryFeeMinor: v.optional(v.number()),
+    freeDeliveryFromMinor: v.optional(v.number()),
   }).index("by_key", ["key"]),
   enquiryLimits: defineTable({
     key: v.string(),

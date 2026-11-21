@@ -23,6 +23,15 @@ export function isCurrencyCode(value: unknown): value is CurrencyCode {
   return typeof value === "string" && Object.hasOwn(currencyExponent, value);
 }
 
+/**
+ * Owner decision, 21 November 2026: no decimal prices in any currency. Rounds
+ * integer minor units up to the next whole unit (₹348.25 → ₹349).
+ */
+export function ceilToWhole(minor: number, currency: string) {
+  const scale = isCurrencyCode(currency) ? 10 ** currencyExponent[currency] : 100;
+  return Math.ceil(minor / scale) * scale;
+}
+
 const formatters = new Map<string, Intl.NumberFormat>();
 function numberFormat(tag: string, options: Intl.NumberFormatOptions) {
   const key = `${tag}|${JSON.stringify(options)}`;

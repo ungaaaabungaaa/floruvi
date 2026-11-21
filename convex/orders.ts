@@ -7,6 +7,7 @@ import { boxContents, getCartBox } from "../lib/boxes";
 import { paymentOrderRequest } from "../lib/checkout";
 import { priceInMarket } from "../lib/markets/pricing-core";
 import { reviewBasket } from "../lib/pricing";
+import { resolveDiscounts } from "../lib/discounts";
 import { applyPayment } from "../lib/razorpay";
 import { takeRateLimits } from "./limits";
 
@@ -50,7 +51,11 @@ async function priceForIndia(ctx: QueryCtx, lines: CartLine[]) {
   return reviewBasket(
     lines,
     products,
-    settings && { currency: settings.currency, deliveryFeeMinor: settings.deliveryFeeMinor },
+    settings && {
+      currency: settings.currency,
+      deliveryFeeMinor: settings.deliveryFeeMinor,
+      ...resolveDiscounts(settings),
+    },
     "in",
     true,
   );
@@ -92,6 +97,7 @@ export const prepare = internalMutation({
       amountMinor: review.total,
       subtotalMinor: review.subtotal,
       deliveryMinor: review.delivery ?? 0,
+      discountMinor: review.discount,
       items: review.items.map((item) => ({
         slug: item.slug,
         name: item.name,

@@ -144,12 +144,6 @@ export default async function LocaleLayout({
           </a>
           <Header />
           <main id="main">
-            {localProductPreview() && (
-              <p className="local-product-preview-note">
-                Local product review · Proposed prices before GST and delivery ·
-                Orders are disabled
-              </p>
-            )}
             {children}
           </main>
           <Footer />

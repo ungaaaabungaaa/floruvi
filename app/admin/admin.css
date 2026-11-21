@@ -196,3 +196,9 @@
 .admin-button.is-pending, .admin-switch.is-pending { opacity: .6; cursor: progress; }
 @keyframes admin-pulse { 50% { opacity: .15; } }
 @media (prefers-reduced-motion: reduce) { .admin-hint { transition: none; } .admin-hint.is-pending { animation: none; } }
+
+/* Automatic discounts form in Settings. */
+.admin-discounts > div { flex: 1; min-width: 0; }
+.admin-discount-form { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); align-items: end; margin-top: 14px; }
+.admin-discount-form select { min-height: 46px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fcfbf7; font-size: 16px; }
+.admin-discount-form .admin-button { justify-self: start; }

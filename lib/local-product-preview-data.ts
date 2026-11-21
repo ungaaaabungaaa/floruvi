@@ -9,6 +9,7 @@ import {
 } from "../convex/dehydratedData";
 import { recipeCatalogue } from "../convex/recipeData";
 import { pantryPrices } from "./pantry-weights";
+import { wholePrice } from "./markets/pricing-core";
 
 export function previewShop() {
   return {
@@ -27,7 +28,7 @@ export function previewShop() {
       imageUrl: null,
       translated: false,
       inStock: true,
-      ...pantryPrices(p.slug, p.price, "in"),
+      ...pantryPrices(p.slug, wholePrice(p.price), "in"),
     })),
   };
 }

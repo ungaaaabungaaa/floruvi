@@ -1,3 +1,4 @@
+import type { CurrencyCode } from "../lib/i18n/format";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { marketPrice, ceilToStep } from "../lib/markets/prices";
@@ -58,7 +59,10 @@ test("export prices are local retail estimates plus at least 40 percent, rounded
       const retail = pricingBenchmarks.find((p) => p.slug === product.slug)!.retailMinor * rate;
       const price = marketPrice(product, market)!.amountMinor;
       assert.ok(price >= Math.round(retail * 1.4) - 1, `${market}: ${product.slug}`);
-      assert.ok(price - product.price.amountMinor * rate < data.stepMinor);
+      // Rounded up to the reviewed step, then to a whole currency unit.
+      const whole = 10 ** currencyExponent[markets[market].currency as CurrencyCode];
+      assert.equal(price % whole, 0, `${market}: ${product.slug} whole`);
+      assert.ok(price - product.price.amountMinor * rate < Math.max(data.stepMinor, whole) + data.stepMinor);
     }
   }
   assert.equal(ceilToStep(101, 25), 125);

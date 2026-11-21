@@ -5950,7 +5950,6 @@ body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
 .cart-page .weight-picker button { width: 28px; flex-shrink: 0; }
 .cart-page .weight-picker output { min-width: 40px; white-space: nowrap; font-size: 12px; }
 
-.local-product-preview-note { margin: 0; padding: 10px 20px; text-align: center; font-size: 12px; line-height: 1.6; color: #183e30; background: #f2e6be; }
 
 .privacy-links { display: flex; justify-content: center; gap: 24px; padding-block: 8px; background: #f5f3eb; }
 .privacy-tools button { cursor: pointer; }
@@ -5974,3 +5973,41 @@ body:has(.header-chat) .mobile-nav-panel nav .navigation-chat { display: flex; }
 
 @media (max-width: 767px) { .analytics-consent-banner { flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px 20px; }
 .analytics-consent-banner .privacy-actions { justify-content: flex-start; gap: 4px; } }
+
+
+/* Phones: a tighter home page. The hero ends under its pills and the sections sit closer. */
+@media (max-width: 700px) {
+  .home-hero { min-height: 0; }
+  .home-hero-content { padding-bottom: 16px; }
+  .home-catalogue { padding-bottom: 36px; }
+  .home-chapters .home-pantry { padding-block: 12px 40px; }
+  .home-recipes { padding-top: 40px; }
+}
+
+/* Cart on phones: a floating checkout pill in the style of the "View cart" pill. */
+.checkout-pill { display: none; }
+@media (max-width: 800px) {
+  .checkout-pill { display: flex; }
+  .checkout-pill .cart-pill-thumbs:empty { display: none; }
+  .checkout-pill .cart-pill-thumbs:empty + .cart-pill-text { padding-inline-start: 16px; }
+  .checkout-pill .cart-pill-text small { font-size: 13px; font-variant-numeric: tabular-nums; animation: none; transition: opacity .2s ease; }
+  .checkout-pill .cart-pill-text small.is-refreshing { opacity: .45; }
+  /* The pill replaces the button inside the summary. */
+  .cart-page:has(.checkout-pill) .basket-summary > .button { display: none; }
+  .cart-page:has(.checkout-pill) .summary-total { margin-bottom: 0; }
+  /* Room for the pill inside the footer, so it never covers the last line. */
+  body:has(.checkout-pill) .site-footer { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+}
+
+/* Cart heading: the leaf sits on the same line as the subtitle. */
+.cart-hero p svg { display: inline-block; vertical-align: -5px; margin-inline-start: 4px; }
+@media (max-width: 800px) {
+  .cart-hero { padding-top: 14px; margin-bottom: 14px; }
+  .cart-hero h1 { margin-bottom: 6px; }
+  .cart-hero p { margin-bottom: 0; }
+}
+
+/* Automatic discounts in the order summary. */
+.summary-was { margin-inline-end: 8px; color: var(--muted); font-weight: 400; }
+.basket-summary .summary-saving > span, .cart-page .summary-saving > :last-child { color: #2f6b3a; }
+.basket-summary > .summary-hint { margin: 0 0 16px; padding: 10px 12px; border-radius: 10px; background: #e9efe0; color: #24482f; font-size: 13px; line-height: 1.45; }

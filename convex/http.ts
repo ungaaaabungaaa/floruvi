@@ -44,6 +44,7 @@ http.route({ path: "/admin/dashboard", method: "POST", handler: admin.dashboard 
 http.route({ path: "/admin/stock", method: "POST", handler: admin.stock });
 http.route({ path: "/admin/chat", method: "POST", handler: admin.chat });
 http.route({ path: "/admin/payments", method: "POST", handler: admin.payments });
+http.route({ path: "/admin/discounts", method: "POST", handler: admin.discounts });
 http.route({ path: "/admin/logout", method: "POST", handler: admin.logout });
 http.route({ path: "/admin/renew", method: "POST", handler: admin.renew });
 http.route({ path: "/payments/order", method: "POST", handler: payments.order });

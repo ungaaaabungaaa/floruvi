@@ -94,6 +94,21 @@ export const payments = httpAction(async (ctx, request) => {
   });
 });
 
+export const discounts = httpAction(async (ctx, request) => {
+  if (!(await fromServer(request))) return reply(401);
+  const body = await readBody(request);
+  const token = text(body?.token);
+  if (!TOKEN.test(token)) return reply(400);
+  const result = await ctx.runMutation(internal.admin.setDiscounts, {
+    tokenHash: await sha256(token),
+    discounts: body?.discounts,
+  });
+  return reply(
+    result === "ok" ? 200 : result === "missing" ? 404 : result === "invalid" ? 400 : 401,
+    { result },
+  );
+});
+
 export const renew = httpAction(async (ctx, request) => {
   if (!(await fromServer(request))) return reply(401);
   const token = text((await readBody(request))?.token);

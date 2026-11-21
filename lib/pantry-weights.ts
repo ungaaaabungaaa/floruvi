@@ -62,9 +62,14 @@ export function weightPrice(pricing: WeightPricing, grams: number) {
     !Number.isSafeInteger(numerator * 100)
   )
     return null;
-  return pricing.singlePackExemption && grams > 25000
-    ? Math.round((numerator * 100) / (pricing.baseGrams * 105))
-    : Math.round(numerator / pricing.baseGrams);
+  // Whole rupees only: each weight's price rounds up (owner decision, 21 November 2026).
+  return (
+    Math.ceil(
+      (pricing.singlePackExemption && grams > 25000
+        ? Math.round((numerator * 100) / (pricing.baseGrams * 105))
+        : Math.round(numerator / pricing.baseGrams)) / 100,
+    ) * 100
+  );
 }
 /** Retail totals include applicable taxes. No tax is added again at checkout. */
 export function pantryPrices(

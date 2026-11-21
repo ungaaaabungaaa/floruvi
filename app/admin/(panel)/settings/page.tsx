@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { costLabel } from "@/lib/chat";
-import { setChat, setPayments } from "../../actions";
+import { setChat, setDiscounts, setPayments } from "../../actions";
+import { ROUND_DOWN_STEPS_MINOR } from "@/lib/discounts";
 import { SubmitButton } from "../client";
-import { loadDashboard, Unavailable, when } from "../shared";
+import { loadDashboard, rupees, Unavailable, when } from "../shared";
 
 export const metadata: Metadata = { title: "Settings" };
 
 export default async function AdminSettings() {
   const data = await loadDashboard();
   if (!data) return <Unavailable />;
-  const { payments } = data;
+  const { payments, discounts } = data;
   return (
     <>
       <h1>Settings</h1>
@@ -67,6 +68,77 @@ export default async function AdminSettings() {
             {payments.enabled ? "On" : "Off"}
           </SubmitButton>
         </form>
+      </section>
+
+      <section aria-labelledby="discounts-title" className="admin-setting admin-discounts">
+        <div>
+          <h2 id="discounts-title">Automatic discounts</h2>
+          <p className="admin-muted">
+            For orders in India. Customers see each saving in the cart. Enter whole rupees; 0
+            switches a rule off.
+            {data.deliveryFeeMinor != null &&
+              ` The standard delivery fee is ${rupees(data.deliveryFeeMinor)}.`}
+          </p>
+          {discounts ? (
+            <form action={setDiscounts} className="admin-form admin-discount-form">
+              <label>
+                Round the order total down to
+                <select name="roundDownStep" defaultValue={discounts.roundDownStepMinor / 100}>
+                  {ROUND_DOWN_STEPS_MINOR.map((step) => (
+                    <option key={step} value={step / 100}>
+                      {step === 0 ? "Off" : `The nearest ${rupees(step)}`}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Lower delivery fee from an order value of (₹)
+                <input
+                  name="reducedDeliveryFrom"
+                  type="number"
+                  inputMode="numeric"
+                  min={0}
+                  max={100000}
+                  step={1}
+                  required
+                  defaultValue={discounts.reducedDeliveryFromMinor / 100}
+                />
+              </label>
+              <label>
+                Lower delivery fee (₹)
+                <input
+                  name="reducedDeliveryFee"
+                  type="number"
+                  inputMode="numeric"
+                  min={0}
+                  max={100000}
+                  step={1}
+                  required
+                  defaultValue={discounts.reducedDeliveryFeeMinor / 100}
+                />
+              </label>
+              <label>
+                Free delivery from an order value of (₹)
+                <input
+                  name="freeDeliveryFrom"
+                  type="number"
+                  inputMode="numeric"
+                  min={0}
+                  max={100000}
+                  step={1}
+                  required
+                  defaultValue={discounts.freeDeliveryFromMinor / 100}
+                />
+              </label>
+              <SubmitButton className="admin-button">Save discounts</SubmitButton>
+            </form>
+          ) : (
+            <p className="admin-muted">
+              Deploy the backend to change these values. Until then the starting values apply:
+              total rounded down to ₹50, ₹49 delivery from ₹1,000, free delivery from ₹2,000.
+            </p>
+          )}
+        </div>
       </section>
     </>
   );

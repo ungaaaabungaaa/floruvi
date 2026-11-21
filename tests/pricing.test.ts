@@ -16,7 +16,7 @@ const products = [
   },
 ];
 const commerce = { currency: "INR", deliveryFeeMinor: 9900 };
-test("review uses integer pack prices and charges delivery once, with no threshold", () => {
+test("review uses whole-rupee prices, charges delivery once and applies the automatic discounts", () => {
   const result = reviewBasket(
     [
       { slug: "kale", quantity: 2 },
@@ -25,13 +25,16 @@ test("review uses integer pack prices and charges delivery once, with no thresho
     products,
     commerce,
   );
-  assert.equal(result.subtotal, 33320);
+  // ₹138.60 rounds up to ₹139. ₹334 + ₹99 = ₹433, rounded down to ₹400.
+  assert.equal(result.subtotal, 33400);
   assert.equal(result.delivery, 9900);
-  assert.equal(result.total, 43220);
+  assert.equal(result.discount, 3300);
+  assert.equal(result.total, 40000);
+  assert.deepEqual(result.nextDelivery, { addMinor: 66600, feeMinor: 4900 });
   assert.equal(result.paymentEnabled, false);
   assert.equal(
     reviewBasket([{ slug: "kale", quantity: 99 }], products, commerce).delivery,
-    9900,
+    0,
   );
   assert.equal(reviewBasket([], products, commerce).total, 0);
   assert.equal(formatMoney(13860), "₹138.60");

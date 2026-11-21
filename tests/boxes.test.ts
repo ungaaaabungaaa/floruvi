@@ -51,7 +51,9 @@ test("cart boxes use current produce prices and retain the delivery frequency", 
   }
   const mixed = reviewBasket([{ slug: "box-single-monthly", quantity: 1 }, { slug: products[0].slug, quantity: 1 }], products, { currency: "INR", deliveryFeeMinor: 9900 });
   assert.equal(mixed.delivery, 9900);
-  assert.equal(mixed.total, 79900);
+  // ₹700 + ₹99 delivery, rounded down to the nearest ₹50.
+  assert.equal(mixed.discount, 4900);
+  assert.equal(mixed.total, 75000);
   assert.equal(
     reviewBasket(
       [{ slug: "box-dual-weekly", quantity: 1 }],

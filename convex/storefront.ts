@@ -7,6 +7,7 @@ import { languages, markets, type Language, type Market } from "../lib/i18n/conf
 import { matchesSource, productText, recipeText } from "../lib/i18n/content-source";
 import { priceInMarket } from "../lib/markets/pricing-core";
 import { paymentsOn } from "./orders";
+import { resolveDiscounts } from "../lib/discounts";
 
 // Localised public catalogue for one country & language version. Prices are
 // calculated here from stored INR prices and the market's reviewed rates.
@@ -77,7 +78,11 @@ export const catalogue = query({
     const bySlug = new Map(translations.map((t) => [t.slug, t]));
     return {
       commerce: commerce
-        ? { currency: commerce.currency, deliveryFeeMinor: commerce.deliveryFeeMinor }
+        ? {
+            currency: commerce.currency,
+            deliveryFeeMinor: commerce.deliveryFeeMinor,
+            ...resolveDiscounts(commerce),
+          }
         : null,
       pricingRevision: pricing?.revision ?? null,
       categories: categories

@@ -2,6 +2,7 @@ import { internalMutation, internalQuery, type QueryCtx } from "./_generated/ser
 import { v } from "convex/values";
 import { takeRateLimits } from "./limits";
 import { commerceSettings, razorpayConfigured } from "./orders";
+import { resolveDiscounts, validDiscounts } from "../lib/discounts";
 import { monthUsage, spendLimits } from "./chatSpend";
 import { paymentMode } from "../lib/razorpay";
 import { renewedSession, SESSION_HOURS } from "../lib/admin-session";
@@ -110,6 +111,8 @@ export const dashboard = internalQuery({
         paused: !!chatUsage?.pausedAt,
         budgetMicros: spendLimits().monthMicros,
       },
+      discounts: resolveDiscounts(settings),
+      deliveryFeeMinor: settings?.deliveryFeeMinor ?? null,
       payments: {
         enabled: settings?.paymentsEnabled === true,
         keys: razorpayConfigured(),
@@ -128,6 +131,7 @@ export const dashboard = internalQuery({
           amountMinor: order.amountMinor,
           subtotalMinor: order.subtotalMinor,
           deliveryMinor: order.deliveryMinor,
+          discountMinor: order.discountMinor ?? 0,
           items: order.items,
           customer: order.customer,
           delivery: order.delivery,
@@ -187,6 +191,24 @@ export const setPayments = internalMutation({
     const settings = await commerceSettings(ctx);
     if (!settings) return "missing" as const;
     await ctx.db.patch(settings._id, { paymentsEnabled: enabled });
+    return "ok" as const;
+  },
+});
+
+/** Owner sets the automatic discounts. Values are checked again here. */
+export const setDiscounts = internalMutation({
+  args: { tokenHash: v.string(), discounts: v.any() },
+  handler: async (ctx, { tokenHash, discounts }) => {
+    if (!(await activeSession(ctx, tokenHash))) return "unauthorized" as const;
+    if (!validDiscounts(discounts)) return "invalid" as const;
+    const settings = await commerceSettings(ctx);
+    if (!settings) return "missing" as const;
+    await ctx.db.patch(settings._id, {
+      roundDownStepMinor: discounts.roundDownStepMinor,
+      reducedDeliveryFromMinor: discounts.reducedDeliveryFromMinor,
+      reducedDeliveryFeeMinor: discounts.reducedDeliveryFeeMinor,
+      freeDeliveryFromMinor: discounts.freeDeliveryFromMinor,
+    });
     return "ok" as const;
   },
 });

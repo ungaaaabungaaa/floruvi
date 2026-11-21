@@ -78,6 +78,30 @@ export async function setPayments(form: FormData) {
   revalidatePath("/admin", "layout");
 }
 
+/** Owner sets the automatic discounts. Amounts arrive in whole rupees. */
+export async function setDiscounts(form: FormData) {
+  const token = await adminToken();
+  if (!token) redirect("/admin/login");
+  // Convex checks the values again; an invalid form saves nothing.
+  const paise = (name: string) => {
+    const rupees = Number(String(form.get(name) ?? "").trim() || "0");
+    return Number.isSafeInteger(rupees) && rupees >= 0 ? rupees * 100 : -1;
+  };
+  const response = await adminApi("discounts", {
+    token,
+    discounts: {
+      roundDownStepMinor: paise("roundDownStep"),
+      reducedDeliveryFromMinor: paise("reducedDeliveryFrom"),
+      reducedDeliveryFeeMinor: paise("reducedDeliveryFee"),
+      freeDeliveryFromMinor: paise("freeDeliveryFrom"),
+    },
+  }).catch(() => null);
+  if (response?.status === 401) redirect("/admin/login");
+  // Baskets read the settings with the cached catalogue; show the change at once.
+  if (response?.ok) updateTag(CATALOGUE_TAG);
+  revalidatePath("/admin", "layout");
+}
+
 export async function setStock(form: FormData) {
   const token = await adminToken();
   if (!token) redirect("/admin/login");

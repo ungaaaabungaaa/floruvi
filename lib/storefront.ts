@@ -7,6 +7,7 @@ import { getI18n } from "./i18n/server";
 import type { Messages } from "./i18n/messages";
 import { formatCurrency } from "./i18n/format";
 import { localProductPreview } from "./local-product-preview";
+import { wholePrice } from "./markets/pricing-core";
 
 // Convex returns translated text and market prices for the version. English text
 // keeps its storefront formatting; translations are shown as translated.
@@ -35,10 +36,12 @@ export const getShop = cache(async () => {
       name: text.name,
       description: text.description,
       uses: text.uses,
+      // Whole amounts even when the backend is older than this site.
       price: product.price && {
-        ...product.price,
+        ...wholePrice(product.price)!,
         packLabel: packLabel(messages, product.price.packLabel),
       },
+      legacyPrice: wholePrice(product.legacyPrice),
     };
   });
   const categoryText = messages.categories as Record<
@@ -88,7 +91,7 @@ export const getProduct = cache(async (slug: string) => {
       ...product,
       ...text,
       price: product.price && {
-        ...product.price,
+        ...wholePrice(product.price)!,
         packLabel: packLabel(messages, product.price.packLabel),
       },
     },

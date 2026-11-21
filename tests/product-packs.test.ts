@@ -7,7 +7,7 @@ import { basketLines, basketEnquiry } from "../lib/checkout";
 import { reviewBasket } from "../lib/pricing";
 const commerce = { currency: "INR", deliveryFeeMinor: 9900 };
 
-test("all nine honey prices increase by exactly 75%, in integer paise", () => {
+test("all nine honey prices increase by 75%, rounded up to whole rupees", () => {
   const previous = [
     [199, 399, 749],
     [179, 379, 699],
@@ -16,7 +16,7 @@ test("all nine honey prices increase by exactly 75%, in integer paise", () => {
   honeyEggProducts.slice(0, 3).forEach((product, index) => {
     assert.deepEqual(
       packOptions(product.slug, product.price)?.map((p) => p.amountMinor),
-      previous[index].map((price) => price * 175),
+      previous[index].map((price) => Math.ceil((price * 175) / 100) * 100),
     );
     assert.equal(nextPackSize(product.slug, 100, -1), 100);
     assert.equal(nextPackSize(product.slug, 100, 1), 250);
@@ -104,8 +104,9 @@ test("server uses its own price and selection; new packs are never payable", () 
     { slug: "farm-eggs", quantity: 1, packSize: 12 },
   ];
   const review = reviewBasket(lines, honeyEggProducts, commerce, "in", true);
-  assert.equal(review.subtotal, 87625);
-  assert.equal(review.total, 97525);
+  // ₹699 + ₹178 = ₹877, plus ₹99 delivery = ₹976, rounded down to ₹950.
+  assert.equal(review.subtotal, 87700);
+  assert.equal(review.total, 95000);
   assert.equal(review.items[0].packLabel, "250 ml · Glass jar");
   assert.equal(
     review.items[1].packLabel,
@@ -119,7 +120,7 @@ test("server uses its own price and selection; new packs are never payable", () 
   );
   assert.equal(
     reviewBasket(lines, changed, commerce).items[0].lineTotal,
-    139650,
+    139700,
   );
 });
 test("availability text preserves the selected size instead of saying quantity one", () => {

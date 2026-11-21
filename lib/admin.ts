@@ -26,6 +26,7 @@ export async function adminApi(
     | "stock"
     | "chat"
     | "payments"
+    | "discounts"
     | "logout"
     | "renew"
     | "chats"

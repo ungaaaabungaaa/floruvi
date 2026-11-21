@@ -33,6 +33,9 @@ export async function loadDashboard() {
     ...data,
     payments: data.payments ?? { enabled: false, keys: false, webhook: false, mode: null },
     onlineOrders: data.onlineOrders ?? [],
+    // Null until the backend with the discount settings is deployed.
+    discounts: data.discounts ?? null,
+    deliveryFeeMinor: data.deliveryFeeMinor ?? null,
     // Start of the "last 7 days" counts, taken when the request is served.
     weekAgo: Date.now() - WEEK,
   };

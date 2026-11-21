@@ -31,14 +31,17 @@ test("server quotes include taxes once, round only the selected weight and prese
     { slug: "onion-flakes", quantity: 1, weightGrams: 1500 },
   ];
   const quote = reviewBasket(lines, products, commerce, "in", true);
-  assert.equal(quote.items[0].lineTotal, 39323);
+  assert.equal(quote.items[0].lineTotal, 39400);
   assert.equal(quote.items[1].lineTotal, 197400);
   assert.equal(quote.items[1].packLabel, "1.5 kg · Bulk");
-  assert.equal(quote.total, 246623);
+  // ₹2,368 is above the free-delivery level; the total rounds down to ₹2,350.
+  assert.equal(quote.delivery, 0);
+  assert.equal(quote.discount, 1800);
+  assert.equal(quote.total, 235000);
   const banana = products[0].weightPricing!;
-  assert.equal(weightPrice(banana, 500), 78645);
-  assert.equal(weightPrice(banana, 1000), 157290);
-  assert.equal(weightPrice(banana, 25000), 3932250);
+  assert.equal(weightPrice(banana, 500), 78700);
+  assert.equal(weightPrice(banana, 1000), 157300);
+  assert.equal(weightPrice(banana, 25000), 3932300);
   assert.equal(weightPrice(banana, 26000), 3894800);
   assert.equal(
     reviewBasket([{ slug: "garlic-powder", quantity: 2 }], products, commerce)
@@ -51,7 +54,7 @@ test("server quotes include taxes once, round only the selected weight and prese
       products,
       commerce,
     ).subtotal,
-    43625,
+    43700,
   );
 });
 test("weight is preserved in storage and invalid or forged lines cannot be priced", () => {

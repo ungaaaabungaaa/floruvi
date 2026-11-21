@@ -8,6 +8,8 @@ const aliasHosts = site
 
 const config: NextConfig = {
   devIndicators: false,
+  // Lets the Next.js dev tools propose security upgrades only.
+  experimental: { agentUpgrade: "security" },
   // Do not advertise the framework in every response.
   poweredByHeader: false,
   images: {

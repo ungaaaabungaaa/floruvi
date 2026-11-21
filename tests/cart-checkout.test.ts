@@ -156,7 +156,8 @@ test("basket review rejects altered totals and fails closed without catalogue ac
   ).json();
   assert.equal(priced.items[0].packLabel, "100 g");
   assert.equal(priced.items[0].lineTotal, 28000);
-  assert.equal(priced.total, 37900);
+  // ₹280 + ₹99 delivery, rounded down to the nearest ₹50.
+  assert.equal(priced.total, 35000);
   assert.equal(priced.paymentEnabled, false);
 });
 

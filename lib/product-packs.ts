@@ -71,6 +71,7 @@ export function packOptions(
   return rule.sizes.map((size, index) => ({
     size,
     label: packSizeLabel(slug, size),
-    amountMinor: Math.round(amounts[index] / rule.basis[0]),
+    // Whole rupees only: each pack price rounds up.
+    amountMinor: Math.ceil(Math.round(amounts[index] / rule.basis[0]) / 100) * 100,
   }));
 }
